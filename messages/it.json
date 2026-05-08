@@ -70,5 +70,75 @@
   },
   "language": {
     "label": "Lingua"
+  },
+  "categoryContent": {
+    "gift-packaging": {
+      "tagline": "Scatole di presentazione premium pronte per il retail",
+      "intro": "Scatole regalo e da imballaggio in legno — opzioni con chiusura magnetica, cerniera e coperchio scorrevole, con marchio impresso."
+    },
+    "watch-jewelry": {
+      "tagline": "Pezzi di presentazione da collezione",
+      "intro": "Scatole per orologi e gioielli foderate in velluto o microfibra, con cerniere nascoste e opzioni con serratura."
+    },
+    "tea-coffee": {
+      "tagline": "Scatole con scomparti per bustine, capsule e tè sfuso",
+      "intro": "Scatole con scomparti per bustine di tè, capsule di caffè e tè sfuso — con finestrelle in acrilico e divisori opzionali."
+    },
+    "wine-whisky": {
+      "tagline": "Dalla singola bottiglia ai magnum e ai set con decanter",
+      "intro": "Scatole per una, due o tre bottiglie, magnum e set con decanter — pino, rovere, noce, paulownia."
+    },
+    "kitchen-dining": {
+      "tagline": "Portapane, saliere, posate e vassoi da portata",
+      "intro": "Portapane, saliere, scatole portaposate, organizer condimenti e vassoi da portata per cucina e sala da pranzo."
+    },
+    "garden-seed": {
+      "tagline": "Fioriere, contenitori per semi e cassette per attrezzi",
+      "intro": "Fioriere, contenitori per semi e cassette per attrezzi da giardino — scatole in legno con finitura per esterni, costruite per durare."
+    },
+    "storage": {
+      "tagline": "Organizer con cassetti, cassette e scatole impilabili",
+      "intro": "Organizer con cassetti, cassette per stoccaggio e scatole impilabili — sistemi modulari di organizzazione in legno."
+    },
+    "hinged": {
+      "tagline": "Costruzione con cerniere in ottone e acciaio",
+      "intro": "Scatole con cerniere in ottone o acciaio, fermagli e serrature opzionali — progettate per l'apertura quotidiana."
+    },
+    "sliding-lid": {
+      "tagline": "Costruzione classica con coperchio scorrevole",
+      "intro": "Costruzione classica con coperchio scorrevole — ideale per regali, hobby e imballaggi pronti per il retail."
+    },
+    "drawer": {
+      "tagline": "Cassetti multi-livello e organizer estraibili",
+      "intro": "Mobiletti con cassetti multi-livello e scatole organizer estraibili — costruzione in legno massello e compensato."
+    },
+    "magnetic": {
+      "tagline": "Chiusura magnetica nascosta — look pulito, sensazione premium",
+      "intro": "Chiusura magnetica nascosta — esterno pulito con uno scatto di chiusura premium e soddisfacente."
+    },
+    "with-lock": {
+      "tagline": "Scatole con chiave o serratura a combinazione",
+      "intro": "Scatole in legno con serratura — chiave in ottone, combinazione o serratura a camma nascosta."
+    },
+    "paulownia": {
+      "tagline": "Leggero, dimensionalmente stabile, facile da incidere",
+      "intro": "Paulownia leggera e dimensionalmente stabile — ottima per ridurre i costi di spedizione e per l'incisione laser."
+    },
+    "pine": {
+      "tagline": "Legno tenero economico con venatura pulita",
+      "intro": "Legno tenero economico con venatura pulita — facile da dipingere e tingere, perfetto per stili rustici e farmhouse."
+    },
+    "bamboo": {
+      "tagline": "Sostenibile, duro, look moderno",
+      "intro": "Sostenibile, duro e moderno — il bambù cresce rapidamente, viene raccolto in modo sostenibile ed è bellissimo."
+    },
+    "acacia": {
+      "tagline": "Venatura ricca, duro e resistente",
+      "intro": "Acacia con venatura ricca, dura e resistente — scatole premium per cucina, sala da pranzo e regali, con carattere."
+    },
+    "walnut": {
+      "tagline": "Legno duro color cioccolato per regali di alta gamma",
+      "intro": "Legno duro color cioccolato — scatole premium per la presentazione di orologi, gioielli e regali."
+    }
   }
 }

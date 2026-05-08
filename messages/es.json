@@ -70,5 +70,75 @@
   },
   "language": {
     "label": "Idioma"
+  },
+  "categoryContent": {
+    "gift-packaging": {
+      "tagline": "Cajas de presentación premium listas para retail",
+      "intro": "Cajas de regalo y embalaje de madera — opciones con cierre magnético, tapa con bisagra y tapa corredera, con marca grabada."
+    },
+    "watch-jewelry": {
+      "tagline": "Piezas de presentación de calidad heredable",
+      "intro": "Cajas para relojes y joyería forradas en terciopelo o microfibra, con bisagras ocultas y opciones con cerradura."
+    },
+    "tea-coffee": {
+      "tagline": "Cajas con compartimentos para bolsas, cápsulas y té a granel",
+      "intro": "Cajas con compartimentos para bolsas de té, cápsulas de café y té a granel — con ventanas de acrílico y divisores opcionales."
+    },
+    "wine-whisky": {
+      "tagline": "Desde una sola botella hasta magnum y juegos con decantador",
+      "intro": "Cajas para una, dos o tres botellas, magnum y juegos con decantador — pino, roble, nogal, paulownia."
+    },
+    "kitchen-dining": {
+      "tagline": "Paneras, saleros, cubiertos y cajas para servir",
+      "intro": "Paneras, saleros, cajas para cubiertos, organizadores de condimentos y bandejas para cocina y comedor."
+    },
+    "garden-seed": {
+      "tagline": "Maceteros, almacenamiento de semillas y cajas para herramientas",
+      "intro": "Maceteros, almacenamiento de semillas y cajas para herramientas — cajas de madera con acabado para exterior, hechas para durar."
+    },
+    "storage": {
+      "tagline": "Organizadores con cajones, cajas y cajas apilables",
+      "intro": "Organizadores con cajones, cajas de almacenaje y cajas apilables — sistemas modulares de organización en madera."
+    },
+    "hinged": {
+      "tagline": "Construcción con bisagra de latón y acero",
+      "intro": "Cajas con bisagras de latón o acero, broches y cerraduras opcionales — diseñadas para uso diario."
+    },
+    "sliding-lid": {
+      "tagline": "Construcción clásica de tapa corredera",
+      "intro": "Construcción clásica de tapa corredera — ideal para regalos, manualidades y embalaje listo para retail."
+    },
+    "drawer": {
+      "tagline": "Cajones de varios niveles y organizadores extraíbles",
+      "intro": "Muebles con cajones de varios niveles y organizadores extraíbles — construcción en madera maciza y contrachapado."
+    },
+    "magnetic": {
+      "tagline": "Cierre magnético oculto — aspecto limpio, sensación premium",
+      "intro": "Cierre magnético oculto — exterior limpio con un cierre premium y satisfactorio."
+    },
+    "with-lock": {
+      "tagline": "Cajas con llave o cerradura de combinación",
+      "intro": "Cajas de madera con cerradura — llave de latón, cerradura de combinación o cerradura de leva oculta."
+    },
+    "paulownia": {
+      "tagline": "Ligero, dimensionalmente estable, fácil de grabar",
+      "intro": "Paulownia ligera y dimensionalmente estable — ideal para ahorrar en envíos y para grabado láser."
+    },
+    "pine": {
+      "tagline": "Madera blanda asequible con grano limpio",
+      "intro": "Madera blanda asequible de grano limpio — fácil de pintar y teñir, perfecta para estilos rústicos y farmhouse."
+    },
+    "bamboo": {
+      "tagline": "Sostenible, duro, aspecto moderno",
+      "intro": "Sostenible, duro y moderno — el bambú crece rápido, se cosecha de forma sostenible y luce hermoso."
+    },
+    "acacia": {
+      "tagline": "Veta rica, duro y duradero",
+      "intro": "Acacia de veta rica, dura y duradera — cajas premium para cocina, comedor y regalo con carácter."
+    },
+    "walnut": {
+      "tagline": "Madera dura color chocolate para regalos de alta gama",
+      "intro": "Madera dura color chocolate — cajas premium para presentación de relojes, joyería y regalos."
+    }
   }
 }

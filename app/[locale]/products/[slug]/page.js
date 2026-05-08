@@ -22,7 +22,7 @@ import { PRODUCTS as PINE_PRODUCTS } from '@/data/products/pine';
 import { PRODUCTS as BAMBOO_PRODUCTS } from '@/data/products/bamboo';
 import { PRODUCTS as ACACIA_PRODUCTS } from '@/data/products/acacia';
 import { PRODUCTS as WALNUT_PRODUCTS } from '@/data/products/walnut';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 
 // Map of category slug → its products data file (only categories with products).
 // Add an entry here when you add a /data/products/<slug>.js file.
@@ -51,25 +51,33 @@ export function generateStaticParams() {
   return SLUGS.map((slug) => ({ slug }));
 }
 
-export function generateMetadata({ params }) {
+export async function generateMetadata({ params }) {
   const item = CATEGORIES[params.slug];
   if (!item) return { title: 'Product — CHIC' };
   const localePath = `/products/${params.slug}`;
   const fullPath = `/${params.locale}${localePath}`;
+
+  // Pull localized intro for description (Google indexes meta description per locale).
+  let description = item.intro;
+  try {
+    const tc = await getTranslations({ locale: params.locale, namespace: 'categoryContent' });
+    description = tc(`${params.slug}.intro`) || description;
+  } catch (e) {}
+
   return {
     title: `${item.name} — CHIC Wooden Expert`,
-    description: item.intro,
+    description,
     alternates: makeAlternates(params.locale, localePath),
     openGraph: {
       url: fullPath,
       title: `${item.name} — CHIC Wooden Expert`,
-      description: item.intro,
+      description,
       images: item.hero ? [{ url: item.hero, alt: item.name }] : undefined,
     },
     twitter: {
       card: 'summary_large_image',
       title: `${item.name} — CHIC Wooden Expert`,
-      description: item.intro,
+      description,
       images: item.hero ? [item.hero] : undefined,
     },
   };
@@ -335,10 +343,22 @@ const CSS = `
 const isProductImage = (src) =>
   src.endsWith('.png') || src.includes('bamboo') || src.includes('walnut%20jewelery');
 
-export default function CategoryPage({ params }) {
+export default async function CategoryPage({ params }) {
   unstable_setRequestLocale(params.locale);
   const item = CATEGORIES[params.slug];
   if (!item) notFound();
+
+  // Pull translated category tagline + intro. Falls back to the data file's
+  // English values if the messages JSON is missing the key for this locale.
+  let translatedTagline = item.tagline;
+  let translatedIntro = item.intro;
+  try {
+    const tc = await getTranslations({ locale: params.locale, namespace: 'categoryContent' });
+    translatedTagline = tc(`${params.slug}.tagline`) || translatedTagline;
+    translatedIntro = tc(`${params.slug}.intro`) || translatedIntro;
+  } catch (e) {
+    // No translation available — use English data file values.
+  }
 
   const galleryImages = item.images.slice(0, 5);
   const products = PRODUCTS_BY_CATEGORY[params.slug];
@@ -385,8 +405,11 @@ export default function CategoryPage({ params }) {
             {item.name}
           </div>
           <h1 className="cat-h1">{item.name}</h1>
-          <div className="cat-tagline">{item.tagline}</div>
-          <p className="cat-intro">{item.longDesc}</p>
+          <div className="cat-tagline">{translatedTagline}</div>
+          {/* Hero paragraph: rich English longDesc for EN, translated intro elsewhere */}
+          <p className="cat-intro">
+            {params.locale === 'en' ? item.longDesc : translatedIntro}
+          </p>
           <div className="cat-hero-btns">
             <Link href="/contact" className="cat-btn-primary">Request a Quote</Link>
             <Link href="/products" className="cat-btn-outline">Browse All Boxes</Link>

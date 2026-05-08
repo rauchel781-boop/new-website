@@ -70,5 +70,75 @@
   },
   "language": {
     "label": "Idioma"
+  },
+  "categoryContent": {
+    "gift-packaging": {
+      "tagline": "Caixas de apresentação premium prontas para o retalho",
+      "intro": "Caixas de presente e embalagem em madeira — opções com fecho magnético, dobradiça e tampa deslizante, com gravação em relevo."
+    },
+    "watch-jewelry": {
+      "tagline": "Peças de apresentação de qualidade hereditária",
+      "intro": "Caixas para relógios e joias forradas a veludo ou microfibra, com dobradiças ocultas e opções com fechadura."
+    },
+    "tea-coffee": {
+      "tagline": "Caixas com compartimentos para saquetas, cápsulas e chá a granel",
+      "intro": "Caixas com compartimentos para saquetas de chá, cápsulas de café e chá a granel — com janelas em acrílico e divisórias opcionais."
+    },
+    "wine-whisky": {
+      "tagline": "Da garrafa única ao magnum e conjuntos com decanter",
+      "intro": "Caixas para uma, duas ou três garrafas, magnum e conjuntos com decanter — pinho, carvalho, nogueira, paulownia."
+    },
+    "kitchen-dining": {
+      "tagline": "Pão, sal, talheres e caixas de servir",
+      "intro": "Caixas de pão, saleiros, caixas de talheres, organizadores de condimentos e tabuleiros para cozinha e sala de jantar."
+    },
+    "garden-seed": {
+      "tagline": "Vasos, armazenamento de sementes e caixas para ferramentas",
+      "intro": "Vasos, armazenamento de sementes e caixas para ferramentas de jardim — caixas de madeira com acabamento exterior, feitas para durar."
+    },
+    "storage": {
+      "tagline": "Organizadores com gavetas, caixas e caixas empilháveis",
+      "intro": "Organizadores com gavetas, caixas de armazenamento e caixas empilháveis — sistemas modulares de organização em madeira."
+    },
+    "hinged": {
+      "tagline": "Construção com dobradiças de latão e aço",
+      "intro": "Caixas com dobradiças de latão ou aço, fechos e fechaduras opcionais — projetadas para uso diário."
+    },
+    "sliding-lid": {
+      "tagline": "Construção clássica com tampa deslizante",
+      "intro": "Construção clássica com tampa deslizante — ideal para presentes, artesanato e embalagens prontas para o retalho."
+    },
+    "drawer": {
+      "tagline": "Gavetas em vários níveis e organizadores deslizantes",
+      "intro": "Móveis com gavetas em vários níveis e caixas organizadoras deslizantes — madeira maciça e contraplacado."
+    },
+    "magnetic": {
+      "tagline": "Fecho magnético oculto — visual limpo, sensação premium",
+      "intro": "Fecho magnético oculto — exterior limpo com um fecho premium e satisfatório."
+    },
+    "with-lock": {
+      "tagline": "Caixas com chave ou fechadura de combinação",
+      "intro": "Caixas de madeira com fechadura — chave em latão, combinação ou fechadura de came oculta."
+    },
+    "paulownia": {
+      "tagline": "Leve, dimensionalmente estável, fácil de gravar",
+      "intro": "Paulownia leve e dimensionalmente estável — ideal para poupar nos portes e para gravação a laser."
+    },
+    "pine": {
+      "tagline": "Madeira macia acessível com grão limpo",
+      "intro": "Madeira macia acessível com grão limpo — fácil de pintar e tingir, perfeita para estilos rústicos e farmhouse."
+    },
+    "bamboo": {
+      "tagline": "Sustentável, duro, visual moderno",
+      "intro": "Sustentável, duro e moderno — o bambu cresce rapidamente, é colhido de forma sustentável e é lindo."
+    },
+    "acacia": {
+      "tagline": "Grão rico, duro e durável",
+      "intro": "Acácia com grão rico, dura e durável — caixas premium para cozinha, sala de jantar e presentes, com carácter."
+    },
+    "walnut": {
+      "tagline": "Madeira dura cor de chocolate para presentes premium",
+      "intro": "Madeira dura cor de chocolate — caixas premium para apresentação de relógios, joias e presentes."
+    }
   }
 }

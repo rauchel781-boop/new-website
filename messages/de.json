@@ -70,5 +70,75 @@
   },
   "language": {
     "label": "Sprache"
+  },
+  "categoryContent": {
+    "gift-packaging": {
+      "tagline": "Premium-Präsentationsboxen, retail-ready",
+      "intro": "Holzboxen für Geschenke und Produktverpackungen — Magnetverschluss, Scharnierdeckel oder Schiebedeckel, mit geprägtem Branding."
+    },
+    "watch-jewelry": {
+      "tagline": "Erbstückwürdige Präsentationsstücke",
+      "intro": "Mit Samt oder Mikrofaser ausgekleidete Boxen für Uhren und Schmuck, mit verdeckten Scharnieren und abschließbaren Optionen."
+    },
+    "tea-coffee": {
+      "tagline": "Boxen mit Fächern für Teebeutel, Pads und losen Tee",
+      "intro": "Boxen mit Fächern für Teebeutel, Kaffeepads und losen Tee — mit optionalen Acrylfenstern und Trennstegen."
+    },
+    "wine-whisky": {
+      "tagline": "Von Einzelflasche bis Magnum und Karaffen-Sets",
+      "intro": "Boxen für 1, 2, 3 Flaschen, Magnum und Karaffen-Sets — Kiefer, Eiche, Nussbaum, Paulownia."
+    },
+    "kitchen-dining": {
+      "tagline": "Brotkästen, Salzdosen, Besteck- und Servierboxen",
+      "intro": "Brotkästen, Salzdosen, Besteckboxen, Gewürzkörbe und Serviertabletts für Küche und Esszimmer."
+    },
+    "garden-seed": {
+      "tagline": "Pflanzgefäße, Saatgutaufbewahrung und Gartengeräte-Kisten",
+      "intro": "Pflanzgefäße, Saatgutaufbewahrung und Gartengeräte-Kisten — Holzboxen mit Außenfinish, gebaut für Langlebigkeit."
+    },
+    "storage": {
+      "tagline": "Schubladenorganizer, Kisten und stapelbare Boxen",
+      "intro": "Schubladenorganizer, Aufbewahrungskisten und stapelbare Boxen — modulare Holzorganisationssysteme."
+    },
+    "hinged": {
+      "tagline": "Konstruktion mit Messing- und Stahlscharnieren",
+      "intro": "Boxen mit Messing- oder Stahlscharnieren, optional mit Verschlüssen und Schlössern — für tägliches Öffnen gebaut."
+    },
+    "sliding-lid": {
+      "tagline": "Klassische Schiebedeckel-Konstruktion",
+      "intro": "Klassische Schiebedeckel-Konstruktion — ideal für Geschenke, Bastelarbeiten und einzelhandelsfertige Verpackung."
+    },
+    "drawer": {
+      "tagline": "Mehrstufige Schubladen und Auszugsorganizer",
+      "intro": "Mehrstufige Schubladenmöbel und Auszugsorganizer — aus Massivholz und Sperrholz."
+    },
+    "magnetic": {
+      "tagline": "Versteckter Magnetverschluss — klares Aussehen, Premium-Gefühl",
+      "intro": "Versteckter Magnetverschluss — klares Außenbild mit einem hochwertigen, satten Schließgeräusch."
+    },
+    "with-lock": {
+      "tagline": "Abschließbare Boxen mit Schlüssel oder Zahlencode",
+      "intro": "Abschließbare Holzboxen mit Messing-Schlüsselschloss, Zahlencode-Schloss oder verstecktem Stangenschloss."
+    },
+    "paulownia": {
+      "tagline": "Leicht, formstabil, leicht zu gravieren",
+      "intro": "Leichtes, formstabiles Paulownia — ideal für niedrige Frachtkosten und Lasergravur."
+    },
+    "pine": {
+      "tagline": "Erschwingliches Weichholz mit klarer Maserung",
+      "intro": "Erschwingliches Weichholz mit klarer Maserung — leicht zu lackieren und beizen, perfekt für rustikale und Farmhouse-Looks."
+    },
+    "bamboo": {
+      "tagline": "Nachhaltig, hart, modern",
+      "intro": "Nachhaltig, hart und modern — Bambus wächst schnell, wird nachhaltig geerntet und sieht großartig aus."
+    },
+    "acacia": {
+      "tagline": "Reiche Maserung, hart und langlebig",
+      "intro": "Akazie mit reicher Maserung, hart und langlebig — Premium-Boxen für Küche, Esszimmer und Geschenke mit Charakter."
+    },
+    "walnut": {
+      "tagline": "Schokoladenbraunes Hartholz für High-End-Geschenke",
+      "intro": "Schokoladenbraunes Hartholz — Premium-Boxen für die Präsentation von Uhren, Schmuck und Geschenken."
+    }
   }
 }

@@ -70,5 +70,75 @@
   },
   "language": {
     "label": "Language"
+  },
+  "categoryContent": {
+    "gift-packaging": {
+      "tagline": "Premium retail-ready presentation boxes",
+      "intro": "Wooden gift and product packaging boxes — magnetic closure, hinged lid, and sliding-lid options with debossed branding."
+    },
+    "watch-jewelry": {
+      "tagline": "Heirloom-grade presentation pieces",
+      "intro": "Velvet/microfiber-lined watch and jewelry presentation boxes with concealed hinges and lockable options."
+    },
+    "tea-coffee": {
+      "tagline": "Compartment boxes for tea bags, pods, and loose leaf",
+      "intro": "Compartmented boxes for tea bags, coffee pods, and loose leaf — with optional acrylic windows and dividers."
+    },
+    "wine-whisky": {
+      "tagline": "Single-bottle to magnum and decanter sets",
+      "intro": "Single-bottle, double-bottle, magnum, and decanter-set boxes — pine, oak, walnut, paulownia."
+    },
+    "kitchen-dining": {
+      "tagline": "Bread bins, salt cellars, cutlery and serving caddies",
+      "intro": "Bread bins, salt cellars, cutlery boxes, condiment caddies, and serving trays for kitchen and dining."
+    },
+    "garden-seed": {
+      "tagline": "Planters, seed storage, and garden tool crates",
+      "intro": "Planters, seed storage, and garden tool crates — outdoor-finish wooden boxes built to last."
+    },
+    "storage": {
+      "tagline": "Drawer organizers, crates, and stackable boxes",
+      "intro": "Drawer organizers, storage crates, and stackable boxes — modular wooden organizer systems."
+    },
+    "hinged": {
+      "tagline": "Brass and steel hinge construction",
+      "intro": "Boxes with brass or steel hinges, optional clasps and locks — built for daily opening."
+    },
+    "sliding-lid": {
+      "tagline": "Classic groove-and-lid construction",
+      "intro": "Classic sliding-lid construction — ideal for gifts, crafts, and retail-ready packaging."
+    },
+    "drawer": {
+      "tagline": "Multi-tier drawers and pull-out organizers",
+      "intro": "Multi-tier drawer cabinets and pull-out organizer boxes — solid wood and ply construction."
+    },
+    "magnetic": {
+      "tagline": "Hidden magnetic closure — clean look, premium feel",
+      "intro": "Hidden magnetic closure — clean exterior look with a satisfying premium snap."
+    },
+    "with-lock": {
+      "tagline": "Lockable boxes with key or combination",
+      "intro": "Lockable wooden boxes with brass key lock, combination lock, or hidden cam lock."
+    },
+    "paulownia": {
+      "tagline": "Lightweight, dimensionally stable, easy to engrave",
+      "intro": "Lightweight, dimensionally stable paulownia — great for shipping economy and laser engraving."
+    },
+    "pine": {
+      "tagline": "Affordable softwood with clean grain",
+      "intro": "Affordable softwood with clean grain — easy to paint and stain, perfect for rustic and farmhouse looks."
+    },
+    "bamboo": {
+      "tagline": "Sustainable, hard, modern look",
+      "intro": "Sustainable, hard, and modern — bamboo grows fast, harvests sustainably, and looks beautiful."
+    },
+    "acacia": {
+      "tagline": "Rich grain, hard and durable",
+      "intro": "Rich grain, hard and durable acacia — premium kitchen, dining, and gift boxes with character."
+    },
+    "walnut": {
+      "tagline": "Chocolate-brown hardwood for high-end gifts",
+      "intro": "Chocolate-brown hardwood — high-end watch, jewelry, and gift presentation boxes."
+    }
   }
 }

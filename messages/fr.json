@@ -70,5 +70,75 @@
   },
   "language": {
     "label": "Langue"
+  },
+  "categoryContent": {
+    "gift-packaging": {
+      "tagline": "Boîtes de présentation premium prêtes pour la vente au détail",
+      "intro": "Boîtes en bois pour cadeaux et emballages — options à fermeture magnétique, à charnière et à couvercle coulissant, avec marquage en relief."
+    },
+    "watch-jewelry": {
+      "tagline": "Pièces de présentation dignes d'un héritage",
+      "intro": "Boîtes pour montres et bijoux doublées de velours ou microfibre, avec charnières dissimulées et options verrouillables."
+    },
+    "tea-coffee": {
+      "tagline": "Boîtes compartimentées pour sachets, dosettes et thé en vrac",
+      "intro": "Boîtes compartimentées pour sachets de thé, dosettes de café et thé en vrac — avec fenêtres en acrylique et séparateurs en option."
+    },
+    "wine-whisky": {
+      "tagline": "De la bouteille unique au magnum et coffrets avec carafe",
+      "intro": "Boîtes pour une, deux ou trois bouteilles, magnum et coffrets avec carafe — pin, chêne, noyer, paulownia."
+    },
+    "kitchen-dining": {
+      "tagline": "Boîtes à pain, salières, range-couverts et plateaux de service",
+      "intro": "Boîtes à pain, salières, range-couverts, plateaux à condiments et plateaux de service pour la cuisine et la salle à manger."
+    },
+    "garden-seed": {
+      "tagline": "Jardinières, rangement de graines et caisses à outils",
+      "intro": "Jardinières, rangement de graines et caisses à outils de jardin — boîtes en bois avec finition extérieure conçues pour durer."
+    },
+    "storage": {
+      "tagline": "Organisateurs à tiroirs, caisses et boîtes empilables",
+      "intro": "Organisateurs à tiroirs, caisses de rangement et boîtes empilables — systèmes modulaires de rangement en bois."
+    },
+    "hinged": {
+      "tagline": "Construction avec charnières en laiton ou acier",
+      "intro": "Boîtes avec charnières en laiton ou acier, fermoirs et serrures en option — conçues pour une ouverture quotidienne."
+    },
+    "sliding-lid": {
+      "tagline": "Construction classique à couvercle coulissant",
+      "intro": "Construction classique à couvercle coulissant — idéale pour les cadeaux, l'artisanat et l'emballage prêt pour la vente."
+    },
+    "drawer": {
+      "tagline": "Tiroirs multi-niveaux et organisateurs coulissants",
+      "intro": "Meubles à tiroirs multi-niveaux et boîtes organisatrices coulissantes — bois massif et contreplaqué."
+    },
+    "magnetic": {
+      "tagline": "Fermeture magnétique cachée — look épuré, ressenti premium",
+      "intro": "Fermeture magnétique cachée — extérieur épuré avec un claquement de fermeture premium et satisfaisant."
+    },
+    "with-lock": {
+      "tagline": "Boîtes verrouillables à clé ou à combinaison",
+      "intro": "Boîtes en bois verrouillables avec serrure à clé en laiton, serrure à combinaison ou serrure à came dissimulée."
+    },
+    "paulownia": {
+      "tagline": "Léger, dimensionnellement stable, facile à graver",
+      "intro": "Paulownia léger et dimensionnellement stable — idéal pour économiser sur le fret et pour la gravure laser."
+    },
+    "pine": {
+      "tagline": "Bois résineux abordable au grain net",
+      "intro": "Bois résineux abordable au grain net — facile à peindre et teinter, parfait pour les styles rustiques et farmhouse."
+    },
+    "bamboo": {
+      "tagline": "Durable, dur, look moderne",
+      "intro": "Durable, dur et moderne — le bambou pousse vite, se récolte durablement et est magnifique."
+    },
+    "acacia": {
+      "tagline": "Grain riche, dur et durable",
+      "intro": "Acacia au grain riche, dur et durable — boîtes premium pour cuisine, salle à manger et cadeaux, avec du caractère."
+    },
+    "walnut": {
+      "tagline": "Bois dur couleur chocolat pour cadeaux haut de gamme",
+      "intro": "Bois dur couleur chocolat — boîtes premium pour la présentation de montres, bijoux et cadeaux."
+    }
   }
 }

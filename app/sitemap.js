@@ -55,19 +55,31 @@ function languageMap(localizedPath) {
   return m;
 }
 
+// Resolve a relative image path to an absolute URL prefixed with the site origin.
+function absUrl(path) {
+  if (!path) return null;
+  if (path.startsWith('http://') || path.startsWith('https://')) return path;
+  return `${SITE.siteUrl}${path.startsWith('/') ? '' : '/'}${path}`;
+}
+
 // Push one entry per locale, all sharing the same alternates.languages map.
 // This is how Next.js's MetadataRoute.Sitemap renders <xhtml:link rel="alternate"...>
-// per Google's sitemap-with-hreflang spec.
+// per Google's sitemap-with-hreflang spec. When `images` is supplied each entry
+// gets <image:image><image:loc>...</image:loc></image:image> per Google image
+// sitemap spec — helps Google Image Search discover product photos.
 function pushLocalized(entries, localizedPath, opts = {}) {
   const langs = languageMap(localizedPath);
+  const images = (opts.images || []).map(absUrl).filter(Boolean);
   for (const loc of routing.locales) {
-    entries.push({
+    const entry = {
       url: `${SITE.siteUrl}/${loc}${localizedPath}`,
       lastModified: opts.lastModified || today,
       changeFrequency: opts.changeFrequency || 'monthly',
       priority: opts.priority ?? 0.7,
       alternates: { languages: langs },
-    });
+    };
+    if (images.length) entry.images = images;
+    entries.push(entry);
   }
 }
 
@@ -90,25 +102,30 @@ export default function sitemap() {
 
   // ── Category landing pages (localized) ──────────────────────────────
   for (const slug of SLUGS) {
+    const cat = CATEGORIES[slug];
+    // Surface hero + gallery as image sitemap entries
+    const catImages = cat ? [cat.hero, ...(cat.images || [])].filter(Boolean) : [];
     pushLocalized(entries, `/products/${slug}`, {
       changeFrequency: 'weekly',
       priority: 0.8,
+      images: catImages.slice(0, 5),
     });
   }
 
   // ── Individual product pages (localized) ────────────────────────────
   for (const [categorySlug, products] of Object.entries(PRODUCTS_BY_CATEGORY)) {
     if (!products) continue;
-    for (const productSlug of Object.keys(products)) {
+    for (const [productSlug, product] of Object.entries(products)) {
+      const productImages = (product.images || []).slice(0, 8);
       pushLocalized(entries, `/products/${categorySlug}/${productSlug}`, {
         changeFrequency: 'monthly',
         priority: 0.7,
+        images: productImages,
       });
     }
   }
 
   // ── Blog (English-only at /en/blog/...) ─────────────────────────────
-  // Listed once in the default locale; we don't claim Spanish/French versions.
   entries.push({
     url: `${SITE.siteUrl}/${routing.defaultLocale}/blog`,
     lastModified: today,
@@ -116,12 +133,14 @@ export default function sitemap() {
     priority: 0.7,
   });
   for (const post of POSTS) {
-    entries.push({
+    const entry = {
       url: `${SITE.siteUrl}/${routing.defaultLocale}/blog/${post.slug}`,
       lastModified: post.date ? new Date(post.date) : today,
       changeFrequency: 'monthly',
       priority: 0.6,
-    });
+    };
+    if (post.hero) entry.images = [absUrl(post.hero)];
+    entries.push(entry);
   }
 
   return entries;
