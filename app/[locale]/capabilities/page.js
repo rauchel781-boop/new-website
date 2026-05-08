@@ -36,3 +36,10 @@ export default function CapabilitiesPage({ params: { locale } }) {
         ].map((c) => (
           <div key={c.t} className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-black/5">
             <h3 className="font-bold text-brand-navy">{c.t}</h3>
+            <p className="mt-2 text-brand-ink/80">{c.d}</p>
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+}

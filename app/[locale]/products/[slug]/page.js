@@ -503,4 +503,13 @@ export default function CategoryPage({ params }) {
                     <div className="cat-related-eyebrow">{rel.group}</div>
                     <div className="cat-related-name">{rel.name}</div>
                     <div className="cat-related-arrow">→ View</div>
- 
+                  </Link>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+      )}
+    </div>
+  );
+}

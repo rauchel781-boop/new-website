@@ -1141,7 +1141,18 @@ export default function AboutPage({ params: { locale } }) {
             requirements. We respond within 24 hours.
           </p>
           <div className="about-cta-btns">
-            <a href="https://wa.me/8618960098762" className="about-btn-primary">
+            <a href="https://wa.me/8618960098762" className="about-btn-primary" target="_blank" rel="noopener noreferrer">
               💬 WhatsApp / WeChat
             </a>
-            <a href="tel:+8618960098762" className="about-btn-o
+            <a href="tel:+8618960098762" className="about-btn-outline">
+              📞 +86 189 6009 8762
+            </a>
+            <a href="mailto:info@xmchichomeware.com" className="about-btn-outline">
+              ✉ info@xmchichomeware.com
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

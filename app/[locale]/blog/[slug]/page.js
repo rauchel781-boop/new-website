@@ -470,4 +470,14 @@ export default function BlogPost({ params }) {
                     <div className="rel-meta">
                       {rp.category} · {rp.readTime}
                     </div>
-                    <h3 className="rel-name">{r
+                    <h3 className="rel-name">{rp.title}</h3>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+    </article>
+  );
+}

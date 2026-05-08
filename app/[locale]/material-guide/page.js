@@ -1383,4 +1383,10 @@ export default function MaterialGuidePage({ params: { locale } }) {
           </p>
           <div className="mg-cta-btns">
             <Link href="/contact" className="mg-btn-pri">Request a Quote</Link>
-            <Link hre
+            <Link href="/products" className="mg-btn-out">Browse the Catalog</Link>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}

@@ -552,4 +552,13 @@ export default function ProductDetail({ params }) {
                   <div className="pdp-rel-info">
                     <div className="pdp-rel-name">{rp.name}</div>
                     <div className="pdp-rel-tagline">{rp.tagline}</div>
-     
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+    </div>
+  );
+}

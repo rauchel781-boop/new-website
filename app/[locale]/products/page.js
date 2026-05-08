@@ -201,4 +201,13 @@ export default function ProductsPage({ params: { locale } }) {
                       <p className="prods-card-desc">{c.intro}</p>
                       <div className="prods-card-arrow">Explore →</div>
                     </Link>
-               
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    </div>
+  );
+}

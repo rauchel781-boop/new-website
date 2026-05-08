@@ -563,4 +563,13 @@ export default function BlogPage({ params: { locale } }) {
               <h3 className="news-title">Get new articles delivered to your inbox</h3>
               <p className="news-sub">
                 Every two weeks. No fluff, no spam — just real notes from the workshop floor.
-                Join 1,200+ buyers, brands and import
+                Join 1,200+ buyers, brands and importers worldwide.
+              </p>
+            </div>
+            <NewsletterForm />
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
