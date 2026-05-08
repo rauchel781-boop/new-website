@@ -23,6 +23,7 @@ import ProductTabs from '@/components/ProductTabs';
 import JsonLd from '@/components/JsonLd';
 import { SITE } from '@/data/site-config';
 import { alternates as makeAlternates } from '@/i18n/seo';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 // Map category slug → its products data. Mirror of the same map in the
 // category landing page. Add new categories here as more product files exist.
@@ -378,6 +379,7 @@ const CSS = `
 `;
 
 export default function ProductDetail({ params }) {
+  unstable_setRequestLocale(params.locale);
   const category = CATEGORIES[params.slug];
   const products = PRODUCTS_BY_CATEGORY[params.slug];
   const product = products?.[params.product];
@@ -550,13 +552,4 @@ export default function ProductDetail({ params }) {
                   <div className="pdp-rel-info">
                     <div className="pdp-rel-name">{rp.name}</div>
                     <div className="pdp-rel-tagline">{rp.tagline}</div>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-    </div>
-  );
-}
+     

@@ -1,6 +1,7 @@
 // About — Xiamen Chic Homeware Co.,Ltd.
 // Visual system mirrors app/page.js (WOOD palette + Playfair Display + Jost).
 import { alternates } from '@/i18n/seo';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params: { locale } }) {
   return {
@@ -730,7 +731,8 @@ const CSS = `
 }
 `;
 
-export default function AboutPage() {
+export default function AboutPage({ params: { locale } }) {
+  unstable_setRequestLocale(locale);
   return (
     <div className="about">
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
@@ -1142,12 +1144,4 @@ export default function AboutPage() {
             <a href="https://wa.me/8618960098762" className="about-btn-primary">
               💬 WhatsApp / WeChat
             </a>
-            <a href="tel:+8618960098762" className="about-btn-outline">
-              📞 +86 189 6009 8762
-            </a>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-}
+            <a href="tel:+8618960098762" className="about-btn-o

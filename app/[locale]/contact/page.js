@@ -2,6 +2,7 @@
 // existing client-side contact UI from ContactClient.jsx.
 import ContactClient from './ContactClient';
 import { alternates } from '@/i18n/seo';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params: { locale } }) {
   return {
@@ -18,6 +19,7 @@ export async function generateMetadata({ params: { locale } }) {
   };
 }
 
-export default function ContactPage() {
+export default function ContactPage({ params: { locale } }) {
+  unstable_setRequestLocale(locale);
   return <ContactClient />;
 }

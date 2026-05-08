@@ -1,6 +1,7 @@
 import { Link } from '@/i18n/navigation';
 import { CATEGORIES, GROUPS } from '@/data/categories';
 import { alternates } from '@/i18n/seo';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params: { locale } }) {
   return {
@@ -152,7 +153,8 @@ const CSS = `
 }
 `;
 
-export default function ProductsPage() {
+export default function ProductsPage({ params: { locale } }) {
+  unstable_setRequestLocale(locale);
   return (
     <div className="prods">
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
@@ -199,13 +201,4 @@ export default function ProductsPage() {
                       <p className="prods-card-desc">{c.intro}</p>
                       <div className="prods-card-arrow">Explore →</div>
                     </Link>
-                  );
-                })}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-    </div>
-  );
-}
+               

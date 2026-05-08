@@ -1,4 +1,5 @@
 import { alternates } from '@/i18n/seo';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params: { locale } }) {
   return {
@@ -15,7 +16,8 @@ export async function generateMetadata({ params: { locale } }) {
   };
 }
 
-export default function CapabilitiesPage() {
+export default function CapabilitiesPage({ params: { locale } }) {
+  unstable_setRequestLocale(locale);
   return (
     <section className="container section-pad">
       <h1 className="text-4xl font-extrabold text-brand-navy">Our Capabilities</h1>
@@ -34,10 +36,3 @@ export default function CapabilitiesPage() {
         ].map((c) => (
           <div key={c.t} className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-black/5">
             <h3 className="font-bold text-brand-navy">{c.t}</h3>
-            <p className="mt-2 text-sm text-brand-mute">{c.d}</p>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-}

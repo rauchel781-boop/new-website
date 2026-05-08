@@ -2,6 +2,7 @@ import { Link } from '@/i18n/navigation';
 import { POSTS, CATEGORIES } from '@/data/blog';
 import NewsletterForm from '@/components/NewsletterForm';
 import { routing } from '@/i18n/routing';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 // Blog is English-only — every locale's blog URL canonicalises to /en/blog
 // so Google indexes one canonical per article (no duplicate-content penalty).
@@ -425,7 +426,8 @@ function spanFor(idx, total) {
   return 'span-2';
 }
 
-export default function BlogPage() {
+export default function BlogPage({ params: { locale } }) {
+  unstable_setRequestLocale(locale);
   // Sort newest first
   const sorted = [...POSTS].sort((a, b) => new Date(b.date) - new Date(a.date));
   const featured = sorted[0];
@@ -561,18 +563,4 @@ export default function BlogPage() {
               <h3 className="news-title">Get new articles delivered to your inbox</h3>
               <p className="news-sub">
                 Every two weeks. No fluff, no spam — just real notes from the workshop floor.
-                Join 1,200+ buyers, brands and importers already subscribed.
-              </p>
-            </div>
-            <NewsletterForm
-              source="Blog page"
-              buttonLabel="Subscribe to Journal →"
-              showFine
-              fineClassName="news-fine"
-            />
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-}
+                Join 1,200+ buyers, brands and import

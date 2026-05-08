@@ -6,6 +6,7 @@ import { Link } from '@/i18n/navigation';
 import IntroCarousel from '@/components/IntroCarousel';
 import JsonLd from '@/components/JsonLd';
 import { SITE } from '@/data/site-config';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 // Organization + WebSite JSON-LD for the homepage. Lets Google associate
 // the brand name, logo, contact info and social accounts with the domain.
@@ -725,7 +726,8 @@ const HOMEPAGE_CSS = `
 }
 `;
 
-export default function HomePage() {
+export default function HomePage({ params: { locale } }) {
+  unstable_setRequestLocale(locale);
   return (
     <div className="wcb-home">
       {/* LCP preload — the hero is a CSS background-image, which the browser

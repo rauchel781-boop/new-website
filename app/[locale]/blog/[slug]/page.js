@@ -4,6 +4,7 @@ import { POSTS, getPostBySlug, getRelatedPosts } from '@/data/blog';
 import JsonLd from '@/components/JsonLd';
 import { SITE } from '@/data/site-config';
 import { routing } from '@/i18n/routing';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 export function generateStaticParams() {
   return POSTS.map((p) => ({ slug: p.slug }));
@@ -373,6 +374,7 @@ function renderBlock(block, i) {
 }
 
 export default function BlogPost({ params }) {
+  unstable_setRequestLocale(params.locale);
   const post = getPostBySlug(params.slug);
   if (!post) notFound();
 
@@ -468,14 +470,4 @@ export default function BlogPost({ params }) {
                     <div className="rel-meta">
                       {rp.category} · {rp.readTime}
                     </div>
-                    <h3 className="rel-name">{rp.title}</h3>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
-    </article>
-  );
-}
+                    <h3 className="rel-name">{r

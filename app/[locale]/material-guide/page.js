@@ -1,5 +1,6 @@
 import { Link } from '@/i18n/navigation';
 import { alternates } from '@/i18n/seo';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params: { locale } }) {
   return {
@@ -1063,7 +1064,8 @@ function PriceTierLg({ value }) {
 }
 
 // ─── PAGE ────────────────────────────────────────────────────────────────────
-export default function MaterialGuidePage() {
+export default function MaterialGuidePage({ params: { locale } }) {
+  unstable_setRequestLocale(locale);
   return (
     <div className="mg">
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
@@ -1381,10 +1383,4 @@ export default function MaterialGuidePage() {
           </p>
           <div className="mg-cta-btns">
             <Link href="/contact" className="mg-btn-pri">Request a Quote</Link>
-            <Link href="/products" className="mg-btn-out">Browse the Catalog</Link>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-}
+            <Link hre

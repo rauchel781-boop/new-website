@@ -22,6 +22,7 @@ import { PRODUCTS as PINE_PRODUCTS } from '@/data/products/pine';
 import { PRODUCTS as BAMBOO_PRODUCTS } from '@/data/products/bamboo';
 import { PRODUCTS as ACACIA_PRODUCTS } from '@/data/products/acacia';
 import { PRODUCTS as WALNUT_PRODUCTS } from '@/data/products/walnut';
+import { unstable_setRequestLocale } from 'next-intl/server';
 
 // Map of category slug → its products data file (only categories with products).
 // Add an entry here when you add a /data/products/<slug>.js file.
@@ -335,6 +336,7 @@ const isProductImage = (src) =>
   src.endsWith('.png') || src.includes('bamboo') || src.includes('walnut%20jewelery');
 
 export default function CategoryPage({ params }) {
+  unstable_setRequestLocale(params.locale);
   const item = CATEGORIES[params.slug];
   if (!item) notFound();
 
@@ -501,13 +503,4 @@ export default function CategoryPage({ params }) {
                     <div className="cat-related-eyebrow">{rel.group}</div>
                     <div className="cat-related-name">{rel.name}</div>
                     <div className="cat-related-arrow">→ View</div>
-                  </Link>
-                );
-              })}
-            </div>
-          </div>
-        </section>
-      )}
-    </div>
-  );
-}
+ 
