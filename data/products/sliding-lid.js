@@ -3,7 +3,7 @@
 // Image paths reference /public/sliding-lid-wooden-box/<folder>/
 // ─────────────────────────────────────────────────────────────────────────
 
-const PARENT = 'Sliding lid wooden box';
+const PARENT = 'sliding-lid-wooden-box';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
 
@@ -16,10 +16,10 @@ export const PRODUCTS = {
     intro:
       'A workhorse sliding-lid pine box — knot-free clear-grade timber with CNC-routed groove and a smooth-gliding lid. The standard format for craft kits, pen sets, and any application that wants the cleanest possible exterior.',
     images: [
-      img('pine sliding box', 'ScreenShot_2026-05-05_144157_482.png'),
-      img('pine sliding box', 'ScreenShot_2026-05-05_144208_464.png'),
-      img('pine sliding box', 'ScreenShot_2026-05-05_144215_113.png'),
-      img('pine sliding box', 'ScreenShot_2026-05-05_144222_778.png'),
+      img('pine-sliding-box', 'pine-sliding-box-01.png'),
+      img('pine-sliding-box', 'pine-sliding-box-02.png'),
+      img('pine-sliding-box', 'pine-sliding-box-03.png'),
+      img('pine-sliding-box', 'pine-sliding-box-04.png'),
     ],
     specs: {
       'Closure Type': 'Sliding lid (CNC-routed groove)',
@@ -54,10 +54,10 @@ export const PRODUCTS = {
     intro:
       'A premium-tier sliding-lid box in solid American walnut — for products that deserve a presentation surface as good as the product itself. The dark chocolate grain doubles the perceived value.',
     images: [
-      img('walnut sliding box', 'ScreenShot_2026-05-05_145004_580.png'),
-      img('walnut sliding box', 'ScreenShot_2026-05-05_145010_767.png'),
-      img('walnut sliding box', 'ScreenShot_2026-05-05_145016_923.png'),
-      img('walnut sliding box', 'ScreenShot_2026-05-05_145024_696.png'),
+      img('walnut-sliding-box', 'walnut-sliding-box-01.png'),
+      img('walnut-sliding-box', 'walnut-sliding-box-02.png'),
+      img('walnut-sliding-box', 'walnut-sliding-box-03.png'),
+      img('walnut-sliding-box', 'walnut-sliding-box-04.png'),
     ],
     specs: {
       'Closure Type': 'Sliding lid (CNC-routed groove)',
@@ -92,10 +92,10 @@ export const PRODUCTS = {
     intro:
       'A larger-format stained pine sliding-lid box with chunky proportions — sized for jewelry sets, mala beads, or tabletop accessory storage. The stained finish lifts pine into a more premium aesthetic.',
     images: [
-      img('sliding storage box', 'ScreenShot_2026-05-05_144239_670.png'),
-      img('sliding storage box', 'ScreenShot_2026-05-05_144247_798.png'),
-      img('sliding storage box', 'ScreenShot_2026-05-05_144256_192.png'),
-      img('sliding storage box', 'ScreenShot_2026-05-05_144305_913.png'),
+      img('sliding-storage-box', 'sliding-storage-box-01.png'),
+      img('sliding-storage-box', 'sliding-storage-box-02.png'),
+      img('sliding-storage-box', 'sliding-storage-box-03.png'),
+      img('sliding-storage-box', 'sliding-storage-box-04.png'),
     ],
     specs: {
       'Closure Type': 'Sliding lid (CNC-routed groove)',
@@ -130,11 +130,11 @@ export const PRODUCTS = {
     intro:
       'A 9-compartment pine bead sorter with a clear sliding-acrylic lid — perfect for bead crafters, jewelry makers, and small-parts hobbyists. See every compartment without opening; tip and pour as needed.',
     images: [
-      img('set-1', 'ScreenShot_2026-05-05_144746_593.png'),
-      img('set-1', 'ScreenShot_2026-05-05_144753_160.png'),
-      img('set-1', 'ScreenShot_2026-05-05_144759_955.png'),
-      img('set-1', 'ScreenShot_2026-05-05_144807_889.png'),
-      img('set-1', 'ScreenShot_2026-05-05_144817_081.png'),
+      img('set-1', 'set-1-01.png'),
+      img('set-1', 'set-1-02.png'),
+      img('set-1', 'set-1-03.png'),
+      img('set-1', 'set-1-04.png'),
+      img('set-1', 'set-1-05.png'),
     ],
     specs: {
       'Closure Type': 'Sliding clear acrylic lid',
@@ -169,11 +169,11 @@ export const PRODUCTS = {
     intro:
       'A slim sliding-lid pine box engraved "Our Next Adventure" with a heart cutout in the lid — designed for couples to save tickets, photos, and travel memories. A long-form gift built around shared moments.',
     images: [
-      img('set-2', 'ScreenShot_2026-05-05_144326_253.png'),
-      img('set-2', 'ScreenShot_2026-05-05_144333_867.png'),
-      img('set-2', 'ScreenShot_2026-05-05_144341_575.png'),
-      img('set-2', 'ScreenShot_2026-05-05_144349_451.png'),
-      img('set-2', 'ScreenShot_2026-05-05_144357_212.png'),
+      img('set-2', 'set-2-01.png'),
+      img('set-2', 'set-2-02.png'),
+      img('set-2', 'set-2-03.png'),
+      img('set-2', 'set-2-04.png'),
+      img('set-2', 'set-2-05.png'),
     ],
     specs: {
       'Closure Type': 'Sliding lid w/ heart cutout',
@@ -208,10 +208,10 @@ export const PRODUCTS = {
     intro:
       'A personalized "Perfect Match" wedding favor box — a sliding-lid pine matchbox printed with the couple\'s names and date, holding long matches for ceremonial candle lighting. Romantic and practical.',
     images: [
-      img('set-3', 'ScreenShot_2026-05-05_144417_775.png'),
-      img('set-3', 'ScreenShot_2026-05-05_144423_750.png'),
-      img('set-3', 'ScreenShot_2026-05-05_144430_486.png'),
-      img('set-3', 'ScreenShot_2026-05-05_144437_165.png'),
+      img('set-3', 'set-3-01.png'),
+      img('set-3', 'set-3-02.png'),
+      img('set-3', 'set-3-03.png'),
+      img('set-3', 'set-3-04.png'),
     ],
     specs: {
       'Closure Type': 'Sliding card lid',
@@ -246,10 +246,10 @@ export const PRODUCTS = {
     intro:
       'A nesting set of bamboo sliding-lid storage boxes in graduated sizes — perfect for home organization, retail merchandising, or as a versatile starter set for bead crafters, herbalists, or hobbyists.',
     images: [
-      img('set-4', 'ScreenShot_2026-05-05_144516_357.png'),
-      img('set-4', 'ScreenShot_2026-05-05_144525_698.png'),
-      img('set-4', 'ScreenShot_2026-05-05_144550_285.png'),
-      img('set-4', 'ScreenShot_2026-05-05_144601_797.png'),
+      img('set-4', 'set-4-01.png'),
+      img('set-4', 'set-4-02.png'),
+      img('set-4', 'set-4-03.png'),
+      img('set-4', 'set-4-04.png'),
     ],
     specs: {
       'Closure Type': 'Sliding clear acrylic lids',
@@ -284,10 +284,10 @@ export const PRODUCTS = {
     intro:
       'A walnut trinket box with a sliding clear-acrylic lid — show off jewelry, coins, or small collectibles while keeping them dust-free. The combination of walnut and clean acrylic feels both warm and modern.',
     images: [
-      img('set-5', 'ScreenShot_2026-05-05_144706_699.png'),
-      img('set-5', 'ScreenShot_2026-05-05_144713_593.png'),
-      img('set-5', 'ScreenShot_2026-05-05_144719_913.png'),
-      img('set-5', 'ScreenShot_2026-05-05_144726_154.png'),
+      img('set-5', 'set-5-01.png'),
+      img('set-5', 'set-5-02.png'),
+      img('set-5', 'set-5-03.png'),
+      img('set-5', 'set-5-04.png'),
     ],
     specs: {
       'Closure Type': 'Sliding clear acrylic lid',
@@ -322,10 +322,10 @@ export const PRODUCTS = {
     intro:
       'A long, slim sliding-lid pine cigar box engraved with groomsman monograms — sized to hold 4–6 cigars. Sold as 4-piece sets for wedding parties; bulk pricing for wedding planners and gift retailers.',
     images: [
-      img('set-6', 'ScreenShot_2026-05-05_144835_954.png'),
-      img('set-6', 'ScreenShot_2026-05-05_144841_940.png'),
-      img('set-6', 'ScreenShot_2026-05-05_144848_022.png'),
-      img('set-6', 'ScreenShot_2026-05-05_144855_319.png'),
+      img('set-6', 'set-6-01.png'),
+      img('set-6', 'set-6-02.png'),
+      img('set-6', 'set-6-03.png'),
+      img('set-6', 'set-6-04.png'),
     ],
     specs: {
       'Closure Type': 'Sliding lid (CNC-routed groove)',

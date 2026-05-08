@@ -3,7 +3,7 @@
 // Image paths reference /public/drawer-wooden-box/<folder>/
 // ─────────────────────────────────────────────────────────────────────────
 
-const PARENT = 'Drawer wooden box';
+const PARENT = 'drawer-wooden-box';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
 
@@ -16,10 +16,10 @@ export const PRODUCTS = {
     intro:
       'A bamboo tea ceremony tray with multiple cup compartments above and a hidden pull-out drawer below for accessories — tea pet, tongs, gaiwan, or napkins. Designed for Gongfu and Eastern tea-service rituals.',
     images: [
-      img('set-1', 'ScreenShot_2026-05-05_145412_489.png'),
-      img('set-1', 'ScreenShot_2026-05-05_145425_460.png'),
-      img('set-1', 'ScreenShot_2026-05-05_145432_695.png'),
-      img('set-1', 'ScreenShot_2026-05-05_145441_264.png'),
+      img('set-1', 'set-1-01.png'),
+      img('set-1', 'set-1-02.png'),
+      img('set-1', 'set-1-03.png'),
+      img('set-1', 'set-1-04.png'),
     ],
     specs: {
       'Closure Type': 'Open tray + pull-out drawer',
@@ -54,10 +54,10 @@ export const PRODUCTS = {
     intro:
       'A compact 3-drawer pine cabinet with antique brass cup pulls — sized for desktops, vanities, or bedside use. The pale pine grain stays bright; brass hardware adds the heirloom touch.',
     images: [
-      img('set-2', 'ScreenShot_2026-05-05_145535_144.png'),
-      img('set-2', 'ScreenShot_2026-05-05_145541_453.png'),
-      img('set-2', 'ScreenShot_2026-05-05_145547_745.png'),
-      img('set-2', 'ScreenShot_2026-05-05_145554_485.png'),
+      img('set-2', 'set-2-01.png'),
+      img('set-2', 'set-2-02.png'),
+      img('set-2', 'set-2-03.png'),
+      img('set-2', 'set-2-04.png'),
     ],
     specs: {
       'Closure Type': '3 pull-out drawers',
@@ -92,11 +92,11 @@ export const PRODUCTS = {
     intro:
       'A torched-pine display box with clear glass on three sides and a sliding/pull-out drawer base — ideal for bakery counter display of bread, pastries, or specialty retail merchandise where visibility matters.',
     images: [
-      img('set-3', 'ScreenShot_2026-05-05_145631_737.png'),
-      img('set-3', 'ScreenShot_2026-05-05_145639_233.png'),
-      img('set-3', 'ScreenShot_2026-05-05_145647_002.png'),
-      img('set-3', 'ScreenShot_2026-05-05_145654_454.png'),
-      img('set-3', 'ScreenShot_2026-05-05_145702_724.png'),
+      img('set-3', 'set-3-01.png'),
+      img('set-3', 'set-3-02.png'),
+      img('set-3', 'set-3-03.png'),
+      img('set-3', 'set-3-04.png'),
+      img('set-3', 'set-3-05.png'),
     ],
     specs: {
       'Closure Type': 'Sliding drawer + glass display',
@@ -131,10 +131,10 @@ export const PRODUCTS = {
     intro:
       'A walnut caddy with an arched carry handle, a tray top for tea sets or refreshments, and a pull-out drawer at the base for napkins, utensils, or coasters. The kind of piece that earns its place on the dining table.',
     images: [
-      img('set-4', 'ScreenShot_2026-05-05_145727_860.png'),
-      img('set-4', 'ScreenShot_2026-05-05_145734_421.png'),
-      img('set-4', 'ScreenShot_2026-05-05_145741_079.png'),
-      img('set-4', 'ScreenShot_2026-05-05_145748_019.png'),
+      img('set-4', 'set-4-01.png'),
+      img('set-4', 'set-4-02.png'),
+      img('set-4', 'set-4-03.png'),
+      img('set-4', 'set-4-04.png'),
     ],
     specs: {
       'Closure Type': 'Open tray + pull-out drawer',
@@ -169,9 +169,9 @@ export const PRODUCTS = {
     intro:
       'A step-tier walnut display stand designed for cologne and cosmetic bottles — angled tiers present every label face-up, while a hidden drawer at the base keeps refills, samples, or accessories tidy.',
     images: [
-      img('set-5', 'ScreenShot_2026-05-05_145806_838.png'),
-      img('set-5', 'ScreenShot_2026-05-05_145813_880.png'),
-      img('set-5', 'ScreenShot_2026-05-05_145821_870.png'),
+      img('set-5', 'set-5-01.png'),
+      img('set-5', 'set-5-02.png'),
+      img('set-5', 'set-5-03.png'),
     ],
     specs: {
       'Closure Type': 'Open step display + drawer',
@@ -206,9 +206,9 @@ export const PRODUCTS = {
     intro:
       'A minimalist oak box with a single drawer and recessed finger-pull — clean lines, no visible hardware, and the warm pale grain of European oak. The understated drawer box for desktops and bedside tables.',
     images: [
-      img('set-6', 'ScreenShot_2026-05-05_145901_396.png'),
-      img('set-6', 'ScreenShot_2026-05-05_145907_437.png'),
-      img('set-6', 'ScreenShot_2026-05-05_145913_527.png'),
+      img('set-6', 'set-6-01.png'),
+      img('set-6', 'set-6-02.png'),
+      img('set-6', 'set-6-03.png'),
     ],
     specs: {
       'Closure Type': 'Single pull-out drawer',
@@ -243,11 +243,11 @@ export const PRODUCTS = {
     intro:
       'A pull-out hat storage drawer with a clear acrylic display top — keeps caps and hats dust-free while showing them off. Stacks under closet shelves or sits on a dresser.',
     images: [
-      img('set-7', 'ScreenShot_2026-05-05_145936_289.png'),
-      img('set-7', 'ScreenShot_2026-05-05_145943_793.png'),
-      img('set-7', 'ScreenShot_2026-05-05_145950_092.png'),
-      img('set-7', 'ScreenShot_2026-05-05_145958_176.png'),
-      img('set-7', 'ScreenShot_2026-05-05_150005_875.png'),
+      img('set-7', 'set-7-01.png'),
+      img('set-7', 'set-7-02.png'),
+      img('set-7', 'set-7-03.png'),
+      img('set-7', 'set-7-04.png'),
+      img('set-7', 'set-7-05.png'),
     ],
     specs: {
       'Closure Type': 'Pull-out drawer + acrylic display top',
@@ -282,11 +282,11 @@ export const PRODUCTS = {
     intro:
       'A bamboo 3-drawer desk organizer with an open tray on top for current-use items, and three pull-out drawers below for tucking away supplies. Built to fit between monitor and desk edge in modern workspace footprints.',
     images: [
-      img('set-8', 'ScreenShot_2026-05-05_150030_419.png'),
-      img('set-8', 'ScreenShot_2026-05-05_150038_031.png'),
-      img('set-8', 'ScreenShot_2026-05-05_150044_093.png'),
-      img('set-8', 'ScreenShot_2026-05-05_150051_138.png'),
-      img('set-8', 'ScreenShot_2026-05-05_150059_171.png'),
+      img('set-8', 'set-8-01.png'),
+      img('set-8', 'set-8-02.png'),
+      img('set-8', 'set-8-03.png'),
+      img('set-8', 'set-8-04.png'),
+      img('set-8', 'set-8-05.png'),
     ],
     specs: {
       'Closure Type': '3 pull-out drawers + open tray',

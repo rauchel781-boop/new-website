@@ -3,7 +3,7 @@
 // Image paths reference /public/magnetic-wooden-box/<folder>/
 // ─────────────────────────────────────────────────────────────────────────
 
-const PARENT = 'Magnetic wooden box';
+const PARENT = 'magnetic-wooden-box';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
 
@@ -16,10 +16,10 @@ export const PRODUCTS = {
     intro:
       'A two-piece beech dice case with concealed neodymium magnets. Snaps closed for travel; opens flat into a felt-lined rolling tray. Sized for a single set of D&D polyhedral dice.',
     images: [
-      img('1', 'ScreenShot_2026-05-05_150512_788.png'),
-      img('1', 'ScreenShot_2026-05-05_150518_887.png'),
-      img('1', 'ScreenShot_2026-05-05_150525_881.png'),
-      img('1', 'ScreenShot_2026-05-05_150534_708.png'),
+      img('1', '1-01.png'),
+      img('1', '1-02.png'),
+      img('1', '1-03.png'),
+      img('1', '1-04.png'),
     ],
     specs: {
       'Closure Type': 'Hidden magnetic two-piece',
@@ -54,10 +54,10 @@ export const PRODUCTS = {
     intro:
       'A pocket-size walnut box with a magnetic flap and an interior sliding puzzle that hides a small chamber underneath — perfect for engagement rings, memory pieces, or thoughtful gifts that require a moment of cleverness to open.',
     images: [
-      img('set-1', 'ScreenShot_2026-05-05_150558_047.png'),
-      img('set-1', 'ScreenShot_2026-05-05_150605_075.png'),
-      img('set-1', 'ScreenShot_2026-05-05_150611_045.png'),
-      img('set-1', 'ScreenShot_2026-05-05_150617_975.png'),
+      img('set-1', 'set-1-01.png'),
+      img('set-1', 'set-1-02.png'),
+      img('set-1', 'set-1-03.png'),
+      img('set-1', 'set-1-04.png'),
     ],
     specs: {
       'Closure Type': 'Magnetic flap + puzzle interior',
@@ -92,10 +92,10 @@ export const PRODUCTS = {
     intro:
       'A hexagonal bamboo dice case with seven recessed slots laid out in a honeycomb pattern — one for each polyhedral D&D die. Magnetic top snaps shut; designed for serious tabletop RPG enthusiasts.',
     images: [
-      img('set-2', 'ScreenShot_2026-05-05_151025_954.png'),
-      img('set-2', 'ScreenShot_2026-05-05_151033_138.png'),
-      img('set-2', 'ScreenShot_2026-05-05_151040_433.png'),
-      img('set-2', 'ScreenShot_2026-05-05_151047_752.png'),
+      img('set-2', 'set-2-01.png'),
+      img('set-2', 'set-2-02.png'),
+      img('set-2', 'set-2-03.png'),
+      img('set-2', 'set-2-04.png'),
     ],
     specs: {
       'Closure Type': 'Hidden magnetic two-piece',
@@ -130,10 +130,10 @@ export const PRODUCTS = {
     intro:
       'A slim pine cigar travel case with a magnetic hinged lid that holds 4–6 cigars snugly. Built to fit jacket pockets and carry-on bags; lined with cedar veneer for proper aging conditions.',
     images: [
-      img('set-3', 'ScreenShot_2026-05-05_151122_530.png'),
-      img('set-3', 'ScreenShot_2026-05-05_151130_253.png'),
-      img('set-3', 'ScreenShot_2026-05-05_151138_591.png'),
-      img('set-3', 'ScreenShot_2026-05-05_151147_834.png'),
+      img('set-3', 'set-3-01.png'),
+      img('set-3', 'set-3-02.png'),
+      img('set-3', 'set-3-03.png'),
+      img('set-3', 'set-3-04.png'),
     ],
     specs: {
       'Closure Type': 'Magnetic hinged lid',
@@ -168,10 +168,10 @@ export const PRODUCTS = {
     intro:
       'A long, slim sapele dice display box with hexagonal slots cut into the body and an engraved monogram on the lid. The magnetic seal keeps a personalized dice set safe between sessions.',
     images: [
-      img('set-4', 'ScreenShot_2026-05-05_151202_741.png'),
-      img('set-4', 'ScreenShot_2026-05-05_151209_721.png'),
-      img('set-4', 'ScreenShot_2026-05-05_151216_684.png'),
-      img('set-4', 'ScreenShot_2026-05-05_151223_750.png'),
+      img('set-4', 'set-4-01.png'),
+      img('set-4', 'set-4-02.png'),
+      img('set-4', 'set-4-03.png'),
+      img('set-4', 'set-4-04.png'),
     ],
     specs: {
       'Closure Type': 'Magnetic sliding lid',
@@ -206,9 +206,9 @@ export const PRODUCTS = {
     intro:
       'A pair of solid wood mini cube boxes — one walnut, one oak — that snap together via concealed magnets. A satisfying tactile object for desktops, with a small interior compartment for treasure.',
     images: [
-      img('set-5', 'ScreenShot_2026-05-05_151338_748.png'),
-      img('set-5', 'ScreenShot_2026-05-05_151345_579.png'),
-      img('set-5', 'ScreenShot_2026-05-05_151352_640.png'),
+      img('set-5', 'set-5-01.png'),
+      img('set-5', 'set-5-02.png'),
+      img('set-5', 'set-5-03.png'),
     ],
     specs: {
       'Closure Type': 'Magnetic two-piece cube',
@@ -243,10 +243,10 @@ export const PRODUCTS = {
     intro:
       'A two-tone pocket box — a walnut lid over a pine base — sealed with concealed magnets. Sized for everyday carry items: rings, dice, earbuds, or coins. The contrast between dark walnut and pale pine is the design.',
     images: [
-      img('set-6', 'ScreenShot_2026-05-05_151415_764.png'),
-      img('set-6', 'ScreenShot_2026-05-05_151421_509.png'),
-      img('set-6', 'ScreenShot_2026-05-05_151427_650.png'),
-      img('set-6', 'ScreenShot_2026-05-05_151434_009.png'),
+      img('set-6', 'set-6-01.png'),
+      img('set-6', 'set-6-02.png'),
+      img('set-6', 'set-6-03.png'),
+      img('set-6', 'set-6-04.png'),
     ],
     specs: {
       'Closure Type': 'Magnetic lift-off lid',
@@ -281,10 +281,10 @@ export const PRODUCTS = {
     intro:
       'A walnut office desk tray with a magnetic lid that doubles as a watch and EDC catch-all. Open the lid to access the storage chamber; close it to keep desks tidy and minimalist.',
     images: [
-      img('set-7', 'ScreenShot_2026-05-05_151505_010.png'),
-      img('set-7', 'ScreenShot_2026-05-05_151511_046.png'),
-      img('set-7', 'ScreenShot_2026-05-05_151523_623.png'),
-      img('set-7', 'ScreenShot_2026-05-05_151532_270.png'),
+      img('set-7', 'set-7-01.png'),
+      img('set-7', 'set-7-02.png'),
+      img('set-7', 'set-7-03.png'),
+      img('set-7', 'set-7-04.png'),
     ],
     specs: {
       'Closure Type': 'Magnetic lift-off lid',
@@ -319,10 +319,10 @@ export const PRODUCTS = {
     intro:
       'A petite walnut engagement ring box with concealed magnetic flap and an engraved couple-name and date on the lid. Inside, a hessian (burlap) ring cradle presents the ring at the perfect tilt.',
     images: [
-      img('set-8', 'ScreenShot_2026-05-05_151615_092.png'),
-      img('set-8', 'ScreenShot_2026-05-05_151621_181.png'),
-      img('set-8', 'ScreenShot_2026-05-05_151626_934.png'),
-      img('set-8', 'ScreenShot_2026-05-05_151633_209.png'),
+      img('set-8', 'set-8-01.png'),
+      img('set-8', 'set-8-02.png'),
+      img('set-8', 'set-8-03.png'),
+      img('set-8', 'set-8-04.png'),
     ],
     specs: {
       'Closure Type': 'Magnetic flap',

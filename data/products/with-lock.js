@@ -3,7 +3,7 @@
 // Image paths reference /public/wooden-boxes-with-lock/<folder>/
 // ─────────────────────────────────────────────────────────────────────────
 
-const PARENT = 'wooden boxes with lock';
+const PARENT = 'wooden-boxes-with-lock';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
 
@@ -16,12 +16,12 @@ export const PRODUCTS = {
     intro:
       'A premium all-in-one acacia stash box with a 3-digit combination lock, multiple compartments, and a roll-out tray for organized storage of personal supplies, herbs, and small accessories.',
     images: [
-      img('Acacia Wood All-in-One Stash Box with Lock', 'acacia wood stash box (1).png'),
-      img('Acacia Wood All-in-One Stash Box with Lock', 'acacia wood stash box (2).png'),
-      img('Acacia Wood All-in-One Stash Box with Lock', 'acacia wood stash box (3).png'),
-      img('Acacia Wood All-in-One Stash Box with Lock', 'acacia wood stash box (4).png'),
-      img('Acacia Wood All-in-One Stash Box with Lock', 'acacia wood stash box (5).png'),
-      img('Acacia Wood All-in-One Stash Box with Lock', 'acacia wood stash box (6).png'),
+      img('acacia-wood-all-in-one-stash-box-with-lock', 'acacia-wood-stash-box-1.png'),
+      img('acacia-wood-all-in-one-stash-box-with-lock', 'acacia-wood-stash-box-2.png'),
+      img('acacia-wood-all-in-one-stash-box-with-lock', 'acacia-wood-stash-box-3.png'),
+      img('acacia-wood-all-in-one-stash-box-with-lock', 'acacia-wood-stash-box-4.png'),
+      img('acacia-wood-all-in-one-stash-box-with-lock', 'acacia-wood-stash-box-5.png'),
+      img('acacia-wood-all-in-one-stash-box-with-lock', 'acacia-wood-stash-box-6.png'),
     ],
     specs: {
       'Closure Type': 'Combination lock + hinged lid',
@@ -56,11 +56,11 @@ export const PRODUCTS = {
     intro:
       'A bamboo stash box with a 3-digit combination lock and a divided interior for organized storage. Sustainable, naturally antibacterial, and lockable — the modern choice for adult personal storage.',
     images: [
-      img('Bamboo Stash Box with Combination Lock', 'stash box (2).png'),
-      img('Bamboo Stash Box with Combination Lock', 'stash box (3).png'),
-      img('Bamboo Stash Box with Combination Lock', 'stash box (4).png'),
-      img('Bamboo Stash Box with Combination Lock', 'stash box (5).png'),
-      img('Bamboo Stash Box with Combination Lock', 'stash box (6).png'),
+      img('bamboo-stash-box-with-combination-lock', 'stash-box-2.png'),
+      img('bamboo-stash-box-with-combination-lock', 'stash-box-3.jpg'),
+      img('bamboo-stash-box-with-combination-lock', 'stash-box-3.png'),
+      img('bamboo-stash-box-with-combination-lock', 'stash-box-4.jpg'),
+      img('bamboo-stash-box-with-combination-lock', 'stash-box-4.png'),
     ],
     specs: {
       'Closure Type': '3-digit combination lock',
@@ -95,12 +95,12 @@ export const PRODUCTS = {
     intro:
       'A larger-format black-stained stash box bundled as a complete kit — with rolling tray, lock, and a bundled accessory set. Built for serious personal storage; sized to hold everything in one tidy chest.',
     images: [
-      img('Large Black Wooden Stash Box Kit', 'stash box (11).jpg'),
-      img('Large Black Wooden Stash Box Kit', 'stash box (12).jpg'),
-      img('Large Black Wooden Stash Box Kit', 'stash box (13).jpg'),
-      img('Large Black Wooden Stash Box Kit', 'stash box (14).jpg'),
-      img('Large Black Wooden Stash Box Kit', 'stash box (15).jpg'),
-      img('Large Black Wooden Stash Box Kit', 'stash box (16).jpg'),
+      img('large-black-wooden-stash-box-kit', 'stash-box-11.jpg'),
+      img('large-black-wooden-stash-box-kit', 'stash-box-12.jpg'),
+      img('large-black-wooden-stash-box-kit', 'stash-box-13.jpg'),
+      img('large-black-wooden-stash-box-kit', 'stash-box-14.jpg'),
+      img('large-black-wooden-stash-box-kit', 'stash-box-15.jpg'),
+      img('large-black-wooden-stash-box-kit', 'stash-box-16.jpg'),
     ],
     specs: {
       'Closure Type': 'Combination lock + hinged lid',
@@ -135,9 +135,9 @@ export const PRODUCTS = {
     intro:
       'A spacious pine storage box with a 3-digit combination lock mounted on the side and a hinged lid that opens fully. Great as a desk-side cash box, document storage, or general home valuables locker.',
     images: [
-      img('3', 'ScreenShot_2026-05-05_152800_577.png'),
-      img('3', 'ScreenShot_2026-05-05_152809_684.png'),
-      img('3', 'ScreenShot_2026-05-05_152816_931.png'),
+      img('3', '3-01.png'),
+      img('3', '3-02.png'),
+      img('3', '3-03.png'),
     ],
     specs: {
       'Closure Type': 'Combination lock + hinged lid',
@@ -172,8 +172,8 @@ export const PRODUCTS = {
     intro:
       'A torched pine storage box built with traditional dovetail corner joinery and a discreet hidden cam lock. The torched finish gives it a vintage feel; the dovetails make it strong enough to last generations.',
     images: [
-      img('set-1', 'nano_task_7f1ecb39b68c4adf85684240a9971a68.png'),
-      img('set-1', 'nano_task_8a326e1e14f84c09ba76bd2a6e0cdaaf.png'),
+      img('set-1', 'set-1-01.png'),
+      img('set-1', 'set-1-02.png'),
     ],
     specs: {
       'Closure Type': 'Concealed cam lock + hinged lid',
@@ -208,8 +208,8 @@ export const PRODUCTS = {
     intro:
       'A trio of small pine boxes — one with a brass hasp clasp, one with a combination lock, and one with a hidden compartment — sold as a set for sample-collecting, kids\' allowance banks, or budget-envelope organization.',
     images: [
-      img('set-2', 'ScreenShot_2026-05-05_152723_822.png'),
-      img('set-2', 'ScreenShot_2026-05-05_152740_158.png'),
+      img('set-2', 'set-2-01.png'),
+      img('set-2', 'set-2-02.png'),
     ],
     specs: {
       'Closure Type': 'Mixed: hasp clasp + combo + key',
@@ -244,8 +244,8 @@ export const PRODUCTS = {
     intro:
       'A pine kids\' money-saving box decorated with a cute rabbit-themed design, with a combination lock to teach kids about saving, plus a coin slot in the lid for daily deposits. Stickers included for personalizing.',
     images: [
-      img('set-3', 'ScreenShot_2026-05-05_152844_006.png'),
-      img('set-3', 'ScreenShot_2026-05-05_152853_032.png'),
+      img('set-3', 'set-3-01.png'),
+      img('set-3', 'set-3-02.png'),
     ],
     specs: {
       'Closure Type': 'Combination lock + coin slot',
@@ -280,8 +280,8 @@ export const PRODUCTS = {
     intro:
       'Three pine boxes in graduated sizes, each with a brass hasp clasp — designed to nest for shipping and stack on a shelf. Hasps accept padlocks if needed; otherwise the clasps alone keep contents secure.',
     images: [
-      img('set-4', 'ScreenShot_2026-05-05_152951_499.png'),
-      img('set-4', 'ScreenShot_2026-05-05_153001_351.png'),
+      img('set-4', 'set-4-01.png'),
+      img('set-4', 'set-4-02.png'),
     ],
     specs: {
       'Closure Type': 'Brass hasp clasp (padlock-ready)',
@@ -316,10 +316,10 @@ export const PRODUCTS = {
     intro:
       'A graduated 3-size pine lock box set — small with brass hasp, medium with combination lock, and large with brass key lock. The starter set for organized secure storage at multiple scales.',
     images: [
-      img('set-5', 'ScreenShot_2026-05-05_153021_414.png'),
-      img('set-5', 'ScreenShot_2026-05-05_153027_149.png'),
-      img('set-5', 'ScreenShot_2026-05-05_153033_292.png'),
-      img('set-5', 'ScreenShot_2026-05-05_153039_819.png'),
+      img('set-5', 'set-5-01.png'),
+      img('set-5', 'set-5-02.png'),
+      img('set-5', 'set-5-03.png'),
+      img('set-5', 'set-5-04.png'),
     ],
     specs: {
       'Closure Type': 'Mixed: hasp + combo + brass key',

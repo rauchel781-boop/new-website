@@ -4,7 +4,7 @@
 // Encoding handled centrally by `img()`.
 // ─────────────────────────────────────────────────────────────────────────
 
-const PARENT = 'Kitchen & Dining boxes';
+const PARENT = 'kitchen-dining-boxes';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
 
@@ -17,10 +17,10 @@ export const PRODUCTS = {
     intro:
       'A countertop salt cellar carved from a single block of acacia hardwood. The magnetic flip-lid stays put when not in use, and snaps open one-handed while cooking. Food-safe lacquer interior, raw oiled exterior.',
     images: [
-      img('magnetic-wooden-salt-box', 'ScreenShot_2026-05-04_221858_701.png'),
-      img('magnetic-wooden-salt-box', 'ScreenShot_2026-05-04_221914_313.png'),
-      img('magnetic-wooden-salt-box', 'ScreenShot_2026-05-04_221923_172.png'),
-      img('magnetic-wooden-salt-box', 'ScreenShot_2026-05-04_221931_239.png'),
+      img('magnetic-wooden-salt-box', 'magnetic-wooden-salt-box-01.png'),
+      img('magnetic-wooden-salt-box', 'magnetic-wooden-salt-box-02.png'),
+      img('magnetic-wooden-salt-box', 'magnetic-wooden-salt-box-03.png'),
+      img('magnetic-wooden-salt-box', 'magnetic-wooden-salt-box-04.png'),
     ],
     specs: {
       'Closure Type': 'Magnetic flip lid',
@@ -55,10 +55,10 @@ export const PRODUCTS = {
     intro:
       'A solid acacia utensil and condiment caddy with built-in dividers — perfect for casual dining tables, picnics, and outdoor entertaining. Holds cutlery on one side and napkins or condiments on the other.',
     images: [
-      img('acacia-utensil box', 'ScreenShot_2026-05-04_222248_065.png'),
-      img('acacia-utensil box', 'ScreenShot_2026-05-04_222258_952.png'),
-      img('acacia-utensil box', 'ScreenShot_2026-05-04_222307_332.png'),
-      img('acacia-utensil box', 'ScreenShot_2026-05-04_222319_666.png'),
+      img('acacia-utensil-box', 'acacia-utensil-box-01.png'),
+      img('acacia-utensil-box', 'acacia-utensil-box-02.png'),
+      img('acacia-utensil-box', 'acacia-utensil-box-03.png'),
+      img('acacia-utensil-box', 'acacia-utensil-box-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top with carry handle',
@@ -93,11 +93,11 @@ export const PRODUCTS = {
     intro:
       'A bamboo cutlery storage box with a smooth sliding lid and felt-lined compartments to keep silverware quiet and scratch-free. Sized to fit standard kitchen drawers, available in 4-, 6-, and 8-compartment layouts.',
     images: [
-      img('bamboo-cutlery-box-sliding', 'ScreenShot_2026-05-04_222433_414.png'),
-      img('bamboo-cutlery-box-sliding', 'ScreenShot_2026-05-04_222445_432.png'),
-      img('bamboo-cutlery-box-sliding', 'ScreenShot_2026-05-04_222453_490.png'),
-      img('bamboo-cutlery-box-sliding', 'ScreenShot_2026-05-04_222500_499.png'),
-      img('bamboo-cutlery-box-sliding', 'ScreenShot_2026-05-04_222510_823.png'),
+      img('bamboo-cutlery-box-sliding', 'bamboo-cutlery-box-sliding-01.png'),
+      img('bamboo-cutlery-box-sliding', 'bamboo-cutlery-box-sliding-02.png'),
+      img('bamboo-cutlery-box-sliding', 'bamboo-cutlery-box-sliding-03.png'),
+      img('bamboo-cutlery-box-sliding', 'bamboo-cutlery-box-sliding-04.png'),
+      img('bamboo-cutlery-box-sliding', 'bamboo-cutlery-box-sliding-05.png'),
     ],
     specs: {
       'Closure Type': 'Sliding bamboo lid',
@@ -132,10 +132,10 @@ export const PRODUCTS = {
     intro:
       'A multi-tier drawer-style spice organizer with angled jar slots that present every label face-up when the drawer pulls out. Sized to fit standard 60 cm or 80 cm cabinet drawers; bamboo or oak construction.',
     images: [
-      img('drawer-spice-organizer', 'ScreenShot_2026-05-04_222603_935.png'),
-      img('drawer-spice-organizer', 'ScreenShot_2026-05-04_222614_018.png'),
-      img('drawer-spice-organizer', 'ScreenShot_2026-05-04_222624_567.png'),
-      img('drawer-spice-organizer', 'ScreenShot_2026-05-04_222632_950.png'),
+      img('drawer-spice-organizer', 'drawer-spice-organizer-01.png'),
+      img('drawer-spice-organizer', 'drawer-spice-organizer-02.png'),
+      img('drawer-spice-organizer', 'drawer-spice-organizer-03.png'),
+      img('drawer-spice-organizer', 'drawer-spice-organizer-04.png'),
     ],
     specs: {
       'Closure Type': 'Pull-out drawer insert',
@@ -170,10 +170,10 @@ export const PRODUCTS = {
     intro:
       'A bamboo bread bin with a hinged lid that doubles as a cutting board. Vented base keeps loaves fresh; food-safe finish stands up to daily kitchen use. Single- and double-loaf sizes available.',
     images: [
-      img('hinged-bamboo-bread-bin', 'ScreenShot_2026-05-04_222718_655.png'),
-      img('hinged-bamboo-bread-bin', 'ScreenShot_2026-05-04_222733_303.png'),
-      img('hinged-bamboo-bread-bin', 'ScreenShot_2026-05-04_222743_958.png'),
-      img('hinged-bamboo-bread-bin', 'ScreenShot_2026-05-04_222754_234.png'),
+      img('hinged-bamboo-bread-bin', 'hinged-bamboo-bread-bin-01.png'),
+      img('hinged-bamboo-bread-bin', 'hinged-bamboo-bread-bin-02.png'),
+      img('hinged-bamboo-bread-bin', 'hinged-bamboo-bread-bin-03.png'),
+      img('hinged-bamboo-bread-bin', 'hinged-bamboo-bread-bin-04.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid (cutting-board top)',
@@ -208,10 +208,10 @@ export const PRODUCTS = {
     intro:
       'A rustic farmhouse-style wooden egg tray with cushioned cup holes and routed side handles. Holds 12 or 18 eggs upright; perfect for kitchen counters, farm shops, and chicken-keeper gift sets.',
     images: [
-      img('Rustic Wood Egg Holder Tray with Handles', 'ScreenShot_2026-05-04_223321_511.png'),
-      img('Rustic Wood Egg Holder Tray with Handles', 'ScreenShot_2026-05-04_223331_324.png'),
-      img('Rustic Wood Egg Holder Tray with Handles', 'ScreenShot_2026-05-04_223340_688.png'),
-      img('Rustic Wood Egg Holder Tray with Handles', 'ScreenShot_2026-05-04_223349_625.png'),
+      img('rustic-wood-egg-holder-tray-with-handles', 'rustic-wood-egg-holder-tray-with-handles-01.png'),
+      img('rustic-wood-egg-holder-tray-with-handles', 'rustic-wood-egg-holder-tray-with-handles-02.png'),
+      img('rustic-wood-egg-holder-tray-with-handles', 'rustic-wood-egg-holder-tray-with-handles-03.png'),
+      img('rustic-wood-egg-holder-tray-with-handles', 'rustic-wood-egg-holder-tray-with-handles-04.png'),
     ],
     specs: {
       'Closure Type': 'Open tray with side handles',
@@ -246,10 +246,10 @@ export const PRODUCTS = {
     intro:
       'A solid sapele hardwood napkin holder with a weighted brass tension arm that keeps the stack tidy and accessible. The deep red-brown grain of sapele looks at home in modern and traditional dining rooms alike.',
     images: [
-      img('Sapele Wooden Napkin Holder', 'ScreenShot_2026-05-04_222857_540.png'),
-      img('Sapele Wooden Napkin Holder', 'ScreenShot_2026-05-04_222906_547.png'),
-      img('Sapele Wooden Napkin Holder', 'ScreenShot_2026-05-04_222915_151.png'),
-      img('Sapele Wooden Napkin Holder', 'ScreenShot_2026-05-04_222923_082.png'),
+      img('sapele-wooden-napkin-holder', 'sapele-wooden-napkin-holder-01.png'),
+      img('sapele-wooden-napkin-holder', 'sapele-wooden-napkin-holder-02.png'),
+      img('sapele-wooden-napkin-holder', 'sapele-wooden-napkin-holder-03.png'),
+      img('sapele-wooden-napkin-holder', 'sapele-wooden-napkin-holder-04.png'),
     ],
     specs: {
       'Closure Type': 'Open holder with tension arm',
@@ -284,11 +284,11 @@ export const PRODUCTS = {
     intro:
       'A two-in-one countertop kitchen organizer — a felt-padded utensil crock above, and a pull-out spice drawer below. Designed for cooks who want a tidy worktop without giving up easy access to their tools.',
     images: [
-      img('Wood Kitchen Utensil Holder with Spice Drawer', 'ScreenShot_2026-05-04_223138_698.png'),
-      img('Wood Kitchen Utensil Holder with Spice Drawer', 'ScreenShot_2026-05-04_223146_871.png'),
-      img('Wood Kitchen Utensil Holder with Spice Drawer', 'ScreenShot_2026-05-04_223154_578.png'),
-      img('Wood Kitchen Utensil Holder with Spice Drawer', 'ScreenShot_2026-05-04_223202_861.png'),
-      img('Wood Kitchen Utensil Holder with Spice Drawer', 'ScreenShot_2026-05-04_223213_497.png'),
+      img('wood-kitchen-utensil-holder-with-spice-drawer', 'wood-kitchen-utensil-holder-with-spice-drawer-01.png'),
+      img('wood-kitchen-utensil-holder-with-spice-drawer', 'wood-kitchen-utensil-holder-with-spice-drawer-02.png'),
+      img('wood-kitchen-utensil-holder-with-spice-drawer', 'wood-kitchen-utensil-holder-with-spice-drawer-03.png'),
+      img('wood-kitchen-utensil-holder-with-spice-drawer', 'wood-kitchen-utensil-holder-with-spice-drawer-04.png'),
+      img('wood-kitchen-utensil-holder-with-spice-drawer', 'wood-kitchen-utensil-holder-with-spice-drawer-05.png'),
     ],
     specs: {
       'Closure Type': 'Open crock + pull-out drawer',

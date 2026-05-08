@@ -4,7 +4,7 @@
 // img() handles URL encoding for spaces, &, parens, and CJK characters.
 // ─────────────────────────────────────────────────────────────────────────
 
-const PARENT = 'Tea&Coffee Boxes';
+const PARENT = 'tea-coffee-boxes';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
 
@@ -17,11 +17,11 @@ export const PRODUCTS = {
     intro:
       'A premium 8-compartment tea bag organizer in solid acacia hardwood, with a hidden magnetic lid that closes flush. The dramatic acacia grain pattern makes each piece unique. Compartments sized for standard tea bag pouches; optional adjustable dividers available.',
     images: [
-      img('8 dividers acacia tea bag box', 'tea box (1).jpg'),
-      img('8 dividers acacia tea bag box', 'tea box (2).jpg'),
-      img('8 dividers acacia tea bag box', 'tea box (3).jpg'),
-      img('8 dividers acacia tea bag box', 'tea box (5).jpg'),
-      img('8 dividers acacia tea bag box', 'tea box (6).jpg'),
+      img('8-dividers-acacia-tea-bag-box', 'tea-box-1.jpg'),
+      img('8-dividers-acacia-tea-bag-box', 'tea-box-2.jpg'),
+      img('8-dividers-acacia-tea-bag-box', 'tea-box-3.jpg'),
+      img('8-dividers-acacia-tea-bag-box', 'tea-box-5.jpg'),
+      img('8-dividers-acacia-tea-bag-box', 'tea-box-6.jpg'),
     ],
     specs: {
       'Closure Type': 'Hidden magnetic flip lid',
@@ -56,11 +56,11 @@ export const PRODUCTS = {
     intro:
       'A bamboo tea bag organizer with a hinged lid featuring a clear acrylic window — see contents at a glance. 6 or 9 compartment configurations, food-safe natural bamboo finish, perfect for retail display, hotel rooms, and office pantries.',
     images: [
-      img('Bamboo Tea Bag Organizer Box with Clear Lid', 'babmoo tea box (2).png'),
-      img('Bamboo Tea Bag Organizer Box with Clear Lid', 'babmoo tea box (3).png'),
-      img('Bamboo Tea Bag Organizer Box with Clear Lid', 'babmoo tea box (4).png'),
-      img('Bamboo Tea Bag Organizer Box with Clear Lid', 'babmoo tea box (5).png'),
-      img('Bamboo Tea Bag Organizer Box with Clear Lid', 'babmoo tea box (6).png'),
+      img('bamboo-tea-bag-organizer-box-with-clear-lid', 'babmoo-tea-box-2.png'),
+      img('bamboo-tea-bag-organizer-box-with-clear-lid', 'babmoo-tea-box-3.png'),
+      img('bamboo-tea-bag-organizer-box-with-clear-lid', 'babmoo-tea-box-4.png'),
+      img('bamboo-tea-bag-organizer-box-with-clear-lid', 'babmoo-tea-box-5.png'),
+      img('bamboo-tea-bag-organizer-box-with-clear-lid', 'babmoo-tea-box-6.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid with clear acrylic window',
@@ -96,12 +96,12 @@ export const PRODUCTS = {
     intro:
       'A sleek sliding-lid bamboo box for organizing tea bags or pyramid sachets. Clean grain, food-safe finish, and a hardware-free sliding mechanism that keeps contents fresh. Ideal for kitchens, cafes, and gift sets.',
     images: [
-      img('Bamboo Tea Bag Organizer Box', '主图1（5）.png'),
-      img('Bamboo Tea Bag Organizer Box', '主图2（2）.png'),
-      img('Bamboo Tea Bag Organizer Box', '主图3（1）.png'),
-      img('Bamboo Tea Bag Organizer Box', '主图4（4）.png'),
-      img('Bamboo Tea Bag Organizer Box', '主图5（0）.png'),
-      img('Bamboo Tea Bag Organizer Box', '主图6（3）.png'),
+      img('bamboo-tea-bag-organizer-box', 'main-1-5.png'),
+      img('bamboo-tea-bag-organizer-box', 'main-2-2.png'),
+      img('bamboo-tea-bag-organizer-box', 'main-3-1.png'),
+      img('bamboo-tea-bag-organizer-box', 'main-4-4.png'),
+      img('bamboo-tea-bag-organizer-box', 'main-5-0.png'),
+      img('bamboo-tea-bag-organizer-box', 'main-6-3.png'),
     ],
     specs: {
       'Closure Type': 'Sliding lid (CNC-routed grooves)',
@@ -136,11 +136,11 @@ export const PRODUCTS = {
     intro:
       'A modern matte-black tea bag organizer with hidden magnetic closure. The clean lines and premium finish suit contemporary kitchens and corporate gifting. Configurable compartment count from 4 to 12.',
     images: [
-      img('Black Wooden Tea Bag Organizer Box', 'tea bag organiser (2).jpg'),
-      img('Black Wooden Tea Bag Organizer Box', 'tea bag organiser (3).jpg'),
-      img('Black Wooden Tea Bag Organizer Box', 'tea bag organiser (4).jpg'),
-      img('Black Wooden Tea Bag Organizer Box', 'tea bag organiser (5).jpg'),
-      img('Black Wooden Tea Bag Organizer Box', 'tea bag organiser (6).jpg'),
+      img('black-wooden-tea-bag-organizer-box', 'tea-bag-organiser-2.jpg'),
+      img('black-wooden-tea-bag-organizer-box', 'tea-bag-organiser-3.jpg'),
+      img('black-wooden-tea-bag-organizer-box', 'tea-bag-organiser-4.jpg'),
+      img('black-wooden-tea-bag-organizer-box', 'tea-bag-organiser-5.jpg'),
+      img('black-wooden-tea-bag-organizer-box', 'tea-bag-organiser-6.jpg'),
     ],
     specs: {
       'Closure Type': 'Hidden magnetic flip lid',
@@ -175,8 +175,8 @@ export const PRODUCTS = {
     intro:
       'A counter-top espresso machine stand with a pull-out drawer for capsules and grounds, plus integrated under-shelf cup hooks. Built from solid wood with metal hardware. Designed to consolidate the morning coffee station into one footprint.',
     images: [
-      img('Machine Stand with Cup Hooks & Drawers', 'coffee storage rack (1).png'),
-      img('Machine Stand with Cup Hooks & Drawers', 'coffee storage rack (2).png'),
+      img('machine-stand-with-cup-hooks-drawers', 'coffee-storage-rack-1.jpeg'),
+      img('machine-stand-with-cup-hooks-drawers', 'coffee-storage-rack-1.png'),
     ],
     specs: {
       'Closure Type': 'Pull-out drawer',
@@ -212,12 +212,12 @@ export const PRODUCTS = {
     intro:
       'A multi-tier tea and coffee station organizer in wood and powder-coated metal — industrial-modern aesthetic for cafes and modern offices. Lift-off compartment lids, integrated mug hangers, and accessory shelves all in one freestanding unit.',
     images: [
-      img('Wood & Metal Tea Station Organizer', 'metal wood organiser (1).png'),
-      img('Wood & Metal Tea Station Organizer', 'metal wood organiser (7).png'),
-      img('Wood & Metal Tea Station Organizer', 'metal wood organiser (8).png'),
-      img('Wood & Metal Tea Station Organizer', 'metal wood organiser (9).png'),
-      img('Wood & Metal Tea Station Organizer', 'metal wood organiser (10).png'),
-      img('Wood & Metal Tea Station Organizer', 'metal wood organiser (11).png'),
+      img('wood-metal-tea-station-organizer', 'metal-wood-organiser-1.png'),
+      img('wood-metal-tea-station-organizer', 'metal-wood-organiser-10.png'),
+      img('wood-metal-tea-station-organizer', 'metal-wood-organiser-11.png'),
+      img('wood-metal-tea-station-organizer', 'metal-wood-organiser-7.png'),
+      img('wood-metal-tea-station-organizer', 'metal-wood-organiser-8.png'),
+      img('wood-metal-tea-station-organizer', 'metal-wood-organiser-9.png'),
     ],
     specs: {
       'Closure Type': 'Lift-off lids on storage compartments',
@@ -256,10 +256,10 @@ export const PRODUCTS = {
     intro:
       'A pair of rustic burnt-finish wood caddies with jute rope side handles and "Coffee Bar" white-paint script on the front. Open-top divided compartments — drop in K-cups, sugar packets, stir sticks, tea bags. Two stackable sizes per set. Farmhouse / coffee-shop aesthetic.',
     images: [
-      img('set-1', 'ScreenShot_2026-05-07_172938_835.png'),
-      img('set-1', 'ScreenShot_2026-05-07_172959_387.png'),
-      img('set-1', 'ScreenShot_2026-05-07_173006_914.png'),
-      img('set-1', 'ScreenShot_2026-05-07_173016_337.png'),
+      img('set-1', 'set-1-01.png'),
+      img('set-1', 'set-1-02.png'),
+      img('set-1', 'set-1-03.png'),
+      img('set-1', 'set-1-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top divided compartments',
@@ -293,10 +293,10 @@ export const PRODUCTS = {
     intro:
       'A solid oak tea box with a hinged full-glass lid that lets you see the entire tea selection at a glance. Six removable dividers create the standard 6-compartment grid; "TEA BOX" laser-engraved on the front. Premium retail-display ready.',
     images: [
-      img('2', 'ScreenShot_2026-05-07_173046_515.png'),
-      img('2', 'ScreenShot_2026-05-07_173104_253.png'),
-      img('2', 'ScreenShot_2026-05-07_173111_406.png'),
-      img('2', 'ScreenShot_2026-05-07_173121_265.png'),
+      img('2', '2-01.png'),
+      img('2', '2-02.png'),
+      img('2', '2-03.png'),
+      img('2', '2-04.png'),
     ],
     specs: {
       'Closure Type': 'Hinged glass-window lid with brass clasp',
@@ -331,10 +331,10 @@ export const PRODUCTS = {
     intro:
       'A rustic burnt-finish 2-drawer cabinet for tea bags, capsules, accessories, or desk supplies. Antique brass ring pulls and visible wood grain produce a vintage workshop look. Stackable footprint suits desktops and counter corners.',
     images: [
-      img('3', 'ScreenShot_2026-05-07_173151_726.png'),
-      img('3', 'ScreenShot_2026-05-07_173159_433.png'),
-      img('3', 'ScreenShot_2026-05-07_173207_246.png'),
-      img('3', 'ScreenShot_2026-05-07_173215_072.png'),
+      img('3', '3-01.png'),
+      img('3', '3-02.png'),
+      img('3', '3-03.png'),
+      img('3', '3-04.png'),
     ],
     specs: {
       'Closure Type': '2 pull-out drawers',
@@ -367,9 +367,9 @@ export const PRODUCTS = {
     intro:
       'A compact open-top bamboo caddy with 4 internal compartments — sized for tea bags, granola bars, snack pouches, or condiment packets. Clean natural bamboo finish, food-safe, stackable, and small enough for any countertop or cabinet shelf.',
     images: [
-      img('4', 'ScreenShot_2026-05-07_173246_957.png'),
-      img('4', 'ScreenShot_2026-05-07_173254_200.png'),
-      img('4', 'ScreenShot_2026-05-07_173301_927.png'),
+      img('4', '4-01.png'),
+      img('4', '4-02.png'),
+      img('4', '4-03.png'),
     ],
     specs: {
       'Closure Type': 'Open-top with internal dividers',
@@ -402,10 +402,10 @@ export const PRODUCTS = {
     intro:
       'A premium acacia tea box with a hinged glass-window lid up top and a separate full-width storage drawer below. Three top compartments for tea bags; the drawer holds spoons, sweeteners, or extra accessories. The dramatic acacia grain pattern makes every piece unique.',
     images: [
-      img('5', 'ScreenShot_2026-05-07_173330_363.png'),
-      img('5', 'ScreenShot_2026-05-07_173338_891.png'),
-      img('5', 'ScreenShot_2026-05-07_173347_193.png'),
-      img('5', 'ScreenShot_2026-05-07_173402_955.png'),
+      img('5', '5-01.png'),
+      img('5', '5-02.png'),
+      img('5', '5-03.png'),
+      img('5', '5-04.png'),
     ],
     specs: {
       'Closure Type': 'Hinged glass-window lid + lower drawer',
@@ -439,10 +439,10 @@ export const PRODUCTS = {
     intro:
       'A vintage French country-style tea curio with a hinged glass front door, wreath-and-script decoration, and 9 internal compartments. Antique brown stain and weathered hardware suit shabby-chic, French country, and farmhouse interiors. A statement display piece as much as a tea box.',
     images: [
-      img('6', 'ScreenShot_2026-05-07_173441_648.png'),
-      img('6', 'ScreenShot_2026-05-07_173449_337.png'),
-      img('6', 'ScreenShot_2026-05-07_173456_765.png'),
-      img('6', 'ScreenShot_2026-05-07_173504_961.png'),
+      img('6', '6-01.png'),
+      img('6', '6-02.png'),
+      img('6', '6-03.png'),
+      img('6', '6-04.png'),
     ],
     specs: {
       'Closure Type': 'Hinged glass-front door with vintage latch',
@@ -476,11 +476,11 @@ export const PRODUCTS = {
     intro:
       'A distressed whitewashed wood tea box with an ornate cutout front panel and hinged glass lid. Romantic shabby-chic aesthetic for tea retailers, vintage hotels, and country-style gifting. 9-compartment interior, lift-out tray for cleaning.',
     images: [
-      img('7', 'ScreenShot_2026-05-07_173549_363.png'),
-      img('7', 'ScreenShot_2026-05-07_173556_221.png'),
-      img('7', 'ScreenShot_2026-05-07_173602_841.png'),
-      img('7', 'ScreenShot_2026-05-07_173615_925.png'),
-      img('7', 'ScreenShot_2026-05-07_173626_449.png'),
+      img('7', '7-01.png'),
+      img('7', '7-02.png'),
+      img('7', '7-03.png'),
+      img('7', '7-04.png'),
+      img('7', '7-05.png'),
     ],
     specs: {
       'Closure Type': 'Hinged glass-window lid',
@@ -514,9 +514,9 @@ export const PRODUCTS = {
     intro:
       'A striking striped-grain wood tea box (zebrawood / tigerwood look) with a hinged glass-window lid. 8-compartment interior with removable dividers — fits standard tea bag pouches and pyramid sachets. Dramatic visual presence for premium retail and gifting.',
     images: [
-      img('8', 'ScreenShot_2026-05-07_173651_545.png'),
-      img('8', 'ScreenShot_2026-05-07_173702_015.png'),
-      img('8', 'ScreenShot_2026-05-07_173710_505.png'),
+      img('8', '8-01.png'),
+      img('8', '8-02.png'),
+      img('8', '8-03.png'),
     ],
     specs: {
       'Closure Type': 'Hinged glass-window lid with front clasp',
@@ -549,11 +549,11 @@ export const PRODUCTS = {
     intro:
       'A wide-format bamboo organizer with a full-glass hinged top revealing 12 small compartments — sized for tea bags, spice pouches, capsule pods, or single-serve sachets. Natural bamboo finish, food-safe lacquer interior.',
     images: [
-      img('9', 'ScreenShot_2026-05-07_173754_456.png'),
-      img('9', 'ScreenShot_2026-05-07_173801_803.png'),
-      img('9', 'ScreenShot_2026-05-07_173809_403.png'),
-      img('9', 'ScreenShot_2026-05-07_173817_390.png'),
-      img('9', 'ScreenShot_2026-05-07_173828_528.png'),
+      img('9', '9-01.png'),
+      img('9', '9-02.png'),
+      img('9', '9-03.png'),
+      img('9', '9-04.png'),
+      img('9', '9-05.png'),
     ],
     specs: {
       'Closure Type': 'Hinged full-panel glass lid',
@@ -586,10 +586,10 @@ export const PRODUCTS = {
     intro:
       'A minimalist bamboo box with a smooth-sliding lid and a delicate lotus motif laser-engraved on top. Hardware-free construction (no hinges, no clasps), making it perfect for high-volume gift packaging where freight cost matters.',
     images: [
-      img('set-2', 'ScreenShot_2026-05-07_175736_768.png'),
-      img('set-2', 'ScreenShot_2026-05-07_175743_359.png'),
-      img('set-2', 'ScreenShot_2026-05-07_175752_367.png'),
-      img('set-2', 'ScreenShot_2026-05-07_175800_154.png'),
+      img('set-2', 'set-2-01.png'),
+      img('set-2', 'set-2-02.png'),
+      img('set-2', 'set-2-03.png'),
+      img('set-2', 'set-2-04.png'),
     ],
     specs: {
       'Closure Type': 'Sliding lid (CNC-routed grooves)',
@@ -622,10 +622,10 @@ export const PRODUCTS = {
     intro:
       'A clean open 2-shelf bamboo caddy designed for the home coffee bar — top shelf holds tea boxes upright; lower shelf has divided slots for K-cups, Nespresso pods, and stir sticks. Compact footprint that consolidates the morning routine into a single object.',
     images: [
-      img('set-3', 'ScreenShot_2026-05-07_175634_206.png'),
-      img('set-3', 'ScreenShot_2026-05-07_175643_291.png'),
-      img('set-3', 'ScreenShot_2026-05-07_175651_129.png'),
-      img('set-3', 'ScreenShot_2026-05-07_175700_441.png'),
+      img('set-3', 'set-3-01.png'),
+      img('set-3', 'set-3-02.png'),
+      img('set-3', 'set-3-03.png'),
+      img('set-3', 'set-3-04.png'),
     ],
     specs: {
       'Closure Type': 'Open 2-tier shelf',
@@ -657,9 +657,9 @@ export const PRODUCTS = {
     intro:
       'A stackable matte-black mini cabinet with three pull-out drawers for tea bags, coffee pods, spice pouches, or any small kitchen consumable. Compact design fits inside cupboards or stacks on countertops. Soft-touch finish that resists fingerprints.',
     images: [
-      img('set-4', 'ScreenShot_2026-05-07_175524_283.png'),
-      img('set-4', 'ScreenShot_2026-05-07_175532_318.png'),
-      img('set-4', 'ScreenShot_2026-05-07_175541_745.png'),
+      img('set-4', 'set-4-01.png'),
+      img('set-4', 'set-4-02.png'),
+      img('set-4', 'set-4-03.png'),
     ],
     specs: {
       'Closure Type': '3 pull-out drawers',
@@ -692,10 +692,10 @@ export const PRODUCTS = {
     intro:
       'A bamboo tea organizer with open compartments visible from the front and a hinged clear acrylic top lid. Fits flat against the back of the counter — display-style storage that lets you see the tea selection without lifting anything.',
     images: [
-      img('set-5', 'ScreenShot_2026-05-07_175420_316.png'),
-      img('set-5', 'ScreenShot_2026-05-07_175428_671.png'),
-      img('set-5', 'ScreenShot_2026-05-07_175437_399.png'),
-      img('set-5', 'ScreenShot_2026-05-07_175446_755.png'),
+      img('set-5', 'set-5-01.png'),
+      img('set-5', 'set-5-02.png'),
+      img('set-5', 'set-5-03.png'),
+      img('set-5', 'set-5-04.png'),
     ],
     specs: {
       'Closure Type': 'Hinged acrylic lid · open front',
@@ -729,9 +729,9 @@ export const PRODUCTS = {
     intro:
       'A compact bamboo cube-style box with a hinged top lid and a side cutout handle for one-finger lifting. Sized for sugar cubes, tea bags, or small pantry staples. Natural bamboo finish with visible end-grain detail.',
     images: [
-      img('set-6', 'ScreenShot_2026-05-07_175315_342.png'),
-      img('set-6', 'ScreenShot_2026-05-07_175322_426.png'),
-      img('set-6', 'ScreenShot_2026-05-07_175329_158.png'),
+      img('set-6', 'set-6-01.png'),
+      img('set-6', 'set-6-02.png'),
+      img('set-6', 'set-6-03.png'),
     ],
     specs: {
       'Closure Type': 'Hinged top lid',
@@ -765,10 +765,10 @@ export const PRODUCTS = {
     intro:
       'A small footprint bamboo 2-drawer box with knob pulls and an engraved lid. Sized for tea bags, jewelry, sewing notions, or desk supplies. The clean modern bamboo finish suits both kitchen and office contexts.',
     images: [
-      img('set-7', 'ScreenShot_2026-05-07_175226_262.png'),
-      img('set-7', 'ScreenShot_2026-05-07_175234_854.png'),
-      img('set-7', 'ScreenShot_2026-05-07_175243_200.png'),
-      img('set-7', 'ScreenShot_2026-05-07_175251_391.png'),
+      img('set-7', 'set-7-01.png'),
+      img('set-7', 'set-7-02.png'),
+      img('set-7', 'set-7-03.png'),
+      img('set-7', 'set-7-04.png'),
     ],
     specs: {
       'Closure Type': '2 pull-out drawers',
@@ -802,10 +802,10 @@ export const PRODUCTS = {
     intro:
       'A solid pine tea box with an intricately laser-cut mandala pattern through the lid. The cutwork casts patterned shadows on the contents and adds visual interest. 8-compartment interior fitted with brass clasp closure.',
     images: [
-      img('set-8', 'ScreenShot_2026-05-07_175115_995.png'),
-      img('set-8', 'ScreenShot_2026-05-07_175123_326.png'),
-      img('set-8', 'ScreenShot_2026-05-07_175131_086.png'),
-      img('set-8', 'ScreenShot_2026-05-07_175139_406.png'),
+      img('set-8', 'set-8-01.png'),
+      img('set-8', 'set-8-02.png'),
+      img('set-8', 'set-8-03.png'),
+      img('set-8', 'set-8-04.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid with brass clasp',
@@ -839,10 +839,10 @@ export const PRODUCTS = {
     intro:
       'The smallest open-top bamboo caddy in our catalog — 2 internal compartments sized for stick-sachets, sugar packets, or single-serve coffee. Sized to fit cup handles or counter corners. Sold as a coordinated 2-piece set.',
     images: [
-      img('set-9', 'ScreenShot_2026-05-07_175030_397.png'),
-      img('set-9', 'ScreenShot_2026-05-07_175037_584.png'),
-      img('set-9', 'ScreenShot_2026-05-07_175044_991.png'),
-      img('set-9', 'ScreenShot_2026-05-07_175052_923.png'),
+      img('set-9', 'set-9-01.png'),
+      img('set-9', 'set-9-02.png'),
+      img('set-9', 'set-9-03.png'),
+      img('set-9', 'set-9-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top with single divider',
@@ -876,11 +876,11 @@ export const PRODUCTS = {
     intro:
       'A tilted-front black wood caddy designed for grab-and-go packet storage — single-serve sweeteners, condiments, snack bars, and stick-sachets. Front "PACKETS" chalk-style label customizable to brand needs. Sized for office break rooms and café self-service stations.',
     images: [
-      img('set-10', 'ScreenShot_2026-05-07_174318_929.png'),
-      img('set-10', 'ScreenShot_2026-05-07_174326_098.png'),
-      img('set-10', 'ScreenShot_2026-05-07_174333_100.png'),
-      img('set-10', 'ScreenShot_2026-05-07_174340_542.png'),
-      img('set-10', 'ScreenShot_2026-05-07_174349_155.png'),
+      img('set-10', 'set-10-01.png'),
+      img('set-10', 'set-10-02.png'),
+      img('set-10', 'set-10-03.png'),
+      img('set-10', 'set-10-04.png'),
+      img('set-10', 'set-10-05.png'),
     ],
     specs: {
       'Closure Type': 'Open tilted-front',
@@ -913,10 +913,10 @@ export const PRODUCTS = {
     intro:
       'A wide multi-compartment matte black caddy designed for the full coffee station — pods, sugar canister, stir sticks, cup stack, milk pots. Distinctive "Coffee Bar" script branding. The flagship of our coffee-bar accessory range.',
     images: [
-      img('set-11', 'ScreenShot_2026-05-07_174411_122.png'),
-      img('set-11', 'ScreenShot_2026-05-07_174420_736.png'),
-      img('set-11', 'ScreenShot_2026-05-07_174428_292.png'),
-      img('set-11', 'ScreenShot_2026-05-07_174435_888.png'),
+      img('set-11', 'set-11-01.png'),
+      img('set-11', 'set-11-02.png'),
+      img('set-11', 'set-11-03.png'),
+      img('set-11', 'set-11-04.png'),
     ],
     specs: {
       'Closure Type': 'Open multi-compartment',
@@ -949,12 +949,12 @@ export const PRODUCTS = {
     intro:
       'A compact 3-compartment version of our flagship Coffee Bar caddy. Sized for smaller home counters or office desks. Each compartment 3.7" wide — fits standard coffee pods, tea bag boxes, or small accessory containers.',
     images: [
-      img('set-12', 'ScreenShot_2026-05-07_174444_288.png'),
-      img('set-12', 'ScreenShot_2026-05-07_174544_051.png'),
-      img('set-12', 'ScreenShot_2026-05-07_174551_173.png'),
-      img('set-12', 'ScreenShot_2026-05-07_174559_743.png'),
-      img('set-12', 'ScreenShot_2026-05-07_174608_139.png'),
-      img('set-12', 'ScreenShot_2026-05-07_174617_539.png'),
+      img('set-12', 'set-12-01.png'),
+      img('set-12', 'set-12-02.png'),
+      img('set-12', 'set-12-03.png'),
+      img('set-12', 'set-12-04.png'),
+      img('set-12', 'set-12-05.png'),
+      img('set-12', 'set-12-06.png'),
     ],
     specs: {
       'Closure Type': 'Open 3-compartment',
@@ -987,10 +987,10 @@ export const PRODUCTS = {
     intro:
       'Our most popular tea box format, available in 2 sizes — bamboo body with full-glass hinged lid and 8 internal compartments. Removable dividers, brass front clasp, food-safe finish. Versatile workhorse for retail tea brands and hospitality.',
     images: [
-      img('set-13', 'ScreenShot_2026-05-07_174643_030.png'),
-      img('set-13', 'ScreenShot_2026-05-07_174650_251.png'),
-      img('set-13', 'ScreenShot_2026-05-07_174657_199.png'),
-      img('set-13', 'ScreenShot_2026-05-07_174704_983.png'),
+      img('set-13', 'set-13-01.png'),
+      img('set-13', 'set-13-02.png'),
+      img('set-13', 'set-13-03.png'),
+      img('set-13', 'set-13-04.png'),
     ],
     specs: {
       'Closure Type': 'Hinged glass-window lid with brass clasp',
@@ -1025,10 +1025,10 @@ export const PRODUCTS = {
     intro:
       'A unique rotating wooden tea organizer with smooth 360° spin — every compartment is one quarter-turn away. Holds 8 tea bag types in vertical slots; ideal for café self-service, hotel breakfast bars, and home tea enthusiasts. Walnut-stained finish on solid pine.',
     images: [
-      img('set-14', 'ScreenShot_2026-05-07_174732_023.png'),
-      img('set-14', 'ScreenShot_2026-05-07_174739_418.png'),
-      img('set-14', 'ScreenShot_2026-05-07_174747_543.png'),
-      img('set-14', 'ScreenShot_2026-05-07_174755_451.png'),
+      img('set-14', 'set-14-01.png'),
+      img('set-14', 'set-14-02.png'),
+      img('set-14', 'set-14-03.png'),
+      img('set-14', 'set-14-04.png'),
     ],
     specs: {
       'Closure Type': 'Open vertical slots',
@@ -1061,10 +1061,10 @@ export const PRODUCTS = {
     intro:
       'A long open tray with 3 deep compartments and side carry cutouts — perfect for tea bag selection, condiment service, or kitchen prep mise en place. Honey-toned solid acacia with a hand-rubbed oil finish. Reads as both organizer and serving piece.',
     images: [
-      img('set-15', 'ScreenShot_2026-05-07_174913_174.png'),
-      img('set-15', 'ScreenShot_2026-05-07_174920_679.png'),
-      img('set-15', 'ScreenShot_2026-05-07_174927_560.png'),
-      img('set-15', 'ScreenShot_2026-05-07_174935_664.png'),
+      img('set-15', 'set-15-01.png'),
+      img('set-15', 'set-15-02.png'),
+      img('set-15', 'set-15-03.png'),
+      img('set-15', 'set-15-04.png'),
     ],
     specs: {
       'Closure Type': 'Open tray with internal dividers',

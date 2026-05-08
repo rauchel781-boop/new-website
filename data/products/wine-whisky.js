@@ -3,7 +3,7 @@
 // Image paths reference /public/wine-whisky-boxes/<product-folder>/
 // ─────────────────────────────────────────────────────────────────────────
 
-const PARENT = 'Wine & Whisky Boxes';
+const PARENT = 'wine-whisky-boxes';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
 
@@ -16,11 +16,11 @@ export const PRODUCTS = {
     intro:
       'A premium single-bottle wine presentation box in solid bamboo with a hinged lid and brass clasp. Foam-cut lid recess holds a 4-piece sommelier kit — corkscrew, drip ring, foil cutter, and pour spout — turning the box itself into a complete gift.',
     images: [
-      img('bamboo wine box', 'ScreenShot_2026-05-04_200210_373.png'),
-      img('bamboo wine box', 'ScreenShot_2026-05-04_200220_049.png'),
-      img('bamboo wine box', 'ScreenShot_2026-05-04_200228_834.png'),
-      img('bamboo wine box', 'ScreenShot_2026-05-04_200236_185.png'),
-      img('bamboo wine box', 'ScreenShot_2026-05-04_200244_603.png'),
+      img('bamboo-wine-box', 'bamboo-wine-box-01.png'),
+      img('bamboo-wine-box', 'bamboo-wine-box-02.png'),
+      img('bamboo-wine-box', 'bamboo-wine-box-03.png'),
+      img('bamboo-wine-box', 'bamboo-wine-box-04.png'),
+      img('bamboo-wine-box', 'bamboo-wine-box-05.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid with brass clasp',
@@ -56,12 +56,12 @@ export const PRODUCTS = {
     intro:
       'A vintage-rustic storage chest in lightweight paulownia, with a hinged lid, brass-finish hardware, and natural rope side handles. Sized for multi-bottle wine storage, gift-set assemblies, or as a presentation crate for spirit launches.',
     images: [
-      img('paulownia wooden-box', 'ScreenShot_2026-05-04_195900_650.png'),
-      img('paulownia wooden-box', 'ScreenShot_2026-05-04_195912_229.png'),
-      img('paulownia wooden-box', 'ScreenShot_2026-05-04_195920_592.png'),
-      img('paulownia wooden-box', 'ScreenShot_2026-05-04_195940_400.png'),
-      img('paulownia wooden-box', 'ScreenShot_2026-05-04_195948_205.png'),
-      img('paulownia wooden-box', 'ScreenShot_2026-05-04_195957_064.png'),
+      img('paulownia-wooden-box', 'paulownia-wooden-box-01.png'),
+      img('paulownia-wooden-box', 'paulownia-wooden-box-02.png'),
+      img('paulownia-wooden-box', 'paulownia-wooden-box-03.png'),
+      img('paulownia-wooden-box', 'paulownia-wooden-box-04.png'),
+      img('paulownia-wooden-box', 'paulownia-wooden-box-05.png'),
+      img('paulownia-wooden-box', 'paulownia-wooden-box-06.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid (full-width)',
@@ -96,12 +96,12 @@ export const PRODUCTS = {
     intro:
       'A pine wine box sized for 3 standard bottles (350 × 135 × 140 mm), with a sliding lid featuring a clear acrylic window. The transparent top showcases the bottles inside — perfect for retail display, wine subscription gifts, or curated tasting sets.',
     images: [
-      img('pine-wine-crate-sliding', 'ScreenShot_2026-05-04_195630_945.png'),
-      img('pine-wine-crate-sliding', 'ScreenShot_2026-05-04_195647_897.png'),
-      img('pine-wine-crate-sliding', 'ScreenShot_2026-05-04_195657_086.png'),
-      img('pine-wine-crate-sliding', 'ScreenShot_2026-05-04_195705_193.png'),
-      img('pine-wine-crate-sliding', 'ScreenShot_2026-05-04_195712_995.png'),
-      img('pine-wine-crate-sliding', 'ScreenShot_2026-05-04_195719_426.png'),
+      img('pine-wine-crate-sliding', 'pine-wine-crate-sliding-01.png'),
+      img('pine-wine-crate-sliding', 'pine-wine-crate-sliding-02.png'),
+      img('pine-wine-crate-sliding', 'pine-wine-crate-sliding-03.png'),
+      img('pine-wine-crate-sliding', 'pine-wine-crate-sliding-04.png'),
+      img('pine-wine-crate-sliding', 'pine-wine-crate-sliding-05.png'),
+      img('pine-wine-crate-sliding', 'pine-wine-crate-sliding-06.png'),
     ],
     specs: {
       'Closure Type': 'Sliding lid with acrylic window',
@@ -137,11 +137,11 @@ export const PRODUCTS = {
     intro:
       'The classic rustic wine box — solid pine, sliding top, and burned-in branding. The simplest, most cost-effective single-bottle format. Hardware-free construction means lower cost, easier shipping, and a clean exterior canvas for branding.',
     images: [
-      img('single-bottle-wine-box', 'ScreenShot_2026-05-04_195301_120.png'),
-      img('single-bottle-wine-box', 'ScreenShot_2026-05-04_195316_240.png'),
-      img('single-bottle-wine-box', 'ScreenShot_2026-05-04_195323_922.png'),
-      img('single-bottle-wine-box', 'ScreenShot_2026-05-04_195331_035.png'),
-      img('single-bottle-wine-box', 'ScreenShot_2026-05-04_195339_872.png'),
+      img('single-bottle-wine-box', 'single-bottle-wine-box-01.png'),
+      img('single-bottle-wine-box', 'single-bottle-wine-box-02.png'),
+      img('single-bottle-wine-box', 'single-bottle-wine-box-03.png'),
+      img('single-bottle-wine-box', 'single-bottle-wine-box-04.png'),
+      img('single-bottle-wine-box', 'single-bottle-wine-box-05.png'),
     ],
     specs: {
       'Closure Type': 'Sliding lid (CNC-routed grooves)',
@@ -176,11 +176,11 @@ export const PRODUCTS = {
     intro:
       'A multi-bottle whisky/wine crate in solid pine with a lift-off lid and natural rope handle. The flat lid surface is a generous canvas for screen-printed branding (shown here with Balcones Distilling). Carry-friendly, distinctive, and durable enough to be reused as decor.',
     images: [
-      img('sliding-wine-presentation-set', 'ScreenShot_2026-05-04_195454_342.png'),
-      img('sliding-wine-presentation-set', 'ScreenShot_2026-05-04_195505_061.png'),
-      img('sliding-wine-presentation-set', 'ScreenShot_2026-05-04_195513_315.png'),
-      img('sliding-wine-presentation-set', 'ScreenShot_2026-05-04_195521_792.png'),
-      img('sliding-wine-presentation-set', 'ScreenShot_2026-05-04_195530_982.png'),
+      img('sliding-wine-presentation-set', 'sliding-wine-presentation-set-01.png'),
+      img('sliding-wine-presentation-set', 'sliding-wine-presentation-set-02.png'),
+      img('sliding-wine-presentation-set', 'sliding-wine-presentation-set-03.png'),
+      img('sliding-wine-presentation-set', 'sliding-wine-presentation-set-04.png'),
+      img('sliding-wine-presentation-set', 'sliding-wine-presentation-set-05.png'),
     ],
     specs: {
       'Closure Type': 'Lift-off lid (separate top + base)',

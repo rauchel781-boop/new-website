@@ -3,7 +3,7 @@
 // Image paths reference /public/bamboo-box/<folder>/
 // ─────────────────────────────────────────────────────────────────────────
 
-const PARENT = 'bamboo box';
+const PARENT = 'bamboo-box';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
 
@@ -16,11 +16,11 @@ export const PRODUCTS = {
     intro:
       'An 8-compartment bamboo organizer with a clear acrylic / glass lid — see contents at a glance. Perfect for tea bags, jewelry, vitamins, hardware, or any small parts that need sorting in a clean, light-toned wood.',
     images: [
-      img('set-1', 'ScreenShot_2026-05-06_192756_317.png'),
-      img('set-1', 'ScreenShot_2026-05-06_192806_298.png'),
-      img('set-1', 'ScreenShot_2026-05-06_192812_948.png'),
-      img('set-1', 'ScreenShot_2026-05-06_192820_026.png'),
-      img('set-1', 'ScreenShot_2026-05-06_192827_068.png'),
+      img('set-1', 'set-1-01.png'),
+      img('set-1', 'set-1-02.png'),
+      img('set-1', 'set-1-03.png'),
+      img('set-1', 'set-1-04.png'),
+      img('set-1', 'set-1-05.png'),
     ],
     specs: {
       'Closure Type': 'Hinged glass / acrylic lid',
@@ -55,9 +55,9 @@ export const PRODUCTS = {
     intro:
       'A slim hinged bamboo presentation box with a black felt insert — purpose-built for chopstick gift sets, premium pens, fountain pen sets, or paint brushes. Light bamboo exterior contrasts beautifully against deep black interior.',
     images: [
-      img('2', 'ScreenShot_2026-05-06_192946_034.png'),
-      img('2', 'ScreenShot_2026-05-06_192953_545.png'),
-      img('2', 'ScreenShot_2026-05-06_193001_476.png'),
+      img('2', '2-01.png'),
+      img('2', '2-02.png'),
+      img('2', '2-03.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid',
@@ -92,11 +92,11 @@ export const PRODUCTS = {
     intro:
       'A two-tier stackable bamboo crate set for fruits and vegetables — keep ripening produce organized on a counter or pantry shelf. Solid bamboo construction with hand-hold cutouts and good airflow between tiers.',
     images: [
-      img('set-2', 'ScreenShot_2026-05-06_192844_624.png'),
-      img('set-2', 'ScreenShot_2026-05-06_192851_349.png'),
-      img('set-2', 'ScreenShot_2026-05-06_192907_180.png'),
-      img('set-2', 'ScreenShot_2026-05-06_192914_596.png'),
-      img('set-2', 'ScreenShot_2026-05-06_192923_512.png'),
+      img('set-2', 'set-2-01.png'),
+      img('set-2', 'set-2-02.png'),
+      img('set-2', 'set-2-03.png'),
+      img('set-2', 'set-2-04.png'),
+      img('set-2', 'set-2-05.png'),
     ],
     specs: {
       'Closure Type': 'Open-top stackable bins',
@@ -131,9 +131,9 @@ export const PRODUCTS = {
     intro:
       'A hinged-lid bamboo tea organizer with five tall compartments and a brushed-chrome hasp clasp. Handles standard tea bag sleeves; the clear acrylic top keeps your selection visible while protecting from light and humidity.',
     images: [
-      img('set-3', 'ScreenShot_2026-05-06_193042_061.png'),
-      img('set-3', 'ScreenShot_2026-05-06_193049_013.png'),
-      img('set-3', 'ScreenShot_2026-05-06_193055_716.png'),
+      img('set-3', 'set-3-01.png'),
+      img('set-3', 'set-3-02.png'),
+      img('set-3', 'set-3-03.png'),
     ],
     specs: {
       'Closure Type': 'Hinged glass-top + hasp',
@@ -168,9 +168,9 @@ export const PRODUCTS = {
     intro:
       'A four-slot bamboo organizer that fits inside a kitchen drawer — pulls out, dispenses, refills. Labeled Gallon / Quart / Sandwich / Snack slots end the cabinet jumble of mismatched plastic bag boxes.',
     images: [
-      img('set-4', 'ScreenShot_2026-05-06_193122_283.png'),
-      img('set-4', 'ScreenShot_2026-05-06_193135_783.png'),
-      img('set-4', 'ScreenShot_2026-05-06_193149_947.png'),
+      img('set-4', 'set-4-01.png'),
+      img('set-4', 'set-4-02.png'),
+      img('set-4', 'set-4-03.png'),
     ],
     specs: {
       'Closure Type': 'Open dispenser slots',
@@ -205,10 +205,10 @@ export const PRODUCTS = {
     intro:
       'A three-section bamboo cutlery caddy with a rear napkin slot, engraved labels for forks, spoons, and knives. Built solid enough for daily catering and service, light enough to carry from station to station.',
     images: [
-      img('set-5', 'ScreenShot_2026-05-06_193217_111.png'),
-      img('set-5', 'ScreenShot_2026-05-06_193225_739.png'),
-      img('set-5', 'ScreenShot_2026-05-06_193233_297.png'),
-      img('set-5', 'ScreenShot_2026-05-06_193243_551.png'),
+      img('set-5', 'set-5-01.png'),
+      img('set-5', 'set-5-02.png'),
+      img('set-5', 'set-5-03.png'),
+      img('set-5', 'set-5-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top with napkin slot',
@@ -243,9 +243,9 @@ export const PRODUCTS = {
     intro:
       'A simple bamboo sliding-lid box — the cleanest possible exterior, no hardware. The flat lid is a perfect canvas for laser engraving. Ideal for gift packaging, craft kits, pen sets, and retail-ready unboxing experiences.',
     images: [
-      img('set-6', 'ScreenShot_2026-05-06_193306_701.png'),
-      img('set-6', 'ScreenShot_2026-05-06_193314_094.png'),
-      img('set-6', 'ScreenShot_2026-05-06_193325_196.png'),
+      img('set-6', 'set-6-01.png'),
+      img('set-6', 'set-6-02.png'),
+      img('set-6', 'set-6-03.png'),
     ],
     specs: {
       'Closure Type': 'Sliding lid (CNC groove)',
@@ -280,10 +280,10 @@ export const PRODUCTS = {
     intro:
       'A bamboo coffee-station organizer that puts a coffee maker, sugar containers, K-cup pods, and napkins all in one tidy footprint. Front drawer holds K-cups; side compartment holds coffee accessories. Sized for most home and office machines.',
     images: [
-      img('set-7', 'ScreenShot_2026-05-06_193423_665.png'),
-      img('set-7', 'ScreenShot_2026-05-06_193432_419.png'),
-      img('set-7', 'ScreenShot_2026-05-06_193440_890.png'),
-      img('set-7', 'ScreenShot_2026-05-06_193448_785.png'),
+      img('set-7', 'set-7-01.png'),
+      img('set-7', 'set-7-02.png'),
+      img('set-7', 'set-7-03.png'),
+      img('set-7', 'set-7-04.png'),
     ],
     specs: {
       'Closure Type': 'Pull-out drawer + open shelf',
@@ -318,15 +318,15 @@ export const PRODUCTS = {
     intro:
       'A bamboo bath accessory set — soap dispenser, tumbler, and tray in matching pale bamboo. Naturally water-resistant, antimicrobial, and beautifully grained. The set anchors a spa-style bathroom or hotel guestroom.',
     images: [
-      img('set-8', 'ScreenShot_2026-05-06_193512_039.png'),
-      img('set-8', 'ScreenShot_2026-05-06_193519_411.png'),
-      img('set-8', 'ScreenShot_2026-05-06_193527_252.png'),
-      img('set-8', 'ScreenShot_2026-05-06_193535_684.png'),
-      img('set-8', 'ScreenShot_2026-05-06_193547_148.png'),
-      img('set-8', 'ScreenShot_2026-05-06_193554_418.png'),
-      img('set-8', 'ScreenShot_2026-05-06_193600_859.png'),
-      img('set-8', 'ScreenShot_2026-05-06_193607_641.png'),
-      img('set-8', 'ScreenShot_2026-05-06_193614_361.png'),
+      img('set-8', 'set-8-01.png'),
+      img('set-8', 'set-8-02.png'),
+      img('set-8', 'set-8-03.png'),
+      img('set-8', 'set-8-04.png'),
+      img('set-8', 'set-8-05.png'),
+      img('set-8', 'set-8-06.png'),
+      img('set-8', 'set-8-07.png'),
+      img('set-8', 'set-8-08.png'),
+      img('set-8', 'set-8-09.png'),
     ],
     specs: {
       'Set Includes': 'Dispenser + tumbler + soap tray',
@@ -361,9 +361,9 @@ export const PRODUCTS = {
     intro:
       'A three-compartment open-top bamboo tray for tabletop sundries — keys, mail, remotes, makeup brushes, snacks, hardware. The simplest possible organizer; sized to disappear into any room.',
     images: [
-      img('set-9', 'ScreenShot_2026-05-06_193637_299.png'),
-      img('set-9', 'ScreenShot_2026-05-06_193644_490.png'),
-      img('set-9', 'ScreenShot_2026-05-06_193651_066.png'),
+      img('set-9', 'set-9-01.png'),
+      img('set-9', 'set-9-02.png'),
+      img('set-9', 'set-9-03.png'),
     ],
     specs: {
       'Closure Type': 'Open-top tray',
@@ -398,9 +398,9 @@ export const PRODUCTS = {
     intro:
       'A handled bamboo cutlery caddy with three deep sections — forks, knives, spoons — and a center carry handle for moving from kitchen to dining room. Substantial enough for full-size dinnerware, light enough to carry one-handed.',
     images: [
-      img('set-10', 'ScreenShot_2026-05-06_193726_412.png'),
-      img('set-10', 'ScreenShot_2026-05-06_193737_355.png'),
-      img('set-10', 'ScreenShot_2026-05-06_193749_385.png'),
+      img('set-10', 'set-10-01.png'),
+      img('set-10', 'set-10-02.png'),
+      img('set-10', 'set-10-03.png'),
     ],
     specs: {
       'Closure Type': 'Open-top with center handle',
@@ -435,9 +435,9 @@ export const PRODUCTS = {
     intro:
       'A lift-off-lid bamboo cable management box — hide power strips, cords, and chargers from view. Decorative side cutouts give the cords clean exit paths and improve airflow. The pale bamboo blends into any modern desk or living room.',
     images: [
-      img('set-11', 'ScreenShot_2026-05-06_193834_049.png'),
-      img('set-11', 'ScreenShot_2026-05-06_193841_172.png'),
-      img('set-11', 'ScreenShot_2026-05-06_193849_754.png'),
+      img('set-11', 'set-11-01.png'),
+      img('set-11', 'set-11-02.png'),
+      img('set-11', 'set-11-03.png'),
     ],
     specs: {
       'Closure Type': 'Lift-off lid',
@@ -472,10 +472,10 @@ export const PRODUCTS = {
     intro:
       'A bamboo in-drawer organizer with sections sized for forks, knives, spoons, chopsticks, and serving utensils. Compact body slides into a standard kitchen drawer; the open top lets you grab without fishing.',
     images: [
-      img('set-12', 'ScreenShot_2026-05-06_193922_986.png'),
-      img('set-12', 'ScreenShot_2026-05-06_193930_354.png'),
-      img('set-12', 'ScreenShot_2026-05-06_193938_108.png'),
-      img('set-12', 'ScreenShot_2026-05-06_193945_896.png'),
+      img('set-12', 'set-12-01.png'),
+      img('set-12', 'set-12-02.png'),
+      img('set-12', 'set-12-03.png'),
+      img('set-12', 'set-12-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top in-drawer organizer',
@@ -510,10 +510,10 @@ export const PRODUCTS = {
     intro:
       'A two-tier stackable tea display caddy — angled bamboo bins make tea bag selections face the user, like a curated cafe display. Stack three or four high; perfect for retail, hotel breakfast bars, and home tea lovers.',
     images: [
-      img('set-13', 'ScreenShot_2026-05-06_194005_600.png'),
-      img('set-13', 'ScreenShot_2026-05-06_194014_546.png'),
-      img('set-13', 'ScreenShot_2026-05-06_194021_082.png'),
-      img('set-13', 'ScreenShot_2026-05-06_194030_364.png'),
+      img('set-13', 'set-13-01.png'),
+      img('set-13', 'set-13-02.png'),
+      img('set-13', 'set-13-03.png'),
+      img('set-13', 'set-13-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top angled bins',
@@ -548,10 +548,10 @@ export const PRODUCTS = {
     intro:
       'A six-section bamboo organizer with deep cells designed for bath bombs, soaps, candles, or skincare retail. Solid bamboo construction looks great on a vanity, retail shelf, or guestroom — equally at home as personal storage or merchandising.',
     images: [
-      img('set-14', 'ScreenShot_2026-05-06_194053_961.png'),
-      img('set-14', 'ScreenShot_2026-05-06_194100_612.png'),
-      img('set-14', 'ScreenShot_2026-05-06_194108_429.png'),
-      img('set-14', 'ScreenShot_2026-05-06_194117_195.png'),
+      img('set-14', 'set-14-01.png'),
+      img('set-14', 'set-14-02.png'),
+      img('set-14', 'set-14-03.png'),
+      img('set-14', 'set-14-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top sectioned tray',

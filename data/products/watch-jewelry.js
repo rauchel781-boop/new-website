@@ -5,7 +5,7 @@
 // characters in filenames are all URL-safe.
 // ─────────────────────────────────────────────────────────────────────────
 
-const PARENT = 'Watch & Jewelry';
+const PARENT = 'watch-jewelry';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
 
@@ -18,10 +18,10 @@ export const PRODUCTS = {
     intro:
       'A premium magnetic-flip ring presentation box with a soft-touch matte exterior and velvet-lined interior. The flip-open design with concealed neodymium magnets creates the engagement-ready reveal. Walnut, oak, or fabric-wrapped MDF options.',
     images: [
-      img('Luxury Velvet Ring Box', 'Walnut Wood Cufflink Box (1).png'),
-      img('Luxury Velvet Ring Box', 'Walnut Wood Cufflink Box (2).png'),
-      img('Luxury Velvet Ring Box', 'Walnut Wood Cufflink Box (3).png'),
-      img('Luxury Velvet Ring Box', 'Walnut Wood Cufflink Box (4).png'),
+      img('luxury-velvet-ring-box', 'walnut-wood-cufflink-box-1.png'),
+      img('luxury-velvet-ring-box', 'walnut-wood-cufflink-box-2.png'),
+      img('luxury-velvet-ring-box', 'walnut-wood-cufflink-box-3.png'),
+      img('luxury-velvet-ring-box', 'walnut-wood-cufflink-box-4.png'),
     ],
     specs: {
       'Closure Type': 'Hidden magnetic flip',
@@ -56,10 +56,10 @@ export const PRODUCTS = {
     intro:
       'A glass-top hinged display case for three watches on velvet pillows. Soft-close European hinges, brass clasp, and removable watch pillows. Equally at home on a retail counter or in a collector’s drawer.',
     images: [
-      img('Three-Watch Display Case', 'ScreenShot_2026-05-04_135435_904.png'),
-      img('Three-Watch Display Case', 'ScreenShot_2026-05-04_135449_157.png'),
-      img('Three-Watch Display Case', 'ScreenShot_2026-05-04_135458_016.png'),
-      img('Three-Watch Display Case', 'ScreenShot_2026-05-04_135521_073.png'),
+      img('three-watch-display-case', 'three-watch-display-case-01.png'),
+      img('three-watch-display-case', 'three-watch-display-case-02.png'),
+      img('three-watch-display-case', 'three-watch-display-case-03.png'),
+      img('three-watch-display-case', 'three-watch-display-case-04.png'),
     ],
     specs: {
       'Closure Type': 'Hinged glass-top with brass clasp',
@@ -94,10 +94,10 @@ export const PRODUCTS = {
     intro:
       'A stackable jewelry organization system with sliding lid. Carbonized bamboo construction with food-safe finish, customizable internal grid for rings, earrings, and necklaces. Modern, sustainable, and built to live on the dresser.',
     images: [
-      img('Bamboo Jewelry Tray Set', 'ScreenShot_2026-05-04_140059_218.png'),
-      img('Bamboo Jewelry Tray Set', 'ScreenShot_2026-05-04_140114_651.png'),
-      img('Bamboo Jewelry Tray Set', 'ScreenShot_2026-05-04_140122_682.png'),
-      img('Bamboo Jewelry Tray Set', 'ScreenShot_2026-05-04_140139_730.png'),
+      img('bamboo-jewelry-tray-set', 'bamboo-jewelry-tray-set-01.png'),
+      img('bamboo-jewelry-tray-set', 'bamboo-jewelry-tray-set-02.png'),
+      img('bamboo-jewelry-tray-set', 'bamboo-jewelry-tray-set-03.png'),
+      img('bamboo-jewelry-tray-set', 'bamboo-jewelry-tray-set-04.png'),
     ],
     specs: {
       'Closure Type': 'Sliding lid (CNC-routed grooves)',
@@ -132,12 +132,12 @@ export const PRODUCTS = {
     intro:
       'An apothecary-inspired multi-tier drawer chest with 6 to 12 small drawers, brass cup pulls, and brass label frames. Each drawer custom-divided for earrings, rings, or pendants. Solid wood construction throughout.',
     images: [
-      img('Multi-Tier Earring Chest', '美图设计室_无损改尺寸_2025_12_11（4）.jpeg'),
-      img('Multi-Tier Earring Chest', '美图设计室_无损改尺寸_2025_12_11（5）.jpeg'),
-      img('Multi-Tier Earring Chest', '美图设计室_无损改尺寸_2025_12_11（6）.jpeg'),
-      img('Multi-Tier Earring Chest', '美图设计室_无损改尺寸_2025_12_11（7）.jpeg'),
-      img('Multi-Tier Earring Chest', '美图设计室_无损改尺寸_2025_12_11（8）.jpeg'),
-      img('Multi-Tier Earring Chest', '美图设计室_无损改尺寸_2025_12_11（9）.jpeg'),
+      img('multi-tier-earring-chest', '2025-12-11-4.jpeg'),
+      img('multi-tier-earring-chest', '2025-12-11-5.jpeg'),
+      img('multi-tier-earring-chest', '2025-12-11-6.jpeg'),
+      img('multi-tier-earring-chest', '2025-12-11-7.jpeg'),
+      img('multi-tier-earring-chest', '2025-12-11-8.jpeg'),
+      img('multi-tier-earring-chest', '2025-12-11-9.jpeg'),
     ],
     specs: {
       'Closure Type': 'Pull-out drawers (apothecary style)',
@@ -173,11 +173,11 @@ export const PRODUCTS = {
     intro:
       'An elongated lift-off lid box specifically sized for necklaces, bracelets, and longer jewelry pieces. Padded velvet inserts with neck-form holders inside. Generous flat lid surface for hot-foil branding or laser engraving.',
     images: [
-      img('Pearl Necklace Presentation Box', 'jewelry box (1).png'),
-      img('Pearl Necklace Presentation Box', 'jewelry box (2).png'),
-      img('Pearl Necklace Presentation Box', 'jewelry box (3).png'),
-      img('Pearl Necklace Presentation Box', 'jewelry box (4).png'),
-      img('Pearl Necklace Presentation Box', 'jewelry box (5).png'),
+      img('pearl-necklace-presentation-box', 'jewelry-box-1.png'),
+      img('pearl-necklace-presentation-box', 'jewelry-box-2.png'),
+      img('pearl-necklace-presentation-box', 'jewelry-box-3.png'),
+      img('pearl-necklace-presentation-box', 'jewelry-box-4.png'),
+      img('pearl-necklace-presentation-box', 'jewelry-box-5.png'),
     ],
     specs: {
       'Closure Type': 'Lift-off two-piece (lid + base)',

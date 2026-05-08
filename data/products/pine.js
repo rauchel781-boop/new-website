@@ -3,7 +3,7 @@
 // Image paths reference /public/pine-wood-box/<folder>/
 // ─────────────────────────────────────────────────────────────────────────
 
-const PARENT = 'pine wood box';
+const PARENT = 'pine-wood-box';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
 
@@ -16,12 +16,12 @@ export const PRODUCTS = {
     intro:
       'A classic pine hinged keepsake box with antique-finish brass hinges and a hook-clasp closure. Smooth-sanded faces accept paint, stain, or decoupage; popular as a bulk craft blank and as ready-to-fill jewelry / memory storage.',
     images: [
-      img('set-1', 'ScreenShot_2026-05-06_184529_690.png'),
-      img('set-1', 'ScreenShot_2026-05-06_184540_519.png'),
-      img('set-1', 'ScreenShot_2026-05-06_184548_107.png'),
-      img('set-1', 'ScreenShot_2026-05-06_184555_409.png'),
-      img('set-1', 'ScreenShot_2026-05-06_184608_669.png'),
-      img('set-1', 'ScreenShot_2026-05-06_184616_162.png'),
+      img('set-1', 'set-1-01.png'),
+      img('set-1', 'set-1-02.png'),
+      img('set-1', 'set-1-03.png'),
+      img('set-1', 'set-1-04.png'),
+      img('set-1', 'set-1-05.png'),
+      img('set-1', 'set-1-06.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid w/ hook clasp',
@@ -56,11 +56,11 @@ export const PRODUCTS = {
     intro:
       'A hexagonal pine hinged box with antique brass clasp — a fun departure from rectangular norms. Sized for ring presentation, special keepsakes, or as a custom retail blank where shape itself is the differentiator.',
     images: [
-      img('set-2', 'ScreenShot_2026-05-06_184634_516.png'),
-      img('set-2', 'ScreenShot_2026-05-06_184641_295.png'),
-      img('set-2', 'ScreenShot_2026-05-06_184648_387.png'),
-      img('set-2', 'ScreenShot_2026-05-06_184655_706.png'),
-      img('set-2', 'ScreenShot_2026-05-06_184703_353.png'),
+      img('set-2', 'set-2-01.png'),
+      img('set-2', 'set-2-02.png'),
+      img('set-2', 'set-2-03.png'),
+      img('set-2', 'set-2-04.png'),
+      img('set-2', 'set-2-05.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid w/ hook clasp',
@@ -95,9 +95,9 @@ export const PRODUCTS = {
     intro:
       'A simple square pine box with a lift-off flat lid — sized to hold a single apple, a small candle, a watch, or any small gift. Honest joinery, smooth-sanded surfaces, and the low-cost appeal of clean pine.',
     images: [
-      img('set-3', 'ScreenShot_2026-05-06_184738_001.png'),
-      img('set-3', 'ScreenShot_2026-05-06_184745_227.png'),
-      img('set-3', 'ScreenShot_2026-05-06_184752_282.png'),
+      img('set-3', 'set-3-01.png'),
+      img('set-3', 'set-3-02.png'),
+      img('set-3', 'set-3-03.png'),
     ],
     specs: {
       'Closure Type': 'Lift-off flat lid',
@@ -132,10 +132,10 @@ export const PRODUCTS = {
     intro:
       'A pine tea organizer with a hinged glass-and-chalkboard lid — six sections for tea bag selections, with a chalk-writeable header panel that says "Today\'s Tea". Charming kitchen organization with a touch of cafe styling.',
     images: [
-      img('set-4', 'ScreenShot_2026-05-06_184817_603.png'),
-      img('set-4', 'ScreenShot_2026-05-06_184823_645.png'),
-      img('set-4', 'ScreenShot_2026-05-06_184831_050.png'),
-      img('set-4', 'ScreenShot_2026-05-06_184838_734.png'),
+      img('set-4', 'set-4-01.png'),
+      img('set-4', 'set-4-02.png'),
+      img('set-4', 'set-4-03.png'),
+      img('set-4', 'set-4-04.png'),
     ],
     specs: {
       'Closure Type': 'Hinged glass + chalkboard lid',
@@ -170,11 +170,11 @@ export const PRODUCTS = {
     intro:
       'A coordinated trio of pine hinged keepsake boxes in three sizes — small, medium, large — with antique brass clasps. Sold as a set or individually. Perfect for retailers offering tiered SKU options.',
     images: [
-      img('set-5', 'ScreenShot_2026-05-06_184857_937.png'),
-      img('set-5', 'ScreenShot_2026-05-06_184905_098.png'),
-      img('set-5', 'ScreenShot_2026-05-06_184912_523.png'),
-      img('set-5', 'ScreenShot_2026-05-06_184920_988.png'),
-      img('set-5', 'ScreenShot_2026-05-06_184929_826.png'),
+      img('set-5', 'set-5-01.png'),
+      img('set-5', 'set-5-02.png'),
+      img('set-5', 'set-5-03.png'),
+      img('set-5', 'set-5-04.png'),
+      img('set-5', 'set-5-05.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid w/ hook clasp',
@@ -209,10 +209,10 @@ export const PRODUCTS = {
     intro:
       'A three-tier pine drawer chest with compartmented drawers sized for 5–15 ml essential oil bottles. Each drawer holds 16+ bottles in pre-cut compartments; perfect for aromatherapists, herbalists, and home wellness retail.',
     images: [
-      img('set-6', 'ScreenShot_2026-05-06_185021_021.png'),
-      img('set-6', 'ScreenShot_2026-05-06_185032_582.png'),
-      img('set-6', 'ScreenShot_2026-05-06_185040_397.png'),
-      img('set-6', 'ScreenShot_2026-05-06_185048_105.png'),
+      img('set-6', 'set-6-01.png'),
+      img('set-6', 'set-6-02.png'),
+      img('set-6', 'set-6-03.png'),
+      img('set-6', 'set-6-04.png'),
     ],
     specs: {
       'Closure Type': 'Pull-out drawers',
@@ -247,8 +247,8 @@ export const PRODUCTS = {
     intro:
       'A nesting set of pine trays in graduated sizes — S / M / L / XL — for craft, retail merchandising, or kitchen service. Stacks compactly when not in use; pulls apart for tabletop styling, market booth display, or coffee service.',
     images: [
-      img('set-7', 'ScreenShot_2026-05-06_185110_875.png'),
-      img('set-7', 'ScreenShot_2026-05-06_185119_281.png'),
+      img('set-7', 'set-7-01.png'),
+      img('set-7', 'set-7-02.png'),
     ],
     specs: {
       'Closure Type': 'Open-top trays (set of 4)',
@@ -283,10 +283,10 @@ export const PRODUCTS = {
     intro:
       'A pine desktop organizer combining a magazine / file slot, two pen wells, and a small bottom drawer for paperclips, sticky notes, or business cards. The honey-tone finish reads warm and modern on a home office desk.',
     images: [
-      img('set-8', 'ScreenShot_2026-05-06_185315_837.png'),
-      img('set-8', 'ScreenShot_2026-05-06_185322_920.png'),
-      img('set-8', 'ScreenShot_2026-05-06_185331_043.png'),
-      img('set-8', 'ScreenShot_2026-05-06_185339_189.png'),
+      img('set-8', 'set-8-01.png'),
+      img('set-8', 'set-8-02.png'),
+      img('set-8', 'set-8-03.png'),
+      img('set-8', 'set-8-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top + bottom drawer',
@@ -321,9 +321,9 @@ export const PRODUCTS = {
     intro:
       'A pine hinged display box with a clear glass top — divided into two cells for paired display of medals, coins, miniatures, or small specimens. Brass clasp closure; pine takes any stain to coordinate with collection theming.',
     images: [
-      img('set-9', 'ScreenShot_2026-05-06_185429_370.png'),
-      img('set-9', 'ScreenShot_2026-05-06_185435_520.png'),
-      img('set-9', 'ScreenShot_2026-05-06_185442_486.png'),
+      img('set-9', 'set-9-01.png'),
+      img('set-9', 'set-9-02.png'),
+      img('set-9', 'set-9-03.png'),
     ],
     specs: {
       'Closure Type': 'Hinged glass lid w/ clasp',
@@ -358,11 +358,11 @@ export const PRODUCTS = {
     intro:
       'A clean pine lift-off-lid box ready for full retail branding — laser engraving, hot foil stamping, or full-color UV print on the lid. Felt-padded interior in 4 cells suits jewelry, accessories, or curated retail kits.',
     images: [
-      img('set-10', 'ScreenShot_2026-05-06_185639_505.png'),
-      img('set-10', 'ScreenShot_2026-05-06_185646_680.png'),
-      img('set-10', 'ScreenShot_2026-05-06_185653_992.png'),
-      img('set-10', 'ScreenShot_2026-05-06_185701_370.png'),
-      img('set-10', 'ScreenShot_2026-05-06_185711_690.png'),
+      img('set-10', 'set-10-01.png'),
+      img('set-10', 'set-10-02.png'),
+      img('set-10', 'set-10-03.png'),
+      img('set-10', 'set-10-04.png'),
+      img('set-10', 'set-10-05.png'),
     ],
     specs: {
       'Closure Type': 'Lift-off flat lid',
@@ -397,10 +397,10 @@ export const PRODUCTS = {
     intro:
       'A multifunctional pine kitchen caddy — utensil compartments on top with engraved fork / spoon / knife icons, plus a row of small spice jar slots along the bottom front. Includes paper-towel holder mount on the side. The complete farmhouse-kitchen statement piece.',
     images: [
-      img('11', 'ScreenShot_2026-05-06_185941_995.png'),
-      img('11', 'ScreenShot_2026-05-06_185948_900.png'),
-      img('11', 'ScreenShot_2026-05-06_185957_798.png'),
-      img('11', 'ScreenShot_2026-05-06_190005_403.png'),
+      img('11', '11-01.png'),
+      img('11', '11-02.png'),
+      img('11', '11-03.png'),
+      img('11', '11-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top w/ paper-towel side mount',
@@ -435,11 +435,11 @@ export const PRODUCTS = {
     intro:
       'A large-format pine storage box with reinforced corners and brass hardware — sized for workshop tools, art supplies, or general home storage where strength matters more than fine presentation. Solid 12 mm pine walls, hinged lid that lays open flat.',
     images: [
-      img('12', 'ScreenShot_2026-05-06_190034_613.png'),
-      img('12', 'ScreenShot_2026-05-06_190041_794.png'),
-      img('12', 'ScreenShot_2026-05-06_190049_414.png'),
-      img('12', 'ScreenShot_2026-05-06_190057_382.png'),
-      img('12', 'ScreenShot_2026-05-06_190212_208.png'),
+      img('12', '12-01.png'),
+      img('12', '12-02.png'),
+      img('12', '12-03.png'),
+      img('12', '12-04.png'),
+      img('12', '12-05.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid w/ hook clasp',
@@ -474,9 +474,9 @@ export const PRODUCTS = {
     intro:
       'A book-style hinged pine box with a felt-lined inner tray sized for a single letter opener, fountain pen, or magnifying glass. Premium gift presentation at workhorse pricing — pine takes engraving cleanly for branded retail.',
     images: [
-      img('set-11', 'ScreenShot_2026-05-06_190219_015.png'),
-      img('set-11', 'ScreenShot_2026-05-06_190226_037.png'),
-      img('set-11', 'ScreenShot_2026-05-06_190233_394.png'),
+      img('set-11', 'set-11-01.png'),
+      img('set-11', 'set-11-02.png'),
+      img('set-11', 'set-11-03.png'),
     ],
     specs: {
       'Closure Type': 'Book-style hinged',
@@ -511,10 +511,10 @@ export const PRODUCTS = {
     intro:
       'A pine tea / coffee station with a hinged top compartment for tea bags or single-origin coffee, plus two paired glass storage jars on the side. Sold complete with the jars; ideal for kitchen counters, breakfast bars, or as a wedding registry kit.',
     images: [
-      img('set-12', 'ScreenShot_2026-05-06_190349_658.png'),
-      img('set-12', 'ScreenShot_2026-05-06_190356_517.png'),
-      img('set-12', 'ScreenShot_2026-05-06_190404_687.png'),
-      img('set-12', 'ScreenShot_2026-05-06_190413_596.png'),
+      img('set-12', 'set-12-01.png'),
+      img('set-12', 'set-12-02.png'),
+      img('set-12', 'set-12-03.png'),
+      img('set-12', 'set-12-04.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid + open jar shelf',
@@ -549,9 +549,9 @@ export const PRODUCTS = {
     intro:
       'A vintage pine display box with 4 internal poles for stacking 150+ stretch bracelets — popular with bracelet retailers, boho jewelry brands, and craft markets. Glass top so the entire collection stays visible while protected from dust.',
     images: [
-      img('set-13', 'ScreenShot_2026-05-06_190518_183.png'),
-      img('set-13', 'ScreenShot_2026-05-06_190525_374.png'),
-      img('set-13', 'ScreenShot_2026-05-06_190533_623.png'),
+      img('set-13', 'set-13-01.png'),
+      img('set-13', 'set-13-02.png'),
+      img('set-13', 'set-13-03.png'),
     ],
     specs: {
       'Closure Type': 'Hinged glass lid',
@@ -586,10 +586,10 @@ export const PRODUCTS = {
     intro:
       'A pine sliding-lid box with a decorative perforated metal mesh insert on one side — gives ventilation for cigar storage, soap drying, or simply a more sophisticated look than plain wood. Sturdy CNC-routed groove gives the lid a smooth slide.',
     images: [
-      img('set-14', 'ScreenShot_2026-05-06_190600_185.png'),
-      img('set-14', 'ScreenShot_2026-05-06_190606_620.png'),
-      img('set-14', 'ScreenShot_2026-05-06_190613_854.png'),
-      img('set-14', 'ScreenShot_2026-05-06_190621_250.png'),
+      img('set-14', 'set-14-01.png'),
+      img('set-14', 'set-14-02.png'),
+      img('set-14', 'set-14-03.png'),
+      img('set-14', 'set-14-04.png'),
     ],
     specs: {
       'Closure Type': 'Sliding lid (CNC groove)',

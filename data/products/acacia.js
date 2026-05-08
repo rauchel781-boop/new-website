@@ -3,7 +3,7 @@
 // Image paths reference /public/acacia-wood-box/<folder>/
 // ─────────────────────────────────────────────────────────────────────────
 
-const PARENT = 'acacia wood box';
+const PARENT = 'acacia-wood-box';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
 
@@ -16,10 +16,10 @@ export const PRODUCTS = {
     intro:
       'A solid acacia cable management box that hides a power strip, surge protector, or charging hub on a desk or nightstand. Slot openings on each end let cords pass through cleanly while the lid keeps everything dust-free and out of sight.',
     images: [
-      img('set-1', 'ScreenShot_2026-05-06_191003_071.png'),
-      img('set-1', 'ScreenShot_2026-05-06_191013_044.png'),
-      img('set-1', 'ScreenShot_2026-05-06_191020_055.png'),
-      img('set-1', 'ScreenShot_2026-05-06_191029_221.png'),
+      img('set-1', 'set-1-01.png'),
+      img('set-1', 'set-1-02.png'),
+      img('set-1', 'set-1-03.png'),
+      img('set-1', 'set-1-04.png'),
     ],
     specs: {
       'Closure Type': 'Lift-off / hinged lid',
@@ -54,10 +54,10 @@ export const PRODUCTS = {
     intro:
       'A square acacia tissue cover for facial tissues — drops over a standard tissue cube and gives any room an instant warm-wood upgrade. Heavy-walled construction sits stable on the counter; the open top lets tissues pull cleanly without snagging.',
     images: [
-      img('2', 'ScreenShot_2026-05-06_191103_486.png'),
-      img('2', 'ScreenShot_2026-05-06_191110_652.png'),
-      img('2', 'ScreenShot_2026-05-06_191117_743.png'),
-      img('2', 'ScreenShot_2026-05-06_191124_977.png'),
+      img('2', '2-01.png'),
+      img('2', '2-02.png'),
+      img('2', '2-03.png'),
+      img('2', '2-04.png'),
     ],
     specs: {
       'Closure Type': 'Open top (drop-over cover)',
@@ -92,11 +92,11 @@ export const PRODUCTS = {
     intro:
       'An acacia recipe card box with a hinged front panel that doubles as a card holder. Keep recipe cards organized inside; pop one out, fold the front, and your card stands upright while you cook — with nothing to clip or splatter.',
     images: [
-      img('3', 'ScreenShot_2026-05-06_191204_037.png'),
-      img('3', 'ScreenShot_2026-05-06_191211_623.png'),
-      img('3', 'ScreenShot_2026-05-06_191220_703.png'),
-      img('3', 'ScreenShot_2026-05-06_191230_734.png'),
-      img('3', 'ScreenShot_2026-05-06_191240_413.png'),
+      img('3', '3-01.png'),
+      img('3', '3-02.png'),
+      img('3', '3-03.png'),
+      img('3', '3-04.png'),
+      img('3', '3-05.png'),
     ],
     specs: {
       'Closure Type': 'Hinged stand-up lid',
@@ -131,11 +131,11 @@ export const PRODUCTS = {
     intro:
       'An 8-compartment acacia tea bag organizer with a clear acrylic lid — see your selection at a glance, keep tea bags fresh and organized. The hinged-lid design keeps it tidy on countertops, in pantries, or as a tea-bar centrepiece for hospitality.',
     images: [
-      img('4', 'ScreenShot_2026-05-06_191317_195.png'),
-      img('4', 'ScreenShot_2026-05-06_191324_586.png'),
-      img('4', 'ScreenShot_2026-05-06_191331_588.png'),
-      img('4', 'ScreenShot_2026-05-06_191339_788.png'),
-      img('4', 'ScreenShot_2026-05-06_191348_485.png'),
+      img('4', '4-01.png'),
+      img('4', '4-02.png'),
+      img('4', '4-03.png'),
+      img('4', '4-04.png'),
+      img('4', '4-05.png'),
     ],
     specs: {
       'Closure Type': 'Hinged glass lid',
@@ -170,9 +170,9 @@ export const PRODUCTS = {
     intro:
       'A two-tier acacia kitchen station — back compartment slots for chef knives, front open bin for spatulas, whisks, and stirrers. Solid hardwood construction stays planted on the counter; the contrasting acacia grain is pretty enough to leave on display.',
     images: [
-      img('5', 'ScreenShot_2026-05-06_191409_592.png'),
-      img('5', 'ScreenShot_2026-05-06_191421_039.png'),
-      img('5', 'ScreenShot_2026-05-06_191431_385.png'),
+      img('5', '5-01.png'),
+      img('5', '5-02.png'),
+      img('5', '5-03.png'),
     ],
     specs: {
       'Closure Type': 'Open-top (knife slots + bin)',
@@ -207,11 +207,11 @@ export const PRODUCTS = {
     intro:
       'A round acacia utensil crock with a clean band-stripe pattern in the staves. Sized for spatulas, ladles, whisks, and tongs — heavy enough to stay put, beautiful enough to leave on the counter.',
     images: [
-      img('6', 'ScreenShot_2026-05-06_191454_272.png'),
-      img('6', 'ScreenShot_2026-05-06_191501_820.png'),
-      img('6', 'ScreenShot_2026-05-06_191509_455.png'),
-      img('6', 'ScreenShot_2026-05-06_191516_551.png'),
-      img('6', 'ScreenShot_2026-05-06_191525_282.png'),
+      img('6', '6-01.png'),
+      img('6', '6-02.png'),
+      img('6', '6-03.png'),
+      img('6', '6-04.png'),
+      img('6', '6-05.png'),
     ],
     specs: {
       'Closure Type': 'Open-top crock',
@@ -246,9 +246,9 @@ export const PRODUCTS = {
     intro:
       'A stacked acacia salt and spice cellar — magnet-swivel lid on top tier, a second compartment beneath. Keep finishing salts, pepper flakes, or sugar within an arm\'s reach without the visual clutter of a spice rack.',
     images: [
-      img('7', 'ScreenShot_2026-05-06_191619_719.png'),
-      img('7', 'ScreenShot_2026-05-06_191626_485.png'),
-      img('7', 'ScreenShot_2026-05-06_191633_690.png'),
+      img('7', '7-01.png'),
+      img('7', '7-02.png'),
+      img('7', '7-03.png'),
     ],
     specs: {
       'Closure Type': 'Swivel magnetic lid',
@@ -283,10 +283,10 @@ export const PRODUCTS = {
     intro:
       'A three-tier round acacia salt and spice keeper — each tier rotates open under a single shared lid. Sea salt, pepper, sugar — all in one tight footprint, all closed up tight when not in use.',
     images: [
-      img('8', 'ScreenShot_2026-05-06_191709_241.png'),
-      img('8', 'ScreenShot_2026-05-06_191715_714.png'),
-      img('8', 'ScreenShot_2026-05-06_191727_123.png'),
-      img('8', 'ScreenShot_2026-05-06_191734_452.png'),
+      img('8', '8-01.png'),
+      img('8', '8-02.png'),
+      img('8', '8-03.png'),
+      img('8', '8-04.png'),
     ],
     specs: {
       'Closure Type': 'Rotating shared lid',
@@ -321,10 +321,10 @@ export const PRODUCTS = {
     intro:
       'An 8-compartment acacia organizer with a glass insert lid — built for tea bags, vitamins, jewelry, hardware, or any small parts that benefit from sorting. Removable dividers let you reconfigure to suit the contents.',
     images: [
-      img('9', 'ScreenShot_2026-05-06_191810_752.png'),
-      img('9', 'ScreenShot_2026-05-06_191817_287.png'),
-      img('9', 'ScreenShot_2026-05-06_191824_603.png'),
-      img('9', 'ScreenShot_2026-05-06_191832_661.png'),
+      img('9', '9-01.png'),
+      img('9', '9-02.png'),
+      img('9', '9-03.png'),
+      img('9', '9-04.png'),
     ],
     specs: {
       'Closure Type': 'Hinged glass lid',
@@ -359,10 +359,10 @@ export const PRODUCTS = {
     intro:
       'A compact acacia caddy that holds a 4–6 piece cheese-knife set with cocktail forks, cake servers, or steak knives. Magnetic interior on knife side keeps blades aligned and tips down; the open top makes a cheese-board service feel curated.',
     images: [
-      img('set-2', 'ScreenShot_2026-05-06_192055_296.png'),
-      img('set-2', 'ScreenShot_2026-05-06_192102_952.png'),
-      img('set-2', 'ScreenShot_2026-05-06_192111_453.png'),
-      img('set-2', 'ScreenShot_2026-05-06_192120_318.png'),
+      img('set-2', 'set-2-01.png'),
+      img('set-2', 'set-2-02.png'),
+      img('set-2', 'set-2-03.png'),
+      img('set-2', 'set-2-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top dual compartment',
@@ -397,10 +397,10 @@ export const PRODUCTS = {
     intro:
       'A compact acacia caddy for restaurant table service — holds a salt + pepper grinder, oil + vinegar, or any combination of small bottles and a small flower vase. Built thick to take daily wiping and bussing without warping.',
     images: [
-      img('set-3', 'ScreenShot_2026-05-06_192144_463.png'),
-      img('set-3', 'ScreenShot_2026-05-06_192151_421.png'),
-      img('set-3', 'ScreenShot_2026-05-06_192201_161.png'),
-      img('set-3', 'ScreenShot_2026-05-06_192219_279.png'),
+      img('set-3', 'set-3-01.png'),
+      img('set-3', 'set-3-02.png'),
+      img('set-3', 'set-3-03.png'),
+      img('set-3', 'set-3-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top tray with handle cutouts',
@@ -435,10 +435,10 @@ export const PRODUCTS = {
     intro:
       'A hexagonal stave-built acacia ice bucket with a removable stainless steel inner liner — pour ice in, lift the liner out to wash. The faceted exterior catches light beautifully on bar tops and dining tables.',
     images: [
-      img('set-4', 'ScreenShot_2026-05-06_192305_566.png'),
-      img('set-4', 'ScreenShot_2026-05-06_192312_668.png'),
-      img('set-4', 'ScreenShot_2026-05-06_192320_573.png'),
-      img('set-4', 'ScreenShot_2026-05-06_192328_788.png'),
+      img('set-4', 'set-4-01.png'),
+      img('set-4', 'set-4-02.png'),
+      img('set-4', 'set-4-03.png'),
+      img('set-4', 'set-4-04.png'),
     ],
     specs: {
       'Closure Type': 'Lift-off handled lid',
@@ -473,10 +473,10 @@ export const PRODUCTS = {
     intro:
       'A handled acacia cutlery caddy with three sections — forks, spoons, knives — and a center handle. Engraved utensil icons make sorting effortless for a buffet, BBQ, or party setup. Built solid for repeat catering use.',
     images: [
-      img('set-5', 'ScreenShot_2026-05-06_192434_875.png'),
-      img('set-5', 'ScreenShot_2026-05-06_192443_709.png'),
-      img('set-5', 'ScreenShot_2026-05-06_192452_161.png'),
-      img('set-5', 'ScreenShot_2026-05-06_192502_840.png'),
+      img('set-5', 'set-5-01.png'),
+      img('set-5', 'set-5-02.png'),
+      img('set-5', 'set-5-03.png'),
+      img('set-5', 'set-5-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top with center handle',

@@ -3,7 +3,7 @@
 // Image paths reference /public/paulwnia-wood-box/<folder>/  (parent folder spelling)
 // ─────────────────────────────────────────────────────────────────────────
 
-const PARENT = 'paulwnia wood box';
+const PARENT = 'paulwnia-wood-box';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
 
@@ -16,12 +16,12 @@ export const PRODUCTS = {
     intro:
       'A series of paulownia hinged keepsake boxes in three classic tones — pale natural, mid walnut, and deep ebony. Brass hasp clasp, smooth dovetail corners. Sized for jewelry, mementos, watches, or letters; the size scale lets retailers offer a coordinated three-piece set.',
     images: [
-      img('set-1', 'ScreenShot_2026-05-06_182900_309.png'),
-      img('set-1', 'ScreenShot_2026-05-06_182913_036.png'),
-      img('set-1', 'ScreenShot_2026-05-06_182919_987.png'),
-      img('set-1', 'ScreenShot_2026-05-06_182927_497.png'),
-      img('set-1', 'ScreenShot_2026-05-06_182944_388.png'),
-      img('set-1', 'ScreenShot_2026-05-06_182954_829.png'),
+      img('set-1', 'set-1-01.png'),
+      img('set-1', 'set-1-02.png'),
+      img('set-1', 'set-1-03.png'),
+      img('set-1', 'set-1-04.png'),
+      img('set-1', 'set-1-05.png'),
+      img('set-1', 'set-1-06.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid w/ hasp clasp',
@@ -56,10 +56,10 @@ export const PRODUCTS = {
     intro:
       'A small paulownia sliding-lid box — perfect for gift sets, craft kits, jewelry presentation, or pen sets. The lightest commercial timber in the world, dimensionally stable, and a clean blank canvas for any branding treatment.',
     images: [
-      img('2', 'ScreenShot_2026-05-06_183037_594.png'),
-      img('2', 'ScreenShot_2026-05-06_183055_242.png'),
-      img('2', 'ScreenShot_2026-05-06_183105_394.png'),
-      img('2', 'ScreenShot_2026-05-06_183135_521.png'),
+      img('2', '2-01.png'),
+      img('2', '2-02.png'),
+      img('2', '2-03.png'),
+      img('2', '2-04.png'),
     ],
     specs: {
       'Closure Type': 'Sliding lid (CNC groove)',
@@ -94,13 +94,13 @@ export const PRODUCTS = {
     intro:
       'A vintage-stained paulownia drawer chest — six small drawers organized in three tiers, perfect for craft supplies, makeup, jewelry, herbs, or odds and ends on a desk or vanity. Tiny brass-look knobs give it a true apothecary feel.',
     images: [
-      img('3', 'ScreenShot_2026-05-06_183321_785.png'),
-      img('3', 'ScreenShot_2026-05-06_183329_952.png'),
-      img('3', 'ScreenShot_2026-05-06_183337_192.png'),
-      img('3', 'ScreenShot_2026-05-06_183346_983.png'),
-      img('3', 'ScreenShot_2026-05-06_183401_533.png'),
-      img('3', 'ScreenShot_2026-05-06_183409_293.png'),
-      img('3', 'ScreenShot_2026-05-06_183416_785.png'),
+      img('3', '3-01.png'),
+      img('3', '3-02.png'),
+      img('3', '3-03.png'),
+      img('3', '3-04.png'),
+      img('3', '3-05.png'),
+      img('3', '3-06.png'),
+      img('3', '3-07.png'),
     ],
     specs: {
       'Closure Type': 'Pull-out drawers',
@@ -135,10 +135,10 @@ export const PRODUCTS = {
     intro:
       'A vintage-stain paulownia open-top storage crate with hand-cutout grips on each end. Lightweight (paulownia is the lightest commercial timber) so it carries easily even when full of books, files, vinyl records, or pantry stock.',
     images: [
-      img('4', 'ScreenShot_2026-05-06_183434_151.png'),
-      img('4', 'ScreenShot_2026-05-06_183441_384.png'),
-      img('4', 'ScreenShot_2026-05-06_183448_250.png'),
-      img('4', 'ScreenShot_2026-05-06_183455_670.png'),
+      img('4', '4-01.png'),
+      img('4', '4-02.png'),
+      img('4', '4-03.png'),
+      img('4', '4-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top crate',
@@ -173,9 +173,9 @@ export const PRODUCTS = {
     intro:
       'A walnut-stained paulownia tray with three open sections — two small front cells and one large rear cell. Sized for a vanity, kitchen counter, or office desk. The vintage stain hides everyday wear and lends antique character.',
     images: [
-      img('set-2', 'ScreenShot_2026-05-06_183539_329.png'),
-      img('set-2', 'ScreenShot_2026-05-06_183546_822.png'),
-      img('set-2', 'ScreenShot_2026-05-06_183554_331.png'),
+      img('set-2', 'set-2-01.png'),
+      img('set-2', 'set-2-02.png'),
+      img('set-2', 'set-2-03.png'),
     ],
     specs: {
       'Closure Type': 'Open-top tray',
@@ -210,10 +210,10 @@ export const PRODUCTS = {
     intro:
       'A short-form paulownia cutlery caddy with engraved farmhouse-style branding ("Happiness is Homemade with Love & Butter"). Two compartments, low profile — great for kitchen counter or buffet table styling. Custom engravings welcome for retailers.',
     images: [
-      img('set-3', 'ScreenShot_2026-05-06_183611_141.png'),
-      img('set-3', 'ScreenShot_2026-05-06_183619_205.png'),
-      img('set-3', 'ScreenShot_2026-05-06_183626_233.png'),
-      img('set-3', 'ScreenShot_2026-05-06_183633_557.png'),
+      img('set-3', 'set-3-01.png'),
+      img('set-3', 'set-3-02.png'),
+      img('set-3', 'set-3-03.png'),
+      img('set-3', 'set-3-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top dual compartment',
@@ -248,10 +248,10 @@ export const PRODUCTS = {
     intro:
       'A wide, low-profile paulownia sliding-lid box — sized for a stack of documents, photos, art prints, or craft kits. Soft pale paulownia takes any finish; the flush flat lid is the largest possible canvas for engraved branding.',
     images: [
-      img('set-4', 'ScreenShot_2026-05-06_183708_776.png'),
-      img('set-4', 'ScreenShot_2026-05-06_183716_319.png'),
-      img('set-4', 'ScreenShot_2026-05-06_183725_091.png'),
-      img('set-4', 'ScreenShot_2026-05-06_183733_943.png'),
+      img('set-4', 'set-4-01.png'),
+      img('set-4', 'set-4-02.png'),
+      img('set-4', 'set-4-03.png'),
+      img('set-4', 'set-4-04.png'),
     ],
     specs: {
       'Closure Type': 'Sliding lid (CNC groove)',
@@ -286,10 +286,10 @@ export const PRODUCTS = {
     intro:
       'A multi-compartment paulownia caddy designed to hold paper plates, napkins, cups, and disposable cutlery — buffet, BBQ, and event-ready. The chevron-pattern front face dresses it up for weddings, baby showers, and rustic-chic table settings.',
     images: [
-      img('set-5', 'ScreenShot_2026-05-06_183821_990.png'),
-      img('set-5', 'ScreenShot_2026-05-06_183828_992.png'),
-      img('set-5', 'ScreenShot_2026-05-06_183835_920.png'),
-      img('set-5', 'ScreenShot_2026-05-06_183843_887.png'),
+      img('set-5', 'set-5-01.png'),
+      img('set-5', 'set-5-02.png'),
+      img('set-5', 'set-5-03.png'),
+      img('set-5', 'set-5-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top sectioned',
@@ -324,10 +324,10 @@ export const PRODUCTS = {
     intro:
       'Stackable paulownia storage bins with an open angled front — what magazine racks gave to mid-century, this gives to modern desks and pantries. Stack two, three, or four high; carbonized stain finish gives them a warm walnut tone.',
     images: [
-      img('set-6', 'ScreenShot_2026-05-06_183926_958.png'),
-      img('set-6', 'ScreenShot_2026-05-06_183933_334.png'),
-      img('set-6', 'ScreenShot_2026-05-06_183940_410.png'),
-      img('set-6', 'ScreenShot_2026-05-06_183947_842.png'),
+      img('set-6', 'set-6-01.png'),
+      img('set-6', 'set-6-02.png'),
+      img('set-6', 'set-6-03.png'),
+      img('set-6', 'set-6-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top stackable bin',
@@ -362,9 +362,9 @@ export const PRODUCTS = {
     intro:
       'A vintage-stained paulownia mail organizer with three compartments and a brass label frame on the front. The classic farmhouse-style mail sorter — perfect for entryways, home offices, and B&B reception desks.',
     images: [
-      img('set-7', 'ScreenShot_2026-05-06_184027_182.png'),
-      img('set-7', 'ScreenShot_2026-05-06_184034_378.png'),
-      img('set-7', 'ScreenShot_2026-05-06_184041_947.png'),
+      img('set-7', 'set-7-01.png'),
+      img('set-7', 'set-7-02.png'),
+      img('set-7', 'set-7-03.png'),
     ],
     specs: {
       'Closure Type': 'Open-top compartments',
@@ -399,10 +399,10 @@ export const PRODUCTS = {
     intro:
       'A "Happiness is Homemade" engraved paulownia cutlery caddy with black metal side handles — built for buffet style service, picnics, or kitchen islands. Solid paulownia is light enough to carry one-handed even when fully loaded.',
     images: [
-      img('set-8', 'ScreenShot_2026-05-06_184106_032.png'),
-      img('set-8', 'ScreenShot_2026-05-06_184113_352.png'),
-      img('set-8', 'ScreenShot_2026-05-06_184121_222.png'),
-      img('set-8', 'ScreenShot_2026-05-06_184128_983.png'),
+      img('set-8', 'set-8-01.png'),
+      img('set-8', 'set-8-02.png'),
+      img('set-8', 'set-8-03.png'),
+      img('set-8', 'set-8-04.png'),
     ],
     specs: {
       'Closure Type': 'Open-top w/ side handles',
@@ -437,10 +437,10 @@ export const PRODUCTS = {
     intro:
       'A miniature three-drawer paulownia chest available in two stain tones — vintage walnut and natural — with brass-look pull handles. Great for desk-top storage, craft supplies, or as a quirky display piece. Buy as a pair or individually.',
     images: [
-      img('set-9', 'ScreenShot_2026-05-06_184227_990.png'),
-      img('set-9', 'ScreenShot_2026-05-06_184236_547.png'),
-      img('set-9', 'ScreenShot_2026-05-06_184243_079.png'),
-      img('set-9', 'ScreenShot_2026-05-06_184252_077.png'),
+      img('set-9', 'set-9-01.png'),
+      img('set-9', 'set-9-02.png'),
+      img('set-9', 'set-9-03.png'),
+      img('set-9', 'set-9-04.png'),
     ],
     specs: {
       'Closure Type': 'Pull-out drawers',

@@ -3,7 +3,7 @@
 // Image paths reference /public/walnut-wooden-box/<folder>/
 // ─────────────────────────────────────────────────────────────────────────
 
-const PARENT = 'walnut wooden box';
+const PARENT = 'walnut-wooden-box';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
 
@@ -17,8 +17,8 @@ export const PRODUCTS = {
       'A solid walnut open-top tray with brass-tone metal hand-loop pulls. The deep chocolate walnut grain reads premium on a coffee table, vanity, or desk; sized to corral remotes, books, mail, magazines, or magazines and a candle.',
     images: [
       img('set-1', '134.png'),
-      img('set-1', 'ScreenShot_2026-05-06_194617_127.png'),
-      img('set-1', 'image (25).png'),
+      img('set-1', 'image-25.png'),
+      img('set-1', 'set-1-01.png'),
     ],
     specs: {
       'Closure Type': 'Open-top tray',
@@ -53,10 +53,10 @@ export const PRODUCTS = {
     intro:
       'A square walnut jewelry keepsake box with hidden hinges and a black velvet lining. Compact 10×10 cm footprint sized for a single ring, pendant, or pair of earrings. The dramatic walnut grain frames the velvet interior beautifully.',
     images: [
-      img('set-2', 'ScreenShot_2026-05-06_194530_307.png'),
-      img('set-2', 'ScreenShot_2026-05-06_194540_921.png'),
-      img('set-2', 'ScreenShot_2026-05-06_194549_531.png'),
-      img('set-2', 'ScreenShot_2026-05-06_194558_801.png'),
+      img('set-2', 'set-2-01.png'),
+      img('set-2', 'set-2-02.png'),
+      img('set-2', 'set-2-03.png'),
+      img('set-2', 'set-2-04.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid (concealed hinge)',
@@ -91,10 +91,10 @@ export const PRODUCTS = {
     intro:
       'A collection of walnut tissue covers in coordinated shapes — rectangular, oval, square — that fit standard tissue cartons. The deep chocolate walnut grain elevates everyday tissues to bedroom, hotel, and spa-grade decor.',
     images: [
-      img('set-3', 'ScreenShot_2026-05-06_194829_658.png'),
-      img('set-3', 'ScreenShot_2026-05-06_194837_247.png'),
-      img('set-3', 'ScreenShot_2026-05-06_194844_470.png'),
-      img('set-3', 'ScreenShot_2026-05-06_194854_605.png'),
+      img('set-3', 'set-3-01.png'),
+      img('set-3', 'set-3-02.png'),
+      img('set-3', 'set-3-03.png'),
+      img('set-3', 'set-3-04.png'),
     ],
     specs: {
       'Closure Type': 'Lift-off lid w/ slot',
@@ -129,9 +129,9 @@ export const PRODUCTS = {
     intro:
       'A compact walnut hinged jewelry box — sized for cufflinks, a watch, or a small jewelry collection. Brass pin hinges and a clean exterior; can be left raw inside for hardwood feel or felt-lined for jewelry presentation.',
     images: [
-      img('set-4', 'ScreenShot_2026-05-06_194920_196.png'),
-      img('set-4', 'ScreenShot_2026-05-06_194927_413.png'),
-      img('set-4', 'ScreenShot_2026-05-06_194935_073.png'),
+      img('set-4', 'set-4-01.png'),
+      img('set-4', 'set-4-02.png'),
+      img('set-4', 'set-4-03.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid',
@@ -166,11 +166,11 @@ export const PRODUCTS = {
     intro:
       'A small oval walnut salt or spice cellar with a polished brass top knob. Sized for finishing salts, peppercorns, or a single tea blend; the rich walnut grain looks beautiful on a stove-side counter or dining table.',
     images: [
-      img('set-5', 'ScreenShot_2026-05-06_195043_862.png'),
-      img('set-5', 'ScreenShot_2026-05-06_195053_354.png'),
-      img('set-5', 'ScreenShot_2026-05-06_195101_090.png'),
-      img('set-5', 'ScreenShot_2026-05-06_195120_802.png'),
-      img('set-5', 'ScreenShot_2026-05-06_195135_062.png'),
+      img('set-5', 'set-5-01.png'),
+      img('set-5', 'set-5-02.png'),
+      img('set-5', 'set-5-03.png'),
+      img('set-5', 'set-5-04.png'),
+      img('set-5', 'set-5-05.png'),
     ],
     specs: {
       'Closure Type': 'Lift-off lid w/ brass knob',
@@ -205,10 +205,10 @@ export const PRODUCTS = {
     intro:
       'A walnut hinged keepsake box with a brass cam lock and matching brass key — for documents, valuables, or anything that needs to stay secure. Solid American black walnut with hand-rubbed oil; the key threads on a brass tassel for keeping with the box.',
     images: [
-      img('set-6', 'ScreenShot_2026-05-06_195147_493.png'),
-      img('set-6', 'ScreenShot_2026-05-06_195154_343.png'),
-      img('set-6', 'ScreenShot_2026-05-06_195202_886.png'),
-      img('set-6', 'ScreenShot_2026-05-06_195210_750.png'),
+      img('set-6', 'set-6-01.png'),
+      img('set-6', 'set-6-02.png'),
+      img('set-6', 'set-6-03.png'),
+      img('set-6', 'set-6-04.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid w/ brass cam lock',
@@ -243,10 +243,10 @@ export const PRODUCTS = {
     intro:
       'An heirloom-format walnut chest with a brass cam lock and antique-style key threaded on a leather pull. Built thick and finished to a satin glow — the walnut grain alone makes it a centerpiece. Inside: a sanded wood floor that takes a watch, jewelry, or a set of letters.',
     images: [
-      img('set-7', 'ScreenShot_2026-05-06_195243_725.png'),
-      img('set-7', 'ScreenShot_2026-05-06_195251_267.png'),
-      img('set-7', 'ScreenShot_2026-05-06_195258_478.png'),
-      img('set-7', 'ScreenShot_2026-05-06_195312_140.png'),
+      img('set-7', 'set-7-01.png'),
+      img('set-7', 'set-7-02.png'),
+      img('set-7', 'set-7-03.png'),
+      img('set-7', 'set-7-04.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid w/ antique brass cam lock',
@@ -281,8 +281,8 @@ export const PRODUCTS = {
     intro:
       'A walnut piece that does double duty — tissue cover on one half, three-cell desk organizer on the other for remotes, glasses, pens, or a phone stand. Lives perfectly on a nightstand, sofa armrest, or office desk.',
     images: [
-      img('set-8', 'ScreenShot_2026-05-06_195345_545.png'),
-      img('set-8', 'ScreenShot_2026-05-06_195352_788.png'),
+      img('set-8', 'set-8-01.png'),
+      img('set-8', 'set-8-02.png'),
     ],
     specs: {
       'Closure Type': 'Tissue slot + open-top organizer',
@@ -317,8 +317,8 @@ export const PRODUCTS = {
     intro:
       'A walnut tissue cover combined with three cells of open-top organizer space — designed for living rooms or guestrooms where remotes, pens, glasses, and a tissue carton all need a single home. Solid American black walnut, hand-rubbed oil finish.',
     images: [
-      img('set-9', 'ScreenShot_2026-05-06_195400_378.png'),
-      img('set-9', 'ScreenShot_2026-05-06_195408_058.png'),
+      img('set-9', 'set-9-01.png'),
+      img('set-9', 'set-9-02.png'),
     ],
     specs: {
       'Closure Type': 'Tissue slot + open compartments',
@@ -353,10 +353,10 @@ export const PRODUCTS = {
     intro:
       'A premium walnut cable management box — hides power strips, surge protectors, and cords from view. Side cutouts let cables exit cleanly. The deep walnut grain elevates a workspace far above the typical fiberboard cable boxes.',
     images: [
-      img('set-10', 'ScreenShot_2026-05-06_195426_680.png'),
-      img('set-10', 'ScreenShot_2026-05-06_195435_032.png'),
-      img('set-10', 'ScreenShot_2026-05-06_195446_948.png'),
-      img('set-10', 'ScreenShot_2026-05-06_195457_423.png'),
+      img('set-10', 'set-10-01.png'),
+      img('set-10', 'set-10-02.png'),
+      img('set-10', 'set-10-03.png'),
+      img('set-10', 'set-10-04.png'),
     ],
     specs: {
       'Closure Type': 'Lift-off lid',
@@ -391,10 +391,10 @@ export const PRODUCTS = {
     intro:
       'A tiny walnut ring box with an organic pebble silhouette and a hand-carved ring slot inside the lid. Single-piece walnut, hand-finished with hand-rubbed oil. The size and shape make it the perfect proposal box.',
     images: [
-      img('set-11', 'ScreenShot_2026-05-06_195547_536.png'),
-      img('set-11', 'ScreenShot_2026-05-06_195554_126.png'),
-      img('set-11', 'ScreenShot_2026-05-06_195601_418.png'),
-      img('set-11', 'ScreenShot_2026-05-06_195608_474.png'),
+      img('set-11', 'set-11-01.png'),
+      img('set-11', 'set-11-02.png'),
+      img('set-11', 'set-11-03.png'),
+      img('set-11', 'set-11-04.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid (pin hinge)',
@@ -429,10 +429,10 @@ export const PRODUCTS = {
     intro:
       'A walnut lift-off-lid box for cotton swabs, makeup pads, or small toiletries — compact enough for a vanity, beautifully grained enough to leave on display. Hand-finished walnut takes splashes and humidity in stride.',
     images: [
-      img('set-12', 'ScreenShot_2026-05-06_195636_686.png'),
-      img('set-12', 'ScreenShot_2026-05-06_195643_998.png'),
-      img('set-12', 'ScreenShot_2026-05-06_195651_553.png'),
-      img('set-12', 'ScreenShot_2026-05-06_195659_383.png'),
+      img('set-12', 'set-12-01.png'),
+      img('set-12', 'set-12-02.png'),
+      img('set-12', 'set-12-03.png'),
+      img('set-12', 'set-12-04.png'),
     ],
     specs: {
       'Closure Type': 'Lift-off lid',

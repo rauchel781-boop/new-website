@@ -3,7 +3,7 @@
 // Image paths reference /public/storage-box/<folder>/
 // ─────────────────────────────────────────────────────────────────────────
 
-const PARENT = 'Storage Box';
+const PARENT = 'storage-box';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
 
@@ -16,12 +16,12 @@ export const PRODUCTS = {
     intro:
       'A classic 3-tier solid wood drawer cabinet built for desktop and dressing-table use. Smooth wood-on-wood drawer slides, brass cup pulls, and matched-grain drawer faces give it the heirloom look at production scale.',
     images: [
-      img('Wooden 3-Drawer Desktop Organizer', 'Solid Wood Multi Drawer (1).png'),
-      img('Wooden 3-Drawer Desktop Organizer', 'Solid Wood Multi Drawer (2).png'),
-      img('Wooden 3-Drawer Desktop Organizer', 'Solid Wood Multi Drawer (3).png'),
-      img('Wooden 3-Drawer Desktop Organizer', 'Solid Wood Multi Drawer (4).png'),
-      img('Wooden 3-Drawer Desktop Organizer', 'Solid Wood Multi Drawer (5).png'),
-      img('Wooden 3-Drawer Desktop Organizer', 'Solid Wood Multi Drawer (6).png'),
+      img('wooden-3-drawer-desktop-organizer', 'solid-wood-multi-drawer-1.png'),
+      img('wooden-3-drawer-desktop-organizer', 'solid-wood-multi-drawer-2.png'),
+      img('wooden-3-drawer-desktop-organizer', 'solid-wood-multi-drawer-3.png'),
+      img('wooden-3-drawer-desktop-organizer', 'solid-wood-multi-drawer-4.png'),
+      img('wooden-3-drawer-desktop-organizer', 'solid-wood-multi-drawer-5.png'),
+      img('wooden-3-drawer-desktop-organizer', 'solid-wood-multi-drawer-6.png'),
     ],
     specs: {
       'Closure Type': '3 pull-out drawers',
@@ -56,10 +56,10 @@ export const PRODUCTS = {
     intro:
       'A compact desktop organizer that combines a pen tray, phone stand, and small drawer in one footprint. Built from solid wood with a clear oil finish to highlight the natural grain.',
     images: [
-      img('Wooden Desktop Organizer', 'Drawer Organizer  (1).png'),
-      img('Wooden Desktop Organizer', 'Drawer Organizer  (2).png'),
-      img('Wooden Desktop Organizer', 'Drawer Organizer  (3).png'),
-      img('Wooden Desktop Organizer', 'Drawer Organizer  (4).png'),
+      img('wooden-desktop-organizer', 'drawer-organizer-1.png'),
+      img('wooden-desktop-organizer', 'drawer-organizer-2.png'),
+      img('wooden-desktop-organizer', 'drawer-organizer-3.png'),
+      img('wooden-desktop-organizer', 'drawer-organizer-4.png'),
     ],
     specs: {
       'Closure Type': 'Drawer + open compartments',
@@ -94,11 +94,11 @@ export const PRODUCTS = {
     intro:
       'A three-layer desktop storage unit with open trays on top and a pull-out drawer at the base — designed to keep papers, devices, and small accessories within reach without cluttering the desk.',
     images: [
-      img('Wooden Desktop Storage', 'Three Layer Wooden  Organizer (1).jpg'),
-      img('Wooden Desktop Storage', 'Three Layer Wooden  Organizer (2).jpg'),
-      img('Wooden Desktop Storage', 'Three Layer Wooden  Organizer (3).jpg'),
-      img('Wooden Desktop Storage', 'Three Layer Wooden  Organizer (4).jpg'),
-      img('Wooden Desktop Storage', 'Three Layer Wooden  Organizer (5).jpg'),
+      img('wooden-desktop-storage', 'three-layer-wooden-organizer-1.jpg'),
+      img('wooden-desktop-storage', 'three-layer-wooden-organizer-2.jpg'),
+      img('wooden-desktop-storage', 'three-layer-wooden-organizer-3.jpg'),
+      img('wooden-desktop-storage', 'three-layer-wooden-organizer-4.jpg'),
+      img('wooden-desktop-storage', 'three-layer-wooden-organizer-5.jpg'),
     ],
     specs: {
       'Closure Type': 'Open trays + drawer',
@@ -133,11 +133,11 @@ export const PRODUCTS = {
     intro:
       'A solid acacia keepsake box with concealed brass hinges and a felt-lined interior — designed to safeguard letters, photos, baby mementos, and other family heirlooms for generations.',
     images: [
-      img('Acacia Wood Memory Keepsake Box', 'acacia wooden box (1).png'),
-      img('Acacia Wood Memory Keepsake Box', 'acacia wooden box (2).jpg'),
-      img('Acacia Wood Memory Keepsake Box', 'acacia wooden box (3).jpg'),
-      img('Acacia Wood Memory Keepsake Box', 'acacia wooden box (4).jpg'),
-      img('Acacia Wood Memory Keepsake Box', 'acacia wooden box (5).jpg'),
+      img('acacia-wood-memory-keepsake-box', 'acacia-wooden-box-1.png'),
+      img('acacia-wood-memory-keepsake-box', 'acacia-wooden-box-2.jpg'),
+      img('acacia-wood-memory-keepsake-box', 'acacia-wooden-box-3.jpg'),
+      img('acacia-wood-memory-keepsake-box', 'acacia-wooden-box-4.jpg'),
+      img('acacia-wood-memory-keepsake-box', 'acacia-wooden-box-5.jpg'),
     ],
     specs: {
       'Closure Type': 'Hinged lid',
@@ -172,14 +172,14 @@ export const PRODUCTS = {
     intro:
       'A compact wooden jewelry box with a magnetic flap, suede pad interior, and brand-ready surfaces. Sized for bracelets, watches, and other tabletop jewelry display or gift presentation.',
     images: [
-      img('Wooden Jewelry Storage Box', 'Wooden Bracelet Gift Box (1).png'),
-      img('Wooden Jewelry Storage Box', 'Wooden Bracelet Gift Box (2).png'),
-      img('Wooden Jewelry Storage Box', 'Wooden Bracelet Gift Box (3).png'),
-      img('Wooden Jewelry Storage Box', 'Wooden Bracelet Gift Box (4).png'),
-      img('Wooden Jewelry Storage Box', 'gift box (1).png'),
-      img('Wooden Jewelry Storage Box', 'gift box (2).png'),
-      img('Wooden Jewelry Storage Box', 'gift box (3).png'),
-      img('Wooden Jewelry Storage Box', 'gift box (4).png'),
+      img('wooden-jewelry-storage-box', 'gift-box-1.png'),
+      img('wooden-jewelry-storage-box', 'gift-box-2.png'),
+      img('wooden-jewelry-storage-box', 'gift-box-3.png'),
+      img('wooden-jewelry-storage-box', 'gift-box-4.png'),
+      img('wooden-jewelry-storage-box', 'wooden-bracelet-gift-box-1.png'),
+      img('wooden-jewelry-storage-box', 'wooden-bracelet-gift-box-2.png'),
+      img('wooden-jewelry-storage-box', 'wooden-bracelet-gift-box-3.png'),
+      img('wooden-jewelry-storage-box', 'wooden-bracelet-gift-box-4.png'),
     ],
     specs: {
       'Closure Type': 'Magnetic / hinged',
@@ -214,10 +214,10 @@ export const PRODUCTS = {
     intro:
       'A bamboo essential oil storage box with foam-cushioned slots that hold standard 5/10/15 ml dropper bottles upright. Hinged lid with brass clasp, available in 25 / 36 / 50 bottle capacities.',
     images: [
-      img('Wooden Essential Oil Storage Box', 'essential oil box (1).png'),
-      img('Wooden Essential Oil Storage Box', 'essential oil box (2).png'),
-      img('Wooden Essential Oil Storage Box', 'essential oil box (3).png'),
-      img('Wooden Essential Oil Storage Box', 'essential oil box (4).png'),
+      img('wooden-essential-oil-storage-box', 'essential-oil-box-1.png'),
+      img('wooden-essential-oil-storage-box', 'essential-oil-box-2.png'),
+      img('wooden-essential-oil-storage-box', 'essential-oil-box-3.png'),
+      img('wooden-essential-oil-storage-box', 'essential-oil-box-4.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid w/ brass clasp',
@@ -252,11 +252,11 @@ export const PRODUCTS = {
     intro:
       'A knitter and crocheter\'s yarn storage box with feed-through holes in the lid that let yarn dispense cleanly without tangling. Holds multiple skeins; ideal as a thoughtful gift for fiber-craft enthusiasts.',
     images: [
-      img('Wooden Yarn Storage Box', 'yarn storage box (1).png'),
-      img('Wooden Yarn Storage Box', 'yarn storage box (2).png'),
-      img('Wooden Yarn Storage Box', 'yarn storage box (3).png'),
-      img('Wooden Yarn Storage Box', 'yarn storage box (4).png'),
-      img('Wooden Yarn Storage Box', 'yarn storage box (5).png'),
+      img('wooden-yarn-storage-box', 'yarn-storage-box-1.png'),
+      img('wooden-yarn-storage-box', 'yarn-storage-box-2.png'),
+      img('wooden-yarn-storage-box', 'yarn-storage-box-3.png'),
+      img('wooden-yarn-storage-box', 'yarn-storage-box-4.png'),
+      img('wooden-yarn-storage-box', 'yarn-storage-box-5.png'),
     ],
     specs: {
       'Closure Type': 'Hinged lid w/ yarn feed holes',
@@ -291,11 +291,11 @@ export const PRODUCTS = {
     intro:
       'A 3-tier stepped bamboo spice rack designed to display 12–24 jars on a countertop with every label visible. Carbonized bamboo finish blends with any kitchen palette.',
     images: [
-      img('3-Tier Bamboo Spice Rack Organizer', 'spice jar 1 (1).jpg'),
-      img('3-Tier Bamboo Spice Rack Organizer', 'spice jar 1 (2).jpg'),
-      img('3-Tier Bamboo Spice Rack Organizer', 'spice jar 1 (3).jpg'),
-      img('3-Tier Bamboo Spice Rack Organizer', 'spice jar 1 (5).jpg'),
-      img('3-Tier Bamboo Spice Rack Organizer', 'spice jar 1 (6).jpg'),
+      img('3-tier-bamboo-spice-rack-organizer', 'spice-jar-1-1.jpg'),
+      img('3-tier-bamboo-spice-rack-organizer', 'spice-jar-1-2.jpg'),
+      img('3-tier-bamboo-spice-rack-organizer', 'spice-jar-1-3.jpg'),
+      img('3-tier-bamboo-spice-rack-organizer', 'spice-jar-1-5.jpg'),
+      img('3-tier-bamboo-spice-rack-organizer', 'spice-jar-1-6.jpg'),
     ],
     specs: {
       'Closure Type': 'Open step-tier rack',
@@ -330,12 +330,12 @@ export const PRODUCTS = {
     intro:
       'A cheerful bamboo tissue box cover with a smiley-face cutout on top. The sliding base loads quickly, and the bamboo construction lifts a humble tissue dispenser into something worth displaying.',
     images: [
-      img('Smiley Face Bamboo Tissue Box', 'Tissue Box (1).png'),
-      img('Smiley Face Bamboo Tissue Box', 'Tissue Box (2).png'),
-      img('Smiley Face Bamboo Tissue Box', 'Tissue Box (3).png'),
-      img('Smiley Face Bamboo Tissue Box', 'Tissue Box (4).png'),
-      img('Smiley Face Bamboo Tissue Box', 'Tissue Box (5).png'),
-      img('Smiley Face Bamboo Tissue Box', 'Tissue Box (6).png'),
+      img('smiley-face-bamboo-tissue-box', 'tissue-box-1.png'),
+      img('smiley-face-bamboo-tissue-box', 'tissue-box-2.png'),
+      img('smiley-face-bamboo-tissue-box', 'tissue-box-3.png'),
+      img('smiley-face-bamboo-tissue-box', 'tissue-box-4.png'),
+      img('smiley-face-bamboo-tissue-box', 'tissue-box-5.png'),
+      img('smiley-face-bamboo-tissue-box', 'tissue-box-6.png'),
     ],
     specs: {
       'Closure Type': 'Sliding base loader',
@@ -370,11 +370,11 @@ export const PRODUCTS = {
     intro:
       'A theatrical curved-lid treasure chest with antique brass strap hinges and clasp — equally at home as a kids\' toy chest, a costume prop, or a quirky decor piece in a bar or game room.',
     images: [
-      img('Vintage Pirate Wooden Treasure Chest Box', 'Treasure Chest Box (1).png'),
-      img('Vintage Pirate Wooden Treasure Chest Box', 'Treasure Chest Box (2).png'),
-      img('Vintage Pirate Wooden Treasure Chest Box', 'Treasure Chest Box (3).png'),
-      img('Vintage Pirate Wooden Treasure Chest Box', 'Treasure Chest Box (4).png'),
-      img('Vintage Pirate Wooden Treasure Chest Box', 'Treasure Chest Box (5).png'),
+      img('vintage-pirate-wooden-treasure-chest-box', 'treasure-chest-box-1.png'),
+      img('vintage-pirate-wooden-treasure-chest-box', 'treasure-chest-box-2.png'),
+      img('vintage-pirate-wooden-treasure-chest-box', 'treasure-chest-box-3.png'),
+      img('vintage-pirate-wooden-treasure-chest-box', 'treasure-chest-box-4.png'),
+      img('vintage-pirate-wooden-treasure-chest-box', 'treasure-chest-box-5.png'),
     ],
     specs: {
       'Closure Type': 'Hinged curved lid w/ clasp',
@@ -409,11 +409,11 @@ export const PRODUCTS = {
     intro:
       'A rolling wooden cart designed for kids\' dress-up clothes, costumes, and accessories — open hanging rod up top, drawers and bins below. Heavy-duty casters with brakes; tip-over safety bracket included.',
     images: [
-      img('Wooden Dress-Up Storage Cart', '主图1（1）.png'),
-      img('Wooden Dress-Up Storage Cart', '主图2（3）.png'),
-      img('Wooden Dress-Up Storage Cart', '主图3（4）.png'),
-      img('Wooden Dress-Up Storage Cart', '主图4（2）.png'),
-      img('Wooden Dress-Up Storage Cart', '主图5（0）.png'),
+      img('wooden-dress-up-storage-cart', 'main-1-1.png'),
+      img('wooden-dress-up-storage-cart', 'main-2-3.png'),
+      img('wooden-dress-up-storage-cart', 'main-3-4.png'),
+      img('wooden-dress-up-storage-cart', 'main-4-2.png'),
+      img('wooden-dress-up-storage-cart', 'main-5-0.png'),
     ],
     specs: {
       'Closure Type': 'Open hanging + drawers',
@@ -448,11 +448,11 @@ export const PRODUCTS = {
     intro:
       'A bamboo sofa armrest tray with cutouts for cup, remote, and phone — turning the arm of any sofa into a tidy, no-spill side table. Folds flat for storage when not in use.',
     images: [
-      img('Wooden Sofa Armrest Tray', '主图1.jpg'),
-      img('Wooden Sofa Armrest Tray', '主图2.jpg'),
-      img('Wooden Sofa Armrest Tray', '主图3.jpg'),
-      img('Wooden Sofa Armrest Tray', '主图4.jpg'),
-      img('Wooden Sofa Armrest Tray', '主图5.jpg'),
+      img('wooden-sofa-armrest-tray', '1.jpg'),
+      img('wooden-sofa-armrest-tray', '2.jpg'),
+      img('wooden-sofa-armrest-tray', '3.jpg'),
+      img('wooden-sofa-armrest-tray', '4.jpg'),
+      img('wooden-sofa-armrest-tray', '5.jpg'),
     ],
     specs: {
       'Closure Type': 'Open tray w/ saddle base',
