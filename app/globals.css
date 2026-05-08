@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-brand-teal:     #234654;
+  --color-brand-tealDark: #1A3540;
+  --color-brand-tealDeep: #112430;
+  --color-brand-wood:     #C9A876;
+  --color-brand-woodSoft: #E8D9BC;
+  --color-brand-cream:    #F5F1E8;
+  --color-brand-ink:      #1A1A1A;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  color: #1F2A37;
+  background: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* CLS guard — every <img> must have width+height attributes so the browser
+   reserves layout space; this rule keeps the rendered result responsive.
+   Only kicks in when the image specifies width/height or the parent has size. */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Subtle scroll reveal helpers */
+.section-pad {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+/* Hero curved bottom mimic of screenshot */
+.hero-curve {
+  position: relative;
+}
+.hero-curve::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 60px;
+  background: #ffffff;
+  border-top-left-radius: 50% 60px;
+  border-top-right-radius: 50% 60px;
+}
+
+/* Wood-tone CTA (kept the .btn-yellow class name for backward compatibility) */
+.btn-yellow {
+  background: var(--color-brand-wood);
+  color: #1A1A1A;
+  font-weight: 600;
+  border-radius: 6px;
+  padding: 14px 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+.btn-yellow:hover {
+  background: var(--color-brand-woodSoft);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(35, 70, 84, 0.15);
+}
