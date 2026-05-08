@@ -352,13 +352,38 @@ export default async function CategoryPage({ params }) {
   // English values if the messages JSON is missing the key for this locale.
   let translatedTagline = item.tagline;
   let translatedIntro = item.intro;
+  let translatedName = item.name;
+  let translatedGroup = item.group;
   try {
     const tc = await getTranslations({ locale: params.locale, namespace: 'categoryContent' });
     translatedTagline = tc(`${params.slug}.tagline`) || translatedTagline;
     translatedIntro = tc(`${params.slug}.intro`) || translatedIntro;
-  } catch (e) {
-    // No translation available — use English data file values.
-  }
+  } catch (e) {}
+  // Translated category name (already in `categories` namespace from earlier).
+  try {
+    const tn = await getTranslations({ locale: params.locale, namespace: 'categories' });
+    translatedName = tn(params.slug) || translatedName;
+  } catch (e) {}
+  // Translated group label ("By Use" / "By Structure" / "By Material").
+  try {
+    const tg = await getTranslations({ locale: params.locale, namespace: 'nav' });
+    const groupKeyMap = { 'By Use': 'byUse', 'By Structure': 'byStructure', 'By Material': 'byMaterial' };
+    const k = groupKeyMap[item.group];
+    if (k) translatedGroup = tg(k) || translatedGroup;
+  } catch (e) {}
+  // Translated common CTA strings.
+  let ctaQuote = 'Request a Quote';
+  let ctaBrowse = 'Browse All Boxes';
+  let labelProducts = 'Products';
+  try {
+    const tc = await getTranslations({ locale: params.locale, namespace: 'cta' });
+    ctaQuote = tc('getQuote') || ctaQuote;
+    ctaBrowse = tc('viewAllProducts') || ctaBrowse;
+  } catch (e) {}
+  try {
+    const tn = await getTranslations({ locale: params.locale, namespace: 'nav' });
+    labelProducts = tn('products') || labelProducts;
+  } catch (e) {}
 
   const galleryImages = item.images.slice(0, 5);
   const products = PRODUCTS_BY_CATEGORY[params.slug];
@@ -398,21 +423,21 @@ export default async function CategoryPage({ params }) {
       <section className="cat-hero">
         <div className="cat-hero-inner">
           <div className="cat-breadcrumb">
-            <Link href="/products">Products</Link>
+            <Link href="/products">{labelProducts}</Link>
             <span>/</span>
-            {item.group}
+            {translatedGroup}
             <span>/</span>
-            {item.name}
+            {translatedName}
           </div>
-          <h1 className="cat-h1">{item.name}</h1>
+          <h1 className="cat-h1">{translatedName}</h1>
           <div className="cat-tagline">{translatedTagline}</div>
           {/* Hero paragraph: rich English longDesc for EN, translated intro elsewhere */}
           <p className="cat-intro">
             {params.locale === 'en' ? item.longDesc : translatedIntro}
           </p>
           <div className="cat-hero-btns">
-            <Link href="/contact" className="cat-btn-primary">Request a Quote</Link>
-            <Link href="/products" className="cat-btn-outline">Browse All Boxes</Link>
+            <Link href="/contact" className="cat-btn-primary">{ctaQuote}</Link>
+            <Link href="/products" className="cat-btn-outline">{ctaBrowse}</Link>
           </div>
         </div>
       </section>
