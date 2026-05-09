@@ -19,18 +19,22 @@ export default function TawkChat() {
     return null;
   }
 
+  // Tawk.to is heavy (~250KB JS). We defer loading by 3s after window load
+  // so it doesn't compete with the hero image / fonts during the LCP window.
+  // strategy="lazyOnload" already waits for window.load; the setTimeout adds
+  // an extra 3s buffer on top, dropping mobile TBT meaningfully.
   return (
-    <Script id="tawk-to" strategy="afterInteractive">
+    <Script id="tawk-to" strategy="lazyOnload">
       {`
         var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-        (function(){
+        setTimeout(function(){
           var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
           s1.async = true;
           s1.src = 'https://embed.tawk.to/${TAWK_PROPERTY_ID}/${TAWK_WIDGET_ID}';
           s1.charset = 'UTF-8';
           s1.setAttribute('crossorigin', '*');
           s0.parentNode.insertBefore(s1, s0);
-        })();
+        }, 3000);
       `}
     </Script>
   );

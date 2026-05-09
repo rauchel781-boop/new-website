@@ -96,12 +96,25 @@ const HOMEPAGE_CSS = `
 .wcb-home .hero-bg {
   position: absolute; inset: 0;
   z-index: 0;
-  background-image: url('/factory/chic-factory.webp');
+  /* Mobile-first: 800px hero (~100KB). Phones get the smallest file. */
+  background-image: url('/factory/chic-factory-sm.webp');
   background-size: cover;
   background-position: center;
   filter: saturate(1.05) contrast(1.05);
   transform: scale(1.04);
   animation: wcbHeroBg 18s ease-in-out infinite alternate;
+}
+/* Tablets — 1280px wide (~123KB) */
+@media (min-width: 768px) {
+  .wcb-home .hero-bg {
+    background-image: url('/factory/chic-factory-md.webp');
+  }
+}
+/* Desktops — 1920px wide (~143KB) */
+@media (min-width: 1280px) {
+  .wcb-home .hero-bg {
+    background-image: url('/factory/chic-factory-lg.webp');
+  }
 }
 .wcb-home .hero-bg::after {
   content: '';
@@ -731,11 +744,15 @@ export default function HomePage({ params: { locale } }) {
     <div className="wcb-home">
       {/* LCP preload — the hero is a CSS background-image, which the browser
           can't pre-discover during HTML parse. Forcing a preload tells it to
-          start fetching before the CSS resolves. */}
+          start fetching before the CSS resolves.
+          imagesrcset + imagesizes lets each viewport pick the right size:
+          phones grab -sm (100KB), tablets -md (123KB), desktops -lg (143KB). */}
       <link
         rel="preload"
         as="image"
-        href="/factory/chic-factory.webp"
+        href="/factory/chic-factory-sm.webp"
+        imageSrcSet="/factory/chic-factory-sm.webp 800w, /factory/chic-factory-md.webp 1280w, /factory/chic-factory-lg.webp 1920w"
+        imageSizes="100vw"
         fetchPriority="high"
       />
       <JsonLd data={ORG_LD} />
