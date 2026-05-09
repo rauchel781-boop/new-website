@@ -2,6 +2,7 @@
 // SITE CONFIG — single source of truth for contact, social, and EmailJS.
 // Update values here and they propagate to Header, Footer, Contact, Blog, Home CTA.
 // ─────────────────────────────────────────────────────────────────────────
+// Build marker: 2026-05-09 — perf rebuild trigger (next/font + WebP).
 
 export const SITE = {
   // 站点 URL — SEO/sitemap/robots/canonical/OG 全都从这里取（不要带末尾斜杠）。
