@@ -6,7 +6,8 @@ import { Link } from '@/i18n/navigation';
 import IntroCarousel from '@/components/IntroCarousel';
 import JsonLd from '@/components/JsonLd';
 import { SITE } from '@/data/site-config';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
+import { getHome } from '@/data/home';
 
 // Organization + WebSite JSON-LD for the homepage. Lets Google associate
 // the brand name, logo, contact info and social accounts with the domain.
@@ -738,15 +739,14 @@ const HOMEPAGE_CSS = `
 }
 `;
 
-export default function HomePage({ params: { locale } }) {
+export default async function HomePage({ params: { locale } }) {
   unstable_setRequestLocale(locale);
+  const { COPY, FEATURED, FACTORY_TILES, PROCESS, MATERIALS, WHY, CERTS } = getHome(locale);
+  const t = await getTranslations({ locale });
+
   return (
     <div className="wcb-home">
-      {/* LCP preload — the hero is a CSS background-image, which the browser
-          can't pre-discover during HTML parse. Forcing a preload tells it to
-          start fetching before the CSS resolves.
-          imagesrcset + imagesizes lets each viewport pick the right size:
-          phones grab -sm (100KB), tablets -md (123KB), desktops -lg (143KB). */}
+      {/* LCP preload — responsive hero image. */}
       <link
         rel="preload"
         as="image"
@@ -759,473 +759,283 @@ export default function HomePage({ params: { locale } }) {
       <JsonLd data={WEBSITE_LD} />
       <style dangerouslySetInnerHTML={{ __html: HOMEPAGE_CSS }} />
 
-      {/* ───────────── HERO (cinematic redesign) ───────────── */}
+      {/* HERO */}
       <section className="hero">
         <div className="hero-bg" />
-
         <div className="hero-inner">
           <div className="hero-content">
             <h1 className="hero-title">
-              Where <em>Wood</em><br />
-              Becomes <em>Heirloom.</em>
+              {COPY.hero.titleA} <em>{COPY.hero.titleEm1}</em><br />
+              {COPY.hero.titleB} <em>{COPY.hero.titleEm2}</em>
             </h1>
-            <p className="hero-sub">
-              From luxury gift packaging to bespoke storage — we engineer custom wooden boxes
-              in our 15,000 m² Cao County factory and ship to brands in 60+ countries from our
-              Xiamen office. Built by hand, finished with bench-grade precision.
-            </p>
+            <p className="hero-sub">{COPY.hero.sub}</p>
             <div className="hero-btns">
-              <a href="#featured" className="btn-primary">View Best Sellers →</a>
-              <a href="#contact" className="btn-outline">Request a Free Sample</a>
+              <a href="#featured" className="btn-primary">{COPY.hero.btnPrimary}</a>
+              <a href="#contact" className="btn-outline">{COPY.hero.btnOutline}</a>
             </div>
             <div className="hero-meta">
-              <div className="hero-meta-item">
-                <div className="hero-meta-num">20+</div>
-                <div className="hero-meta-label">Years Crafting</div>
-              </div>
-              <div className="hero-meta-item">
-                <div className="hero-meta-num">500+</div>
-                <div className="hero-meta-label">Box Styles</div>
-              </div>
-              <div className="hero-meta-item">
-                <div className="hero-meta-num">2M+</div>
-                <div className="hero-meta-label">Units / Year</div>
-              </div>
-              <div className="hero-meta-item">
-                <div className="hero-meta-num">60+</div>
-                <div className="hero-meta-label">Countries</div>
-              </div>
+              {COPY.hero.metaItems.map((m, i) => (
+                <div className="hero-meta-item" key={i}>
+                  <div className="hero-meta-num">{m.num}</div>
+                  <div className="hero-meta-label">{m.label}</div>
+                </div>
+              ))}
             </div>
           </div>
 
           <div className="hero-collage">
             <div className="hc-card hc-main">
-              <img loading="lazy" decoding="async" src="/factory/production.webp" alt="Inside our production floor" width="900" height="900" />
-              <div className="hc-cap">Inside Our Workshop</div>
+              <img loading="lazy" decoding="async" src="/factory/production.webp" alt={COPY.hero.collage.main} width="900" height="900" />
+              <div className="hc-cap">{COPY.hero.collage.main}</div>
             </div>
             <div className="hc-card hc-sub-1 is-product">
-              <img loading="lazy" decoding="async" src="/walnut-jewelery-box.webp" alt="Walnut jewelry box" width="900" height="900" />
-              <div className="hc-cap">Walnut · Jewelry Series</div>
+              <img loading="lazy" decoding="async" src="/walnut-jewelery-box.webp" alt={COPY.hero.collage.sub1} width="900" height="900" />
+              <div className="hc-cap">{COPY.hero.collage.sub1}</div>
             </div>
             <div className="hc-card hc-sub-2 is-product">
-              <img loading="lazy" decoding="async" src="/bamboo-box.webp" alt="Bamboo wooden box" width="1184" height="672" />
-              <div className="hc-cap">Bamboo · Eco Series</div>
+              <img loading="lazy" decoding="async" src="/bamboo-box.webp" alt={COPY.hero.collage.sub2} width="1184" height="672" />
+              <div className="hc-cap">{COPY.hero.collage.sub2}</div>
             </div>
             <div className="hc-stamp">
               <div className="hc-stamp-num">20<sup style={{ fontSize: '0.7rem' }}>+</sup></div>
-              <div className="hc-stamp-sub">Years</div>
+              <div className="hc-stamp-sub">{COPY.hero.collage.stampSub}</div>
             </div>
           </div>
         </div>
 
         <div className="hero-trust">
-          <div className="hero-trust-item"><span className="hero-trust-icon">✦</span>FSC Certified Wood</div>
-          <div className="hero-trust-item"><span className="hero-trust-icon">✦</span>Full OEM / ODM</div>
-          <div className="hero-trust-item"><span className="hero-trust-icon">✦</span>Sample in 7 Days</div>
-          <div className="hero-trust-item"><span className="hero-trust-icon">✦</span>EU REACH · CARB · ISO 9001</div>
+          {COPY.hero.trust.map((t, i) => (
+            <div className="hero-trust-item" key={i}><span className="hero-trust-icon">✦</span>{t}</div>
+          ))}
         </div>
       </section>
 
-      {/* ───────────── STATS ───────────── */}
+      {/* STATS */}
       <div className="stats-bar">
-        <div className="stat-item">
-          <div className="stat-num">500<span>+</span></div>
-          <div className="stat-label">Box Styles Available</div>
-        </div>
-        <div className="stat-item">
-          <div className="stat-num">60<span>+</span></div>
-          <div className="stat-label">Export Countries</div>
-        </div>
-        <div className="stat-item">
-          <div className="stat-num">2M<span>+</span></div>
-          <div className="stat-label">Units Shipped / Year</div>
-        </div>
-        <div className="stat-item">
-          <div className="stat-num">98<span>%</span></div>
-          <div className="stat-label">On-Time Delivery Rate</div>
-        </div>
+        {COPY.stats.map((s, i) => (
+          <div className="stat-item" key={i}>
+            <div className="stat-num">{s.num}<span>{s.sym}</span></div>
+            <div className="stat-label">{s.label}</div>
+          </div>
+        ))}
       </div>
 
-      {/* ───────────── INTRO ───────────── */}
+      {/* INTRO */}
       <section className="intro-wrap">
         <div className="intro">
           <div>
-            <div className="intro-label">Who We Are</div>
+            <div className="intro-label">{COPY.intro.label}</div>
             <h2 className="intro-title">
-              Factory-Direct <em>Quality</em><br />at Global Scale
+              {COPY.intro.titleA} <em>{COPY.intro.titleEm}</em><br />{COPY.intro.titleB}
             </h2>
-            <p className="intro-text">
-              With our 15,000 m² factory in Cao County, Shandong — the historic heart of China&apos;s
-              wooden box industry — and our sales office in Xiamen, Fujian, we are a dedicated wooden
-              box manufacturer serving retailers, brands, and importers across Europe, North America,
-              Japan, Korea and beyond.
-            </p>
+            <p className="intro-text">{COPY.intro.text}</p>
             <div className="intro-features">
-              <div className="intro-feat"><div className="feat-dot"></div> MOQ as low as 100 pcs — perfect for sampling</div>
-              <div className="intro-feat"><div className="feat-dot"></div> Full customization: size, finish, logo, insert, hardware</div>
-              <div className="intro-feat"><div className="feat-dot"></div> FSC certified wood &amp; eco-friendly finishes available</div>
-              <div className="intro-feat"><div className="feat-dot"></div> In-house design team for OEM &amp; ODM projects</div>
-              <div className="intro-feat"><div className="feat-dot"></div> Sample delivery within 7 days</div>
+              {COPY.intro.features.map((f, i) => (
+                <div className="intro-feat" key={i}><div className="feat-dot"></div> {f}</div>
+              ))}
             </div>
           </div>
-
           <div className="intro-visual">
             <IntroCarousel />
           </div>
         </div>
       </section>
 
-      {/* ───────────── FEATURED PRODUCTS (NEW) ───────────── */}
+      {/* FEATURED PRODUCTS */}
       <section className="featured" id="featured">
         <div className="feat-inner">
           <div className="section-header">
-            <div className="section-label">Best Sellers</div>
-            <h2 className="section-title">Customer Favorites</h2>
+            <div className="section-label">{COPY.featured.label}</div>
+            <h2 className="section-title">{COPY.featured.title}</h2>
             <div className="section-line"></div>
           </div>
           <div className="feat-grid">
-            <Link href="/products/kitchen-dining" className="feat-card">
-              <img loading="lazy" decoding="async" src="/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp" alt="Wood kitchen utensil holder with spice drawer" width="1164" height="1160" />
-              <div className="feat-overlay" />
-              <div className="feat-arrow">→</div>
-              <div className="feat-content">
-                <span className="feat-tag">Kitchen &amp; Dining</span>
-                <div className="feat-name">Utensil Holder with Spice Drawer</div>
-                <div className="feat-meta">Solid wood · Built-in drawer</div>
-              </div>
-            </Link>
-            <Link href="/products/kitchen-dining" className="feat-card">
-              <img loading="lazy" decoding="async" src="/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp" alt="Bamboo spice rack organizer" width="900" height="900" />
-              <div className="feat-overlay" />
-              <div className="feat-arrow">→</div>
-              <div className="feat-content">
-                <span className="feat-tag">Kitchen &amp; Storage</span>
-                <div className="feat-name">3-Tier Bamboo Spice Rack</div>
-                <div className="feat-meta">Eco bamboo · 18 jars included</div>
-              </div>
-            </Link>
-            <Link href="/products/with-lock" className="feat-card">
-              <img loading="lazy" decoding="async" src="/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp" alt="Large black wooden stash box kit" width="1200" height="1200" />
-              <div className="feat-overlay" />
-              <div className="feat-arrow">→</div>
-              <div className="feat-content">
-                <span className="feat-tag">Boxes with Lock</span>
-                <div className="feat-name">Large Black Stash Box Kit</div>
-                <div className="feat-meta">Combination lock · Multi-compartment</div>
-              </div>
-            </Link>
-            <Link href="/products/tea-coffee" className="feat-card">
-              <img loading="lazy" decoding="async" src="/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp" alt="Bamboo tea bag organizer" width="800" height="800" />
-              <div className="feat-overlay" />
-              <div className="feat-arrow">→</div>
-              <div className="feat-content">
-                <span className="feat-tag">Tea &amp; Coffee</span>
-                <div className="feat-name">Bamboo Tea Bag Organizer</div>
-                <div className="feat-meta">8 dividers · Clear hinged lid</div>
-              </div>
-            </Link>
-            <Link href="/products/watch-jewelry" className="feat-card">
-              <img loading="lazy" decoding="async" src="/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp" alt="Wooden watch box" width="720" height="720" />
-              <div className="feat-overlay" />
-              <div className="feat-arrow">→</div>
-              <div className="feat-content">
-                <span className="feat-tag">Watch &amp; Jewelry</span>
-                <div className="feat-name">Wooden Watch Display Box</div>
-                <div className="feat-meta">Linen pillow · 6-watch capacity</div>
-              </div>
-            </Link>
-            <Link href="/products/acacia" className="feat-card">
-              <img loading="lazy" decoding="async" src="/acacia-wood-box/3/3-01.webp" alt="Acacia wood storage box" width="1010" height="1144" />
-              <div className="feat-overlay" />
-              <div className="feat-arrow">→</div>
-              <div className="feat-content">
-                <span className="feat-tag">Acacia Series</span>
-                <div className="feat-name">Acacia Wood Keepsake Box</div>
-                <div className="feat-meta">Rich grain · Hardwood durability</div>
-              </div>
-            </Link>
+            {FEATURED.map((f, i) => (
+              <Link href={f.href} key={i} className="feat-card">
+                <img loading="lazy" decoding="async" src={f.img} alt={f.name} width={f.w} height={f.h} />
+                <div className="feat-overlay" />
+                <div className="feat-arrow">→</div>
+                <div className="feat-content">
+                  <span className="feat-tag">{f.tag}</span>
+                  <div className="feat-name">{f.name}</div>
+                  <div className="feat-meta">{f.meta}</div>
+                </div>
+              </Link>
+            ))}
           </div>
           <div style={{ textAlign: 'center', marginTop: 50 }}>
             <Link href="/products" className="btn-outline" style={{ borderColor: 'var(--blue-warm)', color: 'var(--blue-warm)' }}>
-              View All 500+ Products →
+              {COPY.featured.viewAll}
             </Link>
           </div>
         </div>
       </section>
 
-      {/* ───────────── CATEGORIES ───────────── */}
+      {/* CATEGORIES */}
       <section className="categories" id="categories">
         <div className="section-header">
-          <div className="section-label">Our Collection</div>
-          <h2 className="section-title">Find Your Perfect Box</h2>
+          <div className="section-label">{COPY.categories.label}</div>
+          <h2 className="section-title">{COPY.categories.title}</h2>
           <div className="section-line"></div>
         </div>
         <div className="cat-grid">
           <div className="cat-col">
-            <div className="cat-col-label">Browse by Use</div>
-            <div className="cat-col-title">What will you store?</div>
+            <div className="cat-col-label">{COPY.categories.byUseLabel}</div>
+            <div className="cat-col-title">{COPY.categories.byUseTitle}</div>
             <div className="cat-items">
-              <Link href="/products/gift-packaging" className="cat-item">Gift &amp; Packaging Boxes</Link>
-              <Link href="/products/watch-jewelry" className="cat-item">Watch &amp; Jewelry Boxes</Link>
-              <Link href="/products/tea-coffee" className="cat-item">Tea &amp; Coffee Boxes</Link>
-              <Link href="/products/wine-whisky" className="cat-item">Wine &amp; Whisky Boxes</Link>
-              <Link href="/products/kitchen-dining" className="cat-item">Kitchen &amp; Dining Boxes</Link>
-              <Link href="/products/garden-seed" className="cat-item">Garden &amp; Seed Boxes</Link>
-              <Link href="/products/storage" className="cat-item">Storage Boxes</Link>
+              <Link href="/products/gift-packaging" className="cat-item">{t('categories.gift-packaging')}</Link>
+              <Link href="/products/watch-jewelry" className="cat-item">{t('categories.watch-jewelry')}</Link>
+              <Link href="/products/tea-coffee" className="cat-item">{t('categories.tea-coffee')}</Link>
+              <Link href="/products/wine-whisky" className="cat-item">{t('categories.wine-whisky')}</Link>
+              <Link href="/products/kitchen-dining" className="cat-item">{t('categories.kitchen-dining')}</Link>
+              <Link href="/products/garden-seed" className="cat-item">{t('categories.garden-seed')}</Link>
+              <Link href="/products/storage" className="cat-item">{t('categories.storage')}</Link>
             </div>
           </div>
           <div className="cat-col">
-            <div className="cat-col-label">Browse by Structure</div>
-            <div className="cat-col-title">How should it open?</div>
+            <div className="cat-col-label">{COPY.categories.byStructureLabel}</div>
+            <div className="cat-col-title">{COPY.categories.byStructureTitle}</div>
             <div className="cat-items">
-              <Link href="/products/hinged" className="cat-item">Hinged Wooden Boxes</Link>
-              <Link href="/products/sliding-lid" className="cat-item">Sliding Lid Wooden Boxes</Link>
-              <Link href="/products/drawer" className="cat-item">Drawer Wooden Boxes</Link>
-              <Link href="/products/magnetic" className="cat-item">Magnetic Wooden Boxes</Link>
-              <Link href="/products/with-lock" className="cat-item">Wooden Boxes with Lock</Link>
+              <Link href="/products/hinged" className="cat-item">{t('categories.hinged')}</Link>
+              <Link href="/products/sliding-lid" className="cat-item">{t('categories.sliding-lid')}</Link>
+              <Link href="/products/drawer" className="cat-item">{t('categories.drawer')}</Link>
+              <Link href="/products/magnetic" className="cat-item">{t('categories.magnetic')}</Link>
+              <Link href="/products/with-lock" className="cat-item">{t('categories.with-lock')}</Link>
             </div>
           </div>
           <div className="cat-col">
-            <div className="cat-col-label">Browse by Material</div>
-            <div className="cat-col-title">Which wood suits you?</div>
+            <div className="cat-col-label">{COPY.categories.byMaterialLabel}</div>
+            <div className="cat-col-title">{COPY.categories.byMaterialTitle}</div>
             <div className="cat-items">
-              <Link href="/products/paulownia" className="cat-item">Paulownia Wooden Boxes</Link>
-              <Link href="/products/pine" className="cat-item">Pine Wooden Boxes</Link>
-              <Link href="/products/bamboo" className="cat-item">Bamboo Boxes</Link>
-              <Link href="/products/acacia" className="cat-item">Acacia Wooden Boxes</Link>
-              <Link href="/products/walnut" className="cat-item">Walnut Wooden Boxes</Link>
+              <Link href="/products/paulownia" className="cat-item">{t('categories.paulownia')}</Link>
+              <Link href="/products/pine" className="cat-item">{t('categories.pine')}</Link>
+              <Link href="/products/bamboo" className="cat-item">{t('categories.bamboo')}</Link>
+              <Link href="/products/acacia" className="cat-item">{t('categories.acacia')}</Link>
+              <Link href="/products/walnut" className="cat-item">{t('categories.walnut')}</Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ───────────── INSIDE OUR FACTORY (NEW) ───────────── */}
+      {/* FACTORY */}
       <section className="factory-section" id="factory">
         <div className="fac-inner">
           <div className="section-header">
-            <div className="section-label" style={{ color: 'var(--blue-warm)' }}>Behind The Craft</div>
-            <h2 className="section-title" style={{ color: 'var(--cream)' }}>Inside Our Factory</h2>
+            <div className="section-label" style={{ color: 'var(--blue-warm)' }}>{COPY.factory.label}</div>
+            <h2 className="section-title" style={{ color: 'var(--cream)' }}>{COPY.factory.title}</h2>
             <div className="section-line"></div>
             <p style={{ color: 'rgba(217,185,143,0.65)', fontSize: '0.95rem', maxWidth: 640, margin: '24px auto 0', lineHeight: 1.8, fontWeight: 300 }}>
-              15,000 m² of dedicated woodworking space in Cao County, Shandong — from kiln-dried timber
-              stock to hand-finished export packaging, every step happens under one roof. Sales,
-              design and shipping are handled out of our Xiamen, Fujian office.
+              {COPY.factory.intro}
             </p>
           </div>
           <div className="fac-grid">
-            <Link href="/about" className="fac-tile fac-1">
-              <img loading="lazy" decoding="async" src="/factory/chic-factory.webp" alt="Our factory headquarters" width="900" height="900" />
-              <div className="fac-cap">
-                <div className="fac-cap-num">01 · Headquarters</div>
-                <div className="fac-cap-text">15,000 m² Cao County Facility</div>
-              </div>
-            </Link>
-            <Link href="/about" className="fac-tile fac-2">
-              <img loading="lazy" decoding="async" src="/factory/production.webp" alt="Production floor" width="900" height="900" />
-              <div className="fac-cap">
-                <div className="fac-cap-num">02 · Production</div>
-                <div className="fac-cap-text">Active Workshop</div>
-              </div>
-            </Link>
-            <Link href="/about" className="fac-tile fac-3">
-              <img loading="lazy" decoding="async" src="/factory/material.webp" alt="Raw wood materials" width="900" height="900" />
-              <div className="fac-cap">
-                <div className="fac-cap-num">03</div>
-                <div className="fac-cap-text">Raw Materials</div>
-              </div>
-            </Link>
-            <Link href="/about" className="fac-tile fac-4">
-              <img loading="lazy" decoding="async" src="/factory/painting.webp" alt="Finishing and painting" width="900" height="900" />
-              <div className="fac-cap">
-                <div className="fac-cap-num">04</div>
-                <div className="fac-cap-text">Finishing Line</div>
-              </div>
-            </Link>
-            <Link href="/about" className="fac-tile fac-5">
-              <img loading="lazy" decoding="async" src="/factory/warehouse.webp" alt="Warehouse" width="4096" height="3072" />
-              <div className="fac-cap">
-                <div className="fac-cap-num">05</div>
-                <div className="fac-cap-text">Export Warehouse</div>
-              </div>
-            </Link>
-            <Link href="/about" className="fac-tile fac-6">
-              <img loading="lazy" decoding="async" src="/employees/sales-office.webp" alt="Sales office" width="2776" height="2250" />
-              <div className="fac-cap">
-                <div className="fac-cap-num">06</div>
-                <div className="fac-cap-text">Sales &amp; Service Team</div>
-              </div>
-            </Link>
-            <Link href="/about" className="fac-tile fac-7">
-              <img loading="lazy" decoding="async" src="/employees/e7fd6e2eec09920a9345158e7bdfdbeb.webp" alt="Skilled craftspeople" width="791" height="664" />
-              <div className="fac-cap">
-                <div className="fac-cap-num">07</div>
-                <div className="fac-cap-text">Skilled Craftspeople</div>
-              </div>
-            </Link>
+            {FACTORY_TILES.map((t, i) => (
+              <Link href={t.href} className={`fac-tile ${t.cls}`} key={i}>
+                <img loading="lazy" decoding="async" src={t.img} alt={t.alt} width={t.w} height={t.h} />
+                <div className="fac-cap">
+                  <div className="fac-cap-num">{t.num}</div>
+                  <div className="fac-cap-text">{t.text}</div>
+                </div>
+              </Link>
+            ))}
           </div>
           <div style={{ textAlign: 'center', marginTop: 60 }}>
-            <Link href="/about" className="btn-primary">
-              Read Our Full Story →
-            </Link>
+            <Link href="/about" className="btn-primary">{COPY.factory.cta}</Link>
           </div>
         </div>
       </section>
 
-      {/* ───────────── MANUFACTURING PROCESS (real photos) ───────────── */}
+      {/* MANUFACTURING PROCESS */}
       <section className="custom-section" id="custom">
         <div className="custom-inner">
           <div className="custom-header section-header">
-            <div className="section-label">Made in Our Workshop</div>
-            <h2 className="section-title" style={{ color: 'var(--cream)' }}>Our Manufacturing Process</h2>
+            <div className="section-label">{COPY.process.label}</div>
+            <h2 className="section-title" style={{ color: 'var(--cream)' }}>{COPY.process.title}</h2>
             <div className="section-line"></div>
             <p style={{ color: 'rgba(217,185,143,0.65)', fontSize: '0.95rem', maxWidth: 640, margin: '24px auto 0', lineHeight: 1.8, fontWeight: 300 }}>
-              Six steps, every box. From rough timber to export-ready packaging,
-              your order moves through hands that have done this work for two decades.
+              {COPY.process.intro}
             </p>
           </div>
           <div className="process-grid">
-            <div className="pcell">
-              <img loading="lazy" decoding="async" src="/folder/1-cutting-to-size.webp" alt="Cutting wood to size" width="1191" height="893" />
-              <div className="pcell-num">1</div>
-              <div className="pcell-name">Cutting to Size</div>
-            </div>
-            <div className="pcell">
-              <img loading="lazy" decoding="async" src="/folder/2-shape-cutting.webp" alt="Shape cutting" width="2000" height="1334" />
-              <div className="pcell-num">2</div>
-              <div className="pcell-name">Shape Cutting</div>
-            </div>
-            <div className="pcell">
-              <img loading="lazy" decoding="async" src="/folder/3-mortise-cutting.webp" alt="Mortise cutting" width="2000" height="1333" />
-              <div className="pcell-num">3</div>
-              <div className="pcell-name">Mortise Cutting</div>
-            </div>
-            <div className="pcell">
-              <img loading="lazy" decoding="async" src="/folder/4-pre-assemble.webp" alt="Pre-assembly" width="2000" height="1333" />
-              <div className="pcell-num">4</div>
-              <div className="pcell-name">Pre-Assemble</div>
-            </div>
-            <div className="pcell">
-              <img loading="lazy" decoding="async" src="/folder/5-polishing.webp" alt="Polishing" width="2000" height="1501" />
-              <div className="pcell-num">5</div>
-              <div className="pcell-name">Polishing</div>
-            </div>
-            <div className="pcell">
-              <img loading="lazy" decoding="async" src="/folder/6-packaging.webp" alt="Packaging for export" width="3135" height="2090" />
-              <div className="pcell-num">6</div>
-              <div className="pcell-name">Packaging</div>
-            </div>
+            {PROCESS.map((s, i) => (
+              <div className="pcell" key={i}>
+                <img loading="lazy" decoding="async" src={s.img} alt={s.alt} width={s.w} height={s.h} />
+                <div className="pcell-num">{s.num}</div>
+                <div className="pcell-name">{s.name}</div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* ───────────── MATERIALS ───────────── */}
+      {/* MATERIALS */}
       <section className="materials">
         <div className="mat-inner">
           <div className="section-header">
-            <div className="section-label">Wood Selection</div>
-            <h2 className="section-title">Premium Materials, Naturally Sourced</h2>
+            <div className="section-label">{COPY.materials.label}</div>
+            <h2 className="section-title">{COPY.materials.title}</h2>
             <div className="section-line"></div>
           </div>
           <div className="mat-grid">
-            <Link href="/products/paulownia" className="mat-card">
-              <div className="mat-swatch swatch-paulownia"></div>
-              <div className="mat-name">Paulownia</div>
-              <div className="mat-desc">Ultra-lightweight, great for large gift packaging. Easy to engrave.</div>
-            </Link>
-            <Link href="/products/pine" className="mat-card">
-              <div className="mat-swatch swatch-pine"></div>
-              <div className="mat-name">Pine</div>
-              <div className="mat-desc">Classic rustic grain. Affordable and durable. Popular for wine &amp; storage.</div>
-            </Link>
-            <Link href="/products/bamboo" className="mat-card">
-              <div className="mat-swatch swatch-bamboo"></div>
-              <div className="mat-name">Bamboo</div>
-              <div className="mat-desc">Eco-friendly and sustainable. Unique texture, naturally antibacterial.</div>
-            </Link>
-            <Link href="/products/acacia" className="mat-card">
-              <div className="mat-swatch swatch-acacia"></div>
-              <div className="mat-name">Acacia</div>
-              <div className="mat-desc">Dense hardwood with rich, warm tones. Ideal for premium gift boxes.</div>
-            </Link>
-            <Link href="/products/walnut" className="mat-card">
-              <div className="mat-swatch swatch-walnut"></div>
-              <div className="mat-name">Walnut</div>
-              <div className="mat-desc">Deep chocolate grain. Luxury appeal for watches, jewelry, spirits.</div>
-            </Link>
+            {MATERIALS.map((m, i) => (
+              <Link href={m.href} className="mat-card" key={i}>
+                <div className={`mat-swatch ${m.swatch}`}></div>
+                <div className="mat-name">{m.name}</div>
+                <div className="mat-desc">{m.desc}</div>
+              </Link>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* ───────────── WHY US ───────────── */}
+      {/* WHY US */}
       <section className="why-us">
         <div className="why-inner">
           <div className="section-header">
-            <div className="section-label">Why Choose Us</div>
-            <h2 className="section-title" style={{ color: 'var(--cream)' }}>The CHIC Advantage</h2>
+            <div className="section-label">{COPY.why.label}</div>
+            <h2 className="section-title" style={{ color: 'var(--cream)' }}>{COPY.why.title}</h2>
             <div className="section-line"></div>
           </div>
           <div className="why-grid">
-            <div className="why-card">
-              <div className="why-icon">🏭</div>
-              <div className="why-title">Factory Direct — No Middlemen</div>
-              <div className="why-text">You work directly with our production team. Lower prices, faster communication, and zero markups from trading companies.</div>
-            </div>
-            <div className="why-card">
-              <div className="why-icon">🎨</div>
-              <div className="why-title">Full OEM / ODM Capability</div>
-              <div className="why-text">Logo engraving, hot stamping, screen printing, custom inserts, hardware, velvet lining — we handle every detail in-house.</div>
-            </div>
-            <div className="why-card">
-              <div className="why-icon">📋</div>
-              <div className="why-title">Strict Quality Control</div>
-              <div className="why-text">Each order goes through a 3-stage QC process: material inspection, in-process checks, and pre-shipment final inspection.</div>
-            </div>
-            <div className="why-card">
-              <div className="why-icon">🌍</div>
-              <div className="why-title">Export-Ready Documentation</div>
-              <div className="why-text">We handle phytosanitary certificates, CO, commercial invoices, and packing lists — stress-free customs clearance for you.</div>
-            </div>
+            {WHY.map((w, i) => (
+              <div className="why-card" key={i}>
+                <div className="why-icon">{w.icon}</div>
+                <div className="why-title">{w.title}</div>
+                <div className="why-text">{w.text}</div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* ───────────── TRUST ───────────── */}
+      {/* TRUST */}
       <section className="trust">
         <div className="trust-inner">
           <div className="trust-text">
-            <div className="section-label">Certifications &amp; Compliance</div>
-            <h2 className="section-title">Trusted by Global Buyers</h2>
-            <p>
-              All our wooden products meet international export standards. We hold FSC certification
-              for responsible forestry, and our finishes comply with EU REACH and US CARB regulations.
-              Phytosanitary certificates issued on request for all solid wood shipments.
-            </p>
+            <div className="section-label">{COPY.trust.label}</div>
+            <h2 className="section-title">{COPY.trust.title}</h2>
+            <p>{COPY.trust.text}</p>
           </div>
           <div className="cert-badges">
-            <div className="cert-badge"><div className="cert-icon">🌲</div><div className="cert-name">FSC Certified</div></div>
-            <div className="cert-badge"><div className="cert-icon">🇪🇺</div><div className="cert-name">EU REACH</div></div>
-            <div className="cert-badge"><div className="cert-icon">✅</div><div className="cert-name">CARB P2</div></div>
-            <div className="cert-badge"><div className="cert-icon">🔬</div><div className="cert-name">SGS Tested</div></div>
-            <div className="cert-badge"><div className="cert-icon">📜</div><div className="cert-name">Phyto Cert</div></div>
-            <div className="cert-badge"><div className="cert-icon">🏅</div><div className="cert-name">ISO 9001</div></div>
+            {CERTS.map((c, i) => (
+              <div className="cert-badge" key={i}>
+                <div className="cert-icon">{c.icon}</div>
+                <div className="cert-name">{c.name}</div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* ───────────── CTA ───────────── */}
+      {/* CTA */}
       <section className="cta-section" id="contact">
         <div className="cta-inner">
-          <div className="cta-label">Ready to Start?</div>
-          <h2 className="cta-title">
-            Let&apos;s Build Your<br />Perfect Wooden Box
-          </h2>
-          <p className="cta-sub">
-            Send us your requirements and get a free quote within 24 hours.<br />
-            No commitment required — samples available.
-          </p>
+          <div className="cta-label">{COPY.cta.label}</div>
+          <h2 className="cta-title">{COPY.cta.titleA}<br />{COPY.cta.titleB}</h2>
+          <p className="cta-sub">{COPY.cta.sub}</p>
           <div className="cta-btns">
-            <a href="mailto:info@xmchichomeware.com" className="btn-primary">Email Us Now →</a>
-            <a href="https://wa.me/8618960098762" className="btn-outline" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+            <a href="mailto:info@xmchichomeware.com" className="btn-primary">{COPY.cta.btnEmail}</a>
+            <a href="https://wa.me/8618960098762" className="btn-outline" target="_blank" rel="noopener noreferrer">{COPY.cta.btnWhatsapp}</a>
           </div>
         </div>
       </section>
