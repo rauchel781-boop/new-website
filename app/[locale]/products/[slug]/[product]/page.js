@@ -24,6 +24,7 @@ import JsonLd from '@/components/JsonLd';
 import { SITE } from '@/data/site-config';
 import { alternates as makeAlternates } from '@/i18n/seo';
 import { unstable_setRequestLocale } from 'next-intl/server';
+import { getProductTranslation } from '@/data/products/translations';
 
 // Map category slug → its products data. Mirror of the same map in the
 // category landing page. Add new categories here as more product files exist.
@@ -59,8 +60,9 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }) {
   const products = PRODUCTS_BY_CATEGORY[params.slug];
-  const product = products?.[params.product];
-  if (!product) return { title: 'Product — CHIC' };
+  const productRaw = products?.[params.product];
+  if (!productRaw) return { title: 'Product — CHIC' };
+  const product = { ...productRaw, ...getProductTranslation(productRaw.slug, params.locale) };
   const localePath = `/products/${params.slug}/${params.product}`;
   const fullPath = `/${params.locale}${localePath}`;
   const hero = product.images?.[0];
@@ -381,7 +383,8 @@ export default function ProductDetail({ params }) {
   unstable_setRequestLocale(params.locale);
   const category = CATEGORIES[params.slug];
   const products = PRODUCTS_BY_CATEGORY[params.slug];
-  const product = products?.[params.product];
+  const productRaw = products?.[params.product];
+  const product = productRaw ? { ...productRaw, ...getProductTranslation(productRaw.slug, params.locale) } : null;
   if (!category || !product) notFound();
 
   const related = (product.related || [])

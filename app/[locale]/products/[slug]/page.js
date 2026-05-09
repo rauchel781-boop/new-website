@@ -455,7 +455,7 @@ export default async function CategoryPage({ params }) {
           </div>
 
           {products ? (
-            <ProductGrid products={products} categorySlug={params.slug} />
+            <ProductGrid products={products} categorySlug={params.slug} locale={params.locale} />
           ) : (
             <div className="cat-gal-grid">
               {galleryImages.map((src, i) => (

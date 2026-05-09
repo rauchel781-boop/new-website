@@ -1,6 +1,7 @@
 'use client';
 import { useMemo, useState } from 'react';
 import { Link } from '@/i18n/navigation';
+import { getProductTranslation } from '@/data/products/translations';
 
 const CSS = `
 .pg {
@@ -150,10 +151,15 @@ const CSS = `
 }
 `;
 
-export default function ProductGrid({ products, categorySlug }) {
+export default function ProductGrid({ products, categorySlug, locale = 'en' }) {
   const [filter, setFilter] = useState('All');
 
-  const list = useMemo(() => Object.values(products), [products]);
+  // Localize product names/closures/taglines per the active locale; falls back
+  // to English from the source data file when a translation is missing.
+  const list = useMemo(
+    () => Object.values(products).map((p) => ({ ...p, ...getProductTranslation(p.slug, locale) })),
+    [products, locale],
+  );
 
   const closures = useMemo(() => {
     const counts = { All: list.length };
