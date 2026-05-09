@@ -1,91 +1,24 @@
 // About — Xiamen Chic Homeware Co.,Ltd.
-// Visual system mirrors app/page.js (WOOD palette + Playfair Display + Jost).
 import { alternates } from '@/i18n/seo';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
+import { getAbout } from '@/data/about';
 
 export async function generateMetadata({ params: { locale } }) {
+  const { COPY } = getAbout(locale);
   return {
-    title: 'About Us — Xiamen Chic Homeware Co.,Ltd.',
-    description:
-      'Xiamen Chic Homeware Co.,Ltd. — five-year-old custom wooden box manufacturer with a sales office in Xiamen and a 15,000 m² factory in Cao County, Shandong. Serving Amazon brands and importers across Europe, the US, Japan and Korea.',
+    title: COPY.meta.title,
+    description: COPY.meta.description,
     alternates: alternates(locale, '/about'),
     openGraph: {
       url: `/${locale}/about`,
-      title: 'About Us — Xiamen Chic Homeware Co.,Ltd.',
-      description:
-        'Five-year-old custom wooden box manufacturer with a 15,000 m² factory in Cao County, Shandong, serving Amazon brands and importers worldwide.',
+      title: COPY.meta.title,
+      description: COPY.meta.ogDescription,
     },
   };
 }
 
-// Factory gallery — drop more files into /public/factory/ and add to the array below.
-// Captions are shown overlaid on each tile.
-const F = (name) => '/factory/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
-
-const FACTORY_IMAGES = [
-  { src: F('chic-factory.jpg'),    caption: 'Cao County Factory · 15,000 m² site' },
-  { src: F('material.jpg'),         caption: 'Solid wood inventory · paulownia, pine, oak' },
-  { src: F('1-1.jpg'),            caption: 'Wood-prep workshop' },
-  { src: F('painting.jpg'),         caption: 'Dust-controlled spray finishing line' },
-  { src: F('1-3.jpg'),            caption: 'Hinge installation · hardware QC' },
-  { src: F('warehouse.jpg'),        caption: 'Finished goods warehouse · ready to ship' },
-];
-
-// Showroom image used in the founder story section (more polished shot).
-const SHOWROOM_IMG = F('gemini-generated-image-nclf39nclf39nclf.jpg');
-
-// Team & customer photos — files in /public/employees/.
-// Replace captions or swap files at any time; the section auto-renders the array.
-const E = (name) => '/employees/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
-const TEAM_IMAGES = [
-  { src: E('sales-office.jpg'),                            caption: 'Sales Office · Xiamen, Fujian',  tag: 'Office'   },
-  { src: E('6c662ed6be84ad861ca777f348b94cfc.jpg'),        caption: 'Hosting our customers',           tag: 'Customer' },
-  { src: E('d19b7f79d2f9125e98a1ad72a78abb06.jpg'),        caption: 'Hosting an overseas buyer',       tag: 'Customer' },
-  { src: E('e7fd6e2eec09920a9345158e7bdfdbeb.jpg'),        caption: 'Our team',                        tag: 'Team'     },
-];
-
-// Production process — files in /public/folder/.
-// Filenames use a Chinese full-width colon and space, so we encode the path manually.
-const P = (name) => '/folder/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
-const PRODUCTION_STEPS = [
-  {
-    n: '01',
-    src: P('1-cutting-to-size.jpg'),
-    title: 'Cutting to Size',
-    desc: 'Solid lumber and engineered panels are dimensioned on our panel saws. Tolerance is held to ±0.5 mm so every blank fits the next station perfectly.',
-  },
-  {
-    n: '02',
-    src: P('2-shape-cutting.jpg'),
-    title: 'Shape-Cutting',
-    desc: 'CNC routers and band saws cut the curves, mitres and rebates that define each box. Programs are saved per SKU for repeatable mass production.',
-  },
-  {
-    n: '03',
-    src: P('3-mortise-cutting.jpg'),
-    title: 'Mortise Cutting',
-    desc: 'Hinge mortises, lock pockets and divider grooves are routed and chiseled in. This is where joinery accuracy decides how the lid will sit.',
-  },
-  {
-    n: '04',
-    src: P('4-pre-assemble.jpg'),
-    title: 'Pre-Assembly',
-    desc: 'Panels are dry-fit and gauge-checked before any glue. Hardware is test-installed first — every fit confirmed before final glue-up.',
-  },
-  {
-    n: '05',
-    src: P('5-polishing.jpg'),
-    title: 'Polishing & Sanding',
-    desc: 'Multi-grit sanding from 120 → 400 produces the silk-smooth surface our finish team needs. Edges eased, corners rounded, dust extracted at source.',
-  },
-  {
-    n: '06',
-    src: P('6-packaging.jpeg'),
-    title: 'Packaging & QC',
-    desc: 'Each box is inspected, wiped, and packed with corner protectors and shrink-wrap. Cartons are labelled to your spec — FBA-ready or master-carton.',
-  },
-];
-
+// All translatable copy + arrays now live in data/about/{locale}.js. The CSS
+// string below is locale-neutral.
 const CSS = `
 
 .about {
@@ -732,6 +665,7 @@ const CSS = `
 
 export default function AboutPage({ params: { locale } }) {
   unstable_setRequestLocale(locale);
+  const { COPY, FACTORY_IMAGES, TEAM_IMAGES, PRODUCTION_STEPS, TIMELINE, LOCATIONS, MARKETS, VALUES, CERTS, SHOWROOM_IMG } = getAbout(locale);
   return (
     <div className="about">
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
@@ -739,17 +673,12 @@ export default function AboutPage({ params: { locale } }) {
       {/* ── HERO ── */}
       <section className="about-hero">
         <div className="about-hero-inner">
-          <div className="about-eyebrow">About Xiamen Chic Homeware</div>
+          <div className="about-eyebrow">{COPY.hero.eyebrow}</div>
           <h1 className="about-h1">
-            Five Years of <em>Wood Craft.</em><br />
-            Two Locations. One Promise.
+            {COPY.hero.titleA} <em>{COPY.hero.titleEm}</em><br />
+            {COPY.hero.titleB}
           </h1>
-          <p className="about-sub">
-            Xiamen Chic Homeware Co.,Ltd. is a custom wooden homeware manufacturer
-            built to serve the modern import market — from Amazon brand owners and
-            European retailers to Japanese and Korean wholesalers. A young factory
-            with deep industry roots: founder-led, factory-direct, export-ready.
-          </p>
+          <p className="about-sub">{COPY.hero.sub}</p>
         </div>
       </section>
 
@@ -757,19 +686,19 @@ export default function AboutPage({ params: { locale } }) {
       <div className="about-stats">
         <div className="about-stat">
           <div className="about-stat-num">5<span>+</span></div>
-          <div className="about-stat-label">Years in Business</div>
+          <div className="about-stat-label">{COPY.stats.years}</div>
         </div>
         <div className="about-stat">
           <div className="about-stat-num">15,000<span> m²</span></div>
-          <div className="about-stat-label">Factory Floor</div>
+          <div className="about-stat-label">{COPY.stats.floor}</div>
         </div>
         <div className="about-stat">
           <div className="about-stat-num">120<span>+</span></div>
-          <div className="about-stat-label">Skilled Workers</div>
+          <div className="about-stat-label">{COPY.stats.workers}</div>
         </div>
         <div className="about-stat">
           <div className="about-stat-num">40<span>+</span></div>
-          <div className="about-stat-label">Export Markets</div>
+          <div className="about-stat-label">{COPY.stats.markets}</div>
         </div>
       </div>
 
@@ -777,46 +706,26 @@ export default function AboutPage({ params: { locale } }) {
       <section className="about-section about-story">
         <div className="about-section-inner about-story-grid">
           <div className="about-story-text">
-            <div className="about-section-label">Our Story</div>
+            <div className="about-section-label">{COPY.story.label}</div>
             <h2 className="about-section-title">
-              Built by Wood People,<br /><em>for Brand People.</em>
+              {COPY.story.titleA}<br /><em>{COPY.story.titleEm}</em>
             </h2>
             <div className="about-section-line" />
-            <p style={{ marginTop: 28 }}>
-              <strong>Xiamen Chic Homeware Co.,Ltd. was founded in 2021</strong> by a
-              team of veterans from China&apos;s wood products industry. Our founder
-              spent more than two decades inside the wood trade — walking timber yards in
-              Cao County, running CNC programs in Heze, and managing export orders out
-              of Xiamen — before starting Chic to do things differently.
-            </p>
-            <p>
-              The premise was simple: combine a real factory in <strong>Cao County,
-              Shandong</strong> — the historic heart of China&apos;s wooden box industry —
-              with a modern sales office in <strong>Xiamen, Fujian</strong>, one of
-              the country&apos;s leading export gateways. One side handles the wood;
-              the other side handles the world.
-            </p>
-            <p>
-              Five years in, we serve hundreds of brands across Europe, North America,
-              Japan and Korea — including a long roster of Amazon private-label
-              sellers who count on our quick turnaround and consistent finish.
-            </p>
+            <p style={{ marginTop: 28 }} dangerouslySetInnerHTML={{ __html: COPY.story.p1html }} />
+            <p dangerouslySetInnerHTML={{ __html: COPY.story.p2html }} />
+            <p dangerouslySetInnerHTML={{ __html: COPY.story.p3html }} />
 
             <div className="about-story-features">
-              <div className="about-feat"><div className="about-feat-dot" /> Founder-led, no trading-company markup</div>
-              <div className="about-feat"><div className="about-feat-dot" /> Factory floor + sales office under one company</div>
-              <div className="about-feat"><div className="about-feat-dot" /> 20+ years of wood-industry experience at the top</div>
-              <div className="about-feat"><div className="about-feat-dot" /> Built specifically for export — not domestic resale</div>
+              {COPY.story.features.map((feat, i) => (
+                <div className="about-feat" key={i}><div className="about-feat-dot" /> {feat}</div>
+              ))}
             </div>
           </div>
 
           <div className="about-story-visual">
-            <div className="about-story-tag">Showroom · Xiamen</div>
-            <img loading="lazy" decoding="async" src={SHOWROOM_IMG} alt="Xiamen Chic Homeware showroom — finished wooden products" width="1200" height="900" />
-            <div className="about-story-cap">
-              &ldquo;Cao County is where the world&apos;s wooden boxes are made.
-              We&apos;re proud to be from here.&rdquo;
-            </div>
+            <div className="about-story-tag">{COPY.story.showroomTag}</div>
+            <img loading="lazy" decoding="async" src={SHOWROOM_IMG} alt={COPY.story.showroomAlt} width="1200" height="900" />
+            <div className="about-story-cap">{COPY.story.quote}</div>
           </div>
         </div>
       </section>
@@ -824,51 +733,18 @@ export default function AboutPage({ params: { locale } }) {
       {/* ── TIMELINE ── */}
       <section className="about-section about-timeline">
         <div className="about-section-inner">
-          <div className="about-section-label">Five-Year Journey</div>
-          <h2 className="about-section-title">From Workshop to <em>Worldwide</em></h2>
+          <div className="about-section-label">{COPY.timeline.label}</div>
+          <h2 className="about-section-title">{COPY.timeline.titleA} <em>{COPY.timeline.titleEm}</em></h2>
           <div className="about-section-line" />
 
           <div className="about-tl-grid">
-            <div className="about-tl-card">
-              <div className="about-tl-year">2021</div>
-              <h3 className="about-tl-title">Founded</h3>
-              <p className="about-tl-text">
-                Xiamen Chic Homeware Co.,Ltd. registered in Xiamen.
-                Founder secures partner workshop in Cao County and ships first export pallets.
-              </p>
-            </div>
-            <div className="about-tl-card">
-              <div className="about-tl-year">2022</div>
-              <h3 className="about-tl-title">First Factory</h3>
-              <p className="about-tl-text">
-                Lease signed on dedicated 6,000 m² production site in Pulianji Town.
-                Onboarded first European wine-box client.
-              </p>
-            </div>
-            <div className="about-tl-card">
-              <div className="about-tl-year">2023</div>
-              <h3 className="about-tl-title">Amazon Boom</h3>
-              <p className="about-tl-text">
-                Built dedicated small-MOQ line for Amazon private-label brands.
-                Crossed 1 million units shipped in a single year.
-              </p>
-            </div>
-            <div className="about-tl-card">
-              <div className="about-tl-year">2024</div>
-              <h3 className="about-tl-title">FSC Certified</h3>
-              <p className="about-tl-text">
-                Achieved FSC chain-of-custody certification.
-                Expanded factory to 15,000 m² with new finishing and QC area.
-              </p>
-            </div>
-            <div className="about-tl-card">
-              <div className="about-tl-year">2025</div>
-              <h3 className="about-tl-title">Going Global</h3>
-              <p className="about-tl-text">
-                Active customers in 40+ countries.
-                In-house ID + 3D mockup team launched to support OEM/ODM growth.
-              </p>
-            </div>
+            {TIMELINE.map((tl) => (
+              <div className="about-tl-card" key={tl.year}>
+                <div className="about-tl-year">{tl.year}</div>
+                <h3 className="about-tl-title">{tl.title}</h3>
+                <p className="about-tl-text">{tl.text}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -876,42 +752,22 @@ export default function AboutPage({ params: { locale } }) {
       {/* ── TWO LOCATIONS ── */}
       <section className="about-section about-loc">
         <div className="about-section-inner">
-          <div className="about-section-label">Two Locations</div>
-          <h2 className="about-section-title">Xiamen + <em>Cao County</em></h2>
+          <div className="about-section-label">{COPY.locations.label}</div>
+          <h2 className="about-section-title">{COPY.locations.titleA} <em>{COPY.locations.titleEm}</em></h2>
           <div className="about-section-line" />
 
           <div className="about-loc-grid">
-            <div className="about-loc-card">
-              <div className="about-loc-eyebrow">Sales Office</div>
-              <h3 className="about-loc-name">Xiamen, Fujian</h3>
-              <div className="about-loc-role">Sales · design · export documentation</div>
-              <p className="about-loc-addr">
-                101, No. 8 Houweizhaiding Road, Maluan, Xinglin, Jimei District,
-                Xiamen, Fujian, China
-              </p>
-              <ul className="about-loc-detail-list">
-                <li>Account management &amp; English-speaking sales team</li>
-                <li>3D rendering, sample coordination, freight booking</li>
-                <li>Ten minutes from Xiamen Gaoqi International Airport</li>
-                <li>Container shipping via Xiamen Port — 130+ direct global routes</li>
-              </ul>
-            </div>
-
-            <div className="about-loc-card">
-              <div className="about-loc-eyebrow">Production Factory</div>
-              <h3 className="about-loc-name">Cao County, Shandong</h3>
-              <div className="about-loc-role">Manufacturing · finishing · QC · packing</div>
-              <p className="about-loc-addr">
-                North of the Administration for Market Regulation Office,
-                Pulianji Village, Pulianji Town, Cao County, Heze City, Shandong Province, China
-              </p>
-              <ul className="about-loc-detail-list">
-                <li>15,000 m² floor with CNC, laser, finishing &amp; assembly lines</li>
-                <li>120+ skilled workers across two production shifts</li>
-                <li>Local access to paulownia, pine, bamboo, walnut and oak</li>
-                <li>Direct rail container service to Qingdao &amp; Lianyungang ports</li>
-              </ul>
-            </div>
+            {LOCATIONS.map((loc, i) => (
+              <div className="about-loc-card" key={i}>
+                <div className="about-loc-eyebrow">{loc.eyebrow}</div>
+                <h3 className="about-loc-name">{loc.name}</h3>
+                <div className="about-loc-role">{loc.role}</div>
+                <p className="about-loc-addr">{loc.addr}</p>
+                <ul className="about-loc-detail-list">
+                  {loc.details.map((d, j) => <li key={j}>{d}</li>)}
+                </ul>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -921,13 +777,12 @@ export default function AboutPage({ params: { locale } }) {
         <div className="about-section-inner">
           <div className="about-gal-head">
             <div>
-              <div className="about-section-label">Our People</div>
-              <h2 className="about-section-title">The Team — &amp; the <em>Customers</em> Who Visit Us</h2>
+              <div className="about-section-label">{COPY.team.label}</div>
+              <h2 className="about-section-title">{COPY.team.titleA} <em>{COPY.team.titleEm}</em> {COPY.team.titleB}</h2>
               <div className="about-section-line" />
             </div>
             <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', maxWidth: 320 }}>
-              We&apos;re a small, founder-led team in Xiamen, and we love hosting the buyers, brand
-              owners and Amazon sellers who come to see how their boxes are made.
+              {COPY.team.intro}
             </div>
           </div>
 
@@ -948,13 +803,12 @@ export default function AboutPage({ params: { locale } }) {
         <div className="about-section-inner">
           <div className="about-gal-head">
             <div>
-              <div className="about-section-label">Inside the Factory</div>
-              <h2 className="about-section-title">A Look at Our <em>Cao County Site</em></h2>
+              <div className="about-section-label">{COPY.gallery.label}</div>
+              <h2 className="about-section-title">{COPY.gallery.titleA} <em>{COPY.gallery.titleEm}</em></h2>
               <div className="about-section-line" />
             </div>
             <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)', maxWidth: 320 }}>
-              From timber yard to finished crate — every step happens under one roof,
-              under our own people&apos;s eyes.
+              {COPY.gallery.intro}
             </div>
           </div>
 
@@ -972,14 +826,10 @@ export default function AboutPage({ params: { locale } }) {
       {/* ── PRODUCTION PROCESS ── */}
       <section className="about-section about-prod">
         <div className="about-section-inner">
-          <div className="about-section-label">How a Box Gets Made</div>
-          <h2 className="about-section-title">Six Steps from <em>Lumber to Doorstep</em></h2>
+          <div className="about-section-label">{COPY.production.label}</div>
+          <h2 className="about-section-title">{COPY.production.titleA} <em>{COPY.production.titleEm}</em></h2>
           <div className="about-section-line" />
-          <p className="about-prod-intro">
-            Every wooden box that leaves our Cao County factory passes through the same six
-            production stations. Photographed below in our own workshop — no stock images, no third-party
-            sourcing, every shot taken on our shop floor.
-          </p>
+          <p className="about-prod-intro">{COPY.production.intro}</p>
 
           <div className="about-prod-grid">
             {PRODUCTION_STEPS.map((s) => (
@@ -1001,48 +851,24 @@ export default function AboutPage({ params: { locale } }) {
       {/* ── MARKETS ── */}
       <section className="about-section about-markets">
         <div className="about-section-inner">
-          <div className="about-section-label">Where Our Boxes Go</div>
-          <h2 className="about-section-title">Export to <em>Developed Markets</em></h2>
+          <div className="about-section-label">{COPY.markets.label}</div>
+          <h2 className="about-section-title">{COPY.markets.titleA} <em>{COPY.markets.titleEm}</em></h2>
           <div className="about-section-line" />
-          <p className="about-markets-text" style={{ marginTop: 28 }}>
-            We focus exclusively on developed-market exports — countries where buyers
-            expect consistent quality, accurate documentation, and on-time delivery.
-            Our team speaks English, prepares export paperwork to spec, and works on
-            your timezone. No surprises at customs.
-          </p>
+          <p className="about-markets-text" style={{ marginTop: 28 }}>{COPY.markets.intro}</p>
 
           <div className="about-markets-grid">
-            <div className="about-market-card">
-              <div className="about-market-flag">🇪🇺</div>
-              <div className="about-market-name">Europe</div>
-              <div className="about-market-text">UK, Germany, France, Netherlands, Italy, Spain — REACH-compliant finishes, EU phytosanitary certificates standard.</div>
-            </div>
-            <div className="about-market-card">
-              <div className="about-market-flag">🇺🇸</div>
-              <div className="about-market-name">North America</div>
-              <div className="about-market-text">United States &amp; Canada — CARB P2 finishes, FBA-ready packaging available, weekly LCL consolidations.</div>
-            </div>
-            <div className="about-market-card">
-              <div className="about-market-flag">🇯🇵</div>
-              <div className="about-market-name">Japan</div>
-              <div className="about-market-text">Tokyo, Osaka, Nagoya — JIS-grade tolerance standards, JAS-compliant labeling on request.</div>
-            </div>
-            <div className="about-market-card">
-              <div className="about-market-flag">🇰🇷</div>
-              <div className="about-market-name">Korea</div>
-              <div className="about-market-text">Seoul, Busan — KC-mark labeling supported, fast Incheon &amp; Busan port routes from Xiamen.</div>
-            </div>
+            {MARKETS.map((mk) => (
+              <div className="about-market-card" key={mk.name}>
+                <div className="about-market-flag">{mk.flag}</div>
+                <div className="about-market-name">{mk.name}</div>
+                <div className="about-market-text">{mk.text}</div>
+              </div>
+            ))}
           </div>
 
           <div className="about-amazon">
             <div className="about-amazon-icon">A.</div>
-            <div className="about-amazon-text">
-              <strong>We are an Amazon-friendly manufacturer.</strong>
-              {' '}A large share of our 200+ active customers are Amazon private-label
-              brands across the US, UK and Germany marketplaces. We ship FBA-ready
-              cartons with FNSKU labels, provide UPC barcoding, and meet Amazon&apos;s
-              packaging and dimensional weight rules out of the box.
-            </div>
+            <div className="about-amazon-text" dangerouslySetInnerHTML={{ __html: COPY.markets.amazonHtml }} />
           </div>
         </div>
       </section>
@@ -1050,38 +876,18 @@ export default function AboutPage({ params: { locale } }) {
       {/* ── VALUES ── */}
       <section className="about-section about-values">
         <div className="about-section-inner">
-          <div className="about-section-label">How We Work</div>
-          <h2 className="about-section-title">What Sets Us <em>Apart</em></h2>
+          <div className="about-section-label">{COPY.values.label}</div>
+          <h2 className="about-section-title">{COPY.values.titleA} <em>{COPY.values.titleEm}</em></h2>
           <div className="about-section-line" />
 
           <div className="about-val-grid">
-            <div className="about-val-card">
-              <div className="about-val-num">01</div>
-              <h3 className="about-val-title">Real Factory, Not a Trader</h3>
-              <p className="about-val-text">
-                Our 15,000 m² Cao County factory is owned and operated by Chic Homeware
-                directly — there is no middleman, no markup chain, and no telephone game
-                between you and the production floor.
-              </p>
-            </div>
-            <div className="about-val-card">
-              <div className="about-val-num">02</div>
-              <h3 className="about-val-title">Built for Small + Mid Volume</h3>
-              <p className="about-val-text">
-                Most factories want 5,000-pc orders. We are built around 200 to 5,000
-                piece runs — the volume that matters to Amazon brand owners, Etsy sellers,
-                gift retailers, and brand launches.
-              </p>
-            </div>
-            <div className="about-val-card">
-              <div className="about-val-num">03</div>
-              <h3 className="about-val-title">English-Speaking Sales</h3>
-              <p className="about-val-text">
-                Our Xiamen office handles your project end-to-end in fluent English —
-                from quoting to artwork to shipping documents. Time-zone overlap with
-                EU and US morning hours.
-              </p>
-            </div>
+            {VALUES.map((v) => (
+              <div className="about-val-card" key={v.num}>
+                <div className="about-val-num">{v.num}</div>
+                <h3 className="about-val-title">{v.title}</h3>
+                <p className="about-val-text">{v.text}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
@@ -1089,40 +895,22 @@ export default function AboutPage({ params: { locale } }) {
       {/* ── CERTS ── */}
       <section className="about-section about-certs">
         <div className="about-section-inner">
-          <div className="about-section-label">Standards &amp; Compliance</div>
-          <h2 className="about-section-title">Certifications</h2>
+          <div className="about-section-label">{COPY.certs.label}</div>
+          <h2 className="about-section-title">{COPY.certs.title}</h2>
           <div className="about-section-line" />
 
           <div className="about-cert-grid">
             <div className="about-cert-text">
-              <p>
-                Our wood is sourced from FSC-certified forestry channels, and we operate
-                a chain-of-custody program to keep audit trails clean from log to carton.
-                Additional standards listed below are on our 2026 roadmap as customer
-                demand grows.
-              </p>
+              <p>{COPY.certs.paragraph}</p>
             </div>
             <div className="about-cert-badges">
-              <div className="about-cert-badge">
-                <div className="about-cert-icon">🌲</div>
-                <div className="about-cert-name">FSC</div>
-                <div className="about-cert-status">Certified</div>
-              </div>
-              <div className="about-cert-badge is-pending">
-                <div className="about-cert-icon">🇪🇺</div>
-                <div className="about-cert-name">EU REACH</div>
-                <div className="about-cert-status">2026 Roadmap</div>
-              </div>
-              <div className="about-cert-badge is-pending">
-                <div className="about-cert-icon">✅</div>
-                <div className="about-cert-name">CARB P2</div>
-                <div className="about-cert-status">2026 Roadmap</div>
-              </div>
-              <div className="about-cert-badge is-pending">
-                <div className="about-cert-icon">🏅</div>
-                <div className="about-cert-name">ISO 9001</div>
-                <div className="about-cert-status">In Process</div>
-              </div>
+              {CERTS.map((c) => (
+                <div className={`about-cert-badge${c.pending ? ' is-pending' : ''}`} key={c.name}>
+                  <div className="about-cert-icon">{c.icon}</div>
+                  <div className="about-cert-name">{c.name}</div>
+                  <div className="about-cert-status">{c.status}</div>
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -1131,17 +919,12 @@ export default function AboutPage({ params: { locale } }) {
       {/* ── CTA ── */}
       <section className="about-cta">
         <div className="about-cta-inner">
-          <div className="about-cta-label">Talk to Us</div>
-          <h2 className="about-cta-title">
-            Let&apos;s Build Something<br />Together
-          </h2>
-          <p className="about-cta-sub">
-            Tell us about your project — wood type, sizes, quantity, and any branding
-            requirements. We respond within 24 hours.
-          </p>
+          <div className="about-cta-label">{COPY.cta.label}</div>
+          <h2 className="about-cta-title">{COPY.cta.titleA}<br />{COPY.cta.titleB}</h2>
+          <p className="about-cta-sub">{COPY.cta.sub}</p>
           <div className="about-cta-btns">
             <a href="https://wa.me/8618960098762" className="about-btn-primary" target="_blank" rel="noopener noreferrer">
-              💬 WhatsApp / WeChat
+              {COPY.cta.btnWhatsapp}
             </a>
             <a href="tel:+8618960098762" className="about-btn-outline">
               📞 +86 189 6009 8762
