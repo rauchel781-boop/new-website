@@ -99,7 +99,7 @@ export default function ProductGallery({ images, name }) {
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
       <div className="gal-main">
-        <img src={images[idx]} alt={`${name} — view ${idx + 1}`} width="1200" height="900" />
+        <img src={images[idx]} alt={`${name} — view ${idx + 1}`} width="1200" height="900" decoding="async" />
         {total > 1 && (
           <>
             <button

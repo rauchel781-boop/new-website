@@ -486,7 +486,7 @@ export default function BlogPage({ params: { locale } }) {
               <div className="latest-img">
                 <span className="latest-stamp">Latest Issue</span>
                 <span className="latest-num"><strong>No. {String(POSTS.length).padStart(2, '0')}</strong>· {fmtDate(featured.date)}</span>
-                <img src={featured.hero} alt={featured.title} width="1200" height="900" />
+                <img loading="lazy" decoding="async" src={featured.hero} alt={featured.title} width="1200" height="900" />
               </div>
               <div className="latest-body">
                 <div className="latest-cat">{featured.category}</div>

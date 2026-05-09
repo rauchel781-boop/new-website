@@ -800,15 +800,15 @@ export default function HomePage({ params: { locale } }) {
 
           <div className="hero-collage">
             <div className="hc-card hc-main">
-              <img src="/factory/production.webp" alt="Inside our production floor" width="900" height="900" />
+              <img loading="lazy" decoding="async" src="/factory/production.webp" alt="Inside our production floor" width="900" height="900" />
               <div className="hc-cap">Inside Our Workshop</div>
             </div>
             <div className="hc-card hc-sub-1 is-product">
-              <img src="/walnut-jewelery-box.webp" alt="Walnut jewelry box" width="900" height="900" />
+              <img loading="lazy" decoding="async" src="/walnut-jewelery-box.webp" alt="Walnut jewelry box" width="900" height="900" />
               <div className="hc-cap">Walnut · Jewelry Series</div>
             </div>
             <div className="hc-card hc-sub-2 is-product">
-              <img src="/bamboo-box.webp" alt="Bamboo wooden box" width="1184" height="672" />
+              <img loading="lazy" decoding="async" src="/bamboo-box.webp" alt="Bamboo wooden box" width="1184" height="672" />
               <div className="hc-cap">Bamboo · Eco Series</div>
             </div>
             <div className="hc-stamp">
@@ -885,7 +885,7 @@ export default function HomePage({ params: { locale } }) {
           </div>
           <div className="feat-grid">
             <Link href="/products/kitchen-dining" className="feat-card">
-              <img src="/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp" alt="Wood kitchen utensil holder with spice drawer" width="1164" height="1160" />
+              <img loading="lazy" decoding="async" src="/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp" alt="Wood kitchen utensil holder with spice drawer" width="1164" height="1160" />
               <div className="feat-overlay" />
               <div className="feat-arrow">→</div>
               <div className="feat-content">
@@ -895,7 +895,7 @@ export default function HomePage({ params: { locale } }) {
               </div>
             </Link>
             <Link href="/products/kitchen-dining" className="feat-card">
-              <img src="/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp" alt="Bamboo spice rack organizer" width="900" height="900" />
+              <img loading="lazy" decoding="async" src="/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp" alt="Bamboo spice rack organizer" width="900" height="900" />
               <div className="feat-overlay" />
               <div className="feat-arrow">→</div>
               <div className="feat-content">
@@ -905,7 +905,7 @@ export default function HomePage({ params: { locale } }) {
               </div>
             </Link>
             <Link href="/products/with-lock" className="feat-card">
-              <img src="/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp" alt="Large black wooden stash box kit" width="1200" height="1200" />
+              <img loading="lazy" decoding="async" src="/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp" alt="Large black wooden stash box kit" width="1200" height="1200" />
               <div className="feat-overlay" />
               <div className="feat-arrow">→</div>
               <div className="feat-content">
@@ -915,7 +915,7 @@ export default function HomePage({ params: { locale } }) {
               </div>
             </Link>
             <Link href="/products/tea-coffee" className="feat-card">
-              <img src="/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp" alt="Bamboo tea bag organizer" width="800" height="800" />
+              <img loading="lazy" decoding="async" src="/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp" alt="Bamboo tea bag organizer" width="800" height="800" />
               <div className="feat-overlay" />
               <div className="feat-arrow">→</div>
               <div className="feat-content">
@@ -925,7 +925,7 @@ export default function HomePage({ params: { locale } }) {
               </div>
             </Link>
             <Link href="/products/watch-jewelry" className="feat-card">
-              <img src="/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp" alt="Wooden watch box" width="720" height="720" />
+              <img loading="lazy" decoding="async" src="/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp" alt="Wooden watch box" width="720" height="720" />
               <div className="feat-overlay" />
               <div className="feat-arrow">→</div>
               <div className="feat-content">
@@ -935,7 +935,7 @@ export default function HomePage({ params: { locale } }) {
               </div>
             </Link>
             <Link href="/products/acacia" className="feat-card">
-              <img src="/acacia-wood-box/3/3-01.webp" alt="Acacia wood storage box" width="1010" height="1144" />
+              <img loading="lazy" decoding="async" src="/acacia-wood-box/3/3-01.webp" alt="Acacia wood storage box" width="1010" height="1144" />
               <div className="feat-overlay" />
               <div className="feat-arrow">→</div>
               <div className="feat-content">
@@ -1014,49 +1014,49 @@ export default function HomePage({ params: { locale } }) {
           </div>
           <div className="fac-grid">
             <Link href="/about" className="fac-tile fac-1">
-              <img src="/factory/chic-factory.webp" alt="Our factory headquarters" width="900" height="900" />
+              <img loading="lazy" decoding="async" src="/factory/chic-factory.webp" alt="Our factory headquarters" width="900" height="900" />
               <div className="fac-cap">
                 <div className="fac-cap-num">01 · Headquarters</div>
                 <div className="fac-cap-text">15,000 m² Cao County Facility</div>
               </div>
             </Link>
             <Link href="/about" className="fac-tile fac-2">
-              <img src="/factory/production.webp" alt="Production floor" width="900" height="900" />
+              <img loading="lazy" decoding="async" src="/factory/production.webp" alt="Production floor" width="900" height="900" />
               <div className="fac-cap">
                 <div className="fac-cap-num">02 · Production</div>
                 <div className="fac-cap-text">Active Workshop</div>
               </div>
             </Link>
             <Link href="/about" className="fac-tile fac-3">
-              <img src="/factory/material.webp" alt="Raw wood materials" width="900" height="900" />
+              <img loading="lazy" decoding="async" src="/factory/material.webp" alt="Raw wood materials" width="900" height="900" />
               <div className="fac-cap">
                 <div className="fac-cap-num">03</div>
                 <div className="fac-cap-text">Raw Materials</div>
               </div>
             </Link>
             <Link href="/about" className="fac-tile fac-4">
-              <img src="/factory/painting.webp" alt="Finishing and painting" width="900" height="900" />
+              <img loading="lazy" decoding="async" src="/factory/painting.webp" alt="Finishing and painting" width="900" height="900" />
               <div className="fac-cap">
                 <div className="fac-cap-num">04</div>
                 <div className="fac-cap-text">Finishing Line</div>
               </div>
             </Link>
             <Link href="/about" className="fac-tile fac-5">
-              <img src="/factory/warehouse.webp" alt="Warehouse" width="4096" height="3072" />
+              <img loading="lazy" decoding="async" src="/factory/warehouse.webp" alt="Warehouse" width="4096" height="3072" />
               <div className="fac-cap">
                 <div className="fac-cap-num">05</div>
                 <div className="fac-cap-text">Export Warehouse</div>
               </div>
             </Link>
             <Link href="/about" className="fac-tile fac-6">
-              <img src="/employees/sales-office.webp" alt="Sales office" width="2776" height="2250" />
+              <img loading="lazy" decoding="async" src="/employees/sales-office.webp" alt="Sales office" width="2776" height="2250" />
               <div className="fac-cap">
                 <div className="fac-cap-num">06</div>
                 <div className="fac-cap-text">Sales &amp; Service Team</div>
               </div>
             </Link>
             <Link href="/about" className="fac-tile fac-7">
-              <img src="/employees/e7fd6e2eec09920a9345158e7bdfdbeb.webp" alt="Skilled craftspeople" width="791" height="664" />
+              <img loading="lazy" decoding="async" src="/employees/e7fd6e2eec09920a9345158e7bdfdbeb.webp" alt="Skilled craftspeople" width="791" height="664" />
               <div className="fac-cap">
                 <div className="fac-cap-num">07</div>
                 <div className="fac-cap-text">Skilled Craftspeople</div>
@@ -1085,32 +1085,32 @@ export default function HomePage({ params: { locale } }) {
           </div>
           <div className="process-grid">
             <div className="pcell">
-              <img src="/folder/1-cutting-to-size.webp" alt="Cutting wood to size" width="1191" height="893" />
+              <img loading="lazy" decoding="async" src="/folder/1-cutting-to-size.webp" alt="Cutting wood to size" width="1191" height="893" />
               <div className="pcell-num">1</div>
               <div className="pcell-name">Cutting to Size</div>
             </div>
             <div className="pcell">
-              <img src="/folder/2-shape-cutting.webp" alt="Shape cutting" width="2000" height="1334" />
+              <img loading="lazy" decoding="async" src="/folder/2-shape-cutting.webp" alt="Shape cutting" width="2000" height="1334" />
               <div className="pcell-num">2</div>
               <div className="pcell-name">Shape Cutting</div>
             </div>
             <div className="pcell">
-              <img src="/folder/3-mortise-cutting.webp" alt="Mortise cutting" width="2000" height="1333" />
+              <img loading="lazy" decoding="async" src="/folder/3-mortise-cutting.webp" alt="Mortise cutting" width="2000" height="1333" />
               <div className="pcell-num">3</div>
               <div className="pcell-name">Mortise Cutting</div>
             </div>
             <div className="pcell">
-              <img src="/folder/4-pre-assemble.webp" alt="Pre-assembly" width="2000" height="1333" />
+              <img loading="lazy" decoding="async" src="/folder/4-pre-assemble.webp" alt="Pre-assembly" width="2000" height="1333" />
               <div className="pcell-num">4</div>
               <div className="pcell-name">Pre-Assemble</div>
             </div>
             <div className="pcell">
-              <img src="/folder/5-polishing.webp" alt="Polishing" width="2000" height="1501" />
+              <img loading="lazy" decoding="async" src="/folder/5-polishing.webp" alt="Polishing" width="2000" height="1501" />
               <div className="pcell-num">5</div>
               <div className="pcell-name">Polishing</div>
             </div>
             <div className="pcell">
-              <img src="/folder/6-packaging.webp" alt="Packaging for export" width="3135" height="2090" />
+              <img loading="lazy" decoding="async" src="/folder/6-packaging.webp" alt="Packaging for export" width="3135" height="2090" />
               <div className="pcell-num">6</div>
               <div className="pcell-name">Packaging</div>
             </div>
@@ -1214,21 +1214,4 @@ export default function HomePage({ params: { locale } }) {
 
       {/* ───────────── CTA ───────────── */}
       <section className="cta-section" id="contact">
-        <div className="cta-inner">
-          <div className="cta-label">Ready to Start?</div>
-          <h2 className="cta-title">
-            Let&apos;s Build Your<br />Perfect Wooden Box
-          </h2>
-          <p className="cta-sub">
-            Send us your requirements and get a free quote within 24 hours.<br />
-            No commitment required — samples available.
-          </p>
-          <div className="cta-btns">
-            <a href="mailto:info@xmchichomeware.com" className="btn-primary">Email Us Now →</a>
-            <a href="https://wa.me/8618960098762" className="btn-outline" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
-          </div>
-        </div>
-      </section>
-    </div>
-  );
-}
+        <div className="cta-in

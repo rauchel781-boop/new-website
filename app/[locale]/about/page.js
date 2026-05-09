@@ -812,7 +812,7 @@ export default function AboutPage({ params: { locale } }) {
 
           <div className="about-story-visual">
             <div className="about-story-tag">Showroom · Xiamen</div>
-            <img src={SHOWROOM_IMG} alt="Xiamen Chic Homeware showroom — finished wooden products" width="1200" height="900" />
+            <img loading="lazy" decoding="async" src={SHOWROOM_IMG} alt="Xiamen Chic Homeware showroom — finished wooden products" width="1200" height="900" />
             <div className="about-story-cap">
               &ldquo;Cao County is where the world&apos;s wooden boxes are made.
               We&apos;re proud to be from here.&rdquo;

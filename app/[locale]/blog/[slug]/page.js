@@ -331,7 +331,7 @@ function renderBlock(block, i) {
     case 'img':
       return (
         <figure key={i}>
-          <img src={block.src} alt={block.caption || ''} width="1200" height="900" />
+          <img loading="lazy" decoding="async" src={block.src} alt={block.caption || ''} width="1200" height="900" />
           {block.caption && <figcaption>{block.caption}</figcaption>}
         </figure>
       );
@@ -433,7 +433,7 @@ export default function BlogPost({ params }) {
       {/* Hero image */}
       <div className="hero-img-wrap">
         <div className="hero-img">
-          <img src={post.hero} alt={post.title} width="1200" height="900" />
+          <img loading="lazy" decoding="async" src={post.hero} alt={post.title} width="1200" height="900" />
         </div>
       </div>
 
