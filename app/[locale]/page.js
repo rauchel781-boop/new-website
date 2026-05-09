@@ -1214,4 +1214,21 @@ export default function HomePage({ params: { locale } }) {
 
       {/* ───────────── CTA ───────────── */}
       <section className="cta-section" id="contact">
-        <div className="cta-in
+        <div className="cta-inner">
+          <div className="cta-label">Ready to Start?</div>
+          <h2 className="cta-title">
+            Let&apos;s Build Your<br />Perfect Wooden Box
+          </h2>
+          <p className="cta-sub">
+            Send us your requirements and get a free quote within 24 hours.<br />
+            No commitment required — samples available.
+          </p>
+          <div className="cta-btns">
+            <a href="mailto:info@xmchichomeware.com" className="btn-primary">Email Us Now →</a>
+            <a href="https://wa.me/8618960098762" className="btn-outline" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
