@@ -140,5 +140,41 @@
       "tagline": "Legno duro color cioccolato per regali di alta gamma",
       "intro": "Legno duro color cioccolato — scatole premium per la presentazione di orologi, gioielli e regali."
     }
+  },
+  "capabilities": {
+    "meta": {
+      "title": "Capacità — CHIC",
+      "description": "Fresatura CNC, incisione laser, hot foil, serigrafia, essiccazione in forno, finitura e imballaggio — attrezzature moderne e un severo sistema QC per programmi wholesale e OEM di scatole in legno.",
+      "ogTitle": "Capacità — CHIC",
+      "ogDescription": "Fresatura CNC, laser, hot foil, serigrafia, essiccazione in forno, finitura e imballaggio — produzione wholesale e OEM di scatole in legno."
+    },
+    "h1": "Le Nostre Capacità",
+    "intro": "Attrezzature moderne, operatori esperti e un sistema di qualità rigoroso — pensato per clienti wholesale e OEM.",
+    "cards": {
+      "manufacturing": {
+        "t": "Attrezzature di Produzione",
+        "d": "Fresatrici CNC, seghe a pannelli, bordatrici, cabine di finitura."
+      },
+      "qc": {
+        "t": "Controllo Qualità",
+        "d": "Ispezione multi-stadio dall’ingresso materiale al pre-spedizione."
+      },
+      "oem": {
+        "t": "OEM / ODM",
+        "d": "Branding, packaging e supporto design completo per private label."
+      },
+      "capacity": {
+        "t": "Capacità",
+        "d": "Output mensile stabile con lead time prevedibili."
+      },
+      "engineering": {
+        "t": "Supporto Ingegneria",
+        "d": "Revisione CAD, prototipazione e suggerimenti DFM."
+      },
+      "logistics": {
+        "t": "Logistica",
+        "d": "Imballaggio export affidabile e coordinamento spedizioni mondiale."
+      }
+    }
   }
 }

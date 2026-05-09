@@ -140,5 +140,41 @@
       "tagline": "Bois dur couleur chocolat pour cadeaux haut de gamme",
       "intro": "Bois dur couleur chocolat — boîtes premium pour la présentation de montres, bijoux et cadeaux."
     }
+  },
+  "capabilities": {
+    "meta": {
+      "title": "Capacités — CHIC",
+      "description": "Fraisage CNC, gravure laser, hot foil, sérigraphie, séchage au four, finition et emballage — équipement moderne et système QC strict pour les programmes wholesale et OEM de boîtes en bois.",
+      "ogTitle": "Capacités — CHIC",
+      "ogDescription": "Fraisage CNC, laser, hot foil, sérigraphie, séchage au four, finition et emballage — production wholesale et OEM de boîtes en bois."
+    },
+    "h1": "Nos Capacités",
+    "intro": "Équipement moderne, opérateurs expérimentés et système qualité strict — conçu pour les clients wholesale et OEM.",
+    "cards": {
+      "manufacturing": {
+        "t": "Équipement de Production",
+        "d": "Fraiseuses CNC, scies à panneaux, plaqueuses de chants, cabines de finition."
+      },
+      "qc": {
+        "t": "Contrôle Qualité",
+        "d": "Inspection multi-étapes de la réception matière à l’expédition."
+      },
+      "oem": {
+        "t": "OEM / ODM",
+        "d": "Branding, emballage et accompagnement design complet pour la marque blanche."
+      },
+      "capacity": {
+        "t": "Capacité",
+        "d": "Production mensuelle stable avec délais prévisibles."
+      },
+      "engineering": {
+        "t": "Support Ingénierie",
+        "d": "Revue CAO, prototypage et suggestions DFM."
+      },
+      "logistics": {
+        "t": "Logistique",
+        "d": "Emballage export fiable et coordination d’expédition mondiale."
+      }
+    }
   }
 }

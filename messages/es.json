@@ -140,5 +140,41 @@
       "tagline": "Madera dura color chocolate para regalos de alta gama",
       "intro": "Madera dura color chocolate — cajas premium para presentación de relojes, joyería y regalos."
     }
+  },
+  "capabilities": {
+    "meta": {
+      "title": "Capacidades — CHIC",
+      "description": "Fresado CNC, grabado láser, hot foil, serigrafía, secado en horno, acabados y embalaje — equipamiento moderno y un estricto sistema QC para programas mayoristas y OEM de cajas de madera.",
+      "ogTitle": "Capacidades — CHIC",
+      "ogDescription": "Fresado CNC, láser, hot foil, serigrafía, secado en horno, acabados y embalaje — producción mayorista y OEM de cajas de madera."
+    },
+    "h1": "Nuestras Capacidades",
+    "intro": "Equipamiento moderno, operarios experimentados y un sistema de calidad estricto — diseñado para clientes mayoristas y OEM.",
+    "cards": {
+      "manufacturing": {
+        "t": "Equipamiento de Fabricación",
+        "d": "Fresadoras CNC, sierras de panel, encoladoras de cantos, cabinas de acabado."
+      },
+      "qc": {
+        "t": "Control de Calidad",
+        "d": "Inspección multi-etapa desde la entrada de material hasta el pre-embarque."
+      },
+      "oem": {
+        "t": "OEM / ODM",
+        "d": "Branding, embalaje y soporte completo de diseño para marca privada."
+      },
+      "capacity": {
+        "t": "Capacidad",
+        "d": "Producción mensual estable con plazos de entrega predecibles."
+      },
+      "engineering": {
+        "t": "Soporte de Ingeniería",
+        "d": "Revisión CAD, prototipado y sugerencias DFM."
+      },
+      "logistics": {
+        "t": "Logística",
+        "d": "Embalaje de exportación fiable y coordinación de envíos en todo el mundo."
+      }
+    }
   }
 }

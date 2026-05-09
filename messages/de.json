@@ -140,5 +140,41 @@
       "tagline": "Schokoladenbraunes Hartholz für High-End-Geschenke",
       "intro": "Schokoladenbraunes Hartholz — Premium-Boxen für die Präsentation von Uhren, Schmuck und Geschenken."
     }
+  },
+  "capabilities": {
+    "meta": {
+      "title": "Kapazitäten — CHIC",
+      "description": "CNC-Fräsen, Lasergravur, Hot Foil, Siebdruck, Kammertrocknung, Finish und Verpackung — moderne Ausrüstung und strenges QC-System für Wholesale- und OEM-Programme von Holzboxen.",
+      "ogTitle": "Kapazitäten — CHIC",
+      "ogDescription": "CNC-Fräsen, Laser, Hot Foil, Siebdruck, Kammertrocknung, Finish und Verpackung — Wholesale- und OEM-Produktion von Holzboxen."
+    },
+    "h1": "Unsere Kapazitäten",
+    "intro": "Moderne Ausrüstung, erfahrene Mitarbeiter und ein strenges Qualitätssystem — ausgelegt für Wholesale- und OEM-Kunden.",
+    "cards": {
+      "manufacturing": {
+        "t": "Produktionsausrüstung",
+        "d": "CNC-Fräsen, Plattensägen, Kantenanleimer, Lackierkabinen."
+      },
+      "qc": {
+        "t": "Qualitätskontrolle",
+        "d": "Mehrstufige Prüfung vom Wareneingang bis zur Vorversandkontrolle."
+      },
+      "oem": {
+        "t": "OEM / ODM",
+        "d": "Branding, Verpackung und vollständige Designunterstützung für Private Label."
+      },
+      "capacity": {
+        "t": "Kapazität",
+        "d": "Stabiler Monatsoutput mit planbaren Lieferzeiten."
+      },
+      "engineering": {
+        "t": "Engineering-Support",
+        "d": "CAD-Prüfung, Prototyping und DFM-Vorschläge."
+      },
+      "logistics": {
+        "t": "Logistik",
+        "d": "Zuverlässige Exportverpackung und weltweite Versandkoordination."
+      }
+    }
   }
 }

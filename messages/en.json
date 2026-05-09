@@ -140,5 +140,41 @@
       "tagline": "Chocolate-brown hardwood for high-end gifts",
       "intro": "Chocolate-brown hardwood — high-end watch, jewelry, and gift presentation boxes."
     }
+  },
+  "capabilities": {
+    "meta": {
+      "title": "Capabilities — CHIC",
+      "description": "CNC routing, laser engraving, hot foil, screen print, kiln drying, finishing and packing — modern equipment and a strict QC system for wholesale and OEM wooden box programs.",
+      "ogTitle": "Capabilities — CHIC",
+      "ogDescription": "CNC routing, laser, hot foil, screen print, kiln drying, finishing and packing — wholesale and OEM wooden box production."
+    },
+    "h1": "Our Capabilities",
+    "intro": "Modern equipment, experienced operators, and a strict quality system — designed for wholesale and OEM customers.",
+    "cards": {
+      "manufacturing": {
+        "t": "Manufacturing Equipment",
+        "d": "CNC routers, sliding panel saws, edge banders, finishing booths."
+      },
+      "qc": {
+        "t": "Quality Control",
+        "d": "Multi-stage inspection from incoming materials to pre-shipment."
+      },
+      "oem": {
+        "t": "OEM / ODM",
+        "d": "Branding, packaging, and full design support for private label."
+      },
+      "capacity": {
+        "t": "Capacity",
+        "d": "Stable monthly output with predictable lead times."
+      },
+      "engineering": {
+        "t": "Engineering Support",
+        "d": "CAD review, prototyping, and DFM suggestions."
+      },
+      "logistics": {
+        "t": "Logistics",
+        "d": "Reliable export packing and worldwide shipping coordination."
+      }
+    }
   }
 }
