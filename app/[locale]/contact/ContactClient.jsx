@@ -5,7 +5,6 @@ import { SITE, isEmailJSConfigured } from '@/data/site-config';
 import { useEmailJS } from '@/lib/use-emailjs';
 
 const CONTACT_CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap');
 
 .cp {
   --wd-deep:    #3D2A1F;
@@ -18,7 +17,7 @@ const CONTACT_CSS = `
   --wd-charcoal:#1F140C;
   --wd-mute:    #7A6450;
 
-  font-family: 'Jost', system-ui, sans-serif;
+  font-family: var(--font-jost), system-ui, sans-serif;
   background: var(--wd-cream);
   color: var(--wd-ink);
   overflow-x: hidden;
@@ -38,7 +37,7 @@ const CONTACT_CSS = `
 }
 .cp .hero-bg {
   position: absolute; inset: 0; z-index: 0;
-  background-image: url('/Employees/sales%20office.jpg');
+  background-image: url('/employees/sales-office.webp');
   background-size: cover; background-position: center;
   filter: contrast(1.05) saturate(0.95);
   transform: scale(1.04);
@@ -65,7 +64,7 @@ const CONTACT_CSS = `
 }
 .cp .hero-eyebrow::before, .cp .hero-eyebrow::after { content: ''; width: 32px; height: 1px; background: var(--wd-warm); opacity: 0.5; }
 .cp .hero-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: clamp(2.6rem, 6vw, 5rem);
   color: var(--wd-cream); line-height: 1.05; margin: 0 0 22px;
   letter-spacing: -1.5px;
@@ -98,7 +97,7 @@ const CONTACT_CSS = `
   background: rgba(197,142,74,0.18);
 }
 .cp .strip-num {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1.8rem; line-height: 1; color: var(--wd-warm);
   font-weight: 700;
 }
@@ -114,7 +113,7 @@ const CONTACT_CSS = `
 .cp .sec-head { text-align: center; margin-bottom: 50px; }
 .cp .sec-eyebrow { font-size: 0.66rem; letter-spacing: 5px; text-transform: uppercase; color: var(--wd-warm); margin-bottom: 14px; font-weight: 600; }
 .cp .sec-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: clamp(1.8rem, 3.5vw, 2.6rem);
   color: var(--wd-deep); margin: 0;
   letter-spacing: -0.5px;
@@ -148,7 +147,7 @@ const CONTACT_CSS = `
 .cp .way-card:hover .way-icon { background: var(--wd-warm); color: white; }
 .cp .way-icon svg { width: 26px; height: 26px; }
 .cp .way-eyebrow { font-size: 0.62rem; letter-spacing: 3px; text-transform: uppercase; color: var(--wd-warm); margin-bottom: 8px; font-weight: 600; }
-.cp .way-title { font-family: 'Playfair Display', serif; font-size: 1.18rem; color: var(--wd-deep); margin: 0 0 10px; line-height: 1.3; }
+.cp .way-title { font-family: var(--font-playfair), serif; font-size: 1.18rem; color: var(--wd-deep); margin: 0 0 10px; line-height: 1.3; }
 .cp .way-value { font-size: 0.92rem; color: var(--wd-deep); font-weight: 500; word-break: break-word; margin-bottom: 6px; }
 .cp .way-note { font-size: 0.78rem; color: var(--wd-mute); line-height: 1.55; flex: 1; }
 .cp .way-cta { margin-top: 18px; font-size: 0.7rem; letter-spacing: 2.5px; text-transform: uppercase; color: var(--wd-warm); font-weight: 600; }
@@ -189,7 +188,7 @@ const CONTACT_CSS = `
   box-shadow: 0 14px 40px rgba(61,42,31,0.08);
 }
 .cp .form-eyebrow { font-size: 0.62rem; letter-spacing: 4px; text-transform: uppercase; color: var(--wd-warm); margin-bottom: 8px; font-weight: 600; }
-.cp .form-title { font-family: 'Playfair Display', serif; font-size: 1.85rem; color: var(--wd-deep); margin: 0 0 26px; line-height: 1.2; letter-spacing: -0.3px; }
+.cp .form-title { font-family: var(--font-playfair), serif; font-size: 1.85rem; color: var(--wd-deep); margin: 0 0 26px; line-height: 1.2; letter-spacing: -0.3px; }
 .cp .form-row { display: flex; flex-direction: column; gap: 6px; margin-bottom: 16px; }
 .cp .form-row.split { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .cp .form-row label { font-size: 0.7rem; letter-spacing: 1.5px; text-transform: uppercase; color: var(--wd-mute); font-weight: 600; }
@@ -224,7 +223,7 @@ const CONTACT_CSS = `
 .cp .form-fine { font-size: 0.74rem; color: var(--wd-mute); margin-top: 14px; line-height: 1.55; }
 
 .cp .thanks { text-align: center; padding: 40px 20px; }
-.cp .thanks h3 { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--wd-deep); margin: 0 0 12px; }
+.cp .thanks h3 { font-family: var(--font-playfair), serif; font-size: 2rem; color: var(--wd-deep); margin: 0 0 12px; }
 .cp .thanks p { color: var(--wd-mute); line-height: 1.7; margin: 0 0 22px; font-weight: 300; }
 .cp .thanks .form-btn { width: auto; padding: 12px 24px; }
 
@@ -243,7 +242,7 @@ const CONTACT_CSS = `
 }
 .cp .info-card > * { position: relative; z-index: 1; }
 .cp .info-eyebrow { font-size: 0.62rem; letter-spacing: 4px; text-transform: uppercase; color: var(--wd-warm); margin-bottom: 8px; font-weight: 600; }
-.cp .info-title { font-family: 'Playfair Display', serif; font-size: 1.6rem; color: var(--wd-cream); margin: 0 0 22px; }
+.cp .info-title { font-family: var(--font-playfair), serif; font-size: 1.6rem; color: var(--wd-cream); margin: 0 0 22px; }
 .cp .info-row { display: flex; gap: 14px; align-items: flex-start; padding: 16px 0; border-bottom: 1px solid rgba(217,185,143,0.12); }
 .cp .info-row:last-child { border-bottom: none; }
 .cp .info-icon {
@@ -285,7 +284,7 @@ const CONTACT_CSS = `
 .cp .clock-city { font-size: 0.62rem; letter-spacing: 2.5px; text-transform: uppercase; color: var(--wd-warm); margin-bottom: 6px; font-weight: 600; }
 .cp .clock.is-home .clock-city { color: var(--wd-warm); }
 .cp .clock-time {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1.5rem; line-height: 1; color: var(--wd-deep);
   font-weight: 600;
 }
@@ -321,7 +320,7 @@ const CONTACT_CSS = `
 .cp .loc-map iframe { width: 100%; height: 100%; border: 0; display: block; }
 .cp .loc-body { padding: 28px 30px 32px; flex: 1; display: flex; flex-direction: column; }
 .cp .loc-eyebrow { font-size: 0.62rem; letter-spacing: 4px; text-transform: uppercase; color: var(--wd-warm); margin-bottom: 10px; font-weight: 600; }
-.cp .loc-name { font-family: 'Playfair Display', serif; font-size: 1.5rem; color: var(--wd-deep); margin: 0 0 14px; }
+.cp .loc-name { font-family: var(--font-playfair), serif; font-size: 1.5rem; color: var(--wd-deep); margin: 0 0 14px; }
 .cp .loc-name em { color: var(--wd-warm); font-style: italic; }
 .cp .loc-addr { font-size: 0.92rem; color: var(--wd-deep); line-height: 1.7; margin: 0 0 14px; }
 .cp .loc-role { font-size: 0.82rem; color: var(--wd-mute); font-style: italic; margin-bottom: 18px; padding-bottom: 18px; border-bottom: 1px solid rgba(197,142,74,0.18); }
@@ -354,7 +353,7 @@ const CONTACT_CSS = `
   line-height: 1.5;
 }
 .cp .faq-q-num {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1rem; color: var(--wd-warm); font-weight: 600;
   flex-shrink: 0;
   width: 24px;
@@ -393,7 +392,7 @@ const CONTACT_CSS = `
   background: repeating-linear-gradient(45deg, transparent 0, transparent 32px, rgba(197,142,74,0.04) 32px, rgba(197,142,74,0.04) 33px);
 }
 .cp .final-eyebrow { font-size: 0.66rem; letter-spacing: 5px; text-transform: uppercase; color: var(--wd-warm); margin-bottom: 18px; font-weight: 600; position: relative; }
-.cp .final-title { font-family: 'Playfair Display', serif; font-size: clamp(1.8rem, 3.5vw, 2.8rem); margin: 0 0 16px; line-height: 1.2; position: relative; }
+.cp .final-title { font-family: var(--font-playfair), serif; font-size: clamp(1.8rem, 3.5vw, 2.8rem); margin: 0 0 16px; line-height: 1.2; position: relative; }
 .cp .final-title em { color: var(--wd-warm); font-style: italic; }
 .cp .final-sub { font-size: 1rem; color: rgba(217,185,143,0.7); max-width: 520px; margin: 0 auto 28px; line-height: 1.7; font-weight: 300; position: relative; }
 .cp .final-btns { display: inline-flex; gap: 14px; flex-wrap: wrap; justify-content: center; position: relative; }

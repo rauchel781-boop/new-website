@@ -26,11 +26,11 @@ const WOODS = [
     name: 'Paulownia',
     nickname: 'The Empress Tree',
     tagline: 'Half the weight of pine. Doubly stable.',
-    hero: '/paulwnia-wood-box/set-1/set-1-01.png',
+    hero: '/paulwnia-wood-box/set-1/set-1-01.webp',
     gallery: [
-      '/paulwnia-wood-box/3/3-01.png',
-      '/paulwnia-wood-box/4/4-01.png',
-      '/paulwnia-wood-box/set-7/set-7-01.png',
+      '/paulwnia-wood-box/3/3-01.webp',
+      '/paulwnia-wood-box/4/4-01.webp',
+      '/paulwnia-wood-box/set-7/set-7-01.webp',
     ],
     swatch: 'linear-gradient(135deg, #EBD9B8, #D9B98F)',
     origin:
@@ -71,11 +71,11 @@ const WOODS = [
     name: 'Pine',
     nickname: 'The Workhorse',
     tagline: 'Affordable, characterful, ages beautifully.',
-    hero: '/pine-wood-box/set-1/set-1-01.png',
+    hero: '/pine-wood-box/set-1/set-1-01.webp',
     gallery: [
-      '/pine-wood-box/11/11-01.png',
-      '/pine-wood-box/12/12-01.png',
-      '/pine-wood-box/set-13/set-13-01.png',
+      '/pine-wood-box/11/11-01.webp',
+      '/pine-wood-box/12/12-01.webp',
+      '/pine-wood-box/set-13/set-13-01.webp',
     ],
     swatch: 'linear-gradient(135deg, #D9B98F, #A07852)',
     origin:
@@ -116,11 +116,11 @@ const WOODS = [
     name: 'Bamboo',
     nickname: 'The Eco Hardwood',
     tagline: 'Harder than oak. Greener than anything.',
-    hero: '/bamboo-box/set-1/set-1-01.png',
+    hero: '/bamboo-box/set-1/set-1-01.webp',
     gallery: [
-      '/bamboo-box/set-7/set-7-01.png',
-      '/bamboo-box/set-8/set-8-01.png',
-      '/bamboo-box/set-13/set-13-01.png',
+      '/bamboo-box/set-7/set-7-01.webp',
+      '/bamboo-box/set-8/set-8-01.webp',
+      '/bamboo-box/set-13/set-13-01.webp',
     ],
     swatch: 'linear-gradient(135deg, #C8B68A, #94814A)',
     origin:
@@ -161,11 +161,11 @@ const WOODS = [
     name: 'Acacia',
     nickname: 'The Character Wood',
     tagline: 'Honey to chocolate, in dramatic swirls.',
-    hero: '/acacia-wood-box/set-1/set-1-01.png',
+    hero: '/acacia-wood-box/set-1/set-1-01.webp',
     gallery: [
-      '/acacia-wood-box/4/4-01.png',
-      '/acacia-wood-box/5/5-01.png',
-      '/acacia-wood-box/9/9-01.png',
+      '/acacia-wood-box/4/4-01.webp',
+      '/acacia-wood-box/5/5-01.webp',
+      '/acacia-wood-box/9/9-01.webp',
     ],
     swatch: 'linear-gradient(135deg, #A07852, #5C3A24)',
     origin:
@@ -206,11 +206,11 @@ const WOODS = [
     name: 'Walnut',
     nickname: 'The Luxury Standard',
     tagline: 'When the box itself is the gift.',
-    hero: '/walnut-wooden-box/set-7/set-7-01.png',
+    hero: '/walnut-wooden-box/set-7/set-7-01.webp',
     gallery: [
-      '/walnut-wooden-box/set-2/set-2-01.png',
-      '/walnut-wooden-box/set-3/set-3-01.png',
-      '/walnut-wooden-box/set-6/set-6-01.png',
+      '/walnut-wooden-box/set-2/set-2-01.webp',
+      '/walnut-wooden-box/set-3/set-3-01.webp',
+      '/walnut-wooden-box/set-6/set-6-01.webp',
     ],
     swatch: 'linear-gradient(135deg, #5C3A24, #2A1B12)',
     origin:
@@ -399,7 +399,6 @@ const HARDWARE = [
 ];
 
 const CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Caveat:wght@500;700&family=Jost:wght@300;400;500;600&display=swap');
 
 .mg {
   --wood-deep:  #3D2A1F;
@@ -414,7 +413,7 @@ const CSS = `
   --charcoal:   #2A1B12;
   --text-muted: #7A6450;
 
-  font-family: 'Jost', system-ui, sans-serif;
+  font-family: var(--font-jost), system-ui, sans-serif;
   background: var(--cream);
   color: var(--charcoal);
   overflow-x: hidden;
@@ -450,7 +449,7 @@ const CSS = `
   color: var(--accent); margin-bottom: 18px; font-weight: 600;
 }
 .mg-h1 {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-weight: 600;
   font-size: clamp(2.4rem, 5vw, 4rem);
   margin: 0 0 20px;
@@ -460,13 +459,13 @@ const CSS = `
   max-width: 920px;
 }
 .mg-h1 em {
-  font-family: 'Caveat', cursive;
+  font-family: var(--font-caveat), cursive;
   font-style: normal;
   font-weight: 700;
   color: var(--accent);
 }
 .mg-sub {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-style: italic;
   font-weight: 400;
   font-size: 1.1rem;
@@ -506,7 +505,7 @@ const CSS = `
   color: var(--accent); margin-bottom: 14px; font-weight: 600;
 }
 .mg-section-title {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-weight: 600;
   font-size: clamp(1.9rem, 3.4vw, 2.6rem);
   color: var(--wood-deep);
@@ -515,13 +514,13 @@ const CSS = `
   line-height: 1.15;
 }
 .mg-section-title em {
-  font-family: 'Caveat', cursive;
+  font-family: var(--font-caveat), cursive;
   font-style: normal;
   color: var(--accent);
 }
 .mg-section-line { width: 48px; height: 2px; background: var(--accent); margin: 18px 0 36px; }
 .mg-section-lede {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-style: italic;
   color: var(--wood-mid);
   font-size: 1rem;
@@ -550,7 +549,7 @@ const CSS = `
 }
 .mg-cmp thead th {
   background: var(--cream-dk);
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-weight: 600;
   color: var(--wood-deep);
   font-size: 0.85rem;
@@ -561,14 +560,14 @@ const CSS = `
 .mg-cmp tbody tr:last-child td { border-bottom: none; }
 .mg-cmp tbody tr:hover { background: var(--cream); }
 .mg-cmp-name {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-weight: 600;
   color: var(--wood-deep);
   font-size: 1.05rem;
 }
 .mg-cmp-tag {
   display: block;
-  font-family: 'Caveat', cursive;
+  font-family: var(--font-caveat), cursive;
   font-weight: 700;
   font-size: 0.95rem;
   color: var(--accent);
@@ -584,7 +583,7 @@ const CSS = `
   box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 .mg-cmp-price {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-weight: 600;
   color: var(--accent);
   letter-spacing: 1px;
@@ -610,11 +609,11 @@ const CSS = `
   display: flex; align-items: center; gap: 14px;
 }
 .mg-wood-eyebrow-num {
-  font-family: 'Fraunces', serif; font-style: italic;
+  font-family: var(--font-fraunces), serif; font-style: italic;
   font-size: 1rem; color: var(--wood-mid); letter-spacing: 0;
 }
 .mg-wood-h2 {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-weight: 600;
   font-size: clamp(2rem, 4vw, 3.2rem);
   color: var(--wood-deep);
@@ -623,17 +622,17 @@ const CSS = `
   line-height: 1.05;
 }
 .mg-wood-h2 em {
-  font-family: 'Caveat', cursive; font-style: normal;
+  font-family: var(--font-caveat), cursive; font-style: normal;
   color: var(--accent); font-weight: 700;
 }
 .mg-wood-tagline {
-  font-family: 'Fraunces', serif; font-style: italic;
+  font-family: var(--font-fraunces), serif; font-style: italic;
   color: var(--wood-mid);
   font-size: 1.05rem; font-weight: 400;
   max-width: 480px;
 }
 .mg-wood-price {
-  font-family: 'Fraunces', serif; font-weight: 600;
+  font-family: var(--font-fraunces), serif; font-weight: 600;
   color: var(--accent); font-size: 1.4rem;
   letter-spacing: 2px;
 }
@@ -693,12 +692,12 @@ const CSS = `
   color: var(--text-muted); margin-bottom: 6px; font-weight: 600;
 }
 .mg-wood-prop-value {
-  font-family: 'Fraunces', serif; font-weight: 600;
+  font-family: var(--font-fraunces), serif; font-weight: 600;
   color: var(--wood-deep); font-size: 0.95rem;
 }
 
 .mg-wood-list-title {
-  font-family: 'Fraunces', serif; font-weight: 600;
+  font-family: var(--font-fraunces), serif; font-weight: 600;
   color: var(--wood-deep); font-size: 1rem;
   margin: 0 0 12px;
 }
@@ -740,7 +739,7 @@ const CSS = `
   line-height: 1.7;
   margin: 0 0 28px;
   font-style: italic;
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
 }
 .mg-wood-care strong { font-style: normal; color: var(--wood-deep); font-weight: 600; }
 
@@ -798,7 +797,7 @@ const CSS = `
   border: 2px solid rgba(255,255,255,0.1);
 }
 .mg-fin-name {
-  font-family: 'Fraunces', serif; font-weight: 600;
+  font-family: var(--font-fraunces), serif; font-weight: 600;
   color: var(--cream); font-size: 1.15rem;
   margin: 0 0 10px;
 }
@@ -833,14 +832,14 @@ const CSS = `
   border-color: var(--accent);
 }
 .mg-brand-icon {
-  font-family: 'Caveat', cursive;
+  font-family: var(--font-caveat), cursive;
   font-size: 2.2rem;
   color: var(--accent);
   line-height: 1;
   margin-bottom: 12px;
 }
 .mg-brand-name {
-  font-family: 'Fraunces', serif; font-weight: 600;
+  font-family: var(--font-fraunces), serif; font-weight: 600;
   color: var(--wood-deep); font-size: 1.2rem;
   margin: 0 0 12px;
 }
@@ -887,7 +886,7 @@ const CSS = `
   box-shadow: 0 18px 44px rgba(61,42,31,0.10);
 }
 .mg-hw-name {
-  font-family: 'Fraunces', serif; font-weight: 600;
+  font-family: var(--font-fraunces), serif; font-weight: 600;
   color: var(--wood-deep); font-size: 1.1rem;
   margin: 0 0 10px;
 }
@@ -922,7 +921,7 @@ const CSS = `
 .mg-eco::before {
   content: 'FSC';
   position: absolute; top: -40px; right: -20px;
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-size: 18rem; color: rgba(160,120,82,0.06);
   font-weight: 700; line-height: 1;
   pointer-events: none;
@@ -943,7 +942,7 @@ const CSS = `
   box-shadow: 0 6px 20px rgba(61,42,31,0.05);
 }
 .mg-eco-pt h4 {
-  font-family: 'Fraunces', serif; font-weight: 600;
+  font-family: var(--font-fraunces), serif; font-weight: 600;
   color: var(--wood-deep); margin: 0 0 6px;
   font-size: 1.05rem;
 }
@@ -978,13 +977,13 @@ const CSS = `
   color: var(--wood-light); margin-bottom: 18px; font-weight: 600;
 }
 .mg-cta-title {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-size: clamp(2rem, 4vw, 3.2rem);
   margin: 0 0 18px;
   line-height: 1.2;
   color: var(--cream);
 }
-.mg-cta-title em { font-family: 'Caveat', cursive; font-style: normal; color: var(--wood-light); }
+.mg-cta-title em { font-family: var(--font-caveat), cursive; font-style: normal; color: var(--wood-light); }
 .mg-cta-sub {
   font-size: 1rem;
   color: rgba(217,185,143,0.85);

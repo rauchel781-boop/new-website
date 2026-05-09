@@ -84,7 +84,6 @@ export async function generateMetadata({ params }) {
 }
 
 const CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Caveat:wght@500;700&family=Jost:wght@300;400;500&display=swap');
 
 .cat-page {
   --wood-deep:    #3D2A1F;   /* dark walnut */
@@ -97,7 +96,7 @@ const CSS = `
   --charcoal:     #2A1B12;   /* burnt umber text */
   --text-muted:   #7A6450;   /* aged wood text */
   --accent:       #C58E4A;   /* burnished brass */
-  font-family: 'Jost', system-ui, sans-serif;
+  font-family: var(--font-jost), system-ui, sans-serif;
   background: var(--cream);
   color: var(--charcoal);
 }
@@ -139,7 +138,7 @@ const CSS = `
 .cat-breadcrumb a:hover { color: var(--wood-deep); }
 .cat-breadcrumb span { color: rgba(107,74,51,0.4); margin: 0 8px; }
 .cat-h1 {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-weight: 600;
   font-size: clamp(2.4rem, 5vw, 4rem);
   line-height: 1.05; margin: 0 auto 14px;
@@ -148,7 +147,7 @@ const CSS = `
   max-width: 12ch;
 }
 .cat-tagline {
-  font-family: 'Caveat', cursive;
+  font-family: var(--font-caveat), cursive;
   font-weight: 700;
   font-size: clamp(1.5rem, 2.4vw, 2rem);
   color: var(--accent);
@@ -156,7 +155,7 @@ const CSS = `
   line-height: 1.2;
 }
 .cat-intro {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-style: italic;
   font-weight: 400;
   font-size: clamp(1.02rem, 1.4vw, 1.18rem);
@@ -191,7 +190,7 @@ const CSS = `
   color: var(--accent); margin-bottom: 14px;
 }
 .cat-section-title {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-weight: 600;
   font-size: 2.2rem; color: var(--wood-deep); line-height: 1.2;
   margin: 0 0 12px;
@@ -243,7 +242,7 @@ const CSS = `
   background: rgba(197,142,74,0.08);
 }
 .cat-feat-title {
-  font-family: 'Fraunces', serif; font-weight: 600;
+  font-family: var(--font-fraunces), serif; font-weight: 600;
   font-size: 1.05rem; color: var(--wood-deep); margin-bottom: 10px;
 }
 .cat-feat-text { font-size: 0.88rem; color: var(--text-muted); line-height: 1.7; font-weight: 400; }
@@ -294,11 +293,11 @@ const CSS = `
 }
 .cat-cta-inner { position: relative; z-index: 1; max-width: 700px; margin: 0 auto; }
 .cat-cta-title {
-  font-family: 'Fraunces', serif; font-weight: 600;
+  font-family: var(--font-fraunces), serif; font-weight: 600;
   font-size: clamp(1.8rem, 3vw, 2.6rem); margin: 0 0 18px; color: var(--cream);
 }
 .cat-cta-sub {
-  font-family: 'Fraunces', serif; font-style: italic;
+  font-family: var(--font-fraunces), serif; font-style: italic;
   font-size: 1rem; color: rgba(217,185,143,0.85);
   margin-bottom: 36px; line-height: 1.7;
 }
@@ -321,7 +320,7 @@ const CSS = `
 }
 .cat-related-card:hover { transform: translateY(-4px); box-shadow: 0 20px 50px rgba(61,42,31,0.14); }
 .cat-related-eyebrow { font-size: 0.6rem; letter-spacing: 4px; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
-.cat-related-name { font-family: 'Fraunces', serif; font-weight: 600; font-size: 1.15rem; margin-bottom: 8px; }
+.cat-related-name { font-family: var(--font-fraunces), serif; font-weight: 600; font-size: 1.15rem; margin-bottom: 8px; }
 .cat-related-arrow { color: var(--accent); font-size: 0.85rem; margin-top: 14px; display: inline-block; }
 
 /* ─── RESPONSIVE ─── */

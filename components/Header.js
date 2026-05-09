@@ -44,7 +44,6 @@ const NAV_GROUPS = [
 ];
 
 const HEADER_CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Jost:wght@300;400;500;600&display=swap');
 
 .chic-hdr {
   --wd-deep:    #3D2A1F;
@@ -56,7 +55,7 @@ const HEADER_CSS = `
   --wd-ink:     #2A1B12;
   --wd-mute:    #7A6450;
 
-  font-family: 'Jost', system-ui, sans-serif;
+  font-family: var(--font-jost), system-ui, sans-serif;
   position: sticky; top: 0; z-index: 50;
   width: 100%;
 }
@@ -143,7 +142,7 @@ const HEADER_CSS = `
   display: flex; flex-direction: column; line-height: 1;
 }
 .chic-hdr .logo-name {
-  font-family: 'Playfair Display', serif; font-weight: 700;
+  font-family: var(--font-playfair), serif; font-weight: 700;
   font-size: 1.55rem; color: var(--wd-deep); letter-spacing: 1px;
 }
 .chic-hdr .logo-tag {

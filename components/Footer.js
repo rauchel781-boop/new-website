@@ -7,7 +7,6 @@ import { SITE, isEmailJSConfigured } from '@/data/site-config';
 import { useEmailJS } from '@/lib/use-emailjs';
 
 const FOOTER_CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Jost:wght@300;400;500;600&display=swap');
 
 .chic-ftr {
   --wd-deep:    #3D2A1F;
@@ -18,7 +17,7 @@ const FOOTER_CSS = `
   --wd-ink:     #2A1B12;
   --wd-charcoal:#1F140C;
 
-  font-family: 'Jost', system-ui, sans-serif;
+  font-family: var(--font-jost), system-ui, sans-serif;
   background: linear-gradient(180deg, var(--wd-ink) 0%, var(--wd-charcoal) 100%);
   color: rgba(217,185,143,0.7);
   position: relative;
@@ -35,7 +34,7 @@ const FOOTER_CSS = `
 .chic-ftr::after {
   content: 'CHIC';
   position: absolute; top: 32px; right: -18px;
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-weight: 700; font-size: 11rem;
   color: rgba(197,142,74,0.04);
   line-height: 1; pointer-events: none;
@@ -59,7 +58,7 @@ const FOOTER_CSS = `
   color: var(--wd-warm); margin-bottom: 8px; font-weight: 600;
 }
 .chic-ftr .news-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1.6rem; line-height: 1.3; margin: 0;
 }
 .chic-ftr .news-form { display: flex; gap: 10px; flex-direction: column; }
@@ -103,14 +102,14 @@ const FOOTER_CSS = `
 .chic-ftr .col-brand { padding-right: 20px; }
 .chic-ftr .brand-row { display: inline-flex; align-items: center; gap: 14px; text-decoration: none; margin-bottom: 22px; }
 .chic-ftr .brand-name {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1.6rem; color: var(--wd-cream); font-weight: 700; letter-spacing: 1px;
   line-height: 1;
 }
 .chic-ftr .brand-tag {
   display: block; font-size: 0.55rem; letter-spacing: 3px;
   color: var(--wd-warm); text-transform: uppercase;
-  margin-top: 6px; font-family: 'Jost', sans-serif; font-weight: 500;
+  margin-top: 6px; font-family: var(--font-jost), sans-serif; font-weight: 500;
 }
 .chic-ftr .brand-blurb {
   font-size: 0.88rem; line-height: 1.85; color: rgba(217,185,143,0.65);
@@ -126,7 +125,7 @@ const FOOTER_CSS = `
 }
 
 .chic-ftr .col h4 {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1.05rem; color: var(--wd-cream);
   margin: 0 0 22px; font-weight: 500;
   position: relative; padding-bottom: 14px;

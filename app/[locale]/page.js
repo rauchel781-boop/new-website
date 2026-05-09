@@ -62,7 +62,6 @@ const WEBSITE_LD = {
 };
 
 const HOMEPAGE_CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Jost:wght@300;400;500&display=swap');
 
 .wcb-home {
   /* ── WOOD PALETTE (matches /products page) ── */
@@ -76,7 +75,7 @@ const HOMEPAGE_CSS = `
   --text-muted:#7A6450;        /* muted body text              */
   --accent:    #C58E4A;
 
-  font-family: 'Jost', system-ui, sans-serif;
+  font-family: var(--font-jost), system-ui, sans-serif;
   background: var(--cream);
   color: var(--charcoal);
   overflow-x: hidden;
@@ -97,7 +96,7 @@ const HOMEPAGE_CSS = `
 .wcb-home .hero-bg {
   position: absolute; inset: 0;
   z-index: 0;
-  background-image: url('/factory/chic-factory.jpg');
+  background-image: url('/factory/chic-factory.webp');
   background-size: cover;
   background-position: center;
   filter: saturate(1.05) contrast(1.05);
@@ -142,7 +141,7 @@ const HOMEPAGE_CSS = `
 }
 .wcb-home .hero-eyebrow::before { content: '✦'; color: var(--blue-warm); }
 .wcb-home .hero-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: clamp(2.8rem, 5.4vw, 5.4rem);
   color: var(--cream);
   line-height: 1.05;
@@ -197,7 +196,7 @@ const HOMEPAGE_CSS = `
   animation: wcbFadeUp .8s .4s ease both;
 }
 .wcb-home .hero-meta-item { color: var(--cream); }
-.wcb-home .hero-meta-num { font-family: 'Playfair Display', serif; font-size: 1.7rem; line-height: 1; color: var(--blue-light); }
+.wcb-home .hero-meta-num { font-family: var(--font-playfair), serif; font-size: 1.7rem; line-height: 1; color: var(--blue-light); }
 .wcb-home .hero-meta-label { font-size: 0.64rem; letter-spacing: 3px; text-transform: uppercase; color: rgba(217,185,143,0.6); margin-top: 6px; }
 
 /* ─── HERO COLLAGE (right) ─── */
@@ -246,14 +245,14 @@ const HOMEPAGE_CSS = `
   background: var(--blue-warm);
   color: white;
   display: flex; flex-direction: column; align-items: center; justify-content: center;
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   box-shadow: 0 14px 40px rgba(197,142,74,0.55);
   z-index: 5;
   border: 3px solid var(--cream);
   animation: wcbStampPulse 3.5s ease infinite;
 }
 .wcb-home .hc-stamp-num { font-size: 2rem; line-height: 1; }
-.wcb-home .hc-stamp-sub { font-size: 0.55rem; letter-spacing: 1.5px; text-transform: uppercase; margin-top: 4px; font-family: 'Jost', sans-serif; opacity: 0.9; }
+.wcb-home .hc-stamp-sub { font-size: 0.55rem; letter-spacing: 1.5px; text-transform: uppercase; margin-top: 4px; font-family: var(--font-jost), sans-serif; opacity: 0.9; }
 
 /* hero trust strip at bottom of hero */
 .wcb-home .hero-trust {
@@ -283,7 +282,7 @@ const HOMEPAGE_CSS = `
 }
 .wcb-home .stat-item { text-align: center; padding: 0 20px; position: relative; }
 .wcb-home .stat-item:not(:last-child)::after { content: ''; position: absolute; right: 0; top: 10%; height: 80%; width: 1px; background: rgba(197,142,74,0.2); }
-.wcb-home .stat-num { font-family: 'Playfair Display', serif; font-size: 2.8rem; color: var(--blue-light); line-height: 1; }
+.wcb-home .stat-num { font-family: var(--font-playfair), serif; font-size: 2.8rem; color: var(--blue-light); line-height: 1; }
 .wcb-home .stat-num span { font-size: 1.4rem; color: var(--blue-warm); }
 .wcb-home .stat-label { font-size: 0.7rem; letter-spacing: 3px; text-transform: uppercase; color: var(--text-muted); margin-top: 8px; }
 
@@ -291,7 +290,7 @@ const HOMEPAGE_CSS = `
 .wcb-home .intro-wrap { background: var(--cream); }
 .wcb-home .intro { padding: 120px 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 100px; align-items: center; max-width: 1300px; margin: 0 auto; }
 .wcb-home .intro-label { font-size: 0.65rem; letter-spacing: 5px; text-transform: uppercase; color: var(--blue-warm); margin-bottom: 20px; }
-.wcb-home .intro-title { font-family: 'Playfair Display', serif; font-size: 2.8rem; line-height: 1.2; margin-bottom: 24px; color: var(--blue-dark); }
+.wcb-home .intro-title { font-family: var(--font-playfair), serif; font-size: 2.8rem; line-height: 1.2; margin-bottom: 24px; color: var(--blue-dark); }
 .wcb-home .intro-title em { color: var(--blue-mid); font-style: italic; }
 .wcb-home .intro-text { font-size: 0.95rem; color: var(--text-muted); line-height: 1.9; margin-bottom: 32px; font-weight: 300; }
 .wcb-home .intro-features { display: flex; flex-direction: column; gap: 16px; }
@@ -309,7 +308,7 @@ const HOMEPAGE_CSS = `
 }
 .wcb-home .intro-visual-text {
   position: absolute; bottom: 32px; left: 32px; right: 32px;
-  color: rgba(246,238,223,0.92); font-family: 'Playfair Display', serif;
+  color: rgba(246,238,223,0.92); font-family: var(--font-playfair), serif;
   font-size: 1.4rem; line-height: 1.4;
 }
 .wcb-home .intro-tag {
@@ -361,7 +360,7 @@ const HOMEPAGE_CSS = `
   font-weight: 500;
 }
 .wcb-home .ic-label {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1.5rem;
   line-height: 1.3;
 }
@@ -379,7 +378,7 @@ const HOMEPAGE_CSS = `
   z-index: 3;
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
-  font-family: 'Jost', sans-serif;
+  font-family: var(--font-jost), sans-serif;
   padding: 0;
 }
 .wcb-home .ic-arrow:hover { background: var(--blue-warm); border-color: var(--blue-warm); transform: translateY(-50%) scale(1.05); }
@@ -414,7 +413,7 @@ const HOMEPAGE_CSS = `
 .wcb-home .categories { background: var(--sand); padding: 100px 60px; }
 .wcb-home .section-header { text-align: center; margin-bottom: 70px; }
 .wcb-home .section-label { font-size: 0.65rem; letter-spacing: 5px; text-transform: uppercase; color: var(--blue-warm); margin-bottom: 16px; }
-.wcb-home .section-title { font-family: 'Playfair Display', serif; font-size: 2.5rem; color: var(--blue-dark); }
+.wcb-home .section-title { font-family: var(--font-playfair), serif; font-size: 2.5rem; color: var(--blue-dark); }
 .wcb-home .section-line { width: 48px; height: 2px; background: var(--blue-warm); margin: 20px auto 0; }
 .wcb-home .cat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2px; max-width: 1200px; margin: 0 auto; }
 .wcb-home .cat-col {
@@ -424,7 +423,7 @@ const HOMEPAGE_CSS = `
 }
 .wcb-home .cat-col:hover { transform: translateY(-4px); box-shadow: 0 20px 60px rgba(61,42,31,0.12); }
 .wcb-home .cat-col-label { font-size: 0.6rem; letter-spacing: 5px; text-transform: uppercase; color: var(--blue-warm); margin-bottom: 24px; }
-.wcb-home .cat-col-title { font-family: 'Playfair Display', serif; font-size: 1.3rem; color: var(--blue-dark); margin-bottom: 28px; padding-bottom: 20px; border-bottom: 1px solid var(--sand); }
+.wcb-home .cat-col-title { font-family: var(--font-playfair), serif; font-size: 1.3rem; color: var(--blue-dark); margin-bottom: 28px; padding-bottom: 20px; border-bottom: 1px solid var(--sand); }
 .wcb-home .cat-items { display: flex; flex-direction: column; gap: 12px; }
 .wcb-home .cat-item { display: flex; align-items: center; gap: 12px; font-size: 0.85rem; color: var(--blue-mid); padding: 8px 0; border-bottom: 1px solid rgba(217,185,143,0.35); cursor: pointer; transition: color .2s; text-decoration: none; }
 .wcb-home .cat-item:hover { color: var(--blue-warm); }
@@ -437,7 +436,7 @@ const HOMEPAGE_CSS = `
 .wcb-home .custom-section::before {
   content: 'CUSTOM';
   position: absolute; top: -20px; left: -10px;
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 15rem; color: rgba(197,142,74,0.05); font-weight: 700;
   line-height: 1; pointer-events: none; white-space: nowrap;
 }
@@ -445,9 +444,9 @@ const HOMEPAGE_CSS = `
 .wcb-home .custom-header { text-align: center; margin-bottom: 80px; }
 .wcb-home .steps-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 40px; }
 .wcb-home .step-card { text-align: center; }
-.wcb-home .step-num { font-family: 'Playfair Display', serif; font-size: 3.5rem; color: rgba(197,142,74,0.25); line-height: 1; margin-bottom: 16px; }
+.wcb-home .step-num { font-family: var(--font-playfair), serif; font-size: 3.5rem; color: rgba(197,142,74,0.25); line-height: 1; margin-bottom: 16px; }
 .wcb-home .step-icon { width: 56px; height: 56px; border: 1px solid rgba(197,142,74,0.4); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px; font-size: 1.4rem; }
-.wcb-home .step-title { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--blue-light); margin-bottom: 12px; }
+.wcb-home .step-title { font-family: var(--font-playfair), serif; font-size: 1.1rem; color: var(--blue-light); margin-bottom: 12px; }
 .wcb-home .step-text { font-size: 0.8rem; color: rgba(217,185,143,0.5); line-height: 1.8; font-weight: 300; }
 .wcb-home .steps-grid .step-card:not(:last-child) { position: relative; }
 .wcb-home .steps-grid .step-card:not(:last-child)::after { content: '→'; position: absolute; top: 80px; right: -24px; color: rgba(197,142,74,0.3); font-size: 1.2rem; }
@@ -469,7 +468,7 @@ const HOMEPAGE_CSS = `
 .wcb-home .swatch-bamboo    { background: linear-gradient(135deg, #C8B68A, #94814A); }
 .wcb-home .swatch-acacia    { background: linear-gradient(135deg, #A07852, #5C3A24); }
 .wcb-home .swatch-walnut    { background: linear-gradient(135deg, #5C3A24, #2A1B12); }
-.wcb-home .mat-name { font-family: 'Playfair Display', serif; font-size: 0.95rem; color: var(--blue-dark); margin-bottom: 6px; }
+.wcb-home .mat-name { font-family: var(--font-playfair), serif; font-size: 0.95rem; color: var(--blue-dark); margin-bottom: 6px; }
 .wcb-home .mat-desc { font-size: 0.7rem; color: var(--text-muted); line-height: 1.6; }
 
 /* ─── SECTION 7: WHY US ─── */
@@ -479,14 +478,14 @@ const HOMEPAGE_CSS = `
 .wcb-home .why-card { background: rgba(255,255,255,0.03); padding: 48px 40px; border: 1px solid rgba(197,142,74,0.12); transition: background .2s; }
 .wcb-home .why-card:hover { background: rgba(197,142,74,0.08); }
 .wcb-home .why-icon { font-size: 2rem; margin-bottom: 20px; }
-.wcb-home .why-title { font-family: 'Playfair Display', serif; font-size: 1.2rem; color: var(--blue-light); margin-bottom: 14px; }
+.wcb-home .why-title { font-family: var(--font-playfair), serif; font-size: 1.2rem; color: var(--blue-light); margin-bottom: 14px; }
 .wcb-home .why-text { font-size: 0.85rem; color: rgba(217,185,143,0.55); line-height: 1.9; font-weight: 300; }
 
 /* ─── SECTION 8: TRUST ─── */
 .wcb-home .trust { padding: 80px 60px; background: var(--sand); }
 .wcb-home .trust-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
 .wcb-home .trust-text .section-label { margin-bottom: 16px; }
-.wcb-home .trust-text .section-title { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--blue-dark); margin-bottom: 24px; text-align: left; }
+.wcb-home .trust-text .section-title { font-family: var(--font-playfair), serif; font-size: 2rem; color: var(--blue-dark); margin-bottom: 24px; text-align: left; }
 .wcb-home .trust-text p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.9; font-weight: 300; }
 .wcb-home .cert-badges { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .wcb-home .cert-badge { background: white; padding: 24px 16px; text-align: center; border-radius: 2px; border: 1px solid rgba(197,142,74,0.2); }
@@ -506,7 +505,7 @@ const HOMEPAGE_CSS = `
 }
 .wcb-home .cta-inner { position: relative; z-index: 1; }
 .wcb-home .cta-label { font-size: 0.65rem; letter-spacing: 5px; text-transform: uppercase; color: var(--blue-warm); margin-bottom: 20px; }
-.wcb-home .cta-title { font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3.5rem); color: var(--cream); margin-bottom: 20px; line-height: 1.2; }
+.wcb-home .cta-title { font-family: var(--font-playfair), serif; font-size: clamp(2rem, 4vw, 3.5rem); color: var(--cream); margin-bottom: 20px; line-height: 1.2; }
 .wcb-home .cta-sub { font-size: 1rem; color: rgba(217,185,143,0.7); margin-bottom: 48px; font-weight: 300; }
 .wcb-home .cta-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
 
@@ -551,7 +550,7 @@ const HOMEPAGE_CSS = `
   font-size: 0.6rem; letter-spacing: 2.5px; text-transform: uppercase; font-weight: 500;
   margin-bottom: 12px;
 }
-.wcb-home .feat-name { font-family: 'Playfair Display', serif; font-size: 1.25rem; line-height: 1.3; margin-bottom: 4px; }
+.wcb-home .feat-name { font-family: var(--font-playfair), serif; font-size: 1.25rem; line-height: 1.3; margin-bottom: 4px; }
 .wcb-home .feat-meta { font-size: 0.72rem; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.65); }
 .wcb-home .feat-arrow {
   position: absolute; top: 18px; right: 18px;
@@ -576,7 +575,7 @@ const HOMEPAGE_CSS = `
 .wcb-home .factory-section::before {
   content: 'FACTORY';
   position: absolute; top: 30px; right: -20px;
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 13rem; font-weight: 700;
   color: rgba(197,142,74,0.05);
   line-height: 1; pointer-events: none; white-space: nowrap;
@@ -616,7 +615,7 @@ const HOMEPAGE_CSS = `
   font-size: 0.6rem; letter-spacing: 3px; text-transform: uppercase;
   color: var(--blue-warm); margin-bottom: 4px; font-weight: 500;
 }
-.wcb-home .fac-cap-text { font-family: 'Playfair Display', serif; font-size: 1.1rem; }
+.wcb-home .fac-cap-text { font-family: var(--font-playfair), serif; font-size: 1.1rem; }
 .wcb-home .fac-1 { grid-column: 1 / 7;  grid-row: 1 / 3; }
 .wcb-home .fac-2 { grid-column: 7 / 13; grid-row: 1 / 2; }
 .wcb-home .fac-3 { grid-column: 7 / 10; grid-row: 2 / 3; }
@@ -651,7 +650,7 @@ const HOMEPAGE_CSS = `
 }
 .wcb-home .pcell-num {
   position: absolute; top: 14px; left: 14px;
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   color: var(--blue-light);
   font-size: 1.4rem; line-height: 1;
   z-index: 2;
@@ -736,7 +735,7 @@ export default function HomePage({ params: { locale } }) {
       <link
         rel="preload"
         as="image"
-        href="/factory/chic-factory.jpg"
+        href="/factory/chic-factory.webp"
         fetchPriority="high"
       />
       <JsonLd data={ORG_LD} />
@@ -784,15 +783,15 @@ export default function HomePage({ params: { locale } }) {
 
           <div className="hero-collage">
             <div className="hc-card hc-main">
-              <img src="/factory/production.jpg" alt="Inside our production floor" width="900" height="900" />
+              <img src="/factory/production.webp" alt="Inside our production floor" width="900" height="900" />
               <div className="hc-cap">Inside Our Workshop</div>
             </div>
             <div className="hc-card hc-sub-1 is-product">
-              <img src="/walnut-jewelery-box.png" alt="Walnut jewelry box" width="900" height="900" />
+              <img src="/walnut-jewelery-box.webp" alt="Walnut jewelry box" width="900" height="900" />
               <div className="hc-cap">Walnut · Jewelry Series</div>
             </div>
             <div className="hc-card hc-sub-2 is-product">
-              <img src="/bamboo-box.png" alt="Bamboo wooden box" width="1184" height="672" />
+              <img src="/bamboo-box.webp" alt="Bamboo wooden box" width="1184" height="672" />
               <div className="hc-cap">Bamboo · Eco Series</div>
             </div>
             <div className="hc-stamp">
@@ -869,7 +868,7 @@ export default function HomePage({ params: { locale } }) {
           </div>
           <div className="feat-grid">
             <Link href="/products/kitchen-dining" className="feat-card">
-              <img src="/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.png" alt="Wood kitchen utensil holder with spice drawer" width="1164" height="1160" />
+              <img src="/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp" alt="Wood kitchen utensil holder with spice drawer" width="1164" height="1160" />
               <div className="feat-overlay" />
               <div className="feat-arrow">→</div>
               <div className="feat-content">
@@ -879,7 +878,7 @@ export default function HomePage({ params: { locale } }) {
               </div>
             </Link>
             <Link href="/products/kitchen-dining" className="feat-card">
-              <img src="/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.jpg" alt="Bamboo spice rack organizer" width="900" height="900" />
+              <img src="/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp" alt="Bamboo spice rack organizer" width="900" height="900" />
               <div className="feat-overlay" />
               <div className="feat-arrow">→</div>
               <div className="feat-content">
@@ -889,7 +888,7 @@ export default function HomePage({ params: { locale } }) {
               </div>
             </Link>
             <Link href="/products/with-lock" className="feat-card">
-              <img src="/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.jpg" alt="Large black wooden stash box kit" width="1200" height="1200" />
+              <img src="/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp" alt="Large black wooden stash box kit" width="1200" height="1200" />
               <div className="feat-overlay" />
               <div className="feat-arrow">→</div>
               <div className="feat-content">
@@ -899,7 +898,7 @@ export default function HomePage({ params: { locale } }) {
               </div>
             </Link>
             <Link href="/products/tea-coffee" className="feat-card">
-              <img src="/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.png" alt="Bamboo tea bag organizer" width="800" height="800" />
+              <img src="/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp" alt="Bamboo tea bag organizer" width="800" height="800" />
               <div className="feat-overlay" />
               <div className="feat-arrow">→</div>
               <div className="feat-content">
@@ -909,7 +908,7 @@ export default function HomePage({ params: { locale } }) {
               </div>
             </Link>
             <Link href="/products/watch-jewelry" className="feat-card">
-              <img src="/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.png" alt="Wooden watch box" width="720" height="720" />
+              <img src="/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp" alt="Wooden watch box" width="720" height="720" />
               <div className="feat-overlay" />
               <div className="feat-arrow">→</div>
               <div className="feat-content">
@@ -919,7 +918,7 @@ export default function HomePage({ params: { locale } }) {
               </div>
             </Link>
             <Link href="/products/acacia" className="feat-card">
-              <img src="/acacia-wood-box/3/3-01.png" alt="Acacia wood storage box" width="1010" height="1144" />
+              <img src="/acacia-wood-box/3/3-01.webp" alt="Acacia wood storage box" width="1010" height="1144" />
               <div className="feat-overlay" />
               <div className="feat-arrow">→</div>
               <div className="feat-content">
@@ -998,49 +997,49 @@ export default function HomePage({ params: { locale } }) {
           </div>
           <div className="fac-grid">
             <Link href="/about" className="fac-tile fac-1">
-              <img src="/factory/chic-factory.jpg" alt="Our factory headquarters" width="900" height="900" />
+              <img src="/factory/chic-factory.webp" alt="Our factory headquarters" width="900" height="900" />
               <div className="fac-cap">
                 <div className="fac-cap-num">01 · Headquarters</div>
                 <div className="fac-cap-text">15,000 m² Cao County Facility</div>
               </div>
             </Link>
             <Link href="/about" className="fac-tile fac-2">
-              <img src="/factory/production.jpg" alt="Production floor" width="900" height="900" />
+              <img src="/factory/production.webp" alt="Production floor" width="900" height="900" />
               <div className="fac-cap">
                 <div className="fac-cap-num">02 · Production</div>
                 <div className="fac-cap-text">Active Workshop</div>
               </div>
             </Link>
             <Link href="/about" className="fac-tile fac-3">
-              <img src="/factory/material.jpg" alt="Raw wood materials" width="900" height="900" />
+              <img src="/factory/material.webp" alt="Raw wood materials" width="900" height="900" />
               <div className="fac-cap">
                 <div className="fac-cap-num">03</div>
                 <div className="fac-cap-text">Raw Materials</div>
               </div>
             </Link>
             <Link href="/about" className="fac-tile fac-4">
-              <img src="/factory/painting.jpg" alt="Finishing and painting" width="900" height="900" />
+              <img src="/factory/painting.webp" alt="Finishing and painting" width="900" height="900" />
               <div className="fac-cap">
                 <div className="fac-cap-num">04</div>
                 <div className="fac-cap-text">Finishing Line</div>
               </div>
             </Link>
             <Link href="/about" className="fac-tile fac-5">
-              <img src="/factory/warehouse.jpg" alt="Warehouse" width="4096" height="3072" />
+              <img src="/factory/warehouse.webp" alt="Warehouse" width="4096" height="3072" />
               <div className="fac-cap">
                 <div className="fac-cap-num">05</div>
                 <div className="fac-cap-text">Export Warehouse</div>
               </div>
             </Link>
             <Link href="/about" className="fac-tile fac-6">
-              <img src="/employees/sales-office.jpg" alt="Sales office" width="2776" height="2250" />
+              <img src="/employees/sales-office.webp" alt="Sales office" width="2776" height="2250" />
               <div className="fac-cap">
                 <div className="fac-cap-num">06</div>
                 <div className="fac-cap-text">Sales &amp; Service Team</div>
               </div>
             </Link>
             <Link href="/about" className="fac-tile fac-7">
-              <img src="/employees/e7fd6e2eec09920a9345158e7bdfdbeb.jpg" alt="Skilled craftspeople" width="791" height="664" />
+              <img src="/employees/e7fd6e2eec09920a9345158e7bdfdbeb.webp" alt="Skilled craftspeople" width="791" height="664" />
               <div className="fac-cap">
                 <div className="fac-cap-num">07</div>
                 <div className="fac-cap-text">Skilled Craftspeople</div>
@@ -1069,32 +1068,32 @@ export default function HomePage({ params: { locale } }) {
           </div>
           <div className="process-grid">
             <div className="pcell">
-              <img src="/folder/1-cutting-to-size.jpg" alt="Cutting wood to size" width="1191" height="893" />
+              <img src="/folder/1-cutting-to-size.webp" alt="Cutting wood to size" width="1191" height="893" />
               <div className="pcell-num">1</div>
               <div className="pcell-name">Cutting to Size</div>
             </div>
             <div className="pcell">
-              <img src="/folder/2-shape-cutting.jpg" alt="Shape cutting" width="2000" height="1334" />
+              <img src="/folder/2-shape-cutting.webp" alt="Shape cutting" width="2000" height="1334" />
               <div className="pcell-num">2</div>
               <div className="pcell-name">Shape Cutting</div>
             </div>
             <div className="pcell">
-              <img src="/folder/3-mortise-cutting.jpg" alt="Mortise cutting" width="2000" height="1333" />
+              <img src="/folder/3-mortise-cutting.webp" alt="Mortise cutting" width="2000" height="1333" />
               <div className="pcell-num">3</div>
               <div className="pcell-name">Mortise Cutting</div>
             </div>
             <div className="pcell">
-              <img src="/folder/4-pre-assemble.jpg" alt="Pre-assembly" width="2000" height="1333" />
+              <img src="/folder/4-pre-assemble.webp" alt="Pre-assembly" width="2000" height="1333" />
               <div className="pcell-num">4</div>
               <div className="pcell-name">Pre-Assemble</div>
             </div>
             <div className="pcell">
-              <img src="/folder/5-polishing.jpg" alt="Polishing" width="2000" height="1501" />
+              <img src="/folder/5-polishing.webp" alt="Polishing" width="2000" height="1501" />
               <div className="pcell-num">5</div>
               <div className="pcell-name">Polishing</div>
             </div>
             <div className="pcell">
-              <img src="/folder/6-packaging.jpeg" alt="Packaging for export" width="3135" height="2090" />
+              <img src="/folder/6-packaging.webp" alt="Packaging for export" width="3135" height="2090" />
               <div className="pcell-num">6</div>
               <div className="pcell-name">Packaging</div>
             </div>

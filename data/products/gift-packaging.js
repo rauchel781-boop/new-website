@@ -15,10 +15,10 @@ export const PRODUCTS = {
     intro:
       'A premium gift box with concealed neodymium magnets in the lid. The cleanest possible exterior with a satisfying snap-close feel — ideal for cosmetics, watches, and high-end retail packaging where the unboxing experience matters.',
     images: [
-      `/${FOLDER}/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.png`,
-      `/${FOLDER}/luxury-magnetic-gift-box/luxury-magnetic-gift-box-02.png`,
-      `/${FOLDER}/luxury-magnetic-gift-box/luxury-magnetic-gift-box-03.png`,
-      `/${FOLDER}/luxury-magnetic-gift-box/luxury-magnetic-gift-box-04.png`,
+      `/${FOLDER}/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp`,
+      `/${FOLDER}/luxury-magnetic-gift-box/luxury-magnetic-gift-box-02.webp`,
+      `/${FOLDER}/luxury-magnetic-gift-box/luxury-magnetic-gift-box-03.webp`,
+      `/${FOLDER}/luxury-magnetic-gift-box/luxury-magnetic-gift-box-04.webp`,
     ],
     specs: {
       'Closure Type': 'Hidden magnetic (neodymium)',
@@ -53,9 +53,9 @@ export const PRODUCTS = {
     intro:
       'A classic hinged wooden gift box made from solid pine or paulownia. Brass-finish hinges and a hook clasp give it the substantial, reusable feel that turns the packaging itself into part of the gift.',
     images: [
-      `/${FOLDER}/hinged-wooden-gift-box/hinged-wooden-gift-box-01.png`,
-      `/${FOLDER}/hinged-wooden-gift-box/hinged-wooden-gift-box-02.png`,
-      `/${FOLDER}/hinged-wooden-gift-box/hinged-wooden-gift-box-03.png`,
+      `/${FOLDER}/hinged-wooden-gift-box/hinged-wooden-gift-box-01.webp`,
+      `/${FOLDER}/hinged-wooden-gift-box/hinged-wooden-gift-box-02.webp`,
+      `/${FOLDER}/hinged-wooden-gift-box/hinged-wooden-gift-box-03.webp`,
     ],
     specs: {
       'Closure Type': 'Hinged lid with hook clasp',
@@ -90,12 +90,12 @@ export const PRODUCTS = {
     intro:
       'A hardware-free wooden box with a precision-grooved sliding lid. The cleanest possible look — just wood, with a smooth-gliding lid that doubles as a large branding canvas. Perfect for craft kits, tea selections, and pen sets.',
     images: [
-      `/${FOLDER}/sliding-lid-gift-box/sliding-lid-gift-box-01.png`,
-      `/${FOLDER}/sliding-lid-gift-box/sliding-lid-gift-box-02.png`,
-      `/${FOLDER}/sliding-lid-gift-box/sliding-lid-gift-box-03.png`,
-      `/${FOLDER}/sliding-lid-gift-box/sliding-lid-gift-box-04.png`,
-      `/${FOLDER}/sliding-lid-gift-box/sliding-lid-gift-box-05.png`,
-      `/${FOLDER}/sliding-lid-gift-box/sliding-lid-gift-box-06.png`,
+      `/${FOLDER}/sliding-lid-gift-box/sliding-lid-gift-box-01.webp`,
+      `/${FOLDER}/sliding-lid-gift-box/sliding-lid-gift-box-02.webp`,
+      `/${FOLDER}/sliding-lid-gift-box/sliding-lid-gift-box-03.webp`,
+      `/${FOLDER}/sliding-lid-gift-box/sliding-lid-gift-box-04.webp`,
+      `/${FOLDER}/sliding-lid-gift-box/sliding-lid-gift-box-05.webp`,
+      `/${FOLDER}/sliding-lid-gift-box/sliding-lid-gift-box-06.webp`,
     ],
     specs: {
       'Closure Type': 'Sliding lid with CNC-routed grooves',
@@ -130,9 +130,9 @@ export const PRODUCTS = {
     intro:
       'A drawer-style gift box that pulls out smoothly to reveal the contents. Combines the substantial feel of a hinged box with the surprise reveal of a presentation drawer. Single or multi-tier configurations available.',
     images: [
-      `/${FOLDER}/drawer-wooden-gift-box/drawer-wooden-gift-box-01.png`,
-      `/${FOLDER}/drawer-wooden-gift-box/drawer-wooden-gift-box-02.png`,
-      `/${FOLDER}/drawer-wooden-gift-box/drawer-wooden-gift-box-03.png`,
+      `/${FOLDER}/drawer-wooden-gift-box/drawer-wooden-gift-box-01.webp`,
+      `/${FOLDER}/drawer-wooden-gift-box/drawer-wooden-gift-box-02.webp`,
+      `/${FOLDER}/drawer-wooden-gift-box/drawer-wooden-gift-box-03.webp`,
     ],
     specs: {
       'Closure Type': 'Pull-out drawer',
@@ -168,12 +168,12 @@ export const PRODUCTS = {
     intro:
       'A traditional lift-off lid box — a separate top that lifts cleanly off the base. The simplest, cleanest gift box format, with a generous flat lid for branding. Ideal for cosmetics, craft sets, and any application that prefers a "reveal" opening.',
     images: [
-      `/${FOLDER}/liftoff-lid-gift-box/liftoff-lid-gift-box-01.png`,
-      `/${FOLDER}/liftoff-lid-gift-box/liftoff-lid-gift-box-02.png`,
-      `/${FOLDER}/liftoff-lid-gift-box/liftoff-lid-gift-box-03.png`,
-      `/${FOLDER}/liftoff-lid-gift-box/liftoff-lid-gift-box-04.png`,
-      `/${FOLDER}/liftoff-lid-gift-box/liftoff-lid-gift-box-05.png`,
-      `/${FOLDER}/liftoff-lid-gift-box/liftoff-lid-gift-box-06.png`,
+      `/${FOLDER}/liftoff-lid-gift-box/liftoff-lid-gift-box-01.webp`,
+      `/${FOLDER}/liftoff-lid-gift-box/liftoff-lid-gift-box-02.webp`,
+      `/${FOLDER}/liftoff-lid-gift-box/liftoff-lid-gift-box-03.webp`,
+      `/${FOLDER}/liftoff-lid-gift-box/liftoff-lid-gift-box-04.webp`,
+      `/${FOLDER}/liftoff-lid-gift-box/liftoff-lid-gift-box-05.webp`,
+      `/${FOLDER}/liftoff-lid-gift-box/liftoff-lid-gift-box-06.webp`,
     ],
     specs: {
       'Closure Type': 'Lift-off two-piece (lid + base)',

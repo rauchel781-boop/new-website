@@ -5,7 +5,7 @@
 
 const PARENT = 'bamboo-box';
 const img = (folder, name) =>
-  '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
+  '/' + [PARENT, folder, name].map(encodeURIComponent).join('/').replace(/\.(jpe?g|png)$/i, '.webp');
 
 export const PRODUCTS = {
   'bamboo-8-compartment-glass-lid-box': {

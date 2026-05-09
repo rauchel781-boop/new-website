@@ -23,7 +23,7 @@ export const POSTS = [
     date: '2026-05-02',
     category: 'Process',
     readTime: '11 min read',
-    hero: '/folder/1-cutting-to-size.jpg',
+    hero: '/folder/1-cutting-to-size.webp',
     body: [
       { type: 'p', text: 'A buyer from Amsterdam visited our Cao County factory last March. He had been ordering tea boxes from us for two years — about 18,000 units a year for his retail brand in the Netherlands — but he had never seen the place in person. After we picked him up at Heze airport we drove the 45 minutes east, pulled into the yard around ten in the morning, and parked next to the timber pile.' },
       { type: 'p', text: 'He stood at the timber pile for ten minutes without saying a word. Then he turned to me and asked: "How long does it actually take to make one of my boxes?"' },
@@ -35,7 +35,7 @@ export const POSTS = [
       { type: 'p', text: 'This single step is the biggest reason cheap wooden boxes fail in the field. Wood at 18% MC will warp, cup, crack or split once it lands in a 30% relative humidity warehouse in Florida or a 60% humid summer in Sydney. We see it all the time — buyers who took the cheapest quote on the market and ended up with a 12% defect rate three months after their first shipment, then came to us to start over.' },
       { type: 'p', text: 'Our kilns run at 60–80°C with controlled humidity for anywhere from 7 to 21 days depending on board thickness and species. Walnut and oak take the longest because they are dense; paulownia dries fastest because it is light. Every board is checked with a pin-style moisture meter before it leaves the kiln, and the readings are logged.' },
       { type: 'p', text: 'This step adds maybe $0.05 to the cost of a tea box. It saves $5 in returns and replacements. The math is not subtle.' },
-      { type: 'img', src: '/factory/material.jpg', caption: 'Our raw material yard — kiln-dried stock organized by species and grade' },
+      { type: 'img', src: '/factory/material.webp', caption: 'Our raw material yard — kiln-dried stock organized by species and grade' },
 
       { type: 'h2', text: 'Step 2 — Cutting to size' },
       { type: 'p', text: 'Once timber is dry, boards move into the dimensioning room. This is where we turn raw planks into the precisely sized parts that will become a box.' },
@@ -47,7 +47,7 @@ export const POSTS = [
       { type: 'p', text: 'Step 3 is where boxes pick up their personality. CNC routers handle every cut that is not a straight line: chamfered and rounded edges, dado grooves for sliding lids, mortises for hinges and locks, finger joints and dovetails for sides, slots for internal dividers.' },
       { type: 'p', text: 'Each CNC machine runs from a CAM file generated from the same 3D model that drove the saws. Tolerances here are tighter — ±0.3 mm — because the parts have to fit together cleanly without visible glue lines or hardware-induced gaps.' },
       { type: 'p', text: 'This is also where the box\'s "feel" gets engineered. A 2 mm chamfer on a lid edge changes how a buyer\'s hand reads the box. A finger joint shows craftsmanship; a butt joint with internal screws hides it. A 1 mm radius on internal divider edges takes longer to machine but means the dividers do not gouge whatever is stored inside. The choices we make at this stage are mostly invisible to the end user — but they are exactly what separates a $3 box from a $30 box.' },
-      { type: 'img', src: '/folder/3-mortise-cutting.jpg', caption: 'CNC mortise cutting for hinges and lock recesses' },
+      { type: 'img', src: '/folder/3-mortise-cutting.webp', caption: 'CNC mortise cutting for hinges and lock recesses' },
 
       { type: 'h2', text: 'Step 4 — Pre-assembly and dry-fit' },
       { type: 'p', text: 'Before any glue or hardware goes in, every part of the box is dry-fitted to confirm joinery is tight, lids close flat, drawers slide smoothly. This sounds obvious but most lower-end factories skip it — they go straight from cut parts to glue-up and hope for the best.' },
@@ -64,7 +64,7 @@ export const POSTS = [
       { type: 'p', text: 'Each finish coat needs to cure for 4–8 hours before the next coat. This is the biggest single contributor to the 14-day calendar lead time — the wood is doing nothing, but the finish is curing. Skipping cure time produces finishes that look fine on day one and feel sticky in week three.' },
       { type: 'h3', text: 'Polishing' },
       { type: 'p', text: 'After the final finish coat cures, boxes get hand-polished with a soft cotton wheel. This is the difference between a box that looks "manufactured" and one that looks "crafted." It adds about 2 minutes per box but it is one of the first things buyers notice when they unbox a sample.' },
-      { type: 'img', src: '/folder/5-polishing.jpg', caption: 'Hand polishing after the final finish coat — 2 extra minutes that buyers notice' },
+      { type: 'img', src: '/folder/5-polishing.webp', caption: 'Hand polishing after the final finish coat — 2 extra minutes that buyers notice' },
 
       { type: 'h2', text: 'Step 6 — QC, packing and export documentation' },
       { type: 'p', text: 'Every order goes through a 3-stage quality control process. We are obsessive about this — it is how a factory of our size keeps a defect rate that buyers can verify with their own third-party inspections.' },
@@ -121,7 +121,7 @@ export const POSTS = [
     date: '2026-04-22',
     category: 'Materials',
     readTime: '10 min read',
-    hero: '/factory/material.jpg',
+    hero: '/factory/material.webp',
     body: [
       { type: 'p', text: 'Wood selection is the single biggest decision in any gift packaging project. It drives unit cost, freight cost, finish quality, perceived premium-ness, end-of-life recyclability and how the box reads in the customer\'s hand. Sometimes it matters more than the design itself.' },
       { type: 'p', text: 'And yet most buyers spend ten minutes on it. They pick "pine" or "paulownia" because that is what they saw on the last project, or because that is what the factory quoted. Six months and one container later they discover the box was twice as heavy as it needed to be, and the freight ate their margin.' },
@@ -143,7 +143,7 @@ export const POSTS = [
       { type: 'p', text: 'Pine takes wood-burning beautifully — branded wine boxes with burned-in vintage and producer name are pine\'s signature application. It also stains evenly, paints cleanly, and oils to a deep amber over time.' },
       { type: 'p', text: 'It is heavier than paulownia (~510 kg/m³) but less dimensionally stable than acacia or walnut. We dry it carefully and recommend it for products that are not crossing extreme climate zones. For a wine box going from China to a UK distributor, pine is fine; for a wine box going from China to a Phoenix retailer in July, we would push you toward paulownia or kiln-dried oak.' },
       { type: 'p', text: 'Best for: wine boxes, garden crates, rustic gifting, mid-tier corporate gifts where budget matters more than premium feel.' },
-      { type: 'img', src: '/wooden-box-7.jpg', caption: 'Pine gift box with hot-foil branding' },
+      { type: 'img', src: '/wooden-box-7.webp', caption: 'Pine gift box with hot-foil branding' },
 
       { type: 'h2', text: 'Bamboo — the sustainability story' },
       { type: 'p', text: 'Technically bamboo is a grass, not a tree. It regrows in 5–7 years versus 30–60 years for hardwood, which makes it the most genuinely renewable structural material on the planet. For brands with an explicit eco message, bamboo is the only honest choice.' },
@@ -231,7 +231,7 @@ export const POSTS = [
     date: '2026-04-08',
     category: 'Design',
     readTime: '11 min read',
-    hero: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.png',
+    hero: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp',
     body: [
       { type: 'p', text: 'Wooden watch boxes are the most demanding category we make. Watch buyers will turn the box over in their hands ten times before they ever touch the watch. They will run a fingernail along the lid edge. They will smell the lining. They will close the lid and listen for the snap. They notice everything.' },
       { type: 'p', text: 'Get the box right and it becomes part of the gift — the kind of object that sits on the dresser long after the watch has moved on. Get it wrong and you get one-star reviews about "cheap-feeling box, watch is fine." Either way, the box does the talking.' },
@@ -256,7 +256,7 @@ export const POSTS = [
       { type: 'h3', text: 'Faux suede / leatherette' },
       { type: 'p', text: 'A middle ground — soft to the touch, more durable than velvet, available in matte and grain finishes. Premium feel without the velvet maintenance issues.' },
       { type: 'p', text: 'Pillow firmness matters too. Too soft and the watch lays at an awkward angle when displayed. Too firm and the box feels cheap. We use a medium-firm EVA foam wrapped in microfiber — soft enough to read as premium, firm enough to hold a 50g watch upright.' },
-      { type: 'img', src: '/walnut-jewelery-box.png', caption: 'Walnut watch box — concealed hinges, microfiber pillows, brass hardware' },
+      { type: 'img', src: '/walnut-jewelery-box.webp', caption: 'Walnut watch box — concealed hinges, microfiber pillows, brass hardware' },
 
       { type: 'h2', text: '4. Hardware that matches the brand' },
       { type: 'p', text: 'Brass for traditional. Chrome for sport. Matte black for modern. Antique brass for vintage. Hardware finish is part of the brand vocabulary — the wrong choice and the box reads as confused.' },
@@ -346,7 +346,7 @@ export const POSTS = [
     date: '2026-03-25',
     category: 'Sustainability',
     readTime: '9 min read',
-    hero: '/factory/painting.jpg',
+    hero: '/factory/painting.webp',
     body: [
       { type: 'p', text: 'Sustainability used to be a marketing line. Today it is a procurement requirement from most of the European, Japanese and Amazon brands we serve — a series of specific certifications, documents and supplier audits that have to clear before any box ships.' },
       { type: 'p', text: 'This article is what our actual practices look like in 2026, written for the buyer who has to defend their supply chain to a sustainability officer, an Amazon Brand Registry compliance team, or an EU CBAM auditor. No vague claims — just what we do and the documents we can produce to prove it.' },
@@ -361,7 +361,7 @@ export const POSTS = [
       { type: 'p', text: 'Paulownia is the closest thing the woodworking industry has to a renewable timber. The trees mature in 5-7 years (versus 30-60 years for oak or walnut), and almost all commercial paulownia is plantation-grown rather than harvested from natural forests.' },
       { type: 'p', text: 'Our paulownia comes from managed plantations in Henan and Anhui provinces. The plantations are owned by farming cooperatives that rotate harvests so that approximately 1/6 of the planted area is harvested each year, with new seedlings planted to replace harvested trees. The result is a continuous timber supply that does not draw down the forest stock.' },
       { type: 'p', text: 'For buyers with explicit eco-positioning, paulownia is the obvious choice — and we can document the plantation source on request.' },
-      { type: 'img', src: '/factory/material.jpg', caption: 'Plantation-grown paulownia stock in our timber yard' },
+      { type: 'img', src: '/factory/material.webp', caption: 'Plantation-grown paulownia stock in our timber yard' },
 
       { type: 'h2', text: 'Lower-VOC finishes (REACH and CARB compliant)' },
       { type: 'p', text: 'Volatile organic compounds (VOCs) are the off-gassing chemicals that produce the "new box smell" — and that, at higher concentrations, contribute to indoor air quality problems. Standard nitrocellulose lacquers, which are the cheapest finish option, can off-gas at levels that fail EU REACH and US CARB Phase 2 limits.' },
@@ -442,7 +442,7 @@ export const POSTS = [
     date: '2026-03-12',
     category: 'Strategy',
     readTime: '10 min read',
-    hero: '/factory/chic-factory.jpg',
+    hero: '/factory/chic-factory.webp',
     body: [
       { type: 'p', text: 'Most buyers learn the difference between OEM and ODM the hard way. Usually after a quote comes back at twice what they expected, or after a "stock" design turns out to be on a year-long backlog at the supplier, or after a "custom" design ends up looking nothing like the rendering.' },
       { type: 'p', text: 'The two terms are thrown around as if they are technical specifications. They are actually two ends of a sliding scale, and most projects live somewhere in the middle. Here is the practical version, written for buyers ordering wooden packaging in volumes between 500 and 50,000 units.' },
@@ -490,7 +490,7 @@ export const POSTS = [
       { type: 'p', text: 'In an ODM-plus project, the buyer picks a base design from our catalog, then changes 2-3 elements: a different wood (acacia instead of pine), a custom insert layout (5 compartments instead of our default 4), an unusual external finish (matte-black lacquer instead of natural oil), or modified hardware (concealed magnetic instead of visible hinges).' },
       { type: 'p', text: 'You get the speed of ODM (most engineering work is done), with much of the look-and-feel of OEM (the box looks distinctive, not generic). Per-unit cost lands somewhere between ODM and OEM. Lead time is usually 25-35 days. Tooling cost is typically $200-800 — much less than full OEM because we are modifying existing tools rather than building new ones from scratch.' },
       { type: 'p', text: 'For most buyers in the 1,000-10,000 unit range, ODM-plus is the right answer. It is what we recommend by default unless you have a strong reason to go pure OEM.' },
-      { type: 'img', src: '/factory/chic-factory.jpg', caption: 'Production floor — most lines run a mix of OEM, ODM and hybrid orders' },
+      { type: 'img', src: '/factory/chic-factory.webp', caption: 'Production floor — most lines run a mix of OEM, ODM and hybrid orders' },
 
       { type: 'h2', text: 'IP protection — and the NNN agreement' },
       { type: 'p', text: 'For OEM projects (and ODM-plus projects with significant custom work), IP protection matters. The standard mistake first-time buyers make is signing a US-style Non-Disclosure Agreement (NDA) and assuming it covers them in China. It does not — NDAs written under US law are difficult to enforce in Chinese courts.' },
@@ -556,7 +556,7 @@ export const POSTS = [
     date: '2026-02-26',
     category: 'Design',
     readTime: '10 min read',
-    hero: '/factory/painting.jpg',
+    hero: '/factory/painting.webp',
     body: [
       { type: 'p', text: 'Same box. Five different finishes. Five completely different products.' },
       { type: 'p', text: 'Wood finish is the most under-appreciated decision in the box-buying process. Most buyers spend hours debating the design and the wood, then choose the finishing technique in the last 10 minutes of the spec call. That is backwards — the finish is what the customer touches first, sees first and remembers longest.' },
@@ -595,7 +595,7 @@ export const POSTS = [
         'Tight margins — foil is the most expensive of the five techniques',
       ]},
       { type: 'p', text: 'Cost: $0.20-0.45 per box at volume, plus $80-250 setup cost for the die.' },
-      { type: 'img', src: '/wooden-box-7.jpg', caption: 'Hot-foil stamped pine gift box' },
+      { type: 'img', src: '/wooden-box-7.webp', caption: 'Hot-foil stamped pine gift box' },
 
       { type: 'h2', text: '3. Debossing' },
       { type: 'p', text: 'A heated die presses an impression into the wood without ink or foil — leaves a clean, recessed mark that catches shadows. Debossing is the most subtle and arguably the most premium of the five techniques. It does not shout; it whispers. Brands with quiet luxury positioning love it.' },
@@ -639,7 +639,7 @@ export const POSTS = [
       { type: 'p', text: 'Classic mid-premium gifting. Pine is affordable; matte lacquer gives a sophisticated finish without the gloss-plastic look; hot foil delivers the premium signal that lifts the perceived price tier.' },
       { type: 'h3', text: 'Bamboo box with laser engraving + food-safe oil' },
       { type: 'p', text: 'Standard for premium kitchen and tea brands. Eco story (bamboo + natural oil), clean detailed logo (laser), food-safe surface. Three things the customer can immediately understand without reading any copy.' },
-      { type: 'img', src: '/factory/painting.jpg', caption: 'Spray finishing line — water-based lacquer for low-VOC compliance' },
+      { type: 'img', src: '/factory/painting.webp', caption: 'Spray finishing line — water-based lacquer for low-VOC compliance' },
 
       { type: 'h2', text: 'A buyer\'s checklist' },
       { type: 'list', items: [
@@ -695,7 +695,7 @@ export const POSTS = [
     date: '2026-02-10',
     category: 'Strategy',
     readTime: '9 min read',
-    hero: '/factory/production.jpg',
+    hero: '/factory/production.webp',
     body: [
       { type: 'p', text: 'Most factories quote 500-1,000 piece minimums on custom wooden boxes. We deliberately offer a 100-piece sample run because it solves a problem most buyers do not realize they have until it bites them.' },
       { type: 'p', text: 'The problem is that a single hand-built sample — what most factories call a "free sample" — is misleading. It is made by your most experienced craftsperson, slowly, with no time pressure, with the best materials in the shop. It will always look better than what comes off the production line. By the time you see your first production run, you have already committed to tooling, materials and full lead time.' },
@@ -722,7 +722,7 @@ export const POSTS = [
       { type: 'p', text: 'Finish coats are mixed in batches. The exact tone and gloss can vary subtly between batches. A 100-piece run uses 1-2 finish batches, exposing whether your design tolerates that natural variation.' },
       { type: 'h3', text: '4. Packaging and freight performance' },
       { type: 'p', text: 'Single samples ship in their own protective packaging. Production runs ship in master cartons stacked on pallets — they are exposed to handling stresses that single samples never see. A 100-piece trial shipment goes through real customs, real freight, real warehouse intake. Buyers regularly find packaging issues at this stage that they would never have caught with a single sample.' },
-      { type: 'img', src: '/folder/4-pre-assemble.jpg', caption: 'A 100-piece sample run on the production line — same fixtures as full orders' },
+      { type: 'img', src: '/folder/4-pre-assemble.webp', caption: 'A 100-piece sample run on the production line — same fixtures as full orders' },
 
       { type: 'h2', text: 'When to skip the 100-piece trial' },
       { type: 'p', text: 'Sample runs cost more per unit and add 2-3 weeks to the timeline. They are not always the right call. Specifically:' },
@@ -794,7 +794,7 @@ export const POSTS = [
     date: '2026-01-28',
     category: 'Materials',
     readTime: '10 min read',
-    hero: '/tea-coffee-boxes/8-dividers-acacia-tea-bag-box/tea-box-1.jpg',
+    hero: '/tea-coffee-boxes/8-dividers-acacia-tea-bag-box/tea-box-1.webp',
     body: [
       { type: 'p', text: 'Bamboo and acacia are the two most popular kitchen-grade woods in our catalog. Both are dense. Both are food-safe. Both look beautiful. Both work well for tea boxes, cutlery organizers, spice racks, bread bins, charcuterie sets, and any other kitchen product where the wood is part of the visible design.' },
       { type: 'p', text: 'And yet they read as completely different products to the end customer. The same tea box in bamboo versus acacia ends up appealing to different shoppers, sitting at different price points, and competing in different retail channels. Picking the wrong one for your brand position is one of the most common mistakes we see in this category.' },
@@ -824,7 +824,7 @@ export const POSTS = [
       { type: 'p', text: 'Acacia is a tropical hardwood with dramatic grain swirls and significant color variation between honey-blonde heartwood and chocolate-brown streaks. Every acacia board looks different. Every acacia box has its own grain pattern. Some buyers love this (premium uniqueness); some prefer bamboo\'s consistency.' },
       { type: 'p', text: 'Mechanically, acacia is harder than bamboo (Janka 2300 versus 1380), denser, and more naturally water-resistant. It does not need sealing as aggressively as bamboo to be kitchen-safe. It also takes oil and wax finishes beautifully — an oiled acacia surface develops a soft glow that bamboo never quite achieves.' },
       { type: 'p', text: 'The trade-offs: acacia is roughly 30-40% more expensive than bamboo at our typical volumes, the grain variation makes color matching across a multi-piece set harder, and acacia has no equivalent of bamboo\'s "obviously sustainable" market positioning.' },
-      { type: 'img', src: '/tea-coffee-boxes/8-dividers-acacia-tea-bag-box/tea-box-1.jpg', caption: '8-divider acacia tea bag box — the swirling grain reads as premium' },
+      { type: 'img', src: '/tea-coffee-boxes/8-dividers-acacia-tea-bag-box/tea-box-1.webp', caption: '8-divider acacia tea bag box — the swirling grain reads as premium' },
 
       { type: 'h2', text: 'A practical example — the same tea box, two materials' },
       { type: 'p', text: 'Take an 8-compartment tea bag organizer. Same dimensions, same internal layout, same hinged lid with magnetic closure.' },
@@ -906,7 +906,7 @@ export const POSTS = [
     date: '2026-01-12',
     category: 'Strategy',
     readTime: '12 min read',
-    hero: '/factory/warehouse.jpg',
+    hero: '/factory/warehouse.webp',
     body: [
       { type: 'p', text: 'Selling wooden boxes through Amazon FBA is its own discipline. The product matters less than the packaging strategy that wraps around it. Two sellers can offer the same wooden box at the same retail price and end up with completely different unit economics — one profitable, one losing money on every sale — because of decisions they made about packaging.' },
       { type: 'p', text: 'This article is what we have learned from making FBA-bound wooden products for sellers since 2018, including the small choices that quietly compound into thousands of dollars saved (or lost) per shipment.' },
@@ -936,7 +936,7 @@ export const POSTS = [
       ]},
       { type: 'p', text: 'Option 3 is almost always the wrong answer. Across 5,000 units, that is $1,500 of avoidable fees plus 1-2 weeks of additional intake delay. We pre-apply your FNSKU labels at our factory, validate placement against the latest Amazon spec (label visible without unboxing, no stickers covering the original barcode, no curved surface placement), and provide photographic proof for your records.' },
       { type: 'p', text: 'This service costs us about $0.05-0.08 per unit and is included in the FBA-prep upcharge we quote.' },
-      { type: 'img', src: '/factory/warehouse.jpg', caption: 'Export-ready palletization with FNSKU and FBA carton labels pre-applied' },
+      { type: 'img', src: '/factory/warehouse.webp', caption: 'Export-ready palletization with FNSKU and FBA carton labels pre-applied' },
 
       { type: 'h2', text: 'Polybag vs. retail-ready boxes' },
       { type: 'p', text: 'Every FBA unit needs to be either bagged with a suffocation warning or sealed in a retail-ready outer carton. Three approaches:' },
@@ -1035,7 +1035,7 @@ export const POSTS = [
     date: '2025-12-22',
     category: 'Design',
     readTime: '11 min read',
-    hero: '/walnut-jewelery-box.png',
+    hero: '/walnut-jewelery-box.webp',
     body: [
       { type: 'p', text: 'Hardware is the part of a wooden box buyers think about last and feel first. Wrong hinge and the lid sags after six months. Right magnet and the box snaps shut with that satisfying premium thunk that sells the unboxing.' },
       { type: 'p', text: 'Yet most spec sheets we receive treat hardware as an afterthought — a single line saying "brass hinges" or "magnetic closure" with no specification of grade, finish, mounting style or operation type. The result is boxes that look fine in renderings and feel mediocre in hand.' },
@@ -1068,7 +1068,7 @@ export const POSTS = [
         ]},
       { type: 'p', text: 'For most gift boxes we use N42 magnets in 8 mm diameter. For larger or heavier lids we step up to N48 or use multiple magnets per closure. Magnet cost is trivial ($0.04-0.10 per box) but the difference in feel is enormous.' },
       { type: 'p', text: 'A small but important detail: magnets need to be installed with the correct polarity. Reversed-polarity installation will repel rather than attract. We test every magnetic closure during pre-shipment QC.' },
-      { type: 'img', src: '/walnut-jewelery-box.png', caption: 'Walnut box with concealed magnetic closure and brass clasp accent' },
+      { type: 'img', src: '/walnut-jewelery-box.webp', caption: 'Walnut box with concealed magnetic closure and brass clasp accent' },
 
       { type: 'h2', text: 'Locks' },
       { type: 'h3', text: 'Surface-mount brass key lock' },

@@ -5,7 +5,7 @@
 
 const PARENT = 'magnetic-wooden-box';
 const img = (folder, name) =>
-  '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
+  '/' + [PARENT, folder, name].map(encodeURIComponent).join('/').replace(/\.(jpe?g|png)$/i, '.webp');
 
 export const PRODUCTS = {
   'beech-magnetic-dice-tube-box': {

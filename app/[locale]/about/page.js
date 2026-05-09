@@ -20,7 +20,7 @@ export async function generateMetadata({ params: { locale } }) {
 
 // Factory gallery — drop more files into /public/factory/ and add to the array below.
 // Captions are shown overlaid on each tile.
-const F = (name) => '/factory/' + encodeURIComponent(name);
+const F = (name) => '/factory/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
 
 const FACTORY_IMAGES = [
   { src: F('chic-factory.jpg'),    caption: 'Cao County Factory · 15,000 m² site' },
@@ -36,7 +36,7 @@ const SHOWROOM_IMG = F('gemini-generated-image-nclf39nclf39nclf.jpg');
 
 // Team & customer photos — files in /public/employees/.
 // Replace captions or swap files at any time; the section auto-renders the array.
-const E = (name) => '/employees/' + encodeURIComponent(name);
+const E = (name) => '/employees/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
 const TEAM_IMAGES = [
   { src: E('sales-office.jpg'),                            caption: 'Sales Office · Xiamen, Fujian',  tag: 'Office'   },
   { src: E('6c662ed6be84ad861ca777f348b94cfc.jpg'),        caption: 'Hosting our customers',           tag: 'Customer' },
@@ -46,7 +46,7 @@ const TEAM_IMAGES = [
 
 // Production process — files in /public/folder/.
 // Filenames use a Chinese full-width colon and space, so we encode the path manually.
-const P = (name) => '/folder/' + encodeURIComponent(name);
+const P = (name) => '/folder/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
 const PRODUCTION_STEPS = [
   {
     n: '01',
@@ -87,7 +87,6 @@ const PRODUCTION_STEPS = [
 ];
 
 const CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&family=Jost:wght@300;400;500;600&display=swap');
 
 .about {
   --blue-dark: #3D2A1F;
@@ -99,7 +98,7 @@ const CSS = `
   --charcoal:  #2A1B12;
   --text-muted:#7A6450;
 
-  font-family: 'Jost', system-ui, sans-serif;
+  font-family: var(--font-jost), system-ui, sans-serif;
   background: var(--cream);
   color: var(--charcoal);
   overflow-x: hidden;
@@ -129,7 +128,7 @@ const CSS = `
 }
 .about-eyebrow { font-size: 0.7rem; letter-spacing: 5px; text-transform: uppercase; color: var(--blue-warm); margin-bottom: 20px; }
 .about-h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: clamp(2.4rem, 5vw, 4rem);
   line-height: 1.1; margin: 0 0 22px;
   max-width: 900px;
@@ -158,7 +157,7 @@ const CSS = `
   background: rgba(197,142,74,0.2);
 }
 .about-stat-num {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 2.6rem;
   color: var(--blue-light);
   line-height: 1;
@@ -183,7 +182,7 @@ const CSS = `
   margin-bottom: 14px;
 }
 .about-section-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: clamp(1.9rem, 3vw, 2.5rem);
   color: var(--blue-dark);
   line-height: 1.2;
@@ -238,7 +237,7 @@ const CSS = `
 .about-story-cap {
   position: absolute; bottom: 24px; left: 24px; right: 24px;
   color: var(--cream);
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1.2rem;
   line-height: 1.4;
 }
@@ -263,7 +262,7 @@ const CSS = `
   z-index: 1;
 }
 .about-tl-year {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1.6rem;
   color: var(--blue-warm);
   margin-bottom: 10px;
@@ -271,7 +270,7 @@ const CSS = `
   line-height: 1;
 }
 .about-tl-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1rem;
   color: var(--blue-dark);
   margin: 0 0 8px;
@@ -302,7 +301,7 @@ const CSS = `
   color: var(--blue-warm); font-weight: 500;
 }
 .about-loc-name {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1.5rem;
   color: var(--blue-light);
   margin: 0;
@@ -379,7 +378,7 @@ const CSS = `
 .about-markets::before {
   content: 'WORLDWIDE';
   position: absolute; top: -10px; left: -20px;
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 12rem; color: rgba(197,142,74,0.05); font-weight: 700;
   line-height: 1; pointer-events: none; white-space: nowrap;
 }
@@ -406,7 +405,7 @@ const CSS = `
 }
 .about-market-flag { font-size: 2rem; margin-bottom: 10px; }
 .about-market-name {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1.05rem;
   color: var(--blue-light);
   margin-bottom: 6px;
@@ -429,7 +428,7 @@ const CSS = `
   align-items: center;
 }
 .about-amazon-icon {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 2.2rem;
   color: var(--blue-warm);
   line-height: 1;
@@ -456,14 +455,14 @@ const CSS = `
   box-shadow: 0 24px 60px rgba(61,42,31,0.12);
 }
 .about-val-num {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 2.5rem;
   color: rgba(197,142,74,0.3);
   line-height: 1;
   margin-bottom: 14px;
 }
 .about-val-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1.2rem;
   color: var(--blue-dark);
   margin: 0 0 12px;
@@ -563,7 +562,7 @@ const CSS = `
 .about-team-cap {
   position: absolute; bottom: 16px; left: 18px; right: 18px;
   color: var(--cream);
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1rem;
   line-height: 1.4;
   z-index: 1;
@@ -576,7 +575,7 @@ const CSS = `
 .about-prod::before {
   content: 'PROCESS';
   position: absolute; top: -30px; right: -10px;
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 14rem; color: rgba(197,142,74,0.05);
   font-weight: 700; line-height: 1;
   pointer-events: none; white-space: nowrap;
@@ -625,7 +624,7 @@ const CSS = `
   position: absolute; top: 14px; left: 16px;
   background: var(--blue-warm);
   color: white;
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 0.95rem;
   width: 38px; height: 38px;
   border-radius: 50%;
@@ -636,7 +635,7 @@ const CSS = `
 }
 .about-prod-body { padding: 26px 24px 28px; flex: 1; display: flex; flex-direction: column; }
 .about-prod-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-weight: 600;
   font-size: 1.15rem;
   color: var(--blue-dark);
@@ -668,7 +667,7 @@ const CSS = `
 .about-cta-inner { position: relative; z-index: 1; max-width: 720px; margin: 0 auto; }
 .about-cta-label { font-size: 0.65rem; letter-spacing: 5px; text-transform: uppercase; color: var(--blue-warm); margin-bottom: 18px; }
 .about-cta-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: clamp(2rem, 4vw, 3.2rem);
   margin: 0 0 18px;
   line-height: 1.2;

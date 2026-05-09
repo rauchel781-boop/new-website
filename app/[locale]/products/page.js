@@ -19,7 +19,6 @@ export async function generateMetadata({ params: { locale } }) {
 }
 
 const CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Caveat:wght@500;700&family=Jost:wght@300;400;500&display=swap');
 
 .prods {
   --wood-deep:  #3D2A1F;
@@ -32,7 +31,7 @@ const CSS = `
   --accent:     #C58E4A;
   --charcoal:   #2A1B12;
   --text-muted: #7A6450;
-  font-family: 'Jost', system-ui, sans-serif;
+  font-family: var(--font-jost), system-ui, sans-serif;
   background: var(--cream);
   color: var(--charcoal);
 }
@@ -62,7 +61,7 @@ const CSS = `
 .prods-hero-inner { position: relative; z-index: 2; max-width: 1300px; margin: 0 auto; }
 .prods-eyebrow { font-size: 0.7rem; letter-spacing: 5px; text-transform: uppercase; color: var(--accent); margin-bottom: 18px; font-weight: 600; }
 .prods-h1 {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-weight: 600;
   font-size: clamp(2.4rem, 4.5vw, 3.6rem);
   margin: 0 0 18px;
@@ -71,13 +70,13 @@ const CSS = `
   letter-spacing: -0.5px;
 }
 .prods-h1 em {
-  font-family: 'Caveat', cursive;
+  font-family: var(--font-caveat), cursive;
   font-style: normal;
   font-weight: 700;
   color: var(--accent);
 }
 .prods-sub {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-style: italic;
   font-weight: 400;
   font-size: 1.08rem;
@@ -92,7 +91,7 @@ const CSS = `
 .prods-group-head { display: flex; justify-content: space-between; align-items: end; flex-wrap: wrap; gap: 16px; margin-bottom: 36px; padding-bottom: 18px; border-bottom: 1px solid rgba(107,74,51,0.18); }
 .prods-group-label { font-size: 0.65rem; letter-spacing: 5px; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; font-weight: 600; }
 .prods-group-title {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-weight: 600;
   font-size: 2rem;
   color: var(--wood-deep);
@@ -120,7 +119,7 @@ const CSS = `
 }
 .prods-card-eyebrow { font-size: 0.6rem; letter-spacing: 4px; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; font-weight: 600; }
 .prods-card-title {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-weight: 600;
   font-size: 1.2rem;
   margin: 0 0 10px;
@@ -128,7 +127,7 @@ const CSS = `
   color: var(--wood-deep);
 }
 .prods-card-tagline {
-  font-family: 'Caveat', cursive;
+  font-family: var(--font-caveat), cursive;
   font-weight: 700;
   font-size: 1.15rem;
   color: var(--accent);
@@ -136,7 +135,7 @@ const CSS = `
   line-height: 1.2;
 }
 .prods-card-desc {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-style: italic;
   font-size: 0.92rem;
   color: var(--text-muted);

@@ -84,7 +84,6 @@ export function generateMetadata({ params }) {
 }
 
 const CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Caveat:wght@500;700&family=Jost:wght@300;400;500;600;700&display=swap');
 
 .pdp {
   --pdp-wood-deep:  #3D2A1F;
@@ -96,7 +95,7 @@ const CSS = `
   --pdp-accent:     #C58E4A;
   --pdp-text-muted: #7A6450;
   --pdp-border:     #E5D2B2;
-  font-family: 'Jost', system-ui, sans-serif;
+  font-family: var(--font-jost), system-ui, sans-serif;
   background: var(--pdp-cream);
   color: var(--pdp-wood-deep);
 }
@@ -155,7 +154,7 @@ const CSS = `
   margin-bottom: 18px;
 }
 .pdp-h1 {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-size: clamp(1.7rem, 2.6vw, 2.4rem);
   line-height: 1.15; margin: 0 0 12px;
   color: var(--pdp-wood-deep);
@@ -163,7 +162,7 @@ const CSS = `
   letter-spacing: -0.3px;
 }
 .pdp-tagline {
-  font-family: 'Caveat', cursive;
+  font-family: var(--font-caveat), cursive;
   font-weight: 700;
   font-size: clamp(1.3rem, 1.8vw, 1.6rem);
   color: var(--pdp-accent);
@@ -171,7 +170,7 @@ const CSS = `
   line-height: 1.2;
 }
 .pdp-intro {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-style: italic;
   font-size: 0.98rem;
   color: var(--pdp-wood-mid);
@@ -279,7 +278,7 @@ const CSS = `
   margin-bottom: 14px;
 }
 .pdp-uses-title {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-weight: 600;
   font-size: 1.6rem;
   margin: 0 0 28px;
@@ -315,7 +314,7 @@ const CSS = `
 }
 .pdp-inquiry-inner { position: relative; z-index: 1; max-width: 800px; margin: 0 auto; }
 .pdp-inquiry-title {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-weight: 600;
   font-size: clamp(1.4rem, 2.5vw, 2rem);
   margin: 0 0 14px;
@@ -323,7 +322,7 @@ const CSS = `
   letter-spacing: -0.3px;
 }
 .pdp-inquiry-sub {
-  font-family: 'Fraunces', serif; font-style: italic;
+  font-family: var(--font-fraunces), serif; font-style: italic;
   font-size: 0.98rem;
   color: rgba(217,185,143,0.85);
   margin-bottom: 28px;
@@ -359,7 +358,7 @@ const CSS = `
 .pdp-rel-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .pdp-rel-info { padding: 16px 18px; }
 .pdp-rel-name {
-  font-family: 'Fraunces', serif;
+  font-family: var(--font-fraunces), serif;
   font-size: 1rem; font-weight: 600;
   margin: 0 0 4px; line-height: 1.3;
   color: var(--pdp-wood-deep);

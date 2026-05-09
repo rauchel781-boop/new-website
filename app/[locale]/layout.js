@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import TawkChat from '@/components/TawkChat';
 import { SITE } from '@/data/site-config';
 import { routing } from '@/i18n/routing';
+import { playfair, jost, fraunces, caveat } from '@/app/fonts';
 
 // Tells Next.js to pre-render every locale at build time.
 export function generateStaticParams() {
@@ -83,8 +84,10 @@ export default async function LocaleLayout({ children, params: { locale } }) {
 
   const messages = await getMessages();
 
+  const fontClass = `${playfair.variable} ${jost.variable} ${fraunces.variable} ${caveat.variable}`;
+
   return (
-    <html lang={locale}>
+    <html lang={locale} className={fontClass}>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />

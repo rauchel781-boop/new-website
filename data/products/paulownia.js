@@ -5,7 +5,7 @@
 
 const PARENT = 'paulwnia-wood-box';
 const img = (folder, name) =>
-  '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
+  '/' + [PARENT, folder, name].map(encodeURIComponent).join('/').replace(/\.(jpe?g|png)$/i, '.webp');
 
 export const PRODUCTS = {
   'paulownia-three-tone-keepsake-set': {

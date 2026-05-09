@@ -40,7 +40,6 @@ export function generateMetadata({ params }) {
 }
 
 const POST_CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Jost:wght@300;400;500;600&display=swap');
 
 .bp {
   --wd-deep:    #3D2A1F;
@@ -52,7 +51,7 @@ const POST_CSS = `
   --wd-ink:     #2A1B12;
   --wd-mute:    #7A6450;
 
-  font-family: 'Jost', system-ui, sans-serif;
+  font-family: var(--font-jost), system-ui, sans-serif;
   background: var(--wd-cream);
   color: var(--wd-ink);
 }
@@ -85,7 +84,7 @@ const POST_CSS = `
   border: 1px solid rgba(107,74,51,0.3);
 }
 .bp .hero-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: clamp(2rem, 4.5vw, 3.4rem);
   color: var(--wd-deep);
   margin: 0 0 22px;
@@ -119,14 +118,14 @@ const POST_CSS = `
   font-weight: 400;
 }
 .bp .body p:first-of-type::first-letter {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 3.4rem; font-weight: 700;
   float: left; line-height: 0.95;
   margin: 6px 12px 0 0;
   color: var(--wd-warm);
 }
 .bp .body h2 {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1.7rem; color: var(--wd-deep);
   margin: 50px 0 18px; line-height: 1.3;
   letter-spacing: -0.3px;
@@ -139,7 +138,7 @@ const POST_CSS = `
   border-radius: 2px;
 }
 .bp .body h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1.25rem; color: var(--wd-deep);
   margin: 32px 0 12px; line-height: 1.35;
   font-weight: 600;
@@ -157,7 +156,7 @@ const POST_CSS = `
   border-top: 3px solid var(--wd-warm);
 }
 .bp .stat-num {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 2rem; line-height: 1; color: var(--wd-deep);
   font-weight: 700; margin-bottom: 6px;
 }
@@ -211,7 +210,7 @@ const POST_CSS = `
   margin: 36px 0; padding: 24px 30px;
   background: var(--wd-sand); border-left: 4px solid var(--wd-warm);
   border-radius: 2px;
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1.2rem; line-height: 1.55; color: var(--wd-deep);
   font-style: italic;
 }
@@ -259,7 +258,7 @@ const POST_CSS = `
 .bp .rel-inner { max-width: 1300px; margin: 0 auto; }
 .bp .rel-eyebrow { font-size: 0.7rem; letter-spacing: 4px; text-transform: uppercase; color: var(--wd-warm); margin-bottom: 12px; font-weight: 600; text-align: center; }
 .bp .rel-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 2rem; color: var(--wd-deep);
   margin: 0 0 50px; text-align: center;
 }
@@ -277,7 +276,7 @@ const POST_CSS = `
 .bp .rel-card:hover .rel-img img { transform: scale(1.06); }
 .bp .rel-body { padding: 22px 22px 24px; }
 .bp .rel-meta { font-size: 0.62rem; letter-spacing: 2px; text-transform: uppercase; color: var(--wd-warm); margin-bottom: 8px; font-weight: 600; }
-.bp .rel-name { font-family: 'Playfair Display', serif; font-size: 1.1rem; color: var(--wd-deep); line-height: 1.35; margin: 0; }
+.bp .rel-name { font-family: var(--font-playfair), serif; font-size: 1.1rem; color: var(--wd-deep); line-height: 1.35; margin: 0; }
 
 /* ── CTA ── */
 .bp .cta {
@@ -286,7 +285,7 @@ const POST_CSS = `
   color: var(--wd-cream);
 }
 .bp .cta-eyebrow { font-size: 0.7rem; letter-spacing: 4px; text-transform: uppercase; color: var(--wd-warm); margin-bottom: 14px; font-weight: 600; }
-.bp .cta-title { font-family: 'Playfair Display', serif; font-size: 2.2rem; line-height: 1.25; margin: 0 0 16px; }
+.bp .cta-title { font-family: var(--font-playfair), serif; font-size: 2.2rem; line-height: 1.25; margin: 0 0 16px; }
 .bp .cta-sub { font-size: 1rem; color: rgba(217,185,143,0.7); max-width: 560px; margin: 0 auto 30px; line-height: 1.7; font-weight: 300; }
 .bp .cta-btns { display: inline-flex; gap: 14px; flex-wrap: wrap; justify-content: center; }
 .bp .cta-btn {

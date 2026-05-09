@@ -16,7 +16,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  font-family: var(--font-jost), 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
   color: #1F2A37;
   background: #ffffff;

@@ -23,7 +23,6 @@ export async function generateMetadata({ params: { locale } }) {
 }
 
 const BLOG_CSS = `
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap');
 
 .blg {
   --wd-deep:    #3D2A1F;
@@ -36,7 +35,7 @@ const BLOG_CSS = `
   --wd-charcoal:#1F140C;
   --wd-mute:    #7A6450;
 
-  font-family: 'Jost', system-ui, sans-serif;
+  font-family: var(--font-jost), system-ui, sans-serif;
   background: var(--wd-cream);
   color: var(--wd-ink);
   overflow-x: hidden;
@@ -58,7 +57,7 @@ const BLOG_CSS = `
 }
 .blg .hero-bg {
   position: absolute; inset: 0; z-index: 0;
-  background-image: url('/folder/5-polishing.jpg');
+  background-image: url('/folder/5-polishing.webp');
   background-size: cover; background-position: center;
   filter: contrast(1.05) saturate(0.95);
   transform: scale(1.06);
@@ -85,7 +84,7 @@ const BLOG_CSS = `
 }
 .blg .hero-eyebrow::before, .blg .hero-eyebrow::after { content: ''; width: 32px; height: 1px; background: var(--wd-warm); opacity: 0.5; }
 .blg .hero-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: clamp(3rem, 7vw, 6rem);
   color: var(--wd-cream); line-height: 1; margin: 0 0 26px;
   letter-spacing: -2px;
@@ -119,7 +118,7 @@ const BLOG_CSS = `
   font-size: 0.7rem; letter-spacing: 2.5px; text-transform: uppercase; font-weight: 500;
 }
 .blg .rb-stats span strong {
-  color: var(--wd-warm); font-family: 'Playfair Display', serif;
+  color: var(--wd-warm); font-family: var(--font-playfair), serif;
   font-size: 1.05rem; font-weight: 700; margin-right: 6px;
 }
 .blg .rb-cats { display: inline-flex; gap: 8px; flex-wrap: wrap; }
@@ -185,12 +184,12 @@ const BLOG_CSS = `
 .blg .latest-stamp::before { content: '✦'; font-size: 0.7rem; }
 .blg .latest-num {
   position: absolute; bottom: 28px; left: 28px;
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 0.7rem; letter-spacing: 4px; text-transform: uppercase;
   color: var(--wd-cream); font-weight: 500;
   z-index: 2;
 }
-.blg .latest-num strong { font-family: 'Playfair Display', serif; font-style: italic; font-size: 1.3rem; color: var(--wd-warm); margin-right: 4px; }
+.blg .latest-num strong { font-family: var(--font-playfair), serif; font-style: italic; font-size: 1.3rem; color: var(--wd-warm); margin-right: 4px; }
 .blg .latest-body {
   padding: 56px 56px;
   display: flex; flex-direction: column; justify-content: center;
@@ -204,7 +203,7 @@ const BLOG_CSS = `
 }
 .blg .latest-cat { font-size: 0.66rem; letter-spacing: 4px; text-transform: uppercase; color: var(--wd-warm); margin-bottom: 14px; font-weight: 600; }
 .blg .latest-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 2.4rem; line-height: 1.15;
   color: var(--wd-deep); margin: 0 0 22px;
   letter-spacing: -0.5px;
@@ -239,12 +238,12 @@ const BLOG_CSS = `
   content: '"';
   position: absolute; top: 22px; left: 50%;
   transform: translateX(-50%);
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 5rem; line-height: 1;
   color: var(--wd-warm); opacity: 0.45;
 }
 .blg .manifesto-text {
-  font-family: 'Playfair Display', serif; font-style: italic;
+  font-family: var(--font-playfair), serif; font-style: italic;
   font-size: clamp(1.4rem, 2.6vw, 1.9rem);
   line-height: 1.5; color: var(--wd-deep);
   max-width: 820px; margin: 0 auto;
@@ -264,7 +263,7 @@ const BLOG_CSS = `
 }
 .blg .sec-head-l { display: flex; flex-direction: column; gap: 6px; }
 .blg .sec-eyebrow { font-size: 0.66rem; letter-spacing: 4px; text-transform: uppercase; color: var(--wd-warm); font-weight: 600; }
-.blg .sec-title { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--wd-deep); margin: 0; letter-spacing: -0.3px; }
+.blg .sec-title { font-family: var(--font-playfair), serif; font-size: 2rem; color: var(--wd-deep); margin: 0; letter-spacing: -0.3px; }
 .blg .sec-count { font-size: 0.74rem; color: var(--wd-mute); letter-spacing: 1.5px; }
 
 /* ─── Editorial mosaic grid (varied sizes) ─── */
@@ -295,7 +294,7 @@ const BLOG_CSS = `
 .blg .mc-body { padding: 24px 22px 26px; flex: 1; display: flex; flex-direction: column; }
 .blg .mc-meta { font-size: 0.62rem; letter-spacing: 2px; text-transform: uppercase; color: var(--wd-warm); margin-bottom: 10px; font-weight: 600; }
 .blg .mc-title {
-  font-family: 'Playfair Display', serif;
+  font-family: var(--font-playfair), serif;
   font-size: 1.18rem; line-height: 1.32;
   color: var(--wd-deep); margin: 0 0 12px;
 }
@@ -325,7 +324,7 @@ const BLOG_CSS = `
 }
 .blg .topic-tile:hover { background: white; border-color: var(--wd-warm); transform: translateY(-4px); box-shadow: 0 16px 36px rgba(61,42,31,0.1); }
 .blg .topic-icon {
-  font-family: 'Playfair Display', serif; font-style: italic;
+  font-family: var(--font-playfair), serif; font-style: italic;
   font-size: 1.6rem; color: var(--wd-warm); line-height: 1; margin-bottom: 10px;
 }
 .blg .topic-name { font-size: 0.78rem; letter-spacing: 2.5px; text-transform: uppercase; color: var(--wd-deep); font-weight: 600; margin-bottom: 6px; }
@@ -351,7 +350,7 @@ const BLOG_CSS = `
 }
 .blg .news-text { position: relative; }
 .blg .news-eyebrow { font-size: 0.66rem; letter-spacing: 4px; text-transform: uppercase; color: var(--wd-warm); margin-bottom: 14px; font-weight: 600; }
-.blg .news-title { font-family: 'Playfair Display', serif; font-size: 2rem; color: var(--wd-cream); line-height: 1.25; margin: 0 0 14px; }
+.blg .news-title { font-family: var(--font-playfair), serif; font-size: 2rem; color: var(--wd-cream); line-height: 1.25; margin: 0 0 14px; }
 .blg .news-sub { font-size: 0.95rem; color: rgba(217,185,143,0.7); line-height: 1.7; max-width: 480px; font-weight: 300; }
 .blg .news-form { position: relative; display: flex; flex-direction: column; gap: 14px; }
 .blg .news-input {

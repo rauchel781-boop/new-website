@@ -2,14 +2,14 @@
 import { useState, useEffect } from 'react';
 
 const SLIDES = [
-  { src: '/factory/wooden-box-4.jpg', label: 'Bulk Production' },
-  { src: '/wooden-box-5.jpg', label: 'Drawer Box Assembly' },
-  { src: '/factory/wooden-box-6.jpg', label: 'Multi-Drawer Cabinets' },
-  { src: '/wooden-box-7.jpg', label: 'Final Packaging' },
-  { src: '/wooden-box-8.jpg', label: 'Storage Series' },
-  { src: '/wooden-box-9.jpg', label: 'Burnt Pine Boxes' },
-  { src: '/wooden-box-10.jpg', label: 'Glass-Top Display Box' },
-  { src: '/wooden-box-1.jpg', label: 'Acacia Wall Holder' },
+  { src: '/factory/wooden-box-4.webp', label: 'Bulk Production' },
+  { src: '/wooden-box-5.webp', label: 'Drawer Box Assembly' },
+  { src: '/factory/wooden-box-6.webp', label: 'Multi-Drawer Cabinets' },
+  { src: '/wooden-box-7.webp', label: 'Final Packaging' },
+  { src: '/wooden-box-8.webp', label: 'Storage Series' },
+  { src: '/wooden-box-9.webp', label: 'Burnt Pine Boxes' },
+  { src: '/wooden-box-10.webp', label: 'Glass-Top Display Box' },
+  { src: '/wooden-box-1.webp', label: 'Acacia Wall Holder' },
 ];
 
 export default function IntroCarousel() {

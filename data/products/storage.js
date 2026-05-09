@@ -5,7 +5,7 @@
 
 const PARENT = 'storage-box';
 const img = (folder, name) =>
-  '/' + [PARENT, folder, name].map(encodeURIComponent).join('/');
+  '/' + [PARENT, folder, name].map(encodeURIComponent).join('/').replace(/\.(jpe?g|png)$/i, '.webp');
 
 export const PRODUCTS = {
   'wooden-3-drawer-desktop-organizer': {
