@@ -36,3 +36,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Excel work files dropped in the project root by the team
+# (invoices, packing lists, sample sheets — never commit these,
+# they may contain customer info, pricing, supplier data)
+*.xlsx
+*.xls
+样本_*
