@@ -23,7 +23,7 @@ import ProductTabs from '@/components/ProductTabs';
 import JsonLd from '@/components/JsonLd';
 import { SITE } from '@/data/site-config';
 import { alternates as makeAlternates } from '@/i18n/seo';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getProductTranslation } from '@/data/products/translations';
 
 // Map category slug → its products data. Mirror of the same map in the
@@ -379,7 +379,7 @@ const CSS = `
 }
 `;
 
-export default function ProductDetail({ params }) {
+export default async function ProductDetail({ params }) {
   unstable_setRequestLocale(params.locale);
   const category = CATEGORIES[params.slug];
   const products = PRODUCTS_BY_CATEGORY[params.slug];
@@ -392,7 +392,25 @@ export default function ProductDetail({ params }) {
     .filter(Boolean)
     .slice(0, 3);
 
+  // ── Localized labels for BreadcrumbList JSON-LD ───────────────────
+  // Falls back to English if a key is missing for this locale.
+  let labelHome = 'Home';
+  let labelProducts = 'Products';
+  let translatedCategoryName = category.name;
+  try {
+    const tn = await getTranslations({ locale: params.locale, namespace: 'nav' });
+    labelHome = tn('home') || labelHome;
+    labelProducts = tn('products') || labelProducts;
+  } catch (e) {}
+  try {
+    const tc = await getTranslations({ locale: params.locale, namespace: 'categories' });
+    translatedCategoryName = tc(params.slug) || translatedCategoryName;
+  } catch (e) {}
+
   // ── JSON-LD: Product + BreadcrumbList ──────────────────────────────
+  // Breadcrumb names + URLs are locale-aware. The /${locale}/ prefix on
+  // every `item` URL means Google doesn't need to follow a redirect.
+  const localePrefix = `/${params.locale}`;
   const productPath = `/products/${params.slug}/${params.product}`;
   const productLd = {
     '@context': 'https://schema.org',
@@ -401,23 +419,23 @@ export default function ProductDetail({ params }) {
     description: product.intro,
     image: (product.images || []).map((src) => `${SITE.siteUrl}${src}`),
     sku: product.slug,
-    category: category.name,
+    category: translatedCategoryName,
     brand: { '@type': 'Brand', name: SITE.company.brand },
     manufacturer: {
       '@type': 'Organization',
       name: SITE.company.legalName,
       url: SITE.siteUrl,
     },
-    url: `${SITE.siteUrl}${productPath}`,
+    url: `${SITE.siteUrl}${localePrefix}${productPath}`,
   };
   const breadcrumbLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.siteUrl },
-      { '@type': 'ListItem', position: 2, name: 'Products', item: `${SITE.siteUrl}/products` },
-      { '@type': 'ListItem', position: 3, name: category.name, item: `${SITE.siteUrl}/products/${params.slug}` },
-      { '@type': 'ListItem', position: 4, name: product.name, item: `${SITE.siteUrl}${productPath}` },
+      { '@type': 'ListItem', position: 1, name: labelHome, item: `${SITE.siteUrl}${localePrefix}` },
+      { '@type': 'ListItem', position: 2, name: labelProducts, item: `${SITE.siteUrl}${localePrefix}/products` },
+      { '@type': 'ListItem', position: 3, name: translatedCategoryName, item: `${SITE.siteUrl}${localePrefix}/products/${params.slug}` },
+      { '@type': 'ListItem', position: 4, name: product.name, item: `${SITE.siteUrl}${localePrefix}${productPath}` },
     ],
   };
 

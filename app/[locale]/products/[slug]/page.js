@@ -23,6 +23,7 @@ import { PRODUCTS as BAMBOO_PRODUCTS } from '@/data/products/bamboo';
 import { PRODUCTS as ACACIA_PRODUCTS } from '@/data/products/acacia';
 import { PRODUCTS as WALNUT_PRODUCTS } from '@/data/products/walnut';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
+import { getProductTranslation } from '@/data/products/translations';
 
 // Map of category slug → its products data file (only categories with products).
 // Add an entry here when you add a /data/products/<slug>.js file.
@@ -374,6 +375,7 @@ export default async function CategoryPage({ params }) {
   let ctaQuote = 'Request a Quote';
   let ctaBrowse = 'Browse All Boxes';
   let labelProducts = 'Products';
+  let labelHome = 'Home';
   try {
     const tc = await getTranslations({ locale: params.locale, namespace: 'cta' });
     ctaQuote = tc('getQuote') || ctaQuote;
@@ -382,33 +384,41 @@ export default async function CategoryPage({ params }) {
   try {
     const tn = await getTranslations({ locale: params.locale, namespace: 'nav' });
     labelProducts = tn('products') || labelProducts;
+    labelHome = tn('home') || labelHome;
   } catch (e) {}
 
   const galleryImages = item.images.slice(0, 5);
   const products = PRODUCTS_BY_CATEGORY[params.slug];
 
   // ── JSON-LD: BreadcrumbList + ItemList of products in this category ──
+  // Names are locale-aware (nav.home / nav.products / categoryName) and every
+  // `item` URL carries the /${locale}/ prefix so Google doesn't have to follow
+  // a redirect to reach the canonical page.
+  const localePrefix = `/${params.locale}`;
   const categoryPath = `/products/${params.slug}`;
   const breadcrumbLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.siteUrl },
-      { '@type': 'ListItem', position: 2, name: 'Products', item: `${SITE.siteUrl}/products` },
-      { '@type': 'ListItem', position: 3, name: item.name, item: `${SITE.siteUrl}${categoryPath}` },
+      { '@type': 'ListItem', position: 1, name: labelHome, item: `${SITE.siteUrl}${localePrefix}` },
+      { '@type': 'ListItem', position: 2, name: labelProducts, item: `${SITE.siteUrl}${localePrefix}/products` },
+      { '@type': 'ListItem', position: 3, name: translatedName, item: `${SITE.siteUrl}${localePrefix}${categoryPath}` },
     ],
   };
   const itemListLd = products
     ? {
         '@context': 'https://schema.org',
         '@type': 'ItemList',
-        name: item.name,
-        itemListElement: Object.values(products).map((p, i) => ({
-          '@type': 'ListItem',
-          position: i + 1,
-          url: `${SITE.siteUrl}/products/${params.slug}/${p.slug}`,
-          name: p.name,
-        })),
+        name: translatedName,
+        itemListElement: Object.values(products).map((p, i) => {
+          const tp = getProductTranslation(p.slug, params.locale);
+          return {
+            '@type': 'ListItem',
+            position: i + 1,
+            url: `${SITE.siteUrl}${localePrefix}/products/${params.slug}/${p.slug}`,
+            name: tp.name || p.name,
+          };
+        }),
       }
     : null;
 
