@@ -105,7 +105,7 @@ export const SITE = {
   // ─────────────────────────────────────────────────────────────────────
   analytics: {
     googleAnalyticsId: 'G-RTG65S2XK9',
-    clarityProjectId:  '',
+    clarityProjectId:  'wq99itk70w',
   },
 };
 
