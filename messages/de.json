@@ -319,5 +319,11 @@
     "step5Body": "Lasergravur für Beständigkeit und feines Detail; Heißfolie für luxuriöses Gefühl; Siebdruck für Farbe; Debossing für Premium-Textur; Messingschild für Schmuckqualität.",
     "step6Title": "Menge und Lieferzeit Bestätigen",
     "step6Body": "Passen Sie MOQ an Ihre Verkaufsgeschwindigkeit an (typisch 200–500 für unsere Linie); planen Sie 25–35 Tage ab bestätigtem Muster. Bestellen Sie zuerst Muster bei neuem Design."
+  },
+  "productGallery": {
+    "mainAlt": "{name} — Ansicht {idx}",
+    "previousImage": "Vorheriges Bild",
+    "nextImage": "Nächstes Bild",
+    "thumbAria": "Bild {idx} ansehen"
   }
 }

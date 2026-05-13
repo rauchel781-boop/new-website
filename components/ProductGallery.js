@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 const CSS = `
 .gal {
@@ -87,6 +88,7 @@ const CSS = `
 `;
 
 export default function ProductGallery({ images, name }) {
+  const t = useTranslations('productGallery');
   const [idx, setIdx] = useState(0);
   const total = images.length;
 
@@ -99,14 +101,20 @@ export default function ProductGallery({ images, name }) {
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
       <div className="gal-main">
-        <img src={images[idx]} alt={`${name} — view ${idx + 1}`} width="1200" height="900" decoding="async" />
+        <img
+          src={images[idx]}
+          alt={t('mainAlt', { name, idx: idx + 1 })}
+          width="1200"
+          height="900"
+          decoding="async"
+        />
         {total > 1 && (
           <>
             <button
               className="gal-arrow gal-prev"
               onClick={() => go(idx - 1)}
               type="button"
-              aria-label="Previous image"
+              aria-label={t('previousImage')}
             >
               ‹
             </button>
@@ -114,7 +122,7 @@ export default function ProductGallery({ images, name }) {
               className="gal-arrow gal-next"
               onClick={() => go(idx + 1)}
               type="button"
-              aria-label="Next image"
+              aria-label={t('nextImage')}
             >
               ›
             </button>
@@ -133,7 +141,7 @@ export default function ProductGallery({ images, name }) {
               className={`gal-thumb${i === idx ? ' is-active' : ''}`}
               onClick={() => setIdx(i)}
               type="button"
-              aria-label={`View image ${i + 1}`}
+              aria-label={t('thumbAria', { idx: i + 1 })}
             >
               <img src={src} alt="" loading="lazy" width="1200" height="900" />
             </button>

@@ -319,5 +319,11 @@
     "step5Body": "Gravação laser para permanência e detalhe fino; hot foil para sensação de luxo; serigrafia para cor; debossing para textura premium; placa de latão para produtos qualidade joalharia.",
     "step6Title": "Confirme Quantidade e Prazo",
     "step6Body": "Ajuste MOQ à sua velocidade de vendas (típico 200–500 para a nossa linha); planeie 25–35 dias a partir da amostra confirmada. Peça primeiro amostras se for um design novo."
+  },
+  "productGallery": {
+    "mainAlt": "{name} — vista {idx}",
+    "previousImage": "Imagem anterior",
+    "nextImage": "Próxima imagem",
+    "thumbAria": "Ver imagem {idx}"
   }
 }

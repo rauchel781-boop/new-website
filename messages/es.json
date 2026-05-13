@@ -319,5 +319,11 @@
     "step5Body": "Grabado láser para permanencia y detalle fino; hot foil para sensación de lujo; serigrafía para color; debossing para textura premium; placa de latón para productos joyería.",
     "step6Title": "Confirma Cantidad y Plazo de Entrega",
     "step6Body": "Adapta MOQ a tu velocidad de ventas (típico 200–500 para nuestra línea); planifica 25–35 días desde muestra confirmada. Pide muestras primero si es un diseño nuevo."
+  },
+  "productGallery": {
+    "mainAlt": "{name} — vista {idx}",
+    "previousImage": "Imagen anterior",
+    "nextImage": "Siguiente imagen",
+    "thumbAria": "Ver imagen {idx}"
   }
 }

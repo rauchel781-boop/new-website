@@ -319,5 +319,11 @@
     "step5Body": "Laser engraving for permanence and fine detail; hot foil for luxury feel; screen print for color; debossing for premium texture; brass nameplate for jewelry-grade products.",
     "step6Title": "Confirm Quantity and Lead Time",
     "step6Body": "Match MOQ to your sales velocity (typical 200–500 for our line); plan 25–35 days from confirmed sample. Order samples first if it is a new design."
+  },
+  "productGallery": {
+    "mainAlt": "{name} — view {idx}",
+    "previousImage": "Previous image",
+    "nextImage": "Next image",
+    "thumbAria": "View image {idx}"
   }
 }

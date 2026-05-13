@@ -319,5 +319,11 @@
     "step5Body": "Incisione laser per permanenza e dettaglio fine; hot foil per sensazione di lusso; serigrafia per colore; debossing per texture premium; targhetta ottone per prodotti qualità gioielleria.",
     "step6Title": "Conferma Quantità e Tempi",
     "step6Body": "Abbina MOQ alla tua velocità di vendita (tipico 200–500 per la nostra linea); pianifica 25–35 giorni dal campione confermato. Ordina prima campioni se è un design nuovo."
+  },
+  "productGallery": {
+    "mainAlt": "{name} — vista {idx}",
+    "previousImage": "Immagine precedente",
+    "nextImage": "Immagine successiva",
+    "thumbAria": "Vedi immagine {idx}"
   }
 }

@@ -319,5 +319,11 @@
     "step5Body": "Gravure laser pour permanence et détail fin ; hot foil pour ressenti luxueux ; sérigraphie pour la couleur ; debossing pour texture premium ; plaque laiton pour produits qualité bijouterie.",
     "step6Title": "Confirmez Quantité et Délai",
     "step6Body": "Adaptez MOQ à votre vitesse de vente (typique 200–500 pour notre gamme) ; prévoyez 25–35 jours à partir de l’échantillon confirmé. Commandez d’abord des échantillons si c’est un nouveau design."
+  },
+  "productGallery": {
+    "mainAlt": "{name} — vue {idx}",
+    "previousImage": "Image précédente",
+    "nextImage": "Image suivante",
+    "thumbAria": "Voir image {idx}"
   }
 }
