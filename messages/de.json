@@ -183,6 +183,24 @@
         "t": "Logistik",
         "d": "Zuverlässige Exportverpackung und weltweite Versandkoordination."
       }
+    },
+    "faq": {
+      "title": "Häufig Gestellte Fragen",
+      "sub": "Schnelle Antworten auf die häufigsten Fragen unserer B2B-Käufer — MOQ, Lieferzeit, Zahlungsbedingungen, Anpassungsumfang und Qualitätskontrolle.",
+      "q1": "Wie hoch ist die Mindestbestellmenge (MOQ)?",
+      "a1": "Unsere Standard-MOQ beträgt 200–500 Stück je nach Produktkomplexität. Einfache SKUs können bis auf 100 Stück für einen Musterlauf reduziert werden; hochgradig angepasste Designs benötigen möglicherweise 500+ für kosteneffektive Werkzeuge.",
+      "q2": "Wie lange ist die typische Lieferzeit?",
+      "a2": "25–35 Tage ab bestätigtem Auftrag und genehmigtem Muster. Wiederholungsaufträge ohne Spezifikationsänderungen sinken auf 20–25 Tage. Express-Optionen sind gegen Aufpreis verfügbar.",
+      "q3": "Bieten Sie OEM / ODM-Dienste an?",
+      "a3": "Ja. Wir entwerfen und produzieren maßgefertigte Holzboxen von Grund auf basierend auf Ihrem Briefing — Holzart, Abmessungen, Verschlussart, Finish, Beschläge, Auskleidung und Branding. Wir können auch vorhandene Muster, die Sie uns zur Verfügung stellen, nachbauen.",
+      "q4": "Welche Anpassungen sind möglich?",
+      "a4": "Abmessungen, Verschlussart (Scharnier / Schiebedeckel / Schublade / Magnet / Schloss / Offen), Holzart, Oberflächen-Finish (Öl / Lack / Farbe / Beize / angebrannt), Beschläge (Messing / Stahl / Mattschwarz), Innenauskleidung (Filz / Samt / EVA-Schaum) und Branding (Lasergravur / Heißfolienprägung / Siebdruck / Debossing / Messingplatte).",
+      "q5": "Wie handhaben Sie die Qualitätskontrolle?",
+      "a5": "Mehrstufige QC: Wareneingangsprüfung, In-Process-Kontrollen beim Fräsen / Schleifen / Lackieren / Montieren und finale Versandkontrolle nach AQL 2.5-Standard. Drittparteien-Inspektion (SGS / BV / Intertek) auf Anfrage vor dem Versand verfügbar.",
+      "q6": "Was sind Ihre Zahlungsbedingungen?",
+      "a6": "30% Anzahlung bei Auftragsbestätigung, 70% vor Versand per T/T. Neue Kunden benötigen möglicherweise eine höhere Anzahlung bei der ersten Bestellung. Wir akzeptieren auch L/C at sight für Aufträge über USD 30.000.",
+      "q7": "Versenden Sie weltweit?",
+      "a7": "Ja — wir exportieren in über 60 Länder. Versand per FCL, LCL oder Luftexpress je nach Volumen und Dringlichkeit. Wir kümmern uns um die gesamte Exportdokumentation: Handelsrechnung, Packliste, Ursprungszeugnis, Pflanzengesundheitszeugnis und Begasung nach Bedarf."
     }
   },
   "productDetail": {

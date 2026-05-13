@@ -183,6 +183,24 @@
         "t": "Logística",
         "d": "Embalaje de exportación fiable y coordinación de envíos en todo el mundo."
       }
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "sub": "Respuestas rápidas a las preguntas más comunes que recibimos de compradores B2B — MOQ, plazo de entrega, condiciones de pago, alcance de personalización y control de calidad.",
+      "q1": "¿Cuál es la cantidad mínima de pedido (MOQ)?",
+      "a1": "Nuestro MOQ estándar es 200–500 piezas según la complejidad del producto. SKUs simples pueden bajar a 100 piezas para una serie de muestra; diseños altamente personalizados pueden requerir 500+ para un herramentaje rentable.",
+      "q2": "¿Cuál es el plazo de entrega típico?",
+      "a2": "25–35 días desde la confirmación del pedido y aprobación de la muestra. Pedidos repetidos sin cambios de especificación bajan a 20–25 días. Opciones express disponibles con cargo adicional.",
+      "q3": "¿Ofrecen servicios OEM / ODM?",
+      "a3": "Sí. Diseñamos y producimos cajas de madera personalizadas desde cero según tu brief — especie de madera, dimensiones, tipo de cierre, acabado, herrajes, forro y branding. También podemos hacer ingeniería inversa de muestras existentes que nos envíes.",
+      "q4": "¿Qué personalización es posible?",
+      "a4": "Dimensiones, tipo de cierre (con bisagra / deslizante / cajón / magnético / con cerradura / abierta), especie de madera, acabado superficial (aceite / laca / pintura / tinte / quemado), herrajes (latón / acero / negro mate), forro interior (fieltro / terciopelo / espuma EVA) y branding (grabado láser / hot foil / serigrafía / debossing / placa latón).",
+      "q5": "¿Cómo gestionan el control de calidad?",
+      "a5": "QC multi-etapa: inspección de material entrante, controles en proceso en routing / lijado / acabado / ensamblaje y inspección final pre-envío según estándar AQL 2.5. Inspección por terceros (SGS / BV / Intertek) disponible antes del envío bajo solicitud.",
+      "q6": "¿Cuáles son las condiciones de pago?",
+      "a6": "30% depósito al confirmar el pedido, 70% antes del envío por T/T. Clientes nuevos pueden requerir mayor depósito en el primer pedido. También aceptamos L/C a la vista para pedidos superiores a USD 30.000.",
+      "q7": "¿Envían a todo el mundo?",
+      "a7": "Sí — exportamos a más de 60 países. Envío por FCL, LCL o aéreo express según volumen y urgencia. Gestionamos toda la documentación de exportación: factura comercial, lista de empaque, certificado de origen, certificado fitosanitario y fumigación según se requiera."
     }
   },
   "productDetail": {

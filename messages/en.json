@@ -183,6 +183,24 @@
         "t": "Logistics",
         "d": "Reliable export packing and worldwide shipping coordination."
       }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "sub": "Quick answers to the most common questions we get from B2B buyers — MOQ, lead time, payment terms, customization scope, and quality control.",
+      "q1": "What is your minimum order quantity (MOQ)?",
+      "a1": "Our standard MOQ is 200–500 pieces depending on product complexity. Simple SKUs can go as low as 100 pieces for a sample run; highly customized designs may need 500+ for cost-effective tooling.",
+      "q2": "What is the typical lead time?",
+      "a2": "25–35 days from confirmed order and approved sample. Repeat orders without spec changes drop to 20–25 days. Express options are available for an additional fee.",
+      "q3": "Do you offer OEM / ODM services?",
+      "a3": "Yes. We design and produce custom wooden boxes from scratch based on your brief — wood species, dimensions, closure type, finish, hardware, lining, and branding. We can also reverse-engineer existing samples you provide.",
+      "q4": "What customization is possible?",
+      "a4": "Dimensions, closure type (hinged / sliding / drawer / magnetic / lock / open), wood species, surface finish (oil / lacquer / paint / stain / torched), hardware (brass / steel / matte black), interior lining (felt / velvet / EVA foam), and branding (laser engrave / hot foil / screen print / debossing / brass plate).",
+      "q5": "How do you handle quality control?",
+      "a5": "Multi-stage QC: incoming material inspection, in-process checks at routing / sanding / finishing / assembly, and final pre-shipment inspection by AQL 2.5 standard. Third-party inspection (SGS / BV / Intertek) is available before shipment on request.",
+      "q6": "What are your payment terms?",
+      "a6": "30% deposit on order confirmation, 70% before shipment by T/T. New customers may require a higher deposit on the first order. We also accept L/C at sight for orders over USD 30,000.",
+      "q7": "Do you ship worldwide?",
+      "a7": "Yes — we export to 60+ countries. Shipping is by FCL, LCL, or air express depending on volume and urgency. We handle all export documentation: commercial invoice, packing list, certificate of origin, phytosanitary certificate, and fumigation as required."
     }
   },
   "productDetail": {

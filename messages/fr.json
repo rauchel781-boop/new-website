@@ -183,6 +183,24 @@
         "t": "Logistique",
         "d": "Emballage export fiable et coordination d’expédition mondiale."
       }
+    },
+    "faq": {
+      "title": "Questions Fréquentes",
+      "sub": "Réponses rapides aux questions les plus fréquentes des acheteurs B2B — MOQ, délai de livraison, conditions de paiement, étendue de personnalisation et contrôle qualité.",
+      "q1": "Quelle est la quantité minimum de commande (MOQ) ?",
+      "a1": "Notre MOQ standard est de 200 à 500 pièces selon la complexité du produit. Les SKU simples peuvent descendre à 100 pièces pour une série échantillon ; les designs très personnalisés peuvent nécessiter 500+ pour un outillage rentable.",
+      "q2": "Quel est le délai typique ?",
+      "a2": "25 à 35 jours à compter de la commande confirmée et de l’échantillon approuvé. Les commandes répétées sans changement de spécification passent à 20–25 jours. Options express disponibles avec supplément.",
+      "q3": "Proposez-vous des services OEM / ODM ?",
+      "a3": "Oui. Nous concevons et produisons des boîtes en bois personnalisées de zéro selon votre brief — essence de bois, dimensions, type de fermeture, finition, quincaillerie, doublure et branding. Nous pouvons aussi faire de l’ingénierie inverse à partir d’échantillons existants.",
+      "q4": "Quelle personnalisation est possible ?",
+      "a4": "Dimensions, type de fermeture (à charnière / coulissant / tiroir / magnétique / avec serrure / ouvert), essence de bois, finition de surface (huile / laque / peinture / teinture / brûlée), quincaillerie (laiton / acier / noir mat), doublure intérieure (feutre / velours / mousse EVA) et branding (gravure laser / hot foil / sérigraphie / debossing / plaque laiton).",
+      "q5": "Comment gérez-vous le contrôle qualité ?",
+      "a5": "QC multi-étapes : inspection des matériaux entrants, contrôles en cours de routing / ponçage / finition / assemblage et inspection finale pré-expédition selon norme AQL 2.5. Inspection tierce (SGS / BV / Intertek) disponible avant expédition sur demande.",
+      "q6": "Quelles sont vos conditions de paiement ?",
+      "a6": "30% d’acompte à la confirmation de commande, 70% avant expédition par T/T. Les nouveaux clients peuvent nécessiter un acompte plus élevé sur la première commande. Nous acceptons aussi L/C à vue pour les commandes supérieures à USD 30 000.",
+      "q7": "Expédiez-vous dans le monde entier ?",
+      "a7": "Oui — nous exportons dans plus de 60 pays. Expédition par FCL, LCL ou express aérien selon volume et urgence. Nous gérons toute la documentation export : facture commerciale, liste de colisage, certificat d’origine, certificat phytosanitaire et fumigation selon les besoins."
     }
   },
   "productDetail": {

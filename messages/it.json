@@ -183,6 +183,24 @@
         "t": "Logistica",
         "d": "Imballaggio export affidabile e coordinamento spedizioni mondiale."
       }
+    },
+    "faq": {
+      "title": "Domande Frequenti",
+      "sub": "Risposte rapide alle domande più comuni che riceviamo dai compratori B2B — MOQ, tempi di consegna, condizioni di pagamento, ambito di personalizzazione e controllo qualità.",
+      "q1": "Qual è la quantità minima d’ordine (MOQ)?",
+      "a1": "Il nostro MOQ standard è di 200–500 pezzi a seconda della complessità del prodotto. SKU semplici possono scendere a 100 pezzi per una serie campione; design altamente personalizzati possono richiedere 500+ per un’attrezzatura economicamente vantaggiosa.",
+      "q2": "Qual è il tempo di consegna tipico?",
+      "a2": "25–35 giorni dall’ordine confermato e campione approvato. Ordini ripetuti senza modifiche di specifica scendono a 20–25 giorni. Opzioni express disponibili con sovrapprezzo.",
+      "q3": "Offrite servizi OEM / ODM?",
+      "a3": "Sì. Progettiamo e produciamo box in legno personalizzate da zero in base al tuo brief — essenza di legno, dimensioni, tipo di chiusura, finitura, ferramenta, fodera e branding. Possiamo anche fare reverse engineering di campioni esistenti che ci fornisci.",
+      "q4": "Quale personalizzazione è possibile?",
+      "a4": "Dimensioni, tipo di chiusura (con cerniera / scorrevole / cassetto / magnetica / con serratura / aperta), essenza di legno, finitura superficie (olio / lacca / vernice / tinta / bruciato), ferramenta (ottone / acciaio / nero opaco), fodera interna (feltro / velluto / schiuma EVA) e branding (incisione laser / hot foil / serigrafia / debossing / piastra ottone).",
+      "q5": "Come gestite il controllo qualità?",
+      "a5": "QC multi-fase: ispezione materiali in ingresso, controlli in processo su routing / levigatura / finitura / assemblaggio e ispezione finale pre-spedizione secondo standard AQL 2.5. Ispezione terze parti (SGS / BV / Intertek) disponibile prima della spedizione su richiesta.",
+      "q6": "Quali sono le vostre condizioni di pagamento?",
+      "a6": "30% acconto alla conferma dell’ordine, 70% prima della spedizione tramite T/T. I nuovi clienti possono richiedere un acconto più alto sul primo ordine. Accettiamo anche L/C a vista per ordini superiori a USD 30.000.",
+      "q7": "Spedite in tutto il mondo?",
+      "a7": "Sì — esportiamo in oltre 60 paesi. Spedizione via FCL, LCL o aereo express a seconda del volume e dell’urgenza. Gestiamo tutta la documentazione di export: fattura commerciale, packing list, certificato di origine, certificato fitosanitario e fumigazione secondo necessità."
     }
   },
   "productDetail": {

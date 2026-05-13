@@ -183,6 +183,24 @@
         "t": "Logística",
         "d": "Embalagem para exportação fiável e coordenação de envios mundial."
       }
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "sub": "Respostas rápidas às perguntas mais comuns dos compradores B2B — MOQ, prazo de entrega, condições de pagamento, âmbito de personalização e controlo de qualidade.",
+      "q1": "Qual é a quantidade mínima de encomenda (MOQ)?",
+      "a1": "O nosso MOQ padrão é 200–500 peças conforme a complexidade do produto. SKUs simples podem descer a 100 peças para uma série de amostra; designs altamente personalizados podem exigir 500+ para um ferramental rentável.",
+      "q2": "Qual é o prazo de entrega típico?",
+      "a2": "25–35 dias a partir da confirmação do pedido e aprovação da amostra. Pedidos repetidos sem alterações de especificação descem a 20–25 dias. Opções express disponíveis com custo adicional.",
+      "q3": "Oferecem serviços OEM / ODM?",
+      "a3": "Sim. Concebemos e produzimos caixas de madeira personalizadas do zero com base no seu briefing — espécie de madeira, dimensões, tipo de fecho, acabamento, ferragens, forro e branding. Também podemos fazer engenharia reversa de amostras existentes que nos forneça.",
+      "q4": "Que personalização é possível?",
+      "a4": "Dimensões, tipo de fecho (com dobradiça / deslizante / gaveta / magnético / com fechadura / aberta), espécie de madeira, acabamento superfície (óleo / laca / tinta / corante / queimado), ferragens (latão / aço / preto fosco), forro interior (feltro / veludo / espuma EVA) e branding (gravação laser / hot foil / serigrafia / debossing / placa latão).",
+      "q5": "Como fazem o controlo de qualidade?",
+      "a5": "QC multi-fase: inspeção de material à entrada, controlos em processo em routing / lixagem / acabamento / montagem e inspeção final pré-envio segundo norma AQL 2.5. Inspeção por terceiros (SGS / BV / Intertek) disponível antes do envio mediante pedido.",
+      "q6": "Quais são as vossas condições de pagamento?",
+      "a6": "30% de adiantamento na confirmação do pedido, 70% antes do envio por T/T. Novos clientes podem requerer adiantamento superior na primeira encomenda. Também aceitamos L/C à vista para encomendas superiores a USD 30.000.",
+      "q7": "Enviam para todo o mundo?",
+      "a7": "Sim — exportamos para mais de 60 países. Envio por FCL, LCL ou aéreo express conforme volume e urgência. Tratamos de toda a documentação de exportação: fatura comercial, lista de embalagem, certificado de origem, certificado fitossanitário e fumigação conforme necessário."
     }
   },
   "productDetail": {
