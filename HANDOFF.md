@@ -401,6 +401,8 @@ export default TRANSLATIONS;
   18. **数据层 i18n PoC**：translations overlay 扩展支持 specs/customization/packaging/useCases，先做 acacia-tea-bag-box-8-compartment × IT 验证流程
   19. 数据层 i18n 批：tea-coffee 全 29 产品 × IT（it.js 1126 行）
   20. 数据层 i18n 批：tea-coffee 全 29 产品 × FR + DE（一次性 58 个 Edit，fr.js + de.js 各 1098 行）
+  21. 数据层 i18n 批：tea-coffee 全 29 产品 × ES + PT（一次性 58 个 Edit，es.js 1099 / pt.js 1098 行）
+  22. 数据层 i18n 批：tea-coffee 全 29 产品 × JA + KO（一次性 58 个 Edit，ja.js + ko.js 各 1098 行）— **tea-coffee 全分类 7/7 语 100% 完成 ✅**
 
 - 用户每次都浏览器验证「可以了」
 
@@ -412,14 +414,22 @@ export default TRANSLATIONS;
 
 | 分类 | en | es | fr | de | it | pt | ja | ko |
 |------|----|----|----|----|----|----|----|----|
-| tea-coffee (29) | source | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | flat-1L | flat-1L |
+| tea-coffee (29) | source | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** |
 
 「flat-1L」= name/closure/tagline/intro 4 字段一行式翻译（旧 overlay 结构）。「full」= 7 字段完整翻译。
 
+**tea-coffee 数据层 i18n: 7/7 语 = 100% 完成 ✅**
+
 **剩余工作**（按产品 × 语言估算）：
-- tea-coffee × 2 语（ja/ko）= 58 产品-语 组合
 - 其他 16 分类 × 7 语 ≈ 1200+ 产品-语 组合
 
-每个分类的 IT 文件结构（如 it.js tea-coffee 段）可作为下一批的翻译模板。
+每个分类的 IT/FR/DE/ES/PT/JA/KO 中的 tea-coffee 段都可作为下一批的翻译模板。
 
-- **下一步推荐**：tea-coffee × JA + KO 一次性收尾（完成 tea-coffee 7 语 100%），然后切下一个分类 hinged × IT/FR/DE
+- **下一步推荐**：切下一个分类。建议按结构类型聚合：
+  - hinged (10 个) — 数量最多的 closure 类型
+  - sliding-lid (9 个)
+  - drawer (8 个)
+  - magnetic (9 个)
+  - with-lock (9 个)
+  
+  策略可以是「先把一个分类做 IT/FR/DE 3 语建模」（小批量验证），再扩到 ES/PT/JA/KO。或者「一次性 7 语都做完」（用过的模式）。
