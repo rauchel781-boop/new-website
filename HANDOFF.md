@@ -412,14 +412,14 @@ export default TRANSLATIONS;
 
 | 分类 | en | es | fr | de | it | pt | ja | ko |
 |------|----|----|----|----|----|----|----|----|
-| tea-coffee (29) | source | flat-1L | ✅ **full** | ✅ **full** | ✅ **full** | flat-1L | flat-1L | flat-1L |
+| tea-coffee (29) | source | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | flat-1L | flat-1L |
 
 「flat-1L」= name/closure/tagline/intro 4 字段一行式翻译（旧 overlay 结构）。「full」= 7 字段完整翻译。
 
 **剩余工作**（按产品 × 语言估算）：
-- tea-coffee × 4 语（es/pt/ja/ko）= 116 产品-语 组合
+- tea-coffee × 2 语（ja/ko）= 58 产品-语 组合
 - 其他 16 分类 × 7 语 ≈ 1200+ 产品-语 组合
 
 每个分类的 IT 文件结构（如 it.js tea-coffee 段）可作为下一批的翻译模板。
 
-- **下一步推荐**：tea-coffee × ES + PT 一次性补完（保持 8 语统一节奏），或者切下一个分类 hinged × IT/FR/DE
+- **下一步推荐**：tea-coffee × JA + KO 一次性收尾（完成 tea-coffee 7 语 100%），然后切下一个分类 hinged × IT/FR/DE
