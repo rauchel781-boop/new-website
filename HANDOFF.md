@@ -393,5 +393,33 @@ export default TRANSLATIONS;
   10. 详情页 i18n 第二批（ProductTabs labels + 套话）
   11. 详情页 i18n 第三批（spec table 表头 60+ key）
   12. HANDOFF 第三次更新（本次）
+  13. 详情页 i18n 第四批：closure eyebrow 本地化
+  14. GA4 自定义事件追踪（inquiry / whatsapp / email）
+  15. capabilities FAQ section + FAQ schema
+  16. material-guide HowTo section + HowTo schema
+  17. ProductGallery alt 本地化
+  18. **数据层 i18n PoC**：translations overlay 扩展支持 specs/customization/packaging/useCases，先做 acacia-tea-bag-box-8-compartment × IT 验证流程
+  19. 数据层 i18n 批：tea-coffee 全 29 产品 × IT（it.js 1126 行）
+  20. 数据层 i18n 批：tea-coffee 全 29 产品 × FR + DE（一次性 58 个 Edit，fr.js + de.js 各 1098 行）
+
 - 用户每次都浏览器验证「可以了」
-- **下一步推荐**：第九节最高优先级（产品详情页数据层 i18n —— closure eyebrow 先做小的，然后 customization/packaging/useCases/specs values 的大架构改造），或者等 24-48h 看 GA4/Clarity 真实数据决定下一步
+
+## 十一、数据层 i18n 进度追踪
+
+**架构**：`data/products/translations/{locale}.js` overlay 机制，每个产品支持 7 字段：name / closure / tagline / intro / specs / customization / packaging / useCases。`specs` 是完整替换（不是 deep merge），所以翻译必须包含所有 key。
+
+**已完成数据层翻译（specs + customization + packaging + useCases）**：
+
+| 分类 | en | es | fr | de | it | pt | ja | ko |
+|------|----|----|----|----|----|----|----|----|
+| tea-coffee (29) | source | flat-1L | ✅ **full** | ✅ **full** | ✅ **full** | flat-1L | flat-1L | flat-1L |
+
+「flat-1L」= name/closure/tagline/intro 4 字段一行式翻译（旧 overlay 结构）。「full」= 7 字段完整翻译。
+
+**剩余工作**（按产品 × 语言估算）：
+- tea-coffee × 4 语（es/pt/ja/ko）= 116 产品-语 组合
+- 其他 16 分类 × 7 语 ≈ 1200+ 产品-语 组合
+
+每个分类的 IT 文件结构（如 it.js tea-coffee 段）可作为下一批的翻译模板。
+
+- **下一步推荐**：tea-coffee × ES + PT 一次性补完（保持 8 语统一节奏），或者切下一个分类 hinged × IT/FR/DE
