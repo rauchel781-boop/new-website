@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { SITE, isEmailJSConfigured } from '@/data/site-config';
 import { useEmailJS } from '@/lib/use-emailjs';
+import { trackEvent } from '@/lib/analytics';
 
 const CONTACT_CSS = `
 
@@ -556,6 +557,12 @@ export default function ContactPage() {
           source: 'Contact page',
         });
         setState('done');
+        trackEvent('inquiry_form_submitted', {
+          subject: form.subject,
+          has_company: Boolean(form.company),
+          country: form.country || 'not_provided',
+          source: 'Contact page',
+        });
       } catch {
         setState('error');
         setErrMsg('Sorry — something went wrong. Please email us directly at ' + SITE.email);
@@ -565,6 +572,14 @@ export default function ContactPage() {
       const body = encodeURIComponent(
         `Name: ${form.name}\nEmail: ${form.email}\nCompany: ${form.company || '(not provided)'}\nCountry: ${form.country || 'not provided'}\nSubject: ${form.subject}\n\n${form.message}`
       );
+      // Track before navigating away — once the mailto: opens we lose
+      // the page context.
+      trackEvent('inquiry_form_submitted', {
+        subject: form.subject,
+        has_company: Boolean(form.company),
+        country: form.country || 'not_provided',
+        source: 'Contact page (mailto fallback)',
+      });
       window.location.href = `mailto:${SITE.email}?subject=${subject}&body=${body}`;
       setState('done');
     }

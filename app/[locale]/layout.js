@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import TawkChat from '@/components/TawkChat';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import ClarityAnalytics from '@/components/ClarityAnalytics';
+import AnalyticsTracker from '@/components/AnalyticsTracker';
 import { CookieConsentProvider, CookieBanner } from '@/components/CookieConsent';
 import { SITE } from '@/data/site-config';
 import { routing } from '@/i18n/routing';
@@ -100,6 +101,7 @@ export default async function LocaleLayout({ children, params: { locale } }) {
             <TawkChat />
             <GoogleAnalytics />
             <ClarityAnalytics />
+            <AnalyticsTracker />
             <CookieBanner />
           </CookieConsentProvider>
         </NextIntlClientProvider>

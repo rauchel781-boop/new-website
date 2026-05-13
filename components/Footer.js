@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { SITE, isEmailJSConfigured } from '@/data/site-config';
 import { useEmailJS } from '@/lib/use-emailjs';
+import { trackEvent } from '@/lib/analytics';
 
 const FOOTER_CSS = `
 
@@ -312,6 +313,7 @@ export default function Footer() {
         setSubState('done');
         setSubMsg('✓ Thanks — you\'re on the list. We\'ll be in touch.');
         setSubEmail('');
+        trackEvent('newsletter_subscribed', { source: 'footer' });
       } catch (err) {
         setSubState('error');
         setSubMsg('Something went wrong. Please email us directly.');
@@ -320,6 +322,7 @@ export default function Footer() {
       // Fallback: open mail client
       const subject = encodeURIComponent('Newsletter subscription');
       const body = encodeURIComponent(`Please add me to the CHIC newsletter.\n\nEmail: ${subEmail}`);
+      trackEvent('newsletter_subscribed', { source: 'footer (mailto fallback)' });
       window.location.href = `mailto:${SITE.email}?subject=${subject}&body=${body}`;
       setSubState('done');
       setSubMsg('Opening your email client…');

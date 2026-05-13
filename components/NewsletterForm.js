@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { SITE, isEmailJSConfigured } from '@/data/site-config';
 import { useEmailJS } from '@/lib/use-emailjs';
+import { trackEvent } from '@/lib/analytics';
 
 /**
  * NewsletterForm — reusable email subscription form.
@@ -43,6 +44,7 @@ export default function NewsletterForm({
         setState('done');
         setMsg('✓ Thanks — you\'re on the list. We\'ll be in touch.');
         setEmail('');
+        trackEvent('newsletter_subscribed', { source });
       } catch {
         setState('error');
         setMsg('Something went wrong. Please email us directly.');
@@ -50,6 +52,7 @@ export default function NewsletterForm({
     } else {
       const subject = encodeURIComponent('Newsletter subscription');
       const body = encodeURIComponent(`Please subscribe me to the CHIC newsletter.\n\nEmail: ${email}\nSource: ${source}`);
+      trackEvent('newsletter_subscribed', { source: `${source} (mailto fallback)` });
       window.location.href = `mailto:${SITE.email}?subject=${subject}&body=${body}`;
       setState('done');
       setMsg('Opening your email client…');
