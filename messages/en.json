@@ -272,5 +272,18 @@
     "Tray": "Tray",
     "Utensil Bin": "Utensil Bin",
     "Utensil Slots": "Utensil Slots"
+  },
+  "closureEyebrows": {
+    "Magnetic": "Magnetic Closure",
+    "Hinged": "Hinged Closure",
+    "Sliding": "Sliding Closure",
+    "Sliding Lid": "Sliding Lid",
+    "Drawer": "Drawer",
+    "Lift-off": "Lift-off Lid",
+    "Lift-Off Lid": "Lift-off Lid",
+    "Open": "Open Top",
+    "Open-Top": "Open Top",
+    "Lock": "Lockable",
+    "Swivel Lid": "Swivel Lid"
   }
 }

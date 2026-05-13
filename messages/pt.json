@@ -272,5 +272,18 @@
     "Tray": "Bandeja",
     "Utensil Bin": "Compartimento Utensílios",
     "Utensil Slots": "Ranhuras Utensílios"
+  },
+  "closureEyebrows": {
+    "Magnetic": "Fecho Magnético",
+    "Hinged": "Com Dobradiça",
+    "Sliding": "Tampa Deslizante",
+    "Sliding Lid": "Tampa Deslizante",
+    "Drawer": "Gaveta",
+    "Lift-off": "Tampa Removível",
+    "Lift-Off Lid": "Tampa Removível",
+    "Open": "Topo Aberto",
+    "Open-Top": "Topo Aberto",
+    "Lock": "Com Fechadura",
+    "Swivel Lid": "Tampa Giratória"
   }
 }

@@ -272,5 +272,18 @@
     "Tray": "Vassoio",
     "Utensil Bin": "Contenitore Utensili",
     "Utensil Slots": "Slot Utensili"
+  },
+  "closureEyebrows": {
+    "Magnetic": "Chiusura Magnetica",
+    "Hinged": "Con Cerniera",
+    "Sliding": "Coperchio Scorrevole",
+    "Sliding Lid": "Coperchio Scorrevole",
+    "Drawer": "Cassetto",
+    "Lift-off": "Coperchio Estraibile",
+    "Lift-Off Lid": "Coperchio Estraibile",
+    "Open": "Top Aperto",
+    "Open-Top": "Top Aperto",
+    "Lock": "Con Serratura",
+    "Swivel Lid": "Coperchio Girevole"
   }
 }

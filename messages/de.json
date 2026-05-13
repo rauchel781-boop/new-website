@@ -272,5 +272,18 @@
     "Tray": "Tablett",
     "Utensil Bin": "Besteckbehälter",
     "Utensil Slots": "Besteck-Slots"
+  },
+  "closureEyebrows": {
+    "Magnetic": "Magnetischer Verschluss",
+    "Hinged": "Mit Scharnier",
+    "Sliding": "Schiebedeckel",
+    "Sliding Lid": "Schiebedeckel",
+    "Drawer": "Schublade",
+    "Lift-off": "Abnehmbarer Deckel",
+    "Lift-Off Lid": "Abnehmbarer Deckel",
+    "Open": "Offen",
+    "Open-Top": "Offen",
+    "Lock": "Mit Schloss",
+    "Swivel Lid": "Schwenkdeckel"
   }
 }

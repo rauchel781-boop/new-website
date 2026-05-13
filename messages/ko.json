@@ -272,5 +272,18 @@
     "Tray": "트레이",
     "Utensil Bin": "식기 통",
     "Utensil Slots": "식기 슬롯"
+  },
+  "closureEyebrows": {
+    "Magnetic": "자석식 잠금",
+    "Hinged": "경첩식",
+    "Sliding": "슬라이딩 뚜껑",
+    "Sliding Lid": "슬라이딩 뚜껑",
+    "Drawer": "서랍",
+    "Lift-off": "분리식 뚜껑",
+    "Lift-Off Lid": "분리식 뚜껑",
+    "Open": "오픈탑",
+    "Open-Top": "오픈탑",
+    "Lock": "잠금식",
+    "Swivel Lid": "회전식 뚜껑"
   }
 }

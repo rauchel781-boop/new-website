@@ -413,6 +413,20 @@ export default async function ProductDetail({ params }) {
   const t = await getTranslations({ locale: params.locale, namespace: 'productDetail' });
   const tCta = await getTranslations({ locale: params.locale, namespace: 'cta' });
 
+  // ── Hero closure eyebrow (e.g. "Magnetic Closure"). We look up the
+  // raw English closure string (from data file, before translation overlay)
+  // in the closureEyebrows namespace. Falls back to `${closure} Closure`
+  // if the locale doesn't have a translation for this specific closure
+  // type — so even unmapped closures render as decent English.
+  let closureEyebrow = `${productRaw.closure} Closure`;
+  try {
+    const tCe = await getTranslations({ locale: params.locale, namespace: 'closureEyebrows' });
+    const v = tCe(productRaw.closure);
+    if (typeof v === 'string' && !v.startsWith('closureEyebrows.')) {
+      closureEyebrow = v;
+    }
+  } catch (e) {}
+
   // ── JSON-LD: Product + BreadcrumbList ──────────────────────────────
   // Breadcrumb names + URLs are locale-aware. The /${locale}/ prefix on
   // every `item` URL means Google doesn't need to follow a redirect.
@@ -470,7 +484,7 @@ export default async function ProductDetail({ params }) {
           </div>
 
           <div className="pdp-info">
-            <div className="pdp-info-eyebrow">{product.closure} Closure</div>
+            <div className="pdp-info-eyebrow">{closureEyebrow}</div>
             <h1 className="pdp-h1">{product.name}</h1>
             <div className="pdp-tagline">{product.tagline}</div>
             <p className="pdp-intro">{product.intro}</p>

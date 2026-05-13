@@ -272,5 +272,18 @@
     "Tray": "トレイ",
     "Utensil Bin": "カトラリー容器",
     "Utensil Slots": "カトラリースロット"
+  },
+  "closureEyebrows": {
+    "Magnetic": "マグネット式クロージャー",
+    "Hinged": "蝶番式",
+    "Sliding": "スライド蓋",
+    "Sliding Lid": "スライド蓋",
+    "Drawer": "ドロワー",
+    "Lift-off": "取り外し蓋",
+    "Lift-Off Lid": "取り外し蓋",
+    "Open": "オープントップ",
+    "Open-Top": "オープントップ",
+    "Lock": "ロック付き",
+    "Swivel Lid": "回転蓋"
   }
 }

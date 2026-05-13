@@ -272,5 +272,18 @@
     "Tray": "Plateau",
     "Utensil Bin": "Bac Ustensiles",
     "Utensil Slots": "Slots Ustensiles"
+  },
+  "closureEyebrows": {
+    "Magnetic": "Fermeture Magnétique",
+    "Hinged": "À Charnière",
+    "Sliding": "Couvercle Coulissant",
+    "Sliding Lid": "Couvercle Coulissant",
+    "Drawer": "Tiroir",
+    "Lift-off": "Couvercle Amovible",
+    "Lift-Off Lid": "Couvercle Amovible",
+    "Open": "Top Ouvert",
+    "Open-Top": "Top Ouvert",
+    "Lock": "Avec Serrure",
+    "Swivel Lid": "Couvercle Pivotant"
   }
 }
