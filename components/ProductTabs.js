@@ -83,7 +83,22 @@ const CSS = `
 
 export default function ProductTabs({ description, specs, customization, packaging }) {
   const t = useTranslations('productTabs');
+  const tSpec = useTranslations('specKeys');
   const [tab, setTab] = useState('description');
+
+  // Localize a spec table header. Falls back to the English key if no
+  // translation is registered (handy when product data adds a new key
+  // that hasn't been translated yet — it'll show in English instead of
+  // throwing a missing-message error).
+  const translateSpecKey = (key) => {
+    try {
+      const v = tSpec(key);
+      // next-intl returns a "specKeys.xxx" string when key is missing — treat
+      // that as a fallback signal.
+      if (typeof v === 'string' && !v.startsWith('specKeys.')) return v;
+    } catch (e) {}
+    return key;
+  };
 
   const tabs = [
     { id: 'description', label: t('description') },
@@ -122,7 +137,7 @@ export default function ProductTabs({ description, specs, customization, packagi
             <tbody>
               {Object.entries(specs).map(([key, value]) => (
                 <tr key={key}>
-                  <th>{key}</th>
+                  <th>{translateSpecKey(key)}</th>
                   <td>{value}</td>
                 </tr>
               ))}
