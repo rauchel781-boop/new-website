@@ -184,5 +184,21 @@
         "d": "Emballage export fiable et coordination d’expédition mondiale."
       }
     }
+  },
+  "productDetail": {
+    "sendInquiry": "Envoyer une Demande",
+    "browseCategory": "Voir la Catégorie",
+    "trust": {
+      "fsc": "Certifié FSC",
+      "reach": "EU REACH",
+      "sgs": "Testé par SGS",
+      "experience": "20+ Ans d’Exportation"
+    },
+    "applicationsLabel": "Applications",
+    "applicationsTitle": "Cas d’Usage Courants",
+    "inquiryTitle": "Prêt à Commander {name} ?",
+    "inquiryDescription": "Envoyez-nous vos spécifications — quantité, dimensions, branding et toute exigence personnalisée. Nous répondons sous 24 heures avec un devis et la confirmation du délai de livraison.",
+    "relatedLabel": "Plus de cette catégorie",
+    "relatedTitle": "Produits Connexes"
   }
 }

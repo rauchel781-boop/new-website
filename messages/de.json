@@ -184,5 +184,21 @@
         "d": "Zuverlässige Exportverpackung und weltweite Versandkoordination."
       }
     }
+  },
+  "productDetail": {
+    "sendInquiry": "Anfrage Senden",
+    "browseCategory": "Kategorie Ansehen",
+    "trust": {
+      "fsc": "FSC-Zertifiziert",
+      "reach": "EU REACH",
+      "sgs": "Von SGS Getestet",
+      "experience": "20+ Jahre Export"
+    },
+    "applicationsLabel": "Anwendungen",
+    "applicationsTitle": "Häufige Anwendungsfälle",
+    "inquiryTitle": "Bereit, {name} zu Bestellen?",
+    "inquiryDescription": "Senden Sie uns Ihre Spezifikationen — Menge, Abmessungen, Branding und alle individuellen Anforderungen. Wir antworten innerhalb von 24 Stunden mit einem Angebot und einer Bestätigung der Lieferzeit.",
+    "relatedLabel": "Mehr aus dieser Kategorie",
+    "relatedTitle": "Ähnliche Produkte"
   }
 }

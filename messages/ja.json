@@ -184,5 +184,21 @@
         "d": "信頼性の高い輸出梱包と全世界配送の調整。"
       }
     }
+  },
+  "productDetail": {
+    "sendInquiry": "問い合わせを送る",
+    "browseCategory": "カテゴリーを見る",
+    "trust": {
+      "fsc": "FSC認証",
+      "reach": "EU REACH",
+      "sgs": "SGS試験済み",
+      "experience": "輸出20年以上"
+    },
+    "applicationsLabel": "用途",
+    "applicationsTitle": "一般的なユースケース",
+    "inquiryTitle": "{name}のご注文をご希望ですか？",
+    "inquiryDescription": "数量、寸法、ブランディング、カスタム要件など、仕様をお送りください。24時間以内に見積もりと納期確認をご提供します。",
+    "relatedLabel": "このカテゴリーの他の製品",
+    "relatedTitle": "関連商品"
   }
 }

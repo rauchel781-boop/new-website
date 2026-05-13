@@ -184,5 +184,21 @@
         "d": "Reliable export packing and worldwide shipping coordination."
       }
     }
+  },
+  "productDetail": {
+    "sendInquiry": "Send Inquiry",
+    "browseCategory": "Browse Category",
+    "trust": {
+      "fsc": "FSC Certified",
+      "reach": "EU REACH",
+      "sgs": "SGS Tested",
+      "experience": "20+ Years Export"
+    },
+    "applicationsLabel": "Applications",
+    "applicationsTitle": "Common Use Cases",
+    "inquiryTitle": "Ready to Order {name}?",
+    "inquiryDescription": "Send us your specs — quantity, dimensions, branding, and any custom requirements. We respond within 24 hours with a quote and lead time confirmation.",
+    "relatedLabel": "More from this category",
+    "relatedTitle": "Related Products"
   }
 }

@@ -407,6 +407,12 @@ export default async function ProductDetail({ params }) {
     translatedCategoryName = tc(params.slug) || translatedCategoryName;
   } catch (e) {}
 
+  // ── Localized strings for the page UI (trust badges, CTAs, inquiry
+  //    banner, related products). Loaded into a single `t` object that's
+  //    consumed throughout the JSX below.
+  const t = await getTranslations({ locale: params.locale, namespace: 'productDetail' });
+  const tCta = await getTranslations({ locale: params.locale, namespace: 'cta' });
+
   // ── JSON-LD: Product + BreadcrumbList ──────────────────────────────
   // Breadcrumb names + URLs are locale-aware. The /${locale}/ prefix on
   // every `item` URL means Google doesn't need to follow a redirect.
@@ -497,15 +503,15 @@ export default async function ProductDetail({ params }) {
             </div>
 
             <div className="pdp-cta">
-              <Link href="/contact" className="pdp-btn-primary">Send Inquiry</Link>
-              <Link href={`/products/${params.slug}`} className="pdp-btn-outline">Browse Category</Link>
+              <Link href="/contact" className="pdp-btn-primary">{t('sendInquiry')}</Link>
+              <Link href={`/products/${params.slug}`} className="pdp-btn-outline">{t('browseCategory')}</Link>
             </div>
 
             <div className="pdp-trust">
-              <span>FSC Certified</span>
-              <span>EU REACH</span>
-              <span>SGS Tested</span>
-              <span>20+ Years Export</span>
+              <span>{t('trust.fsc')}</span>
+              <span>{t('trust.reach')}</span>
+              <span>{t('trust.sgs')}</span>
+              <span>{t('trust.experience')}</span>
             </div>
           </div>
         </div>
@@ -527,8 +533,8 @@ export default async function ProductDetail({ params }) {
       {product.useCases && product.useCases.length > 0 && (
         <section className="pdp-uses">
           <div className="pdp-uses-inner">
-            <div className="pdp-uses-label">Applications</div>
-            <h2 className="pdp-uses-title">Common Use Cases</h2>
+            <div className="pdp-uses-label">{t('applicationsLabel')}</div>
+            <h2 className="pdp-uses-title">{t('applicationsTitle')}</h2>
             <div className="pdp-uses-list">
               {product.useCases.map((u, i) => (
                 <span className="pdp-use-pill" key={i}>{u}</span>
@@ -541,14 +547,11 @@ export default async function ProductDetail({ params }) {
       {/* ── INQUIRY BANNER ── */}
       <section className="pdp-inquiry">
         <div className="pdp-inquiry-inner">
-          <h2 className="pdp-inquiry-title">Ready to Order {product.name}?</h2>
-          <p className="pdp-inquiry-sub">
-            Send us your specs — quantity, dimensions, branding, and any custom requirements.
-            We respond within 24 hours with a quote and lead time confirmation.
-          </p>
+          <h2 className="pdp-inquiry-title">{t('inquiryTitle', { name: product.name })}</h2>
+          <p className="pdp-inquiry-sub">{t('inquiryDescription')}</p>
           <div className="pdp-inquiry-btns">
-            <a href="mailto:info@xmchichomeware.com" className="pdp-btn-primary">Email Us Now →</a>
-            <a href="https://wa.me/8618960098762" className="pdp-btn-outline" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
+            <a href="mailto:info@xmchichomeware.com" className="pdp-btn-primary">{tCta('emailUs')} →</a>
+            <a href="https://wa.me/8618960098762" className="pdp-btn-outline" target="_blank" rel="noopener noreferrer">{tCta('whatsapp')}</a>
           </div>
         </div>
       </section>
@@ -557,8 +560,8 @@ export default async function ProductDetail({ params }) {
       {related.length > 0 && (
         <section className="pdp-related">
           <div className="pdp-related-inner">
-            <div className="pdp-uses-label">More from this category</div>
-            <h2 className="pdp-uses-title">Related Products</h2>
+            <div className="pdp-uses-label">{t('relatedLabel')}</div>
+            <h2 className="pdp-uses-title">{t('relatedTitle')}</h2>
             <div className="pdp-related-grid">
               {related.map((rp) => (
                 <Link

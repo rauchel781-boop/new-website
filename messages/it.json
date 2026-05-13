@@ -184,5 +184,21 @@
         "d": "Imballaggio export affidabile e coordinamento spedizioni mondiale."
       }
     }
+  },
+  "productDetail": {
+    "sendInquiry": "Invia Richiesta",
+    "browseCategory": "Vedi Categoria",
+    "trust": {
+      "fsc": "Certificato FSC",
+      "reach": "EU REACH",
+      "sgs": "Testato da SGS",
+      "experience": "20+ Anni di Export"
+    },
+    "applicationsLabel": "Applicazioni",
+    "applicationsTitle": "Casi d’Uso Comuni",
+    "inquiryTitle": "Pronto per Ordinare {name}?",
+    "inquiryDescription": "Inviaci le tue specifiche — quantità, dimensioni, branding e qualunque requisito personalizzato. Rispondiamo entro 24 ore con un preventivo e conferma dei tempi di consegna.",
+    "relatedLabel": "Altro da questa categoria",
+    "relatedTitle": "Prodotti Correlati"
   }
 }

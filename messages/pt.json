@@ -184,5 +184,21 @@
         "d": "Embalagem para exportação fiável e coordenação de envios mundial."
       }
     }
+  },
+  "productDetail": {
+    "sendInquiry": "Enviar Pedido",
+    "browseCategory": "Ver Categoria",
+    "trust": {
+      "fsc": "Certificado FSC",
+      "reach": "EU REACH",
+      "sgs": "Testado pela SGS",
+      "experience": "20+ Anos de Exportação"
+    },
+    "applicationsLabel": "Aplicações",
+    "applicationsTitle": "Casos de Uso Comuns",
+    "inquiryTitle": "Pronto para Encomendar {name}?",
+    "inquiryDescription": "Envie-nos as suas especificações — quantidade, dimensões, branding e quaisquer requisitos personalizados. Respondemos em 24 horas com um orçamento e confirmação do prazo de entrega.",
+    "relatedLabel": "Mais desta categoria",
+    "relatedTitle": "Produtos Relacionados"
   }
 }
