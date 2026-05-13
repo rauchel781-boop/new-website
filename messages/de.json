@@ -66,7 +66,10 @@
     "woodFabrication": "Holzverarbeitung",
     "capabilities": "Fähigkeiten",
     "blogNews": "Blog & News",
-    "contactLink": "Kontakt"
+    "contactLink": "Kontakt",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "newsletterConsent": "Durch das Abonnieren stimmen Sie unserer <privacy>Datenschutzerklärung</privacy> zu. Wir senden 1-2 E-Mails pro Monat und Sie können sich jederzeit abmelden."
   },
   "language": {
     "label": "Sprache"

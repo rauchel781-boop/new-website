@@ -66,7 +66,10 @@
     "woodFabrication": "Wood Fabrication",
     "capabilities": "Capabilities",
     "blogNews": "Blog & News",
-    "contactLink": "Contact"
+    "contactLink": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "newsletterConsent": "By subscribing, you agree to our <privacy>Privacy Policy</privacy>. We send 1-2 emails per month and you can unsubscribe anytime."
   },
   "language": {
     "label": "Language"

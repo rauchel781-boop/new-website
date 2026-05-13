@@ -89,6 +89,14 @@ const FOOTER_CSS = `
 .chic-ftr .news-btn:disabled { opacity: 0.5; cursor: wait; transform: none; }
 .chic-ftr .news-msg { font-size: 0.75rem; letter-spacing: 1px; color: var(--wd-light); margin: 0; }
 .chic-ftr .news-msg.error { color: #E8A87C; }
+.chic-ftr .news-fine {
+  font-size: 0.7rem; line-height: 1.6;
+  color: rgba(217,185,143,0.5);
+  margin: 0;
+  letter-spacing: 0.3px;
+}
+.chic-ftr .news-fine a { color: rgba(217,185,143,0.85); text-decoration: underline; text-underline-offset: 2px; }
+.chic-ftr .news-fine a:hover { color: var(--wd-warm); }
 
 /* Main grid */
 .chic-ftr .main {
@@ -200,6 +208,16 @@ const FOOTER_CSS = `
   color: rgba(217,185,143,0.5);
 }
 .chic-ftr .bot-r { display: flex; gap: 18px; align-items: center; }
+.chic-ftr .bot-legal { display: inline-flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.chic-ftr .bot-legal a {
+  color: rgba(217,185,143,0.65);
+  font-size: 0.72rem;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: color .2s;
+}
+.chic-ftr .bot-legal a:hover { color: var(--wd-warm); }
+.chic-ftr .bot-legal-sep { color: rgba(197,142,74,0.3); }
 .chic-ftr .bot-cert {
   display: inline-flex; align-items: center; gap: 8px;
   color: var(--wd-warm);
@@ -339,6 +357,11 @@ export default function Footer() {
               </button>
             </div>
             {subMsg && <p className={`news-msg ${subState === 'error' ? 'error' : ''}`}>{subMsg}</p>}
+            <p className="news-fine">
+              {t.rich('footer.newsletterConsent', {
+                privacy: (chunks) => <Link href="/privacy">{chunks}</Link>,
+              })}
+            </p>
           </form>
         </div>
       </div>
@@ -445,6 +468,11 @@ export default function Footer() {
       <div className="bot">
         <div className="bot-inner">
           <span>© {year} {SITE.company.legalName} {t('footer.allRightsReserved')}</span>
+          <div className="bot-legal">
+            <Link href="/privacy">{t('footer.privacy')}</Link>
+            <span className="bot-legal-sep">·</span>
+            <Link href="/terms">{t('footer.terms')}</Link>
+          </div>
           <div className="bot-r">
             <span className="bot-cert">✦ {t('footer.madeIn')}</span>
           </div>

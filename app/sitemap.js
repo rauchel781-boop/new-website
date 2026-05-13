@@ -125,6 +125,16 @@ export default function sitemap() {
     }
   }
 
+  // ── Legal pages (English-only — privacy/terms canonicalise to /en/) ──
+  for (const legalPath of ['/privacy', '/terms']) {
+    entries.push({
+      url: `${SITE.siteUrl}/${routing.defaultLocale}${legalPath}`,
+      lastModified: today,
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    });
+  }
+
   // ── Blog (English-only at /en/blog/...) ─────────────────────────────
   entries.push({
     url: `${SITE.siteUrl}/${routing.defaultLocale}/blog`,

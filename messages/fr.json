@@ -66,7 +66,10 @@
     "woodFabrication": "Fabrication du Bois",
     "capabilities": "Capacités",
     "blogNews": "Blog et Actualités",
-    "contactLink": "Contact"
+    "contactLink": "Contact",
+    "privacy": "Politique de Confidentialité",
+    "terms": "Conditions d’Utilisation",
+    "newsletterConsent": "En vous abonnant, vous acceptez notre <privacy>Politique de Confidentialité</privacy>. Nous envoyons 1 à 2 e-mails par mois et vous pouvez vous désinscrire à tout moment."
   },
   "language": {
     "label": "Langue"

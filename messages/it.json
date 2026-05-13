@@ -66,7 +66,10 @@
     "woodFabrication": "Lavorazione del Legno",
     "capabilities": "Capacità",
     "blogNews": "Blog e Notizie",
-    "contactLink": "Contatti"
+    "contactLink": "Contatti",
+    "privacy": "Informativa sulla Privacy",
+    "terms": "Termini di Servizio",
+    "newsletterConsent": "Iscrivendoti accetti la nostra <privacy>Informativa sulla Privacy</privacy>. Inviamo 1-2 e-mail al mese e puoi disiscriverti in qualunque momento."
   },
   "language": {
     "label": "Lingua"
