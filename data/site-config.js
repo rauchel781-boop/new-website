@@ -87,6 +87,26 @@ export const SITE = {
     contactTemplateId:   'template_gua3mo9',
     newsletterTemplateId:'template_51pc4th',
   },
+
+  // ─────────────────────────────────────────────────────────────────────
+  // Analytics — Google Analytics 4 + (optional) Microsoft Clarity
+  //
+  // Both scripts only load AFTER the visitor accepts cookies via the
+  // cookie banner (see components/CookieConsent.jsx). Until then they
+  // are not requested at all — no network calls, no cookies, no
+  // browser fingerprinting.
+  //
+  // GA4 setup: Admin → Data Streams → click your web stream → top-right
+  // shows "Measurement ID" (G-XXXXXXXXXX). Paste it below.
+  //
+  // Clarity setup: clarity.microsoft.com → your project → Settings →
+  // Setup → copy "Project ID" (10-char lowercase alphanumeric).
+  // Leave as '' or 'YOUR_…' to disable.
+  // ─────────────────────────────────────────────────────────────────────
+  analytics: {
+    googleAnalyticsId: 'G-RTG65S2XK9',
+    clarityProjectId:  '',
+  },
 };
 
 // Helper — true while EmailJS still has placeholder values, false once configured.
