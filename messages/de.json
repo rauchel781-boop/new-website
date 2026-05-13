@@ -200,5 +200,13 @@
     "inquiryDescription": "Senden Sie uns Ihre Spezifikationen — Menge, Abmessungen, Branding und alle individuellen Anforderungen. Wir antworten innerhalb von 24 Stunden mit einem Angebot und einer Bestätigung der Lieferzeit.",
     "relatedLabel": "Mehr aus dieser Kategorie",
     "relatedTitle": "Ähnliche Produkte"
+  },
+  "productTabs": {
+    "description": "Beschreibung",
+    "specifications": "Spezifikationen",
+    "customization": "Anpassung",
+    "packaging": "Verpackung & Versand",
+    "descriptionBoilerplate": "Alle Boxen werden nach Ihren Spezifikationen gefertigt — Holzarten, Abmessungen, Finish, Beschläge, Auskleidung und Branding sind für Ihr Projekt vollständig anpassbar. Muster innerhalb von 7 Tagen nach bestätigtem Angebot verfügbar.",
+    "packagingBoilerplate": "Wir kümmern uns um die gesamte Exportdokumentation: Handelsrechnung, Packliste, Ursprungszeugnis, Pflanzengesundheitszeugnis (für Massivholz) und Begasung nach Bedarf. Versand per FCL, LCL oder Luftexpress je nach Volumen und Dringlichkeit."
   }
 }

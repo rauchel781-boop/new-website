@@ -200,5 +200,13 @@
     "inquiryDescription": "Inviaci le tue specifiche — quantità, dimensioni, branding e qualunque requisito personalizzato. Rispondiamo entro 24 ore con un preventivo e conferma dei tempi di consegna.",
     "relatedLabel": "Altro da questa categoria",
     "relatedTitle": "Prodotti Correlati"
+  },
+  "productTabs": {
+    "description": "Descrizione",
+    "specifications": "Specifiche",
+    "customization": "Personalizzazione",
+    "packaging": "Imballaggio e Spedizione",
+    "descriptionBoilerplate": "Tutte le box sono costruite secondo le tue specifiche — essenze di legno, dimensioni, finitura, ferramenta, fodera e branding sono completamente personalizzabili per il tuo progetto. Campione disponibile entro 7 giorni dalla conferma del preventivo.",
+    "packagingBoilerplate": "Gestiamo tutta la documentazione di export: fattura commerciale, packing list, certificato di origine, certificato fitosanitario (per legno massello) e fumigazione secondo necessità. Spedizione tramite FCL, LCL o aereo express in base a volume e urgenza."
   }
 }

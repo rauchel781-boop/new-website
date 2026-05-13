@@ -200,5 +200,13 @@
     "inquiryDescription": "Envíanos tus especificaciones — cantidad, dimensiones, branding y cualquier requisito personalizado. Respondemos en 24 horas con una cotización y confirmación de plazo de entrega.",
     "relatedLabel": "Más de esta categoría",
     "relatedTitle": "Productos Relacionados"
+  },
+  "productTabs": {
+    "description": "Descripción",
+    "specifications": "Especificaciones",
+    "customization": "Personalización",
+    "packaging": "Embalaje y Envío",
+    "descriptionBoilerplate": "Todas las cajas se fabrican según tus especificaciones — especies de madera, dimensiones, acabado, herrajes, forro y branding son totalmente personalizables para tu proyecto. Muestra disponible en 7 días tras cotización confirmada.",
+    "packagingBoilerplate": "Gestionamos toda la documentación de exportación: factura comercial, lista de empaque, certificado de origen, certificado fitosanitario (para madera maciza) y fumigación según se requiera. Envío por FCL, LCL o aéreo express según volumen y urgencia."
   }
 }

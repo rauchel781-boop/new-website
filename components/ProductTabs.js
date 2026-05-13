@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 const CSS = `
 .tabs {
@@ -81,13 +82,14 @@ const CSS = `
 `;
 
 export default function ProductTabs({ description, specs, customization, packaging }) {
+  const t = useTranslations('productTabs');
   const [tab, setTab] = useState('description');
 
   const tabs = [
-    { id: 'description', label: 'Description' },
-    { id: 'specifications', label: 'Specifications' },
-    { id: 'customization', label: 'Customization' },
-    { id: 'packaging', label: 'Packaging & Shipping' },
+    { id: 'description', label: t('description') },
+    { id: 'specifications', label: t('specifications') },
+    { id: 'customization', label: t('customization') },
+    { id: 'packaging', label: t('packaging') },
   ];
 
   return (
@@ -95,14 +97,14 @@ export default function ProductTabs({ description, specs, customization, packagi
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
       <div className="tabs-nav">
-        {tabs.map((t) => (
+        {tabs.map((item) => (
           <button
-            key={t.id}
-            className={`tabs-btn${tab === t.id ? ' is-active' : ''}`}
-            onClick={() => setTab(t.id)}
+            key={item.id}
+            className={`tabs-btn${tab === item.id ? ' is-active' : ''}`}
+            onClick={() => setTab(item.id)}
             type="button"
           >
-            {t.label}
+            {item.label}
           </button>
         ))}
       </div>
@@ -111,11 +113,7 @@ export default function ProductTabs({ description, specs, customization, packagi
         {tab === 'description' && (
           <div>
             <p>{description}</p>
-            <p>
-              All boxes are built to your specifications — wood species, dimensions,
-              finish, hardware, lining, and branding can all be customized for your project.
-              Sample available within 7 days of confirmed quote.
-            </p>
+            <p>{t('descriptionBoilerplate')}</p>
           </div>
         )}
 
@@ -143,12 +141,7 @@ export default function ProductTabs({ description, specs, customization, packagi
         {tab === 'packaging' && (
           <div>
             <p>{packaging}</p>
-            <p>
-              We handle all export documentation: commercial invoice, packing list,
-              certificate of origin, phytosanitary certificate (for solid wood), and
-              fumigation as required. Shipping by FCL, LCL, or air express depending
-              on volume and urgency.
-            </p>
+            <p>{t('packagingBoilerplate')}</p>
           </div>
         )}
       </div>

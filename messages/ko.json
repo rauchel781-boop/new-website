@@ -200,5 +200,13 @@
     "inquiryDescription": "수량, 치수, 브랜딩, 맞춤 요구사항 등 사양을 보내주세요. 24시간 이내에 견적과 납기 확인을 드립니다.",
     "relatedLabel": "이 카테고리의 다른 제품",
     "relatedTitle": "관련 제품"
+  },
+  "productTabs": {
+    "description": "설명",
+    "specifications": "사양",
+    "customization": "맞춤 제작",
+    "packaging": "포장 및 배송",
+    "descriptionBoilerplate": "모든 박스는 고객님의 사양에 따라 제작됩니다 — 목재 종류, 치수, 마감, 하드웨어, 안감, 브랜딩 모두 프로젝트에 맞게 맞춤 제작 가능. 견적 확정 후 7일 이내 샘플 제공.",
+    "packagingBoilerplate": "수출 서류는 모두 저희가 처리합니다: 상업 송장, 포장 명세서, 원산지 증명서, 식물 위생 증명서(원목의 경우), 필요시 훈증. 물량과 긴급도에 따라 FCL, LCL 또는 항공 특송으로 배송."
   }
 }
