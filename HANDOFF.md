@@ -180,6 +180,34 @@ export default TRANSLATIONS;
 
 副作用：把 `getProductTranslation` 添加为 `[slug]/page.js` 的 import，把 `getTranslations` 添加为 `[product]/page.js` 的 import。
 
+### Privacy Policy + Terms of Service 上线（2026-05-12）
+**背景**：合规审计发现网站全裸 — 没 Privacy Policy、没 Terms、没 Cookie banner、没 GA4，Newsletter 表单收 email 还没任何同意机制。这次先补最紧迫的两个法律页 + Footer 同意小字。
+
+**新建文件**：
+- `app/[locale]/privacy/page.js` — 12 节通用 B2B 外贸 Privacy Policy（英文 only，canonical 到 /en/privacy，仿照 blog 的处理）
+- `app/[locale]/terms/page.js` — 14 节 Terms of Service（同上 canonical 策略）
+
+**改动文件**：
+- `components/Footer.js`
+  - 底部栏（bot-inner）加 Privacy + Terms 链接，居中位置，用 `·` 分隔
+  - Newsletter 表单下加 GDPR 风格同意小字，用 `t.rich()` 渲染 `<privacy>...</privacy>` 占位符为 Link
+  - 加了对应 CSS：`.bot-legal` / `.bot-legal-sep` / `.news-fine`
+- `app/sitemap.js` — `/en/privacy` 和 `/en/terms` 入口（changeFrequency: yearly, priority: 0.3）
+- `messages/{en,es,fr,de,it,pt,ja,ko}.json` × 8 — 每个加 3 个新 key：
+  - `footer.privacy`（Privacy Policy 译名）
+  - `footer.terms`（Terms of Service 译名）
+  - `footer.newsletterConsent`（同意文案，含 `<privacy>...</privacy>` 富文本标签）
+
+**法律文案需要律师过的几条**：
+- 仲裁机构选了 Xiamen Arbitration Commission — 如果客户主要在欧美，建议改成 CIETAC（北京/上海/深圳）或 HKIAC
+- 责任上限 USD 100 — 这是网站使用的责任上限，不影响产品订单 PI，但具体数字律师可能会建议调整
+- 数据保留 7 年 — 按中国会计法常见做法，可能要按业务调整
+- Newsletter 用了「订阅即同意」隐式同意，严格 GDPR 要求显式 checkbox。B2B 行业普遍按软同意 + 易退订操作
+
+**还没补的合规件**（参见第九节）：
+- Cookie banner（Tawk.to 已经在落 cookie，严格 GDPR 要先同意才能加载第三方脚本）
+- GA4 / Microsoft Clarity（现在零数据，做生意闭眼）
+
 ## 八、网站当前性能 / SEO 状态
 
 按 Google 18 个 SEO 维度核查的现状（详见之前对话的核对结果）：
@@ -205,9 +233,26 @@ export default TRANSLATIONS;
 
 ## 九、剩余待办（按优先级排）
 
+### 最高优先级（合规 / 数据闭环）
+
+1. **Cookie banner**
+   Tawk.to 聊天插件已经在落 cookie；Google Fonts 加载也会暴露访客 IP。严格 GDPR 要求**先获取明示同意才能加载第三方脚本**。建议：
+   - 写一个轻量 banner 组件（不要装重型库），底部固定栏，2 个按钮：「Accept」/「Decline」
+   - 用 React Context + cookie 存同意状态
+   - Tawk.to / 未来的 GA4 都包在 `if (consent === 'accepted')` 里再加载
+   - 文案翻 8 语放到 messages JSON
+
+2. **GA4 + Microsoft Clarity 装上**
+   现在零数据，等于做生意闭眼。建议两个都装：
+   - GA4：正经分析、转化追踪（推荐事件：`inquiry_form_submitted`、`whatsapp_clicked`、`email_clicked`）
+   - Clarity：免费热力图 + session recording（不需 cookie 同意分级，GDPR 友好）
+   - 都用 `next/script` 加载，strategy="lazyOnload"
+   - **必须挂在 Cookie banner 后面**（合规闭环）
+   - Measurement ID 用环境变量 `NEXT_PUBLIC_GA_ID` 存
+
 ### 高优先级
 
-1. **产品详情页正文 i18n 大改造**（最大块的活）
+3. **产品详情页正文 i18n 大改造**（最大块的活）
    翻译 overlay 只覆盖了 name / closure / tagline / intro 4 个字段。但 `[product]/page.js` 渲染时还有大量英文硬编码：
    - `specs` 表格的 key（"Closure Type" / "Material" / "Surface Finish" / "Lead Time" / "MOQ" / "Branding"）和 value
    - `customization` 数组（每个产品 6 条左右）
@@ -220,25 +265,32 @@ export default TRANSLATIONS;
    
    工作量：远超翻译产品名。需要先把这些字符串抽到 `next-intl` messages namespace，再翻 7 语。建议分模块做（先抽 trust badges + inquiry banner 这种短的，再做 specs/customization 这种数据驱动的）。
 
-2. **INP 实测**
+4. **INP 实测**
    GSC → Core Web Vitals 看实地数据；PSI → 跑 lab INP；潜在大户：`TawkChat`（第三方）、`ProductGallery`（client component）。
 
 ### 中优先级
 
-3. **博客 8 语化**
+5. **法律文案律师 review**
+   现在 Privacy/Terms 是通用 B2B 模板。重点 review 几条：
+   - 仲裁机构（现在写的是 Xiamen Arbitration Commission，欧美客户可能更认 CIETAC / HKIAC）
+   - 责任上限 USD 100 是否合适
+   - 数据保留 7 年是否合规
+   - Newsletter 是否需要改成显式 opt-in checkbox
+
+6. **博客 8 语化**
    现在博客 EN-only，所有 locale canonical 到 `/en/blog`。如果要翻：要写新的 blog 内容数据结构（按 locale 分），改 sitemap 把博客也按 locale 输出，改 page-level metadata 的 alternates。
 
-4. **FAQ schema / HowTo schema**
+7. **FAQ schema / HowTo schema**
    - FAQ schema → 加在 capabilities 页和 material-guide 页（B2B 询盘问 FAQ 多）
    - HowTo schema → 加在 material-guide 的「选材步骤」上
 
 ### 低优先级 / 可选
 
-5. **OG 图升级**：现在 `layout.js:48` 用 `/logo.png` 当 1200×630 OG card，实际文件可能不是这个尺寸。做个专门的 social card 图。
+8. **OG 图升级**：现在 `layout.js:48` 用 `/logo.png` 当 1200×630 OG card，实际文件可能不是这个尺寸。做个专门的 social card 图。
 
-6. **产品图 alt 微调**：`ProductGallery.js:102` 的 alt 是 `${name} — view ${idx + 1}`，「view」这词在所有语言都是英文。改成 `t('imageView', { idx: idx + 1 })` 之类。
+9. **产品图 alt 微调**：`ProductGallery.js:102` 的 alt 是 `${name} — view ${idx + 1}`，「view」这词在所有语言都是英文。改成 `t('imageView', { idx: idx + 1 })` 之类。
 
-7. **加阿拉伯语 / 俄语 / 越南语** 等新市场（如果业务有需求）。
+10. **加阿拉伯语 / 俄语 / 越南语** 等新市场（如果业务有需求）。
 
 ## 十、和用户沟通的风格备注
 
@@ -255,7 +307,13 @@ export default TRANSLATIONS;
 
 **最后状态**（2026-05-12 verified）：
 - 整站翻译：**186/186 = 100% ✅**（8 语全部覆盖）
-- 上次大改：commit `fee12a3` BreadcrumbList 本地化 + tea-coffee 29 翻译
-- 之后又跟了：hinged+sliding-lid 19 翻译、drawer+magnetic+with-lock 26 翻译
-- 用户已浏览器验证：「可以了」
-- 下一步：第九节待办中选一项继续（推荐先做「产品详情页正文 i18n 改造」或「INP 实测」）
+- **法律合规基础件**：Privacy Policy + Terms of Service 上线，Footer 加 Legal 链接，Newsletter 加 GDPR 同意小字 ✅
+- 本轮 commit 顺序：
+  1. `fee12a3` BreadcrumbList 本地化 + tea-coffee 29 翻译
+  2. hinged + sliding-lid 19 翻译
+  3. drawer + magnetic + with-lock 26 翻译
+  4. .gitignore + HANDOFF 第一次更新
+  5. Privacy/Terms 页 + Footer Legal 链接 + Newsletter 同意（本次）
+  6. HANDOFF 第二次更新（本次）
+- 用户每次都浏览器验证「可以了」
+- **下一步推荐**：第九节最高优先级（Cookie banner → GA4 / Clarity），这是合规和数据闭环的两个最关键空白
