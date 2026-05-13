@@ -303,5 +303,21 @@
     "Open-Top": "Open Top",
     "Lock": "Lockable",
     "Swivel Lid": "Swivel Lid"
+  },
+  "materialGuideHowto": {
+    "title": "How to Choose Your Wooden Box",
+    "sub": "A 6-step buyer flow — from defining your use case to confirming production. Most B2B buyers cycle through these in order before requesting samples.",
+    "step1Title": "Identify Your Use Case",
+    "step1Body": "Define what the box will hold and how it will be used — retail packaging, premium gifting, storage, display, or shipping. Use case drives weight, durability, and finish requirements.",
+    "step2Title": "Choose a Wood Species",
+    "step2Body": "Match aesthetic and budget: paulownia (lightest, best freight cost), pine (clean grain, paint-friendly), bamboo (sustainable, modern), acacia (rich grain, mid-range), walnut (premium chocolate hardwood).",
+    "step3Title": "Pick a Closure Type",
+    "step3Body": "Hinged for everyday opening; magnetic for premium clean look; sliding for hardware-free freight savings; drawer for organized access; lock for secure storage; open top for display.",
+    "step4Title": "Specify Finish and Surface",
+    "step4Body": "Choose between natural oil (food-safe, warmest tone), matte lacquer (clean modern), painted (color flexibility), stained (richer color), or torched (rustic). Each affects feel, durability, and brandability.",
+    "step5Title": "Add Branding",
+    "step5Body": "Laser engraving for permanence and fine detail; hot foil for luxury feel; screen print for color; debossing for premium texture; brass nameplate for jewelry-grade products.",
+    "step6Title": "Confirm Quantity and Lead Time",
+    "step6Body": "Match MOQ to your sales velocity (typical 200–500 for our line); plan 25–35 days from confirmed sample. Order samples first if it is a new design."
   }
 }

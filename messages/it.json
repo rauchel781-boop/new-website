@@ -303,5 +303,21 @@
     "Open-Top": "Top Aperto",
     "Lock": "Con Serratura",
     "Swivel Lid": "Coperchio Girevole"
+  },
+  "materialGuideHowto": {
+    "title": "Come Scegliere la Tua Box in Legno",
+    "sub": "Un flusso acquirente in 6 passi — dalla definizione del tuo caso d’uso alla conferma della produzione. La maggior parte dei compratori B2B segue questi passi in ordine prima di richiedere campioni.",
+    "step1Title": "Identifica il Tuo Caso d’Uso",
+    "step1Body": "Definisci cosa conterrà la box e come sarà usata — packaging retail, regalo premium, stoccaggio, esposizione o spedizione. Il caso d’uso determina peso, durabilità e requisiti di finitura.",
+    "step2Title": "Scegli un’Essenza di Legno",
+    "step2Body": "Abbina estetica e budget: paulownia (la più leggera, miglior costo spedizione), pino (venatura pulita, accetta vernice), bambù (sostenibile, moderno), acacia (venatura ricca, fascia media), noce (legno duro cioccolato premium).",
+    "step3Title": "Scegli un Tipo di Chiusura",
+    "step3Body": "Con cerniera per apertura quotidiana; magnetica per look pulito premium; scorrevole per risparmio di spedizione senza ferramenta; cassetto per accesso organizzato; con serratura per stoccaggio sicuro; aperta per esposizione.",
+    "step4Title": "Specifica Finitura e Superficie",
+    "step4Body": "Scegli tra olio naturale (food-safe, tono più caldo), lacca opaca (moderno pulito), verniciato (flessibilità di colore), tinto (colore più ricco) o bruciato (rustico). Ciascuno influisce su sensazione, durabilità e brandabilità.",
+    "step5Title": "Aggiungi Branding",
+    "step5Body": "Incisione laser per permanenza e dettaglio fine; hot foil per sensazione di lusso; serigrafia per colore; debossing per texture premium; targhetta ottone per prodotti qualità gioielleria.",
+    "step6Title": "Conferma Quantità e Tempi",
+    "step6Body": "Abbina MOQ alla tua velocità di vendita (tipico 200–500 per la nostra linea); pianifica 25–35 giorni dal campione confermato. Ordina prima campioni se è un design nuovo."
   }
 }

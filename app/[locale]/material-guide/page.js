@@ -1,7 +1,9 @@
 import { Link } from '@/i18n/navigation';
 import { alternates } from '@/i18n/seo';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getMaterialGuide } from '@/data/material-guide';
+import JsonLd from '@/components/JsonLd';
+import { SITE } from '@/data/site-config';
 
 export async function generateMetadata({ params: { locale } }) {
   const { COPY } = getMaterialGuide(locale);
@@ -657,6 +659,62 @@ const CSS = `
   .mg-cta { padding: 80px 24px; }
   .mg-cmp-wrap { overflow-x: auto; }
 }
+
+/* ─── HOW TO CHOOSE ─── */
+.mg-howto {
+  background: var(--cream-dk);
+  padding: 90px 60px;
+  border-top: 1px solid rgba(107,74,51,0.15);
+  border-bottom: 1px solid rgba(107,74,51,0.15);
+}
+.mg-howto-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 40px;
+}
+.mg-howto-step {
+  background: var(--cream);
+  border: 1px solid var(--grain);
+  border-radius: 6px;
+  padding: 28px 28px 26px;
+  position: relative;
+  transition: transform .2s, box-shadow .2s, border-color .2s;
+}
+.mg-howto-step:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 16px 36px rgba(61,42,31,0.08);
+  border-color: var(--accent);
+}
+.mg-howto-num {
+  font-family: var(--font-playfair), serif;
+  font-style: italic;
+  font-size: 2.4rem;
+  color: var(--accent);
+  line-height: 1;
+  margin-bottom: 8px;
+  display: block;
+}
+.mg-howto-title {
+  font-family: var(--font-fraunces), serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: var(--wood-deep);
+  margin: 0 0 12px;
+  letter-spacing: -0.2px;
+}
+.mg-howto-body {
+  font-size: 0.92rem;
+  color: var(--wood-mid);
+  line-height: 1.7;
+  margin: 0;
+}
+@media (max-width: 900px) {
+  .mg-howto { padding: 70px 24px; }
+  .mg-howto-grid { grid-template-columns: 1fr; gap: 16px; }
+  .mg-howto-step { padding: 22px 22px 20px; }
+  .mg-howto-num { font-size: 2rem; }
+}
 `;
 
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
@@ -689,11 +747,38 @@ function PriceTierLg({ value }) {
 }
 
 // ─── PAGE ────────────────────────────────────────────────────────────────────
-export default function MaterialGuidePage({ params: { locale } }) {
+const HOWTO_STEPS = [1, 2, 3, 4, 5, 6];
+
+export default async function MaterialGuidePage({ params: { locale } }) {
   unstable_setRequestLocale(locale);
   const { WOODS, FINISHES, BRANDING, HARDWARE, COPY } = getMaterialGuide(locale);
+
+  // ── HowTo: 6-step buyer flow ───────────────────────────────────────
+  // Section content + matching JSON-LD HowTo schema. Schema steps must
+  // mirror the visible section (Google rich-result requirement).
+  const tHowto = await getTranslations({ locale, namespace: 'materialGuideHowto' });
+  const howtoSteps = HOWTO_STEPS.map((n) => ({
+    n,
+    title: tHowto(`step${n}Title`),
+    body: tHowto(`step${n}Body`),
+  }));
+  const howtoLd = {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: tHowto('title'),
+    description: tHowto('sub'),
+    url: `${SITE.siteUrl}/${locale}/material-guide#howto`,
+    step: howtoSteps.map((s) => ({
+      '@type': 'HowToStep',
+      position: s.n,
+      name: s.title,
+      text: s.body,
+    })),
+  };
+
   return (
     <div className="mg">
+      <JsonLd data={howtoLd} />
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
       {/* ─── HERO ─── */}
@@ -705,6 +790,7 @@ export default function MaterialGuidePage({ params: { locale } }) {
           </h1>
           <p className="mg-sub">{COPY.hero.sub}</p>
           <div className="mg-toc">
+            <a href="#howto">{tHowto('title')}</a>
             <a href="#compare">{COPY.hero.tocLabels.compare}</a>
             {WOODS.map((w) => (
               <a key={w.slug} href={`#${w.slug}`}>{w.name}</a>
@@ -713,6 +799,25 @@ export default function MaterialGuidePage({ params: { locale } }) {
             <a href="#branding">{COPY.hero.tocLabels.branding}</a>
             <a href="#hardware">{COPY.hero.tocLabels.hardware}</a>
             <a href="#eco">{COPY.hero.tocLabels.eco}</a>
+          </div>
+        </div>
+      </section>
+
+      {/* ─── HOW TO CHOOSE (6-step buyer flow) ─── */}
+      <section className="mg-howto" id="howto">
+        <div className="mg-section-inner">
+          <div className="mg-section-label">{COPY.hero.eyebrow}</div>
+          <h2 className="mg-section-title">{tHowto('title')}</h2>
+          <div className="mg-section-line" />
+          <p className="mg-section-lede">{tHowto('sub')}</p>
+          <div className="mg-howto-grid">
+            {howtoSteps.map((s) => (
+              <div key={s.n} className="mg-howto-step">
+                <span className="mg-howto-num">{String(s.n).padStart(2, '0')}</span>
+                <h3 className="mg-howto-title">{s.title}</h3>
+                <p className="mg-howto-body">{s.body}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

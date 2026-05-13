@@ -303,5 +303,21 @@
     "Open-Top": "Offen",
     "Lock": "Mit Schloss",
     "Swivel Lid": "Schwenkdeckel"
+  },
+  "materialGuideHowto": {
+    "title": "Wie Sie Ihre Holzbox Wählen",
+    "sub": "Ein 6-stufiger Käuferprozess — von der Definition Ihres Anwendungsfalls bis zur Produktionsbestätigung. Die meisten B2B-Käufer durchlaufen diese Schritte in dieser Reihenfolge, bevor sie Muster anfordern.",
+    "step1Title": "Anwendungsfall Identifizieren",
+    "step1Body": "Definieren Sie, was die Box enthalten und wie sie verwendet wird — Retail-Verpackung, Premium-Geschenk, Aufbewahrung, Display oder Versand. Der Anwendungsfall bestimmt Gewicht, Haltbarkeit und Finish-Anforderungen.",
+    "step2Title": "Holzart Wählen",
+    "step2Body": "Stimmen Sie Ästhetik und Budget ab: Paulownia (leichteste, beste Frachtkosten), Kiefer (sauberes Korn, farbfreundlich), Bambus (nachhaltig, modern), Akazie (reiches Korn, Mittelklasse), Walnuss (Premium-Schokoladen-Hartholz).",
+    "step3Title": "Verschlussart Wählen",
+    "step3Body": "Scharnier für tägliches Öffnen; magnetisch für sauberen Premium-Look; Schiebedeckel für hardwarefreie Frachtersparnis; Schublade für organisierten Zugriff; Schloss für sichere Aufbewahrung; offen für Display.",
+    "step4Title": "Finish und Oberfläche Spezifizieren",
+    "step4Body": "Wählen Sie zwischen Naturöl (lebensmittelecht, wärmster Ton), Mattlack (sauber modern), lackiert (Farbflexibilität), gebeizt (reichere Farbe) oder angebrannt (rustikal). Jedes beeinflusst Gefühl, Haltbarkeit und Brandability.",
+    "step5Title": "Branding Hinzufügen",
+    "step5Body": "Lasergravur für Beständigkeit und feines Detail; Heißfolie für luxuriöses Gefühl; Siebdruck für Farbe; Debossing für Premium-Textur; Messingschild für Schmuckqualität.",
+    "step6Title": "Menge und Lieferzeit Bestätigen",
+    "step6Body": "Passen Sie MOQ an Ihre Verkaufsgeschwindigkeit an (typisch 200–500 für unsere Linie); planen Sie 25–35 Tage ab bestätigtem Muster. Bestellen Sie zuerst Muster bei neuem Design."
   }
 }

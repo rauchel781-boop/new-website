@@ -303,5 +303,21 @@
     "Open-Top": "Top Ouvert",
     "Lock": "Avec Serrure",
     "Swivel Lid": "Couvercle Pivotant"
+  },
+  "materialGuideHowto": {
+    "title": "Comment Choisir votre Boîte en Bois",
+    "sub": "Un parcours acheteur en 6 étapes — de la définition de votre cas d’usage à la confirmation de production. La plupart des acheteurs B2B suivent ces étapes dans l’ordre avant de demander des échantillons.",
+    "step1Title": "Identifiez votre Cas d’Usage",
+    "step1Body": "Définissez ce que la boîte contiendra et comment elle sera utilisée — packaging retail, cadeau premium, rangement, présentation ou expédition. Le cas d’usage détermine poids, durabilité et exigences de finition.",
+    "step2Title": "Choisissez une Essence de Bois",
+    "step2Body": "Accordez esthétique et budget : paulownia (le plus léger, meilleur coût de fret), pin (fil propre, accepte peinture), bambou (durable, moderne), acacia (fil riche, milieu de gamme), noyer (bois dur chocolat premium).",
+    "step3Title": "Choisissez un Type de Fermeture",
+    "step3Body": "À charnière pour ouverture quotidienne ; magnétique pour un look propre premium ; coulissant pour économies de fret sans quincaillerie ; tiroir pour accès organisé ; avec serrure pour stockage sécurisé ; ouvert pour présentation.",
+    "step4Title": "Spécifiez Finition et Surface",
+    "step4Body": "Choisissez entre huile naturelle (food-safe, ton le plus chaud), laque mate (moderne épuré), peint (flexibilité couleur), teinté (couleur plus riche) ou brûlé (rustique). Chacun affecte le ressenti, la durabilité et le branding.",
+    "step5Title": "Ajoutez le Branding",
+    "step5Body": "Gravure laser pour permanence et détail fin ; hot foil pour ressenti luxueux ; sérigraphie pour la couleur ; debossing pour texture premium ; plaque laiton pour produits qualité bijouterie.",
+    "step6Title": "Confirmez Quantité et Délai",
+    "step6Body": "Adaptez MOQ à votre vitesse de vente (typique 200–500 pour notre gamme) ; prévoyez 25–35 jours à partir de l’échantillon confirmé. Commandez d’abord des échantillons si c’est un nouveau design."
   }
 }

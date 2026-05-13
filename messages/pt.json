@@ -303,5 +303,21 @@
     "Open-Top": "Topo Aberto",
     "Lock": "Com Fechadura",
     "Swivel Lid": "Tampa Giratória"
+  },
+  "materialGuideHowto": {
+    "title": "Como Escolher a Sua Caixa de Madeira",
+    "sub": "Um fluxo de 6 passos para compradores — desde a definição do caso de uso até à confirmação da produção. A maioria dos compradores B2B segue estes passos por ordem antes de pedir amostras.",
+    "step1Title": "Identifique o Seu Caso de Uso",
+    "step1Body": "Defina o que a caixa irá conter e como será usada — packaging retail, presente premium, armazenamento, exposição ou envio. O caso de uso determina peso, durabilidade e requisitos de acabamento.",
+    "step2Title": "Escolha uma Espécie de Madeira",
+    "step2Body": "Combine estética e orçamento: paulownia (a mais leve, melhor custo de frete), pinho (veio limpo, aceita tinta), bambu (sustentável, moderno), acácia (veio rico, gama média), nogueira (madeira dura chocolate premium).",
+    "step3Title": "Selecione um Tipo de Fecho",
+    "step3Body": "Com dobradiça para abertura diária; magnético para look limpo premium; deslizante para poupança de frete sem ferragens; gaveta para acesso organizado; com fechadura para armazenamento seguro; aberto para exposição.",
+    "step4Title": "Especifique Acabamento e Superfície",
+    "step4Body": "Escolha entre óleo natural (food-safe, tom mais quente), laca fosca (moderno limpo), pintado (flexibilidade de cor), tingido (cor mais rica) ou queimado (rústico). Cada um afeta sensação, durabilidade e brandabilidade.",
+    "step5Title": "Adicione Branding",
+    "step5Body": "Gravação laser para permanência e detalhe fino; hot foil para sensação de luxo; serigrafia para cor; debossing para textura premium; placa de latão para produtos qualidade joalharia.",
+    "step6Title": "Confirme Quantidade e Prazo",
+    "step6Body": "Ajuste MOQ à sua velocidade de vendas (típico 200–500 para a nossa linha); planeie 25–35 dias a partir da amostra confirmada. Peça primeiro amostras se for um design novo."
   }
 }

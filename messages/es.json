@@ -303,5 +303,21 @@
     "Open-Top": "Top Abierto",
     "Lock": "Con Cerradura",
     "Swivel Lid": "Tapa Giratoria"
+  },
+  "materialGuideHowto": {
+    "title": "Cómo Elegir tu Caja de Madera",
+    "sub": "Un flujo de 6 pasos para compradores — desde definir tu caso de uso hasta confirmar producción. La mayoría de compradores B2B pasan por estos en orden antes de pedir muestras.",
+    "step1Title": "Identifica tu Caso de Uso",
+    "step1Body": "Define qué contendrá la caja y cómo se usará — packaging retail, regalo premium, almacenamiento, exhibición o envío. El caso de uso determina peso, durabilidad y requisitos de acabado.",
+    "step2Title": "Elige una Especie de Madera",
+    "step2Body": "Combina estética y presupuesto: paulownia (más ligera, mejor coste de flete), pino (veta limpia, acepta pintura), bambú (sostenible, moderno), acacia (veta rica, gama media), nogal (madera dura chocolate premium).",
+    "step3Title": "Selecciona un Tipo de Cierre",
+    "step3Body": "Con bisagra para apertura diaria; magnético para look limpio premium; deslizante para ahorro de flete sin herrajes; cajón para acceso organizado; con cerradura para almacenamiento seguro; abierto para exhibición.",
+    "step4Title": "Especifica Acabado y Superficie",
+    "step4Body": "Elige entre aceite natural (food-safe, tono más cálido), laca mate (look moderno limpio), pintado (flexibilidad de color), teñido (color más rico) o quemado (rústico). Cada uno afecta sensación, durabilidad y brandabilidad.",
+    "step5Title": "Añade Branding",
+    "step5Body": "Grabado láser para permanencia y detalle fino; hot foil para sensación de lujo; serigrafía para color; debossing para textura premium; placa de latón para productos joyería.",
+    "step6Title": "Confirma Cantidad y Plazo de Entrega",
+    "step6Body": "Adapta MOQ a tu velocidad de ventas (típico 200–500 para nuestra línea); planifica 25–35 días desde muestra confirmada. Pide muestras primero si es un diseño nuevo."
   }
 }
