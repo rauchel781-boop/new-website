@@ -204,9 +204,73 @@ export default TRANSLATIONS;
 - 数据保留 7 年 — 按中国会计法常见做法，可能要按业务调整
 - Newsletter 用了「订阅即同意」隐式同意，严格 GDPR 要求显式 checkbox。B2B 行业普遍按软同意 + 易退订操作
 
-**还没补的合规件**（参见第九节）：
-- Cookie banner（Tawk.to 已经在落 cookie，严格 GDPR 要先同意才能加载第三方脚本）
-- GA4 / Microsoft Clarity（现在零数据，做生意闭眼）
+### Cookie banner + GA4 + Microsoft Clarity（2026-05-13）
+**目标**：合规闭环（cookie 同意先于第三方脚本加载）+ 数据闭环（拿到流量/转化数据再做决策）。
+
+**新建文件**：
+- `lib/cookie-consent.js` — 读写 `cookie_consent` 一阶 cookie（365 天）的工具函数
+- `components/CookieConsent.jsx` — `CookieConsentProvider` + `useCookieConsent()` hook + `CookieBanner` UI（一个文件，三个 export）
+- `components/GoogleAnalytics.jsx` — `next/script` 注入 gtag.js + 初始化 `window.gtag`，`anonymize_ip: true`
+- `components/ClarityAnalytics.jsx` — Clarity inline snippet
+
+**改动文件**：
+- `components/TawkChat.jsx` — 加 `useCookieConsent`，`consent !== 'accepted'` 时返回 null
+- `app/[locale]/layout.js` — 用 `CookieConsentProvider` 包 `NextIntlClientProvider` 的子树；挂 `<TawkChat /> <GoogleAnalytics /> <ClarityAnalytics /> <CookieBanner />`
+- `data/site-config.js` — 新加 `analytics: { googleAnalyticsId, clarityProjectId }` block
+- `messages/{en,es,fr,de,it,pt,ja,ko}.json` × 8 — 加 `cookie` namespace（message / accept / decline）
+
+**关键 ID（已填）**：
+- GA4 Measurement ID: `G-RTG65S2XK9`
+- Clarity Project ID: `wq99itk70w`
+
+**工作原理**：
+1. 首访：cookie 没设 → CookieBanner 浮在底部 → 第三方脚本零加载
+2. 点 Accept → cookie 存 `accepted` (365d) → Tawk.to + GA4 + Clarity 全部启动
+3. 点 Decline → cookie 存 `declined` → 三个第三方都不加载
+4. 老访客已选过 → Banner 不出现，按之前选择决定加载
+
+**GA4 资源结构**（用户已自行拆分）：
+- 账号「Chic」下两个独立 Property：
+  - `CHIC` (474262999) → 数据流 `customwooden box` → 衡量 ID `G-RTG65S2XK9` → 本网站
+  - `XMC Homeware`（用户自行新建）→ 给另一个站 `xmchichomeware.com` 用
+- 两个站数据互不混
+
+**国内验证局限**：
+- 用户在中国大陆访问，`googletagmanager.com` / `google-analytics.com` 被墙 → 本机看不到 GA4 实时数据
+- `clarity.ms` 没被墙 → Clarity 能正常上报
+- 海外访客（外贸客户）不受影响，数据正常进 GA4
+
+### 产品详情页正文 i18n（2026-05-13，分 3 批做完前段）
+
+之前 #12 SEO 维度卡在「关键词布局没全本地化」—— 产品详情页大量字符串硬编码英文。这次分批抽到 next-intl messages 并翻 7 语。
+
+**第一批：trust badges + inquiry banner + related + CTA + applications 标题**
+- `app/[locale]/products/[slug]/[product]/page.js` 加 `await getTranslations({ namespace: 'productDetail' })` + `'cta'`
+- 替换 6 处硬编码：Hero CTA / Trust badges / Use cases section title / Inquiry banner（含 `{name}` 插值）/ Related products 标题
+- `messages` × 8 加 `productDetail` namespace（11 个 key）
+
+**第二批：ProductTabs label + 两段套话**
+- `components/ProductTabs.js` 是 'use client'，用 `useTranslations('productTabs')`
+- 4 个 tab 标签 + description 套话段 + packaging 套话段
+- `messages` × 8 加 `productTabs` namespace（6 个 key）
+- 顺手改了 map callback 参数名 `t` → `item`（避免和翻译函数 `t` 重名）
+
+**第三批：spec 表头 60+ 个 key**
+- `components/ProductTabs.js` 加 `useTranslations('specKeys')` + `translateSpecKey()` helper（带 try/catch + `startsWith('specKeys.')` 双重 fallback）
+- spec 表格 `<th>` 渲染改为 `translateSpecKey(key)`
+- `messages` × 8 加 `specKeys` namespace（61 个 key，每个一行）
+- 故意没翻 `Pull / Handle` 这一个 key（`/` 字符跟 next-intl 路径分隔符冲突），自动 fallback 到英文
+
+**架构小亮点**：translateSpecKey 的 fallback 设计意味着将来任何新加的 spec key（如某产品加个「Antibacterial Coating」字段）都会优雅 fallback 到英文，不会爆 missing-message error。
+
+**还没翻的「数据层」部分**（参见第九节剩余待办）：
+- `{closure} Closure` eyebrow（hero 那个小徽章）
+- Specs 表右列 value（每个产品独有的「Hidden magnetic flip lid」/ 「30 days」等字符串）
+- `customization` 数组（每个产品 6 条左右）
+- `packaging` 段落（每个产品一段）
+- `useCases` 数组（每个产品 6 条左右）
+
+这些都在 `data/products/{category}.js` 文件里，是每个产品独有的内容。要么扩展 `data/products/translations/{locale}.js` overlay 加新字段（specs/customization/packaging/useCases），要么重构 data 结构。**未做** — 工作量约 5000+ 翻译条目。
 
 ## 八、网站当前性能 / SEO 状态
 
@@ -223,59 +287,65 @@ export default TRANSLATIONS;
 - ✅ 内链：无孤岛
 - ✅ URL：全部语义化
 - ✅ OG / Twitter：每页齐
-- ✅ 关键词布局：8 语言已本地化（产品 name/closure/tagline/intro 都译了；**但参见第九节待办** — 产品详情页还有大量页面字符串是英文写死）
+- 🟡 关键词布局：产品 name/closure/tagline/intro + 详情页 trust badges / CTA / inquiry banner / related / use cases section / ProductTabs labels / spec table 表头都已本地化 8 语。**剩下数据层**（specs values / customization / packaging / useCases / closure eyebrow）—— 详见第九节
 - ✅ LCP：Hero preload 已加
 - ✅ CLS：所有 img 加 width/height 防 CLS
-- ⚠️ INP：未实测（风险低）
+- 🟡 INP：GA4 装上后**自动收集** Core Web Vitals，等 24-48h 实地数据出来（GSC → Core Web Vitals 报告，或 GA4 → 报告 → 生命周期 → 互动度 → 加二级维度 Web Vitals）
 - ✅ 移动端：响应式 + viewport
 - ✅ HTTPS：Coolify Let's Encrypt
 - ✅ 图片 SEO：alt + 文件名 + image sitemap
 
 ## 九、剩余待办（按优先级排）
 
-### 最高优先级（合规 / 数据闭环）
+### 最高优先级（详情页 i18n 数据层 — #12 SEO 的最后一公里）
 
-1. **Cookie banner**
-   Tawk.to 聊天插件已经在落 cookie；Google Fonts 加载也会暴露访客 IP。严格 GDPR 要求**先获取明示同意才能加载第三方脚本**。建议：
-   - 写一个轻量 banner 组件（不要装重型库），底部固定栏，2 个按钮：「Accept」/「Decline」
-   - 用 React Context + cookie 存同意状态
-   - Tawk.to / 未来的 GA4 都包在 `if (consent === 'accepted')` 里再加载
-   - 文案翻 8 语放到 messages JSON
+1. **产品详情页数据层 i18n**（最大块的活，5000+ 翻译条目）
 
-2. **GA4 + Microsoft Clarity 装上**
-   现在零数据，等于做生意闭眼。建议两个都装：
-   - GA4：正经分析、转化追踪（推荐事件：`inquiry_form_submitted`、`whatsapp_clicked`、`email_clicked`）
-   - Clarity：免费热力图 + session recording（不需 cookie 同意分级，GDPR 友好）
-   - 都用 `next/script` 加载，strategy="lazyOnload"
-   - **必须挂在 Cookie banner 后面**（合规闭环）
-   - Measurement ID 用环境变量 `NEXT_PUBLIC_GA_ID` 存
+   现在 product detail 已经完成的：trust badges / inquiry banner / related / CTA / applications section / ProductTabs labels / spec table 表头（60+ key）。
+   
+   **剩下的都是「每个产品独有的数据字段」**，存在 `data/products/{category}.js` 17 个文件里：
+   - `specs` 表右列 value（如 "Hidden magnetic flip lid" / "Solid acacia hardwood" / "30 days"）
+   - `customization` 数组（每个产品 6 条左右）
+   - `packaging` 段落（每个产品一段）
+   - `useCases` 数组（每个产品 6 条左右）
+   - hero eyebrow 的 `{closure} Closure`（小活）
+
+   **建议架构**：扩展现有的 `data/products/translations/{locale}.js` overlay 机制（目前只覆盖 name / closure / tagline / intro 4 字段），加 specs / customization / packaging / useCases 4 个新字段。然后 186 产品 × 7 语 × 4 字段 ≈ **5000+ 翻译条目**。
+
+   **建议分批次做**（按 HANDOFF 第十节用户工作风格，小批量验证）：
+   - 批 1：先做架构改造 + 1 个分类（如 tea-coffee）验证流程
+   - 批 2-17：每个分类一批
+   
+2. **closure eyebrow 小活**（hero 那个 `{closure} Closure` 徽章）
+   要么 messages 里加 `productDetail.closureEyebrow: "{closure} Closure"` 用插值，要么给 7 种 closure 类型各配一个完整短语 key（`magneticClosure: "Magnetic Closure"` / `hingedClosure: ...`）。后者更稳，前者更省。
 
 ### 高优先级
 
-3. **产品详情页正文 i18n 大改造**（最大块的活）
-   翻译 overlay 只覆盖了 name / closure / tagline / intro 4 个字段。但 `[product]/page.js` 渲染时还有大量英文硬编码：
-   - `specs` 表格的 key（"Closure Type" / "Material" / "Surface Finish" / "Lead Time" / "MOQ" / "Branding"）和 value
-   - `customization` 数组（每个产品 6 条左右）
-   - `packaging` 段落
-   - `useCases` 数组
-   - Trust badges：「FSC Certified / EU REACH / SGS Tested / 20+ Years Export」（line 486-491）
-   - Inquiry banner：「Ready to Order X? / Send us your specs... / Email Us Now → / Chat on WhatsApp」（line 526-534）
-   - Related products 区块标题（line 542-543）
-   - `ProductTabs.js` 的 4 个 tab label（Description / Specifications / Customization / Packaging & Shipping）+ 两段套话（line 114-118, 146-151）
+3. **INP 实测**
+   GA4 已自动收集 Core Web Vitals。等 24-48h 之后：
+   - GA4 → 报告 → 生命周期 → 互动度 → 网页和屏幕 → 加二级维度「Web Vitals」
+   - GSC（Search Console）→ Core Web Vitals 报告（需 28 天积累）
+   - 如果 INP 差 → 优化 `TawkChat`（已 gated 在 cookie consent 后）和 `ProductGallery`（client component）
    
-   工作量：远超翻译产品名。需要先把这些字符串抽到 `next-intl` messages namespace，再翻 7 语。建议分模块做（先抽 trust badges + inquiry banner 这种短的，再做 specs/customization 这种数据驱动的）。
-
-4. **INP 实测**
-   GSC → Core Web Vitals 看实地数据；PSI → 跑 lab INP；潜在大户：`TawkChat`（第三方）、`ProductGallery`（client component）。
+   也可以用 PSI lab 测：https://pagespeed.web.dev
 
 ### 中优先级
 
-5. **法律文案律师 review**
+4. **法律文案律师 review**
    现在 Privacy/Terms 是通用 B2B 模板。重点 review 几条：
    - 仲裁机构（现在写的是 Xiamen Arbitration Commission，欧美客户可能更认 CIETAC / HKIAC）
    - 责任上限 USD 100 是否合适
    - 数据保留 7 年是否合规
    - Newsletter 是否需要改成显式 opt-in checkbox
+
+5. **GA4 自定义事件追踪**
+   GA4 现在只跟踪 pageview。建议加几个 B2B 关键事件：
+   - `inquiry_form_submitted` — Contact 页表单成功提交
+   - `whatsapp_clicked` — 任何 wa.me 链接点击
+   - `email_clicked` — 任何 mailto 链接点击
+   - `language_changed` — 语言切换器
+   
+   实现：在对应的 Link / form / button 加 `onClick={() => window.gtag?.('event', 'inquiry_form_submitted')}`。`window.gtag` 已经在 `GoogleAnalytics.jsx` 里 expose 出来了。
 
 6. **博客 8 语化**
    现在博客 EN-only，所有 locale canonical 到 `/en/blog`。如果要翻：要写新的 blog 内容数据结构（按 locale 分），改 sitemap 把博客也按 locale 输出，改 page-level metadata 的 alternates。
@@ -305,15 +375,23 @@ export default TRANSLATIONS;
 
 ---
 
-**最后状态**（2026-05-12 verified）：
-- 整站翻译：**186/186 = 100% ✅**（8 语全部覆盖）
-- **法律合规基础件**：Privacy Policy + Terms of Service 上线，Footer 加 Legal 链接，Newsletter 加 GDPR 同意小字 ✅
-- 本轮 commit 顺序：
-  1. `fee12a3` BreadcrumbList 本地化 + tea-coffee 29 翻译
+**最后状态**（2026-05-13 verified）：
+- 整站产品翻译：**186/186 = 100% ✅**（8 语 name/closure/tagline/intro）
+- **法律合规基础件**：Privacy Policy + Terms of Service + Footer Legal 链接 + Newsletter 同意 ✅
+- **Cookie consent + 数据闭环**：Cookie banner（gates Tawk.to + GA4 + Clarity）+ GA4 装上（G-RTG65S2XK9）+ Clarity 装上（wq99itk70w）✅
+- **产品详情页正文 i18n**：前 3 批做完（trust badges / inquiry banner / related / CTA / applications / ProductTabs labels + 套话 / spec table 表头 60+ key）✅；剩数据层（specs values / customization / packaging / useCases / closure eyebrow）未做
+- 本轮 commit 顺序（粗略）：
+  1. BreadcrumbList 本地化 + tea-coffee 29 翻译
   2. hinged + sliding-lid 19 翻译
   3. drawer + magnetic + with-lock 26 翻译
   4. .gitignore + HANDOFF 第一次更新
-  5. Privacy/Terms 页 + Footer Legal 链接 + Newsletter 同意（本次）
-  6. HANDOFF 第二次更新（本次）
+  5. Privacy/Terms 页 + Footer Legal 链接 + Newsletter 同意
+  6. HANDOFF 第二次更新
+  7. Cookie banner + Tawk.to consent gate
+  8. GA4 + Clarity（与 cookie consent 联动）
+  9. 详情页 i18n 第一批（trust badges / inquiry / related / CTA / applications）
+  10. 详情页 i18n 第二批（ProductTabs labels + 套话）
+  11. 详情页 i18n 第三批（spec table 表头 60+ key）
+  12. HANDOFF 第三次更新（本次）
 - 用户每次都浏览器验证「可以了」
-- **下一步推荐**：第九节最高优先级（Cookie banner → GA4 / Clarity），这是合规和数据闭环的两个最关键空白
+- **下一步推荐**：第九节最高优先级（产品详情页数据层 i18n —— closure eyebrow 先做小的，然后 customization/packaging/useCases/specs values 的大架构改造），或者等 24-48h 看 GA4/Clarity 真实数据决定下一步
