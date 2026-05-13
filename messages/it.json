@@ -74,6 +74,11 @@
   "language": {
     "label": "Lingua"
   },
+  "cookie": {
+    "message": "Utilizziamo cookie per il nostro widget di chat e per ricordare la tua lingua. Vedi la nostra <privacy>Informativa sulla Privacy</privacy> per i dettagli.",
+    "accept": "Accetta",
+    "decline": "Rifiuta"
+  },
   "categoryContent": {
     "gift-packaging": {
       "tagline": "Scatole di presentazione premium pronte per il retail",

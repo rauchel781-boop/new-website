@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import TawkChat from '@/components/TawkChat';
+import { CookieConsentProvider, CookieBanner } from '@/components/CookieConsent';
 import { SITE } from '@/data/site-config';
 import { routing } from '@/i18n/routing';
 import { playfair, jost, fraunces, caveat } from '@/app/fonts';
@@ -90,10 +91,13 @@ export default async function LocaleLayout({ children, params: { locale } }) {
     <html lang={locale} className={fontClass}>
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Header />
-          <main>{children}</main>
-          <Footer />
-          <TawkChat />
+          <CookieConsentProvider>
+            <Header />
+            <main>{children}</main>
+            <Footer />
+            <TawkChat />
+            <CookieBanner />
+          </CookieConsentProvider>
         </NextIntlClientProvider>
       </body>
     </html>

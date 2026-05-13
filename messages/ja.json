@@ -74,6 +74,11 @@
   "language": {
     "label": "言語"
   },
+  "cookie": {
+    "message": "チャットウィジェットの稼働と言語設定の記憶のためにクッキーを使用しています。詳しくは<privacy>プライバシーポリシー</privacy>をご確認ください。",
+    "accept": "同意する",
+    "decline": "拒否する"
+  },
   "categoryContent": {
     "gift-packaging": {
       "tagline": "リテール展開対応のプレミアムプレゼンテーションボックス",

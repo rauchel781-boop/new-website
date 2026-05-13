@@ -74,6 +74,11 @@
   "language": {
     "label": "Idioma"
   },
+  "cookie": {
+    "message": "Usamos cookies para nuestro widget de chat y para recordar tu idioma. Consulta nuestra <privacy>Política de Privacidad</privacy> para más información.",
+    "accept": "Aceptar",
+    "decline": "Rechazar"
+  },
   "categoryContent": {
     "gift-packaging": {
       "tagline": "Cajas de presentación premium listas para retail",

@@ -74,6 +74,11 @@
   "language": {
     "label": "Language"
   },
+  "cookie": {
+    "message": "We use cookies to power our chat widget and to remember your language choice. See our <privacy>Privacy Policy</privacy> for details.",
+    "accept": "Accept",
+    "decline": "Decline"
+  },
   "categoryContent": {
     "gift-packaging": {
       "tagline": "Premium retail-ready presentation boxes",

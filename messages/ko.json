@@ -74,6 +74,11 @@
   "language": {
     "label": "언어"
   },
+  "cookie": {
+    "message": "채팅 위젯 작동과 언어 설정 기억을 위해 쿠키를 사용합니다. 자세한 내용은 <privacy>개인정보 처리방침</privacy>을 참고하세요.",
+    "accept": "동의",
+    "decline": "거부"
+  },
   "categoryContent": {
     "gift-packaging": {
       "tagline": "리테일 즉시 출시 가능한 프리미엄 프레젠테이션 박스",

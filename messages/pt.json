@@ -74,6 +74,11 @@
   "language": {
     "label": "Idioma"
   },
+  "cookie": {
+    "message": "Usamos cookies para o nosso widget de chat e para guardar a sua preferência de idioma. Consulte a nossa <privacy>Política de Privacidade</privacy> para mais detalhes.",
+    "accept": "Aceitar",
+    "decline": "Recusar"
+  },
   "categoryContent": {
     "gift-packaging": {
       "tagline": "Caixas de apresentação premium prontas para o retalho",

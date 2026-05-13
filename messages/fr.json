@@ -74,6 +74,11 @@
   "language": {
     "label": "Langue"
   },
+  "cookie": {
+    "message": "Nous utilisons des cookies pour notre widget de chat et pour mémoriser votre langue. Voir notre <privacy>Politique de Confidentialité</privacy> pour plus de détails.",
+    "accept": "Accepter",
+    "decline": "Refuser"
+  },
   "categoryContent": {
     "gift-packaging": {
       "tagline": "Boîtes de présentation premium prêtes pour la vente au détail",

@@ -1,6 +1,7 @@
 'use client';
 
 import Script from 'next/script';
+import { useCookieConsent } from '@/components/CookieConsent';
 
 // 把下面两个值替换成你在 Tawk.to 后台拿到的真实 ID 即可。
 // 路径在 Tawk.to → Administration → Channels → Chat Widget → 复制嵌入代码里
@@ -9,6 +10,8 @@ const TAWK_PROPERTY_ID = '69fd5a3126254a1c3309ace8';
 const TAWK_WIDGET_ID = '1jo2qglbj';
 
 export default function TawkChat() {
+  const { consent } = useCookieConsent();
+
   // 没填 ID 之前不渲染，避免脚本报 404
   if (
     !TAWK_PROPERTY_ID ||
@@ -16,6 +19,12 @@ export default function TawkChat() {
     !TAWK_WIDGET_ID ||
     TAWK_WIDGET_ID === 'YOUR_WIDGET_ID'
   ) {
+    return null;
+  }
+
+  // GDPR / ePrivacy: Tawk.to drops third-party cookies on load. Don't load
+  // the script until the visitor has explicitly accepted via Cookie banner.
+  if (consent !== 'accepted') {
     return null;
   }
 
