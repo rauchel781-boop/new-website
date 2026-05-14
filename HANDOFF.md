@@ -418,6 +418,7 @@ export default TRANSLATIONS;
 | hinged (10) | source | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** |
 | sliding-lid (9) | source | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** |
 | drawer (8) | source | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** |
+| magnetic (9) | source | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** |
 
 「flat-1L」= name/closure/tagline/intro 4 字段一行式翻译（旧 overlay 结构）。「full」= 7 字段完整翻译。
 
