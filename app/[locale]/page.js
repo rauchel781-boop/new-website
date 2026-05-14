@@ -11,14 +11,40 @@ import { getHome } from '@/data/home';
 
 // Organization + WebSite JSON-LD for the homepage. Lets Google associate
 // the brand name, logo, contact info and social accounts with the domain.
+// Dual @type (Organization + Manufacturer) signals B2B manufacturing role
+// to Google for industry-specific knowledge panel features.
 const ORG_LD = {
   '@context': 'https://schema.org',
-  '@type': 'Organization',
+  '@type': ['Organization', 'Manufacturer'],
   '@id': `${SITE.siteUrl}/#organization`,
   name: SITE.company.legalName,
   alternateName: SITE.company.brand,
   url: SITE.siteUrl,
   logo: `${SITE.siteUrl}/logo.png`,
+  image: `${SITE.siteUrl}/logo.png`,
+  description:
+    'CHIC (Xiamen Chic Homeware Co., Ltd.) is a Chinese B2B manufacturer of custom wooden boxes, packaging, and homeware — 15,000 m² factory in Cao County, Shandong, plus a sales / design office in Xiamen, Fujian. We serve retail brands, hospitality, and packaging clients in the US, EU, UK, Japan, Korea, and Australia with hinged, sliding-lid, drawer, magnetic, lockable and open-tray box formats in acacia, walnut, oak, pine, paulownia, and bamboo.',
+  slogan: SITE.company.tagline,
+  numberOfEmployees: {
+    '@type': 'QuantitativeValue',
+    minValue: 120,
+    unitText: 'employees',
+  },
+  knowsAbout: [
+    'Custom wooden boxes',
+    'Wooden packaging',
+    'OEM / ODM woodworking',
+    'B2B retail packaging',
+    'Tea and coffee storage boxes',
+    'Hinged wooden boxes',
+    'Sliding-lid wooden boxes',
+    'Drawer wooden boxes',
+    'Magnetic wooden boxes',
+    'Wooden lock boxes',
+    'Acacia · walnut · oak · pine · paulownia · bamboo',
+    'Laser engraving · hot foil · pyrography',
+  ],
+  areaServed: ['US', 'EU', 'GB', 'JP', 'KR', 'AU', 'CA', 'DE', 'FR', 'IT', 'ES', 'PT'],
   email: SITE.email,
   telephone: `+${SITE.whatsapp.number}`,
   sameAs: [
@@ -52,15 +78,30 @@ const ORG_LD = {
   ],
 };
 
-const WEBSITE_LD = {
-  '@context': 'https://schema.org',
-  '@type': 'WebSite',
-  '@id': `${SITE.siteUrl}/#website`,
-  url: SITE.siteUrl,
-  name: SITE.company.brand,
-  publisher: { '@id': `${SITE.siteUrl}/#organization` },
-  inLanguage: 'en',
+// WEBSITE_LD is now a function so inLanguage matches the page locale.
+// next-intl locales map to BCP-47 region-tagged codes for better signal.
+const LOCALE_TO_BCP47 = {
+  en: 'en-US',
+  es: 'es-ES',
+  fr: 'fr-FR',
+  de: 'de-DE',
+  it: 'it-IT',
+  pt: 'pt-PT',
+  ja: 'ja-JP',
+  ko: 'ko-KR',
 };
+
+function buildWebsiteLd(locale) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${SITE.siteUrl}/#website`,
+    url: SITE.siteUrl,
+    name: SITE.company.brand,
+    publisher: { '@id': `${SITE.siteUrl}/#organization` },
+    inLanguage: LOCALE_TO_BCP47[locale] || 'en-US',
+  };
+}
 
 const HOMEPAGE_CSS = `
 
@@ -756,7 +797,7 @@ export default async function HomePage({ params: { locale } }) {
         fetchPriority="high"
       />
       <JsonLd data={ORG_LD} />
-      <JsonLd data={WEBSITE_LD} />
+      <JsonLd data={buildWebsiteLd(locale)} />
       <style dangerouslySetInnerHTML={{ __html: HOMEPAGE_CSS }} />
 
       {/* HERO */}

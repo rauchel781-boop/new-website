@@ -432,6 +432,19 @@ export default async function ProductDetail({ params }) {
   // every `item` URL means Google doesn't need to follow a redirect.
   const localePrefix = `/${params.locale}`;
   const productPath = `/products/${params.slug}/${params.product}`;
+  // Surface the spec table as structured `additionalProperty` so Google can
+  // use spec values (closure / material / MOQ / lead time) in product
+  // result enrichments. Each spec key becomes a PropertyValue node.
+  const additionalProperty = product.specs
+    ? Object.entries(product.specs)
+        .filter(([, value]) => typeof value === 'string' && value.trim())
+        .map(([name, value]) => ({
+          '@type': 'PropertyValue',
+          name,
+          value,
+        }))
+    : [];
+
   const productLd = {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -442,11 +455,13 @@ export default async function ProductDetail({ params }) {
     category: translatedCategoryName,
     brand: { '@type': 'Brand', name: SITE.company.brand },
     manufacturer: {
-      '@type': 'Organization',
+      '@type': ['Organization', 'Manufacturer'],
+      '@id': `${SITE.siteUrl}/#organization`,
       name: SITE.company.legalName,
       url: SITE.siteUrl,
     },
     url: `${SITE.siteUrl}${localePrefix}${productPath}`,
+    ...(additionalProperty.length > 0 && { additionalProperty }),
   };
   const breadcrumbLd = {
     '@context': 'https://schema.org',

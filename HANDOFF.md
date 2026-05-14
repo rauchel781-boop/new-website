@@ -427,16 +427,41 @@ export default TRANSLATIONS;
 
 **tea-coffee 数据层 i18n: 7/7 语 = 100% 完成 ✅**
 
-**剩余工作**（按产品 × 语言估算）：
-- 其他 16 分类 × 7 语 ≈ 1200+ 产品-语 组合
+**整站数据层 i18n 已 100% 完成（2026-05-14）**。后续如果加新分类或新产品需重复 overlay 模式。
 
-每个分类的 IT/FR/DE/ES/PT/JA/KO 中的 tea-coffee 段都可作为下一批的翻译模板。
+## 十二、SEO 结构化数据增强（2026-05-14 追加）
 
-- **下一步推荐**：切下一个分类。建议按结构类型聚合：
-  - hinged (10 个) — 数量最多的 closure 类型
-  - sliding-lid (9 个)
-  - drawer (8 个)
-  - magnetic (9 个)
-  - with-lock (9 个)
-  
-  策略可以是「先把一个分类做 IT/FR/DE 3 语建模」（小批量验证），再扩到 ES/PT/JA/KO。或者「一次性 7 语都做完」（用过的模式）。
+整站数据层 i18n 收尾后做的小批 SEO 提升，目的是把已有数据更好暴露给 Google：
+
+### Organization schema（`app/[locale]/page.js`）
+
+原本只有 name/url/logo/email/telephone/address/contactPoint。扩展加入：
+
+- `@type` 升级为数组 `['Organization', 'Manufacturer']` — 双类型给 Google B2B 制造商信号
+- `description` — 加入工厂坐标、服务市场、产品形态的关键词密集描述
+- `slogan` — 用 `SITE.company.tagline`（Wooden Expert）
+- `numberOfEmployees: { minValue: 120 }` — 已知信息
+- `knowsAbout` — 12 个主题词（custom wooden boxes / OEM / closure 类型 / 木材种类等）
+- `areaServed` — 12 个国家代码
+- `image` — 加 logo 作 image
+- `WebSite.inLanguage` 改为按 locale 动态返回 BCP-47 代码（`en-US` / `es-ES` 等）
+
+### Product schema（`app/[locale]/products/[slug]/[product]/page.js`）
+
+- `manufacturer` 增加 `@id` 反向链接到 home `#organization`，让 Google 把产品页和组织信息串联
+- `manufacturer.@type` 也升级为 `['Organization', 'Manufacturer']`
+- 新增 `additionalProperty` — 把整张 spec 表（Closure Type / Material / MOQ / Lead Time 等 8-10 个 key）转成 PropertyValue 数组。Google 能在产品搜索结果里抓 spec 值做富媒体卡片。
+
+### 不动的项
+
+- 没加 `SearchAction`（站内没搜索功能）
+- 没加 `offers` schema（B2B 自定义订单没固定价，Google 会标 invalid）
+- 没加 `aggregateRating`（没真实评论，加假的会被 Google 处罚）
+
+### 待办（外部依赖 / 设计活）
+
+- OG 图升级（用专业的 1200×630 social card 替代 logo.png）
+- 法律文案律师 review
+- INP 实测（等 GA4 24-48h 数据）
+- 博客 8 语化（10 文 × 7 语 ≈ 70k 字大工程）
+- 加阿拉伯语 / 俄语 / 越南语
