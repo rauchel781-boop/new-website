@@ -415,7 +415,7 @@ export default TRANSLATIONS;
 | 分类 | en | es | fr | de | it | pt | ja | ko |
 |------|----|----|----|----|----|----|----|----|
 | tea-coffee (29) | source | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** |
-| hinged (10) | source | flat-1L | 🟡 **full** | flat-1L | 🟡 **full** | flat-1L | flat-1L | flat-1L |
+| hinged (10) | source | ✅ **full** | ✅ **full** | ✅ **full** | ✅ **full** | flat-1L | flat-1L | flat-1L |
 
 「flat-1L」= name/closure/tagline/intro 4 字段一行式翻译（旧 overlay 结构）。「full」= 7 字段完整翻译。
 
