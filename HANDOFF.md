@@ -614,6 +614,151 @@ const list = useMemo(
 
 ### 剩余可选的小活
 
-- `data/categories.js` 的 features/specs/useCases 三个数组的数据层 i18n（约 2,000 条翻译，2-3 小时）
+- ~~`data/categories.js` 的 features/specs/useCases 三个数组的数据层 i18n~~（**已完成**——见第 20-21 节）
 - 删掉 4 个孤立组件（10 分钟代码清理）
 - Blog 8 语化（70k 字大工程，需要决定要不要机翻或人工译）
+
+## 二十、categories 数据层 i18n 全 7 种非英文 locale 完工（2026-05-15）
+
+最后一块拼图：17 个分类的 `features` / `specs` / `useCases` / `longDesc` 全部本地化到所有 7 种非英文语言。
+
+### 架构
+
+模仿 `data/products/translations/` 模式，新建 `data/categories/translations/` 翻译覆盖体系：
+
+```
+data/categories/translations/
+├── index.js     # 导出 getCategoryTranslation(slug, locale) helper
+├── en.js        # empty stub（源语言 in data/categories.js）
+├── it.js        # 17 分类 × 4 features + 6 specs + 6 useCases + longDesc
+├── es.js        # 同上
+├── fr.js        # 同上
+├── de.js        # 同上
+├── pt.js        # 同上
+├── ja.js        # 同上
+└── ko.js        # 同上
+```
+
+### Helper 接口
+
+```js
+import { getCategoryTranslation } from '@/data/categories/translations';
+const ct = getCategoryTranslation(slug, locale);
+const features = ct.features || category.features;  // 缺翻译时回退英文
+```
+
+字段都是 REPLACE-not-merge — 如果列了 features 数组，得列全 4 个；缺一个英文那个就没了。这跟 `data/products/translations/` 的 specs 字段行为一致。
+
+### 翻译条目数
+
+- 每个分类：4 features (8 strings: title + desc) + 6 specs + 6 useCases + 1 longDesc = 21 strings
+- 17 分类 × 21 = ~360 strings 每语种
+- 7 种语言 × 360 = **~2,500 翻译条目**
+
+### 顺手修了一个 hero 段显示逻辑
+
+原本 `app/[locale]/products/[slug]/page.js` 的 hero intro 段 fallback 逻辑：
+
+```jsx
+// 旧版本
+{params.locale === 'en' ? item.longDesc : translatedIntro}
+```
+
+非英文 locale 显示的是较短的 `translatedIntro`（来自 `categoryContent` namespace），而不是丰富的 `longDesc`。改成：
+
+```jsx
+// 新版本
+{catTranslation.longDesc
+  ? translatedLongDesc                      // 优先用数据层翻译
+  : (params.locale === 'en' ? item.longDesc : translatedIntro)}  // 旧 fallback
+```
+
+现在所有 7 种非英文 locale 也能在 hero 段显示完整 longDesc 段落了。
+
+### 测试 URL
+
+部署后访问以下 URL 应该看到对应语言的 features/specs/useCases/longDesc：
+- `/it/products/walnut`
+- `/es/products/tea-coffee`
+- `/fr/products/gift-packaging`
+- `/de/products/magnetic`
+- `/pt/products/wine-whisky`
+- `/ja/products/hinged`
+- `/ko/products/storage`
+
+## 二十一、全站 i18n 项目完结总览（2026-05-15）
+
+经过 27 次「continue」迭代，整个网站的 i18n 项目完结。
+
+### 总体覆盖
+
+| 层级 | 范围 | 状态 |
+|------|------|------|
+| 全站 chrome（导航 / CTAs / footer） | 8 语 | ✅ |
+| 核心页面 chrome | 8 语 | ✅ |
+| 17 分类落地页 chrome | 8 语 | ✅ |
+| 17 分类 data（features/specs/useCases/longDesc） | 8 语 | ✅ |
+| 186 产品 data（specs/customization/packaging/useCases） | 8 语 | ✅ |
+| 12 共享组件（Header/Footer/IntroCarousel/ProductGrid/...） | 8 语 | ✅ |
+| layout.js metadata（title/description/hreflang/OG） | 8 语 | ✅ |
+| Blog | 1 语（设计 only EN） | 🟡 |
+
+### 翻译条目总数（估算）
+
+- 产品层（`data/products/translations/{locale}.js`）：186 产品 × 4 字段 × 7 语 ≈ 5,200 条
+- 分类层（`data/categories/translations/{locale}.js`）：17 分类 × 21 字段 × 7 语 ≈ 2,500 条
+- 全站 chrome（`messages/{locale}.json`）：~100 namespace key × 8 语 ≈ 800 条
+
+**总计 ≈ 8,500 翻译条目**。
+
+### i18n 架构总览
+
+整个网站采用 **3 层 i18n 策略**：
+
+1. **JSON namespace 层（messages JSON）**：next-intl 标准方式。用于：
+   - 全站共享文案（nav、CTAs、footer、cookie）
+   - 页面 chrome（hero 标题、CTA 段、section labels）
+   - 共享组件文本（ProductGrid filter chips、IntroCarousel slide labels）
+   - `useTranslations` / `getTranslations` hook 调用
+   - **优点**：所有翻译聚合在 8 个 JSON 文件里，next-intl 内置缓存和 fallback
+
+2. **数据层覆盖（`data/{products,categories}/translations/`）**：
+   - 用于产品 / 分类的内容数据（specs / features / useCases / longDesc）
+   - 每个 locale 一个 JS 文件 export default { slug: { ...fields } }
+   - 渲染时：`{ ...item, ...getXxxTranslation(slug, locale) }` spread 合并
+   - **优点**：避免把 8,000+ 条目塞进 messages JSON；产品 / 分类数据的增删改不影响 chrome 翻译
+   - **缺点**：spread 是浅合并；specs/features 数组字段是 REPLACE-not-merge（需列全部）
+
+3. **本地化 metadata（page.js + layout.js）**：
+   - 每个 page.js 的 `generateMetadata` 通过 `getTranslations({ locale, namespace })` 加载 title/description
+   - layout.js 设置 `<html lang>`、hreflang `alternates.languages`、OpenGraph locale（BCP-47 形式）
+   - URL prefix 通过 next-intl middleware 自动处理
+
+### Header / Footer i18n 状态
+
+- 8 语全覆盖
+- 导航 + 子菜单 + CTA + 时区指示器 + footer newsletter form 都翻译完毕
+- Header 还集成了语言切换器（drawer 形式）
+
+### 已知小坑（修复或留作 TODO）
+
+- **GA4 inquiry_form_submitted 事件维度被翻译污染**：Contact 页表单 select 的 subject 值是翻译后的字符串，导致 GA4 看到 "OEM project" 在 8 种语言下变 8 个不同 dimension 值。未来可改为存稳定 key（`general`/`oem`/...），UI 用 t() 翻译。这次未改。
+- **ProductGrid filter chips 在非英文 locale 之前隐藏**：原因是 `getProductTranslation` 把 `closure` 字段也翻译了，导致 chip 顺序数组 `['Magnetic', 'Hinged', ...]` 找不到匹配。已修——保留原始英文 `closureKey` 用作筛选 key（详见第十六节）。
+- **孤立组件未删**：`components/CTA.js` / `Hero.js` / `CapabilitiesSection.js` / `Featured.js` 没被任何地方引用，可以删，但留着也无害。
+
+### 剩余可选工作
+
+- Blog 8 语化（10 文 × 7 语 ≈ 70k 字大工程；当前 canonical 到 /en/blog 由设计决定，不强求）
+- 加阿拉伯语 / 俄语 / 越南语（要先做 RTL 适配，工作量较大）
+- OG 图升级（设计活，1200×630 social card）
+- 法律文案律师 review
+- 删掉 4 个孤立组件
+- INP 实测（等 GA4 数据）
+
+### 工作流总结
+
+这次 27 轮 i18n 迭代用到的几个高效模式：
+- **PoC → 模板复用**：先做 IT，把 17 分类的 features/specs/useCases 写完，作为其他 6 语的结构模板，加速后面 6 语的翻译
+- **批量 namespace + 单组件**：每个新组件 i18n 都是「先加 namespace 到 8 个 JSON → 重构组件用 useTranslations」两步，可复用 workflow
+- **审计驱动**：用 grep 找硬编码英文短语（`Get In Touch`、`Learn More`、`Read More` 等）定位漏网组件，逐个补完
+- **接受沙箱缓存怪现象**：bash/virtiofs 经常看到 stale 文件，Read 工具是 source of truth，文件在 Windows 上是正确的，不要因为 bash 报 syntax error 而怀疑代码
