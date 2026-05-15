@@ -2,19 +2,19 @@
 // existing client-side contact UI from ContactClient.jsx.
 import ContactClient from './ContactClient';
 import { alternates } from '@/i18n/seo';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params: { locale } }) {
+  const t = await getTranslations({ locale, namespace: 'contact.meta' });
+  const title = t('title');
   return {
-    title: 'Contact — CHIC Wooden Expert',
-    description:
-      'Get in touch with CHIC — sales office in Xiamen, factory in Cao County. WhatsApp, WeChat, email, and a contact form for OEM/ODM wooden box inquiries.',
+    title,
+    description: t('description'),
     alternates: alternates(locale, '/contact'),
     openGraph: {
       url: `/${locale}/contact`,
-      title: 'Contact — CHIC Wooden Expert',
-      description:
-        'Sales office in Xiamen, factory in Cao County. WhatsApp, WeChat, email and contact form for OEM/ODM wooden box inquiries.',
+      title,
+      description: t('ogDescription'),
     },
   };
 }

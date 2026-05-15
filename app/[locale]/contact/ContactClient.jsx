@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
+import { useTranslations } from 'next-intl';
 import { SITE, isEmailJSConfigured } from '@/data/site-config';
 import { useEmailJS } from '@/lib/use-emailjs';
 import { trackEvent } from '@/lib/analytics';
@@ -457,16 +458,17 @@ function ClockIcon() { return <svg viewBox="0 0 24 24" fill="none" stroke="curre
 function PlusIcon() { return <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M12 5v14M5 12h14"/></svg>; }
 
 // ─────────── TIMEZONE CLOCKS ───────────
+// `cityKey` resolves against the `contact.clocks` namespace at render-time.
 const ZONES = [
-  { key: 'home',   city: 'Xiamen',     tz: 'Asia/Shanghai',     flag: '🇨🇳', zone: 'GMT+8',  workH: [9, 18] },
-  { key: 'la',     city: 'Los Angeles', tz: 'America/Los_Angeles', flag: '🇺🇸', zone: 'PST',  workH: [9, 17] },
-  { key: 'ny',     city: 'New York',   tz: 'America/New_York',  flag: '🇺🇸', zone: 'EST',    workH: [9, 17] },
-  { key: 'london', city: 'London',     tz: 'Europe/London',     flag: '🇬🇧', zone: 'GMT',    workH: [9, 17] },
-  { key: 'berlin', city: 'Berlin',     tz: 'Europe/Berlin',     flag: '🇩🇪', zone: 'CET',    workH: [9, 17] },
-  { key: 'sydney', city: 'Sydney',     tz: 'Australia/Sydney',  flag: '🇦🇺', zone: 'AEST',   workH: [9, 17] },
+  { key: 'home',   cityKey: 'cityXiamen', tz: 'Asia/Shanghai',     flag: '🇨🇳', zone: 'GMT+8', workH: [9, 18] },
+  { key: 'la',     cityKey: 'cityLA',     tz: 'America/Los_Angeles', flag: '🇺🇸', zone: 'PST',  workH: [9, 17] },
+  { key: 'ny',     cityKey: 'cityNY',     tz: 'America/New_York',  flag: '🇺🇸', zone: 'EST',   workH: [9, 17] },
+  { key: 'london', cityKey: 'cityLondon', tz: 'Europe/London',     flag: '🇬🇧', zone: 'GMT',   workH: [9, 17] },
+  { key: 'berlin', cityKey: 'cityBerlin', tz: 'Europe/Berlin',     flag: '🇩🇪', zone: 'CET',   workH: [9, 17] },
+  { key: 'sydney', cityKey: 'citySydney', tz: 'Australia/Sydney',  flag: '🇦🇺', zone: 'AEST',  workH: [9, 17] },
 ];
 
-function Clock({ z, isHome }) {
+function Clock({ z, isHome, t }) {
   const [time, setTime] = useState('');
   const [working, setWorking] = useState(false);
   useEffect(() => {
@@ -487,58 +489,30 @@ function Clock({ z, isHome }) {
 
   return (
     <div className={`clock ${isHome ? 'is-home' : ''}`}>
-      <span className={`clock-state ${working ? '' : 'off'}`} title={working ? 'Open now' : 'Closed'} />
+      <span className={`clock-state ${working ? '' : 'off'}`} title={working ? t('openNow') : t('closed')} />
       <div className="clock-flag">{z.flag}</div>
-      <div className="clock-city">{z.city}</div>
+      <div className="clock-city">{t(z.cityKey)}</div>
       <div className="clock-time">{time || '—'}</div>
       <div className="clock-zone">{z.zone}</div>
     </div>
   );
 }
 
-// ─────────── FAQ DATA ───────────
-const FAQS = [
-  {
-    q: "What's your minimum order quantity (MOQ)?",
-    a: "For ODM products from our existing catalog, our typical MOQ is 200-300 pieces. For sample runs we can go as low as 100 pieces. For full custom OEM projects, MOQ is usually 500-1,000 pieces — the higher MOQ helps justify the tooling and setup costs. We're flexible on this for first-time buyers; just ask.",
-  },
-  {
-    q: "How long is the lead time?",
-    a: "Sampling takes 7-15 days depending on complexity. Production lead time is typically 18-28 days for ODM and 35-55 days for full OEM. Q4 (October-December) we recommend ordering early — Amazon FBA receiving queues get congested, and our production fills up faster. For urgent projects we can sometimes air-freight initial inventory.",
-  },
-  {
-    q: "Do you provide samples? Are they free?",
-    a: "We provide samples for all serious inquiries. Single hand-built samples are typically $30-100 each (refunded against your first production order if you proceed). For 100-piece production trial runs (which we strongly recommend before scaling), pricing is typically 30-60% above full-volume per-unit cost.",
-  },
-  {
-    q: "What are your payment terms?",
-    a: "Standard terms for established relationships: 30% deposit at order confirmation, 70% balance before shipment. For first-time orders we may request 50/50. We accept T/T (bank transfer), PayPal for small samples, and Alibaba Trade Assurance (escrow) for first-time buyers who prefer protected payment.",
-  },
-  {
-    q: "What woods and finishes do you offer?",
-    a: "We work with paulownia, pine, bamboo, acacia, walnut, oak, and several specialty hardwoods. Finishes include food-safe lacquer, water-based low-VOC lacquer, oil/wax (tung, beeswax, mineral oil), painted (matte and gloss), and custom stains. All finishes available with REACH and CARB Phase 2 compliance documentation.",
-  },
-  {
-    q: "Can I customize size, branding, and hardware?",
-    a: "Yes — full customization is what we do. Custom dimensions, wood species, finishes, hinge/lock/magnet hardware, lining material, and branding (laser engrave, hot foil, deboss, screen print). Send your spec or a reference image and we'll come back with a 3D mockup and quote.",
-  },
-  {
-    q: "Do you handle international shipping and customs?",
-    a: "Yes. We ship FOB (Xiamen or Shanghai port), CIF, or DDP. We handle phytosanitary certificates for all solid wood, certificate of origin, commercial invoice, packing list, and ISF filing for US-bound containers. We work with both LCL (less-than-container) and FCL (full container) freight, depending on volume.",
-  },
-  {
-    q: "Can I visit the factory?",
-    a: "Absolutely — we welcome buyer visits and will help arrange airport pickup from Xiamen or Heze. Our 15,000 m² facility in Cao County is a 45-minute drive from Heze airport. The Xiamen sales office is 10 minutes from Xiamen Gaoqi International Airport. Email us at info@xmchichomeware.com to plan a visit.",
-  },
-];
-
 // ─────────── PAGE ───────────
 export default function ContactPage() {
+  const t = useTranslations('contact');
   const { ready, send } = useEmailJS();
-  const [form, setForm] = useState({ name: '', email: '', company: '', country: '', subject: 'General inquiry', message: '' });
+  const [form, setForm] = useState({ name: '', email: '', company: '', country: '', subject: t('form.subjectGeneral'), message: '' });
   const [state, setState] = useState('idle');
   const [errMsg, setErrMsg] = useState('');
   const [openFaq, setOpenFaq] = useState(0);
+
+  // FAQs are stored as q1/a1…q8/a8 pairs in messages/{locale}.json under `contact.faq`.
+  // Build the array once per render so the open/close state still works by index.
+  const FAQS = useMemo(
+    () => [1, 2, 3, 4, 5, 6, 7, 8].map((i) => ({ q: t(`faq.q${i}`), a: t(`faq.a${i}`) })),
+    [t]
+  );
 
   function update(field, value) { setForm((f) => ({ ...f, [field]: value })); }
 
@@ -565,7 +539,7 @@ export default function ContactPage() {
         });
       } catch {
         setState('error');
-        setErrMsg('Sorry — something went wrong. Please email us directly at ' + SITE.email);
+        setErrMsg(t('form.errorMsg', { email: SITE.email }));
       }
     } else {
       const subject = encodeURIComponent(`[${form.subject}] Inquiry from ${form.name || 'website'}`);
@@ -586,7 +560,7 @@ export default function ContactPage() {
   }
 
   function reset() {
-    setForm({ name: '', email: '', company: '', country: '', subject: 'General inquiry', message: '' });
+    setForm({ name: '', email: '', company: '', country: '', subject: t('form.subjectGeneral'), message: '' });
     setState('idle');
     setErrMsg('');
   }
@@ -599,12 +573,9 @@ export default function ContactPage() {
       <section className="hero">
         <div className="hero-bg" />
         <div className="hero-inner">
-          <div className="hero-eyebrow">Get In Touch</div>
-          <h1 className="hero-title">Let&apos;s Build Something <em>Together</em></h1>
-          <p className="hero-sub">
-            Email, WhatsApp, WeChat, or the form below — pick whichever is easiest for you.
-            Sample requests, custom OEM projects, and general questions all welcome.
-          </p>
+          <div className="hero-eyebrow">{t('hero.eyebrow')}</div>
+          <h1 className="hero-title">{t('hero.titleStart')} <em>{t('hero.titleEm')}</em></h1>
+          <p className="hero-sub">{t('hero.sub')}</p>
         </div>
       </section>
 
@@ -612,20 +583,20 @@ export default function ContactPage() {
       <div className="strip">
         <div className="strip-inner">
           <div className="strip-item">
-            <div className="strip-num">{'<'}24<small>h</small></div>
-            <div className="strip-lbl">Email Response Time</div>
+            <div className="strip-num">{'<'}24<small>{t('strip.hoursUnit')}</small></div>
+            <div className="strip-lbl">{t('strip.responseTime')}</div>
           </div>
           <div className="strip-item">
             <div className="strip-num">EN · 中文</div>
-            <div className="strip-lbl">Working Languages</div>
+            <div className="strip-lbl">{t('strip.languages')}</div>
           </div>
           <div className="strip-item">
             <div className="strip-num">60+<small></small></div>
-            <div className="strip-lbl">Countries Shipped</div>
+            <div className="strip-lbl">{t('strip.countries')}</div>
           </div>
           <div className="strip-item">
-            <div className="strip-num">7<small>days</small></div>
-            <div className="strip-lbl">To First Sample</div>
+            <div className="strip-num">7<small>{t('strip.daysUnit')}</small></div>
+            <div className="strip-lbl">{t('strip.firstSample')}</div>
           </div>
         </div>
       </div>
@@ -634,59 +605,56 @@ export default function ContactPage() {
       <section className="ways">
         <div className="ways-inner">
           <div className="sec-head">
-            <div className="sec-eyebrow">How To Reach Us</div>
-            <h2 className="sec-title">Pick the Channel That <em>Suits You</em></h2>
-            <p className="sec-sub">
-              We watch all four channels during business hours. Email is fastest for detailed quotes;
-              WhatsApp and WeChat are best for quick questions or sending photos.
-            </p>
+            <div className="sec-eyebrow">{t('ways.eyebrow')}</div>
+            <h2 className="sec-title">{t('ways.titleStart')} <em>{t('ways.titleEm')}</em></h2>
+            <p className="sec-sub">{t('ways.sub')}</p>
           </div>
 
           <div className="ways-grid">
             <a className="way-card" href={`mailto:${SITE.email}`}>
               <div className="way-icon"><MailIcon /></div>
-              <div className="way-eyebrow">Fastest Response</div>
-              <h3 className="way-title">Email Us</h3>
+              <div className="way-eyebrow">{t('ways.emailEyebrow')}</div>
+              <h3 className="way-title">{t('ways.emailTitle')}</h3>
               <div className="way-value">{SITE.email}</div>
-              <p className="way-note">Best for detailed quotes, spec sheets, and reference photos. Replies within 4 business hours.</p>
-              <div className="way-cta">Send Email</div>
+              <p className="way-note">{t('ways.emailNote')}</p>
+              <div className="way-cta">{t('ways.emailCta')}</div>
             </a>
 
             <a className="way-card" href={SITE.whatsapp.chatUrl} target="_blank" rel="noopener noreferrer">
               <div className="way-icon"><WhatsAppIcon /></div>
-              <div className="way-eyebrow">Click to Chat</div>
-              <h3 className="way-title">WhatsApp</h3>
+              <div className="way-eyebrow">{t('ways.whatsappEyebrow')}</div>
+              <h3 className="way-title">{t('ways.whatsappTitle')}</h3>
               <div className="way-value">{SITE.whatsapp.display}</div>
-              <p className="way-note">For quick questions, sending photos, voice notes. Live during 9-18 GMT+8.</p>
-              <div className="way-cta">Open WhatsApp</div>
+              <p className="way-note">{t('ways.whatsappNote')}</p>
+              <div className="way-cta">{t('ways.whatsappCta')}</div>
             </a>
 
             <div className="way-card" style={{ cursor: 'default' }}>
               <div className="way-icon"><WeChatIcon /></div>
-              <div className="way-eyebrow">WeChat ID</div>
-              <h3 className="way-title">WeChat</h3>
+              <div className="way-eyebrow">{t('ways.wechatEyebrow')}</div>
+              <h3 className="way-title">{t('ways.wechatTitle')}</h3>
               <div className="way-value">{SITE.wechat.id}</div>
               <p className="way-note">{SITE.wechat.note}</p>
-              <div className="way-cta" style={{ color: 'var(--wd-mute)' }}>Add Manually</div>
+              <div className="way-cta" style={{ color: 'var(--wd-mute)' }}>{t('ways.wechatCta')}</div>
             </div>
 
             <a className="way-card" href={SITE.social.alibaba} target="_blank" rel="noopener noreferrer">
               <div className="way-icon"><StoreIcon /></div>
-              <div className="way-eyebrow">B2B Marketplace</div>
-              <h3 className="way-title">Alibaba Store</h3>
+              <div className="way-eyebrow">{t('ways.alibabaEyebrow')}</div>
+              <h3 className="way-title">{t('ways.alibabaTitle')}</h3>
               <div className="way-value">quke.en.alibaba.com</div>
-              <p className="way-note">Browse our verified catalog, request quotes via Trade Assurance, escrow payment.</p>
-              <div className="way-cta">Visit Store</div>
+              <p className="way-note">{t('ways.alibabaNote')}</p>
+              <div className="way-cta">{t('ways.alibabaCta')}</div>
             </a>
           </div>
 
           {/* social pills */}
           <div className="socials">
             <a href={SITE.social.linkedin} target="_blank" rel="noopener noreferrer" className="soc-pill">
-              <LinkedInIcon /> Follow us on LinkedIn
+              <LinkedInIcon /> {t('ways.linkedin')}
             </a>
             <a href={SITE.social.youtube} target="_blank" rel="noopener noreferrer" className="soc-pill">
-              <YouTubeIcon /> Watch factory tours on YouTube
+              <YouTubeIcon /> {t('ways.youtube')}
             </a>
           </div>
         </div>
@@ -698,64 +666,69 @@ export default function ContactPage() {
           <div className="form-card">
             {state === 'done' ? (
               <div className="thanks">
-                <h3>Thank you — message received.</h3>
+                <h3>{t('form.thanksTitle')}</h3>
                 <p>
-                  We&apos;ve got your inquiry and will reply to <strong>{form.email}</strong> within 24 business hours.
-                  In the meantime, browse our <a href="/products" style={{ color: 'var(--wd-warm)', textDecoration: 'underline' }}>products</a> or <a href="/blog" style={{ color: 'var(--wd-warm)', textDecoration: 'underline' }}>journal</a>.
+                  {t.rich('form.thanksBody', {
+                    email: form.email,
+                    products: (chunks) => <a href="/products" style={{ color: 'var(--wd-warm)', textDecoration: 'underline' }}>{chunks}</a>,
+                    blog: (chunks) => <a href="/blog" style={{ color: 'var(--wd-warm)', textDecoration: 'underline' }}>{chunks}</a>,
+                  })}
                 </p>
-                <button type="button" className="form-btn" onClick={reset}>Send Another →</button>
+                <button type="button" className="form-btn" onClick={reset}>{t('form.sendAnother')}</button>
               </div>
             ) : (
               <form onSubmit={handleSubmit}>
-                <div className="form-eyebrow">Send a Message</div>
-                <h2 className="form-title">Tell us what you&apos;re working on</h2>
+                <div className="form-eyebrow">{t('form.eyebrow')}</div>
+                <h2 className="form-title">{t('form.title')}</h2>
 
                 <div className="form-row split">
                   <div className="form-row">
-                    <label htmlFor="cp-name">Your name</label>
+                    <label htmlFor="cp-name">{t('form.name')}</label>
                     <input id="cp-name" type="text" required value={form.name} onChange={(e) => update('name', e.target.value)} disabled={state === 'sending'} />
                   </div>
                   <div className="form-row">
-                    <label htmlFor="cp-email">Email</label>
+                    <label htmlFor="cp-email">{t('form.emailLabel')}</label>
                     <input id="cp-email" type="email" required value={form.email} onChange={(e) => update('email', e.target.value)} disabled={state === 'sending'} />
                   </div>
                 </div>
 
                 <div className="form-row split">
                   <div className="form-row">
-                    <label htmlFor="cp-company">Company</label>
+                    <label htmlFor="cp-company">{t('form.company')}</label>
                     <input id="cp-company" type="text" value={form.company} onChange={(e) => update('company', e.target.value)} disabled={state === 'sending'} />
                   </div>
                   <div className="form-row">
-                    <label htmlFor="cp-country">Country</label>
-                    <input id="cp-country" type="text" placeholder="e.g. Germany" value={form.country} onChange={(e) => update('country', e.target.value)} disabled={state === 'sending'} />
+                    <label htmlFor="cp-country">{t('form.country')}</label>
+                    <input id="cp-country" type="text" placeholder={t('form.countryPlaceholder')} value={form.country} onChange={(e) => update('country', e.target.value)} disabled={state === 'sending'} />
                   </div>
                 </div>
 
                 <div className="form-row">
-                  <label htmlFor="cp-subject">Inquiry type</label>
+                  <label htmlFor="cp-subject">{t('form.subject')}</label>
                   <select id="cp-subject" value={form.subject} onChange={(e) => update('subject', e.target.value)} disabled={state === 'sending'}>
-                    <option>General inquiry</option>
-                    <option>Quote request — existing product</option>
-                    <option>Custom OEM project</option>
-                    <option>Sample request</option>
-                    <option>Bulk / wholesale order</option>
-                    <option>Partnership / distribution</option>
+                    <option>{t('form.subjectGeneral')}</option>
+                    <option>{t('form.subjectQuote')}</option>
+                    <option>{t('form.subjectOem')}</option>
+                    <option>{t('form.subjectSample')}</option>
+                    <option>{t('form.subjectWholesale')}</option>
+                    <option>{t('form.subjectPartnership')}</option>
                   </select>
                 </div>
 
                 <div className="form-row">
-                  <label htmlFor="cp-message">Message — product, quantity, timeline</label>
-                  <textarea id="cp-message" required rows={5} value={form.message} onChange={(e) => update('message', e.target.value)} disabled={state === 'sending'} placeholder="e.g. Looking for 5,000 walnut watch boxes for a Q4 launch. Need samples within 3 weeks. Target unit cost around $8 FOB." />
+                  <label htmlFor="cp-message">{t('form.messageLabel')}</label>
+                  <textarea id="cp-message" required rows={5} value={form.message} onChange={(e) => update('message', e.target.value)} disabled={state === 'sending'} placeholder={t('form.messagePlaceholder')} />
                 </div>
 
                 <button type="submit" className="form-btn" disabled={state === 'sending'}>
-                  {state === 'sending' ? 'Sending…' : 'Send Inquiry →'}
+                  {state === 'sending' ? t('form.sending') : t('form.submit')}
                 </button>
                 {state === 'error' && <div className="form-msg error">{errMsg}</div>}
                 <p className="form-fine">
-                  Your information stays with us — we never share or resell contact details.
-                  Prefer email? Write to <a href={`mailto:${SITE.email}`} style={{ color: 'var(--wd-warm)' }}>{SITE.email}</a>.
+                  {t.rich('form.fine', {
+                    email: SITE.email,
+                    emailLink: (chunks) => <a href={`mailto:${SITE.email}`} style={{ color: 'var(--wd-warm)' }}>{chunks}</a>,
+                  })}
                 </p>
               </form>
             )}
@@ -763,48 +736,48 @@ export default function ContactPage() {
 
           {/* Right info panel */}
           <aside className="info-card">
-            <div className="info-eyebrow">At a Glance</div>
-            <h3 className="info-title">What to Expect</h3>
+            <div className="info-eyebrow">{t('info.eyebrow')}</div>
+            <h3 className="info-title">{t('info.title')}</h3>
             <div className="info-row">
               <div className="info-icon"><ClockIcon /></div>
               <div>
-                <div className="info-label">Response Time</div>
-                <div className="info-val">Within 4 business hours · Always within 24 hours</div>
+                <div className="info-label">{t('info.responseTimeLabel')}</div>
+                <div className="info-val">{t('info.responseTimeValue')}</div>
               </div>
             </div>
             <div className="info-row">
               <div className="info-icon"><MailIcon /></div>
               <div>
-                <div className="info-label">Best For Detailed Quotes</div>
+                <div className="info-label">{t('info.emailLabel')}</div>
                 <div className="info-val"><a href={`mailto:${SITE.email}`}>{SITE.email}</a></div>
               </div>
             </div>
             <div className="info-row">
               <div className="info-icon"><WhatsAppIcon /></div>
               <div>
-                <div className="info-label">Quick Questions</div>
+                <div className="info-label">{t('info.whatsappLabel')}</div>
                 <div className="info-val"><a href={SITE.whatsapp.chatUrl} target="_blank" rel="noopener noreferrer">{SITE.whatsapp.display}</a></div>
               </div>
             </div>
             <div className="info-row">
               <div className="info-icon"><WeChatIcon /></div>
               <div>
-                <div className="info-label">WeChat</div>
+                <div className="info-label">{t('info.wechatLabel')}</div>
                 <div className="info-val">{SITE.wechat.id}</div>
               </div>
             </div>
             <div className="info-row">
               <div className="info-icon"><PinIcon /></div>
               <div>
-                <div className="info-label">Two Locations</div>
-                <div className="info-val">Sales: Xiamen, Fujian<br />Factory: Cao County, Shandong</div>
+                <div className="info-label">{t('info.locationsLabel')}</div>
+                <div className="info-val">{t('info.locationsSales')}<br />{t('info.locationsFactory')}</div>
               </div>
             </div>
             <div className="info-row">
               <div className="info-icon">✦</div>
               <div>
-                <div className="info-label">Languages</div>
-                <div className="info-val">English · 中文</div>
+                <div className="info-label">{t('info.languagesLabel')}</div>
+                <div className="info-val">{t('info.languagesValue')}</div>
               </div>
             </div>
           </aside>
@@ -815,14 +788,12 @@ export default function ContactPage() {
       <section className="clocks">
         <div className="clocks-inner">
           <div className="sec-head">
-            <div className="sec-eyebrow">Around the Clock</div>
-            <h2 className="sec-title">When We&apos;re <em>Awake</em></h2>
-            <p className="sec-sub">
-              Green dot means we&apos;re online right now. Our team is in Xiamen — best response window varies by your timezone.
-            </p>
+            <div className="sec-eyebrow">{t('clocks.eyebrow')}</div>
+            <h2 className="sec-title">{t('clocks.titleStart')} <em>{t('clocks.titleEm')}</em></h2>
+            <p className="sec-sub">{t('clocks.sub')}</p>
           </div>
           <div className="clocks-grid">
-            {ZONES.map((z) => (<Clock key={z.key} z={z} isHome={z.key === 'home'} />))}
+            {ZONES.map((z) => (<Clock key={z.key} z={z} isHome={z.key === 'home'} t={(k) => t(`clocks.${k}`)} />))}
           </div>
         </div>
       </section>
@@ -831,11 +802,9 @@ export default function ContactPage() {
       <section className="locs">
         <div className="locs-inner">
           <div className="sec-head">
-            <div className="sec-eyebrow">Two Locations</div>
-            <h2 className="sec-title">Xiamen + <em>Cao County</em></h2>
-            <p className="sec-sub">
-              Sales, design, and export run from our Xiamen office. Manufacturing happens at our 15,000 m² facility in Cao County, Shandong.
-            </p>
+            <div className="sec-eyebrow">{t('locs.eyebrow')}</div>
+            <h2 className="sec-title">{t('locs.titleStart')} <em>{t('locs.titleEm')}</em></h2>
+            <p className="sec-sub">{t('locs.sub')}</p>
           </div>
           <div className="locs-grid">
             <div className="loc">
@@ -848,14 +817,14 @@ export default function ContactPage() {
                 />
               </div>
               <div className="loc-body">
-                <div className="loc-eyebrow">Sales Office</div>
-                <h3 className="loc-name">Xiamen, <em>Fujian</em></h3>
+                <div className="loc-eyebrow">{t('locs.salesEyebrow')}</div>
+                <h3 className="loc-name">{t('locs.salesNameStart')} <em>{t('locs.salesNameEm')}</em></h3>
                 <p className="loc-addr">{SITE.addresses.salesOffice.lines.join(' ')}</p>
                 <p className="loc-role">{SITE.addresses.salesOffice.role}</p>
                 <div className="loc-meta">
-                  <div className="loc-meta-row"><strong>Nearest airport</strong>Xiamen Gaoqi (XMN) — 10 min drive</div>
-                  <div className="loc-meta-row"><strong>Nearest port</strong>Xiamen Port — 130+ direct global routes</div>
-                  <div className="loc-meta-row"><strong>Best metro</strong>Maluan stop (Xiamen Metro Line 1)</div>
+                  <div className="loc-meta-row"><strong>{t('locs.salesAirportLabel')}</strong>{t('locs.salesAirportValue')}</div>
+                  <div className="loc-meta-row"><strong>{t('locs.salesPortLabel')}</strong>{t('locs.salesPortValue')}</div>
+                  <div className="loc-meta-row"><strong>{t('locs.salesMetroLabel')}</strong>{t('locs.salesMetroValue')}</div>
                 </div>
               </div>
             </div>
@@ -870,14 +839,14 @@ export default function ContactPage() {
                 />
               </div>
               <div className="loc-body">
-                <div className="loc-eyebrow">Production Factory · 15,000 m²</div>
-                <h3 className="loc-name">Cao County, <em>Shandong</em></h3>
+                <div className="loc-eyebrow">{t('locs.factoryEyebrow')}</div>
+                <h3 className="loc-name">{t('locs.factoryNameStart')} <em>{t('locs.factoryNameEm')}</em></h3>
                 <p className="loc-addr">{SITE.addresses.factory.lines.join(' ')}</p>
                 <p className="loc-role">{SITE.addresses.factory.role}</p>
                 <div className="loc-meta">
-                  <div className="loc-meta-row"><strong>Nearest airport</strong>Heze Mudan (HZA) — 45 min drive</div>
-                  <div className="loc-meta-row"><strong>Nearest port</strong>Qingdao / Lianyungang — direct rail container</div>
-                  <div className="loc-meta-row"><strong>Workforce</strong>120+ skilled workers · 2 production shifts</div>
+                  <div className="loc-meta-row"><strong>{t('locs.factoryAirportLabel')}</strong>{t('locs.factoryAirportValue')}</div>
+                  <div className="loc-meta-row"><strong>{t('locs.factoryPortLabel')}</strong>{t('locs.factoryPortValue')}</div>
+                  <div className="loc-meta-row"><strong>{t('locs.factoryWorkforceLabel')}</strong>{t('locs.factoryWorkforceValue')}</div>
                 </div>
               </div>
             </div>
@@ -889,11 +858,9 @@ export default function ContactPage() {
       <section className="faq">
         <div className="faq-inner">
           <div className="sec-head">
-            <div className="sec-eyebrow">Common Questions</div>
-            <h2 className="sec-title">Buyer FAQ</h2>
-            <p className="sec-sub">
-              The questions we get most often. Don&apos;t see your answer? Email us — we&apos;ll add it to this list.
-            </p>
+            <div className="sec-eyebrow">{t('faq.eyebrow')}</div>
+            <h2 className="sec-title">{t('faq.title')}</h2>
+            <p className="sec-sub">{t('faq.sub')}</p>
           </div>
           <div className="faq-list">
             {FAQS.map((f, i) => (
@@ -918,14 +885,12 @@ export default function ContactPage() {
 
       {/* ── FINAL CTA ── */}
       <section className="final">
-        <div className="final-eyebrow">Still Looking?</div>
-        <h2 className="final-title">Send us your <em>spec</em> — we&apos;ll send a quote</h2>
-        <p className="final-sub">
-          Email, WhatsApp, or the form above. The more detail you share (dimensions, quantity, target price, timeline), the more useful our first reply will be.
-        </p>
+        <div className="final-eyebrow">{t('final.eyebrow')}</div>
+        <h2 className="final-title">{t('final.titleStart')} <em>{t('final.titleEm')}</em> {t('final.titleEnd')}</h2>
+        <p className="final-sub">{t('final.sub')}</p>
         <div className="final-btns">
-          <a href={`mailto:${SITE.email}`} className="final-btn">Email Us Now →</a>
-          <a href={SITE.whatsapp.chatUrl} target="_blank" rel="noopener noreferrer" className="final-btn outline">WhatsApp Us</a>
+          <a href={`mailto:${SITE.email}`} className="final-btn">{t('final.emailBtn')}</a>
+          <a href={SITE.whatsapp.chatUrl} target="_blank" rel="noopener noreferrer" className="final-btn outline">{t('final.whatsappBtn')}</a>
         </div>
       </section>
     </div>
