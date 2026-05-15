@@ -326,6 +326,12 @@
     "nextImage": "Immagine successiva",
     "thumbAria": "Vedi immagine {idx}"
   },
+  "newsletterForm": {
+    "thanks": "✓ Grazie — sei in lista. Ti contatteremo presto.",
+    "error": "Qualcosa è andato storto. Scrivici direttamente per email.",
+    "openingMail": "Apertura del client email in corso…",
+    "shortConsent": "Non condivideremo mai la tua email. Annulla l'iscrizione quando vuoi."
+  },
   "categoryPage": {
     "ourProducts": "I Nostri Prodotti",
     "showcase": "In Mostra",

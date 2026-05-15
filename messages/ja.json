@@ -326,6 +326,12 @@
     "nextImage": "次の画像",
     "thumbAria": "画像 {idx} を見る"
   },
+  "newsletterForm": {
+    "thanks": "✓ ありがとうございます — 登録完了。後ほどご連絡します。",
+    "error": "エラーが発生しました。直接メールでお問い合わせください。",
+    "openingMail": "メールクライアントを開いています…",
+    "shortConsent": "お客様のメールアドレスを第三者と共有することはありません。いつでも配信停止できます。"
+  },
   "categoryPage": {
     "ourProducts": "当社の製品",
     "showcase": "ショーケース",

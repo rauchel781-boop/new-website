@@ -326,6 +326,12 @@
     "nextImage": "Próxima imagem",
     "thumbAria": "Ver imagem {idx}"
   },
+  "newsletterForm": {
+    "thanks": "✓ Obrigado — está na lista. Entraremos em contato.",
+    "error": "Algo correu mal. Escreva-nos diretamente por e-mail.",
+    "openingMail": "A abrir o seu cliente de e-mail…",
+    "shortConsent": "Nunca partilhamos o seu e-mail. Cancele a inscrição quando quiser."
+  },
   "categoryPage": {
     "ourProducts": "Os Nossos Produtos",
     "showcase": "Mostruário",

@@ -326,6 +326,12 @@
     "nextImage": "다음 이미지",
     "thumbAria": "이미지 {idx} 보기"
   },
+  "newsletterForm": {
+    "thanks": "✓ 감사합니다 — 구독 완료. 곧 연락드리겠습니다.",
+    "error": "문제가 발생했습니다. 이메일로 직접 문의해 주세요.",
+    "openingMail": "이메일 클라이언트를 여는 중…",
+    "shortConsent": "이메일을 절대 공유하지 않습니다. 언제든지 구독 해지 가능."
+  },
   "categoryPage": {
     "ourProducts": "저희 제품",
     "showcase": "쇼케이스",

@@ -326,6 +326,12 @@
     "nextImage": "Image suivante",
     "thumbAria": "Voir image {idx}"
   },
+  "newsletterForm": {
+    "thanks": "✓ Merci — vous êtes inscrit. Nous vous recontacterons.",
+    "error": "Une erreur s'est produite. Écrivez-nous directement par email.",
+    "openingMail": "Ouverture de votre client mail…",
+    "shortConsent": "Nous ne partagerons jamais votre email. Désinscription à tout moment."
+  },
   "categoryPage": {
     "ourProducts": "Nos Produits",
     "showcase": "Présentation",

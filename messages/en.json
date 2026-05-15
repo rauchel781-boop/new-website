@@ -326,6 +326,12 @@
     "nextImage": "Next image",
     "thumbAria": "View image {idx}"
   },
+  "newsletterForm": {
+    "thanks": "✓ Thanks — you're on the list. We'll be in touch.",
+    "error": "Something went wrong. Please email us directly.",
+    "openingMail": "Opening your email client…",
+    "shortConsent": "We'll never share your email. Unsubscribe anytime."
+  },
   "categoryPage": {
     "ourProducts": "Our Products",
     "showcase": "Showcase",

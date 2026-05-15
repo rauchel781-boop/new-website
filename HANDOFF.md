@@ -535,3 +535,85 @@ Contact 页之前是完全硬编码英文（hero / 4 个联系方式卡片 / 表
 - Dockerfile / docker-compose / .github
 
 预计下次部署 build context 从 815MB 降到 10-20MB，大概率直接消掉 `exit code 255` 问题。
+
+## 十六、IntroCarousel + ProductGrid i18n + bug fix（2026-05-15）
+
+### IntroCarousel（首页轮播）
+
+之前 8 个图片标签 + 3 个 aria-label + 1 个底标全是硬编码英文，每个 locale 的首页都显示英文。
+
+- `messages/{en,...}.json`：新增 `introCarousel` namespace（12 keys：8 slide labels + prevSlide / nextSlide / goToSlide / locationTag）
+- `components/IntroCarousel.js`：SLIDES 数组改用 `labelKey` 而非硬编码英文；组件用 `useTranslations('introCarousel')`
+
+### ProductGrid（分类落地页产品网格 — 被 17 个分类共用）
+
+- `messages/{en,...}.json`：新增 `productGrid` namespace（12 keys：7 filter chips + summary 计数 + empty state + MOQ + Lead + Inquire）
+- `components/ProductGrid.js`：用 `useTranslations('productGrid')` 替换硬编码
+
+### 顺便修了一个潜伏 bug
+
+之前在非英文 locale 下，分类落地页的筛选 chips（Magnetic / Hinged / Sliding / ...）全部消失，只剩 "All"。原因是 `getProductTranslation` 把 `closure` 字段也翻译了（"Magnetic" → "Magnetica"），但 chip 顺序数组 `order = ['Magnetic', 'Hinged', ...]` 用的还是英文 key，匹配不上。
+
+**修法**：在 spread 后增加一个 `closureKey: p.closure` 字段，保留原始英文 closure 作为筛选用 key。badge 显示的还是翻译后的 `p.closure`，但内部 filter 逻辑全用 `closureKey`。
+
+```js
+const list = useMemo(
+  () => Object.values(products).map((p) => ({
+    ...p,
+    ...getProductTranslation(p.slug, locale),
+    closureKey: p.closure,  // ← 英文 key 保留
+  })),
+  [products, locale],
+);
+```
+
+## 十七、category landing 页 chrome i18n 收尾（2026-05-15）
+
+`products/[slug]/page.js`（17 个分类共用模板）还有大量硬编码英文 chrome：Features That Matter / Build to Spec / Perfect For / Ready to Order / Related Categories / View → / Request Samples / Email Us Now / Browse Catalog 等。
+
+- `messages/{en,...}.json`：新增 `categoryPage` namespace（19 keys：6 个 section 标签 + 6 个 section 标题 + 5 个 CTA + Explore More + Related Categories + 模板插值 `{name}`）
+- `app/[locale]/products/[slug]/page.js`：加 `tcp = await getTranslations({ ..., namespace: 'categoryPage' })`；预计算 `relatedCards` 数组（用现有 `categories` + `nav` namespace 翻译相关分类卡片的 name + group），避免在 JSX 中调 async
+
+影响：所有 17 个分类的非英文 locale 落地页全部本地化。
+
+### 关于 features/specs/useCases 数据本地化
+
+`item.features` / `item.specs` / `item.useCases` 来自 `data/categories.js`，是英文 only。要做完整本地化需要建 `data/categories/translations/{locale}.js`（参考 `data/products/translations/` 模式）—— 17 个分类 × (4 features + 6 specs + 6 useCases) × 7 语 ≈ 2,000 条翻译，约 2-3 小时的大活，暂时未做。
+
+## 十八、NewsletterForm i18n-aware（2026-05-15）
+
+`components/NewsletterForm.js` 原本 4 个 fallback 字符串硬编码英文（thanks / error / openingMail / shortConsent）。
+
+虽然这个组件目前只被 blog 用（blog 是英文 only by design），但 future-proof 一下——加 `useTranslations('newsletterForm')` hook，将来其他页面用也不用再改。
+
+- `messages/{en,...}.json`：新增 `newsletterForm` namespace（4 keys：thanks / error / openingMail / shortConsent）
+- `components/NewsletterForm.js`：4 个 fallback 字符串改用 `t()`；button 的 sending label 复用现有 `cta.sending`；caller 仍可通过 prop 覆盖 placeholder / buttonLabel / sendingLabel
+
+## 十九、当前 i18n 全栈覆盖状态（2026-05-15 收尾）
+
+经审计，**除 Blog（设计上英文 only，每个 locale URL canonicalize 到 /en/blog）外，整站 i18n 完整覆盖**。
+
+### 已 i18n（包含数据层 + 组件层 + chrome）
+
+- Header / Footer
+- About 页（数据层 `data/about/{locale}.js`）
+- Home 页（数据层 `data/home/{locale}.js`）
+- Capabilities / Material-guide / Privacy / Terms（早期已完成）
+- Contact 页（messages JSON + ContactClient.jsx + page.js metadata）
+- Products 目录页 + Products 分类落地页 + Products 详情页
+- Wood-fabrication 页
+- 186 个产品的 specs/customization/packaging/useCases（数据层 i18n）
+- IntroCarousel / ProductGrid / ProductGallery / ProductTabs / CookieConsent / NewsletterForm 组件
+- layout.js metadata（title/description/hreflang/OG locale）
+
+### 不 i18n（设计决定 / 不必要）
+
+- Blog（10 文 × 7 语 ≈ 70k 字 SEO 内容，机翻会伤排名；canonical 到 /en/blog 由设计决定）
+- CTA.js / Hero.js / CapabilitiesSection.js / Featured.js（孤立组件，不被任何地方引用，可以删）
+- 分析脚本 GoogleAnalytics / ClarityAnalytics / TawkChat（无 UI 文本）
+
+### 剩余可选的小活
+
+- `data/categories.js` 的 features/specs/useCases 三个数组的数据层 i18n（约 2,000 条翻译，2-3 小时）
+- 删掉 4 个孤立组件（10 分钟代码清理）
+- Blog 8 语化（70k 字大工程，需要决定要不要机翻或人工译）

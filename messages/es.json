@@ -326,6 +326,12 @@
     "nextImage": "Siguiente imagen",
     "thumbAria": "Ver imagen {idx}"
   },
+  "newsletterForm": {
+    "thanks": "✓ Gracias — estás en la lista. Nos pondremos en contacto.",
+    "error": "Algo salió mal. Escríbenos directamente por email.",
+    "openingMail": "Abriendo tu cliente de correo…",
+    "shortConsent": "Nunca compartiremos tu email. Date de baja cuando quieras."
+  },
   "categoryPage": {
     "ourProducts": "Nuestros Productos",
     "showcase": "Muestrario",
