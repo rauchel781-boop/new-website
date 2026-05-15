@@ -13,7 +13,8 @@
     "contact": "Kontakt",
     "byUse": "Nach Verwendung",
     "byStructure": "Nach Struktur",
-    "byMaterial": "Nach Material"
+    "byMaterial": "Nach Material",
+    "toggleMenu": "Menü umschalten"
   },
   "categories": {
     "gift-packaging": "Geschenk- und Verpackungsboxen",
@@ -69,7 +70,8 @@
     "contactLink": "Kontakt",
     "privacy": "Datenschutzerklärung",
     "terms": "Nutzungsbedingungen",
-    "newsletterConsent": "Durch das Abonnieren stimmen Sie unserer <privacy>Datenschutzerklärung</privacy> zu. Wir senden 1-2 E-Mails pro Monat und Sie können sich jederzeit abmelden."
+    "newsletterConsent": "Durch das Abonnieren stimmen Sie unserer <privacy>Datenschutzerklärung</privacy> zu. Wir senden 1-2 E-Mails pro Monat und Sie können sich jederzeit abmelden.",
+    "findUsOnline": "Folgen Sie uns online"
   },
   "language": {
     "label": "Sprache"
@@ -77,7 +79,8 @@
   "cookie": {
     "message": "Wir verwenden Cookies für unser Chat-Widget und um Ihre Spracheinstellung zu speichern. Details finden Sie in unserer <privacy>Datenschutzerklärung</privacy>.",
     "accept": "Akzeptieren",
-    "decline": "Ablehnen"
+    "decline": "Ablehnen",
+    "dialogLabel": "Cookie-Zustimmung"
   },
   "categoryContent": {
     "gift-packaging": {

@@ -13,7 +13,8 @@
     "contact": "문의하기",
     "byUse": "용도별",
     "byStructure": "구조별",
-    "byMaterial": "소재별"
+    "byMaterial": "소재별",
+    "toggleMenu": "메뉴 전환"
   },
   "categories": {
     "gift-packaging": "선물·포장 박스",
@@ -69,7 +70,8 @@
     "contactLink": "문의하기",
     "privacy": "개인정보 처리방침",
     "terms": "이용약관",
-    "newsletterConsent": "구독하시면 저희 <privacy>개인정보 처리방침</privacy>에 동의하시는 것입니다. 한 달에 1-2회 발송되며 언제든지 구독 취소하실 수 있습니다."
+    "newsletterConsent": "구독하시면 저희 <privacy>개인정보 처리방침</privacy>에 동의하시는 것입니다. 한 달에 1-2회 발송되며 언제든지 구독 취소하실 수 있습니다.",
+    "findUsOnline": "온라인에서 찾기"
   },
   "language": {
     "label": "언어"
@@ -77,7 +79,8 @@
   "cookie": {
     "message": "채팅 위젯 작동과 언어 설정 기억을 위해 쿠키를 사용합니다. 자세한 내용은 <privacy>개인정보 처리방침</privacy>을 참고하세요.",
     "accept": "동의",
-    "decline": "거부"
+    "decline": "거부",
+    "dialogLabel": "쿠키 동의"
   },
   "categoryContent": {
     "gift-packaging": {

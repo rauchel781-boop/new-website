@@ -137,7 +137,7 @@ export function CookieBanner() {
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: BANNER_CSS }} />
-      <div className="cookie-banner" role="dialog" aria-label="Cookie consent" aria-live="polite">
+      <div className="cookie-banner" role="dialog" aria-label={t('dialogLabel')} aria-live="polite">
         <div className="cookie-banner-inner">
           <p className="cookie-banner-text">
             {t.rich('message', {

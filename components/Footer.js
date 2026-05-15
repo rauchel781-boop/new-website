@@ -457,7 +457,7 @@ export default function Footer() {
               {SITE.hours}
             </div>
           </div>
-          <div className="socials" aria-label="Find us online">
+          <div className="socials" aria-label={t('footer.findUsOnline')}>
             <a href={`mailto:${SITE.email}`} className="soc" aria-label="Email" title="Email"><MailIcon /></a>
             <a href={SITE.whatsapp.chatUrl} target="_blank" rel="noopener noreferrer" className="soc" aria-label="WhatsApp" title="WhatsApp"><WhatsAppIcon /></a>
             <a href={SITE.social.linkedin} target="_blank" rel="noopener noreferrer" className="soc" aria-label="LinkedIn" title="LinkedIn"><LinkedInIcon /></a>

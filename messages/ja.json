@@ -13,7 +13,8 @@
     "contact": "お問い合わせ",
     "byUse": "用途別",
     "byStructure": "構造別",
-    "byMaterial": "素材別"
+    "byMaterial": "素材別",
+    "toggleMenu": "メニュー切り替え"
   },
   "categories": {
     "gift-packaging": "ギフト・パッケージボックス",
@@ -69,7 +70,8 @@
     "contactLink": "お問い合わせ",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
-    "newsletterConsent": "購読することで、<privacy>プライバシーポリシー</privacy>に同意したものとみなされます。配信は月1〜2通、いつでも配信停止できます。"
+    "newsletterConsent": "購読することで、<privacy>プライバシーポリシー</privacy>に同意したものとみなされます。配信は月1〜2通、いつでも配信停止できます。",
+    "findUsOnline": "オンラインで見つける"
   },
   "language": {
     "label": "言語"
@@ -77,7 +79,8 @@
   "cookie": {
     "message": "チャットウィジェットの稼働と言語設定の記憶のためにクッキーを使用しています。詳しくは<privacy>プライバシーポリシー</privacy>をご確認ください。",
     "accept": "同意する",
-    "decline": "拒否する"
+    "decline": "拒否する",
+    "dialogLabel": "Cookie 同意"
   },
   "categoryContent": {
     "gift-packaging": {

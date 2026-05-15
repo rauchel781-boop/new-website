@@ -13,7 +13,8 @@
     "contact": "Contacto",
     "byUse": "Por Uso",
     "byStructure": "Por Estructura",
-    "byMaterial": "Por Material"
+    "byMaterial": "Por Material",
+    "toggleMenu": "Mostrar/ocultar menú"
   },
   "categories": {
     "gift-packaging": "Cajas de Regalo y Embalaje",
@@ -69,7 +70,8 @@
     "contactLink": "Contacto",
     "privacy": "Política de Privacidad",
     "terms": "Términos de Servicio",
-    "newsletterConsent": "Al suscribirte aceptas nuestra <privacy>Política de Privacidad</privacy>. Enviamos 1-2 correos al mes y puedes darte de baja en cualquier momento."
+    "newsletterConsent": "Al suscribirte aceptas nuestra <privacy>Política de Privacidad</privacy>. Enviamos 1-2 correos al mes y puedes darte de baja en cualquier momento.",
+    "findUsOnline": "Encuéntranos en línea"
   },
   "language": {
     "label": "Idioma"
@@ -77,7 +79,8 @@
   "cookie": {
     "message": "Usamos cookies para nuestro widget de chat y para recordar tu idioma. Consulta nuestra <privacy>Política de Privacidad</privacy> para más información.",
     "accept": "Aceptar",
-    "decline": "Rechazar"
+    "decline": "Rechazar",
+    "dialogLabel": "Consentimiento de cookies"
   },
   "categoryContent": {
     "gift-packaging": {
