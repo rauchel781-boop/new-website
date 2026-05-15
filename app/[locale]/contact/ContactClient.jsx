@@ -634,7 +634,7 @@ export default function ContactPage() {
               <div className="way-eyebrow">{t('ways.wechatEyebrow')}</div>
               <h3 className="way-title">{t('ways.wechatTitle')}</h3>
               <div className="way-value">{SITE.wechat.id}</div>
-              <p className="way-note">{SITE.wechat.note}</p>
+              <p className="way-note">{t('ways.wechatNote')}</p>
               <div className="way-cta" style={{ color: 'var(--wd-mute)' }}>{t('ways.wechatCta')}</div>
             </div>
 

@@ -433,7 +433,7 @@ export default function Footer() {
             <div>
               <span className="ct-label">{t('footer.wechat')}</span>
               {SITE.wechat.id}
-              <span className="ct-note">{SITE.wechat.note}</span>
+              <span className="ct-note">{t('contact.ways.wechatNote')}</span>
             </div>
           </div>
           <div className="ct-row">
