@@ -762,3 +762,51 @@ const features = ct.features || category.features;  // 缺翻译时回退英文
 - **批量 namespace + 单组件**：每个新组件 i18n 都是「先加 namespace 到 8 个 JSON → 重构组件用 useTranslations」两步，可复用 workflow
 - **审计驱动**：用 grep 找硬编码英文短语（`Get In Touch`、`Learn More`、`Read More` 等）定位漏网组件，逐个补完
 - **接受沙箱缓存怪现象**：bash/virtiofs 经常看到 stale 文件，Read 工具是 source of truth，文件在 Windows 上是正确的，不要因为 bash 报 syntax error 而怀疑代码
+
+## 二十二、最终收尾审计 + 代码清理（2026-05-15 收尾）
+
+### a) 3 个漏网的 aria-label
+
+最后一遍 grep 审计（`aria-label="[A-Z][a-z]`）发现 3 个组件还有硬编码英文 aria-label，影响非英文 locale 的 a11y 标签：
+
+- `components/Header.js` line 440：`Toggle menu`（移动菜单按钮）→ `t('nav.toggleMenu')`
+- `components/Footer.js` line 460：`Find us online`（社交栏 region label）→ `t('footer.findUsOnline')`
+- `components/CookieConsent.jsx` line 140：`Cookie consent`（dialog role label）→ `t('dialogLabel')`
+
+相应在 `messages/*.json` 加了 3 个 key（nav/footer/cookie 三个 namespace），全 8 语种翻译。
+
+社交平台名（Email/WhatsApp/LinkedIn/YouTube/Alibaba store）作为专有名词保留英文，符合国际惯例。
+
+### b) 4 个孤立组件清理
+
+通过 grep 确认以下组件没被任何地方 `import` 或作为 JSX 引用，删除以减少仓库噪音：
+
+- `components/CTA.js`（22 行）
+- `components/Hero.js`（103 行）
+- `components/CapabilitiesSection.js`（50 行）
+- `components/Featured.js`（60 行）
+
+共删 ~235 行死代码。Next.js tree-shaking 本来就不会打包它们，所以不影响 bundle 大小，纯属代码清理。
+
+### c) JSON-LD 结构化数据 i18n 状态确认
+
+最后一轮审计也检查了所有 JSON-LD 结构化数据是否符合 Google 「schema content must match visible content」要求：
+
+- **首页 `Organization` + `WebSite` schema**：`name` / `description` / `slogan` 等都从 `SITE.company.*` 或 messages JSON 取，i18n 正确 ✅
+- **详情页 `Product` schema**：`name` / `description` / `additionalProperty` 全部用翻译后的产品数据 ✅
+- **分类页 `BreadcrumbList` + `ItemList` schema**：name 字段用 `labelHome` / `labelProducts` / `translatedName` ✅
+- **capabilities 页 `FAQPage` schema**：FAQ 问答全部从 `t('faq.q{n}')` / `t('faq.a{n}')` 取，跟可见 FAQ 完全一致 ✅
+- **material-guide 页 `HowTo` schema**：6 步骤用 `tHowto('step{n}Title/Body')`，跟可见步骤完全一致 ✅
+
+所有 schema 都用翻译后的内容，符合 Google 要求；同一页的可见 UI 和 schema 内容保持一致。
+
+### 最终状态
+
+至此，整个网站 i18n 项目（包括 a11y、JSON-LD、孤立组件清理）真正完结。
+
+- 8 种语言（en/es/fr/de/it/pt/ja/ko）
+- 全站 UI / chrome / 内容 / aria-labels / metadata / JSON-LD 全覆盖
+- 唯一未翻译：Blog（设计 only EN，canonical 到 /en/blog）
+- 总翻译条目数 ~8,500+
+- 代码库清洁（删除 4 个孤立组件，添加 `.dockerignore` 修复部署）
+- 文档完整（HANDOFF.md 22 节记录全过程）
