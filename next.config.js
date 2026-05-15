@@ -24,6 +24,38 @@ const nextConfig = {
       },
     ],
   },
+
+  // Security HTTP response headers, applied to every route.
+  // We skip CSP / Strict-Transport-Security here — CSP is fiddly with
+  // Tawk.to + EmailJS + GA4 and is better tightened iteratively against
+  // a real CSP report endpoint; HSTS is best handled at the reverse
+  // proxy (Coolify / Nginx) so the lifetime survives container restarts.
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          // Prevent the site from being iframed by an attacker domain
+          // (clickjacking). SAMEORIGIN allows our own pages to embed
+          // each other if ever needed; Tawk.to embeds its own iframe
+          // onto OUR page, which is unaffected by this header.
+          { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+          // Stop browsers from MIME-sniffing response bodies, which
+          // can turn an innocuous upload into a script-execution.
+          { key: 'X-Content-Type-Options', value: 'nosniff' },
+          // Send the origin (but not the full URL) when navigating to
+          // third-party sites — balances privacy and analytics utility.
+          { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+          // Disable browser features we don't use. Reduces attack
+          // surface from a compromised third-party script.
+          {
+            key: 'Permissions-Policy',
+            value: 'camera=(), microphone=(), geolocation=(), payment=(), usb=()',
+          },
+        ],
+      },
+    ];
+  },
 };
 
 module.exports = withNextIntl(nextConfig);
