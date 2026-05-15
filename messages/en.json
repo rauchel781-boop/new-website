@@ -326,6 +326,39 @@
     "nextImage": "Next image",
     "thumbAria": "View image {idx}"
   },
+  "productsIndex": {
+    "meta": {
+      "title": "Wooden Boxes — CHIC",
+      "description": "Browse our full wooden box catalog by use, structure, or material. Custom OEM/ODM welcome."
+    },
+    "eyebrow": "Our Catalog",
+    "titleStart": "Wooden",
+    "titleEm": "Boxes",
+    "sub": "Browse our full wooden box catalog by use, structure, or material. Every category is fully customizable — wood, size, finish, hardware, branding. MOQ as low as 100 pcs. Custom OEM/ODM welcome.",
+    "groupByUse": "By Use",
+    "groupByStructure": "By Structure",
+    "groupByMaterial": "By Material",
+    "questionByUse": "What will you store?",
+    "questionByStructure": "How should it open?",
+    "questionByMaterial": "Which wood suits you?",
+    "categoriesCount": "{n} categories",
+    "explore": "Explore"
+  },
+  "woodFab": {
+    "meta": {
+      "title": "Wood Fabrication — CHIC",
+      "description": "From rough timber to finished, packaged wooden box components — CHIC handles cutting, shaping, mortising, pre-assembly, polishing and packing under one 15,000 m² roof.",
+      "ogDescription": "Rough timber to finished, packaged wooden box components — full in-house wood fabrication."
+    },
+    "h1": "Wood Fabrication",
+    "intro": "From rough timber to finished, packaged components — our facility handles the entire wood fabrication process under one roof.",
+    "card1Title": "CNC Machining",
+    "card1Desc": "Precise cutting, drilling and routing on 3-axis and 4-axis machines.",
+    "card2Title": "Sanding & Finishing",
+    "card2Desc": "Belt and orbital sanding, oiling, lacquering and painting lines.",
+    "card3Title": "Custom Shaping",
+    "card3Desc": "Turning, carving, edge profiling, and assembly to your drawings."
+  },
   "contact": {
     "meta": {
       "title": "Contact — CHIC Wooden Expert",

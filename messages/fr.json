@@ -326,6 +326,39 @@
     "nextImage": "Image suivante",
     "thumbAria": "Voir image {idx}"
   },
+  "productsIndex": {
+    "meta": {
+      "title": "Boîtes en Bois — CHIC",
+      "description": "Parcourez notre catalogue complet de boîtes en bois par usage, structure ou matériau. OEM/ODM personnalisés bienvenus."
+    },
+    "eyebrow": "Notre Catalogue",
+    "titleStart": "Boîtes",
+    "titleEm": "en Bois",
+    "sub": "Parcourez notre catalogue complet de boîtes en bois par usage, structure ou matériau. Chaque catégorie est entièrement personnalisable — bois, dimensions, finition, quincaillerie, branding. MOQ dès 100 pièces. OEM/ODM personnalisés bienvenus.",
+    "groupByUse": "Par Usage",
+    "groupByStructure": "Par Structure",
+    "groupByMaterial": "Par Matériau",
+    "questionByUse": "Que voulez-vous ranger ?",
+    "questionByStructure": "Comment doit-elle s'ouvrir ?",
+    "questionByMaterial": "Quel bois vous convient ?",
+    "categoriesCount": "{n} catégories",
+    "explore": "Explorer"
+  },
+  "woodFab": {
+    "meta": {
+      "title": "Fabrication Bois — CHIC",
+      "description": "Du bois brut aux composants finis et emballés de boîtes en bois — CHIC gère découpe, façonnage, mortaisage, pré-assemblage, polissage et conditionnement sous un même toit de 15 000 m².",
+      "ogDescription": "Du bois brut aux composants finis et emballés — fabrication bois intégrale en interne."
+    },
+    "h1": "Fabrication Bois",
+    "intro": "Du bois brut aux composants finis et emballés — notre site gère l'ensemble du processus de fabrication sous un même toit.",
+    "card1Title": "Usinage CNC",
+    "card1Desc": "Découpe, perçage et fraisage de précision sur machines 3 et 4 axes.",
+    "card2Title": "Ponçage et Finition",
+    "card2Desc": "Lignes de ponçage à bande et orbital, huilage, laquage et peinture.",
+    "card3Title": "Façonnage sur Mesure",
+    "card3Desc": "Tournage, sculpture, profilage des bords et assemblage selon vos plans."
+  },
   "contact": {
     "meta": {
       "title": "Contact — CHIC Wooden Expert",

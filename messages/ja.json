@@ -326,6 +326,39 @@
     "nextImage": "次の画像",
     "thumbAria": "画像 {idx} を見る"
   },
+  "productsIndex": {
+    "meta": {
+      "title": "木箱 — CHIC",
+      "description": "用途、構造、素材で当社の木箱カタログ全体を閲覧できます。OEM/ODM カスタム対応。"
+    },
+    "eyebrow": "カタログ",
+    "titleStart": "木製",
+    "titleEm": "ボックス",
+    "sub": "用途、構造、素材で当社の木箱カタログ全体をご覧頂けます。すべてのカテゴリーは完全カスタマイズ可能 — 木材、サイズ、仕上げ、金具、ブランディング。MOQ 100 個から。OEM/ODM カスタム対応。",
+    "groupByUse": "用途別",
+    "groupByStructure": "構造別",
+    "groupByMaterial": "素材別",
+    "questionByUse": "何を収納しますか？",
+    "questionByStructure": "どのように開きますか？",
+    "questionByMaterial": "どの木材が合いますか？",
+    "categoriesCount": "カテゴリー {n} 件",
+    "explore": "詳しく見る"
+  },
+  "woodFab": {
+    "meta": {
+      "title": "木材加工 — CHIC",
+      "description": "原木から完成・梱包済みの木箱コンポーネントまで — CHIC は 15,000 m² の一貫工場で切断、成形、ほぞ加工、仮組み、研磨、梱包を行います。",
+      "ogDescription": "原木から完成・梱包済みコンポーネントまで — 完全内製の木材加工。"
+    },
+    "h1": "木材加工",
+    "intro": "原木から完成・梱包済みコンポーネントまで — 当社の施設は木材加工の全工程を一つ屋根の下で行います。",
+    "card1Title": "CNC 加工",
+    "card1Desc": "3 軸・4 軸機による高精度な切断・穴あけ・ルーター加工。",
+    "card2Title": "サンディング・仕上げ",
+    "card2Desc": "ベルト・オービタルサンディング、塗油、ラッカー、塗装ライン。",
+    "card3Title": "カスタム成形",
+    "card3Desc": "旋盤加工、彫刻、エッジ加工、図面通りの組立て。"
+  },
   "contact": {
     "meta": {
       "title": "お問い合わせ — CHIC Wooden Expert",

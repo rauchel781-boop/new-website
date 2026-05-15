@@ -326,6 +326,39 @@
     "nextImage": "Siguiente imagen",
     "thumbAria": "Ver imagen {idx}"
   },
+  "productsIndex": {
+    "meta": {
+      "title": "Cajas de Madera — CHIC",
+      "description": "Explora nuestro catálogo completo de cajas de madera por uso, estructura o material. OEM/ODM personalizados bienvenidos."
+    },
+    "eyebrow": "Nuestro Catálogo",
+    "titleStart": "Cajas",
+    "titleEm": "de Madera",
+    "sub": "Explora nuestro catálogo completo de cajas de madera por uso, estructura o material. Cada categoría es totalmente personalizable — madera, tamaño, acabado, herrajes, branding. MOQ desde 100 piezas. OEM/ODM personalizados bienvenidos.",
+    "groupByUse": "Por Uso",
+    "groupByStructure": "Por Estructura",
+    "groupByMaterial": "Por Material",
+    "questionByUse": "¿Qué vas a guardar?",
+    "questionByStructure": "¿Cómo debe abrirse?",
+    "questionByMaterial": "¿Qué madera te conviene?",
+    "categoriesCount": "{n} categorías",
+    "explore": "Explorar"
+  },
+  "woodFab": {
+    "meta": {
+      "title": "Fabricación en Madera — CHIC",
+      "description": "Desde la madera en bruto hasta los componentes acabados y embalados de cajas de madera — CHIC realiza corte, conformado, espiga, pre-ensamblaje, pulido y embalaje bajo un único techo de 15.000 m².",
+      "ogDescription": "De madera en bruto a componentes acabados y embalados — fabricación de madera integral interna."
+    },
+    "h1": "Fabricación en Madera",
+    "intro": "De la madera en bruto a componentes acabados y embalados — nuestra instalación gestiona todo el proceso de fabricación bajo un mismo techo.",
+    "card1Title": "Mecanizado CNC",
+    "card1Desc": "Corte, taladrado y fresado de precisión en máquinas de 3 y 4 ejes.",
+    "card2Title": "Lijado y Acabado",
+    "card2Desc": "Líneas de lijado de banda y orbital, aceitado, lacado y pintura.",
+    "card3Title": "Conformado a Medida",
+    "card3Desc": "Torneado, tallado, perfilado de bordes y ensamblaje según tus planos."
+  },
   "contact": {
     "meta": {
       "title": "Contacto — CHIC Wooden Expert",

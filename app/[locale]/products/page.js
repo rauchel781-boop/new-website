@@ -1,22 +1,37 @@
 import { Link } from '@/i18n/navigation';
 import { CATEGORIES, GROUPS } from '@/data/categories';
 import { alternates } from '@/i18n/seo';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params: { locale } }) {
+  const t = await getTranslations({ locale, namespace: 'productsIndex.meta' });
+  const title = t('title');
+  const description = t('description');
   return {
-    title: 'Wooden Boxes — CHIC',
-    description:
-      'Browse our full wooden box catalog by use, structure, or material. Custom OEM/ODM welcome.',
+    title,
+    description,
     alternates: alternates(locale, '/products'),
     openGraph: {
       url: `/${locale}/products`,
-      title: 'Wooden Boxes — CHIC',
-      description:
-        'Browse our full wooden box catalog by use, structure, or material. Custom OEM/ODM welcome.',
+      title,
+      description,
     },
   };
 }
+
+// Maps the raw English `group` string in /data/categories.js to translation
+// keys in messages/{locale}.json under `productsIndex`.
+// If you add a new group to categories.js, add its mapping here too.
+const GROUP_LABEL_KEY = {
+  'By Use': 'groupByUse',
+  'By Structure': 'groupByStructure',
+  'By Material': 'groupByMaterial',
+};
+const GROUP_QUESTION_KEY = {
+  'By Use': 'questionByUse',
+  'By Structure': 'questionByStructure',
+  'By Material': 'questionByMaterial',
+};
 
 const CSS = `
 
@@ -152,59 +167,58 @@ const CSS = `
 }
 `;
 
-export default function ProductsPage({ params: { locale } }) {
+export default async function ProductsPage({ params: { locale } }) {
   unstable_setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'productsIndex' });
+  const tCat = await getTranslations({ locale, namespace: 'categories' });
+  const tCC = await getTranslations({ locale, namespace: 'categoryContent' });
   return (
     <div className="prods">
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
       <section className="prods-hero">
         <div className="prods-hero-inner">
-          <div className="prods-eyebrow">Our Catalog</div>
+          <div className="prods-eyebrow">{t('eyebrow')}</div>
           <h1 className="prods-h1">
-            Wooden <em>Boxes</em>
+            {t('titleStart')} <em>{t('titleEm')}</em>
           </h1>
-          <p className="prods-sub">
-            Browse our full wooden box catalog by use, structure, or material.
-            Every category is fully customizable — wood, size, finish, hardware, branding.
-            MOQ as low as 100 pcs. Custom OEM/ODM welcome.
-          </p>
+          <p className="prods-sub">{t('sub')}</p>
         </div>
       </section>
 
       <section className="prods-body">
         <div className="prods-inner">
-          {GROUPS.map((g) => (
-            <div className="prods-group" key={g.title}>
-              <div className="prods-group-head">
-                <div>
-                  <div className="prods-group-label">{g.title}</div>
-                  <h2 className="prods-group-title">
-                    {g.title === 'By Use' && 'What will you store?'}
-                    {g.title === 'By Structure' && 'How should it open?'}
-                    {g.title === 'By Material' && 'Which wood suits you?'}
-                  </h2>
+          {GROUPS.map((g) => {
+            const groupLabelKey = GROUP_LABEL_KEY[g.title];
+            const groupQuestionKey = GROUP_QUESTION_KEY[g.title];
+            return (
+              <div className="prods-group" key={g.title}>
+                <div className="prods-group-head">
+                  <div>
+                    <div className="prods-group-label">{groupLabelKey ? t(groupLabelKey) : g.title}</div>
+                    <h2 className="prods-group-title">{groupQuestionKey ? t(groupQuestionKey) : g.title}</h2>
+                  </div>
+                  <div className="prods-group-count">{t('categoriesCount', { n: g.items.length })}</div>
                 </div>
-                <div className="prods-group-count">{g.items.length} categories</div>
-              </div>
 
-              <div className="prods-grid">
-                {g.items.map((slug) => {
-                  const c = CATEGORIES[slug];
-                  if (!c) return null;
-                  return (
-                    <Link href={`/products/${slug}`} key={slug} className="prods-card">
-                      <div className="prods-card-eyebrow">{c.group}</div>
-                      <h3 className="prods-card-title">{c.name}</h3>
-                      <div className="prods-card-tagline">{c.tagline}</div>
-                      <p className="prods-card-desc">{c.intro}</p>
-                      <div className="prods-card-arrow">Explore →</div>
-                    </Link>
-                  );
-                })}
+                <div className="prods-grid">
+                  {g.items.map((slug) => {
+                    const c = CATEGORIES[slug];
+                    if (!c) return null;
+                    return (
+                      <Link href={`/products/${slug}`} key={slug} className="prods-card">
+                        <div className="prods-card-eyebrow">{groupLabelKey ? t(groupLabelKey) : c.group}</div>
+                        <h3 className="prods-card-title">{tCat(slug)}</h3>
+                        <div className="prods-card-tagline">{tCC(`${slug}.tagline`)}</div>
+                        <p className="prods-card-desc">{tCC(`${slug}.intro`)}</p>
+                        <div className="prods-card-arrow">{t('explore')} →</div>
+                      </Link>
+                    );
+                  })}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </section>
     </div>

@@ -326,6 +326,39 @@
     "nextImage": "Próxima imagem",
     "thumbAria": "Ver imagem {idx}"
   },
+  "productsIndex": {
+    "meta": {
+      "title": "Caixas de Madeira — CHIC",
+      "description": "Explore o nosso catálogo completo de caixas de madeira por uso, estrutura ou material. OEM/ODM personalizado bem-vindo."
+    },
+    "eyebrow": "O Nosso Catálogo",
+    "titleStart": "Caixas",
+    "titleEm": "de Madeira",
+    "sub": "Explore o nosso catálogo completo de caixas de madeira por uso, estrutura ou material. Cada categoria é totalmente personalizável — madeira, tamanho, acabamento, ferragens, branding. MOQ a partir de 100 peças. OEM/ODM personalizado bem-vindo.",
+    "groupByUse": "Por Uso",
+    "groupByStructure": "Por Estrutura",
+    "groupByMaterial": "Por Material",
+    "questionByUse": "O que vai guardar?",
+    "questionByStructure": "Como deve abrir?",
+    "questionByMaterial": "Qual madeira lhe convém?",
+    "categoriesCount": "{n} categorias",
+    "explore": "Explorar"
+  },
+  "woodFab": {
+    "meta": {
+      "title": "Fabricação em Madeira — CHIC",
+      "description": "Da madeira em bruto aos componentes acabados e embalados de caixas de madeira — a CHIC trata de corte, conformação, encaixe, pré-montagem, polimento e embalagem sob um único teto de 15.000 m².",
+      "ogDescription": "Da madeira em bruto a componentes acabados e embalados — fabricação integral interna em madeira."
+    },
+    "h1": "Fabricação em Madeira",
+    "intro": "Da madeira em bruto a componentes acabados e embalados — a nossa unidade gere todo o processo de fabricação sob um único teto.",
+    "card1Title": "Maquinação CNC",
+    "card1Desc": "Corte, furação e fresagem de precisão em máquinas de 3 e 4 eixos.",
+    "card2Title": "Lixagem e Acabamento",
+    "card2Desc": "Linhas de lixagem de cinta e orbital, oleamento, lacagem e pintura.",
+    "card3Title": "Conformação à Medida",
+    "card3Desc": "Torneamento, entalhe, perfilação de bordas e montagem conforme os seus desenhos."
+  },
   "contact": {
     "meta": {
       "title": "Contato — CHIC Wooden Expert",

@@ -1,36 +1,35 @@
 import { alternates } from '@/i18n/seo';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({ params: { locale } }) {
+  const t = await getTranslations({ locale, namespace: 'woodFab.meta' });
+  const title = t('title');
   return {
-    title: 'Wood Fabrication — CHIC',
-    description:
-      'From rough timber to finished, packaged wooden box components — CHIC handles cutting, shaping, mortising, pre-assembly, polishing and packing under one 15,000 m² roof.',
+    title,
+    description: t('description'),
     alternates: alternates(locale, '/wood-fabrication'),
     openGraph: {
       url: `/${locale}/wood-fabrication`,
-      title: 'Wood Fabrication — CHIC',
-      description:
-        'Rough timber to finished, packaged wooden box components — full in-house wood fabrication.',
+      title,
+      description: t('ogDescription'),
     },
   };
 }
 
-export default function WoodFabricationPage({ params: { locale } }) {
+export default async function WoodFabricationPage({ params: { locale } }) {
   unstable_setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'woodFab' });
+  const cards = [
+    { t: t('card1Title'), d: t('card1Desc') },
+    { t: t('card2Title'), d: t('card2Desc') },
+    { t: t('card3Title'), d: t('card3Desc') },
+  ];
   return (
     <section className="container section-pad">
-      <h1 className="text-4xl font-extrabold text-brand-navy">Wood Fabrication</h1>
-      <p className="mt-4 max-w-3xl text-brand-ink/90 leading-relaxed">
-        From rough timber to finished, packaged components — our facility handles the entire wood
-        fabrication process under one roof.
-      </p>
+      <h1 className="text-4xl font-extrabold text-brand-navy">{t('h1')}</h1>
+      <p className="mt-4 max-w-3xl text-brand-ink/90 leading-relaxed">{t('intro')}</p>
       <div className="mt-10 grid gap-6 lg:grid-cols-3">
-        {[
-          { t: 'CNC Machining', d: 'Precise cutting, drilling and routing on 3-axis and 4-axis machines.' },
-          { t: 'Sanding & Finishing', d: 'Belt and orbital sanding, oiling, lacquering and painting lines.' },
-          { t: 'Custom Shaping', d: 'Turning, carving, edge profiling, and assembly to your drawings.' },
-        ].map((c) => (
+        {cards.map((c) => (
           <div key={c.t} className="rounded-2xl bg-white p-6 shadow-sm ring-1 ring-black/5">
             <h3 className="font-bold text-brand-navy">{c.t}</h3>
             <p className="mt-2 text-brand-ink/80">{c.d}</p>

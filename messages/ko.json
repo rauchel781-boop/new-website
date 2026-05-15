@@ -326,6 +326,39 @@
     "nextImage": "다음 이미지",
     "thumbAria": "이미지 {idx} 보기"
   },
+  "productsIndex": {
+    "meta": {
+      "title": "목재 박스 — CHIC",
+      "description": "용도, 구조 또는 재질별로 저희 목재 박스 카탈로그 전체를 둘러보세요. OEM/ODM 맞춤 환영."
+    },
+    "eyebrow": "카탈로그",
+    "titleStart": "목재",
+    "titleEm": "박스",
+    "sub": "용도, 구조 또는 재질별로 저희 목재 박스 카탈로그 전체를 둘러보세요. 모든 카테고리는 완전 맞춤형입니다 — 목재, 크기, 마감, 하드웨어, 브랜딩. MOQ는 100개부터. OEM/ODM 맞춤 환영.",
+    "groupByUse": "용도별",
+    "groupByStructure": "구조별",
+    "groupByMaterial": "재질별",
+    "questionByUse": "무엇을 보관하시나요?",
+    "questionByStructure": "어떻게 열리길 원하시나요?",
+    "questionByMaterial": "어떤 목재가 어울리나요?",
+    "categoriesCount": "{n}개 카테고리",
+    "explore": "둘러보기"
+  },
+  "woodFab": {
+    "meta": {
+      "title": "목재 가공 — CHIC",
+      "description": "원목에서 완성·포장된 목재 박스 부품까지 — CHIC은 절단, 성형, 장부가공, 가조립, 광택, 포장을 15,000 m² 단일 시설에서 처리합니다.",
+      "ogDescription": "원목에서 완성·포장된 부품까지 — 사내 완전 통합 목재 가공."
+    },
+    "h1": "목재 가공",
+    "intro": "원목에서 완성·포장된 부품까지 — 저희 시설은 목재 가공의 전 과정을 한 지붕 아래에서 처리합니다.",
+    "card1Title": "CNC 가공",
+    "card1Desc": "3축 및 4축 머신을 통한 정밀 절단, 드릴링 및 라우팅.",
+    "card2Title": "샌딩 및 마감",
+    "card2Desc": "벨트 및 오비탈 샌딩, 오일링, 래커 및 도장 라인.",
+    "card3Title": "맞춤 성형",
+    "card3Desc": "선반 작업, 조각, 모서리 프로파일링 및 도면에 따른 조립."
+  },
   "contact": {
     "meta": {
       "title": "문의하기 — CHIC Wooden Expert",

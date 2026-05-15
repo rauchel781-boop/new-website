@@ -326,6 +326,39 @@
     "nextImage": "Nächstes Bild",
     "thumbAria": "Bild {idx} ansehen"
   },
+  "productsIndex": {
+    "meta": {
+      "title": "Holzboxen — CHIC",
+      "description": "Durchsuchen Sie unseren vollständigen Holzbox-Katalog nach Verwendung, Struktur oder Material. Individuelle OEM/ODM willkommen."
+    },
+    "eyebrow": "Unser Katalog",
+    "titleStart": "Holz-",
+    "titleEm": "boxen",
+    "sub": "Durchsuchen Sie unseren vollständigen Holzbox-Katalog nach Verwendung, Struktur oder Material. Jede Kategorie ist vollständig anpassbar — Holz, Größe, Oberfläche, Beschläge, Branding. MOQ ab 100 Stück. Individuelle OEM/ODM willkommen.",
+    "groupByUse": "Nach Verwendung",
+    "groupByStructure": "Nach Struktur",
+    "groupByMaterial": "Nach Material",
+    "questionByUse": "Was möchten Sie aufbewahren?",
+    "questionByStructure": "Wie soll sich die Box öffnen?",
+    "questionByMaterial": "Welches Holz passt zu Ihnen?",
+    "categoriesCount": "{n} Kategorien",
+    "explore": "Entdecken"
+  },
+  "woodFab": {
+    "meta": {
+      "title": "Holzbearbeitung — CHIC",
+      "description": "Vom Rohholz zu fertigen, verpackten Holzbox-Komponenten — CHIC übernimmt Zuschnitt, Formgebung, Stemmen, Vormontage, Polieren und Verpackung unter einem Dach von 15.000 m².",
+      "ogDescription": "Vom Rohholz zu fertigen, verpackten Komponenten — komplette interne Holzbearbeitung."
+    },
+    "h1": "Holzbearbeitung",
+    "intro": "Vom Rohholz zu fertigen, verpackten Komponenten — unsere Anlage übernimmt den gesamten Holzbearbeitungsprozess unter einem Dach.",
+    "card1Title": "CNC-Bearbeitung",
+    "card1Desc": "Präzises Schneiden, Bohren und Fräsen auf 3- und 4-Achs-Maschinen.",
+    "card2Title": "Schleifen & Finish",
+    "card2Desc": "Band- und Exzenterschliff, Ölen, Lackieren und Lackierstraßen.",
+    "card3Title": "Sonderformen",
+    "card3Desc": "Drechseln, Schnitzen, Kantenprofilierung und Montage nach Ihren Zeichnungen."
+  },
   "contact": {
     "meta": {
       "title": "Kontakt — CHIC Wooden Expert",

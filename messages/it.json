@@ -326,6 +326,39 @@
     "nextImage": "Immagine successiva",
     "thumbAria": "Vedi immagine {idx}"
   },
+  "productsIndex": {
+    "meta": {
+      "title": "Scatole in Legno — CHIC",
+      "description": "Sfoglia il nostro catalogo completo di scatole in legno per uso, struttura o materiale. OEM/ODM personalizzati benvenuti."
+    },
+    "eyebrow": "Il Nostro Catalogo",
+    "titleStart": "Scatole",
+    "titleEm": "in Legno",
+    "sub": "Sfoglia il nostro catalogo completo di scatole in legno per uso, struttura o materiale. Ogni categoria è completamente personalizzabile — legno, dimensioni, finitura, ferramenta, branding. MOQ a partire da 100 pezzi. OEM/ODM personalizzati benvenuti.",
+    "groupByUse": "Per Uso",
+    "groupByStructure": "Per Struttura",
+    "groupByMaterial": "Per Materiale",
+    "questionByUse": "Cosa vuoi conservare?",
+    "questionByStructure": "Come deve aprirsi?",
+    "questionByMaterial": "Quale legno preferisci?",
+    "categoriesCount": "{n} categorie",
+    "explore": "Esplora"
+  },
+  "woodFab": {
+    "meta": {
+      "title": "Lavorazione del Legno — CHIC",
+      "description": "Dal legname grezzo ai componenti finiti e imballati di scatole in legno — CHIC gestisce taglio, sagomatura, mortasatura, pre-assemblaggio, lucidatura e imballaggio sotto un unico tetto di 15.000 m².",
+      "ogDescription": "Dal legname grezzo ai componenti finiti e imballati — lavorazione del legno completa in-house."
+    },
+    "h1": "Lavorazione del Legno",
+    "intro": "Dal legname grezzo ai componenti finiti e imballati — il nostro stabilimento gestisce l'intero processo di lavorazione del legno sotto un unico tetto.",
+    "card1Title": "Lavorazione CNC",
+    "card1Desc": "Taglio, foratura e fresatura di precisione su macchine a 3 e 4 assi.",
+    "card2Title": "Levigatura e Finitura",
+    "card2Desc": "Linee di levigatura a nastro e orbitale, oliatura, laccatura e verniciatura.",
+    "card3Title": "Sagomatura su Misura",
+    "card3Desc": "Tornitura, intaglio, profilatura dei bordi e assemblaggio su disegno."
+  },
   "contact": {
     "meta": {
       "title": "Contatti — CHIC Wooden Expert",
