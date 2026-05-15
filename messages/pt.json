@@ -326,6 +326,27 @@
     "nextImage": "Próxima imagem",
     "thumbAria": "Ver imagem {idx}"
   },
+  "categoryPage": {
+    "ourProducts": "Os Nossos Produtos",
+    "showcase": "Mostruário",
+    "browseTheRange": "Explore a Gama",
+    "aLookAtTheRange": "Uma Vista da Gama",
+    "requestSamples": "Pedir Amostras",
+    "whyChooseOur": "Porquê escolher as nossas {name}",
+    "featuresThatMatter": "As Características Que Importam",
+    "specifications": "Especificações",
+    "buildToSpec": "Fabricado à Medida",
+    "useCasesLabel": "Casos de Uso",
+    "perfectFor": "Perfeito Para",
+    "ctaEyebrow": "Pedir Orçamento",
+    "ctaTitle": "Pronto para Encomendar {name}?",
+    "ctaSub": "Envie-nos as suas especificações — quantidade, dimensões, tipo de madeira, requisitos de branding. Respondemos em 24 horas com orçamento e prazo de entrega.",
+    "ctaEmail": "Envie um E-mail",
+    "ctaBrowse": "Ver Catálogo",
+    "relatedEyebrow": "Descubra Mais",
+    "relatedTitle": "Categorias Relacionadas",
+    "relatedArrow": "Ver"
+  },
   "productGrid": {
     "filterAll": "Todos",
     "filterMagnetic": "Magnético",

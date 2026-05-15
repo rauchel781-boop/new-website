@@ -326,6 +326,27 @@
     "nextImage": "다음 이미지",
     "thumbAria": "이미지 {idx} 보기"
   },
+  "categoryPage": {
+    "ourProducts": "저희 제품",
+    "showcase": "쇼케이스",
+    "browseTheRange": "라인업 둘러보기",
+    "aLookAtTheRange": "라인업 한눈에 보기",
+    "requestSamples": "샘플 요청",
+    "whyChooseOur": "{name}을(를) 선택하는 이유",
+    "featuresThatMatter": "핵심 특징",
+    "specifications": "사양",
+    "buildToSpec": "맞춤 제작",
+    "useCasesLabel": "사용 사례",
+    "perfectFor": "최적의 용도",
+    "ctaEyebrow": "견적 요청",
+    "ctaTitle": "{name} 주문 준비 되셨나요?",
+    "ctaSub": "사양을 보내주세요 — 수량, 치수, 목재 종류, 브랜딩 요구사항. 24시간 이내에 견적과 납기로 회신드립니다.",
+    "ctaEmail": "지금 이메일 보내기",
+    "ctaBrowse": "카탈로그 둘러보기",
+    "relatedEyebrow": "더 둘러보기",
+    "relatedTitle": "관련 카테고리",
+    "relatedArrow": "보기"
+  },
   "productGrid": {
     "filterAll": "전체",
     "filterMagnetic": "자석식",

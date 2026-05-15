@@ -326,6 +326,27 @@
     "nextImage": "次の画像",
     "thumbAria": "画像 {idx} を見る"
   },
+  "categoryPage": {
+    "ourProducts": "当社の製品",
+    "showcase": "ショーケース",
+    "browseTheRange": "ラインナップを見る",
+    "aLookAtTheRange": "ラインナップ一覧",
+    "requestSamples": "サンプル依頼",
+    "whyChooseOur": "{name} を選ぶ理由",
+    "featuresThatMatter": "重要な特徴",
+    "specifications": "仕様",
+    "buildToSpec": "ご要望通りに製作",
+    "useCasesLabel": "用途",
+    "perfectFor": "最適な用途",
+    "ctaEyebrow": "見積もり依頼",
+    "ctaTitle": "{name} のご注文準備はできましたか？",
+    "ctaSub": "仕様をお送りください — 数量、寸法、木材の種類、ブランディング要件。見積もりと納期を 24 時間以内に返信します。",
+    "ctaEmail": "メールを送る",
+    "ctaBrowse": "カタログを見る",
+    "relatedEyebrow": "もっと見る",
+    "relatedTitle": "関連カテゴリー",
+    "relatedArrow": "見る"
+  },
   "productGrid": {
     "filterAll": "すべて",
     "filterMagnetic": "マグネット",

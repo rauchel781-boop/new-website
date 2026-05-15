@@ -326,6 +326,27 @@
     "nextImage": "Nächstes Bild",
     "thumbAria": "Bild {idx} ansehen"
   },
+  "categoryPage": {
+    "ourProducts": "Unsere Produkte",
+    "showcase": "Showcase",
+    "browseTheRange": "Sortiment Entdecken",
+    "aLookAtTheRange": "Ein Blick auf das Sortiment",
+    "requestSamples": "Muster Anfordern",
+    "whyChooseOur": "Warum unsere {name} wählen",
+    "featuresThatMatter": "Merkmale, Die Zählen",
+    "specifications": "Spezifikationen",
+    "buildToSpec": "Nach Spezifikation Gefertigt",
+    "useCasesLabel": "Anwendungsfälle",
+    "perfectFor": "Ideal Für",
+    "ctaEyebrow": "Angebot Anfordern",
+    "ctaTitle": "Bereit, {name} zu Bestellen?",
+    "ctaSub": "Senden Sie uns Ihre Spezifikationen — Menge, Abmessungen, Holzart, Branding-Anforderungen. Wir antworten innerhalb von 24 Stunden mit Angebot und Lieferzeit.",
+    "ctaEmail": "Jetzt E-Mail Senden",
+    "ctaBrowse": "Katalog Durchsehen",
+    "relatedEyebrow": "Mehr Entdecken",
+    "relatedTitle": "Verwandte Kategorien",
+    "relatedArrow": "Ansehen"
+  },
   "productGrid": {
     "filterAll": "Alle",
     "filterMagnetic": "Magnetisch",

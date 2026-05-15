@@ -387,6 +387,28 @@ export default async function CategoryPage({ params }) {
     labelHome = tn('home') || labelHome;
   } catch (e) {}
 
+  // categoryPage namespace — all chrome strings on this template
+  // (section labels, titles, CTAs, related categories).
+  const tcp = await getTranslations({ locale: params.locale, namespace: 'categoryPage' });
+
+  // Pre-compute related category cards with translated names and group labels.
+  // We resolve translations now (not inside JSX) because getTranslations is async.
+  const groupKeyMap = { 'By Use': 'byUse', 'By Structure': 'byStructure', 'By Material': 'byMaterial' };
+  let tnCats = null;
+  let tnNav = null;
+  try { tnCats = await getTranslations({ locale: params.locale, namespace: 'categories' }); } catch (e) {}
+  try { tnNav = await getTranslations({ locale: params.locale, namespace: 'nav' }); } catch (e) {}
+  const relatedCards = (item.related || []).map((slug) => {
+    const rel = CATEGORIES[slug];
+    if (!rel) return null;
+    let relName = rel.name;
+    try { if (tnCats) relName = tnCats(slug) || rel.name; } catch (e) {}
+    const k = groupKeyMap[rel.group];
+    let relGroup = rel.group;
+    try { if (tnNav && k) relGroup = tnNav(k) || rel.group; } catch (e) {}
+    return { slug, name: relName, group: relGroup };
+  }).filter(Boolean);
+
   const galleryImages = item.images.slice(0, 5);
   const products = PRODUCTS_BY_CATEGORY[params.slug];
 
@@ -456,12 +478,12 @@ export default async function CategoryPage({ params }) {
         <div className="cat-section-inner">
           <div className="cat-gal-header">
             <div>
-              <div className="cat-section-label">{products ? 'Our Products' : 'Showcase'}</div>
+              <div className="cat-section-label">{products ? tcp('ourProducts') : tcp('showcase')}</div>
               <h2 className="cat-section-title">
-                {products ? 'Browse the Range' : 'A Look at the Range'}
+                {products ? tcp('browseTheRange') : tcp('aLookAtTheRange')}
               </h2>
             </div>
-            <Link href="/contact" className="cat-btn-primary">Request Samples</Link>
+            <Link href="/contact" className="cat-btn-primary">{tcp('requestSamples')}</Link>
           </div>
 
           {products ? (
@@ -484,8 +506,8 @@ export default async function CategoryPage({ params }) {
       {/* ── FEATURES ── */}
       <section className="cat-section cat-features">
         <div className="cat-section-inner">
-          <div className="cat-section-label">Why Choose Our {item.name}</div>
-          <h2 className="cat-section-title">Features That Matter</h2>
+          <div className="cat-section-label">{tcp('whyChooseOur', { name: translatedName })}</div>
+          <h2 className="cat-section-title">{tcp('featuresThatMatter')}</h2>
           <div className="cat-section-line" />
           <div className="cat-feat-grid">
             {item.features.map((f, i) => (
@@ -504,8 +526,8 @@ export default async function CategoryPage({ params }) {
         <div className="cat-section-inner">
           <div className="cat-detail-grid">
             <div>
-              <div className="cat-section-label">Specifications</div>
-              <h2 className="cat-section-title">Build to Spec</h2>
+              <div className="cat-section-label">{tcp('specifications')}</div>
+              <h2 className="cat-section-title">{tcp('buildToSpec')}</h2>
               <ul className="cat-spec-list">
                 {item.specs.map((s, i) => (
                   <li className="cat-spec-item" key={i}>{s}</li>
@@ -513,8 +535,8 @@ export default async function CategoryPage({ params }) {
               </ul>
             </div>
             <div>
-              <div className="cat-section-label">Use Cases</div>
-              <h2 className="cat-section-title">Perfect For</h2>
+              <div className="cat-section-label">{tcp('useCasesLabel')}</div>
+              <h2 className="cat-section-title">{tcp('perfectFor')}</h2>
               <div className="cat-usecase-list" style={{ marginTop: 24 }}>
                 {item.useCases.map((u, i) => (
                   <span className="cat-usecase" key={i}>{u}</span>
@@ -528,41 +550,34 @@ export default async function CategoryPage({ params }) {
       {/* ── CTA ── */}
       <section className="cat-cta">
         <div className="cat-cta-inner">
-          <div className="cat-section-label" style={{ color: 'var(--blue-warm)' }}>Get a Quote</div>
-          <h2 className="cat-cta-title">Ready to Order {item.name}?</h2>
-          <p className="cat-cta-sub">
-            Send us your specs — quantity, dimensions, wood type, branding requirements.
-            We respond within 24 hours with a quote and lead time.
-          </p>
+          <div className="cat-section-label" style={{ color: 'var(--blue-warm)' }}>{tcp('ctaEyebrow')}</div>
+          <h2 className="cat-cta-title">{tcp('ctaTitle', { name: translatedName })}</h2>
+          <p className="cat-cta-sub">{tcp('ctaSub')}</p>
           <div className="cat-hero-btns" style={{ justifyContent: 'center' }}>
-            <Link href="/contact" className="cat-btn-primary">Email Us Now</Link>
-            <Link href="/products" className="cat-btn-outline">Browse Catalog</Link>
+            <Link href="/contact" className="cat-btn-primary">{tcp('ctaEmail')}</Link>
+            <Link href="/products" className="cat-btn-outline">{tcp('ctaBrowse')}</Link>
           </div>
         </div>
       </section>
 
       {/* ── RELATED ── */}
-      {item.related && item.related.length > 0 && (
+      {relatedCards.length > 0 && (
         <section className="cat-related">
           <div className="cat-related-inner">
-            <div className="cat-section-label">Explore More</div>
-            <h2 className="cat-section-title">Related Categories</h2>
+            <div className="cat-section-label">{tcp('relatedEyebrow')}</div>
+            <h2 className="cat-section-title">{tcp('relatedTitle')}</h2>
             <div className="cat-related-grid">
-              {item.related.map((slug) => {
-                const rel = CATEGORIES[slug];
-                if (!rel) return null;
-                return (
-                  <Link
-                    key={slug}
-                    href={`/products/${slug}`}
-                    className="cat-related-card"
-                  >
-                    <div className="cat-related-eyebrow">{rel.group}</div>
-                    <div className="cat-related-name">{rel.name}</div>
-                    <div className="cat-related-arrow">→ View</div>
-                  </Link>
-                );
-              })}
+              {relatedCards.map((rc) => (
+                <Link
+                  key={rc.slug}
+                  href={`/products/${rc.slug}`}
+                  className="cat-related-card"
+                >
+                  <div className="cat-related-eyebrow">{rc.group}</div>
+                  <div className="cat-related-name">{rc.name}</div>
+                  <div className="cat-related-arrow">→ {tcp('relatedArrow')}</div>
+                </Link>
+              ))}
             </div>
           </div>
         </section>

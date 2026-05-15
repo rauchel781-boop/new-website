@@ -326,6 +326,27 @@
     "nextImage": "Immagine successiva",
     "thumbAria": "Vedi immagine {idx}"
   },
+  "categoryPage": {
+    "ourProducts": "I Nostri Prodotti",
+    "showcase": "In Mostra",
+    "browseTheRange": "Esplora la Gamma",
+    "aLookAtTheRange": "Uno Sguardo alla Gamma",
+    "requestSamples": "Richiedi Campioni",
+    "whyChooseOur": "Perché scegliere le nostre {name}",
+    "featuresThatMatter": "Le Caratteristiche Che Contano",
+    "specifications": "Specifiche",
+    "buildToSpec": "Costruito su Misura",
+    "useCasesLabel": "Casi d'Uso",
+    "perfectFor": "Ideale Per",
+    "ctaEyebrow": "Richiedi un Preventivo",
+    "ctaTitle": "Pronto a Ordinare {name}?",
+    "ctaSub": "Inviaci le tue specifiche — quantità, dimensioni, tipo di legno, requisiti di branding. Rispondiamo entro 24 ore con preventivo e tempi di consegna.",
+    "ctaEmail": "Scrivici Ora",
+    "ctaBrowse": "Sfoglia il Catalogo",
+    "relatedEyebrow": "Scopri di Più",
+    "relatedTitle": "Categorie Correlate",
+    "relatedArrow": "Visualizza"
+  },
   "productGrid": {
     "filterAll": "Tutti",
     "filterMagnetic": "Magnetica",

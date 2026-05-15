@@ -326,6 +326,27 @@
     "nextImage": "Next image",
     "thumbAria": "View image {idx}"
   },
+  "categoryPage": {
+    "ourProducts": "Our Products",
+    "showcase": "Showcase",
+    "browseTheRange": "Browse the Range",
+    "aLookAtTheRange": "A Look at the Range",
+    "requestSamples": "Request Samples",
+    "whyChooseOur": "Why Choose Our {name}",
+    "featuresThatMatter": "Features That Matter",
+    "specifications": "Specifications",
+    "buildToSpec": "Build to Spec",
+    "useCasesLabel": "Use Cases",
+    "perfectFor": "Perfect For",
+    "ctaEyebrow": "Get a Quote",
+    "ctaTitle": "Ready to Order {name}?",
+    "ctaSub": "Send us your specs — quantity, dimensions, wood type, branding requirements. We respond within 24 hours with a quote and lead time.",
+    "ctaEmail": "Email Us Now",
+    "ctaBrowse": "Browse Catalog",
+    "relatedEyebrow": "Explore More",
+    "relatedTitle": "Related Categories",
+    "relatedArrow": "View"
+  },
   "productGrid": {
     "filterAll": "All",
     "filterMagnetic": "Magnetic",
