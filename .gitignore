@@ -43,3 +43,6 @@ next-env.d.ts
 *.xlsx
 *.xls
 样本_*
+
+# CRM 部署文件夹 — 独立的 xmchic-crm 仓库，不属于 new-website
+crm-deploy/

@@ -465,3 +465,73 @@ export default TRANSLATIONS;
 - INP 实测（等 GA4 24-48h 数据）
 - 博客 8 语化（10 文 × 7 语 ≈ 70k 字大工程）
 - 加阿拉伯语 / 俄语 / 越南语
+
+## 十三、Contact 页 i18n 全栈本地化（2026-05-15）
+
+Contact 页之前是完全硬编码英文（hero / 4 个联系方式卡片 / 表单 / 信息侧栏 / 6 个时区时钟 / 2 个办公地点 / 8 个买家 FAQ / 终末 CTA），不管访问 `/es/contact` 还是 `/ja/contact` 都看英文。这次一次性把全 3 层全部本地化。
+
+### 改动文件
+
+- `messages/{en,es,fr,de,it,pt,ja,ko}.json`：新增 `contact` namespace（10 个子区块 / ~90 keys / 8 语 ≈ 720 条翻译，包含 8 个完整 FAQ）
+- `app/[locale]/contact/ContactClient.jsx`（'use client'）：用 `useTranslations('contact')`；`t.rich()` 处理表单 thanks 段（带 products/blog 链接）和 fine print（mailto 链接，tag 名改为 `<emailLink>` 避免和 `{email}` 参数冲突）；ZONES 数组改成 `cityKey` 而不是硬编码 city 字符串；FAQS 用 `useMemo` 从 `q1..q8` / `a1..a8` 翻译 key 生成
+- `app/[locale]/contact/page.js`：generateMetadata 用 `await getTranslations({ locale, namespace: 'contact.meta' })`
+
+### 已知小坑
+
+表单 select 的 `subject` state 现在存的是翻译后的字符串（"OEM 项目" 在 8 种语言下是 8 个不同的值）。GA4 `inquiry_form_submitted` 事件维度会被这个污染。修法是将来加一个稳定的 subjectKey（`general`/`oem`/`quote`/...），analytics 发 key，UI 用 t() 翻译。这次没改避免增加复杂度。
+
+## 十四、products 目录页 + wood-fabrication 页 i18n（2026-05-15）
+
+两个页面都还是硬编码英文。一次性补完。
+
+### 改动文件
+
+- `messages/{en,es,fr,de,it,pt,ja,ko}.json`：新增 `productsIndex` namespace（13 keys：eyebrow / titleStart/Em / sub / 3 个分组 label / 3 个分组提问 / categoriesCount 计数器 / explore CTA）+ `woodFab` namespace（10 keys：h1 / intro / 3 张卡片 title+desc）
+- `app/[locale]/products/page.js`：改成 async server 组件，加了两张映射表 `GROUP_LABEL_KEY` / `GROUP_QUESTION_KEY` 把 GROUPS 里的英文 group title 映射到翻译 key；分类卡片三层翻译：`tCat(slug)` 取分类名（用现成 `categories` namespace）、`tCC('${slug}.tagline')` 和 `tCC('${slug}.intro')` 用 `categoryContent` namespace
+- `app/[locale]/wood-fabrication/page.js`：改成 async server 组件；h1 / intro / 3 张卡片全本地化
+
+### 现状：i18n 已 100% 覆盖（除 Blog）
+
+经审计：
+- Header / Footer：i18n ✅
+- About / Homepage：数据层 i18n（`data/about/{locale}.js` + `data/home/{locale}.js`）✅
+- Capabilities / Material-guide：i18n ✅
+- Privacy / Terms：英文 only（设计决定）
+- Contact / Products 目录页 / Products 详情页（[slug] + [slug]/[product]） / Wood-fabrication：i18n ✅
+- 186 个产品的 specs/customization/packaging/useCases：数据层 i18n ✅
+
+**唯一硬编码英文剩下的是 Blog**（10 文 × 7 语 ≈ 70k 字），属于设计决定（SEO 内容机翻会伤排名）。
+
+孤立组件 `components/CTA.js` / `components/Hero.js` 没被任何地方引用，可以删（暂时留着）。
+
+`components/NewsletterForm.js` 还有 4 个硬编码 fallback 字符串（"Sending…" / 错误信息 / "Thanks" / "We won't share..."），不过它只被 blog 页用且 blog 整页都是英文，所以现状一致，不急。
+
+## 十五、`.dockerignore` 创建（2026-05-15）
+
+### 触发问题
+
+部署日志显示 `Deployment failed: Command execution failed (exit code 255)`，build 全程成功（30 秒构建出 1789 个静态页面），但在 `#16 exporting layers` 那一步突然崩。
+
+排查后发现：
+- 服务器磁盘 218G 空闲（OK）
+- 服务器内存 5.2G 可用（OK）
+- 真凶：`#5 transferring context: 815.12MB 2.8s done`——build context 815MB 太大
+
+### 根因
+
+**项目根目录没有 `.dockerignore`**。Docker build 把 `node_modules` / `.next` / `.git` / `crm-deploy/` / `*.xlsx` 全部塞进了构建上下文。815MB 的 context 在 export layers 阶段大概率撑爆 BuildKit 的内存或缓冲。
+
+### 修复
+
+创建 `.dockerignore`，排除：
+- node_modules / .pnp / .yarn
+- .next / out / build
+- .git / .gitignore
+- .env*
+- *.log / coverage
+- *.xlsx / *.xls / `样本_*`
+- crm-deploy/
+- HANDOFF.md / README.md / *.md
+- Dockerfile / docker-compose / .github
+
+预计下次部署 build context 从 815MB 降到 10-20MB，大概率直接消掉 `exit code 255` 问题。
