@@ -24,6 +24,7 @@ import { PRODUCTS as ACACIA_PRODUCTS } from '@/data/products/acacia';
 import { PRODUCTS as WALNUT_PRODUCTS } from '@/data/products/walnut';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getProductTranslation } from '@/data/products/translations';
+import { getCategoryTranslation } from '@/data/categories/translations';
 
 // Map of category slug → its products data file (only categories with products).
 // Add an entry here when you add a /data/products/<slug>.js file.
@@ -391,6 +392,15 @@ export default async function CategoryPage({ params }) {
   // (section labels, titles, CTAs, related categories).
   const tcp = await getTranslations({ locale: params.locale, namespace: 'categoryPage' });
 
+  // Apply per-locale category-data translation overlay (features / specs /
+  // useCases / longDesc). Anything missing falls back to the English source
+  // in `data/categories.js`, so partially-translated languages still build.
+  const catTranslation = getCategoryTranslation(params.slug, params.locale);
+  const translatedFeatures = catTranslation.features || item.features;
+  const translatedSpecs    = catTranslation.specs    || item.specs;
+  const translatedUseCases = catTranslation.useCases || item.useCases;
+  const translatedLongDesc = catTranslation.longDesc || item.longDesc;
+
   // Pre-compute related category cards with translated names and group labels.
   // We resolve translations now (not inside JSX) because getTranslations is async.
   const groupKeyMap = { 'By Use': 'byUse', 'By Structure': 'byStructure', 'By Material': 'byMaterial' };
@@ -462,9 +472,13 @@ export default async function CategoryPage({ params }) {
           </div>
           <h1 className="cat-h1">{translatedName}</h1>
           <div className="cat-tagline">{translatedTagline}</div>
-          {/* Hero paragraph: rich English longDesc for EN, translated intro elsewhere */}
+          {/* Hero paragraph: use translated longDesc when the locale ships one,
+              otherwise fall back to the shorter translated intro from
+              `categoryContent` namespace (then English longDesc as last resort). */}
           <p className="cat-intro">
-            {params.locale === 'en' ? item.longDesc : translatedIntro}
+            {catTranslation.longDesc
+              ? translatedLongDesc
+              : (params.locale === 'en' ? item.longDesc : translatedIntro)}
           </p>
           <div className="cat-hero-btns">
             <Link href="/contact" className="cat-btn-primary">{ctaQuote}</Link>
@@ -510,7 +524,7 @@ export default async function CategoryPage({ params }) {
           <h2 className="cat-section-title">{tcp('featuresThatMatter')}</h2>
           <div className="cat-section-line" />
           <div className="cat-feat-grid">
-            {item.features.map((f, i) => (
+            {translatedFeatures.map((f, i) => (
               <div className="cat-feat-card" key={i}>
                 <div className="cat-feat-icon">{f.icon}</div>
                 <div className="cat-feat-title">{f.title}</div>
@@ -529,7 +543,7 @@ export default async function CategoryPage({ params }) {
               <div className="cat-section-label">{tcp('specifications')}</div>
               <h2 className="cat-section-title">{tcp('buildToSpec')}</h2>
               <ul className="cat-spec-list">
-                {item.specs.map((s, i) => (
+                {translatedSpecs.map((s, i) => (
                   <li className="cat-spec-item" key={i}>{s}</li>
                 ))}
               </ul>
@@ -538,7 +552,7 @@ export default async function CategoryPage({ params }) {
               <div className="cat-section-label">{tcp('useCasesLabel')}</div>
               <h2 className="cat-section-title">{tcp('perfectFor')}</h2>
               <div className="cat-usecase-list" style={{ marginTop: 24 }}>
-                {item.useCases.map((u, i) => (
+                {translatedUseCases.map((u, i) => (
                   <span className="cat-usecase" key={i}>{u}</span>
                 ))}
               </div>
