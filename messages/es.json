@@ -326,6 +326,20 @@
     "nextImage": "Siguiente imagen",
     "thumbAria": "Ver imagen {idx}"
   },
+  "introCarousel": {
+    "slide1Label": "Producción en Serie",
+    "slide2Label": "Ensamblaje de Cajas con Cajón",
+    "slide3Label": "Cajoneras Multi-Cajón",
+    "slide4Label": "Embalaje Final",
+    "slide5Label": "Serie Almacenamiento",
+    "slide6Label": "Cajas de Pino Quemado",
+    "slide7Label": "Caja Expositora con Tapa de Vidrio",
+    "slide8Label": "Soporte de Pared en Acacia",
+    "prevSlide": "Diapositiva anterior",
+    "nextSlide": "Diapositiva siguiente",
+    "goToSlide": "Ir a la diapositiva {n}",
+    "locationTag": "Xiamen + Cao County · China"
+  },
   "productsIndex": {
     "meta": {
       "title": "Cajas de Madera — CHIC",

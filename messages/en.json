@@ -326,6 +326,20 @@
     "nextImage": "Next image",
     "thumbAria": "View image {idx}"
   },
+  "introCarousel": {
+    "slide1Label": "Bulk Production",
+    "slide2Label": "Drawer Box Assembly",
+    "slide3Label": "Multi-Drawer Cabinets",
+    "slide4Label": "Final Packaging",
+    "slide5Label": "Storage Series",
+    "slide6Label": "Burnt Pine Boxes",
+    "slide7Label": "Glass-Top Display Box",
+    "slide8Label": "Acacia Wall Holder",
+    "prevSlide": "Previous slide",
+    "nextSlide": "Next slide",
+    "goToSlide": "Go to slide {n}",
+    "locationTag": "Xiamen + Cao County · China"
+  },
   "productsIndex": {
     "meta": {
       "title": "Wooden Boxes — CHIC",

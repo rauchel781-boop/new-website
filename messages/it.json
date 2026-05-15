@@ -326,6 +326,20 @@
     "nextImage": "Immagine successiva",
     "thumbAria": "Vedi immagine {idx}"
   },
+  "introCarousel": {
+    "slide1Label": "Produzione in Volume",
+    "slide2Label": "Assemblaggio Scatole a Cassetto",
+    "slide3Label": "Cassettiere Multi-Cassetto",
+    "slide4Label": "Imballaggio Finale",
+    "slide5Label": "Linea Storage",
+    "slide6Label": "Scatole in Pino Bruciato",
+    "slide7Label": "Scatola Espositiva con Coperchio in Vetro",
+    "slide8Label": "Portaoggetti a Parete in Acacia",
+    "prevSlide": "Slide precedente",
+    "nextSlide": "Slide successiva",
+    "goToSlide": "Vai alla slide {n}",
+    "locationTag": "Xiamen + Cao County · Cina"
+  },
   "productsIndex": {
     "meta": {
       "title": "Scatole in Legno — CHIC",

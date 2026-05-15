@@ -326,6 +326,20 @@
     "nextImage": "Nächstes Bild",
     "thumbAria": "Bild {idx} ansehen"
   },
+  "introCarousel": {
+    "slide1Label": "Großserienfertigung",
+    "slide2Label": "Schubladenbox-Montage",
+    "slide3Label": "Mehrfach-Schubladenschränke",
+    "slide4Label": "Endverpackung",
+    "slide5Label": "Storage-Serie",
+    "slide6Label": "Geflammte Kiefernboxen",
+    "slide7Label": "Vitrinenbox mit Glasdeckel",
+    "slide8Label": "Akazien-Wandhalter",
+    "prevSlide": "Vorherige Folie",
+    "nextSlide": "Nächste Folie",
+    "goToSlide": "Zu Folie {n} gehen",
+    "locationTag": "Xiamen + Cao County · China"
+  },
   "productsIndex": {
     "meta": {
       "title": "Holzboxen — CHIC",

@@ -326,6 +326,20 @@
     "nextImage": "Próxima imagem",
     "thumbAria": "Ver imagem {idx}"
   },
+  "introCarousel": {
+    "slide1Label": "Produção em Massa",
+    "slide2Label": "Montagem de Caixas com Gaveta",
+    "slide3Label": "Móveis Multi-Gaveta",
+    "slide4Label": "Embalagem Final",
+    "slide5Label": "Série Arrumação",
+    "slide6Label": "Caixas em Pinho Queimado",
+    "slide7Label": "Caixa Expositora com Tampo de Vidro",
+    "slide8Label": "Suporte de Parede em Acácia",
+    "prevSlide": "Slide anterior",
+    "nextSlide": "Próximo slide",
+    "goToSlide": "Ir para o slide {n}",
+    "locationTag": "Xiamen + Cao County · China"
+  },
   "productsIndex": {
     "meta": {
       "title": "Caixas de Madeira — CHIC",

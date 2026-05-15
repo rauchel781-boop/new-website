@@ -326,6 +326,20 @@
     "nextImage": "Image suivante",
     "thumbAria": "Voir image {idx}"
   },
+  "introCarousel": {
+    "slide1Label": "Production en Volume",
+    "slide2Label": "Assemblage de Boîtes à Tiroir",
+    "slide3Label": "Meubles Multi-Tiroirs",
+    "slide4Label": "Conditionnement Final",
+    "slide5Label": "Série Rangement",
+    "slide6Label": "Boîtes en Pin Brûlé",
+    "slide7Label": "Boîte Vitrine à Couvercle en Verre",
+    "slide8Label": "Support Mural en Acacia",
+    "prevSlide": "Diapositive précédente",
+    "nextSlide": "Diapositive suivante",
+    "goToSlide": "Aller à la diapositive {n}",
+    "locationTag": "Xiamen + Cao County · Chine"
+  },
   "productsIndex": {
     "meta": {
       "title": "Boîtes en Bois — CHIC",

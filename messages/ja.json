@@ -326,6 +326,20 @@
     "nextImage": "次の画像",
     "thumbAria": "画像 {idx} を見る"
   },
+  "introCarousel": {
+    "slide1Label": "大量生産",
+    "slide2Label": "引き出し箱の組立",
+    "slide3Label": "多段引き出しキャビネット",
+    "slide4Label": "最終梱包",
+    "slide5Label": "ストレージシリーズ",
+    "slide6Label": "焼き加工パイン箱",
+    "slide7Label": "ガラストップ展示箱",
+    "slide8Label": "アカシア壁掛けホルダー",
+    "prevSlide": "前のスライド",
+    "nextSlide": "次のスライド",
+    "goToSlide": "スライド {n} へ移動",
+    "locationTag": "厦門 + 曹県 · 中国"
+  },
   "productsIndex": {
     "meta": {
       "title": "木箱 — CHIC",
