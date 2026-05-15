@@ -826,7 +826,8 @@ export default async function HomePage({ params: { locale } }) {
 
           <div className="hero-collage">
             <div className="hc-card hc-main">
-              <img loading="lazy" decoding="async" src="/factory/production.webp" alt={COPY.hero.collage.main} width="900" height="900" />
+              {/* LCP candidate — eager + high priority for best Core Web Vitals score */}
+              <img loading="eager" fetchpriority="high" decoding="async" src="/factory/production.webp" alt={COPY.hero.collage.main} width="900" height="900" />
               <div className="hc-cap">{COPY.hero.collage.main}</div>
             </div>
             <div className="hc-card hc-sub-1 is-product">
