@@ -810,3 +810,124 @@ const features = ct.features || category.features;  // 缺翻译时回退英文
 - 总翻译条目数 ~8,500+
 - 代码库清洁（删除 4 个孤立组件，添加 `.dockerignore` 修复部署）
 - 文档完整（HANDOFF.md 22 节记录全过程）
+
+## 二十三、性能 + 安全 + favicon + 仓库清理大收尾（2026-05-15 终篇）
+
+### a) 性能：homepage LCP 关键图片改 eager + fetchpriority
+
+`app/[locale]/page.js` 首页 hero collage 主图 `/factory/production.webp`（900×900）是 LCP 候选元素但被标 `loading="lazy"` — 这是 Core Web Vitals 反模式。改成：
+
+```jsx
+<img loading="eager" fetchpriority="high" decoding="async" src="..." />
+```
+
+预期 LCP 改善 100-300ms（慢网络更明显）。
+
+全站 20 个 `<img>` 全部审计过：
+- 每个都有显式 `width` / `height`（CLS 防护齐全）
+- 画廊/轮播第一张用 `i === 0 ? 'eager' : 'lazy'` 模式
+- iframes（Contact 页 Google Maps embed）都有 `loading="lazy"`
+
+### b) next.config.js 生产环境硬化
+
+```js
+poweredByHeader: false                    // 去掉 X-Powered-By 头
+compiler: {
+  removeConsole: NODE_ENV === 'production'
+    ? { exclude: ['error'] }              // 剥离 console.* 但保留 .error
+    : false,
+}
+```
+
+### c) 安全 HTTP 响应头（应用到所有路由）
+
+```js
+headers() {
+  return [{
+    source: '/:path*',
+    headers: [
+      { key: 'X-Frame-Options',        value: 'SAMEORIGIN' },
+      { key: 'X-Content-Type-Options', value: 'nosniff' },
+      { key: 'Referrer-Policy',        value: 'strict-origin-when-cross-origin' },
+      { key: 'Permissions-Policy',     value: 'camera=(), microphone=(), geolocation=(), payment=(), usb=()' },
+    ],
+  }];
+}
+```
+
+故意没加的：
+- `Strict-Transport-Security`（HSTS）— Coolify/Nginx 反代加更好，容器重启不丢
+- `Content-Security-Policy`（CSP）— Tawk.to + EmailJS + GA4 组合复杂，需用 report-only 模式收真实违规后再写正式策略
+
+预期 securityheaders.com 评分从 D-/E 提升到 B+/A-。
+
+### d) Favicon（之前完全没有）
+
+`public/` 和 `app/` 下都没有 favicon.ico — 浏览器标签 icon 显示空白，移动端添加到主屏用通用图标。
+
+加了 Next.js 14 Metadata Files 约定的动态生成图标：
+
+- `app/icon.js` — 32×32 PNG，浏览器标签
+- `app/apple-icon.js` — 180×180 PNG，iOS 主屏
+- 都用 `ImageResponse` API 运行时生成（无需维护二进制文件）
+- 木色渐变背景（#6B4A33 → #C58E4A）+ 米白色 "C" 字母（serif 字体）
+
+同时去掉 `app/layout.js` 里原本的 `icons: { icon: '/logo.png', apple: '/logo.png' }` override — 否则会强制用 1200px 的 logo.png 当 favicon（浏览器自适应不好）。logo.png 保留作 OG / Twitter card 图。
+
+### e) WCAG 2.1 SC 1.4.4 viewport 修复
+
+原来：`viewport.maximumScale = 5`，限制用户最大缩放 5x。
+
+WCAG 2.1 SC 1.4.4 Resize Text 要求用户能放大到至少 200%（最好更大）— 移动端限制缩放是低视力用户的明确障碍。改成不设 maximumScale（任意倍数）。
+
+### f) 3 个 SITE config 残留英文修补
+
+之前漏掉的 3 个硬编码英文字段（用 `SITE.*` 引用过）：
+
+- `SITE.wechat.note` ("Search this ID in WeChat to add us") → `contact.ways.wechatNote`，用在 Footer + Contact
+- `SITE.addresses.salesOffice.role` ("Sales · design · export documentation · sample coordination") → `contact.locs.salesRole`，用在 Contact 页
+- `SITE.addresses.factory.role` ("Manufacturing · finishing · QC · packing · 120+ skilled workers") → `contact.locs.factoryRole`
+- `SITE.hours` ("Mon–Sat · 9:00–18:00 (GMT+8)") → `footer.hoursValue`，用在 Footer
+
+物理地址 `addresses.lines` 保留英文（邮政地址按惯例保持原文）；`addresses.city` 用在 JSON-LD `PostalAddress.addressLocality`，邮政标准也是英文。
+
+### g) 仓库清理
+
+- 删 `data/blog.js.tmp`（97KB 临时文件，没被任何地方引用）
+- 删 `.build.log`（22 字节旧 build 日志残留）
+- 删 `1.rtf`（0 字节空 RTF 文件）
+- 强化 `.gitignore`：加 `*.log` / `*.tmp` / `*.bak` / `*.old` / `*.orig` / `*~` / `*.swp` / `*.swo` / `Thumbs.db` 通配规则
+
+### h) README.md 完全重写
+
+原 README 严重过时：
+- 项目名还叫 "Wajawood"（早被 CHIC / custom-woodenbox 取代）
+- 完全没提 next-intl 8 语 i18n（最大特性）
+- 引用了已删的 4 个孤立组件（Hero / Featured / CTA / CapabilitiesSection）
+- 目录结构指向 `app/about/page.js`（应该是 `app/[locale]/about/`）
+
+重写后 130+ 行：
+- 完整 tech stack（Next 14.2 + next-intl 3.26 + Tailwind 3.4 + EmailJS + Coolify + GA4 + Clarity）
+- 完整目录树（包含 i18n / data overlays / messages / lib 全部）
+- 3 层 i18n 架构总览
+- Blog 英文 only 的 SEO 原因说明
+- 8 个 locale 本地访问地址示例
+- 添加新分类 / 新产品 / 新 locale 的操作指南
+- 性能 + 部署 + 常用命令
+
+### i) `app/icon.js` 与原 `metadata.icons` 的冲突
+
+注意：`app/layout.js` 原本有 `icons: { icon: '/logo.png', apple: '/logo.png' }`，这会覆盖 file-based metadata（即 `app/icon.js` 不会生效）。重写 layout.js 去掉这个 override，让 file-based 拿到优先权。
+
+`/logo.png` 还在 `[locale]/layout.js` 的 openGraph.images 和 twitter.images 里用 — 那两个场景需要 1200×630 的大图，logo.png 合适，保留。
+
+### 这一节涉及的提交
+
+最后这一大批工作合并成 5-6 个相关 commit 推：
+
+1. **perf+css**：homepage LCP eager + fetchpriority
+2. **perf**：next.config 生产环境优化 (poweredByHeader / removeConsole)
+3. **security**：HTTP 响应头（X-Frame-Options / Permissions-Policy 等）
+4. **feat**：动态 favicon + a11y viewport 修复
+5. **i18n**：3 个 SITE config 残留英文修补（WeChat note / sales role / factory role / hours）
+6. **chore**：仓库清理 + .gitignore 加固 + README 重写
