@@ -1,7 +1,22 @@
 'use client';
 import { useMemo, useState } from 'react';
+import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { getProductTranslation } from '@/data/products/translations';
+
+// Closure values from /data/products/*.js are always English (e.g. 'Hinged').
+// Map them to translation keys in messages/{locale}.json under `productGrid`
+// so the chip labels render in the visitor's language while filter logic
+// continues to compare English keys.
+const CLOSURE_TKEY = {
+  'All': 'filterAll',
+  'Magnetic': 'filterMagnetic',
+  'Hinged': 'filterHinged',
+  'Sliding': 'filterSliding',
+  'Drawer': 'filterDrawer',
+  'Lift-off': 'filterLiftOff',
+  'Lock': 'filterLock',
+};
 
 const CSS = `
 .pg {
@@ -152,22 +167,29 @@ const CSS = `
 `;
 
 export default function ProductGrid({ products, categorySlug, locale = 'en' }) {
+  const t = useTranslations('productGrid');
   const [filter, setFilter] = useState('All');
 
   // Localize product names/closures/taglines per the active locale; falls back
   // to English from the source data file when a translation is missing.
+  // We preserve the original English `closure` as `closureKey` so chip filter
+  // logic continues to compare against English values across all locales.
   const list = useMemo(
-    () => Object.values(products).map((p) => ({ ...p, ...getProductTranslation(p.slug, locale) })),
+    () => Object.values(products).map((p) => ({
+      ...p,
+      ...getProductTranslation(p.slug, locale),
+      closureKey: p.closure,
+    })),
     [products, locale],
   );
 
   const closures = useMemo(() => {
     const counts = { All: list.length };
-    for (const p of list) counts[p.closure] = (counts[p.closure] || 0) + 1;
+    for (const p of list) counts[p.closureKey] = (counts[p.closureKey] || 0) + 1;
     return counts;
   }, [list]);
 
-  const filtered = filter === 'All' ? list : list.filter((p) => p.closure === filter);
+  const filtered = filter === 'All' ? list : list.filter((p) => p.closureKey === filter);
 
   const order = ['All', 'Magnetic', 'Hinged', 'Sliding', 'Drawer', 'Lift-off', 'Lock'];
   const chips = order.filter((c) => closures[c] != null);
@@ -184,18 +206,18 @@ export default function ProductGrid({ products, categorySlug, locale = 'en' }) {
             onClick={() => setFilter(c)}
             type="button"
           >
-            {c}
+            {CLOSURE_TKEY[c] ? t(CLOSURE_TKEY[c]) : c}
             <span className="pg-chip-count">{closures[c]}</span>
           </button>
         ))}
       </div>
 
       <div className="pg-summary">
-        Showing {filtered.length} of {list.length} products
+        {t('summary', { filtered: filtered.length, total: list.length })}
       </div>
 
       {filtered.length === 0 ? (
-        <div className="pg-empty">No products match this filter.</div>
+        <div className="pg-empty">{t('empty')}</div>
       ) : (
         <div className="pg-grid">
           {filtered.map((p) => (
@@ -213,15 +235,15 @@ export default function ProductGrid({ products, categorySlug, locale = 'en' }) {
                 <div className="pg-card-tagline">{p.tagline}</div>
                 <div className="pg-card-meta">
                   <span>
-                    <span className="pg-meta-label">MOQ</span>
+                    <span className="pg-meta-label">{t('moq')}</span>
                     <span className="pg-meta-value">{p.specs?.MOQ || '—'}</span>
                   </span>
                   <span>
-                    <span className="pg-meta-label">Lead</span>
+                    <span className="pg-meta-label">{t('lead')}</span>
                     <span className="pg-meta-value">{p.specs?.['Lead Time'] || '—'}</span>
                   </span>
                 </div>
-                <div className="pg-card-cta">Inquire</div>
+                <div className="pg-card-cta">{t('inquire')}</div>
               </div>
             </Link>
           ))}

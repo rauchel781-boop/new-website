@@ -326,6 +326,20 @@
     "nextImage": "Siguiente imagen",
     "thumbAria": "Ver imagen {idx}"
   },
+  "productGrid": {
+    "filterAll": "Todos",
+    "filterMagnetic": "Magnético",
+    "filterHinged": "Bisagra",
+    "filterSliding": "Corredera",
+    "filterDrawer": "Cajón",
+    "filterLiftOff": "Tapa Removible",
+    "filterLock": "Cerradura",
+    "summary": "Mostrando {filtered} de {total} productos",
+    "empty": "Ningún producto coincide con este filtro.",
+    "moq": "MOQ",
+    "lead": "Plazo",
+    "inquire": "Consultar"
+  },
   "introCarousel": {
     "slide1Label": "Producción en Serie",
     "slide2Label": "Ensamblaje de Cajas con Cajón",

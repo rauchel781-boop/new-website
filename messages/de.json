@@ -326,6 +326,20 @@
     "nextImage": "Nächstes Bild",
     "thumbAria": "Bild {idx} ansehen"
   },
+  "productGrid": {
+    "filterAll": "Alle",
+    "filterMagnetic": "Magnetisch",
+    "filterHinged": "Scharnier",
+    "filterSliding": "Schiebedeckel",
+    "filterDrawer": "Schublade",
+    "filterLiftOff": "Abnehmbarer Deckel",
+    "filterLock": "Schloss",
+    "summary": "{filtered} von {total} Produkten",
+    "empty": "Keine Produkte entsprechen diesem Filter.",
+    "moq": "MOQ",
+    "lead": "Lieferzeit",
+    "inquire": "Anfragen"
+  },
   "introCarousel": {
     "slide1Label": "Großserienfertigung",
     "slide2Label": "Schubladenbox-Montage",

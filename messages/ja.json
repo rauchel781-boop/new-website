@@ -326,6 +326,20 @@
     "nextImage": "次の画像",
     "thumbAria": "画像 {idx} を見る"
   },
+  "productGrid": {
+    "filterAll": "すべて",
+    "filterMagnetic": "マグネット",
+    "filterHinged": "蝶番",
+    "filterSliding": "スライド式",
+    "filterDrawer": "引き出し",
+    "filterLiftOff": "取り外し式蓋",
+    "filterLock": "ロック",
+    "summary": "{total} 件中 {filtered} 件を表示",
+    "empty": "この条件に一致する商品はありません。",
+    "moq": "MOQ",
+    "lead": "納期",
+    "inquire": "お問い合わせ"
+  },
   "introCarousel": {
     "slide1Label": "大量生産",
     "slide2Label": "引き出し箱の組立",

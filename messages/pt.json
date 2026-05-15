@@ -326,6 +326,20 @@
     "nextImage": "Próxima imagem",
     "thumbAria": "Ver imagem {idx}"
   },
+  "productGrid": {
+    "filterAll": "Todos",
+    "filterMagnetic": "Magnético",
+    "filterHinged": "Dobradiça",
+    "filterSliding": "Corrediço",
+    "filterDrawer": "Gaveta",
+    "filterLiftOff": "Tampa Removível",
+    "filterLock": "Fechadura",
+    "summary": "A mostrar {filtered} de {total} produtos",
+    "empty": "Nenhum produto corresponde a este filtro.",
+    "moq": "MOQ",
+    "lead": "Prazo",
+    "inquire": "Consultar"
+  },
   "introCarousel": {
     "slide1Label": "Produção em Massa",
     "slide2Label": "Montagem de Caixas com Gaveta",

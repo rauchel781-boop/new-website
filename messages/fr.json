@@ -326,6 +326,20 @@
     "nextImage": "Image suivante",
     "thumbAria": "Voir image {idx}"
   },
+  "productGrid": {
+    "filterAll": "Tous",
+    "filterMagnetic": "Magnétique",
+    "filterHinged": "Charnière",
+    "filterSliding": "Coulissant",
+    "filterDrawer": "Tiroir",
+    "filterLiftOff": "Couvercle Amovible",
+    "filterLock": "Verrou",
+    "summary": "Affichage de {filtered} sur {total} produits",
+    "empty": "Aucun produit ne correspond à ce filtre.",
+    "moq": "MOQ",
+    "lead": "Délai",
+    "inquire": "Demander"
+  },
   "introCarousel": {
     "slide1Label": "Production en Volume",
     "slide2Label": "Assemblage de Boîtes à Tiroir",

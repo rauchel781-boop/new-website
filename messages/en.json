@@ -326,6 +326,20 @@
     "nextImage": "Next image",
     "thumbAria": "View image {idx}"
   },
+  "productGrid": {
+    "filterAll": "All",
+    "filterMagnetic": "Magnetic",
+    "filterHinged": "Hinged",
+    "filterSliding": "Sliding",
+    "filterDrawer": "Drawer",
+    "filterLiftOff": "Lift-off",
+    "filterLock": "Lock",
+    "summary": "Showing {filtered} of {total} products",
+    "empty": "No products match this filter.",
+    "moq": "MOQ",
+    "lead": "Lead",
+    "inquire": "Inquire"
+  },
   "introCarousel": {
     "slide1Label": "Bulk Production",
     "slide2Label": "Drawer Box Assembly",

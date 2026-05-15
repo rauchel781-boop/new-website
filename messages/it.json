@@ -326,6 +326,20 @@
     "nextImage": "Immagine successiva",
     "thumbAria": "Vedi immagine {idx}"
   },
+  "productGrid": {
+    "filterAll": "Tutti",
+    "filterMagnetic": "Magnetica",
+    "filterHinged": "Cerniera",
+    "filterSliding": "Scorrevole",
+    "filterDrawer": "Cassetto",
+    "filterLiftOff": "Coperchio Removibile",
+    "filterLock": "Serratura",
+    "summary": "Mostro {filtered} di {total} prodotti",
+    "empty": "Nessun prodotto corrisponde a questo filtro.",
+    "moq": "MOQ",
+    "lead": "Tempi",
+    "inquire": "Richiedi"
+  },
   "introCarousel": {
     "slide1Label": "Produzione in Volume",
     "slide2Label": "Assemblaggio Scatole a Cassetto",

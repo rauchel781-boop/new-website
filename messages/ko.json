@@ -326,6 +326,20 @@
     "nextImage": "다음 이미지",
     "thumbAria": "이미지 {idx} 보기"
   },
+  "productGrid": {
+    "filterAll": "전체",
+    "filterMagnetic": "자석식",
+    "filterHinged": "경첩식",
+    "filterSliding": "슬라이딩",
+    "filterDrawer": "서랍식",
+    "filterLiftOff": "탈착식 뚜껑",
+    "filterLock": "잠금식",
+    "summary": "{total}개 중 {filtered}개 표시",
+    "empty": "이 필터에 해당하는 제품이 없습니다.",
+    "moq": "MOQ",
+    "lead": "납기",
+    "inquire": "문의하기"
+  },
   "introCarousel": {
     "slide1Label": "대량 생산",
     "slide2Label": "서랍 박스 조립",
