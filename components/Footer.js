@@ -454,7 +454,7 @@ export default function Footer() {
             <div className="ct-icon"><ClockIcon /></div>
             <div>
               <span className="ct-label">{t('footer.hours')}</span>
-              {SITE.hours}
+              {t('footer.hoursValue')}
             </div>
           </div>
           <div className="socials" aria-label={t('footer.findUsOnline')}>

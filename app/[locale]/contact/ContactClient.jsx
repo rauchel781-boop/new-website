@@ -820,7 +820,7 @@ export default function ContactPage() {
                 <div className="loc-eyebrow">{t('locs.salesEyebrow')}</div>
                 <h3 className="loc-name">{t('locs.salesNameStart')} <em>{t('locs.salesNameEm')}</em></h3>
                 <p className="loc-addr">{SITE.addresses.salesOffice.lines.join(' ')}</p>
-                <p className="loc-role">{SITE.addresses.salesOffice.role}</p>
+                <p className="loc-role">{t('locs.salesRole')}</p>
                 <div className="loc-meta">
                   <div className="loc-meta-row"><strong>{t('locs.salesAirportLabel')}</strong>{t('locs.salesAirportValue')}</div>
                   <div className="loc-meta-row"><strong>{t('locs.salesPortLabel')}</strong>{t('locs.salesPortValue')}</div>
@@ -842,7 +842,7 @@ export default function ContactPage() {
                 <div className="loc-eyebrow">{t('locs.factoryEyebrow')}</div>
                 <h3 className="loc-name">{t('locs.factoryNameStart')} <em>{t('locs.factoryNameEm')}</em></h3>
                 <p className="loc-addr">{SITE.addresses.factory.lines.join(' ')}</p>
-                <p className="loc-role">{SITE.addresses.factory.role}</p>
+                <p className="loc-role">{t('locs.factoryRole')}</p>
                 <div className="loc-meta">
                   <div className="loc-meta-row"><strong>{t('locs.factoryAirportLabel')}</strong>{t('locs.factoryAirportValue')}</div>
                   <div className="loc-meta-row"><strong>{t('locs.factoryPortLabel')}</strong>{t('locs.factoryPortValue')}</div>
