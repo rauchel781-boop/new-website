@@ -28,7 +28,13 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'Segoe UI', 'Roboto', 'sans-serif'],
+        // Map Tailwind's font-{family} classes to the next/font CSS variables
+        // defined in app/fonts.js. Default sans is Jost (body / nav). For
+        // headlines use `font-serif` (Playfair) or the `font-fraunces` class.
+        sans:     ['var(--font-jost)',     'system-ui', 'sans-serif'],
+        serif:    ['var(--font-playfair)', 'serif'],
+        fraunces: ['var(--font-fraunces)', 'serif'],
+        caveat:   ['var(--font-caveat)',   'cursive'],
       },
       container: {
         center: true,
