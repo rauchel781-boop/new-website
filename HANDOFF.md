@@ -931,3 +931,125 @@ WCAG 2.1 SC 1.4.4 Resize Text 要求用户能放大到至少 200%（最好更大
 4. **feat**：动态 favicon + a11y viewport 修复
 5. **i18n**：3 个 SITE config 残留英文修补（WeChat note / sales role / factory role / hours）
 6. **chore**：仓库清理 + .gitignore 加固 + README 重写
+
+## 二十四、Blog 8 语化（2026-05-15）
+
+之前 Blog 是设计上英文 only，每个 locale URL canonical 到 `/en/blog` 避免重复内容惩罚。这一轮决定开干 — 用阿里云机器翻译 API 自动翻译，成本控制在 $30-50。
+
+### 架构
+
+模仿 `data/products/translations/` 和 `data/categories/translations/` 模式：
+
+```
+data/blog/translations/
+├── index.js     # getBlogTranslation(slug, locale) + getBlogCategoryTranslation(name, locale)
+├── en.js        # empty stub（源在 data/blog.js）
+└── {es,fr,de,it,pt,ja,ko}.js   # 7 个 locale overlay
+```
+
+每个 overlay 文件结构：
+
+```js
+export default {
+  posts: {
+    [slug]: {
+      title, excerpt, category, readTime,
+      body: [/* 60-80 个 block，每个 type + 翻译后的 text/caption/items */]
+    }
+  },
+  categories: {
+    'Process': 'Processo',  // EN → locale 映射
+    'Materials': 'Materiali',
+    ...
+  }
+}
+```
+
+### 翻译流程
+
+`scripts/translate-blog-aliyun.mjs`（~270 行）：
+
+1. 读 `data/blog.js` 的 POSTS 数组
+2. 对每个非英文 locale，遍历每篇文章
+3. 调用阿里云 `mt.cn-hangzhou.aliyuncs.com` 的 `TranslateGeneral` API
+4. 递归翻译 body 块里的 text / caption / items / headers / rows / labels
+5. 渐进式写文件 — 翻完一篇就 save 一次 overlay 文件，崩了不丢进度
+6. 50ms 节流，远低于阿里云 50 QPS 限制
+7. 默认跳过已翻译的，`--force` 强制重翻
+
+支持 CLI flag：
+- `--locale it`：只翻一个 locale
+- `--post six-step-manufacturing-process`：只翻一篇
+- `--force`：忽略已翻译，重做
+
+### 凭证管理
+
+凭证从 `.env.local`（在 `.gitignore` 里）读取：
+
+```
+ALI_ACCESS_KEY_ID=...
+ALI_ACCESS_KEY_SECRET=...
+```
+
+脚本内置 mini dotenv parser，不需要 dotenv 包。
+
+### 实际运行数据
+
+- 文章数：10
+- 总块数：每篇 60-86 个 block
+- 总语种：7（es/fr/de/it/pt/ja/ko）
+- 每文每语：~30 秒
+- 总耗时：~35 分钟
+- 实际花费：约 $30-50（确切看阿里云账单）
+
+### 已 i18n 的页面 + 字段
+
+`app/[locale]/blog/page.js` 和 `app/[locale]/blog/[slug]/page.js`：
+
+- generateMetadata: title / description / OG 都用 `blog.meta.*` namespace
+- 去掉了 `alternates: { canonical: '/en/blog' }` 强制重写 — 改成每个 locale 自 canonical + hreflang alternates 到所有 locale
+- POSTS 数据通过 `{ ...post, ...getBlogTranslation(slug, locale) }` 合并 overlay
+- 分类名通过 `getBlogCategoryTranslation()` 翻译
+- 35 个 chrome key 通过新的 `blog` namespace（heroEyebrow / latestStamp / morePosts / articleCount 含 ICU plural / 等）
+- BreadcrumbList JSON-LD 的 Home / Journal 都用翻译 name
+
+### CJS interop bug 提醒
+
+阿里云 SDK 是 CJS 模块，被 Node ESM 包装后变成：
+
+```js
+const mod = await import('@alicloud/alimt20181012');
+// mod.default = { default: AlimtClass, TranslateGeneralRequest: ... }
+const Alimt = mod.default.default;
+const TranslateGeneralRequest = mod.default.TranslateGeneralRequest;
+```
+
+要 `.default.default` 才拿到真正的类。直接 `mod.default` 拿到的是 `module.exports` 整个对象。
+
+### 已知限制
+
+- MT 质量「够用」级 — 商业 B2B 文章语境，欧洲语言（es/fr/de/it/pt）较自然，亚洲语言（ja/ko）偏机械
+- 专有名词（CHIC / Cao County / Xiamen）和行业术语（MOQ / FOB / OEM / REACH）阿里云可能会把它们翻译成本地化版本，需人工巡查后到 overlay 文件改回
+- 翻译条目都在 `data/blog/translations/{locale}.js` 是大数组，**手动编辑很安全**——overlay 字段是替换语义，改一个块的 text 不会影响其他块
+
+### 后续维护
+
+加新文章：
+1. 在 `data/blog.js` 加 POST
+2. 跑 `node scripts/translate-blog-aliyun.mjs --post new-slug`
+3. 7 个 overlay 文件会自动更新
+
+改已有文章：
+1. 改 `data/blog.js` 的英文
+2. 跑 `node scripts/translate-blog-aliyun.mjs --post slug --force`
+
+改单语言：
+1. 跑 `node scripts/translate-blog-aliyun.mjs --locale it`
+
+### 三个相关的小改动
+
+- `messages JSON × 8`：新增 `blog` namespace（35 chrome keys），所有翻译手工写
+- `package.json`：加 `@alicloud/alimt20181012`、`@alicloud/openapi-client`、`@alicloud/tea-util` 三个 devDependencies
+- `.env.local`：本地凭证文件，**永远不进 git**（被 `.gitignore` 的 `.env*` 排除）
+
+总耗 70 文 × 60-80 块 = ~5,000 块翻译，加 280 条 chrome（35 keys × 8 lang）。整个 blog 8 语化项目 ≈ 5,300+ 翻译条目。

@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "translate:blog": "node scripts/translate-blog-aliyun.mjs",
+    "translate:blog:force": "node scripts/translate-blog-aliyun.mjs --force"
   },
   "dependencies": {
     "next": "14.2.5",
