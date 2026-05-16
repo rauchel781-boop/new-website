@@ -103,6 +103,45 @@ function buildWebsiteLd(locale) {
   };
 }
 
+// LocalBusiness schema for the Xiamen sales office. Schema.org allows a
+// dedicated LocalBusiness alongside Organization — it powers Google Maps
+// / "near me" / knowledge-panel results for the physical sales contact
+// point. The factory address is in Cao County (4 hrs away), but it's
+// not customer-facing so we don't expose it here.
+const SALES_OFFICE_LD = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  '@id': `${SITE.siteUrl}/#sales-office`,
+  name: `${SITE.company.brand} — Sales & Design Office`,
+  parentOrganization: { '@id': `${SITE.siteUrl}/#organization` },
+  url: `${SITE.siteUrl}/contact`,
+  image: `${SITE.siteUrl}/logo.png`,
+  email: SITE.email,
+  telephone: `+${SITE.whatsapp.number}`,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: SITE.addresses.salesOffice.lines.join(' '),
+    addressLocality: 'Xiamen',
+    addressRegion: 'Fujian',
+    addressCountry: 'CN',
+  },
+  // 9-18 Mon–Sat (closed Sun) — matches what the contact page advertises.
+  openingHoursSpecification: {
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+    opens: '09:00',
+    closes: '18:00',
+  },
+  // Approximate coordinates for Maluan, Jimei District, Xiamen.
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 24.6181,
+    longitude: 118.0413,
+  },
+  areaServed: ['US', 'EU', 'GB', 'JP', 'KR', 'AU', 'CA', 'DE', 'FR', 'IT', 'ES', 'PT'],
+  sameAs: [SITE.social.linkedin, SITE.social.alibaba].filter(Boolean),
+};
+
 const HOMEPAGE_CSS = `
 
 .wcb-home {
@@ -798,6 +837,7 @@ export default async function HomePage({ params: { locale } }) {
       />
       <JsonLd data={ORG_LD} />
       <JsonLd data={buildWebsiteLd(locale)} />
+      <JsonLd data={SALES_OFFICE_LD} />
       <style dangerouslySetInnerHTML={{ __html: HOMEPAGE_CSS }} />
 
       {/* HERO */}

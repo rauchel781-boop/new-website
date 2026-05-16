@@ -79,3 +79,27 @@ a {
   transform: translateY(-1px);
   box-shadow: 0 6px 14px rgba(35, 70, 84, 0.15);
 }
+
+/* Skip-to-content link — WCAG 2.4.1 Bypass Blocks.
+   Hidden off-screen until the user tabs to it, then animates into
+   view so a keyboard / screen-reader user can jump straight to
+   <main> without traversing the full nav each time. */
+.skip-to-content {
+  position: absolute;
+  top: -100px;
+  left: 16px;
+  z-index: 9999;
+  padding: 12px 20px;
+  background: #234654;
+  color: #F5F1E8;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: top 0.18s ease-out;
+}
+.skip-to-content:focus {
+  top: 16px;
+  outline: 3px solid #C9A876;
+  outline-offset: 2px;
+}

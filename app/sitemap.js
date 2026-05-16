@@ -135,22 +135,19 @@ export default function sitemap() {
     });
   }
 
-  // ── Blog (English-only at /en/blog/...) ─────────────────────────────
-  entries.push({
-    url: `${SITE.siteUrl}/${routing.defaultLocale}/blog`,
-    lastModified: today,
+  // ── Blog (now 8-language localized — each locale variant is
+  //    self-canonical with hreflang to every other locale) ────────────
+  pushLocalized(entries, '/blog', {
     changeFrequency: 'weekly',
     priority: 0.7,
   });
   for (const post of POSTS) {
-    const entry = {
-      url: `${SITE.siteUrl}/${routing.defaultLocale}/blog/${post.slug}`,
+    pushLocalized(entries, `/blog/${post.slug}`, {
       lastModified: post.date ? new Date(post.date) : today,
       changeFrequency: 'monthly',
       priority: 0.6,
-    };
-    if (post.hero) entry.images = [absUrl(post.hero)];
-    entries.push(entry);
+      images: post.hero ? [post.hero] : [],
+    });
   }
 
   return entries;

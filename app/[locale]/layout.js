@@ -92,11 +92,27 @@ export default async function LocaleLayout({ children, params: { locale } }) {
 
   return (
     <html lang={locale} className={fontClass}>
+      <head>
+        {/* RSS discovery — feed readers (Feedly, Inoreader, NewsBlur)
+            auto-detect feeds via this <link rel="alternate"> tag. */}
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title={`${SITE.company.brand} Journal`}
+          href={`${SITE.siteUrl}/feed.xml`}
+        />
+      </head>
       <body>
+        {/* Skip-to-content: lets keyboard / screen-reader users jump
+            past the header nav directly to <main>. The link is
+            visually hidden until focused — WCAG 2.4.1 Bypass Blocks. */}
+        <a href="#main-content" className="skip-to-content">
+          Skip to content
+        </a>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <CookieConsentProvider>
             <Header />
-            <main>{children}</main>
+            <main id="main-content">{children}</main>
             <Footer />
             <TawkChat />
             <GoogleAnalytics />
