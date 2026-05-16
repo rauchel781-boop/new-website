@@ -22,6 +22,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { useRouter } from '@/i18n/navigation';
+import { trackEvent } from '@/lib/analytics';
 
 const TYPE_WEIGHT = { product: 1.2, category: 1.1, blog: 1.0 };
 
@@ -121,7 +122,34 @@ export default function SearchModal({ open, onClose }) {
     setHighlightIdx(0);
   }, [query]);
 
+  // Track search queries to GA4 — debounced 800ms so we capture the
+  // final term a user typed (not every keystroke). Only fire for
+  // queries ≥ 3 chars to avoid noise. The query string itself is
+  // sent as event_label — useful for content/catalog gap analysis
+  // (what visitors search for that doesn't exist yet).
+  useEffect(() => {
+    const trimmed = query.trim();
+    if (trimmed.length < 3) return;
+    const id = setTimeout(() => {
+      trackEvent('search_query', {
+        query: trimmed,
+        result_count: results.length,
+        locale,
+      });
+    }, 800);
+    return () => clearTimeout(id);
+  }, [query, results.length, locale]);
+
   function goTo(result) {
+    // Track the query → result click so we can correlate searches
+    // to actual product / blog page visits in GA4.
+    if (result?.type && result?.url) {
+      trackEvent('search_result_click', {
+        query: query.trim(),
+        result_type: result.type,
+        result_url: result.url,
+      });
+    }
     // result.url is absolute path with locale already, but next-intl
     // Link/router expects locale-less paths. Strip the /{locale} prefix.
     const locless = result.url.replace(new RegExp(`^/${locale}`), '');

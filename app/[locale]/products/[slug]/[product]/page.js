@@ -22,6 +22,7 @@ import ProductGallery from '@/components/ProductGallery';
 import ProductTabs from '@/components/ProductTabs';
 import JsonLd from '@/components/JsonLd';
 import StickyInquiryCta from '@/components/StickyInquiryCta';
+import RecentlyViewedTracker from '@/components/RecentlyViewedTracker';
 import { SITE } from '@/data/site-config';
 import { alternates as makeAlternates } from '@/i18n/seo';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
@@ -616,6 +617,15 @@ export default async function ProductDetail({ params }) {
       {/* Mobile-only sticky inquiry CTA — bottom-left to avoid the
           Tawk.to chat widget on the right. Renders on PDP only. */}
       <StickyInquiryCta productName={product.name} />
+
+      {/* Side-effect: record this product into the recently-viewed list
+          so it appears on /products on the next visit. Renders nothing. */}
+      <RecentlyViewedTracker
+        slug={params.product}
+        categorySlug={params.slug}
+        name={product.name}
+        image={product.images?.[0]}
+      />
     </div>
   );
 }

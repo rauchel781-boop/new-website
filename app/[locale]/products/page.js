@@ -2,6 +2,7 @@ import { Link } from '@/i18n/navigation';
 import { CATEGORIES, GROUPS } from '@/data/categories';
 import { alternates } from '@/i18n/seo';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import RecentlyViewedStrip from '@/components/RecentlyViewedStrip';
 
 export async function generateMetadata({ params: { locale } }) {
   const t = await getTranslations({ locale, namespace: 'productsIndex.meta' });
@@ -175,6 +176,9 @@ export default async function ProductsPage({ params: { locale } }) {
   return (
     <div className="prods">
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
+
+      {/* Returning visitors: show what they were looking at last time */}
+      <RecentlyViewedStrip />
 
       <section className="prods-hero">
         <div className="prods-hero-inner">

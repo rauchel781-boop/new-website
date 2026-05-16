@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { POSTS, getPostBySlug, getRelatedPosts } from '@/data/blog';
 import JsonLd from '@/components/JsonLd';
 import BlogShareButtons from '@/components/BlogShareButtons';
+import ReadingProgressBar from '@/components/ReadingProgressBar';
 import { SITE } from '@/data/site-config';
 import { alternates as makeAlternates } from '@/i18n/seo';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
@@ -428,6 +429,7 @@ export default async function BlogPost({ params }) {
 
   return (
     <article className="bp">
+      <ReadingProgressBar />
       <JsonLd data={articleLd} />
       <JsonLd data={breadcrumbLd} />
       <style dangerouslySetInnerHTML={{ __html: POST_CSS }} />

@@ -330,6 +330,11 @@
     "nextImage": "Nächstes Bild",
     "thumbAria": "Bild {idx} ansehen"
   },
+  "recentlyViewed": {
+    "eyebrow": "Da Weitermachen, Wo Sie Aufgehört Haben",
+    "title": "Zuletzt Angesehen",
+    "clear": "Leeren"
+  },
   "search": {
     "openButton": "Suchen",
     "openShortcut": "⌘K",

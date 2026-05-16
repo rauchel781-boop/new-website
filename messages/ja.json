@@ -330,6 +330,11 @@
     "nextImage": "次の画像",
     "thumbAria": "画像 {idx} を見る"
   },
+  "recentlyViewed": {
+    "eyebrow": "前回の続きから",
+    "title": "最近見た製品",
+    "clear": "クリア"
+  },
   "search": {
     "openButton": "検索",
     "openShortcut": "⌘K",

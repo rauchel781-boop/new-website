@@ -330,6 +330,11 @@
     "nextImage": "Próxima imagem",
     "thumbAria": "Ver imagem {idx}"
   },
+  "recentlyViewed": {
+    "eyebrow": "Continue De Onde Parou",
+    "title": "Vistos Recentemente",
+    "clear": "Limpar"
+  },
   "search": {
     "openButton": "Procurar",
     "openShortcut": "⌘K",
