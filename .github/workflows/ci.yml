@@ -44,7 +44,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           # Match the Node version used by Coolify's nixpacks build
           # (Next.js 14 requires >=18.17). Update both when bumping.
