@@ -1,16 +1,16 @@
 // Home — Korean translation.
 export const FEATURED = [
-  { href: '/products/kitchen-dining', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
+  { href: '/products/kitchen-dining/wood-kitchen-utensil-holder-with-spice-drawer', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
     tag: '주방 & 다이닝', name: '향신료 서랍 부착 유틸리티 홀더', meta: '원목 · 내장 서랍' },
-  { href: '/products/kitchen-dining', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
+  { href: '/products/storage/3-tier-bamboo-spice-rack-organizer', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
     tag: '주방 & 수납', name: '3단 대나무 향신료 랙', meta: '에코 대나무 · 18개 병 포함' },
-  { href: '/products/with-lock', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
+  { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: '잠금 박스', name: '대형 블랙 우드 스태시 박스 키트', meta: '다이얼 잠금 · 다중 칸막이' },
-  { href: '/products/tea-coffee', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
+  { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
     tag: '차 & 커피', name: '대나무 티백 오거나이저', meta: '8 칸막이 · 투명 경첩 뚜껑' },
-  { href: '/products/watch-jewelry', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
+  { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
     tag: '시계 & 주얼리', name: '우드 시계 디스플레이 박스', meta: '리넨 쿠션 · 6개 시계 수납' },
-  { href: '/products/acacia', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
+  { href: '/products/hinged/acacia-wooden-storage-box', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
     tag: '아카시아 시리즈', name: '아카시아 우드 키프세이크 박스', meta: '풍부한 결 · 경목의 내구성' },
 ];
 

@@ -1175,3 +1175,124 @@ Google 「服务类」富结果 + 知识面板。
 4. `feat(pdp): sticky inquiry CTA on mobile product detail pages`
 5. `feat: site-wide search (Cmd/Ctrl+K) with build-time index`
 6. `feat(blog): share buttons + Service JSON-LD schema`
+
+---
+
+## 二十六、P0 SEO 修复：www canonical + 邮箱域 + Best Sellers 内链 + 301 跳转（2026-05-16）
+
+外部 SEO 顾问做了一轮 18 维度审计，发现 4 个 P0 必须立刻修的问题。这一节专记 P0 round 的所有改动。
+
+### a) 站点 URL 改 www（canonical 修正）
+
+**问题**：浏览器实际响应的是 `https://www.custom-woodenbox.com`，但 `siteUrl` 配置写的是裸 apex `https://custom-woodenbox.com`。导致 canonical / OG / hreflang 全指向跟 visit URL 不一致的版本——Google 看见两套 URL 都返回 200，记成「重复内容」。
+
+**改**：`data/site-config.js`
+
+```js
+// 之前
+siteUrl: 'https://custom-woodenbox.com',
+// 之后
+siteUrl: 'https://www.custom-woodenbox.com',
+```
+
+这一个改动同时修复 canonical、OG `og:url`、Twitter card URL、sitemap.xml 里所有 `<loc>`、所有 hreflang `<link rel="alternate">`、robots.txt 里的 sitemap 引用——因为这些全从 `SITE.siteUrl` 派生。
+
+### b) 非 www → www 的 301 跳转
+
+光改 siteUrl 不够。要让 Google 真正只索引 www 版本，需要服务端把裸 apex 请求 301 到 www。
+
+**改**：`next.config.js` 新增 `redirects()`：
+
+```js
+async redirects() {
+  return [
+    {
+      source: '/:path*',
+      has: [{ type: 'host', value: 'custom-woodenbox.com' }],
+      destination: 'https://www.custom-woodenbox.com/:path*',
+      permanent: true, // 301
+    },
+  ];
+},
+```
+
+边缘层执行（Next.js middleware-level），早于任何渲染——极低延迟。`permanent: true` 告诉 Google 这是「永久搬迁」，把所有 link equity 转到 www 版本。
+
+### c) 邮箱域名换成 custom-woodenbox.com
+
+**问题**：审计指出网站显示的邮箱 `info@xmchichomeware.com` 跟域名 `custom-woodenbox.com` 不一致。Google 用邮箱域名做品牌实体识别——两套域名让品牌信号分裂。还有一家姐妹站 `xmchichomeware.com` 内容大量重复，Google 不知道谁是 canonical 品牌。
+
+**改**：`data/site-config.js`
+
+```js
+email: 'info@custom-woodenbox.com',
+```
+
+**用户必须做**（无法代办）：在邮箱托管那边配 `info@custom-woodenbox.com` 转发到主收件箱 `info@xmchichomeware.com`，或直接为新地址配独立 IMAP 收件。否则邮件发了没人收。
+
+### d) Best Sellers 内链改成具体 PDP
+
+**问题**：首页 6 张 Best Seller 卡片都链到 **分类落地页**（`/products/kitchen-dining` 之类），导致：
+- 多张 Best Seller 指向同一个 URL（如 2 个都到 `/products/kitchen-dining`）—— 内链稀释
+- 没把 link equity 集中到具体 SKU 页
+- 卡片视觉上展示的是单个产品，点进去却到列表页——用户失望
+
+**改**：8 个 home 数据文件（`data/home/{en,it,es,fr,de,pt,ja,ko}.js`）的 `FEATURED` 数组。每个文件 6 个 `href`：
+
+| 产品 | 旧 href | 新 href |
+|---|---|---|
+| Utensil Holder | `/products/kitchen-dining` | `/products/kitchen-dining/wood-kitchen-utensil-holder-with-spice-drawer` |
+| Spice Rack | `/products/kitchen-dining` | `/products/storage/3-tier-bamboo-spice-rack-organizer` |
+| Stash Box | `/products/with-lock` | `/products/with-lock/large-black-wooden-stash-box-kit` |
+| Tea Bag Organizer | `/products/tea-coffee` | `/products/tea-coffee/bamboo-tea-bag-organizer-box` |
+| Watch Box | `/products/watch-jewelry` | `/products/hinged/wooden-watch-box-with-linen-interior-pillow` |
+| Acacia Keepsake | `/products/acacia` | `/products/hinged/acacia-wooden-storage-box` |
+
+注意：
+- Spice Rack 实际属于 `storage` 分类（不是 `kitchen-dining`）—— 跟图片路径 `/storage-box/` 匹配
+- Watch Box 和 Acacia Keepsake 都在 `hinged` 结构分类下（不是 `watch-jewelry` 或 `acacia` —— 那俩是用途/材质分类，slug 不在那里）
+
+英文 baseline 用 Write 整块替换。其他 7 语用 6 个 `replace_all` —— 因为这些文件里每个旧 `href + img` 组合是唯一的。
+
+验证：`Grep "href: '/products/(hinged|storage|kitchen-dining|with-lock|tea-coffee)/[a-z0-9-]+'"` 命中 48（6 × 8）次 ✅。
+
+### e) hreflang 验证（不需要改代码）
+
+审计提到「hreflang 缺失或错误」。代码层面检查 `i18n/seo.js` 的 `alternates()` 函数——8 语完整 hreflang + x-default 全在，每个 `generateMetadata()` 都通过 `alternates()` 调用。结论是审计基于过时的部署快照——本地代码正确，**只要这一轮 deploy 出去就会出现**。
+
+### f) 审计里 P0 之外的延后项
+
+P1（可以稍后做）：
+- `og:image` 升级成产品照片（现在用 logo，缩略图无吸引力）
+- 图片文件名 SEO 优化（需要在硬盘上批量重命名 webp）
+- 图片 alt 文本「品牌 + 关键词」模式
+- 「500+ Box Styles」声明需对账（Wine & Whisky 分类实际只有 5 个）
+
+P2（更晚）：
+- robots.txt / sitemap.xml 部署后用 Search Console 复测
+- 国家级本地化内容（德国/日本进口关税、不同尺寸标准）
+- emoji 装饰换 SVG icon（FSC / EU REACH / CARB / SGS / Phyto / ISO 9001）
+- 分类页内容深度（规格表、FAQ）
+
+**战略决策（要用户拍板）**：姐妹站 `xmchichomeware.com` 大量重复内容。两个选项——
+1. 把 `xmchichomeware.com` 整站 301 到 `custom-woodenbox.com`（合并 link equity，最干净）
+2. 让 `xmchichomeware.com` 改做企业站（only About + Contact + Press），不做产品 SEO
+
+### 这一节累计提交建议
+
+可以一个 commit 推：
+
+```
+fix(seo): P0 audit — www canonical + email domain + best sellers internal links + non-www 301
+
+- siteUrl now points at https://www.custom-woodenbox.com (matches actual served URL)
+- email domain switched to info@custom-woodenbox.com (brand entity alignment)
+- next.config.js: 301 non-www → www at edge
+- data/home/{8 locales}.js: Best Seller cards now link to specific PDP (was category landing)
+  6 hrefs × 8 locales = 48 link targets corrected
+
+Affects: canonical/OG/Twitter URL, sitemap.xml, robots.txt, hreflang — all auto-derived from siteUrl.
+
+DEPLOY NOTE: user must configure info@custom-woodenbox.com mail forwarding/MX
+DEPLOY NOTE: hreflang code was already correct — re-deploy will refresh the snapshot the auditor saw
+```

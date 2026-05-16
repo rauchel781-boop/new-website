@@ -25,6 +25,30 @@ const nextConfig = {
     ],
   },
 
+  // 301 redirect: non-www → www. We canonicalize on www because:
+  //  - The DNS record + Coolify proxy answer both bare apex and www,
+  //    but the apparent rendered URL in browsers is www.
+  //  - Canonical / OG / hreflang are all anchored on www version.
+  //  - Keeping both addresses live without redirect creates
+  //    duplicate-content signals (Google may indexed both).
+  // This redirect runs at the edge (Next.js middleware-level), so it
+  // hits BEFORE any rendering — minimal latency.
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'custom-woodenbox.com', // bare apex, no www
+          },
+        ],
+        destination: 'https://www.custom-woodenbox.com/:path*',
+        permanent: true, // 301 — tells Google "this moved permanently"
+      },
+    ];
+  },
+
   // Security HTTP response headers, applied to every route.
   // We skip CSP / Strict-Transport-Security here — CSP is fiddly with
   // Tawk.to + EmailJS + GA4 and is better tightened iteratively against

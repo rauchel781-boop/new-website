@@ -1,16 +1,16 @@
 // Home — Italian translation.
 export const FEATURED = [
-  { href: '/products/kitchen-dining', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
+  { href: '/products/kitchen-dining/wood-kitchen-utensil-holder-with-spice-drawer', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
     tag: 'Cucina e Tavola', name: 'Portautensili con Cassetto Spezie', meta: 'Legno massello · Cassetto integrato' },
-  { href: '/products/kitchen-dining', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
+  { href: '/products/storage/3-tier-bamboo-spice-rack-organizer', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
     tag: 'Cucina e Stoccaggio', name: 'Portaspezie in Bambù 3 Livelli', meta: 'Bambù eco · 18 vasetti inclusi' },
-  { href: '/products/with-lock', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
+  { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Scatole con Serratura', name: 'Grande Scatola Nera con Serratura', meta: 'Serratura a combinazione · Multi-scomparto' },
-  { href: '/products/tea-coffee', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
+  { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
     tag: 'Tè e Caffè', name: 'Organizer Bustine di Tè in Bambù', meta: '8 divisori · Coperchio trasparente a cerniera' },
-  { href: '/products/watch-jewelry', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
+  { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
     tag: 'Orologi e Gioielli', name: 'Box Espositore Orologi in Legno', meta: 'Cuscinetto in lino · Capacità 6 orologi' },
-  { href: '/products/acacia', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
+  { href: '/products/hinged/acacia-wooden-storage-box', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
     tag: 'Serie Acacia', name: 'Box Ricordi in Legno di Acacia', meta: 'Venatura ricca · Durabilità del legno duro' },
 ];
 

@@ -1,16 +1,16 @@
 // Home — Japanese translation.
 export const FEATURED = [
-  { href: '/products/kitchen-dining', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
+  { href: '/products/kitchen-dining/wood-kitchen-utensil-holder-with-spice-drawer', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
     tag: 'キッチン・ダイニング', name: '調味料引き出し付きユーティリティホルダー', meta: '無垢材 · 引き出し内蔵' },
-  { href: '/products/kitchen-dining', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
+  { href: '/products/storage/3-tier-bamboo-spice-rack-organizer', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
     tag: 'キッチン・収納', name: '3段竹製スパイスラック', meta: 'エコ竹 · 18本のジャー付き' },
-  { href: '/products/with-lock', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
+  { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'ロック付きボックス', name: '大型ブラック木製ストレージボックスキット', meta: 'ダイヤルロック · 多区画' },
-  { href: '/products/tea-coffee', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
+  { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
     tag: 'お茶・コーヒー', name: '竹製ティーバッグオーガナイザー', meta: '8仕切り · クリア蝶番蓋' },
-  { href: '/products/watch-jewelry', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
+  { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
     tag: 'ウォッチ・ジュエリー', name: '木製ウォッチディスプレイボックス', meta: 'リネンクッション · 6本収納' },
-  { href: '/products/acacia', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
+  { href: '/products/hinged/acacia-wooden-storage-box', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
     tag: 'アカシアシリーズ', name: 'アカシア木製キープセイクボックス', meta: '豊かな木目 · 硬木の耐久性' },
 ];
 

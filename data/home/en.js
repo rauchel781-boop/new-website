@@ -3,18 +3,24 @@
 // FEATURED, FACTORY_TILES, PROCESS, MATERIALS, WHY, CERTS arrays + COPY object
 // hold all translatable strings. Translated copies live as ./es.js, ./fr.js, etc.
 
+// Best Sellers now link to the SPECIFIC product detail page rather than
+// the category landing. Per the SEO audit:
+//   - Concentrates internal link equity on the individual SKU pages
+//   - Lets each Best Seller actually surface its real product page
+//   - Avoids multiple Best Sellers pointing at the same category URL
+// If you change a featured product, update both `href` and `img` together.
 export const FEATURED = [
-  { href: '/products/kitchen-dining', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
+  { href: '/products/kitchen-dining/wood-kitchen-utensil-holder-with-spice-drawer', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
     tag: 'Kitchen & Dining', name: 'Utensil Holder with Spice Drawer', meta: 'Solid wood · Built-in drawer' },
-  { href: '/products/kitchen-dining', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
+  { href: '/products/storage/3-tier-bamboo-spice-rack-organizer', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
     tag: 'Kitchen & Storage', name: '3-Tier Bamboo Spice Rack', meta: 'Eco bamboo · 18 jars included' },
-  { href: '/products/with-lock', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
+  { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Boxes with Lock', name: 'Large Black Stash Box Kit', meta: 'Combination lock · Multi-compartment' },
-  { href: '/products/tea-coffee', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
+  { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
     tag: 'Tea & Coffee', name: 'Bamboo Tea Bag Organizer', meta: '8 dividers · Clear hinged lid' },
-  { href: '/products/watch-jewelry', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
+  { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
     tag: 'Watch & Jewelry', name: 'Wooden Watch Display Box', meta: 'Linen pillow · 6-watch capacity' },
-  { href: '/products/acacia', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
+  { href: '/products/hinged/acacia-wooden-storage-box', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
     tag: 'Acacia Series', name: 'Acacia Wood Keepsake Box', meta: 'Rich grain · Hardwood durability' },
 ];
 

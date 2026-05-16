@@ -1,16 +1,16 @@
 // Home — French translation.
 export const FEATURED = [
-  { href: '/products/kitchen-dining', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
+  { href: '/products/kitchen-dining/wood-kitchen-utensil-holder-with-spice-drawer', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
     tag: 'Cuisine et Table', name: 'Porte-Ustensiles avec Tiroir à Épices', meta: 'Bois massif · Tiroir intégré' },
-  { href: '/products/kitchen-dining', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
+  { href: '/products/storage/3-tier-bamboo-spice-rack-organizer', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
     tag: 'Cuisine et Rangement', name: 'Étagère à Épices Bambou 3 Niveaux', meta: 'Bambou éco · 18 pots inclus' },
-  { href: '/products/with-lock', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
+  { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Boîtes avec Serrure', name: 'Grande Boîte Noire avec Serrure', meta: 'Serrure à combinaison · Multi-compartiments' },
-  { href: '/products/tea-coffee', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
+  { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
     tag: 'Thé et Café', name: 'Organisateur de Sachets de Thé en Bambou', meta: '8 séparateurs · Couvercle transparent à charnière' },
-  { href: '/products/watch-jewelry', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
+  { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
     tag: 'Montres et Joaillerie', name: 'Coffret Présentoir Montres en Bois', meta: 'Coussin lin · Capacité 6 montres' },
-  { href: '/products/acacia', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
+  { href: '/products/hinged/acacia-wooden-storage-box', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
     tag: 'Série Acacia', name: 'Coffret Souvenirs en Bois d’Acacia', meta: 'Veine riche · Durabilité bois dur' },
 ];
 
