@@ -3,26 +3,29 @@ import { notFound } from 'next/navigation';
 import { POSTS, getPostBySlug, getRelatedPosts } from '@/data/blog';
 import JsonLd from '@/components/JsonLd';
 import { SITE } from '@/data/site-config';
-import { routing } from '@/i18n/routing';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { alternates as makeAlternates } from '@/i18n/seo';
+import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
+import { getBlogTranslation } from '@/data/blog/translations';
 
 export function generateStaticParams() {
   return POSTS.map((p) => ({ slug: p.slug }));
 }
 
 export function generateMetadata({ params }) {
-  const post = getPostBySlug(params.slug);
-  if (!post) return { title: 'Article — CHIC' };
-  // Blog is English-only — canonical stays on /en regardless of current locale.
-  const en = routing.defaultLocale;
-  const path = `/${en}/blog/${post.slug}`;
+  const enPost = getPostBySlug(params.slug);
+  if (!enPost) return { title: 'Article — CHIC' };
+  // Merge the per-locale translation overlay so og:title/description reflect
+  // the localized content; falls back to English when overlay is empty.
+  const t = getBlogTranslation(params.slug, params.locale);
+  const post = { ...enPost, ...t };
+  const path = `/blog/${enPost.slug}`;
   return {
     title: `${post.title} — CHIC`,
     description: post.excerpt,
-    alternates: { canonical: path },
+    alternates: makeAlternates(params.locale, path),
     openGraph: {
       type: 'article',
-      url: path,
+      url: `/${params.locale}${path}`,
       title: post.title,
       description: post.excerpt,
       images: post.hero ? [{ url: post.hero, alt: post.title }] : undefined,
@@ -372,12 +375,25 @@ function renderBlock(block, i) {
   }
 }
 
-export default function BlogPost({ params }) {
+export default async function BlogPost({ params }) {
   unstable_setRequestLocale(params.locale);
-  const post = getPostBySlug(params.slug);
-  if (!post) notFound();
+  const enPost = getPostBySlug(params.slug);
+  if (!enPost) notFound();
 
-  const related = getRelatedPosts(params.slug);
+  // Apply per-locale overlay. `body` overlay (if present) replaces the
+  // entire English body. `category` / `readTime` likewise translated.
+  // Anything not in the overlay falls back to the English source field.
+  const overlay = getBlogTranslation(params.slug, params.locale);
+  const post = { ...enPost, ...overlay };
+
+  const related = getRelatedPosts(params.slug).map((rp) => ({
+    ...rp,
+    ...getBlogTranslation(rp.slug, params.locale),
+  }));
+
+  // Translated chrome strings (back-link / post footer / related section /
+  // breadcrumb names). Loaded once and used across the JSX below.
+  const t = await getTranslations({ locale: params.locale, namespace: 'blog' });
 
   // ── JSON-LD: Article + BreadcrumbList ──────────────────────────────
   const postPath = `/blog/${post.slug}`;
@@ -398,13 +414,14 @@ export default function BlogPost({ params }) {
     },
     mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE.siteUrl}${postPath}` },
   };
+  const localePrefix = `/${params.locale}`;
   const breadcrumbLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
     itemListElement: [
-      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.siteUrl },
-      { '@type': 'ListItem', position: 2, name: 'Journal', item: `${SITE.siteUrl}/blog` },
-      { '@type': 'ListItem', position: 3, name: post.title, item: `${SITE.siteUrl}${postPath}` },
+      { '@type': 'ListItem', position: 1, name: t('breadcrumbHome'),    item: `${SITE.siteUrl}${localePrefix}` },
+      { '@type': 'ListItem', position: 2, name: t('breadcrumbJournal'), item: `${SITE.siteUrl}${localePrefix}/blog` },
+      { '@type': 'ListItem', position: 3, name: post.title,              item: `${SITE.siteUrl}${localePrefix}${postPath}` },
     ],
   };
 
@@ -416,7 +433,7 @@ export default function BlogPost({ params }) {
 
       {/* Top bar */}
       <div className="topbar">
-        <Link href="/blog" className="back-link">← Back to Journal</Link>
+        <Link href="/blog" className="back-link">← {t('backToJournal')}</Link>
       </div>
 
       {/* Hero */}
@@ -445,10 +462,10 @@ export default function BlogPost({ params }) {
       {/* Post footer */}
       <div className="post-foot">
         <div className="post-foot-l">
-          Filed under <strong>{post.category}</strong> · Published {fmtDate(post.date)}
+          {t('postFiledUnder')} <strong>{post.category}</strong> · {t('postPublished')} {fmtDate(post.date)}
         </div>
         <div className="post-foot-r">
-          Share: <a href={`mailto:?subject=${encodeURIComponent(post.title)}&body=${encodeURIComponent('Thought you might like this article from CHIC: https://chicwoodenexpert.com/blog/' + post.slug)}`}>Email</a>
+          {t('postShare')} <a href={`mailto:?subject=${encodeURIComponent(post.title)}&body=${encodeURIComponent(post.title + ' — ' + SITE.siteUrl + localePrefix + postPath)}`}>{t('postShareEmail')}</a>
         </div>
       </div>
 
@@ -456,9 +473,9 @@ export default function BlogPost({ params }) {
       {related.length > 0 && (
         <section className="related">
           <div className="rel-inner">
-            
-            <div className="rel-eyebrow">Continue reading</div>
-            <h2 className="rel-title">Related Articles</h2>
+
+            <div className="rel-eyebrow">{t('postRelatedEyebrow')}</div>
+            <h2 className="rel-title">{t('postRelatedTitle')}</h2>
             <div className="rel-grid">
               {related.map((rp) => (
                 <Link key={rp.slug} href={`/blog/${rp.slug}`} className="rel-card">

@@ -1,23 +1,23 @@
 import { Link } from '@/i18n/navigation';
 import { POSTS, CATEGORIES } from '@/data/blog';
 import NewsletterForm from '@/components/NewsletterForm';
-import { routing } from '@/i18n/routing';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { alternates as makeAlternates } from '@/i18n/seo';
+import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
+import { getBlogTranslation, getBlogCategoryTranslation } from '@/data/blog/translations';
 
-// Blog is English-only — every locale's blog URL canonicalises to /en/blog
-// so Google indexes one canonical per article (no duplicate-content penalty).
+// Blog now ships translated content per-locale. Each locale URL is
+// self-canonical and hreflang alternates point to every locale variant,
+// matching the rest of the site's i18n strategy.
 export async function generateMetadata({ params: { locale } }) {
-  const en = routing.defaultLocale;
+  const t = await getTranslations({ locale, namespace: 'blog.meta' });
   return {
-    title: 'Journal — CHIC',
-    description:
-      'Field notes from a custom wooden box factory — manufacturing process, material choices, OEM/ODM playbooks, packaging strategy and sustainability.',
-    alternates: { canonical: `/${en}/blog` },
+    title: t('title'),
+    description: t('description'),
+    alternates: makeAlternates(locale, '/blog'),
     openGraph: {
-      url: `/${en}/blog`,
-      title: 'Journal — CHIC',
-      description:
-        'Field notes from a custom wooden box factory — process, materials, OEM/ODM, packaging, sustainability.',
+      url: `/${locale}/blog`,
+      title: t('title'),
+      description: t('ogDescription'),
     },
   };
 }
@@ -425,21 +425,34 @@ function spanFor(idx, total) {
   return 'span-2';
 }
 
-export default function BlogPage({ params: { locale } }) {
+export default async function BlogPage({ params: { locale } }) {
   unstable_setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'blog' });
+
+  // Apply per-locale overlay (title / excerpt / category / readTime).
+  // Category-comparison logic stays on the ENGLISH category strings so
+  // we can match against the CATEGORIES master list — the displayed
+  // category labels are looked up separately via getBlogCategoryTranslation().
+  const localizedPosts = POSTS.map((p) => ({
+    ...p,
+    ...getBlogTranslation(p.slug, locale),
+    _englishCategory: p.category,  // preserved for filter/count logic
+  }));
+
   // Sort newest first
-  const sorted = [...POSTS].sort((a, b) => new Date(b.date) - new Date(a.date));
+  const sorted = [...localizedPosts].sort((a, b) => new Date(b.date) - new Date(a.date));
   const featured = sorted[0];
   const rest = sorted.slice(1);
 
-  // Count posts per category for topics tile section
+  // Count posts per category for topics tile section.
+  // We bucket by English category (stable key) but display the translated name.
   const catCounts = CATEGORIES.filter((c) => c !== 'All').map((c) => ({
-    name: c,
+    name: getBlogCategoryTranslation(c, locale),
     count: POSTS.filter((p) => p.category === c).length,
   }));
 
-  // Latest update label
-  const latestDate = new Date(featured.date).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+  // Latest update label — formatted in the active locale where possible
+  const latestDate = new Date(featured.date).toLocaleDateString(locale, { month: 'short', year: 'numeric' });
 
   return (
     <div className="blg">
@@ -449,12 +462,9 @@ export default function BlogPage({ params: { locale } }) {
       <section className="hero">
         <div className="hero-bg" />
         <div className="hero-inner">
-          <div className="hero-eyebrow">Notes from the Workshop</div>
-          <h1 className="hero-title">The CHIC <em>Journal</em></h1>
-          <p className="hero-sub">
-            Material picks, finishing tricks, sourcing notes and the occasional manufacturing
-            war story — written by the people who actually build the boxes.
-          </p>
+          <div className="hero-eyebrow">{t('heroEyebrow')}</div>
+          <h1 className="hero-title">{t('heroTitleStart')} <em>{t('heroTitleEm')}</em></h1>
+          <p className="hero-sub">{t('heroSub')}</p>
         </div>
       </section>
 
@@ -462,14 +472,14 @@ export default function BlogPage({ params: { locale } }) {
       <div className="ribbon">
         <div className="rb-inner">
           <div className="rb-stats">
-            <span><strong>{POSTS.length}</strong> Articles</span>
-            <span><strong>{CATEGORIES.length - 1}</strong> Topics</span>
-            <span><strong>↻</strong> Updated {latestDate}</span>
+            <span><strong>{POSTS.length}</strong> {t('ribbonArticles')}</span>
+            <span><strong>{CATEGORIES.length - 1}</strong> {t('ribbonTopics')}</span>
+            <span><strong>↻</strong> {t('ribbonUpdated')} {latestDate}</span>
           </div>
           <div className="rb-cats">
             {CATEGORIES.map((c) => (
               <a key={c} href={`#${c.toLowerCase()}`} className={`rb-chip ${c === 'All' ? 'is-active' : ''}`}>
-                {c}
+                {c === 'All' ? c : getBlogCategoryTranslation(c, locale)}
               </a>
             ))}
           </div>
@@ -484,8 +494,8 @@ export default function BlogPage({ params: { locale } }) {
           {featured && (
             <Link href={`/blog/${featured.slug}`} className="latest">
               <div className="latest-img">
-                <span className="latest-stamp">Latest Issue</span>
-                <span className="latest-num"><strong>No. {String(POSTS.length).padStart(2, '0')}</strong>· {fmtDate(featured.date)}</span>
+                <span className="latest-stamp">{t('latestStamp')}</span>
+                <span className="latest-num"><strong>{t('latestNumPrefix')} {String(POSTS.length).padStart(2, '0')}</strong>· {fmtDate(featured.date)}</span>
                 <img loading="lazy" decoding="async" src={featured.hero} alt={featured.title} width="1200" height="900" />
               </div>
               <div className="latest-body">
@@ -493,10 +503,10 @@ export default function BlogPage({ params: { locale } }) {
                 <h2 className="latest-title">{featured.title}</h2>
                 <p className="latest-excerpt">{featured.excerpt}</p>
                 <div className="latest-meta">
-                  <span><strong>{featured.readTime.split(' ')[0]}</strong>min read</span>
-                  <span><strong>By</strong>CHIC workshop</span>
+                  <span><strong>{featured.readTime.split(' ')[0]}</strong>{t('latestReadMin')}</span>
+                  <span><strong>{t('latestByAuthor')}</strong>{t('latestAuthorName')}</span>
                 </div>
-                <span className="latest-cta">Read the full article</span>
+                <span className="latest-cta">{t('latestCta')}</span>
               </div>
             </Link>
           )}
@@ -504,20 +514,18 @@ export default function BlogPage({ params: { locale } }) {
           {/* Manifesto quote */}
           <div className="manifesto">
             <p className="manifesto-text">
-              We started this journal because most wooden box buying advice online is written
-              by people who&apos;ve never <em>actually built one</em>. These notes come straight from
-              our Cao County workshop floor.
+              {t.rich('manifestoText', { em: (chunks) => <em>{chunks}</em> })}
             </p>
-            <div className="manifesto-attr">— The CHIC Workshop Team</div>
+            <div className="manifesto-attr">{t('manifestoAttr')}</div>
           </div>
 
           {/* Editorial mosaic */}
           <div className="sec-head">
             <div className="sec-head-l">
-              <div className="sec-eyebrow">All Articles</div>
-              <h2 className="sec-title">From the Archive</h2>
+              <div className="sec-eyebrow">{t('allArticlesEyebrow')}</div>
+              <h2 className="sec-title">{t('fromArchive')}</h2>
             </div>
-            <div className="sec-count">{rest.length} more posts</div>
+            <div className="sec-count">{t('morePosts', { n: rest.length })}</div>
           </div>
           <div className="mosaic">
             {rest.map((p, i) => (
@@ -530,7 +538,7 @@ export default function BlogPage({ params: { locale } }) {
                   <div className="mc-meta">{fmtDate(p.date)} · {p.readTime}</div>
                   <h3 className="mc-title">{p.title}</h3>
                   <p className="mc-excerpt">{p.excerpt}</p>
-                  <div className="mc-foot">Read article →</div>
+                  <div className="mc-foot">{t('mosaicReadCta')}</div>
                 </div>
               </Link>
             ))}
@@ -540,16 +548,16 @@ export default function BlogPage({ params: { locale } }) {
           <div className="topics">
             <div className="sec-head">
               <div className="sec-head-l">
-                <div className="sec-eyebrow">Browse by Topic</div>
-                <h2 className="sec-title">Pick a Subject</h2>
+                <div className="sec-eyebrow">{t('browseByTopicEyebrow')}</div>
+                <h2 className="sec-title">{t('pickASubject')}</h2>
               </div>
             </div>
             <div className="topics-grid">
-              {catCounts.map((t) => (
-                <a key={t.name} href={`#${t.name.toLowerCase()}`} className="topic-tile">
+              {catCounts.map((c) => (
+                <a key={c.name} href={`#${c.name.toLowerCase()}`} className="topic-tile">
                   <div className="topic-icon">✦</div>
-                  <div className="topic-name">{t.name}</div>
-                  <div className="topic-count">{t.count} {t.count === 1 ? 'article' : 'articles'}</div>
+                  <div className="topic-name">{c.name}</div>
+                  <div className="topic-count">{t('articleCount', { n: c.count })}</div>
                 </a>
               ))}
             </div>
@@ -558,12 +566,9 @@ export default function BlogPage({ params: { locale } }) {
           {/* Newsletter */}
           <div className="news">
             <div className="news-text">
-              <div className="news-eyebrow">Subscribe</div>
-              <h3 className="news-title">Get new articles delivered to your inbox</h3>
-              <p className="news-sub">
-                Every two weeks. No fluff, no spam — just real notes from the workshop floor.
-                Join 1,200+ buyers, brands and importers worldwide.
-              </p>
+              <div className="news-eyebrow">{t('newsletterEyebrow')}</div>
+              <h3 className="news-title">{t('newsletterTitle')}</h3>
+              <p className="news-sub">{t('newsletterSub')}</p>
             </div>
             <NewsletterForm />
           </div>
