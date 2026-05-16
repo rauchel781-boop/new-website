@@ -330,6 +330,20 @@
     "nextImage": "次の画像",
     "thumbAria": "画像 {idx} を見る"
   },
+  "search": {
+    "openButton": "検索",
+    "openShortcut": "⌘K",
+    "placeholder": "製品・カテゴリー・記事を検索…",
+    "noResults": "結果が見つかりません。",
+    "noResultsHint": "より広いキーワードを試すか、カタログをご覧ください。",
+    "browseCatalog": "カタログを見る",
+    "typeCategory": "カテゴリー",
+    "typeProduct": "製品",
+    "typeBlog": "記事",
+    "resultCount": "{n, plural, other {# 件の結果}}",
+    "closeAria": "検索を閉じる",
+    "openAria": "検索を開く"
+  },
   "blog": {
     "meta": {
       "title": "Journal — CHIC",

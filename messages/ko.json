@@ -330,6 +330,20 @@
     "nextImage": "다음 이미지",
     "thumbAria": "이미지 {idx} 보기"
   },
+  "search": {
+    "openButton": "검색",
+    "openShortcut": "⌘K",
+    "placeholder": "제품·카테고리·기사 검색…",
+    "noResults": "결과가 없습니다.",
+    "noResultsHint": "더 넓은 키워드로 시도하시거나 카탈로그를 둘러보세요.",
+    "browseCatalog": "카탈로그 둘러보기",
+    "typeCategory": "카테고리",
+    "typeProduct": "제품",
+    "typeBlog": "기사",
+    "resultCount": "{n, plural, other {결과 #개}}",
+    "closeAria": "검색 닫기",
+    "openAria": "검색 열기"
+  },
   "blog": {
     "meta": {
       "title": "Journal — CHIC",

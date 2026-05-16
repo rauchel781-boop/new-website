@@ -330,6 +330,20 @@
     "nextImage": "Image suivante",
     "thumbAria": "Voir image {idx}"
   },
+  "search": {
+    "openButton": "Rechercher",
+    "openShortcut": "⌘K",
+    "placeholder": "Rechercher produits, catégories, articles…",
+    "noResults": "Aucun résultat.",
+    "noResultsHint": "Essayez un mot-clé plus large ou parcourez le catalogue.",
+    "browseCatalog": "Voir le Catalogue",
+    "typeCategory": "Catégorie",
+    "typeProduct": "Produit",
+    "typeBlog": "Article",
+    "resultCount": "{n, plural, one {# résultat} other {# résultats}}",
+    "closeAria": "Fermer la recherche",
+    "openAria": "Ouvrir la recherche"
+  },
   "blog": {
     "meta": {
       "title": "Journal — CHIC",

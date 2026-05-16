@@ -330,6 +330,20 @@
     "nextImage": "Next image",
     "thumbAria": "View image {idx}"
   },
+  "search": {
+    "openButton": "Search",
+    "openShortcut": "⌘K",
+    "placeholder": "Search products, categories, articles…",
+    "noResults": "No results found.",
+    "noResultsHint": "Try a wider keyword, or browse the catalog instead.",
+    "browseCatalog": "Browse Catalog",
+    "typeCategory": "Category",
+    "typeProduct": "Product",
+    "typeBlog": "Article",
+    "resultCount": "{n, plural, one {# result} other {# results}}",
+    "closeAria": "Close search",
+    "openAria": "Open search"
+  },
   "blog": {
     "meta": {
       "title": "Journal — CHIC",

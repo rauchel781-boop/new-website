@@ -5,6 +5,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 import { routing, localeNames } from '@/i18n/routing';
 import { SITE } from '@/data/site-config';
+import SearchModal from '@/components/SearchModal';
 
 // Mega-menu structure as raw data (no labels — labels come from translations).
 // `key` matches the messages/<lang>.json `categories.<key>` entry.
@@ -230,6 +231,39 @@ const HEADER_CSS = `
 }
 .chic-hdr .cta:hover { background: #D9A05E; transform: translateY(-2px); box-shadow: 0 12px 28px rgba(197,142,74,0.5); }
 
+/* ── Search trigger ── */
+.chic-hdr .search-btn {
+  display: inline-flex; align-items: center; gap: 10px;
+  height: 38px;
+  padding: 0 14px;
+  border: 1px solid rgba(107,74,51,0.25);
+  border-radius: 100px;
+  background: rgba(246,238,223,0.5);
+  color: var(--wd-mute);
+  font-size: 0.78rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color .15s, background .15s, color .15s;
+}
+.chic-hdr .search-btn:hover {
+  border-color: var(--wd-warm);
+  background: rgba(246,238,223,0.85);
+  color: var(--wd-deep);
+}
+.chic-hdr .search-btn svg { width: 16px; height: 16px; flex-shrink: 0; }
+.chic-hdr .search-btn-label { font-weight: 500; }
+.chic-hdr .search-btn-kbd {
+  display: inline-flex; align-items: center; justify-content: center;
+  font-family: inherit;
+  font-size: 0.7rem;
+  letter-spacing: 0.5px;
+  padding: 2px 7px;
+  border-radius: 4px;
+  background: rgba(107,74,51,0.12);
+  color: var(--wd-mute);
+  border: 1px solid rgba(107,74,51,0.15);
+}
+
 /* ── Mobile toggle ── */
 .chic-hdr .burger {
   display: none;
@@ -274,6 +308,13 @@ const HEADER_CSS = `
   text-decoration: none; border-radius: 2px;
 }
 
+/* Below tablet, collapse search button to an icon-only pill
+   (label + kbd hint take too much real estate). */
+@media (max-width: 900px) {
+  .chic-hdr .search-btn { gap: 0; padding: 0 11px; }
+  .chic-hdr .search-btn-label,
+  .chic-hdr .search-btn-kbd { display: none; }
+}
 @media (max-width: 1100px) {
   .chic-hdr .nav, .chic-hdr .cta { display: none; }
   .chic-hdr .burger { display: inline-flex; }
@@ -315,6 +356,7 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
   const t = useTranslations();
   const locale = useLocale();
   const pathname = usePathname(); // path WITHOUT locale prefix
@@ -336,6 +378,19 @@ export default function Header() {
     return () => document.removeEventListener('click', onClick);
   }, [langOpen]);
 
+  // Global keyboard shortcut: Cmd/Ctrl + K opens the search modal.
+  // Matches the convention used by GitHub / Linear / Vercel docs etc.
+  useEffect(() => {
+    const onKey = (e) => {
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        setSearchOpen((v) => !v);
+      }
+    };
+    document.addEventListener('keydown', onKey);
+    return () => document.removeEventListener('keydown', onKey);
+  }, []);
+
   // Translated top-level nav (data-driven, mirrors the original NAV array
   // but pulls labels from the active locale's messages).
   const NAV = [
@@ -348,6 +403,7 @@ export default function Header() {
   ];
 
   return (
+    <>
     <header className={`chic-hdr ${scrolled ? 'scrolled' : ''}`}>
       <style dangerouslySetInnerHTML={{ __html: HEADER_CSS }} />
 
@@ -432,6 +488,22 @@ export default function Header() {
             })}
           </nav>
 
+          {/* Search trigger — opens modal. Cmd/Ctrl+K also opens it
+              (see the global keydown effect at the top of this component). */}
+          <button
+            type="button"
+            className="search-btn"
+            onClick={() => setSearchOpen(true)}
+            aria-label={t('search.openAria')}
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8" />
+              <path d="m21 21-4.3-4.3" />
+            </svg>
+            <span className="search-btn-label">{t('search.openButton')}</span>
+            <kbd className="search-btn-kbd">{t('search.openShortcut')}</kbd>
+          </button>
+
           <Link href="/contact" className="cta">{t('cta.getQuote')} →</Link>
 
           <button
@@ -498,5 +570,7 @@ export default function Header() {
         </div>
       </div>
     </header>
+    <SearchModal open={searchOpen} onClose={() => setSearchOpen(false)} />
+    </>
   );
 }
