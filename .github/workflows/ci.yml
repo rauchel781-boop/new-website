@@ -1,0 +1,66 @@
+# Continuous integration for new-website.
+#
+# Triggers:
+#   - Every push to `main` (catches direct pushes — should be rare)
+#   - Every PR opened/updated against `main`
+#
+# What it does:
+#   - Installs deps from `npm ci` (reproducible from package-lock.json)
+#   - Runs `next lint` to catch obvious issues
+#   - Runs `next build` to ensure all 8 locale × ~220 pages generate
+#     without runtime errors (catches missing translations, broken
+#     imports, malformed JSON-LD, etc.)
+#
+# Why this matters:
+#   The Coolify deploy pipeline runs `next build` server-side, so a
+#   broken build means failed deploy. Catching it on PR saves the
+#   ~30s build wait + the rollback friction.
+#
+# Cost: free for public repos; private repos get 2,000 free minutes/month
+# (this workflow takes ~3 min, so plenty of headroom).
+
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+# Cancel in-progress runs when a new commit is pushed to the same PR —
+# don't waste minutes building stale code.
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Lint + Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          # Match the Node version used by Coolify's nixpacks build
+          # (Next.js 14 requires >=18.17). Update both when bumping.
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Build
+        run: npm run build
+        env:
+          # next build needs a NEXT_PUBLIC origin for absolute URLs
+          # in metadata / OG / hreflang. We set it explicitly here
+          # so the build doesn't depend on a runtime env file.
+          NEXT_PUBLIC_SITE_URL: https://custom-woodenbox.com

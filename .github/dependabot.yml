@@ -1,0 +1,56 @@
+# Dependabot config — weekly auto-PRs for outdated deps.
+#
+# Two ecosystems watched:
+#   1. npm (the actual app + tooling deps)
+#   2. github-actions (the CI workflow itself)
+#
+# Strategy:
+#   - Weekly cadence (Monday morning Asia/Shanghai) keeps the PR
+#     queue manageable
+#   - Group minor + patch updates into ONE PR per ecosystem to
+#     avoid notification fatigue
+#   - Major updates get their own PR (next, react etc. — those
+#     deserve careful review)
+#   - Cap to 5 open PRs per ecosystem so the queue can't snowball
+
+version: 2
+updates:
+  # ── npm deps ────────────────────────────────────────────────────────
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "08:00"
+      timezone: "Asia/Shanghai"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+    groups:
+      # Roll up everything that's a minor / patch into one PR.
+      # Major bumps still get their own PR per package.
+      minor-and-patch:
+        update-types:
+          - "minor"
+          - "patch"
+    # The Aliyun MT SDK only matters when we regenerate translations;
+    # pinning prevents version drift breaking the translate script
+    # silently. Manually bump when you actually run it again.
+    ignore:
+      - dependency-name: "@alicloud/alimt20181012"
+      - dependency-name: "@alicloud/openapi-client"
+      - dependency-name: "@alicloud/tea-util"
+
+  # ── GitHub Actions ──────────────────────────────────────────────────
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "08:00"
+      timezone: "Asia/Shanghai"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "ci"
+      include: "scope"

@@ -21,6 +21,7 @@ import { PRODUCTS as WALNUT_PRODUCTS } from '@/data/products/walnut';
 import ProductGallery from '@/components/ProductGallery';
 import ProductTabs from '@/components/ProductTabs';
 import JsonLd from '@/components/JsonLd';
+import StickyInquiryCta from '@/components/StickyInquiryCta';
 import { SITE } from '@/data/site-config';
 import { alternates as makeAlternates } from '@/i18n/seo';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
@@ -611,6 +612,10 @@ export default async function ProductDetail({ params }) {
           </div>
         </section>
       )}
+
+      {/* Mobile-only sticky inquiry CTA — bottom-left to avoid the
+          Tawk.to chat widget on the right. Renders on PDP only. */}
+      <StickyInquiryCta productName={product.name} />
     </div>
   );
 }
