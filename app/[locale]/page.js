@@ -103,6 +103,35 @@ function buildWebsiteLd(locale) {
   };
 }
 
+// Service schema — describes the OEM/ODM custom wooden box service
+// offering. Helps Google surface us in "wooden box manufacturer
+// services" search results and the "Services" knowledge-panel block.
+// Pairs with the Organization + LocalBusiness schemas via @id refs.
+const SERVICE_LD = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  '@id': `${SITE.siteUrl}/#service`,
+  serviceType: 'Custom Wooden Box Manufacturing — OEM / ODM',
+  name: 'Custom Wooden Box Manufacturing (OEM / ODM)',
+  description:
+    'End-to-end custom wooden box manufacturing for B2B clients. From rough timber to finished, retail-ready packaging — kiln drying, CNC cutting, joinery, finishing, branding (laser engrave / hot foil / deboss / screen print), QC and export documentation. Wood species include paulownia, pine, bamboo, acacia, walnut, oak. MOQ from 100 pieces.',
+  provider: { '@id': `${SITE.siteUrl}/#organization` },
+  areaServed: ['US', 'EU', 'GB', 'JP', 'KR', 'AU', 'CA', 'DE', 'FR', 'IT', 'ES', 'PT'],
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Wooden Box Categories',
+    itemListElement: [
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Gift & Packaging Boxes', url: `${SITE.siteUrl}/en/products/gift-packaging` } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Watch & Jewelry Boxes', url: `${SITE.siteUrl}/en/products/watch-jewelry` } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Tea & Coffee Boxes',    url: `${SITE.siteUrl}/en/products/tea-coffee` } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Wine & Whisky Boxes',   url: `${SITE.siteUrl}/en/products/wine-whisky` } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Kitchen & Dining',      url: `${SITE.siteUrl}/en/products/kitchen-dining` } },
+      { '@type': 'Offer', itemOffered: { '@type': 'Product', name: 'Storage Boxes',         url: `${SITE.siteUrl}/en/products/storage` } },
+    ],
+  },
+  termsOfService: `${SITE.siteUrl}/en/terms`,
+};
+
 // LocalBusiness schema for the Xiamen sales office. Schema.org allows a
 // dedicated LocalBusiness alongside Organization — it powers Google Maps
 // / "near me" / knowledge-panel results for the physical sales contact
@@ -838,6 +867,7 @@ export default async function HomePage({ params: { locale } }) {
       <JsonLd data={ORG_LD} />
       <JsonLd data={buildWebsiteLd(locale)} />
       <JsonLd data={SALES_OFFICE_LD} />
+      <JsonLd data={SERVICE_LD} />
       <style dangerouslySetInnerHTML={{ __html: HOMEPAGE_CSS }} />
 
       {/* HERO */}

@@ -2,6 +2,7 @@ import { Link } from '@/i18n/navigation';
 import { notFound } from 'next/navigation';
 import { POSTS, getPostBySlug, getRelatedPosts } from '@/data/blog';
 import JsonLd from '@/components/JsonLd';
+import BlogShareButtons from '@/components/BlogShareButtons';
 import { SITE } from '@/data/site-config';
 import { alternates as makeAlternates } from '@/i18n/seo';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
@@ -465,7 +466,11 @@ export default async function BlogPost({ params }) {
           {t('postFiledUnder')} <strong>{post.category}</strong> · {t('postPublished')} {fmtDate(post.date)}
         </div>
         <div className="post-foot-r">
-          {t('postShare')} <a href={`mailto:?subject=${encodeURIComponent(post.title)}&body=${encodeURIComponent(post.title + ' — ' + SITE.siteUrl + localePrefix + postPath)}`}>{t('postShareEmail')}</a>
+          <span style={{ marginRight: 10, color: 'var(--wd-mute)' }}>{t('postShare')}</span>
+          <BlogShareButtons
+            url={`${SITE.siteUrl}${localePrefix}${postPath}`}
+            title={post.title}
+          />
         </div>
       </div>
 

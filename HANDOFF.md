@@ -1053,3 +1053,125 @@ const TranslateGeneralRequest = mod.default.TranslateGeneralRequest;
 - `.env.local`：本地凭证文件，**永远不进 git**（被 `.gitignore` 的 `.env*` 排除）
 
 总耗 70 文 × 60-80 块 = ~5,000 块翻译，加 280 条 chrome（35 keys × 8 lang）。整个 blog 8 语化项目 ≈ 5,300+ 翻译条目。
+
+## 二十五、博客 OG 图 + 5 个小而美 + 运维 + 销售优化 + 搜索（2026-05-15 大批收尾）
+
+Blog i18n 完工后又做了一大批边角增量改进，统一记录。
+
+### a) 博客每篇文章动态 OG 图
+
+`app/[locale]/blog/[slug]/opengraph-image.js` — Next.js 14 Metadata Files + ImageResponse API：
+
+- 1200×630 PNG，构建时静态生成（无运行时成本）
+- 木色渐变背景（#1F140C → #6B4A33）+ 米白文字
+- 左上：「C」logo + CHIC Journal + Wooden Expert · Xiamen
+- 右上：分类胶囊（按 locale 翻译：Processo / Process / 製造プロセス）
+- 中间：大字文章标题（按 locale 翻译，长标题自动缩小字号）
+- 底部：URL + Est. 2010
+
+分享到 LinkedIn / Twitter / Slack 时显示美观预览卡，B2B 引流的关键。
+
+### b) `npm run translate:blog` DX 改进
+
+`package.json` 加：
+- `translate:blog` — 跳过已翻译，增量翻新文章
+- `translate:blog:force` — 重翻全部
+
+### c) RSS 2.0 Feed for Blog
+
+`app/feed.xml/route.js` — 服务 `/feed.xml`，被 `[locale]/layout.js` 里的 `<link rel="alternate">` 自动发现（Feedly / Inoreader / NewsBlur）。
+
+设计决定：**只发英文 feed**（不per-locale）：
+- RSS 订阅者是英文阅读 power user 主导
+- 多语 feed 会触发 Google 重复内容反射
+- 单一英文 feed 引流到主网站后，访客自然命中 next-intl 中间件按浏览器语言重定向
+
+每篇 item 包含：title / link / guid（permalink） / pubDate / category / description（excerpt + 前 3 段 p）/ enclosure（hero 图）。
+
+### d) 品牌化 404 页
+
+`app/not-found.js` — 木色渐变背景 + "404" 数字 + 标题 + 3 个 suggest 卡片（Catalog / Journal / Contact）+ "Report broken link" mailto CTA + `robots: noindex`。
+
+### e) Skip-to-Content 链接（WCAG 2.4.1）
+
+`[locale]/layout.js` 加 `<a href="#main-content">` + `globals.css` 加 CSS。默认 top: -100px 隐藏，focus 时滑入屏幕。键盘 / 屏幕阅读器用户可跳过 nav 直达 `<main>`。
+
+### f) Sitemap 修正
+
+之前 blog 在 sitemap 里被钉死 `/en/blog/...`（旧的 canonical-to-EN 设计的产物）。Blog 8 语化后必须更新——改成 `pushLocalized()` 处理，每个 locale × 10 文章 = 80 个 blog URL 都进 sitemap 带 hreflang。
+
+### g) LocalBusiness JSON-LD（首页）
+
+加 `SALES_OFFICE_LD` 常量，Schema.org 允许 `LocalBusiness` 跟 `Organization` 共存——`LocalBusiness` 驱动 Google Maps「near me」/ 知识面板。包含坐标（24.6181, 118.0413 = Maluan, Jimei District, Xiamen）+ 营业时间（Mon-Sat 9-18）+ 邮政地址 + parentOrganization @id 链回 Organization。
+
+### h) Service JSON-LD（首页）
+
+加 `SERVICE_LD` 常量 — `Service` schema 描述 OEM/ODM 木箱制造服务：
+- serviceType: "Custom Wooden Box Manufacturing — OEM / ODM"
+- provider @id 链回 Organization
+- areaServed 12 个国家
+- hasOfferCatalog 6 个主分类
+- termsOfService 链回 /en/terms
+
+Google 「服务类」富结果 + 知识面板。
+
+### i) GitHub Actions CI
+
+`.github/workflows/ci.yml` — 每个 PR / push to main 自动 `npm ci` + `npm run lint` + `npm run build`。验证全 8 语 × ~220 静态页面能生成。3 min 跑完，免费额度绰绰有余。
+
+加 `concurrency` group + cancel-in-progress 防止同 PR 连续 push 时浪费 minute。
+
+### j) Dependabot
+
+`.github/dependabot.yml` — 每周一早 8:00 Asia/Shanghai 自动开 PR：
+- npm: minor/patch 合并到一个 PR，major 单独 PR
+- github-actions: 同样策略
+- 5 个 PR 上限
+- **故意忽略** `@alicloud/*` 3 个翻译 SDK 防止静默升级破坏 translate-blog 脚本
+
+### k) 产品详情页移动端 sticky 询盘 CTA
+
+`components/StickyInquiryCta.jsx` — 客户端组件，**只在 PDP** 渲染、**只在 ≤768px 显示**、bottom-left 位置（避开右下 Tawk）。
+
+两个按钮：
+- WhatsApp：`wa.me` 点击打开 + 预填消息带产品名（"Hi CHIC team — interested in your {productName}..."）
+- Email：mailto + 预填 subject
+
+接 GA4 trackEvent `source: 'pdp_sticky'` 跟现有事件并列。延迟 800ms 出现不竞争 LCP 关键资源。
+
+### l) 站内搜索（Cmd/Ctrl+K）
+
+**架构**：
+- `app/search-data/[locale]/route.js` — Route Handler + `generateStaticParams` 构建时为 8 个 locale 生成静态 JSON 索引（17 分类 + 186 产品 + 10 blog = ~213 条目 × ~200 字节 ≈ 42KB/lang gzipped）
+- `components/SearchModal.jsx` — 客户端模态，Cmd/Ctrl+K 唤起 + 按钮唤起、懒加载索引、in-browser fuzzy 评分（标题 3 倍权重 + word boundary + 子串匹配，零外部库 ~5KB）
+- `components/Header.js` — 加搜索按钮（Search · ⌘K pill）+ 全局键盘快捷键
+
+**评分**：
+- 标题精确匹配 +1000
+- 前缀匹配 +500
+- word boundary +30
+- text 子串 +5
+- 类型权重 product 1.2 > category 1.1 > blog 1.0
+
+**键盘**：↑↓ 导航、Enter 跳转、Esc 关闭
+
+**i18n**：`search` namespace 12 keys × 8 语
+
+### m) 博客文章分享按钮
+
+`components/BlogShareButtons.jsx` — 4 个分享：
+- Twitter / LinkedIn / Email：直接构造 share URL（X intent / LinkedIn sharing / mailto），无第三方 SDK
+- 复制链接：`navigator.clipboard.writeText` + 1.8s 后切回原 icon，旧浏览器降级 `execCommand`
+
+每个 share 接 GA4 trackEvent `platform` 维度便于跟踪传播路径。
+
+### 这一节累计提交建议
+
+可以拆 6-7 个相关 commit 推：
+
+1. `feat(blog): per-article OG images + npm scripts + HANDOFF`
+2. `feat: RSS feed + branded 404 + skip-to-content + LocalBusiness schema + sitemap audit`
+3. `ci: GitHub Actions build/lint + weekly Dependabot`
+4. `feat(pdp): sticky inquiry CTA on mobile product detail pages`
+5. `feat: site-wide search (Cmd/Ctrl+K) with build-time index`
+6. `feat(blog): share buttons + Service JSON-LD schema`
