@@ -5,6 +5,7 @@
 import { Link } from '@/i18n/navigation';
 import IntroCarousel from '@/components/IntroCarousel';
 import JsonLd from '@/components/JsonLd';
+import CertIcon from '@/components/CertIcons';
 import { SITE } from '@/data/site-config';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getHome } from '@/data/home';
@@ -612,7 +613,8 @@ const HOMEPAGE_CSS = `
 .wcb-home .trust-text p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.9; font-weight: 300; }
 .wcb-home .cert-badges { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
 .wcb-home .cert-badge { background: white; padding: 24px 16px; text-align: center; border-radius: 2px; border: 1px solid rgba(197,142,74,0.2); }
-.wcb-home .cert-icon { font-size: 1.8rem; margin-bottom: 8px; }
+.wcb-home .cert-icon { font-size: 1.8rem; margin-bottom: 10px; color: var(--blue-warm); display: inline-flex; line-height: 1; }
+.wcb-home .cert-icon svg { width: 1.8em; height: 1.8em; }
 .wcb-home .cert-name { font-size: 0.7rem; letter-spacing: 2px; text-transform: uppercase; color: var(--blue-mid); font-weight: 500; }
 
 /* ─── SECTION 9: CTA ─── */
@@ -964,7 +966,7 @@ export default async function HomePage({ params: { locale } }) {
           <div className="feat-grid">
             {FEATURED.map((f, i) => (
               <Link href={f.href} key={i} className="feat-card">
-                <img loading="lazy" decoding="async" src={f.img} alt={f.name} width={f.w} height={f.h} />
+                <img loading="lazy" decoding="async" src={f.img} alt={t('productGrid.cardAlt', { name: f.name })} width={f.w} height={f.h} />
                 <div className="feat-overlay" />
                 <div className="feat-arrow">→</div>
                 <div className="feat-content">
@@ -1131,7 +1133,7 @@ export default async function HomePage({ params: { locale } }) {
           <div className="cert-badges">
             {CERTS.map((c, i) => (
               <div className="cert-badge" key={i}>
-                <div className="cert-icon">{c.icon}</div>
+                <div className="cert-icon" aria-hidden="true"><CertIcon slug={c.slug} /></div>
                 <div className="cert-name">{c.name}</div>
               </div>
             ))}

@@ -325,7 +325,7 @@
     "step6Body": "Adapta MOQ a tu velocidad de ventas (típico 200–500 para nuestra línea); planifica 25–35 días desde muestra confirmada. Pide muestras primero si es un diseño nuevo."
   },
   "productGallery": {
-    "mainAlt": "{name} — vista {idx}",
+    "mainAlt": "{name} — Caja de Madera Personalizada de CHIC, vista {idx}",
     "previousImage": "Imagen anterior",
     "nextImage": "Siguiente imagen",
     "thumbAria": "Ver imagen {idx}"
@@ -429,7 +429,8 @@
     "empty": "Ningún producto coincide con este filtro.",
     "moq": "MOQ",
     "lead": "Plazo",
-    "inquire": "Consultar"
+    "inquire": "Consultar",
+    "cardAlt": "{name} — Caja de Madera Personalizada de CHIC"
   },
   "introCarousel": {
     "slide1Label": "Producción en Serie",

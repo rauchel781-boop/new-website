@@ -325,7 +325,7 @@
     "step6Body": "Passen Sie MOQ an Ihre Verkaufsgeschwindigkeit an (typisch 200–500 für unsere Linie); planen Sie 25–35 Tage ab bestätigtem Muster. Bestellen Sie zuerst Muster bei neuem Design."
   },
   "productGallery": {
-    "mainAlt": "{name} — Ansicht {idx}",
+    "mainAlt": "{name} — Maßgefertigte Holzbox von CHIC, Ansicht {idx}",
     "previousImage": "Vorheriges Bild",
     "nextImage": "Nächstes Bild",
     "thumbAria": "Bild {idx} ansehen"
@@ -429,7 +429,8 @@
     "empty": "Keine Produkte entsprechen diesem Filter.",
     "moq": "MOQ",
     "lead": "Lieferzeit",
-    "inquire": "Anfragen"
+    "inquire": "Anfragen",
+    "cardAlt": "{name} — Maßgefertigte Holzbox von CHIC"
   },
   "introCarousel": {
     "slide1Label": "Großserienfertigung",

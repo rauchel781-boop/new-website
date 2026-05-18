@@ -1296,3 +1296,176 @@ Affects: canonical/OG/Twitter URL, sitemap.xml, robots.txt, hreflang — all aut
 DEPLOY NOTE: user must configure info@custom-woodenbox.com mail forwarding/MX
 DEPLOY NOTE: hreflang code was already correct — re-deploy will refresh the snapshot the auditor saw
 ```
+
+---
+
+## 二十七、P1 SEO 修复：OG 图重做 + 500+ 声明 + alt 品牌化（2026-05-16）
+
+P0 之后立刻接 P1 三件套——审计指出的所有「品牌信号薄」问题。
+
+### a) Open Graph 图：从 logo 升级到 ImageResponse 动态卡片
+
+**问题**：`app/[locale]/layout.js` 默认 `og:image: '/logo.png'`。LinkedIn / Twitter / Slack / Facebook 分享 CHIC 链接预览全是个 logo，B2B 引流转化率低。审计原话："This is an eyesore on every share."
+
+**改**：用 Next.js Metadata Files 文件约定，3 层 OG 图层级：
+
+1. **根级 `app/opengraph-image.js`** — 全站默认。1200×630 PNG，木色渐变背景 + "C" logomark + "CHIC · Wooden Expert · Est. 2010" + 大字主张 "Where Wood Becomes Heirloom." + 副标题 "15,000 m² Cao County factory · OEM/ODM · Shipping to 60+ countries from Xiamen." + 底部 "custom-woodenbox.com · FSC · EU REACH · CARB · ISO 9001"。生成一次构建期，零运行时开销。
+
+2. **PDP 级 `app/[locale]/products/[slug]/[product]/opengraph-image.js`** — 每个产品自己的 OG 卡片。左半边产品 hero 照片（用 fs.readFileSync 把 public/ 里的 webp/png 读出来转 base64 data URL，嵌入到 ImageResponse 的 `<img src>`），右半边 brand mark + 产品名（自动按长度缩字号 54→46→38）+ 简短 intro + 底栏。每个 PDP 一张专属卡片，分享时显示真实产品。
+
+3. **博客级**（已存在）`app/[locale]/blog/[slug]/opengraph-image.js` — 文章标题专属卡片，session 之前已建。
+
+**取代旧设置**：
+- `app/[locale]/layout.js`：删了 `openGraph.images: [{ url: '/logo.png' }]` 和 `twitter.images: ['/logo.png']`，因为 metadata files 文件约定优先级**高于** generateMetadata 里的 `openGraph.images`。
+- PDP `page.js`：删了 `images: hero ? [{ url: hero, alt: product.name }] : undefined`——文件约定接手了。
+
+**为什么文件约定>显式 metadata**：Next.js 文档原文「Metadata files take precedence over metadata objects defined with the metadata API」——一行明确。所以并存会有混淆，干脆删掉显式版。
+
+**继承规则**：Next.js 沿路径自下而上找最近的 `opengraph-image.js`。所以根级是兜底，PDP 级覆盖根级，blog 文章级覆盖根级。其他页面（home/about/contact/capabilities/wood-fab/products index/categories/privacy/terms）都吃根级——不是问题，因为根级卡片就是品牌定位卡片，对这些页面来说很合适。
+
+**构建期生成**：因 [locale] 段和 [slug]/[product] 段都有 `generateStaticParams`，Next.js 会为每个 param 组合预生成一张静态 PNG——8 语 × 186 产品 ≈ 1,488 张 PDP OG + 1 张根 OG + 80 张博客 OG。全部静态资源、CDN 缓存友好。
+
+### b) "500+" 声明对账
+
+**问题**：网站说 "500+ Box Styles"，但数据库实际 186 个独立 SKU（17 分类按用途/结构/材质交叉分）。审计："View All 500+ Products → 点进去看到 186 是失信。"
+
+**用户拍板**：分开处理。
+
+- **保留** hero meta 区的 "500+ Box Styles" + stats 区的 "500+ Box Styles Available" + 博客 ODM 段落里的 "existing catalog of 500+ wooden box designs"——都是 20 年累计设计组合的品牌叙事，行业内可辩护。
+- **改** featured 区 CTA 文案：`viewAll: 'View All 500+ Products →'` → `'View All Products →'`（去掉数字承诺）。8 个 home 数据文件全改：
+
+| Locale | 旧 | 新 |
+|---|---|---|
+| en | View All 500+ Products → | View All Products → |
+| de | Alle 500+ Produkte ansehen → | Alle Produkte ansehen → |
+| es | Ver Todos los 500+ Productos → | Ver Todos los Productos → |
+| fr | Voir les 500+ Produits → | Voir Tous les Produits → |
+| it | Vedi Tutti i 500+ Prodotti → | Vedi Tutti i Prodotti → |
+| pt | Ver Todos os 500+ Produtos → | Ver Todos os Produtos → |
+| ja | 500以上の全製品を見る → | すべての製品を見る → |
+| ko | 500개 이상의 모든 제품 보기 → | 모든 제품 보기 → |
+
+### c) 图片 alt 品牌化（"Custom Wooden Box by CHIC"）
+
+**问题**：审计说 alt 文本只有产品名（如 "Wooden Watch Display Box"），缺 SEO 关键词 + 品牌。建议模式：`"{name} — Custom Wooden Box by CHIC"`。
+
+**改了 3 个地方**：
+
+1. **PDP gallery `mainAlt`**（最高量——186 产品 × 6+ 图 ≈ 1,100+ alt 节点）：
+
+   `messages/{locale}.json` 里 `productGallery.mainAlt`：
+   - en: `"{name} — Custom Wooden Box by CHIC, view {idx}"`
+   - de: `"{name} — Maßgefertigte Holzbox von CHIC, Ansicht {idx}"`
+   - es: `"{name} — Caja de Madera Personalizada de CHIC, vista {idx}"`
+   - fr: `"{name} — Boîte en Bois Sur Mesure CHIC, vue {idx}"`
+   - it: `"{name} — Scatola in Legno su Misura CHIC, vista {idx}"`
+   - pt: `"{name} — Caixa de Madeira Personalizada CHIC, vista {idx}"`
+   - ja: `"{name} — CHIC のカスタム木箱、ビュー {idx}"`
+   - ko: `"{name} — CHIC 맞춤 우드 박스, 보기 {idx}"`
+
+2. **新增 `productGrid.cardAlt`** × 8 语（类似 mainAlt 但不带 view N 后缀），用在分类落地页产品网格 + 首页 Best Sellers + Recently Viewed strip：
+
+   - en: `"{name} — Custom Wooden Box by CHIC"` ... 其他 7 语对应翻译
+
+3. **JSX 接线**：
+   - `components/ProductGrid.js`: `alt={p.name}` → `alt={t('cardAlt', { name: p.name })}`
+   - `app/[locale]/page.js` Best Sellers: `alt={f.name}` → `alt={t('productGrid.cardAlt', { name: f.name })}`
+   - `components/RecentlyViewedStrip.jsx`: 加 `const tGrid = useTranslations('productGrid')`，`alt={tGrid('cardAlt', { name: it.name || it.slug })}`
+
+**故意不改的 alt**：
+- 工厂瓦片 alt（"Our factory headquarters" / "Production floor" 等）— 已经描述性 + 上下文明确，硬塞 "by CHIC" 反而像 keyword stuffing
+- Process 步骤 alt（"Cutting wood to size" 等）— 同上
+- 员工照片 alt — 同上
+- IntroCarousel 的 alt（用 category label，不是产品图，是分类 banner）— 不适用
+
+按 Google guidelines，alt 应**描述性**而非**关键词堆砌**。我们只在「内容确实需要补品牌联想」的地方加（产品图全是「Wooden Box」语境，加 "Custom Wooden Box by CHIC" 既是关键词也是真实描述）。
+
+### 这一节累计提交建议
+
+可以拆 1-2 个 commit 推：
+
+```
+feat(seo): P1 audit — dynamic OG images + brand-augmented alts + honest viewAll CTA
+
+- app/opengraph-image.js: site-wide branded 1200x630 OG card via ImageResponse
+- app/[locale]/products/[slug]/[product]/opengraph-image.js: per-product OG with hero photo
+- layout.js: drop /logo.png fallback (file convention takes precedence)
+- PDP page.js: drop redundant openGraph.images (file convention handles)
+- messages/*.json: productGallery.mainAlt + new productGrid.cardAlt with "Custom Wooden Box by CHIC" pattern × 8 locales
+- ProductGrid + Best Sellers + RecentlyViewedStrip: wire t('cardAlt', { name }) on product thumbnails
+- data/home/{8 locales}.js: viewAll CTA loses "500+" claim ("View All Products →")
+```
+
+---
+
+## 二十八、P2 收尾 — 认证图标 SVG 化 + sitemap/robots 健康检查（2026-05-17）
+
+P1 之后接 P2 一部分——审计里能由代码层完成的项。
+
+### a) 认证徽章从 emoji 换成自绘 SVG
+
+**问题**：审计原话「emojis on trust badges look like a Shopify store, not a B2B factory」。FSC 🌲、EU REACH 🇪🇺、CARB ✅、SGS 🔬、Phyto 📜、ISO 9001 🏅 全是 emoji——B2B 采购看了不专业。
+
+**改**：新建 `components/CertIcons.jsx`，6 个内联 SVG，统一 viewBox 24×24 + `currentColor` stroke：
+
+| Slug | 设计 |
+|---|---|
+| `fsc` | 松树轮廓——森林管理委员会的意象 |
+| `eu-reach` | 圆圈中嵌 "EU" 字样——欧盟法规联想 |
+| `carb` | 简化叶形——CARB P2 管甲醛排放，跟「环保级人造板」绑定 |
+| `sgs` | 放大镜带勾——第三方检测意象 |
+| `phyto` | 叶片 + 勾——植物检疫证（出口实木必需） |
+| `iso-9001` | 奖章带飘带 + "ISO" 字样——质量管理体系认证 |
+
+所有 SVG 用 `stroke="currentColor"` + `fill="none"` + `strokeWidth=1.6` 的清洁线条画风，渲染时通过 CSS `color: var(--blue-warm)` 染上品牌木色。
+
+**数据层改造**：把所有 `data/{home,about}/{8 locales}.js` 里 CERTS 数组的 `icon: '🌲'` 等 emoji 字段替换成 `slug: 'fsc'` 等稳定 key（共 16 个文件 × 4-6 条）。`name` 字段保留多语翻译，slug 全 8 语相同。
+
+**JSX 改造**：
+- `app/[locale]/page.js`: `<div className="cert-icon">{c.icon}</div>` → `<div className="cert-icon" aria-hidden="true"><CertIcon slug={c.slug} /></div>`
+- `app/[locale]/about/page.js`: 同上模式
+
+**CSS 微调**：`.cert-icon` 加 `color: var(--blue-warm)`、`display: inline-flex`，子 `svg` 设 `width/height: 1.8em` (home) 或 `1.7em` (about)——与原 emoji 视觉大小匹配。`aria-hidden="true"` 是因为旁边 `.cert-name` 已经文字标注是哪个认证，图标对屏幕阅读器是冗余装饰。
+
+**故意不换的 emoji**：home 页 WHY 区的 🏭🎨📋🌍——那是「为什么选我们」的板块装饰，性质是 personality 而非 authority claim。审计原话也只针对 trust badges。
+
+### b) sitemap.xml 和 robots.txt：代码层已经正确
+
+审计还提到 robots/sitemap 复测。代码层检查：
+
+- `app/sitemap.js` — 自动从 `SITE.siteUrl` 生成，P0 之后 `siteUrl` 已 www 前缀。包含：
+  - 7 个静态 localized 页（home/products/material-guide/capabilities/wood-fab/about/contact）
+  - 17 个分类落地页 × 8 语（含 image 子条目）
+  - 186 个 PDP × 8 语（含 image 子条目）
+  - 2 个 legal 页（only /en/——privacy/terms 不本地化）
+  - 1 个 blog index × 8 语
+  - 10 个 blog 文章 × 8 语
+  - 总条目数 ≈ (7 + 17 + 186) × 8 + 2 + 8 + 80 = 1,720+
+
+- `app/robots.js` — disallow `/api/`、`/_next/`，sitemap 指向 `${SITE.siteUrl}/sitemap.xml`，host 字段也用 siteUrl。**部署后**用 Google Search Console > Sitemaps 提交 `https://www.custom-woodenbox.com/sitemap.xml`，Coverage 报告里观察索引状态。
+
+代码层这块没改动——P0 已经间接修了 siteUrl，sitemap 跟随更正。
+
+### c) 剩余 P2/P3 等用户拍板
+
+需要用户决策方向的还有：
+
+1. **`xmchichomeware.com` 战略**（之前 P0 提过）：301 到 www.custom-woodenbox.com / 改企业站 / 保持现状——三选一
+2. **分类页内容深度**：每个分类页加 FAQ 块（3-5 问）+ 规格对比表（材料、尺寸范围、MOQ、起订量）。17 分类 × 5 问 = ~85 问，要全部翻译 8 语 = ~680 问翻译工作量
+3. **国家级本地化内容**：德国 EUTR 进口要求、日本指定货品测试、北美 CARB 等——每个目标国 1-2 段差异化内容
+4. **图片文件名 SEO**：批量重命名 `/folder/2-shape-cutting.webp` → `/folder/shape-cutting-wood-by-chic.webp`——需要用户在硬盘上重命名 + 全 codebase 路径替换。耗时大，价值中等
+
+### 这一节累计提交建议
+
+可以一个 commit 推：
+
+```
+feat(seo): P2 audit — replace cert badge emojis with inline SVG icons
+
+- components/CertIcons.jsx: 6 inline SVGs (fsc/eu-reach/carb/sgs/phyto/iso-9001), wood-tone color via currentColor
+- data/{home,about}/{8 locales}.js: CERTS arrays now key on stable `slug` instead of unicode emoji
+- app/[locale]/page.js + about/page.js: render <CertIcon slug={...} /> + add color + svg sizing rules
+- aria-hidden on icon wrappers (name label is the accessible text)
+
+WHY emojis (🏭🎨📋🌍) on the "Why Choose Us" section retained — they're decorative section dividers, not trust signals.
+```

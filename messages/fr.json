@@ -325,7 +325,7 @@
     "step6Body": "Adaptez MOQ à votre vitesse de vente (typique 200–500 pour notre gamme) ; prévoyez 25–35 jours à partir de l’échantillon confirmé. Commandez d’abord des échantillons si c’est un nouveau design."
   },
   "productGallery": {
-    "mainAlt": "{name} — vue {idx}",
+    "mainAlt": "{name} — Boîte en Bois Sur Mesure CHIC, vue {idx}",
     "previousImage": "Image précédente",
     "nextImage": "Image suivante",
     "thumbAria": "Voir image {idx}"
@@ -429,7 +429,8 @@
     "empty": "Aucun produit ne correspond à ce filtre.",
     "moq": "MOQ",
     "lead": "Délai",
-    "inquire": "Demander"
+    "inquire": "Demander",
+    "cardAlt": "{name} — Boîte en Bois Sur Mesure CHIC"
   },
   "introCarousel": {
     "slide1Label": "Production en Volume",

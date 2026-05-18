@@ -65,12 +65,12 @@ export const WHY = [
 ];
 
 export const CERTS = [
-  { icon: '🌲', name: 'FSC 인증' },
-  { icon: '🇪🇺', name: 'EU REACH' },
-  { icon: '✅', name: 'CARB P2' },
-  { icon: '🔬', name: 'SGS 테스트' },
-  { icon: '📜', name: '식물 검역 증명' },
-  { icon: '🏅', name: 'ISO 9001' },
+  { slug: 'fsc',      name: 'FSC 인증' },
+  { slug: 'eu-reach', name: 'EU REACH' },
+  { slug: 'carb',     name: 'CARB P2' },
+  { slug: 'sgs',      name: 'SGS 테스트' },
+  { slug: 'phyto',    name: '식물 검역 증명' },
+  { slug: 'iso-9001', name: 'ISO 9001' },
 ];
 
 export const COPY = {
@@ -124,7 +124,7 @@ export const COPY = {
   featured: {
     label: '베스트셀러',
     title: '고객 인기 상품',
-    viewAll: '500개 이상의 모든 제품 보기 →',
+    viewAll: '모든 제품 보기 →',
   },
   categories: {
     label: '우리 컬렉션',

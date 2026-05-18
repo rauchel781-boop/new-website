@@ -2,6 +2,7 @@
 import { alternates } from '@/i18n/seo';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getAbout } from '@/data/about';
+import CertIcon from '@/components/CertIcons';
 
 export async function generateMetadata({ params: { locale } }) {
   const { COPY } = getAbout(locale);
@@ -430,7 +431,8 @@ const CSS = `
 }
 .about-cert-badge:hover { border-color: var(--blue-warm); transform: translateY(-2px); }
 .about-cert-badge.is-pending { opacity: 0.55; border-style: dashed; }
-.about-cert-icon { font-size: 1.7rem; margin-bottom: 8px; }
+.about-cert-icon { font-size: 1.7rem; margin-bottom: 10px; color: var(--blue-warm); display: inline-flex; line-height: 1; }
+.about-cert-icon svg { width: 1.7em; height: 1.7em; }
 .about-cert-name {
   font-size: 0.7rem;
   letter-spacing: 2px;
@@ -906,7 +908,7 @@ export default function AboutPage({ params: { locale } }) {
             <div className="about-cert-badges">
               {CERTS.map((c) => (
                 <div className={`about-cert-badge${c.pending ? ' is-pending' : ''}`} key={c.name}>
-                  <div className="about-cert-icon">{c.icon}</div>
+                  <div className="about-cert-icon" aria-hidden="true"><CertIcon slug={c.slug} /></div>
                   <div className="about-cert-name">{c.name}</div>
                   <div className="about-cert-status">{c.status}</div>
                 </div>

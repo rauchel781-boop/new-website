@@ -325,7 +325,7 @@
     "step6Body": "Abbina MOQ alla tua velocità di vendita (tipico 200–500 per la nostra linea); pianifica 25–35 giorni dal campione confermato. Ordina prima campioni se è un design nuovo."
   },
   "productGallery": {
-    "mainAlt": "{name} — vista {idx}",
+    "mainAlt": "{name} — Scatola in Legno su Misura CHIC, vista {idx}",
     "previousImage": "Immagine precedente",
     "nextImage": "Immagine successiva",
     "thumbAria": "Vedi immagine {idx}"
@@ -429,7 +429,8 @@
     "empty": "Nessun prodotto corrisponde a questo filtro.",
     "moq": "MOQ",
     "lead": "Tempi",
-    "inquire": "Richiedi"
+    "inquire": "Richiedi",
+    "cardAlt": "{name} — Scatola in Legno su Misura CHIC"
   },
   "introCarousel": {
     "slide1Label": "Produzione in Volume",

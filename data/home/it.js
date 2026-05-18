@@ -65,12 +65,12 @@ export const WHY = [
 ];
 
 export const CERTS = [
-  { icon: '🌲', name: 'Certificato FSC' },
-  { icon: '🇪🇺', name: 'EU REACH' },
-  { icon: '✅', name: 'CARB P2' },
-  { icon: '🔬', name: 'Testato SGS' },
-  { icon: '📜', name: 'Cert. Fitosanitario' },
-  { icon: '🏅', name: 'ISO 9001' },
+  { slug: 'fsc',      name: 'Certificato FSC' },
+  { slug: 'eu-reach', name: 'EU REACH' },
+  { slug: 'carb',     name: 'CARB P2' },
+  { slug: 'sgs',      name: 'Testato SGS' },
+  { slug: 'phyto',    name: 'Cert. Fitosanitario' },
+  { slug: 'iso-9001', name: 'ISO 9001' },
 ];
 
 export const COPY = {
@@ -124,7 +124,7 @@ export const COPY = {
   featured: {
     label: 'Best Seller',
     title: 'I Preferiti dei Clienti',
-    viewAll: 'Vedi Tutti i 500+ Prodotti →',
+    viewAll: 'Vedi Tutti i Prodotti →',
   },
   categories: {
     label: 'La Nostra Collezione',

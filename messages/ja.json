@@ -325,7 +325,7 @@
     "step6Body": "販売速度にMOQを合わせる(当社ラインは200〜500が一般的)；サンプル確定から25〜35日を計画。新規デザインの場合はまずサンプルを発注。"
   },
   "productGallery": {
-    "mainAlt": "{name} — ビュー {idx}",
+    "mainAlt": "{name} — CHIC のカスタム木箱、ビュー {idx}",
     "previousImage": "前の画像",
     "nextImage": "次の画像",
     "thumbAria": "画像 {idx} を見る"
@@ -429,7 +429,8 @@
     "empty": "この条件に一致する商品はありません。",
     "moq": "MOQ",
     "lead": "納期",
-    "inquire": "お問い合わせ"
+    "inquire": "お問い合わせ",
+    "cardAlt": "{name} — CHIC のカスタム木箱"
   },
   "introCarousel": {
     "slide1Label": "大量生産",

@@ -97,10 +97,10 @@ export const VALUES = [
 ];
 
 export const CERTS = [
-  { icon: '🌲', name: 'FSC',       status: 'Certificato',         pending: false },
-  { icon: '🇪🇺', name: 'EU REACH', status: 'Roadmap 2026',        pending: true  },
-  { icon: '✅', name: 'CARB P2',   status: 'Roadmap 2026',        pending: true  },
-  { icon: '🏅', name: 'ISO 9001',  status: 'In corso',            pending: true  },
+  { slug: 'fsc',      name: 'FSC',       status: 'Certificato',         pending: false },
+  { slug: 'eu-reach', name: 'EU REACH',  status: 'Roadmap 2026',        pending: true  },
+  { slug: 'carb',     name: 'CARB P2',   status: 'Roadmap 2026',        pending: true  },
+  { slug: 'iso-9001', name: 'ISO 9001',  status: 'In corso',            pending: true  },
 ];
 
 export const COPY = {

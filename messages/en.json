@@ -325,7 +325,7 @@
     "step6Body": "Match MOQ to your sales velocity (typical 200–500 for our line); plan 25–35 days from confirmed sample. Order samples first if it is a new design."
   },
   "productGallery": {
-    "mainAlt": "{name} — view {idx}",
+    "mainAlt": "{name} — Custom Wooden Box by CHIC, view {idx}",
     "previousImage": "Previous image",
     "nextImage": "Next image",
     "thumbAria": "View image {idx}"
@@ -429,7 +429,8 @@
     "empty": "No products match this filter.",
     "moq": "MOQ",
     "lead": "Lead",
-    "inquire": "Inquire"
+    "inquire": "Inquire",
+    "cardAlt": "{name} — Custom Wooden Box by CHIC"
   },
   "introCarousel": {
     "slide1Label": "Bulk Production",

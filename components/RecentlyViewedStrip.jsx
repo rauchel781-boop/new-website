@@ -17,6 +17,8 @@ import { readRecentlyViewed, clearRecentlyViewed } from '@/lib/recently-viewed';
 
 export default function RecentlyViewedStrip() {
   const t = useTranslations('recentlyViewed');
+  // Brand-augmented alt text for the thumbnail (e.g. "Watch Box — Custom Wooden Box by CHIC").
+  const tGrid = useTranslations('productGrid');
   const [items, setItems] = useState([]);
   const [mounted, setMounted] = useState(false);
 
@@ -61,7 +63,7 @@ export default function RecentlyViewedStrip() {
                   {it.image && (
                     <img
                       src={it.image}
-                      alt={it.name || it.slug}
+                      alt={tGrid('cardAlt', { name: it.name || it.slug })}
                       loading="lazy"
                       width="240"
                       height="240"

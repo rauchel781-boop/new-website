@@ -74,13 +74,16 @@ export const WHY = [
     text: 'We handle phytosanitary certificates, CO, commercial invoices, and packing lists — stress-free customs clearance for you.' },
 ];
 
+// `slug` is the stable cert key used by <CertIcon slug="..."> to pick
+// the right inline SVG (components/CertIcons.jsx). Translated locale
+// files keep the same `slug` values; only `name` localizes.
 export const CERTS = [
-  { icon: '🌲', name: 'FSC Certified' },
-  { icon: '🇪🇺', name: 'EU REACH' },
-  { icon: '✅', name: 'CARB P2' },
-  { icon: '🔬', name: 'SGS Tested' },
-  { icon: '📜', name: 'Phyto Cert' },
-  { icon: '🏅', name: 'ISO 9001' },
+  { slug: 'fsc',      name: 'FSC Certified' },
+  { slug: 'eu-reach', name: 'EU REACH' },
+  { slug: 'carb',     name: 'CARB P2' },
+  { slug: 'sgs',      name: 'SGS Tested' },
+  { slug: 'phyto',    name: 'Phyto Cert' },
+  { slug: 'iso-9001', name: 'ISO 9001' },
 ];
 
 export const COPY = {
@@ -134,7 +137,7 @@ export const COPY = {
   featured: {
     label: 'Best Sellers',
     title: 'Customer Favorites',
-    viewAll: 'View All 500+ Products →',
+    viewAll: 'View All Products →',
   },
   categories: {
     label: 'Our Collection',

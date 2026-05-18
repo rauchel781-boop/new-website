@@ -49,13 +49,19 @@ export async function generateMetadata({ params: { locale } }) {
       siteName: SITE_NAME,
       title,
       description,
-      images: [{ url: '/logo.png', width: 1200, height: 630, alt: SITE_NAME }],
+      // og:image is provided by the Next.js Metadata Files convention:
+      //   app/opengraph-image.js                       — site default
+      //   app/[locale]/blog/[slug]/opengraph-image.js  — per-article
+      //   app/[locale]/products/[slug]/[product]/opengraph-image.js — per-PDP
+      // The file convention takes precedence over openGraph.images set here,
+      // so we deliberately omit it.
     },
     twitter: {
       card: 'summary_large_image',
       title,
       description,
-      images: ['/logo.png'],
+      // twitter:image is also auto-wired by opengraph-image.js (Next.js
+      // sets BOTH og:image and twitter:image from the same file).
     },
     robots: {
       index: true,

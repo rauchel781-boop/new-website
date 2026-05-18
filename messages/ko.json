@@ -325,7 +325,7 @@
     "step6Body": "MOQ를 판매 속도에 맞추기(저희 라인의 일반적 수치 200–500); 샘플 확정 후 25–35일 계획. 새로운 디자인인 경우 먼저 샘플 주문."
   },
   "productGallery": {
-    "mainAlt": "{name} — 보기 {idx}",
+    "mainAlt": "{name} — CHIC 맞춤 우드 박스, 보기 {idx}",
     "previousImage": "이전 이미지",
     "nextImage": "다음 이미지",
     "thumbAria": "이미지 {idx} 보기"
@@ -429,7 +429,8 @@
     "empty": "이 필터에 해당하는 제품이 없습니다.",
     "moq": "MOQ",
     "lead": "납기",
-    "inquire": "문의하기"
+    "inquire": "문의하기",
+    "cardAlt": "{name} — CHIC 맞춤 우드 박스"
   },
   "introCarousel": {
     "slide1Label": "대량 생산",

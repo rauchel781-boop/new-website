@@ -228,7 +228,7 @@ export default function ProductGrid({ products, categorySlug, locale = 'en' }) {
             >
               <div className="pg-card-img">
                 {p.closure && <div className="pg-card-badge">{p.closure}</div>}
-                <img src={p.images[0]} alt={p.name} loading="lazy" width="1200" height="900" />
+                <img src={p.images[0]} alt={t('cardAlt', { name: p.name })} loading="lazy" width="1200" height="900" />
               </div>
               <div className="pg-card-info">
                 <div className="pg-card-name">{p.name}</div>

@@ -325,7 +325,7 @@
     "step6Body": "Ajuste MOQ à sua velocidade de vendas (típico 200–500 para a nossa linha); planeie 25–35 dias a partir da amostra confirmada. Peça primeiro amostras se for um design novo."
   },
   "productGallery": {
-    "mainAlt": "{name} — vista {idx}",
+    "mainAlt": "{name} — Caixa de Madeira Personalizada CHIC, vista {idx}",
     "previousImage": "Imagem anterior",
     "nextImage": "Próxima imagem",
     "thumbAria": "Ver imagem {idx}"
@@ -429,7 +429,8 @@
     "empty": "Nenhum produto corresponde a este filtro.",
     "moq": "MOQ",
     "lead": "Prazo",
-    "inquire": "Consultar"
+    "inquire": "Consultar",
+    "cardAlt": "{name} — Caixa de Madeira Personalizada CHIC"
   },
   "introCarousel": {
     "slide1Label": "Produção em Massa",

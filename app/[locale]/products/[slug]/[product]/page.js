@@ -67,7 +67,6 @@ export function generateMetadata({ params }) {
   const product = { ...productRaw, ...getProductTranslation(productRaw.slug, params.locale) };
   const localePath = `/products/${params.slug}/${params.product}`;
   const fullPath = `/${params.locale}${localePath}`;
-  const hero = product.images?.[0];
   return {
     title: `${product.name} — CHIC Wooden Expert`,
     description: product.intro,
@@ -76,13 +75,16 @@ export function generateMetadata({ params }) {
       url: fullPath,
       title: `${product.name} — CHIC Wooden Expert`,
       description: product.intro,
-      images: hero ? [{ url: hero, alt: product.name }] : undefined,
+      // og:image — provided by ./opengraph-image.js (file convention).
+      // It renders a 1200×630 card with the product hero + product name +
+      // CHIC brand on a wood-tone gradient. Takes precedence over any
+      // `images` set here.
     },
     twitter: {
       card: 'summary_large_image',
       title: `${product.name} — CHIC Wooden Expert`,
       description: product.intro,
-      images: hero ? [hero] : undefined,
+      // twitter:image — same opengraph-image.js auto-wires this too.
     },
   };
 }

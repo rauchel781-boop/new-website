@@ -65,12 +65,12 @@ export const WHY = [
 ];
 
 export const CERTS = [
-  { icon: '🌲', name: 'FSC認証' },
-  { icon: '🇪🇺', name: 'EU REACH' },
-  { icon: '✅', name: 'CARB P2' },
-  { icon: '🔬', name: 'SGSテスト済み' },
-  { icon: '📜', name: '植物検疫証明' },
-  { icon: '🏅', name: 'ISO 9001' },
+  { slug: 'fsc',      name: 'FSC認証' },
+  { slug: 'eu-reach', name: 'EU REACH' },
+  { slug: 'carb',     name: 'CARB P2' },
+  { slug: 'sgs',      name: 'SGSテスト済み' },
+  { slug: 'phyto',    name: '植物検疫証明' },
+  { slug: 'iso-9001', name: 'ISO 9001' },
 ];
 
 export const COPY = {
@@ -124,7 +124,7 @@ export const COPY = {
   featured: {
     label: 'ベストセラー',
     title: 'お客様のお気に入り',
-    viewAll: '500以上の全製品を見る →',
+    viewAll: 'すべての製品を見る →',
   },
   categories: {
     label: '当社のコレクション',

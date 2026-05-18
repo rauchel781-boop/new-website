@@ -102,11 +102,14 @@ export const VALUES = [
     text: 'Our Xiamen office handles your project end-to-end in fluent English — from quoting to artwork to shipping documents. Time-zone overlap with EU and US morning hours.' },
 ];
 
+// `slug` keys into components/CertIcons.jsx for inline SVG rendering.
+// Same registry as the home page CERTS array; About page has its own
+// shape (status + pending) but reuses the same icon system.
 export const CERTS = [
-  { icon: '🌲', name: 'FSC',       status: 'Certified',     pending: false },
-  { icon: '🇪🇺', name: 'EU REACH', status: '2026 Roadmap',  pending: true  },
-  { icon: '✅', name: 'CARB P2',   status: '2026 Roadmap',  pending: true  },
-  { icon: '🏅', name: 'ISO 9001',  status: 'In Process',    pending: true  },
+  { slug: 'fsc',      name: 'FSC',       status: 'Certified',     pending: false },
+  { slug: 'eu-reach', name: 'EU REACH',  status: '2026 Roadmap',  pending: true  },
+  { slug: 'carb',     name: 'CARB P2',   status: '2026 Roadmap',  pending: true  },
+  { slug: 'iso-9001', name: 'ISO 9001',  status: 'In Process',    pending: true  },
 ];
 
 export const COPY = {
