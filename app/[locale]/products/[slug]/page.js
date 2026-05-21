@@ -25,6 +25,7 @@ import { PRODUCTS as WALNUT_PRODUCTS } from '@/data/products/walnut';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getProductTranslation } from '@/data/products/translations';
 import { getCategoryTranslation } from '@/data/categories/translations';
+import { getCategoryFaqs } from '@/data/category-faqs';
 
 // Map of category slug → its products data file (only categories with products).
 // Add an entry here when you add a /data/products/<slug>.js file.
@@ -279,6 +280,66 @@ const CSS = `
 }
 .cat-usecase:hover { background: rgba(217,185,143,0.16); border-color: var(--wood-light); }
 
+/* ─── FAQ ─── */
+.cat-faq { background: var(--cream-dark); }
+.cat-faq-sub {
+  font-family: var(--font-fraunces), serif;
+  font-style: italic;
+  color: var(--wood-mid);
+  max-width: 720px;
+  margin: 8px 0 36px;
+  line-height: 1.65;
+  font-size: 1.02rem;
+}
+.cat-faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 900px;
+}
+.cat-faq-item {
+  background: white;
+  border: 1px solid rgba(107,74,51,0.16);
+  border-radius: 4px;
+  padding: 0;
+  overflow: hidden;
+  transition: border-color .2s, box-shadow .2s;
+}
+.cat-faq-item[open] {
+  border-color: var(--accent);
+  box-shadow: 0 4px 24px rgba(107,74,51,0.06);
+}
+.cat-faq-q {
+  cursor: pointer;
+  padding: 20px 26px;
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+  font-weight: 600;
+  color: var(--wood-deep);
+  font-size: 1rem;
+  line-height: 1.45;
+  list-style: none;
+}
+.cat-faq-q::-webkit-details-marker { display: none; }
+.cat-faq-q > span:first-child { flex: 1; }
+.cat-faq-plus {
+  color: var(--accent);
+  font-size: 1.5rem;
+  line-height: 1;
+  transition: transform .2s ease;
+  flex-shrink: 0;
+  margin-top: -2px;
+}
+.cat-faq-item[open] .cat-faq-plus { transform: rotate(45deg); }
+.cat-faq-a {
+  padding: 0 26px 22px;
+  margin: 0;
+  color: var(--text-muted);
+  line-height: 1.75;
+  font-size: 0.94rem;
+}
+
 /* ─── CTA ─── */
 .cat-cta {
   padding: 100px 60px;
@@ -454,10 +515,29 @@ export default async function CategoryPage({ params }) {
       }
     : null;
 
+  // FAQ block — 5 long-tail Q&As specific to this category. Same items
+  // are rendered visually (accordion) AND mirrored into a FAQPage JSON-LD
+  // schema so Google can show the questions as expandable rich results
+  // in SERP (per the FAQPage rich-result guidelines, the schema content
+  // must exactly match the visible page text).
+  const faqs = getCategoryFaqs(params.slug, params.locale);
+  const faqLd = faqs
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.items.map((it) => ({
+          '@type': 'Question',
+          name: it.q,
+          acceptedAnswer: { '@type': 'Answer', text: it.a },
+        })),
+      }
+    : null;
+
   return (
     <div className="cat-page">
       <JsonLd data={breadcrumbLd} />
       {itemListLd && <JsonLd data={itemListLd} />}
+      {faqLd && <JsonLd data={faqLd} />}
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
       {/* ── HERO (slim, no image, wood-toned) ── */}
@@ -560,6 +640,33 @@ export default async function CategoryPage({ params }) {
           </div>
         </div>
       </section>
+
+      {/* ── FAQ ── */}
+      {faqs && faqs.items && faqs.items.length > 0 && (
+        <section className="cat-section cat-faq" id="faq" aria-labelledby="cat-faq-title">
+          <div className="cat-section-inner">
+            <div className="cat-section-label">FAQ</div>
+            <h2 className="cat-section-title" id="cat-faq-title">{faqs.sectionTitle}</h2>
+            <div className="cat-section-line" />
+            {faqs.sectionSub && <p className="cat-faq-sub">{faqs.sectionSub}</p>}
+            <div className="cat-faq-list">
+              {faqs.items.map((it, i) => (
+                <details
+                  key={i}
+                  className="cat-faq-item"
+                  {...(i === 0 ? { open: true } : {})}
+                >
+                  <summary className="cat-faq-q">
+                    <span>{it.q}</span>
+                    <span className="cat-faq-plus" aria-hidden="true">+</span>
+                  </summary>
+                  <p className="cat-faq-a">{it.a}</p>
+                </details>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* ── CTA ── */}
       <section className="cat-cta">

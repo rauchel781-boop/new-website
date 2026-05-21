@@ -1469,3 +1469,111 @@ feat(seo): P2 audit — replace cert badge emojis with inline SVG icons
 
 WHY emojis (🏭🎨📋🌍) on the "Why Choose Us" section retained — they're decorative section dividers, not trust signals.
 ```
+
+---
+
+## 二十九、分类页内容深度：17 分类 × 5 FAQ + FAQPage schema（2026-05-17）
+
+审计 P2 里最大一块「内容深度」。在每个分类落地页加 5 个深度 FAQ + FAQPage JSON-LD。把分类页从 ~300 字提升到 ~1,200 字，并解锁 Google 富搜索结果的 FAQ 展开折叠。
+
+### a) 基础设施 — `data/category-faqs/`
+
+新建模块化结构（跟 blog/translations 一样的 overlay 模式）：
+
+- `data/category-faqs/en.js` — EN 真相源，17 个分类 × 5 个 Q&A = 85 个 Q+A 对
+- `data/category-faqs/{es,fr,de,it,pt,ja,ko}.js` — 各语 overlay 文件，初始空（{}），由翻译脚本填充
+- `data/category-faqs/index.js` — `getCategoryFaqs(slug, locale)` 函数，单分类粒度 fallback 到 EN
+
+每个分类的数据形状：
+
+```js
+'watch-jewelry': {
+  sectionTitle: 'FAQ — Wooden Watch & Jewelry Boxes',
+  sectionSub: 'Sizing, insert fitment, and finish questions ...',
+  items: [
+    { q: 'What materials do you use inside watch and jewelry boxes?', a: '...' },
+    // 5 items total
+  ],
+},
+```
+
+### b) EN baseline 设计原则
+
+每个分类的 5 个 Q+A 按这个模板分布：
+1. **材料/构造**（针对该分类特性）
+2. **定制能力**（logo / 尺寸 / 插件 / 内衬）
+3. **MOQ / 周期 / 价格**
+4. **运输 / 包装 / 出口证书**
+5. **用途 / 保养 / 具体场景**
+
+材料分类（paulownia/pine/bamboo/acacia/walnut）的 Q1 改成「这种木的特性是什么」。结构分类（hinged/sliding-lid/drawer/magnetic/with-lock）的 Q1 改成「这个机构怎么工作」。
+
+每个回答 2-3 句、信息密度高、含 long-tail B2B 关键词。比如 watch-jewelry Q5 答："Wipe dust with a soft, dry brush. Avoid water, solvents, and alcohol — they can stain linen and crush velvet pile..." 同时覆盖了「velvet care」「linen interior」等查询。
+
+### c) 渲染：`app/[locale]/products/[slug]/page.js`
+
+加 FAQ section 在 cat-detail（specs + use cases）和 cat-cta 之间。原因：FAQ 解决 objection，紧接着 CTA 转化。
+
+- import `getCategoryFaqs` from `@/data/category-faqs`
+- 在 generateMetadata 后准备 `const faqs = getCategoryFaqs(params.slug, params.locale)`
+- 构造 `faqLd`（FAQPage schema），里面 mainEntity 数组 1:1 镜像 visible content（Google rich result guidelines 要求）
+- JSX 里 render `<details>` 折叠：第一个默认 open，其余收起，summary 里有 `+` 图标（open 时旋转 45° 成 `×`）
+- 5 个 CSS 规则 `.cat-faq*` 加在现有 CSS 字符串里——白底卡片 + 木色边框 + 木色 accent 色
+
+### d) Aliyun 翻译脚本 `scripts/translate-category-faqs-aliyun.mjs`
+
+完全复用 blog 脚本的模式（CJS-via-ESM 解包、.env.local 读取、QPS 限速 20、进度保存）。差异：
+
+- 数据形状不同——blog 是 POSTS 数组，FAQ 是 `{ [slug]: { sectionTitle, sectionSub, items: [...] } }`
+- 翻译粒度：每个分类单独保存进度（resume-able），不是按 post
+- CLI 参数：`--locale`、`--category`、`--force`
+
+运行命令：
+
+```sh
+npm run translate:faqs                                  # 全 7 语 × 17 分类
+npm run translate:faqs:force                             # 重翻全部
+node scripts/translate-category-faqs-aliyun.mjs --locale it
+node scripts/translate-category-faqs-aliyun.mjs --locale it --category watch-jewelry
+```
+
+### e) 成本和时间估算
+
+- 17 分类 × ~12 字符串 × ~50-80 字符平均 × 7 语 ≈ ~80K 字符总量
+- Aliyun MT 通用版 ~$0.05/1,000 字符 = **~$4 USD**
+- QPS 20，理论 ~16 分钟全跑完。实际加上重试和保存 ~25-30 分钟
+
+### f) SEO 影响预期
+
+每个分类页：
+- 字数 ~300 → ~1,200（page depth signal）
+- 85 个独立 H4/strong 问题（long-tail keyword surface）
+- FAQPage JSON-LD（SERP 富结果，问题可在搜索结果里展开折叠——双倍 SERP 占地）
+- 8 种语言 × 17 分类 = 136 个独立 FAQ-rich-result-eligible 页面
+
+### 部署待办
+
+1. **必须做的：用户运行翻译脚本**——`npm run translate:faqs`。预期 25-30 分钟、~$4 阿里云成本
+2. **可选**：跑完后用 Google [Rich Results Test](https://search.google.com/test/rich-results) 贴几个分类 URL 验证 FAQ schema 被识别
+3. **可选**：先英文部署看一眼上线效果，再跑翻译
+
+### 这一节累计提交建议
+
+可以拆 2 个 commit：
+
+```
+feat(content): category landing FAQs — 17 categories × 5 Q&A (EN baseline) + FAQPage JSON-LD
+
+- data/category-faqs/{en,index}.js: 85 long-tail B2B Q&A pairs (~1,000 lines)
+- data/category-faqs/{es,fr,de,it,pt,ja,ko}.js: empty overlays for translation
+- app/[locale]/products/[slug]/page.js: render <details> accordions + FAQPage schema
+- CSS: .cat-faq* rules for the accordion section
+- Section placement: between Detail (specs+useCases) and CTA — resolves objections before close
+```
+
+```
+chore(scripts): category FAQ Aliyun MT translator + npm scripts
+
+- scripts/translate-category-faqs-aliyun.mjs: progressive translator with --locale, --category, --force
+- package.json: translate:faqs, translate:faqs:force scripts
+```

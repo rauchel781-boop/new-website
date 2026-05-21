@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "translate:blog": "node scripts/translate-blog-aliyun.mjs",
-    "translate:blog:force": "node scripts/translate-blog-aliyun.mjs --force"
+    "translate:blog:force": "node scripts/translate-blog-aliyun.mjs --force",
+    "translate:faqs": "node scripts/translate-category-faqs-aliyun.mjs",
+    "translate:faqs:force": "node scripts/translate-category-faqs-aliyun.mjs --force"
   },
   "dependencies": {
     "next": "14.2.5",
