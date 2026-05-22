@@ -26,8 +26,13 @@ export default function ClarityAnalytics() {
   if (!isConfigured(CLARITY_ID)) return null;
   if (consent !== 'accepted') return null;
 
+  // lazyOnload: Clarity is pure observability (heatmaps / session replay) and
+  // contributes nothing to first paint or interactivity, so we defer it until
+  // the browser is idle after load. This keeps it off the critical path and
+  // out of the way of INP — the main thread stays free for real user
+  // interactions during the early, jank-prone window.
   return (
-    <Script id="ms-clarity-init" strategy="afterInteractive">
+    <Script id="ms-clarity-init" strategy="lazyOnload">
       {`
         (function(c,l,a,r,i,t,y){
           c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};

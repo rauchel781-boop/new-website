@@ -1,5 +1,6 @@
 'use client';
 import { useState } from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 const CSS = `
@@ -101,12 +102,15 @@ export default function ProductGallery({ images, name }) {
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
       <div className="gal-main">
-        <img
+        {/* Main PDP image — the product page's LCP element, so `priority`
+            preloads it. `fill` + `sizes` yield a responsive AVIF/WebP srcset. */}
+        <Image
           src={images[idx]}
           alt={t('mainAlt', { name, idx: idx + 1 })}
-          width="1200"
-          height="900"
-          decoding="async"
+          fill
+          priority
+          sizes="(max-width: 800px) 100vw, 600px"
+          style={{ objectFit: 'contain' }}
         />
         {total > 1 && (
           <>
@@ -143,7 +147,14 @@ export default function ProductGallery({ images, name }) {
               type="button"
               aria-label={t('thumbAria', { idx: i + 1 })}
             >
-              <img src={src} alt="" loading="lazy" width="1200" height="900" />
+              <Image
+                src={src}
+                alt=""
+                fill
+                loading="lazy"
+                sizes="120px"
+                style={{ objectFit: 'cover' }}
+              />
             </button>
           ))}
         </div>

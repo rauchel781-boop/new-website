@@ -857,13 +857,29 @@ export default async function HomePage({ params: { locale } }) {
 
   return (
     <div className="wcb-home">
-      {/* LCP preload — responsive hero image. */}
+      {/* LCP preload — viewport-aware. The hero has two LCP candidates and which
+          one wins depends on the breakpoint:
+            • ≤959px: the collage stacks BELOW a tall text block, so the full-bleed
+              hero background is the largest element in view → preload it.
+            • ≥960px: the collage sits beside the text and its bright main photo
+              (production.webp) is the largest contentful paint → preload that.
+          Scoping each preload with `media` means only ONE high-priority image is
+          fetched per viewport, so the two candidates no longer compete for the
+          opening bandwidth window. */}
       <link
         rel="preload"
         as="image"
+        media="(max-width: 959px)"
         href="/factory/chic-factory-sm.webp"
         imageSrcSet="/factory/chic-factory-sm.webp 800w, /factory/chic-factory-md.webp 1280w, /factory/chic-factory-lg.webp 1920w"
         imageSizes="100vw"
+        fetchPriority="high"
+      />
+      <link
+        rel="preload"
+        as="image"
+        media="(min-width: 960px)"
+        href="/factory/production.webp"
         fetchPriority="high"
       />
       <JsonLd data={ORG_LD} />
@@ -898,8 +914,11 @@ export default async function HomePage({ params: { locale } }) {
 
           <div className="hero-collage">
             <div className="hc-card hc-main">
-              {/* LCP candidate — eager + high priority for best Core Web Vitals score */}
-              <img loading="eager" fetchpriority="high" decoding="async" src="/factory/production.webp" alt={COPY.hero.collage.main} width="900" height="900" />
+              {/* Desktop LCP candidate — eager so it loads early. Priority is set
+                  by the viewport-scoped preload above (≥960px), not a blanket
+                  fetchpriority here, so it never out-prioritises the mobile
+                  background-LCP on small screens. */}
+              <img loading="eager" decoding="async" src="/factory/production.webp" alt={COPY.hero.collage.main} width="900" height="900" />
               <div className="hc-cap">{COPY.hero.collage.main}</div>
             </div>
             <div className="hc-card hc-sub-1 is-product">

@@ -1,5 +1,6 @@
 'use client';
 import { useMemo, useState } from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { getProductTranslation } from '@/data/products/translations';
@@ -228,7 +229,17 @@ export default function ProductGrid({ products, categorySlug, locale = 'en' }) {
             >
               <div className="pg-card-img">
                 {p.closure && <div className="pg-card-badge">{p.closure}</div>}
-                <img src={p.images[0]} alt={t('cardAlt', { name: p.name })} loading="lazy" width="1200" height="900" />
+                {/* next/image `fill` lets the optimizer emit a responsive AVIF/WebP
+                    srcset sized to the actual card. `sizes` mirrors the grid:
+                    4 cols ≥1100px, 3 cols ≥800px, 2 cols ≥480px, 1 col below. */}
+                <Image
+                  src={p.images[0]}
+                  alt={t('cardAlt', { name: p.name })}
+                  fill
+                  loading="lazy"
+                  sizes="(max-width: 480px) 100vw, (max-width: 800px) 50vw, (max-width: 1100px) 33vw, 25vw"
+                  style={{ objectFit: 'cover' }}
+                />
               </div>
               <div className="pg-card-info">
                 <div className="pg-card-name">{p.name}</div>
