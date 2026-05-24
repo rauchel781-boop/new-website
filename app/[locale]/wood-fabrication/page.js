@@ -1,5 +1,7 @@
 import { alternates } from '@/i18n/seo';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import PageFaq from '@/components/PageFaq';
+import { getPageFaqs } from '@/data/page-faqs';
 
 export async function generateMetadata({ params: { locale } }) {
   const t = await getTranslations({ locale, namespace: 'woodFab.meta' });
@@ -25,6 +27,7 @@ export default async function WoodFabricationPage({ params: { locale } }) {
     { t: t('card3Title'), d: t('card3Desc') },
   ];
   return (
+    <>
     <section className="container section-pad">
       <h1 className="text-4xl font-extrabold text-brand-navy">{t('h1')}</h1>
       <p className="mt-4 max-w-3xl text-brand-ink/90 leading-relaxed">{t('intro')}</p>
@@ -37,5 +40,7 @@ export default async function WoodFabricationPage({ params: { locale } }) {
         ))}
       </div>
     </section>
+      <PageFaq faqs={getPageFaqs('wood-fabrication', locale)} />
+    </>
   );
 }

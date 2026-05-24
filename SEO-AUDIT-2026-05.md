@@ -8,7 +8,7 @@
 
 网站 SEO 底子非常扎实。对照真实代码逐项核查后，18 项里 **14 项完全属实、无需改动**，其余 4 项做了增强（均非 bug，属锦上添花）。基础设施层面（sitemap / hreflang / canonical / 结构化数据 / 多语言）是同类 B2B 站点里少见的规范。
 
-随后做了一轮「超出 18 项」的深挖：核实后大多数候选项要么已实现（产品详情页早已带 Product + BreadcrumbList 结构化数据）、要么收益偏低/有重构风险。落地了五项真正高价值且低风险的增强：**⑤ 联系页 FAQPage 结构化数据**、**⑥ 静态资源/图片缓存优化**、**⑦ 表单/搜索框可访问性**、**⑧ 减少动态效果偏好**、**⑨ 标签页 ARIA 角色**。
+随后做了一轮「超出 18 项」的深挖：核实后大多数候选项要么已实现（产品详情页早已带 Product + BreadcrumbList 结构化数据）、要么收益偏低/有重构风险。落地了六项真正高价值且低风险的增强：**⑤ 联系页 FAQPage**、**⑥ 缓存优化**、**⑦ 表单/搜索框可访问性**、**⑧ 减少动态效果偏好**、**⑨ 标签页 ARIA**、**⑩ 信息页 FAQ 扩展（内容创作）**。
 
 ---
 
@@ -80,6 +80,18 @@
 
 ### ⑨ 可访问性 — 产品详情标签页补 ARIA 角色
 - `components/ProductTabs.js`：标签页此前无任何 ARIA。已补 `role="tablist"/"tab"/"tabpanel"`、`aria-selected`、`aria-controls`/`aria-labelledby`，让屏幕阅读器正确识别「这是一组标签页、当前选中哪个」。**刻意不改 tabindex/键盘行为**（按钮本就可聚焦、可 Tab/回车操作），属纯语义增强、零视觉与行为变化。
+
+---
+
+### ⑩ 信息页 FAQ 扩展（独特内容 + FAQPage schema）
+- 新增 `data/page-faqs/`（en.js + index.js，结构对齐 `data/category-faqs`）与 `components/PageFaq.jsx`（自带样式的服务端组件，原生 `<details>` 手风琴 + FAQPage JSON-LD）。
+- 为三个信息页各写了 8 条**独特、关键词导向**的英文 FAQ（与各分类页 FAQ 无重复）：
+  - **材料指南** `/material-guide`：选材类长尾（泡桐 vs 松木、竹子、耐久性、实木 vs MDF、FSC/CARB 认证…）。
+  - **木作工艺** `/wood-fabrication`：工艺类长尾（CNC/激光刻字/闭合方式/OEM vs ODM/表面处理/内衬/QC…）。
+  - **产品总览** `/products`：下单类长尾（产品类型/MOQ/交期/打样/全球发货/报价/全定制/出口包装…）。
+- 事实性声明基于站内数据（15,000㎡ 工厂、OEM/ODM、五种木材、闭合方式、FSC/CARB/REACH/ISO 9001）；**MOQ、交期、打样费、可达国家等具体数字已用 `[待你确认]` 标注**，需你核对真实值后再上线。
+- **目前仅英文（/en）生效**：`getPageFaqs` 对未翻译的语言返回 null、页面不渲染该 FAQ，避免在非英文页出现英文内容（混合语言伤 SEO）。其余 7 语言待翻译后逐个接入。
+- 附带修复：`material-guide/page.js` 文件尾部有 264 个 NUL 垃圾字节（历史损坏），已清除。
 
 ---
 

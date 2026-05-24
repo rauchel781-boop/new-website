@@ -3,6 +3,8 @@ import { CATEGORIES, GROUPS } from '@/data/categories';
 import { alternates } from '@/i18n/seo';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import RecentlyViewedStrip from '@/components/RecentlyViewedStrip';
+import PageFaq from '@/components/PageFaq';
+import { getPageFaqs } from '@/data/page-faqs';
 
 export async function generateMetadata({ params: { locale } }) {
   const t = await getTranslations({ locale, namespace: 'productsIndex.meta' });
@@ -225,6 +227,7 @@ export default async function ProductsPage({ params: { locale } }) {
           })}
         </div>
       </section>
+      <PageFaq faqs={getPageFaqs('products', locale)} />
     </div>
   );
 }

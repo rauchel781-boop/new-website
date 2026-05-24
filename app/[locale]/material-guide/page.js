@@ -2,6 +2,8 @@ import { Link } from '@/i18n/navigation';
 import { alternates } from '@/i18n/seo';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getMaterialGuide } from '@/data/material-guide';
+import PageFaq from '@/components/PageFaq';
+import { getPageFaqs } from '@/data/page-faqs';
 import JsonLd from '@/components/JsonLd';
 import { SITE } from '@/data/site-config';
 
@@ -1058,6 +1060,8 @@ export default async function MaterialGuidePage({ params: { locale } }) {
       </section>
 
       {/* ─── CTA ─── */}
+      <PageFaq faqs={getPageFaqs('material-guide', locale)} />
+
       <section className="mg-cta">
         <div className="mg-cta-inner">
           <div className="mg-cta-label">{COPY.cta.label}</div>
@@ -1074,4 +1078,4 @@ export default async function MaterialGuidePage({ params: { locale } }) {
       </section>
     </div>
   );
-}                                                                                                                                                                                                                                                                        
+}
