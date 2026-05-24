@@ -77,6 +77,7 @@ export default function NewsletterForm({
           type="email"
           required
           placeholder={placeholder}
+          aria-label={placeholder}
           className={inputClassName}
           value={email}
           onChange={(e) => setEmail(e.target.value)}
@@ -87,7 +88,7 @@ export default function NewsletterForm({
           {state === 'sending' ? sending : buttonLabel}
         </button>
       </div>
-      {msg && <p className={`${msgClassName} ${state === 'error' ? 'error' : ''}`} style={{ margin: 0, fontSize: '0.78rem' }}>{msg}</p>}
+      {msg && <p role="status" aria-live="polite" className={`${msgClassName} ${state === 'error' ? 'error' : ''}`} style={{ margin: 0, fontSize: '0.78rem' }}>{msg}</p>}
       {showFine && (
         <span className={fineClassName} style={{ fontSize: '0.66rem', letterSpacing: 1, color: 'rgba(217,185,143,0.45)' }}>
           {t('shortConsent')}

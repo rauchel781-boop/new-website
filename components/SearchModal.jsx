@@ -181,6 +181,7 @@ export default function SearchModal({ open, onClose }) {
               type="search"
               className="srch-input"
               placeholder={t('placeholder')}
+              aria-label={t('placeholder')}
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               autoComplete="off"

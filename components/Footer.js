@@ -350,6 +350,7 @@ export default function Footer() {
                 name="email"
                 required
                 placeholder={t('footer.newsletterPlaceholder')}
+                aria-label={t('footer.newsletterPlaceholder')}
                 className="news-input"
                 value={subEmail}
                 onChange={(e) => setSubEmail(e.target.value)}
@@ -359,7 +360,7 @@ export default function Footer() {
                 {subState === 'sending' ? t('cta.sending') : `${t('cta.subscribe')} →`}
               </button>
             </div>
-            {subMsg && <p className={`news-msg ${subState === 'error' ? 'error' : ''}`}>{subMsg}</p>}
+            {subMsg && <p role="status" aria-live="polite" className={`news-msg ${subState === 'error' ? 'error' : ''}`}>{subMsg}</p>}
             <p className="news-fine">
               {t.rich('footer.newsletterConsent', {
                 privacy: (chunks) => <Link href="/privacy">{chunks}</Link>,

@@ -8,7 +8,7 @@
 
 网站 SEO 底子非常扎实。对照真实代码逐项核查后，18 项里 **14 项完全属实、无需改动**，其余 4 项做了增强（均非 bug，属锦上添花）。基础设施层面（sitemap / hreflang / canonical / 结构化数据 / 多语言）是同类 B2B 站点里少见的规范。
 
-随后做了一轮「超出 18 项」的深挖：核实后大多数候选项要么已实现（产品详情页早已带 Product + BreadcrumbList 结构化数据）、要么收益偏低/有重构风险。落地了两项真正高价值且低风险的增强：**⑤ 联系页 FAQPage 结构化数据** 与 **⑥ 静态资源/图片缓存优化**。
+随后做了一轮「超出 18 项」的深挖：核实后大多数候选项要么已实现（产品详情页早已带 Product + BreadcrumbList 结构化数据）、要么收益偏低/有重构风险。落地了三项真正高价值且低风险的增强：**⑤ 联系页 FAQPage 结构化数据**、**⑥ 静态资源/图片缓存优化**、**⑦ 表单/搜索框可访问性**。
 
 ---
 
@@ -69,9 +69,15 @@
 
 ---
 
+### ⑦ 可访问性（a11y）— 表单/搜索框可访问名 + 状态播报
+- `components/NewsletterForm.js`、`components/Footer.js`、`components/SearchModal.jsx`：三处输入框此前只有 `placeholder`、没有可访问名（屏幕阅读器不会把 placeholder 当作字段名，违反 WCAG 4.1.2 / 3.3.2）。已补 `aria-label`（复用现有本地化字符串，**无任何视觉变化**，8 语言自动跟随）。
+- 两处订阅表单的状态消息（成功/失败）加了 `role="status" aria-live="polite"`，让屏幕阅读器在提交后能朗读结果。
+
+---
+
 ## 四、验证情况与待办（需你这边确认/执行）
 
-**已验证：** 全部改动文件通过 TypeScript/JSX 语法解析；`next.config.js` 能加载、其 `headers()`/`redirects()` 的 source 均通过 `path-to-regexp` 编译校验；`package.json`/`package-lock.json` 合法且已锁定 sharp。
+**已验证：** 全部改动文件通过 TypeScript/JSX 语法解析；`next.config.js` 能加载、其 `headers()`/`redirects()` 的 source 均通过 `path-to-regexp` 编译校验；`package.json`/`package-lock.json` 合法且已锁定 sharp；a11y 改动经 git 暂存内容解析校验通过。
 
 **未能在本环境完成的：** 完整的 8 语言生产构建——隔离沙箱内存不足（编译阶段 SIGBUS）且单命令有 45 秒上限，无法跑完。这是环境限制，非代码问题。
 
