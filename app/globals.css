@@ -103,3 +103,19 @@ a {
   outline: 3px solid #C9A876;
   outline-offset: 2px;
 }
+
+/* Respect users who request reduced motion (WCAG 2.3.3). For anyone with the
+   OS-level "reduce motion" preference set, collapse animations/transitions to
+   near-instant and disable smooth scroll — this stops the looping hero
+   background animation, fade-ups, and hover motion for vestibular-sensitive
+   users without affecting everyone else. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

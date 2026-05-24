@@ -111,10 +111,14 @@ export default function ProductTabs({ description, specs, customization, packagi
     <div className="tabs">
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
-      <div className="tabs-nav">
+      <div className="tabs-nav" role="tablist">
         {tabs.map((item) => (
           <button
             key={item.id}
+            id={`tab-${item.id}`}
+            role="tab"
+            aria-selected={tab === item.id}
+            aria-controls="product-tabpanel"
             className={`tabs-btn${tab === item.id ? ' is-active' : ''}`}
             onClick={() => setTab(item.id)}
             type="button"
@@ -124,7 +128,7 @@ export default function ProductTabs({ description, specs, customization, packagi
         ))}
       </div>
 
-      <div className="tabs-panel">
+      <div className="tabs-panel" role="tabpanel" id="product-tabpanel" aria-labelledby={`tab-${tab}`}>
         {tab === 'description' && (
           <div>
             <p>{description}</p>

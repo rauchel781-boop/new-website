@@ -8,7 +8,7 @@
 
 网站 SEO 底子非常扎实。对照真实代码逐项核查后，18 项里 **14 项完全属实、无需改动**，其余 4 项做了增强（均非 bug，属锦上添花）。基础设施层面（sitemap / hreflang / canonical / 结构化数据 / 多语言）是同类 B2B 站点里少见的规范。
 
-随后做了一轮「超出 18 项」的深挖：核实后大多数候选项要么已实现（产品详情页早已带 Product + BreadcrumbList 结构化数据）、要么收益偏低/有重构风险。落地了三项真正高价值且低风险的增强：**⑤ 联系页 FAQPage 结构化数据**、**⑥ 静态资源/图片缓存优化**、**⑦ 表单/搜索框可访问性**。
+随后做了一轮「超出 18 项」的深挖：核实后大多数候选项要么已实现（产品详情页早已带 Product + BreadcrumbList 结构化数据）、要么收益偏低/有重构风险。落地了五项真正高价值且低风险的增强：**⑤ 联系页 FAQPage 结构化数据**、**⑥ 静态资源/图片缓存优化**、**⑦ 表单/搜索框可访问性**、**⑧ 减少动态效果偏好**、**⑨ 标签页 ARIA 角色**。
 
 ---
 
@@ -72,6 +72,14 @@
 ### ⑦ 可访问性（a11y）— 表单/搜索框可访问名 + 状态播报
 - `components/NewsletterForm.js`、`components/Footer.js`、`components/SearchModal.jsx`：三处输入框此前只有 `placeholder`、没有可访问名（屏幕阅读器不会把 placeholder 当作字段名，违反 WCAG 4.1.2 / 3.3.2）。已补 `aria-label`（复用现有本地化字符串，**无任何视觉变化**，8 语言自动跟随）。
 - 两处订阅表单的状态消息（成功/失败）加了 `role="status" aria-live="polite"`，让屏幕阅读器在提交后能朗读结果。
+
+---
+
+### ⑧ 可访问性 — 尊重「减少动态效果」偏好
+- `app/globals.css`：新增 `@media (prefers-reduced-motion: reduce)` 全局规则，对设置了系统级「减少动态」的用户把动画/过渡收敛到近乎瞬时、并关掉平滑滚动。主要消除英雄区那条 18 秒无限循环背景动画与各处淡入，对前庭功能敏感人群更友好；其余用户不受影响。
+
+### ⑨ 可访问性 — 产品详情标签页补 ARIA 角色
+- `components/ProductTabs.js`：标签页此前无任何 ARIA。已补 `role="tablist"/"tab"/"tabpanel"`、`aria-selected`、`aria-controls`/`aria-labelledby`，让屏幕阅读器正确识别「这是一组标签页、当前选中哪个」。**刻意不改 tabindex/键盘行为**（按钮本就可聚焦、可 Tab/回车操作），属纯语义增强、零视觉与行为变化。
 
 ---
 
