@@ -106,3 +106,26 @@
 2. **INP 实测**：本环境网络白名单屏蔽了 PageSpeed Insights API。请到 https://pagespeed.web.dev 对线上站点跑一次 mobile 测量，把 INP 数字补进第 15 项。
 3. **LCP 改动复核**：第 ② 项的「桌面/移动端 LCP 元素」是基于布局推断；建议用上面那次 PSI 实测确认每个断点真正的 LCP 元素，必要时微调 preload 的 `media` 断点。
 4. **缓存验证**：部署后用浏览器开发者工具的 Network 面板，点开任一产品图，确认响应头里出现 `Cache-Control: public, max-age=604800...`（若 Coolify 反向代理另设了缓存策略，以代理为准）。
+
+
+---
+
+## 五、线上实测结果（2026-05-25 · PageSpeed 手机端）
+
+测试条件：Moto G Power · Lighthouse 13.0.1 · 低速 4G 节流（较严苛的实验环境）。规范域名 https://www.custom-woodenbox.com/en 。
+
+| 指标 | 数值 | 评级 |
+|------|------|------|
+| 性能 Performance | 84 | 良（橙）|
+| 无障碍 Accessibility | 97 | 优 |
+| 最佳做法 Best Practices | 100 | 满分 |
+| SEO | 100 | 满分 |
+| FCP 首次内容绘制 | 1.4 s | ✅ 优 |
+| **LCP 最大内容绘制** | **4.1 s** | ⚠️ 偏慢（Google「差」阈值 >4s）|
+| TBT 总阻塞时间 | 20 ms | ✅ 优（INP 的实验代理指标）|
+| CLS 累积布局偏移 | 0 | ✅ 满分 |
+| Speed Index | 4.6 s | 一般 |
+
+**第 15 项 INP — 判定达标。** 实验环境不直接产出 INP，但其代理指标 TBT 仅 20 ms（极佳），交互延迟风险确实很低；真实用户 INP 待 CrUX 数据积累（当前「无任何数据」，新站常见）。
+
+**唯一明显短板：LCP 4.1 s（手机端）。** 其余指标（CLS 0、TBT 20 ms、a11y 97、最佳做法/SEO 满分）都很好。LCP 在低速 4G 实验环境下偏慢，是下一步性能优化最该针对的点——需深入排查英雄区真正的 LCP 元素加载（预加载是否命中、字体/JS 是否阻塞渲染、图片尺寸与优先级）。FCP 1.4 s 但 LCP 4.1 s，二者差距大，说明 LCP 元素在首次绘制后很久才出现，值得专门定位。
