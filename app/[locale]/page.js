@@ -4,6 +4,7 @@
 
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
+import Testimonials from '@/components/Testimonials';
 import IntroCarousel from '@/components/IntroCarousel';
 import JsonLd from '@/components/JsonLd';
 import CertIcon from '@/components/CertIcons';
@@ -1164,6 +1165,9 @@ export default async function HomePage({ params: { locale } }) {
           </div>
         </div>
       </section>
+
+      {/* CLIENT TESTIMONIALS (real customer feedback — see data/testimonials.js) */}
+      <Testimonials />
 
       {/* CTA */}
       <section className="cta-section" id="contact">
