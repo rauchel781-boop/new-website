@@ -27,6 +27,17 @@ const ORG_LD = {
   description:
     'CHIC (Xiamen Chic Homeware Co., Ltd.) is a Chinese B2B manufacturer of custom wooden boxes, packaging, and homeware — 15,000 m² factory in Cao County, Shandong, plus a sales / design office in Xiamen, Fujian. We serve retail brands, hospitality, and packaging clients in the US, EU, UK, Japan, Korea, and Australia with hinged, sliding-lid, drawer, magnetic, lockable and open-tray box formats in acacia, walnut, oak, pine, paulownia, and bamboo.',
   slogan: SITE.company.tagline,
+  // E-E-A-T trust signals. foundingDate + certifications are already published
+  // site-wide (OG card badges, FAQ); surfacing them as structured data helps
+  // Google's entity understanding. Confirm/adjust the cert list if any of these
+  // are not currently held.
+  foundingDate: '2010',
+  hasCertification: [
+    { '@type': 'Certification', name: 'ISO 9001 — Quality Management System' },
+    { '@type': 'Certification', name: 'FSC — Forest Stewardship Council (responsible wood sourcing)' },
+    { '@type': 'Certification', name: 'CARB — formaldehyde emissions compliance' },
+    { '@type': 'Certification', name: 'EU REACH compliance' },
+  ],
   numberOfEmployees: {
     '@type': 'QuantitativeValue',
     minValue: 120,
