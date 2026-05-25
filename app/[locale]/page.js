@@ -3,6 +3,7 @@
 // The site-wide Header/Footer come from app/layout.js, so we don't repeat nav/footer here.
 
 import { Link } from '@/i18n/navigation';
+import Image from 'next/image';
 import IntroCarousel from '@/components/IntroCarousel';
 import JsonLd from '@/components/JsonLd';
 import CertIcon from '@/components/CertIcons';
@@ -875,13 +876,6 @@ export default async function HomePage({ params: { locale } }) {
         imageSizes="100vw"
         fetchPriority="high"
       />
-      <link
-        rel="preload"
-        as="image"
-        media="(min-width: 960px)"
-        href="/factory/production.webp"
-        fetchPriority="high"
-      />
       <JsonLd data={ORG_LD} />
       <JsonLd data={buildWebsiteLd(locale)} />
       <JsonLd data={SALES_OFFICE_LD} />
@@ -918,15 +912,15 @@ export default async function HomePage({ params: { locale } }) {
                   by the viewport-scoped preload above (≥960px), not a blanket
                   fetchpriority here, so it never out-prioritises the mobile
                   background-LCP on small screens. */}
-              <img loading="eager" decoding="async" src="/factory/production.webp" alt={COPY.hero.collage.main} width="900" height="900" />
+              <Image fill priority sizes="(max-width: 960px) 60vw, 460px" src="/factory/production.webp" alt={COPY.hero.collage.main} style={{ objectFit: 'cover' }} />
               <div className="hc-cap">{COPY.hero.collage.main}</div>
             </div>
             <div className="hc-card hc-sub-1 is-product">
-              <img loading="lazy" decoding="async" src="/walnut-jewelery-box.webp" alt={COPY.hero.collage.sub1} width="900" height="900" />
+              <Image fill sizes="(max-width: 960px) 35vw, 260px" src="/walnut-jewelery-box.webp" alt={COPY.hero.collage.sub1} style={{ objectFit: 'contain' }} />
               <div className="hc-cap">{COPY.hero.collage.sub1}</div>
             </div>
             <div className="hc-card hc-sub-2 is-product">
-              <img loading="lazy" decoding="async" src="/bamboo-box.webp" alt={COPY.hero.collage.sub2} width="1184" height="672" />
+              <Image fill sizes="(max-width: 960px) 35vw, 250px" src="/bamboo-box.webp" alt={COPY.hero.collage.sub2} style={{ objectFit: 'contain' }} />
               <div className="hc-cap">{COPY.hero.collage.sub2}</div>
             </div>
             <div className="hc-stamp">
@@ -985,7 +979,7 @@ export default async function HomePage({ params: { locale } }) {
           <div className="feat-grid">
             {FEATURED.map((f, i) => (
               <Link href={f.href} key={i} className="feat-card">
-                <img loading="lazy" decoding="async" src={f.img} alt={t('productGrid.cardAlt', { name: f.name })} width={f.w} height={f.h} />
+                <Image fill sizes="(max-width: 768px) 50vw, (max-width: 1100px) 33vw, 360px" src={f.img} alt={t('productGrid.cardAlt', { name: f.name })} style={{ objectFit: 'cover' }} />
                 <div className="feat-overlay" />
                 <div className="feat-arrow">→</div>
                 <div className="feat-content">
@@ -1064,7 +1058,7 @@ export default async function HomePage({ params: { locale } }) {
           <div className="fac-grid">
             {FACTORY_TILES.map((t, i) => (
               <Link href={t.href} className={`fac-tile ${t.cls}`} key={i}>
-                <img loading="lazy" decoding="async" src={t.img} alt={t.alt} width={t.w} height={t.h} />
+                <Image fill sizes="(max-width: 768px) 50vw, 33vw" src={t.img} alt={t.alt} style={{ objectFit: 'cover' }} />
                 <div className="fac-cap">
                   <div className="fac-cap-num">{t.num}</div>
                   <div className="fac-cap-text">{t.text}</div>
@@ -1092,7 +1086,7 @@ export default async function HomePage({ params: { locale } }) {
           <div className="process-grid">
             {PROCESS.map((s, i) => (
               <div className="pcell" key={i}>
-                <img loading="lazy" decoding="async" src={s.img} alt={s.alt} width={s.w} height={s.h} />
+                <Image fill sizes="(max-width: 768px) 50vw, 25vw" src={s.img} alt={s.alt} style={{ objectFit: 'cover' }} />
                 <div className="pcell-num">{s.num}</div>
                 <div className="pcell-name">{s.name}</div>
               </div>

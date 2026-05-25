@@ -1,5 +1,6 @@
 'use client';
 import { useState, useEffect } from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 // `labelKey` resolves against the `introCarousel` namespace in
@@ -56,10 +57,13 @@ export default function IntroCarousel() {
           const label = t(s.labelKey);
           return (
             <div className="ic-slide" key={i}>
-              <img
+              <Image
                 src={s.src}
                 alt={label}
-                loading={i === 0 ? 'eager' : 'lazy'} width="1200" height="900"
+                fill
+                sizes="(max-width: 960px) 100vw, 600px"
+                loading={i === 0 ? 'eager' : 'lazy'}
+                style={{ objectFit: 'cover' }}
               />
               <div className="ic-overlay" />
               <div className="ic-caption">
