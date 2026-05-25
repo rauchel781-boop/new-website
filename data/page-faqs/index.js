@@ -17,8 +17,11 @@
 import { FAQS as EN } from './en.js';
 import { FAQS as DE } from './de.js';
 import { FAQS as IT } from './it.js';
+import { FAQS as ES } from './es.js';
+import { FAQS as FR } from './fr.js';
+import { FAQS as PT } from './pt.js';
 
-const ALL = { en: EN, de: DE, it: IT };
+const ALL = { en: EN, de: DE, it: IT, es: ES, fr: FR, pt: PT };
 
 export function getPageFaqs(key, locale) {
   const map = ALL[locale];
