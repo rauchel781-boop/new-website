@@ -19,12 +19,26 @@ export default function IntroCarousel() {
   const t = useTranslations('introCarousel');
   const [idx, setIdx] = useState(0);
   const [paused, setPaused] = useState(false);
+  const [reducedMotion, setReducedMotion] = useState(false);
+
+  // Respect the OS-level "reduce motion" preference: do not auto-advance for
+  // users who asked for less motion (manual arrows/dots still work). The global
+  // CSS reduced-motion rule cannot stop this JS timer, so we gate it here.
+  // matchMedia is client-only, so SSR renders with auto-advance enabled and we
+  // correct on mount.
+  useEffect(() => {
+    const mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+    setReducedMotion(mq.matches);
+    const onChange = (e) => setReducedMotion(e.matches);
+    mq.addEventListener('change', onChange);
+    return () => mq.removeEventListener('change', onChange);
+  }, []);
 
   useEffect(() => {
-    if (paused) return;
+    if (paused || reducedMotion) return;
     const id = setInterval(() => setIdx((i) => (i + 1) % SLIDES.length), 3800);
     return () => clearInterval(id);
-  }, [paused]);
+  }, [paused, reducedMotion]);
 
   const go = (i) => setIdx(((i % SLIDES.length) + SLIDES.length) % SLIDES.length);
 
