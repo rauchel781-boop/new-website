@@ -15,8 +15,10 @@
 //   // → { sectionTitle, sectionSub, items: [{ q, a }, …] } | null
 
 import { FAQS as EN } from './en.js';
+import { FAQS as DE } from './de.js';
+import { FAQS as IT } from './it.js';
 
-const ALL = { en: EN };
+const ALL = { en: EN, de: DE, it: IT };
 
 export function getPageFaqs(key, locale) {
   const map = ALL[locale];
