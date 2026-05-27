@@ -3,6 +3,7 @@ import { alternates } from '@/i18n/seo';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getAbout } from '@/data/about';
 import CertIcon from '@/components/CertIcons';
+import Image from 'next/image';
 import PageBreadcrumbLd from '@/components/PageBreadcrumbLd';
 
 export async function generateMetadata({ params: { locale } }) {
@@ -728,7 +729,7 @@ export default function AboutPage({ params: { locale } }) {
 
           <div className="about-story-visual">
             <div className="about-story-tag">{COPY.story.showroomTag}</div>
-            <img loading="lazy" decoding="async" src={SHOWROOM_IMG} alt={COPY.story.showroomAlt} width="1200" height="900" />
+            <Image fill sizes="(max-width: 960px) 100vw, 600px" src={SHOWROOM_IMG} alt={COPY.story.showroomAlt} style={{ objectFit: 'cover' }} />
             <div className="about-story-cap">{COPY.story.quote}</div>
           </div>
         </div>
@@ -793,7 +794,7 @@ export default function AboutPage({ params: { locale } }) {
           <div className="about-team-grid">
             {TEAM_IMAGES.map((img, i) => (
               <div className="about-team-item" key={i}>
-                <img src={img.src} alt={img.caption} loading={i === 0 ? 'eager' : 'lazy'} width="1200" height="900" />
+                <Image fill sizes="(max-width: 768px) 50vw, (max-width: 1100px) 33vw, 320px" src={img.src} alt={img.caption} loading={i === 0 ? 'eager' : 'lazy'} style={{ objectFit: 'cover' }} />
                 <div className="about-team-tag">{img.tag}</div>
                 <div className="about-team-cap">{img.caption}</div>
               </div>
@@ -819,7 +820,7 @@ export default function AboutPage({ params: { locale } }) {
           <div className="about-gal-grid">
             {FACTORY_IMAGES.map((img, i) => (
               <div className="about-gal-item" key={i}>
-                <img src={img.src} alt={img.caption} loading={i === 0 ? 'eager' : 'lazy'} width="1200" height="900" />
+                <Image fill sizes="(max-width: 768px) 50vw, (max-width: 1100px) 33vw, 300px" src={img.src} alt={img.caption} loading={i === 0 ? 'eager' : 'lazy'} style={{ objectFit: 'cover' }} />
                 <div className="about-gal-cap">{img.caption}</div>
               </div>
             ))}
@@ -840,7 +841,7 @@ export default function AboutPage({ params: { locale } }) {
               <div className="about-prod-card" key={s.n}>
                 <div className="about-prod-img">
                   <span className="about-prod-num">{s.n}</span>
-                  <img src={s.src} alt={s.title} loading="lazy" width="1200" height="900" />
+                  <Image fill sizes="(max-width: 768px) 50vw, 25vw" src={s.src} alt={s.title} loading="lazy" style={{ objectFit: 'cover' }} />
                 </div>
                 <div className="about-prod-body">
                   <h3 className="about-prod-title">{s.title}</h3>
