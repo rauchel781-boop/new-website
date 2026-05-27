@@ -5,6 +5,7 @@ import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import RecentlyViewedStrip from '@/components/RecentlyViewedStrip';
 import PageFaq from '@/components/PageFaq';
 import { getPageFaqs } from '@/data/page-faqs';
+import PageBreadcrumbLd from '@/components/PageBreadcrumbLd';
 
 export async function generateMetadata({ params: { locale } }) {
   const t = await getTranslations({ locale, namespace: 'productsIndex.meta' });
@@ -177,6 +178,7 @@ export default async function ProductsPage({ params: { locale } }) {
   const tCC = await getTranslations({ locale, namespace: 'categoryContent' });
   return (
     <div className="prods">
+      <PageBreadcrumbLd locale={locale} name="Products" path="/products" />
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
       {/* Returning visitors: show what they were looking at last time */}

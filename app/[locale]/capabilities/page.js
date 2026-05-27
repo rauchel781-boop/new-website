@@ -1,6 +1,7 @@
 import { alternates } from '@/i18n/seo';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import JsonLd from '@/components/JsonLd';
+import PageBreadcrumbLd from '@/components/PageBreadcrumbLd';
 
 export async function generateMetadata({ params: { locale } }) {
   const t = await getTranslations({ locale, namespace: 'capabilities.meta' });
@@ -44,7 +45,9 @@ export default async function CapabilitiesPage({ params: { locale } }) {
   };
 
   return (
-    <section className="container section-pad">
+    <>
+      <PageBreadcrumbLd locale={locale} name="Capabilities" path="/capabilities" />
+      <section className="container section-pad">
       <JsonLd data={faqLd} />
       <h1 className="text-4xl font-extrabold text-brand-navy">{t('h1')}</h1>
       <p className="mt-4 max-w-3xl text-brand-ink/90 leading-relaxed">{t('intro')}</p>
@@ -83,6 +86,7 @@ export default async function CapabilitiesPage({ params: { locale } }) {
           ))}
         </div>
       </section>
-    </section>
+      </section>
+    </>
   );
 }

@@ -6,6 +6,7 @@ import PageFaq from '@/components/PageFaq';
 import { getPageFaqs } from '@/data/page-faqs';
 import JsonLd from '@/components/JsonLd';
 import { SITE } from '@/data/site-config';
+import PageBreadcrumbLd from '@/components/PageBreadcrumbLd';
 
 export async function generateMetadata({ params: { locale } }) {
   const { COPY } = getMaterialGuide(locale);
@@ -780,6 +781,7 @@ export default async function MaterialGuidePage({ params: { locale } }) {
 
   return (
     <div className="mg">
+      <PageBreadcrumbLd locale={locale} name="Material Guide" path="/material-guide" />
       <JsonLd data={howtoLd} />
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
 

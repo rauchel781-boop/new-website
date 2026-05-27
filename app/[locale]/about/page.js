@@ -3,6 +3,7 @@ import { alternates } from '@/i18n/seo';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getAbout } from '@/data/about';
 import CertIcon from '@/components/CertIcons';
+import PageBreadcrumbLd from '@/components/PageBreadcrumbLd';
 
 export async function generateMetadata({ params: { locale } }) {
   const { COPY } = getAbout(locale);
@@ -670,6 +671,7 @@ export default function AboutPage({ params: { locale } }) {
   const { COPY, FACTORY_IMAGES, TEAM_IMAGES, PRODUCTION_STEPS, TIMELINE, LOCATIONS, MARKETS, VALUES, CERTS, SHOWROOM_IMG } = getAbout(locale);
   return (
     <div className="about">
+      <PageBreadcrumbLd locale={locale} name="About" path="/about" />
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
       {/* ── HERO ── */}

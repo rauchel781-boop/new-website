@@ -4,6 +4,7 @@ import NewsletterForm from '@/components/NewsletterForm';
 import { alternates as makeAlternates } from '@/i18n/seo';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getBlogTranslation, getBlogCategoryTranslation } from '@/data/blog/translations';
+import PageBreadcrumbLd from '@/components/PageBreadcrumbLd';
 
 // Blog now ships translated content per-locale. Each locale URL is
 // self-canonical and hreflang alternates point to every locale variant,
@@ -456,6 +457,7 @@ export default async function BlogPage({ params: { locale } }) {
 
   return (
     <div className="blg">
+      <PageBreadcrumbLd locale={locale} name="Blog" path="/blog" />
       <style dangerouslySetInnerHTML={{ __html: BLOG_CSS }} />
 
       {/* ─── HERO ─── */}

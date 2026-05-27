@@ -4,6 +4,7 @@ import ContactClient from './ContactClient';
 import JsonLd from '@/components/JsonLd';
 import { alternates } from '@/i18n/seo';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import PageBreadcrumbLd from '@/components/PageBreadcrumbLd';
 
 export async function generateMetadata({ params: { locale } }) {
   const t = await getTranslations({ locale, namespace: 'contact.meta' });
@@ -40,6 +41,7 @@ export default async function ContactPage({ params: { locale } }) {
 
   return (
     <>
+      <PageBreadcrumbLd locale={locale} name="Contact" path="/contact" />
       <JsonLd data={faqLd} />
       <ContactClient />
     </>
