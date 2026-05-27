@@ -20,6 +20,8 @@ import { PRODUCTS as ACACIA_PRODUCTS } from '@/data/products/acacia';
 import { PRODUCTS as WALNUT_PRODUCTS } from '@/data/products/walnut';
 import ProductGallery from '@/components/ProductGallery';
 import ProductTabs from '@/components/ProductTabs';
+import ProductRichBlock from '@/components/ProductRichBlock';
+import ProductFaqBlock from '@/components/ProductFaqBlock';
 import JsonLd from '@/components/JsonLd';
 import StickyInquiryCta from '@/components/StickyInquiryCta';
 import RecentlyViewedTracker from '@/components/RecentlyViewedTracker';
@@ -562,6 +564,9 @@ export default async function ProductDetail({ params }) {
         </div>
       </section>
 
+      {/* ── DETAILED OVERVIEW (English only — generated from per-product data) ── */}
+      {params.locale === 'en' && <ProductRichBlock product={product} />}
+
       {/* ── USE CASES ── */}
       {product.useCases && product.useCases.length > 0 && (
         <section className="pdp-uses">
@@ -576,6 +581,9 @@ export default async function ProductDetail({ params }) {
           </div>
         </section>
       )}
+
+      {/* ── PRODUCT-SPECIFIC FAQ (English only — FAQPage JSON-LD per PDP) ── */}
+      {params.locale === 'en' && <ProductFaqBlock product={product} />}
 
       {/* ── INQUIRY BANNER ── */}
       <section className="pdp-inquiry">
