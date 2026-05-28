@@ -29,6 +29,18 @@ export const POSTS = [
       { type: 'p', text: 'Her experience is not unusual. Sourcing wooden packaging from China in 2026 is one of the most cost-effective decisions a B2B brand can make — the factories here have unmatched depth in joinery, finishing and hardware integration. But it is also a market with a wide quality and reliability spread, and a buyer working with price alone as a filter has roughly a 1-in-3 chance of getting hurt on their first order.' },
       { type: 'p', text: 'This guide is the playbook I wish that Helsinki buyer had read before she placed her first order. It covers what "custom wooden boxes from China" actually means in 2026, the seven questions that separate capable suppliers from the rest, how MOQ and unit cost really fit together at this end of the market, and the compliance and shipping realities that turn a good quote into a delivered pallet. By the end you should know how to walk into your first conversation with the right vocabulary, the right expectations and the right red flags loaded.' },
 
+      { type: 'h2', text: 'TL;DR — what you will take away in 8 bullets' },
+      { type: 'list', items: [
+        'There are 3 supply structures behind "wooden boxes from China" — you almost certainly want the specialist factory + sales-office model.',
+        '7 vetting questions filter capable suppliers from polished window-dressing on your first call.',
+        'MOQ, unit cost and lead time interact — optimising for unit price alone is the most common (and most expensive) buyer mistake.',
+        'A market-by-market compliance map keeps your container from being held at port (ISPM 15 always; FSC, CARB, EU REACH per destination).',
+        'Pre-production samples are non-negotiable. Never approve a 5,000-piece order on a CAD render.',
+        '12 weeks from first email to delivered pallet is realistic. Anything significantly shorter is airfreight or shortcuts.',
+        '0.4% pre-shipment defect rate is the benchmark for a competent factory; above 3% is a warning.',
+        'Bookmark the 10-point pre-flight checklist at the end and run it before you wire any deposit.',
+      ] },
+
       { type: 'h2', text: 'First — what "from China" actually covers in 2026' },
       { type: 'p', text: 'When people say "wooden boxes from China," three very different supply structures get bundled together in most buyers\' heads. They are not interchangeable, and they price very differently.' },
       { type: 'h3', text: '1. Trading companies and marketplace listings' },
@@ -38,6 +50,7 @@ export const POSTS = [
       { type: 'h3', text: '3. Boutique workshops' },
       { type: 'p', text: 'At the high end you will find small workshops producing 300-piece runs of solid walnut watch boxes or hand-engraved heirloom pieces. Lead times are long, unit prices are high, and they are not built for scaling — but they are who you want for limited editions and luxury launches where every detail is signed off in person.' },
       { type: 'p', text: 'Most B2B brands sourcing custom wooden boxes need category 2 — a specialist factory with a competent export arm. The rest of this article assumes that is what you are looking for.' },
+      { type: 'img', src: '/factory/chic-factory.webp', caption: 'A specialist factory with on-site joinery, finishing and QC — the supply structure most B2B brands actually want.' },
 
       { type: 'h2', text: '7 questions to ask before you place your first order' },
       { type: 'p', text: 'These are the questions that separate suppliers who can deliver on their quote from suppliers who tell you what you want to hear. Use them as a filter on your first call.' },
@@ -49,6 +62,7 @@ export const POSTS = [
       { type: 'p', text: 'Geographic references matter because they prove the supplier has navigated your customs regime, your retailer\'s QC expectations and your language norms. A factory that exports heavily to the US may know little about EU REACH or the German Verpackungsgesetz. References speak to that — and a reliable supplier will give them to you without theatrics.' },
       { type: 'h3', text: '4. How do you handle pre-production samples, and what do they cost?' },
       { type: 'p', text: 'Good factories sample every new design before quoting full production. Sample cost varies — from waived for established buyers to $80–$200 per piece for one-off complex builds — but the principle is non-negotiable: you should never approve a 5,000-piece order on a CAD render alone. Be wary of suppliers who push back on physical samples or charge moulding fees that look suspiciously like trading-company markup.' },
+      { type: 'img', src: '/factory/production.webp', caption: 'A sample is not a render — it is the production-grade unit that lets you verify joinery, finish and decoration before locking the full run.' },
       { type: 'h3', text: '5. What is your defect rate, and how is it measured?' },
       { type: 'p', text: 'Any factory should be able to give you a number — 0.4% pre-shipment fail rate is the benchmark for a competent operation, anything below 1% is acceptable, anything above 3% is a warning sign. Importantly, ask how it is measured: a defect rate calculated on outgoing boxes (after rework) is different from one calculated on first-pass production. The first-pass number tells you about process discipline; the outgoing number tells you about end-quality control.' },
       { type: 'h3', text: '6. Which certifications do you hold, and which can you provide per order?' },
@@ -60,7 +74,9 @@ export const POSTS = [
       { type: 'h2', text: 'How MOQ, unit cost and lead time actually fit together' },
       { type: 'p', text: 'B2B buyers asking only "what is your unit price?" get the wrong answer because the answer depends entirely on three other variables. Here is how those variables interact at the custom wooden box end of the market in 2026.' },
       { type: 'p', text: 'MOQ is set by the cost of setup — programming saws, configuring CNC, mixing the finish, building a sample, training a finishing team on your specific design. Below 200–300 pieces those setup costs spread thinly across the unit and price spikes. Between 300 and 2,000 pieces is the commercial sweet spot where setup amortises and you get the most attractive per-unit cost. Above 5,000 pieces the next discount step usually requires shifting to a lighter material or simpler joinery — a different product, not just a bigger run of the same one.' },
+      { type: 'p', text: 'Practical example: a Berlin gift retailer recently asked us about producing 1,200 walnut tea boxes at a target unit cost of $4.80 with 28-day lead time. Our honest answer was that 1,200 pieces lands cleanly in the sweet zone (sub-$5 with proper kiln drying is realistic), but 28 days only works if she approves the sample within 5 days and skips the second revision round. She did, and the boxes shipped on day 32. The lesson is the same one every experienced buyer learns: the unit cost was never the lever — the sample-approval clock was.' },
       { type: 'p', text: 'Lead time is two clocks running in parallel. The first is calendar time: kiln drying (5–14 days), finish curing (3–5 days), and waiting for an export sailing (5–10 days from factory door to your forwarder\'s container). The second is actual production time: usually 12–25 minutes of labor per box, multiplied by your order quantity. Calendar time dominates for orders under 5,000 units; production time dominates above 10,000. A typical 1,500-piece custom run from our facility takes 30–40 days door to door.' },
+      { type: 'img', src: '/factory/material.webp', caption: 'Kiln-dried timber stock — 5–14 days of drying is what makes the 30–40 day lead time real, and what stops your boxes cracking three months after they ship.' },
       { type: 'stats', items: [
         { num: '300', label: 'Standard MOQ per design (pcs)' },
         { num: '30-40', suffix: ' days', label: 'Production after sample approval' },
@@ -83,6 +99,8 @@ export const POSTS = [
       },
       { type: 'p', text: 'ISPM 15 is non-negotiable for any solid-wood packaging entering virtually every developed market. If a supplier does not mention it in your first conversation, they do not ship to your destination at scale.' },
       { type: 'p', text: 'For European buyers, EU REACH compliance on finishes (formaldehyde, VOCs) and the German Verpackungsgesetz registration on the packaging itself are the two most-missed compliance gaps. Ask the supplier whether their finishes are EU REACH-tested and whether they can supply a CARB P2 declaration on any composite components. For US buyers, California Proposition 65 labelling for any product that contains finishes or hardware on its naughty list is your other gotcha — handled at your importer side but worth confirming with the supplier.' },
+
+      { type: 'img', src: '/factory/painting.webp', caption: 'Finish coats are EU REACH and CARB compliant by formulation — the choice happens at this station, not at the customs desk.' },
 
       { type: 'h2', text: 'The 7 most common sourcing mistakes (and how to avoid them)' },
       { type: 'p', text: 'These are the mistakes we see new buyers make most often. Each one is fixable before it costs you money.' },
@@ -107,6 +125,8 @@ export const POSTS = [
         'Weeks 11–12: Container loading, customs documentation, sailing to your destination port. Add another 1–2 weeks for inland trucking once the container clears customs at the destination.',
       ] },
       { type: 'p', text: 'For airfreight (used on time-critical orders and samples) you can compress weeks 11–12 to 3–5 days but pay roughly 5–8× the sea-freight cost. For most B2B retail volumes, sea freight is the right call.' },
+
+      { type: 'img', src: '/factory/wooden-box-4.webp', caption: 'Pre-shipment QC — every box checked against the approved sample, then wrapped, palletised and documented for the destination port.' },
 
       { type: 'h2', text: 'A pre-flight checklist for your first order' },
       { type: 'list', items: [
