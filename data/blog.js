@@ -15,6 +15,120 @@
 // ─────────────────────────────────────────────────────────────────────────
 
 export const POSTS = [
+  // ════════════════════════════════════ 00 ════════════════════════════════════
+  {
+    slug: 'sourcing-custom-wooden-boxes-from-china-2026',
+    title: 'How to source custom wooden boxes from China in 2026: a B2B buyer\'s playbook',
+    excerpt: 'A practical sourcing guide for retail brands and procurement teams — what "from China" really means in 2026, the 7 questions that filter capable suppliers, how MOQ and unit cost actually fit together, and the compliance and shipping realities behind a clean delivery.',
+    date: '2026-05-28',
+    category: 'Strategy',
+    readTime: '13 min read',
+    hero: '/factory/warehouse.webp',
+    body: [
+      { type: 'p', text: 'The first time a procurement lead from a Helsinki gift retailer asked me how to source custom wooden boxes from China, she had already been through two suppliers in 18 months. The first one had quoted at $3.20 a unit, taken her tooling money, and shipped boxes with such variable moisture content that 14% of the order arrived cracked. The second was technically competent but communicated only in vague WeChat replies and missed her holiday window by six weeks. She was about to give up on Chinese suppliers entirely.' },
+      { type: 'p', text: 'Her experience is not unusual. Sourcing wooden packaging from China in 2026 is one of the most cost-effective decisions a B2B brand can make — the factories here have unmatched depth in joinery, finishing and hardware integration. But it is also a market with a wide quality and reliability spread, and a buyer working with price alone as a filter has roughly a 1-in-3 chance of getting hurt on their first order.' },
+      { type: 'p', text: 'This guide is the playbook I wish that Helsinki buyer had read before she placed her first order. It covers what "custom wooden boxes from China" actually means in 2026, the seven questions that separate capable suppliers from the rest, how MOQ and unit cost really fit together at this end of the market, and the compliance and shipping realities that turn a good quote into a delivered pallet. By the end you should know how to walk into your first conversation with the right vocabulary, the right expectations and the right red flags loaded.' },
+
+      { type: 'h2', text: 'First — what "from China" actually covers in 2026' },
+      { type: 'p', text: 'When people say "wooden boxes from China," three very different supply structures get bundled together in most buyers\' heads. They are not interchangeable, and they price very differently.' },
+      { type: 'h3', text: '1. Trading companies and marketplace listings' },
+      { type: 'p', text: 'Aggregator sites — Alibaba, Made-in-China, 1688 — are the most visible face of Chinese sourcing. About 60% of "manufacturers" you will find there are trading companies that do not own a factory; they take your order and sub-contract it to whichever workshop has spare capacity that week. The price is competitive because the trading company runs lean, but you have no control over which factory actually makes your boxes, and your QA happens on someone else\'s terms. Trading companies work for commodity products where every unit is identical and quality is binary. Custom boxes are neither.' },
+      { type: 'h3', text: '2. Specialist factories with sales offices' },
+      { type: 'p', text: 'Most serious B2B sourcing happens here. A specialist factory (focused on paulownia, pine, bamboo, acacia, walnut — pick one or two species) runs its own production yard and pairs it with a sales office in an export hub like Xiamen, Shenzhen or Shanghai. The factory handles manufacturing; the sales office handles documentation, sample coordination, communication and the unsexy logistics that turn a pallet of boxes into something that clears customs. Our own structure — a 15,000 m² production facility in Cao County, Shandong and a sales office in Xiamen, Fujian — falls into this category, and it is the model that delivers the most predictable result for buyers who want to repeat-order.' },
+      { type: 'h3', text: '3. Boutique workshops' },
+      { type: 'p', text: 'At the high end you will find small workshops producing 300-piece runs of solid walnut watch boxes or hand-engraved heirloom pieces. Lead times are long, unit prices are high, and they are not built for scaling — but they are who you want for limited editions and luxury launches where every detail is signed off in person.' },
+      { type: 'p', text: 'Most B2B brands sourcing custom wooden boxes need category 2 — a specialist factory with a competent export arm. The rest of this article assumes that is what you are looking for.' },
+
+      { type: 'h2', text: '7 questions to ask before you place your first order' },
+      { type: 'p', text: 'These are the questions that separate suppliers who can deliver on their quote from suppliers who tell you what you want to hear. Use them as a filter on your first call.' },
+      { type: 'h3', text: '1. Do you own the factory, or are you a trading company?' },
+      { type: 'p', text: 'There is nothing inherently wrong with a trading company if you genuinely have no need to control which factory makes your boxes — but you should know which one you are talking to. Ask directly: "Can you send me a video of the factory you will be running my order through, with a date stamp?" Trading companies usually deflect; factories show you in two minutes.' },
+      { type: 'h3', text: '2. What is your typical MOQ, and what is your floor MOQ?' },
+      { type: 'p', text: '"Typical" tells you their commercial sweet spot; "floor" tells you whether you can do a test run before committing to a full season. For most custom wooden boxes the typical MOQ sits at 500–1,000 pieces; floor MOQs for first orders or simpler specs can be 100–300. If a supplier refuses to quote anything under 1,000, they probably are not set up for incremental testing — fine for established lines, risky for a new product launch.' },
+      { type: 'h3', text: '3. Can you share three references from buyers in my region?' },
+      { type: 'p', text: 'Geographic references matter because they prove the supplier has navigated your customs regime, your retailer\'s QC expectations and your language norms. A factory that exports heavily to the US may know little about EU REACH or the German Verpackungsgesetz. References speak to that — and a reliable supplier will give them to you without theatrics.' },
+      { type: 'h3', text: '4. How do you handle pre-production samples, and what do they cost?' },
+      { type: 'p', text: 'Good factories sample every new design before quoting full production. Sample cost varies — from waived for established buyers to $80–$200 per piece for one-off complex builds — but the principle is non-negotiable: you should never approve a 5,000-piece order on a CAD render alone. Be wary of suppliers who push back on physical samples or charge moulding fees that look suspiciously like trading-company markup.' },
+      { type: 'h3', text: '5. What is your defect rate, and how is it measured?' },
+      { type: 'p', text: 'Any factory should be able to give you a number — 0.4% pre-shipment fail rate is the benchmark for a competent operation, anything below 1% is acceptable, anything above 3% is a warning sign. Importantly, ask how it is measured: a defect rate calculated on outgoing boxes (after rework) is different from one calculated on first-pass production. The first-pass number tells you about process discipline; the outgoing number tells you about end-quality control.' },
+      { type: 'h3', text: '6. Which certifications do you hold, and which can you provide per order?' },
+      { type: 'p', text: 'Standing certifications and per-order documents are two different things. ISO 9001 is a permanent management-system cert that applies to the whole factory. FSC, CARB and EU REACH are usually applied per-order: the wood used in your specific run is sourced and documented to meet the standard. Ask the supplier what they hold standing and what they can document for your order. Mismatched answers here are the single most common sign of trouble.' },
+      { type: 'h3', text: '7. What does your export documentation packet look like?' },
+      { type: 'p', text: 'Solid wood packaging shipping internationally needs an ISPM 15 phytosanitary certificate — without it your container can be quarantined or returned at port. The supplier should be able to send you a sample documentation packet (commercial invoice with HS codes, packing list with carton-by-carton breakdown, phytosanitary certificate, certificate of origin, bill of lading) before you commit. Suppliers who do not have a template ready do not ship at scale.' },
+      { type: 'img', src: '/factory/warehouse.webp', caption: 'A capable export operation packs and documents containers daily — your supplier should treat ISPM 15 as muscle memory, not paperwork.' },
+
+      { type: 'h2', text: 'How MOQ, unit cost and lead time actually fit together' },
+      { type: 'p', text: 'B2B buyers asking only "what is your unit price?" get the wrong answer because the answer depends entirely on three other variables. Here is how those variables interact at the custom wooden box end of the market in 2026.' },
+      { type: 'p', text: 'MOQ is set by the cost of setup — programming saws, configuring CNC, mixing the finish, building a sample, training a finishing team on your specific design. Below 200–300 pieces those setup costs spread thinly across the unit and price spikes. Between 300 and 2,000 pieces is the commercial sweet spot where setup amortises and you get the most attractive per-unit cost. Above 5,000 pieces the next discount step usually requires shifting to a lighter material or simpler joinery — a different product, not just a bigger run of the same one.' },
+      { type: 'p', text: 'Lead time is two clocks running in parallel. The first is calendar time: kiln drying (5–14 days), finish curing (3–5 days), and waiting for an export sailing (5–10 days from factory door to your forwarder\'s container). The second is actual production time: usually 12–25 minutes of labor per box, multiplied by your order quantity. Calendar time dominates for orders under 5,000 units; production time dominates above 10,000. A typical 1,500-piece custom run from our facility takes 30–40 days door to door.' },
+      { type: 'stats', items: [
+        { num: '300', label: 'Standard MOQ per design (pcs)' },
+        { num: '30-40', suffix: ' days', label: 'Production after sample approval' },
+        { num: '0.4', suffix: '%', label: 'Pre-shipment defect rate benchmark' },
+        { num: '88-92', suffix: '%', label: 'Material yield via nesting software' },
+      ] },
+      { type: 'p', text: 'Unit cost is the smallest of the three variables you should be optimising for. The one that hurts most when you get it wrong is reliability — a $0.30 saving per unit on a 2,000-piece order is $600. The cost of one missed retail window is the entire margin on that season. Suppliers who lead with price are not the ones who get repeat-ordered.' },
+
+      { type: 'h2', text: 'Compliance — what your import market actually requires' },
+      { type: 'p', text: 'This is the section every new buyer underestimates. Different markets have different compliance regimes, and an experienced supplier handles them transparently. The table below summarises the most common requirements for wooden packaging by destination.' },
+      { type: 'table',
+        headers: ['Market', 'Always required', 'Often required', 'Who provides'],
+        rows: [
+          ['EU (DE / IT / FR / ES / PT)', 'ISPM 15, EU REACH (finishes)', 'FSC (retail), Verpackungsgesetz (DE)', 'Supplier + your importer'],
+          ['United States', 'ISPM 15, CARB P2 (composite)', 'FSC (retail), Prop 65 (CA)', 'Supplier + your importer'],
+          ['United Kingdom', 'ISPM 15, REACH (post-Brexit equivalent)', 'FSC (retail)', 'Supplier'],
+          ['Canada / AU / NZ', 'ISPM 15, biosecurity declaration', 'FSC (retail)', 'Supplier + your forwarder'],
+          ['Japan / Korea', 'ISPM 15', 'JAS / KS (specific items)', 'Supplier'],
+        ],
+      },
+      { type: 'p', text: 'ISPM 15 is non-negotiable for any solid-wood packaging entering virtually every developed market. If a supplier does not mention it in your first conversation, they do not ship to your destination at scale.' },
+      { type: 'p', text: 'For European buyers, EU REACH compliance on finishes (formaldehyde, VOCs) and the German Verpackungsgesetz registration on the packaging itself are the two most-missed compliance gaps. Ask the supplier whether their finishes are EU REACH-tested and whether they can supply a CARB P2 declaration on any composite components. For US buyers, California Proposition 65 labelling for any product that contains finishes or hardware on its naughty list is your other gotcha — handled at your importer side but worth confirming with the supplier.' },
+
+      { type: 'h2', text: 'The 7 most common sourcing mistakes (and how to avoid them)' },
+      { type: 'p', text: 'These are the mistakes we see new buyers make most often. Each one is fixable before it costs you money.' },
+      { type: 'list', items: [
+        'Choosing the cheapest quote without comparing on like-for-like specs. A $2.10 quote and a $2.80 quote for "the same box" usually differ by moisture content, finish coats and QC depth — and the cheaper one ships boxes that crack in week three.',
+        'Skipping the pre-production sample. Approving a 5,000-piece run from a CAD render is the single fastest way to lose your margin. Always sample.',
+        'Underspecifying the brief. "We want a wooden gift box, 200 × 150 × 80 mm, magnetic closure" is a starting point, not a brief. Add: wood species, finish, interior lining, hardware, decoration method, packaging type, target market — and a competitor reference if you have one.',
+        'Confusing MOQ with floor MOQ. The "typical" MOQ is the commercial sweet spot; the "floor" MOQ is what you can negotiate for a test run. Always ask both.',
+        'Ignoring ISPM 15. A container that arrives at port without phytosanitary certification can be quarantined for days, re-fumigated at your cost, or sent back. Confirm before the container leaves China.',
+        'Treating finishing as a corner to cut. Two coats vs three coats, water-based vs solvent-based, hand-polished vs machine-finished — these decisions show up six months later as the difference between a buyer who reorders and one who does not.',
+        'Trying to manage the supplier yourself when your volume justifies a forwarder. Once you are doing 20-foot containers four times a year, the freight-forwarder relationship saves more than it costs.',
+      ] },
+
+      { type: 'h2', text: 'From quote to delivered pallet — what 12 weeks looks like' },
+      { type: 'p', text: 'Here is what a realistic timeline looks like for a 1,500-piece custom run, from your first email to boxes arriving in your warehouse.' },
+      { type: 'list', items: [
+        'Week 1: Brief, quote, supplier shortlisting. You send specs and reference images to two or three vetted suppliers; quotes come back within 1–3 business days.',
+        'Weeks 2–3: Pre-production sampling. The supplier produces a physical sample; you review materials, finish, joinery and decoration; one round of revision is normal, two is a yellow flag.',
+        'Week 4: Sample approval and PO. You issue a purchase order, pay the deposit (usually 30%), and the supplier locks the production slot.',
+        'Weeks 5–9: Production. Timber selection, kiln drying, cutting, joinery, finishing, hardware fitting and QC. Most of these 5 weeks is curing and waiting; actual labor per box is 15–25 minutes.',
+        'Week 10: Final QC and balance payment. You receive pre-shipment inspection photos (or send a third-party inspector); you wire the 70% balance.',
+        'Weeks 11–12: Container loading, customs documentation, sailing to your destination port. Add another 1–2 weeks for inland trucking once the container clears customs at the destination.',
+      ] },
+      { type: 'p', text: 'For airfreight (used on time-critical orders and samples) you can compress weeks 11–12 to 3–5 days but pay roughly 5–8× the sea-freight cost. For most B2B retail volumes, sea freight is the right call.' },
+
+      { type: 'h2', text: 'A pre-flight checklist for your first order' },
+      { type: 'list', items: [
+        'Brief written: dimensions, wood, finish, hardware, interior lining, decoration, packaging, target market.',
+        'Two or three vetted suppliers, each having answered the 7 questions above without deflection.',
+        'Pre-production sample approved with at least one round of revisions documented in writing.',
+        'Defect-rate benchmark agreed in the contract (we recommend pre-shipment inspection on the first three orders, then random sampling).',
+        'ISPM 15 certificate and per-market certifications confirmed available (FSC, CARB, EU REACH as needed).',
+        'Documentation packet template received: commercial invoice, packing list, phytosanitary, certificate of origin, bill of lading.',
+        'Payment terms locked: typically 30/70 split (deposit / balance against pre-shipment photos or BL copy).',
+        'Forwarder identified and briefed on the cargo and destination.',
+        'Inco term confirmed (FOB or EXW for first-order learning; CIF/DDP once you trust the supplier).',
+        'A communication channel that works in your timezone — email backed by WhatsApp or WeChat is the modern minimum.',
+      ] },
+
+      { type: 'quote', text: 'Sourcing custom wooden boxes from China is a relationship business, not a transaction. The factories that do this well are looking for the same thing the buyers are: a supply line that ships clean, on time, every quarter, with no surprises.' },
+
+      { type: 'p', text: 'The seven questions above are how you find those factories; the 12-week timeline is what to expect; the compliance map is what protects you when your container lands at port. Combine those three and you will rule out the suppliers who only know how to win the first order, and find the ones who know how to keep it.' },
+      { type: 'p', text: 'If you are at the start of that journey and want to talk through a specific design, MOQ, material or compliance question, our team in Xiamen can run you through it directly — send a brief from the /contact page and we will reply with a sample factory video and a documentation packet within one business day. We currently ship custom wooden boxes to brands in Germany, Italy, the United States, the United Kingdom, Canada and Poland through this exact process. You can browse the production catalogue at /products, read about our six-step manufacturing process at /blog/six-step-manufacturing-process, or start at the material guide if you have not chosen a wood yet (/material-guide).' },
+    ],
+  },
+
   // ════════════════════════════════════ 01 ════════════════════════════════════
   {
     slug: 'six-step-manufacturing-process',
