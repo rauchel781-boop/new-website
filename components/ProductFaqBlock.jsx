@@ -1,13 +1,12 @@
 import JsonLd from '@/components/JsonLd';
-import { buildProductFaqs } from '@/lib/product-content';
+import { buildProductFaqs, getProductContentLabels } from '@/lib/product-content';
 
-// Per-product FAQ section for the PDP. Generates 5–6 Q&A pairs from the
-// product's own data (MOQ, lead time, material, branding options, use cases,
-// packaging) — answers are filled from this product's fields, so the FAQs
-// vary genuinely across the 186 products in the catalogue.
-//
-// Emits FAQPage JSON-LD with the same Q&As so the page is eligible for
-// Google's FAQ rich result.
+// Per-product FAQ section for the PDP. 5–6 Q&A pairs generated from the
+// product's own data (MOQ, lead time, material, branding, use cases,
+// packaging) — answers come from each product's specific fields so the FAQs
+// vary genuinely across the catalogue. Emits FAQPage JSON-LD with the same
+// Q&As so the page is eligible for Google's FAQ rich result. Localised per
+// `locale` prop; renders nothing when the locale has no template.
 
 const CSS = `
 .pdp-faq { background: #fff; padding: 60px 24px 76px; border-top: 1px solid rgba(107,74,51,0.10); }
@@ -25,9 +24,10 @@ const CSS = `
 .pdp-faq-a { padding: 0 22px 20px; margin: 0; color: #5C4A3A; line-height: 1.72; font-size: .94rem; }
 `;
 
-export default function ProductFaqBlock({ product }) {
-  const faqs = buildProductFaqs(product);
+export default function ProductFaqBlock({ product, locale = 'en' }) {
+  const faqs = buildProductFaqs(product, locale);
   if (!faqs.length) return null;
+  const labels = getProductContentLabels(locale);
 
   const faqLd = {
     '@context': 'https://schema.org',
@@ -44,8 +44,8 @@ export default function ProductFaqBlock({ product }) {
       <JsonLd data={faqLd} />
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
       <div className="pdp-faq-inner">
-        <div className="pdp-faq-eyebrow">Buyer questions</div>
-        <h2 className="pdp-faq-title" id="pdp-faq-title">{product.name} — buyer questions</h2>
+        <div className="pdp-faq-eyebrow">{labels.faqEyebrow}</div>
+        <h2 className="pdp-faq-title" id="pdp-faq-title">{labels.faqTitle(product.name)}</h2>
         <div className="pdp-faq-list">
           {faqs.map((it, i) => (
             <details key={i} className="pdp-faq-item" {...(i === 0 ? { open: true } : {})}>

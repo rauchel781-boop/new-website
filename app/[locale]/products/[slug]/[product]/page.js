@@ -22,6 +22,7 @@ import ProductGallery from '@/components/ProductGallery';
 import ProductTabs from '@/components/ProductTabs';
 import ProductRichBlock from '@/components/ProductRichBlock';
 import ProductFaqBlock from '@/components/ProductFaqBlock';
+import { isProductContentLocaleSupported, hasFullProductTranslation } from '@/lib/product-content';
 import JsonLd from '@/components/JsonLd';
 import StickyInquiryCta from '@/components/StickyInquiryCta';
 import RecentlyViewedTracker from '@/components/RecentlyViewedTracker';
@@ -480,6 +481,13 @@ export default async function ProductDetail({ params }) {
     ],
   };
 
+  // Gate the per-product rich description + FAQ blocks: only render when the
+  // locale has a lib template AND the product's overlay translations cover
+  // intro/customization/useCases/packaging (otherwise we'd output mixed
+  // language text). English is always considered fully covered.
+  const _productTrans = getProductTranslation(productRaw.slug, params.locale);
+  const showRichBlocks = isProductContentLocaleSupported(params.locale) && hasFullProductTranslation(_productTrans, params.locale);
+
   return (
     <div className="pdp">
       <JsonLd data={productLd} />
@@ -565,7 +573,7 @@ export default async function ProductDetail({ params }) {
       </section>
 
       {/* ── DETAILED OVERVIEW (English only — generated from per-product data) ── */}
-      {params.locale === 'en' && <ProductRichBlock product={product} />}
+      {showRichBlocks && <ProductRichBlock product={product} locale={params.locale} />}
 
       {/* ── USE CASES ── */}
       {product.useCases && product.useCases.length > 0 && (
@@ -583,7 +591,7 @@ export default async function ProductDetail({ params }) {
       )}
 
       {/* ── PRODUCT-SPECIFIC FAQ (English only — FAQPage JSON-LD per PDP) ── */}
-      {params.locale === 'en' && <ProductFaqBlock product={product} />}
+      {showRichBlocks && <ProductFaqBlock product={product} locale={params.locale} />}
 
       {/* ── INQUIRY BANNER ── */}
       <section className="pdp-inquiry">
