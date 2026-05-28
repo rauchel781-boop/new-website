@@ -143,3 +143,36 @@
 | 桌面 | **94** | 96 | 96 | 100 |
 
 性能分手机端 84→91、桌面 94，均达绿区。首页渲染经缩略图核对正常，无视觉回归。LCP 短板已通过图片瘦身基本解决（首屏图片体积大幅下降）。本轮性能优化收尾。
+
+
+---
+
+## 七、PDP 与 EEAT 深化（2026-05-26~28）
+
+继性能/SEO 18 维度全绿之后的进一步内容/信任建设。每一项都基于站内已有事实或客户提供的真实素材，零编造。
+
+### 结构化数据
+- **Organization schema** 补 `foundingDate: '2010'` 与 `hasCertification`（ISO 9001 / FSC / CARB / EU REACH）。
+- **BreadcrumbList** 补到 7 个信息页（about, material-guide, wood-fabrication, capabilities, products, contact, blog），通过 `<PageBreadcrumbLd>` 组件统一发出。
+
+### 客户信任
+- 首页加 **真实客户评价板块** —— 7 条客户消息（Jenna、Danyel、Leon、Jordan、Stuart W.、Loren M.、Hrag K.），脱敏为名+姓首字母、轻修拼写、内容忠于原话。**刻意不挂 Review/AggregateRating schema** 以符合 Google 自评富媒体合规要求。
+
+### 产品详情页（PDP）大幅升级
+- **186 个产品** × **8 种语言** 中所有"完整翻译产品"自动获得：
+  - 「Detailed overview / 详细介绍」段落区，第二张产品图嵌在段落之间。
+  - 「Buyer questions / 专属 FAQ」5-6 条，每条答案由该产品自己的 `specs / customization / useCases / packaging` 填充，并附 FAQPage JSON-LD。
+- **覆盖统计：** 186 个英文 PDP + 74 完整翻译产品 × 7 非英文语言 = **约 704 个 PDP** 现含本地化新内容；其余 112 × 7 = 784 个部分翻译产品保留原渲染，避免混合语言。
+- **关键词策略：** 不堆砌；天然差异来自每个产品的真实数据（不同 MOQ、闭合方式、材质、用途 → 不同语句），覆盖各产品自然存在的长尾搜索词。
+
+### 性能与 CI
+- 关于页 4 张原生 `<img>` 转 `next/image`（响应式 + AVIF），lint 警告同步减少。
+- 补 `.eslintrc.json` —— GitHub Actions CI 之前因缺该配置而对每次 push 报错，现已可正常通过。
+
+### 仍待你侧执行
+1. 把所有累积的 commit 一次推送：`git push origin main`。
+2. Coolify 部署完毕后，按 `部署验证清单.md` 走一遍：
+   - PageSpeed 重测一次（手机端）确认 91 分以上保持。
+   - Rich Results 抽测任一 PDP，应识别出 Product + BreadcrumbList + FAQPage 三项结构化数据。
+   - 真机抽查不同语言 PDP（en/de/it/es/fr/pt/ja/ko）的新「详细介绍」段与「专属 FAQ」是否如预期渲染。
+3. （可选）请日/韩母语者扫一眼 ja/ko PDP 模板，如某些助词不够地道，告知我即可统一调整。
