@@ -102,6 +102,20 @@ export const CATEGORIES = {
     useCases: ['Tea brands', 'Coffee subscription kits', 'Hotel mini bars', 'Office pantries', 'Gift sets', 'Cafe retail'],
     related: ['bamboo', 'sliding-lid', 'kitchen-dining'],
     hasProducts: true,
+    // Long-form SEO buyer-guide section rendered between the spec strip and
+    // the FAQ. Paragraph strings support inline links via [text](/path)
+    // tokens; the category page parses them into next-intl Link components
+    // so each anchor carries the active locale prefix. Only categories that
+    // need depth content set this — others render nothing.
+    deepContent: {
+      eyebrow: 'Buyer guide',
+      title: 'Why a wooden coffee box for your kitchen or gift program?',
+      paragraphs: [
+        'A wooden coffee box solves three problems plastic and tin alternatives do not: it holds humidity steady when your kitchen swings from 18 °C overnight to 24 °C in the morning (your pods stop condensating on the inside of the lid), it ages into character instead of looking tired after six months, and it carries a perceived value that turns a $14 caddy into a $39 gift on the shelf. The species drives the trade-off — [bamboo](/products/bamboo) resists kitchen humidity best and brings the most sustainable story (3-5 year harvest cycle, naturally antimicrobial); [acacia](/products/acacia) takes the darker stains that read as "premium" for retail; paulownia is the lightest weight option for subscription-box shipping. For finish, lifecycle and certification details, our [material guide](/material-guide) walks through each species side-by-side.',
+        'Compartment depth is where most off-the-shelf "tea boxes" fail when you actually try to use them for coffee. A generic 30-40 mm deep box fits a tea bag but is too shallow for any pod format — Nespresso OriginalLine pods are 37 mm, K-Cup is 62 mm, Nespresso Vertuo is 53 mm, Lavazza A Modo Mio is 53 mm. The wooden coffee boxes in this catalogue are built with 60-72 mm interior depth as standard, long enough for the deepest mainstream pod, and we routinely split compartments asymmetrically — four large pod wells plus one shallow sugar / biscotti row, for example — for hotel mini-bars and office pantries. Acrylic-window lids let front-of-house staff see fill level without opening every box.',
+        'On the B2B side, the buyers we ship wooden coffee boxes to most often fall into four buckets: private-label coffee subscriptions (consistent batch finish and branded engraving, 1,000-5,000 piece runs), corporate gifting programs (lid-engraved logo, 200-500 piece runs sit cleanly above our MOQ 300), hotels and short-stay operators (washable food-safe lacquer, magnetic or hinged closure for noise-free service), and specialty cafés selling beans and accessories as a bundle. The closure decision is mostly aesthetic — [sliding lid boxes](/products/sliding-lid) are the most traditional, [magnetic closure](/products/magnetic) is the most modern feel, and hinged sits in the middle. All three formats are food-safe by formulation, ship FOB Xiamen, and arrive with ISPM 15 phytosanitary certification as standard so your container does not get held at port.',
+      ],
+    },
   },
 
   'wine-whisky': {

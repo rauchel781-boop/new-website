@@ -280,6 +280,38 @@ const CSS = `
 }
 .cat-usecase:hover { background: rgba(217,185,143,0.16); border-color: var(--wood-light); }
 
+/* ─── DEEP CONTENT (buyer guide) ─── */
+.cat-deep {
+  background: var(--cream);
+  padding: 90px 60px 80px;
+  border-top: 1px solid rgba(107,74,51,0.10);
+}
+.cat-deep-inner { max-width: 880px; margin: 0 auto; }
+.cat-deep .cat-section-title {
+  font-size: clamp(1.6rem, 2.6vw, 2.1rem);
+  margin: 8px 0 26px;
+}
+.cat-deep-para {
+  font-size: 1.02rem;
+  line-height: 1.82;
+  color: var(--charcoal);
+  margin: 0 0 22px;
+}
+.cat-deep-para:last-child { margin-bottom: 0; }
+.cat-deep-link {
+  color: var(--wood-deep);
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1.5px;
+  transition: color .2s, text-decoration-color .2s;
+}
+.cat-deep-link:hover {
+  color: var(--accent);
+  text-decoration-color: var(--wood-deep);
+}
+@media (max-width: 960px) { .cat-deep { padding: 64px 24px 56px; } }
+
 /* ─── FAQ ─── */
 .cat-faq { background: var(--cream-dark); }
 .cat-faq-sub {
@@ -404,6 +436,35 @@ const CSS = `
 // Detect "product-on-white" PNGs so we render them on a white card with padding instead of cropping.
 const isProductImage = (src) =>
   src.endsWith('.png') || src.includes('bamboo') || src.includes('walnut%20jewelery');
+
+// Render a paragraph string from CATEGORIES[slug].deepContent.paragraphs[].
+// The string may contain inline links in [text](path) markdown form;
+// segments outside those tokens are emitted as plain text, and link
+// segments become next-intl Link elements so the active-locale prefix
+// is added automatically and intra-site clicks stay client-side.
+function renderDeepParagraph(text, keyPrefix) {
+  const re = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const out = [];
+  let last = 0;
+  let m;
+  let i = 0;
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > last) out.push(text.slice(last, m.index));
+    out.push(
+      <Link
+        key={`${keyPrefix}-${i}`}
+        href={m[2]}
+        className="cat-deep-link"
+      >
+        {m[1]}
+      </Link>,
+    );
+    last = m.index + m[0].length;
+    i += 1;
+  }
+  if (last < text.length) out.push(text.slice(last));
+  return out;
+}
 
 export default async function CategoryPage({ params }) {
   unstable_setRequestLocale(params.locale);
@@ -640,6 +701,27 @@ export default async function CategoryPage({ params }) {
           </div>
         </div>
       </section>
+
+      {/* ── DEEP CONTENT (buyer guide) ── */}
+      {/* Only renders when the category data ships a `deepContent` block. */}
+      {/* Sits between Specs/Use Cases and the FAQ — gives Google a long-form */}
+      {/* keyword-rich passage in the body without making the hero feel heavy. */}
+      {item.deepContent && (
+        <section className="cat-section cat-deep" aria-labelledby="cat-deep-title">
+          <div className="cat-deep-inner">
+            <div className="cat-section-label">{item.deepContent.eyebrow}</div>
+            <h2 className="cat-section-title" id="cat-deep-title">
+              {item.deepContent.title}
+            </h2>
+            <div className="cat-section-line" />
+            {item.deepContent.paragraphs.map((p, i) => (
+              <p key={i} className="cat-deep-para">
+                {renderDeepParagraph(p, `dp-${i}`)}
+              </p>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* ── FAQ ── */}
       {faqs && faqs.items && faqs.items.length > 0 && (
