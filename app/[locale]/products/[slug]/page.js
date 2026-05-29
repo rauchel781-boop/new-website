@@ -1,4 +1,5 @@
 import { Link } from '@/i18n/navigation';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { CATEGORIES, SLUGS } from '@/data/categories';
 import ProductGrid from '@/components/ProductGrid';
@@ -309,6 +310,22 @@ const CSS = `
 .cat-deep-link:hover {
   color: var(--accent);
   text-decoration-color: var(--wood-deep);
+}
+.cat-deep-fig-wrap { margin: 32px 0; }
+.cat-deep-figure {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  border-radius: 6px;
+  overflow: hidden;
+  background: var(--cream-dark);
+  border: 1px solid rgba(107,74,51,0.16);
+}
+.cat-deep-figcaption {
+  margin: 12px 0 0;
+  font-size: 0.86rem;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.55;
 }
 @media (max-width: 960px) { .cat-deep { padding: 64px 24px 56px; } }
 
@@ -714,11 +731,26 @@ export default async function CategoryPage({ params }) {
               {item.deepContent.title}
             </h2>
             <div className="cat-section-line" />
-            {item.deepContent.paragraphs.map((p, i) => (
-              <p key={i} className="cat-deep-para">
-                {renderDeepParagraph(p, `dp-${i}`)}
-              </p>
-            ))}
+            {item.deepContent.blocks.map((b, i) =>
+              b.type === 'img' ? (
+                <figure key={i} className="cat-deep-fig-wrap">
+                  <div className="cat-deep-figure">
+                    <Image
+                      src={b.src}
+                      alt={b.caption}
+                      fill
+                      sizes="(max-width: 900px) 100vw, 800px"
+                      style={{ objectFit: 'cover' }}
+                    />
+                  </div>
+                  <figcaption className="cat-deep-figcaption">{b.caption}</figcaption>
+                </figure>
+              ) : (
+                <p key={i} className="cat-deep-para">
+                  {renderDeepParagraph(b.text, `dp-${i}`)}
+                </p>
+              ),
+            )}
           </div>
         </section>
       )}
