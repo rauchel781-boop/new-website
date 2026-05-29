@@ -3,6 +3,352 @@
 
 export default {
   "posts": {
+    "sourcing-custom-wooden-boxes-from-china-2026": {
+      "title": "Sourcer des boîtes en bois personnalisées depuis la Chine en 2026 : le guide de l'acheteur B2B",
+      "excerpt": "Un guide pratique de sourcing pour marques retail et équipes achats — ce que \"depuis la Chine\" signifie vraiment en 2026, les 7 questions qui filtrent les fournisseurs capables, comment MOQ et coût unitaire s'articulent réellement, et les réalités de conformité et d'expédition derrière une livraison propre.",
+      "category": "Stratégie",
+      "readTime": "13 min de lecture",
+      "body": [
+        {
+          "type": "p",
+          "text": "La première fois qu'une responsable achats d'un détaillant cadeaux d'Helsinki m'a demandé comment sourcer des boîtes en bois personnalisées depuis la Chine, elle était déjà passée par deux fournisseurs en 18 mois. Le premier avait coté à 3,20 USD l'unité, encaissé son budget outillage et expédié des boîtes avec un taux d'humidité tellement variable que 14 % de la commande est arrivée fissurée. Le deuxième était techniquement compétent mais ne communiquait que par réponses vagues sur WeChat et avait raté sa fenêtre de Noël de six semaines. Elle était sur le point d'abandonner les fournisseurs chinois pour de bon."
+        },
+        {
+          "type": "p",
+          "text": "Son expérience n'est pas inhabituelle. Sourcer des emballages en bois depuis la Chine en 2026 est l'une des décisions les plus rentables qu'une marque B2B puisse prendre — les usines ici ont une profondeur inégalée en menuiserie, finition et intégration de quincaillerie. Mais c'est aussi un marché à très large amplitude qualité-fiabilité, et un acheteur qui filtre uniquement par prix a environ 1 chance sur 3 de se faire mal sur sa première commande."
+        },
+        {
+          "type": "p",
+          "text": "Ce guide est le playbook que j'aurais voulu que l'acheteuse d'Helsinki lise avant sa première commande. Il couvre ce que \"boîtes en bois personnalisées depuis la Chine\" signifie vraiment en 2026, les sept questions qui séparent les fournisseurs capables du reste, comment MOQ et coût unitaire s'articulent réellement à cette extrémité du marché, et les réalités de conformité et d'expédition qui transforment une bonne cotation en palette livrée. À la fin, vous devriez savoir entrer dans votre première conversation avec le bon vocabulaire, les bonnes attentes et les bons signaux d'alarme déjà chargés."
+        },
+        {
+          "type": "h2",
+          "text": "TL;DR — ce que vous retiendrez en 8 points"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Derrière \"boîtes en bois depuis la Chine\" il y a 3 structures d'approvisionnement — vous voulez presque certainement le modèle usine spécialiste + bureau commercial.",
+            "7 questions de vérification filtrent les fournisseurs capables des vitrines bien polies dès le premier appel.",
+            "MOQ, coût unitaire et délai interagissent — optimiser uniquement le prix unitaire est l'erreur d'acheteur la plus courante (et la plus coûteuse).",
+            "Une carte de conformité par marché évite que votre conteneur soit retenu au port (ISPM 15 toujours ; FSC, CARB, EU REACH selon la destination).",
+            "Les échantillons de pré-production ne sont pas négociables. Ne jamais approuver une commande de 5 000 pièces sur un rendu CAO.",
+            "12 semaines du premier e-mail à la palette livrée est réaliste. Tout ce qui est sensiblement plus court est du fret aérien ou un raccourci.",
+            "0,4 % de taux de défauts pré-expédition est le benchmark d'une usine compétente ; au-dessus de 3 % est un avertissement.",
+            "Marquez la checklist pré-vol en 10 points à la fin et parcourez-la avant de virer le moindre acompte."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "D'abord — ce que \"depuis la Chine\" recouvre vraiment en 2026"
+        },
+        {
+          "type": "p",
+          "text": "Quand on dit \"boîtes en bois depuis la Chine\", trois structures d'approvisionnement très différentes se mélangent dans la tête de la plupart des acheteurs. Elles ne sont pas interchangeables, et leurs prix sont très différents."
+        },
+        {
+          "type": "h3",
+          "text": "1. Sociétés de négoce et listings de marketplaces"
+        },
+        {
+          "type": "p",
+          "text": "Les sites agrégateurs — Alibaba, Made-in-China, 1688 — sont le visage le plus visible du sourcing chinois. Environ 60 % des \"fabricants\" que vous y trouverez sont des sociétés de négoce qui ne possèdent pas d'usine ; elles prennent votre commande et la sous-traitent à l'atelier qui a de la capacité libre cette semaine-là. Le prix est compétitif parce que la société de négoce tourne légère, mais vous n'avez aucun contrôle sur quelle usine fait réellement vos boîtes, et votre QA se déroule selon les règles de quelqu'un d'autre. Les sociétés de négoce fonctionnent pour les produits de commodité où chaque unité est identique et la qualité est binaire. Les boîtes personnalisées ne sont ni l'un ni l'autre."
+        },
+        {
+          "type": "h3",
+          "text": "2. Usines spécialisées avec bureaux commerciaux"
+        },
+        {
+          "type": "p",
+          "text": "La plupart du sourcing B2B sérieux se passe ici. Une usine spécialisée (concentrée sur le paulownia, le pin, le bambou, l'acacia, le noyer — choisissez une ou deux essences) opère sa propre cour de production et la couple avec un bureau commercial dans un hub export comme Xiamen, Shenzhen ou Shanghai. L'usine s'occupe de la fabrication ; le bureau commercial s'occupe de la documentation, de la coordination des échantillons, de la communication et de la logistique peu sexy qui transforme une palette de boîtes en quelque chose qui passe la douane. Notre propre structure — une usine de production de 15 000 m² à Cao County, Shandong et un bureau commercial à Xiamen, Fujian — entre dans cette catégorie, et c'est le modèle qui produit le résultat le plus prévisible pour les acheteurs qui veulent réapprovisionner."
+        },
+        {
+          "type": "h3",
+          "text": "3. Ateliers boutique"
+        },
+        {
+          "type": "p",
+          "text": "En haut de gamme, vous trouverez de petits ateliers produisant des séries de 300 pièces de boîtes à montres en noyer massif ou de pièces heirloom gravées à la main. Les délais sont longs, les prix unitaires élevés, et ils ne sont pas faits pour scaler — mais ce sont ceux que vous voulez pour les éditions limitées et les lancements luxe où chaque détail est validé en personne."
+        },
+        {
+          "type": "p",
+          "text": "La plupart des marques B2B qui sourcent des boîtes en bois personnalisées ont besoin de la catégorie 2 — une usine spécialisée avec un bras export compétent. Le reste de cet article suppose que c'est ce que vous cherchez."
+        },
+        {
+          "type": "img",
+          "src": "/factory/chic-factory.webp",
+          "caption": "Une usine spécialisée avec menuiserie, finition et QC en interne — la structure d'approvisionnement que la plupart des marques B2B veulent réellement."
+        },
+        {
+          "type": "h2",
+          "text": "7 questions à poser avant votre première commande"
+        },
+        {
+          "type": "p",
+          "text": "Ce sont les questions qui séparent les fournisseurs capables de tenir leur cotation des fournisseurs qui vous disent ce que vous voulez entendre. Utilisez-les comme filtre lors de votre premier appel."
+        },
+        {
+          "type": "h3",
+          "text": "1. Possédez-vous l'usine, ou êtes-vous une société de négoce ?"
+        },
+        {
+          "type": "p",
+          "text": "Il n'y a rien d'intrinsèquement mauvais avec une société de négoce si vous n'avez vraiment pas besoin de contrôler quelle usine fait vos boîtes — mais vous devriez savoir à qui vous parlez. Demandez directement : \"Pouvez-vous m'envoyer une vidéo de l'usine où vous ferez passer ma commande, avec horodatage ?\" Les sociétés de négoce esquivent généralement ; les usines vous le montrent en deux minutes."
+        },
+        {
+          "type": "h3",
+          "text": "2. Quel est votre MOQ typique, et quel est le MOQ plancher ?"
+        },
+        {
+          "type": "p",
+          "text": "\"Typique\" vous dit leur sweet spot commercial ; \"plancher\" vous dit si vous pouvez faire un test avant de vous engager sur une saison entière. Pour la plupart des boîtes en bois personnalisées, le MOQ typique se situe à 500–1 000 pièces ; les MOQ planchers pour premières commandes ou spécifications plus simples peuvent être de 100–300. Si un fournisseur refuse de coter quoi que ce soit en dessous de 1 000, il n'est probablement pas configuré pour des tests incrémentaux — bien pour des lignes établies, risqué pour un nouveau lancement."
+        },
+        {
+          "type": "h3",
+          "text": "3. Pouvez-vous partager trois références d'acheteurs de ma région ?"
+        },
+        {
+          "type": "p",
+          "text": "Les références géographiques comptent parce qu'elles prouvent que le fournisseur a navigué votre régime douanier, les attentes QC de votre revendeur et vos normes linguistiques. Une usine qui exporte beaucoup vers les États-Unis peut savoir peu de choses sur EU REACH ou la Verpackungsgesetz allemande. Les références parlent de ça — et un fournisseur fiable vous les donnera sans mise en scène."
+        },
+        {
+          "type": "h3",
+          "text": "4. Comment gérez-vous les échantillons de pré-production et combien coûtent-ils ?"
+        },
+        {
+          "type": "p",
+          "text": "Les bonnes usines échantillonnent chaque nouveau design avant de coter la production pleine. Le coût d'échantillon varie — gratuit pour les acheteurs établis, 80–200 USD la pièce pour des builds complexes ponctuels — mais le principe n'est pas négociable : vous ne devriez jamais approuver une commande de 5 000 pièces sur un seul rendu CAO. Méfiez-vous des fournisseurs qui résistent aux échantillons physiques ou facturent des coûts de moule qui ressemblent suspicieusement à une marge de société de négoce."
+        },
+        {
+          "type": "img",
+          "src": "/factory/production.webp",
+          "caption": "Un échantillon n'est pas un rendu — c'est l'unité de niveau production qui vous permet de vérifier menuiserie, finition et décoration avant de verrouiller la série complète."
+        },
+        {
+          "type": "h3",
+          "text": "5. Quel est votre taux de défauts et comment est-il mesuré ?"
+        },
+        {
+          "type": "p",
+          "text": "Toute usine devrait pouvoir vous donner un chiffre — 0,4 % de taux d'échec pré-expédition est le benchmark d'une opération compétente, en dessous de 1 % est acceptable, au-dessus de 3 % est un signal d'alarme. Important : demandez comment il est mesuré. Un taux de défauts calculé sur les boîtes sortantes (après reprise) est différent d'un taux calculé sur la production du premier passage. Le chiffre du premier passage vous dit la discipline de processus ; le chiffre sortant vous dit le contrôle qualité de sortie."
+        },
+        {
+          "type": "h3",
+          "text": "6. Quelles certifications détenez-vous et lesquelles pouvez-vous fournir par commande ?"
+        },
+        {
+          "type": "p",
+          "text": "Certifications permanentes et documents par commande sont deux choses différentes. ISO 9001 est une certification de système de management permanent qui s'applique à toute l'usine. FSC, CARB et EU REACH sont généralement appliqués par commande : le bois utilisé dans votre série spécifique est sourcé et documenté pour respecter le standard. Demandez au fournisseur ce qu'il a en permanent et ce qu'il peut documenter pour votre commande. Des réponses désalignées ici sont le signe le plus courant d'ennuis."
+        },
+        {
+          "type": "h3",
+          "text": "7. À quoi ressemble votre paquet de documentation export ?"
+        },
+        {
+          "type": "p",
+          "text": "Les emballages en bois massif expédiés à l'international ont besoin d'un certificat phytosanitaire ISPM 15 — sans lui, votre conteneur peut être mis en quarantaine ou retourné au port. Le fournisseur devrait pouvoir vous envoyer un paquet de documentation d'exemple (facture commerciale avec codes HS, packing list avec ventilation carton par carton, certificat phytosanitaire, certificat d'origine, connaissement) avant l'engagement. Les fournisseurs qui n'ont pas de template prêt n'expédient pas à grande échelle."
+        },
+        {
+          "type": "img",
+          "src": "/factory/warehouse.webp",
+          "caption": "Une opération export compétente emballe et documente des conteneurs quotidiennement — votre fournisseur devrait traiter ISPM 15 comme une mémoire musculaire, pas de la paperasse."
+        },
+        {
+          "type": "h2",
+          "text": "Comment MOQ, coût unitaire et délai s'articulent réellement"
+        },
+        {
+          "type": "p",
+          "text": "Les acheteurs B2B qui ne demandent que \"quel est votre prix unitaire ?\" obtiennent la mauvaise réponse parce que la réponse dépend entièrement de trois autres variables. Voici comment ces variables interagissent à l'extrémité boîtes en bois personnalisées du marché en 2026."
+        },
+        {
+          "type": "p",
+          "text": "Le MOQ est fixé par le coût de mise en route — programmer les scies, configurer la CNC, mélanger la finition, construire un échantillon, former une équipe de finition sur votre design spécifique. En dessous de 200–300 pièces, ces coûts de mise en route s'étalent finement sur l'unité et le prix s'envole. Entre 300 et 2 000 pièces se trouve le sweet spot commercial où la mise en route s'amortit et où vous obtenez le coût par unité le plus attractif. Au-dessus de 5 000 pièces, le prochain palier de remise nécessite généralement de passer à un matériau plus léger ou à une menuiserie plus simple — un produit différent, pas juste une plus grande série du même."
+        },
+        {
+          "type": "p",
+          "text": "Exemple pratique : un détaillant cadeau berlinois nous a récemment demandé de produire 1 200 boîtes à thé en noyer à un coût unitaire cible de 4,80 USD avec 28 jours de délai. Notre réponse honnête a été que 1 200 pièces atterrissent proprement dans la zone douce (sous 5 USD avec un séchage en four correct est réaliste), mais 28 jours ne fonctionnent que si elle approuve l'échantillon dans les 5 jours et saute la seconde manche de révision. Elle l'a fait, et les boîtes ont été expédiées au jour 32. La leçon est la même que chaque acheteur expérimenté apprend : le coût unitaire n'a jamais été le levier — l'horloge d'approbation d'échantillon l'était."
+        },
+        {
+          "type": "p",
+          "text": "Le délai, ce sont deux horloges qui tournent en parallèle. La première est le temps calendaire : séchage en four (5–14 jours), durcissement de la finition (3–5 jours), et attente d'un départ export (5–10 jours de la porte de l'usine au conteneur de votre transitaire). La seconde est le temps de production réel : généralement 12–25 minutes de travail par boîte, multipliés par votre quantité de commande. Le temps calendaire domine pour les commandes en dessous de 5 000 unités ; le temps de production domine au-dessus de 10 000. Une série personnalisée typique de 1 500 pièces depuis notre installation prend 30–40 jours porte à porte."
+        },
+        {
+          "type": "img",
+          "src": "/factory/material.webp",
+          "caption": "Bois séché au four — 5 à 14 jours de séchage rendent les 30–40 jours de délai réels, et empêchent vos boîtes de se fissurer trois mois après l'expédition."
+        },
+        {
+          "type": "stats",
+          "items": [
+            {
+              "num": "300",
+              "label": "MOQ standard par design (pcs)"
+            },
+            {
+              "num": "30-40",
+              "suffix": " jours",
+              "label": "Production après approbation d'échantillon"
+            },
+            {
+              "num": "0,4",
+              "suffix": "%",
+              "label": "Benchmark taux défauts pré-expédition"
+            },
+            {
+              "num": "88-92",
+              "suffix": "%",
+              "label": "Rendement matière via logiciel de nesting"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Le coût unitaire est la plus petite des trois variables que vous devriez optimiser. Celle qui fait le plus mal quand vous vous trompez, c'est la fiabilité — une économie de 0,30 USD par unité sur une commande de 2 000 pièces fait 600 USD. Le coût d'une fenêtre retail manquée, c'est la marge entière de cette saison. Les fournisseurs qui mènent avec le prix ne sont pas ceux qui reçoivent des re-commandes."
+        },
+        {
+          "type": "h2",
+          "text": "Conformité — ce que votre marché d'importation exige vraiment"
+        },
+        {
+          "type": "p",
+          "text": "C'est la section que chaque nouvel acheteur sous-estime. Différents marchés ont différents régimes de conformité, et un fournisseur expérimenté les gère de manière transparente. Le tableau ci-dessous résume les exigences les plus courantes pour l'emballage en bois par destination."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Marché",
+            "Toujours requis",
+            "Souvent requis",
+            "Qui fournit"
+          ],
+          "rows": [
+            [
+              "UE (DE / IT / FR / ES / PT)",
+              "ISPM 15, EU REACH (finitions)",
+              "FSC (retail), Verpackungsgesetz (DE)",
+              "Fournisseur + votre importateur"
+            ],
+            [
+              "États-Unis",
+              "ISPM 15, CARB P2 (composite)",
+              "FSC (retail), Prop 65 (CA)",
+              "Fournisseur + votre importateur"
+            ],
+            [
+              "Royaume-Uni",
+              "ISPM 15, REACH (équivalent post-Brexit)",
+              "FSC (retail)",
+              "Fournisseur"
+            ],
+            [
+              "Canada / AU / NZ",
+              "ISPM 15, déclaration biosécurité",
+              "FSC (retail)",
+              "Fournisseur + votre transitaire"
+            ],
+            [
+              "Japon / Corée",
+              "ISPM 15",
+              "JAS / KS (articles spécifiques)",
+              "Fournisseur"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "ISPM 15 n'est pas négociable pour tout emballage en bois massif entrant dans pratiquement tout marché développé. Si un fournisseur ne le mentionne pas dans votre première conversation, il n'expédie pas à grande échelle vers votre destination."
+        },
+        {
+          "type": "p",
+          "text": "Pour les acheteurs européens, la conformité EU REACH sur les finitions (formaldéhyde, COV) et l'enregistrement à la Verpackungsgesetz allemande sur l'emballage lui-même sont les deux lacunes de conformité les plus fréquentes. Demandez au fournisseur si ses finitions sont testées EU REACH et s'il peut fournir une déclaration CARB P2 sur tout composant composite. Pour les acheteurs américains, la California Proposition 65 — étiquetage de tout produit contenant des finitions ou de la quincaillerie sur la liste — est l'autre piège ; géré côté importateur mais à confirmer avec le fournisseur."
+        },
+        {
+          "type": "img",
+          "src": "/factory/painting.webp",
+          "caption": "Les couches de finition sont conformes EU REACH et CARB par formulation — le choix se fait à ce poste, pas au guichet de douane."
+        },
+        {
+          "type": "h2",
+          "text": "Les 7 erreurs de sourcing les plus courantes (et comment les éviter)"
+        },
+        {
+          "type": "p",
+          "text": "Ce sont les erreurs que nous voyons les nouveaux acheteurs faire le plus souvent. Chacune est réparable avant de vous coûter de l'argent."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Choisir la cotation la moins chère sans comparer sur des specs équivalentes. Une cotation à 2,10 USD et une à 2,80 USD pour \"la même boîte\" diffèrent généralement par le taux d'humidité, les couches de finition et la profondeur du QC — et la moins chère expédie des boîtes qui se fissurent en troisième semaine.",
+            "Sauter l'échantillon de pré-production. Approuver une série de 5 000 pièces depuis un rendu CAO est la manière la plus rapide de perdre votre marge. Toujours échantillonner.",
+            "Sous-spécifier le brief. \"Nous voulons une boîte cadeau en bois, 200 × 150 × 80 mm, fermeture magnétique\" est un point de départ, pas un brief. Ajoutez : essence de bois, finition, doublure intérieure, quincaillerie, méthode de décoration, type d'emballage, marché cible — et une référence concurrente si vous en avez une.",
+            "Confondre MOQ et MOQ plancher. Le MOQ \"typique\" est le sweet spot commercial ; le MOQ \"plancher\" est ce que vous pouvez négocier pour un test. Demandez toujours les deux.",
+            "Ignorer ISPM 15. Un conteneur qui arrive au port sans certification phytosanitaire peut être mis en quarantaine pendant des jours, re-fumigé à vos frais ou renvoyé. Confirmez avant que le conteneur quitte la Chine.",
+            "Traiter la finition comme un coin à rogner. Deux couches vs trois couches, base eau vs base solvant, poli à la main vs fini à la machine — ces décisions apparaissent six mois plus tard comme la différence entre un acheteur qui re-commande et un qui ne le fait pas.",
+            "Essayer de gérer le fournisseur vous-même quand votre volume justifie un transitaire. Une fois que vous faites des conteneurs de 20 pieds quatre fois par an, la relation avec le transitaire fait économiser plus qu'elle ne coûte."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "De la cotation à la palette livrée — à quoi ressemblent 12 semaines"
+        },
+        {
+          "type": "p",
+          "text": "Voici à quoi ressemble une chronologie réaliste pour une série personnalisée de 1 500 pièces, de votre premier e-mail à l'arrivée des boîtes dans votre entrepôt."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Semaine 1 : brief, cotation, shortlist fournisseurs. Vous envoyez specs et images de référence à deux ou trois fournisseurs présélectionnés ; les cotations reviennent sous 1–3 jours ouvrés.",
+            "Semaines 2–3 : échantillonnage pré-production. Le fournisseur produit un échantillon physique ; vous examinez matériaux, finition, menuiserie et décoration ; une manche de révision est normale, deux sont un drapeau jaune.",
+            "Semaine 4 : approbation d'échantillon et bon de commande. Vous émettez un bon de commande, payez l'acompte (généralement 30 %), et le fournisseur verrouille le créneau de production.",
+            "Semaines 5–9 : production. Sélection du bois, séchage en four, découpe, menuiserie, finition, montage quincaillerie et QC. La majeure partie de ces 5 semaines est durcissement et attente ; le travail réel par boîte est de 15–25 minutes.",
+            "Semaine 10 : QC final et paiement du solde. Vous recevez des photos d'inspection pré-expédition (ou envoyez un inspecteur tiers) ; vous virez les 70 % de solde.",
+            "Semaines 11–12 : chargement conteneur, documentation douanière, navigation vers le port de destination. Ajoutez 1–2 semaines supplémentaires pour le transport terrestre une fois le conteneur dédouané à destination."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Pour le fret aérien (utilisé sur des commandes critiques en temps et des échantillons), vous pouvez comprimer les semaines 11–12 à 3–5 jours mais payer environ 5–8× le coût maritime. Pour la plupart des volumes retail B2B, le maritime est le bon choix."
+        },
+        {
+          "type": "img",
+          "src": "/factory/wooden-box-4.webp",
+          "caption": "QC pré-expédition — chaque boîte vérifiée contre l'échantillon approuvé, puis emballée, palettisée et documentée pour le port de destination."
+        },
+        {
+          "type": "h2",
+          "text": "Une checklist pré-vol pour votre première commande"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Brief écrit : dimensions, bois, finition, quincaillerie, doublure intérieure, décoration, emballage, marché cible.",
+            "Deux ou trois fournisseurs présélectionnés, chacun ayant répondu aux 7 questions ci-dessus sans esquive.",
+            "Échantillon pré-production approuvé avec au moins une manche de révisions documentée par écrit.",
+            "Benchmark de taux de défauts convenu dans le contrat (nous recommandons une inspection pré-expédition sur les trois premières commandes, puis échantillonnage aléatoire).",
+            "Certificat ISPM 15 et certifications par marché confirmés disponibles (FSC, CARB, EU REACH selon les besoins).",
+            "Template de paquet de documentation reçu : facture commerciale, packing list, phytosanitaire, certificat d'origine, connaissement.",
+            "Conditions de paiement verrouillées : typiquement split 30/70 (acompte / solde contre photos pré-expédition ou copie BL).",
+            "Transitaire identifié et briefé sur la cargaison et la destination.",
+            "Incoterm confirmé (FOB ou EXW pour la première commande ; CIF/DDP une fois que vous faites confiance au fournisseur).",
+            "Un canal de communication qui fonctionne dans votre fuseau horaire — l'e-mail soutenu par WhatsApp ou WeChat est le minimum moderne."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Sourcer des boîtes en bois personnalisées depuis la Chine est un business de relation, pas une transaction. Les usines qui le font bien cherchent la même chose que les acheteurs : une ligne d'approvisionnement qui expédie propre, à l'heure, chaque trimestre, sans surprises."
+        },
+        {
+          "type": "p",
+          "text": "Les sept questions ci-dessus sont comment vous trouvez ces usines ; la chronologie de 12 semaines est ce à quoi vous attendre ; la carte de conformité est ce qui vous protège quand votre conteneur arrive au port. Combinez ces trois et vous écarterez les fournisseurs qui ne savent que gagner la première commande, et trouverez ceux qui savent comment la garder."
+        },
+        {
+          "type": "p",
+          "text": "Si vous êtes au début de ce voyage et voulez discuter d'une question spécifique de design, MOQ, matériau ou conformité, notre équipe à Xiamen peut vous accompagner directement — envoyez un brief depuis la page /contact et nous répondrons avec une vidéo d'échantillon d'usine et un paquet de documentation sous un jour ouvré. Nous expédions actuellement des boîtes en bois personnalisées vers des marques en Allemagne, Italie, États-Unis, Royaume-Uni, Canada et Pologne via exactement ce processus. Vous pouvez parcourir le catalogue de production sur /products, lire sur notre processus de fabrication en six étapes sur /blog/six-step-manufacturing-process, ou commencer par le guide des matériaux si vous n'avez pas encore choisi votre bois (/material-guide)."
+        }
+      ]
+    },
     "six-step-manufacturing-process": {
       "title": "À l'intérieur de notre processus de fabrication de boîte en bois de 6 étapes",
       "excerpt": "Une promenade à travers de ce qui se passe réellement entre le bois brut et la boîte finie qui atterrit dans votre entrepôt-du séchage au four aux certificats phytosanitaires.",

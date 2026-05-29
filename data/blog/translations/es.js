@@ -3,6 +3,352 @@
 
 export default {
   "posts": {
+    "sourcing-custom-wooden-boxes-from-china-2026": {
+      "title": "Aprovisionarse de cajas de madera personalizadas desde China en 2026: el manual del comprador B2B",
+      "excerpt": "Una guía práctica de aprovisionamiento para marcas de retail y equipos de compras — qué significa realmente \"desde China\" en 2026, las 7 preguntas que filtran proveedores capaces, cómo MOQ y coste unitario encajan en realidad, y las realidades de cumplimiento y envío detrás de una entrega limpia.",
+      "category": "Estrategia",
+      "readTime": "13 min de lectura",
+      "body": [
+        {
+          "type": "p",
+          "text": "La primera vez que la responsable de compras de un minorista de regalos de Helsinki me preguntó cómo aprovisionarse de cajas de madera personalizadas desde China, ya había pasado por dos proveedores en 18 meses. El primero había cotizado a 3,20 USD por unidad, se había quedado con su dinero de utillaje y había enviado cajas con un contenido de humedad tan variable que el 14% del pedido llegó agrietado. El segundo era técnicamente competente pero solo se comunicaba con respuestas vagas en WeChat y falló su ventana navideña por seis semanas. Estaba a punto de renunciar por completo a los proveedores chinos."
+        },
+        {
+          "type": "p",
+          "text": "Su experiencia no es inusual. Aprovisionarse de embalaje de madera desde China en 2026 es una de las decisiones más rentables que puede tomar una marca B2B — las fábricas aquí tienen una profundidad inigualable en ebanistería, acabados e integración de herrajes. Pero también es un mercado con una amplia dispersión de calidad y fiabilidad, y un comprador que filtra solo por precio tiene aproximadamente 1 de cada 3 posibilidades de hacerse daño en su primer pedido."
+        },
+        {
+          "type": "p",
+          "text": "Esta guía es el manual que habría querido que la compradora de Helsinki leyera antes de hacer su primer pedido. Cubre qué significa realmente \"cajas de madera personalizadas desde China\" en 2026, las siete preguntas que separan a los proveedores capaces del resto, cómo MOQ y coste unitario encajan realmente en este extremo del mercado, y las realidades de cumplimiento y envío que convierten una buena cotización en un palé entregado. Al final deberías saber cómo entrar a tu primera conversación con el vocabulario correcto, las expectativas correctas y las banderas rojas correctas ya cargadas."
+        },
+        {
+          "type": "h2",
+          "text": "TL;DR — qué te llevarás en 8 puntos"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Detrás de \"cajas de madera desde China\" hay 3 estructuras de suministro — casi con seguridad quieres el modelo fábrica especialista + oficina comercial.",
+            "7 preguntas de verificación filtran proveedores capaces del escaparate bien pulido ya en la primera llamada.",
+            "MOQ, coste unitario y plazo de entrega interactúan — optimizar solo el precio unitario es el error más común (y más caro) del comprador.",
+            "Un mapa de cumplimiento por mercado evita que tu contenedor sea retenido en puerto (ISPM 15 siempre; FSC, CARB, EU REACH según destino).",
+            "Las muestras de preproducción no son negociables. Nunca apruebes un pedido de 5.000 piezas sobre un render CAD.",
+            "12 semanas desde el primer email hasta el palé entregado es realista. Cualquier cosa significativamente más corta es aérea o atajos.",
+            "0,4% de tasa de defectos pre-envío es el benchmark de una fábrica competente; por encima del 3% es una advertencia.",
+            "Guarda la checklist pre-vuelo de 10 puntos al final y recórrela antes de transferir cualquier depósito."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Primero — qué cubre realmente \"desde China\" en 2026"
+        },
+        {
+          "type": "p",
+          "text": "Cuando se dice \"cajas de madera desde China\", en la cabeza de la mayoría de compradores se mezclan tres estructuras de suministro muy diferentes. No son intercambiables, y tienen precios muy distintos."
+        },
+        {
+          "type": "h3",
+          "text": "1. Empresas comerciales y listados en marketplaces"
+        },
+        {
+          "type": "p",
+          "text": "Los sitios agregadores — Alibaba, Made-in-China, 1688 — son la cara más visible del sourcing chino. Alrededor del 60% de los \"fabricantes\" que encontrarás allí son empresas comerciales que no poseen una fábrica; toman tu pedido y lo subcontratan a cualquier taller que tenga capacidad libre esa semana. El precio es competitivo porque la empresa comercial opera ajustada, pero no tienes control sobre qué fábrica hace realmente tus cajas, y el QA ocurre bajo las reglas de otro. Las empresas comerciales funcionan para productos commodity donde cada unidad es idéntica y la calidad es binaria. Las cajas personalizadas no son ninguna de las dos cosas."
+        },
+        {
+          "type": "h3",
+          "text": "2. Fábricas especializadas con oficinas comerciales"
+        },
+        {
+          "type": "p",
+          "text": "La mayoría del sourcing B2B serio sucede aquí. Una fábrica especializada (centrada en paulownia, pino, bambú, acacia, nogal — elige una o dos especies) opera su propio patio productivo y lo combina con una oficina comercial en un hub de exportación como Xiamen, Shenzhen o Shanghái. La fábrica se encarga de la fabricación; la oficina comercial se encarga de documentación, coordinación de muestras, comunicación y la logística poco sexy que convierte un palé de cajas en algo que pasa aduanas. Nuestra propia estructura — una planta de producción de 15.000 m² en Cao County, Shandong, y una oficina comercial en Xiamen, Fujian — entra en esta categoría, y es el modelo que ofrece el resultado más predecible para compradores que quieren repetir pedido."
+        },
+        {
+          "type": "h3",
+          "text": "3. Talleres boutique"
+        },
+        {
+          "type": "p",
+          "text": "En la gama alta encontrarás pequeños talleres que producen series de 300 piezas de cajas de relojes en nogal macizo o piezas heirloom grabadas a mano. Los plazos de entrega son largos, los precios unitarios altos, y no están construidos para escalar — pero son a quienes quieres para ediciones limitadas y lanzamientos de lujo donde cada detalle se firma en persona."
+        },
+        {
+          "type": "p",
+          "text": "La mayoría de marcas B2B que se aprovisionan de cajas de madera personalizadas necesitan la categoría 2 — una fábrica especialista con un brazo exportador competente. El resto de este artículo asume que es lo que estás buscando."
+        },
+        {
+          "type": "img",
+          "src": "/factory/chic-factory.webp",
+          "caption": "Una fábrica especialista con ebanistería, acabado y QC propios — la estructura de suministro que la mayoría de marcas B2B realmente quiere."
+        },
+        {
+          "type": "h2",
+          "text": "7 preguntas que hacer antes de tu primer pedido"
+        },
+        {
+          "type": "p",
+          "text": "Estas son las preguntas que separan a los proveedores que pueden cumplir su cotización de los que te dicen lo que quieres oír. Úsalas como filtro en tu primera llamada."
+        },
+        {
+          "type": "h3",
+          "text": "1. ¿Sois propietarios de la fábrica o sois una empresa comercial?"
+        },
+        {
+          "type": "p",
+          "text": "No hay nada inherentemente mal con una empresa comercial si realmente no necesitas controlar qué fábrica hace tus cajas — pero deberías saber con cuál hablas. Pregunta directo: \"¿Podéis enviarme un vídeo de la fábrica por la que pasaréis mi pedido, con sello de fecha?\" Las empresas comerciales suelen desviar; las fábricas te lo enseñan en dos minutos."
+        },
+        {
+          "type": "h3",
+          "text": "2. ¿Cuál es vuestro MOQ típico y cuál es el MOQ mínimo?"
+        },
+        {
+          "type": "p",
+          "text": "\"Típico\" te dice su sweet spot comercial; \"mínimo\" te dice si puedes hacer una prueba antes de comprometerte con una temporada completa. Para la mayoría de cajas de madera personalizadas el MOQ típico es 500–1.000 piezas; los MOQ mínimos para primeros pedidos o especificaciones más simples pueden ser 100–300. Si un proveedor se niega a cotizar nada por debajo de 1.000, probablemente no está preparado para pruebas incrementales — bien para líneas establecidas, arriesgado para un nuevo lanzamiento."
+        },
+        {
+          "type": "h3",
+          "text": "3. ¿Podéis compartir tres referencias de compradores de mi región?"
+        },
+        {
+          "type": "p",
+          "text": "Las referencias geográficas importan porque demuestran que el proveedor ha navegado tu régimen aduanero, las expectativas de QC de tu minorista y tus normas lingüísticas. Una fábrica que exporta mucho a EE.UU. puede saber poco de EU REACH o de la Verpackungsgesetz alemana. Las referencias hablan de eso — y un proveedor fiable te las dará sin teatralidad."
+        },
+        {
+          "type": "h3",
+          "text": "4. ¿Cómo gestionáis las muestras de preproducción y qué cuestan?"
+        },
+        {
+          "type": "p",
+          "text": "Las buenas fábricas muestrean cada nuevo diseño antes de cotizar producción completa. El coste de la muestra varía — desde gratuito para compradores establecidos hasta 80–200 USD por pieza para builds complejos puntuales — pero el principio no es negociable: nunca deberías aprobar un pedido de 5.000 piezas solo sobre un render CAD. Desconfía de los proveedores que se resisten a las muestras físicas o cobran costes de molde que parecen sospechosamente un margen de empresa comercial."
+        },
+        {
+          "type": "img",
+          "src": "/factory/production.webp",
+          "caption": "Una muestra no es un render — es la unidad de grado producción que te permite verificar ebanistería, acabado y decoración antes de cerrar la serie completa."
+        },
+        {
+          "type": "h3",
+          "text": "5. ¿Cuál es vuestra tasa de defectos y cómo se mide?"
+        },
+        {
+          "type": "p",
+          "text": "Cualquier fábrica debería poder darte un número — 0,4% de tasa de fallo pre-envío es el benchmark de una operación competente, por debajo del 1% es aceptable, por encima del 3% es señal de alarma. Importante, pregunta cómo se mide: una tasa de defectos calculada sobre cajas salientes (tras reproceso) es diferente de una calculada sobre la producción de primer pase. El número de primer pase te dice sobre la disciplina de proceso; el número saliente te dice sobre el control de calidad final."
+        },
+        {
+          "type": "h3",
+          "text": "6. ¿Qué certificaciones tenéis y cuáles podéis proporcionar por pedido?"
+        },
+        {
+          "type": "p",
+          "text": "Certificaciones permanentes y documentos por pedido son dos cosas diferentes. ISO 9001 es una certificación de sistema de gestión permanente que aplica a toda la fábrica. FSC, CARB y EU REACH se aplican normalmente por pedido: la madera usada en tu serie específica se abastece y documenta para cumplir con el estándar. Pregunta al proveedor qué tiene permanente y qué puede documentar para tu pedido. Respuestas desalineadas aquí son la señal más común de problemas."
+        },
+        {
+          "type": "h3",
+          "text": "7. ¿Cómo es vuestro paquete de documentación de exportación?"
+        },
+        {
+          "type": "p",
+          "text": "El embalaje de madera maciza enviado internacionalmente necesita un certificado fitosanitario ISPM 15 — sin él, tu contenedor puede ser puesto en cuarentena o devuelto en puerto. El proveedor debería poder enviarte un paquete de documentación de muestra (factura comercial con códigos HS, packing list con desglose caja por caja, certificado fitosanitario, certificado de origen, conocimiento de embarque) antes del compromiso. Proveedores que no tienen una plantilla lista no envían a escala."
+        },
+        {
+          "type": "img",
+          "src": "/factory/warehouse.webp",
+          "caption": "Una operación de exportación competente empaqueta y documenta contenedores a diario — tu proveedor debería tratar ISPM 15 como memoria muscular, no papeleo."
+        },
+        {
+          "type": "h2",
+          "text": "Cómo MOQ, coste unitario y plazo de entrega encajan realmente"
+        },
+        {
+          "type": "p",
+          "text": "Los compradores B2B que solo preguntan \"¿cuál es vuestro precio unitario?\" obtienen la respuesta equivocada porque la respuesta depende enteramente de otras tres variables. Así interactúan esas variables en el extremo de cajas de madera personalizadas del mercado en 2026."
+        },
+        {
+          "type": "p",
+          "text": "El MOQ lo fija el coste de setup — programar sierras, configurar CNC, mezclar el acabado, construir una muestra, formar a un equipo de acabado en tu diseño específico. Por debajo de 200–300 piezas esos costes de setup se reparten finamente sobre la unidad y el precio se dispara. Entre 300 y 2.000 piezas está el sweet spot comercial donde el setup se amortiza y obtienes el coste por unidad más atractivo. Por encima de 5.000 piezas el siguiente escalón de descuento suele requerir cambiar a un material más ligero o a una ebanistería más simple — un producto diferente, no solo una serie mayor del mismo."
+        },
+        {
+          "type": "p",
+          "text": "Ejemplo práctico: un minorista de regalos de Berlín nos pidió hace poco producir 1.200 cajas de té de nogal a un coste unitario objetivo de 4,80 USD con 28 días de plazo. Nuestra respuesta honesta fue que 1.200 piezas caen limpiamente en la zona dulce (sub-5 USD con un secado en horno adecuado es realista), pero 28 días solo funcionan si aprueba la muestra en 5 días y se salta la segunda ronda de revisión. Lo hizo, y las cajas salieron el día 32. La lección es la misma que aprende cada comprador experimentado: el coste unitario nunca fue la palanca — el reloj de aprobación de muestra sí."
+        },
+        {
+          "type": "p",
+          "text": "El plazo de entrega son dos relojes corriendo en paralelo. El primero es tiempo de calendario: secado en horno (5–14 días), curado del acabado (3–5 días) y espera de una salida de exportación (5–10 días desde la puerta de la fábrica hasta el contenedor de tu transitario). El segundo es tiempo de producción real: normalmente 12–25 minutos de trabajo por caja, multiplicados por la cantidad del pedido. El tiempo de calendario domina para pedidos por debajo de 5.000 unidades; el tiempo de producción domina por encima de 10.000. Una serie típica personalizada de 1.500 piezas desde nuestra instalación tarda 30–40 días puerta a puerta."
+        },
+        {
+          "type": "img",
+          "src": "/factory/material.webp",
+          "caption": "Madera secada en horno — 5–14 días de secado hacen reales los 30–40 días de plazo y evitan que tus cajas se agrieten tres meses después del envío."
+        },
+        {
+          "type": "stats",
+          "items": [
+            {
+              "num": "300",
+              "label": "MOQ estándar por diseño (uds)"
+            },
+            {
+              "num": "30-40",
+              "suffix": " días",
+              "label": "Producción tras aprobación de muestra"
+            },
+            {
+              "num": "0,4",
+              "suffix": "%",
+              "label": "Benchmark tasa de defectos pre-envío"
+            },
+            {
+              "num": "88-92",
+              "suffix": "%",
+              "label": "Rendimiento de material vía software de nesting"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "El coste unitario es la más pequeña de las tres variables que deberías estar optimizando. La que más duele cuando te equivocas es la fiabilidad — un ahorro de 0,30 USD por unidad en un pedido de 2.000 piezas son 600 USD. El coste de una ventana de retail perdida es el margen entero de esa temporada. Los proveedores que lideran con el precio no son los que reciben pedidos repetidos."
+        },
+        {
+          "type": "h2",
+          "text": "Cumplimiento — qué exige realmente tu mercado de importación"
+        },
+        {
+          "type": "p",
+          "text": "Esta es la sección que cada nuevo comprador subestima. Mercados distintos tienen regímenes de cumplimiento distintos, y un proveedor experimentado los gestiona de forma transparente. La tabla siguiente resume los requisitos más comunes para embalaje de madera por destino."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Mercado",
+            "Siempre requerido",
+            "A menudo requerido",
+            "Quién lo proporciona"
+          ],
+          "rows": [
+            [
+              "UE (DE / IT / FR / ES / PT)",
+              "ISPM 15, EU REACH (acabados)",
+              "FSC (retail), Verpackungsgesetz (DE)",
+              "Proveedor + tu importador"
+            ],
+            [
+              "Estados Unidos",
+              "ISPM 15, CARB P2 (compuesto)",
+              "FSC (retail), Prop 65 (CA)",
+              "Proveedor + tu importador"
+            ],
+            [
+              "Reino Unido",
+              "ISPM 15, REACH (equivalente post-Brexit)",
+              "FSC (retail)",
+              "Proveedor"
+            ],
+            [
+              "Canadá / AU / NZ",
+              "ISPM 15, declaración de bioseguridad",
+              "FSC (retail)",
+              "Proveedor + tu transitario"
+            ],
+            [
+              "Japón / Corea",
+              "ISPM 15",
+              "JAS / KS (artículos específicos)",
+              "Proveedor"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "ISPM 15 no es negociable para cualquier embalaje de madera maciza que entre en prácticamente cualquier mercado desarrollado. Si un proveedor no lo menciona en tu primera conversación, no envía a escala a tu destino."
+        },
+        {
+          "type": "p",
+          "text": "Para compradores europeos, el cumplimiento EU REACH en acabados (formaldehído, COV) y el registro en la Verpackungsgesetz alemana sobre el embalaje en sí son los dos huecos de cumplimiento más frecuentes. Pregunta al proveedor si sus acabados están probados EU REACH y si puede suministrar una declaración CARB P2 sobre cualquier componente compuesto. Para compradores de EE.UU., California Proposition 65 — etiquetado de cualquier producto que contenga acabados o herrajes en la lista — es la otra trampa; gestionado en el lado del importador pero merece confirmar con el proveedor."
+        },
+        {
+          "type": "img",
+          "src": "/factory/painting.webp",
+          "caption": "Las capas de acabado cumplen EU REACH y CARB por formulación — la elección ocurre en esta estación, no en el mostrador de aduanas."
+        },
+        {
+          "type": "h2",
+          "text": "Los 7 errores de sourcing más comunes (y cómo evitarlos)"
+        },
+        {
+          "type": "p",
+          "text": "Estos son los errores que vemos cometer a los nuevos compradores más a menudo. Cada uno es corregible antes de que te cueste dinero."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Elegir la cotización más barata sin comparar especificaciones equivalentes. Una cotización de 2,10 USD y una de 2,80 USD para \"la misma caja\" normalmente difieren en contenido de humedad, capas de acabado y profundidad del QC — y la más barata envía cajas que se agrietan en la tercera semana.",
+            "Saltarse la muestra de preproducción. Aprobar una serie de 5.000 piezas desde un render CAD es la forma más rápida de perder tu margen. Muestrea siempre.",
+            "Subespecificar el brief. \"Queremos una caja regalo de madera, 200 × 150 × 80 mm, cierre magnético\" es un punto de partida, no un brief. Añade: especie de madera, acabado, forro interior, herrajes, método de decoración, tipo de embalaje, mercado objetivo — y una referencia de competencia si la tienes.",
+            "Confundir MOQ con MOQ mínimo. El MOQ \"típico\" es el sweet spot comercial; el MOQ \"mínimo\" es lo que puedes negociar para una prueba. Pregunta siempre ambos.",
+            "Ignorar ISPM 15. Un contenedor que llega al puerto sin certificación fitosanitaria puede ser puesto en cuarentena durante días, refumigado a tu coste o devuelto. Confirma antes de que el contenedor salga de China.",
+            "Tratar el acabado como una esquina a recortar. Dos capas vs tres capas, base agua vs base solvente, pulido a mano vs acabado a máquina — esas decisiones aparecen seis meses después como la diferencia entre un comprador que reordena y uno que no.",
+            "Intentar gestionar al proveedor tú mismo cuando tu volumen justifica un transitario. Una vez que haces contenedores de 20 pies cuatro veces al año, la relación con el transitario ahorra más de lo que cuesta."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "De la cotización al palé entregado — cómo son 12 semanas"
+        },
+        {
+          "type": "p",
+          "text": "Así es una línea de tiempo realista para una serie personalizada de 1.500 piezas, desde tu primer email hasta cajas llegando a tu almacén."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Semana 1: brief, cotización, shortlist de proveedores. Envías especificaciones e imágenes de referencia a dos o tres proveedores vetados; las cotizaciones vuelven en 1–3 días laborables.",
+            "Semanas 2–3: muestreo preproducción. El proveedor produce una muestra física; revisas materiales, acabado, ebanistería y decoración; una ronda de revisión es normal, dos son una bandera amarilla.",
+            "Semana 4: aprobación de muestra y PO. Emites una orden de compra, pagas el depósito (normalmente 30%), y el proveedor bloquea el slot de producción.",
+            "Semanas 5–9: producción. Selección de madera, secado en horno, corte, ebanistería, acabado, montaje de herrajes y QC. La mayoría de estas 5 semanas es curado y espera; el trabajo real por caja son 15–25 minutos.",
+            "Semana 10: QC final y pago de saldo. Recibes fotos de inspección pre-envío (o envías un inspector externo); transfieres el 70% de saldo.",
+            "Semanas 11–12: carga del contenedor, documentación aduanera, navegación al puerto de destino. Añade otras 1–2 semanas para transporte interno una vez el contenedor pase aduanas en destino."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Para flete aéreo (usado en pedidos críticos en tiempo y muestras) puedes comprimir las semanas 11–12 a 3–5 días pero pagas aproximadamente 5–8 veces el coste del marítimo. Para la mayoría de volúmenes retail B2B, el marítimo es la decisión correcta."
+        },
+        {
+          "type": "img",
+          "src": "/factory/wooden-box-4.webp",
+          "caption": "QC pre-envío — cada caja comprobada contra la muestra aprobada, luego envuelta, paletizada y documentada para el puerto de destino."
+        },
+        {
+          "type": "h2",
+          "text": "Una checklist pre-vuelo para tu primer pedido"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Brief escrito: dimensiones, madera, acabado, herrajes, forro interior, decoración, embalaje, mercado objetivo.",
+            "Dos o tres proveedores vetados, cada uno habiendo respondido las 7 preguntas anteriores sin desviar.",
+            "Muestra preproducción aprobada con al menos una ronda de revisiones documentada por escrito.",
+            "Benchmark de tasa de defectos acordado en el contrato (recomendamos inspección pre-envío en los primeros tres pedidos, después muestreo aleatorio).",
+            "Certificado ISPM 15 y certificaciones por mercado confirmadas como disponibles (FSC, CARB, EU REACH según necesidad).",
+            "Plantilla del paquete de documentación recibida: factura comercial, packing list, fitosanitario, certificado de origen, conocimiento de embarque.",
+            "Términos de pago bloqueados: típicamente split 30/70 (depósito / saldo contra fotos pre-envío o copia BL).",
+            "Transitario identificado y briefado sobre la carga y el destino.",
+            "Incoterm confirmado (FOB o EXW para el primer pedido; CIF/DDP cuando confíes en el proveedor).",
+            "Un canal de comunicación que funciona en tu zona horaria — email respaldado por WhatsApp o WeChat es el mínimo moderno."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Aprovisionarse de cajas de madera personalizadas desde China es un negocio de relaciones, no una transacción. Las fábricas que lo hacen bien buscan lo mismo que los compradores: una línea de suministro que envía limpia, a tiempo, cada trimestre, sin sorpresas."
+        },
+        {
+          "type": "p",
+          "text": "Las siete preguntas anteriores son cómo encuentras esas fábricas; la línea de tiempo de 12 semanas es qué esperar; el mapa de cumplimiento es qué te protege cuando tu contenedor llega al puerto. Combina los tres y excluirás a los proveedores que solo saben ganar el primer pedido, y encontrarás a los que saben cómo mantenerlo."
+        },
+        {
+          "type": "p",
+          "text": "Si estás al inicio de ese viaje y quieres hablar sobre una pregunta específica de diseño, MOQ, material o cumplimiento, nuestro equipo en Xiamen puede llevarte directamente — envía un brief desde la página /contact y responderemos con un vídeo de muestra de fábrica y un paquete de documentación dentro de un día laborable. Actualmente enviamos cajas de madera personalizadas a marcas en Alemania, Italia, Estados Unidos, Reino Unido, Canadá y Polonia mediante exactamente este proceso. Puedes navegar el catálogo productivo en /products, leer sobre nuestro proceso de fabricación de seis pasos en /blog/six-step-manufacturing-process, o empezar por la guía de materiales si aún no has elegido madera (/material-guide)."
+        }
+      ]
+    },
     "six-step-manufacturing-process": {
       "title": "Dentro de nuestro proceso de fabricación de cajas de madera de 6 pasos",
       "excerpt": "Un recorrido por lo que realmente sucede entre la madera en bruto y la caja terminada que aterriza en su almacén, desde el secado en horno hasta los certificados fitosanitarios.",

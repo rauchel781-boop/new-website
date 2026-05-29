@@ -3,6 +3,352 @@
 
 export default {
   "posts": {
+    "sourcing-custom-wooden-boxes-from-china-2026": {
+      "title": "Approvvigionarsi di scatole di legno personalizzate dalla Cina nel 2026: il playbook del buyer B2B",
+      "excerpt": "Una guida pratica all'approvvigionamento per brand del retail e team acquisti — cosa significa davvero \"dalla Cina\" nel 2026, le 7 domande che filtrano i fornitori capaci, come MOQ e costo unitario si combinano realmente, e le realtà di compliance e spedizione dietro una consegna pulita.",
+      "category": "Strategia",
+      "readTime": "13 min di lettura",
+      "body": [
+        {
+          "type": "p",
+          "text": "La prima volta che una responsabile acquisti di un retailer di regali di Helsinki mi chiese come approvvigionarsi di scatole di legno personalizzate dalla Cina, era già passata da due fornitori in 18 mesi. Il primo aveva quotato a 3,20 USD a pezzo, incassato il suo budget per gli stampi e spedito scatole con un contenuto di umidità così variabile che il 14% dell'ordine è arrivato crepato. Il secondo era tecnicamente competente ma comunicava solo con risposte vaghe su WeChat e ha mancato la sua finestra natalizia di sei settimane. Stava per rinunciare del tutto ai fornitori cinesi."
+        },
+        {
+          "type": "p",
+          "text": "La sua esperienza non è insolita. Approvvigionarsi di packaging in legno dalla Cina nel 2026 è una delle decisioni più convenienti che un brand B2B possa prendere — le fabbriche qui hanno una profondità ineguagliabile in falegnameria, finitura e integrazione di hardware. Ma è anche un mercato con un'ampia variabilità di qualità e affidabilità, e un buyer che lavora con il prezzo come unico filtro ha circa 1 probabilità su 3 di farsi male al primo ordine."
+        },
+        {
+          "type": "p",
+          "text": "Questa guida è il playbook che avrei voluto che la buyer di Helsinki leggesse prima del suo primo ordine. Copre cosa significhi davvero \"scatole di legno personalizzate dalla Cina\" nel 2026, le sette domande che separano i fornitori capaci dal resto, come MOQ e costo unitario si combinino realmente in questa fascia di mercato, e le realtà di compliance e spedizione che trasformano una buona quotazione in una pallet consegnata. Alla fine dovreste sapere come entrare nella vostra prima conversazione con il vocabolario giusto, le aspettative giuste e i giusti campanelli d'allarme già caricati."
+        },
+        {
+          "type": "h2",
+          "text": "TL;DR — cosa porterete via in 8 punti"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Dietro \"scatole di legno dalla Cina\" ci sono 3 strutture di fornitura — quasi certamente volete il modello fabbrica specialistica + ufficio commerciale.",
+            "7 domande di verifica filtrano i fornitori capaci dalle vetrine ben lucidate fin dalla prima chiamata.",
+            "MOQ, costo unitario e lead time interagiscono — ottimizzare solo il prezzo unitario è l'errore più comune (e più costoso) del buyer.",
+            "Una mappa di compliance per mercato evita che il vostro container venga trattenuto in porto (ISPM 15 sempre; FSC, CARB, EU REACH a seconda della destinazione).",
+            "I campioni di pre-produzione non sono negoziabili. Mai approvare un ordine da 5.000 pezzi su un render CAD.",
+            "12 settimane dalla prima email alla pallet consegnata sono realistiche. Tutto significativamente più breve è aerea o scorciatoia.",
+            "0,4% di tasso difetti pre-spedizione è il benchmark di una fabbrica competente; oltre il 3% è un allarme.",
+            "Salvate la checklist pre-volo in 10 punti alla fine e percorretela prima di bonificare qualsiasi acconto."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Prima — cosa copre davvero \"dalla Cina\" nel 2026"
+        },
+        {
+          "type": "p",
+          "text": "Quando si dice \"scatole di legno dalla Cina\", nelle teste della maggior parte dei buyer vengono confuse tre strutture di fornitura molto diverse. Non sono intercambiabili e hanno prezzi molto diversi."
+        },
+        {
+          "type": "h3",
+          "text": "1. Società di trading e listing sui marketplace"
+        },
+        {
+          "type": "p",
+          "text": "I siti aggregatori — Alibaba, Made-in-China, 1688 — sono la faccia più visibile del sourcing cinese. Circa il 60% dei \"produttori\" che troverete lì sono società di trading che non possiedono una fabbrica; prendono il vostro ordine e lo subappaltano a qualunque officina abbia capacità libera quella settimana. Il prezzo è competitivo perché la società di trading lavora snella, ma non avete controllo su quale fabbrica produca davvero le vostre scatole, e il QA avviene secondo le regole di qualcun altro. Le società di trading funzionano per prodotti commodity dove ogni unità è identica e la qualità è binaria. Le scatole personalizzate non sono né l'una né l'altra cosa."
+        },
+        {
+          "type": "h3",
+          "text": "2. Fabbriche specialistiche con uffici commerciali"
+        },
+        {
+          "type": "p",
+          "text": "La maggior parte del sourcing B2B serio avviene qui. Una fabbrica specialistica (focalizzata su paulownia, pino, bambù, acacia, noce — sceglietene una o due) gestisce un proprio piazzale produttivo e lo abbina a un ufficio commerciale in un hub di export come Xiamen, Shenzhen o Shanghai. La fabbrica gestisce la produzione; l'ufficio commerciale gestisce documentazione, coordinamento campioni, comunicazione e la logistica poco sexy che trasforma una pallet di scatole in qualcosa che passa la dogana. La nostra struttura — uno stabilimento produttivo di 15.000 m² a Cao County, Shandong, e un ufficio commerciale a Xiamen, Fujian — rientra in questa categoria, ed è il modello che produce il risultato più prevedibile per i buyer che vogliono riordinare."
+        },
+        {
+          "type": "h3",
+          "text": "3. Laboratori boutique"
+        },
+        {
+          "type": "p",
+          "text": "Nella fascia alta troverete piccoli laboratori che producono serie da 300 pezzi di scatole per orologi in noce massiccia o pezzi heirloom incisi a mano. I lead time sono lunghi, i prezzi unitari alti, e non sono costruiti per scalare — ma sono quelli che volete per edizioni limitate e lanci di lusso dove ogni dettaglio viene firmato di persona."
+        },
+        {
+          "type": "p",
+          "text": "La maggior parte dei brand B2B che si approvvigiona di scatole di legno personalizzate ha bisogno della categoria 2 — una fabbrica specialistica con un braccio export competente. Il resto di questo articolo assume che sia quello che state cercando."
+        },
+        {
+          "type": "img",
+          "src": "/factory/chic-factory.webp",
+          "caption": "Una fabbrica specialistica con falegnameria, finitura e QC in casa — la struttura di fornitura che la maggior parte dei brand B2B vuole davvero."
+        },
+        {
+          "type": "h2",
+          "text": "7 domande da fare prima del primo ordine"
+        },
+        {
+          "type": "p",
+          "text": "Queste sono le domande che separano i fornitori che possono mantenere la quotazione da quelli che vi dicono ciò che volete sentire. Usatele come filtro nella prima chiamata."
+        },
+        {
+          "type": "h3",
+          "text": "1. Possedete la fabbrica o siete una società di trading?"
+        },
+        {
+          "type": "p",
+          "text": "Non c'è nulla di intrinsecamente sbagliato in una società di trading se davvero non avete bisogno di controllare quale fabbrica faccia le vostre scatole — ma dovreste sapere con chi state parlando. Chiedete diretto: \"Potete inviarmi un video della fabbrica in cui passerete il mio ordine, con timestamp?\" Le società di trading di solito deviano; le fabbriche ve lo mostrano in due minuti."
+        },
+        {
+          "type": "h3",
+          "text": "2. Qual è il vostro MOQ tipico e il MOQ minimo?"
+        },
+        {
+          "type": "p",
+          "text": "\"Tipico\" vi dice il loro sweet spot commerciale; \"minimo\" vi dice se potete fare un test prima di impegnarvi su una stagione intera. Per la maggior parte delle scatole di legno personalizzate il MOQ tipico è 500–1.000 pezzi; i MOQ minimi per primi ordini o specifiche più semplici possono essere 100–300. Se un fornitore rifiuta di quotare sotto i 1.000, probabilmente non è impostato per test incrementali — bene per linee consolidate, rischioso per un nuovo lancio."
+        },
+        {
+          "type": "h3",
+          "text": "3. Potete condividere tre referenze di buyer della mia area?"
+        },
+        {
+          "type": "p",
+          "text": "Le referenze geografiche contano perché provano che il fornitore ha navigato il vostro regime doganale, le aspettative QC del vostro retailer e le vostre norme linguistiche. Una fabbrica che esporta molto negli USA potrebbe sapere poco di EU REACH o della legge tedesca Verpackungsgesetz. Le referenze parlano di questo — e un fornitore affidabile ve le darà senza fare scena."
+        },
+        {
+          "type": "h3",
+          "text": "4. Come gestite i campioni di pre-produzione e quanto costano?"
+        },
+        {
+          "type": "p",
+          "text": "Le buone fabbriche campionano ogni nuovo design prima di quotare la produzione piena. Il costo del campione varia — da gratuito per buyer consolidati a 80–200 USD a pezzo per build complessi una tantum — ma il principio non è negoziabile: non dovreste mai approvare un ordine da 5.000 pezzi su un render CAD da solo. Diffidate dei fornitori che si oppongono ai campioni fisici o caricano costi di stampo che sembrano sospettosamente markup da società di trading."
+        },
+        {
+          "type": "img",
+          "src": "/factory/production.webp",
+          "caption": "Un campione non è un render — è l'unità di livello produzione che vi permette di verificare falegnameria, finitura e decorazione prima di chiudere la produzione piena."
+        },
+        {
+          "type": "h3",
+          "text": "5. Qual è il vostro tasso difetti e come è misurato?"
+        },
+        {
+          "type": "p",
+          "text": "Qualsiasi fabbrica dovrebbe potervi dare un numero — 0,4% di tasso fallimento pre-spedizione è il benchmark di un'operazione competente, sotto l'1% è accettabile, sopra il 3% è un campanello d'allarme. È importante chiedere come è misurato: un tasso difetti calcolato sulle scatole in uscita (dopo rilavorazione) è diverso da uno calcolato sulla produzione al primo passaggio. Il numero al primo passaggio vi dice della disciplina di processo; il numero in uscita vi dice del controllo qualità finale."
+        },
+        {
+          "type": "h3",
+          "text": "6. Quali certificazioni avete e quali potete fornire per ordine?"
+        },
+        {
+          "type": "p",
+          "text": "Certificazioni permanenti e documenti per ordine sono due cose diverse. ISO 9001 è una certificazione di sistema di gestione permanente che si applica all'intera fabbrica. FSC, CARB e EU REACH si applicano di solito per ordine: il legno usato nella vostra specifica serie è approvvigionato e documentato per rispettare lo standard. Chiedete al fornitore cosa ha permanente e cosa può documentare per il vostro ordine. Risposte disallineate qui sono il singolo segnale più comune di problemi."
+        },
+        {
+          "type": "h3",
+          "text": "7. Come è fatto il vostro pacchetto di documentazione export?"
+        },
+        {
+          "type": "p",
+          "text": "Il packaging in legno massello spedito internazionalmente ha bisogno di un certificato fitosanitario ISPM 15 — senza, il vostro container può essere messo in quarantena o rispedito al porto. Il fornitore dovrebbe potervi inviare un pacchetto di documentazione di esempio (fattura commerciale con codici HS, packing list con dettaglio cartone per cartone, certificato fitosanitario, certificato d'origine, polizza di carico) prima dell'impegno. Fornitori che non hanno un template pronto non spediscono su scala."
+        },
+        {
+          "type": "img",
+          "src": "/factory/warehouse.webp",
+          "caption": "Un'operazione export competente impacchetta e documenta container ogni giorno — il vostro fornitore dovrebbe trattare ISPM 15 come memoria muscolare, non burocrazia."
+        },
+        {
+          "type": "h2",
+          "text": "Come MOQ, costo unitario e lead time si combinano realmente"
+        },
+        {
+          "type": "p",
+          "text": "I buyer B2B che chiedono solo \"qual è il vostro prezzo unitario?\" ottengono la risposta sbagliata perché la risposta dipende interamente da altre tre variabili. Ecco come queste variabili interagiscono nella fascia delle scatole di legno personalizzate nel 2026."
+        },
+        {
+          "type": "p",
+          "text": "Il MOQ è determinato dal costo del setup — programmare le seghe, configurare CNC, miscelare la finitura, costruire un campione, formare un team di finitura sul vostro design specifico. Sotto i 200–300 pezzi questi costi di setup si distribuiscono sottilmente sull'unità e il prezzo schizza. Tra 300 e 2.000 pezzi è lo sweet spot commerciale dove il setup ammortizza e ottenete il costo unitario più attraente. Sopra i 5.000 pezzi il prossimo gradino di sconto di solito richiede passare a un materiale più leggero o a una falegnameria più semplice — un prodotto diverso, non solo una serie più grande dello stesso."
+        },
+        {
+          "type": "p",
+          "text": "Esempio pratico: un retailer di regali di Berlino ci ha chiesto recentemente di produrre 1.200 scatole da tè in noce a un costo unitario target di 4,80 USD con 28 giorni di lead time. La nostra risposta onesta è stata che 1.200 pezzi atterrano puliti nello sweet zone (sotto 5 USD con un'adeguata essiccazione in essiccatoio è realistico), ma 28 giorni funzionano solo se approva il campione entro 5 giorni e salta il secondo round di revisione. Ha fatto così, e le scatole sono partite il giorno 32. La lezione è la stessa che ogni buyer esperto impara: il costo unitario non è mai stata la leva — l'orologio dell'approvazione del campione lo era."
+        },
+        {
+          "type": "p",
+          "text": "Il lead time è composto da due orologi che corrono in parallelo. Il primo è il tempo di calendario: essiccazione in essiccatoio (5–14 giorni), maturazione della finitura (3–5 giorni) e attesa di una partenza export (5–10 giorni dalla porta della fabbrica al container del vostro spedizioniere). Il secondo è il tempo di produzione effettivo: di solito 12–25 minuti di lavoro per scatola, moltiplicati per la quantità del vostro ordine. Il tempo di calendario domina per ordini sotto le 5.000 unità; il tempo di produzione domina sopra le 10.000. Una tipica serie personalizzata da 1.500 pezzi dal nostro stabilimento impiega 30–40 giorni porta a porta."
+        },
+        {
+          "type": "img",
+          "src": "/factory/material.webp",
+          "caption": "Legname essiccato in essiccatoio — 5–14 giorni di essiccazione rendono reali i 30–40 giorni di lead time e impediscono che le scatole si crepino tre mesi dopo la spedizione."
+        },
+        {
+          "type": "stats",
+          "items": [
+            {
+              "num": "300",
+              "label": "MOQ standard per design (pz)"
+            },
+            {
+              "num": "30-40",
+              "suffix": " giorni",
+              "label": "Produzione dopo approvazione campione"
+            },
+            {
+              "num": "0,4",
+              "suffix": "%",
+              "label": "Benchmark tasso difetti pre-spedizione"
+            },
+            {
+              "num": "88-92",
+              "suffix": "%",
+              "label": "Resa materiale via software di nesting"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Il costo unitario è la più piccola delle tre variabili su cui dovreste ottimizzare. Quella che fa più male se sbagliata è l'affidabilità — un risparmio di 0,30 USD a pezzo su un ordine da 2.000 pezzi sono 600 USD. Il costo di una finestra retail mancata è l'intero margine di quella stagione. I fornitori che guidano col prezzo non sono quelli a cui si riordina."
+        },
+        {
+          "type": "h2",
+          "text": "Compliance — cosa richiede realmente il vostro mercato di importazione"
+        },
+        {
+          "type": "p",
+          "text": "Questa è la sezione che ogni nuovo buyer sottostima. Mercati diversi hanno regimi di compliance diversi, e un fornitore esperto li gestisce in modo trasparente. La tabella sottostante riassume i requisiti più comuni per il packaging in legno per destinazione."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Mercato",
+            "Sempre richiesto",
+            "Spesso richiesto",
+            "Chi lo fornisce"
+          ],
+          "rows": [
+            [
+              "UE (DE / IT / FR / ES / PT)",
+              "ISPM 15, EU REACH (finiture)",
+              "FSC (retail), Verpackungsgesetz (DE)",
+              "Fornitore + vostro importatore"
+            ],
+            [
+              "Stati Uniti",
+              "ISPM 15, CARB P2 (composito)",
+              "FSC (retail), Prop 65 (CA)",
+              "Fornitore + vostro importatore"
+            ],
+            [
+              "Regno Unito",
+              "ISPM 15, REACH (equivalente post-Brexit)",
+              "FSC (retail)",
+              "Fornitore"
+            ],
+            [
+              "Canada / AU / NZ",
+              "ISPM 15, dichiarazione biosicurezza",
+              "FSC (retail)",
+              "Fornitore + vostro spedizioniere"
+            ],
+            [
+              "Giappone / Corea",
+              "ISPM 15",
+              "JAS / KS (articoli specifici)",
+              "Fornitore"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "ISPM 15 non è negoziabile per qualsiasi packaging in legno massello che entra in praticamente ogni mercato sviluppato. Se un fornitore non lo menziona nella prima conversazione, non spedisce su scala alla vostra destinazione."
+        },
+        {
+          "type": "p",
+          "text": "Per i buyer europei, la compliance EU REACH sulle finiture (formaldeide, VOC) e la registrazione al Verpackungsgesetz tedesco sul packaging stesso sono le due lacune di compliance più frequentemente mancate. Chiedete al fornitore se le sue finiture sono testate EU REACH e se può fornire una dichiarazione CARB P2 su eventuali componenti compositi. Per i buyer USA, la California Proposition 65 — etichettatura di qualsiasi prodotto che contiene finiture o hardware sulla lista — è l'altra trappola; gestita dal vostro importatore ma vale la pena confermare col fornitore."
+        },
+        {
+          "type": "img",
+          "src": "/factory/painting.webp",
+          "caption": "Le finiture sono conformi EU REACH e CARB per formulazione — la scelta avviene a questa stazione, non al banco della dogana."
+        },
+        {
+          "type": "h2",
+          "text": "I 7 errori di sourcing più comuni (e come evitarli)"
+        },
+        {
+          "type": "p",
+          "text": "Questi sono gli errori che vediamo fare ai nuovi buyer più spesso. Ognuno è correggibile prima che vi costi soldi."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Scegliere la quotazione più economica senza confrontare specs equivalenti. Una quotazione da 2,10 USD e una da 2,80 USD per \"la stessa scatola\" di solito differiscono per contenuto di umidità, mani di finitura e profondità del QC — e la più economica spedisce scatole che si crepano alla terza settimana.",
+            "Saltare il campione di pre-produzione. Approvare una serie da 5.000 pezzi da un render CAD è il modo più rapido per perdere il margine. Campionate sempre.",
+            "Sottospecificare il brief. \"Vogliamo una scatola regalo in legno, 200 × 150 × 80 mm, chiusura magnetica\" è un punto di partenza, non un brief. Aggiungete: specie legnosa, finitura, rivestimento interno, hardware, metodo di decorazione, tipo di packaging, mercato target — e un riferimento concorrente se ne avete uno.",
+            "Confondere MOQ con MOQ minimo. Il MOQ \"tipico\" è lo sweet spot commerciale; il MOQ \"minimo\" è ciò che potete negoziare per un test. Chiedete sempre entrambi.",
+            "Ignorare ISPM 15. Un container che arriva in porto senza certificazione fitosanitaria può essere messo in quarantena per giorni, rifumigato a vostre spese o rispedito. Confermate prima che il container lasci la Cina.",
+            "Trattare la finitura come un angolo da tagliare. Due mani vs tre mani, base acqua vs solvente, lucidato a mano vs finito a macchina — queste decisioni si manifestano sei mesi dopo come la differenza tra un buyer che riordina e uno che non lo fa.",
+            "Cercare di gestire il fornitore da soli quando il vostro volume giustifica uno spedizioniere. Una volta che fate container da 20 piedi quattro volte l'anno, la relazione con lo spedizioniere fa risparmiare più di quanto costi."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Dalla quotazione alla pallet consegnata — come sono le 12 settimane"
+        },
+        {
+          "type": "p",
+          "text": "Ecco com'è una timeline realistica per una serie personalizzata da 1.500 pezzi, dalla vostra prima email all'arrivo delle scatole nel vostro magazzino."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Settimana 1: brief, quotazione, shortlist fornitori. Inviate specs e immagini di riferimento a due o tre fornitori già vagliati; le quotazioni tornano entro 1–3 giorni lavorativi.",
+            "Settimane 2–3: campionatura pre-produzione. Il fornitore produce un campione fisico; rivedete materiali, finitura, falegnameria e decorazione; un round di revisione è normale, due sono un campanello giallo.",
+            "Settimana 4: approvazione campione e PO. Emettete un ordine d'acquisto, pagate l'acconto (di solito 30%), e il fornitore blocca lo slot di produzione.",
+            "Settimane 5–9: produzione. Selezione legname, essiccazione, taglio, falegnameria, finitura, montaggio hardware e QC. La maggior parte di queste 5 settimane è maturazione e attesa; il lavoro effettivo per scatola sono 15–25 minuti.",
+            "Settimana 10: QC finale e saldo. Ricevete foto di ispezione pre-spedizione (o inviate un ispettore terzo); bonificate il 70% di saldo.",
+            "Settimane 11–12: carico container, documentazione doganale, navigazione fino al porto di destinazione. Aggiungete altre 1–2 settimane per il trasporto interno una volta che il container è sdoganato a destinazione."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Per il trasporto aereo (usato su ordini time-critical e campioni) potete comprimere le settimane 11–12 a 3–5 giorni ma pagate circa 5–8 volte il costo del mare. Per la maggior parte dei volumi retail B2B, il mare è la scelta giusta."
+        },
+        {
+          "type": "img",
+          "src": "/factory/wooden-box-4.webp",
+          "caption": "QC pre-spedizione — ogni scatola controllata contro il campione approvato, poi avvolta, pallettizzata e documentata per il porto di destinazione."
+        },
+        {
+          "type": "h2",
+          "text": "Una checklist pre-volo per il vostro primo ordine"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Brief scritto: dimensioni, legno, finitura, hardware, rivestimento interno, decorazione, packaging, mercato target.",
+            "Due o tre fornitori vagliati, ciascuno avendo risposto alle 7 domande sopra senza eludere.",
+            "Campione pre-produzione approvato con almeno un round di revisioni documentato per iscritto.",
+            "Benchmark tasso difetti concordato nel contratto (raccomandiamo ispezione pre-spedizione sui primi tre ordini, poi campionamento casuale).",
+            "Certificato ISPM 15 e certificazioni per mercato confermati disponibili (FSC, CARB, EU REACH secondo necessità).",
+            "Template del pacchetto di documentazione ricevuto: fattura commerciale, packing list, fitosanitario, certificato d'origine, polizza di carico.",
+            "Termini di pagamento bloccati: tipicamente split 30/70 (acconto / saldo contro foto pre-spedizione o copia BL).",
+            "Spedizioniere identificato e briefato sul carico e sulla destinazione.",
+            "Incoterm confermato (FOB o EXW per il primo ordine; CIF/DDP una volta che vi fidate del fornitore).",
+            "Un canale di comunicazione che funziona nel vostro fuso orario — email supportata da WhatsApp o WeChat è il minimo moderno."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Approvvigionarsi di scatole di legno personalizzate dalla Cina è un business di relazioni, non una transazione. Le fabbriche che lo fanno bene cercano la stessa cosa che cercano i buyer: una linea di fornitura che spedisce pulita, in tempo, ogni trimestre, senza sorprese."
+        },
+        {
+          "type": "p",
+          "text": "Le sette domande sopra sono come trovate quelle fabbriche; la timeline a 12 settimane è cosa aspettarvi; la mappa di compliance è cosa vi protegge quando il container atterra in porto. Combinate questi tre e escluderete i fornitori che sanno solo vincere il primo ordine, e troverete quelli che sanno come mantenerlo."
+        },
+        {
+          "type": "p",
+          "text": "Se siete all'inizio di quel viaggio e volete discutere una specifica questione di design, MOQ, materiale o compliance, il nostro team a Xiamen può accompagnarvi direttamente — inviate un brief dalla pagina /contact e risponderemo con un video di esempio della fabbrica e un pacchetto di documentazione entro un giorno lavorativo. Attualmente spediamo scatole di legno personalizzate a brand in Germania, Italia, Stati Uniti, Regno Unito, Canada e Polonia attraverso esattamente questo processo. Potete sfogliare il catalogo produttivo su /products, leggere il nostro processo di produzione in sei passi su /blog/six-step-manufacturing-process, o iniziare dalla guida ai materiali se non avete ancora scelto un legno (/material-guide)."
+        }
+      ]
+    },
     "six-step-manufacturing-process": {
       "title": "All'interno del nostro processo di produzione della scatola di legno in 6 fasi",
       "excerpt": "Una panoramica di ciò che accade realmente tra il legname grezzo e la scatola finita che atterra nel tuo magazzino, dall'essiccazione del forno ai certificati fitosanitari.",

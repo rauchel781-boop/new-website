@@ -3,6 +3,352 @@
 
 export default {
   "posts": {
+    "sourcing-custom-wooden-boxes-from-china-2026": {
+      "title": "Maßgefertigte Holzboxen aus China beziehen 2026: ein B2B-Beschaffungsleitfaden",
+      "excerpt": "Ein praktischer Beschaffungsleitfaden für Einzelhandelsmarken und Einkaufsteams — was \"aus China\" 2026 wirklich bedeutet, die 7 Fragen, die leistungsfähige Lieferanten herausfiltern, wie MOQ und Stückkosten tatsächlich zusammenpassen, und die Compliance- und Versandrealitäten hinter einer sauberen Lieferung.",
+      "category": "Strategie",
+      "readTime": "13 Min. Lesezeit",
+      "body": [
+        {
+          "type": "p",
+          "text": "Als mich die Einkaufsleiterin eines Helsinki-Geschenkfachhändlers das erste Mal fragte, wie man maßgefertigte Holzboxen aus China bezieht, hatte sie bereits in 18 Monaten zwei Lieferanten durchlaufen. Der erste hatte 3,20 USD pro Stück angeboten, ihr Werkzeugbudget kassiert und Boxen mit so variablem Feuchtigkeitsgehalt geliefert, dass 14 % der Bestellung mit Rissen ankamen. Der zweite war fachlich kompetent, kommunizierte aber nur in vagen WeChat-Antworten und verpasste ihr Weihnachtsfenster um sechs Wochen. Sie war kurz davor, chinesische Lieferanten ganz aufzugeben."
+        },
+        {
+          "type": "p",
+          "text": "Ihre Erfahrung ist nicht ungewöhnlich. Die Beschaffung von Holzverpackungen aus China im Jahr 2026 ist eine der kosteneffizientesten Entscheidungen, die eine B2B-Marke treffen kann — die Fabriken hier haben unübertroffene Tiefe in Schreinerarbeit, Veredelung und Hardware-Integration. Aber es ist auch ein Markt mit großer Qualitäts- und Zuverlässigkeitsspanne, und ein Einkäufer, der allein nach Preis filtert, hat etwa eine Chance von 1 zu 3, bei seiner ersten Bestellung enttäuscht zu werden."
+        },
+        {
+          "type": "p",
+          "text": "Dieser Leitfaden ist das Playbook, das ich der Helsinki-Käuferin gewünscht hätte, bevor sie ihre erste Bestellung aufgab. Er behandelt, was \"maßgefertigte Holzboxen aus China\" 2026 tatsächlich bedeutet, die sieben Fragen, die leistungsfähige Lieferanten vom Rest trennen, wie MOQ und Stückkosten an diesem Marktende wirklich zusammenpassen, und die Compliance- und Versandrealitäten, die aus einem guten Angebot eine gelieferte Palette machen. Am Ende sollten Sie wissen, wie Sie mit dem richtigen Vokabular, den richtigen Erwartungen und den richtigen Warnsignalen in Ihr erstes Gespräch gehen."
+        },
+        {
+          "type": "h2",
+          "text": "TL;DR — was Sie in 8 Punkten mitnehmen"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Hinter \"Holzboxen aus China\" stehen 3 Lieferstrukturen — Sie wollen mit ziemlicher Sicherheit das Modell aus Spezialfabrik plus Vertriebsbüro.",
+            "7 Prüffragen filtern leistungsfähige Lieferanten von polierter Schaufensterdekoration schon im ersten Gespräch.",
+            "MOQ, Stückkosten und Lieferzeit wirken zusammen — nur auf den Stückpreis zu optimieren, ist der häufigste (und teuerste) Käuferfehler.",
+            "Eine markt-spezifische Compliance-Karte hält Ihren Container davon ab, im Hafen festgehalten zu werden (ISPM 15 immer; FSC, CARB, EU REACH je nach Ziel).",
+            "Vorproduktionsmuster sind nicht verhandelbar. Genehmigen Sie nie eine 5.000-Stück-Bestellung auf Basis eines CAD-Renders.",
+            "12 Wochen vom ersten E-Mail bis zur gelieferten Palette sind realistisch. Alles deutlich Kürzere ist Luftfracht oder Abkürzung.",
+            "0,4 % Vorversand-Fehlerquote ist der Benchmark einer kompetenten Fabrik; über 3 % ist eine Warnung.",
+            "Speichern Sie die 10-Punkte-Pre-Flight-Checkliste am Ende und gehen Sie sie durch, bevor Sie eine Anzahlung überweisen."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Zuerst — was \"aus China\" 2026 tatsächlich abdeckt"
+        },
+        {
+          "type": "p",
+          "text": "Wenn Leute \"Holzboxen aus China\" sagen, werden in den Köpfen der meisten Käufer drei sehr unterschiedliche Lieferstrukturen vermischt. Sie sind nicht austauschbar und werden sehr unterschiedlich bepreist."
+        },
+        {
+          "type": "h3",
+          "text": "1. Handelsgesellschaften und Marktplatz-Listings"
+        },
+        {
+          "type": "p",
+          "text": "Aggregator-Seiten — Alibaba, Made-in-China, 1688 — sind das sichtbarste Gesicht der chinesischen Beschaffung. Etwa 60 % der \"Hersteller\", die Sie dort finden, sind Handelsgesellschaften, die keine Fabrik besitzen; sie nehmen Ihre Bestellung an und vergeben sie an die Werkstatt, die diese Woche freie Kapazität hat. Der Preis ist wettbewerbsfähig, weil die Handelsgesellschaft schlank arbeitet, aber Sie haben keine Kontrolle darüber, welche Fabrik Ihre Boxen tatsächlich fertigt, und die Qualitätssicherung läuft nach fremden Regeln. Handelsgesellschaften funktionieren für Commodity-Produkte, bei denen jede Einheit identisch ist und Qualität binär ist. Maßgefertigte Boxen sind weder das eine noch das andere."
+        },
+        {
+          "type": "h3",
+          "text": "2. Spezialfabriken mit Vertriebsbüros"
+        },
+        {
+          "type": "p",
+          "text": "Die meiste seriöse B2B-Beschaffung findet hier statt. Eine Spezialfabrik (fokussiert auf Paulownia, Kiefer, Bambus, Akazie, Walnuss — wählen Sie eine oder zwei Holzarten) betreibt ihren eigenen Produktionsstandort und kombiniert ihn mit einem Vertriebsbüro in einem Export-Hub wie Xiamen, Shenzhen oder Shanghai. Die Fabrik übernimmt die Fertigung; das Vertriebsbüro übernimmt Dokumentation, Musterkoordination, Kommunikation und die unspektakuläre Logistik, die aus einer Palette Boxen etwas macht, das beim Zoll durchgeht. Unsere eigene Struktur — eine 15.000 m² große Produktionsstätte in Cao County, Shandong und ein Vertriebsbüro in Xiamen, Fujian — fällt in diese Kategorie, und es ist das Modell, das das vorhersehbarste Ergebnis für Käufer liefert, die nachbestellen wollen."
+        },
+        {
+          "type": "h3",
+          "text": "3. Boutique-Werkstätten"
+        },
+        {
+          "type": "p",
+          "text": "Am oberen Ende finden Sie kleine Werkstätten, die 300-Stück-Serien aus massivem Walnussholz für Uhrenboxen oder handgravierte Erbstücke produzieren. Lieferzeiten sind lang, Stückpreise hoch, und sie sind nicht für Skalierung gebaut — aber sie sind diejenigen, die Sie für limitierte Editionen und Luxus-Launches wollen, bei denen jedes Detail persönlich abgenommen wird."
+        },
+        {
+          "type": "p",
+          "text": "Die meisten B2B-Marken, die maßgefertigte Holzboxen beziehen, brauchen Kategorie 2 — eine Spezialfabrik mit einem kompetenten Export-Arm. Der Rest dieses Artikels geht davon aus, dass dies das ist, was Sie suchen."
+        },
+        {
+          "type": "img",
+          "src": "/factory/chic-factory.webp",
+          "caption": "Eine Spezialfabrik mit hauseigener Schreinerei, Veredelung und QC — die Lieferstruktur, die die meisten B2B-Marken tatsächlich wollen."
+        },
+        {
+          "type": "h2",
+          "text": "7 Fragen, die Sie vor Ihrer ersten Bestellung stellen sollten"
+        },
+        {
+          "type": "p",
+          "text": "Das sind die Fragen, die Lieferanten, die ihr Angebot einhalten können, von denen trennen, die Ihnen sagen, was Sie hören wollen. Nutzen Sie sie als Filter im ersten Gespräch."
+        },
+        {
+          "type": "h3",
+          "text": "1. Besitzen Sie die Fabrik oder sind Sie eine Handelsgesellschaft?"
+        },
+        {
+          "type": "p",
+          "text": "An einer Handelsgesellschaft ist nichts inhärent falsch, wenn Sie wirklich nicht kontrollieren müssen, welche Fabrik Ihre Boxen fertigt — aber Sie sollten wissen, mit wem Sie sprechen. Fragen Sie direkt: \"Können Sie mir ein Video der Fabrik schicken, durch die Sie meine Bestellung laufen lassen, mit Datumsstempel?\" Handelsgesellschaften weichen meistens aus; Fabriken zeigen es Ihnen in zwei Minuten."
+        },
+        {
+          "type": "h3",
+          "text": "2. Was ist Ihre typische MOQ und Ihre Mindest-MOQ?"
+        },
+        {
+          "type": "p",
+          "text": "\"Typisch\" verrät Ihnen den kommerziellen Sweet Spot; \"Mindest\" verrät Ihnen, ob Sie einen Testlauf machen können, bevor Sie sich für eine ganze Saison verpflichten. Für die meisten maßgefertigten Holzboxen liegt die typische MOQ bei 500–1.000 Stück; Mindest-MOQs für Erstbestellungen oder einfachere Spezifikationen können bei 100–300 liegen. Wenn ein Lieferant sich weigert, etwas unter 1.000 zu offerieren, ist er wahrscheinlich nicht auf inkrementelles Testen ausgelegt — okay für etablierte Linien, riskant für einen neuen Produkt-Launch."
+        },
+        {
+          "type": "h3",
+          "text": "3. Können Sie drei Referenzen von Käufern aus meiner Region nennen?"
+        },
+        {
+          "type": "p",
+          "text": "Geografische Referenzen sind wichtig, weil sie beweisen, dass der Lieferant Ihr Zollregime, die QC-Erwartungen Ihres Einzelhändlers und Ihre Sprachnormen navigiert hat. Eine Fabrik, die stark in die USA exportiert, weiß möglicherweise wenig über EU REACH oder das deutsche Verpackungsgesetz. Referenzen sprechen das an — und ein zuverlässiger Lieferant gibt sie Ihnen ohne Theater."
+        },
+        {
+          "type": "h3",
+          "text": "4. Wie handhaben Sie Vorproduktionsmuster und was kosten sie?"
+        },
+        {
+          "type": "p",
+          "text": "Gute Fabriken bemustern jedes neue Design, bevor sie Vollproduktion anbieten. Die Musterkosten variieren — von kostenlos für etablierte Käufer bis 80–200 USD pro Stück für einmalige komplexe Bauten — aber das Prinzip ist nicht verhandelbar: Sie sollten nie eine 5.000-Stück-Bestellung allein auf Basis eines CAD-Renders genehmigen. Seien Sie misstrauisch bei Lieferanten, die sich gegen physische Muster wehren oder Formkosten berechnen, die verdächtig nach Handelsgesellschafts-Aufschlag aussehen."
+        },
+        {
+          "type": "img",
+          "src": "/factory/production.webp",
+          "caption": "Ein Muster ist kein Render — es ist die produktionsfertige Einheit, mit der Sie Schreinerarbeit, Finish und Dekoration prüfen, bevor Sie die Vollserie festzurren."
+        },
+        {
+          "type": "h3",
+          "text": "5. Was ist Ihre Fehlerquote und wie wird sie gemessen?"
+        },
+        {
+          "type": "p",
+          "text": "Jede Fabrik sollte Ihnen eine Zahl nennen können — 0,4 % Vorversand-Fehlerquote ist der Benchmark eines kompetenten Betriebs, unter 1 % ist akzeptabel, über 3 % ist ein Warnsignal. Wichtig ist, zu fragen, wie sie gemessen wird: Eine Fehlerquote, die auf ausgehenden Boxen (nach Nacharbeit) berechnet wird, unterscheidet sich von einer, die auf der Erstdurchlauf-Produktion berechnet wird. Die Erstdurchlauf-Zahl verrät Ihnen etwas über Prozessdisziplin; die Ausgangszahl verrät Ihnen etwas über die End-Qualitätskontrolle."
+        },
+        {
+          "type": "h3",
+          "text": "6. Welche Zertifizierungen halten Sie und welche können Sie pro Bestellung liefern?"
+        },
+        {
+          "type": "p",
+          "text": "Permanente Zertifizierungen und auftragsbezogene Dokumente sind zwei verschiedene Dinge. ISO 9001 ist eine permanente Management-System-Zertifizierung, die für die gesamte Fabrik gilt. FSC, CARB und EU REACH werden meist pro Auftrag angewendet: Das in Ihrer spezifischen Serie verwendete Holz wird so beschafft und dokumentiert, dass es dem Standard entspricht. Fragen Sie den Lieferanten, was er permanent hält und was er für Ihre Bestellung dokumentieren kann. Widersprüchliche Antworten hier sind das häufigste Warnzeichen für Ärger."
+        },
+        {
+          "type": "h3",
+          "text": "7. Wie sieht Ihr Export-Dokumentationspaket aus?"
+        },
+        {
+          "type": "p",
+          "text": "Massive Holzverpackungen, die international versandt werden, brauchen ein ISPM-15-Pflanzengesundheitszeugnis — ohne das kann Ihr Container im Hafen unter Quarantäne gestellt oder zurückgeschickt werden. Der Lieferant sollte Ihnen vor der Vergabe ein Beispiel-Dokumentationspaket schicken können (Handelsrechnung mit HS-Codes, Packliste mit Karton-für-Karton-Aufschlüsselung, Pflanzengesundheitszeugnis, Ursprungszeugnis, Konnossement). Lieferanten, die keine Vorlage bereit haben, versenden nicht im großen Stil."
+        },
+        {
+          "type": "img",
+          "src": "/factory/warehouse.webp",
+          "caption": "Ein kompetenter Export-Betrieb packt und dokumentiert Container täglich — Ihr Lieferant sollte ISPM 15 als Muskelgedächtnis behandeln, nicht als Papierkram."
+        },
+        {
+          "type": "h2",
+          "text": "Wie MOQ, Stückkosten und Lieferzeit tatsächlich zusammenpassen"
+        },
+        {
+          "type": "p",
+          "text": "B2B-Käufer, die nur fragen \"Was ist Ihr Stückpreis?\", bekommen die falsche Antwort, weil die Antwort vollständig von drei anderen Variablen abhängt. So wirken diese Variablen am maßgefertigten Holzbox-Ende des Marktes 2026 zusammen."
+        },
+        {
+          "type": "p",
+          "text": "Die MOQ wird durch die Rüstkosten bestimmt — Sägen programmieren, CNC konfigurieren, Finish mischen, ein Muster bauen, ein Veredelungs-Team auf Ihr spezifisches Design schulen. Unter 200–300 Stück verteilen sich diese Rüstkosten dünn auf die Einheit und der Preis schießt nach oben. Zwischen 300 und 2.000 Stück liegt der kommerzielle Sweet Spot, in dem die Rüstkosten amortisieren und Sie die attraktivsten Stückkosten bekommen. Über 5.000 Stück erfordert der nächste Rabattschritt meist einen Wechsel zu leichterem Material oder einfacherer Schreinerarbeit — ein anderes Produkt, nicht nur eine größere Serie desselben."
+        },
+        {
+          "type": "p",
+          "text": "Praktisches Beispiel: Ein Berliner Geschenkfachhändler fragte uns kürzlich nach 1.200 Walnuss-Teeboxen zu einem Zielstückpreis von 4,80 USD bei 28 Tagen Lieferzeit. Unsere ehrliche Antwort war, dass 1.200 Stück sauber in den Sweet Spot fallen (unter 5 USD mit ordentlicher Ofentrocknung ist realistisch), aber 28 Tage funktionieren nur, wenn sie das Muster innerhalb von 5 Tagen genehmigt und die zweite Revisionsrunde überspringt. Sie tat es, und die Boxen wurden an Tag 32 versandt. Die Lektion ist die gleiche, die jeder erfahrene Käufer lernt: Die Stückkosten waren nie der Hebel — die Musterfreigabe-Uhr war es."
+        },
+        {
+          "type": "p",
+          "text": "Lieferzeit sind zwei parallel laufende Uhren. Die erste ist Kalenderzeit: Ofentrocknung (5–14 Tage), Finish-Aushärtung (3–5 Tage) und Warten auf eine Export-Verschiffung (5–10 Tage von der Fabriktür zum Container Ihres Spediteurs). Die zweite ist tatsächliche Produktionszeit: meist 12–25 Minuten Arbeit pro Box, multipliziert mit Ihrer Bestellmenge. Kalenderzeit dominiert bei Bestellungen unter 5.000 Einheiten; Produktionszeit dominiert über 10.000. Eine typische 1.500-Stück-Maßserie aus unserer Anlage dauert 30–40 Tage Tür-zu-Tür."
+        },
+        {
+          "type": "img",
+          "src": "/factory/material.webp",
+          "caption": "Ofengetrocknetes Holz — 5–14 Tage Trocknung machen die 30–40 Tage Lieferzeit real und verhindern, dass Ihre Boxen drei Monate nach Versand reißen."
+        },
+        {
+          "type": "stats",
+          "items": [
+            {
+              "num": "300",
+              "label": "Standard-MOQ pro Design (Stk.)"
+            },
+            {
+              "num": "30-40",
+              "suffix": " Tage",
+              "label": "Produktion nach Musterfreigabe"
+            },
+            {
+              "num": "0,4",
+              "suffix": "%",
+              "label": "Vorversand-Fehlerquoten-Benchmark"
+            },
+            {
+              "num": "88-92",
+              "suffix": "%",
+              "label": "Materialausbeute via Nesting-Software"
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Stückkosten sind die kleinste der drei Variablen, auf die Sie optimieren sollten. Diejenige, die am meisten schmerzt, wenn Sie sie falsch machen, ist Zuverlässigkeit — 0,30 USD Ersparnis pro Stück bei einer 2.000-Stück-Bestellung sind 600 USD. Die Kosten eines verpassten Einzelhandelsfensters sind die gesamte Marge dieser Saison. Lieferanten, die mit dem Preis vorangehen, sind nicht diejenigen, die nachbestellt werden."
+        },
+        {
+          "type": "h2",
+          "text": "Compliance — was Ihr Importmarkt tatsächlich verlangt"
+        },
+        {
+          "type": "p",
+          "text": "Das ist der Abschnitt, den jeder neue Käufer unterschätzt. Verschiedene Märkte haben verschiedene Compliance-Regime, und ein erfahrener Lieferant handhabt sie transparent. Die Tabelle unten fasst die häufigsten Anforderungen für Holzverpackungen nach Zielmarkt zusammen."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Markt",
+            "Immer erforderlich",
+            "Oft erforderlich",
+            "Wer liefert"
+          ],
+          "rows": [
+            [
+              "EU (DE / IT / FR / ES / PT)",
+              "ISPM 15, EU REACH (Finishes)",
+              "FSC (Einzelhandel), Verpackungsgesetz (DE)",
+              "Lieferant + Ihr Importeur"
+            ],
+            [
+              "Vereinigte Staaten",
+              "ISPM 15, CARB P2 (Verbund)",
+              "FSC (Einzelhandel), Prop 65 (CA)",
+              "Lieferant + Ihr Importeur"
+            ],
+            [
+              "Vereinigtes Königreich",
+              "ISPM 15, REACH (Post-Brexit-Äquivalent)",
+              "FSC (Einzelhandel)",
+              "Lieferant"
+            ],
+            [
+              "Kanada / AU / NZ",
+              "ISPM 15, Biosicherheitserklärung",
+              "FSC (Einzelhandel)",
+              "Lieferant + Ihr Spediteur"
+            ],
+            [
+              "Japan / Korea",
+              "ISPM 15",
+              "JAS / KS (bestimmte Artikel)",
+              "Lieferant"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "ISPM 15 ist für jede Massivholz-Verpackung, die in praktisch jeden entwickelten Markt einreist, nicht verhandelbar. Wenn ein Lieferant es im ersten Gespräch nicht erwähnt, versendet er nicht im großen Stil an Ihr Ziel."
+        },
+        {
+          "type": "p",
+          "text": "Für europäische Käufer sind EU-REACH-Compliance auf Finishes (Formaldehyd, VOCs) und die Registrierung nach deutschem Verpackungsgesetz auf der Verpackung selbst die zwei häufigsten Compliance-Lücken. Fragen Sie den Lieferanten, ob seine Finishes EU-REACH-geprüft sind und ob er eine CARB-P2-Erklärung für etwaige Verbundkomponenten liefern kann. Für US-Käufer ist Kalifornien Proposition 65 — Kennzeichnung jedes Produkts, das Finishes oder Hardware auf der Liste enthält — das andere Stolperdraht; wird auf Importeursseite gehandhabt, lohnt aber Bestätigung beim Lieferanten."
+        },
+        {
+          "type": "img",
+          "src": "/factory/painting.webp",
+          "caption": "Lacke sind durch Formulierung EU-REACH- und CARB-konform — die Wahl trifft man an dieser Station, nicht beim Zoll."
+        },
+        {
+          "type": "h2",
+          "text": "Die 7 häufigsten Beschaffungsfehler (und wie man sie vermeidet)"
+        },
+        {
+          "type": "p",
+          "text": "Das sind die Fehler, die wir neue Käufer am häufigsten machen sehen. Jeder einzelne ist behebbar, bevor er Geld kostet."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Das billigste Angebot wählen, ohne auf gleichwertige Specs zu vergleichen. Ein 2,10-USD-Angebot und ein 2,80-USD-Angebot für \"dieselbe Box\" unterscheiden sich meist in Feuchtigkeitsgehalt, Lackschichten und QC-Tiefe — und das billigere verschickt Boxen, die in Woche drei reißen.",
+            "Das Vorproduktionsmuster überspringen. Eine 5.000-Stück-Serie auf Basis eines CAD-Renders zu genehmigen, ist der schnellste Weg, Ihre Marge zu verlieren. Immer bemustern.",
+            "Das Briefing zu knapp halten. \"Wir wollen eine hölzerne Geschenkbox, 200 × 150 × 80 mm, Magnetverschluss\" ist ein Ausgangspunkt, kein Briefing. Ergänzen Sie: Holzart, Finish, Innenfutter, Hardware, Dekorationsmethode, Verpackungstyp, Zielmarkt — und eine Konkurrenzreferenz, falls vorhanden.",
+            "MOQ mit Mindest-MOQ verwechseln. Die \"typische\" MOQ ist der kommerzielle Sweet Spot; die \"Mindest\"-MOQ ist das, was Sie für einen Testlauf verhandeln können. Immer beides fragen.",
+            "ISPM 15 ignorieren. Ein Container, der ohne Pflanzengesundheitszertifizierung im Hafen ankommt, kann tagelang unter Quarantäne stehen, auf Ihre Kosten neu begast oder zurückgeschickt werden. Bestätigen Sie das, bevor der Container China verlässt.",
+            "Veredelung als Sparpotenzial behandeln. Zwei Schichten vs. drei Schichten, wasserbasiert vs. lösungsmittelbasiert, handpoliert vs. maschinell veredelt — diese Entscheidungen zeigen sich sechs Monate später als der Unterschied zwischen einem Käufer, der nachbestellt, und einem, der es nicht tut.",
+            "Den Lieferanten selbst zu managen versuchen, wenn Ihr Volumen einen Spediteur rechtfertigt. Sobald Sie viermal im Jahr 20-Fuß-Container fahren, spart die Spediteursbeziehung mehr, als sie kostet."
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Vom Angebot zur gelieferten Palette — wie 12 Wochen aussehen"
+        },
+        {
+          "type": "p",
+          "text": "So sieht ein realistischer Zeitplan für eine 1.500-Stück-Maßserie aus, von Ihrer ersten E-Mail bis zur Anlieferung in Ihrem Lager."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Woche 1: Briefing, Angebot, Lieferanten-Shortlist. Sie senden Specs und Referenzbilder an zwei oder drei geprüfte Lieferanten; Angebote kommen innerhalb von 1–3 Werktagen zurück.",
+            "Wochen 2–3: Vorproduktionsbemusterung. Der Lieferant produziert ein physisches Muster; Sie prüfen Materialien, Finish, Schreinerarbeit und Dekoration; eine Revisionsrunde ist normal, zwei sind ein gelbes Warnsignal.",
+            "Woche 4: Musterfreigabe und PO. Sie erteilen einen Einkaufsauftrag, zahlen die Anzahlung (meist 30 %), und der Lieferant sichert den Produktionsslot.",
+            "Wochen 5–9: Produktion. Holzauswahl, Ofentrocknung, Zuschnitt, Schreinerarbeit, Veredelung, Hardware-Montage und QC. Der Großteil dieser 5 Wochen ist Aushärtung und Warten; tatsächliche Arbeit pro Box sind 15–25 Minuten.",
+            "Woche 10: Endkontrolle und Restzahlung. Sie erhalten Vorversand-Inspektionsfotos (oder schicken einen Drittinspektor); Sie überweisen die 70 % Restzahlung.",
+            "Wochen 11–12: Containerladung, Zolldokumentation, Verschiffung zum Zielhafen. Rechnen Sie weitere 1–2 Wochen für den Inlandsverkehr, sobald der Container am Zielort verzollt ist."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Für Luftfracht (bei zeitkritischen Bestellungen und Mustern) können Sie die Wochen 11–12 auf 3–5 Tage komprimieren, zahlen aber etwa das 5- bis 8-Fache der Seefracht. Für die meisten B2B-Einzelhandelsvolumina ist Seefracht die richtige Wahl."
+        },
+        {
+          "type": "img",
+          "src": "/factory/wooden-box-4.webp",
+          "caption": "Vorversand-QC — jede Box gegen das genehmigte Muster geprüft, dann verpackt, palettiert und für den Zielhafen dokumentiert."
+        },
+        {
+          "type": "h2",
+          "text": "Eine Pre-Flight-Checkliste für Ihre erste Bestellung"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Briefing geschrieben: Maße, Holz, Finish, Hardware, Innenfutter, Dekoration, Verpackung, Zielmarkt.",
+            "Zwei oder drei geprüfte Lieferanten, die jeder die 7 obigen Fragen ohne Ausweichen beantwortet haben.",
+            "Vorproduktionsmuster genehmigt mit mindestens einer Revisionsrunde schriftlich dokumentiert.",
+            "Fehlerquoten-Benchmark im Vertrag vereinbart (wir empfehlen Vorversand-Inspektion für die ersten drei Bestellungen, danach Zufallsstichprobe).",
+            "ISPM-15-Zertifikat und marktspezifische Zertifizierungen verfügbar bestätigt (FSC, CARB, EU REACH nach Bedarf).",
+            "Vorlage für Dokumentationspaket erhalten: Handelsrechnung, Packliste, Pflanzengesundheit, Ursprungszeugnis, Konnossement.",
+            "Zahlungsbedingungen festgezurrt: typischerweise 30/70-Split (Anzahlung / Restzahlung gegen Vorversand-Fotos oder BL-Kopie).",
+            "Spediteur identifiziert und über Fracht und Ziel gebrieft.",
+            "Incoterm bestätigt (FOB oder EXW für die erste Bestellung; CIF/DDP, sobald Sie dem Lieferanten vertrauen).",
+            "Ein Kommunikationskanal, der in Ihrer Zeitzone funktioniert — E-Mail unterstützt von WhatsApp oder WeChat ist das moderne Minimum."
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "Maßgefertigte Holzboxen aus China zu beziehen ist ein Beziehungsgeschäft, keine Transaktion. Die Fabriken, die das gut machen, suchen nach dem Gleichen wie die Käufer: eine Lieferlinie, die sauber, pünktlich, jedes Quartal, ohne Überraschungen versendet."
+        },
+        {
+          "type": "p",
+          "text": "Die sieben Fragen oben sind, wie Sie diese Fabriken finden; die 12-Wochen-Timeline ist, was Sie erwarten können; die Compliance-Karte ist, was Sie schützt, wenn Ihr Container im Hafen ankommt. Kombinieren Sie diese drei, und Sie schließen die Lieferanten aus, die nur die erste Bestellung gewinnen, und finden diejenigen, die wissen, wie sie sie halten."
+        },
+        {
+          "type": "p",
+          "text": "Wenn Sie am Anfang dieser Reise stehen und ein spezifisches Design, MOQ, Material oder Compliance-Frage durchsprechen möchten, kann unser Team in Xiamen Sie direkt durchführen — senden Sie ein Briefing über die Seite /contact und wir antworten innerhalb eines Werktags mit einem Beispiel-Fabrikvideo und einem Dokumentationspaket. Wir versenden derzeit maßgefertigte Holzboxen an Marken in Deutschland, Italien, den USA, Großbritannien, Kanada und Polen über genau diesen Prozess. Sie können den Produktionskatalog unter /products durchstöbern, über unseren sechsstufigen Herstellungsprozess unter /blog/six-step-manufacturing-process lesen oder beim Materialleitfaden beginnen, falls Sie noch kein Holz gewählt haben (/material-guide)."
+        }
+      ]
+    },
     "six-step-manufacturing-process": {
       "title": "In unserem 6-stufigen Herstellungs prozess für Holzkisten",
       "excerpt": "Ein Durchgang darüber, was wirklich zwischen rauem Holz und der fertigen Schachtel passiert, die in Ihrem Lager landet-von der Trocknung des Ofens bis zu Pflanzen gesundheits zertifikaten.",
