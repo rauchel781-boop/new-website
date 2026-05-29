@@ -29,9 +29,9 @@ const CONTACT_CSS = `
 /* ═══════════════ HERO ═══════════════ */
 .cp .hero {
   position: relative;
-  min-height: 480px;
-  height: 60vh;
-  max-height: 620px;
+  min-height: 320px;
+  height: 42vh;
+  max-height: 420px;
   background: var(--wd-charcoal);
   overflow: hidden;
   display: flex; align-items: center; justify-content: center;
@@ -176,6 +176,7 @@ const CONTACT_CSS = `
   padding: 60px 60px 80px;
   background: var(--wd-sand);
   border-top: 1px solid rgba(107,74,51,0.12);
+  scroll-margin-top: 80px;
 }
 .cp .form-grid {
   max-width: 1300px; margin: 0 auto;
@@ -430,7 +431,7 @@ const CONTACT_CSS = `
   .cp .final { padding: 70px 32px; }
 }
 @media (max-width: 640px) {
-  .cp .hero { height: 50vh; min-height: 400px; }
+  .cp .hero { height: 40vh; min-height: 300px; }
   .cp .strip-inner { padding: 18px 22px; }
   .cp .ways { padding: 50px 22px 40px; }
   .cp .ways-grid { grid-template-columns: 1fr; }
@@ -601,67 +602,8 @@ export default function ContactPage() {
         </div>
       </div>
 
-      {/* ── CONTACT METHODS ── */}
-      <section className="ways">
-        <div className="ways-inner">
-          <div className="sec-head">
-            <div className="sec-eyebrow">{t('ways.eyebrow')}</div>
-            <h2 className="sec-title">{t('ways.titleStart')} <em>{t('ways.titleEm')}</em></h2>
-            <p className="sec-sub">{t('ways.sub')}</p>
-          </div>
-
-          <div className="ways-grid">
-            <a className="way-card" href={`mailto:${SITE.email}`}>
-              <div className="way-icon"><MailIcon /></div>
-              <div className="way-eyebrow">{t('ways.emailEyebrow')}</div>
-              <h3 className="way-title">{t('ways.emailTitle')}</h3>
-              <div className="way-value">{SITE.email}</div>
-              <p className="way-note">{t('ways.emailNote')}</p>
-              <div className="way-cta">{t('ways.emailCta')}</div>
-            </a>
-
-            <a className="way-card" href={SITE.whatsapp.chatUrl} target="_blank" rel="noopener noreferrer">
-              <div className="way-icon"><WhatsAppIcon /></div>
-              <div className="way-eyebrow">{t('ways.whatsappEyebrow')}</div>
-              <h3 className="way-title">{t('ways.whatsappTitle')}</h3>
-              <div className="way-value">{SITE.whatsapp.display}</div>
-              <p className="way-note">{t('ways.whatsappNote')}</p>
-              <div className="way-cta">{t('ways.whatsappCta')}</div>
-            </a>
-
-            <div className="way-card" style={{ cursor: 'default' }}>
-              <div className="way-icon"><WeChatIcon /></div>
-              <div className="way-eyebrow">{t('ways.wechatEyebrow')}</div>
-              <h3 className="way-title">{t('ways.wechatTitle')}</h3>
-              <div className="way-value">{SITE.wechat.id}</div>
-              <p className="way-note">{t('ways.wechatNote')}</p>
-              <div className="way-cta" style={{ color: 'var(--wd-mute)' }}>{t('ways.wechatCta')}</div>
-            </div>
-
-            <a className="way-card" href={SITE.social.alibaba} target="_blank" rel="noopener noreferrer">
-              <div className="way-icon"><StoreIcon /></div>
-              <div className="way-eyebrow">{t('ways.alibabaEyebrow')}</div>
-              <h3 className="way-title">{t('ways.alibabaTitle')}</h3>
-              <div className="way-value">quke.en.alibaba.com</div>
-              <p className="way-note">{t('ways.alibabaNote')}</p>
-              <div className="way-cta">{t('ways.alibabaCta')}</div>
-            </a>
-          </div>
-
-          {/* social pills */}
-          <div className="socials">
-            <a href={SITE.social.linkedin} target="_blank" rel="noopener noreferrer" className="soc-pill">
-              <LinkedInIcon /> {t('ways.linkedin')}
-            </a>
-            <a href={SITE.social.youtube} target="_blank" rel="noopener noreferrer" className="soc-pill">
-              <YouTubeIcon /> {t('ways.youtube')}
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* ── FORM + INFO ── */}
-      <section className="form-wrap-section">
+      <section id="inquiry" className="form-wrap-section">
         <div className="form-grid">
           <div className="form-card">
             {state === 'done' ? (
@@ -783,6 +725,67 @@ export default function ContactPage() {
           </aside>
         </div>
       </section>
+
+      {/* ── CONTACT METHODS ── */}
+      <section className="ways">
+        <div className="ways-inner">
+          <div className="sec-head">
+            <div className="sec-eyebrow">{t('ways.eyebrow')}</div>
+            <h2 className="sec-title">{t('ways.titleStart')} <em>{t('ways.titleEm')}</em></h2>
+            <p className="sec-sub">{t('ways.sub')}</p>
+          </div>
+
+          <div className="ways-grid">
+            <a className="way-card" href={`mailto:${SITE.email}`}>
+              <div className="way-icon"><MailIcon /></div>
+              <div className="way-eyebrow">{t('ways.emailEyebrow')}</div>
+              <h3 className="way-title">{t('ways.emailTitle')}</h3>
+              <div className="way-value">{SITE.email}</div>
+              <p className="way-note">{t('ways.emailNote')}</p>
+              <div className="way-cta">{t('ways.emailCta')}</div>
+            </a>
+
+            <a className="way-card" href={SITE.whatsapp.chatUrl} target="_blank" rel="noopener noreferrer">
+              <div className="way-icon"><WhatsAppIcon /></div>
+              <div className="way-eyebrow">{t('ways.whatsappEyebrow')}</div>
+              <h3 className="way-title">{t('ways.whatsappTitle')}</h3>
+              <div className="way-value">{SITE.whatsapp.display}</div>
+              <p className="way-note">{t('ways.whatsappNote')}</p>
+              <div className="way-cta">{t('ways.whatsappCta')}</div>
+            </a>
+
+            <div className="way-card" style={{ cursor: 'default' }}>
+              <div className="way-icon"><WeChatIcon /></div>
+              <div className="way-eyebrow">{t('ways.wechatEyebrow')}</div>
+              <h3 className="way-title">{t('ways.wechatTitle')}</h3>
+              <div className="way-value">{SITE.wechat.id}</div>
+              <p className="way-note">{t('ways.wechatNote')}</p>
+              <div className="way-cta" style={{ color: 'var(--wd-mute)' }}>{t('ways.wechatCta')}</div>
+            </div>
+
+            <a className="way-card" href={SITE.social.alibaba} target="_blank" rel="noopener noreferrer">
+              <div className="way-icon"><StoreIcon /></div>
+              <div className="way-eyebrow">{t('ways.alibabaEyebrow')}</div>
+              <h3 className="way-title">{t('ways.alibabaTitle')}</h3>
+              <div className="way-value">quke.en.alibaba.com</div>
+              <p className="way-note">{t('ways.alibabaNote')}</p>
+              <div className="way-cta">{t('ways.alibabaCta')}</div>
+            </a>
+          </div>
+
+          {/* social pills */}
+          <div className="socials">
+            <a href={SITE.social.linkedin} target="_blank" rel="noopener noreferrer" className="soc-pill">
+              <LinkedInIcon /> {t('ways.linkedin')}
+            </a>
+            <a href={SITE.social.youtube} target="_blank" rel="noopener noreferrer" className="soc-pill">
+              <YouTubeIcon /> {t('ways.youtube')}
+            </a>
+          </div>
+        </div>
+      </section>
+
+
 
       {/* ── TIMEZONES ── */}
       <section className="clocks">

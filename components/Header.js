@@ -504,7 +504,7 @@ export default function Header() {
             <kbd className="search-btn-kbd">{t('search.openShortcut')}</kbd>
           </button>
 
-          <Link href="/contact" className="cta">{t('cta.getQuote')} →</Link>
+          <Link href="/contact#inquiry" className="cta">{t('cta.getQuote')} →</Link>
 
           <button
             className="burger"
@@ -547,7 +547,7 @@ export default function Header() {
               )}
             </div>
           ))}
-          <Link href="/contact" className="drawer-cta" onClick={() => setMobileOpen(false)}>
+          <Link href="/contact#inquiry" className="drawer-cta" onClick={() => setMobileOpen(false)}>
             {t('cta.getQuote')} →
           </Link>
 

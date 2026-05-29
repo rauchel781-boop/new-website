@@ -639,7 +639,7 @@ export default async function CategoryPage({ params }) {
               : (params.locale === 'en' ? item.longDesc : translatedIntro)}
           </p>
           <div className="cat-hero-btns">
-            <Link href="/contact" className="cat-btn-primary">{ctaQuote}</Link>
+            <Link href="/contact#inquiry" className="cat-btn-primary">{ctaQuote}</Link>
             <Link href="/products" className="cat-btn-outline">{ctaBrowse}</Link>
           </div>
         </div>
@@ -655,7 +655,7 @@ export default async function CategoryPage({ params }) {
                 {products ? tcp('browseTheRange') : tcp('aLookAtTheRange')}
               </h2>
             </div>
-            <Link href="/contact" className="cat-btn-primary">{tcp('requestSamples')}</Link>
+            <Link href="/contact#inquiry" className="cat-btn-primary">{tcp('requestSamples')}</Link>
           </div>
 
           {products ? (
@@ -789,7 +789,7 @@ export default async function CategoryPage({ params }) {
           <h2 className="cat-cta-title">{tcp('ctaTitle', { name: translatedName })}</h2>
           <p className="cat-cta-sub">{tcp('ctaSub')}</p>
           <div className="cat-hero-btns" style={{ justifyContent: 'center' }}>
-            <Link href="/contact" className="cat-btn-primary">{tcp('ctaEmail')}</Link>
+            <Link href="/contact#inquiry" className="cat-btn-primary">{tcp('ctaEmail')}</Link>
             <Link href="/products" className="cat-btn-outline">{tcp('ctaBrowse')}</Link>
           </div>
         </div>

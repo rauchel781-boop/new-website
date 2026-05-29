@@ -1073,7 +1073,7 @@ export default async function MaterialGuidePage({ params: { locale } }) {
           </h2>
           <p className="mg-cta-sub">{COPY.cta.sub}</p>
           <div className="mg-cta-btns">
-            <Link href="/contact" className="mg-btn-pri">{COPY.cta.btnPrimary}</Link>
+            <Link href="/contact#inquiry" className="mg-btn-pri">{COPY.cta.btnPrimary}</Link>
             <Link href="/products" className="mg-btn-out">{COPY.cta.btnSecondary}</Link>
           </div>
         </div>

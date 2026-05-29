@@ -546,7 +546,7 @@ export default async function ProductDetail({ params }) {
             </div>
 
             <div className="pdp-cta">
-              <Link href="/contact" className="pdp-btn-primary">{t('sendInquiry')}</Link>
+              <Link href="/contact#inquiry" className="pdp-btn-primary">{t('sendInquiry')}</Link>
               <Link href={`/products/${params.slug}`} className="pdp-btn-outline">{t('browseCategory')}</Link>
             </div>
 
