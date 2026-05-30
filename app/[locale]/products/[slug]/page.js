@@ -68,20 +68,27 @@ export async function generateMetadata({ params }) {
     description = tc(`${params.slug}.intro`) || description;
   } catch (e) {}
 
+  // Per-category SEO overrides: if the category data file ships seoTitle /
+  // seoDescription (used for keyword-targeted landing-page categories like
+  // sliding-lid), prefer those over the default template. Falls back to the
+  // existing pattern so untouched categories render unchanged.
+  const title = item.seoTitle || `${item.name} — CHIC Wooden Expert`;
+  const metaDesc = item.seoDescription || description;
+
   return {
-    title: `${item.name} — CHIC Wooden Expert`,
-    description,
+    title,
+    description: metaDesc,
     alternates: makeAlternates(params.locale, localePath),
     openGraph: {
       url: fullPath,
-      title: `${item.name} — CHIC Wooden Expert`,
-      description,
+      title,
+      description: metaDesc,
       images: item.hero ? [{ url: item.hero, alt: item.name }] : undefined,
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${item.name} — CHIC Wooden Expert`,
-      description,
+      title,
+      description: metaDesc,
       images: item.hero ? [item.hero] : undefined,
     },
   };
@@ -326,6 +333,23 @@ const CSS = `
   color: var(--text-muted);
   font-style: italic;
   line-height: 1.55;
+}
+.cat-deep-h3 {
+  font-family: var(--font-fraunces), serif;
+  font-weight: 600;
+  font-size: clamp(1.2rem, 1.8vw, 1.4rem);
+  color: var(--wood-deep);
+  margin: 44px 0 18px;
+  line-height: 1.3;
+  letter-spacing: -0.2px;
+}
+.cat-deep-h3::after {
+  content: '';
+  display: block;
+  width: 36px;
+  height: 2px;
+  background: var(--accent);
+  margin-top: 10px;
 }
 @media (max-width: 960px) { .cat-deep { padding: 64px 24px 56px; } }
 
@@ -731,26 +755,35 @@ export default async function CategoryPage({ params }) {
               {item.deepContent.title}
             </h2>
             <div className="cat-section-line" />
-            {item.deepContent.blocks.map((b, i) =>
-              b.type === 'img' ? (
-                <figure key={i} className="cat-deep-fig-wrap">
-                  <div className="cat-deep-figure">
-                    <Image
-                      src={b.src}
-                      alt={b.caption}
-                      fill
-                      sizes="(max-width: 900px) 100vw, 800px"
-                      style={{ objectFit: 'cover' }}
-                    />
-                  </div>
-                  <figcaption className="cat-deep-figcaption">{b.caption}</figcaption>
-                </figure>
-              ) : (
+            {item.deepContent.blocks.map((b, i) => {
+              if (b.type === 'img') {
+                return (
+                  <figure key={i} className="cat-deep-fig-wrap">
+                    <div className="cat-deep-figure">
+                      <Image
+                        src={b.src}
+                        alt={b.caption}
+                        fill
+                        sizes="(max-width: 900px) 100vw, 800px"
+                        style={{ objectFit: 'cover' }}
+                      />
+                    </div>
+                    <figcaption className="cat-deep-figcaption">{b.caption}</figcaption>
+                  </figure>
+                );
+              }
+              if (b.type === 'h3') {
+                return (
+                  <h3 key={i} className="cat-deep-h3">{b.text}</h3>
+                );
+              }
+              // default — paragraph with inline [text](path) link tokens
+              return (
                 <p key={i} className="cat-deep-para">
                   {renderDeepParagraph(b.text, `dp-${i}`)}
                 </p>
-              ),
-            )}
+              );
+            })}
           </div>
         </section>
       )}

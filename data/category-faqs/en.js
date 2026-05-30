@@ -270,6 +270,18 @@ export const FAQS = {
         q: 'Will the lid still slide smoothly after years of use?',
         a: 'In stable indoor humidity (40-65% RH), yes — these boxes outlast generations. In very dry climates the wood can shrink slightly and create play; in very humid climates it can swell and feel tighter. Both are reversible with light sanding or a thin coat of paste wax in the groove.',
       },
+      {
+        q: "What is your MOQ for custom sliding lid wooden boxes, and what does it cost to scale?",
+        a: 'Standard MOQ on a custom sliding lid wooden box design is 300 pieces — this is the floor where setup costs (CNC programming, sample build, finish formulation) amortise into a competitive unit price. First-order test runs can go down to 100 pieces with a higher unit cost. Sweet-spot pricing kicks in between 500 and 2,000 pieces; above 5,000 the next discount step usually requires shifting to a lighter wood species or a simpler closure on the same product family. Wholesale account terms (FOB Xiamen) are 30 / 70 split — deposit on PO, balance against pre-shipment inspection photos.',
+      },
+      {
+        q: 'Can you supply FSC-certified and food-safe finishes on sliding lid wooden boxes?',
+        a: 'Yes. FSC chain-of-custody certification is available per order for retailers who need it printed on the lid label or shipping carton — common for German, French and UK supermarket programs. Food-safe certification (EU EC 1935/2004 and US FDA 21 CFR 175.300) is standard on water-based lacquer finishes used for tea, coffee, spice and confectionery applications. For composite or veneered components, CARB P2 compliance documentation is provided on request. ISPM 15 phytosanitary certification is standard on every container regardless of certification choice.',
+      },
+      {
+        q: 'Do you make sliding lid wooden cigar boxes? What sizes and woods are available?',
+        a: 'Yes — sliding lid wooden cigar boxes are one of our most-requested B2B applications. Standard cigar-box sizes range from 5-cigar boxes (170 × 70 × 35 mm interior) up to 25-count humidor-style sliding lid boxes (240 × 200 × 80 mm interior). Spanish cedar is the traditional liner — we line our walnut, paulownia and pine exteriors with cedar veneer for moisture and aroma management. MOQ for custom dimensions is 300 pieces; for stock dimensions with engraved branding only, MOQ can be 100. We ship cigar-box orders to distillers, tobacco brands and spirits houses across the EU, US and Canada.',
+      },
     ],
   },
 
