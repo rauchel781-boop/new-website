@@ -72,8 +72,12 @@ export async function generateMetadata({ params }) {
   // seoDescription (used for keyword-targeted landing-page categories like
   // sliding-lid), prefer those over the default template. Falls back to the
   // existing pattern so untouched categories render unchanged.
-  const title = item.seoTitle || `${item.name} — CHIC Wooden Expert`;
-  const metaDesc = item.seoDescription || description;
+  // Per-locale overlay (data/categories/translations) may ship a localized
+  // seoTitle / seoDescription; prefer that, then the English source override,
+  // then the default template / localized intro.
+  const ctMeta = getCategoryTranslation(params.slug, params.locale);
+  const title = ctMeta.seoTitle || item.seoTitle || `${item.name} — CHIC Wooden Expert`;
+  const metaDesc = ctMeta.seoDescription || item.seoDescription || description;
 
   return {
     title,
@@ -563,6 +567,11 @@ export default async function CategoryPage({ params }) {
   const translatedSpecs    = catTranslation.specs    || item.specs;
   const translatedUseCases = catTranslation.useCases || item.useCases;
   const translatedLongDesc = catTranslation.longDesc || item.longDesc;
+  // Long-form buyer-guide block: prefer the per-locale translated deepContent
+  // when the overlay ships one, otherwise fall back to the English source.
+  // This keeps non-English pages from showing an English wall of body text
+  // once a locale has been translated, while untranslated locales still build.
+  const deepContent = catTranslation.deepContent || item.deepContent;
 
   // Pre-compute related category cards with translated names and group labels.
   // We resolve translations now (not inside JSX) because getTranslations is async.
@@ -747,15 +756,15 @@ export default async function CategoryPage({ params }) {
       {/* Only renders when the category data ships a `deepContent` block. */}
       {/* Sits between Specs/Use Cases and the FAQ — gives Google a long-form */}
       {/* keyword-rich passage in the body without making the hero feel heavy. */}
-      {item.deepContent && (
+      {deepContent && (
         <section className="cat-section cat-deep" aria-labelledby="cat-deep-title">
           <div className="cat-deep-inner">
-            <div className="cat-section-label">{item.deepContent.eyebrow}</div>
+            <div className="cat-section-label">{deepContent.eyebrow}</div>
             <h2 className="cat-section-title" id="cat-deep-title">
-              {item.deepContent.title}
+              {deepContent.title}
             </h2>
             <div className="cat-section-line" />
-            {item.deepContent.blocks.map((b, i) => {
+            {deepContent.blocks.map((b, i) => {
               if (b.type === 'img') {
                 return (
                   <figure key={i} className="cat-deep-fig-wrap">
