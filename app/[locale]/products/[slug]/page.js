@@ -80,7 +80,10 @@ export async function generateMetadata({ params }) {
   const metaDesc = ctMeta.seoDescription || item.seoDescription || description;
 
   return {
-    title,
+    // `absolute` opts out of the locale layout's `%s | CHIC — Wooden Expert`
+    // title template so our keyword-first, B2B-qualified seoTitle renders
+    // exactly as written (otherwise the brand suffix would be doubled).
+    title: { absolute: title },
     description: metaDesc,
     alternates: makeAlternates(params.locale, localePath),
     openGraph: {
