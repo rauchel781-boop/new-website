@@ -88,10 +88,10 @@ export const CERTS = [
 
 export const COPY = {
   hero: {
-    titleA: 'Where',
-    titleEm1: 'Wood',
-    titleB: 'Becomes',
-    titleEm2: 'Heirloom.',
+    titleA: 'Custom Wooden Box',
+    titleEm1: 'Manufacturer',
+    titleB: '& Wholesale',
+    titleEm2: 'OEM Supplier',
     sub: 'From luxury gift packaging to bespoke storage — we engineer custom wooden boxes in our 15,000 m² Cao County factory and ship to brands in 60+ countries from our Xiamen office. Built by hand, finished with bench-grade precision.',
     btnPrimary: 'View Best Sellers →',
     btnOutline: 'Request a Free Sample',
