@@ -75,10 +75,10 @@ export const CERTS = [
 
 export const COPY = {
   hero: {
-    titleA: '나무가',
-    titleEm1: '나무',
-    titleB: '되는 곳에서',
-    titleEm2: '가보로.',
+    titleA: '맞춤 우드 박스',
+    titleEm1: '제조업체',
+    titleB: '도매 &',
+    titleEm2: 'OEM 공급업체',
     sub: '럭셔리 선물 포장부터 맞춤 수납까지 — 15,000 m² 차오현 공장에서 맞춤형 목재 박스를 설계하고, 샤먼 사무소에서 60개국 이상의 브랜드로 출하합니다. 손으로 만들고, 작업대 정밀도로 마감.',
     btnPrimary: '베스트셀러 보기 →',
     btnOutline: '무료 샘플 요청',

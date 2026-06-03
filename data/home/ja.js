@@ -75,10 +75,10 @@ export const CERTS = [
 
 export const COPY = {
   hero: {
-    titleA: '木が',
-    titleEm1: '木',
-    titleB: 'なるところ、',
-    titleEm2: '家宝へ。',
+    titleA: 'カスタム木箱の',
+    titleEm1: '製造メーカー',
+    titleB: '卸売・',
+    titleEm2: 'OEMサプライヤー',
     sub: '高級ギフト包装からカスタム収納まで — 当社の15,000 m²曹県工場でカスタム木箱を設計し、厦門オフィスから60カ国以上のブランドへ出荷します。手作りで、職人レベルの精度で仕上げます。',
     btnPrimary: 'ベストセラーを見る →',
     btnOutline: '無料サンプル請求',

@@ -75,10 +75,10 @@ export const CERTS = [
 
 export const COPY = {
   hero: {
-    titleA: 'Onde a',
-    titleEm1: 'Madeira',
-    titleB: 'se torna',
-    titleEm2: 'Herança.',
+    titleA: 'Fabricante de',
+    titleEm1: 'Caixas de Madeira',
+    titleB: 'Grossista &',
+    titleEm2: 'Fornecedor OEM',
     sub: 'Da embalagem de presente de luxo à arrumação à medida — desenhamos caixas de madeira personalizadas na nossa fábrica de 15.000 m² em Cao County e enviamos para marcas em 60+ países a partir do nosso escritório em Xiamen. Construídas à mão, acabadas com precisão de bancada.',
     btnPrimary: 'Ver Best Sellers →',
     btnOutline: 'Pedir Amostra Gratuita',

@@ -75,10 +75,10 @@ export const CERTS = [
 
 export const COPY = {
   hero: {
-    titleA: 'Quand le',
-    titleEm1: 'Bois',
-    titleB: 'devient',
-    titleEm2: 'Patrimoine.',
+    titleA: 'Fabricant de',
+    titleEm1: 'Boîtes en Bois',
+    titleB: 'Grossiste &',
+    titleEm2: 'Fournisseur OEM',
     sub: 'De l’emballage cadeau de luxe au rangement sur mesure — nous concevons des boîtes en bois personnalisées dans notre usine de 15 000 m² à Cao County et expédions à des marques dans 60+ pays depuis notre bureau de Xiamen. Faites main, finies à la précision d’établi.',
     btnPrimary: 'Voir les Best Sellers →',
     btnOutline: 'Demander un Échantillon Gratuit',

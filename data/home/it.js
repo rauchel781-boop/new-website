@@ -75,10 +75,10 @@ export const CERTS = [
 
 export const COPY = {
   hero: {
-    titleA: 'Dove il',
-    titleEm1: 'Legno',
-    titleB: 'diventa',
-    titleEm2: 'Cimelio.',
+    titleA: 'Produttore di',
+    titleEm1: 'Scatole in Legno',
+    titleB: 'Ingrosso &',
+    titleEm2: 'Fornitore OEM',
     sub: 'Dall’imballaggio regalo di lusso allo stoccaggio su misura — progettiamo scatole in legno personalizzate nel nostro stabilimento di 15.000 m² a Cao County e spediamo a brand in 60+ paesi dal nostro ufficio di Xiamen. Costruite a mano, finite con precisione da banco.',
     btnPrimary: 'Vedi Best Seller →',
     btnOutline: 'Richiedi Campione Gratuito',

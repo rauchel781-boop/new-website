@@ -75,10 +75,10 @@ export const CERTS = [
 
 export const COPY = {
   hero: {
-    titleA: 'Wo',
-    titleEm1: 'Holz',
-    titleB: 'zum',
-    titleEm2: 'Erbstück wird.',
+    titleA: 'Hersteller für',
+    titleEm1: 'Holzboxen nach Maß',
+    titleB: 'Großhandel &',
+    titleEm2: 'OEM-Lieferant',
     sub: 'Von Luxus-Geschenkverpackung bis maßgefertigter Aufbewahrung — wir entwickeln individuelle Holzboxen in unserem 15.000 m² Werk in Cao County und liefern an Marken in 60+ Ländern aus unserem Büro in Xiamen. Handgefertigt, mit Werkbankpräzision finalisiert.',
     btnPrimary: 'Bestseller ansehen →',
     btnOutline: 'Kostenloses Muster anfordern',

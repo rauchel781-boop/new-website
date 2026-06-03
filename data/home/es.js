@@ -75,10 +75,10 @@ export const CERTS = [
 
 export const COPY = {
   hero: {
-    titleA: 'Donde la',
-    titleEm1: 'Madera',
-    titleB: 'se vuelve',
-    titleEm2: 'Reliquia.',
+    titleA: 'Fabricante de',
+    titleEm1: 'Cajas de Madera',
+    titleB: 'Mayorista &',
+    titleEm2: 'Proveedor OEM',
     sub: 'Desde embalaje regalo de lujo hasta almacenaje a medida — diseñamos cajas de madera personalizadas en nuestra fábrica de 15.000 m² en Cao County y enviamos a marcas en 60+ países desde nuestra oficina de Xiamen. Hechas a mano, terminadas con precisión de banco.',
     btnPrimary: 'Ver Best Sellers →',
     btnOutline: 'Solicitar Muestra Gratuita',
