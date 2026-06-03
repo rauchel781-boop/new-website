@@ -2026,12 +2026,7 @@ function viewCustomerDetail(id) {
       <button class="btn btn-sm" onclick="closeModal();editSample(null,'${c.id}')">+ 新建样品</button>
       <button class="btn btn-sm" onclick="closeModal();editQuotation(null,'${c.id}')">+ 新建报价</button>
       <button class="btn btn-sm" onclick="closeModal();editOrder(null,'${c.id}')">+ 新建订单</button>
-      <button class="btn btn-sm" onclick="aiDraftMessage('${c.id}')" title="AI 按客户背景起草英文话术（邮件/站内信/微信），生成后可复制" style="color:#4338ca;font-weight:600;margin-left:auto;">✍️ AI 写话术</button>
-      <button class="btn btn-sm" onclick="aiTranslateTool('${c.id}')" title="AI 翻译 / 润色：粘贴中英文，一键译中、译英或润色" style="color:#4338ca;">🌐 AI 翻译</button>
-      <button class="btn btn-sm" onclick="aiAnalyzeCustomer('${c.id}')" title="AI 分析该客户：画像 / 成交概率 / 卡点 / 下一步" style="color:#4338ca;font-weight:600;">🤖 AI 分析</button>
     </div>
-
-    ${typeof aiAnalysisCardHtml === 'function' ? aiAnalysisCardHtml(c.id) : ''}
 
     <!-- Tabs -->
     <div class="cust-tabs">
