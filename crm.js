@@ -9660,7 +9660,12 @@ function renderTasks() {
 }
 
 function renderTaskRow(t) {
-  const c = customerById(t.customerId);
+  let c = customerById(t.customerId);
+  // 兜底：只存了客户名、没绑定客户ID 时，按公司名匹配一次
+  if (!c && t.customerName) {
+    const nm = String(t.customerName).trim().toLowerCase();
+    c = (DB.customers || []).find(x => (x.company || '').trim().toLowerCase() === nm) || null;
+  }
   const cName = c ? c.company : t.customerName || '';
   const custHtml = c
     ? `<span class="task-cust-link" onclick="viewCustomerTasks('${c.id}')" title="查看该客户的所有日程">${escapeHtml(cName)}</span>`
