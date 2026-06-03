@@ -1,0 +1,49 @@
+name: Deploy to Coolify
+
+# Triggers a Coolify deployment on every push to main (and lets you fire one
+# manually from the Actions tab). This is a workaround for when the native
+# GitHub -> Coolify push webhook isn't wired up: instead of Coolify listening
+# for GitHub, GitHub actively calls Coolify's per-application deploy webhook.
+#
+# Requires two repository secrets (Settings -> Secrets and variables -> Actions):
+#   COOLIFY_WEBHOOK  Full deploy URL from Coolify -> your application -> Webhooks,
+#                    e.g. https://coolify.example.com/api/v1/deploy?uuid=abc123
+#   COOLIFY_TOKEN    A Coolify API token (Coolify -> Keys & Tokens / API Tokens)
+#
+# Until both secrets exist the job soft-skips (green, with a warning) so it
+# never blocks anything.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+# If several pushes land quickly, only the latest needs to deploy.
+concurrency:
+  group: coolify-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Coolify deployment
+        env:
+          COOLIFY_WEBHOOK: ${{ secrets.COOLIFY_WEBHOOK }}
+          COOLIFY_TOKEN: ${{ secrets.COOLIFY_TOKEN }}
+        run: |
+          if [ -z "$COOLIFY_WEBHOOK" ] || [ -z "$COOLIFY_TOKEN" ]; then
+            echo "::warning::COOLIFY_WEBHOOK / COOLIFY_TOKEN secrets not set yet — skipping. Add them in Settings → Secrets and variables → Actions to enable auto-deploy."
+            exit 0
+          fi
+          echo "Triggering Coolify deploy…"
+          code=$(curl -sS -o /tmp/resp.txt -w "%{http_code}" -X GET "$COOLIFY_WEBHOOK" \
+            -H "Authorization: Bearer $COOLIFY_TOKEN")
+          echo "HTTP $code"
+          cat /tmp/resp.txt || true
+          echo ""
+          if [ "$code" -lt 200 ] || [ "$code" -ge 300 ]; then
+            echo "::error::Coolify deploy webhook returned HTTP $code"
+            exit 1
+          fi
+          echo "✅ Deploy triggered on Coolify."
