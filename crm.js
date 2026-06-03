@@ -5204,7 +5204,7 @@ function renderSamples() {
           <th style="width:50px;">图片</th><th>单号</th><th>客户</th>
           <th>产品</th><th class="text-right">产品数</th>
           <th class="text-right">工厂费(RMB)</th><th class="text-right">客户报价</th>
-          <th>下单时间</th><th>状态</th>
+          <th>下单时间</th><th>完成时间</th><th>状态</th>
           <th class="text-right">操作</th>
         </tr></thead>
         <tbody>
@@ -5227,6 +5227,7 @@ function renderSamples() {
             <td class="text-right">${totalFactory ? '¥' + totalFactory.toFixed(2) : '-'}</td>
             <td class="text-right">${totalClient ? (s.currency || 'USD') + ' ' + totalClient.toFixed(2) : '-'}</td>
             <td class="no-wrap">${s.orderDate ? fmtDate(s.orderDate) : '<span class="muted">—</span>'}</td>
+            <td class="no-wrap">${s.finishDate ? fmtDate(s.finishDate) : '<span class="muted">—</span>'}</td>
             <td><span class="tag ${getStatus(SAMPLE_STATUSES, s.status).tag}">${escapeHtml(s.status || '-')}</span></td>
             <td class="text-right no-wrap">
               <button class="btn-link" onclick="editSample('${s.id}')">编辑</button>
@@ -5238,7 +5239,7 @@ function renderSamples() {
             </td>
           </tr>`;
           if (expanded) {
-            html += '<tr><td colspan="11" style="padding:0;background:#fafbfc;"><div style="padding:8px 12px;">' + renderSampleExpandedItems(s) + '</div></td></tr>';
+            html += '<tr><td colspan="12" style="padding:0;background:#fafbfc;"><div style="padding:8px 12px;">' + renderSampleExpandedItems(s) + '</div></td></tr>';
           }
           return html;
         }).join('')}
@@ -5262,6 +5263,7 @@ function editSample(id, customerId) {
       customerId: customerId || '',
       draftDate: todayStr(),   // 草稿/INVOICE 日期（给客人发 INVOICE 的时间）
       orderDate: '',           // 下单时间：转「样品进行中」时自动填
+      finishDate: '',          // 样品完成时间：转「样品已寄出」时自动填，可手改
       productionTime: '',
       sentDate: '',
       status: '草稿',
@@ -5303,6 +5305,9 @@ function renderSampleForm() {
         <select onchange="_editingSample.status=this.value">${SAMPLE_STATUSES.map(st => `<option ${s.status===st.name?'selected':''}>${st.name}</option>`).join('')}</select></div>
       <div class="field"><label>运费（${escapeHtml(s.currency||'USD')}，计入客户总价）</label>
         <input type="number" min="0" step="0.01" value="${escapeHtml(s.freight||'')}" oninput="_editingSample.freight=this.value;refreshSampleTotal()" placeholder="0.00"></div>
+      <div class="field"><label>样品完成时间</label>
+        <input type="date" value="${fmtDate(s.finishDate)}" onchange="_editingSample.finishDate=this.value">
+        <div style="font-size:10px;color:#9ca3af;margin-top:2px;">转「样品已寄出」时自动填，可手改</div></div>
       <div class="field"><label>寄出日期</label>
         <input type="date" value="${fmtDate(s.sentDate)}" onchange="_editingSample.sentDate=this.value"></div>
       <div class="field"><label>快递公司/单号</label>
@@ -5452,6 +5457,7 @@ async function saveSampleForm(id) {
   } else if (s.status === '样品已寄出') {
     if (!s.orderDate) s.orderDate = _today;
     if (!s.sentDate) s.sentDate = _today;
+    if (!s.finishDate) s.finishDate = _today;   // 样品完成时间
   }
   if (!DB.samples) DB.samples = [];
   if (!isUuid(s.id)) s.id = cloudUid();
@@ -5491,6 +5497,7 @@ function cloneSample(id) {
   clone.createdAt = new Date().toISOString();
   clone.draftDate = todayStr();
   clone.orderDate = '';
+  clone.finishDate = '';
   clone.sentDate = '';
   clone.trackingNo = '';
   clone.status = '草稿';
@@ -7666,6 +7673,7 @@ function viewSampleReadonly(id) {
       <dt>地址</dt><dd>${c ? escapeHtml(c.address || '-') : '-'}</dd>
       <dt>草稿/INVOICE日期</dt><dd>${fmtDate(s.draftDate) || '-'}</dd>
       <dt>下单日期</dt><dd>${s.orderDate ? fmtDate(s.orderDate) : '<span class="muted">— （草稿未下单）</span>'}</dd>
+      <dt>完成时间</dt><dd>${fmtDate(s.finishDate) || '-'}</dd>
       <dt>寄出日期</dt><dd>${fmtDate(s.sentDate) || '-'}</dd>
       <dt>生产周期</dt><dd>${escapeHtml(s.productionTime || '-')}</dd>
       <dt>物流号</dt><dd>${escapeHtml(s.trackingNo || '-')}</dd>
