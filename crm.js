@@ -3161,7 +3161,7 @@ function renderProducts() {
           <div class="tree-item ${productCatFilter==='__none'?'active':''}" onclick="productCatFilter='__none';renderProducts()">
             📂 未分类 <span class="count">${noneCount}</span>
           </div>` : ''}
-        <div style="padding:8px 14px;color:#9ca3af;font-size:11px;line-height:1.6;">点击切换 / 双击删除 / 鼠标移到大分类右侧点 ➕ 加子分类</div>
+        <div style="padding:8px 14px;color:#9ca3af;font-size:11px;line-height:1.6;">点击切换 / 双击删除 / ➕ 加子分类 / ⇄ 移动到其他分类下</div>
       </div>
       <div class="split-main">
         <div class="table-toolbar">
@@ -3255,6 +3255,7 @@ function renderCategoryTreeHtml() {
     const escLeaf = escapeHtml(leaf);
     return '<div class="tree-item ' + (productCatFilter === c ? 'active' : '') + '" style="padding-left:' + (12 + indent) + 'px;display:flex;align-items:center;justify-content:space-between;gap:4px;" onclick="productCatFilter=\'' + escC.replace(/'/g, "\\'") + '\';renderProducts()" ondblclick="event.stopPropagation();deleteCategory(\'' + escC.replace(/'/g, "\\'") + '\')">' +
       '<span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;">' + icon + ' ' + escLeaf + ' <span class="count">' + count + '</span></span>' +
+      '<button class="cat-add-sub" title="移动到其他分类下（连子分类和产品一起）" onclick="event.stopPropagation();moveCategory(\'' + escC.replace(/'/g, "\\'") + '\')" style="background:transparent;border:none;color:#9ca3af;font-size:12px;padding:0 4px;cursor:pointer;">⇄</button>' +
       '<button class="cat-add-sub" title="加子分类" onclick="event.stopPropagation();addSubCategory(\'' + escC.replace(/'/g, "\\'") + '\')" style="background:transparent;border:none;color:#9ca3af;font-size:13px;padding:0 6px;cursor:pointer;">➕</button>' +
     '</div>';
   }).join('');
@@ -3281,6 +3282,62 @@ function addSubCategory(parentPath) {
   if (DB.productCategories.includes(full) || (DB.products || []).some(p => p.category === full)) { toast('该子分类已存在', 'error'); return; }
   DB.productCategories.push(full);
   saveDB(); renderProducts(); toast('已添加子分类 ' + full);
+}
+
+// ===== 移动分类：把某分类（连同子分类和产品）挂到另一个分类下 / 移回顶层 =====
+function moveCategory(name) {
+  // 候选目标：所有分类（含自动补全的父级），排除自己和自己的子孙
+  const all = allCategoryPaths();
+  const withParents = new Set(all);
+  all.forEach(c => { let p = catParent(c); while (p) { withParents.add(p); p = catParent(p); } });
+  const targets = [...withParents].sort().filter(c => c !== name && !c.startsWith(name + '/'));
+  const leaf = catLeaf(name);
+  const opts = '<option value="">（顶层 · 变成大分类）</option>' + targets.map(t =>
+    '<option value="' + escapeHtml(t) + '">' + '　'.repeat(catDepth(t)) + escapeHtml(catLeaf(t)) + (catDepth(t) === 0 ? '（大分类）' : '') + '</option>'
+  ).join('');
+  openModal('移动分类「' + escapeHtml(leaf) + '」', `
+    <div class="field">
+      <label>移动到哪个分类下？（它的子分类和产品会一起跟过去）</label>
+      <select id="moveCatTarget" style="width:100%;padding:8px;border:1px solid #d1d5db;border-radius:5px;margin-top:6px;">${opts}</select>
+    </div>
+  `, `
+    <button class="btn" onclick="closeModal()">取消</button>
+    <button class="btn btn-primary" onclick="doMoveCategory('${escapeHtml(name).replace(/'/g, "\\'")}')">移动</button>
+  `);
+}
+
+function doMoveCategory(name) {
+  const sel = document.getElementById('moveCatTarget');
+  const target = sel ? sel.value : '';
+  const leaf = catLeaf(name);
+  const newPath = target ? target + '/' + leaf : leaf;
+  if (newPath === name) { closeModal(); return; }
+  if (target === name || target.startsWith(name + '/')) { toast('不能移到自己或自己的子分类下', 'error'); return; }
+  const exists = (DB.productCategories || []).includes(newPath) || (DB.products || []).some(p => p.category === newPath);
+  if (exists) { toast('目标位置已有同名分类「' + leaf + '」', 'error'); return; }
+  // 重写分类路径（自己 + 所有子孙）
+  DB.productCategories = (DB.productCategories || []).map(c => {
+    if (c === name) return newPath;
+    if (c.startsWith(name + '/')) return newPath + c.slice(name.length);
+    return c;
+  });
+  // 确保新路径在列表里（原来可能只是产品自带的分类）
+  if (!DB.productCategories.includes(newPath)) DB.productCategories.push(newPath);
+  // 重写受影响产品的分类
+  const changed = [];
+  (DB.products || []).forEach(p => {
+    if (p.category === name) { p.category = newPath; changed.push(p); }
+    else if ((p.category || '').startsWith(name + '/')) { p.category = newPath + p.category.slice(name.length); changed.push(p); }
+  });
+  // 当前筛选跟着搬
+  if (productCatFilter === name) productCatFilter = newPath;
+  else if ((productCatFilter || '').startsWith(name + '/')) productCatFilter = newPath + productCatFilter.slice(name.length);
+  saveDB(); closeModal(); renderProducts();
+  toast('已移动到 ' + (target || '顶层') + (changed.length ? '，' + changed.length + ' 个产品已更新' : ''), 'success');
+  // 受影响产品后台同步云端
+  if (changed.length && typeof cloudUpsertProduct === 'function' && typeof cloudClient !== 'undefined' && cloudClient) {
+    bgCloud(async () => { for (const p of changed) { await cloudUpsertProduct(p); } }, '产品分类云端同步失败');
+  }
 }
 
 function deleteCategory(name) {
