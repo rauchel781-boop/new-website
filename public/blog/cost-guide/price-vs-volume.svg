@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" font-family="'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="900" fill="#F6EEDF"/>
+  <rect x="40" y="40" width="1120" height="820" rx="14" fill="none" stroke="#C58E4A" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="100" y="80" font-size="18" letter-spacing="4" fill="#C58E4A" font-weight="700">CHIC · WOODEN BOX COST GUIDE</text>
+  <text x="100" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" fill="#3D2A1F">Unit price falls fast with volume</text>
+  <text x="100" y="160" font-size="22" fill="#7A6450">Illustrative for one premium SKU — the 100→1,000 drop is the steepest</text>
+  <line x1="170" y1="230" x2="170" y2="760" stroke="#6B4A33" stroke-width="2"/>
+  <line x1="170" y1="760" x2="1060" y2="760" stroke="#6B4A33" stroke-width="2"/>
+  <line x1="170" y1="627.5" x2="1060" y2="627.5" stroke="#7A6450" stroke-opacity="0.18" stroke-width="1"/>
+  <text x="152" y="634.5" text-anchor="end" font-size="20" fill="#7A6450">$4</text>
+  <line x1="170" y1="495.0" x2="1060" y2="495.0" stroke="#7A6450" stroke-opacity="0.18" stroke-width="1"/>
+  <text x="152" y="502.0" text-anchor="end" font-size="20" fill="#7A6450">$8</text>
+  <line x1="170" y1="362.5" x2="1060" y2="362.5" stroke="#7A6450" stroke-opacity="0.18" stroke-width="1"/>
+  <text x="152" y="369.5" text-anchor="end" font-size="20" fill="#7A6450">$12</text>
+  <line x1="170" y1="230.0" x2="1060" y2="230.0" stroke="#7A6450" stroke-opacity="0.18" stroke-width="1"/>
+  <text x="152" y="237.0" text-anchor="end" font-size="20" fill="#7A6450">$16</text>
+  <polyline points="170.0,296.3 392.5,445.3 615.0,528.1 837.5,567.9 1060.0,594.4" fill="none" stroke="#C58E4A" stroke-width="5" stroke-linejoin="round"/>
+  <circle cx="170.0" cy="296.3" r="9" fill="#3D2A1F"/>
+  <text x="170.0" y="274.3" text-anchor="middle" font-size="24" font-weight="700" fill="#3D2A1F">$14.0</text>
+  <text x="170.0" y="798" text-anchor="middle" font-size="22" fill="#3D2A1F" font-weight="600">100</text>
+  <circle cx="392.5" cy="445.3" r="9" fill="#3D2A1F"/>
+  <text x="392.5" y="423.3" text-anchor="middle" font-size="24" font-weight="700" fill="#3D2A1F">$9.5</text>
+  <text x="392.5" y="798" text-anchor="middle" font-size="22" fill="#3D2A1F" font-weight="600">300</text>
+  <circle cx="615.0" cy="528.1" r="9" fill="#3D2A1F"/>
+  <text x="615.0" y="506.1" text-anchor="middle" font-size="24" font-weight="700" fill="#3D2A1F">$7.0</text>
+  <text x="615.0" y="798" text-anchor="middle" font-size="22" fill="#3D2A1F" font-weight="600">1,000</text>
+  <circle cx="837.5" cy="567.9" r="9" fill="#3D2A1F"/>
+  <text x="837.5" y="545.9" text-anchor="middle" font-size="24" font-weight="700" fill="#3D2A1F">$5.8</text>
+  <text x="837.5" y="798" text-anchor="middle" font-size="22" fill="#3D2A1F" font-weight="600">3,000</text>
+  <circle cx="1060.0" cy="594.4" r="9" fill="#3D2A1F"/>
+  <text x="1060.0" y="572.4" text-anchor="middle" font-size="24" font-weight="700" fill="#3D2A1F">$5.0</text>
+  <text x="1060.0" y="798" text-anchor="middle" font-size="22" fill="#3D2A1F" font-weight="600">10,000</text>
+  <text x="615" y="838" text-anchor="middle" font-size="20" fill="#7A6450">Order quantity (pieces)</text>
+</svg>

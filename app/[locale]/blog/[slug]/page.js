@@ -199,6 +199,15 @@ const POST_CSS = `
   .bp .ctable { font-size: 0.82rem; }
   .bp .ctable thead th, .bp .ctable tbody td { padding: 10px 12px; }
 }
+.bp .body a.bp-link {
+  color: var(--wd-warm);
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  font-weight: 600;
+  transition: color .2s;
+}
+.bp .body a.bp-link:hover { color: var(--wd-deep); }
 .bp .body img.inline {
   width: 100%; border-radius: 4px;
   margin: 32px 0 12px;
@@ -325,6 +334,23 @@ function fmtDate(iso) {
   return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
+// Parse inline [label](/path) markdown links in body text into next-intl
+// <Link> elements (active-locale prefix auto-added). Plain text without the
+// token renders unchanged, so existing posts are unaffected.
+function renderInline(text) {
+  if (typeof text !== 'string' || text.indexOf('](') === -1) return text;
+  const re = /\[([^\]]+)\]\(([^)]+)\)/g;
+  const out = [];
+  let last = 0, m, k = 0;
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > last) out.push(text.slice(last, m.index));
+    out.push(<Link key={`l${k++}`} href={m[2]} className="bp-link">{m[1]}</Link>);
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) out.push(text.slice(last));
+  return out;
+}
+
 function renderBlock(block, i) {
   switch (block.type) {
     case 'h2':
@@ -332,7 +358,7 @@ function renderBlock(block, i) {
     case 'h3':
       return <h3 key={i}>{block.text}</h3>;
     case 'p':
-      return <p key={i}>{block.text}</p>;
+      return <p key={i}>{renderInline(block.text)}</p>;
     case 'img':
       return (
         <figure key={i}>
@@ -345,7 +371,7 @@ function renderBlock(block, i) {
     case 'list':
       return (
         <ul key={i}>
-          {block.items.map((it, k) => <li key={k}>{it}</li>)}
+          {block.items.map((it, k) => <li key={k}>{renderInline(it)}</li>)}
         </ul>
       );
     case 'stats':

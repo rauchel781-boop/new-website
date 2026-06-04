@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" font-family="'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="900" fill="#F6EEDF"/>
+  <rect x="40" y="40" width="1120" height="820" rx="14" fill="none" stroke="#C58E4A" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="100" y="80" font-size="18" letter-spacing="4" fill="#C58E4A" font-weight="700">CHIC · WOODEN BOX COST GUIDE</text>
+  <text x="100" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" fill="#3D2A1F">Where a wooden box’s unit cost goes</text>
+  <text x="100" y="160" font-size="22" fill="#7A6450">Typical share of an OEM unit cost — varies by spec</text>
+  <rect x="100.0" y="250" width="450.0" height="130" fill="#C58E4A"/>
+  <text x="325.0" y="324" text-anchor="middle" font-size="26" font-weight="700" fill="#3D2A1F">45%</text>
+  <rect x="550.0" y="250" width="180.0" height="130" fill="#6B4A33"/>
+  <text x="640.0" y="324" text-anchor="middle" font-size="26" font-weight="700" fill="#F6EEDF">18%</text>
+  <rect x="730.0" y="250" width="120.0" height="130" fill="#D9B98F"/>
+  <text x="790.0" y="324" text-anchor="middle" font-size="26" font-weight="700" fill="#3D2A1F">12%</text>
+  <rect x="850.0" y="250" width="80.0" height="130" fill="#A07852"/>
+  <text x="890.0" y="324" text-anchor="middle" font-size="26" font-weight="700" fill="#F6EEDF">8%</text>
+  <rect x="930.0" y="250" width="90.0" height="130" fill="#3D2A1F"/>
+  <text x="975.0" y="324" text-anchor="middle" font-size="26" font-weight="700" fill="#F6EEDF">9%</text>
+  <rect x="1020.0" y="250" width="80.0" height="130" fill="#7A6450"/>
+  <text x="1060.0" y="324" text-anchor="middle" font-size="26" font-weight="700" fill="#F6EEDF">8%</text>
+  <rect x="100" y="500" width="30" height="30" rx="5" fill="#C58E4A"/>
+  <text x="146" y="522" font-size="24" fill="#3D2A1F">Wood / raw material <tspan font-weight="700" fill="#6B4A33">45%</tspan></text>
+  <rect x="100" y="576" width="30" height="30" rx="5" fill="#6B4A33"/>
+  <text x="146" y="598" font-size="24" fill="#3D2A1F">Labour &amp; assembly <tspan font-weight="700" fill="#6B4A33">18%</tspan></text>
+  <rect x="100" y="652" width="30" height="30" rx="5" fill="#D9B98F"/>
+  <text x="146" y="674" font-size="24" fill="#3D2A1F">Finishing &amp; lacquer <tspan font-weight="700" fill="#6B4A33">12%</tspan></text>
+  <rect x="620" y="500" width="30" height="30" rx="5" fill="#A07852"/>
+  <text x="666" y="522" font-size="24" fill="#3D2A1F">Branding (laser/foil/UV) <tspan font-weight="700" fill="#6B4A33">8%</tspan></text>
+  <rect x="620" y="576" width="30" height="30" rx="5" fill="#3D2A1F"/>
+  <text x="666" y="598" font-size="24" fill="#3D2A1F">Hardware, inserts &amp; lining <tspan font-weight="700" fill="#6B4A33">9%</tspan></text>
+  <rect x="620" y="652" width="30" height="30" rx="5" fill="#7A6450"/>
+  <text x="666" y="674" font-size="24" fill="#3D2A1F">Packing, QC &amp; overhead <tspan font-weight="700" fill="#6B4A33">8%</tspan></text>
+</svg>

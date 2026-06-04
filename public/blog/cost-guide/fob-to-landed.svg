@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" font-family="'Helvetica Neue', Arial, sans-serif">
+  <rect width="1200" height="900" fill="#F6EEDF"/>
+  <rect x="40" y="40" width="1120" height="820" rx="14" fill="none" stroke="#C58E4A" stroke-opacity="0.35" stroke-width="2"/>
+  <text x="100" y="80" font-size="18" letter-spacing="4" fill="#C58E4A" font-weight="700">CHIC · WOODEN BOX COST GUIDE</text>
+  <text x="100" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700" fill="#3D2A1F">FOB is not your real cost</text>
+  <text x="100" y="160" font-size="22" fill="#7A6450">How a $6.00 FOB unit becomes landed cost — illustrative</text>
+  <rect x="300" y="340.9" width="230" height="459.1" fill="#C58E4A"/>
+  <line x1="530" y1="570.5" x2="570" y2="570.5" stroke="#7A6450" stroke-width="1.5"/>
+  <text x="582" y="578.5" font-size="24" fill="#3D2A1F"><tspan font-weight="700">+$6.00</tspan>  FOB unit price</text>
+  <rect x="300" y="287.4" width="230" height="53.6" fill="#6B4A33"/>
+  <line x1="530" y1="314.2" x2="570" y2="314.2" stroke="#7A6450" stroke-width="1.5"/>
+  <text x="582" y="322.2" font-size="24" fill="#3D2A1F"><tspan font-weight="700">+$0.70</tspan>  Sea freight &amp; insurance</text>
+  <rect x="300" y="279.7" width="230" height="7.7" fill="#D9B98F"/>
+  <line x1="530" y1="283.6" x2="570" y2="283.6" stroke="#7A6450" stroke-width="1.5"/>
+  <text x="582" y="291.6" font-size="24" fill="#3D2A1F"><tspan font-weight="700">+$0.10</tspan>  ISPM 15 / heat treatment</text>
+  <rect x="300" y="264.4" width="230" height="15.3" fill="#A07852"/>
+  <line x1="530" y1="272.1" x2="570" y2="272.1" stroke="#7A6450" stroke-width="1.5"/>
+  <text x="582" y="280.1" font-size="24" fill="#3D2A1F"><tspan font-weight="700">+$0.20</tspan>  Compliance docs (CARB/FSC/REACH)</text>
+  <rect x="300" y="230.0" width="230" height="34.4" fill="#3D2A1F"/>
+  <line x1="530" y1="247.2" x2="570" y2="247.2" stroke="#7A6450" stroke-width="1.5"/>
+  <text x="582" y="255.2" font-size="24" fill="#3D2A1F"><tspan font-weight="700">+$0.45</tspan>  Import duty</text>
+  <line x1="280" y1="800" x2="550" y2="800" stroke="#6B4A33" stroke-width="2"/>
+  <text x="415" y="206.0" text-anchor="middle" font-size="30" font-weight="700" fill="#3D2A1F">Landed ≈ $7.45</text>
+</svg>

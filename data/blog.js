@@ -15,6 +15,118 @@
 // ─────────────────────────────────────────────────────────────────────────
 
 export const POSTS = [
+  // ════════════════════════════════════ NEW ════════════════════════════════════
+  {
+    slug: 'custom-wooden-box-cost-2026',
+    title: 'How much do custom wooden boxes cost? A 2026 wholesale & OEM pricing guide',
+    excerpt: 'A buyer-focused breakdown of what custom wooden boxes actually cost in 2026 — the real cost drivers (species, construction, finish, branding), how MOQ moves the unit price, the landed-cost extras importers forget, and a worked example you can budget against.',
+    date: '2026-06-04',
+    category: 'Pricing',
+    readTime: '12 min read',
+    hero: '/factory/material.webp',
+    body: [
+      { type: 'p', text: 'The most common question a wooden box manufacturer hears is also the hardest to answer in one number: “how much does a custom wooden box cost?” The honest reply is a range — roughly $1.50 to $25 a unit — because a stained pine sliding-lid favor box and a velvet-lined solid-walnut watch case with a brass lock are both “wooden boxes,” and they sit at opposite ends of the cost map. This guide turns that unhelpful range into something you can actually budget against.' },
+      { type: 'p', text: 'Most packaging cost guides online quietly assume cardboard, corrugated or rigid paper boxes. Wood prices differently. There are no expensive cutting dies or printing plates, the raw material is a far bigger share of the unit cost, weight drives the freight bill, and the species you choose can triple the price before a single decoration is added. Below is how the cost actually builds up, what moves it, and how B2B buyers keep it under control without cheapening the box.' },
+
+      { type: 'stats', items: [
+        { num: '$1.5–25', label: 'Typical FOB unit price' },
+        { num: '45–60', suffix: '%', label: 'Cost that is raw material' },
+        { num: '300', label: 'Pieces — standard MOQ' },
+      ] },
+
+      { type: 'h2', text: 'The short answer, by tier' },
+      { type: 'p', text: 'If you just need a number to sanity-check a quote, here are the indicative FOB ranges we see most often. They assume a custom OEM order at or above our standard MOQ of 300 pieces per design; treat them as starting points, not a price list — your exact spec moves them.' },
+      { type: 'table', headers: ['Tier', 'Typical spec', 'Indicative FOB / unit'], rows: [
+        ['Entry / craft', 'Pine or paulownia, sliding lid, unfinished or stained, laser mark', '$1.50 – $4'],
+        ['Mid retail', 'Bamboo or paulownia, printed or magnetic, foam insert', '$4 – $9'],
+        ['Premium', 'Acacia or walnut, lined, hinged or magnetic, foil / engrave', '$9 – $18'],
+        ['Luxury', 'Solid walnut, velvet tray, lock & key, complex build', '$18 – $25+'],
+      ] },
+
+      { type: 'h2', text: 'Where the money actually goes' },
+      { type: 'p', text: 'On a typical OEM wooden box, raw material is the single largest line — usually 45–60% of the unit cost, far more than in a paper box. Labour and assembly, finishing, branding, hardware and inserts split most of the rest, with packing, QC and factory overhead taking the tail. That mix is why two boxes of the same size can quote 3× apart: change the species and the closure and you have moved the two biggest levers at once.' },
+      { type: 'img', src: '/blog/cost-guide/cost-breakdown.svg', caption: 'Indicative breakdown of an OEM wooden box unit cost. Material plus the two biggest “choice” drivers — species and construction — decide most of the price.' },
+
+      { type: 'h2', text: 'Cost driver #1: the wood species' },
+      { type: 'p', text: 'Species is the price floor. Before any decoration, the timber you choose can move the unit cost by 3–4×. [Pine](/products/pine) is the workhorse — cheapest, takes stain and wood-burning, the default for craft and wedding-favor runs. [Paulownia](/products/paulownia) costs a little more but is the lightest commercial timber in the world, which pays you back on freight. [Bamboo](/products/bamboo) sits mid-tier with the strongest sustainability story. [Acacia](/products/acacia) and especially [walnut](/products/walnut) are the premium end — dense, beautiful, and the reason a watch box can cost more than the watch’s pouch. Our [material guide](/material-guide) compares every species side by side.' },
+      { type: 'img', src: '/blog/cost-guide/species-price-ladder.svg', caption: 'Relative material cost by species (pine = 1×). Indicative — moving from pine to walnut roughly triples the timber cost before any other change.' },
+      { type: 'p', text: 'One more material lever: solid wood versus veneered MDF. A walnut-veneer panel over a stable MDF core costs less than solid walnut and stays flatter on large lids — often the smarter spec for big, printed or thin-walled boxes, while solid stock is reserved for premium tactile pieces.' },
+
+      { type: 'h2', text: 'Cost driver #2: construction & closure' },
+      { type: 'p', text: 'How the box opens decides how much hand-assembly it needs — and labour is the second-biggest cost line. A [sliding-lid box](/products/sliding-lid) is the cheapest to build: no hinges, no clasps, just a grooved tray and a lid, which is exactly why it dominates high-volume gift and favor programs. A [hinged box](/products/hinged) adds hardware and fitting time. A [magnetic-closure box](/products/magnetic) adds routed magnets and a thin-wall veneer build. A [lockable box](/products/with-lock) adds the most hardware and labour of all.' },
+      { type: 'img', src: '/blog/cost-guide/closure-cost-ladder.svg', caption: 'Relative build cost by closure (sliding lid = 1×). The hardware-free sliding lid is the lowest-assembly-cost construction in the catalogue.' },
+
+      { type: 'h2', text: 'Cost driver #3: finish, branding & inserts' },
+      { type: 'p', text: 'After species and closure, three finishing choices fine-tune the price:' },
+      { type: 'list', items: [
+        'Finish — raw is cheapest; food-safe lacquer, oil, paint and piano-gloss each add material and labour.',
+        'Branding — laser engraving is the most economical and needs no tooling; debossing and screen print sit in the middle; hot foil and full-colour UV cost the most.',
+        'Inserts & lining — a plain interior is free; die-cut foam, velvet-wrapped trays, watch pillows and ribbon pulls each add material and hand-work.',
+      ] },
+      { type: 'p', text: 'None of these need the expensive dies or plates a paper box does — the quiet advantage of wood is that your setup cost is a CNC program and a sample, not a $1,000 print plate.' },
+
+      { type: 'h2', text: 'The volume effect: MOQ and price breaks' },
+      { type: 'p', text: 'Quantity is the lever you control most directly. Fixed costs — the sample, CNC setup, machine calibration, a colour-match run — are spread across the order, so the per-unit price falls fastest between a 100-piece test and about 1,000 pieces, then flattens. This is why ordering 300 instead of 100 often cuts the unit price by a third, while jumping from 3,000 to 10,000 saves far less per piece.' },
+      { type: 'img', src: '/blog/cost-guide/price-vs-volume.svg', caption: 'Illustrative unit price for one premium SKU across order sizes. The steepest savings come early — the 100→1,000 stretch.' },
+      { type: 'table', headers: ['Order quantity', 'Indicative unit price', 'vs 100 pcs'], rows: [
+        ['100 (first-order test)', '$14.0', '—'],
+        ['300 (standard MOQ)', '$9.5', '−32%'],
+        ['1,000', '$7.0', '−50%'],
+        ['3,000', '$5.8', '−59%'],
+        ['10,000', '$5.0', '−64%'],
+      ] },
+      { type: 'p', text: 'The practical takeaway: start with a [100–300 piece test order](/blog/low-moq-sampling-strategy) to validate the box in market, then scale into the price breaks once it sells. Paying the higher first-order unit price is cheap insurance against committing 5,000 pieces to an unproven SKU.' },
+
+      { type: 'h2', text: 'Sampling & tooling: why wood is different' },
+      { type: 'p', text: 'In paper packaging, tooling — dies and plates — is a real upfront cost, often $200 to $1,500+ before the first good box. Wood skips most of that. The setup cost is a pre-production sample (waived for established buyers, or roughly $80–$200 for a complex one-off) plus modest CNC program time, both one-time. Never approve a full run on a CAD render alone — the sample is where you verify the slide tolerance, the stain shade and the engraving depth in your own hands.' },
+
+      { type: 'h2', text: 'The hidden costs importers forget' },
+      { type: 'p', text: 'The FOB unit price is not your landed cost. Wood is heavier than paper, so sea freight matters more — which is exactly why a light species like paulownia can win on total cost even at a higher FOB price. On top of freight, budget for the compliance and customs lines that the cheapest quotes quietly leave out.' },
+      { type: 'img', src: '/blog/cost-guide/fob-to-landed.svg', caption: 'How an FOB unit price becomes a landed cost. Freight, ISPM 15 treatment, compliance documents and duty all sit on top of the quote.' },
+      { type: 'p', text: 'ISPM 15 heat-treatment is standard on our containers so shipments are not held at port. CARB P2 formaldehyde documentation (for any MDF or veneer component), FSC chain-of-custody and EU REACH testing on finishes are provided per order — the paperwork US and EU buyers need to clear customs and satisfy their own compliance teams. Ask for these up front; they are cheap to provide and expensive to be missing at the border.' },
+
+      { type: 'h2', text: 'A worked example: one SKU, line by line' },
+      { type: 'p', text: 'Here is a representative mid-premium SKU — a stained acacia gift box, magnetic lid, die-cut foam insert, laser-engraved logo — on a 1,000-piece order, broken into the lines that make up the FOB unit price.' },
+      { type: 'table', headers: ['Cost line', 'Per unit'], rows: [
+        ['Acacia material (box + lid)', '$3.10'],
+        ['Labour & assembly', '$1.25'],
+        ['Magnetic closure & hardware', '$0.55'],
+        ['Food-safe lacquer finish', '$0.70'],
+        ['Die-cut foam insert', '$0.60'],
+        ['Laser engraving', '$0.25'],
+        ['Packing, QC & overhead', '$0.55'],
+        ['FOB unit price (≈)', '$7.00'],
+      ] },
+      { type: 'p', text: 'Swap the acacia for pine and make the laser mark the only decoration, and the same construction drops under $4. Add a brass lock and a velvet tray and it climbs past $11. That spread — from one set of choices — is why a quote always starts with your spec, not a catalogue price.' },
+
+      { type: 'h2', text: 'Manufacturer-direct vs trading company' },
+      { type: 'p', text: 'Who you buy from changes the price as much as what you buy. The same order routed through a trading company or a catalogue reseller carries a markup for a service layer you may not need. Buying direct from the factory that owns the production line keeps that margin in your pocket — and gives you control over QC and timeline.' },
+      { type: 'table', headers: ['Channel', 'Same 1,000-pc order', 'What you get'], rows: [
+        ['Factory-direct (this model)', '≈ $7,000', 'Lowest cost, direct QC, repeatable'],
+        ['Trading company', '$8,400 – $9,000', 'Convenience, but no control over which workshop builds it'],
+        ['Catalogue / reseller', '$10,000+', 'Fastest to buy, highest markup'],
+      ] },
+      { type: 'p', text: 'For more on choosing the right supply structure, see our [B2B sourcing playbook](/blog/sourcing-custom-wooden-boxes-from-china-2026) and the difference between [OEM and ODM](/blog/oem-vs-odm-wooden-boxes).' },
+
+      { type: 'h2', text: '7 ways to cut cost without cheapening the box' },
+      { type: 'list', items: [
+        'Drop a species tier where it won’t show — paulownia stained dark reads close to walnut at a fraction of the cost.',
+        'Choose a [sliding lid](/products/sliding-lid) over hinged or magnetic when the use case allows — it is the cheapest to assemble.',
+        'Simplify the finish: one coat of food-safe lacquer instead of piano gloss.',
+        'Optimise dimensions to the shipping carton and container — wasted air is wasted freight.',
+        'Use laser engraving instead of hot foil or full-colour print for branding.',
+        'Consolidate three or four SKUs into one container to share freight and clearance.',
+        'Scale into the price breaks — re-order at 1,000+ once a 300-piece test proves the SKU.',
+      ] },
+      { type: 'p', text: 'Every one of these trades a cost line for a small spec change — none of them make the box feel cheaper in your customer’s hand.' },
+
+      { type: 'h2', text: 'So, what should you budget?' },
+      { type: 'p', text: 'For a custom wooden box at a sensible first-order quantity, plan around $4–$9 a unit for a solid retail-grade box and $9–$18 for a premium lined piece, then refine with a real quote against your exact species, closure, finish and volume. The most useful thing you can do before asking for a price is to write down those four choices — they decide almost everything above.' },
+      { type: 'quote', text: 'A wooden box quote is never one number. It is your species, your closure, your finish and your volume — change any one and the price moves. Tell a manufacturer all four and you will get an honest figure in a day.' },
+      { type: 'p', text: 'Send your spec — dimensions, wood, closure, finish, branding and target quantity — through our [contact form](/contact#inquiry) and we will come back with an itemised quote and a sample fee within one business day, straight from our own factory floor.' },
+    ],
+  },
+
   // ════════════════════════════════════ 00 ════════════════════════════════════
   {
     slug: 'sourcing-custom-wooden-boxes-from-china-2026',
