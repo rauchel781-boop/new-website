@@ -3,7 +3,344 @@
 
 export default {
   "posts": {
-    "custom-wooden-box-cost-2026": {"title":"Quanto costano le scatole di legno personalizzate? Una guida ai prezzi all'ingrosso e OEM per il 2026","excerpt":"Un'analisi orientata al buyer di quanto costano realmente le scatole di legno personalizzate nel 2026 — i veri driver di costo (specie legnosa, costruzione, finitura, branding), come il MOQ muove il prezzo unitario, gli extra di costo a destino che gli importatori dimenticano, e un esempio pratico su cui basare il vostro budget.","category":"Prezzi","readTime":"12 min di lettura","body":[{"type":"p","text":"La domanda più comune che un produttore di scatole di legno si sente porre è anche la più difficile a cui rispondere con un solo numero: «quanto costa una scatola di legno personalizzata?» La risposta onesta è un intervallo — circa da $1.50 a $25 a pezzo — perché una scatola bomboniera in pino con coperchio scorrevole e un astuccio per orologi in noce massiccia foderato di velluto con serratura in ottone sono entrambi «scatole di legno», e si collocano agli estremi opposti della mappa dei costi. Questa guida trasforma quell'intervallo poco utile in qualcosa su cui potete davvero basare il vostro budget."},{"type":"p","text":"La maggior parte delle guide ai costi del packaging online assume tacitamente cartone, cartone ondulato o scatole rigide in carta. Il legno ha prezzi diversi. Non ci sono costose fustelle o lastre di stampa, la materia prima è una quota molto maggiore del costo unitario, il peso determina il conto del trasporto, e la specie che scegliete può triplicare il prezzo prima ancora di aggiungere una sola decorazione. Di seguito vediamo come il costo si costruisce davvero, cosa lo muove, e come i buyer B2B lo tengono sotto controllo senza svilire la scatola."},{"type":"stats","items":[{"num":"$1.5–25","label":"Prezzo unitario FOB tipico"},{"num":"45–60","suffix":"%","label":"Costo che è materia prima"},{"num":"300","label":"Pezzi — MOQ standard"}]},{"type":"h2","text":"La risposta breve, per fascia"},{"type":"p","text":"Se vi serve solo un numero per verificare una quotazione, ecco gli intervalli FOB indicativi che vediamo più spesso. Assumono un ordine OEM personalizzato pari o superiore al nostro MOQ standard di 300 pezzi per design; considerateli punti di partenza, non un listino prezzi — la vostra specifica esatta li muove."},{"type":"table","headers":["Fascia","Specifica tipica","FOB indicativo / pezzo"],"rows":[["Entry / artigianale","Pino o paulownia, coperchio scorrevole, grezzo o tinto, marcatura laser","$1.50 – $4"],["Retail medio","Bambù o paulownia, stampato o magnetico, inserto in schiuma","$4 – $9"],["Premium","Acacia o noce, foderato, a cerniera o magnetico, lamina / incisione","$9 – $18"],["Lusso","Noce massiccia, vassoio in velluto, serratura e chiave, costruzione complessa","$18 – $25+"]]},{"type":"h2","text":"Dove vanno realmente i soldi"},{"type":"p","text":"Su una tipica scatola di legno OEM, la materia prima è la singola voce più grande — di solito il 45–60% del costo unitario, molto più che in una scatola di carta. Manodopera e assemblaggio, finitura, branding, hardware e inserti si dividono la maggior parte del resto, con imballaggio, QC e overhead di fabbrica a chiudere la coda. Questo mix è il motivo per cui due scatole della stessa dimensione possono quotare con un divario di 3× : cambiate la specie e la chiusura e avete mosso le due leve più grandi in una volta sola."},{"type":"img","src":"/blog/cost-guide/cost-breakdown.svg","caption":"Ripartizione indicativa del costo unitario di una scatola di legno OEM. Il materiale più i due maggiori driver di «scelta» — specie e costruzione — decidono la maggior parte del prezzo."},{"type":"h2","text":"Driver di costo #1: la specie legnosa"},{"type":"p","text":"La specie è il pavimento del prezzo. Prima di qualsiasi decorazione, il legno che scegliete può muovere il costo unitario di 3–4×. Il [Pino](/products/pine) è il cavallo da lavoro — il più economico, accetta la tinta e la pirografia, l'opzione predefinita per le serie artigianali e di bomboniere per matrimoni. La [Paulownia](/products/paulownia) costa un po' di più ma è il legname commerciale più leggero al mondo, il che vi ripaga sul trasporto. Il [Bambù](/products/bamboo) si colloca a fascia media con la storia di sostenibilità più forte. L'[Acacia](/products/acacia) e soprattutto il [noce](/products/walnut) sono la fascia premium — densi, belli, e il motivo per cui una scatola per orologi può costare più della custodia dell'orologio. La nostra [guida ai materiali](/material-guide) confronta ogni specie fianco a fianco."},{"type":"img","src":"/blog/cost-guide/species-price-ladder.svg","caption":"Costo relativo del materiale per specie (pino = 1×). Indicativo — passare dal pino al noce triplica all'incirca il costo del legname prima di qualsiasi altra modifica."},{"type":"p","text":"Un'ulteriore leva sul materiale: legno massiccio contro MDF impiallacciato. Un pannello con impiallacciatura di noce su un'anima stabile in MDF costa meno del noce massiccio e resta più piatto sui coperchi grandi — spesso la specifica più intelligente per scatole grandi, stampate o a parete sottile, mentre il massiccio è riservato ai pezzi premium dal forte impatto tattile."},{"type":"h2","text":"Driver di costo #2: costruzione e chiusura"},{"type":"p","text":"Il modo in cui la scatola si apre decide quanto assemblaggio manuale richiede — e la manodopera è la seconda voce di costo più grande. Una [scatola con coperchio scorrevole](/products/sliding-lid) è la più economica da costruire: niente cerniere, niente fermagli, solo un vassoio scanalato e un coperchio, ed è esattamente per questo che domina i programmi di regali e bomboniere ad alto volume. Una [scatola a cerniera](/products/hinged) aggiunge hardware e tempo di montaggio. Una [scatola a chiusura magnetica](/products/magnetic) aggiunge magneti fresati e una costruzione in impiallacciatura a parete sottile. Una [scatola con serratura](/products/with-lock) aggiunge la maggior quantità di hardware e manodopera di tutte."},{"type":"img","src":"/blog/cost-guide/closure-cost-ladder.svg","caption":"Costo di costruzione relativo per chiusura (coperchio scorrevole = 1×). Il coperchio scorrevole senza hardware è la costruzione a più basso costo di assemblaggio del catalogo."},{"type":"h2","text":"Driver di costo #3: finitura, branding e inserti"},{"type":"p","text":"Dopo specie e chiusura, tre scelte di finitura mettono a punto il prezzo:"},{"type":"list","items":["Finitura — il grezzo è il più economico; lacca food-safe, olio, vernice e gloss da pianoforte aggiungono ciascuno materiale e manodopera.","Branding — l'incisione laser è la più economica e non richiede attrezzaggio; lo sbalzo e la serigrafia stanno nel mezzo; la lamina a caldo e l'UV a colori pieni costano di più.","Inserti e fodera — un interno semplice è gratuito; schiuma fustellata, vassoi rivestiti in velluto, cuscini per orologi e nastri di estrazione aggiungono ciascuno materiale e lavoro manuale."]},{"type":"p","text":"Nessuna di queste richiede le costose fustelle o lastre di una scatola di carta — il vantaggio silenzioso del legno è che il vostro costo di setup è un programma CNC e un campione, non una lastra di stampa da $1,000."},{"type":"h2","text":"L'effetto volume: MOQ e scaglioni di prezzo"},{"type":"p","text":"La quantità è la leva che controllate più direttamente. I costi fissi — il campione, il setup CNC, la calibrazione macchina, una serie di abbinamento colore — si spalmano sull'ordine, quindi il prezzo per unità scende più rapidamente tra un test da 100 pezzi e circa 1,000 pezzi, poi si appiattisce. Ecco perché ordinare 300 invece di 100 spesso taglia il prezzo unitario di un terzo, mentre passare da 3,000 a 10,000 fa risparmiare molto meno a pezzo."},{"type":"img","src":"/blog/cost-guide/price-vs-volume.svg","caption":"Prezzo unitario illustrativo per un singolo SKU premium ai vari ordini. I risparmi più ripidi arrivano presto — il tratto 100→1,000."},{"type":"table","headers":["Quantità ordine","Prezzo unitario indicativo","vs 100 pz"],"rows":[["100 (test primo ordine)","$14.0","—"],["300 (MOQ standard)","$9.5","−32%"],["1,000","$7.0","−50%"],["3,000","$5.8","−59%"],["10,000","$5.0","−64%"]]},{"type":"p","text":"La conclusione pratica: iniziate con un [ordine di prova da 100–300 pezzi](/blog/low-moq-sampling-strategy) per validare la scatola sul mercato, poi scalate negli scaglioni di prezzo una volta che vende. Pagare il prezzo unitario più alto del primo ordine è un'assicurazione economica contro l'impegno di 5,000 pezzi su uno SKU non provato."},{"type":"h2","text":"Campionatura e attrezzaggio: perché il legno è diverso"},{"type":"p","text":"Nel packaging in carta, l'attrezzaggio — fustelle e lastre — è un vero costo iniziale, spesso da $200 a $1,500+ prima della prima scatola buona. Il legno salta la maggior parte di questo. Il costo di setup è un campione di pre-produzione (gratuito per i buyer consolidati, o circa $80–$200 per un pezzo unico complesso) più un modesto tempo di programmazione CNC, entrambi una tantum. Non approvate mai una produzione piena sul solo render CAD — il campione è dove verificate la tolleranza dello scorrimento, la tonalità della tinta e la profondità dell'incisione con le vostre stesse mani."},{"type":"h2","text":"I costi nascosti che gli importatori dimenticano"},{"type":"p","text":"Il prezzo unitario FOB non è il vostro costo a destino. Il legno è più pesante della carta, quindi il trasporto marittimo conta di più — ed è esattamente per questo che una specie leggera come la paulownia può vincere sul costo totale anche con un prezzo FOB più alto. Oltre al trasporto, mettete a budget le voci di compliance e dogana che le quotazioni più economiche omettono in silenzio."},{"type":"img","src":"/blog/cost-guide/fob-to-landed.svg","caption":"Come un prezzo unitario FOB diventa un costo a destino. Trasporto, trattamento ISPM 15, documenti di compliance e dazio si sommano tutti alla quotazione."},{"type":"p","text":"Il trattamento termico ISPM 15 è standard sui nostri container, così le spedizioni non vengono trattenute in porto. La documentazione sulla formaldeide CARB P2 (per qualsiasi componente in MDF o impiallacciatura), la catena di custodia FSC e i test EU REACH sulle finiture sono forniti per ogni ordine — la documentazione di cui i buyer di USA e UE hanno bisogno per sdoganare e soddisfare i propri team di compliance. Chiedeteli fin dall'inizio; sono economici da fornire e costosi da non avere alla frontiera."},{"type":"h2","text":"Un esempio pratico: uno SKU, voce per voce"},{"type":"p","text":"Ecco uno SKU rappresentativo di fascia medio-premium — una scatola regalo in acacia tinta, coperchio magnetico, inserto in schiuma fustellata, logo inciso a laser — su un ordine da 1,000 pezzi, scomposto nelle voci che compongono il prezzo unitario FOB."},{"type":"table","headers":["Voce di costo","Per unità"],"rows":[["Materiale acacia (scatola + coperchio)","$3.10"],["Manodopera e assemblaggio","$1.25"],["Chiusura magnetica e hardware","$0.55"],["Finitura lacca food-safe","$0.70"],["Inserto in schiuma fustellata","$0.60"],["Incisione laser","$0.25"],["Imballaggio, QC e overhead","$0.55"],["Prezzo unitario FOB (≈)","$7.00"]]},{"type":"p","text":"Sostituite l'acacia con il pino e rendete la marcatura laser l'unica decorazione, e la stessa costruzione scende sotto $4. Aggiungete una serratura in ottone e un vassoio in velluto e sale oltre $11. Quel divario — da un solo insieme di scelte — è il motivo per cui una quotazione parte sempre dalla vostra specifica, non da un prezzo a catalogo."},{"type":"h2","text":"Produttore diretto vs società di trading"},{"type":"p","text":"Da chi comprate cambia il prezzo tanto quanto cosa comprate. Lo stesso ordine instradato attraverso una società di trading o un rivenditore a catalogo porta un ricarico per uno strato di servizio di cui potreste non avere bisogno. Comprare direttamente dalla fabbrica che possiede la linea produttiva tiene quel margine nella vostra tasca — e vi dà il controllo su QC e tempistiche."},{"type":"table","headers":["Canale","Stesso ordine da 1,000 pz","Cosa ottenete"],"rows":[["Fabbrica diretta (questo modello)","≈ $7,000","Costo più basso, QC diretto, ripetibile"],["Società di trading","$8,400 – $9,000","Comodità, ma nessun controllo su quale officina la costruisce"],["Catalogo / rivenditore","$10,000+","Acquisto più rapido, ricarico più alto"]]},{"type":"p","text":"Per approfondire la scelta della giusta struttura di fornitura, consultate il nostro [playbook di sourcing B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026) e la differenza tra [OEM e ODM](/blog/oem-vs-odm-wooden-boxes)."},{"type":"h2","text":"7 modi per ridurre il costo senza svilire la scatola"},{"type":"list","items":["Scendete di una fascia di specie dove non si noterà — la paulownia tinta scura assomiglia molto al noce a una frazione del costo.","Scegliete un [coperchio scorrevole](/products/sliding-lid) invece di una chiusura a cerniera o magnetica quando l'uso lo consente — è il più economico da assemblare.","Semplificate la finitura: una mano di lacca food-safe invece del gloss da pianoforte.","Ottimizzate le dimensioni rispetto al cartone di spedizione e al container — l'aria sprecata è trasporto sprecato.","Usate l'incisione laser invece della lamina a caldo o della stampa a colori pieni per il branding.","Consolidate tre o quattro SKU in un unico container per condividere trasporto e sdoganamento.","Scalate negli scaglioni di prezzo — riordinate a 1,000+ una volta che un test da 300 pezzi prova lo SKU."]},{"type":"p","text":"Ognuna di queste scambia una voce di costo con una piccola modifica di specifica — nessuna di esse fa sembrare la scatola più economica nelle mani del vostro cliente."},{"type":"h2","text":"Allora, quanto dovreste mettere a budget?"},{"type":"p","text":"Per una scatola di legno personalizzata a una quantità di primo ordine sensata, prevedete circa $4–$9 a pezzo per una solida scatola di livello retail e $9–$18 per un pezzo premium foderato, poi affinate con una quotazione reale rispetto alla vostra specie, chiusura, finitura e volume esatti. La cosa più utile che potete fare prima di chiedere un prezzo è mettere per iscritto quelle quattro scelte — decidono quasi tutto quanto sopra."},{"type":"quote","text":"Una quotazione per una scatola di legno non è mai un solo numero. È la vostra specie, la vostra chiusura, la vostra finitura e il vostro volume — cambiatene uno qualsiasi e il prezzo si muove. Comunicate a un produttore tutti e quattro e otterrete una cifra onesta in un giorno."},{"type":"p","text":"Inviate la vostra specifica — dimensioni, legno, chiusura, finitura, branding e quantità target — attraverso il nostro [modulo di contatto](/contact#inquiry) e vi risponderemo con una quotazione dettagliata e un costo del campione entro un giorno lavorativo, direttamente dal nostro stabilimento."}]},
+    "custom-wooden-box-cost-2026": {
+      "title": "Quanto costano le scatole di legno personalizzate? Una guida ai prezzi all'ingrosso e OEM per il 2026",
+      "excerpt": "Un'analisi orientata al buyer di quanto costano realmente le scatole di legno personalizzate nel 2026 — i veri driver di costo (specie legnosa, costruzione, finitura, branding), come il MOQ muove il prezzo unitario, gli extra di costo a destino che gli importatori dimenticano, e un esempio pratico su cui basare il vostro budget.",
+      "category": "Prezzi",
+      "readTime": "12 min di lettura",
+      "body": [
+        {
+          "type": "p",
+          "text": "La domanda più comune che un produttore di scatole di legno si sente porre è anche la più difficile a cui rispondere con un solo numero: «quanto costa una scatola di legno personalizzata?» La risposta onesta è un intervallo — circa da $1.50 a $25 a pezzo — perché una scatola bomboniera in pino con coperchio scorrevole e un astuccio per orologi in noce massiccia foderato di velluto con serratura in ottone sono entrambi «scatole di legno», e si collocano agli estremi opposti della mappa dei costi. Questa guida trasforma quell'intervallo poco utile in qualcosa su cui potete davvero basare il vostro budget."
+        },
+        {
+          "type": "p",
+          "text": "La maggior parte delle guide ai costi del packaging online assume tacitamente cartone, cartone ondulato o scatole rigide in carta. Il legno ha prezzi diversi. Non ci sono costose fustelle o lastre di stampa, la materia prima è una quota molto maggiore del costo unitario, il peso determina il conto del trasporto, e la specie che scegliete può triplicare il prezzo prima ancora di aggiungere una sola decorazione. Di seguito vediamo come il costo si costruisce davvero, cosa lo muove, e come i buyer B2B lo tengono sotto controllo senza svilire la scatola."
+        },
+        {
+          "type": "stats",
+          "items": [
+            {
+              "num": "$1.5–25",
+              "label": "Prezzo unitario FOB tipico"
+            },
+            {
+              "num": "45–60",
+              "suffix": "%",
+              "label": "Costo che è materia prima"
+            },
+            {
+              "num": "300",
+              "label": "Pezzi — MOQ standard"
+            }
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "La risposta breve, per fascia"
+        },
+        {
+          "type": "p",
+          "text": "Se vi serve solo un numero per verificare una quotazione, ecco gli intervalli FOB indicativi che vediamo più spesso. Assumono un ordine OEM personalizzato pari o superiore al nostro MOQ standard di 300 pezzi per design; considerateli punti di partenza, non un listino prezzi — la vostra specifica esatta li muove."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Fascia",
+            "Specifica tipica",
+            "FOB indicativo / pezzo"
+          ],
+          "rows": [
+            [
+              "Entry / artigianale",
+              "Pino o paulownia, coperchio scorrevole, grezzo o tinto, marcatura laser",
+              "$1.50 – $4"
+            ],
+            [
+              "Retail medio",
+              "Bambù o paulownia, stampato o magnetico, inserto in schiuma",
+              "$4 – $9"
+            ],
+            [
+              "Premium",
+              "Acacia o noce, foderato, a cerniera o magnetico, lamina / incisione",
+              "$9 – $18"
+            ],
+            [
+              "Lusso",
+              "Noce massiccia, vassoio in velluto, serratura e chiave, costruzione complessa",
+              "$18 – $25+"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Dove vanno realmente i soldi"
+        },
+        {
+          "type": "p",
+          "text": "Su una tipica scatola di legno OEM, la materia prima è la singola voce più grande — di solito il 45–60% del costo unitario, molto più che in una scatola di carta. Manodopera e assemblaggio, finitura, branding, hardware e inserti si dividono la maggior parte del resto, con imballaggio, QC e overhead di fabbrica a chiudere la coda. Questo mix è il motivo per cui due scatole della stessa dimensione possono quotare con un divario di 3× : cambiate la specie e la chiusura e avete mosso le due leve più grandi in una volta sola."
+        },
+        {
+          "type": "img",
+          "src": "/blog/cost-guide/cost-breakdown.svg",
+          "caption": "Ripartizione indicativa del costo unitario di una scatola di legno OEM. Il materiale più i due maggiori driver di «scelta» — specie e costruzione — decidono la maggior parte del prezzo."
+        },
+        {
+          "type": "h2",
+          "text": "Driver di costo #1: la specie legnosa"
+        },
+        {
+          "type": "p",
+          "text": "La specie è il pavimento del prezzo. Prima di qualsiasi decorazione, il legno che scegliete può muovere il costo unitario di 3–4×. La [Paulownia](/products/paulownia) è la più economica — il legname commerciale più leggero al mondo, che vi ripaga anche sul trasporto. Il [Pino](/products/pine) costa un po' di più ma è il cavallo da lavoro — accetta la tinta e la pirografia, l'opzione predefinita per le serie artigianali e di bomboniere per matrimoni. Il [Bambù](/products/bamboo) si colloca a fascia media con la storia di sostenibilità più forte. L'[Acacia](/products/acacia) e soprattutto il [noce](/products/walnut) sono la fascia premium — densi, belli, e il motivo per cui una scatola per orologi può costare più della custodia dell'orologio. La nostra [guida ai materiali](/material-guide) confronta ogni specie fianco a fianco."
+        },
+        {
+          "type": "img",
+          "src": "/blog/cost-guide/species-price-ladder.svg",
+          "caption": "Costo relativo del materiale per specie (paulownia = 1×). Indicativo — la paulownia è il pavimento; il noce costa all'incirca 3–4× il costo del legname."
+        },
+        {
+          "type": "p",
+          "text": "Un'ulteriore leva sul materiale: legno massiccio contro MDF impiallacciato. Un pannello con impiallacciatura di noce su un'anima stabile in MDF costa meno del noce massiccio e resta più piatto sui coperchi grandi — spesso la specifica più intelligente per scatole grandi, stampate o a parete sottile, mentre il massiccio è riservato ai pezzi premium dal forte impatto tattile."
+        },
+        {
+          "type": "h2",
+          "text": "Driver di costo #2: costruzione e chiusura"
+        },
+        {
+          "type": "p",
+          "text": "Il modo in cui la scatola si apre decide quanto assemblaggio manuale richiede — e la manodopera è la seconda voce di costo più grande. Una [scatola con coperchio scorrevole](/products/sliding-lid) è la più economica da costruire: niente cerniere, niente fermagli, solo un vassoio scanalato e un coperchio, ed è esattamente per questo che domina i programmi di regali e bomboniere ad alto volume. Una [scatola a cerniera](/products/hinged) aggiunge hardware e tempo di montaggio. Una [scatola a chiusura magnetica](/products/magnetic) aggiunge magneti fresati e una costruzione in impiallacciatura a parete sottile. Una [scatola con serratura](/products/with-lock) aggiunge la maggior quantità di hardware e manodopera di tutte."
+        },
+        {
+          "type": "img",
+          "src": "/blog/cost-guide/closure-cost-ladder.svg",
+          "caption": "Costo di costruzione relativo per chiusura (coperchio scorrevole = 1×). Il coperchio scorrevole senza hardware è la costruzione a più basso costo di assemblaggio del catalogo."
+        },
+        {
+          "type": "h2",
+          "text": "Driver di costo #3: finitura, branding e inserti"
+        },
+        {
+          "type": "p",
+          "text": "Dopo specie e chiusura, tre scelte di finitura mettono a punto il prezzo:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Finitura — il grezzo è il più economico; lacca food-safe, olio, vernice e gloss da pianoforte aggiungono ciascuno materiale e manodopera.",
+            "Branding — l'incisione laser è la più economica e non richiede attrezzaggio; lo sbalzo e la serigrafia stanno nel mezzo; la lamina a caldo e l'UV a colori pieni costano di più.",
+            "Inserti e fodera — un interno semplice è gratuito; schiuma fustellata, vassoi rivestiti in velluto, cuscini per orologi e nastri di estrazione aggiungono ciascuno materiale e lavoro manuale."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Nessuna di queste richiede le costose fustelle o lastre di una scatola di carta — il vantaggio silenzioso del legno è che il vostro costo di setup è un programma CNC e un campione, non una lastra di stampa da $1,000."
+        },
+        {
+          "type": "h2",
+          "text": "L'effetto volume: MOQ e scaglioni di prezzo"
+        },
+        {
+          "type": "p",
+          "text": "La quantità è la leva che controllate più direttamente. I costi fissi — il campione, il setup CNC, la calibrazione macchina, una serie di abbinamento colore — si spalmano sull'ordine, quindi il prezzo per unità scende più rapidamente tra un test da 100 pezzi e circa 1,000 pezzi, poi si appiattisce. Ecco perché ordinare 300 invece di 100 spesso taglia il prezzo unitario di un terzo, mentre passare da 3,000 a 10,000 fa risparmiare molto meno a pezzo."
+        },
+        {
+          "type": "img",
+          "src": "/blog/cost-guide/price-vs-volume.svg",
+          "caption": "Prezzo unitario illustrativo per un singolo SKU premium ai vari ordini. I risparmi più ripidi arrivano presto — il tratto 100→1,000."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Quantità ordine",
+            "Prezzo unitario indicativo",
+            "vs 100 pz"
+          ],
+          "rows": [
+            [
+              "100 (test primo ordine)",
+              "$14.0",
+              "—"
+            ],
+            [
+              "300 (MOQ standard)",
+              "$9.5",
+              "−32%"
+            ],
+            [
+              "1,000",
+              "$7.0",
+              "−50%"
+            ],
+            [
+              "3,000",
+              "$5.8",
+              "−59%"
+            ],
+            [
+              "10,000",
+              "$5.0",
+              "−64%"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "La conclusione pratica: iniziate con un [ordine di prova da 100–300 pezzi](/blog/low-moq-sampling-strategy) per validare la scatola sul mercato, poi scalate negli scaglioni di prezzo una volta che vende. Pagare il prezzo unitario più alto del primo ordine è un'assicurazione economica contro l'impegno di 5,000 pezzi su uno SKU non provato."
+        },
+        {
+          "type": "h2",
+          "text": "Campionatura e attrezzaggio: perché il legno è diverso"
+        },
+        {
+          "type": "p",
+          "text": "Nel packaging in carta, l'attrezzaggio — fustelle e lastre — è un vero costo iniziale, spesso da $200 a $1,500+ prima della prima scatola buona. Il legno salta la maggior parte di questo. Il costo di setup è un campione di pre-produzione (gratuito per i buyer consolidati, o circa $80–$200 per un pezzo unico complesso) più un modesto tempo di programmazione CNC, entrambi una tantum. Non approvate mai una produzione piena sul solo render CAD — il campione è dove verificate la tolleranza dello scorrimento, la tonalità della tinta e la profondità dell'incisione con le vostre stesse mani."
+        },
+        {
+          "type": "h2",
+          "text": "I costi nascosti che gli importatori dimenticano"
+        },
+        {
+          "type": "p",
+          "text": "Il prezzo unitario FOB non è il vostro costo a destino. Il legno è più pesante della carta, quindi il trasporto marittimo conta di più — ed è esattamente per questo che una specie leggera come la paulownia può vincere sul costo totale anche con un prezzo FOB più alto. Oltre al trasporto, mettete a budget le voci di compliance e dogana che le quotazioni più economiche omettono in silenzio."
+        },
+        {
+          "type": "img",
+          "src": "/blog/cost-guide/fob-to-landed.svg",
+          "caption": "Come un prezzo unitario FOB diventa un costo a destino. Trasporto, trattamento ISPM 15, documenti di compliance e dazio si sommano tutti alla quotazione."
+        },
+        {
+          "type": "p",
+          "text": "Il trattamento termico ISPM 15 è standard sui nostri container, così le spedizioni non vengono trattenute in porto. La documentazione sulla formaldeide CARB P2 (per qualsiasi componente in MDF o impiallacciatura), la catena di custodia FSC e i test EU REACH sulle finiture sono forniti per ogni ordine — la documentazione di cui i buyer di USA e UE hanno bisogno per sdoganare e soddisfare i propri team di compliance. Chiedeteli fin dall'inizio; sono economici da fornire e costosi da non avere alla frontiera."
+        },
+        {
+          "type": "h2",
+          "text": "Un esempio pratico: uno SKU, voce per voce"
+        },
+        {
+          "type": "p",
+          "text": "Ecco uno SKU rappresentativo di fascia medio-premium — una scatola regalo in acacia tinta, coperchio magnetico, inserto in schiuma fustellata, logo inciso a laser — su un ordine da 1,000 pezzi, scomposto nelle voci che compongono il prezzo unitario FOB."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Voce di costo",
+            "Per unità"
+          ],
+          "rows": [
+            [
+              "Materiale acacia (scatola + coperchio)",
+              "$3.10"
+            ],
+            [
+              "Manodopera e assemblaggio",
+              "$1.25"
+            ],
+            [
+              "Chiusura magnetica e hardware",
+              "$0.55"
+            ],
+            [
+              "Finitura lacca food-safe",
+              "$0.70"
+            ],
+            [
+              "Inserto in schiuma fustellata",
+              "$0.60"
+            ],
+            [
+              "Incisione laser",
+              "$0.25"
+            ],
+            [
+              "Imballaggio, QC e overhead",
+              "$0.55"
+            ],
+            [
+              "Prezzo unitario FOB (≈)",
+              "$7.00"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Sostituite l'acacia con il pino e rendete la marcatura laser l'unica decorazione, e la stessa costruzione scende sotto $4. Aggiungete una serratura in ottone e un vassoio in velluto e sale oltre $11. Quel divario — da un solo insieme di scelte — è il motivo per cui una quotazione parte sempre dalla vostra specifica, non da un prezzo a catalogo."
+        },
+        {
+          "type": "h2",
+          "text": "Produttore diretto vs società di trading"
+        },
+        {
+          "type": "p",
+          "text": "Da chi comprate cambia il prezzo tanto quanto cosa comprate. Lo stesso ordine instradato attraverso una società di trading o un rivenditore a catalogo porta un ricarico per uno strato di servizio di cui potreste non avere bisogno. Comprare direttamente dalla fabbrica che possiede la linea produttiva tiene quel margine nella vostra tasca — e vi dà il controllo su QC e tempistiche."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Canale",
+            "Stesso ordine da 1,000 pz",
+            "Cosa ottenete"
+          ],
+          "rows": [
+            [
+              "Fabbrica diretta (questo modello)",
+              "≈ $7,000",
+              "Costo più basso, QC diretto, ripetibile"
+            ],
+            [
+              "Società di trading",
+              "$8,400 – $9,000",
+              "Comodità, ma nessun controllo su quale officina la costruisce"
+            ],
+            [
+              "Catalogo / rivenditore",
+              "$10,000+",
+              "Acquisto più rapido, ricarico più alto"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Per approfondire la scelta della giusta struttura di fornitura, consultate il nostro [playbook di sourcing B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026) e la differenza tra [OEM e ODM](/blog/oem-vs-odm-wooden-boxes)."
+        },
+        {
+          "type": "h2",
+          "text": "7 modi per ridurre il costo senza svilire la scatola"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Scendete di una fascia di specie dove non si noterà — la paulownia tinta scura assomiglia molto al noce a una frazione del costo.",
+            "Scegliete un [coperchio scorrevole](/products/sliding-lid) invece di una chiusura a cerniera o magnetica quando l'uso lo consente — è il più economico da assemblare.",
+            "Semplificate la finitura: una mano di lacca food-safe invece del gloss da pianoforte.",
+            "Ottimizzate le dimensioni rispetto al cartone di spedizione e al container — l'aria sprecata è trasporto sprecato.",
+            "Usate l'incisione laser invece della lamina a caldo o della stampa a colori pieni per il branding.",
+            "Consolidate tre o quattro SKU in un unico container per condividere trasporto e sdoganamento.",
+            "Scalate negli scaglioni di prezzo — riordinate a 1,000+ una volta che un test da 300 pezzi prova lo SKU."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ognuna di queste scambia una voce di costo con una piccola modifica di specifica — nessuna di esse fa sembrare la scatola più economica nelle mani del vostro cliente."
+        },
+        {
+          "type": "h2",
+          "text": "Allora, quanto dovreste mettere a budget?"
+        },
+        {
+          "type": "p",
+          "text": "Per una scatola di legno personalizzata a una quantità di primo ordine sensata, prevedete circa $4–$9 a pezzo per una solida scatola di livello retail e $9–$18 per un pezzo premium foderato, poi affinate con una quotazione reale rispetto alla vostra specie, chiusura, finitura e volume esatti. La cosa più utile che potete fare prima di chiedere un prezzo è mettere per iscritto quelle quattro scelte — decidono quasi tutto quanto sopra."
+        },
+        {
+          "type": "quote",
+          "text": "Una quotazione per una scatola di legno non è mai un solo numero. È la vostra specie, la vostra chiusura, la vostra finitura e il vostro volume — cambiatene uno qualsiasi e il prezzo si muove. Comunicate a un produttore tutti e quattro e otterrete una cifra onesta in un giorno."
+        },
+        {
+          "type": "p",
+          "text": "Inviate la vostra specifica — dimensioni, legno, chiusura, finitura, branding e quantità target — attraverso il nostro [modulo di contatto](/contact#inquiry) e vi risponderemo con una quotazione dettagliata e un costo del campione entro un giorno lavorativo, direttamente dal nostro stabilimento."
+        }
+      ]
+    },
     "sourcing-custom-wooden-boxes-from-china-2026": {
       "title": "Approvvigionarsi di scatole di legno personalizzate dalla Cina nel 2026: il playbook del buyer B2B",
       "excerpt": "Una guida pratica all'approvvigionamento per brand del retail e team acquisti — cosa significa davvero \"dalla Cina\" nel 2026, le 7 domande che filtrano i fornitori capaci, come MOQ e costo unitario si combinano realmente, e le realtà di compliance e spedizione dietro una consegna pulita.",
