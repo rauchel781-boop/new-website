@@ -1,0 +1,107 @@
+{
+  "title": "¿Cuánto cuestan las cajas de madera personalizadas? Guía de precios al por mayor y OEM para 2026",
+  "excerpt": "Un desglose orientado al comprador de lo que realmente cuestan las cajas de madera personalizadas en 2026: los factores de coste reales (especie, construcción, acabado, marca), cómo el MOQ mueve el precio unitario, los extras de coste de aterrizaje que los importadores olvidan y un ejemplo trabajado con el que puedes presupuestar.",
+  "category": "Precios",
+  "readTime": "12 min de lectura",
+  "body": [
+    { "type": "p", "text": "La pregunta más habitual que escucha un fabricante de cajas de madera es también la más difícil de responder con una sola cifra: \"¿cuánto cuesta una caja de madera personalizada?\" La respuesta honesta es un rango —aproximadamente de $1.50 a $25 por unidad— porque una caja de detalle de pino teñido con tapa deslizante y un estuche de relojes de nogal macizo forrado en terciopelo con cierre de latón son ambas \"cajas de madera\", y se sitúan en extremos opuestos del mapa de costes. Esta guía convierte ese rango poco útil en algo con lo que realmente puedes presupuestar." },
+    { "type": "p", "text": "La mayoría de las guías de costes de embalaje en internet asumen tácitamente cartón, cartón ondulado o cajas rígidas de papel. La madera tiene una lógica de precios distinta. No hay troqueles de corte ni planchas de impresión caras, la materia prima representa una proporción mucho mayor del coste unitario, el peso determina la factura de flete, y la especie que elijas puede triplicar el precio antes de añadir una sola decoración. A continuación se explica cómo se construye realmente el coste, qué lo mueve y cómo los compradores B2B lo mantienen bajo control sin abaratar la caja." },
+
+    { "type": "stats", "items": [
+      { "num": "$1.5–25", "label": "Precio unitario FOB típico" },
+      { "num": "45–60", "suffix": "%", "label": "Coste que es materia prima" },
+      { "num": "300", "label": "Piezas — MOQ estándar" }
+    ] },
+
+    { "type": "h2", "text": "La respuesta corta, por nivel" },
+    { "type": "p", "text": "Si solo necesitas una cifra para verificar la coherencia de una cotización, aquí tienes los rangos FOB indicativos que vemos con más frecuencia. Asumen un pedido OEM personalizado igual o superior a nuestro MOQ estándar de 300 piezas por diseño; trátalos como puntos de partida, no como una lista de precios: tu especificación exacta los desplaza." },
+    { "type": "table", "headers": ["Nivel", "Especificación típica", "FOB indicativo / unidad"], "rows": [
+      ["Entrada / artesanal", "Pino o paulownia, tapa deslizante, sin acabar o teñida, marcado láser", "$1.50 – $4"],
+      ["Retail medio", "Bambú o paulownia, impresa o magnética, inserto de espuma", "$4 – $9"],
+      ["Premium", "Acacia o nogal, forrada, con bisagra o magnética, estampado / grabado", "$9 – $18"],
+      ["Lujo", "Nogal macizo, bandeja de terciopelo, cierre con llave, construcción compleja", "$18 – $25+"]
+    ] },
+
+    { "type": "h2", "text": "Adónde va realmente el dinero" },
+    { "type": "p", "text": "En una caja de madera OEM típica, la materia prima es la partida individual más grande —normalmente del 45–60% del coste unitario, mucho más que en una caja de papel—. La mano de obra y el montaje, el acabado, la marca, los herrajes y los insertos se reparten la mayor parte del resto, y el embalaje, el QC y los gastos generales de fábrica se llevan la cola. Esa combinación es la razón por la que dos cajas del mismo tamaño pueden cotizarse con una diferencia de 3×: cambia la especie y el cierre y habrás movido las dos mayores palancas a la vez." },
+    { "type": "img", "src": "/blog/cost-guide/cost-breakdown.svg", "caption": "Desglose indicativo del coste unitario de una caja de madera OEM. El material más los dos mayores factores de \"elección\" —especie y construcción— deciden la mayor parte del precio." },
+
+    { "type": "h2", "text": "Factor de coste n.º 1: la especie de madera" },
+    { "type": "p", "text": "La especie es el suelo del precio. Antes de cualquier decoración, la madera que elijas puede mover el coste unitario en 3–4×. El [pino](/products/pine) es el caballo de batalla —el más barato, admite tinte y pirograbado, la opción por defecto para series artesanales y de detalles de boda—. La [paulownia](/products/paulownia) cuesta algo más, pero es la madera comercial más ligera del mundo, lo que te lo devuelve en el flete. El [bambú](/products/bamboo) se sitúa en el nivel medio con el argumento de sostenibilidad más sólido. La [acacia](/products/acacia) y especialmente el [nogal](/products/walnut) son la gama premium —densos, hermosos y la razón por la que una caja de reloj puede costar más que la funda del propio reloj—. Nuestra [guía de materiales](/material-guide) compara cada especie en paralelo." },
+    { "type": "img", "src": "/blog/cost-guide/species-price-ladder.svg", "caption": "Coste relativo del material por especie (pino = 1×). Indicativo: pasar de pino a nogal aproximadamente triplica el coste de la madera antes de cualquier otro cambio." },
+    { "type": "p", "text": "Una palanca más de material: madera maciza frente a MDF chapado. Un panel de chapa de nogal sobre un núcleo estable de MDF cuesta menos que el nogal macizo y se mantiene más plano en tapas grandes —a menudo la especificación más inteligente para cajas grandes, impresas o de paredes finas—, mientras que la madera maciza se reserva para piezas premium con un fuerte componente táctil." },
+
+    { "type": "h2", "text": "Factor de coste n.º 2: construcción y cierre" },
+    { "type": "p", "text": "Cómo se abre la caja decide cuánto montaje manual necesita, y la mano de obra es la segunda mayor partida de coste. Una [caja de tapa deslizante](/products/sliding-lid) es la más barata de construir: sin bisagras, sin broches, solo una bandeja ranurada y una tapa, que es precisamente por lo que domina los programas de regalo y detalles de alto volumen. Una [caja con bisagra](/products/hinged) añade herrajes y tiempo de ajuste. Una [caja de cierre magnético](/products/magnetic) añade imanes embutidos y una construcción de chapa de pared fina. Una [caja con cerradura](/products/with-lock) añade la mayor cantidad de herrajes y mano de obra de todas." },
+    { "type": "img", "src": "/blog/cost-guide/closure-cost-ladder.svg", "caption": "Coste relativo de construcción por cierre (tapa deslizante = 1×). La tapa deslizante sin herrajes es la construcción de menor coste de montaje del catálogo." },
+
+    { "type": "h2", "text": "Factor de coste n.º 3: acabado, marca e insertos" },
+    { "type": "p", "text": "Tras la especie y el cierre, tres elecciones de acabado afinan el precio:" },
+    { "type": "list", "items": [
+      "Acabado — el crudo es el más barato; la laca apta para alimentos, el aceite, la pintura y el brillo piano añaden cada uno material y mano de obra.",
+      "Marca — el grabado láser es el más económico y no necesita utillaje; el grabado en relieve hundido y la serigrafía se sitúan en el medio; el estampado en caliente y el UV a todo color cuestan más.",
+      "Insertos y forro — un interior liso es gratis; la espuma troquelada, las bandejas forradas de terciopelo, los cojines para relojes y los tiradores de cinta añaden cada uno material y trabajo manual."
+    ] },
+    { "type": "p", "text": "Ninguno de estos necesita los troqueles o planchas caros que requiere una caja de papel: la ventaja silenciosa de la madera es que tu coste de preparación es un programa CNC y una muestra, no una plancha de impresión de $1,000." },
+
+    { "type": "h2", "text": "El efecto del volumen: MOQ y reducciones de precio" },
+    { "type": "p", "text": "La cantidad es la palanca que controlas más directamente. Los costes fijos —la muestra, la preparación del CNC, la calibración de máquina, una serie de igualación de color— se reparten en todo el pedido, de modo que el precio por unidad cae más rápido entre una prueba de 100 piezas y unas 1,000 piezas, y luego se aplana. Por eso pedir 300 en lugar de 100 a menudo recorta el precio unitario en un tercio, mientras que pasar de 3,000 a 10,000 ahorra mucho menos por pieza." },
+    { "type": "img", "src": "/blog/cost-guide/price-vs-volume.svg", "caption": "Precio unitario ilustrativo de un SKU premium en distintos tamaños de pedido. Los mayores ahorros llegan al principio: el tramo de 100→1,000." },
+    { "type": "table", "headers": ["Cantidad de pedido", "Precio unitario indicativo", "vs 100 uds"], "rows": [
+      ["100 (prueba de primer pedido)", "$14.0", "—"],
+      ["300 (MOQ estándar)", "$9.5", "−32%"],
+      ["1,000", "$7.0", "−50%"],
+      ["3,000", "$5.8", "−59%"],
+      ["10,000", "$5.0", "−64%"]
+    ] },
+    { "type": "p", "text": "La conclusión práctica: empieza con un [pedido de prueba de 100–300 piezas](/blog/low-moq-sampling-strategy) para validar la caja en el mercado y luego escala hacia las reducciones de precio una vez que se venda. Pagar el precio unitario más alto del primer pedido es un seguro barato frente a comprometer 5,000 piezas a un SKU no probado." },
+
+    { "type": "h2", "text": "Muestreo y utillaje: por qué la madera es diferente" },
+    { "type": "p", "text": "En el embalaje de papel, el utillaje —troqueles y planchas— es un coste inicial real, a menudo de $200 a $1,500+ antes de la primera caja buena. La madera se salta la mayor parte de eso. El coste de preparación es una muestra de preproducción (exenta para compradores establecidos, o aproximadamente $80–$200 para una pieza compleja puntual) más un tiempo modesto de programación CNC, ambos de una sola vez. Nunca apruebes una serie completa solo sobre un render CAD: la muestra es donde verificas la tolerancia de deslizamiento, el tono del tinte y la profundidad del grabado en tus propias manos." },
+
+    { "type": "h2", "text": "Los costes ocultos que los importadores olvidan" },
+    { "type": "p", "text": "El precio unitario FOB no es tu coste de aterrizaje. La madera es más pesada que el papel, así que el flete marítimo importa más, que es exactamente por qué una especie ligera como la paulownia puede ganar en coste total incluso con un precio FOB más alto. Además del flete, presupuesta las partidas de cumplimiento y aduanas que las cotizaciones más baratas dejan fuera de forma silenciosa." },
+    { "type": "img", "src": "/blog/cost-guide/fob-to-landed.svg", "caption": "Cómo un precio unitario FOB se convierte en coste de aterrizaje. El flete, el tratamiento ISPM 15, los documentos de cumplimiento y los aranceles se suman todos por encima de la cotización." },
+    { "type": "p", "text": "El tratamiento térmico ISPM 15 es estándar en nuestros contenedores para que los envíos no se retengan en puerto. La documentación de formaldehído CARB P2 (para cualquier componente de MDF o chapa), la cadena de custodia FSC y las pruebas EU REACH en acabados se proporcionan por pedido: el papeleo que los compradores de EE.UU. y la UE necesitan para pasar aduanas y satisfacer a sus propios equipos de cumplimiento. Pídelos por adelantado; son baratos de proporcionar y caros si faltan en la frontera." },
+
+    { "type": "h2", "text": "Un ejemplo trabajado: un SKU, línea por línea" },
+    { "type": "p", "text": "Aquí tienes un SKU representativo de gama medio-premium —una caja de regalo de acacia teñida, tapa magnética, inserto de espuma troquelada, logotipo grabado a láser— en un pedido de 1,000 piezas, desglosado en las líneas que componen el precio unitario FOB." },
+    { "type": "table", "headers": ["Línea de coste", "Por unidad"], "rows": [
+      ["Material de acacia (caja + tapa)", "$3.10"],
+      ["Mano de obra y montaje", "$1.25"],
+      ["Cierre magnético y herrajes", "$0.55"],
+      ["Acabado de laca apta para alimentos", "$0.70"],
+      ["Inserto de espuma troquelada", "$0.60"],
+      ["Grabado láser", "$0.25"],
+      ["Embalaje, QC y gastos generales", "$0.55"],
+      ["Precio unitario FOB (≈)", "$7.00"]
+    ] },
+    { "type": "p", "text": "Cambia la acacia por pino y haz que el marcado láser sea la única decoración, y la misma construcción baja de $4. Añade un cierre de latón y una bandeja de terciopelo y sube por encima de $11. Esa horquilla —a partir de un solo conjunto de elecciones— es la razón por la que una cotización siempre parte de tu especificación, no de un precio de catálogo." },
+
+    { "type": "h2", "text": "Fabricante directo frente a empresa comercial" },
+    { "type": "p", "text": "A quién le compras cambia el precio tanto como lo que compras. El mismo pedido enrutado a través de una empresa comercial o un revendedor de catálogo lleva un margen por una capa de servicio que quizá no necesites. Comprar directamente a la fábrica que posee la línea de producción mantiene ese margen en tu bolsillo, y te da control sobre el QC y los plazos." },
+    { "type": "table", "headers": ["Canal", "El mismo pedido de 1,000 uds", "Lo que obtienes"], "rows": [
+      ["Fábrica directa (este modelo)", "≈ $7,000", "Coste más bajo, QC directo, repetible"],
+      ["Empresa comercial", "$8,400 – $9,000", "Comodidad, pero sin control sobre qué taller la construye"],
+      ["Catálogo / revendedor", "$10,000+", "Lo más rápido de comprar, mayor margen"]
+    ] },
+    { "type": "p", "text": "Para más sobre cómo elegir la estructura de suministro adecuada, consulta nuestro [manual de aprovisionamiento B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026) y la diferencia entre [OEM y ODM](/blog/oem-vs-odm-wooden-boxes)." },
+
+    { "type": "h2", "text": "7 maneras de recortar coste sin abaratar la caja" },
+    { "type": "list", "items": [
+      "Baja un nivel de especie donde no se note: la paulownia teñida oscura se lee parecida al nogal a una fracción del coste.",
+      "Elige una [tapa deslizante](/products/sliding-lid) en lugar de bisagra o magnética cuando el caso de uso lo permita: es la más barata de montar.",
+      "Simplifica el acabado: una mano de laca apta para alimentos en lugar de brillo piano.",
+      "Optimiza las dimensiones al cartón de envío y al contenedor: el aire desperdiciado es flete desperdiciado.",
+      "Usa grabado láser en lugar de estampado en caliente o impresión a todo color para la marca.",
+      "Consolida tres o cuatro SKU en un solo contenedor para compartir flete y despacho.",
+      "Escala hacia las reducciones de precio: vuelve a pedir a 1,000+ una vez que una prueba de 300 piezas demuestre el SKU."
+    ] },
+    { "type": "p", "text": "Cada una de estas cambia una línea de coste por un pequeño ajuste de especificación, y ninguna hace que la caja se sienta más barata en la mano de tu cliente." },
+
+    { "type": "h2", "text": "Entonces, ¿qué deberías presupuestar?" },
+    { "type": "p", "text": "Para una caja de madera personalizada a una cantidad razonable de primer pedido, planifica alrededor de $4–$9 por unidad para una caja sólida de grado retail y $9–$18 para una pieza premium forrada, y luego afina con una cotización real frente a tu especie, cierre, acabado y volumen exactos. Lo más útil que puedes hacer antes de pedir un precio es anotar esas cuatro elecciones: deciden casi todo lo anterior." },
+    { "type": "quote", "text": "Una cotización de caja de madera nunca es una sola cifra. Es tu especie, tu cierre, tu acabado y tu volumen: cambia cualquiera y el precio se mueve. Dile a un fabricante las cuatro y obtendrás una cifra honesta en un día." },
+    { "type": "p", "text": "Envía tu especificación —dimensiones, madera, cierre, acabado, marca y cantidad objetivo— a través de nuestro [formulario de contacto](/contact#inquiry) y te responderemos con una cotización detallada y una tarifa de muestra dentro de un día laborable, directamente desde nuestra propia planta de fábrica." }
+  ]
+}

@@ -1,6 +1,7 @@
 const createNextIntlPlugin = require('next-intl/plugin');
 const withNextIntl = createNextIntlPlugin('./i18n/request.js');
 
+// Updated: 2026-06-10 - Deploy blog post: How to Choose Wood Thickness for Custom Wooden Boxes
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,

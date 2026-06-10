@@ -1,0 +1,107 @@
+{
+  "title": "Was kosten maßgefertigte Holzboxen? Ein Großhandels- und OEM-Preisleitfaden für 2026",
+  "excerpt": "Eine käuferorientierte Aufschlüsselung dessen, was maßgefertigte Holzboxen 2026 tatsächlich kosten — die echten Kostentreiber (Holzart, Konstruktion, Finish, Branding), wie die MOQ den Stückpreis bewegt, die Landed-Cost-Posten, die Importeure vergessen, und ein durchgerechnetes Beispiel, gegen das Sie budgetieren können.",
+  "category": "Preisgestaltung",
+  "readTime": "12 Min. Lesezeit",
+  "body": [
+    { "type": "p", "text": "Die häufigste Frage, die ein Holzbox-Hersteller hört, ist zugleich die am schwersten in einer einzigen Zahl zu beantwortende: „Was kostet eine maßgefertigte Holzbox?“ Die ehrliche Antwort ist eine Spanne — etwa $1.50 bis $25 pro Stück —, denn eine gebeizte Kiefernbox mit Schiebedeckel als Gastgeschenk und ein samtgefütterter Uhrenkasten aus massivem Walnussholz mit Messingschloss sind beide „Holzboxen“ und liegen an entgegengesetzten Enden der Kostenkarte. Dieser Leitfaden verwandelt diese wenig hilfreiche Spanne in etwas, gegen das Sie tatsächlich budgetieren können." },
+    { "type": "p", "text": "Die meisten Verpackungs-Preisleitfäden im Netz gehen stillschweigend von Karton, Wellpappe oder festen Papierschachteln aus. Holz wird anders bepreist. Es gibt keine teuren Stanzwerkzeuge oder Druckplatten, das Rohmaterial macht einen weit größeren Anteil der Stückkosten aus, das Gewicht treibt die Frachtrechnung, und die gewählte Holzart kann den Preis verdreifachen, bevor auch nur eine einzige Dekoration hinzukommt. Im Folgenden steht, wie sich die Kosten tatsächlich aufbauen, was sie bewegt und wie B2B-Käufer sie unter Kontrolle halten, ohne die Box zu verbilligen." },
+
+    { "type": "stats", "items": [
+      { "num": "$1.5–25", "label": "Typischer FOB-Stückpreis" },
+      { "num": "45–60", "suffix": "%", "label": "Kostenanteil Rohmaterial" },
+      { "num": "300", "label": "Stück — Standard-MOQ" }
+    ] },
+
+    { "type": "h2", "text": "Die kurze Antwort, nach Stufe" },
+    { "type": "p", "text": "Wenn Sie nur eine Zahl brauchen, um ein Angebot auf Plausibilität zu prüfen, hier die indikativen FOB-Spannen, die wir am häufigsten sehen. Sie setzen einen maßgefertigten OEM-Auftrag bei oder über unserer Standard-MOQ von 300 Stück pro Design voraus; behandeln Sie sie als Ausgangspunkte, nicht als Preisliste — Ihre genaue Spezifikation verschiebt sie." },
+    { "type": "table", "headers": ["Stufe", "Typische Spezifikation", "Indikativer FOB / Stück"], "rows": [
+      ["Einstieg / Handwerk", "Kiefer oder Paulownia, Schiebedeckel, unbehandelt oder gebeizt, Lasermarkierung", "$1.50 – $4"],
+      ["Mittlerer Einzelhandel", "Bambus oder Paulownia, bedruckt oder magnetisch, Schaumstoffeinlage", "$4 – $9"],
+      ["Premium", "Akazie oder Walnuss, gefüttert, scharniert oder magnetisch, Folie / Gravur", "$9 – $18"],
+      ["Luxus", "Massive Walnuss, Samttablett, Schloss & Schlüssel, komplexer Aufbau", "$18 – $25+"]
+    ] },
+
+    { "type": "h2", "text": "Wohin das Geld tatsächlich fließt" },
+    { "type": "p", "text": "Bei einer typischen OEM-Holzbox ist das Rohmaterial der einzelne größte Posten — meist 45–60% der Stückkosten, weit mehr als bei einer Papierschachtel. Arbeit und Montage, Veredelung, Branding, Hardware und Einlagen teilen sich den größten Rest, während Verpackung, QC und Fabrik-Gemeinkosten den Schluss bilden. Diese Mischung ist der Grund, warum zwei Boxen derselben Größe um den Faktor 3× auseinanderliegen können: Ändern Sie die Holzart und den Verschluss, und Sie haben die beiden größten Hebel zugleich bewegt." },
+    { "type": "img", "src": "/blog/cost-guide/cost-breakdown.svg", "caption": "Indikative Aufschlüsselung der Stückkosten einer OEM-Holzbox. Material plus die beiden größten „Wahl“-Treiber — Holzart und Konstruktion — bestimmen den Großteil des Preises." },
+
+    { "type": "h2", "text": "Kostentreiber #1: die Holzart" },
+    { "type": "p", "text": "Die Holzart ist der Preisboden. Vor jeder Dekoration kann das gewählte Holz die Stückkosten um das 3- bis 4-Fache bewegen. [Kiefer](/products/pine) ist das Arbeitspferd — am günstigsten, nimmt Beize und Brandmalerei an, der Standard für Handwerks- und Hochzeitsgeschenk-Serien. [Paulownia](/products/paulownia) kostet etwas mehr, ist aber das leichteste Nutzholz der Welt, was sich bei der Fracht auszahlt. [Bambus](/products/bamboo) liegt im Mittelfeld mit der stärksten Nachhaltigkeitsgeschichte. [Akazie](/products/acacia) und insbesondere [Walnuss](/products/walnut) bilden das Premium-Ende — dicht, schön und der Grund, warum eine Uhrenbox mehr kosten kann als das Etui der Uhr. Unser [Materialleitfaden](/material-guide) vergleicht jede Holzart Seite an Seite." },
+    { "type": "img", "src": "/blog/cost-guide/species-price-ladder.svg", "caption": "Relative Materialkosten nach Holzart (Kiefer = 1×). Indikativ — der Wechsel von Kiefer zu Walnuss verdreifacht die Holzkosten ungefähr, bevor irgendeine andere Änderung erfolgt." },
+    { "type": "p", "text": "Ein weiterer Materialhebel: Massivholz versus furniertes MDF. Eine Walnussfurnier-Platte über einem stabilen MDF-Kern kostet weniger als massive Walnuss und bleibt bei großen Deckeln flacher — oft die klügere Spezifikation für große, bedruckte oder dünnwandige Boxen, während Massivholz für hochwertige, haptische Stücke reserviert bleibt." },
+
+    { "type": "h2", "text": "Kostentreiber #2: Konstruktion & Verschluss" },
+    { "type": "p", "text": "Wie die Box öffnet, entscheidet, wie viel Handmontage sie benötigt — und Arbeit ist der zweitgrößte Kostenposten. Eine [Box mit Schiebedeckel](/products/sliding-lid) ist am günstigsten zu bauen: keine Scharniere, keine Verschlüsse, nur ein genutetes Fach und ein Deckel, was genau der Grund ist, warum sie hochvolumige Geschenk- und Gastgeschenkprogramme dominiert. Eine [scharnierte Box](/products/hinged) bringt Hardware und Montagezeit hinzu. Eine [Box mit Magnetverschluss](/products/magnetic) fügt eingefräste Magnete und einen dünnwandigen Furnieraufbau hinzu. Eine [abschließbare Box](/products/with-lock) bringt die meiste Hardware und Arbeit von allen hinzu." },
+    { "type": "img", "src": "/blog/cost-guide/closure-cost-ladder.svg", "caption": "Relative Baukosten nach Verschluss (Schiebedeckel = 1×). Der hardwarefreie Schiebedeckel ist die Konstruktion mit den niedrigsten Montagekosten im Katalog." },
+
+    { "type": "h2", "text": "Kostentreiber #3: Finish, Branding & Einlagen" },
+    { "type": "p", "text": "Nach Holzart und Verschluss feilen drei Veredelungsentscheidungen am Preis:" },
+    { "type": "list", "items": [
+      "Finish — roh ist am günstigsten; lebensmittelechter Lack, Öl, Farbe und Klavierlack-Hochglanz fügen jeweils Material und Arbeit hinzu.",
+      "Branding — Lasergravur ist am wirtschaftlichsten und benötigt kein Werkzeug; Prägung und Siebdruck liegen im Mittelfeld; Heißfolie und vollfarbiger UV-Druck kosten am meisten.",
+      "Einlagen & Auskleidung — ein schlichtes Inneres ist kostenlos; gestanzter Schaumstoff, samtbezogene Tabletts, Uhrenkissen und Bandzüge fügen jeweils Material und Handarbeit hinzu."
+    ] },
+    { "type": "p", "text": "Keines davon benötigt die teuren Werkzeuge oder Platten, die eine Papierschachtel braucht — der stille Vorteil von Holz ist, dass Ihre Rüstkosten ein CNC-Programm und ein Muster sind, nicht eine Druckplatte für $1,000." },
+
+    { "type": "h2", "text": "Der Volumeneffekt: MOQ und Preisstaffeln" },
+    { "type": "p", "text": "Die Menge ist der Hebel, den Sie am direktesten kontrollieren. Fixkosten — das Muster, die CNC-Einrichtung, die Maschinenkalibrierung, ein Farbabgleichs-Lauf — werden über den Auftrag verteilt, sodass der Stückpreis am schnellsten zwischen einem 100-Stück-Test und etwa 1,000 Stück fällt und dann abflacht. Deshalb senkt die Bestellung von 300 statt 100 den Stückpreis oft um ein Drittel, während der Sprung von 3,000 auf 10,000 weit weniger pro Stück spart." },
+    { "type": "img", "src": "/blog/cost-guide/price-vs-volume.svg", "caption": "Illustrativer Stückpreis für eine Premium-SKU über verschiedene Bestellmengen hinweg. Die steilsten Einsparungen kommen früh — auf der Strecke 100→1,000." },
+    { "type": "table", "headers": ["Bestellmenge", "Indikativer Stückpreis", "vs 100 Stk."], "rows": [
+      ["100 (Erstbestellungs-Test)", "$14.0", "—"],
+      ["300 (Standard-MOQ)", "$9.5", "−32%"],
+      ["1,000", "$7.0", "−50%"],
+      ["3,000", "$5.8", "−59%"],
+      ["10,000", "$5.0", "−64%"]
+    ] },
+    { "type": "p", "text": "Die praktische Erkenntnis: Beginnen Sie mit einer [Testbestellung von 100–300 Stück](/blog/low-moq-sampling-strategy), um die Box im Markt zu validieren, und skalieren Sie dann in die Preisstaffeln, sobald sie sich verkauft. Den höheren Stückpreis der Erstbestellung zu zahlen, ist eine günstige Versicherung dagegen, 5,000 Stück für eine unerprobte SKU zu verpflichten." },
+
+    { "type": "h2", "text": "Bemusterung & Werkzeug: warum Holz anders ist" },
+    { "type": "p", "text": "Bei Papierverpackungen sind Werkzeuge — Stanzen und Platten — eine echte Vorabkosten, oft $200 bis $1,500+ vor der ersten guten Box. Holz überspringt das meiste davon. Die Rüstkosten sind ein Vorproduktionsmuster (für etablierte Käufer kostenlos, oder etwa $80–$200 für ein komplexes Einzelstück) plus moderate CNC-Programmzeit, beides einmalig. Genehmigen Sie nie eine Vollserie allein auf Basis eines CAD-Renders — das Muster ist der Punkt, an dem Sie die Schiebetoleranz, den Beizton und die Gravurtiefe in der eigenen Hand prüfen." },
+
+    { "type": "h2", "text": "Die versteckten Kosten, die Importeure vergessen" },
+    { "type": "p", "text": "Der FOB-Stückpreis ist nicht Ihre Landed Cost. Holz ist schwerer als Papier, daher zählt die Seefracht mehr — was genau der Grund ist, warum eine leichte Holzart wie Paulownia bei den Gesamtkosten gewinnen kann, selbst bei einem höheren FOB-Preis. Zusätzlich zur Fracht budgetieren Sie für die Compliance- und Zollposten, die die günstigsten Angebote stillschweigend weglassen." },
+    { "type": "img", "src": "/blog/cost-guide/fob-to-landed.svg", "caption": "Wie aus einem FOB-Stückpreis eine Landed Cost wird. Fracht, ISPM 15-Behandlung, Compliance-Dokumente und Zoll kommen alle oben auf das Angebot." },
+    { "type": "p", "text": "Die ISPM 15-Hitzebehandlung ist bei unseren Containern Standard, damit Sendungen nicht im Hafen festgehalten werden. CARB P2-Formaldehyd-Dokumentation (für jede MDF- oder Furnierkomponente), FSC-Chain-of-Custody und EU REACH-Prüfung der Finishes werden pro Auftrag bereitgestellt — der Papierkram, den US- und EU-Käufer brauchen, um den Zoll zu passieren und ihre eigenen Compliance-Teams zufriedenzustellen. Fragen Sie diese im Voraus an; sie sind günstig bereitzustellen und teuer, wenn sie an der Grenze fehlen." },
+
+    { "type": "h2", "text": "Ein durchgerechnetes Beispiel: eine SKU, Posten für Posten" },
+    { "type": "p", "text": "Hier eine repräsentative Mid-Premium-SKU — eine gebeizte Akazien-Geschenkbox, Magnetdeckel, gestanzte Schaumstoffeinlage, lasergravierte Logo — bei einem Auftrag über 1,000 Stück, aufgeschlüsselt in die Posten, die den FOB-Stückpreis ausmachen." },
+    { "type": "table", "headers": ["Kostenposten", "Pro Stück"], "rows": [
+      ["Akazienmaterial (Box + Deckel)", "$3.10"],
+      ["Arbeit & Montage", "$1.25"],
+      ["Magnetverschluss & Hardware", "$0.55"],
+      ["Lebensmittelechtes Lack-Finish", "$0.70"],
+      ["Gestanzte Schaumstoffeinlage", "$0.60"],
+      ["Lasergravur", "$0.25"],
+      ["Verpackung, QC & Gemeinkosten", "$0.55"],
+      ["FOB-Stückpreis (≈)", "$7.00"]
+    ] },
+    { "type": "p", "text": "Tauschen Sie die Akazie gegen Kiefer und machen Sie die Lasermarkierung zur einzigen Dekoration, und dieselbe Konstruktion fällt unter $4. Fügen Sie ein Messingschloss und ein Samttablett hinzu, und sie steigt über $11. Diese Spanne — aus einem einzigen Satz von Entscheidungen — ist der Grund, warum ein Angebot immer mit Ihrer Spezifikation beginnt, nicht mit einem Katalogpreis." },
+
+    { "type": "h2", "text": "Hersteller-direkt vs. Handelsgesellschaft" },
+    { "type": "p", "text": "Von wem Sie kaufen, verändert den Preis ebenso stark wie das, was Sie kaufen. Derselbe Auftrag, über eine Handelsgesellschaft oder einen Katalog-Wiederverkäufer geleitet, trägt einen Aufschlag für eine Servicestufe, die Sie möglicherweise nicht benötigen. Der direkte Einkauf bei der Fabrik, die die Produktionslinie besitzt, hält diese Marge in Ihrer Tasche — und gibt Ihnen Kontrolle über QC und Zeitplan." },
+    { "type": "table", "headers": ["Kanal", "Derselbe 1,000-Stk.-Auftrag", "Was Sie bekommen"], "rows": [
+      ["Fabrik-direkt (dieses Modell)", "≈ $7,000", "Niedrigste Kosten, direkte QC, wiederholbar"],
+      ["Handelsgesellschaft", "$8,400 – $9,000", "Bequemlichkeit, aber keine Kontrolle darüber, welche Werkstatt sie baut"],
+      ["Katalog / Wiederverkäufer", "$10,000+", "Am schnellsten zu kaufen, höchster Aufschlag"]
+    ] },
+    { "type": "p", "text": "Mehr zur Wahl der richtigen Lieferstruktur finden Sie in unserem [B2B-Beschaffungs-Playbook](/blog/sourcing-custom-wooden-boxes-from-china-2026) und im Unterschied zwischen [OEM und ODM](/blog/oem-vs-odm-wooden-boxes)." },
+
+    { "type": "h2", "text": "7 Wege, Kosten zu senken, ohne die Box zu verbilligen" },
+    { "type": "list", "items": [
+      "Stufen Sie die Holzart dort herab, wo es nicht auffällt — dunkel gebeizte Paulownia liest sich nahezu wie Walnuss zu einem Bruchteil der Kosten.",
+      "Wählen Sie einen [Schiebedeckel](/products/sliding-lid) statt Scharnier oder Magnet, wenn der Anwendungsfall es zulässt — er ist am günstigsten zu montieren.",
+      "Vereinfachen Sie das Finish: eine Schicht lebensmittelechter Lack statt Klavierlack-Hochglanz.",
+      "Optimieren Sie die Abmessungen auf den Versandkarton und den Container — verschwendete Luft ist verschwendete Fracht.",
+      "Verwenden Sie Lasergravur statt Heißfolie oder Vollfarbdruck für das Branding.",
+      "Konsolidieren Sie drei oder vier SKUs in einem Container, um Fracht und Verzollung zu teilen.",
+      "Skalieren Sie in die Preisstaffeln — bestellen Sie bei 1,000+ nach, sobald ein 300-Stück-Test die SKU bewiesen hat."
+    ] },
+    { "type": "p", "text": "Jeder einzelne dieser Punkte tauscht einen Kostenposten gegen eine kleine Spezifikationsänderung — keiner davon lässt die Box in der Hand Ihres Kunden billiger wirken." },
+
+    { "type": "h2", "text": "Also, was sollten Sie budgetieren?" },
+    { "type": "p", "text": "Für eine maßgefertigte Holzbox bei einer sinnvollen Erstbestellmenge planen Sie rund $4–$9 pro Stück für eine solide Box in Einzelhandelsqualität und $9–$18 für ein gefüttertes Premium-Stück, und verfeinern Sie dann mit einem echten Angebot gegen Ihre genaue Holzart, Ihren Verschluss, Ihr Finish und Ihr Volumen. Das Nützlichste, was Sie tun können, bevor Sie nach einem Preis fragen, ist, diese vier Entscheidungen aufzuschreiben — sie bestimmen fast alles oben." },
+    { "type": "quote", "text": "Ein Holzbox-Angebot ist nie eine einzige Zahl. Es sind Ihre Holzart, Ihr Verschluss, Ihr Finish und Ihr Volumen — ändern Sie eines davon, und der Preis bewegt sich. Nennen Sie einem Hersteller alle vier, und Sie bekommen innerhalb eines Tages eine ehrliche Zahl." },
+    { "type": "p", "text": "Senden Sie Ihre Spezifikation — Abmessungen, Holz, Verschluss, Finish, Branding und Zielmenge — über unser [Kontaktformular](/contact#inquiry), und wir kommen innerhalb eines Werktags mit einem aufgeschlüsselten Angebot und einer Mustergebühr auf Sie zurück, direkt aus unserer eigenen Fabrikhalle." }
+  ]
+}

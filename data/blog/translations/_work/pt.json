@@ -1,0 +1,241 @@
+{
+  "title": "Quanto custam as caixas de madeira personalizadas? Um guia de preços grossista e OEM para 2026",
+  "excerpt": "Uma análise orientada ao comprador sobre o que custam realmente as caixas de madeira personalizadas em 2026 — os verdadeiros fatores de custo (espécie, construção, acabamento, branding), como a MOQ faz variar o preço unitário, os extras de custo aterrado que os importadores esquecem, e um exemplo prático com que pode orçamentar.",
+  "category": "Preços",
+  "readTime": "12 min de leitura",
+  "body": [
+    {
+      "type": "p",
+      "text": "A pergunta mais comum que um fabricante de caixas de madeira ouve é também a mais difícil de responder num único número: “quanto custa uma caixa de madeira personalizada?”. A resposta honesta é um intervalo — sensivelmente $1.50 a $25 por unidade — porque uma caixa de oferta de pinho com tampa deslizante e tingida e um estojo de relógios em nogueira maciça forrado a veludo com fecho de latão são ambos “caixas de madeira”, e situam-se em extremos opostos do mapa de custos. Este guia transforma esse intervalo pouco útil em algo com que pode efetivamente orçamentar."
+    },
+    {
+      "type": "p",
+      "text": "A maioria dos guias de custos de embalagem disponíveis online pressupõe discretamente cartão, cartão canelado ou caixas rígidas de papel. A madeira tem uma lógica de preços diferente. Não há cortantes ou chapas de impressão dispendiosas, a matéria-prima representa uma fatia muito maior do custo unitário, o peso determina a fatura de frete, e a espécie que escolher pode triplicar o preço antes de se acrescentar qualquer decoração. A seguir, eis como o custo se forma realmente, o que o faz variar, e como os compradores B2B o mantêm sob controlo sem desvalorizar a caixa."
+    },
+    {
+      "type": "stats",
+      "items": [
+        { "num": "$1.5–25", "label": "Preço unitário FOB típico" },
+        { "num": "45–60", "suffix": "%", "label": "Custo que é matéria-prima" },
+        { "num": "300", "label": "Peças — MOQ padrão" }
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "A resposta curta, por escalão"
+    },
+    {
+      "type": "p",
+      "text": "Se só precisa de um número para validar uma cotação, eis os intervalos FOB indicativos que vemos com mais frequência. Pressupõem uma encomenda OEM personalizada igual ou acima da nossa MOQ padrão de 300 peças por design; trate-os como pontos de partida, não como uma tabela de preços — a sua especificação exata fá-los variar."
+    },
+    {
+      "type": "table",
+      "headers": ["Escalão", "Especificação típica", "FOB indicativo / unidade"],
+      "rows": [
+        ["Entrada / artesanal", "Pinho ou paulownia, tampa deslizante, sem acabamento ou tingido, marca a laser", "$1.50 – $4"],
+        ["Retalho intermédio", "Bambu ou paulownia, impresso ou magnético, inserto de espuma", "$4 – $9"],
+        ["Premium", "Acácia ou nogueira, forrado, com dobradiça ou magnético, película / gravação", "$9 – $18"],
+        ["Luxo", "Nogueira maciça, tabuleiro em veludo, fechadura e chave, construção complexa", "$18 – $25+"]
+      ]
+    },
+    {
+      "type": "h2",
+      "text": "Para onde vai realmente o dinheiro"
+    },
+    {
+      "type": "p",
+      "text": "Numa caixa de madeira OEM típica, a matéria-prima é a maior rubrica isolada — habitualmente 45–60% do custo unitário, muito mais do que numa caixa de papel. A mão de obra e a montagem, o acabamento, o branding, as ferragens e os insertos repartem a maior parte do restante, ficando a embalagem, o controlo de qualidade e os custos gerais da fábrica com a cauda. É essa composição que explica por que duas caixas do mesmo tamanho podem ser cotadas com uma diferença de 3×: mude a espécie e o fecho e terá acionado em simultâneo as duas maiores alavancas."
+    },
+    {
+      "type": "img",
+      "src": "/blog/cost-guide/cost-breakdown.svg",
+      "caption": "Repartição indicativa do custo unitário de uma caixa de madeira OEM. O material, mais os dois maiores fatores de “escolha” — espécie e construção — determinam a maior parte do preço."
+    },
+    {
+      "type": "h2",
+      "text": "Fator de custo n.º 1: a espécie de madeira"
+    },
+    {
+      "type": "p",
+      "text": "A espécie é o piso do preço. Antes de qualquer decoração, a madeira que escolher pode fazer variar o custo unitário em 3–4×. O [Pinho](/products/pine) é o cavalo de batalha — o mais barato, aceita tinta e pirogravura, a opção por defeito para séries artesanais e de ofertas de casamento. A [Paulownia](/products/paulownia) custa um pouco mais, mas é a madeira comercial mais leve do mundo, o que se compensa no frete. O [Bambu](/products/bamboo) situa-se no escalão intermédio com a história de sustentabilidade mais forte. A [Acácia](/products/acacia) e sobretudo a [nogueira](/products/walnut) são o topo de gama — densas, belas, e a razão pela qual uma caixa de relógio pode custar mais do que o estojo do próprio relógio. O nosso [guia de materiais](/material-guide) compara todas as espécies lado a lado."
+    },
+    {
+      "type": "img",
+      "src": "/blog/cost-guide/species-price-ladder.svg",
+      "caption": "Custo de material relativo por espécie (pinho = 1×). Indicativo — passar do pinho para a nogueira triplica grosso modo o custo da madeira antes de qualquer outra alteração."
+    },
+    {
+      "type": "p",
+      "text": "Mais uma alavanca de material: madeira maciça versus MDF folheado. Um painel folheado a nogueira sobre um núcleo estável de MDF custa menos do que nogueira maciça e mantém-se mais plano em tampas grandes — frequentemente a especificação mais inteligente para caixas grandes, impressas ou de paredes finas, reservando-se a madeira maciça para as peças premium de toque tátil."
+    },
+    {
+      "type": "h2",
+      "text": "Fator de custo n.º 2: construção e fecho"
+    },
+    {
+      "type": "p",
+      "text": "A forma como a caixa abre determina quanta montagem manual exige — e a mão de obra é a segunda maior rubrica de custo. Uma [caixa de tampa deslizante](/products/sliding-lid) é a mais barata de construir: sem dobradiças, sem fechos, apenas um tabuleiro com ranhura e uma tampa, o que é precisamente a razão pela qual domina os programas de oferta e brinde de grande volume. Uma [caixa com dobradiça](/products/hinged) acrescenta ferragens e tempo de ajuste. Uma [caixa com fecho magnético](/products/magnetic) acrescenta o encaixe de ímanes e uma construção folheada de parede fina. Uma [caixa com fechadura](/products/with-lock) acrescenta mais ferragens e mão de obra do que qualquer outra."
+    },
+    {
+      "type": "img",
+      "src": "/blog/cost-guide/closure-cost-ladder.svg",
+      "caption": "Custo de construção relativo por fecho (tampa deslizante = 1×). A tampa deslizante sem ferragens é a construção de menor custo de montagem do catálogo."
+    },
+    {
+      "type": "h2",
+      "text": "Fator de custo n.º 3: acabamento, branding e insertos"
+    },
+    {
+      "type": "p",
+      "text": "Depois da espécie e do fecho, três escolhas de acabamento afinam o preço:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Acabamento — em bruto é o mais barato; laca de grau alimentar, óleo, pintura e brilho tipo piano acrescentam, cada um, material e mão de obra.",
+        "Branding — a gravação a laser é a mais económica e não exige ferramental; o relevo em baixo e a serigrafia situam-se a meio; a película a quente e o UV a cores plenas são os mais caros.",
+        "Insertos e forro — um interior simples é gratuito; espuma cortada a cortante, tabuleiros revestidos a veludo, almofadas para relógios e puxadores de fita acrescentam, cada um, material e trabalho manual."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Nenhuma destas opções exige os cortantes ou chapas dispendiosos que uma caixa de papel exige — a vantagem discreta da madeira é que o seu custo de preparação é um programa CNC e uma amostra, não uma chapa de impressão de $1,000."
+    },
+    {
+      "type": "h2",
+      "text": "O efeito do volume: MOQ e escalões de preço"
+    },
+    {
+      "type": "p",
+      "text": "A quantidade é a alavanca que controla mais diretamente. Os custos fixos — a amostra, a preparação do CNC, a calibração da máquina, uma série de correspondência de cor — são distribuídos pela encomenda, pelo que o preço por unidade cai mais depressa entre um teste de 100 peças e cerca de 1,000 peças, e depois estabiliza. É por isso que encomendar 300 em vez de 100 corta frequentemente o preço unitário num terço, enquanto saltar de 3,000 para 10,000 poupa muito menos por peça."
+    },
+    {
+      "type": "img",
+      "src": "/blog/cost-guide/price-vs-volume.svg",
+      "caption": "Preço unitário ilustrativo de um SKU premium em diferentes dimensões de encomenda. As maiores poupanças surgem cedo — no trecho de 100→1,000."
+    },
+    {
+      "type": "table",
+      "headers": ["Quantidade da encomenda", "Preço unitário indicativo", "vs 100 pçs"],
+      "rows": [
+        ["100 (teste de primeira encomenda)", "$14.0", "—"],
+        ["300 (MOQ padrão)", "$9.5", "−32%"],
+        ["1,000", "$7.0", "−50%"],
+        ["3,000", "$5.8", "−59%"],
+        ["10,000", "$5.0", "−64%"]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "A conclusão prática: comece com uma [encomenda de teste de 100–300 peças](/blog/low-moq-sampling-strategy) para validar a caixa no mercado e, depois, escale para os escalões de preço assim que vender. Pagar o preço unitário mais alto da primeira encomenda é um seguro barato contra comprometer 5,000 peças num SKU por comprovar."
+    },
+    {
+      "type": "h2",
+      "text": "Amostragem e ferramental: porque a madeira é diferente"
+    },
+    {
+      "type": "p",
+      "text": "Na embalagem de papel, o ferramental — cortantes e chapas — é um custo inicial real, frequentemente $200 a $1,500+ antes da primeira caixa boa. A madeira dispensa a maior parte disso. O custo de preparação é uma amostra de pré-produção (dispensada para compradores estabelecidos, ou sensivelmente $80–$200 para uma peça única complexa) mais um tempo modesto de programação CNC, ambos pontuais. Nunca aprove uma série completa só com base num render CAD — a amostra é onde verifica a tolerância de deslize, o tom do tingimento e a profundidade da gravação nas suas próprias mãos."
+    },
+    {
+      "type": "h2",
+      "text": "Os custos ocultos que os importadores esquecem"
+    },
+    {
+      "type": "p",
+      "text": "O preço unitário FOB não é o seu custo aterrado. A madeira é mais pesada do que o papel, pelo que o frete marítimo pesa mais — o que é precisamente a razão pela qual uma espécie leve como a paulownia pode vencer no custo total mesmo com um preço FOB mais elevado. Além do frete, orçamente as rubricas de conformidade e alfândega que as cotações mais baratas deixam discretamente de fora."
+    },
+    {
+      "type": "img",
+      "src": "/blog/cost-guide/fob-to-landed.svg",
+      "caption": "Como um preço unitário FOB se torna um custo aterrado. O frete, o tratamento ISPM 15, os documentos de conformidade e os direitos aduaneiros acrescentam-se todos por cima da cotação."
+    },
+    {
+      "type": "p",
+      "text": "O tratamento térmico ISPM 15 é padrão nos nossos contentores para que as expedições não fiquem retidas no porto. A documentação de formaldeído CARB P2 (para qualquer componente de MDF ou folheado), a cadeia de custódia FSC e os ensaios EU REACH nos acabamentos são fornecidos por encomenda — a papelada de que os compradores dos EUA e da UE precisam para desalfandegar e para satisfazer as suas próprias equipas de conformidade. Peça-a logo à partida; é barata de fornecer e cara de faltar na fronteira."
+    },
+    {
+      "type": "h2",
+      "text": "Um exemplo prático: um SKU, rubrica a rubrica"
+    },
+    {
+      "type": "p",
+      "text": "Eis um SKU representativo de gama média-premium — uma caixa de oferta em acácia tingida, tampa magnética, inserto de espuma cortada a cortante, logótipo gravado a laser — numa encomenda de 1,000 peças, repartida nas rubricas que compõem o preço unitário FOB."
+    },
+    {
+      "type": "table",
+      "headers": ["Rubrica de custo", "Por unidade"],
+      "rows": [
+        ["Material de acácia (caixa + tampa)", "$3.10"],
+        ["Mão de obra e montagem", "$1.25"],
+        ["Fecho magnético e ferragens", "$0.55"],
+        ["Acabamento em laca de grau alimentar", "$0.70"],
+        ["Inserto de espuma cortada a cortante", "$0.60"],
+        ["Gravação a laser", "$0.25"],
+        ["Embalagem, QC e custos gerais", "$0.55"],
+        ["Preço unitário FOB (≈)", "$7.00"]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Troque a acácia por pinho e faça da marca a laser a única decoração, e a mesma construção desce abaixo de $4. Acrescente uma fechadura de latão e um tabuleiro de veludo e sobe além de $11. Esse intervalo — a partir de um único conjunto de escolhas — é a razão pela qual uma cotação começa sempre pela sua especificação, e não por um preço de catálogo."
+    },
+    {
+      "type": "h2",
+      "text": "Fabricante direto vs empresa comercial"
+    },
+    {
+      "type": "p",
+      "text": "De quem compra altera o preço tanto quanto o que compra. A mesma encomenda encaminhada através de uma empresa comercial ou de um revendedor de catálogo carrega uma margem por uma camada de serviço de que pode não precisar. Comprar diretamente à fábrica que detém a linha de produção mantém essa margem no seu bolso — e dá-lhe controlo sobre o QC e o prazo."
+    },
+    {
+      "type": "table",
+      "headers": ["Canal", "Mesma encomenda de 1,000 pçs", "O que recebe"],
+      "rows": [
+        ["Fábrica direta (este modelo)", "≈ $7,000", "Custo mais baixo, QC direto, repetível"],
+        ["Empresa comercial", "$8,400 – $9,000", "Comodidade, mas sem controlo sobre que oficina a constrói"],
+        ["Catálogo / revendedor", "$10,000+", "Compra mais rápida, margem mais elevada"]
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Para saber mais sobre como escolher a estrutura de fornecimento certa, consulte o nosso [playbook de sourcing B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026) e a diferença entre [OEM e ODM](/blog/oem-vs-odm-wooden-boxes)."
+    },
+    {
+      "type": "h2",
+      "text": "7 formas de reduzir custos sem desvalorizar a caixa"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Desça um escalão de espécie onde não se note — a paulownia tingida de escuro lê-se próxima da nogueira por uma fração do custo.",
+        "Escolha uma [tampa deslizante](/products/sliding-lid) em vez de dobradiça ou magnético quando o caso de uso o permita — é a mais barata de montar.",
+        "Simplifique o acabamento: uma demão de laca de grau alimentar em vez de brilho tipo piano.",
+        "Otimize as dimensões à caixa de expedição e ao contentor — ar desperdiçado é frete desperdiçado.",
+        "Use gravação a laser em vez de película a quente ou impressão a cores plenas para o branding.",
+        "Consolide três ou quatro SKU num único contentor para partilhar o frete e o desalfandegamento.",
+        "Escale para os escalões de preço — reencomende a 1,000+ assim que um teste de 300 peças comprove o SKU."
+      ]
+    },
+    {
+      "type": "p",
+      "text": "Cada uma destas troca uma rubrica de custo por uma pequena alteração de especificação — nenhuma faz a caixa parecer mais barata na mão do seu cliente."
+    },
+    {
+      "type": "h2",
+      "text": "Então, com que deve orçamentar?"
+    },
+    {
+      "type": "p",
+      "text": "Para uma caixa de madeira personalizada numa quantidade de primeira encomenda sensata, conte com cerca de $4–$9 por unidade para uma caixa sólida de grau de retalho e $9–$18 para uma peça premium forrada, e depois afine com uma cotação real face à sua espécie, fecho, acabamento e volume exatos. O mais útil que pode fazer antes de pedir um preço é escrever essas quatro escolhas — decidem quase tudo o que ficou acima."
+    },
+    {
+      "type": "quote",
+      "text": "Uma cotação de caixa de madeira nunca é um número único. É a sua espécie, o seu fecho, o seu acabamento e o seu volume — mude qualquer um e o preço varia. Diga ao fabricante os quatro e terá um valor honesto num dia."
+    },
+    {
+      "type": "p",
+      "text": "Envie a sua especificação — dimensões, madeira, fecho, acabamento, branding e quantidade-alvo — através do nosso [formulário de contacto](/contact#inquiry) e voltaremos com uma cotação detalhada e uma taxa de amostra no prazo de um dia útil, diretamente do nosso próprio chão de fábrica."
+    }
+  ]
+}

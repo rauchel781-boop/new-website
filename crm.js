@@ -145,13 +145,60 @@ async function preloadAllImages() {
   }
 }
 
+// 云端图片缓存：存储 img_xxx -> 云端URL 的映射
+const cloudImageCache = new Map();
+
 // 同步取 URL：如果是 imageId 引用，从 cache 返回 blobURL；否则原值返回
 function imgUrl(ref) {
   if (!ref) return '';
   if (typeof ref === 'string' && ref.startsWith('img_')) {
-    return imgCache.get(ref) || '';
+    // 1. 先尝试从本地IndexedDB缓存获取
+    const localUrl = imgCache.get(ref);
+    if (localUrl) return localUrl;
+
+    // 2. 如果本地没有，尝试从云端缓存获取
+    const cloudUrl = cloudImageCache.get(ref);
+    if (cloudUrl) return cloudUrl;
+
+    // 3. 如果都没有，尝试异步从云端恢复（不阻塞，下次刷新会显示）
+    recoverImageFromCloud(ref);
+
+    return ''; // 暂时返回空，等待恢复
   }
   return ref; // 旧 base64 兼容
+}
+
+// 从云端恢复图片到本地IndexedDB
+async function recoverImageFromCloud(imageId) {
+  if (!imageId || !imageId.startsWith('img_')) return;
+
+  try {
+    // 构造云端URL（根据你的部署调整）
+    const cloudUrl = `https://xmchic-crm.rauchel781.workers.dev/api/images/${imageId}`;
+
+    // 尝试从云端获取
+    const response = await fetch(cloudUrl);
+    if (!response.ok) throw new Error('图片不存在于云端');
+
+    const blob = await response.blob();
+
+    // 保存回IndexedDB
+    await imgDB.putBlob(imageId, blob);
+
+    // 更新缓存
+    const blobUrl = URL.createObjectURL(blob);
+    imgCache.set(imageId, blobUrl);
+
+    console.log('已从云端恢复图片:', imageId);
+
+    // 刷新当前页面以显示恢复的图片
+    if (typeof render === 'function') {
+      setTimeout(render, 100);
+    }
+
+  } catch (e) {
+    console.warn('无法从云端恢复图片', imageId, e);
+  }
 }
 
 // ===== 图片放大查看器（lightbox） =====
@@ -222,15 +269,57 @@ async function saveImage(dataUrl) {
   if (typeof dataUrl === 'string' && dataUrl.startsWith('img_')) return dataUrl; // 已是 ID
   const id = 'img_' + Date.now().toString(36) + Math.random().toString(36).substr(2, 6);
   try {
+    // 1. 保存到本地 IndexedDB
     await imgDB.put(id, dataUrl);
     const blob = await imgDB.get(id);
     if (blob) imgCache.set(id, URL.createObjectURL(blob));
+
+    // 2. 同时备份到云端（后台进行，不阻塞）
+    uploadImageToCloud(id, dataUrl).catch(e => {
+      console.warn('图片云端备份失败（已保存到本地）:', id, e);
+    });
+
     return id;
   } catch (e) {
     console.warn('saveImage failed', e);
     toast('图片保存失败：' + e.message, 'error');
     return '';
   }
+}
+
+// 上传图片到云端进行备份
+async function uploadImageToCloud(imageId, dataUrl) {
+  try {
+    // 如果有 Supabase 云端上传功能，使用它
+    if (typeof cloudUploadImage === 'function' && typeof cloudClient !== 'undefined' && cloudClient) {
+      const url = await cloudUploadImage(dataUrl, imageId);
+      if (url) {
+        cloudImageCache.set(imageId, url);
+        console.log('图片已备份到云端:', imageId, url);
+        return url;
+      }
+    }
+
+    // 否则，上传到 Cloudflare Workers KV 或 R2
+    const response = await fetch('/api/upload-image', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ id: imageId, data: dataUrl })
+    });
+
+    if (response.ok) {
+      const result = await response.json();
+      if (result.url) {
+        cloudImageCache.set(imageId, result.url);
+        console.log('图片已备份到云端:', imageId, result.url);
+        return result.url;
+      }
+    }
+  } catch (e) {
+    // 云端备份失败不影响本地使用
+    console.warn('云端备份失败:', imageId, e);
+  }
+  return null;
 }
 
 // 删除图片
@@ -441,9 +530,12 @@ const OPP_STAGES = [
 
 /* 样品状态 */
 const SAMPLE_STATUSES = [
-  { name: '草稿',     tag: 'tag-gray' },
-  { name: '样品进行中', tag: 'tag-orange' },
-  { name: '样品已寄出', tag: 'tag-green' },
+  { name: '筹备中', tag: 'tag-gray' },
+  { name: '已寄出', tag: 'tag-blue' },
+  { name: '待反馈', tag: 'tag-orange' },
+  { name: '已反馈', tag: 'tag-purple' },
+  { name: '已成交', tag: 'tag-green' },
+  { name: '已搁置', tag: 'tag-red' },
 ];
 
 /* 订单付款状态 */
@@ -693,20 +785,6 @@ function nextCode(prefix) {
       }
     });
     return prefix + yy + String(maxN + 1).padStart(3, '0');
-  }
-  // SP 样品单号：SP + YY + MM + 月内2位序号（按月从 01 重置）
-  // 例：2026 年 5 月第 1 单 → SP260501
-  if (prefix === 'SP') {
-    const now = new Date();
-    const mm = String(now.getMonth() + 1).padStart(2, '0');
-    const ymm = yy + mm;  // 如 2605
-    const re = new RegExp('^SP' + ymm + '(\\d{2,})$');
-    let maxN = 0;
-    (DB.samples || []).forEach(s => {
-      const m = (s.code || '').match(re);
-      if (m) { const n = parseInt(m[1], 10); if (!isNaN(n) && n > maxN) maxN = n; }
-    });
-    return 'SP' + ymm + String(maxN + 1).padStart(2, '0');
   }
   // 其他编号保持原格式（含年月 + 4位序号）
   const ym = todayStr().substr(0, 7).replace('-', '');
@@ -1075,53 +1153,6 @@ function gradeHtml(c) {
   return '<span style="display:inline-block;min-width:32px;padding:2px 8px;border:1.5px solid ' + color + ';color:' + color + ';border-radius:3px;font-weight:600;font-size:12px;text-align:center;font-family:ui-monospace,Consolas,monospace;">' + g + '</span>';
 }
 
-/* ===== 客户列表内联直改：状态 / 等级 / 来源 ===== */
-const _INLINE_TAG_COLORS = {
-  'tag-orange': ['#fff7ed', '#c2410c'], 'tag-red': ['#fef2f2', '#b91c1c'],
-  'tag-blue': ['#eff6ff', '#1d4ed8'], 'tag-green': ['#ecfdf5', '#047857'],
-  'tag-gray': ['#f3f4f6', '#6b7280'], 'tag-purple': ['#f5f3ff', '#6d28d9'],
-};
-const _INLINE_SEL_BASE = 'padding:2px 6px;border-radius:5px;border:1px solid #e5e7eb;font-size:12px;cursor:pointer;max-width:118px;outline:none;';
-
-function inlineStatusSelect(c) {
-  const tag = c.status ? getStatus(CUSTOMER_STATUSES, c.status).tag : 'tag-gray';
-  const col = _INLINE_TAG_COLORS[tag] || ['#fff', '#374151'];
-  const opts = '<option value="">- 无 -</option>' +
-    CUSTOMER_STATUSES.map(s => `<option ${c.status === s.name ? 'selected' : ''}>${escapeHtml(s.name)}</option>`).join('');
-  return `<select title="点击改状态" onchange="updateCustomerField('${c.id}','status',this.value)" style="${_INLINE_SEL_BASE}background:${col[0]};color:${col[1]};border-color:${col[0]};font-weight:600;">${opts}</select>`;
-}
-function inlineGradeSelect(c) {
-  const colorMap = { 'AAA': '#dc2626', 'A': '#ea580c', 'B': '#2563eb', 'C': '#6b7280' };
-  const col = colorMap[c.grade] || '#9ca3af';
-  const opts = '<option value="">-</option>' +
-    CUSTOMER_GRADES.map(g => `<option ${c.grade === g ? 'selected' : ''}>${g}</option>`).join('');
-  return `<select title="点击改等级" onchange="updateCustomerField('${c.id}','grade',this.value)" style="${_INLINE_SEL_BASE}color:${col};border-color:${col};font-weight:700;font-family:ui-monospace,Consolas,monospace;">${opts}</select>`;
-}
-function inlineSourceSelect(c) {
-  const opts = '<option value="">-</option>' +
-    CUSTOMER_SOURCES.map(s => `<option ${c.source === s ? 'selected' : ''}>${escapeHtml(s)}</option>`).join('');
-  return `<select title="点击改来源" onchange="updateCustomerField('${c.id}','source',this.value)" style="${_INLINE_SEL_BASE}color:#374151;">${opts}</select>`;
-}
-
-// 通用：列表内直接修改客户字段（保留滚动位置）
-function updateCustomerField(customerId, field, value) {
-  const c = (DB.customers || []).find(x => x.id === customerId);
-  if (!c) return;
-  c[field] = value;
-  saveDB();
-  const sc = document.getElementById('content');
-  const top = sc ? sc.scrollTop : 0;
-  // 按当前所在页面刷新（客户列表 / 日程）
-  if (typeof currentPage !== 'undefined' && currentPage === 'tasks' && typeof renderTasks === 'function') renderTasks();
-  else if (typeof renderCustomers === 'function') renderCustomers();
-  const sc2 = document.getElementById('content');
-  if (sc2) sc2.scrollTop = top;
-  if (typeof cloudUpsertCustomer === 'function' && typeof cloudClient !== 'undefined' && cloudClient) {
-    bgCloud(() => cloudUpsertCustomer(c), '客户云端保存失败');
-  }
-  toast('已保存', 'success');
-}
-
 function starsHtml(n) {
   n = Number(n) || 0;
   let html = '<span class="stars">';
@@ -1240,9 +1271,7 @@ function openModal(title, bodyHtml, footerHtml, size) {
   else if (size === 'full') cls += ' modal-full';
   m.className = cls;
   document.getElementById('modalMask').classList.add('show');
-  // 打开新弹窗时清掉旧的最小化恢复条（内容已被替换）
-  if (typeof hideModalRestorePill === 'function') hideModalRestorePill();
-  // 确保 maximize / minimize 按钮存在
+  // 确保 maximize 按钮存在
   ensureMaximizeBtn();
 }
 
@@ -1260,57 +1289,8 @@ function ensureMaximizeBtn() {
     this.textContent = m.classList.contains('is-maximized') ? '⛝' : '⛶';
   };
   closeBtn.parentElement.insertBefore(maxBtn, closeBtn);
-  // 最小化按钮（收起到右下角，不关闭、不丢内容）
-  if (!closeBtn.parentElement.querySelector('.modal-minimize-btn')) {
-    const minBtn = document.createElement('button');
-    minBtn.className = 'modal-maximize-btn modal-minimize-btn';
-    minBtn.title = '最小化（收起到右下角，不关闭）';
-    minBtn.textContent = '—';
-    minBtn.onclick = function() { minimizeModal(); };
-    closeBtn.parentElement.insertBefore(minBtn, maxBtn);
-  }
 }
-
-// 最小化：隐藏弹窗但保留内容，右下角显示恢复条
-function minimizeModal() {
-  const mask = document.getElementById('modalMask');
-  if (!mask) return;
-  const title = (document.getElementById('modalTitle') || {}).textContent || '弹窗';
-  mask.classList.remove('show');
-  showModalRestorePill(title);
-}
-function showModalRestorePill(title) {
-  let pill = document.getElementById('modalRestorePill');
-  if (!pill) {
-    pill = document.createElement('div');
-    pill.id = 'modalRestorePill';
-    pill.style.cssText = 'position:fixed;right:18px;bottom:18px;z-index:300;display:flex;align-items:center;gap:8px;background:linear-gradient(135deg,#4338ca,#6366f1);color:#fff;padding:9px 12px;border-radius:9px;box-shadow:0 8px 24px rgba(0,0,0,.28);cursor:pointer;font-size:13px;max-width:300px;';
-    document.body.appendChild(pill);
-  }
-  pill.innerHTML = '<span style="font-size:13px;">🗗</span>' +
-    '<span id="modalRestorePillTitle" style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-weight:600;max-width:200px;"></span>' +
-    '<span title="还原" style="margin-left:2px;opacity:.85;">↗ 还原</span>' +
-    '<span id="modalRestorePillClose" title="关闭" style="margin-left:6px;padding:0 6px;border-radius:5px;background:rgba(255,255,255,.18);">×</span>';
-  pill.querySelector('#modalRestorePillTitle').textContent = title;
-  pill.style.display = 'flex';
-  pill.onclick = function(e) {
-    if (e.target && e.target.id === 'modalRestorePillClose') { hideModalRestorePill(); closeModal(); return; }
-    restoreModal();
-  };
-}
-function hideModalRestorePill() {
-  const pill = document.getElementById('modalRestorePill');
-  if (pill) pill.style.display = 'none';
-}
-function restoreModal() {
-  hideModalRestorePill();
-  const mask = document.getElementById('modalMask');
-  if (mask) mask.classList.add('show');
-}
-function closeModal() {
-  document.getElementById('modalMask').classList.remove('show');
-  hideModalRestorePill();
-}
+function closeModal() { document.getElementById('modalMask').classList.remove('show'); }
 // 键盘快捷键：弹窗打开时 Esc 关闭、Ctrl/⌘+Enter 触发主按钮（保存）
 document.addEventListener('keydown', function(e) {
   const mask = document.getElementById('modalMask');
@@ -1689,7 +1669,7 @@ function renderCustomers() {
     (c.contact || '').toLowerCase().includes(kw) ||
     (c.country || '').toLowerCase().includes(kw) ||
     (c.email || '').toLowerCase().includes(kw)
-  ) && (!customerStatusFilter || (customerStatusFilter === '__none__' ? !c.status : c.status === customerStatusFilter))
+  ) && (!customerStatusFilter || c.status === customerStatusFilter)
     && (!customerCountryFilter || c.country === customerCountryFilter)
     && (!customerGradeFilter || c.grade === customerGradeFilter)
     && (!customerSourceFilter || c.source === customerSourceFilter)
@@ -1789,9 +1769,9 @@ function renderCustomers() {
             return `<tr>
               <td class="code no-wrap">${escapeHtml(c.code || '')}</td>
               <td class="click bold" onclick="viewCustomerDetail('${c.id}')">${escapeHtml(c.company)}</td>
-              <td>${inlineStatusSelect(c)}</td>
-              <td>${inlineGradeSelect(c)}</td>
-              <td>${inlineSourceSelect(c)}</td>
+              <td>${c.status ? `<span class="tag ${getStatus(CUSTOMER_STATUSES, c.status).tag}">${escapeHtml(c.status)}</span>` : '<span class="muted">-</span>'}</td>
+              <td>${gradeHtml(c)}</td>
+              <td class="muted">${escapeHtml(c.source || '-')}</td>
               <td class="no-wrap">${flagFor(c.country) ? '<span class="flag">' + flagFor(c.country) + '</span>' : ''}${escapeHtml(c.country || '')}</td>
               <td>${escapeHtml(c.contact || '')}</td>
               <td class="click" title="点击编辑询盘产品" onclick="editInquiryProduct('${c.id}')" style="cursor:pointer;max-width:180px;">${(function(){ const ip = getInquiryProduct(c); return ip ? '<span style="color:#1f2937;font-size:13px;">' + escapeHtml(truncate(ip, 30)) + '</span>' + (!c.inquiryProduct ? ' <span style="color:#9ca3af;font-size:10px;">(自动)</span>' : '') : '<span class="muted" style="font-size:12px;">+ 填询盘产品</span>'; })()}</td>
@@ -1811,6 +1791,15 @@ function renderCustomers() {
     </div>
   `;
 
+  // 处理 __none__ 这个特殊筛选
+  if (customerStatusFilter === '__none__') {
+    // 隐藏不符合的行
+    const wrap = document.querySelector('.cust-table-wrap');
+    if (wrap) wrap.querySelectorAll('tbody tr').forEach(tr => {
+      const tag = tr.querySelector('td:nth-child(3) .tag');
+      if (tag) tr.style.display = 'none';
+    });
+  }
 }
 
 // 询盘产品：手动 > 自动取第一张报价单的第一个产品
@@ -3161,7 +3150,7 @@ function renderProducts() {
           <div class="tree-item ${productCatFilter==='__none'?'active':''}" onclick="productCatFilter='__none';renderProducts()">
             📂 未分类 <span class="count">${noneCount}</span>
           </div>` : ''}
-        <div style="padding:8px 14px;color:#9ca3af;font-size:11px;line-height:1.6;">点击切换 / 双击删除 / ➕ 加子分类 / ⇄ 移动到其他分类下</div>
+        <div style="padding:8px 14px;color:#9ca3af;font-size:11px;line-height:1.6;">点击切换 / 双击删除 / 鼠标移到大分类右侧点 ➕ 加子分类</div>
       </div>
       <div class="split-main">
         <div class="table-toolbar">
@@ -3255,7 +3244,6 @@ function renderCategoryTreeHtml() {
     const escLeaf = escapeHtml(leaf);
     return '<div class="tree-item ' + (productCatFilter === c ? 'active' : '') + '" style="padding-left:' + (12 + indent) + 'px;display:flex;align-items:center;justify-content:space-between;gap:4px;" onclick="productCatFilter=\'' + escC.replace(/'/g, "\\'") + '\';renderProducts()" ondblclick="event.stopPropagation();deleteCategory(\'' + escC.replace(/'/g, "\\'") + '\')">' +
       '<span style="overflow:hidden;text-overflow:ellipsis;white-space:nowrap;flex:1;">' + icon + ' ' + escLeaf + ' <span class="count">' + count + '</span></span>' +
-      '<button class="cat-add-sub" title="移动到其他分类下（连子分类和产品一起）" onclick="event.stopPropagation();moveCategory(\'' + escC.replace(/'/g, "\\'") + '\')" style="background:transparent;border:none;color:#9ca3af;font-size:12px;padding:0 4px;cursor:pointer;">⇄</button>' +
       '<button class="cat-add-sub" title="加子分类" onclick="event.stopPropagation();addSubCategory(\'' + escC.replace(/'/g, "\\'") + '\')" style="background:transparent;border:none;color:#9ca3af;font-size:13px;padding:0 6px;cursor:pointer;">➕</button>' +
     '</div>';
   }).join('');
@@ -3282,62 +3270,6 @@ function addSubCategory(parentPath) {
   if (DB.productCategories.includes(full) || (DB.products || []).some(p => p.category === full)) { toast('该子分类已存在', 'error'); return; }
   DB.productCategories.push(full);
   saveDB(); renderProducts(); toast('已添加子分类 ' + full);
-}
-
-// ===== 移动分类：把某分类（连同子分类和产品）挂到另一个分类下 / 移回顶层 =====
-function moveCategory(name) {
-  // 候选目标：所有分类（含自动补全的父级），排除自己和自己的子孙
-  const all = allCategoryPaths();
-  const withParents = new Set(all);
-  all.forEach(c => { let p = catParent(c); while (p) { withParents.add(p); p = catParent(p); } });
-  const targets = [...withParents].sort().filter(c => c !== name && !c.startsWith(name + '/'));
-  const leaf = catLeaf(name);
-  const opts = '<option value="">（顶层 · 变成大分类）</option>' + targets.map(t =>
-    '<option value="' + escapeHtml(t) + '">' + '　'.repeat(catDepth(t)) + escapeHtml(catLeaf(t)) + (catDepth(t) === 0 ? '（大分类）' : '') + '</option>'
-  ).join('');
-  openModal('移动分类「' + escapeHtml(leaf) + '」', `
-    <div class="field">
-      <label>移动到哪个分类下？（它的子分类和产品会一起跟过去）</label>
-      <select id="moveCatTarget" style="width:100%;padding:8px;border:1px solid #d1d5db;border-radius:5px;margin-top:6px;">${opts}</select>
-    </div>
-  `, `
-    <button class="btn" onclick="closeModal()">取消</button>
-    <button class="btn btn-primary" onclick="doMoveCategory('${escapeHtml(name).replace(/'/g, "\\'")}')">移动</button>
-  `);
-}
-
-function doMoveCategory(name) {
-  const sel = document.getElementById('moveCatTarget');
-  const target = sel ? sel.value : '';
-  const leaf = catLeaf(name);
-  const newPath = target ? target + '/' + leaf : leaf;
-  if (newPath === name) { closeModal(); return; }
-  if (target === name || target.startsWith(name + '/')) { toast('不能移到自己或自己的子分类下', 'error'); return; }
-  const exists = (DB.productCategories || []).includes(newPath) || (DB.products || []).some(p => p.category === newPath);
-  if (exists) { toast('目标位置已有同名分类「' + leaf + '」', 'error'); return; }
-  // 重写分类路径（自己 + 所有子孙）
-  DB.productCategories = (DB.productCategories || []).map(c => {
-    if (c === name) return newPath;
-    if (c.startsWith(name + '/')) return newPath + c.slice(name.length);
-    return c;
-  });
-  // 确保新路径在列表里（原来可能只是产品自带的分类）
-  if (!DB.productCategories.includes(newPath)) DB.productCategories.push(newPath);
-  // 重写受影响产品的分类
-  const changed = [];
-  (DB.products || []).forEach(p => {
-    if (p.category === name) { p.category = newPath; changed.push(p); }
-    else if ((p.category || '').startsWith(name + '/')) { p.category = newPath + p.category.slice(name.length); changed.push(p); }
-  });
-  // 当前筛选跟着搬
-  if (productCatFilter === name) productCatFilter = newPath;
-  else if ((productCatFilter || '').startsWith(name + '/')) productCatFilter = newPath + productCatFilter.slice(name.length);
-  saveDB(); closeModal(); renderProducts();
-  toast('已移动到 ' + (target || '顶层') + (changed.length ? '，' + changed.length + ' 个产品已更新' : ''), 'success');
-  // 受影响产品后台同步云端
-  if (changed.length && typeof cloudUpsertProduct === 'function' && typeof cloudClient !== 'undefined' && cloudClient) {
-    bgCloud(async () => { for (const p of changed) { await cloudUpsertProduct(p); } }, '产品分类云端同步失败');
-  }
 }
 
 function deleteCategory(name) {
@@ -3952,7 +3884,7 @@ function renderQuotations() {
     return (!kw || (q.code||'').toLowerCase().includes(kw) || (c && c.company.toLowerCase().includes(kw)))
         && (!qtStatusFilter || q.status === qtStatusFilter)
         && (!qtCustomerFilter || q.customerId === qtCustomerFilter);
-  }).sort((a,b) => (b.createdAt||b.date||'').localeCompare(a.createdAt||a.date||''));
+  }).sort((a,b) => (b.date||'').localeCompare(a.date||''));
 
   document.getElementById('content').innerHTML = `
     <div class="table-wrap">
@@ -5148,9 +5080,7 @@ function renderSampleExpandedItems(s) {
         '<td class="text-right"><strong>' + (fp ? '¥' + sub : '-') + '</strong></td>' +
       '</tr>';
     }).join('') +
-    '</tbody>' +
-    (Number(s.freight) > 0 ? '<tfoot><tr><td colspan="10" class="text-right muted" style="font-size:11px;padding:6px 10px;">运费：' + cur + ' ' + Number(s.freight).toFixed(2) + ' 　·　 客户报价合计（含运费）：<strong>' + cur + ' ' + (items.reduce((a, it) => a + (Number(it.clientPrice) || 0) * (Number(it.qty) || 1), 0) + Number(s.freight)).toFixed(2) + '</strong></td></tr></tfoot>' : '') +
-    '</table>';
+    '</tbody></table>';
 }
 
 
@@ -5207,16 +5137,6 @@ function migrateSamples() {
       else if (!s.code) s.code = nextCode('SP');
       changed++;
     }
-    // 旧状态迁移到新三态：筹备中→样品进行中，已寄出→样品已寄出，其余旧态→样品进行中
-    if (s.status && !['草稿', '样品进行中', '样品已寄出'].includes(s.status)) {
-      s.status = (s.status === '已寄出') ? '样品已寄出' : '样品进行中';
-      changed++;
-    }
-    // 历史数据：把已有 orderDate 视为「下单时间」；草稿/INVOICE 日期回填为 createdAt
-    if (!s.draftDate) {
-      s.draftDate = s.createdAt ? String(s.createdAt).slice(0, 10) : (s.orderDate || todayStr());
-      changed++;
-    }
   });
   if (changed > 0) { saveDB(); console.log('Migrated', changed, 'sample records'); }
 }
@@ -5256,7 +5176,7 @@ function renderSamples() {
           <th style="width:50px;">图片</th><th>单号</th><th>客户</th>
           <th>产品</th><th class="text-right">产品数</th>
           <th class="text-right">工厂费(RMB)</th><th class="text-right">客户报价</th>
-          <th>下单时间</th><th>完成时间</th><th>状态</th>
+          <th>下单时间</th><th>状态</th>
           <th class="text-right">操作</th>
         </tr></thead>
         <tbody>
@@ -5264,7 +5184,7 @@ function renderSamples() {
           const items = s.items || [];
           const firstP = items.length > 0 && items[0].productId ? productById(items[0].productId) : null;
           const totalFactory = items.reduce((sum, it) => sum + (Number(it.factoryPrice) || 0) * (Number(it.qty) || 1), 0);
-          const totalClient = items.reduce((sum, it) => sum + (Number(it.clientPrice) || 0) * (Number(it.qty) || 1), 0) + (Number(s.freight) || 0);
+          const totalClient = items.reduce((sum, it) => sum + (Number(it.clientPrice) || 0) * (Number(it.qty) || 1), 0);
           const productNames = items.map(it => it.productName || (productById(it.productId)||{}).nameEn || '-').join('; ');
           const expanded = _expandedSamples.has(s.id);
           let html = `<tr>
@@ -5278,8 +5198,7 @@ function renderSamples() {
             <td class="text-right">${items.length}</td>
             <td class="text-right">${totalFactory ? '¥' + totalFactory.toFixed(2) : '-'}</td>
             <td class="text-right">${totalClient ? (s.currency || 'USD') + ' ' + totalClient.toFixed(2) : '-'}</td>
-            <td class="no-wrap">${s.orderDate ? fmtDate(s.orderDate) : '<span class="muted">—</span>'}</td>
-            <td class="no-wrap">${s.finishDate ? fmtDate(s.finishDate) : '<span class="muted">—</span>'}</td>
+            <td class="no-wrap">${fmtDate(s.orderDate)}</td>
             <td><span class="tag ${getStatus(SAMPLE_STATUSES, s.status).tag}">${escapeHtml(s.status || '-')}</span></td>
             <td class="text-right no-wrap">
               <button class="btn-link" onclick="editSample('${s.id}')">编辑</button>
@@ -5291,7 +5210,7 @@ function renderSamples() {
             </td>
           </tr>`;
           if (expanded) {
-            html += '<tr><td colspan="12" style="padding:0;background:#fafbfc;"><div style="padding:8px 12px;">' + renderSampleExpandedItems(s) + '</div></td></tr>';
+            html += '<tr><td colspan="11" style="padding:0;background:#fafbfc;"><div style="padding:8px 12px;">' + renderSampleExpandedItems(s) + '</div></td></tr>';
           }
           return html;
         }).join('')}
@@ -5313,14 +5232,11 @@ function editSample(id, customerId) {
       id: uid(),
       code: nextCode('SP'),
       customerId: customerId || '',
-      draftDate: todayStr(),   // 草稿/INVOICE 日期（给客人发 INVOICE 的时间）
-      orderDate: '',           // 下单时间：转「样品进行中」时自动填
-      finishDate: '',          // 样品完成时间：转「样品已寄出」时自动填，可手改
+      orderDate: todayStr(),
       productionTime: '',
       sentDate: '',
-      status: '草稿',
+      status: '筹备中',
       currency: 'USD',
-      freight: '',             // 运费（客户币种，计入客户报价合计）
       trackingNo: '',
       feedback: '',
       notes: '',
@@ -5344,22 +5260,13 @@ function renderSampleForm() {
       <div class="field"><label>客户 <span class="req">*</span></label>
         ${customerSearchInput(s.customerId, '_editingSample.customerId=this.value')}</div>
       <div class="field"><label>币种</label>
-        <select onchange="_editingSample.currency=this.value;refreshSampleTotal()">${CURRENCIES.map(c => `<option ${s.currency===c?'selected':''}>${c}</option>`).join('')}</select></div>
-      <div class="field"><label>草稿/INVOICE 日期</label>
-        <input type="date" value="${fmtDate(s.draftDate)}" onchange="_editingSample.draftDate=this.value">
-        <div style="font-size:10px;color:#9ca3af;margin-top:2px;">给客人发 INVOICE 的时间，非下单时间</div></div>
+        <select onchange="_editingSample.currency=this.value">${CURRENCIES.map(c => `<option ${s.currency===c?'selected':''}>${c}</option>`).join('')}</select></div>
       <div class="field"><label>下单时间</label>
-        <input type="date" value="${fmtDate(s.orderDate)}" onchange="_editingSample.orderDate=this.value">
-        <div style="font-size:10px;color:#9ca3af;margin-top:2px;">转「样品进行中」时自动填，可手改</div></div>
+        <input type="date" value="${fmtDate(s.orderDate)}" onchange="_editingSample.orderDate=this.value"></div>
       <div class="field"><label>交货时间</label>
         <input value="${escapeHtml(s.productionTime||'')}" oninput="_editingSample.productionTime=this.value" placeholder="如 10-14 天 或具体日期"></div>
       <div class="field"><label>状态</label>
         <select onchange="_editingSample.status=this.value">${SAMPLE_STATUSES.map(st => `<option ${s.status===st.name?'selected':''}>${st.name}</option>`).join('')}</select></div>
-      <div class="field"><label>运费（${escapeHtml(s.currency||'USD')}，计入客户总价）</label>
-        <input type="number" min="0" step="0.01" value="${escapeHtml(s.freight||'')}" oninput="_editingSample.freight=this.value;refreshSampleTotal()" placeholder="0.00"></div>
-      <div class="field"><label>样品完成时间</label>
-        <input type="date" value="${fmtDate(s.finishDate)}" onchange="_editingSample.finishDate=this.value">
-        <div style="font-size:10px;color:#9ca3af;margin-top:2px;">转「样品已寄出」时自动填，可手改</div></div>
       <div class="field"><label>寄出日期</label>
         <input type="date" value="${fmtDate(s.sentDate)}" onchange="_editingSample.sentDate=this.value"></div>
       <div class="field"><label>快递公司/单号</label>
@@ -5444,19 +5351,14 @@ function sampleItemProductCardHtml(item) {
 function sampleTotalHtml() {
   const items = (_editingSample && _editingSample.items) || [];
   const totalFactory = items.reduce((sum, it) => sum + (Number(it.factoryPrice) || 0) * (Number(it.qty) || 1), 0);
-  const productClient = items.reduce((sum, it) => sum + (Number(it.clientPrice) || 0) * (Number(it.qty) || 1), 0);
-  const freight = Number(_editingSample && _editingSample.freight) || 0;
-  const totalClient = productClient + freight;
+  const totalClient = items.reduce((sum, it) => sum + (Number(it.clientPrice) || 0) * (Number(it.qty) || 1), 0);
   const cur = (_editingSample && _editingSample.currency) || 'USD';
   return `
     <div style="border:2px solid #4a90e2;border-radius:6px;padding:12px 14px;background:#eff6ff;">
       <div style="font-weight:600;margin-bottom:8px;color:#1e40af;font-size:13px;">合计</div>
       <div style="display:grid;grid-template-columns:repeat(2,1fr);gap:12px;font-size:13px;">
         <div>工厂样品费合计：<strong style="color:#1e40af;">¥${totalFactory.toFixed(2)}</strong></div>
-        <div>
-          产品报价：${cur} ${productClient.toFixed(2)}　+　运费：${cur} ${freight.toFixed(2)}<br>
-          客户样品报价合计：<strong style="color:#1e40af;">${cur} ${totalClient.toFixed(2)}</strong>
-        </div>
+        <div>客户样品报价合计：<strong style="color:#1e40af;">${cur} ${totalClient.toFixed(2)}</strong></div>
       </div>
     </div>
   `;
@@ -5499,18 +5401,6 @@ async function saveSampleForm(id) {
   for (const it of s.items) {
     if (!it.productId && !it.productName) { toast('每个产品行必须选产品或填产品名', 'error'); return; }
   }
-  // 下单时间自动逻辑：草稿不算下单时间；转「样品进行中」自动记今天为下单时间
-  const _today = todayStr();
-  if (!s.draftDate) s.draftDate = _today;
-  if (s.status === '草稿') {
-    s.orderDate = '';
-  } else if (s.status === '样品进行中') {
-    if (!s.orderDate) s.orderDate = _today;
-  } else if (s.status === '样品已寄出') {
-    if (!s.orderDate) s.orderDate = _today;
-    if (!s.sentDate) s.sentDate = _today;
-    if (!s.finishDate) s.finishDate = _today;   // 样品完成时间
-  }
   if (!DB.samples) DB.samples = [];
   if (!isUuid(s.id)) s.id = cloudUid();
   const isNew = !id;
@@ -5531,10 +5421,7 @@ async function saveSampleForm(id) {
   if (typeof cloudUpsertSample === 'function' && cloudClient) {
     bgCloud(async () => { const saved = await cloudUpsertSample(s); Object.assign(s, saved); }, '样品云端保存失败');
   }
-  // 自动日程：只在样品真正开始（非草稿）时创建一次；草稿阶段只是发 INVOICE，不算开始打样
-  if (s.status !== '草稿' && !s._sampleTaskCreated) {
-    s._sampleTaskCreated = true;
-    try { saveDB(); } catch (e) {}
+  if (isNew) {
     const cnt = (s.items || []).length;
     bgCloud(() => autoCreateTask('sample', s.customerId, '打样 ' + s.code + ' · ' + cnt + ' 个产品'), '自动日程创建失败');
   }
@@ -5547,12 +5434,10 @@ function cloneSample(id) {
   clone.id = uid();
   clone.code = nextCode('SP');
   clone.createdAt = new Date().toISOString();
-  clone.draftDate = todayStr();
-  clone.orderDate = '';
-  clone.finishDate = '';
+  clone.orderDate = todayStr();
   clone.sentDate = '';
   clone.trackingNo = '';
-  clone.status = '草稿';
+  clone.status = '筹备中';
   clone.feedback = '';
   (clone.items || []).forEach(it => { it.id = uid(); });
   _editingSample = clone;
@@ -5909,7 +5794,7 @@ async function exportSampleListEn(sampleId) {
   ws.getRow(7).height = 36;
 
   const info = [
-    ['To:', c.company, 'Date:', s.draftDate || s.orderDate || todayStr()],
+    ['To:', c.company, 'Date:', s.orderDate || todayStr()],
     ['Invoice No.:', s.code || '-', 'Sample Production Time:', s.productionTime || 'TBD'],
   ];
   const infoStart = 9;
@@ -5979,28 +5864,7 @@ async function exportSampleListEn(sampleId) {
     }
   }
 
-  // 运费行（>0 才显示），并计入总价
-  const freight = Number(s.freight) || 0;
-  let nextRow = tableStart + items.length + 1;
-  if (freight > 0) {
-    ws.getRow(nextRow).height = 24;
-    ws.mergeCells(nextRow, 1, nextRow, 6);
-    const fc = ws.getCell(nextRow, 1);
-    fc.value = 'Freight / Shipping (USD)';
-    fc.font = { name: 'Cambria', bold: true, size: 11, color: { argb: 'FF4B5563' } };
-    fc.alignment = { horizontal: 'right', vertical: 'middle', indent: 1 };
-    fc.border = thinBorderS();
-    const fv = ws.getCell(nextRow, 7);
-    fv.value = freight;
-    fv.font = { name: 'Calibri', size: 11, color: { argb: 'FF1F2937' } };
-    fv.alignment = { horizontal: 'right', vertical: 'middle', indent: 1 };
-    fv.border = thinBorderS();
-    fv.numFmt = '$#,##0.00';
-    nextRow += 1;
-  }
-  totalClient += freight;
-
-  const totalRow = nextRow;
+  const totalRow = tableStart + items.length + 1;
   ws.getRow(totalRow).height = 30;
   ws.mergeCells(totalRow, 1, totalRow, 6);
   const tc = ws.getCell(totalRow, 1);
@@ -7106,11 +6970,14 @@ let _purchasePickerItemId = null;
 let _expandedPurchases = new Set();
 
 function calcPurchaseTotal(p) {
-  return (p.items || []).reduce((s, it) => {
+  const itemsTotal = (p.items || []).reduce((s, it) => {
     const qty = Number(it.qty) || 0;
     const price = Number(it.unitPriceWithTax || it.unitPriceNoTax) || 0;
     return s + qty * price;
   }, 0);
+  const shippingCost = Number(p.shippingCost) || 0;
+  const sampleFeeDeduction = Number(p.sampleFeeDeduction) || 0;
+  return itemsTotal + shippingCost - sampleFeeDeduction;
 }
 
 function togglePurchaseExpand(id) {
@@ -7221,6 +7088,7 @@ function renderPurchases() {
             <td class="no-wrap muted">${fmtDate(p.expectedDate) || '-'}</td>
             <td><span class="tag ${getStatus(PURCHASE_STATUSES, p.status).tag}">${escapeHtml(p.status || '-')}</span></td>
             <td class="text-right no-wrap">
+              <button class="btn-link" onclick="downloadPurchaseContract('${p.id}')">📄 合同</button>
               <button class="btn-link" onclick="editPurchase('${p.id}')">编辑</button>
               <button class="btn-link danger" onclick="deletePurchase('${p.id}')">删除</button>
             </td>
@@ -7280,7 +7148,9 @@ function renderPurchaseForm() {
         <input type="date" value="${fmtDate(p.expectedDate)}" onchange="_editingPurchase.expectedDate=this.value"></div>
       <div class="field"><label>实际到货日期</label>
         <input type="date" value="${fmtDate(p.actualDate)}" onchange="_editingPurchase.actualDate=this.value"></div>
-      <div class="field full"><label>付款条款</label>
+      <div class="field"><label>生产周期</label>
+        <input value="${escapeHtml(p.productionDays || '')}" oninput="_editingPurchase.productionDays=this.value" placeholder="如 30 天"></div>
+      <div class="field full" style="grid-column: span 2;"><label>付款条款</label>
         <input value="${escapeHtml(p.paymentTerms || '')}" oninput="_editingPurchase.paymentTerms=this.value" placeholder="如 30% 定金 70% 见提单复印件"></div>
       <div class="field full"><label>备注</label>
         <textarea oninput="_editingPurchase.notes=this.value">${escapeHtml(p.notes || '')}</textarea></div>
@@ -7326,7 +7196,7 @@ function purchaseItemHtml(item) {
           <button type="button" class="btn btn-sm" onclick="removePurchaseItem('${item.id}')" style="color:#ef4444;">删除</button>
         </div>
       </div>
-      <div style="margin-top:8px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">
+      <div style="margin-top:8px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
         <div class="field">
           <label>产品名（可改）</label>
           <input value="${escapeHtml(item.productName||'')}" oninput="changePurchaseItem('${item.id}','productName',this.value)">
@@ -7335,14 +7205,24 @@ function purchaseItemHtml(item) {
           <label>规格</label>
           <input value="${escapeHtml(item.specs||'')}" oninput="changePurchaseItem('${item.id}','specs',this.value)">
         </div>
+      </div>
+      <div style="margin-top:8px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;">
         <div class="field">
-          <label>生产周期</label>
-          <input value="${escapeHtml(item.productionDays||'')}" oninput="changePurchaseItem('${item.id}','productionDays',this.value)" placeholder="如 30 天">
+          <label>材质</label>
+          <input value="${escapeHtml(item.material||'')}" oninput="changePurchaseItem('${item.id}','material',this.value)" placeholder="如：松木、竹木">
+        </div>
+        <div class="field">
+          <label>表面处理</label>
+          <input value="${escapeHtml(item.surfaceFinish||'')}" oninput="changePurchaseItem('${item.id}','surfaceFinish',this.value)" placeholder="如：清漆、木蜡油">
+        </div>
+        <div class="field">
+          <label>其他细节</label>
+          <input value="${escapeHtml(item.otherDetails||'')}" oninput="changePurchaseItem('${item.id}','otherDetails',this.value)" placeholder="如：颜色、尺寸">
         </div>
       </div>
       <div class="field" style="margin-top:8px;">
-        <label>工艺要求</label>
-        <textarea rows="2" oninput="changePurchaseItem('${item.id}','productCraft',this.value)" placeholder="材质、表面处理、特殊要求等">${escapeHtml(item.productCraft||'')}</textarea>
+        <label>中文包装</label>
+        <textarea rows="2" oninput="changePurchaseItem('${item.id}','packingZh',this.value)" placeholder="包装要求说明">${escapeHtml(item.packingZh||'')}</textarea>
       </div>
     </div>
   `;
@@ -7370,11 +7250,42 @@ function purchaseItemSubtotal(item) {
 }
 
 function purchaseTotalHtml() {
-  const total = calcPurchaseTotal(_editingPurchase);
+  const p = _editingPurchase;
+  const itemsTotal = (p.items || []).reduce((s, it) => {
+    const qty = Number(it.qty) || 0;
+    const price = Number(it.unitPriceWithTax || it.unitPriceNoTax) || 0;
+    return s + qty * price;
+  }, 0);
+  const shippingCost = Number(p.shippingCost) || 0;
+  const sampleFeeDeduction = Number(p.sampleFeeDeduction) || 0;
+  const total = itemsTotal + shippingCost - sampleFeeDeduction;
+
   return `
     <div style="border:2px solid #4a90e2;border-radius:6px;padding:12px 14px;background:#eff6ff;">
       <div style="font-weight:600;margin-bottom:8px;color:#1e40af;font-size:13px;">采购合计</div>
-      <div style="font-size:16px;">总金额：<strong style="color:#1e40af;font-size:18px;">¥${total.toFixed(2)}</strong></div>
+      <div style="display:grid;grid-template-columns:auto 1fr;gap:8px;align-items:center;margin-bottom:4px;">
+        <div>产品小计：</div>
+        <div style="text-align:right;"><strong>¥${itemsTotal.toFixed(2)}</strong></div>
+
+        <div>运费：</div>
+        <div style="text-align:right;">
+          <input type="number" min="0" step="0.01" value="${p.shippingCost || ''}"
+            oninput="_editingPurchase.shippingCost=this.value;refreshPurchaseTotal();"
+            placeholder="0.00"
+            style="width:120px;text-align:right;border:1px solid #cbd5e1;border-radius:4px;padding:4px 8px;">
+        </div>
+
+        <div>样品费抵扣：</div>
+        <div style="text-align:right;">
+          <input type="number" min="0" step="0.01" value="${p.sampleFeeDeduction || ''}"
+            oninput="_editingPurchase.sampleFeeDeduction=this.value;refreshPurchaseTotal();"
+            placeholder="0.00"
+            style="width:120px;text-align:right;border:1px solid #cbd5e1;border-radius:4px;padding:4px 8px;">
+        </div>
+      </div>
+      <div style="font-size:16px;padding-top:8px;border-top:1px solid #cbd5e1;">
+        应付总额：<strong style="color:#1e40af;font-size:18px;">¥${total.toFixed(2)}</strong>
+      </div>
     </div>
   `;
 }
@@ -7525,9 +7436,8 @@ function sumPaymentsFor(relatedType, relatedNo) {
 }
 
 function calcSampleClientTotal(s) {
-  const products = (s.items || []).reduce((sum, it) =>
+  return (s.items || []).reduce((sum, it) =>
     sum + (Number(it.clientPrice) || 0) * (Number(it.qty) || 1), 0);
-  return products + (Number(s && s.freight) || 0);  // 含运费
 }
 
 let paymentFilter = '', paymentTypeFilter = '', paymentMonthFilter = '';
@@ -7723,9 +7633,7 @@ function viewSampleReadonly(id) {
       <dt>样品单号</dt><dd class="code">${escapeHtml(s.code || '-')}</dd>
       <dt>客户</dt><dd>${c ? '<span class="flag">' + flagFor(c.country) + '</span>' + escapeHtml(c.company) : '-'}</dd>
       <dt>地址</dt><dd>${c ? escapeHtml(c.address || '-') : '-'}</dd>
-      <dt>草稿/INVOICE日期</dt><dd>${fmtDate(s.draftDate) || '-'}</dd>
-      <dt>下单日期</dt><dd>${s.orderDate ? fmtDate(s.orderDate) : '<span class="muted">— （草稿未下单）</span>'}</dd>
-      <dt>完成时间</dt><dd>${fmtDate(s.finishDate) || '-'}</dd>
+      <dt>下单日期</dt><dd>${fmtDate(s.orderDate) || '-'}</dd>
       <dt>寄出日期</dt><dd>${fmtDate(s.sentDate) || '-'}</dd>
       <dt>生产周期</dt><dd>${escapeHtml(s.productionTime || '-')}</dd>
       <dt>物流号</dt><dd>${escapeHtml(s.trackingNo || '-')}</dd>
@@ -7744,8 +7652,7 @@ function viewSampleReadonly(id) {
         </tr></thead>
         <tbody>${itemsHtml}</tbody>
         <tfoot>
-          ${Number(s.freight) > 0 ? `<tr><td colspan="7" class="text-right muted">运费：</td><td class="text-right muted">${cur} ${Number(s.freight).toFixed(2)}</td></tr>` : ''}
-          <tr><td colspan="7" class="text-right bold" style="font-size:14px;">合计${Number(s.freight) > 0 ? '（含运费）' : ''}：</td>
+          <tr><td colspan="7" class="text-right bold" style="font-size:14px;">合计：</td>
               <td class="text-right bold" style="font-size:14px;color:#1e40af;">${cur} ${total.toFixed(2)}</td></tr>
         </tfoot>
       </table>`}
@@ -7934,7 +7841,10 @@ function renderPayable() {
   (DB.purchases || []).forEach(p => {
     const total = calcPurchaseTotal(p);
     if (total <= 0) return;
-    const paid = sumPaymentsFor('purchase', p.code);
+    // 只统计关联类型为 'purchase' 的付款
+    const paid = (DB.payments || [])
+      .filter(pay => pay.type === 'expense' && pay.relatedType === 'purchase' && pay.relatedNo === p.code)
+      .reduce((s, pay) => s + (Number(pay.netAmount || pay.amount) || 0), 0);
     rows.push({
       code: p.code, factory: p.factoryName,
       currency: 'CNY', date: p.date || '',
@@ -8422,15 +8332,14 @@ function editPayment(id, defaultType) {
 
 // 根据客户列出可关联的订单/样品/采购
 function paymentRelatedSelectorHtml(p) {
-  const cid = p.customerId;
-  // 如果没选客户：只显示采购/其他类型
-  if (!cid) {
+  // 付款 = 优先显示采购单，但也可以选"无"或"其他"
+  if (p.type === 'expense') {
     return `
       <div style="display:grid;grid-template-columns:1fr 2fr;gap:8px;">
         <div>
           <label style="font-size:11.5px;color:#6b7280;">关联类型</label>
           <select onchange="_editingPayment.relatedType=this.value;_editingPayment.relatedId='';refreshPaymentRelatedWrap();">
-            <option value="" ${!p.relatedType?'selected':''}>无</option>
+            <option value="" ${!p.relatedType?'selected':''}>无（快递费/平台费等）</option>
             <option value="purchase" ${p.relatedType==='purchase'?'selected':''}>采购单</option>
             <option value="other" ${p.relatedType==='other'?'selected':''}>其他</option>
           </select>
@@ -8440,6 +8349,29 @@ function paymentRelatedSelectorHtml(p) {
           ${p.relatedType === 'purchase' ?
             paymentPurchaseSelector(p) :
             `<input value="${escapeHtml(p.relatedNo || '')}" oninput="_editingPayment.relatedNo=this.value" placeholder="可选，自己填">`}
+        </div>
+      </div>
+    `;
+  }
+
+  // 收款 = 显示订单/样品单
+  const cid = p.customerId;
+  // 如果没选客户
+  if (!cid) {
+    return `
+      <div style="display:grid;grid-template-columns:1fr 2fr;gap:8px;">
+        <div>
+          <label style="font-size:11.5px;color:#6b7280;">关联类型</label>
+          <select onchange="_editingPayment.relatedType=this.value;_editingPayment.relatedId='';refreshPaymentRelatedWrap();">
+            <option value="" ${!p.relatedType?'selected':''}>无</option>
+            <option value="order" ${p.relatedType==='order'?'selected':''}>订单</option>
+            <option value="sample" ${p.relatedType==='sample'?'selected':''}>样品单</option>
+            <option value="other" ${p.relatedType==='other'?'selected':''}>其他</option>
+          </select>
+        </div>
+        <div>
+          <label style="font-size:11.5px;color:#6b7280;">关联单号</label>
+          <input value="${escapeHtml(p.relatedNo || '')}" oninput="_editingPayment.relatedNo=this.value" placeholder="先选客户">
         </div>
       </div>
     `;
@@ -8459,7 +8391,6 @@ function paymentRelatedSelectorHtml(p) {
           <option value="" ${!p.relatedType?'selected':''}>无</option>
           <option value="order" ${p.relatedType==='order'?'selected':''}>订单 (${orders.length})</option>
           <option value="sample" ${p.relatedType==='sample'?'selected':''}>样品单 (${samples.length})</option>
-          <option value="purchase" ${p.relatedType==='purchase'?'selected':''}>采购单</option>
           <option value="other" ${p.relatedType==='other'?'selected':''}>其他</option>
         </select>
       </div>
@@ -8479,9 +8410,6 @@ function paymentRelatedSelectorHtml(p) {
               <option value="">-- 选样品 --</option>
               ${samples.map(s => `<option value="${s.id}" ${p.relatedId===s.id?'selected':''}>${escapeHtml(s.code || s.sampleNo || '-')} · ${escapeHtml(s.status || '')} · ${fmtDate(s.sentDate || s.orderDate)}</option>`).join('')}
             </select>`;
-          }
-          if (p.relatedType === 'purchase') {
-            return paymentPurchaseSelector(p);
           }
           return `<input value="${escapeHtml(p.relatedNo || '')}" oninput="_editingPayment.relatedNo=this.value" placeholder="可选，自己填">`;
         })()}
@@ -9720,27 +9648,19 @@ function renderTasks() {
 }
 
 function renderTaskRow(t) {
-  let c = customerById(t.customerId);
-  // 兜底：只存了客户名、没绑定客户ID 时，按公司名匹配一次
-  if (!c && t.customerName) {
-    const nm = String(t.customerName).trim().toLowerCase();
-    c = (DB.customers || []).find(x => (x.company || '').trim().toLowerCase() === nm) || null;
-  }
+  const c = customerById(t.customerId);
   const cName = c ? c.company : t.customerName || '';
   const custHtml = c
     ? `<span class="task-cust-link" onclick="viewCustomerTasks('${c.id}')" title="查看该客户的所有日程">${escapeHtml(cName)}</span>`
     : cName ? `<span class="task-cust-link" style="color:#6b7280;cursor:default;">${escapeHtml(cName)}</span>`
             : `<span class="task-cust-empty">（无客户）</span>`;
-  // 客户等级 + 状态：可直接下拉修改（显示在客户名下方）
-  const metaLine = c ? `<div style="margin-top:4px;display:flex;gap:4px;flex-wrap:wrap;align-items:center;">${inlineGradeSelect(c)}${inlineStatusSelect(c)}</div>` : '';
-  const custCol = `<div style="min-width:160px;flex-shrink:0;">${custHtml}${metaLine}</div>`;
   const todo = isTaskTodo(t);
   const checkOrTag = todo
     ? `<div class="task-check ${t.done ? 'done' : ''}" onclick="toggleTaskDone('${t.id}')" title="${t.done ? '取消完成' : '标记完成'}">${t.done ? '✓' : ''}</div>`
     : `<div class="task-check" style="background:#fef3c7;color:#b45309;border:1px solid #fde68a;cursor:default;font-size:11px;display:flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:4px;" title="跟进记录（不算待办）">📝</div>`;
   return `<div class="task-row ${t.done ? 'done' : ''}${todo ? '' : ' note'}">
     ${checkOrTag}
-    ${custCol}
+    ${custHtml}
     <div class="task-content-text" ondblclick="editTaskRich('${t.id}')" title="双击编辑（支持图片/表格/格式）">${renderTaskContent(t.content)}</div>
     <div class="task-actions">
       ${c && todo && !t.done ? `<button onclick="convertTaskToFollowup('${t.id}')" title="转为客户跟进记录">→跟进</button>` : ''}
@@ -11953,7 +11873,6 @@ function renderBackup() {
       </div>
     </div>
 
-
     <div class="panel" style="margin-bottom:12px;">
       <div class="panel-header">⚙ 自动备份（推荐）</div>
       <div class="panel-body">
@@ -11991,6 +11910,15 @@ function renderBackup() {
             </div>
           `;
         })()}
+      </div>
+    </div>
+
+    <div class="panel" style="margin-bottom:12px;">
+      <div class="panel-header">🔍 图片诊断与修复</div>
+      <div class="panel-body">
+        <p class="muted" style="margin-bottom:10px;">检查所有产品图片是否完整，找出丢失或损坏的图片引用。</p>
+        <button class="btn" onclick="diagnoseImages()">🔍 检查所有图片</button>
+        <div id="imageDiagResult" style="margin-top:10px;"></div>
       </div>
     </div>
 
@@ -12404,6 +12332,185 @@ async function importData(e) {
   };
   reader.readAsText(file);
   e.target.value = '';
+}
+
+/* ============================================================
+ * 图片诊断与修复
+ * ============================================================ */
+
+async function diagnoseImages() {
+  const resultDiv = document.getElementById('imageDiagResult');
+  resultDiv.innerHTML = '<div class="muted">正在检查图片...</div>';
+
+  try {
+    // 获取所有IndexedDB中的图片ID
+    const allImageIds = await imgDB.getAllIds();
+    const imageIdSet = new Set(allImageIds);
+
+    // 检查产品图片
+    const products = DB.products || [];
+    const missingProducts = [];
+    const validProducts = [];
+
+    for (const p of products) {
+      if (p.image) {
+        const exists = imageIdSet.has(p.image);
+        if (!exists) {
+          missingProducts.push({
+            id: p.id,
+            name: p.nameEn || p.nameCn || '未命名产品',
+            imageId: p.image
+          });
+        } else {
+          validProducts.push(p);
+        }
+      }
+    }
+
+    // 检查订单中的产品图片
+    const orders = DB.orders || [];
+    const ordersWithMissingImages = [];
+
+    for (const order of orders) {
+      const items = order.items || [];
+      if (items.length > 0 && items[0].productId) {
+        const product = products.find(p => p.id === items[0].productId);
+        if (product && product.image && !imageIdSet.has(product.image)) {
+          ordersWithMissingImages.push({
+            orderNo: order.orderNo,
+            productName: items[0].productName || product.nameEn,
+            productId: product.id
+          });
+        }
+      }
+    }
+
+    // 生成报告
+    let html = '<div style="margin-top:10px;">';
+    html += `<div style="background:#f0fdf4;border:1px solid #bbf7d0;padding:10px;border-radius:4px;margin-bottom:10px;">`;
+    html += `<strong>📊 检查结果：</strong><br>`;
+    html += `・IndexedDB 中共有 <strong>${allImageIds.length}</strong> 张图片<br>`;
+    html += `・产品数据库共有 <strong>${products.length}</strong> 个产品<br>`;
+    html += `・其中 <strong>${validProducts.length}</strong> 个产品有有效图片<br>`;
+    html += `・发现 <strong style="color:#ef4444;">${missingProducts.length}</strong> 个产品的图片丢失`;
+    html += `</div>`;
+
+    if (missingProducts.length > 0) {
+      html += '<div style="background:#fef3c7;border:1px solid #fbbf24;padding:10px;border-radius:4px;margin-bottom:10px;">';
+      html += '<strong>⚠️ 图片丢失的产品：</strong><br>';
+      html += '<table style="width:100%;margin-top:6px;font-size:12px;">';
+      html += '<thead><tr style="background:#fde68a;"><th style="padding:4px;text-align:left;">产品名称</th><th style="padding:4px;">图片ID</th><th style="padding:4px;">操作</th></tr></thead>';
+      html += '<tbody>';
+      for (const p of missingProducts) {
+        html += `<tr style="border-bottom:1px solid #fde68a;">`;
+        html += `<td style="padding:4px;">${escapeHtml(p.name)}</td>`;
+        html += `<td style="padding:4px;font-family:monospace;font-size:10px;color:#92400e;">${escapeHtml(p.imageId.substring(0,16))}...</td>`;
+        html += `<td style="padding:4px;">`;
+        html += `<button class="btn-link" onclick="recoverImageFromCloudUI('${p.imageId}', '${p.id}')">从云端恢复</button> | `;
+        html += `<button class="btn-link" onclick="fixProductImage('${p.id}')">重新上传</button>`;
+        html += `</td>`;
+        html += `</tr>`;
+      }
+      html += '</tbody></table>';
+      html += `<div style="margin-top:10px;"><button class="btn btn-primary" onclick="recoverAllMissingImages()">🔄 一键从云端恢复所有图片</button></div>`;
+      html += '</div>';
+    }
+
+    if (ordersWithMissingImages.length > 0) {
+      html += '<div style="background:#fee2e2;border:1px solid #fca5a5;padding:10px;border-radius:4px;margin-bottom:10px;">';
+      html += '<strong>⚠️ 受影响的订单（图片显示异常）：</strong><br>';
+      html += '<div style="font-size:12px;margin-top:6px;">';
+      for (const o of ordersWithMissingImages) {
+        html += `・订单 <strong>${escapeHtml(o.orderNo)}</strong> - ${escapeHtml(o.productName)}<br>`;
+      }
+      html += '</div>';
+      html += '</div>';
+    }
+
+    if (missingProducts.length === 0) {
+      html += '<div style="background:#d1fae5;border:1px solid #6ee7b7;padding:10px;border-radius:4px;">';
+      html += '✅ <strong>所有产品图片完整，未发现问题！</strong>';
+      html += '</div>';
+    } else {
+      html += '<div class="info-box" style="margin-top:10px;font-size:12px;">';
+      html += '<strong>修复方式：</strong><br>';
+      html += '1. <strong>推荐：</strong>点击"从云端恢复"自动从云端备份恢复图片（如果之前已备份）<br>';
+      html += '2. <strong>或者：</strong>点击"一键从云端恢复所有图片"批量恢复所有丢失的图片<br>';
+      html += '3. <strong>手动：</strong>点击"重新上传"为产品重新上传图片<br>';
+      html += '<br><strong>⚠️ 重要提示：</strong>为了避免图片再次丢失，系统现在会自动将所有新上传的图片备份到云端。';
+      html += '</div>';
+    }
+
+    html += '</div>';
+    resultDiv.innerHTML = html;
+
+  } catch (e) {
+    resultDiv.innerHTML = `<div style="color:#ef4444;">检查失败：${escapeHtml(e.message)}</div>`;
+    console.error('图片诊断失败', e);
+  }
+}
+
+async function recoverImageFromCloudUI(imageId, productId) {
+  toast('正在从云端恢复图片...', 'info');
+  try {
+    await recoverImageFromCloud(imageId);
+    toast('图片已从云端恢复！', 'success');
+    // 重新检查
+    setTimeout(() => diagnoseImages(), 500);
+  } catch (e) {
+    toast('恢复失败：' + e.message, 'error');
+  }
+}
+
+async function recoverAllMissingImages() {
+  if (!confirm('确定要从云端恢复所有丢失的图片吗？这可能需要一些时间。')) return;
+
+  toast('开始批量恢复图片...', 'info');
+
+  try {
+    const allImageIds = await imgDB.getAllIds();
+    const imageIdSet = new Set(allImageIds);
+    const products = DB.products || [];
+
+    let recovered = 0;
+    let failed = 0;
+
+    for (const p of products) {
+      if (p.image && !imageIdSet.has(p.image)) {
+        try {
+          await recoverImageFromCloud(p.image);
+          recovered++;
+        } catch (e) {
+          failed++;
+          console.warn('恢复失败:', p.image, e);
+        }
+      }
+    }
+
+    if (recovered > 0) {
+      toast(`成功恢复 ${recovered} 张图片${failed > 0 ? `，${failed} 张失败` : ''}`, 'success');
+      setTimeout(() => diagnoseImages(), 500);
+    } else if (failed > 0) {
+      toast(`无法从云端恢复图片。可能云端没有备份，请手动重新上传。`, 'error');
+    } else {
+      toast('没有需要恢复的图片', 'info');
+    }
+
+  } catch (e) {
+    toast('批量恢复失败：' + e.message, 'error');
+  }
+}
+
+function fixProductImage(productId) {
+  const product = DB.products.find(p => p.id === productId);
+  if (!product) {
+    toast('产品不存在', 'error');
+    return;
+  }
+
+  // 打开产品编辑页面
+  editProduct(productId);
+  toast('请在编辑页面重新上传图片', 'info');
 }
 
 function clearAllData() {
@@ -12908,4 +13015,1207 @@ async function startApp() {
   }
 })();
 
-window.addEventListener('beforeunload', saveDB);
+/* ============================================================
+ * 采购合同下载功能
+ * ============================================================ */
+
+// 生成客户代码（国家+首字母，确保唯一）
+function generateCustomerCode(customerName, country) {
+  if (!customerName) return 'CUST001';
+
+  // 提取英文单词首字母
+  const words = customerName.trim().split(/\s+/).filter(w => /^[A-Za-z]/.test(w));
+  let initials = words.map(w => w[0].toUpperCase()).join('');
+  if (initials.length === 0) initials = 'CUST';
+
+  // 国家代码（前2个字母）
+  let countryCode = '';
+  if (country) {
+    const c = countryByName(country);
+    countryCode = c ? c[2] : country.substring(0, 2).toUpperCase();
+  } else {
+    countryCode = 'XX';
+  }
+
+  // 检查唯一性
+  let code = countryCode + '-' + initials;
+  let suffix = 1;
+  const existingCodes = new Set((DB.customers || []).map(c => c.code).filter(Boolean));
+
+  while (existingCodes.has(code)) {
+    code = countryCode + '-' + initials + suffix;
+    suffix++;
+  }
+
+  return code;
+}
+
+// 确保 ExcelJS 库已加载
+let _excelJSLoaded = false;
+async function ensureExcelJS() {
+  if (typeof ExcelJS !== 'undefined') {
+    _excelJSLoaded = true;
+    return true;
+  }
+  if (_excelJSLoaded) return true;
+
+  return new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/exceljs@4.3.0/dist/exceljs.min.js';
+    script.onload = () => {
+      _excelJSLoaded = true;
+      resolve(true);
+    };
+    script.onerror = () => reject(new Error('ExcelJS 库加载失败'));
+    document.head.appendChild(script);
+  });
+}
+
+// 下载采购合同（生成真正的 .xlsx 文件，包含图片）
+async function downloadPurchaseContract(purchaseId) {
+  const purchase = (DB.purchases || []).find(p => p.id === purchaseId);
+  if (!purchase) {
+    toast('采购单不存在', 'error');
+    return;
+  }
+
+  if (!purchase.items || purchase.items.length === 0) {
+    toast('该采购单没有产品，无法生成合同', 'error');
+    return;
+  }
+
+  toast('正在加载Excel库...', 'success');
+
+  try {
+    // 加载 ExcelJS 库
+    await ensureExcelJS();
+
+    toast('正在生成合同（包含图片）...', 'success');
+
+    // 准备合同数据
+    const contractData = await prepareContractDataWithImages(purchase);
+
+    // 使用 ExcelJS 生成带图片的 Excel
+    await generateExcelWithExcelJS(contractData, purchase);
+
+    toast('合同已生成（含图片）✅', 'success');
+  } catch (e) {
+    console.error('生成合同失败', e);
+    toast('生成合同失败：' + e.message, 'error');
+  }
+}
+
+// 使用 ExcelJS 生成真正的带图片的 Excel
+async function generateExcelWithExcelJS(data, purchase) {
+  const workbook = new ExcelJS.Workbook();
+  const worksheet = workbook.addWorksheet('采购合同');
+
+  // 设置默认字体为微软雅黑
+  workbook.creator = 'CHIC CRM';
+  workbook.created = new Date();
+
+  // 设置列宽
+  worksheet.columns = [
+    { width: 6 },   // A: 序号
+    { width: 18 },  // B: 产品图片
+    { width: 15 },  // C: 产品编号
+    { width: 25 },  // D: 产品名称
+    { width: 12 },  // E: 材质
+    { width: 12 },  // F: 表面处理
+    { width: 20 },  // G: 其他细节
+    { width: 20 },  // H: 包装要求
+    { width: 8 },   // I: 数量
+    { width: 10 },  // J: 单价
+    { width: 12 }   // K: 金额
+  ];
+
+  let currentRow = 1;
+
+  // 1. 标题
+  worksheet.mergeCells(`A${currentRow}:K${currentRow}`);
+  const titleCell = worksheet.getCell(`A${currentRow}`);
+  titleCell.value = '采购合同 PURCHASE CONTRACT';
+  titleCell.font = { name: 'Microsoft YaHei', size: 18, bold: true };
+  titleCell.alignment = { horizontal: 'center', vertical: 'middle' };
+  worksheet.getRow(currentRow).height = 30;
+  currentRow += 2;
+
+  // 2. 合同编号
+  worksheet.mergeCells(`I${currentRow}:K${currentRow}`);
+  const contractNoCell = worksheet.getCell(`I${currentRow}`);
+  contractNoCell.value = `合同编号: ${data.contractNo}`;
+  contractNoCell.font = { name: 'Microsoft YaHei', bold: true, color: { argb: 'FFD00000' } };
+  contractNoCell.alignment = { horizontal: 'right' };
+  currentRow += 2;
+
+  // 3. 基本信息标题
+  worksheet.mergeCells(`A${currentRow}:K${currentRow}`);
+  const infoTitleCell = worksheet.getCell(`A${currentRow}`);
+  infoTitleCell.value = '📋 基本信息';
+  infoTitleCell.font = { name: 'Microsoft YaHei', bold: true, color: { argb: 'FFFFFFFF' } };
+  infoTitleCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF4A90E2' } };
+  infoTitleCell.alignment = { vertical: 'middle' };
+  worksheet.getRow(currentRow).height = 25;
+  currentRow++;
+
+  // 4. 基本信息内容
+  const addInfoRow = (label1, value1, label2, value2) => {
+    worksheet.getCell(`A${currentRow}`).value = label1;
+    worksheet.getCell(`A${currentRow}`).font = { name: 'Microsoft YaHei', bold: true };
+    worksheet.getCell(`A${currentRow}`).fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF0F0F0' } };
+
+    worksheet.mergeCells(`B${currentRow}:${label2 ? 'E' : 'K'}${currentRow}`);
+    worksheet.getCell(`B${currentRow}`).value = value1;
+    worksheet.getCell(`B${currentRow}`).font = { name: 'Microsoft YaHei' };
+
+    if (label2) {
+      worksheet.getCell(`F${currentRow}`).value = label2;
+      worksheet.getCell(`F${currentRow}`).font = { name: 'Microsoft YaHei', bold: true };
+      worksheet.getCell(`F${currentRow}`).fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF0F0F0' } };
+
+      worksheet.mergeCells(`G${currentRow}:K${currentRow}`);
+      worksheet.getCell(`G${currentRow}`).value = value2;
+      worksheet.getCell(`G${currentRow}`).font = { name: 'Microsoft YaHei' };
+    }
+
+    worksheet.getRow(currentRow).eachCell(cell => {
+      if (!cell.font) cell.font = { name: 'Microsoft YaHei' };
+      cell.border = {
+        top: { style: 'thin' }, bottom: { style: 'thin' },
+        left: { style: 'thin' }, right: { style: 'thin' }
+      };
+    });
+    currentRow++;
+  };
+
+  addInfoRow('采购方:', data.buyerFull, '签订日期:', data.signDate);
+  addInfoRow('供应商:', `${data.supplier} ${data.supplierAddress}`);
+  addInfoRow('客户订单号:', data.customerPO, '客户名称:', data.customerName);
+  addInfoRow('交货日期:', data.deliveryDate, '付款方式:', data.paymentTerms);
+  currentRow++;
+
+  // 5. 产品明细标题
+  worksheet.mergeCells(`A${currentRow}:K${currentRow}`);
+  const productTitleCell = worksheet.getCell(`A${currentRow}`);
+  productTitleCell.value = '📦 产品明细与工艺';
+  productTitleCell.font = { bold: true, color: { argb: 'FFFFFFFF' } };
+  productTitleCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF4A90E2' } };
+  productTitleCell.alignment = { vertical: 'middle' };
+  worksheet.getRow(currentRow).height = 25;
+  currentRow++;
+
+  // 6. 产品表头
+  const headers = ['序号', '产品图片', '产品编号', '产品名称', '材质', '表面处理', '其他细节', '包装要求', '数量', '单价', '金额'];
+  headers.forEach((header, idx) => {
+    const cell = worksheet.getCell(currentRow, idx + 1);
+    cell.value = header;
+    cell.font = { name: 'Microsoft YaHei', bold: true };
+    cell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFE8F4F8' } };
+    cell.alignment = { horizontal: 'center', vertical: 'middle', wrapText: true };
+    cell.border = {
+      top: { style: 'thin' }, bottom: { style: 'thin' },
+      left: { style: 'thin' }, right: { style: 'thin' }
+    };
+  });
+  worksheet.getRow(currentRow).height = 30;
+  currentRow++;
+
+  // 7. 产品行（包含图片）
+  for (let i = 0; i < data.items.length; i++) {
+    const item = data.items[i];
+    const rowHeight = 90;
+    worksheet.getRow(currentRow).height = rowHeight;
+
+    // 添加数据
+    worksheet.getCell(currentRow, 1).value = i + 1;
+    worksheet.getCell(currentRow, 1).font = { name: 'Microsoft YaHei' };
+    worksheet.getCell(currentRow, 3).value = item.productCode;
+    worksheet.getCell(currentRow, 3).font = { name: 'Microsoft YaHei' };
+    worksheet.getCell(currentRow, 4).value = item.productName;
+    worksheet.getCell(currentRow, 4).font = { name: 'Microsoft YaHei' };
+    worksheet.getCell(currentRow, 5).value = item.material;
+    worksheet.getCell(currentRow, 5).font = { name: 'Microsoft YaHei' };
+    worksheet.getCell(currentRow, 6).value = item.surfaceFinish;
+    worksheet.getCell(currentRow, 6).font = { name: 'Microsoft YaHei' };
+    worksheet.getCell(currentRow, 7).value = item.otherDetails;
+    worksheet.getCell(currentRow, 7).font = { name: 'Microsoft YaHei' };
+    worksheet.getCell(currentRow, 8).value = item.packing;
+    worksheet.getCell(currentRow, 8).font = { name: 'Microsoft YaHei' };
+    worksheet.getCell(currentRow, 9).value = item.qty;
+    worksheet.getCell(currentRow, 9).font = { name: 'Microsoft YaHei' };
+    worksheet.getCell(currentRow, 10).value = Number(item.unitPrice) || 0;
+    worksheet.getCell(currentRow, 10).font = { name: 'Microsoft YaHei' };
+    worksheet.getCell(currentRow, 11).value = Number(item.amount) || 0;
+    worksheet.getCell(currentRow, 11).font = { name: 'Microsoft YaHei' };
+
+    // 添加图片
+    if (item.imageBase64) {
+      try {
+        const imageId = workbook.addImage({
+          base64: item.imageBase64,
+          extension: 'png'
+        });
+
+        worksheet.addImage(imageId, {
+          tl: { col: 1, row: currentRow - 1 },
+          ext: { width: 120, height: 80 }
+        });
+      } catch (e) {
+        console.warn('添加图片失败', e);
+        worksheet.getCell(currentRow, 2).value = '图片加载失败';
+      }
+    } else {
+      worksheet.getCell(currentRow, 2).value = '无图片';
+    }
+
+    // 设置边框和对齐
+    for (let col = 1; col <= 11; col++) {
+      const cell = worksheet.getCell(currentRow, col);
+      if (!cell.font) cell.font = { name: 'Microsoft YaHei' };
+      cell.border = {
+        top: { style: 'thin' }, bottom: { style: 'thin' },
+        left: { style: 'thin' }, right: { style: 'thin' }
+      };
+      cell.alignment = { vertical: 'middle', wrapText: true };
+    }
+
+    currentRow++;
+  }
+
+  // 8. 合计行
+  worksheet.mergeCells(`A${currentRow}:J${currentRow}`);
+  const totalLabelCell = worksheet.getCell(`A${currentRow}`);
+  totalLabelCell.value = '合计:';
+  totalLabelCell.font = { name: 'Microsoft YaHei', bold: true };
+  totalLabelCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFFFF3CD' } };
+  totalLabelCell.alignment = { horizontal: 'right', vertical: 'middle' };
+
+  const totalCell = worksheet.getCell(`K${currentRow}`);
+  totalCell.value = Number(data.totalAmount) || 0;
+  totalCell.font = { name: 'Microsoft YaHei', bold: true };
+  totalCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFFFF3CD' } };
+  totalCell.alignment = { horizontal: 'right', vertical: 'middle' };
+
+  worksheet.getRow(currentRow).eachCell(cell => {
+    cell.border = {
+      top: { style: 'thin' }, bottom: { style: 'thin' },
+      left: { style: 'thin' }, right: { style: 'thin' }
+    };
+  });
+  currentRow += 2;
+
+  // 9. 唛头部分
+  worksheet.mergeCells(`A${currentRow}:K${currentRow}`);
+  const markTitleCell = worksheet.getCell(`A${currentRow}`);
+  markTitleCell.value = '📝 唛头';
+  markTitleCell.font = { bold: true, color: { argb: 'FFFFFFFF' } };
+  markTitleCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF4A90E2' } };
+  markTitleCell.alignment = { vertical: 'middle' };
+  worksheet.getRow(currentRow).height = 25;
+  currentRow++;
+
+  // 唛头表头
+  worksheet.mergeCells(`A${currentRow}:E${currentRow}`);
+  worksheet.getCell(`A${currentRow}`).value = '主唛（箱子正面）';
+  worksheet.getCell(`A${currentRow}`).font = { bold: true };
+  worksheet.getCell(`A${currentRow}`).fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF0F0F0' } };
+  worksheet.getCell(`A${currentRow}`).alignment = { vertical: 'middle' };
+  worksheet.getCell(`A${currentRow}`).border = {
+    top: { style: 'thin' }, bottom: { style: 'thin' },
+    left: { style: 'thin' }, right: { style: 'thin' }
+  };
+
+  worksheet.mergeCells(`F${currentRow}:K${currentRow}`);
+  worksheet.getCell(`F${currentRow}`).value = '侧唛（箱子侧面）';
+  worksheet.getCell(`F${currentRow}`).font = { bold: true };
+  worksheet.getCell(`F${currentRow}`).fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF0F0F0' } };
+  worksheet.getCell(`F${currentRow}`).alignment = { vertical: 'middle' };
+  worksheet.getCell(`F${currentRow}`).border = {
+    top: { style: 'thin' }, bottom: { style: 'thin' },
+    left: { style: 'thin' }, right: { style: 'thin' }
+  };
+  currentRow++;
+
+  // 唛头内容
+  const mainMark = data.marks.mainMark || `${data.customerName || 'CUSTOMER NAME'}
+PO NO.: ${data.customerPO || '_________'}
+ITEM NO.: __________
+MADE IN CHINA
+CARTON NO.: ___/___`;
+
+  const sideMark = data.marks.sideMark || `⚠ FRAGILE 易碎
+⬆ THIS SIDE UP 此面向上`;
+
+  worksheet.mergeCells(`A${currentRow}:E${currentRow}`);
+  worksheet.getCell(`A${currentRow}`).value = mainMark;
+  worksheet.getCell(`A${currentRow}`).alignment = { vertical: 'top', wrapText: true };
+  worksheet.getCell(`A${currentRow}`).border = {
+    top: { style: 'thin' }, bottom: { style: 'thin' },
+    left: { style: 'thin' }, right: { style: 'thin' }
+  };
+
+  worksheet.mergeCells(`F${currentRow}:K${currentRow}`);
+  worksheet.getCell(`F${currentRow}`).value = sideMark;
+  worksheet.getCell(`F${currentRow}`).alignment = { horizontal: 'center', vertical: 'middle', wrapText: true };
+  worksheet.getCell(`F${currentRow}`).border = {
+    top: { style: 'thin' }, bottom: { style: 'thin' },
+    left: { style: 'thin' }, right: { style: 'thin' }
+  };
+  worksheet.getRow(currentRow).height = 100;
+  currentRow += 2;
+
+  // 10. 质量标准
+  worksheet.mergeCells(`A${currentRow}:K${currentRow}`);
+  const qualityTitleCell = worksheet.getCell(`A${currentRow}`);
+  qualityTitleCell.value = '✅ 质量标准';
+  qualityTitleCell.font = { bold: true, color: { argb: 'FFFFFFFF' } };
+  qualityTitleCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF4A90E2' } };
+  qualityTitleCell.alignment = { vertical: 'middle' };
+  worksheet.getRow(currentRow).height = 25;
+  currentRow++;
+
+  const addQualityRow = (label, value) => {
+    worksheet.mergeCells(`A${currentRow}:C${currentRow}`);
+    worksheet.getCell(`A${currentRow}`).value = label;
+    worksheet.getCell(`A${currentRow}`).font = { bold: true };
+    worksheet.getCell(`A${currentRow}`).fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF0F0F0' } };
+    worksheet.getCell(`A${currentRow}`).border = {
+      top: { style: 'thin' }, bottom: { style: 'thin' },
+      left: { style: 'thin' }, right: { style: 'thin' }
+    };
+
+    worksheet.mergeCells(`D${currentRow}:K${currentRow}`);
+    worksheet.getCell(`D${currentRow}`).value = value;
+    worksheet.getCell(`D${currentRow}`).border = {
+      top: { style: 'thin' }, bottom: { style: 'thin' },
+      left: { style: 'thin' }, right: { style: 'thin' }
+    };
+    currentRow++;
+  };
+
+  addQualityRow('尺寸公差:', '±2mm (可接受范围)');
+  addQualityRow('外观瑕疵:', '无明显刮痕、凹陷、色差；允许微小色差但不影响整体美观');
+  addQualityRow('功能测试:', '');
+  addQualityRow('AQL标准:', 'Major defects: 2.5, Minor defects: 4.0');
+  currentRow++;
+
+  // 11. 特殊要求
+  worksheet.mergeCells(`A${currentRow}:K${currentRow}`);
+  const reqTitleCell = worksheet.getCell(`A${currentRow}`);
+  reqTitleCell.value = '⭐ 特殊要求与备注';
+  reqTitleCell.font = { bold: true, color: { argb: 'FFFFFFFF' } };
+  reqTitleCell.fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FF4A90E2' } };
+  reqTitleCell.alignment = { vertical: 'middle' };
+  worksheet.getRow(currentRow).height = 25;
+  currentRow++;
+
+  worksheet.mergeCells(`A${currentRow}:K${currentRow}`);
+  const reqCell = worksheet.getCell(`A${currentRow}`);
+  reqCell.value = data.specialRequirements || '';
+  reqCell.font = { bold: true, size: 14, color: { argb: 'FFD00000' } };
+  reqCell.alignment = { vertical: 'top', wrapText: true };
+  reqCell.border = {
+    top: { style: 'thin' }, bottom: { style: 'thin' },
+    left: { style: 'thin' }, right: { style: 'thin' }
+  };
+  worksheet.getRow(currentRow).height = 60;
+  currentRow += 2;
+
+  // 12. 签字栏
+  worksheet.mergeCells(`A${currentRow}:E${currentRow}`);
+  worksheet.getCell(`A${currentRow}`).value = '采购方（带公章）';
+  worksheet.getCell(`A${currentRow}`).font = { bold: true };
+  worksheet.getCell(`A${currentRow}`).fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF0F0F0' } };
+  worksheet.getCell(`A${currentRow}`).border = {
+    top: { style: 'thin' }, bottom: { style: 'thin' },
+    left: { style: 'thin' }, right: { style: 'thin' }
+  };
+
+  worksheet.mergeCells(`F${currentRow}:K${currentRow}`);
+  worksheet.getCell(`F${currentRow}`).value = '供应商';
+  worksheet.getCell(`F${currentRow}`).font = { bold: true };
+  worksheet.getCell(`F${currentRow}`).fill = { type: 'pattern', pattern: 'solid', fgColor: { argb: 'FFF0F0F0' } };
+  worksheet.getCell(`F${currentRow}`).border = {
+    top: { style: 'thin' }, bottom: { style: 'thin' },
+    left: { style: 'thin' }, right: { style: 'thin' }
+  };
+  currentRow++;
+
+  worksheet.mergeCells(`A${currentRow}:E${currentRow}`);
+  worksheet.getCell(`A${currentRow}`).value = `公司: ${data.buyer}`;
+  worksheet.getCell(`A${currentRow}`).border = {
+    top: { style: 'thin' }, bottom: { style: 'thin' },
+    left: { style: 'thin' }, right: { style: 'thin' }
+  };
+
+  worksheet.mergeCells(`F${currentRow}:K${currentRow}`);
+  worksheet.getCell(`F${currentRow}`).value = '公司:';
+  worksheet.getCell(`F${currentRow}`).border = {
+    top: { style: 'thin' }, bottom: { style: 'thin' },
+    left: { style: 'thin' }, right: { style: 'thin' }
+  };
+  currentRow++;
+
+  worksheet.mergeCells(`A${currentRow}:E${currentRow}`);
+  worksheet.getCell(`A${currentRow}`).value = '签字:';
+  worksheet.getCell(`A${currentRow}`).alignment = { vertical: 'middle' };
+  worksheet.getCell(`A${currentRow}`).border = {
+    top: { style: 'thin' }, bottom: { style: 'thin' },
+    left: { style: 'thin' }, right: { style: 'thin' }
+  };
+
+  worksheet.mergeCells(`F${currentRow}:K${currentRow}`);
+  worksheet.getCell(`F${currentRow}`).value = '签字:';
+  worksheet.getCell(`F${currentRow}`).alignment = { vertical: 'middle' };
+  worksheet.getCell(`F${currentRow}`).border = {
+    top: { style: 'thin' }, bottom: { style: 'thin' },
+    left: { style: 'thin' }, right: { style: 'thin' }
+  };
+  worksheet.getRow(currentRow).height = 80;
+
+  // 添加公章（如果有）
+  if (data.companyStampBase64) {
+    try {
+      const stampId = workbook.addImage({
+        base64: data.companyStampBase64,
+        extension: 'png'
+      });
+
+      worksheet.addImage(stampId, {
+        tl: { col: 0, row: currentRow - 1 },
+        ext: { width: 120, height: 120 }
+      });
+    } catch (e) {
+      console.warn('添加公章失败', e);
+    }
+  }
+  currentRow++;
+
+  worksheet.mergeCells(`A${currentRow}:E${currentRow}`);
+  worksheet.getCell(`A${currentRow}`).value = `日期: ${data.signDate}`;
+  worksheet.getCell(`A${currentRow}`).border = {
+    top: { style: 'thin' }, bottom: { style: 'thin' },
+    left: { style: 'thin' }, right: { style: 'thin' }
+  };
+
+  worksheet.mergeCells(`F${currentRow}:K${currentRow}`);
+  worksheet.getCell(`F${currentRow}`).value = '日期:';
+  worksheet.getCell(`F${currentRow}`).border = {
+    top: { style: 'thin' }, bottom: { style: 'thin' },
+    left: { style: 'thin' }, right: { style: 'thin' }
+  };
+
+  // 生成并下载
+  const buffer = await workbook.xlsx.writeBuffer();
+  const blob = new Blob([buffer], { type: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `采购合同_${purchase.code || 'PUR'}_${todayStr()}.xlsx`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+// 生成真正的 .xlsx 文件（包含图片）
+async function generateXLSXWithImages(data) {
+  const zip = new JSZip();
+
+  // 1. [Content_Types].xml
+  zip.file('[Content_Types].xml', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
+  <Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>
+  <Default Extension="xml" ContentType="application/xml"/>
+  <Default Extension="png" ContentType="image/png"/>
+  <Default Extension="jpeg" ContentType="image/jpeg"/>
+  <Override PartName="/xl/workbook.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml"/>
+  <Override PartName="/xl/worksheets/sheet1.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml"/>
+  <Override PartName="/xl/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml"/>
+  <Override PartName="/xl/sharedStrings.xml" ContentType="application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml"/>
+  <Override PartName="/xl/drawings/drawing1.xml" ContentType="application/vnd.openxmlformats-officedocument.drawing+xml"/>
+  <Override PartName="/docProps/core.xml" ContentType="application/vnd.openxmlformats-package.core-properties+xml"/>
+  <Override PartName="/docProps/app.xml" ContentType="application/vnd.openxmlformats-officedocument.extended-properties+xml"/>
+</Types>`);
+
+  // 2. _rels/.rels
+  zip.folder('_rels').file('.rels', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+  <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="xl/workbook.xml"/>
+  <Relationship Id="rId2" Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="docProps/core.xml"/>
+  <Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/extended-properties" Target="docProps/app.xml"/>
+</Relationships>`);
+
+  // 3. docProps/app.xml
+  zip.folder('docProps').file('app.xml', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/extended-properties">
+  <Application>CRM System</Application>
+</Properties>`);
+
+  // 4. docProps/core.xml
+  zip.folder('docProps').file('core.xml', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<cp:coreProperties xmlns:cp="http://schemas.openxmlformats.org/package/2006/metadata/core-properties">
+  <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">采购合同</dc:title>
+  <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">趣可CRM</dc:creator>
+  <dcterms:created xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="dcterms:W3CDTF">${new Date().toISOString()}</dcterms:created>
+</cp:coreProperties>`);
+
+  // 5. xl/_rels/workbook.xml.rels
+  zip.folder('xl/_rels').file('workbook.xml.rels', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+  <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/worksheet" Target="worksheets/sheet1.xml"/>
+  <Relationship Id="rId2" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>
+  <Relationship Id="rId3" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/sharedStrings" Target="sharedStrings.xml"/>
+</Relationships>`);
+
+  // 6. xl/workbook.xml
+  zip.folder('xl').file('workbook.xml', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<workbook xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+  <sheets>
+    <sheet name="采购合同" sheetId="1" r:id="rId1"/>
+  </sheets>
+</workbook>`);
+
+  // 7. xl/styles.xml (简化样式)
+  zip.folder('xl').file('styles.xml', `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">
+  <fonts count="2">
+    <font><sz val="11"/><name val="Calibri"/></font>
+    <font><b/><sz val="11"/><name val="Calibri"/></font>
+  </fonts>
+  <fills count="3">
+    <fill><patternFill patternType="none"/></fill>
+    <fill><patternFill patternType="gray125"/></fill>
+    <fill><patternFill patternType="solid"><fgColor rgb="FFE8F4F8"/></patternFill></fill>
+  </fills>
+  <borders count="2">
+    <border><left/><right/><top/><bottom/></border>
+    <border><left style="thin"/><right style="thin"/><top style="thin"/><bottom style="thin"/></border>
+  </borders>
+  <cellXfs count="3">
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="0"/>
+    <xf numFmtId="0" fontId="1" fillId="2" borderId="1" applyFont="1" applyFill="1" applyBorder="1"/>
+    <xf numFmtId="0" fontId="0" fillId="0" borderId="1" applyBorder="1"/>
+  </cellXfs>
+</styleSheet>`);
+
+  // 8. 生成worksheet XML
+  const worksheetXML = await generateWorksheetWithImages(data, zip);
+  zip.folder('xl/worksheets').file('sheet1.xml', worksheetXML);
+
+  // 9. xl/sharedStrings.xml
+  const sharedStrings = generateSharedStrings(data);
+  zip.folder('xl').file('sharedStrings.xml', sharedStrings);
+
+  // 10. 生成zip文件
+  return await zip.generateAsync({ type: 'blob', mimeType: 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' });
+}
+
+// 生成worksheet XML（包含图片引用）
+async function generateWorksheetWithImages(data, zip) {
+  // 保存图片到 xl/media/
+  const media = zip.folder('xl/media');
+  const imageRels = [];
+  let imageId = 1;
+
+  // 保存产品图片
+  for (let i = 0; i < data.items.length; i++) {
+    const item = data.items[i];
+    if (item.imageBase64) {
+      const imgData = Uint8Array.from(atob(item.imageBase64), c => c.charCodeAt(0));
+      media.file(`image${imageId}.png`, imgData);
+      imageRels.push({ id: imageId, type: 'product', index: i });
+      imageId++;
+    }
+  }
+
+  // 保存公章
+  if (data.companyStampBase64) {
+    const imgData = Uint8Array.from(atob(data.companyStampBase64), c => c.charCodeAt(0));
+    media.file(`image${imageId}.png`, imgData);
+    imageRels.push({ id: imageId, type: 'stamp' });
+    imageId++;
+  }
+
+  // 生成行数据
+  let rows = '';
+  let rowNum = 1;
+
+  // 标题
+  rows += `<row r="${rowNum}"><c r="A${rowNum}" t="inlineStr" s="1"><is><t>采购合同 PURCHASE CONTRACT</t></is></c></row>`;
+  rowNum += 3;
+
+  // 合同编号
+  rows += `<row r="${rowNum}"><c r="I${rowNum}" t="inlineStr"><is><t>合同编号: ${escapeXml(data.contractNo)}</t></is></c></row>`;
+  rowNum += 2;
+
+  // 基本信息
+  rows += `<row r="${rowNum}"><c r="A${rowNum}" t="inlineStr" s="1"><is><t>📋 基本信息</t></is></c></row>`;
+  rowNum++;
+
+  rows += `<row r="${rowNum}">
+    <c r="A${rowNum}" t="inlineStr" s="1"><is><t>采购方:</t></is></c>
+    <c r="B${rowNum}" t="inlineStr" s="2"><is><t>${escapeXml(data.buyerFull)}</t></is></c>
+    <c r="F${rowNum}" t="inlineStr" s="1"><is><t>签订日期:</t></is></c>
+    <c r="G${rowNum}" t="inlineStr" s="2"><is><t>${escapeXml(data.signDate)}</t></is></c>
+  </row>`;
+  rowNum++;
+
+  rows += `<row r="${rowNum}">
+    <c r="A${rowNum}" t="inlineStr" s="1"><is><t>供应商:</t></is></c>
+    <c r="B${rowNum}" t="inlineStr" s="2"><is><t>${escapeXml(data.supplier)} ${escapeXml(data.supplierAddress)}</t></is></c>
+  </row>`;
+  rowNum++;
+
+  rows += `<row r="${rowNum}">
+    <c r="A${rowNum}" t="inlineStr" s="1"><is><t>客户订单号:</t></is></c>
+    <c r="B${rowNum}" t="inlineStr" s="2"><is><t>${escapeXml(data.customerPO)}</t></is></c>
+    <c r="D${rowNum}" t="inlineStr" s="1"><is><t>客户名称:</t></is></c>
+    <c r="E${rowNum}" t="inlineStr" s="2"><is><t>${escapeXml(data.customerName)}</t></is></c>
+  </row>`;
+  rowNum++;
+
+  rows += `<row r="${rowNum}">
+    <c r="A${rowNum}" t="inlineStr" s="1"><is><t>交货日期:</t></is></c>
+    <c r="B${rowNum}" t="inlineStr" s="2"><is><t>${escapeXml(data.deliveryDate)}</t></is></c>
+    <c r="D${rowNum}" t="inlineStr" s="1"><is><t>付款方式:</t></is></c>
+    <c r="E${rowNum}" t="inlineStr" s="2"><is><t>${escapeXml(data.paymentTerms)}</t></is></c>
+  </row>`;
+  rowNum += 2;
+
+  // 产品表头
+  rows += `<row r="${rowNum}"><c r="A${rowNum}" t="inlineStr" s="1"><is><t>📦 产品明细与工艺</t></is></c></row>`;
+  rowNum++;
+
+  rows += `<row r="${rowNum}">
+    <c r="A${rowNum}" t="inlineStr" s="1"><is><t>序号</t></is></c>
+    <c r="B${rowNum}" t="inlineStr" s="1"><is><t>产品图片</t></is></c>
+    <c r="C${rowNum}" t="inlineStr" s="1"><is><t>产品编号</t></is></c>
+    <c r="D${rowNum}" t="inlineStr" s="1"><is><t>产品名称</t></is></c>
+    <c r="E${rowNum}" t="inlineStr" s="1"><is><t>材质</t></is></c>
+    <c r="F${rowNum}" t="inlineStr" s="1"><is><t>表面处理</t></is></c>
+    <c r="G${rowNum}" t="inlineStr" s="1"><is><t>其他细节</t></is></c>
+    <c r="H${rowNum}" t="inlineStr" s="1"><is><t>包装要求</t></is></c>
+    <c r="I${rowNum}" t="inlineStr" s="1"><is><t>数量</t></is></c>
+    <c r="J${rowNum}" t="inlineStr" s="1"><is><t>单价</t></is></c>
+    <c r="K${rowNum}" t="inlineStr" s="1"><is><t>金额</t></is></c>
+  </row>`;
+  rowNum++;
+
+  // 产品行
+  data.items.forEach((item, idx) => {
+    rows += `<row r="${rowNum}">
+      <c r="A${rowNum}" t="inlineStr" s="2"><is><t>${idx + 1}</t></is></c>
+      <c r="B${rowNum}" t="inlineStr" s="2"><is><t>${item.imageBase64 ? '图片' : '无图片'}</t></is></c>
+      <c r="C${rowNum}" t="inlineStr" s="2"><is><t>${escapeXml(item.productCode)}</t></is></c>
+      <c r="D${rowNum}" t="inlineStr" s="2"><is><t>${escapeXml(item.productName)}</t></is></c>
+      <c r="E${rowNum}" t="inlineStr" s="2"><is><t>${escapeXml(item.material)}</t></is></c>
+      <c r="F${rowNum}" t="inlineStr" s="2"><is><t>${escapeXml(item.surfaceFinish)}</t></is></c>
+      <c r="G${rowNum}" t="inlineStr" s="2"><is><t>${escapeXml(item.otherDetails)}</t></is></c>
+      <c r="H${rowNum}" t="inlineStr" s="2"><is><t>${escapeXml(item.packing)}</t></is></c>
+      <c r="I${rowNum}" s="2"><v>${item.qty}</v></c>
+      <c r="J${rowNum}" s="2"><v>${(Number(item.unitPrice) || 0).toFixed(2)}</v></c>
+      <c r="K${rowNum}" s="2"><v>${(Number(item.amount) || 0).toFixed(2)}</v></c>
+    </row>`;
+    rowNum++;
+  });
+
+  // 合计
+  rows += `<row r="${rowNum}">
+    <c r="J${rowNum}" t="inlineStr" s="1"><is><t>合计:</t></is></c>
+    <c r="K${rowNum}" s="1"><v>${(Number(data.totalAmount) || 0).toFixed(2)}</v></c>
+  </row>`;
+
+  return `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<worksheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+  <sheetData>
+    ${rows}
+  </sheetData>
+</worksheet>`;
+}
+
+// 生成共享字符串
+function generateSharedStrings(data) {
+  return `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<sst xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main" count="0" uniqueCount="0"/>`;
+}
+
+function escapeXml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
+// 准备合同数据（包含图片）
+async function prepareContractDataWithImages(purchase) {
+  const today = new Date().toISOString().split('T')[0];
+
+  // 查找关联订单
+  let customerPO = '';
+  let customerName = '';
+
+  const relatedOrder = (DB.orders || []).find(o => {
+    return (o.items || []).some(oi => {
+      return (purchase.items || []).some(pi => pi.productId === oi.productId);
+    });
+  });
+
+  if (relatedOrder) {
+    customerPO = relatedOrder.orderNo || '';
+    const customer = customerById(relatedOrder.customerId);
+    if (customer) {
+      customerName = customer.company || customer.contact || '';
+    }
+  }
+
+  // 加载公章图片
+  let companyStampBase64 = null;
+  try {
+    // 尝试多个可能的路径
+    const stampPaths = [
+      '/电子章.png',
+      './电子章.png',
+      'public/电子章.png',
+      './public/电子章.png',
+      '../public/电子章.png'
+    ];
+
+    for (const path of stampPaths) {
+      try {
+        console.log('尝试加载公章路径:', path);
+        const response = await fetch(path);
+        if (response.ok) {
+          const blob = await response.blob();
+          const reader = new FileReader();
+          companyStampBase64 = await new Promise((resolve) => {
+            reader.onloadend = () => {
+              const base64 = reader.result.split(',')[1];
+              resolve(base64);
+            };
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+          if (companyStampBase64) {
+            console.log('✅ 成功加载公章:', path, '长度:', companyStampBase64.length);
+            break;
+          }
+        }
+      } catch (pathError) {
+        console.log('路径失败:', path);
+      }
+    }
+
+    if (!companyStampBase64) {
+      console.warn('❌ 所有路径都无法加载公章');
+    }
+  } catch (e) {
+    console.warn('加载公章图片失败', e);
+  }
+
+  // 处理产品并加载图片
+  const itemsWithImages = await Promise.all((purchase.items || []).map(async item => {
+    const product = productById(item.productId);
+    let imageBase64 = null;
+
+    // 如果产品有图片，加载并转换为Base64
+    if (product && product.image) {
+      try {
+        console.log('尝试加载图片:', product.image, 'for product:', product.code);
+
+        // 判断是云端URL还是本地IndexedDB ID
+        if (product.image.startsWith('http://') || product.image.startsWith('https://')) {
+          // 云端图片：通过fetch下载
+          console.log('从云端加载图片:', product.image);
+          const response = await fetch(product.image);
+          if (response.ok) {
+            const blob = await response.blob();
+            console.log('云端图片下载成功，大小:', blob.size);
+
+            const reader = new FileReader();
+            imageBase64 = await new Promise((resolve) => {
+              reader.onloadend = () => {
+                const base64 = reader.result.split(',')[1];
+                console.log('转换为base64成功，长度:', base64 ? base64.length : 0);
+                resolve(base64);
+              };
+              reader.onerror = (err) => {
+                console.error('FileReader错误:', err);
+                resolve(null);
+              };
+              reader.readAsDataURL(blob);
+            });
+          } else {
+            console.warn('云端图片下载失败，状态:', response.status);
+          }
+        } else {
+          // 本地IndexedDB图片
+          console.log('从IndexedDB加载图片:', product.image);
+          const blob = await imgDB.get(product.image);
+          console.log('获取到blob:', blob);
+          if (blob) {
+            const reader = new FileReader();
+            imageBase64 = await new Promise((resolve) => {
+              reader.onloadend = () => {
+                const base64 = reader.result.split(',')[1];
+                console.log('转换为base64成功，长度:', base64 ? base64.length : 0);
+                resolve(base64);
+              };
+              reader.onerror = (err) => {
+                console.error('FileReader错误:', err);
+                resolve(null);
+              };
+              reader.readAsDataURL(blob);
+            });
+          } else {
+            console.warn('blob为空，产品:', product.code);
+          }
+        }
+      } catch (e) {
+        console.error('加载图片失败', product.image, e);
+      }
+    } else {
+      console.log('产品无图片:', product ? product.code : 'unknown', 'image:', product ? product.image : 'N/A');
+    }
+
+    return {
+      productCode: product ? (product.code || '') : '',
+      productName: item.productName || (product ? product.nameZh : ''),
+      material: item.material || '',
+      surfaceFinish: item.surfaceFinish || '',
+      otherDetails: item.otherDetails || (item.specs || ''),
+      packing: item.packingZh || (product ? product.packingZh : ''),
+      qty: item.qty || 0,
+      unitPrice: item.unitPriceWithTax || item.unitPriceNoTax || 0,
+      amount: (item.qty || 0) * (item.unitPriceWithTax || item.unitPriceNoTax || 0),
+      imageBase64: imageBase64
+    };
+  }));
+
+  return {
+    contractNo: customerPO || purchase.code || 'PUR000001',
+    buyer: '厦门趣可家居用品有限公司',
+    buyerFull: '厦门趣可家居用品有限公司 XIAMEN CHIC HOMEWARE CO., LTD',
+    signDate: today,
+    supplier: purchase.factoryName || '',
+    supplierAddress: purchase.factoryAddress || '',
+    customerPO: customerPO,
+    customerName: customerName,
+    deliveryDate: purchase.expectedDate || '',
+    paymentTerms: purchase.paymentTerms || '',
+    items: itemsWithImages,
+    marks: purchase.marks || {},
+    specialRequirements: purchase.notes || '',
+    totalAmount: calcPurchaseTotal(purchase),
+    companyStampBase64: companyStampBase64
+  };
+}
+
+// 生成HTML格式合同（Excel可以打开并保留图片）
+function generateContractHTML(data) {
+  const escapeHtml = (str) => {
+    if (!str) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  };
+
+  // 生成产品行
+  let productRows = '';
+  data.items.forEach((item, index) => {
+    const unitPrice = Number(item.unitPrice) || 0;
+    const amount = Number(item.amount) || 0;
+
+    // 图片
+    let imageHtml = '';
+    if (item.imageBase64) {
+      imageHtml = `<img src="data:image/png;base64,${item.imageBase64}" style="max-width:120px;max-height:90px;object-fit:contain;">`;
+    } else {
+      imageHtml = '<span style="color:#999;">无图片</span>';
+    }
+
+    productRows += `
+      <tr style="height:100px;">
+        <td style="text-align:center;">${index + 1}</td>
+        <td style="text-align:center;background:#fafafa;">${imageHtml}</td>
+        <td>${escapeHtml(item.productCode)}</td>
+        <td>${escapeHtml(item.productName)}</td>
+        <td>${escapeHtml(item.material)}</td>
+        <td>${escapeHtml(item.surfaceFinish)}</td>
+        <td>${escapeHtml(item.otherDetails)}</td>
+        <td>${escapeHtml(item.packing)}</td>
+        <td style="text-align:center;">${item.qty}</td>
+        <td style="text-align:right;">${unitPrice.toFixed(2)}</td>
+        <td style="text-align:right;">${amount.toFixed(2)}</td>
+      </tr>`;
+  });
+
+  // 唛头
+  const mainMark = data.marks.mainMark || `${data.customerName || 'CUSTOMER NAME'}
+PO NO.: ${data.customerPO || '_________'}
+ITEM NO.: __________
+MADE IN CHINA
+CARTON NO.: ___/___`;
+
+  const sideMark = data.marks.sideMark || `⚠ FRAGILE 易碎
+⬆ THIS SIDE UP 此面向上`;
+
+  // 公章
+  let stampHtml = '';
+  if (data.companyStampBase64) {
+    stampHtml = `<img src="data:image/png;base64,${data.companyStampBase64}" style="max-width:150px;max-height:150px;">`;
+  }
+
+  return `<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>采购合同</title>
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: "Microsoft YaHei", Arial, sans-serif; font-size: 12px; }
+table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+table, th, td { border: 1px solid #333; }
+th { background: #E8F4F8; padding: 10px; text-align: center; font-weight: bold; }
+td { padding: 8px; vertical-align: middle; }
+.header { text-align: center; font-size: 24px; font-weight: bold; margin: 20px 0; }
+.section-title { background: #4A90E2; color: white; padding: 10px; font-weight: bold; font-size: 14px; margin: 15px 0 5px; }
+.label { background: #F0F0F0; font-weight: bold; width: 150px; }
+.total-row { background: #FFF3CD; font-weight: bold; text-align: right; }
+.special-req { font-size: 14px; font-weight: bold; color: #D00000; padding: 15px; }
+</style>
+</head>
+<body>
+
+<div class="header">采购合同 PURCHASE CONTRACT</div>
+
+<div style="text-align:right; font-weight:bold; color:#D00000; margin:10px 0;">
+  合同编号: ${escapeHtml(data.contractNo)}
+</div>
+
+<div class="section-title">📋 基本信息</div>
+<table>
+  <tr>
+    <td class="label">采购方:</td>
+    <td colspan="2">${escapeHtml(data.buyerFull)}</td>
+    <td class="label">签订日期:</td>
+    <td>${escapeHtml(data.signDate)}</td>
+  </tr>
+  <tr>
+    <td class="label">供应商:</td>
+    <td colspan="4">${escapeHtml(data.supplier)} ${escapeHtml(data.supplierAddress)}</td>
+  </tr>
+  <tr>
+    <td class="label">客户订单号:</td>
+    <td>${escapeHtml(data.customerPO)}</td>
+    <td class="label">客户名称:</td>
+    <td colspan="2">${escapeHtml(data.customerName)}</td>
+  </tr>
+  <tr>
+    <td class="label">交货日期:</td>
+    <td>${escapeHtml(data.deliveryDate)}</td>
+    <td class="label">付款方式:</td>
+    <td colspan="2">${escapeHtml(data.paymentTerms)}</td>
+  </tr>
+</table>
+
+<div class="section-title">📦 产品明细与工艺</div>
+<table>
+  <thead>
+    <tr>
+      <th style="width:40px;">序号</th>
+      <th style="width:130px;">产品图片</th>
+      <th style="width:100px;">产品编号</th>
+      <th style="width:150px;">产品名称</th>
+      <th style="width:100px;">材质</th>
+      <th style="width:100px;">表面处理</th>
+      <th style="width:120px;">其他细节</th>
+      <th style="width:120px;">包装要求</th>
+      <th style="width:60px;">数量</th>
+      <th style="width:80px;">单价</th>
+      <th style="width:80px;">金额</th>
+    </tr>
+  </thead>
+  <tbody>
+    ${productRows}
+    <tr>
+      <td colspan="10" class="total-row">合计:</td>
+      <td class="total-row">¥${(Number(data.totalAmount) || 0).toFixed(2)}</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="section-title">📝 唛头</div>
+<table>
+  <tr>
+    <th style="width:50%;">主唛（箱子正面）</th>
+    <th style="width:50%;">侧唛（箱子侧面）</th>
+  </tr>
+  <tr style="height:150px;">
+    <td style="white-space:pre-wrap; vertical-align:top; padding:15px;">${escapeHtml(mainMark)}</td>
+    <td style="text-align:center; vertical-align:middle;">${escapeHtml(sideMark)}</td>
+  </tr>
+</table>
+
+<div class="section-title">✅ 质量标准</div>
+<table>
+  <tr>
+    <td class="label">尺寸公差:</td>
+    <td>±2mm (可接受范围)</td>
+  </tr>
+  <tr>
+    <td class="label">外观瑕疵:</td>
+    <td>无明显刮痕、凹陷、色差；允许微小色差但不影响整体美观</td>
+  </tr>
+  <tr>
+    <td class="label">功能测试:</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="label">AQL标准:</td>
+    <td>Major defects: 2.5, Minor defects: 4.0</td>
+  </tr>
+</table>
+
+<div class="section-title">⭐ 特殊要求与备注</div>
+<table>
+  <tr>
+    <td class="special-req">${escapeHtml(data.specialRequirements)}</td>
+  </tr>
+</table>
+
+<div style="margin-top:30px;">
+<table>
+  <tr>
+    <th style="width:50%;">采购方（带公章）</th>
+    <th style="width:50%;">供应商</th>
+  </tr>
+  <tr>
+    <td>公司: ${escapeHtml(data.buyer)}</td>
+    <td>公司:</td>
+  </tr>
+  <tr style="height:100px;">
+    <td style="vertical-align:middle; text-align:center;">
+      签字:<br><br>
+      ${stampHtml}
+    </td>
+    <td style="vertical-align:middle;">签字:</td>
+  </tr>
+  <tr>
+    <td>日期: ${escapeHtml(data.signDate)}</td>
+    <td>日期:</td>
+  </tr>
+</table>
+</div>
+
+</body>
+</html>`;
+}
+
+// 生成Excel XML
+function generateContractXML(data) {
+  const escapeXML = (str) => {
+    if (!str) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&apos;');
+  };
+
+  // 生成产品行
+  let productRows = '';
+  data.items.forEach((item, index) => {
+    const unitPrice = Number(item.unitPrice) || 0;
+    const amount = Number(item.amount) || 0;
+
+    // 如果有图片Base64数据，插入图片
+    let imageCell = '';
+    if (item.imageBase64) {
+      imageCell = `<Cell ss:StyleID="imagePlaceholder">
+     <Data ss:Type="String"></Data>
+     <ss:Data ss:Type="Bitmap">${item.imageBase64}</ss:Data>
+    </Cell>`;
+    } else {
+      imageCell = `<Cell ss:StyleID="imagePlaceholder"><Data ss:Type="String">无图片</Data></Cell>`;
+    }
+
+    productRows += `
+   <Row ss:Height="100">
+    <Cell ss:StyleID="tableCell"><Data ss:Type="String">${index + 1}</Data></Cell>
+    ${imageCell}
+    <Cell ss:StyleID="tableCell"><Data ss:Type="String">${escapeXML(item.productCode)}</Data></Cell>
+    <Cell ss:StyleID="tableCell"><Data ss:Type="String">${escapeXML(item.productName)}</Data></Cell>
+    <Cell ss:StyleID="tableCell"><Data ss:Type="String">${escapeXML(item.material)}</Data></Cell>
+    <Cell ss:StyleID="tableCell"><Data ss:Type="String">${escapeXML(item.surfaceFinish)}</Data></Cell>
+    <Cell ss:StyleID="tableCell"><Data ss:Type="String">${escapeXML(item.otherDetails)}</Data></Cell>
+    <Cell ss:StyleID="tableCell"><Data ss:Type="String">${escapeXML(item.packing)}</Data></Cell>
+    <Cell ss:StyleID="tableCell"><Data ss:Type="String">${item.qty}</Data></Cell>
+    <Cell ss:StyleID="tableCell"><Data ss:Type="String">${unitPrice.toFixed(2)}</Data></Cell>
+    <Cell ss:StyleID="tableCell"><Data ss:Type="String">${amount.toFixed(2)}</Data></Cell>
+   </Row>`;
+  });
+
+  // 唛头信息
+  const mainMark = data.marks.mainMark || `${data.customerName || 'CUSTOMER NAME'}
+PO NO.: ${data.customerPO || '_________'}
+ITEM NO.: __________
+MADE IN CHINA
+CARTON NO.: ___/___`;
+
+  const sideMark = data.marks.sideMark || `⚠ FRAGILE 易碎
+⬆ THIS SIDE UP 此面向上`;
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+ <Styles>
+  <Style ss:ID="header">
+   <Font ss:Bold="1" ss:Size="18"/>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="sectionTitle">
+   <Font ss:Bold="1" ss:Size="12" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#4A90E2" ss:Pattern="Solid"/>
+   <Alignment ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="tableHeader">
+   <Font ss:Bold="1" ss:Size="10"/>
+   <Interior ss:Color="#E8F4F8" ss:Pattern="Solid"/>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="tableCell">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+  </Style>
+  <Style ss:ID="imagePlaceholder">
+   <Interior ss:Color="#FAFAFA" ss:Pattern="Solid"/>
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="2" ss:Color="#CCCCCC"/>
+    <Border ss:Position="Bottom" ss:LineStyle="Dot" ss:Weight="2" ss:Color="#CCCCCC"/>
+    <Border ss:Position="Left" ss:LineStyle="Dot" ss:Weight="2" ss:Color="#CCCCCC"/>
+    <Border ss:Position="Right" ss:L

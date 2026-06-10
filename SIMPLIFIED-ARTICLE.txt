@@ -1,0 +1,28 @@
+// 简化版新文章 - 用于测试部署
+// 复制这个内容替换 blog.js 中第18-163行的内容
+
+  // ════════════════════════════════════ LATEST - SIMPLIFIED TEST ════════════════════════════════════
+  {
+    slug: 'wood-thickness-guide',
+    title: 'Wood Thickness Guide for Custom Wooden Boxes',
+    excerpt: 'Quick guide to choosing wood thickness for custom wooden boxes.',
+    date: '2026-06-10',
+    category: 'Buyer Guides',
+    readTime: '5 min read',
+    hero: '/wooden-box-1.jpg',
+    body: [
+      { type: 'p', text: 'Choosing the right wood thickness for custom wooden boxes is essential. This guide covers the basics of thickness selection for different box types and applications.' },
+
+      { type: 'h2', text: 'Common Thickness Options' },
+      { type: 'p', text: 'Most custom wooden boxes use thickness between 3mm and 12mm. The right choice depends on box size, product weight, and intended use.' },
+
+      { type: 'table', headers: ['Thickness', 'Best For'], rows: [
+        ['3-5mm', 'Small gift boxes, light items'],
+        ['6-8mm', 'Medium storage boxes, tea boxes'],
+        ['10-12mm', 'Large boxes, heavy items'],
+      ] },
+
+      { type: 'h2', text: 'Get Expert Advice' },
+      { type: 'p', text: 'Contact our team for personalized recommendations on wood thickness for your custom wooden box project.' },
+    ],
+  },
