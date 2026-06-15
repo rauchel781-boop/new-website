@@ -15,8 +15,8 @@ export const FAQS = {
         "a": "Oui. Nous proposons quatre finitions de logo en interne: debossing (impression encastrée), estampage à chaud avec feuille or/argent/bronze, sérigraphie et gravure au laser CO₂. Envoyez un logo vectoriel (AI, EPS ou PDF) et notre équipe de conception produit une maquette numérique avant l'outillage. La position, la profondeur et la couleur de la feuille sont toutes configurables."
       },
       {
-        "q": "Quel est le MOQ pour les boîtes-cadeaux en bois imprimées sur mesure?",
-        "a": "MOQ standard est de 200 pièces pour les boîtes-cadeaux de taille courante avec personnalisation du logo. Tailles entièrement personnalisées qui ont besoin de nouveaux outils commencent à 500 pièces. Les unités d'échantillonnage de pré-production (1-3 pcs) expédient dans les 7 jours ouvrables pour votre approbation de conception."
+        "q": "Quel est le MOQ pour les boîtes-cadeaux en bois personnalisées?",
+        "a": "Le MOQ standard est de 300 à 500 pièces selon la complexité du design. Les commandes d'essai à partir de 100 pièces peuvent être acceptées pour certains modèles simples sélectionnés. Les unités d'échantillons de pré-production (1-3 pcs) expédient dans les 7 jours ouvrables pour votre approbation de conception."
       },
       {
         "q": "Comment les inserts intérieurs sont-ils personnalisés pour les coffrets cadeaux?",
@@ -102,7 +102,7 @@ export const FAQS = {
       },
       {
         "q": "Quel est le délai d'exécution typique et MOQ pour les boîtes à vin personnalisées?",
-        "a": "MOQ est 200 pcs pour les boîtes simples ou doubles de stock-taille avec logo. Les tailles faites sur commande pour des magnums ou des ensembles commencent à 300 PCs. Le délai d'exécution standard est de 30-35 jours après approbation d'illustration; la production de précipitation (20-25 jours) est disponible pour un expédient des honoraires."
+        "a": "Le MOQ standard est de 300 à 500 pièces selon la complexité du design. Les commandes d'essai à partir de 100 pièces peuvent être acceptées pour des modèles simples de taille stock. Le délai d'exécution standard est de 30-35 jours après approbation d'illustration; la production de rush (20-25 jours) est disponible pour des frais accélérés."
       }
     ],
     "sectionTitle": "FAQ-Boîtes en bois pour vins, whiskies et spiritueux",
@@ -176,7 +176,7 @@ export const FAQS = {
       },
       {
         "q": "Quel est le MOQ et le délai d'exécution pour les boîtes de rangement personnalisées?",
-        "a": "MOQ est 200 pcs pour les boîtes de stock-taille avec logo. Les dimensions personnalisées ou les aménagements intérieurs personnalisés commencent à 300 pcs. Le délai d'exécution est de 30-35 jours après la signature d'illustration; 7 jours pour des unités témoin. Le coût de l'échantillon est remboursé contre la commande en gros."
+        "a": "Le MOQ standard est de 300 à 500 pièces selon la complexité du design. Les commandes d'essai à partir de 100 pièces peuvent être acceptées pour certains modèles simples sélectionnés. Le délai d'exécution est de 30-35 jours après la signature d'illustration; 7 jours pour des unités témoin. Le coût de l'échantillon est remboursé contre la commande en gros."
       },
       {
         "q": "Les boîtes de rangement sont-elles empilables?",
