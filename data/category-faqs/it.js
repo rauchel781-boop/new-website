@@ -15,8 +15,8 @@ export const FAQS = {
         "a": "Sì. Offriamo quattro finiture logo in-house: debossing (impressione incassata), stampa a caldo con lamina oro/argento/bronzo, serigrafia e incisione laser CO2:. Invia un logo vettoriale (AI, EPS o PDF) e il nostro team di progettazione produce un mockup digitale prima di attrezzare. Posizione, profondità e colore della lamina sono tutti configurabili."
       },
       {
-        "q": "Qual è il MOQ per le scatole regalo in legno stampate su misura?",
-        "a": "Il MOQ standard è di 200 pezzi per scatole regalo di stock-size con personalizzazione del logo. Le dimensioni completamente personalizzate che richiedono nuovi utensili partono da 500 pezzi. Le unità del campione di pre-produzione (1-3 pcs) spediscono entro 7 giorni lavorativi per la vostra approvazione di progettazione."
+        "q": "Qual è il MOQ per scatole regalo in legno personalizzate?",
+        "a": "Il MOQ standard è di 300-500 pezzi a seconda della complessità del design. Ordini di prova da 100 pezzi possono essere accettati per modelli semplici selezionati. Le unità del campione di pre-produzione (1-3 pcs) spediscono entro 7 giorni lavorativi per la vostra approvazione di progettazione."
       },
       {
         "q": "In che modo gli inserti interni sono personalizzati per i set regalo?",
@@ -102,7 +102,7 @@ export const FAQS = {
       },
       {
         "q": "Qual è il lead time tipico e MOQ per le scatole di vino di marca personalizzata?",
-        "a": "MOQ è 200 pcs per le scatole singole o doppie di stock-size con il logo. Le dimensioni personalizzate per magnums o set iniziano a 300 pz. Il lead time standard è di 30-35 giorni dopo l'approvazione dell'opera d'arte; la produzione di punta (20-25 giorni) è disponibile per una tassa di accelerazione."
+        "a": "Il MOQ standard è di 300-500 pezzi a seconda della complessità del design. Ordini di prova da 100 pezzi possono essere accettati per scatole semplici di dimensioni standard. Il lead time standard è di 30-35 giorni dopo l'approvazione dell'opera d'arte; la produzione di punta (20-25 giorni) è disponibile per una tassa di accelerazione."
       }
     ],
     "sectionTitle": "FAQ-Scatole in legno di vino, whisky e alcolici",
@@ -176,7 +176,7 @@ export const FAQS = {
       },
       {
         "q": "Qual è il MOQ e il tempo di consegna per le scatole di immagazzinaggio personalizzate?",
-        "a": "MOQ è 200 pcs per le scatole di stock-size con il logo. Le dimensioni personalizzate o i layout interni personalizzati iniziano a 300 pezzi. Il tempo di piombo è di 30-35 giorni dopo la firma dell'opera d'arte; 7 giorni per le unità del campione. Il costo del campione è rimborsato contro l'ordine all'ingrosso."
+        "a": "Il MOQ standard è di 300-500 pezzi a seconda della complessità del design. Ordini di prova da 100 pezzi possono essere accettati per modelli semplici selezionati. Il tempo di piombo è di 30-35 giorni dopo la firma dell'opera d'arte; 7 giorni per le unità del campione. Il costo del campione è rimborsato contro l'ordine all'ingrosso."
       },
       {
         "q": "Le scatole di immagazzinaggio sono impilabili?",

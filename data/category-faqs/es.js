@@ -15,8 +15,8 @@ export const FAQS = {
         "a": "Sí. Ofrecemos cuatro acabados de logotipo internos: debossing (impresión empotrada), estampado en caliente con lámina de oro/plata/bronce, serigrafía y grabado láser de CO₂. Envíe un logotipo vectorial (AI, EPS o PDF) y nuestro equipo de diseño produce una maqueta digital antes de las herramientas. La posición, la profundidad y el color de la lámina son configurables."
       },
       {
-        "q": "¿Cuál es el MOQ para cajas de regalo de madera impresas a medida?",
-        "a": "MOQ estándar es de 200 piezas para cajas de regalo de tamaño de stock con personalización de logotipo. Tamaños totalmente personalizados que necesitan nuevas herramientas comienzan en 500 piezas. Las unidades de la muestra de la preproducción (1-3 PC) nave en el plazo de 7 días laborables para su aprobación del diseño."
+        "q": "¿Cuál es el MOQ para cajas de regalo de madera personalizadas?",
+        "a": "El MOQ estándar es de 300 a 500 piezas dependiendo de la complejidad del diseño. Se pueden aceptar pedidos de prueba desde 100 piezas para modelos simples seleccionados. Las unidades de la muestra de la preproducción (1-3 PC) nave en el plazo de 7 días laborables para su aprobación del diseño."
       },
       {
         "q": "¿Cómo se personalizan las inserciones interiores para conjuntos de regalo?",
@@ -102,7 +102,7 @@ export const FAQS = {
       },
       {
         "q": "¿Cuál es el tiempo de entrega típico y el MOQ para las cajas de vino de marca personalizada?",
-        "a": "MOQ es 200 pcs para las cajas solas o dobles del acción-tamaño con el logotipo. Los tamaños personalizados para magnums o sets comienzan en 300 unidades. El plazo de ejecución estándar es 30-35 días después de la aprobación de la obra de arte; la producción rápida (20-25 días) está disponible para una tarifa expedita."
+        "a": "El MOQ estándar es de 300 a 500 piezas dependiendo de la complejidad del diseño. Se pueden aceptar pedidos de prueba desde 100 piezas para cajas simples de tamaño estándar. El plazo de ejecución estándar es 30-35 días después de la aprobación de la obra de arte; la producción rápida (20-25 días) está disponible para una tarifa expedita."
       }
     ],
     "sectionTitle": "FAQ-Cajas de madera de vino, whisky y licores",
@@ -176,7 +176,7 @@ export const FAQS = {
       },
       {
         "q": "¿Cuál es el MOQ y el tiempo de entrega para cajas de almacenamiento personalizadas?",
-        "a": "MOQ es 200 pcs para las cajas del stock-tamaño con el logotipo. Las dimensiones personalizadas o los diseños interiores personalizados comienzan en 300 piezas. El tiempo de entrega es de 30-35 días después de la firma de obras de arte; 7 días para unidades de muestra. El costo de la muestra se reembolsa contra el pedido a granel."
+        "a": "El MOQ estándar es de 300 a 500 piezas dependiendo de la complejidad del diseño. Se pueden aceptar pedidos de prueba desde 100 piezas para modelos simples seleccionados. El tiempo de entrega es de 30-35 días después de la firma de obras de arte; 7 días para unidades de muestra. El costo de la muestra se reembolsa contra el pedido a granel."
       },
       {
         "q": "¿Las cajas de almacenamiento son apilables?",
