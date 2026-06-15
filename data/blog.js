@@ -43,7 +43,7 @@ export const POSTS = [
         ['12–15mm', 'Large boxes, heavy-duty storage, tool boxes, commercial display', 'Very strong and durable, supports heavy products', 'Usually used for larger orders or special industrial applications'],
       ] },
       { type: 'p', text: 'The most common thickness we produce is 5mm, accounting for about 60% of our custom wooden box orders. This thickness offers the best cost-performance ratio for gift boxes, tea boxes, jewelry boxes, and standard retail packaging. Buyers move to 6–8mm when they need internal dividers, premium positioning, or frequent opening and closing (like watch boxes or storage boxes). Buyers move down to 3mm when cost is the primary concern and the box size is under 15 cm. Buyers move up to 10mm+ when the product inside is heavy (like wine bottles), when the box needs to support stacking, or when the brand positioning is ultra-premium.' },
-      { type: 'img', src: '/folder/1-cutting-to-size.jpg', caption: '3mm, 5mm, 8mm, and 10mm wood thickness comparison — our CNC cutting line handles all standard thicknesses.' },
+      { type: 'img', src: '/folder/1-cutting-to-size.webp', caption: '3mm, 5mm, 8mm, and 10mm wood thickness comparison — our CNC cutting line handles all standard thicknesses.' },
 
       { type: 'h2', text: 'Recommended Thickness by Box Type' },
       { type: 'p', text: 'Different wooden box products have different structural requirements, usage patterns, and customer expectations. Here\'s what our factory typically recommends for each major box type based on 15+ years of OEM manufacturing experience.' },
@@ -56,12 +56,12 @@ export const POSTS = [
       { type: 'h3', text: 'Wooden Tea Boxes' },
       { type: 'p', text: 'Tea boxes almost always require 5–8mm thickness because they typically include internal dividers (to separate different tea varieties), a glass or acrylic window in the lid (which requires a frame groove), and metal clasps or hinges. The dividers need slots routed into the box base, and those slots can\'t be cut into 3mm material without weakening the structure. Additionally, tea boxes are used repeatedly (daily or weekly), so they need to withstand frequent opening and closing without the lid becoming loose or warped.' },
       { type: 'p', text: 'For premium bamboo or acacia tea boxes targeting US and EU markets, we recommend 8mm material with 4mm dividers. This provides a solid, high-quality feel that matches the premium positioning of specialty tea brands. For mid-tier tea boxes with 6–12 compartments, 6mm box walls with 3mm dividers offer good stability at a reasonable cost. For budget tea boxes with fixed dividers (not removable), 5mm throughout is acceptable.' },
-      { type: 'img', src: '/tea-coffee-boxes/8-dividers-acacia-tea-bag-box/tea-box-1.jpg', caption: 'Custom wooden tea boxes with dividers typically require 6–8mm walls and 3–4mm removable dividers for structural stability.' },
+      { type: 'img', src: '/tea-coffee-boxes/8-dividers-acacia-tea-bag-box/tea-box-1.webp', caption: 'Custom wooden tea boxes with dividers typically require 6–8mm walls and 3–4mm removable dividers for structural stability.' },
 
       { type: 'h3', text: 'Wooden Watch Boxes' },
       { type: 'p', text: 'Watch boxes require 6–10mm thickness because they need to support heavy hardware (metal hinges, locks, clasps), internal cushions or pillows (which require mounting grooves), and often a glass display lid (which adds weight). Watch boxes are also handled frequently and expected to last for years, so durability is critical. A watch box that feels flimsy undermines the value perception of the watch inside.' },
       { type: 'p', text: 'For single-watch boxes, we typically recommend 8mm walls and lid with 5mm dividers (if the box has multiple slots). For multi-watch display boxes (4–12 watches), we recommend 10mm outer walls because the larger size and heavier lid require more structural support. The lid should never be thinner than 8mm for watch boxes because thin lids sag over time and the hinges can pull out of the wood.' },
-      { type: 'img', src: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.png', caption: 'Wooden watch boxes require 8–10mm thickness to support hinges, locks, and internal cushions while maintaining premium feel.' },
+      { type: 'img', src: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', caption: 'Wooden watch boxes require 8–10mm thickness to support hinges, locks, and internal cushions while maintaining premium feel.' },
 
       { type: 'h3', text: 'Wooden Wine Boxes' },
       { type: 'p', text: 'Wine boxes require 8–12mm thickness because wine bottles are heavy (750ml bottle = approximately 1.2 kg) and wine boxes are often shipped long distances or stored in cellars where humidity fluctuates. Thin wood will warp under the weight of the bottle, and the box needs to protect the bottle during transport. Additionally, wine boxes are often kept as collectibles or reused for storage, so customers expect solid construction.' },
@@ -111,7 +111,7 @@ export const POSTS = [
       ] },
       { type: 'p', text: 'The relationship between size and thickness is not linear — doubling the box size requires more than doubling the thickness because larger surfaces have more area to flex and warp. Additionally, larger boxes are more likely to be used for heavier products, stacked during storage, or subjected to rough handling during shipping, all of which require thicker material.' },
       { type: 'p', text: 'When designing a custom wooden box, always consider the diagonal dimension as well as the length and width. A 40 × 10 cm box (long and narrow) can use thinner material than a 30 × 30 cm box (square) because the narrow dimension provides more resistance to flexing. Similarly, a tall box (15 × 15 × 30 cm) needs thicker walls than a flat box (30 × 30 × 5 cm) because vertical walls are more prone to bowing.' },
-      { type: 'img', src: '/gift-boxes/sliding-lid-box/main.jpg', caption: 'Custom wooden box size directly impacts recommended thickness — larger boxes require thicker material to prevent warping.' },
+      { type: 'img', src: '/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp', caption: 'Custom wooden box size directly impacts recommended thickness — larger boxes require thicker material to prevent warping.' },
 
       { type: 'h2', text: 'Thickness for Lids, Bottoms, Dividers, and Inserts' },
       { type: 'p', text: 'When specifying wood thickness for a custom wooden box, buyers often focus only on the outer walls and forget about the lid, bottom, dividers, and inserts. Each of these components has different structural requirements and thickness recommendations.' },
@@ -1675,8 +1675,4 @@ export function getPostBySlug(slug) {
   return POSTS.find((p) => p.slug === slug);
 }
 
-export function getRelatedPosts(slug) {
-  const post = getPostBySlug(slug);
-  if (!post || !post.related) return [];
-  return post.related.map(getPostBySlug).filter(Boolean);
-}
+export function getRelatedPo
