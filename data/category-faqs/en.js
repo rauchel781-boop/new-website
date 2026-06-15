@@ -34,8 +34,8 @@ export const FAQS = {
         a: 'Yes. We offer four logo finishes in-house: debossing (recessed impression), hot-stamping with gold / silver / bronze foil, screen printing, and CO₂ laser engraving. Send a vector logo (AI, EPS, or PDF) and our design team produces a digital mockup before tooling. Position, depth, and foil color are all configurable.',
       },
       {
-        q: 'What is the MOQ for custom-printed wooden gift boxes?',
-        a: 'Standard MOQ is 200 pieces for stock-size gift boxes with logo customization. Fully custom sizes that need new tooling start at 500 pieces. Pre-production sample units (1-3 pcs) ship within 7 working days for your design approval.',
+        q: 'What is the MOQ for custom wooden gift boxes?',
+        a: 'Standard MOQ is 300–500 pcs depending on design complexity. Trial orders from 100 pcs may be accepted for selected simple models with stock dimensions. Pre-production sample units (1-3 pcs) ship within 7 working days for your design approval.',
       },
       {
         q: 'How are interior inserts customized for gift sets?',
@@ -127,7 +127,7 @@ export const FAQS = {
       },
       {
         q: 'What\'s the typical lead time and MOQ for custom-branded wine boxes?',
-        a: 'MOQ is 200 pcs for stock-size single or double boxes with logo. Custom sizes for magnums or sets start at 300 pcs. Standard lead time is 30-35 days after artwork approval; rush production (20-25 days) is available for an expedite fee.',
+        a: 'Standard MOQ is 300–500 pcs depending on design complexity. Trial orders from 100 pcs may be accepted for simple stock-size boxes. Lead time is 30-35 days after artwork approval; rush production (20-25 days) is available for an expedite fee.',
       },
     ],
   },
@@ -207,7 +207,7 @@ export const FAQS = {
       },
       {
         q: 'What\'s the MOQ and lead time for custom storage boxes?',
-        a: 'MOQ is 200 pcs for stock-size boxes with logo. Custom dimensions or custom interior layouts start at 300 pcs. Lead time is 30-35 days after artwork sign-off; 7 days for sample units. Sample cost is refunded against the bulk order.',
+        a: 'Standard MOQ is 300–500 pcs depending on design complexity. Trial orders from 100 pcs may be accepted for selected simple models. Lead time is 30-35 days after artwork sign-off; 7 days for sample units. Sample cost is refunded against the bulk order.',
       },
       {
         q: 'Are storage boxes stackable?',
