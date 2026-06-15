@@ -15,8 +15,8 @@ export const FAQS = {
         "a": "Ja. Wir bieten vier Logo-Oberflächen im eigenen Haus an: Debossing (Vertiefung), Heiß prägen mit Gold-/Silber-/Bronze folie, Siebdruck und CO₂-Laser gravur. Senden Sie ein Vektor logo (AI, EPS oder PDF) und unser Designt eam erstellt vor dem Werkzeug ein digitales Modell. Position, Tiefe und Folien farbe sind alle kon figur ierbar."
       },
       {
-        "q": "Was ist das MOQ für individuell bedruckte Geschenk boxen aus Holz?",
-        "a": "Standard MOQ ist 200 Stück für Geschenk boxen auf Lager größe mit Logo-Anpassung. Vollständig benutzer definierte Größen, die neue Werkzeuge benötigen, beginnen bei 500 Stück. Muster einheiten vor der Produktion (1-3 Stück) werden innerhalb von 7 Arbeitstagen für Ihre Entwurfs genehmigung versendet."
+        "q": "Was ist das MOQ für individuell gestaltete Geschenkboxen aus Holz?",
+        "a": "Die Standard-MOQ beträgt 300–500 Stück, abhängig von der Designkomplexität. Testbestellungen ab 100 Stück können für ausgewählte einfache Modelle akzeptiert werden. Mustereinheiten vor der Produktion (1-3 Stück) werden innerhalb von 7 Arbeitstagen für Ihre Entwurfsgenehmigung versendet."
       },
       {
         "q": "Wie werden Innen einsätze für Geschenks ets angepasst?",
@@ -101,8 +101,8 @@ export const FAQS = {
         "a": "Für Massivholz kisten, die in die EU, nach Großbritannien, Australien, in die USA und nach Japan geliefert werden, stellen wir bei jeder Exports endung Pflanzen gesundheits zertifikate zur Verfügung. Paletten werden mit ISPM-15 (HT-Stempel) wärme behandelt-erforderlich für Massivholz paletten, die in die meisten Länder gelangen. Die Boxen selbst sind ofen getrocknet (KD-Behandlung), sodass sie nicht einzeln ISPM-15 stempeln müssen."
       },
       {
-        "q": "Was ist die typische Vorlaufzeit und MOQ für Wein kisten mit benutzer definierter Marke?",
-        "a": "MOQ ist 200 pcs für Einzel-oder Doppel boxen auf Lager größe mit Logo. Benutzer definierte Größen für Magnums oder Sets beginnen bei 300 pcs. Die Standard vorlaufzeit beträgt 30-35 Tage nach der Genehmigung des Kunstwerks. Die Eil produktion (20-25 Tage) ist gegen eine beschleunigte Gebühr erhältlich."
+        "q": "Was ist die typische Vorlaufzeit und MOQ für Weinkisten mit individueller Marke?",
+        "a": "Die Standard-MOQ beträgt 300–500 Stück, abhängig von der Designkomplexität. Testbestellungen ab 100 Stück können für einfache Standardgrößen akzeptiert werden. Die Standardvorlaufzeit beträgt 30-35 Tage nach der Genehmigung des Kunstwerks. Die Eilproduktion (20-25 Tage) ist gegen eine Beschleunigungsgebühr erhältlich."
       }
     ],
     "sectionTitle": "FAQ-Wein, Whisky & Spirituosen Holzkisten",
@@ -175,8 +175,8 @@ export const FAQS = {
         "a": "Ja für \"modulare\" SKUs-sie verwenden geschlitzte Seitens chienen, damit die Trennwände in Schritten von 1 cm gleiten. Fixed-Teiler-SKUs sind gedübelt und geklebt und können nicht bewegt werden. Spec die modulare Version, wenn Ihr Endkunde wahr schein lich neu konfigurieren wird (Schmuck käufer, Hobbyisten). Modulare Kosten ~ 15% mehr."
       },
       {
-        "q": "Was ist das MOQ und die Vorlaufzeit für kunden spezifische Aufbewahrung boxen?",
-        "a": "MOQ ist 200 pcs für lager-größe boxen mit logo. Benutzer definierte Abmessungen oder benutzer definierte Innen layouts beginnen bei 300 pcs. Die Lieferzeit beträgt 30-35 Tage nach der Abmeldung des Kunstwerks. 7 Tage für Proben einheiten. Die Muster kosten werden gegen die Groß bestellung zurück erstattet."
+        "q": "Was ist das MOQ und die Vorlaufzeit für kundenspezifische Aufbewahrungsboxen?",
+        "a": "Die Standard-MOQ beträgt 300–500 Stück, abhängig von der Designkomplexität. Testbestellungen ab 100 Stück können für ausgewählte einfache Modelle akzeptiert werden. Die Lieferzeit beträgt 30-35 Tage nach der Abmeldung des Kunstwerks. 7 Tage für Mustereinheiten. Die Musterkosten werden gegen die Großbestellung zurückerstattet."
       },
       {
         "q": "Sind Aufbewahrung boxen stapelbar?",
