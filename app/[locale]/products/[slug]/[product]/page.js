@@ -468,7 +468,17 @@ export default async function ProductDetail({ params }) {
       url: SITE.siteUrl,
     },
     url: `${SITE.siteUrl}${localePrefix}${productPath}`,
-    ...(additionalProperty.length > 0 && { additionalProperty }),
+   // B2B product: price on request. Use AggregateOffer to indicate inquiry-based pricing.
+    offers: {
+      '@type': 'AggregateOffer',
+      priceCurrency: 'USD',
+      availability: 'https://schema.org/PreOrder',
+      url: `${SITE.siteUrl}${localePrefix}${productPath}`,
+      seller: {
+        '@type': 'Organization',
+        name: SITE.company.legalName,
+      },
+    }, ...(additionalProperty.length > 0 && { additionalProperty }),
   };
   const breadcrumbLd = {
     '@context': 'https://schema.org',

@@ -17,6 +17,54 @@
 export const POSTS = [
   // ════════════════════════════════════ LATEST ════════════════════════════════════
   {
+    slug: 'eva-vs-epe-vs-velvet-vs-felt-insert-guide',
+    title: 'EVA vs EPE vs Velvet vs Felt: How to Choose an Insert for Wooden Boxes',
+    excerpt: 'A comprehensive guide to selecting the perfect insert material for your wooden boxes. Compare EVA foam, EPE foam, velvet, and felt liners across protection, cost, aesthetics, and sustainability.',
+    date: '2026-06-26',
+    category: 'Materials',
+    readTime: '12 min read',
+    hero: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp',
+    body: [
+      { type: 'p', text: 'When designing custom wooden boxes, the insert material is just as critical as the box itself. The wrong choice can lead to damaged products, increased costs, or a presentation that fails to impress your customers. In this comprehensive guide, we\'ll compare four popular insert materials—EVA foam, EPE foam, velvet, and felt—across key decision factors including protection level, cost-effectiveness, aesthetic appeal, environmental impact, and customization options.' },
+      { type: 'h2', text: 'Material Overview' },
+      { type: 'p', text: 'Let\'s start with a quick snapshot of each material. EVA (Ethylene-Vinyl Acetate) is a closed-cell foam known for its density, durability, and superior impact resistance. EPE (Expanded Polyethylene) is an open-cell foam that\'s lightweight, flexible, and cost-effective. Velvet is a soft, plush textile known for its rich texture and premium aesthetic. Felt is a non-woven fabric made from pressed wool fibers, offering a soft, matte finish and increasing popularity for eco-conscious brands.' },
+      { type: 'table', headers: ['Material', 'Type', 'Primary Use', 'Key Strength'], rows: [
+        ['EVA Foam', 'Synthetic polymer', 'High-impact protection', 'Superior shock absorption'],
+        ['EPE Foam', 'Polyethylene foam', 'General cushioning', 'Lightweight & affordable'],
+        ['Velvet', 'Textile (synthetic/natural)', 'Luxury presentation', 'Premium aesthetic'],
+        ['Felt', 'Pressed wool/synthetic fibers', 'Eco-friendly cushioning', 'Sustainable & soft'],
+      ] },
+      { type: 'h2', text: 'EVA Foam: Premium Protection' },
+      { type: 'p', text: 'EVA (Ethylene-Vinyl Acetate) is a closed-cell foam known for its density, durability, and superior impact resistance. It\'s the material you\'ll find in yoga mats, shoe soles, and high-end electronics packaging. EVA offers excellent shock absorption, with a density of 40-60 Shore C. It provides precision die-cutting capabilities and can be flocked with velvet for a luxury finish. While it comes at a premium price point, EVA is ideal for high-value electronics like watches, cameras, and phones, medical instruments, tools requiring precise fit, and products needing reusable packaging.' },
+      { type: 'h2', text: 'EPE Foam: Versatile Cushioning' },
+      { type: 'p', text: 'EPE (Expanded Polyethylene) is an open-cell foam that\'s lightweight, flexible, and cost-effective. It\'s the "bubble wrap" of foams—soft, squishy, and excellent for general cushioning. EPE provides good shock absorption with a lower density of 20-30 Shore C, making it softer and more compressible than EVA. It\'s budget-friendly and recyclable with low manufacturing emissions. EPE is best for moderate protection needs, bulk packaging for shipping multiple units, budget-conscious projects, and products with regular shapes that don\'t require complex contours.' },
+      { type: 'h2', text: 'Velvet: Luxury Presentation' },
+      { type: 'p', text: 'Velvet is a soft, plush textile (natural silk or synthetic polyester) known for its rich texture and premium aesthetic. It\'s commonly used in jewelry boxes, perfume packaging, and high-end gift sets. While velvet offers minimal shock absorption on its own and requires padding beneath, it provides an unmatched luxury feel with excellent customization options. Velvet is ideal for jewelry and precious items, perfume and cosmetics, luxury gifts and awards, and products where the unboxing experience is critical. Many brands combine velvet with foam, using EVA or EPE as the base cushioning layer with velvet flocking on top for aesthetics.' },
+      { type: 'h2', text: 'Felt: Classic & Sustainable' },
+      { type: 'p', text: 'Felt is a non-woven fabric made from pressed wool fibers (or synthetic alternatives). It offers a soft, matte finish and is increasingly popular for eco-conscious brands. Felt provides moderate cushioning with an elegant, understated luxury aesthetic. It\'s easy to cut, dye, and shape, offering excellent customization options. Wool felt is biodegradable with recycled synthetics available, making it the most sustainable option. Felt is best for eco-conscious brands, artisan and handmade products, moderate-weight items like books, ceramics, and glassware, and brands seeking a natural aesthetic.' },
+      { type: 'h2', text: 'Head-to-Head Comparison' },
+      { type: 'p', text: 'When comparing all four materials across key criteria, each has distinct strengths. EVA foam excels in protection (5/5 stars) but comes at a premium cost ($$$). EPE foam offers good protection (4/5 stars) at budget-friendly pricing ($). Velvet provides minimal protection (2/5 stars) but unmatched aesthetics (5/5 stars) at premium cost. Felt offers moderate protection (3/5 stars) with excellent sustainability (5/5 stars) at mid-range pricing ($$).' },
+      { type: 'table', headers: ['Criteria', 'EVA Foam', 'EPE Foam', 'Velvet', 'Felt'], rows: [
+        ['Protection Level', '⭐⭐⭐⭐⭐', '⭐⭐⭐⭐', '⭐⭐', '⭐⭐⭐'],
+        ['Cost', '$$$', '$', '$$$', '$$'],
+        ['Aesthetics', '⭐⭐⭐⭐', '⭐⭐', '⭐⭐⭐⭐⭐', '⭐⭐⭐⭐'],
+        ['Customization', '⭐⭐⭐⭐⭐', '⭐⭐⭐', '⭐⭐⭐⭐', '⭐⭐⭐⭐'],
+        ['Sustainability', '⭐⭐', '⭐⭐⭐', '⭐⭐⭐', '⭐⭐⭐⭐⭐'],
+        ['Best For', 'Electronics, tools', 'Bulk shipping', 'Jewelry, perfume', 'Eco brands, artisan goods'],
+      ] },
+      { type: 'h2', text: 'Decision Framework' },
+      { type: 'p', text: 'Use this decision framework to select your ideal insert material. First, assess product fragility: fragile items like electronics and glass need EVA or EPE, moderate items can use EPE or felt, and sturdy items work well with velvet or felt. Second, define your budget range: premium budgets ($$$) can afford EVA or velvet, mid-range ($$) suits felt, and budget ($) projects should use EPE. Third, consider brand positioning: luxury brands benefit from velvet with EVA base, eco-conscious brands should choose felt, tech and professional brands suit EVA, and value-focused brands work well with EPE. Finally, evaluate production volume: high volume orders over 1,000 units benefit from automated cutting of EVA or EPE, medium volume 100-1,000 units can use any material, and low volume under 100 units find felt or velvet easier for manual work.' },
+      { type: 'h2', text: 'Real-World Applications' },
+      { type: 'p', text: 'A luxury watch brand facing the challenge of protecting high-value timepieces while maintaining premium presentation used a base layer of EVA foam die-cut to watch shape with a top layer of velvet flocking on the EVA surface, achieving 5-star protection plus luxury unboxing at $3-5 per insert with MOQ 500. An artisan candle company needing eco-friendly packaging for handmade candles used wool felt inserts custom-cut to fit candle jars, with the natural, sustainable image aligning with their brand and resulting in a 30% increase in repeat purchases at $1.50-2 per insert with MOQ 100. An e-commerce electronics company shipping Bluetooth speakers safely at scale used EPE foam corner protectors with center cushion, achieving lightweight shipping cost reduction and dropping damage rate from 5% to less than 1% at $0.50-0.80 per insert with MOQ 1,000.' },
+      { type: 'h2', text: 'Expert Selection Tips' },
+      { type: 'p', text: 'Always order samples with your actual product and drop test from waist height—if the product survives, the insert works. Consider the full lifecycle: for storage, evaluate if boxes will be stacked, as EVA and EPE resist compression better; for shipping, international shipments need heavier protection like EVA; for reusability, luxury brands benefit from durable inserts customers keep, such as EVA plus velvet. Don\'t limit yourself to one material—the best inserts often combine EVA base for structure with velvet top for aesthetics, or EPE cushion with felt dividers for eco-friendliness plus function.' },
+      { type: 'p', text: 'Factor in MOQ (Minimum Order Quantity): EVA foam typically requires 300-500 units due to die-cutting setup cost, EPE foam needs 500-1,000 units, velvet liners require 100-300 units, and felt only 50-100 units as it\'s easier to work with in small batches. For food, medical, or children\'s products, verify RoHS compliance for no hazardous substances, REACH certification for EU chemical regulations, and FDA approval for food-contact materials.' },
+      { type: 'h2', text: 'Conclusion' },
+      { type: 'p', text: 'Choosing the right insert material for your wooden boxes comes down to balancing protection, cost, aesthetics, and brand values. EVA foam offers premium protection and customization at $$$ but is worth it for high-value products. EPE foam provides affordable, lightweight cushioning for general use at $. Velvet delivers luxury presentation best when paired with foam base at $$$. Felt provides eco-friendly, elegant, and versatile options at $$. For most custom wooden box projects, we recommend starting with EVA foam as your base, then adding velvet or felt on top if your budget allows. This gives you the best of both worlds—protection you can trust plus presentation that delights.' },
+    ],
+    related: ['wooden-box-finishing-techniques', 'wooden-watch-box-anatomy', 'custom-wooden-box-hardware-guide'],
+  },
+  {
     slug: 'how-to-choose-wood-thickness-for-custom-wooden-boxes',
     title: 'How to Choose Wood Thickness for Custom Wooden Boxes: A Buyer\'s Guide',
     excerpt: 'Choosing the right wood thickness for custom wooden boxes depends on box size, product weight, material, structure, lid design, hardware, and shipping method. Complete guide from 3mm to 15mm thickness options for gift boxes, tea boxes, watch boxes, wine boxes, and storage boxes.',
@@ -1675,4 +1723,8 @@ export function getPostBySlug(slug) {
   return POSTS.find((p) => p.slug === slug);
 }
 
-export function getRelatedPo
+export function getRelatedPosts(slug) {
+  const post = getPostBySlug(slug);
+  if (!post || !post.related) return [];
+  return post.related.map(getPostBySlug).filter(Boolean);
+}
