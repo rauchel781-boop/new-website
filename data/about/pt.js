@@ -129,7 +129,7 @@ export const COPY = {
     titleA: 'Construído por Gente da Madeira,',
     titleEm: 'para Gente de Marca.',
     p1html:
-      '<strong>Xiamen Chic Homeware Co.,Ltd. foi fundada em 2021</strong> por uma equipa de veteranos da indústria chinesa de produtos em madeira. O nosso fundador passou mais de duas décadas dentro do comércio da madeira — a percorrer pátios de Cao County, a executar programas CNC em Heze e a gerir encomendas de exportação a partir de Xiamen — antes de fundar a Chic para fazer as coisas de forma diferente.',
+      '<strong>Xiamen Chic Homeware Co.,Ltd. foi fundada em 2021</strong> por uma equipa de veteranos da indústria chinesa de produtos em madeira. O nosso fundador, <strong>Chuan Pu</strong>, passou mais de duas décadas dentro do comércio da madeira — a percorrer pátios de Cao County, a executar programas CNC em Heze e a gerir encomendas de exportação a partir de Xiamen — antes de fundar a Chic para fazer as coisas de forma diferente.',
     p2html:
       'A premissa era simples: combinar uma fábrica real em <strong>Cao County, Shandong</strong> — o coração histórico da indústria chinesa de caixas de madeira — com um moderno escritório de vendas em <strong>Xiamen, Fujian</strong>, uma das principais portas de exportação do país. Um lado trata da madeira; o outro lado trata do mundo.',
     p3html:

@@ -129,7 +129,7 @@ export const COPY = {
     titleA: 'Gebaut von Holz-Leuten,',
     titleEm: 'für Marken-Leute.',
     p1html:
-      '<strong>Xiamen Chic Homeware Co.,Ltd. wurde 2021 gegründet</strong> von einem Team von Veteranen der chinesischen Holzproduktindustrie. Unser Gründer verbrachte mehr als zwei Jahrzehnte im Holzhandel — durchstreifte Holzplätze in Cao County, fuhr CNC-Programme in Heze und steuerte Exportaufträge aus Xiamen — bevor er Chic gründete, um Dinge anders zu machen.',
+      '<strong>Xiamen Chic Homeware Co.,Ltd. wurde 2021 gegründet</strong> von einem Team von Veteranen der chinesischen Holzproduktindustrie. Unser Gründer <strong>Chuan Pu</strong> verbrachte mehr als zwei Jahrzehnte im Holzhandel — durchstreifte Holzplätze in Cao County, fuhr CNC-Programme in Heze und steuerte Exportaufträge aus Xiamen — bevor er Chic gründete, um Dinge anders zu machen.',
     p2html:
       'Die Prämisse war einfach: Ein echtes Werk in <strong>Cao County, Shandong</strong> — dem historischen Herzen der chinesischen Holzboxen-Industrie — kombinieren mit einem modernen Vertriebsbüro in <strong>Xiamen, Fujian</strong>, einem der führenden Exporttore des Landes. Die eine Seite kümmert sich um das Holz; die andere Seite um die Welt.',
     p3html:

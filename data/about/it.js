@@ -129,7 +129,7 @@ export const COPY = {
     titleA: 'Costruita da Gente del Legno,',
     titleEm: 'per Gente di Brand.',
     p1html:
-      '<strong>Xiamen Chic Homeware Co.,Ltd. è stata fondata nel 2021</strong> da un team di veterani dell’industria cinese dei prodotti in legno. Il nostro fondatore ha trascorso più di due decenni nel commercio del legno — percorrendo i piazzali di Cao County, eseguendo programmi CNC a Heze e gestendo ordini export da Xiamen — prima di fondare Chic per fare le cose diversamente.',
+      '<strong>Xiamen Chic Homeware Co.,Ltd. è stata fondata nel 2021</strong> da un team di veterani dell’industria cinese dei prodotti in legno. Il nostro fondatore, <strong>Chuan Pu</strong>, ha trascorso più di due decenni nel commercio del legno — percorrendo i piazzali di Cao County, eseguendo programmi CNC a Heze e gestendo ordini export da Xiamen — prima di fondare Chic per fare le cose diversamente.',
     p2html:
       'La premessa era semplice: combinare una vera fabbrica a <strong>Cao County, Shandong</strong> — il cuore storico dell’industria cinese delle scatole in legno — con un moderno ufficio vendite a <strong>Xiamen, Fujian</strong>, una delle principali porte di esportazione del paese. Una parte si occupa del legno; l’altra parte si occupa del mondo.',
     p3html:

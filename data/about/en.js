@@ -138,7 +138,7 @@ export const COPY = {
     titleA: 'Built by Wood People,',
     titleEm: 'for Brand People.',
     p1html:
-      '<strong>Xiamen Chic Homeware Co.,Ltd. was founded in 2021</strong> by a team of veterans from China’s wood products industry. Our founder spent more than two decades inside the wood trade — walking timber yards in Cao County, running CNC programs in Heze, and managing export orders out of Xiamen — before starting Chic to do things differently.',
+      '<strong>Xiamen Chic Homeware Co.,Ltd. was founded in 2021</strong> by a team of veterans from China’s wood products industry. Our founder, <strong>Chuan Pu</strong>, spent more than two decades inside the wood trade — walking timber yards in Cao County, running CNC programs in Heze, and managing export orders out of Xiamen — before starting Chic to do things differently.',
     p2html:
       'The premise was simple: combine a real factory in <strong>Cao County, Shandong</strong> — the historic heart of China’s wooden box industry — with a modern sales office in <strong>Xiamen, Fujian</strong>, one of the country’s leading export gateways. One side handles the wood; the other side handles the world.',
     p3html:

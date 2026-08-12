@@ -129,7 +129,7 @@ export const COPY = {
     titleA: 'Construit par les Gens du Bois,',
     titleEm: 'pour les Gens de la Marque.',
     p1html:
-      '<strong>Xiamen Chic Homeware Co.,Ltd. a été fondée en 2021</strong> par une équipe de vétérans de l’industrie chinoise des produits en bois. Notre fondateur a passé plus de deux décennies dans le commerce du bois — arpentant les parcs à grumes de Cao County, exécutant des programmes CNC à Heze et gérant des commandes export depuis Xiamen — avant de créer Chic pour faire les choses différemment.',
+      '<strong>Xiamen Chic Homeware Co.,Ltd. a été fondée en 2021</strong> par une équipe de vétérans de l’industrie chinoise des produits en bois. Notre fondateur, <strong>Chuan Pu</strong>, a passé plus de deux décennies dans le commerce du bois — arpentant les parcs à grumes de Cao County, exécutant des programmes CNC à Heze et gérant des commandes export depuis Xiamen — avant de créer Chic pour faire les choses différemment.',
     p2html:
       'La prémisse était simple : combiner une vraie usine à <strong>Cao County, Shandong</strong> — le cœur historique de l’industrie chinoise des boîtes en bois — avec un bureau commercial moderne à <strong>Xiamen, Fujian</strong>, l’une des principales portes d’export du pays. Un côté gère le bois ; l’autre côté gère le monde.',
     p3html:

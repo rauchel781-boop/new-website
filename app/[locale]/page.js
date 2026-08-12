@@ -35,6 +35,25 @@ const ORG_LD = {
   // foundingDate confirmed 2021 — must match the About page story copy
   // (data/about/*.js) which says "founded in 2021" / "Five years in" (as of 2026).
   foundingDate: '2021',
+  // Named founder — a Person node rather than a bare string. GEO rationale:
+  // generative engines weigh named, attributable expertise (who is behind the
+  // company, what is their background) far more heavily than anonymous "our
+  // team" copy. Mirrors the About page story text in data/about/*.js, which
+  // names Chuan Pu and describes the 20+ years in the wood trade.
+  founder: {
+    '@type': 'Person',
+    name: 'Chuan Pu',
+    jobTitle: 'Founder',
+    worksFor: { '@id': `${SITE.siteUrl}/#organization` },
+    knowsAbout: [
+      'Custom wooden box manufacturing',
+      'Wood species selection and sourcing',
+      'CNC woodworking',
+      'Export operations and documentation',
+    ],
+    description:
+      'Founder of Xiamen Chic Homeware. Spent more than two decades in China’s wood trade — timber yards in Cao County, CNC production in Heze, and export order management out of Xiamen — before founding CHIC in 2021.',
+  },
   hasCertification: [
     { '@type': 'Certification', name: 'ISO 9001 — Quality Management System' },
     { '@type': 'Certification', name: 'FSC — Forest Stewardship Council (responsible wood sourcing)' },
