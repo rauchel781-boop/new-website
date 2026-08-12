@@ -98,9 +98,9 @@ export const VALUES = [
 
 export const CERTS = [
   { slug: 'fsc',      name: 'FSC',       status: '認証取得済み',         pending: false },
-  { slug: 'eu-reach', name: 'EU REACH',  status: '2026ロードマップ',     pending: true  },
-  { slug: 'carb',     name: 'CARB P2',   status: '2026ロードマップ',     pending: true  },
-  { slug: 'iso-9001', name: 'ISO 9001',  status: '進行中',               pending: true  },
+  { slug: 'eu-reach', name: 'EU REACH',  status: '認証取得済み',         pending: false },
+  { slug: 'carb',     name: 'CARB P2',   status: '認証取得済み',         pending: false },
+  { slug: 'iso-9001', name: 'ISO 9001',  status: '認証取得済み',         pending: false },
 ];
 
 export const COPY = {
@@ -190,7 +190,7 @@ export const COPY = {
     label: '基準とコンプライアンス',
     title: '認証',
     paragraph:
-      '当社の木材はFSC認証林業ルートから調達され、丸太からカートンまで監査記録をクリーンに保つチェーン・オブ・カスタディプログラムを運用しています。下記の追加基準は、顧客需要の拡大に応じた2026年のロードマップに含まれています。',
+      '当社の木材はFSC認証林業ルートから調達され、丸太からカートンまで監査記録をクリーンに保つチェーン・オブ・カスタディプログラムを運用しています。さらにCARB P2(米国のホルムアルデヒド排出基準)およびEU REACHにも準拠し、ISO 9001品質管理システムも導入しているため、米国・EUをはじめとする各国の輸入要件に対応済みです。',
   },
   cta: {
     label: 'お問い合わせ',

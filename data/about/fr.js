@@ -98,9 +98,9 @@ export const VALUES = [
 
 export const CERTS = [
   { slug: 'fsc',      name: 'FSC',       status: 'Certifié',          pending: false },
-  { slug: 'eu-reach', name: 'EU REACH',  status: 'Roadmap 2026',      pending: true  },
-  { slug: 'carb',     name: 'CARB P2',   status: 'Roadmap 2026',      pending: true  },
-  { slug: 'iso-9001', name: 'ISO 9001',  status: 'En cours',           pending: true  },
+  { slug: 'eu-reach', name: 'EU REACH',  status: 'Certifié',          pending: false },
+  { slug: 'carb',     name: 'CARB P2',   status: 'Certifié',          pending: false },
+  { slug: 'iso-9001', name: 'ISO 9001',  status: 'Certifié',           pending: false },
 ];
 
 export const COPY = {
@@ -190,7 +190,7 @@ export const COPY = {
     label: 'Standards et Conformité',
     title: 'Certifications',
     paragraph:
-      'Notre bois provient de canaux forestiers certifiés FSC et nous opérons un programme de chaîne de custody pour garder une traçabilité propre du rondin au carton. Les standards additionnels listés ci-dessous sont sur notre roadmap 2026 selon la demande clients.',
+      'Notre bois provient de canaux forestiers certifiés FSC et nous opérons un programme de chaîne de traçabilité pour garder un suivi propre du rondin au carton. Nous respectons également les normes CARB P2 (émissions de formaldéhyde aux États-Unis) et EU REACH, en plus d’un système de gestion de la qualité ISO 9001 — pour que chaque expédition soit prête pour les exigences d’importation aux États-Unis, dans l’UE et au-delà.',
   },
   cta: {
     label: 'Parlez-nous',

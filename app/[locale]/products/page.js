@@ -164,12 +164,49 @@ const CSS = `
 }
 .prods-card-arrow { color: var(--accent); font-size: 0.78rem; letter-spacing: 2px; text-transform: uppercase; margin-top: 22px; font-weight: 600; }
 
+/* ─── CLOSURE COMPARISON TABLE ───
+   GEO rationale: "which closure type should I choose" is a direct-answer
+   question AI engines like to lift as a table. Real <table> markup (not a
+   card grid) so the row/column structure survives text-only extraction. */
+.prods-cmp-wrap { overflow-x: auto; margin: -6px -6px 44px; padding: 6px; }
+.prods-cmp { width: 100%; border-collapse: collapse; background: var(--cream); font-size: 0.86rem; }
+.prods-cmp th, .prods-cmp td { padding: 14px 16px; text-align: left; border-bottom: 1px solid var(--grain); vertical-align: top; }
+.prods-cmp thead th {
+  font-size: 0.66rem; letter-spacing: 1.5px; text-transform: uppercase;
+  color: var(--accent); font-weight: 600; border-bottom: 2px solid var(--accent);
+  white-space: nowrap;
+}
+.prods-cmp tbody tr:hover { background: var(--cream-dk); }
+.prods-cmp-name { font-family: var(--font-fraunces), serif; font-weight: 600; color: var(--wood-deep); }
+.prods-cmp td, .prods-cmp-desc { color: var(--text-muted); line-height: 1.55; }
+.prods-cmp-link { color: var(--accent); text-decoration: none; font-weight: 600; white-space: nowrap; }
+.prods-cmp-link:hover { text-decoration: underline; }
+
 @media (max-width: 960px) {
   .prods-hero { padding: 70px 28px 60px; }
   .prods-body { padding: 60px 28px 80px; }
   .prods-grid { grid-template-columns: 1fr; }
+  .prods-cmp { font-size: 0.8rem; }
+  .prods-cmp th, .prods-cmp td { padding: 10px 12px; }
 }
 `;
+
+// ─── Closure-type comparison table data ────────────────────────────────
+// English-only, matching this codebase's existing pattern for incremental
+// rich content (see components/ProductRichBlock.jsx, data/page-faqs) —
+// added directly rather than as next-intl keys to avoid partial/mixed-
+// language translations across the other 7 locales. Every "how it works"
+// and "best for" line restates facts already published on each category's
+// own page (data/categories.js `intro`/`tagline`/body copy), not new
+// claims — this table just gives AI engines and human scanners one
+// structured place to compare closures instead of five separate pages.
+const CLOSURE_COMPARE = [
+  { slug: 'magnetic', name: 'Magnetic Closure', how: 'Hidden neodymium magnets inside the wall — no visible hardware, lid snaps shut with a soft, deliberate feel.', bestFor: 'Beauty brands, subscription boxes, tech accessories — the cleanest, most premium unboxing feel.' },
+  { slug: 'hinged', name: 'Hinged Lid', how: 'Brass or concealed steel hinges, optional clasp or lock, built for frequent daily opening.', bestFor: 'Jewelry and keepsake boxes, tool storage — anything opened and closed often.' },
+  { slug: 'sliding-lid', name: 'Sliding Lid', how: 'No hardware at all — a dado-grooved tray and a precision-routed lid that slides flush across the top.', bestFor: 'Gift, cigar, tea and wedding-favor boxes — lowest assembly cost, ships flat-packed, nothing to break.' },
+  { slug: 'drawer', name: 'Drawer / Pull-Out', how: 'One to twelve tiers of drawer cabinets with soft-close slides and brass pulls.', bestFor: 'Jewelry, tool, office and apothecary storage — sorting many small items across levels.' },
+  { slug: 'with-lock', name: 'Lockable', how: 'Brass key lock, combination lock, or hidden cam lock with reinforced hinges.', bestFor: 'Cash, documents, valuables and heirloom storage — anything that needs to stay closed.' },
+];
 
 export default async function ProductsPage({ params: { locale } }) {
   unstable_setRequestLocale(locale);
@@ -208,6 +245,35 @@ export default async function ProductsPage({ params: { locale } }) {
                   </div>
                   <div className="prods-group-count">{t('categoriesCount', { n: g.items.length })}</div>
                 </div>
+
+                {/* Closure comparison table — English only (see CLOSURE_COMPARE
+                    note above); renders once, right above the "By Structure"
+                    card grid, as a real <table> so an AI engine or human
+                    scanner can compare all five closures in one glance. */}
+                {g.title === 'By Structure' && locale === 'en' && (
+                  <div className="prods-cmp-wrap">
+                    <table className="prods-cmp">
+                      <thead>
+                        <tr>
+                          <th>Closure Type</th>
+                          <th>How It Works</th>
+                          <th>Best For</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {CLOSURE_COMPARE.map((row) => (
+                          <tr key={row.slug}>
+                            <td className="prods-cmp-name">
+                              <Link href={`/products/${row.slug}`} className="prods-cmp-link">{row.name}</Link>
+                            </td>
+                            <td>{row.how}</td>
+                            <td>{row.bestFor}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
 
                 <div className="prods-grid">
                   {g.items.map((slug) => {

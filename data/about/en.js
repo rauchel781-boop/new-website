@@ -107,9 +107,9 @@ export const VALUES = [
 // shape (status + pending) but reuses the same icon system.
 export const CERTS = [
   { slug: 'fsc',      name: 'FSC',       status: 'Certified',     pending: false },
-  { slug: 'eu-reach', name: 'EU REACH',  status: '2026 Roadmap',  pending: true  },
-  { slug: 'carb',     name: 'CARB P2',   status: '2026 Roadmap',  pending: true  },
-  { slug: 'iso-9001', name: 'ISO 9001',  status: 'In Process',    pending: true  },
+  { slug: 'eu-reach', name: 'EU REACH',  status: 'Certified',     pending: false },
+  { slug: 'carb',     name: 'CARB P2',   status: 'Certified',     pending: false },
+  { slug: 'iso-9001', name: 'ISO 9001',  status: 'Certified',     pending: false },
 ];
 
 export const COPY = {
@@ -199,7 +199,7 @@ export const COPY = {
     label: 'Standards & Compliance',
     title: 'Certifications',
     paragraph:
-      'Our wood is sourced from FSC-certified forestry channels, and we operate a chain-of-custody program to keep audit trails clean from log to carton. Additional standards listed below are on our 2026 roadmap as customer demand grows.',
+      'Our wood is sourced from FSC-certified forestry channels, and we operate a chain-of-custody program to keep audit trails clean from log to carton. We also hold CARB P2 (US formaldehyde emissions) and EU REACH compliance, plus an ISO 9001 quality management system — so every shipment is ready for import requirements across the US, EU and beyond.',
   },
   cta: {
     label: 'Talk to Us',

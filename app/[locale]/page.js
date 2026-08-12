@@ -32,7 +32,9 @@ const ORG_LD = {
   // site-wide (OG card badges, FAQ); surfacing them as structured data helps
   // Google's entity understanding. Confirm/adjust the cert list if any of these
   // are not currently held.
-  foundingDate: '2010',
+  // foundingDate confirmed 2021 — must match the About page story copy
+  // (data/about/*.js) which says "founded in 2021" / "Five years in" (as of 2026).
+  foundingDate: '2021',
   hasCertification: [
     { '@type': 'Certification', name: 'ISO 9001 — Quality Management System' },
     { '@type': 'Certification', name: 'FSC — Forest Stewardship Council (responsible wood sourcing)' },
@@ -114,6 +116,30 @@ function buildWebsiteLd(locale) {
     name: SITE.company.brand,
     publisher: { '@id': `${SITE.siteUrl}/#organization` },
     inLanguage: LOCALE_TO_BCP47[locale] || 'en-US',
+  };
+}
+
+// HowTo schema for the six-step manufacturing process shown below (cutting →
+// shape cutting → mortise cutting → pre-assemble → polishing → packaging).
+// GEO rationale: "how is a custom wooden box made" is exactly the kind of
+// question AI engines answer by lifting a numbered step list — HowTo is the
+// schema.org type built for that. `PROCESS` and `COPY.process` are already
+// localized per-locale data (see data/home/*.js), so this reads real content
+// only, no invented steps.
+function buildHowToLd(locale, process, copy) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    '@id': `${SITE.siteUrl}/${locale}#manufacturing-process`,
+    name: copy.title,
+    description: copy.intro,
+    inLanguage: LOCALE_TO_BCP47[locale] || 'en-US',
+    step: process.map((s) => ({
+      '@type': 'HowToStep',
+      position: Number(s.num) || undefined,
+      name: s.name,
+      image: `${SITE.siteUrl}${s.img}`,
+    })),
   };
 }
 
@@ -892,6 +918,7 @@ export default async function HomePage({ params: { locale } }) {
       <JsonLd data={buildWebsiteLd(locale)} />
       <JsonLd data={SALES_OFFICE_LD} />
       <JsonLd data={SERVICE_LD} />
+      <JsonLd data={buildHowToLd(locale, PROCESS, COPY.process)} />
       <style dangerouslySetInnerHTML={{ __html: HOMEPAGE_CSS }} />
 
       {/* HERO */}

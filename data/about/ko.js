@@ -98,9 +98,9 @@ export const VALUES = [
 
 export const CERTS = [
   { slug: 'fsc',      name: 'FSC',       status: '인증 완료',         pending: false },
-  { slug: 'eu-reach', name: 'EU REACH',  status: '2026 로드맵',       pending: true  },
-  { slug: 'carb',     name: 'CARB P2',   status: '2026 로드맵',       pending: true  },
-  { slug: 'iso-9001', name: 'ISO 9001',  status: '진행 중',           pending: true  },
+  { slug: 'eu-reach', name: 'EU REACH',  status: '인증 완료',         pending: false },
+  { slug: 'carb',     name: 'CARB P2',   status: '인증 완료',         pending: false },
+  { slug: 'iso-9001', name: 'ISO 9001',  status: '인증 완료',         pending: false },
 ];
 
 export const COPY = {
@@ -190,7 +190,7 @@ export const COPY = {
     label: '표준 및 규정 준수',
     title: '인증',
     paragraph:
-      '우리 목재는 FSC 인증 임업 채널에서 조달되며, 통나무에서 카톤까지 감사 추적을 깨끗이 유지하기 위해 chain-of-custody 프로그램을 운영합니다. 아래 나열된 추가 표준은 고객 수요 증가에 따라 2026 로드맵에 있습니다.',
+      '우리 목재는 FSC 인증 임업 채널에서 조달되며, 통나무에서 카톤까지 감사 추적을 깨끗이 유지하기 위해 chain-of-custody 프로그램을 운영합니다. 또한 CARB P2(미국 포름알데히드 배출 기준)와 EU REACH를 준수하며 ISO 9001 품질경영시스템도 갖추고 있어, 미국·EU를 비롯한 각국의 수입 요건을 충족합니다.',
   },
   cta: {
     label: '문의하기',
