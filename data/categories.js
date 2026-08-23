@@ -12,8 +12,9 @@ export const CATEGORIES = {
     tagline: 'Premium retail-ready presentation boxes',
     intro: 'Wooden gift and product packaging boxes — magnetic closure, hinged lid, and sliding-lid options with debossed branding.',
     longDesc: 'Our wooden gift and packaging boxes turn a product into an unboxing moment. Whether you are launching a new SKU, building a corporate gift program, or supplying retailers with shelf-ready packaging, we can produce in volumes from 100 to 100,000+ pieces with consistent finish, fit, and feel.',
-    seoTitle: 'Custom Wooden Gift Boxes - Wholesale Manufacturer China | MOQ 300-500 | CHIC',
-    seoDescription: 'Custom wooden gift boxes wholesale from China manufacturer. Magnetic, hinged & sliding-lid closure. FSC certified, laser engraving, foam/velvet inserts. MOQ 300-500 pcs. Trial orders from 100 pcs available. Ships to USA, UK, Germany, France, Canada.',
+    seoTitle: 'Custom Wooden Gift Boxes | Logo Engraved, MOQ 300 | CHIC',
+    seoDescription:
+      'Custom wooden gift boxes with magnetic, hinged or sliding-lid closure. Laser engraving, foam and velvet inserts, FSC wood. MOQ 300-500; trial runs from 100.',
     hero: '/wooden-box-7.webp',
     images: [
       '/wooden-box-7.webp',
@@ -63,8 +64,9 @@ export const CATEGORIES = {
     group: 'By Use',
     name: 'Watch & Jewelry Boxes',
     tagline: 'Heirloom-grade presentation pieces',
-    seoTitle: 'Walnut Watch Box & Jewelry Case - Wholesale Wooden Box Manufacturer | CHIC',
-    seoDescription: 'Custom walnut watch boxes and jewelry cases wholesale from China. Velvet-lined, soft-close hinges, lockable options. Single to 24-watch capacity. MOQ 300-500 pcs.Premium wooden watch box supplier for USA, UK, EU markets.',
+    seoTitle: 'Wooden Watch & Jewelry Boxes | Velvet Lined | CHIC',
+    seoDescription:
+      'Custom wooden watch and jewelry boxes in walnut and acacia. Velvet lined, soft-close hinges, optional lock. 1 to 24 watch capacity. MOQ 300-500.',
     intro: 'Velvet/microfiber-lined watch and jewelry presentation boxes with concealed hinges and lockable options.',
     longDesc: 'Watch and jewelry boxes are the most demanding category we make — they have to look perfect inside and out. Every box gets felt-lined or microfiber-wrapped inserts, soft-close hinges, and a lid that sits flat with zero gap. Single-piece, multi-watch winders, and full jewelry chests available.',
     hero: '/walnut-jewelery-box.webp',
@@ -97,8 +99,9 @@ export const CATEGORIES = {
     group: 'By Use',
     name: 'Tea & Coffee Boxes',
     tagline: 'Compartment boxes for tea bags, pods, and loose leaf',
-    seoTitle: 'Bamboo Tea Box 8 Compartment - Wooden Coffee Box Wholesale Manufacturer',
-    seoDescription: 'Custom bamboo tea boxes with 4/6/8/9 compartments wholesale from China. Food-safe finish, acrylic window lid, fits tea bags & coffee pods. MOQ 300-500 pcs.FSC certified wooden tea storage box for kitchen & gift brands.',
+    seoTitle: 'Wooden Tea & Coffee Boxes | 4-9 Compartments | CHIC',
+    seoDescription:
+      'Custom wooden tea and coffee boxes in bamboo or acacia. 4, 6, 8 or 9 compartments, food-safe finish, optional acrylic window lid. MOQ 300-500.',
     intro: 'Compartmented boxes for tea bags, coffee pods, and loose leaf — with optional acrylic windows and dividers.',
     longDesc: 'Designed for daily kitchen use and gifting alike. Internal dividers create 4, 6, 8, or 9 compartments — perfect for tea bag selections, coffee pods, or pyramid sachets. Hinged lid with magnetic closure keeps contents fresh, optional acrylic window lets users see what is inside.',
     hero: '/bamboo-box.webp',
@@ -150,8 +153,9 @@ export const CATEGORIES = {
     tagline: 'Single-bottle to magnum and decanter sets',
     intro: 'Single-bottle, double-bottle, magnum, and decanter-set boxes — pine, oak, walnut, paulownia.',
     longDesc: 'From rustic pine crates with rope handles to high-end walnut presentation boxes for limited-edition releases — we make wine and whisky boxes for every tier of the market. Foam-cut bottle cradles, glass holders, and accessory compartments for openers, stoppers, and pourers.',
-    seoTitle: 'Wooden Wine Box & Whisky Crate - Wholesale Manufacturer China | Pine & Walnut',
-    seoDescription: 'Custom wooden wine boxes wholesale from China - single bottle to magnum sizes. Pine crates with rope handles, walnut presentation boxes. Foam cradles, laser engraving. MOQ 300-500 pcs.For wineries, distilleries & corporate gifting.',
+    seoTitle: 'Wooden Wine & Whisky Boxes | Pine Crate, Walnut Case',
+    seoDescription:
+      'Custom wooden wine and whisky boxes, single bottle to magnum. Rope-handled pine crates or walnut presentation cases with foam cradles. MOQ 300-500.',
     hero: '/wooden-box-9.webp',
     images: [
       '/wooden-box-9.webp',
@@ -198,8 +202,9 @@ export const CATEGORIES = {
     group: 'By Use',
     name: 'Kitchen & Dining Boxes',
     tagline: 'Bread bins, salt cellars, cutlery and serving caddies',
-    seoTitle: 'Bamboo Kitchen Boxes - Wooden Bread Bin & Salt Cellar Wholesale Manufacturer',
-    seoDescription: 'Custom bamboo & acacia kitchen boxes wholesale from China. Bread bins, salt cellars, cutlery caddies with food-safe finish. Naturally antibacterial, moisture-resistant. MOQ 300-500 pcs.Ships to USA, UK, Germany for home & restaurant use.',
+    seoTitle: 'Wooden Kitchen Boxes | Salt, Cutlery & Bread | CHIC',
+    seoDescription:
+      'Custom wooden kitchen boxes in bamboo and acacia. Salt boxes, cutlery boxes and hinged bread bins with food-safe finish. MOQ 300-500.',
     intro: 'Bread bins, salt cellars, cutlery boxes, condiment caddies, and serving trays for kitchen and dining.',
     longDesc: 'Kitchen and dining wooden boxes need to balance beauty with daily wear. We use food-safe finishes and durable hardwoods — bamboo and acacia are favorites for their density and antibacterial properties. Bread bins with roll-top lids, salt boxes with magnetic closures, cutlery caddies and condiment carriers — all in stock or fully custom.',
     hero: '/bamboo-box.webp',
@@ -231,8 +236,9 @@ export const CATEGORIES = {
     group: 'By Use',
     name: 'Garden & Seed Boxes',
     tagline: 'Planters, seed storage, and garden tool crates',
-    seoTitle: 'Wooden Garden Box & Seed Storage - Outdoor Planter Wholesale Manufacturer',
-    seoDescription: 'Custom wooden garden boxes, seed storage & planters wholesale from China. Outdoor-grade UV finish, compartment dividers, drainage holes. Pine & cedar construction. MOQ 300-500 pcs.For garden centers, seed companies & landscaping retail.',
+    seoTitle: 'Wooden Seed Boxes | Bamboo, Adjustable Dividers | CHIC',
+    seoDescription:
+      'Custom wooden seed storage boxes in bamboo, with adjustable dividers and a sliding or hinged lid. For seed brands and garden retail. MOQ 300-500.',
     intro: 'Planters, seed storage, and garden tool crates — outdoor-finish wooden boxes built to last.',
     longDesc: 'Designed for outdoor and garden use. Our seed boxes have compartmented dividers and labeled slots for organized storage; our planters are built from rot-resistant softwood with drainage and outdoor-grade finishes. Tool crates, herb caddies, and patio storage round out the range.',
     hero: '/wooden-box-1.webp',
@@ -264,8 +270,9 @@ export const CATEGORIES = {
     group: 'By Use',
     name: 'Storage Boxes',
     tagline: 'Drawer organizers, crates, and stackable boxes',
-    seoTitle: 'Wooden Storage Boxes & Crates - Stackable Drawer Organizer Wholesale Manufacturer',
-    seoDescription: 'Custom wooden storage boxes wholesale from China - stackable, modular drawer cabinets with label frames. Pine & paulownia construction. MOQ 300-500 pcs.For workshops, offices, retail. Ships to USA, UK, Germany, France.',
+    seoTitle: 'Wooden Storage & Keepsake Boxes | Solid Wood | CHIC',
+    seoDescription:
+      'Custom wooden storage boxes: keepsake, jewelry, essential-oil and desk organisers in pine, acacia and bamboo. Stackable options. MOQ 300-500.',
     intro: 'Drawer organizers, storage crates, and stackable boxes — modular wooden organizer systems.',
     longDesc: 'Practical storage with a presence. Modular drawer cabinets, stackable crates, and flat-stacking organizer boxes for everything from tools to office supplies to retail back-stock. Sized to common drawer and shelf depths, with optional dividers, label frames, and rolling casters.',
     hero: '/wooden-box-5.webp',
@@ -298,8 +305,9 @@ export const CATEGORIES = {
     group: 'By Structure',
     name: 'Hinged Wooden Boxes',
     tagline: 'Brass and steel hinge construction',
-    seoTitle: 'Hinged Wooden Boxes - Brass & Soft-Close Hinge Wholesale Manufacturer China',
-    seoDescription: 'Custom hinged wooden boxes wholesale from China. Brass hinges, concealed European hinges, soft-close mechanism. Clasp & lock options. Any wood species. MOQ 300-500 pcs.For jewelry, gift packaging & tool storage. Ships to USA, UK, EU.',
+    seoTitle: 'Hinged Wooden Boxes | Brass & Soft-Close Hinges | CHIC',
+    seoDescription:
+      'Custom hinged wooden boxes with brass or concealed European hinges, soft-close option, clasp or lock. Any wood species. MOQ 300-500; trial from 100.',
     intro: 'Boxes with brass or steel hinges, optional clasps and locks — built for daily opening.',
     longDesc: 'Hinged construction is the most versatile structure we offer — appropriate for everything from gift packaging to jewelry boxes to humidors. We offer surface-mount hinges for rustic looks, concealed European hinges for clean exteriors, and soft-close mechanisms for a premium feel.',
     hero: '/walnut-jewelery-box.webp',
@@ -333,8 +341,9 @@ export const CATEGORIES = {
     tagline: 'Wholesale & custom OEM — gift, cigar, jewelry, tea, wedding',
     intro: 'Wholesale sliding lid wooden boxes — pine, walnut, bamboo, paulownia. Custom OEM, MOQ 300, laser engraving, FSC and food-safe options. FOB Xiamen, ships to EU/US/UK.',
     longDesc: `Sliding lid wooden boxes for B2B buyers: the cleanest hardware-free construction in our catalogue, built from CNC-routed dado grooves and precision-fit lids. Used by gift brands, cigar and spirits houses, wedding-favor wholesalers, craft retailers, and premium tea / coffee labels. Custom dimensions, engraving and finishes available on every OEM order.`,
-    seoTitle: 'Sliding Lid Wooden Box Wholesale - Custom Pine & Bamboo Manufacturer China',
-    seoDescription: 'Wholesale sliding lid wooden boxes - hardware-free CNC-routed construction. Pine, walnut, bamboo, paulownia. Laser engraving, FSC certified. MOQ 300-500 pcs.Perfect for gift packaging, cigars, tea & wedding favors. Ships globally.',
+    seoTitle: 'Sliding Lid Wooden Boxes | Hardware-Free | CHIC',
+    seoDescription:
+      'Custom sliding lid wooden boxes. CNC-routed dado groove, no hinges or clasps to fail. Pine, walnut, bamboo, paulownia. Ships flat-packed. MOQ 300-500.',
     hero: '/wooden-box-8.webp',
     images: [
       '/wooden-box-8.webp',
@@ -384,8 +393,9 @@ export const CATEGORIES = {
     group: 'By Structure',
     name: 'Drawer Wooden Boxes',
     tagline: 'Multi-tier drawers and pull-out organizers',
-    seoTitle: 'Wooden Drawer Boxes - Multi-Tier Cabinet Organizer Wholesale Manufacturer',
-    seoDescription: 'Custom wooden drawer boxes wholesale from China. 1-12 tier cabinets with soft-close slides, brass pulls, label frames. Oak, walnut, pine. MOQ 300-500 pcs.For jewelry, tools, office & apothecary storage. Ships to USA, UK, EU markets.',
+    seoTitle: 'Wooden Drawer Boxes | 1-12 Tier Cabinets | CHIC',
+    seoDescription:
+      'Custom wooden drawer boxes and multi-tier cabinets with soft-close slides, brass pulls and label frames. Walnut, oak and pine. MOQ 300-500.',
     intro: 'Multi-tier drawer cabinets and pull-out organizer boxes — solid wood and ply construction.',
     longDesc: 'When a single compartment is not enough — drawer construction gives you organized, accessible storage in a small footprint. Single-drawer jewelry boxes, multi-tier apothecary cabinets, and library-style drawer towers — all with smooth-running drawer slides and optional dividers.',
     hero: '/wooden-box-5.webp',
@@ -419,8 +429,9 @@ export const CATEGORIES = {
     tagline: 'Hidden magnetic closure — clean look, premium feel',
     intro: 'Hidden magnetic closure — clean exterior look with a satisfying premium snap.',
     longDesc: 'Magnetic closure is the modern standard for premium gift packaging. The neodymium magnets are hidden inside the wall, leaving a perfectly clean exterior. The lid snaps shut with a soft, deliberate feel — the unboxing experience your brand deserves.',
-    seoTitle: 'Magnetic Closure Wooden Gift Box - Premium Packaging Wholesale Manufacturer',
-    seoDescription: 'Custom magnetic closure wooden boxes with hidden neodymium magnets wholesale from China. Clean exterior, premium snap close. Ideal for beauty brands, subscription boxes, tech accessories. Book-style & lift-off lid. MOQ 300-500 pcs.FSC available.',
+    seoTitle: 'Magnetic Wooden Boxes | Real Wood, Not Rigid Card',
+    seoDescription:
+      'Custom wooden boxes with hidden neodymium magnets. Solid wood and veneer, not rigid cardboard. Clean exterior, soft snap close. MOQ 300-500.',
     hero: '/walnut-jewelery-box.webp',
     images: [
       '/walnut-jewelery-box.webp',
@@ -466,8 +477,9 @@ export const CATEGORIES = {
     group: 'By Structure',
     name: 'Wooden Boxes with Lock',
     tagline: 'Lockable boxes with key or combination',
-    seoTitle: 'Lockable Wooden Boxes - Brass Key & Combination Lock Wholesale Manufacturer',
-    seoDescription: 'Custom lockable wooden boxes wholesale from China. Brass key locks, cam locks, combination locks with reinforced hinges. Walnut, oak, pine. MOQ 300-500 pcs.For cash, documents, valuables & heirloom storage. Ships to USA, UK, EU.',
+    seoTitle: 'Lockable Wooden Boxes | Brass Key & Combination | CHIC',
+    seoDescription:
+      'Custom lockable wooden boxes with brass key, cam or combination lock and reinforced hinges. Walnut, oak and pine. For cash and valuables. MOQ 300-500.',
     intro: 'Lockable wooden boxes with brass key lock, combination lock, or hidden cam lock.',
     longDesc: 'For valuables, documents, medication, and anything that needs to stay secured. We offer surface-mount brass locks (the classic look), recessed cam locks (clean exterior), and 3-digit combination locks (no key to lose). All with optional reinforced hinges and steel-strap construction for extra security.',
     hero: '/walnut-jewelery-box.webp',
@@ -502,8 +514,9 @@ export const CATEGORIES = {
     tagline: 'Lightweight, dimensionally stable, easy to engrave',
     intro: 'Lightweight, dimensionally stable paulownia — great for shipping economy and laser engraving.',
     longDesc: 'Paulownia is the lightest commercial timber in the world — boxes weigh half what pine equivalents do, which translates directly to lower freight costs. Its straight grain takes laser engraving beautifully, and its dimensional stability means it won’t warp or crack across climates. The default choice for high-volume gift packaging.',
-    seoTitle: 'Paulownia Wooden Box - Lightweight Wholesale Manufacturer China | Half Weight',
-    seoDescription: 'Custom paulownia wooden boxes wholesale from China - lightest timber, half the weight of pine. Dimensionally stable, crisp laser engraving. MOQ 300-500 pcs.Low freight cost for gift packaging, subscription boxes. Ships globally, FSC certified.',
+    seoTitle: 'Paulownia Wooden Boxes | Half the Weight of Pine',
+    seoDescription:
+      'Custom paulownia boxes. The lightest commercial timber, roughly half the weight of pine, so freight costs drop. Crisp laser engraving. MOQ 300-500.',
     hero: '/paulwnia-wood-box/set-1/set-1-01.webp',
     images: [
       '/paulwnia-wood-box/set-1/set-1-01.webp',
@@ -553,8 +566,9 @@ export const CATEGORIES = {
     tagline: 'Affordable softwood with clean grain',
     intro: 'Affordable softwood with clean grain — easy to paint and stain, perfect for rustic and farmhouse looks.',
     longDesc: 'Pine is the workhorse softwood — affordable, easy to work, and immediately recognizable. We use European Scots pine and New Zealand radiata for clean knot-free grades, or use knotty pine selectively for rustic crate looks. Excellent for wine boxes, garden boxes, and any application where character is part of the appeal.',
-    seoTitle: 'Pine Wooden Boxes - Affordable Wine Crate & Rustic Box Wholesale Manufacturer',
-    seoDescription: 'Custom pine wooden boxes wholesale from China. Scots & radiata pine, knot-free or rustic grades. Wood-burn branding, laser engraving. MOQ 300-500 pcs.Best price for wine crates, garden boxes & farmhouse gift packaging. Ships to USA, UK, EU.',
+    seoTitle: 'Pine Wooden Boxes | Rustic Grain, Best Value | CHIC',
+    seoDescription:
+      'Custom pine wooden boxes in Scots and radiata pine, knot-free or rustic grades. Takes wood-burn branding and stain well. Best value timber. MOQ 300-500.',
     hero: '/pine-wood-box/set-1/set-1-01.webp',
     images: [
       '/pine-wood-box/set-1/set-1-01.webp',
@@ -604,8 +618,9 @@ export const CATEGORIES = {
     tagline: 'Sustainable, hard, modern look',
     intro: 'Sustainable, hard, and modern — bamboo grows fast, harvests sustainably, and looks beautiful.',
     longDesc: 'Bamboo is technically a grass, not a tree — and it grows back in 5–7 years instead of 30–60. That makes it the most sustainable structural material we offer. Carbonized (caramel) and natural (pale gold) options, both with the iconic horizontal striping. Naturally antibacterial — ideal for kitchen and bathroom use.',
-    seoTitle: 'Bamboo Boxes - FSC Sustainable Wooden Box Wholesale Manufacturer China',
-    seoDescription: 'Custom bamboo boxes wholesale from China. FSC certified, naturally antibacterial, food-safe finish. 5-7 year harvest cycle. MOQ 300-500 pcs.Ideal for tea boxes, kitchen storage & eco-gift packaging. Ships to USA, UK, Germany, Nordic markets.',
+    seoTitle: 'Bamboo Boxes | FSC Certified, Fast-Renewing | CHIC',
+    seoDescription:
+      'Custom bamboo boxes. FSC certified, naturally antibacterial, food-safe finish, 5 to 7 year harvest cycle. For tea, kitchen and eco-gift lines. MOQ 300-500.',
     hero: '/bamboo-box/set-1/set-1-01.webp',
     images: [
       '/bamboo-box/set-1/set-1-01.webp',
@@ -655,8 +670,9 @@ export const CATEGORIES = {
     tagline: 'Rich grain, hard and durable',
     intro: 'Rich grain, hard and durable acacia — premium kitchen, dining, and gift boxes with character.',
     longDesc: 'Acacia is one of the most beautiful affordable hardwoods on the market — dramatic grain swirls, warm honey-to-chocolate tones, and exceptional durability. Janka hardness above 2300 means it stands up to daily use, and its natural water-resistance makes it a favorite for kitchenware and serving boxes.',
-    seoTitle: 'Acacia Wooden Boxes - Premium Hardwood Kitchen Box Wholesale Manufacturer',
-    seoDescription: 'Custom acacia wooden boxes wholesale from China. Janka 2300+ hardness, dramatic grain, water-resistant. Food-safe finish. MOQ 300-500 pcs.Perfect for kitchenware, charcuterie, serving boxes & premium gifts. Ships to USA, UK, Germany, France.',
+    seoTitle: 'Acacia Wooden Boxes | Dense Hardwood, Rich Grain',
+    seoDescription:
+      'Custom acacia wooden boxes. Janka 2300 hardness, dramatic swirling grain, water-resistant with food-safe finish. For premium gift lines. MOQ 300-500.',
     hero: '/acacia-wood-box/set-1/set-1-01.webp',
     images: [
       '/acacia-wood-box/set-1/set-1-01.webp',
@@ -706,8 +722,9 @@ export const CATEGORIES = {
     tagline: 'Chocolate-brown hardwood for high-end gifts',
     intro: 'Chocolate-brown hardwood — high-end watch, jewelry, and gift presentation boxes.',
     longDesc: 'Walnut is the most coveted hardwood in the world — and for good reason. The deep chocolate color, fine straight grain, and silky surface finish are unmistakable. We use American black walnut for the deepest tone and the cleanest grain. The default choice when you want the box itself to feel like the gift.',
-    seoTitle: 'Walnut Wooden Boxes - American Black Walnut Watch & Gift Box Manufacturer',
-    seoDescription: 'Custom walnut wooden boxes wholesale from China. American black walnut, deep chocolate grain, silky finish. MOQ 300-500 pcs.Premium watch boxes, jewelry cases, heirloom gifts. Laser engraving, FSC certified. Ships to USA, UK, Germany, France.',
+    seoTitle: 'Walnut Wooden Boxes | American Black Walnut | CHIC',
+    seoDescription:
+      'Custom walnut boxes in American black walnut. Deep chocolate grain, silky sanded finish, no stain needed. For watch, jewelry and heirloom gifts. MOQ 300-500.',
     hero: '/walnut-wooden-box/set-7/set-7-01.webp',
     images: [
       '/walnut-wooden-box/set-7/set-7-01.webp',
