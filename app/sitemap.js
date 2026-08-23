@@ -2,6 +2,7 @@ import { SITE } from '@/data/site-config';
 import { CATEGORIES, SLUGS } from '@/data/categories';
 import { POSTS } from '@/data/blog';
 import { routing } from '@/i18n/routing';
+import { isNonBoxProduct } from '@/data/non-box-products';
 
 // Pull product slug lists for each category that has products.
 import { PRODUCTS as GIFT_PACKAGING_PRODUCTS } from '@/data/products/gift-packaging';
@@ -116,6 +117,11 @@ export default function sitemap() {
   for (const [categorySlug, products] of Object.entries(PRODUCTS_BY_CATEGORY)) {
     if (!products) continue;
     for (const [productSlug, product] of Object.entries(products)) {
+      // Skip non-box products (trays, caddies, holders, racks, planters).
+      // They carry `noindex` on the PDP itself, so listing them here would
+      // send Google a contradictory signal — the sitemap says "please index
+      // this" while the page says "don't". See data/non-box-products.js.
+      if (isNonBoxProduct(productSlug)) continue;
       const productImages = (product.images || []).slice(0, 8);
       pushLocalized(entries, `/products/${categorySlug}/${productSlug}`, {
         changeFrequency: 'monthly',

@@ -1,9 +1,9 @@
 // Home — Italian translation.
 export const FEATURED = [
-  { href: '/products/kitchen-dining/wood-kitchen-utensil-holder-with-spice-drawer', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
-    tag: 'Cucina e Tavola', name: 'Portautensili con Cassetto Spezie', meta: 'Legno massello · Cassetto integrato' },
-  { href: '/products/storage/3-tier-bamboo-spice-rack-organizer', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
-    tag: 'Cucina e Stoccaggio', name: 'Portaspezie in Bambù 3 Livelli', meta: 'Bambù eco · 18 vasetti inclusi' },
+  { href: '/products/gift-packaging/luxury-magnetic-gift-box', img: '/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp', w: 800, h: 800,
+    tag: 'Scatole Regalo e Imballaggio', name: 'Scatola Regalo Magnetica di Lusso', meta: 'Magneti nascosti · Interno in velluto' },
+  { href: '/products/gift-packaging/sliding-lid-gift-box', img: '/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp', w: 1488, h: 1182,
+    tag: 'Scatole Regalo e Imballaggio', name: 'Scatola Regalo con Coperchio Scorrevole', meta: 'Senza ferramenta · Spedizione piatta' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Scatole con Serratura', name: 'Grande Scatola Nera con Serratura', meta: 'Serratura a combinazione · Multi-scomparto' },
   { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,

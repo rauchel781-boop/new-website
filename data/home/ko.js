@@ -1,9 +1,9 @@
 // Home — Korean translation.
 export const FEATURED = [
-  { href: '/products/kitchen-dining/wood-kitchen-utensil-holder-with-spice-drawer', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
-    tag: '주방 & 다이닝', name: '향신료 서랍 부착 유틸리티 홀더', meta: '원목 · 내장 서랍' },
-  { href: '/products/storage/3-tier-bamboo-spice-rack-organizer', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
-    tag: '주방 & 수납', name: '3단 대나무 향신료 랙', meta: '에코 대나무 · 18개 병 포함' },
+  { href: '/products/gift-packaging/luxury-magnetic-gift-box', img: '/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp', w: 800, h: 800,
+    tag: '선물·포장 박스', name: '럭셔리 마그넷 기프트 박스', meta: '히든 마그넷 · 벨벳 내장' },
+  { href: '/products/gift-packaging/sliding-lid-gift-box', img: '/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp', w: 1488, h: 1182,
+    tag: '선물·포장 박스', name: '슬라이드 뚜껑 기프트 박스', meta: '부속 없음 · 평면 포장 가능' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: '잠금 박스', name: '대형 블랙 우드 스태시 박스 키트', meta: '다이얼 잠금 · 다중 칸막이' },
   { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,

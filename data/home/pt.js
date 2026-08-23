@@ -1,9 +1,9 @@
 // Home — Portuguese translation.
 export const FEATURED = [
-  { href: '/products/kitchen-dining/wood-kitchen-utensil-holder-with-spice-drawer', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
-    tag: 'Cozinha e Mesa', name: 'Suporte de Utensílios com Gaveta de Especiarias', meta: 'Madeira maciça · Gaveta integrada' },
-  { href: '/products/storage/3-tier-bamboo-spice-rack-organizer', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
-    tag: 'Cozinha e Arrumação', name: 'Especieiro de Bambu de 3 Níveis', meta: 'Bambu eco · 18 frascos incluídos' },
+  { href: '/products/gift-packaging/luxury-magnetic-gift-box', img: '/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp', w: 800, h: 800,
+    tag: 'Caixas para Presente e Embalagem', name: 'Caixa de Presente Magnética de Luxo', meta: 'Ímanes ocultos · Interior em veludo' },
+  { href: '/products/gift-packaging/sliding-lid-gift-box', img: '/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp', w: 1488, h: 1182,
+    tag: 'Caixas para Presente e Embalagem', name: 'Caixa de Presente com Tampa Deslizante', meta: 'Sem ferragens · Envio plano' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Caixas com Fechadura', name: 'Kit de Caixa Preta Grande com Fechadura', meta: 'Fechadura de combinação · Multi-compartimento' },
   { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,

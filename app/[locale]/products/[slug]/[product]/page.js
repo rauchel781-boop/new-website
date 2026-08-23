@@ -30,6 +30,7 @@ import { SITE } from '@/data/site-config';
 import { alternates as makeAlternates } from '@/i18n/seo';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getProductTranslation } from '@/data/products/translations';
+import { isNonBoxProduct } from '@/data/non-box-products';
 
 // Map category slug → its products data. Mirror of the same map in the
 // category landing page. Add new categories here as more product files exist.
@@ -70,9 +71,18 @@ export function generateMetadata({ params }) {
   const product = { ...productRaw, ...getProductTranslation(productRaw.slug, params.locale) };
   const localePath = `/products/${params.slug}/${params.product}`;
   const fullPath = `/${params.locale}${localePath}`;
+  // Topical focus: this site covers wooden BOXES. Trays, caddies, holders,
+  // racks and planters belong to our broader sibling site's topic space, so
+  // we ask Google not to index them here (they stay live and linked — see
+  // data/non-box-products.js for the full rationale). `follow: true` keeps
+  // link equity flowing from these pages through to the box pages.
+  const noIndex = isNonBoxProduct(productRaw.slug);
   return {
     title: `${product.name} — CHIC Wooden Expert`,
     description: product.intro,
+    ...(noIndex && {
+      robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
+    }),
     alternates: makeAlternates(params.locale, localePath),
     openGraph: {
       url: fullPath,

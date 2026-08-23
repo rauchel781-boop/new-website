@@ -10,10 +10,10 @@
 //   - Avoids multiple Best Sellers pointing at the same category URL
 // If you change a featured product, update both `href` and `img` together.
 export const FEATURED = [
-  { href: '/products/kitchen-dining/wood-kitchen-utensil-holder-with-spice-drawer', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
-    tag: 'Kitchen & Dining', name: 'Utensil Holder with Spice Drawer', meta: 'Solid wood · Built-in drawer' },
-  { href: '/products/storage/3-tier-bamboo-spice-rack-organizer', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
-    tag: 'Kitchen & Storage', name: '3-Tier Bamboo Spice Rack', meta: 'Eco bamboo · 18 jars included' },
+  { href: '/products/gift-packaging/luxury-magnetic-gift-box', img: '/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp', w: 800, h: 800,
+    tag: 'Gift & Packaging Boxes', name: 'Luxury Magnetic Gift Box', meta: 'Hidden magnets · Velvet insert' },
+  { href: '/products/gift-packaging/sliding-lid-gift-box', img: '/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp', w: 1488, h: 1182,
+    tag: 'Gift & Packaging Boxes', name: 'Sliding Lid Gift Box', meta: 'Hardware-free · Flat-pack ready' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Boxes with Lock', name: 'Large Black Stash Box Kit', meta: 'Combination lock · Multi-compartment' },
   { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,

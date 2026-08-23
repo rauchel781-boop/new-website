@@ -1,9 +1,9 @@
 // Home — Japanese translation.
 export const FEATURED = [
-  { href: '/products/kitchen-dining/wood-kitchen-utensil-holder-with-spice-drawer', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
-    tag: 'キッチン・ダイニング', name: '調味料引き出し付きユーティリティホルダー', meta: '無垢材 · 引き出し内蔵' },
-  { href: '/products/storage/3-tier-bamboo-spice-rack-organizer', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
-    tag: 'キッチン・収納', name: '3段竹製スパイスラック', meta: 'エコ竹 · 18本のジャー付き' },
+  { href: '/products/gift-packaging/luxury-magnetic-gift-box', img: '/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp', w: 800, h: 800,
+    tag: 'ギフト・パッケージボックス', name: '高級マグネット式ギフトボックス', meta: '隠しマグネット · ベルベット内装' },
+  { href: '/products/gift-packaging/sliding-lid-gift-box', img: '/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp', w: 1488, h: 1182,
+    tag: 'ギフト・パッケージボックス', name: 'スライド蓋ギフトボックス', meta: '金具なし · フラット梱包対応' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'ロック付きボックス', name: '大型ブラック木製ストレージボックスキット', meta: 'ダイヤルロック · 多区画' },
   { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,

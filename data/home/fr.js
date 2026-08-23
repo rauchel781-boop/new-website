@@ -1,9 +1,9 @@
 // Home — French translation.
 export const FEATURED = [
-  { href: '/products/kitchen-dining/wood-kitchen-utensil-holder-with-spice-drawer', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
-    tag: 'Cuisine et Table', name: 'Porte-Ustensiles avec Tiroir à Épices', meta: 'Bois massif · Tiroir intégré' },
-  { href: '/products/storage/3-tier-bamboo-spice-rack-organizer', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
-    tag: 'Cuisine et Rangement', name: 'Étagère à Épices Bambou 3 Niveaux', meta: 'Bambou éco · 18 pots inclus' },
+  { href: '/products/gift-packaging/luxury-magnetic-gift-box', img: '/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp', w: 800, h: 800,
+    tag: 'Boîtes Cadeau et Emballage', name: 'Boîte Cadeau Magnétique de Luxe', meta: 'Aimants cachés · Intérieur velours' },
+  { href: '/products/gift-packaging/sliding-lid-gift-box', img: '/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp', w: 1488, h: 1182,
+    tag: 'Boîtes Cadeau et Emballage', name: 'Boîte Cadeau à Couvercle Coulissant', meta: 'Sans quincaillerie · Expédition à plat' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Boîtes avec Serrure', name: 'Grande Boîte Noire avec Serrure', meta: 'Serrure à combinaison · Multi-compartiments' },
   { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,

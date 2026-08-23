@@ -1,9 +1,9 @@
 // Home — German translation.
 export const FEATURED = [
-  { href: '/products/kitchen-dining/wood-kitchen-utensil-holder-with-spice-drawer', img: '/kitchen-dining-boxes/wood-kitchen-utensil-holder-with-spice-drawer/wood-kitchen-utensil-holder-with-spice-drawer-01.webp', w: 1164, h: 1160,
-    tag: 'Küche & Esstisch', name: 'Utensilienhalter mit Gewürzschublade', meta: 'Massivholz · Integrierte Schublade' },
-  { href: '/products/storage/3-tier-bamboo-spice-rack-organizer', img: '/storage-box/3-tier-bamboo-spice-rack-organizer/spice-jar-1-3.webp', w: 900, h: 900,
-    tag: 'Küche & Aufbewahrung', name: '3-stöckiges Bambus-Gewürzregal', meta: 'Öko-Bambus · 18 Gläser inklusive' },
+  { href: '/products/gift-packaging/luxury-magnetic-gift-box', img: '/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp', w: 800, h: 800,
+    tag: 'Geschenk- und Verpackungsboxen', name: 'Luxus-Geschenkbox mit Magnetverschluss', meta: 'Verdeckte Magnete · Samteinlage' },
+  { href: '/products/gift-packaging/sliding-lid-gift-box', img: '/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp', w: 1488, h: 1182,
+    tag: 'Geschenk- und Verpackungsboxen', name: 'Geschenkbox mit Schiebedeckel', meta: 'Ohne Beschläge · Flach verpackbar' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Boxen mit Schloss', name: 'Große schwarze Holzbox mit Schloss', meta: 'Zahlenschloss · Mehrere Fächer' },
   { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
