@@ -13,10 +13,28 @@
 //
 // Built statically at build time (parent route has generateStaticParams).
 // Falls back to a generic CHIC card if the hero image can't be loaded.
+//
+// ── 2026-08 FIX: this route was returning 502 on every PDP ──────────────
+// Every product hero is a .webp, and Satori/resvg (the engine behind
+// next/og) cannot decode WebP — it handles PNG, JPEG and SVG only. The
+// old code embedded the raw .webp bytes as a data: URL, which threw
+// during rasterisation. That throw sat OUTSIDE the try/catch (which only
+// wrapped the disk read), so it escaped the route and surfaced as a 502.
+// Google was logging those as "Server error (5xx)" against the site.
+//
+// Two changes fix it for good:
+//   1. Decode the hero through `sharp` and re-encode as PNG before
+//      embedding, so next/og always receives a format it understands.
+//      (sharp is already a dependency — Next.js uses it for image
+//      optimisation, see package.json.)
+//   2. Wrap the whole render, not just the file read, so ANY future
+//      failure degrades to the plain CHIC card instead of a 5xx. A dull
+//      share card is cosmetic; a 5xx is a crawl-quality signal.
 
 import { ImageResponse } from 'next/og';
 import fs from 'node:fs';
 import path from 'node:path';
+import sharp from 'sharp';
 
 import { PRODUCTS as GIFT_PACKAGING_PRODUCTS } from '@/data/products/gift-packaging';
 import { PRODUCTS as WATCH_JEWELRY_PRODUCTS } from '@/data/products/watch-jewelry';
@@ -66,6 +84,23 @@ export const contentType = 'image/png';
 // which PDPs get built, and each one gets a matching OG image
 // generated alongside its HTML.
 export default async function OgImage({ params }) {
+  try {
+    return await renderProductCard(params);
+  } catch (err) {
+    // Last line of defence: this route must never return 5xx. See the
+    // header note — Google counts server errors against crawl quality,
+    // and a share card is not worth that.
+    console.error(
+      '[opengraph-image] product card failed for',
+      `${params?.locale}/${params?.slug}/${params?.product}`,
+      '— serving fallback card:',
+      err,
+    );
+    return renderFallback();
+  }
+}
+
+async function renderProductCard(params) {
   const products = PRODUCTS_BY_CATEGORY[params.slug];
   const raw = products?.[params.product];
   if (!raw) return renderFallback();
@@ -81,16 +116,19 @@ export default async function OgImage({ params }) {
     try {
       const abs = path.join(process.cwd(), 'public', heroPath);
       const buf = fs.readFileSync(abs);
-      const ext = (heroPath.split('.').pop() || 'webp').toLowerCase();
-      const mime =
-        ext === 'png'  ? 'image/png'  :
-        ext === 'jpg'  ? 'image/jpeg' :
-        ext === 'jpeg' ? 'image/jpeg' :
-        ext === 'webp' ? 'image/webp' :
-                         'application/octet-stream';
-      heroDataUrl = `data:${mime};base64,${buf.toString('base64')}`;
-    } catch {
-      // Fall through — render text-only card if hero is missing on disk
+      // Always re-encode to PNG. next/og cannot decode WebP (our hero
+      // format), and re-encoding also normalises anything odd we might
+      // add to /public later. Resizing to the exact panel size keeps the
+      // base64 payload — and the rasteriser's memory use — small.
+      const png = await sharp(buf)
+        .resize(600, 630, { fit: 'cover', position: 'centre' })
+        .png({ compressionLevel: 9 })
+        .toBuffer();
+      heroDataUrl = `data:image/png;base64,${png.toString('base64')}`;
+    } catch (err) {
+      // Missing file, or sharp unavailable/failed — render the text-only
+      // variant of the card. Deliberately non-fatal.
+      console.warn('[opengraph-image] hero unavailable for', heroPath, '-', err?.message);
     }
   }
 
