@@ -388,7 +388,11 @@
     "postRelatedEyebrow": "Continua a leggere",
     "postRelatedTitle": "Articoli Correlati",
     "breadcrumbHome": "Home",
-    "breadcrumbJournal": "Journal"
+    "breadcrumbJournal": "Journal",
+    "tocLabel": "In questa pagina",
+    "printLabel": "Stampa / PDF",
+    "authorEyebrow": "Scritto da",
+    "lastReviewed": "Ultima revisione: {date}"
   },
   "newsletterForm": {
     "thanks": "✓ Grazie — sei in lista. Ti contatteremo presto.",

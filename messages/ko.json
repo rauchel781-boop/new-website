@@ -388,7 +388,11 @@
     "postRelatedEyebrow": "이어 읽기",
     "postRelatedTitle": "관련 기사",
     "breadcrumbHome": "홈",
-    "breadcrumbJournal": "Journal"
+    "breadcrumbJournal": "Journal",
+    "tocLabel": "목차",
+    "printLabel": "인쇄 / PDF",
+    "authorEyebrow": "작성자",
+    "lastReviewed": "최종 검토일: {date}"
   },
   "newsletterForm": {
     "thanks": "✓ 감사합니다 — 구독 완료. 곧 연락드리겠습니다.",

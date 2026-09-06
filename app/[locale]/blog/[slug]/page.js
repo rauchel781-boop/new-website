@@ -8,6 +8,14 @@ import { SITE } from '@/data/site-config';
 import { alternates as makeAlternates } from '@/i18n/seo';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getBlogTranslation } from '@/data/blog/translations';
+import BlogToc from '@/components/BlogToc';
+import BlogPrintButton from '@/components/BlogPrintButton';
+import BlogAuthorBox from '@/components/BlogAuthorBox';
+import BlogVideo from '@/components/BlogVideo';
+import { BlogCompare, BlogFlow } from '@/components/BlogDiagrams';
+import PageFaq from '@/components/PageFaq';
+import { getAuthor } from '@/data/blog-authors';
+import { buildHeadingIdMap } from '@/lib/blog-toc';
 
 export function generateStaticParams() {
   return POSTS.map((p) => ({ slug: p.slug }));
@@ -62,8 +70,12 @@ const POST_CSS = `
 }
 .bp *, .bp *::before, .bp *::after { box-sizing: border-box; }
 
-/* ── Top bar (back to blog) ── */
-.bp .topbar { padding: 26px 60px 0; max-width: 1300px; margin: 0 auto; }
+/* ── Top bar (breadcrumb + print) ── */
+.bp .topbar {
+  padding: 26px 60px 0; max-width: 1300px; margin: 0 auto;
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 20px; flex-wrap: wrap;
+}
 .bp .back-link {
   display: inline-flex; align-items: center; gap: 8px;
   font-size: 0.7rem; letter-spacing: 2.5px; text-transform: uppercase; font-weight: 600;
@@ -71,6 +83,47 @@ const POST_CSS = `
   transition: color .2s;
 }
 .bp .back-link:hover { color: var(--wd-deep); }
+
+/* Visible breadcrumb. The current title is truncated rather than wrapped —
+   article titles run long and a two-line breadcrumb reads as broken. */
+.bp .bp-crumbs {
+  display: flex; align-items: center; gap: 8px;
+  font-size: .74rem; color: var(--wd-mute);
+  min-width: 0; flex: 1;
+}
+.bp .bp-crumbs a { color: var(--wd-warm); text-decoration: none; transition: color .2s; }
+.bp .bp-crumbs a:hover { color: var(--wd-deep); text-decoration: underline; }
+.bp .bp-crumb-sep { color: rgba(107,74,51,0.38); }
+.bp .bp-crumb-cur {
+  color: var(--wd-mute);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  max-width: 46ch;
+}
+
+/* Print / Save-as-PDF control */
+.bp .bp-print {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: transparent;
+  border: 1px solid rgba(107,74,51,0.28);
+  border-radius: 4px;
+  padding: 8px 14px;
+  font-family: inherit;
+  font-size: .72rem; letter-spacing: 1.5px; text-transform: uppercase; font-weight: 600;
+  color: var(--wd-mid); cursor: pointer;
+  transition: border-color .2s, color .2s, background .2s;
+  flex-shrink: 0;
+}
+.bp .bp-print:hover { border-color: var(--wd-accent); color: var(--wd-deep); background: rgba(197,142,74,0.08); }
+.bp .bp-print:focus-visible { outline: 2px solid var(--wd-accent); outline-offset: 2px; }
+
+/* External links get a subtle outbound marker so readers know the link
+   leaves the site before they click it. */
+.bp .bp-link-ext::after {
+  content: '↗';
+  font-size: .78em;
+  margin-left: 2px;
+  opacity: .7;
+}
 
 /* ── Hero ── */
 .bp .hero {
@@ -326,6 +379,44 @@ const POST_CSS = `
   .bp .rel-grid { grid-template-columns: 1fr; }
   .bp .cta { padding: 60px 24px; }
   .bp .cta-title { font-size: 1.6rem; }
+  .bp .bp-crumb-cur { max-width: 20ch; }
+}
+
+/* ── Print / Save-as-PDF ──
+   Drives what the browser's print dialog produces when a reader hits the
+   Print button. Everything that only makes sense on screen is dropped:
+   navigation, the reading-progress bar, share and print controls, related
+   posts and the closing CTA. What survives is the article itself, the
+   diagrams, the FAQ and the byline — i.e. a document a procurement team
+   can actually file or circulate.
+
+   The collapsed table of contents is forced open so the printed copy keeps
+   its outline, and every link's destination is printed after the label,
+   since a href is useless on paper. Site-relative links get the origin
+   prepended so the printed URL is complete. */
+@media print {
+  .bp { background: #fff !important; }
+  .bp .topbar,
+  .bp .post-foot-r,
+  .bp .related,
+  .bp .cta,
+  .no-print { display: none !important; }
+
+  .bp .hero { padding: 0 0 18px; }
+  .bp .hero-title { font-size: 22pt; }
+  .bp .hero-excerpt { font-size: 11pt; }
+  .bp .body { padding: 0; max-width: none; font-size: 10.5pt; }
+  .bp .hero-img-wrap { padding: 0; }
+
+  .bp h2, .bp h3 { break-after: avoid; }
+  .bp figure, .bp table, .bp blockquote { break-inside: avoid; }
+  .bp .bp-toc[open] .bp-toc-list { display: block !important; }
+
+  .bp .bp-link::after { font-size: 8.5pt; color: #555; word-break: break-all; }
+  /* Internal links render as a site-relative path, so the origin is added
+     back to make the printed URL usable. External links already carry it. */
+  .bp .bp-link:not(.bp-link-ext)::after { content: ' (https://www.custom-woodenbox.com' attr(href) ')'; }
+  .bp .bp-link-ext::after { content: ' (' attr(href) ')'; }
 }
 `;
 
@@ -334,9 +425,20 @@ function fmtDate(iso) {
   return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
-// Parse inline [label](/path) markdown links in body text into next-intl
-// <Link> elements (active-locale prefix auto-added). Plain text without the
-// token renders unchanged, so existing posts are unaffected.
+// Parse inline [label](/path) markdown links in body text.
+//
+// Internal paths render as next-intl <Link> so the active locale prefix is
+// added automatically. Absolute http(s) URLs are a different animal: passing
+// them to <Link> would have next-intl try to prefix a foreign origin, so they
+// render as a plain <a> instead — and they open in a new tab, with
+// rel="noopener noreferrer" (noopener closes the reverse-tabnabbing hole that
+// target="_blank" opens; noreferrer keeps our URLs out of their analytics).
+// Plain text without the token renders unchanged, so existing posts are
+// unaffected.
+function isExternalHref(href) {
+  return /^https?:\/\//i.test(href);
+}
+
 function renderInline(text) {
   if (typeof text !== 'string' || text.indexOf('](') === -1) return text;
   const re = /\[([^\]]+)\]\(([^)]+)\)/g;
@@ -344,19 +446,51 @@ function renderInline(text) {
   let last = 0, m, k = 0;
   while ((m = re.exec(text)) !== null) {
     if (m.index > last) out.push(text.slice(last, m.index));
-    out.push(<Link key={`l${k++}`} href={m[2]} className="bp-link">{m[1]}</Link>);
+    const [, label, href] = m;
+    out.push(
+      isExternalHref(href) ? (
+        <a
+          key={`l${k++}`}
+          href={href}
+          className="bp-link bp-link-ext"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {label}
+        </a>
+      ) : (
+        <Link key={`l${k++}`} href={href} className="bp-link">{label}</Link>
+      ),
+    );
     last = m.index + m[0].length;
   }
   if (last < text.length) out.push(text.slice(last));
   return out;
 }
 
-function renderBlock(block, i) {
+// `headingIds` maps a body index → anchor id, so the <h2>/<h3> we render here
+// carries the same id the table of contents links to. Passed in rather than
+// recomputed so both sides cannot drift apart.
+function renderBlock(block, i, headingIds) {
+  const anchor = headingIds ? headingIds.get(i) : undefined;
   switch (block.type) {
     case 'h2':
-      return <h2 key={i}>{block.text}</h2>;
+      return <h2 key={i} id={anchor}>{block.text}</h2>;
     case 'h3':
-      return <h3 key={i}>{block.text}</h3>;
+      return <h3 key={i} id={anchor}>{block.text}</h3>;
+    case 'video':
+      return (
+        <BlogVideo
+          key={i}
+          youtubeId={block.youtubeId}
+          title={block.title}
+          caption={block.caption}
+        />
+      );
+    case 'compare':
+      return <BlogCompare key={i} items={block.items} caption={block.caption} />;
+    case 'flow':
+      return <BlogFlow key={i} steps={block.steps} caption={block.caption} />;
     case 'p':
       return <p key={i}>{renderInline(block.text)}</p>;
     case 'img':
@@ -423,6 +557,14 @@ export default async function BlogPost({ params }) {
   // breadcrumb names). Loaded once and used across the JSX below.
   const t = await getTranslations({ locale: params.locale, namespace: 'blog' });
 
+  // Anchor ids for every h2/h3, shared with the table of contents so the
+  // two can never disagree about where a link points.
+  const headingIds = buildHeadingIdMap(post.body);
+
+  // Named author for the byline + Person node in the Article schema.
+  // Falls back to the default author when a post does not name one.
+  const author = getAuthor(post.authorId);
+
   // ── JSON-LD: Article + BreadcrumbList ──────────────────────────────
   const postPath = `/blog/${post.slug}`;
   const articleLd = {
@@ -432,9 +574,25 @@ export default async function BlogPost({ params }) {
     description: post.excerpt,
     image: post.hero ? [`${SITE.siteUrl}${post.hero}`] : undefined,
     datePublished: post.date,
-    dateModified: post.date,
+    // Real revision date when the post carries one. Previously this always
+    // mirrored datePublished, which told Google and the AI engines that an
+    // article reviewed last month had not been touched since publication —
+    // and generative engines demonstrably favour recently-updated sources.
+    dateModified: post.updated || post.date,
     articleSection: post.category,
-    author: { '@type': 'Organization', name: SITE.company.legalName, url: SITE.siteUrl },
+    author: {
+      '@type': 'Person',
+      name: author.name,
+      jobTitle: author.jobTitle,
+      description: author.bio,
+      knowsAbout: author.knowsAbout,
+      worksFor: {
+        '@type': 'Organization',
+        '@id': `${SITE.siteUrl}/#organization`,
+        name: SITE.company.legalName,
+        url: SITE.siteUrl,
+      },
+    },
     publisher: {
       '@type': 'Organization',
       name: SITE.company.legalName,
@@ -460,9 +618,18 @@ export default async function BlogPost({ params }) {
       <JsonLd data={breadcrumbLd} />
       <style dangerouslySetInnerHTML={{ __html: POST_CSS }} />
 
-      {/* Top bar */}
+      {/* Top bar: visible breadcrumb (mirrors the BreadcrumbList JSON-LD
+          above) plus the print control. The breadcrumb existed only as
+          structured data before — readers had no visible path back up. */}
       <div className="topbar">
-        <Link href="/blog" className="back-link">← {t('backToJournal')}</Link>
+        <nav className="bp-crumbs" aria-label="Breadcrumb">
+          <Link href="/">{t('breadcrumbHome')}</Link>
+          <span className="bp-crumb-sep" aria-hidden="true">/</span>
+          <Link href="/blog">{t('breadcrumbJournal')}</Link>
+          <span className="bp-crumb-sep" aria-hidden="true">/</span>
+          <span className="bp-crumb-cur" aria-current="page">{post.title}</span>
+        </nav>
+        <BlogPrintButton label={t('printLabel')} />
       </div>
 
       {/* Hero */}
@@ -485,8 +652,20 @@ export default async function BlogPost({ params }) {
 
       {/* Body */}
       <div className="body">
-        {post.body.map(renderBlock)}
+        <BlogToc body={post.body} label={t('tocLabel')} />
+        {post.body.map((block, i) => renderBlock(block, i, headingIds))}
+        <BlogAuthorBox
+          author={author}
+          eyebrow={t('authorEyebrow')}
+          reviewedLabel={
+            post.updated ? t('lastReviewed', { date: fmtDate(post.updated) }) : null
+          }
+        />
       </div>
+
+      {/* Article FAQ — renders nothing when the post ships no `faqs`.
+          Emits its own FAQPage JSON-LD (see components/PageFaq.jsx). */}
+      <PageFaq faqs={post.faqs} />
 
       {/* Post footer */}
       <div className="post-foot">

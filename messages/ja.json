@@ -388,7 +388,11 @@
     "postRelatedEyebrow": "続けて読む",
     "postRelatedTitle": "関連記事",
     "breadcrumbHome": "ホーム",
-    "breadcrumbJournal": "Journal"
+    "breadcrumbJournal": "Journal",
+    "tocLabel": "目次",
+    "printLabel": "印刷 / PDF",
+    "authorEyebrow": "執筆者",
+    "lastReviewed": "最終確認日：{date}"
   },
   "newsletterForm": {
     "thanks": "✓ ありがとうございます — 登録完了。後ほどご連絡します。",

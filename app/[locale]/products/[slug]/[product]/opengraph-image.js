@@ -30,11 +30,20 @@
 //   2. Wrap the whole render, not just the file read, so ANY future
 //      failure degrades to the plain CHIC card instead of a 5xx. A dull
 //      share card is cosmetic; a 5xx is a crawl-quality signal.
+//
+// sharp is loaded with a dynamic import inside that try/catch, NOT as a
+// top-level import. sharp ships platform-specific native binaries, and a
+// checkout whose node_modules was installed for a different platform (a
+// Windows dev machine, typically) throws "Could not load the sharp module"
+// the moment the module is evaluated. A top-level import makes that throw
+// during Next's page-data collection, which kills the entire build before
+// a single page is generated — turning a cosmetic missing photo into a
+// hard stop. Imported lazily, the same failure lands in the catch below
+// and the card simply renders without the hero.
 
 import { ImageResponse } from 'next/og';
 import fs from 'node:fs';
 import path from 'node:path';
-import sharp from 'sharp';
 
 import { PRODUCTS as GIFT_PACKAGING_PRODUCTS } from '@/data/products/gift-packaging';
 import { PRODUCTS as WATCH_JEWELRY_PRODUCTS } from '@/data/products/watch-jewelry';
@@ -116,6 +125,8 @@ async function renderProductCard(params) {
     try {
       const abs = path.join(process.cwd(), 'public', heroPath);
       const buf = fs.readFileSync(abs);
+      // Lazy load — see the header note on why this is not a top-level import.
+      const { default: sharp } = await import('sharp');
       // Always re-encode to PNG. next/og cannot decode WebP (our hero
       // format), and re-encoding also normalises anything odd we might
       // add to /public later. Resizing to the exact panel size keeps the
