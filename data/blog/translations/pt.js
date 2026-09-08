@@ -3,6 +3,439 @@
 
 export default {
   "posts": {
+    "wooden-box-closure-types-compared": {
+      "title": "Fechos de caixas de madeira comparados: deslizante, com dobradiças, magnético, gaveta e fechadura",
+      "excerpt": "O fecho é a primeira coisa que um comprador de caixas de madeira deveria especificar e a última que a maioria das fichas técnicas menciona. Esta é a comparação de um fabricante sobre os cinco fechos que realmente produzimos: como cada um é maquinado, o que faz ao prazo de entrega e à quantidade mínima, onde cada um falha, e como escolher sem adivinhar.",
+      "category": "Projeto",
+      "readTime": "14 min de leitura",
+      "body": [
+        {
+          "type": "p",
+          "text": "A maioria dos compradores especifica uma caixa de madeira por esta ordem: dimensões, espécie de madeira, marcação e depois — quase como uma reflexão tardia — como se abre. Essa ordem está invertida. O fecho determina as ferramentas, o tempo de montagem, a fatura de ferragens, se a caixa pode seguir plana e o que o cliente sente nos primeiros dois segundos em que lhe pega. Mudar o fecho tarde equivale a ter recotado o projeto inteiro."
+        },
+        {
+          "type": "p",
+          "text": "Este artigo é escrito do lado da produção. Fabricamos cinco fechos ao longo de 186 produtos de catálogo, e os números abaixo vêm desse catálogo e não de um guia genérico de embalagem: quantidades mínimas reais, prazos reais e as verdadeiras razões pelas quais uma encomenda derrapa. Quando algo depende da sua arte final ou das suas dimensões, dizemo-lo em vez de inventar um número."
+        },
+        {
+          "type": "h2",
+          "text": "Os cinco fechos num relance"
+        },
+        {
+          "type": "p",
+          "text": "Todo o fecho de caixa de madeira em uso produtivo é uma variação de cinco mecanismos. Os esquemas abaixo mostram o que cada um faz estruturalmente — não o aspeto numa fotografia, mas onde está a peça móvel e o que a segura."
+        },
+        {
+          "type": "compare",
+          "caption": "Comparação estrutural dos cinco fechos. Os prazos são o intervalo observado no nosso próprio catálogo para esse tipo de fecho; a MOQ é o mínimo mais frequente e move-se com o tamanho e a complexidade da marcação.",
+          "items": [
+            {
+              "kind": "sliding",
+              "name": "Tampa deslizante",
+              "tagline": "Um painel corre numa ranhura fresada na parede da caixa. Sem quaisquer ferragens.",
+              "rows": [
+                {
+                  "k": "Ferragens",
+                  "v": "Nenhumas"
+                },
+                {
+                  "k": "MOQ habitual",
+                  "v": "200–500"
+                },
+                {
+                  "k": "Prazo de entrega",
+                  "v": "20–30 dias"
+                },
+                {
+                  "k": "Envio plano",
+                  "v": "Sim"
+                }
+              ]
+            },
+            {
+              "kind": "hinged",
+              "name": "Tampa com dobradiças",
+              "tagline": "A tampa roda em dobradiças fixadas ao bordo posterior. Feita para aberturas repetidas.",
+              "rows": [
+                {
+                  "k": "Ferragens",
+                  "v": "Dobradiças (+fecho)"
+                },
+                {
+                  "k": "MOQ habitual",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Prazo de entrega",
+                  "v": "25–35 dias"
+                },
+                {
+                  "k": "Envio plano",
+                  "v": "Não"
+                }
+              ]
+            },
+            {
+              "kind": "magnetic",
+              "name": "Fecho magnético",
+              "highlight": true,
+              "tagline": "Ímanes de neodímio embutidos na parede. O exterior permanece intacto.",
+              "rows": [
+                {
+                  "k": "Ferragens",
+                  "v": "Ímanes ocultos"
+                },
+                {
+                  "k": "MOQ habitual",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Prazo de entrega",
+                  "v": "30–35 dias"
+                },
+                {
+                  "k": "Envio plano",
+                  "v": "Não"
+                }
+              ]
+            },
+            {
+              "kind": "drawer",
+              "name": "Gaveta",
+              "tagline": "Um tabuleiro sai horizontalmente de uma estrutura fixa. De um a doze níveis.",
+              "rows": [
+                {
+                  "k": "Ferragens",
+                  "v": "Corrediças + puxador"
+                },
+                {
+                  "k": "MOQ habitual",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Prazo de entrega",
+                  "v": "25–40 dias"
+                },
+                {
+                  "k": "Envio plano",
+                  "v": "Não"
+                }
+              ]
+            },
+            {
+              "kind": "lock",
+              "name": "Com fechadura",
+              "tagline": "Uma tampa com dobradiças mais fechadura de chave, de came ou de combinação, e dobradiças reforçadas.",
+              "rows": [
+                {
+                  "k": "Ferragens",
+                  "v": "Fechadura + dobradiças"
+                },
+                {
+                  "k": "MOQ habitual",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Prazo de entrega",
+                  "v": "25–30 dias"
+                },
+                {
+                  "k": "Envio plano",
+                  "v": "Não"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Há um padrão nessa tabela que merece uma pausa. O magnético é o único fecho do nosso catálogo em que nada sai em menos de 30 dias, e o deslizante é o único que alguma vez saiu em 20. Essa diferença não é uma preferência de planeamento: é o número de operações que cada fecho exige, e é isso que o resto deste artigo percorre."
+        },
+        {
+          "type": "h2",
+          "text": "Tampa deslizante: o cavalo de batalha sem ferragens"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp",
+          "caption": "Uma caixa de oferta com tampa deslizante. A ranhura é fresada nas paredes laterais antes da montagem, pelo que a caixa acabada não mostra qualquer mecanismo visível."
+        },
+        {
+          "type": "p",
+          "text": "Uma tampa deslizante é uma ranhura fresada em duas paredes opostas mais um painel dimensionado para correr dentro dela. Não há dobradiça, nem íman, nem fecho — o que significa que não há nada que possa folgar após vinte mil ciclos de abertura e fecho pelo consumidor, nem nada que se solte com a vibração num contentor marítimo."
+        },
+        {
+          "type": "p",
+          "text": "Comercialmente é o fecho mais barato que produzimos, e a razão está na montagem e não nos materiais. Uma tampa deslizante elimina por completo a fatura de ferragens e o passo de aplicação que a acompanha. É também o único fecho que segue verdadeiramente plano quando um programa o exige, algo que pesa mais do que a maioria dos compradores espera assim que entra o frete aéreo."
+        },
+        {
+          "type": "p",
+          "text": "A contrapartida é a retenção. Uma tampa deslizante não se mantém fechada se a caixa for levantada pela tampa, e exige duas mãos e um movimento deliberado para abrir. Para um expositor de joalharia ou uma unidade de demonstração em loja, onde o cliente levanta a tampa com uma só mão, esse é o comportamento errado. Para oferta, charutos, chá, lembranças de casamento e kits de artesanato — onde a revelação lenta e deliberada é precisamente o objetivo — é exatamente o certo. As nossas [caixas com tampa deslizante](/products/sliding-lid) existem em pinho, nogueira, bambu e paulownia."
+        },
+        {
+          "type": "p",
+          "text": "Uma nota de produção que salva projetos: a tolerância da ranhura tem de ser ajustada ao acabamento. Uma tampa dimensionada para madeira em bruto vai prender assim que duas demãos de verniz cobrirem o bordo do painel. Nós maquinamos para a dimensão acabada, não para a nua — é por isso que uma caixa deslizante envernizada e uma oleada não são a mesma peça."
+        },
+        {
+          "type": "h2",
+          "text": "Tampa com dobradiças: o padrão de uso diário"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/hinged-wooden-gift-box/hinged-wooden-gift-box-01.webp",
+          "caption": "Uma caixa de oferta com dobradiças e ferragens ocultas. A construção com dobradiças é o fecho mais comum do nosso catálogo, com 55 de 186 produtos."
+        },
+        {
+          "type": "p",
+          "text": "Dobradiça é o fecho que mais produzimos — 55 dos nossos 186 produtos de catálogo — e não é um acaso de gosto. É o único fecho que se comporta corretamente quando uma caixa é aberta diariamente durante anos: a tampa mantém-se ligada, abre com uma mão e para onde a ferragem lhe diz para parar."
+        },
+        {
+          "type": "p",
+          "text": "A especificação que realmente importa aqui é a dobradiça, não a caixa. Uma dobradiça estampada chega para uma caixa de recordações aberta no Natal. Um guarda-joias sobre o balcão de uma loja, ou uma caixa de ferramentas numa oficina, precisa de uma dobradiça europeia de caneco oculta ou de um mecanismo de fecho amortecido, porque o modo de falha de uma dobradiça barata não é a rutura: é a tampa a ceder gradualmente até deixar de assentar à face, o que o cliente final lê como produto defeituoso."
+        },
+        {
+          "type": "p",
+          "text": "Os prazos para versões com dobradiças situam-se entre 25 e 35 dias no nosso catálogo, sendo 30 o mais frequente. O intervalo deve-se quase inteiramente às ferragens: o latão padrão fica no extremo curto, e tudo o que exija um amortecedor de fecho suave ou uma correspondência de acabamento específica acrescenta um passo de aprovisionamento. Veja a gama em [caixas de madeira com dobradiças](/products/hinged)."
+        },
+        {
+          "type": "h2",
+          "text": "Fecho magnético: o unboxing premium"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp",
+          "caption": "Os ímanes são alojados na parede e tapados antes do acabamento, pelo que o exterior da caixa não mostra qualquer ferragem."
+        },
+        {
+          "type": "p",
+          "text": "O fecho magnético é o padrão premium moderno para embalagem de oferta e retalho, e toda a sua proposta de valor está no que não se vê. Ímanes de neodímio são alojados na tampa e na parede, tapados e cobertos pelo acabamento. O exterior permanece uma superfície limpa e ininterrupta, e a tampa fecha com um estalido suave e deliberado que uma dobradiça não consegue reproduzir."
+        },
+        {
+          "type": "p",
+          "text": "Os compradores devem saber que este é o fecho mais lento que produzimos. Nada da nossa gama magnética sai em menos de 30 dias, e algumas séries chegam aos 35. Os ímanes têm de ser assentes com polaridade emparelhada, tapados e curados antes de o acabamento poder começar — várias operações que acontecem todas antes de a caixa parecer seja o que for, e basta apressar uma delas para surgir uma tampa que não assenta ou um íman que se solta em trânsito."
+        },
+        {
+          "type": "p",
+          "text": "É também o fecho em que o mercado da caixa de madeira se confunde com um setor completamente diferente. Ao procurar caixas com fecho magnético, a maior parte do que aparece é cartão rígido — cartão cinza revestido a papel com ímanes no interior. É um produto legítimo, com uma base de custos muito diferente e um toque muito diferente na mão. Se o briefing diz madeira, confirme que o fornecedor está a cotar madeira maciça ou folheado, e não cartão rígido. As nossas [caixas de madeira magnéticas](/products/magnetic) são construídas sobre maciço e folheado."
+        },
+        {
+          "type": "h2",
+          "text": "Gaveta: quando o conteúdo precisa de ficar organizado"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/drawer-wooden-gift-box/drawer-wooden-gift-box-01.webp",
+          "caption": "Uma caixa de oferta com gaveta. A estrutura exterior permanece fixa enquanto o tabuleiro sai, o que mantém a caixa estável sobre o balcão."
+        },
+        {
+          "type": "p",
+          "text": "Uma caixa com gaveta resolve um problema diferente dos outros quatro fechos. Todos os outros dão acesso pelo topo; uma gaveta dá acesso sem mover a caixa e permite empilhar o conteúdo em níveis que se mantêm separados. Para joalharia, ferramentas, material de escritório e arrumação ao estilo de boticário, isso justifica a construção adicional."
+        },
+        {
+          "type": "p",
+          "text": "É também o fecho com o intervalo de prazos mais largo do nosso catálogo: de 25 a 40 dias. Uma gaveta de um só nível aproxima-se, em esforço, de uma caixa com dobradiças. Um móvel de doze níveis com corrediças amortecidas e porta-etiquetas é um produto completamente diferente, e a resposta honesta a «quanto tempo demora uma caixa com gaveta» é que depende do número de níveis mais do que de qualquer outra coisa. Veja a gama em [caixas de madeira com gaveta](/products/drawer)."
+        },
+        {
+          "type": "p",
+          "text": "A especificação a acertar é a corrediça. Uma gaveta que corre diretamente sobre madeira é silenciosa, barata e vai prender em climas húmidos à medida que a madeira trabalha. Uma gaveta sobre corrediças metálicas custa mais, acrescenta peso e comporta-se de forma idêntica em Hamburgo e em Houston. Para um programa de exportação que envia para vários climas, essa constância costuma justificar o custo."
+        },
+        {
+          "type": "h2",
+          "text": "Com fechadura: quando a caixa tem de ficar fechada"
+        },
+        {
+          "type": "img",
+          "src": "/wooden-boxes-with-lock/acacia-wood-all-in-one-stash-box-with-lock/acacia-wood-stash-box-1.webp",
+          "caption": "Uma caixa em acácia com fechadura de combinação de três dígitos e dobradiças reforçadas. Uma fechadura é um acréscimo a uma tampa com dobradiças, não um fecho por direito próprio."
+        },
+        {
+          "type": "p",
+          "text": "Uma caixa com fechadura é uma caixa com dobradiças à qual se sobrepõe um requisito de segurança, e vale a pena ser preciso quanto a esse requisito. Uma fechadura de chave em latão dissuade um visitante curioso. Uma fechadura de combinação elimina o problema da chave perdida, o que importa num produto vendido a retalho onde o fabricante nunca conhece o utilizador final. Nenhuma das duas é um cofre, e qualquer fornecedor que insinue o contrário está a vender a mais."
+        },
+        {
+          "type": "p",
+          "text": "O que muda de facto na produção é o resto da caixa. Uma fechadura concentra esforço no bordo da tampa e nas dobradiças sempre que alguém a testa, pelo que as caixas com fechadura levam dobradiças reforçadas e uma tampa mais espessa do que a mesma caixa precisaria de outro modo. Dispensar esse reforço é, de longe, a razão mais comum para uma caixa com fechadura voltar danificada. As nossas [caixas de madeira com fechadura](/products/with-lock) existem em nogueira, carvalho, pinho e acácia."
+        },
+        {
+          "type": "h2",
+          "text": "O que o fecho faz ao seu prazo de entrega e à sua MOQ"
+        },
+        {
+          "type": "p",
+          "text": "A tabela seguinte vem dos nossos próprios registos de produção, não de médias do setor. Os valores de MOQ são o mínimo mais frequente para esse fecho; tanto a MOQ como o prazo se movem com o tamanho da caixa, o método de marcação e a complexidade do interior, por isso trate-os como a forma da decisão e não como uma cotação."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Fecho",
+            "Produtos na gama",
+            "MOQ mais frequente",
+            "Prazo observado",
+            "Principal fator do intervalo"
+          ],
+          "rows": [
+            [
+              "Tampa deslizante",
+              "18",
+              "200–300 un.",
+              "20–30 dias",
+              "Tipo de acabamento; a ranhura é maquinada à dimensão acabada"
+            ],
+            [
+              "Tampa com dobradiças",
+              "55",
+              "200–300 un.",
+              "25–35 dias",
+              "Especificação da dobradiça e aprovisionamento de ferragens"
+            ],
+            [
+              "Magnético",
+              "14",
+              "200–300 un.",
+              "30–35 dias",
+              "Assentamento e cura dos ímanes antes do acabamento"
+            ],
+            [
+              "Gaveta",
+              "25",
+              "200–300 un.",
+              "25–40 dias",
+              "Número de níveis; tipo de corrediça"
+            ],
+            [
+              "Com fechadura",
+              "9",
+              "200–300 un.",
+              "25–30 dias",
+              "Tipo de fechadura e reforço das dobradiças"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Duas coisas nessa tabela surpreendem a maioria dos compradores de primeira viagem. A primeira é que a MOQ quase não se move entre fechos — o mínimo é determinado pela preparação de máquina e pela compra de material, não pelo mecanismo escolhido, pelo que mudar de magnético para deslizante para atingir um mínimo mais baixo não resulta. A segunda é que o prazo se move bastante. Se a data de lançamento é fixa e o fecho não é, essa é a alavanca que vale a pena puxar."
+        },
+        {
+          "type": "h2",
+          "text": "Como cada fecho é realmente construído"
+        },
+        {
+          "type": "p",
+          "text": "Todas as caixas que expedimos passam pelas mesmas seis estações, independentemente do fecho. O que muda é quanto trabalho acontece nas estações três e quatro, e é daí que vêm as diferenças de prazo da tabela acima."
+        },
+        {
+          "type": "flow",
+          "caption": "As seis estações de produção. As caixas com tampa deslizante quase nada fazem na estação 4, e por isso saem da fábrica mais depressa; as magnéticas fazem aí o máximo de trabalho e não podem iniciar o acabamento enquanto os alojamentos dos ímanes não tiverem curado.",
+          "steps": [
+            {
+              "title": "Corte à medida",
+              "note": "A madeira seca em estufa é dimensionada. Idêntico para os cinco fechos."
+            },
+            {
+              "title": "Perfilagem",
+              "note": "São maquinados perfis e ligações de canto."
+            },
+            {
+              "title": "Ranhura e encaixe",
+              "note": "Onde as tampas deslizantes recebem a ranhura e as caixas magnéticas os alojamentos dos ímanes."
+            },
+            {
+              "title": "Aplicação de ferragens",
+              "note": "Assentam-se dobradiças, corrediças, fechaduras e ímanes. As tampas deslizantes saltam esta estação por completo."
+            },
+            {
+              "title": "Lixagem e acabamento",
+              "note": "Óleo, verniz ou tinta. Não pode começar antes de os adesivos terem curado."
+            },
+            {
+              "title": "Controlo e embalagem de exportação",
+              "note": "Verificação funcional de cada fecho e depois embalagem conforme a ISPM 15."
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/folder/3-mortise-cutting.webp",
+          "caption": "Estação três: maquinação de encaixes e ranhuras. É aqui que uma tampa deslizante e uma caixa magnética deixam de ser o mesmo produto."
+        },
+        {
+          "type": "p",
+          "text": "O trabalho de conformidade da estação seis é o mesmo qualquer que seja o fecho escolhido, e vale a pena saber o que abrange. A embalagem de madeira maciça que entra na maioria dos mercados precisa de tratamento e marcação segundo a [ISPM 15](https://www.ippc.int/en/publications/regulation-wood-packaging-material-international-trade-0/), a norma fitossanitária internacional — sem ela um contentor pode ficar retido no porto. Qualquer componente compósito ou folheado vendido nos Estados Unidos cai sob as [regras do California Air Resources Board para produtos de madeira compósita](https://ww2.arb.ca.gov/our-work/programs/composite-wood-products-program) relativas a emissões de formaldeído. E os retalhistas na Alemanha, França e Reino Unido pedem cada vez mais documentação de [cadeia de custódia FSC](https://fsc.org/en/chain-of-custody) na caixa de cartão, e não apenas uma afirmação no site."
+        },
+        {
+          "type": "h2",
+          "text": "Escolher sem adivinhar"
+        },
+        {
+          "type": "p",
+          "text": "Em vez de ordenar os cinco fechos por classificação, percorra o que a caixa tem de fazer. Na prática, normalmente uma só pergunta resolve."
+        },
+        {
+          "type": "list",
+          "items": [
+            "O cliente final vai abri-la mais do que umas poucas vezes? Dobradiças. Mais nada aguenta uso diário sem folgar.",
+            "O momento do unboxing é o produto? Magnético — e orce a semana extra.",
+            "A restrição determinante é o custo unitário ou o frete aéreo? Tampa deslizante. Sem ferragens, sem passo de aplicação, envio plano.",
+            "O conteúdo tem de ficar organizado por níveis? Gaveta, e feche o tipo de corrediça antes de fechar o preço.",
+            "Tem de ficar fechada quando não está presente? Com fechadura, e com o reforço de dobradiças que isso implica."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Se duas respostas competirem — digamos, um guarda-joias que é ao mesmo tempo objeto de uso diário e unboxing premium —, deve ganhar o requisito de uso diário. Uma tampa magnética aberta duas vezes por dia sobreviverá ao programa, mas nunca dará na mão a mesma sensação de solidez de uma dobradiça bem especificada, e o cliente repara nisso ao trigésimo dia, não ao primeiro."
+        },
+        {
+          "type": "p",
+          "text": "A espécie de madeira é uma decisão separada do fecho, e as duas interagem menos do que se supõe: qualquer um destes cinco fechos pode ser construído em qualquer uma das nossas espécies. O nosso [guia de materiais](/material-guide) compara paulownia, pinho, bambu, acácia e nogueira quanto a peso, dureza, comportamento no acabamento e certificação."
+        },
+        {
+          "type": "quote",
+          "text": "O fecho é a única parte de uma caixa de madeira que o cliente aciona. Todo o resto ele limita-se a olhar."
+        },
+        {
+          "type": "p",
+          "text": "Se está agora a trabalhar numa especificação, envie-nos as dimensões, o conteúdo, a frequência de abertura prevista e o seu custo-alvo posto em destino, e responderemos com uma recomendação de fecho e um calendário de amostras em vez de uma cotação genérica. Comece pelo [formulário de contacto](/contact#inquiry), ou percorra a [gama de oferta e embalagem](/products/gift-packaging), que inclui um produto em cada um dos cinco fechos para comparação direta."
+        }
+      ],
+      "faqs": {
+        "sectionTitle": "Perguntas sobre fechos de caixas de madeira",
+        "sectionSub": "As perguntas que os compradores nos fazem com mais frequência assim que começam a especificar um fecho.",
+        "items": [
+          {
+            "q": "Qual é o fecho mais barato para uma caixa de madeira?",
+            "a": "Uma tampa deslizante, em quase todos os casos. Não tem custo de ferragens e dispensa o passo de aplicação de ferragens na montagem, que é de onde a poupança realmente vem, mais do que dos materiais. É também o único dos cinco que segue verdadeiramente plano, pelo que pode reduzir o custo de frete além do custo unitário. A poupança desaparece se o design exigir abertura com uma só mão ou retenção da tampa, porque nesse caso é o fecho errado."
+          },
+          {
+            "q": "Qual é o fecho com o prazo de entrega mais longo?",
+            "a": "O magnético. Em todo o nosso catálogo nada magnético foi alguma vez expedido em menos de 30 dias e algumas séries chegam aos 35, porque os ímanes têm de ser assentes com polaridade emparelhada, tapados e curados antes de o acabamento poder começar. Se a data de lançamento é fixa, este é o fecho com maior probabilidade de a pôr em risco."
+          },
+          {
+            "q": "Mudar o fecho reduz a quantidade mínima de encomenda?",
+            "a": "Não. Em toda a nossa gama a MOQ mais frequente é de 200 a 300 unidades independentemente do fecho, porque o mínimo é definido pela preparação de máquina e pela compra de material, e não pelo mecanismo. Passar de magnético para deslizante mudará o custo unitário e o prazo, mas não o mínimo."
+          },
+          {
+            "q": "As caixas de madeira magnéticas são o mesmo que as caixas rígidas magnéticas?",
+            "a": "Não, e isto confunde muitos compradores de primeira viagem porque ambas surgem nos mesmos resultados de pesquisa. Uma caixa rígida magnética é cartão cinza revestido a papel. Uma caixa de madeira magnética é madeira maciça ou folheado com ímanes alojados na parede. Diferem em base de custos, peso, durabilidade e toque. Se o briefing diz madeira, confirme qual delas o fornecedor está a cotar antes de comparar preços."
+          },
+          {
+            "q": "Qual é o melhor fecho para uma caixa que o cliente abre todos os dias?",
+            "a": "Dobradiças, com ferragens especificadas para esse serviço. O modo de falha de uma dobradiça subdimensionada não é a rutura mas a cedência gradual, até a tampa deixar de assentar à face e o produto parecer defeituoso. Para uso em balcão de loja ou em oficina, especifique dobradiças europeias de caneco ocultas ou um mecanismo de fecho amortecido em vez de uma dobradiça estampada."
+          },
+          {
+            "q": "Posso ter uma caixa com tampa deslizante que ainda assim se mantenha fechada?",
+            "a": "Em parte. Uma ranhura de ajuste por atrito retém melhor do que uma folgada, e um retentor ou uma fita de puxar ajudam. Mas uma tampa deslizante nunca reterá como um íman ou um fecho, e se a retenção da tampa for um requisito real, a resposta honesta é que a deslizante é o fecho errado, não um fecho a modificar."
+          },
+          {
+            "q": "Os cinco fechos funcionam em todas as espécies de madeira?",
+            "a": "Sim. Na nossa produção, fecho e espécie são decisões independentes, pelo que qualquer um dos cinco pode ser construído em paulownia, pinho, bambu, acácia ou nogueira. A espécie afeta peso, custo, veio e comportamento no acabamento; o fecho afeta montagem, ferragens e prazo de entrega."
+          },
+          {
+            "q": "Que documentos de certificação acompanham uma encomenda de caixas de madeira?",
+            "a": "O tratamento e a marcação fitossanitária ISPM 15 são padrão em expedições de madeira maciça, e é isso que evita que um contentor fique retido no porto. A documentação de cadeia de custódia FSC está disponível por encomenda, e a documentação CARB Fase 2 cobre qualquer componente compósito ou folheado destinado aos Estados Unidos. Confirme o que o seu mercado exige logo na fase de cotação, porque o aprovisionamento tem de ser documentado desde o início e não pode ser certificado à posteriori."
+          }
+        ]
+      }
+    },
     "custom-wooden-box-cost-2026": {
       "title": "Quanto custam as caixas de madeira personalizadas? Um guia de preços grossista e OEM para 2026",
       "excerpt": "Uma análise orientada ao comprador sobre o que custam realmente as caixas de madeira personalizadas em 2026 — os verdadeiros fatores de custo (espécie, construção, acabamento, branding), como a MOQ faz variar o preço unitário, os extras de custo aterrado que os importadores esquecem, e um exemplo prático com que pode orçamentar.",

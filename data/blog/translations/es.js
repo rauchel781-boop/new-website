@@ -3,6 +3,439 @@
 
 export default {
   "posts": {
+    "wooden-box-closure-types-compared": {
+      "title": "Cierres de cajas de madera comparados: deslizante, con bisagras, magnético, cajón y cerradura",
+      "excerpt": "El cierre es lo primero que debería especificar un comprador de cajas de madera y lo último que mencionan la mayoría de las fichas técnicas. Esta es la comparación de un fabricante sobre los cinco cierres que realmente construimos: cómo se mecaniza cada uno, qué hace con el plazo de entrega y el pedido mínimo, dónde falla cada uno y cómo elegir sin adivinar.",
+      "category": "Diseño",
+      "readTime": "14 min de lectura",
+      "body": [
+        {
+          "type": "p",
+          "text": "La mayoría de los compradores especifica una caja de madera en este orden: tamaño, especie de madera, marcaje y luego —casi como una ocurrencia tardía— cómo se abre. Ese orden está invertido. El cierre decide el utillaje, el tiempo de montaje, la factura de herrajes, si la caja puede enviarse plana y qué siente el cliente en los dos primeros segundos al manipularla. Cambiar el cierre tarde equivale a haber recotizado el proyecto entero."
+        },
+        {
+          "type": "p",
+          "text": "Este artículo está escrito desde el lado de la producción. Fabricamos cinco cierres a lo largo de 186 productos de catálogo, y las cifras siguientes proceden de ese catálogo y no de una guía general de embalaje: cantidades mínimas reales, plazos de entrega reales y las razones reales por las que un pedido se retrasa. Donde algo depende de su arte final o sus dimensiones concretas, lo decimos en lugar de inventar un número."
+        },
+        {
+          "type": "h2",
+          "text": "Los cinco cierres de un vistazo"
+        },
+        {
+          "type": "p",
+          "text": "Todo cierre de caja de madera en uso productivo es una variación de cinco mecanismos. Los esquemas siguientes muestran qué hace estructuralmente cada uno: no cómo se ve en una fotografía, sino dónde está la pieza móvil y qué la sujeta."
+        },
+        {
+          "type": "compare",
+          "caption": "Comparación estructural de los cinco cierres. Los plazos de entrega son el rango observado en nuestro propio catálogo para ese tipo de cierre; el MOQ es el mínimo más frecuente, y se mueve con el tamaño y la complejidad del marcaje.",
+          "items": [
+            {
+              "kind": "sliding",
+              "name": "Tapa deslizante",
+              "tagline": "Un panel corre por una ranura fresada en la pared de la caja. Sin herrajes de ningún tipo.",
+              "rows": [
+                {
+                  "k": "Herrajes",
+                  "v": "Ninguno"
+                },
+                {
+                  "k": "MOQ habitual",
+                  "v": "200–500"
+                },
+                {
+                  "k": "Plazo de entrega",
+                  "v": "20–30 días"
+                },
+                {
+                  "k": "Envío plano",
+                  "v": "Sí"
+                }
+              ]
+            },
+            {
+              "kind": "hinged",
+              "name": "Tapa con bisagras",
+              "tagline": "La tapa pivota sobre bisagras fijadas al canto trasero. Hecha para abrirse repetidamente.",
+              "rows": [
+                {
+                  "k": "Herrajes",
+                  "v": "Bisagras (+broche)"
+                },
+                {
+                  "k": "MOQ habitual",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Plazo de entrega",
+                  "v": "25–35 días"
+                },
+                {
+                  "k": "Envío plano",
+                  "v": "No"
+                }
+              ]
+            },
+            {
+              "kind": "magnetic",
+              "name": "Cierre magnético",
+              "highlight": true,
+              "tagline": "Imanes de neodimio embutidos en la pared. El exterior queda intacto.",
+              "rows": [
+                {
+                  "k": "Herrajes",
+                  "v": "Imanes ocultos"
+                },
+                {
+                  "k": "MOQ habitual",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Plazo de entrega",
+                  "v": "30–35 días"
+                },
+                {
+                  "k": "Envío plano",
+                  "v": "No"
+                }
+              ]
+            },
+            {
+              "kind": "drawer",
+              "name": "Cajón",
+              "tagline": "Una bandeja sale horizontalmente de una carcasa fija. De uno a doce niveles.",
+              "rows": [
+                {
+                  "k": "Herrajes",
+                  "v": "Guías + tirador"
+                },
+                {
+                  "k": "MOQ habitual",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Plazo de entrega",
+                  "v": "25–40 días"
+                },
+                {
+                  "k": "Envío plano",
+                  "v": "No"
+                }
+              ]
+            },
+            {
+              "kind": "lock",
+              "name": "Con cerradura",
+              "tagline": "Una tapa con bisagras más cerradura de llave, de leva o de combinación, y bisagras reforzadas.",
+              "rows": [
+                {
+                  "k": "Herrajes",
+                  "v": "Cerradura + bisagras"
+                },
+                {
+                  "k": "MOQ habitual",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Plazo de entrega",
+                  "v": "25–30 días"
+                },
+                {
+                  "k": "Envío plano",
+                  "v": "No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Merece la pena detenerse en un patrón de esa tabla. El magnético es el único cierre de nuestro catálogo en el que nada sale en menos de 30 días, y el deslizante es el único que ha llegado a salir en 20. Esa diferencia no es una preferencia de programación: es el número de operaciones que exige cada cierre, y el resto de este artículo las recorre una a una."
+        },
+        {
+          "type": "h2",
+          "text": "Tapa deslizante: el caballo de batalla sin herrajes"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp",
+          "caption": "Una caja de regalo con tapa deslizante. La ranura se fresa en las paredes laterales antes del montaje, de modo que la caja acabada no muestra ningún mecanismo visible."
+        },
+        {
+          "type": "p",
+          "text": "Una tapa deslizante es una ranura fresada en dos paredes opuestas más un panel dimensionado para correr dentro de ella. No hay bisagra, ni imán, ni broche, lo que significa que no hay nada que se afloje tras veinte mil ciclos de apertura y cierre del consumidor, ni nada que se suelte por vibración en un contenedor marítimo."
+        },
+        {
+          "type": "p",
+          "text": "Comercialmente es el cierre más barato que fabricamos, y la razón está en el montaje, no en los materiales. Una tapa deslizante elimina por completo la factura de herrajes y el paso de ajuste que la acompaña. Es también el único cierre que se envía realmente plano cuando un programa lo necesita, algo que importa más de lo que la mayoría de los compradores espera en cuanto entra el flete aéreo."
+        },
+        {
+          "type": "p",
+          "text": "La contrapartida es la retención. Una tapa deslizante no se mantendrá cerrada si se levanta la caja por la tapa, y necesita dos manos y un movimiento deliberado para abrirse. Para un expositor de joyería o una unidad de demostración en tienda, donde el cliente abre la tapa con una sola mano, ese comportamiento es el equivocado. Para regalo, puros, té, detalles de boda y kits de manualidades —donde una revelación lenta y deliberada es justamente el objetivo— es exactamente lo correcto. Nuestras [cajas con tapa deslizante](/products/sliding-lid) se fabrican en pino, nogal, bambú y paulownia."
+        },
+        {
+          "type": "p",
+          "text": "Una nota de producción que salva proyectos: la tolerancia de la ranura debe ajustarse al acabado. Una tapa dimensionada para madera en bruto se agarrotará en cuanto el canto del panel reciba dos manos de laca. Nosotros mecanizamos a la dimensión acabada, no a la desnuda, y por eso una caja deslizante lacada y una aceitada no son la misma pieza."
+        },
+        {
+          "type": "h2",
+          "text": "Tapa con bisagras: el estándar de uso diario"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/hinged-wooden-gift-box/hinged-wooden-gift-box-01.webp",
+          "caption": "Una caja de regalo con bisagras y herrajes ocultos. La construcción con bisagras es el cierre más común de nuestro catálogo, con 55 de 186 productos."
+        },
+        {
+          "type": "p",
+          "text": "Con bisagras es el cierre que más fabricamos —55 de nuestros 186 productos de catálogo— y no es un accidente del gusto. Es el único cierre que se comporta correctamente cuando una caja se abre a diario durante años: la tapa sigue unida, se abre con una mano y se detiene donde el herraje le dice que se detenga."
+        },
+        {
+          "type": "p",
+          "text": "La especificación que de verdad importa aquí es la bisagra, no la caja. Una bisagra estampada basta para una caja de recuerdos que se abre en Navidad. Un joyero sobre el mostrador de una tienda, o una caja de herramientas en un taller, necesita una bisagra cazoleta europea oculta o un mecanismo de cierre amortiguado, porque el modo de fallo de una bisagra barata no es la rotura: es que la tapa se va descolgando hasta dejar de quedar enrasada, lo que el cliente final lee como producto defectuoso."
+        },
+        {
+          "type": "p",
+          "text": "Los plazos con bisagras se sitúan entre 25 y 35 días en nuestro catálogo, siendo 30 el más frecuente. La horquilla se explica casi por completo por los herrajes: el latón estándar va por el extremo corto, y todo lo que exija un amortiguador de cierre suave o una combinación concreta de acabado añade un paso de aprovisionamiento. Vea la gama en [cajas de madera con bisagras](/products/hinged)."
+        },
+        {
+          "type": "h2",
+          "text": "Cierre magnético: el unboxing premium"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp",
+          "caption": "Los imanes se alojan en la pared y se tapan antes del acabado, de modo que el exterior de la caja no muestra herraje alguno."
+        },
+        {
+          "type": "p",
+          "text": "El cierre magnético es el estándar premium moderno para embalaje de regalo y retail, y toda su propuesta de valor está en lo que no se ve. Los imanes de neodimio se alojan en la tapa y la pared, se tapan y se acaban por encima. El exterior queda como una superficie limpia e ininterrumpida, y la tapa cierra con un chasquido suave y deliberado que una bisagra no puede reproducir."
+        },
+        {
+          "type": "p",
+          "text": "Los compradores deben saber que este es el cierre más lento que fabricamos. Nada de nuestra gama magnética sale en menos de 30 días, y algunas series llegan a 35. Los imanes deben asentarse con polaridad emparejada, taparse y curar antes de que pueda empezar el acabado: varias operaciones que ocurren todas antes de que la caja parezca nada, y basta con precipitar una para que aparezca una tapa que no asienta o un imán que se suelta en tránsito."
+        },
+        {
+          "type": "p",
+          "text": "Es también el cierre donde el mercado de la caja de madera se confunde con otro sector distinto. Al buscar cajas con cierre magnético, la mayoría de lo que aparece es cartón rígido: cartón gris forrado en papel con imanes dentro. Es un producto legítimo, con una base de costes muy distinta y un tacto muy distinto en la mano. Si el briefing dice madera, confirme que el proveedor cotiza madera maciza o chapa de madera, no cartón rígido. Nuestras [cajas de madera magnéticas](/products/magnetic) se construyen sobre material macizo y chapado."
+        },
+        {
+          "type": "h2",
+          "text": "Cajón: cuando el contenido necesita orden"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/drawer-wooden-gift-box/drawer-wooden-gift-box-01.webp",
+          "caption": "Una caja de regalo con cajón. La carcasa exterior permanece fija mientras la bandeja se extrae, lo que mantiene la caja estable sobre el mostrador."
+        },
+        {
+          "type": "p",
+          "text": "Una caja con cajón resuelve un problema distinto al de las otras cuatro. Cualquier otro cierre da acceso desde arriba; un cajón da acceso sin mover la caja y permite apilar el contenido en niveles que permanecen separados. Para joyería, herramientas, material de oficina y almacenaje tipo botica, eso justifica la construcción adicional."
+        },
+        {
+          "type": "p",
+          "text": "Es también el cierre con la mayor horquilla de plazos de nuestro catálogo: de 25 a 40 días. Un cajón de un solo nivel se acerca en esfuerzo a una caja con bisagras. Un mueble de doce niveles con guías de cierre amortiguado y portaetiquetas es un producto completamente distinto, y la respuesta honesta a «¿cuánto tarda una caja con cajón?» es que depende del número de niveles más que de cualquier otra cosa. Vea la gama en [cajas de madera con cajón](/products/drawer)."
+        },
+        {
+          "type": "p",
+          "text": "La especificación que hay que acertar es la guía. Un cajón que corre directamente sobre madera es silencioso, barato y se agarrotará en climas húmedos a medida que la madera trabaje. Un cajón sobre guías metálicas cuesta más, añade peso y se comporta igual en Hamburgo que en Houston. Para un programa de exportación que envía a varios climas, esa constancia suele justificar el coste."
+        },
+        {
+          "type": "h2",
+          "text": "Con cerradura: cuando la caja tiene que quedarse cerrada"
+        },
+        {
+          "type": "img",
+          "src": "/wooden-boxes-with-lock/acacia-wood-all-in-one-stash-box-with-lock/acacia-wood-stash-box-1.webp",
+          "caption": "Una caja de acacia con cerradura de combinación de tres dígitos y bisagras reforzadas. Una cerradura es un añadido a una tapa con bisagras, no un cierre por derecho propio."
+        },
+        {
+          "type": "p",
+          "text": "Una caja con cerradura es una caja con bisagras a la que se le superpone un requisito de seguridad, y conviene ser preciso sobre cuál es ese requisito. Una cerradura de llave de latón disuade a un invitado curioso. Una cerradura de combinación elimina el problema de la llave perdida, lo cual importa en un producto vendido al por menor donde el fabricante nunca conoce al usuario final. Ninguna de las dos es una caja fuerte, y cualquier proveedor que insinúe lo contrario está vendiendo de más."
+        },
+        {
+          "type": "p",
+          "text": "Lo que de verdad cambia en producción es el resto de la caja. Una cerradura concentra la fuerza sobre el canto de la tapa y las bisagras cada vez que alguien la prueba, así que las cajas con cerradura llevan bisagras reforzadas y una tapa de mayor espesor que la que necesitaría la misma caja sin ella. Saltarse ese refuerzo es, con diferencia, la razón más común de que una caja con cerradura vuelva dañada. Nuestras [cajas de madera con cerradura](/products/with-lock) se fabrican en nogal, roble, pino y acacia."
+        },
+        {
+          "type": "h2",
+          "text": "Qué le hace el cierre a su plazo de entrega y a su MOQ"
+        },
+        {
+          "type": "p",
+          "text": "La tabla siguiente procede de nuestros propios registros de producción, no de medias sectoriales. Las cifras de MOQ son el mínimo más frecuente para ese cierre; tanto el MOQ como el plazo se mueven con el tamaño de la caja, el método de marcaje y la complejidad del interior, así que tómelas como la forma de la decisión y no como una cotización."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Cierre",
+            "Productos en la gama",
+            "MOQ más frecuente",
+            "Plazo observado",
+            "Principal factor de la horquilla"
+          ],
+          "rows": [
+            [
+              "Tapa deslizante",
+              "18",
+              "200–300 uds.",
+              "20–30 días",
+              "Tipo de acabado; la ranura se mecaniza a la dimensión acabada"
+            ],
+            [
+              "Tapa con bisagras",
+              "55",
+              "200–300 uds.",
+              "25–35 días",
+              "Especificación de la bisagra y aprovisionamiento de herrajes"
+            ],
+            [
+              "Magnético",
+              "14",
+              "200–300 uds.",
+              "30–35 días",
+              "Asentado y curado de los imanes antes del acabado"
+            ],
+            [
+              "Cajón",
+              "25",
+              "200–300 uds.",
+              "25–40 días",
+              "Número de niveles; tipo de guía"
+            ],
+            [
+              "Con cerradura",
+              "9",
+              "200–300 uds.",
+              "25–30 días",
+              "Tipo de cerradura y refuerzo de bisagras"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Dos cosas de esa tabla sorprenden a casi todo comprador primerizo. La primera es que el MOQ apenas se mueve entre cierres: el mínimo lo determinan la preparación de máquina y la compra de material, no el mecanismo que elija, así que cambiar de magnético a deslizante para bajar el mínimo no funciona. La segunda es que el plazo se mueve muchísimo. Si la fecha de lanzamiento es fija y el cierre no lo es, esa es la palanca que merece la pena accionar."
+        },
+        {
+          "type": "h2",
+          "text": "Cómo se construye realmente cada cierre"
+        },
+        {
+          "type": "p",
+          "text": "Cada caja que enviamos pasa por las mismas seis estaciones, sea cual sea el cierre. Lo que cambia es cuánto trabajo ocurre en las estaciones tres y cuatro, y de ahí salen las diferencias de plazo de la tabla anterior."
+        },
+        {
+          "type": "flow",
+          "caption": "Las seis estaciones de producción. Las cajas con tapa deslizante casi no hacen nada en la estación 4, y por eso salen antes de planta; las magnéticas hacen lo máximo y no pueden empezar el acabado hasta que los alojamientos de los imanes hayan curado.",
+          "steps": [
+            {
+              "title": "Corte a medida",
+              "note": "Se dimensiona la madera secada en horno. Idéntico para los cinco cierres."
+            },
+            {
+              "title": "Perfilado",
+              "note": "Se mecanizan perfiles y uniones de esquina."
+            },
+            {
+              "title": "Ranura y alojamiento",
+              "note": "Donde las tapas deslizantes reciben su ranura y las cajas magnéticas sus alojamientos de imán."
+            },
+            {
+              "title": "Montaje de herrajes",
+              "note": "Se asientan bisagras, guías, cerraduras e imanes. Las tapas deslizantes se saltan esta estación por completo."
+            },
+            {
+              "title": "Lijado y acabado",
+              "note": "Aceite, laca o pintura. No puede empezar hasta que los adhesivos hayan curado."
+            },
+            {
+              "title": "QC y embalaje de exportación",
+              "note": "Comprobación funcional de cada cierre y embalaje conforme a ISPM 15."
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/folder/3-mortise-cutting.webp",
+          "caption": "Estación tres: mecanizado de alojamientos y ranuras. Aquí es donde una tapa deslizante y una caja magnética dejan de ser el mismo producto."
+        },
+        {
+          "type": "p",
+          "text": "El trabajo de cumplimiento normativo de la estación seis es el mismo sea cual sea el cierre elegido, y conviene saber qué abarca. El embalaje de madera maciza que entra en la mayoría de los mercados necesita tratamiento y marcado conforme a la [ISPM 15](https://www.ippc.int/en/publications/regulation-wood-packaging-material-international-trade-0/), la norma fitosanitaria internacional; sin ella, un contenedor puede quedar retenido en puerto. Todo componente compuesto o chapado vendido en Estados Unidos entra en las [normas del California Air Resources Board sobre productos de madera compuesta](https://ww2.arb.ca.gov/our-work/programs/composite-wood-products-program) relativas a emisiones de formaldehído. Y los minoristas de Alemania, Francia y el Reino Unido piden cada vez más documentación de [cadena de custodia FSC](https://fsc.org/en/chain-of-custody) en la caja de cartón, no solo una declaración en la web."
+        },
+        {
+          "type": "h2",
+          "text": "Elegir sin adivinar"
+        },
+        {
+          "type": "p",
+          "text": "En lugar de ordenar los cinco cierres por ranking, repase qué tiene que hacer la caja. En la práctica, suele bastar con una pregunta."
+        },
+        {
+          "type": "list",
+          "items": [
+            "¿El cliente final la abrirá más que unas pocas veces? Con bisagras. Nada más aguanta el uso diario sin aflojarse.",
+            "¿El momento del unboxing es el producto? Magnético, y presupueste la semana extra.",
+            "¿La restricción vinculante es el coste unitario o el flete aéreo? Tapa deslizante. Sin herrajes, sin paso de ajuste, envío plano.",
+            "¿El contenido debe permanecer ordenado en niveles? Cajón, y cierre el tipo de guía antes de cerrar el precio.",
+            "¿Tiene que quedarse cerrada cuando usted no está? Con cerradura, y con el refuerzo de bisagras que eso implica."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Si dos respuestas compiten —pongamos un joyero que es a la vez artículo de uso diario y unboxing premium—, debe ganar el requisito de uso diario. Una tapa magnética que se abre dos veces al día sobrevivirá al programa, pero nunca se sentirá tan asentada en la mano como una bisagra bien especificada, y el cliente lo nota el día treinta, no el día uno."
+        },
+        {
+          "type": "p",
+          "text": "La especie de madera es una decisión separada del cierre, y ambas interactúan menos de lo que se supone: cualquiera de estos cinco cierres puede construirse en cualquiera de nuestras especies. Nuestra [guía de materiales](/material-guide) compara paulownia, pino, bambú, acacia y nogal en peso, dureza, comportamiento ante el acabado y certificación."
+        },
+        {
+          "type": "quote",
+          "text": "El cierre es la única parte de una caja de madera que el cliente acciona. Todo lo demás simplemente lo mira."
+        },
+        {
+          "type": "p",
+          "text": "Si está trabajando ahora en una especificación, envíenos las dimensiones, el contenido, la frecuencia de apertura prevista y su coste objetivo puesto en destino, y le responderemos con una recomendación de cierre y un calendario de muestras en lugar de una cotización genérica. Empiece por el [formulario de contacto](/contact#inquiry), o repase la [gama de regalo y embalaje](/products/gift-packaging), que incluye un producto de cada uno de los cinco cierres para comparar directamente."
+        }
+      ],
+      "faqs": {
+        "sectionTitle": "Preguntas sobre cierres de cajas de madera",
+        "sectionSub": "Las preguntas que más nos hacen los compradores en cuanto empiezan a especificar un cierre.",
+        "items": [
+          {
+            "q": "¿Cuál es el cierre más barato para una caja de madera?",
+            "a": "Una tapa deslizante, en casi todos los casos. No conlleva coste de herrajes y elimina el paso de ajuste de herrajes en el montaje, que es de donde procede realmente el ahorro, más que del material. Es además el único de los cinco que se envía verdaderamente plano, así que puede reducir el coste de flete además del coste unitario. El ahorro desaparece si el diseño requiere apertura con una mano o retención de la tapa, porque entonces es el cierre equivocado."
+          },
+          {
+            "q": "¿Qué cierre tiene el plazo de entrega más largo?",
+            "a": "El magnético. En todo nuestro catálogo, nada magnético se ha expedido en menos de 30 días y algunas series llegan a 35, porque los imanes deben asentarse con polaridad emparejada, taparse y curar antes de que pueda empezar el acabado. Si la fecha de lanzamiento es fija, este es el cierre que más probablemente la ponga en riesgo."
+          },
+          {
+            "q": "¿Cambiar el cierre reduce el pedido mínimo?",
+            "a": "No. En toda nuestra gama, el MOQ más frecuente es de 200 a 300 piezas independientemente del cierre, porque el mínimo lo fijan la preparación de máquina y la compra de material, no el mecanismo. Pasar de magnético a deslizante cambiará su coste unitario y su plazo, pero no su mínimo."
+          },
+          {
+            "q": "¿Son lo mismo las cajas de madera magnéticas que las cajas rígidas magnéticas?",
+            "a": "No, y esto confunde a muchos compradores primerizos porque ambas aparecen en los mismos resultados de búsqueda. Una caja rígida magnética es cartón gris forrado en papel. Una caja de madera magnética es madera maciza o chapa de madera con imanes alojados en la pared. Difieren en base de costes, peso, durabilidad y tacto. Si el briefing dice madera, confirme cuál está cotizando el proveedor antes de comparar precios."
+          },
+          {
+            "q": "¿Qué cierre es mejor para una caja que el cliente abre a diario?",
+            "a": "Con bisagras, y con herrajes especificados para ese servicio. El modo de fallo de una bisagra infradimensionada no es la rotura, sino el descuelgue gradual, hasta que la tapa deja de quedar enrasada y el producto se lee como defectuoso. Para uso en mostrador o en taller, especifique bisagras cazoleta europeas ocultas o un mecanismo de cierre amortiguado en lugar de una bisagra estampada."
+          },
+          {
+            "q": "¿Puedo tener una caja con tapa deslizante que además se mantenga cerrada?",
+            "a": "En parte. Una ranura de ajuste por fricción retiene mejor que una holgada, y un retén o una cinta tiradora ayudan. Pero una tapa deslizante nunca retendrá como un imán o un broche, y si la retención de la tapa es un requisito real, la respuesta honesta es que la deslizante es el cierre equivocado, no uno que haya que modificar."
+          },
+          {
+            "q": "¿Funcionan los cinco cierres en todas las especies de madera?",
+            "a": "Sí. En nuestra producción, cierre y especie son decisiones independientes, así que cualquiera de los cinco puede construirse en paulownia, pino, bambú, acacia o nogal. La especie afecta al peso, el coste, la veta y el comportamiento ante el acabado; el cierre afecta al montaje, los herrajes y el plazo de entrega."
+          },
+          {
+            "q": "¿Qué documentos de certificación acompañan a un pedido de cajas de madera?",
+            "a": "El tratamiento y marcado fitosanitario ISPM 15 es estándar en los envíos de madera maciza, y es lo que evita que un contenedor quede retenido en puerto. La documentación de cadena de custodia FSC está disponible por pedido, y la documentación CARB Fase 2 cubre cualquier componente compuesto o chapado destinado a Estados Unidos. Confirme qué exige su mercado en fase de cotización, porque el aprovisionamiento tiene que estar documentado desde el principio y no puede certificarse a posteriori."
+          }
+        ]
+      }
+    },
     "custom-wooden-box-cost-2026": {
       "title": "¿Cuánto cuestan las cajas de madera personalizadas? Guía de precios al por mayor y OEM para 2026",
       "excerpt": "Un desglose orientado al comprador de lo que realmente cuestan las cajas de madera personalizadas en 2026: los factores de coste reales (especie, construcción, acabado, marca), cómo el MOQ mueve el precio unitario, los extras de coste de aterrizaje que los importadores olvidan y un ejemplo trabajado con el que puedes presupuestar.",

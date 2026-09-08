@@ -3,6 +3,439 @@
 
 export default {
   "posts": {
+    "wooden-box-closure-types-compared": {
+      "title": "Holzbox-Verschlüsse im Vergleich: Schiebedeckel, Scharnier, Magnet, Schublade und Schloss",
+      "excerpt": "Der Verschluss ist das Erste, was ein Holzbox-Käufer spezifizieren sollte — und das Letzte, was in den meisten Datenblättern auftaucht. Dies ist der Vergleich eines Herstellers über die fünf Verschlüsse, die wir tatsächlich bauen: wie jeder gefertigt wird, was er mit Lieferzeit und Mindestbestellmenge macht, wo er versagt, und wie Sie ohne Raten auswählen.",
+      "category": "Design",
+      "readTime": "14 Min. Lesezeit",
+      "body": [
+        {
+          "type": "p",
+          "text": "Die meisten Käufer spezifizieren eine Holzbox in dieser Reihenfolge: Größe, Holzart, Branding — und dann, fast nebenbei, wie sie sich öffnet. Diese Reihenfolge ist verkehrt. Der Verschluss entscheidet über Werkzeuge, Montagezeit, Beschlagrechnung, ob die Box flach versendet werden kann und was der Kunde in den ersten zwei Sekunden in der Hand spürt. Wer den Verschluss spät ändert, hat faktisch das gesamte Projekt neu kalkuliert."
+        },
+        {
+          "type": "p",
+          "text": "Dieser Artikel ist aus der Produktionsperspektive geschrieben. Wir bauen fünf Verschlüsse über 186 Katalogprodukte hinweg, und die Zahlen unten stammen aus diesem Katalog statt aus einem allgemeinen Verpackungsratgeber — echte Mindestbestellmengen, echte Lieferzeiten und die echten Gründe, warum ein Auftrag ins Rutschen gerät. Wo etwas von Ihrem konkreten Artwork oder Ihren Maßen abhängt, steht das dort, statt eine Zahl zu erfinden."
+        },
+        {
+          "type": "h2",
+          "text": "Die fünf Verschlüsse auf einen Blick"
+        },
+        {
+          "type": "p",
+          "text": "Jeder Holzbox-Verschluss im Produktionseinsatz ist eine Variation von fünf Mechanismen. Die Schemazeichnungen unten zeigen, was jeder davon strukturell tut — nicht wie er auf einem Foto aussieht, sondern wo das bewegliche Teil sitzt und was es hält."
+        },
+        {
+          "type": "compare",
+          "caption": "Struktureller Vergleich der fünf Verschlüsse. Die Lieferzeiten sind die Spanne, die wir für diesen Verschlusstyp im eigenen Katalog beobachten; die MOQ ist das häufigste Minimum und verschiebt sich mit Größe und Branding-Komplexität.",
+          "items": [
+            {
+              "kind": "sliding",
+              "name": "Schiebedeckel",
+              "tagline": "Eine Platte läuft in einer Nut, die in die Boxwand gefräst ist. Ganz ohne Beschläge.",
+              "rows": [
+                {
+                  "k": "Beschläge",
+                  "v": "Keine"
+                },
+                {
+                  "k": "Typische MOQ",
+                  "v": "200–500"
+                },
+                {
+                  "k": "Lieferzeit",
+                  "v": "20–30 Tage"
+                },
+                {
+                  "k": "Flach versandfähig",
+                  "v": "Ja"
+                }
+              ]
+            },
+            {
+              "kind": "hinged",
+              "name": "Scharnierdeckel",
+              "tagline": "Der Deckel schwenkt auf Scharnieren an der Hinterkante. Gebaut für wiederholtes Öffnen.",
+              "rows": [
+                {
+                  "k": "Beschläge",
+                  "v": "Scharniere (+Verschluss)"
+                },
+                {
+                  "k": "Typische MOQ",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Lieferzeit",
+                  "v": "25–35 Tage"
+                },
+                {
+                  "k": "Flach versandfähig",
+                  "v": "Nein"
+                }
+              ]
+            },
+            {
+              "kind": "magnetic",
+              "name": "Magnetverschluss",
+              "highlight": true,
+              "tagline": "Neodym-Magnete in der Wand versenkt. Die Außenfläche bleibt ungestört.",
+              "rows": [
+                {
+                  "k": "Beschläge",
+                  "v": "Verdeckte Magnete"
+                },
+                {
+                  "k": "Typische MOQ",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Lieferzeit",
+                  "v": "30–35 Tage"
+                },
+                {
+                  "k": "Flach versandfähig",
+                  "v": "Nein"
+                }
+              ]
+            },
+            {
+              "kind": "drawer",
+              "name": "Schublade",
+              "tagline": "Ein Einschub zieht waagerecht aus einer festen Außenhülle. Ein bis zwölf Ebenen.",
+              "rows": [
+                {
+                  "k": "Beschläge",
+                  "v": "Auszüge + Griff"
+                },
+                {
+                  "k": "Typische MOQ",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Lieferzeit",
+                  "v": "25–40 Tage"
+                },
+                {
+                  "k": "Flach versandfähig",
+                  "v": "Nein"
+                }
+              ]
+            },
+            {
+              "kind": "lock",
+              "name": "Abschließbar",
+              "tagline": "Ein Scharnierdeckel plus Schlüssel-, Hebel- oder Zahlenschloss und verstärkte Scharniere.",
+              "rows": [
+                {
+                  "k": "Beschläge",
+                  "v": "Schloss + Scharniere"
+                },
+                {
+                  "k": "Typische MOQ",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Lieferzeit",
+                  "v": "25–30 Tage"
+                },
+                {
+                  "k": "Flach versandfähig",
+                  "v": "Nein"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ein Muster in dieser Tabelle lohnt einen zweiten Blick. Magnetisch ist der einzige Verschluss in unserem Katalog, bei dem nichts unter 30 Tagen ausgeliefert wird, und Schiebedeckel ist der einzige, der je in 20 Tagen rausging. Dieser Abstand ist keine Terminierungsvorliebe — er ist die Zahl der Arbeitsgänge, die jeder Verschluss erfordert, und genau die geht dieser Artikel jetzt durch."
+        },
+        {
+          "type": "h2",
+          "text": "Schiebedeckel: das beschlagfreie Arbeitstier"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp",
+          "caption": "Eine Geschenkbox mit Schiebedeckel. Die Nut wird vor der Montage in die Seitenwände gefräst, sodass die fertige Box überhaupt keinen sichtbaren Mechanismus zeigt."
+        },
+        {
+          "type": "p",
+          "text": "Ein Schiebedeckel ist eine Nut, die in zwei gegenüberliegende Wände gefräst wird, plus eine Platte, die darin läuft. Kein Scharnier, kein Magnet, kein Verschluss — was bedeutet: Es gibt nichts, das sich nach zwanzigtausend Öffnungszyklen beim Endkunden lockern könnte, und nichts, das sich im Seecontainer losrütteln kann."
+        },
+        {
+          "type": "p",
+          "text": "Kommerziell ist das der günstigste Verschluss, den wir bauen, und der Grund liegt in der Montage, nicht im Material. Ein Schiebedeckel spart die komplette Beschlagrechnung und den dazugehörigen Montageschritt. Er ist außerdem der einzige Verschluss, der wirklich flach versendet werden kann, wenn ein Programm das braucht — was mehr ausmacht, als die meisten Käufer erwarten, sobald Luftfracht ins Spiel kommt."
+        },
+        {
+          "type": "p",
+          "text": "Der Kompromiss ist der Halt. Ein Schiebedeckel hält sich nicht selbst geschlossen, wenn die Box am Deckel hochgehoben wird, und er braucht zwei Hände und eine bewusste Bewegung zum Öffnen. Für ein Schmuckdisplay oder eine Verkaufsdemo, bei der ein Kunde den Deckel einhändig aufklappt, ist das das falsche Verhalten. Für Geschenke, Zigarren, Tee, Hochzeitsgastgeschenke und Bastelsets — wo die langsame, bewusste Enthüllung genau der Punkt ist — ist es exakt richtig. Unsere [Boxen mit Schiebedeckel](/products/sliding-lid) gibt es in Kiefer, Nussbaum, Bambus und Paulownia."
+        },
+        {
+          "type": "p",
+          "text": "Eine Produktionsnotiz, die Projekte rettet: Die Nuttoleranz muss zur Oberflächenbehandlung passen. Ein Deckel, der für Rohholz bemessen ist, klemmt, sobald zwei Lackschichten auf die Plattenkante kommen. Wir fräsen auf das Fertigmaß, nicht auf das rohe — deshalb sind eine lackierte und eine geölte Schiebebox nicht dasselbe Teil."
+        },
+        {
+          "type": "h2",
+          "text": "Scharnierdeckel: der Standard für den täglichen Gebrauch"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/hinged-wooden-gift-box/hinged-wooden-gift-box-01.webp",
+          "caption": "Eine Scharnier-Geschenkbox mit verdeckten Beschlägen. Die Scharnierkonstruktion ist mit 55 von 186 Produkten der häufigste Verschluss in unserem Katalog."
+        },
+        {
+          "type": "p",
+          "text": "Scharnier ist der Verschluss, den wir am häufigsten bauen — 55 unserer 186 Katalogprodukte — und das ist kein Zufall des Geschmacks. Es ist der einzige Verschluss, der sich richtig verhält, wenn eine Box jahrelang täglich geöffnet wird: Der Deckel bleibt befestigt, öffnet einhändig und stoppt dort, wo der Beschlag ihn stoppen lässt."
+        },
+        {
+          "type": "p",
+          "text": "Die Spezifikation, auf die es hier wirklich ankommt, ist das Scharnier selbst, nicht die Box. Ein gestanztes Standardscharnier reicht für eine Erinnerungsbox, die zu Weihnachten geöffnet wird. Eine Schmuckbox auf der Ladentheke oder ein Werkzeugkoffer in der Werkstatt braucht ein verdecktes Topfscharnier oder einen Soft-Close-Mechanismus — denn der Ausfallmodus eines billigen Scharniers ist kein Bruch, sondern ein Deckel, der allmählich absackt, bis er nicht mehr bündig sitzt. Für den Endkunden liest sich das als defektes Produkt."
+        },
+        {
+          "type": "p",
+          "text": "Die Lieferzeiten für Scharnierboxen liegen in unserem Katalog zwischen 25 und 35 Tagen, wobei 30 am häufigsten vorkommt. Die Spanne ist fast vollständig auf die Beschläge zurückzuführen: Standard-Messing liegt am unteren Ende, und alles, was einen Soft-Close-Dämpfer oder eine bestimmte Oberflächenabstimmung verlangt, fügt einen Beschaffungsschritt hinzu. Das Sortiment finden Sie unter [Holzboxen mit Scharnier](/products/hinged)."
+        },
+        {
+          "type": "h2",
+          "text": "Magnetverschluss: das hochwertige Unboxing"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp",
+          "caption": "Die Magnete werden in die Wand eingelassen und vor der Oberflächenbehandlung abgedeckt, sodass die Außenseite der Box keinerlei Beschläge zeigt."
+        },
+        {
+          "type": "p",
+          "text": "Der Magnetverschluss ist der moderne Premium-Standard für Geschenk- und Retail-Verpackung, und sein gesamtes Wertversprechen liegt in dem, was man nicht sieht. Neodym-Magnete werden in Deckel und Wand eingelassen, abgedeckt und überlackiert. Die Außenfläche bleibt sauber und ungestört, und der Deckel schließt mit einem weichen, bewussten Klacken, das ein Scharnier nicht reproduzieren kann."
+        },
+        {
+          "type": "p",
+          "text": "Käufer sollten wissen: Das ist der langsamste Verschluss, den wir bauen. Nichts aus unserem Magnetsortiment geht in unter 30 Tagen raus, manche Serien brauchen 35. Magnete müssen polaritätsgleich gesetzt, abgedeckt und ausgehärtet werden, bevor die Oberflächenbehandlung beginnen kann — mehrere Arbeitsgänge, die alle passieren, bevor die Box überhaupt nach etwas aussieht. Wird einer davon überhastet, zeigt sich das als überstehender Deckel oder als Magnet, der sich im Transport löst."
+        },
+        {
+          "type": "p",
+          "text": "Es ist außerdem der Verschluss, bei dem der Holzbox-Markt mit einer ganz anderen Branche verwechselt wird. Wer nach Magnetverschluss-Boxen sucht, bekommt größtenteils starre Kartonagen zurück — papierkaschierte Graupappe mit Magneten innen. Das ist ein legitimes Produkt mit einer völlig anderen Kostenbasis und einer völlig anderen Haptik. Wenn im Briefing Holz steht, lassen Sie sich bestätigen, dass der Lieferant Massivholz oder Holzfurnier anbietet und nicht Kaschierkarton. Unsere [Holzboxen mit Magnetverschluss](/products/magnetic) sind auf Massiv- und Furnierbasis gebaut."
+        },
+        {
+          "type": "h2",
+          "text": "Schublade: wenn der Inhalt sortiert bleiben muss"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/drawer-wooden-gift-box/drawer-wooden-gift-box-01.webp",
+          "caption": "Eine Geschenkbox mit Schublade. Die Außenhülle bleibt fest stehen, während der Einschub herausgezogen wird — das hält die Box auf der Theke stabil."
+        },
+        {
+          "type": "p",
+          "text": "Eine Schubladenbox löst ein anderes Problem als die übrigen vier. Jeder andere Verschluss gibt Ihnen Zugang von oben; eine Schublade gibt Ihnen Zugang, ohne die Box zu bewegen, und erlaubt es, Inhalte in getrennten Ebenen zu stapeln. Für Schmuck, Werkzeug, Büromaterial und Apotheker-Aufbewahrung ist das den Mehraufwand in der Konstruktion wert."
+        },
+        {
+          "type": "p",
+          "text": "Es ist zugleich der Verschluss mit der größten Lieferzeitspanne in unserem Katalog — 25 bis 40 Tage. Eine einstöckige Schublade liegt im Aufwand nahe an einer Scharnierbox. Ein zwölfstöckiges Kabinett mit Soft-Close-Auszügen und Etikettenrahmen ist ein völlig anderes Produkt, und die ehrliche Antwort auf „Wie lange dauert eine Schubladenbox?“ lautet: Das hängt mehr von der Ebenenzahl ab als von allem anderen. Das Sortiment sehen Sie unter [Holzboxen mit Schublade](/products/drawer)."
+        },
+        {
+          "type": "p",
+          "text": "Die Spezifikation, die man richtig treffen muss, ist der Auszug. Eine Schublade, die direkt auf Holz läuft, ist leise und günstig — und klemmt in feuchten Klimazonen, sobald das Holz arbeitet. Eine Schublade auf Metallauszügen kostet mehr, wiegt mehr und verhält sich in Hamburg genauso wie in Houston. Für ein Exportprogramm, das in mehrere Klimazonen liefert, rechtfertigt diese Konstanz die Kosten in der Regel."
+        },
+        {
+          "type": "h2",
+          "text": "Abschließbar: wenn die Box zubleiben muss"
+        },
+        {
+          "type": "img",
+          "src": "/wooden-boxes-with-lock/acacia-wood-all-in-one-stash-box-with-lock/acacia-wood-stash-box-1.webp",
+          "caption": "Eine Akazienbox mit dreistelligem Zahlenschloss und verstärkten Scharnieren. Ein Schloss ist eine Ergänzung zum Scharnierdeckel, kein eigenständiger Verschluss."
+        },
+        {
+          "type": "p",
+          "text": "Eine abschließbare Box ist eine Scharnierbox mit einer aufgesetzten Sicherheitsanforderung — und es lohnt sich, genau zu sein, worin diese Anforderung besteht. Ein Messing-Schlüsselschloss hält einen neugierigen Hausgast ab. Ein Zahlenschloss beseitigt das Problem des verlorenen Schlüssels, was bei einem Produkt im Einzelhandel zählt, wo der Hersteller den Endnutzer nie trifft. Keines von beiden ist ein Tresor, und jeder Lieferant, der etwas anderes andeutet, verkauft zu viel."
+        },
+        {
+          "type": "p",
+          "text": "Was sich in der Produktion tatsächlich ändert, ist der Rest der Box. Ein Schloss konzentriert bei jedem Test die Kraft auf Deckelkante und Scharniere, deshalb bekommen abschließbare Boxen verstärkte Scharniere und stärkeres Deckelmaterial, als dieselbe Box sonst bräuchte. Diese Verstärkung wegzulassen ist der mit Abstand häufigste Grund, warum eine abschließbare Box beschädigt zurückkommt. Unsere [abschließbaren Holzboxen](/products/with-lock) gibt es in Nussbaum, Eiche, Kiefer und Akazie."
+        },
+        {
+          "type": "h2",
+          "text": "Was der Verschluss mit Lieferzeit und MOQ macht"
+        },
+        {
+          "type": "p",
+          "text": "Die folgende Tabelle stammt aus unseren eigenen Produktionsaufzeichnungen, nicht aus Branchendurchschnitten. Die MOQ-Werte sind das häufigste Minimum für diesen Verschluss; sowohl MOQ als auch Lieferzeit verschieben sich mit Boxgröße, Branding-Methode und Einlagenkomplexität — nehmen Sie sie also als Form der Entscheidung, nicht als Angebot."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Verschluss",
+            "Produkte im Sortiment",
+            "Häufigste MOQ",
+            "Beobachtete Lieferzeit",
+            "Haupttreiber der Spanne"
+          ],
+          "rows": [
+            [
+              "Schiebedeckel",
+              "18",
+              "200–300 Stk.",
+              "20–30 Tage",
+              "Oberflächenart; Nut wird auf Fertigmaß gefräst"
+            ],
+            [
+              "Scharnierdeckel",
+              "55",
+              "200–300 Stk.",
+              "25–35 Tage",
+              "Scharnier-Spezifikation und Beschlagbeschaffung"
+            ],
+            [
+              "Magnetisch",
+              "14",
+              "200–300 Stk.",
+              "30–35 Tage",
+              "Magnetsitz und Aushärtung vor der Lackierung"
+            ],
+            [
+              "Schublade",
+              "25",
+              "200–300 Stk.",
+              "25–40 Tage",
+              "Ebenenzahl; Auszugstyp"
+            ],
+            [
+              "Abschließbar",
+              "9",
+              "200–300 Stk.",
+              "25–30 Tage",
+              "Schlosstyp und Scharnierverstärkung"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Zwei Dinge in dieser Tabelle überraschen die meisten Erstkäufer. Erstens: Die MOQ bewegt sich zwischen den Verschlüssen kaum — das Minimum wird von Rüstzeit und Materialeinkauf bestimmt, nicht davon, welchen Mechanismus Sie wählen. Von Magnet auf Schiebedeckel zu wechseln, um ein niedrigeres Minimum zu erreichen, funktioniert also nicht. Zweitens: Die Lieferzeit bewegt sich erheblich. Wenn ein Launch-Termin feststeht und der Verschluss nicht, ist das der Hebel, an dem sich zu ziehen lohnt."
+        },
+        {
+          "type": "h2",
+          "text": "Wie jeder Verschluss tatsächlich gebaut wird"
+        },
+        {
+          "type": "p",
+          "text": "Jede Box, die wir versenden, durchläuft unabhängig vom Verschluss dieselben sechs Stationen. Was sich ändert, ist der Arbeitsumfang an Station drei und vier — und genau daher kommen die Lieferzeitunterschiede in der Tabelle oben."
+        },
+        {
+          "type": "flow",
+          "caption": "Die sechs Produktionsstationen. Boxen mit Schiebedeckel machen an Station 4 fast nichts, deshalb verlassen sie die Fertigung am schnellsten; Magnetboxen machen dort am meisten und können mit der Oberflächenbehandlung erst beginnen, wenn die Magnetsitze ausgehärtet sind.",
+          "steps": [
+            {
+              "title": "Zuschnitt",
+              "note": "Kammergetrocknetes Material wird auf Maß gebracht. Für alle fünf Verschlüsse identisch."
+            },
+            {
+              "title": "Formfräsen",
+              "note": "Profile und Eckverbindungen werden geschnitten."
+            },
+            {
+              "title": "Nut & Ausnehmung",
+              "note": "Hier bekommen Schiebedeckel ihre Nut und Magnetboxen ihre Magnetsitze."
+            },
+            {
+              "title": "Beschlagmontage",
+              "note": "Scharniere, Auszüge, Schlösser und Magnete werden gesetzt. Schiebedeckel überspringen diese Station komplett."
+            },
+            {
+              "title": "Schliff & Finish",
+              "note": "Öl, Lack oder Farbe. Kann erst starten, wenn die Klebstoffe ausgehärtet sind."
+            },
+            {
+              "title": "QC & Exportverpackung",
+              "note": "Funktionsprüfung an jedem Verschluss, dann ISPM-15-konforme Verpackung."
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/folder/3-mortise-cutting.webp",
+          "caption": "Station drei: Ausnehmungs- und Nutfräsen. Hier hören ein Schiebedeckel und eine Magnetbox auf, dasselbe Produkt zu sein."
+        },
+        {
+          "type": "p",
+          "text": "Die Compliance-Arbeit an Station sechs ist unabhängig vom gewählten Verschluss dieselbe, und es lohnt sich zu wissen, was sie abdeckt. Massivholzverpackung, die in die meisten Märkte einführt, braucht Behandlung und Markierung nach [ISPM 15](https://www.ippc.int/en/publications/regulation-wood-packaging-material-international-trade-0/), dem internationalen Pflanzenschutzstandard — ohne die kann ein Container im Hafen festgehalten werden. Jede Verbundwerkstoff- oder Furnierkomponente, die in die USA verkauft wird, fällt unter die [Regeln des California Air Resources Board für Holzwerkstoffe](https://ww2.arb.ca.gov/our-work/programs/composite-wood-products-program) zu Formaldehydemissionen. Und Händler in Deutschland, Frankreich und Großbritannien verlangen zunehmend eine [FSC-Chain-of-Custody](https://fsc.org/en/chain-of-custody)-Dokumentation auf dem Karton, nicht nur eine Behauptung auf der Website."
+        },
+        {
+          "type": "h2",
+          "text": "Auswählen, ohne zu raten"
+        },
+        {
+          "type": "p",
+          "text": "Statt die fünf Verschlüsse in eine Rangfolge zu bringen, arbeiten Sie durch, was die Box leisten muss. In der Praxis entscheidet meist eine einzige Frage."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Wird der Endkunde sie mehr als ein paar Mal öffnen? Scharnier. Nichts anderes übersteht täglichen Gebrauch, ohne sich zu lockern.",
+            "Ist der Unboxing-Moment das Produkt? Magnet — und kalkulieren Sie die zusätzliche Woche ein.",
+            "Ist der Stückpreis oder die Luftfracht die bindende Restriktion? Schiebedeckel. Keine Beschläge, kein Montageschritt, flach versandfähig.",
+            "Muss der Inhalt in Ebenen sortiert bleiben? Schublade — und klären Sie den Auszugstyp, bevor Sie den Preis klären.",
+            "Muss sie zubleiben, wenn Sie nicht da sind? Abschließbar, mit der dazugehörigen Scharnierverstärkung."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Wenn zwei Antworten konkurrieren — etwa eine Schmuckbox, die zugleich täglicher Gebrauchsgegenstand und Premium-Unboxing ist —, sollte die Anforderung des täglichen Gebrauchs gewinnen. Ein Magnetdeckel, der zweimal täglich geöffnet wird, überlebt das Programm zwar, aber er wird sich nie so gesetzt anfühlen wie ein sauber spezifiziertes Scharnier — und der Kunde merkt das an Tag dreißig, nicht an Tag eins."
+        },
+        {
+          "type": "p",
+          "text": "Die Holzart ist eine vom Verschluss getrennte Entscheidung, und beide beeinflussen sich weniger, als man annimmt: Jeder dieser fünf Verschlüsse lässt sich in jeder unserer Holzarten bauen. Unser [Materialratgeber](/material-guide) vergleicht Paulownia, Kiefer, Bambus, Akazie und Nussbaum nach Gewicht, Härte, Oberflächenverhalten und Zertifizierung."
+        },
+        {
+          "type": "quote",
+          "text": "Der Verschluss ist das einzige Teil einer Holzbox, das der Kunde bedient. Alles andere sieht er sich nur an."
+        },
+        {
+          "type": "p",
+          "text": "Wenn Sie gerade eine Spezifikation durcharbeiten: Schicken Sie uns Maße, Inhalt, erwartete Öffnungshäufigkeit und Ihre Ziel-Landed-Cost, und wir kommen mit einer Verschlussempfehlung und einem Muster-Zeitplan zurück statt mit einem Standardangebot. Starten Sie beim [Kontaktformular](/contact#inquiry), oder sehen Sie sich das [Geschenk- und Verpackungssortiment](/products/gift-packaging) an, das je ein Produkt in jedem der fünf Verschlüsse für den direkten Vergleich führt."
+        }
+      ],
+      "faqs": {
+        "sectionTitle": "Fragen zu Holzbox-Verschlüssen",
+        "sectionSub": "Die Fragen, die Käufer uns am häufigsten stellen, sobald sie einen Verschluss spezifizieren.",
+        "items": [
+          {
+            "q": "Welcher Holzbox-Verschluss ist der günstigste?",
+            "a": "Ein Schiebedeckel, in nahezu jedem Fall. Er verursacht keine Beschlagkosten und spart den Montageschritt für Beschläge — daher kommt die Ersparnis, nicht aus dem Material. Er ist außerdem der einzige der fünf, der wirklich flach versendet werden kann, kann also zusätzlich zum Stückpreis auch Frachtkosten senken. Die Ersparnis verschwindet, sobald das Design einhändiges Öffnen oder Deckelhalt braucht, denn dann ist es schlicht der falsche Verschluss."
+          },
+          {
+            "q": "Welcher Verschluss hat die längste Lieferzeit?",
+            "a": "Magnetisch. In unserem Katalog ist nichts Magnetisches je in unter 30 Tagen ausgeliefert worden, manche Serien erreichen 35 — weil die Magnete polaritätsgleich gesetzt, abgedeckt und ausgehärtet werden müssen, bevor die Oberflächenbehandlung beginnen kann. Wenn ein Launch-Termin feststeht, ist das der Verschluss, der ihn am ehesten gefährdet."
+          },
+          {
+            "q": "Senkt ein Wechsel des Verschlusses die Mindestbestellmenge?",
+            "a": "Nein. In unserem gesamten Sortiment liegt die häufigste MOQ unabhängig vom Verschluss bei 200 bis 300 Stück, weil das Minimum von Maschinenrüstung und Materialeinkauf bestimmt wird und nicht vom Mechanismus. Der Wechsel von Magnet auf Schiebedeckel ändert Stückpreis und Lieferzeit, aber nicht Ihr Minimum."
+          },
+          {
+            "q": "Sind Holzboxen mit Magnetverschluss dasselbe wie magnetische Kaschierschachteln?",
+            "a": "Nein — und das verwirrt viele Erstkäufer, weil beide in denselben Suchergebnissen auftauchen. Eine magnetische Kaschierschachtel ist papierkaschierte Graupappe. Eine Holzbox mit Magnetverschluss ist Massivholz oder Holzfurnier mit in die Wand eingelassenen Magneten. Sie unterscheiden sich in Kostenbasis, Gewicht, Haltbarkeit und Haptik. Wenn im Briefing Holz steht, klären Sie vor jedem Preisvergleich, welches der Lieferant anbietet."
+          },
+          {
+            "q": "Welcher Verschluss eignet sich für eine Box, die der Kunde täglich öffnet?",
+            "a": "Scharnier, mit Beschlägen, die für die Beanspruchung spezifiziert sind. Der Ausfallmodus eines unterdimensionierten Scharniers ist kein Bruch, sondern allmähliches Absacken, bis der Deckel nicht mehr bündig sitzt und das Produkt defekt wirkt. Für Thekenverkauf oder Werkstattnutzung spezifizieren Sie verdeckte Topfscharniere oder einen Soft-Close-Mechanismus statt eines gestanzten Standardscharniers."
+          },
+          {
+            "q": "Bekomme ich eine Box mit Schiebedeckel, die trotzdem zuhält?",
+            "a": "Teilweise. Eine Nut mit Presssitz hält besser als eine lose, und eine Rastung oder ein Bandzug hilft. Aber ein Schiebedeckel wird nie so halten wie ein Magnet oder ein Verschluss, und wenn Deckelhalt eine echte Anforderung ist, lautet die ehrliche Antwort: Schiebedeckel ist der falsche Verschluss, kein zu modifizierender."
+          },
+          {
+            "q": "Funktionieren alle fünf Verschlüsse in jeder Holzart?",
+            "a": "Ja. Verschluss und Holzart sind in unserer Produktion unabhängige Entscheidungen, jeder der fünf lässt sich also in Paulownia, Kiefer, Bambus, Akazie oder Nussbaum bauen. Die Holzart beeinflusst Gewicht, Kosten, Maserung und Oberflächenverhalten; der Verschluss beeinflusst Montage, Beschläge und Lieferzeit."
+          },
+          {
+            "q": "Welche Zertifizierungsdokumente kommen mit einer Holzbox-Bestellung?",
+            "a": "ISPM-15-Behandlung und -Markierung ist bei Massivholzsendungen Standard — sie ist es, die einen Container davor bewahrt, im Hafen festgehalten zu werden. FSC-Chain-of-Custody-Dokumentation ist pro Auftrag verfügbar, und CARB-Phase-2-Dokumentation deckt jede Verbundwerkstoff- oder Furnierkomponente ab, die in die USA geht. Klären Sie bereits bei der Angebotserstellung, was Ihr Markt verlangt — die Beschaffung muss von Anfang an dokumentiert sein und lässt sich nicht nachträglich zertifizieren."
+          }
+        ]
+      }
+    },
     "custom-wooden-box-cost-2026": {
       "title": "Was kosten maßgefertigte Holzboxen? Ein Großhandels- und OEM-Preisleitfaden für 2026",
       "excerpt": "Eine käuferorientierte Aufschlüsselung dessen, was maßgefertigte Holzboxen 2026 tatsächlich kosten — die echten Kostentreiber (Holzart, Konstruktion, Finish, Branding), wie die MOQ den Stückpreis bewegt, die Landed-Cost-Posten, die Importeure vergessen, und ein durchgerechnetes Beispiel, gegen das Sie budgetieren können.",

@@ -3,6 +3,439 @@
 
 export default {
   "posts": {
+    "wooden-box-closure-types-compared": {
+      "title": "Fermetures de coffrets en bois comparées : coulissante, à charnières, magnétique, tiroir et serrure",
+      "excerpt": "La fermeture est la première chose qu'un acheteur de coffrets en bois devrait spécifier, et la dernière que mentionnent la plupart des fiches techniques. Voici la comparaison d'un fabricant sur les cinq fermetures que nous produisons réellement : comment chacune est usinée, ce qu'elle fait au délai et à la quantité minimale, où chacune échoue, et comment choisir sans deviner.",
+      "category": "Conception",
+      "readTime": "14 min de lecture",
+      "body": [
+        {
+          "type": "p",
+          "text": "La plupart des acheteurs spécifient un coffret en bois dans cet ordre : dimensions, essence, marquage — puis, presque après coup, la manière dont il s'ouvre. Cet ordre est inversé. La fermeture détermine l'outillage, le temps d'assemblage, la facture de quincaillerie, la possibilité d'expédier à plat et ce que le client ressent dans les deux premières secondes de manipulation. Changer de fermeture tardivement revient à avoir rechiffré tout le projet."
+        },
+        {
+          "type": "p",
+          "text": "Cet article est écrit du point de vue de la production. Nous fabriquons cinq fermetures sur 186 produits catalogue, et les chiffres ci-dessous proviennent de ce catalogue plutôt que d'un guide général d'emballage : quantités minimales réelles, délais réels, et les vraies raisons pour lesquelles une commande dérape. Lorsqu'un point dépend de votre visuel ou de vos dimensions, nous le disons au lieu d'inventer un chiffre."
+        },
+        {
+          "type": "h2",
+          "text": "Les cinq fermetures en un coup d'œil"
+        },
+        {
+          "type": "p",
+          "text": "Toute fermeture de coffret en bois utilisée en production est une variation de cinq mécanismes. Les schémas ci-dessous montrent ce que chacun fait structurellement — non pas son apparence sur une photo, mais où se trouve la pièce mobile et ce qui la retient."
+        },
+        {
+          "type": "compare",
+          "caption": "Comparaison structurelle des cinq fermetures. Les délais correspondent à la fourchette observée dans notre propre catalogue pour ce type de fermeture ; la MOQ est le minimum le plus courant, et elle évolue avec la taille et la complexité du marquage.",
+          "items": [
+            {
+              "kind": "sliding",
+              "name": "Couvercle coulissant",
+              "tagline": "Un panneau glisse dans une rainure usinée dans la paroi. Aucune quincaillerie.",
+              "rows": [
+                {
+                  "k": "Quincaillerie",
+                  "v": "Aucune"
+                },
+                {
+                  "k": "MOQ courante",
+                  "v": "200–500"
+                },
+                {
+                  "k": "Délai",
+                  "v": "20–30 jours"
+                },
+                {
+                  "k": "Expédition à plat",
+                  "v": "Oui"
+                }
+              ]
+            },
+            {
+              "kind": "hinged",
+              "name": "Couvercle à charnières",
+              "tagline": "Le couvercle pivote sur des charnières fixées au chant arrière. Conçu pour des ouvertures répétées.",
+              "rows": [
+                {
+                  "k": "Quincaillerie",
+                  "v": "Charnières (+fermoir)"
+                },
+                {
+                  "k": "MOQ courante",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Délai",
+                  "v": "25–35 jours"
+                },
+                {
+                  "k": "Expédition à plat",
+                  "v": "Non"
+                }
+              ]
+            },
+            {
+              "kind": "magnetic",
+              "name": "Fermeture magnétique",
+              "highlight": true,
+              "tagline": "Aimants néodyme encastrés dans la paroi. L'extérieur reste intact.",
+              "rows": [
+                {
+                  "k": "Quincaillerie",
+                  "v": "Aimants cachés"
+                },
+                {
+                  "k": "MOQ courante",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Délai",
+                  "v": "30–35 jours"
+                },
+                {
+                  "k": "Expédition à plat",
+                  "v": "Non"
+                }
+              ]
+            },
+            {
+              "kind": "drawer",
+              "name": "Tiroir",
+              "tagline": "Un plateau sort horizontalement d'une coque fixe. De un à douze niveaux.",
+              "rows": [
+                {
+                  "k": "Quincaillerie",
+                  "v": "Coulisses + poignée"
+                },
+                {
+                  "k": "MOQ courante",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Délai",
+                  "v": "25–40 jours"
+                },
+                {
+                  "k": "Expédition à plat",
+                  "v": "Non"
+                }
+              ]
+            },
+            {
+              "kind": "lock",
+              "name": "Verrouillable",
+              "tagline": "Un couvercle à charnières avec serrure à clé, à came ou à combinaison, et charnières renforcées.",
+              "rows": [
+                {
+                  "k": "Quincaillerie",
+                  "v": "Serrure + charnières"
+                },
+                {
+                  "k": "MOQ courante",
+                  "v": "200–300"
+                },
+                {
+                  "k": "Délai",
+                  "v": "25–30 jours"
+                },
+                {
+                  "k": "Expédition à plat",
+                  "v": "Non"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Un motif de ce tableau mérite qu'on s'y arrête. Le magnétique est la seule fermeture de notre catalogue dont rien ne part en moins de 30 jours, et le coulissant est la seule qui soit déjà sortie en 20. Cet écart n'est pas une préférence de planning : c'est le nombre d'opérations qu'exige chaque fermeture, et le reste de cet article les parcourt une à une."
+        },
+        {
+          "type": "h2",
+          "text": "Couvercle coulissant : la bête de somme sans quincaillerie"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp",
+          "caption": "Un coffret cadeau à couvercle coulissant. La rainure est usinée dans les parois latérales avant assemblage, de sorte que le coffret fini ne montre aucun mécanisme visible."
+        },
+        {
+          "type": "p",
+          "text": "Un couvercle coulissant, c'est une rainure usinée dans deux parois opposées et un panneau dimensionné pour y glisser. Pas de charnière, pas d'aimant, pas de fermoir — ce qui signifie qu'il n'y a rien qui puisse se desserrer après vingt mille cycles d'ouverture chez le consommateur, ni rien qui puisse se libérer par vibration dans un conteneur maritime."
+        },
+        {
+          "type": "p",
+          "text": "Commercialement, c'est la fermeture la moins chère que nous produisons, et la raison tient à l'assemblage plutôt qu'à la matière. Un couvercle coulissant supprime entièrement la facture de quincaillerie et l'étape de pose qui va avec. C'est aussi la seule fermeture qui s'expédie véritablement à plat quand un programme l'exige, ce qui compte plus que la plupart des acheteurs ne l'imaginent dès que le fret aérien entre en jeu."
+        },
+        {
+          "type": "p",
+          "text": "La contrepartie est la retenue. Un couvercle coulissant ne tiendra pas fermé si l'on soulève le coffret par le couvercle, et il faut deux mains et un geste délibéré pour l'ouvrir. Pour un présentoir à bijoux ou une unité de démonstration en magasin, où le client soulève le couvercle d'une seule main, c'est le mauvais comportement. Pour le cadeau, les cigares, le thé, les cadeaux d'invités de mariage et les kits créatifs — où la révélation lente et délibérée est justement le propos — c'est exactement le bon choix. Nos [coffrets à couvercle coulissant](/products/sliding-lid) existent en pin, noyer, bambou et paulownia."
+        },
+        {
+          "type": "p",
+          "text": "Une note de production qui sauve des projets : la tolérance de rainure doit être ajustée à la finition. Un couvercle dimensionné pour du bois brut coincera dès que deux couches de vernis seront appliquées sur le chant du panneau. Nous usinons à la cote finie, pas à la cote nue — c'est pourquoi un coffret coulissant verni et un coffret huilé ne sont pas la même pièce."
+        },
+        {
+          "type": "h2",
+          "text": "Couvercle à charnières : le standard de l'usage quotidien"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/hinged-wooden-gift-box/hinged-wooden-gift-box-01.webp",
+          "caption": "Un coffret cadeau à charnières avec quincaillerie dissimulée. La construction à charnières est la fermeture la plus courante de notre catalogue, avec 55 produits sur 186."
+        },
+        {
+          "type": "p",
+          "text": "La charnière est la fermeture que nous produisons le plus — 55 de nos 186 produits catalogue — et ce n'est pas un hasard de goût. C'est la seule fermeture qui se comporte correctement lorsqu'un coffret est ouvert quotidiennement pendant des années : le couvercle reste solidaire, s'ouvre d'une main et s'arrête là où la quincaillerie lui dit de s'arrêter."
+        },
+        {
+          "type": "p",
+          "text": "La spécification qui compte vraiment ici, c'est la charnière elle-même, pas le coffret. Une charnière estampée suffit pour une boîte à souvenirs ouverte à Noël. Un écrin à bijoux sur un comptoir, ou une caisse à outils dans un atelier, exige une charnière invisible européenne à boîtier ou un mécanisme à fermeture amortie, car le mode de défaillance d'une charnière bon marché n'est pas la casse : c'est l'affaissement progressif du couvercle jusqu'à ce qu'il ne soit plus affleurant, ce que le client final interprète comme un produit défectueux."
+        },
+        {
+          "type": "p",
+          "text": "Les délais pour les coffrets à charnières se situent entre 25 et 35 jours dans notre catalogue, 30 étant le plus fréquent. L'écart tient presque entièrement à la quincaillerie : le laiton standard se situe en bas de fourchette, et tout ce qui exige un amortisseur de fermeture ou une correspondance de finition précise ajoute une étape d'approvisionnement. Découvrez la gamme sur [coffrets en bois à charnières](/products/hinged)."
+        },
+        {
+          "type": "h2",
+          "text": "Fermeture magnétique : le déballage haut de gamme"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp",
+          "caption": "Les aimants sont logés dans la paroi puis obturés avant finition, de sorte que l'extérieur du coffret ne montre aucune quincaillerie."
+        },
+        {
+          "type": "p",
+          "text": "La fermeture magnétique est le standard premium moderne de l'emballage cadeau et retail, et toute sa proposition de valeur réside dans ce qu'on ne voit pas. Des aimants néodyme sont logés dans le couvercle et la paroi, obturés, puis recouverts par la finition. L'extérieur reste une surface propre et ininterrompue, et le couvercle se ferme avec un claquement doux et délibéré qu'une charnière ne peut reproduire."
+        },
+        {
+          "type": "p",
+          "text": "Les acheteurs doivent savoir que c'est la fermeture la plus lente que nous produisons. Rien dans notre gamme magnétique ne part en moins de 30 jours, et certaines séries atteignent 35. Les aimants doivent être posés à polarité appariée, obturés et polymérisés avant que la finition puisse commencer — plusieurs opérations qui ont toutes lieu avant que le coffret ne ressemble à quoi que ce soit, et il suffit d'en précipiter une pour obtenir un couvercle qui dépasse ou un aimant qui se descelle en transit."
+        },
+        {
+          "type": "p",
+          "text": "C'est aussi la fermeture pour laquelle le marché du coffret en bois se confond avec un tout autre secteur. Cherchez « boîtes à fermeture magnétique » et l'essentiel des résultats sera du carton rigide — du carton gris habillé de papier avec des aimants à l'intérieur. C'est un produit légitime, avec une base de coûts très différente et un toucher très différent. Si le brief dit bois, faites confirmer que le fournisseur chiffre du bois massif ou du placage, et non du carton rigide. Nos [coffrets en bois magnétiques](/products/magnetic) sont construits en massif et en plaqué."
+        },
+        {
+          "type": "h2",
+          "text": "Tiroir : quand le contenu doit rester rangé"
+        },
+        {
+          "type": "img",
+          "src": "/gift-packaging-box/drawer-wooden-gift-box/drawer-wooden-gift-box-01.webp",
+          "caption": "Un coffret cadeau à tiroir. La coque extérieure reste fixe pendant que le plateau sort, ce qui garde le coffret stable sur un comptoir."
+        },
+        {
+          "type": "p",
+          "text": "Un coffret à tiroir résout un problème différent des quatre autres. Toutes les autres fermetures donnent un accès par le dessus ; un tiroir donne accès sans déplacer le coffret et permet d'empiler le contenu en niveaux qui restent séparés. Pour la bijouterie, l'outillage, les fournitures de bureau et le rangement de type apothicaire, cela justifie la construction supplémentaire."
+        },
+        {
+          "type": "p",
+          "text": "C'est aussi la fermeture dont l'écart de délai est le plus large de notre catalogue : de 25 à 40 jours. Un tiroir simple niveau demande à peu près autant d'effort qu'un coffret à charnières. Un meuble à douze niveaux avec coulisses amorties et porte-étiquettes est un produit entièrement différent, et la réponse honnête à « combien de temps prend un coffret à tiroir » est que cela dépend du nombre de niveaux plus que de toute autre chose. Voir la gamme sur [coffrets en bois à tiroir](/products/drawer)."
+        },
+        {
+          "type": "p",
+          "text": "La spécification à ne pas manquer, c'est la coulisse. Un tiroir qui glisse directement sur le bois est silencieux, économique — et coincera en climat humide à mesure que le bois travaille. Un tiroir sur coulisses métalliques coûte plus cher, ajoute du poids, et se comporte de façon identique à Hambourg et à Houston. Pour un programme export livrant plusieurs climats, cette constance justifie généralement le surcoût."
+        },
+        {
+          "type": "h2",
+          "text": "Verrouillable : quand le coffret doit rester fermé"
+        },
+        {
+          "type": "img",
+          "src": "/wooden-boxes-with-lock/acacia-wood-all-in-one-stash-box-with-lock/acacia-wood-stash-box-1.webp",
+          "caption": "Un coffret en acacia avec serrure à combinaison à trois chiffres et charnières renforcées. Une serrure est un ajout à un couvercle à charnières, pas une fermeture à part entière."
+        },
+        {
+          "type": "p",
+          "text": "Un coffret verrouillable est un coffret à charnières auquel on superpose une exigence de sécurité, et il vaut la peine d'être précis sur la nature de cette exigence. Une serrure à clé en laiton dissuade un invité curieux. Une serrure à combinaison élimine le problème de la clé perdue, ce qui compte pour un produit vendu en détail où le fabricant ne rencontre jamais l'utilisateur final. Ni l'une ni l'autre n'est un coffre-fort, et tout fournisseur qui laisse entendre le contraire en fait trop."
+        },
+        {
+          "type": "p",
+          "text": "Ce qui change réellement en production, c'est le reste du coffret. Une serrure concentre l'effort sur le chant du couvercle et les charnières chaque fois que quelqu'un la teste ; les coffrets verrouillables reçoivent donc des charnières renforcées et un couvercle plus épais que le même coffret n'en aurait autrement besoin. Faire l'impasse sur ce renfort est de loin la raison la plus fréquente pour laquelle un coffret verrouillable revient endommagé. Nos [coffrets en bois à serrure](/products/with-lock) existent en noyer, chêne, pin et acacia."
+        },
+        {
+          "type": "h2",
+          "text": "Ce que la fermeture fait à votre délai et à votre MOQ"
+        },
+        {
+          "type": "p",
+          "text": "Le tableau ci-dessous est tiré de nos propres relevés de production, et non de moyennes sectorielles. Les MOQ indiquées sont le minimum le plus fréquent pour cette fermeture ; MOQ et délai évoluent tous deux avec la taille du coffret, la méthode de marquage et la complexité du calage — considérez-les donc comme la forme de la décision, pas comme une cotation."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Fermeture",
+            "Produits dans la gamme",
+            "MOQ la plus fréquente",
+            "Délai observé",
+            "Principal facteur d'écart"
+          ],
+          "rows": [
+            [
+              "Couvercle coulissant",
+              "18",
+              "200–300 pcs",
+              "20–30 jours",
+              "Type de finition ; rainure usinée à la cote finie"
+            ],
+            [
+              "Couvercle à charnières",
+              "55",
+              "200–300 pcs",
+              "25–35 jours",
+              "Spécification de charnière et approvisionnement quincaillerie"
+            ],
+            [
+              "Magnétique",
+              "14",
+              "200–300 pcs",
+              "30–35 jours",
+              "Pose et polymérisation des aimants avant finition"
+            ],
+            [
+              "Tiroir",
+              "25",
+              "200–300 pcs",
+              "25–40 jours",
+              "Nombre de niveaux ; type de coulisse"
+            ],
+            [
+              "Verrouillable",
+              "9",
+              "200–300 pcs",
+              "25–30 jours",
+              "Type de serrure et renfort de charnières"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Deux points de ce tableau surprennent la plupart des primo-acheteurs. Le premier : la MOQ bouge à peine d'une fermeture à l'autre — le minimum est déterminé par le réglage machine et l'achat matière, pas par le mécanisme choisi ; passer du magnétique au coulissant pour atteindre un minimum plus bas ne fonctionne donc pas. Le second : le délai, lui, bouge beaucoup. Si une date de lancement est figée et que la fermeture ne l'est pas, c'est le levier qu'il vaut la peine d'actionner."
+        },
+        {
+          "type": "h2",
+          "text": "Comment chaque fermeture est réellement fabriquée"
+        },
+        {
+          "type": "p",
+          "text": "Chaque coffret que nous expédions passe par les mêmes six postes, quelle que soit la fermeture. Ce qui change, c'est la charge de travail aux postes trois et quatre — et c'est de là que viennent les écarts de délai du tableau ci-dessus."
+        },
+        {
+          "type": "flow",
+          "caption": "Les six postes de production. Les coffrets à couvercle coulissant ne font presque rien au poste 4, ce qui explique qu'ils quittent l'atelier le plus vite ; les coffrets magnétiques y font le plus de travail et ne peuvent commencer la finition tant que les logements d'aimants n'ont pas polymérisé.",
+          "steps": [
+            {
+              "title": "Débit",
+              "note": "Le bois séché en étuve est mis à dimensions. Identique pour les cinq fermetures."
+            },
+            {
+              "title": "Usinage des formes",
+              "note": "Profils et assemblages d'angle sont usinés."
+            },
+            {
+              "title": "Rainure et mortaise",
+              "note": "Là où les couvercles coulissants reçoivent leur rainure et les coffrets magnétiques leurs logements d'aimants."
+            },
+            {
+              "title": "Pose de quincaillerie",
+              "note": "Charnières, coulisses, serrures et aimants sont posés. Les couvercles coulissants sautent entièrement ce poste."
+            },
+            {
+              "title": "Ponçage et finition",
+              "note": "Huile, vernis ou peinture. Ne peut démarrer avant polymérisation des colles."
+            },
+            {
+              "title": "Contrôle et emballage export",
+              "note": "Contrôle fonctionnel de chaque fermeture, puis emballage conforme ISPM 15."
+            }
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/folder/3-mortise-cutting.webp",
+          "caption": "Poste trois : usinage des mortaises et des rainures. C'est ici qu'un couvercle coulissant et un coffret magnétique cessent d'être le même produit."
+        },
+        {
+          "type": "p",
+          "text": "Le travail de conformité du poste six est le même quelle que soit la fermeture retenue, et il vaut la peine de savoir ce qu'il couvre. Les emballages en bois massif entrant sur la plupart des marchés doivent être traités et marqués selon la norme [ISPM 15](https://www.ippc.int/en/publications/regulation-wood-packaging-material-international-trade-0/), le standard phytosanitaire international — sans elle, un conteneur peut être immobilisé au port. Tout composant composite ou plaqué vendu aux États-Unis relève des [règles du California Air Resources Board sur les produits en bois composite](https://ww2.arb.ca.gov/our-work/programs/composite-wood-products-program) concernant les émissions de formaldéhyde. Et les distributeurs en Allemagne, en France et au Royaume-Uni exigent de plus en plus une documentation de [chaîne de contrôle FSC](https://fsc.org/en/chain-of-custody) sur le carton, et pas seulement une affirmation sur le site."
+        },
+        {
+          "type": "h2",
+          "text": "Choisir sans deviner"
+        },
+        {
+          "type": "p",
+          "text": "Plutôt que de classer les cinq fermetures, passez en revue ce que le coffret doit faire. En pratique, une seule question tranche généralement."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Le client final l'ouvrira-t-il plus de quelques fois ? Charnières. Rien d'autre ne supporte un usage quotidien sans prendre du jeu.",
+            "Le moment du déballage est-il le produit ? Magnétique — et budgétez la semaine supplémentaire.",
+            "Le coût unitaire ou le fret aérien est-il la contrainte déterminante ? Couvercle coulissant. Pas de quincaillerie, pas d'étape de pose, expédition à plat.",
+            "Le contenu doit-il rester trié par niveaux ? Tiroir, et arrêtez le type de coulisse avant d'arrêter le prix.",
+            "Doit-il rester fermé en votre absence ? Verrouillable, avec le renfort de charnières qui va avec."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Si deux réponses s'opposent — un écrin à bijoux qui est à la fois objet d'usage quotidien et déballage haut de gamme, par exemple —, c'est l'exigence d'usage quotidien qui doit l'emporter. Un couvercle magnétique ouvert deux fois par jour survivra au programme, mais il ne donnera jamais en main la même impression d'assise qu'une charnière correctement spécifiée, et le client le remarque au trentième jour, pas au premier."
+        },
+        {
+          "type": "p",
+          "text": "L'essence de bois est une décision distincte de la fermeture, et les deux interagissent moins qu'on ne le suppose : chacune de ces cinq fermetures peut être réalisée dans chacune de nos essences. Notre [guide des matériaux](/material-guide) compare paulownia, pin, bambou, acacia et noyer sur le poids, la dureté, le comportement en finition et la certification."
+        },
+        {
+          "type": "quote",
+          "text": "La fermeture est la seule partie d'un coffret en bois que le client manipule. Tout le reste, il se contente de le regarder."
+        },
+        {
+          "type": "p",
+          "text": "Si vous travaillez actuellement sur un cahier des charges, envoyez-nous les dimensions, le contenu, la fréquence d'ouverture attendue et votre coût rendu cible, et nous reviendrons avec une recommandation de fermeture et un calendrier d'échantillons plutôt qu'une cotation générique. Commencez par le [formulaire de contact](/contact#inquiry), ou parcourez la [gamme cadeau et emballage](/products/gift-packaging), qui comporte un produit dans chacune des cinq fermetures pour comparaison directe."
+        }
+      ],
+      "faqs": {
+        "sectionTitle": "Questions sur les fermetures de coffrets en bois",
+        "sectionSub": "Les questions que les acheteurs nous posent le plus souvent dès qu'ils commencent à spécifier une fermeture.",
+        "items": [
+          {
+            "q": "Quelle est la fermeture de coffret en bois la moins chère ?",
+            "a": "Le couvercle coulissant, dans presque tous les cas. Il n'entraîne aucun coût de quincaillerie et supprime l'étape de pose lors de l'assemblage — c'est de là que vient réellement l'économie, plutôt que de la matière. C'est aussi le seul des cinq à s'expédier véritablement à plat, il peut donc réduire le coût de fret en plus du coût unitaire. L'économie disparaît si la conception exige une ouverture à une main ou une retenue du couvercle, car c'est alors la mauvaise fermeture."
+          },
+          {
+            "q": "Quelle fermeture a le délai le plus long ?",
+            "a": "La magnétique. Sur l'ensemble de notre catalogue, aucun produit magnétique n'est parti en moins de 30 jours et certaines séries atteignent 35, car les aimants doivent être posés à polarité appariée, obturés et polymérisés avant que la finition puisse commencer. Si une date de lancement est figée, c'est la fermeture la plus susceptible de la mettre en péril."
+          },
+          {
+            "q": "Changer de fermeture réduit-il la quantité minimale de commande ?",
+            "a": "Non. Sur toute notre gamme, la MOQ la plus fréquente est de 200 à 300 pièces quelle que soit la fermeture, car le minimum est fixé par le réglage machine et l'achat matière, non par le mécanisme. Passer du magnétique au coulissant changera votre coût unitaire et votre délai, mais pas votre minimum."
+          },
+          {
+            "q": "Les coffrets en bois magnétiques sont-ils la même chose que les boîtes rigides magnétiques ?",
+            "a": "Non, et cela déroute beaucoup de primo-acheteurs car les deux apparaissent dans les mêmes résultats de recherche. Une boîte rigide magnétique est du carton gris habillé de papier. Un coffret en bois magnétique est du bois massif ou du placage avec des aimants logés dans la paroi. Ils diffèrent par la base de coûts, le poids, la durabilité et le toucher. Si le brief dit bois, vérifiez lequel le fournisseur chiffre avant de comparer les prix."
+          },
+          {
+            "q": "Quelle fermeture convient à un coffret que le client ouvre tous les jours ?",
+            "a": "Les charnières, avec une quincaillerie spécifiée pour cet usage. Le mode de défaillance d'une charnière sous-dimensionnée n'est pas la casse mais l'affaissement progressif, jusqu'à ce que le couvercle ne soit plus affleurant et que le produit paraisse défectueux. Pour un usage en comptoir ou en atelier, spécifiez des charnières invisibles européennes à boîtier ou un mécanisme à fermeture amortie plutôt qu'une charnière estampée."
+          },
+          {
+            "q": "Puis-je avoir un coffret à couvercle coulissant qui tienne quand même fermé ?",
+            "a": "En partie. Une rainure à ajustement serré retient mieux qu'une rainure lâche, et un cran d'arrêt ou un ruban de tirage aide. Mais un couvercle coulissant ne retiendra jamais comme un aimant ou un fermoir, et si la retenue du couvercle est une véritable exigence, la réponse honnête est que le coulissant est la mauvaise fermeture, pas une fermeture à modifier."
+          },
+          {
+            "q": "Les cinq fermetures fonctionnent-elles dans toutes les essences ?",
+            "a": "Oui. Dans notre production, fermeture et essence sont des décisions indépendantes : chacune des cinq peut être réalisée en paulownia, pin, bambou, acacia ou noyer. L'essence influe sur le poids, le coût, le fil du bois et le comportement en finition ; la fermeture influe sur l'assemblage, la quincaillerie et le délai."
+          },
+          {
+            "q": "Quels documents de certification accompagnent une commande de coffrets en bois ?",
+            "a": "Le traitement et le marquage phytosanitaires ISPM 15 sont standard sur les expéditions en bois massif — c'est ce qui évite qu'un conteneur soit immobilisé au port. La documentation de chaîne de contrôle FSC est disponible par commande, et la documentation CARB Phase 2 couvre tout composant composite ou plaqué destiné aux États-Unis. Vérifiez ce qu'exige votre marché dès la cotation, car l'approvisionnement doit être documenté dès le départ et ne peut pas être certifié après coup."
+          }
+        ]
+      }
+    },
     "custom-wooden-box-cost-2026": {
       "title": "Combien coûtent les boîtes en bois personnalisées ? Un guide de tarification grossiste et OEM 2026",
       "excerpt": "Une analyse orientée acheteur de ce que coûtent réellement les boîtes en bois personnalisées en 2026 — les véritables facteurs de coût (essence, construction, finition, marquage), comment le MOQ fait évoluer le prix unitaire, les suppléments de coût rendu que les importateurs oublient, et un exemple chiffré sur lequel vous pouvez bâtir votre budget.",
