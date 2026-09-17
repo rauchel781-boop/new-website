@@ -6,7 +6,7 @@ export const FEATURED = [
     tag: 'Caixas para Presente e Embalagem', name: 'Caixa de Presente com Tampa Deslizante', meta: 'Sem ferragens · Envio plano' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Caixas com Fechadura', name: 'Kit de Caixa Preta Grande com Fechadura', meta: 'Fechadura de combinação · Multi-compartimento' },
-  { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
+  { href: '/products/tea-coffee/bamboo-tea-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
     tag: 'Chá e Café', name: 'Organizador de Saquetas de Chá em Bambu', meta: '8 divisórias · Tampa transparente com dobradiça' },
   { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
     tag: 'Relógios e Joalharia', name: 'Caixa Expositora de Relógios em Madeira', meta: 'Almofada de linho · Capacidade 6 relógios' },
@@ -16,7 +16,7 @@ export const FEATURED = [
 
 export const FACTORY_TILES = [
   { href: '/about', img: '/factory/chic-factory.webp', alt: 'Sede da nossa fábrica', w: 900, h: 900,
-    num: '01 · Sede',          text: 'Instalação Cao County 15.000 m²',     cls: 'fac-1' },
+    num: '01 · Sede',          text: 'Instalação Cao County 20.000 m²',     cls: 'fac-1' },
   { href: '/about', img: '/factory/production.webp',  alt: 'Chão de produção', w: 900, h: 900,
     num: '02 · Produção',      text: 'Oficina activa',                      cls: 'fac-2' },
   { href: '/about', img: '/factory/material.webp',     alt: 'Matéria-prima de madeira', w: 900, h: 900,
@@ -79,11 +79,11 @@ export const COPY = {
     titleEm1: 'Caixas de Madeira',
     titleB: 'Grossista &',
     titleEm2: 'Fornecedor OEM',
-    sub: 'Da embalagem de presente de luxo à arrumação à medida — desenhamos caixas de madeira personalizadas na nossa fábrica de 15.000 m² em Cao County e enviamos para marcas em 60+ países a partir do nosso escritório em Xiamen. Construídas à mão, acabadas com precisão de bancada.',
+    sub: 'Da embalagem de presente de luxo à arrumação à medida — desenhamos caixas de madeira personalizadas na nossa fábrica de 20.000 m² em Cao County e enviamos para marcas em 60+ países a partir do nosso escritório em Xiamen. Construídas à mão, acabadas com precisão de bancada.',
     btnPrimary: 'Ver Best Sellers →',
     btnOutline: 'Pedir Amostra Gratuita',
     metaItems: [
-      { num: '20+', label: 'Anos de ofício' },
+      { num: '20+', label: 'Anos de experiência da equipa' },
       { num: '500+', label: 'Estilos de caixa' },
       { num: '2M+', label: 'Unidades / ano' },
       { num: '60+', label: 'Países' },
@@ -112,9 +112,9 @@ export const COPY = {
     titleA: 'Qualidade',
     titleEm: 'Direta da Fábrica',
     titleB: 'à Escala Global',
-    text: 'Com a nossa fábrica de 15.000 m² em Cao County, Shandong — o coração histórico da indústria chinesa de caixas de madeira — e o nosso escritório de vendas em Xiamen, Fujian, somos um fabricante dedicado de caixas de madeira ao serviço de retalhistas, marcas e importadores na Europa, América do Norte, Japão, Coreia e além.',
+    text: 'Com a nossa fábrica de 20.000 m² em Cao County, Shandong — o coração histórico da indústria chinesa de caixas de madeira — e o nosso escritório de vendas em Xiamen, Fujian, somos um fabricante dedicado de caixas de madeira ao serviço de retalhistas, marcas e importadores na Europa, América do Norte, Japão, Coreia e além.',
     features: [
-      'MOQ a partir de 100 unidades — perfeito para amostragem',
+      'MOQ padrão 200–500 unidades — séries de amostra a partir de 100',
       'Personalização completa: tamanho, acabamento, logo, inserto, ferragens',
       'Madeira certificada FSC e acabamentos ecológicos disponíveis',
       'Equipa de design interna para projetos OEM e ODM',
@@ -139,7 +139,7 @@ export const COPY = {
   factory: {
     label: 'Por Detrás do Ofício',
     title: 'Dentro da Nossa Fábrica',
-    intro: '15.000 m² dedicados ao trabalho da madeira em Cao County, Shandong — desde o stock de madeira seca em estufa até à embalagem para exportação acabada à mão, cada passo acontece sob o mesmo telhado. Vendas, design e expedição são geridos a partir do nosso escritório em Xiamen, Fujian.',
+    intro: '20.000 m² dedicados ao trabalho da madeira em Cao County, Shandong — desde o stock de madeira seca em estufa até à embalagem para exportação acabada à mão, cada passo acontece sob o mesmo telhado. Vendas, design e expedição são geridos a partir do nosso escritório em Xiamen, Fujian.',
     cta: 'Lê a Nossa História Completa →',
   },
   process: {

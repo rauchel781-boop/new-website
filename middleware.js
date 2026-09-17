@@ -55,8 +55,18 @@ export default function middleware(request) {
 }
 
 export const config = {
-  // Match every path EXCEPT api, _next, sitemap.xml, robots.txt, and any
-  // path with a file extension. (Note: blog IS handled — it lives under
-  // /[locale]/blog/, so /blog/foo redirects to /en/blog/foo.)
-  matcher: ['/((?!api|_next|sitemap.xml|robots.txt|.*\\..*).*)'],
+  // Match every path EXCEPT api, _next, sitemap.xml, robots.txt, the root
+  // metadata routes, and any path with a file extension. (Note: blog IS
+  // handled — it lives under /[locale]/blog/, so /blog/foo redirects to
+  // /en/blog/foo.)
+  //
+  // FIX (2026-09-17): opengraph-image, icon and apple-icon are Next.js
+  // metadata routes that live at the app root (app/opengraph-image.js etc.),
+  // not under [locale]. They have no file extension, so the old pattern did
+  // not exclude them and the middleware helpfully redirected /opengraph-image
+  // to /en/opengraph-image — where nothing exists. Every page in the site
+  // declared og:image and twitter:image pointing at that URL, so every social
+  // preview (LinkedIn, WhatsApp, Slack, WeChat) resolved to a 404, as did the
+  // browser tab icon and the iOS home-screen icon.
+  matcher: ['/((?!api|_next|sitemap.xml|robots.txt|opengraph-image|apple-icon|icon|.*\\..*).*)'],
 };

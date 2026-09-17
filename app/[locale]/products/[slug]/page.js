@@ -57,7 +57,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   const item = CATEGORIES[params.slug];
-  if (!item) return { title: 'Product — CHIC' };
+  if (!item) return { title: 'Product' };
   const localePath = `/products/${params.slug}`;
   const fullPath = `/${params.locale}${localePath}`;
 
@@ -76,7 +76,7 @@ export async function generateMetadata({ params }) {
   // seoTitle / seoDescription; prefer that, then the English source override,
   // then the default template / localized intro.
   const ctMeta = getCategoryTranslation(params.slug, params.locale);
-  const title = ctMeta.seoTitle || item.seoTitle || `${item.name} — CHIC Wooden Expert`;
+  const title = ctMeta.seoTitle || item.seoTitle || item.name;
   const metaDesc = ctMeta.seoDescription || item.seoDescription || description;
 
   return {

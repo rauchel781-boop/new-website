@@ -33,8 +33,15 @@ export default function robots() {
     rules: [
       {
         userAgent: '*',
-        allow: '/',
-        disallow: ['/api/', '/_next/'],
+        // /_next/static/ holds the CSS and JS every page needs to render, and
+        // /_next/image is the optimizer that serves every product photo.
+        // Blocking them (as this file used to) meant a compliant crawler saw
+        // an unstyled, image-less page while a human saw the real thing —
+        // Google reads that as a thin page, and an AI crawler that cannot
+        // fetch the images cannot describe the product. /api/ stays blocked:
+        // it is JSON endpoints, nothing that belongs in an index.
+        allow: ['/', '/_next/static/', '/_next/image'],
+        disallow: ['/api/'],
       },
       // Explicit, individually-named allow rules for AI crawlers/agents —
       // functionally redundant with the wildcard rule above (both allow
@@ -42,8 +49,8 @@ export default function robots() {
       // to flip an individual bot to `disallow` later if ever needed.
       ...AI_CRAWLER_USER_AGENTS.map((userAgent) => ({
         userAgent,
-        allow: '/',
-        disallow: ['/api/', '/_next/'],
+        allow: ['/', '/_next/static/', '/_next/image'],
+        disallow: ['/api/'],
       })),
     ],
     sitemap: `${SITE.siteUrl}/sitemap.xml`,

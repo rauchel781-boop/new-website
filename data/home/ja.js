@@ -6,7 +6,7 @@ export const FEATURED = [
     tag: 'ギフト・パッケージボックス', name: 'スライド蓋ギフトボックス', meta: '金具なし · フラット梱包対応' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'ロック付きボックス', name: '大型ブラック木製ストレージボックスキット', meta: 'ダイヤルロック · 多区画' },
-  { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
+  { href: '/products/tea-coffee/bamboo-tea-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
     tag: 'お茶・コーヒー', name: '竹製ティーバッグオーガナイザー', meta: '8仕切り · クリア蝶番蓋' },
   { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
     tag: 'ウォッチ・ジュエリー', name: '木製ウォッチディスプレイボックス', meta: 'リネンクッション · 6本収納' },
@@ -16,7 +16,7 @@ export const FEATURED = [
 
 export const FACTORY_TILES = [
   { href: '/about', img: '/factory/chic-factory.webp', alt: '工場本社', w: 900, h: 900,
-    num: '01 · 本社',           text: '15,000 m² 曹県施設',                   cls: 'fac-1' },
+    num: '01 · 本社',           text: '20,000 m² 曹県施設',                   cls: 'fac-1' },
   { href: '/about', img: '/factory/production.webp',  alt: '生産フロア', w: 900, h: 900,
     num: '02 · 生産',           text: '稼働中の工房',                          cls: 'fac-2' },
   { href: '/about', img: '/factory/material.webp',     alt: '原木材', w: 900, h: 900,
@@ -79,11 +79,11 @@ export const COPY = {
     titleEm1: '製造メーカー',
     titleB: '卸売・',
     titleEm2: 'OEMサプライヤー',
-    sub: '高級ギフト包装からカスタム収納まで — 当社の15,000 m²曹県工場でカスタム木箱を設計し、厦門オフィスから60カ国以上のブランドへ出荷します。手作りで、職人レベルの精度で仕上げます。',
+    sub: '高級ギフト包装からカスタム収納まで — 当社の20,000 m²曹県工場でカスタム木箱を設計し、厦門オフィスから60カ国以上のブランドへ出荷します。手作りで、職人レベルの精度で仕上げます。',
     btnPrimary: 'ベストセラーを見る →',
     btnOutline: '無料サンプル請求',
     metaItems: [
-      { num: '20+', label: '年の職人技' },
+      { num: '20+', label: '年のチーム経験' },
       { num: '500+', label: 'ボックススタイル' },
       { num: '2M+', label: '個 / 年' },
       { num: '60+', label: 'カ国' },
@@ -112,9 +112,9 @@ export const COPY = {
     titleA: 'グローバル規模の',
     titleEm: '工場直販品質',
     titleB: 'をお届け',
-    text: '山東省曹県（中国木箱産業の歴史的中心地）の15,000 m²工場と、福建省厦門の営業オフィスを構え、欧州、北米、日本、韓国などの小売業者、ブランド、輸入業者にサービスを提供する木箱専門メーカーです。',
+    text: '山東省曹県（中国木箱産業の歴史的中心地）の20,000 m²工場と、福建省厦門の営業オフィスを構え、欧州、北米、日本、韓国などの小売業者、ブランド、輸入業者にサービスを提供する木箱専門メーカーです。',
     features: [
-      '最小ロット100個から — サンプリングに最適',
+      '標準MOQ 200〜500個 — サンプルランは100個から',
       '完全カスタマイズ：サイズ、仕上げ、ロゴ、インサート、金具',
       'FSC認証木材と環境配慮型仕上げ対応',
       'OEM・ODMプロジェクト対応の社内デザインチーム',
@@ -139,7 +139,7 @@ export const COPY = {
   factory: {
     label: '職人技の裏側',
     title: '当社工場の中',
-    intro: '山東省曹県の15,000 m²の専用木工スペース — 窯乾燥された木材在庫から手仕上げの輸出梱包まで、すべての工程が一つ屋根の下で行われます。営業、デザイン、出荷は福建省厦門オフィスから対応します。',
+    intro: '山東省曹県の20,000 m²の専用木工スペース — 窯乾燥された木材在庫から手仕上げの輸出梱包まで、すべての工程が一つ屋根の下で行われます。営業、デザイン、出荷は福建省厦門オフィスから対応します。',
     cta: '当社の物語を読む →',
   },
   process: {

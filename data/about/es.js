@@ -6,7 +6,7 @@ const P = (name) => '/folder/' + encodeURIComponent(name).replace(/\.(jpe?g|png)
 export const SHOWROOM_IMG = F('gemini-generated-image-nclf39nclf39nclf.jpg');
 
 export const FACTORY_IMAGES = [
-  { src: F('chic-factory.jpg'), caption: 'Fábrica de Cao County · 15.000 m²' },
+  { src: F('chic-factory.jpg'), caption: 'Fábrica de Cao County · 20.000 m²' },
   { src: F('material.jpg'),     caption: 'Stock de madera maciza · paulownia, pino, roble' },
   { src: F('1-1.jpg'),          caption: 'Taller de preparación de madera' },
   { src: F('painting.jpg'),     caption: 'Línea de acabado a pistola con control de polvo' },
@@ -44,7 +44,7 @@ export const TIMELINE = [
   { year: '2023', title: 'Boom de Amazon',
     text: 'Construida una línea dedicada a MOQ pequeño para marcas privadas de Amazon. Superado un millón de unidades enviadas en un solo año.' },
   { year: '2024', title: 'Certificado FSC',
-    text: 'Lograda la certificación FSC de cadena de custodia. Fábrica ampliada a 15.000 m² con nueva área de acabado y QC.' },
+    text: 'Lograda la certificación FSC de cadena de custodia. Fábrica ampliada a 20.000 m² con nueva área de acabado y QC.' },
   { year: '2025', title: 'Globalización',
     text: 'Clientes activos en 40+ países. Equipo interno de ID + maquetas 3D lanzado para apoyar el crecimiento OEM/ODM.' },
 ];
@@ -68,7 +68,7 @@ export const LOCATIONS = [
     role: 'Fabricación · acabado · QC · embalaje',
     addr: 'Norte de la Oficina de Administración para la Regulación del Mercado, Pueblo de Pulianji, Cao County, Heze, Provincia de Shandong, China',
     details: [
-      '15.000 m² con líneas CNC, láser, acabado y ensamblaje',
+      '20.000 m² con líneas CNC, láser, acabado y ensamblaje',
       '120+ trabajadores cualificados en dos turnos de producción',
       'Acceso local a paulownia, pino, bambú, nogal y roble',
       'Servicio ferroviario directo de contenedores a los puertos de Qingdao y Lianyungang',
@@ -89,7 +89,7 @@ export const MARKETS = [
 
 export const VALUES = [
   { num: '01', title: 'Fábrica Real, No un Trader',
-    text: 'Nuestra fábrica de 15.000 m² en Cao County es propiedad y operación directa de Chic Homeware — sin intermediarios, sin cadena de márgenes y sin teléfono escacharrado entre tú y el taller.' },
+    text: 'Nuestra fábrica de 20.000 m² en Cao County es propiedad y operación directa de Chic Homeware — sin intermediarios, sin cadena de márgenes y sin teléfono escacharrado entre tú y el taller.' },
   { num: '02', title: 'Hechos para Volúmenes Pequeños y Medios',
     text: 'La mayoría de las fábricas quieren pedidos de 5.000 unidades. Estamos construidos en torno a tiradas de 200 a 5.000 piezas — el volumen que importa a las marcas de Amazon, vendedores de Etsy, regalo y lanzamientos de marca.' },
   { num: '03', title: 'Ventas en Inglés',
@@ -107,9 +107,9 @@ export const COPY = {
   meta: {
     title: 'Sobre Nosotros — Xiamen Chic Homeware Co.,Ltd.',
     description:
-      'Xiamen Chic Homeware Co.,Ltd. — fabricante de cajas de madera personalizadas con cinco años de historia, oficina de ventas en Xiamen y fábrica de 15.000 m² en Cao County, Shandong. Servimos a marcas de Amazon e importadores en Europa, EE. UU., Japón y Corea.',
+      'Xiamen Chic Homeware Co.,Ltd. — fabricante de cajas de madera personalizadas con cinco años de historia, oficina de ventas en Xiamen y fábrica de 20.000 m² en Cao County, Shandong. Servimos a marcas de Amazon e importadores en Europa, EE. UU., Japón y Corea.',
     ogDescription:
-      'Fabricante de cajas de madera personalizadas con fábrica de 15.000 m² en Cao County, Shandong. Servicio a marcas de Amazon e importadores en todo el mundo.',
+      'Fabricante de cajas de madera personalizadas con fábrica de 20.000 m² en Cao County, Shandong. Servicio a marcas de Amazon e importadores en todo el mundo.',
   },
   hero: {
     eyebrow: 'Sobre Xiamen Chic Homeware',

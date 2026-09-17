@@ -32,7 +32,12 @@ export async function generateMetadata({ params: { locale } }) {
   languages['x-default'] = `/${routing.defaultLocale}`;
 
   return {
-    title: { default: title, template: `%s | ${SITE_NAME}` },
+    // Template carries the brand ONCE. It used to be `%s | ${SITE_NAME}`
+    // (= "... | CHIC — Wooden Expert") while every page ALSO appended
+    // "— CHIC" or "— CHIC Wooden Expert" to its own title, so 1,184 pages
+    // shipped the brand twice and 1,226 titles ran past 60 characters —
+    // the product name and its specs were the part Google truncated.
+    title: { default: title, template: `%s | ${SITE.company.brand}` },
     description,
     applicationName: SITE_NAME,
     authors: [{ name: SITE.company.legalName }],

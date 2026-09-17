@@ -831,7 +831,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La plupart du sourcing B2B sérieux se passe ici. Une usine spécialisée (concentrée sur le paulownia, le pin, le bambou, l'acacia, le noyer — choisissez une ou deux essences) opère sa propre cour de production et la couple avec un bureau commercial dans un hub export comme Xiamen, Shenzhen ou Shanghai. L'usine s'occupe de la fabrication ; le bureau commercial s'occupe de la documentation, de la coordination des échantillons, de la communication et de la logistique peu sexy qui transforme une palette de boîtes en quelque chose qui passe la douane. Notre propre structure — une usine de production de 15 000 m² à Cao County, Shandong et un bureau commercial à Xiamen, Fujian — entre dans cette catégorie, et c'est le modèle qui produit le résultat le plus prévisible pour les acheteurs qui veulent réapprovisionner."
+          "text": "La plupart du sourcing B2B sérieux se passe ici. Une usine spécialisée (concentrée sur le paulownia, le pin, le bambou, l'acacia, le noyer — choisissez une ou deux essences) opère sa propre cour de production et la couple avec un bureau commercial dans un hub export comme Xiamen, Shenzhen ou Shanghai. L'usine s'occupe de la fabrication ; le bureau commercial s'occupe de la documentation, de la coordination des échantillons, de la communication et de la logistique peu sexy qui transforme une palette de boîtes en quelque chose qui passe la douane. Notre propre structure — une usine de production de 20 000 m² à Cao County, Shandong et un bureau commercial à Xiamen, Fujian — entre dans cette catégorie, et c'est le modèle qui produit le résultat le plus prévisible pour les acheteurs qui veulent réapprovisionner."
         },
         {
           "type": "h3",
@@ -1140,7 +1140,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ce qui suit est ce à quoi ressemblent réellement ces 26 minutes, divisées en six étapes de fabrication par lesquelles passe chaque boîte de notre usine de 15 000 m². Nous avons appris que les acheteurs qui comprennent ce processus finissent par prendre de meilleures décisions concernant leurs produits. Ils spécifient plus intelligemment, ils négocient plus intelligemment, et ils attrapent les problèmes plus tôt-ce qui vaut beaucoup plus que n'importe quel argument de prix."
+          "text": "Ce qui suit est ce à quoi ressemblent réellement ces 26 minutes, divisées en six étapes de fabrication par lesquelles passe chaque boîte de notre usine de 20 000 m². Nous avons appris que les acheteurs qui comprennent ce processus finissent par prendre de meilleures décisions concernant leurs produits. Ils spécifient plus intelligemment, ils négocient plus intelligemment, et ils attrapent les problèmes plus tôt-ce qui vaut beaucoup plus que n'importe quel argument de prix."
         },
         {
           "type": "h2",

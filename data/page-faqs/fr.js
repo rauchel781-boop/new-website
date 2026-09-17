@@ -46,11 +46,11 @@ export const FAQS = {
   'wood-fabrication': {
     sectionTitle: 'FAQ sur la fabrication du bois',
     sectionSub:
-      'D’un croquis ou d’un échantillon à une boîte finie et personnalisée : voici comment notre usine de 15 000 m² découpe, assemble, finit et décore les emballages en bois sur mesure.',
+      'D’un croquis ou d’un échantillon à une boîte finie et personnalisée : voici comment notre usine de 20 000 m² découpe, assemble, finit et décore les emballages en bois sur mesure.',
     items: [
       {
         q: 'Quels procédés utilisez-vous pour fabriquer des boîtes en bois sur mesure ?',
-        a: 'La production est réalisée en interne dans notre usine de 15 000 m² à Cao County : découpe de précision et usinage CNC, assemblage, ponçage, finition de surface (huile, vernis, peinture), décoration comme la gravure laser ou l’impression, pose de la quincaillerie, contrôle qualité et emballage. Avoir chaque étape sous le même toit nous permet de maîtriser la qualité et les délais de bout en bout.',
+        a: 'La production est réalisée en interne dans notre usine de 20 000 m² à Cao County : découpe de précision et usinage CNC, assemblage, ponçage, finition de surface (huile, vernis, peinture), décoration comme la gravure laser ou l’impression, pose de la quincaillerie, contrôle qualité et emballage. Avoir chaque étape sous le même toit nous permet de maîtriser la qualité et les délais de bout en bout.',
       },
       {
         q: 'Pouvez-vous graver au laser ou imprimer notre logo sur les boîtes ?',

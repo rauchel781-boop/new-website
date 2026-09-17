@@ -8,6 +8,6 @@ export default function Image() {
     eyebrow: '✦ Product Catalogue',
     title: 'Custom Wooden Boxes, Built to Spec.',
     subtitle:
-      'Gift, watch & jewelry, tea, wine and storage boxes — OEM/ODM from a single 15,000 m² factory.',
+      'Gift, watch & jewelry, tea, wine and storage boxes — OEM/ODM from a single 20,000 m² factory.',
   });
 }

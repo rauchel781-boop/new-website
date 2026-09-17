@@ -12,7 +12,7 @@
 //
 // Each question is unique across pages and across the per-category FAQs so
 // there is no duplicate-content overlap. Factual claims are grounded in
-// data/site-config.js (15,000 m² Cao County factory, Xiamen sales office,
+// data/site-config.js (20,000 m² Cao County factory, Xiamen sales office,
 // OEM/ODM, FSC/CARB/REACH/ISO 9001) and the product catalogue. The ordering
 // figures (MOQ 300, 30-40 day lead time, sampling terms, served markets,
 // FOB/EXW) were confirmed by the client and filled in.
@@ -63,11 +63,11 @@ export const FAQS = {
   'wood-fabrication': {
     sectionTitle: 'Wood Fabrication FAQs',
     sectionSub:
-      'From a sketch or sample to a finished, branded box — here is how our 15,000 m² factory cuts, joins, finishes and decorates custom wooden packaging.',
+      'From a sketch or sample to a finished, branded box — here is how our 20,000 m² factory cuts, joins, finishes and decorates custom wooden packaging.',
     items: [
       {
         q: 'What processes do you use to fabricate custom wooden boxes?',
-        a: 'Production runs in-house at our 15,000 m² Cao County factory: precision cutting and CNC machining, joinery and assembly, sanding, surface finishing (oil, lacquer, paint), decoration such as laser engraving or printing, hardware fitting, QC and packing. Keeping every step under one roof lets us control quality and lead time end to end.',
+        a: 'Production runs in-house at our 20,000 m² Cao County factory: precision cutting and CNC machining, joinery and assembly, sanding, surface finishing (oil, lacquer, paint), decoration such as laser engraving or printing, hardware fitting, QC and packing. Keeping every step under one roof lets us control quality and lead time end to end.',
       },
       {
         q: 'Can you laser-engrave or print our logo on the boxes?',

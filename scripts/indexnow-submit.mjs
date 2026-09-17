@@ -20,8 +20,15 @@
 // standing.
 // ---------------------------------------------------------------------------
 
-const HOST = 'www.custom-woodenbox.com';
-const KEY = '729175b3535dd6a81f085ca081f3a493';
+// Overridable, so a host/key mismatch can be retested without editing this file:
+//   node scripts/indexnow-submit.mjs --host custom-woodenbox.com --key <key>
+function arg(name, fallback) {
+  const i = process.argv.indexOf(`--${name}`);
+  return i !== -1 && process.argv[i + 1] ? process.argv[i + 1] : fallback;
+}
+
+const HOST = arg('host', 'www.custom-woodenbox.com');
+const KEY = arg('key', '729175b3535dd6a81f085ca081f3a493');
 const KEY_LOCATION = `https://${HOST}/${KEY}.txt`;
 const SITEMAP = `https://${HOST}/sitemap.xml`;
 const ENDPOINT = 'https://api.indexnow.org/indexnow';
@@ -51,14 +58,26 @@ function explain(status) {
     case 200: return 'OK - URLs accepted.';
     case 202: return 'Accepted - key validation pending. Normal on a first run.';
     case 400: return 'Bad request - malformed URL list.';
-    case 403: return `Forbidden - Bing could not read ${KEY_LOCATION}. Is it deployed?`;
+    case 403: return 'Forbidden. Two different causes share this code - read the '
+      + 'response body. "SiteVerificationNotCompleted" means the host below is not '
+      + 'a verified site in Bing Webmaster Tools; the host must match a verified '
+      + 'property exactly, www included. Otherwise the key file is unreachable.';
     case 422: return 'Unprocessable - a URL does not belong to this host.';
     case 429: return 'Too many requests - wait and retry later.';
     default:  return 'Unexpected status.';
   }
 }
 
-const args = process.argv.slice(2);
+// Positional URLs only - drop the --host/--key flags and the values after them.
+const args = (() => {
+  const out = [];
+  const rest = process.argv.slice(2);
+  for (let i = 0; i < rest.length; i++) {
+    if (rest[i] === '--host' || rest[i] === '--key') { i++; continue; }
+    out.push(rest[i]);
+  }
+  return out;
+})();
 
 try {
   const urls = args.length ? args : await urlsFromSitemap();
@@ -76,15 +95,23 @@ try {
   console.log(`Key at : ${KEY_LOCATION}`);
   console.log('');
 
+  let rejected = 0;
   for (let i = 0; i < urls.length; i += BATCH) {
     const chunk = urls.slice(i, i + BATCH);
     const { status, body } = await submit(chunk);
     console.log(`Batch ${i / BATCH + 1}: ${chunk.length} URLs -> HTTP ${status}`);
     console.log(`  ${explain(status)}`);
     if (body) console.log(`  Response: ${body}`);
+    if (status !== 200 && status !== 202) rejected++;
   }
 
   console.log('');
+  // Anything outside 200/202 means nothing was queued. Exit non-zero so the
+  // calling script reports a failure instead of printing "SUBMITTED".
+  if (rejected) {
+    console.log(`${rejected} batch(es) REJECTED - nothing was submitted.`);
+    process.exit(1);
+  }
   console.log('Done. Bing usually crawls submitted URLs within minutes to hours.');
 } catch (err) {
   console.error('FAILED:', err.message);

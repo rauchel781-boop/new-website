@@ -6,7 +6,7 @@ const P = (name) => '/folder/' + encodeURIComponent(name).replace(/\.(jpe?g|png)
 export const SHOWROOM_IMG = F('gemini-generated-image-nclf39nclf39nclf.jpg');
 
 export const FACTORY_IMAGES = [
-  { src: F('chic-factory.jpg'), caption: 'Stabilimento di Cao County · 15.000 m²' },
+  { src: F('chic-factory.jpg'), caption: 'Stabilimento di Cao County · 20.000 m²' },
   { src: F('material.jpg'),     caption: 'Magazzino legno massello · paulownia, pino, rovere' },
   { src: F('1-1.jpg'),          caption: 'Officina di preparazione del legno' },
   { src: F('painting.jpg'),     caption: 'Linea di finitura a spruzzo con controllo polveri' },
@@ -44,7 +44,7 @@ export const TIMELINE = [
   { year: '2023', title: 'Boom di Amazon',
     text: 'Costruita una linea dedicata a piccoli MOQ per brand privati Amazon. Superato il milione di pezzi spediti in un solo anno.' },
   { year: '2024', title: 'Certificazione FSC',
-    text: 'Ottenuta la certificazione FSC chain-of-custody. Stabilimento ampliato a 15.000 m² con nuova area di finitura e QC.' },
+    text: 'Ottenuta la certificazione FSC chain-of-custody. Stabilimento ampliato a 20.000 m² con nuova area di finitura e QC.' },
   { year: '2025', title: 'Globalizzazione',
     text: 'Clienti attivi in 40+ paesi. Lanciato team interno ID + mockup 3D per supportare la crescita OEM/ODM.' },
 ];
@@ -68,7 +68,7 @@ export const LOCATIONS = [
     role: 'Produzione · finitura · QC · imballaggio',
     addr: 'A nord dell’ufficio dell’Amministrazione per la Regolazione del Mercato, villaggio di Pulianji, contea di Cao, Heze, Provincia dello Shandong, Cina',
     details: [
-      '15.000 m² con linee CNC, laser, finitura e assemblaggio',
+      '20.000 m² con linee CNC, laser, finitura e assemblaggio',
       '120+ operai specializzati su due turni di produzione',
       'Accesso locale a paulownia, pino, bambù, noce e rovere',
       'Servizio ferroviario diretto container ai porti di Qingdao e Lianyungang',
@@ -89,7 +89,7 @@ export const MARKETS = [
 
 export const VALUES = [
   { num: '01', title: 'Vera Fabbrica, Non un Trader',
-    text: 'Il nostro stabilimento di 15.000 m² a Cao County è di proprietà e gestione diretta di Chic Homeware — nessun intermediario, nessuna catena di ricarichi e nessun telefono senza fili tra te e il pavimento di produzione.' },
+    text: 'Il nostro stabilimento di 20.000 m² a Cao County è di proprietà e gestione diretta di Chic Homeware — nessun intermediario, nessuna catena di ricarichi e nessun telefono senza fili tra te e il pavimento di produzione.' },
   { num: '02', title: 'Costruita per Volumi Piccoli e Medi',
     text: 'La maggior parte delle fabbriche vuole ordini da 5.000 pezzi. Siamo costruiti attorno a tirature da 200 a 5.000 pezzi — il volume che conta per i brand Amazon, venditori Etsy, retailer regalo e lanci di brand.' },
   { num: '03', title: 'Vendite in Inglese',
@@ -107,9 +107,9 @@ export const COPY = {
   meta: {
     title: 'Chi Siamo — Xiamen Chic Homeware Co.,Ltd.',
     description:
-      'Xiamen Chic Homeware Co.,Ltd. — produttore di scatole in legno su misura da cinque anni, con ufficio vendite a Xiamen e stabilimento di 15.000 m² a Cao County, Shandong. Al servizio di brand Amazon e importatori in Europa, USA, Giappone e Corea.',
+      'Xiamen Chic Homeware Co.,Ltd. — produttore di scatole in legno su misura da cinque anni, con ufficio vendite a Xiamen e stabilimento di 20.000 m² a Cao County, Shandong. Al servizio di brand Amazon e importatori in Europa, USA, Giappone e Corea.',
     ogDescription:
-      'Produttore di scatole in legno su misura con stabilimento di 15.000 m² a Cao County, Shandong. Al servizio di brand Amazon e importatori nel mondo.',
+      'Produttore di scatole in legno su misura con stabilimento di 20.000 m² a Cao County, Shandong. Al servizio di brand Amazon e importatori nel mondo.',
   },
   hero: {
     eyebrow: 'Su Xiamen Chic Homeware',

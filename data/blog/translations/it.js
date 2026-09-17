@@ -831,7 +831,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La maggior parte del sourcing B2B serio avviene qui. Una fabbrica specialistica (focalizzata su paulownia, pino, bambù, acacia, noce — sceglietene una o due) gestisce un proprio piazzale produttivo e lo abbina a un ufficio commerciale in un hub di export come Xiamen, Shenzhen o Shanghai. La fabbrica gestisce la produzione; l'ufficio commerciale gestisce documentazione, coordinamento campioni, comunicazione e la logistica poco sexy che trasforma una pallet di scatole in qualcosa che passa la dogana. La nostra struttura — uno stabilimento produttivo di 15.000 m² a Cao County, Shandong, e un ufficio commerciale a Xiamen, Fujian — rientra in questa categoria, ed è il modello che produce il risultato più prevedibile per i buyer che vogliono riordinare."
+          "text": "La maggior parte del sourcing B2B serio avviene qui. Una fabbrica specialistica (focalizzata su paulownia, pino, bambù, acacia, noce — sceglietene una o due) gestisce un proprio piazzale produttivo e lo abbina a un ufficio commerciale in un hub di export come Xiamen, Shenzhen o Shanghai. La fabbrica gestisce la produzione; l'ufficio commerciale gestisce documentazione, coordinamento campioni, comunicazione e la logistica poco sexy che trasforma una pallet di scatole in qualcosa che passa la dogana. La nostra struttura — uno stabilimento produttivo di 20.000 m² a Cao County, Shandong, e un ufficio commerciale a Xiamen, Fujian — rientra in questa categoria, ed è il modello che produce il risultato più prevedibile per i buyer che vogliono riordinare."
         },
         {
           "type": "h3",
@@ -1140,7 +1140,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Quello che segue è l'aspetto di quei 26 minuti, suddivisi nei sei passaggi di produzione che ogni scatola della nostra struttura di 15.000 m² attraversa. Abbiamo imparato che gli acquirenti che comprendono questo processo finiscono per prendere decisioni migliori sui loro prodotti. Specificano in modo più intelligente, negoziano in modo più intelligente e prendono i problemi prima, il che vale molto di più di qualsiasi argomento sui prezzi."
+          "text": "Quello che segue è l'aspetto di quei 26 minuti, suddivisi nei sei passaggi di produzione che ogni scatola della nostra struttura di 20.000 m² attraversa. Abbiamo imparato che gli acquirenti che comprendono questo processo finiscono per prendere decisioni migliori sui loro prodotti. Specificano in modo più intelligente, negoziano in modo più intelligente e prendono i problemi prima, il che vale molto di più di qualsiasi argomento sui prezzi."
         },
         {
           "type": "h2",

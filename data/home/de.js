@@ -6,7 +6,7 @@ export const FEATURED = [
     tag: 'Geschenk- und Verpackungsboxen', name: 'Geschenkbox mit Schiebedeckel', meta: 'Ohne Beschläge · Flach verpackbar' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Boxen mit Schloss', name: 'Große schwarze Holzbox mit Schloss', meta: 'Zahlenschloss · Mehrere Fächer' },
-  { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
+  { href: '/products/tea-coffee/bamboo-tea-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
     tag: 'Tee & Kaffee', name: 'Bambus-Teebeutel-Organizer', meta: '8 Trenner · Klarsicht-Klappdeckel' },
   { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
     tag: 'Uhren & Schmuck', name: 'Holz-Uhrenpräsentationsbox', meta: 'Leinenkissen · Kapazität für 6 Uhren' },
@@ -16,7 +16,7 @@ export const FEATURED = [
 
 export const FACTORY_TILES = [
   { href: '/about', img: '/factory/chic-factory.webp', alt: 'Unser Werkshauptsitz', w: 900, h: 900,
-    num: '01 · Hauptsitz',     text: '15.000 m² Cao County Werk',           cls: 'fac-1' },
+    num: '01 · Hauptsitz',     text: '20.000 m² Cao County Werk',           cls: 'fac-1' },
   { href: '/about', img: '/factory/production.webp',  alt: 'Produktionsboden', w: 900, h: 900,
     num: '02 · Produktion',    text: 'Aktive Werkstatt',                    cls: 'fac-2' },
   { href: '/about', img: '/factory/material.webp',     alt: 'Roholz', w: 900, h: 900,
@@ -79,11 +79,11 @@ export const COPY = {
     titleEm1: 'Holzboxen nach Maß',
     titleB: 'Großhandel &',
     titleEm2: 'OEM-Lieferant',
-    sub: 'Von Luxus-Geschenkverpackung bis maßgefertigter Aufbewahrung — wir entwickeln individuelle Holzboxen in unserem 15.000 m² Werk in Cao County und liefern an Marken in 60+ Ländern aus unserem Büro in Xiamen. Handgefertigt, mit Werkbankpräzision finalisiert.',
+    sub: 'Von Luxus-Geschenkverpackung bis maßgefertigter Aufbewahrung — wir entwickeln individuelle Holzboxen in unserem 20.000 m² Werk in Cao County und liefern an Marken in 60+ Ländern aus unserem Büro in Xiamen. Handgefertigt, mit Werkbankpräzision finalisiert.',
     btnPrimary: 'Bestseller ansehen →',
     btnOutline: 'Kostenloses Muster anfordern',
     metaItems: [
-      { num: '20+', label: 'Jahre Handwerk' },
+      { num: '20+', label: 'Jahre Teamerfahrung' },
       { num: '500+', label: 'Box-Stile' },
       { num: '2M+', label: 'Stück / Jahr' },
       { num: '60+', label: 'Länder' },
@@ -112,9 +112,9 @@ export const COPY = {
     titleA: 'Direkt-Werk',
     titleEm: 'Qualität',
     titleB: 'im globalen Maßstab',
-    text: 'Mit unserem 15.000 m² Werk in Cao County, Shandong — dem historischen Herzen der chinesischen Holzboxen-Industrie — und unserem Vertriebsbüro in Xiamen, Fujian, sind wir ein dedizierter Holzboxen-Hersteller, der Einzelhändler, Marken und Importeure in Europa, Nordamerika, Japan, Korea und darüber hinaus bedient.',
+    text: 'Mit unserem 20.000 m² Werk in Cao County, Shandong — dem historischen Herzen der chinesischen Holzboxen-Industrie — und unserem Vertriebsbüro in Xiamen, Fujian, sind wir ein dedizierter Holzboxen-Hersteller, der Einzelhändler, Marken und Importeure in Europa, Nordamerika, Japan, Korea und darüber hinaus bedient.',
     features: [
-      'MOQ ab 100 Stück — perfekt für Muster',
+      'Standard-MOQ 200–500 Stück — Musterläufe ab 100',
       'Volle Anpassung: Größe, Finish, Logo, Einsatz, Beschlag',
       'FSC-zertifiziertes Holz und umweltfreundliche Finishes verfügbar',
       'Internes Designteam für OEM- und ODM-Projekte',
@@ -139,7 +139,7 @@ export const COPY = {
   factory: {
     label: 'Hinter dem Handwerk',
     title: 'In unserem Werk',
-    intro: '15.000 m² speziell für Holzbearbeitung in Cao County, Shandong — vom kammergetrockneten Holzbestand bis zur handgefertigten Exportverpackung passiert jeder Schritt unter einem Dach. Vertrieb, Design und Versand werden aus unserem Büro in Xiamen, Fujian abgewickelt.',
+    intro: '20.000 m² speziell für Holzbearbeitung in Cao County, Shandong — vom kammergetrockneten Holzbestand bis zur handgefertigten Exportverpackung passiert jeder Schritt unter einem Dach. Vertrieb, Design und Versand werden aus unserem Büro in Xiamen, Fujian abgewickelt.',
     cta: 'Unsere ganze Geschichte lesen →',
   },
   process: {

@@ -46,11 +46,11 @@ export const FAQS = {
   'wood-fabrication': {
     sectionTitle: 'Perguntas frequentes sobre fabrico em madeira',
     sectionSub:
-      'De um esboço ou amostra a uma caixa acabada e com a sua marca: veja como a nossa fábrica de 15.000 m² corta, monta, acaba e decora embalagens de madeira à medida.',
+      'De um esboço ou amostra a uma caixa acabada e com a sua marca: veja como a nossa fábrica de 20.000 m² corta, monta, acaba e decora embalagens de madeira à medida.',
     items: [
       {
         q: 'Que processos utilizam para fabricar caixas de madeira personalizadas?',
-        a: 'A produção é feita internamente na nossa fábrica de 15.000 m² em Cao County: corte de precisão e maquinação CNC, montagem, lixagem, acabamento de superfície (óleo, verniz, pintura), decoração como gravação a laser ou impressão, montagem de ferragens, controlo de qualidade e embalagem. Ter cada etapa sob o mesmo teto permite-nos controlar a qualidade e o prazo de ponta a ponta.',
+        a: 'A produção é feita internamente na nossa fábrica de 20.000 m² em Cao County: corte de precisão e maquinação CNC, montagem, lixagem, acabamento de superfície (óleo, verniz, pintura), decoração como gravação a laser ou impressão, montagem de ferragens, controlo de qualidade e embalagem. Ter cada etapa sob o mesmo teto permite-nos controlar a qualidade e o prazo de ponta a ponta.',
       },
       {
         q: 'Conseguem gravar a laser ou imprimir o nosso logótipo nas caixas?',

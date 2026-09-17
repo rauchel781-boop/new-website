@@ -6,7 +6,7 @@ const P = (name) => '/folder/' + encodeURIComponent(name).replace(/\.(jpe?g|png)
 export const SHOWROOM_IMG = F('gemini-generated-image-nclf39nclf39nclf.jpg');
 
 export const FACTORY_IMAGES = [
-  { src: F('chic-factory.jpg'), caption: '曹県工場 · 15,000 m²' },
+  { src: F('chic-factory.jpg'), caption: '曹県工場 · 20,000 m²' },
   { src: F('material.jpg'),     caption: '無垢材在庫 · 桐、松、オーク' },
   { src: F('1-1.jpg'),          caption: '木材準備工房' },
   { src: F('painting.jpg'),     caption: '防塵管理スプレー塗装ライン' },
@@ -44,7 +44,7 @@ export const TIMELINE = [
   { year: '2023', title: 'Amazonブーム',
     text: 'Amazonプライベートブランド向け小ロット専用ラインを構築。年間100万個を超える出荷を達成。' },
   { year: '2024', title: 'FSC認証取得',
-    text: 'FSC chain-of-custody認証を取得。工場を15,000 m²に拡張し、新たな仕上げ・QCエリアを設置。' },
+    text: 'FSC chain-of-custody認証を取得。工場を20,000 m²に拡張し、新たな仕上げ・QCエリアを設置。' },
   { year: '2025', title: 'グローバル展開',
     text: '40カ国以上にアクティブな顧客。OEM/ODM成長を支援するため、社内ID + 3Dモックアップチームを発足。' },
 ];
@@ -68,7 +68,7 @@ export const LOCATIONS = [
     role: '製造 · 仕上げ · QC · 梱包',
     addr: '市場監督管理局事務所北側、蒲蓮集村、蒲蓮集鎮、曹県、菏沢市、山東省、中国',
     details: [
-      'CNC、レーザー、仕上げ、組立ラインを備えた15,000 m²の工場',
+      'CNC、レーザー、仕上げ、組立ラインを備えた20,000 m²の工場',
       '120名以上の熟練工が2交替制で勤務',
       '桐、松、竹、ウォールナット、オークへのローカルアクセス',
       '青島港・連雲港への直通鉄道コンテナサービス',
@@ -89,7 +89,7 @@ export const MARKETS = [
 
 export const VALUES = [
   { num: '01', title: '本物の工場、トレーダーではありません',
-    text: '当社の15,000 m²の曹県工場は、Chic Homewareが直接所有・運営しています — 中間業者なし、マークアップチェーンなし、お客様と生産現場の間に伝言ゲームはありません。' },
+    text: '当社の20,000 m²の曹県工場は、Chic Homewareが直接所有・運営しています — 中間業者なし、マークアップチェーンなし、お客様と生産現場の間に伝言ゲームはありません。' },
   { num: '02', title: '小〜中規模ロット向けに設計',
     text: '多くの工場は5,000個単位の注文を希望します。当社は200〜5,000個のロットを中心に設計されており — Amazonブランド、Etsy販売者、ギフト小売、ブランドローンチに重要な数量です。' },
   { num: '03', title: '英語対応の営業',
@@ -107,9 +107,9 @@ export const COPY = {
   meta: {
     title: '会社概要 — Xiamen Chic Homeware Co.,Ltd.',
     description:
-      'Xiamen Chic Homeware Co.,Ltd. — 創業5年のカスタム木箱メーカー。厦門に営業オフィス、山東省曹県に15,000 m²の工場を構え、Amazonブランドや欧州・米国・日本・韓国の輸入業者にサービスを提供しています。',
+      'Xiamen Chic Homeware Co.,Ltd. — 創業5年のカスタム木箱メーカー。厦門に営業オフィス、山東省曹県に20,000 m²の工場を構え、Amazonブランドや欧州・米国・日本・韓国の輸入業者にサービスを提供しています。',
     ogDescription:
-      '創業5年のカスタム木箱メーカー。山東省曹県に15,000 m²工場、世界中のAmazonブランドと輸入業者にサービス提供。',
+      '創業5年のカスタム木箱メーカー。山東省曹県に20,000 m²工場、世界中のAmazonブランドと輸入業者にサービス提供。',
   },
   hero: {
     eyebrow: 'Xiamen Chic Homeware について',

@@ -43,7 +43,17 @@ const PRODUCTS_BY_CATEGORY = {
   walnut: WALNUT_PRODUCTS,
 };
 
-const today = new Date();
+// Deliberately NOT a build-time `new Date()` fallback for every URL.
+//
+// Stamping the build timestamp on all 1,506 entries told search engines that
+// the entire site changed every time we deployed — 1,378 URLs previously
+// shared one identical lastmod. Crawlers discount a lastmod that behaves like
+// that, which costs us the signal on the pages that genuinely did change.
+//
+// So: emit lastModified ONLY where a real content date exists (blog posts
+// have one). Omitting the field is explicitly allowed and is more trustworthy
+// than a number we cannot stand behind. When product and category pages gain
+// a real updatedAt in their data files, pass it through here.
 
 // Build hreflang entries pointing to every locale's variant of a path.
 // Returns { en: 'https://.../en/foo', es: '.../es/foo', ..., 'x-default': '.../en/foo' }
@@ -74,11 +84,11 @@ function pushLocalized(entries, localizedPath, opts = {}) {
   for (const loc of routing.locales) {
     const entry = {
       url: `${SITE.siteUrl}/${loc}${localizedPath}`,
-      lastModified: opts.lastModified || today,
       changeFrequency: opts.changeFrequency || 'monthly',
       priority: opts.priority ?? 0.7,
       alternates: { languages: langs },
     };
+    if (opts.lastModified) entry.lastModified = opts.lastModified;
     if (images.length) entry.images = images;
     entries.push(entry);
   }
@@ -135,7 +145,6 @@ export default function sitemap() {
   for (const legalPath of ['/privacy', '/terms']) {
     entries.push({
       url: `${SITE.siteUrl}/${routing.defaultLocale}${legalPath}`,
-      lastModified: today,
       changeFrequency: 'yearly',
       priority: 0.3,
     });
@@ -149,7 +158,7 @@ export default function sitemap() {
   });
   for (const post of POSTS) {
     pushLocalized(entries, `/blog/${post.slug}`, {
-      lastModified: post.date ? new Date(post.date) : today,
+      lastModified: post.updated ? new Date(post.updated) : (post.date ? new Date(post.date) : undefined),
       changeFrequency: 'monthly',
       priority: 0.6,
       images: post.hero ? [post.hero] : [],

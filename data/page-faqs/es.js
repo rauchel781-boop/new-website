@@ -46,11 +46,11 @@ export const FAQS = {
   'wood-fabrication': {
     sectionTitle: 'Preguntas frecuentes sobre fabricación en madera',
     sectionSub:
-      'De un boceto o una muestra a una caja terminada y con tu marca: así corta, ensambla, acaba y decora nuestra fábrica de 15.000 m² los embalajes de madera a medida.',
+      'De un boceto o una muestra a una caja terminada y con tu marca: así corta, ensambla, acaba y decora nuestra fábrica de 20.000 m² los embalajes de madera a medida.',
     items: [
       {
         q: '¿Qué procesos utilizan para fabricar cajas de madera personalizadas?',
-        a: 'La producción se realiza internamente en nuestra fábrica de 15.000 m² en Cao County: corte de precisión y mecanizado CNC, ensamblaje, lijado, acabado superficial (aceite, laca, pintura), decoración como grabado láser o impresión, montaje de herrajes, control de calidad y empaque. Tener cada paso bajo un mismo techo nos permite controlar la calidad y el plazo de principio a fin.',
+        a: 'La producción se realiza internamente en nuestra fábrica de 20.000 m² en Cao County: corte de precisión y mecanizado CNC, ensamblaje, lijado, acabado superficial (aceite, laca, pintura), decoración como grabado láser o impresión, montaje de herrajes, control de calidad y empaque. Tener cada paso bajo un mismo techo nos permite controlar la calidad y el plazo de principio a fin.',
       },
       {
         q: '¿Pueden grabar con láser o imprimir nuestro logotipo en las cajas?',

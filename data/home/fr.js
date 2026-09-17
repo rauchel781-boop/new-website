@@ -6,7 +6,7 @@ export const FEATURED = [
     tag: 'Boîtes Cadeau et Emballage', name: 'Boîte Cadeau à Couvercle Coulissant', meta: 'Sans quincaillerie · Expédition à plat' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Boîtes avec Serrure', name: 'Grande Boîte Noire avec Serrure', meta: 'Serrure à combinaison · Multi-compartiments' },
-  { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
+  { href: '/products/tea-coffee/bamboo-tea-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
     tag: 'Thé et Café', name: 'Organisateur de Sachets de Thé en Bambou', meta: '8 séparateurs · Couvercle transparent à charnière' },
   { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
     tag: 'Montres et Joaillerie', name: 'Coffret Présentoir Montres en Bois', meta: 'Coussin lin · Capacité 6 montres' },
@@ -16,7 +16,7 @@ export const FEATURED = [
 
 export const FACTORY_TILES = [
   { href: '/about', img: '/factory/chic-factory.webp', alt: 'Siège de notre usine', w: 900, h: 900,
-    num: '01 · Siège',         text: 'Site Cao County 15 000 m²',           cls: 'fac-1' },
+    num: '01 · Siège',         text: 'Site Cao County 20 000 m²',           cls: 'fac-1' },
   { href: '/about', img: '/factory/production.webp',  alt: 'Plancher de production', w: 900, h: 900,
     num: '02 · Production',    text: 'Atelier en activité',                 cls: 'fac-2' },
   { href: '/about', img: '/factory/material.webp',     alt: 'Matières premières en bois', w: 900, h: 900,
@@ -79,11 +79,11 @@ export const COPY = {
     titleEm1: 'Boîtes en Bois',
     titleB: 'Grossiste &',
     titleEm2: 'Fournisseur OEM',
-    sub: 'De l’emballage cadeau de luxe au rangement sur mesure — nous concevons des boîtes en bois personnalisées dans notre usine de 15 000 m² à Cao County et expédions à des marques dans 60+ pays depuis notre bureau de Xiamen. Faites main, finies à la précision d’établi.',
+    sub: 'De l’emballage cadeau de luxe au rangement sur mesure — nous concevons des boîtes en bois personnalisées dans notre usine de 20 000 m² à Cao County et expédions à des marques dans 60+ pays depuis notre bureau de Xiamen. Faites main, finies à la précision d’établi.',
     btnPrimary: 'Voir les Best Sellers →',
     btnOutline: 'Demander un Échantillon Gratuit',
     metaItems: [
-      { num: '20+', label: 'Années de savoir-faire' },
+      { num: '20+', label: "Années d'expérience de l'équipe" },
       { num: '500+', label: 'Styles de boîte' },
       { num: '2M+', label: 'Unités / an' },
       { num: '60+', label: 'Pays' },
@@ -112,9 +112,9 @@ export const COPY = {
     titleA: 'Qualité',
     titleEm: 'Direct Usine',
     titleB: 'à l’Échelle Mondiale',
-    text: 'Avec notre usine de 15 000 m² à Cao County, Shandong — cœur historique de l’industrie chinoise des boîtes en bois — et notre bureau commercial à Xiamen, Fujian, nous sommes un fabricant dédié de boîtes en bois servant détaillants, marques et importateurs en Europe, Amérique du Nord, Japon, Corée et au-delà.',
+    text: 'Avec notre usine de 20 000 m² à Cao County, Shandong — cœur historique de l’industrie chinoise des boîtes en bois — et notre bureau commercial à Xiamen, Fujian, nous sommes un fabricant dédié de boîtes en bois servant détaillants, marques et importateurs en Europe, Amérique du Nord, Japon, Corée et au-delà.',
     features: [
-      'MOQ dès 100 pièces — parfait pour les échantillons',
+      'MOQ standard 200–500 pièces — séries échantillon dès 100',
       'Personnalisation totale : taille, finition, logo, insert, quincaillerie',
       'Bois certifié FSC et finitions écologiques disponibles',
       'Équipe design interne pour projets OEM et ODM',
@@ -139,7 +139,7 @@ export const COPY = {
   factory: {
     label: 'Derrière le Métier',
     title: 'Dans Notre Usine',
-    intro: '15 000 m² dédiés au travail du bois à Cao County, Shandong — du stock de bois séché en étuve à l’emballage export fini main, chaque étape se passe sous un même toit. Ventes, design et expéditions sont gérés depuis notre bureau de Xiamen, Fujian.',
+    intro: '20 000 m² dédiés au travail du bois à Cao County, Shandong — du stock de bois séché en étuve à l’emballage export fini main, chaque étape se passe sous un même toit. Ventes, design et expéditions sont gérés depuis notre bureau de Xiamen, Fujian.',
     cta: 'Lire Notre Histoire Complète →',
   },
   process: {

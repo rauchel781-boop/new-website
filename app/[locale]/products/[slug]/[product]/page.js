@@ -67,7 +67,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }) {
   const products = PRODUCTS_BY_CATEGORY[params.slug];
   const productRaw = products?.[params.product];
-  if (!productRaw) return { title: 'Product — CHIC' };
+  if (!productRaw) return { title: 'Product' };
   const product = { ...productRaw, ...getProductTranslation(productRaw.slug, params.locale) };
   const localePath = `/products/${params.slug}/${params.product}`;
   const fullPath = `/${params.locale}${localePath}`;
@@ -78,7 +78,7 @@ export function generateMetadata({ params }) {
   // link equity flowing from these pages through to the box pages.
   const noIndex = isNonBoxProduct(productRaw.slug);
   return {
-    title: `${product.name} — CHIC Wooden Expert`,
+    title: product.name,
     description: product.intro,
     ...(noIndex && {
       robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
@@ -86,7 +86,7 @@ export function generateMetadata({ params }) {
     alternates: makeAlternates(params.locale, localePath),
     openGraph: {
       url: fullPath,
-      title: `${product.name} — CHIC Wooden Expert`,
+      title: product.name,
       description: product.intro,
       // og:image — provided by ./opengraph-image.js (file convention).
       // It renders a 1200×630 card with the product hero + product name +
@@ -95,7 +95,7 @@ export function generateMetadata({ params }) {
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${product.name} — CHIC Wooden Expert`,
+      title: product.name,
       description: product.intro,
       // twitter:image — same opengraph-image.js auto-wires this too.
     },
@@ -478,17 +478,16 @@ export default async function ProductDetail({ params }) {
       url: SITE.siteUrl,
     },
     url: `${SITE.siteUrl}${localePrefix}${productPath}`,
-   // B2B product: price on request. Use AggregateOffer to indicate inquiry-based pricing.
-    offers: {
-      '@type': 'AggregateOffer',
-      priceCurrency: 'USD',
-      availability: 'https://schema.org/PreOrder',
-      url: `${SITE.siteUrl}${localePrefix}${productPath}`,
-      seller: {
-        '@type': 'Organization',
-        name: SITE.company.legalName,
-      },
-    }, ...(additionalProperty.length > 0 && { additionalProperty }),
+    // No `offers` node. These are quoted B2B jobs — price depends on spec,
+    // quantity and finish — so there is no price to publish. The previous
+    // AggregateOffer declared a price aggregate with no lowPrice, highPrice
+    // or offerCount, which is an incomplete offer rather than a discreet one:
+    // it cannot qualify for a merchant rich result and reads to a validator as
+    // a broken price claim. Omitting offers entirely is the honest signal, and
+    // Product stays valid without it. If we ever publish a real starting price
+    // or range, add a proper Offer/AggregateOffer with the price fields filled
+    // from what the page actually shows — never invented to win a rich result.
+    ...(additionalProperty.length > 0 && { additionalProperty }),
   };
   const breadcrumbLd = {
     '@context': 'https://schema.org',

@@ -6,7 +6,7 @@ const P = (name) => '/folder/' + encodeURIComponent(name).replace(/\.(jpe?g|png)
 export const SHOWROOM_IMG = F('gemini-generated-image-nclf39nclf39nclf.jpg');
 
 export const FACTORY_IMAGES = [
-  { src: F('chic-factory.jpg'), caption: '차오현 공장 · 15,000 m²' },
+  { src: F('chic-factory.jpg'), caption: '차오현 공장 · 20,000 m²' },
   { src: F('material.jpg'),     caption: '원목 재고 · 오동나무, 소나무, 오크' },
   { src: F('1-1.jpg'),          caption: '목재 준비 작업장' },
   { src: F('painting.jpg'),     caption: '먼지 통제 스프레이 마감 라인' },
@@ -44,7 +44,7 @@ export const TIMELINE = [
   { year: '2023', title: '아마존 부흥',
     text: '아마존 프라이빗 라벨 브랜드를 위한 소량 MOQ 전용 라인 구축. 한 해 100만 개 출하 돌파.' },
   { year: '2024', title: 'FSC 인증',
-    text: 'FSC chain-of-custody 인증 획득. 공장을 15,000 m²로 확장하고 새로운 마감 및 QC 영역 마련.' },
+    text: 'FSC chain-of-custody 인증 획득. 공장을 20,000 m²로 확장하고 새로운 마감 및 QC 영역 마련.' },
   { year: '2025', title: '글로벌 진출',
     text: '40개국 이상의 활성 고객. OEM/ODM 성장을 지원하기 위해 사내 ID + 3D 목업 팀 출범.' },
 ];
@@ -68,7 +68,7 @@ export const LOCATIONS = [
     role: '제조 · 마감 · QC · 포장',
     addr: '시장 규제 행정 사무소 북쪽, 푸리안지 마을, 차오현, 헤쩌시, 산둥성, 중국',
     details: [
-      'CNC, 레이저, 마감, 조립 라인이 있는 15,000 m² 공장',
+      'CNC, 레이저, 마감, 조립 라인이 있는 20,000 m² 공장',
       '2교대 생산에 120명 이상의 숙련 작업자',
       '오동나무, 소나무, 대나무, 호두나무, 오크에 대한 현지 접근',
       '칭다오 및 롄윈강 항구로의 직통 철도 컨테이너 서비스',
@@ -89,7 +89,7 @@ export const MARKETS = [
 
 export const VALUES = [
   { num: '01', title: '진짜 공장, 트레이더가 아닙니다',
-    text: '차오현의 15,000 m² 공장은 Chic Homeware가 직접 소유하고 운영합니다 — 중간상인 없음, 마진 체인 없음, 귀하와 생산 현장 사이에 전화 게임 없음.' },
+    text: '차오현의 20,000 m² 공장은 Chic Homeware가 직접 소유하고 운영합니다 — 중간상인 없음, 마진 체인 없음, 귀하와 생산 현장 사이에 전화 게임 없음.' },
   { num: '02', title: '소·중규모 볼륨 전용 설계',
     text: '대부분의 공장은 5,000개 주문을 원합니다. 우리는 200~5,000개 사이의 생산을 중심으로 설계되었습니다 — 아마존 브랜드, Etsy 판매자, 선물 소매업체 및 브랜드 출시에 중요한 볼륨입니다.' },
   { num: '03', title: '영어 사용 영업',
@@ -107,9 +107,9 @@ export const COPY = {
   meta: {
     title: '회사 소개 — Xiamen Chic Homeware Co.,Ltd.',
     description:
-      'Xiamen Chic Homeware Co.,Ltd. — 5년 된 맞춤형 목재 박스 제조사. 샤먼에 영업 사무소, 산둥성 차오현에 15,000 m² 공장 운영. 유럽, 미국, 일본, 한국의 아마존 브랜드와 수입업체에 서비스 제공.',
+      'Xiamen Chic Homeware Co.,Ltd. — 5년 된 맞춤형 목재 박스 제조사. 샤먼에 영업 사무소, 산둥성 차오현에 20,000 m² 공장 운영. 유럽, 미국, 일본, 한국의 아마존 브랜드와 수입업체에 서비스 제공.',
     ogDescription:
-      '5년 된 맞춤형 목재 박스 제조사. 산둥성 차오현에 15,000 m² 공장. 전 세계 아마존 브랜드와 수입업체에 서비스 제공.',
+      '5년 된 맞춤형 목재 박스 제조사. 산둥성 차오현에 20,000 m² 공장. 전 세계 아마존 브랜드와 수입업체에 서비스 제공.',
   },
   hero: {
     eyebrow: 'Xiamen Chic Homeware 소개',

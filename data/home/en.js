@@ -16,7 +16,7 @@ export const FEATURED = [
     tag: 'Gift & Packaging Boxes', name: 'Sliding Lid Gift Box', meta: 'Hardware-free · Flat-pack ready' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Boxes with Lock', name: 'Large Black Stash Box Kit', meta: 'Combination lock · Multi-compartment' },
-  { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
+  { href: '/products/tea-coffee/bamboo-tea-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
     tag: 'Tea & Coffee', name: 'Bamboo Tea Bag Organizer', meta: '8 dividers · Clear hinged lid' },
   { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
     tag: 'Watch & Jewelry', name: 'Wooden Watch Display Box', meta: 'Linen pillow · 6-watch capacity' },
@@ -26,7 +26,7 @@ export const FEATURED = [
 
 export const FACTORY_TILES = [
   { href: '/about', img: '/factory/chic-factory.webp', alt: 'Our factory headquarters', w: 900, h: 900,
-    num: '01 · Headquarters', text: '15,000 m² Cao County Facility', cls: 'fac-1' },
+    num: '01 · Headquarters', text: '20,000 m² Cao County Facility', cls: 'fac-1' },
   { href: '/about', img: '/factory/production.webp',  alt: 'Production floor',          w: 900, h: 900,
     num: '02 · Production',   text: 'Active Workshop',                 cls: 'fac-2' },
   { href: '/about', img: '/factory/material.webp',     alt: 'Raw wood materials',        w: 900, h: 900,
@@ -92,11 +92,11 @@ export const COPY = {
     titleEm1: 'Manufacturer',
     titleB: '& Wholesale',
     titleEm2: 'OEM Supplier',
-    sub: 'From luxury gift packaging to bespoke storage — we engineer custom wooden boxes in our 15,000 m² Cao County factory and ship to brands in 60+ countries from our Xiamen office. Built by hand, finished with bench-grade precision.',
+    sub: 'From luxury gift packaging to bespoke storage — we engineer custom wooden boxes in our 20,000 m² Cao County factory and ship to brands in 60+ countries from our Xiamen office. Built by hand, finished with bench-grade precision.',
     btnPrimary: 'View Best Sellers →',
     btnOutline: 'Request a Free Sample',
     metaItems: [
-      { num: '20+', label: 'Years Crafting' },
+      { num: '20+', label: 'Years Team Experience' },
       { num: '500+', label: 'Box Styles' },
       { num: '2M+', label: 'Units / Year' },
       { num: '60+', label: 'Countries' },
@@ -125,9 +125,9 @@ export const COPY = {
     titleA: 'Factory-Direct',
     titleEm: 'Quality',
     titleB: 'at Global Scale',
-    text: 'With our 15,000 m² factory in Cao County, Shandong — the historic heart of China’s wooden box industry — and our sales office in Xiamen, Fujian, we are a dedicated wooden box manufacturer serving retailers, brands, and importers across Europe, North America, Japan, Korea and beyond.',
+    text: 'With our 20,000 m² factory in Cao County, Shandong — the historic heart of China’s wooden box industry — and our sales office in Xiamen, Fujian, we are a dedicated wooden box manufacturer serving retailers, brands, and importers across Europe, North America, Japan, Korea and beyond.',
     features: [
-      'MOQ as low as 100 pcs — perfect for sampling',
+      'Standard MOQ 200–500 pcs — sample runs from 100',
       'Full customization: size, finish, logo, insert, hardware',
       'FSC certified wood & eco-friendly finishes available',
       'In-house design team for OEM & ODM projects',
@@ -152,7 +152,7 @@ export const COPY = {
   factory: {
     label: 'Behind The Craft',
     title: 'Inside Our Factory',
-    intro: '15,000 m² of dedicated woodworking space in Cao County, Shandong — from kiln-dried timber stock to hand-finished export packaging, every step happens under one roof. Sales, design and shipping are handled out of our Xiamen, Fujian office.',
+    intro: '20,000 m² of dedicated woodworking space in Cao County, Shandong — from kiln-dried timber stock to hand-finished export packaging, every step happens under one roof. Sales, design and shipping are handled out of our Xiamen, Fujian office.',
     cta: 'Read Our Full Story →',
   },
   process: {

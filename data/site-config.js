@@ -58,7 +58,7 @@ export const SITE = {
       role: 'Sales · design · export documentation · sample coordination',
     },
     factory: {
-      label: 'Factory · 15,000 m²',
+      label: 'Factory · 20,000 m²',
       city: 'Cao County, Shandong',
       lines: [
         'North of the Administration for Market Regulation Office,',

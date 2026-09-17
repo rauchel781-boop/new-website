@@ -6,7 +6,7 @@ export const FEATURED = [
     tag: 'Scatole Regalo e Imballaggio', name: 'Scatola Regalo con Coperchio Scorrevole', meta: 'Senza ferramenta · Spedizione piatta' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Scatole con Serratura', name: 'Grande Scatola Nera con Serratura', meta: 'Serratura a combinazione · Multi-scomparto' },
-  { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
+  { href: '/products/tea-coffee/bamboo-tea-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
     tag: 'Tè e Caffè', name: 'Organizer Bustine di Tè in Bambù', meta: '8 divisori · Coperchio trasparente a cerniera' },
   { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
     tag: 'Orologi e Gioielli', name: 'Box Espositore Orologi in Legno', meta: 'Cuscinetto in lino · Capacità 6 orologi' },
@@ -16,7 +16,7 @@ export const FEATURED = [
 
 export const FACTORY_TILES = [
   { href: '/about', img: '/factory/chic-factory.webp', alt: 'Sede del nostro stabilimento', w: 900, h: 900,
-    num: '01 · Sede',          text: 'Stabilimento Cao County 15.000 m²',  cls: 'fac-1' },
+    num: '01 · Sede',          text: 'Stabilimento Cao County 20.000 m²',  cls: 'fac-1' },
   { href: '/about', img: '/factory/production.webp',  alt: 'Reparto produzione', w: 900, h: 900,
     num: '02 · Produzione',    text: 'Officina attiva',                     cls: 'fac-2' },
   { href: '/about', img: '/factory/material.webp',     alt: 'Legno grezzo', w: 900, h: 900,
@@ -79,11 +79,11 @@ export const COPY = {
     titleEm1: 'Scatole in Legno',
     titleB: 'Ingrosso &',
     titleEm2: 'Fornitore OEM',
-    sub: 'Dall’imballaggio regalo di lusso allo stoccaggio su misura — progettiamo scatole in legno personalizzate nel nostro stabilimento di 15.000 m² a Cao County e spediamo a brand in 60+ paesi dal nostro ufficio di Xiamen. Costruite a mano, finite con precisione da banco.',
+    sub: 'Dall’imballaggio regalo di lusso allo stoccaggio su misura — progettiamo scatole in legno personalizzate nel nostro stabilimento di 20.000 m² a Cao County e spediamo a brand in 60+ paesi dal nostro ufficio di Xiamen. Costruite a mano, finite con precisione da banco.',
     btnPrimary: 'Vedi Best Seller →',
     btnOutline: 'Richiedi Campione Gratuito',
     metaItems: [
-      { num: '20+', label: 'Anni di mestiere' },
+      { num: '20+', label: 'Anni di esperienza del team' },
       { num: '500+', label: 'Stili di scatola' },
       { num: '2M+', label: 'Pezzi / anno' },
       { num: '60+', label: 'Paesi' },
@@ -112,9 +112,9 @@ export const COPY = {
     titleA: 'Qualità',
     titleEm: 'Diretta dallo Stabilimento',
     titleB: 'su Scala Globale',
-    text: 'Con il nostro stabilimento di 15.000 m² a Cao County, Shandong — il cuore storico dell’industria cinese delle scatole in legno — e il nostro ufficio vendite a Xiamen, Fujian, siamo un produttore dedicato di scatole in legno al servizio di retailer, brand e importatori in Europa, Nord America, Giappone, Corea e oltre.',
+    text: 'Con il nostro stabilimento di 20.000 m² a Cao County, Shandong — il cuore storico dell’industria cinese delle scatole in legno — e il nostro ufficio vendite a Xiamen, Fujian, siamo un produttore dedicato di scatole in legno al servizio di retailer, brand e importatori in Europa, Nord America, Giappone, Corea e oltre.',
     features: [
-      'MOQ da 100 pezzi — perfetto per campionatura',
+      'MOQ standard 200–500 pezzi — serie campione da 100',
       'Personalizzazione completa: misura, finitura, logo, inserto, ferramenta',
       'Legno certificato FSC e finiture eco disponibili',
       'Team di design interno per progetti OEM e ODM',
@@ -139,7 +139,7 @@ export const COPY = {
   factory: {
     label: 'Dietro il Mestiere',
     title: 'Dentro il Nostro Stabilimento',
-    intro: '15.000 m² dedicati alla lavorazione del legno a Cao County, Shandong — dal magazzino di legno essiccato all’imballaggio export rifinito a mano, ogni passo accade sotto un solo tetto. Vendite, design e spedizioni sono gestiti dal nostro ufficio di Xiamen, Fujian.',
+    intro: '20.000 m² dedicati alla lavorazione del legno a Cao County, Shandong — dal magazzino di legno essiccato all’imballaggio export rifinito a mano, ogni passo accade sotto un solo tetto. Vendite, design e spedizioni sono gestiti dal nostro ufficio di Xiamen, Fujian.',
     cta: 'Leggi la Nostra Storia Completa →',
   },
   process: {

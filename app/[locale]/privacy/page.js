@@ -9,13 +9,13 @@ export function generateMetadata({ params: { locale } }) {
   const en = routing.defaultLocale;
   const path = `/${en}/privacy`;
   return {
-    title: 'Privacy Policy — CHIC',
+    title: 'Privacy Policy',
     description:
       'How Xiamen Chic Homeware Co.,Ltd. collects, uses, stores, and protects information you share when using custom-woodenbox.com.',
     alternates: { canonical: path },
     openGraph: {
       url: path,
-      title: 'Privacy Policy — CHIC',
+      title: 'Privacy Policy',
       description:
         'How CHIC handles personal information from website visitors, inquiry submissions, and newsletter subscribers.',
     },

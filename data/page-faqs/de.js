@@ -46,11 +46,11 @@ export const FAQS = {
   'wood-fabrication': {
     sectionTitle: 'Häufige Fragen zur Holzfertigung',
     sectionSub:
-      'Von der Skizze oder dem Muster bis zur fertigen, gebrandeten Box – so schneidet, fügt, veredelt und dekoriert unsere 15.000 m² große Fabrik individuelle Holzverpackungen.',
+      'Von der Skizze oder dem Muster bis zur fertigen, gebrandeten Box – so schneidet, fügt, veredelt und dekoriert unsere 20.000 m² große Fabrik individuelle Holzverpackungen.',
     items: [
       {
         q: 'Welche Verfahren nutzen Sie zur Fertigung individueller Holzboxen?',
-        a: 'Die Produktion läuft im eigenen Haus in unserer 15.000 m² großen Fabrik in Cao County: Präzisionszuschnitt und CNC-Bearbeitung, Fügen und Montage, Schleifen, Oberflächenveredelung (Öl, Lack, Farbe), Dekoration wie Lasergravur oder Druck, Beschlagmontage, QC und Verpackung. Da alle Schritte unter einem Dach liegen, steuern wir Qualität und Lieferzeit durchgängig.',
+        a: 'Die Produktion läuft im eigenen Haus in unserer 20.000 m² großen Fabrik in Cao County: Präzisionszuschnitt und CNC-Bearbeitung, Fügen und Montage, Schleifen, Oberflächenveredelung (Öl, Lack, Farbe), Dekoration wie Lasergravur oder Druck, Beschlagmontage, QC und Verpackung. Da alle Schritte unter einem Dach liegen, steuern wir Qualität und Lieferzeit durchgängig.',
       },
       {
         q: 'Können Sie unser Logo per Lasergravur oder Druck auf die Boxen bringen?',

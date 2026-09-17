@@ -46,11 +46,11 @@ export const FAQS = {
   'wood-fabrication': {
     sectionTitle: 'FAQ sulla lavorazione del legno',
     sectionSub:
-      'Da uno schizzo o un campione alla scatola finita e personalizzata: ecco come la nostra fabbrica di 15.000 m² taglia, assembla, rifinisce e decora imballaggi in legno su misura.',
+      'Da uno schizzo o un campione alla scatola finita e personalizzata: ecco come la nostra fabbrica di 20.000 m² taglia, assembla, rifinisce e decora imballaggi in legno su misura.',
     items: [
       {
         q: 'Quali processi usate per realizzare scatole in legno personalizzate?',
-        a: 'La produzione avviene internamente nel nostro stabilimento di 15.000 m² a Cao County: taglio di precisione e lavorazione CNC, giunzione e assemblaggio, levigatura, finitura superficiale (olio, vernice, pittura), decorazione come incisione laser o stampa, montaggio della ferramenta, QC e imballaggio. Avere ogni fase sotto lo stesso tetto ci permette di controllare qualità e tempi di consegna dall’inizio alla fine.',
+        a: 'La produzione avviene internamente nel nostro stabilimento di 20.000 m² a Cao County: taglio di precisione e lavorazione CNC, giunzione e assemblaggio, levigatura, finitura superficiale (olio, vernice, pittura), decorazione come incisione laser o stampa, montaggio della ferramenta, QC e imballaggio. Avere ogni fase sotto lo stesso tetto ci permette di controllare qualità e tempi di consegna dall’inizio alla fine.',
       },
       {
         q: 'Potete incidere a laser o stampare il nostro logo sulle scatole?',

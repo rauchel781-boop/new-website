@@ -831,7 +831,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La mayoría del sourcing B2B serio sucede aquí. Una fábrica especializada (centrada en paulownia, pino, bambú, acacia, nogal — elige una o dos especies) opera su propio patio productivo y lo combina con una oficina comercial en un hub de exportación como Xiamen, Shenzhen o Shanghái. La fábrica se encarga de la fabricación; la oficina comercial se encarga de documentación, coordinación de muestras, comunicación y la logística poco sexy que convierte un palé de cajas en algo que pasa aduanas. Nuestra propia estructura — una planta de producción de 15.000 m² en Cao County, Shandong, y una oficina comercial en Xiamen, Fujian — entra en esta categoría, y es el modelo que ofrece el resultado más predecible para compradores que quieren repetir pedido."
+          "text": "La mayoría del sourcing B2B serio sucede aquí. Una fábrica especializada (centrada en paulownia, pino, bambú, acacia, nogal — elige una o dos especies) opera su propio patio productivo y lo combina con una oficina comercial en un hub de exportación como Xiamen, Shenzhen o Shanghái. La fábrica se encarga de la fabricación; la oficina comercial se encarga de documentación, coordinación de muestras, comunicación y la logística poco sexy que convierte un palé de cajas en algo que pasa aduanas. Nuestra propia estructura — una planta de producción de 20.000 m² en Cao County, Shandong, y una oficina comercial en Xiamen, Fujian — entra en esta categoría, y es el modelo que ofrece el resultado más predecible para compradores que quieren repetir pedido."
         },
         {
           "type": "h3",
@@ -1140,7 +1140,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Lo que sigue es cómo se ven realmente esos 26 minutos, divididos en los seis pasos de fabricación por los que pasa cada caja en nuestras instalaciones de 15.000 m². Hemos aprendido que los compradores que entienden este proceso terminan tomando mejores decisiones sobre sus productos. Especifican de manera más inteligente, negocian de manera más inteligente y captan los problemas antes, lo que vale mucho más que cualquier argumento de fijación de precios."
+          "text": "Lo que sigue es cómo se ven realmente esos 26 minutos, divididos en los seis pasos de fabricación por los que pasa cada caja en nuestras instalaciones de 20.000 m². Hemos aprendido que los compradores que entienden este proceso terminan tomando mejores decisiones sobre sus productos. Especifican de manera más inteligente, negocian de manera más inteligente y captan los problemas antes, lo que vale mucho más que cualquier argumento de fijación de precios."
         },
         {
           "type": "h2",

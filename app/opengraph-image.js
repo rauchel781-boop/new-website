@@ -129,7 +129,7 @@ export default function OgImage() {
               maxWidth: 880,
             }}
           >
-            15,000 m² Cao County factory · OEM/ODM · Shipping to 60+ countries
+            20,000 m² Cao County factory · OEM/ODM · Shipping to 60+ countries
             from Xiamen.
           </div>
         </div>

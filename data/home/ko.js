@@ -6,7 +6,7 @@ export const FEATURED = [
     tag: '선물·포장 박스', name: '슬라이드 뚜껑 기프트 박스', meta: '부속 없음 · 평면 포장 가능' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: '잠금 박스', name: '대형 블랙 우드 스태시 박스 키트', meta: '다이얼 잠금 · 다중 칸막이' },
-  { href: '/products/tea-coffee/bamboo-tea-bag-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
+  { href: '/products/tea-coffee/bamboo-tea-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
     tag: '차 & 커피', name: '대나무 티백 오거나이저', meta: '8 칸막이 · 투명 경첩 뚜껑' },
   { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
     tag: '시계 & 주얼리', name: '우드 시계 디스플레이 박스', meta: '리넨 쿠션 · 6개 시계 수납' },
@@ -16,7 +16,7 @@ export const FEATURED = [
 
 export const FACTORY_TILES = [
   { href: '/about', img: '/factory/chic-factory.webp', alt: '본사 공장', w: 900, h: 900,
-    num: '01 · 본사',          text: '15,000 m² 차오현 시설',                cls: 'fac-1' },
+    num: '01 · 본사',          text: '20,000 m² 차오현 시설',                cls: 'fac-1' },
   { href: '/about', img: '/factory/production.webp',  alt: '생산 라인', w: 900, h: 900,
     num: '02 · 생산',          text: '활성 작업장',                           cls: 'fac-2' },
   { href: '/about', img: '/factory/material.webp',     alt: '원목 자재', w: 900, h: 900,
@@ -79,11 +79,11 @@ export const COPY = {
     titleEm1: '제조업체',
     titleB: '도매 &',
     titleEm2: 'OEM 공급업체',
-    sub: '럭셔리 선물 포장부터 맞춤 수납까지 — 15,000 m² 차오현 공장에서 맞춤형 목재 박스를 설계하고, 샤먼 사무소에서 60개국 이상의 브랜드로 출하합니다. 손으로 만들고, 작업대 정밀도로 마감.',
+    sub: '럭셔리 선물 포장부터 맞춤 수납까지 — 20,000 m² 차오현 공장에서 맞춤형 목재 박스를 설계하고, 샤먼 사무소에서 60개국 이상의 브랜드로 출하합니다. 손으로 만들고, 작업대 정밀도로 마감.',
     btnPrimary: '베스트셀러 보기 →',
     btnOutline: '무료 샘플 요청',
     metaItems: [
-      { num: '20+', label: '년의 장인 기술' },
+      { num: '20+', label: '년의 팀 경력' },
       { num: '500+', label: '박스 스타일' },
       { num: '2M+', label: '개 / 년' },
       { num: '60+', label: '국가' },
@@ -112,9 +112,9 @@ export const COPY = {
     titleA: '글로벌 규모의',
     titleEm: '공장 직거래 품질',
     titleB: '제공',
-    text: '산둥성 차오현(중국 목재 박스 산업의 역사적 중심지)의 15,000 m² 공장과 푸젠성 샤먼의 영업 사무소를 운영하며, 유럽, 북미, 일본, 한국 등의 소매업체, 브랜드, 수입업체에 서비스를 제공하는 목재 박스 전문 제조업체입니다.',
+    text: '산둥성 차오현(중국 목재 박스 산업의 역사적 중심지)의 20,000 m² 공장과 푸젠성 샤먼의 영업 사무소를 운영하며, 유럽, 북미, 일본, 한국 등의 소매업체, 브랜드, 수입업체에 서비스를 제공하는 목재 박스 전문 제조업체입니다.',
     features: [
-      'MOQ 100개부터 — 샘플링에 적합',
+      '표준 MOQ 200~500개 — 샘플 런은 100개부터',
       '완전 맞춤화: 크기, 마감, 로고, 인서트, 하드웨어',
       'FSC 인증 목재 및 친환경 마감 제공',
       'OEM 및 ODM 프로젝트를 위한 사내 디자인 팀',
@@ -139,7 +139,7 @@ export const COPY = {
   factory: {
     label: '장인 정신의 뒤편',
     title: '우리 공장 내부',
-    intro: '산둥성 차오현의 15,000 m² 전용 목공 공간 — 가마 건조된 목재 재고부터 수공 마감 수출 포장까지, 모든 단계가 한 지붕 아래에서 이루어집니다. 영업, 디자인, 배송은 푸젠성 샤먼 사무소에서 처리됩니다.',
+    intro: '산둥성 차오현의 20,000 m² 전용 목공 공간 — 가마 건조된 목재 재고부터 수공 마감 수출 포장까지, 모든 단계가 한 지붕 아래에서 이루어집니다. 영업, 디자인, 배송은 푸젠성 샤먼 사무소에서 처리됩니다.',
     cta: '전체 이야기 읽기 →',
   },
   process: {

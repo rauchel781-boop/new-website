@@ -39,7 +39,7 @@ export async function GET() {
 
   const body = `# ${SITE.company.brand} — ${SITE.company.legalName}
 
-> ${SITE.company.brand} is a factory-direct manufacturer of custom wooden boxes and wooden homeware, based in China (sales/design office in Xiamen, Fujian; 15,000 m² factory in Cao County, Shandong). We supply OEM/ODM custom wooden packaging — gift boxes, watch and jewelry boxes, tea and coffee boxes, wine and whisky boxes, storage boxes and more — in paulownia, pine, bamboo, acacia and walnut, to retail brands, hospitality and packaging clients worldwide. MOQ from 100–300 pcs, sample delivery within 7 days. FSC, EU REACH, CARB P2 and ISO 9001 certified.
+> ${SITE.company.brand} is a factory-direct manufacturer of custom wooden boxes and wooden homeware, based in China (sales/design office in Xiamen, Fujian; 20,000 m² factory in Cao County, Shandong). We supply OEM/ODM custom wooden packaging — gift boxes, watch and jewelry boxes, tea and coffee boxes, wine and whisky boxes, storage boxes and more — in paulownia, pine, bamboo, acacia and walnut, to retail brands, hospitality and packaging clients worldwide. Standard MOQ 200–500 pcs depending on the product (300 is the most common); sample runs from 100 pcs. Sample delivery within 7 days. FSC, EU REACH, CARB P2 and ISO 9001 certified.
 
 ## Company
 

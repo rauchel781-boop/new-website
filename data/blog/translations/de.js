@@ -831,7 +831,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die meiste seriöse B2B-Beschaffung findet hier statt. Eine Spezialfabrik (fokussiert auf Paulownia, Kiefer, Bambus, Akazie, Walnuss — wählen Sie eine oder zwei Holzarten) betreibt ihren eigenen Produktionsstandort und kombiniert ihn mit einem Vertriebsbüro in einem Export-Hub wie Xiamen, Shenzhen oder Shanghai. Die Fabrik übernimmt die Fertigung; das Vertriebsbüro übernimmt Dokumentation, Musterkoordination, Kommunikation und die unspektakuläre Logistik, die aus einer Palette Boxen etwas macht, das beim Zoll durchgeht. Unsere eigene Struktur — eine 15.000 m² große Produktionsstätte in Cao County, Shandong und ein Vertriebsbüro in Xiamen, Fujian — fällt in diese Kategorie, und es ist das Modell, das das vorhersehbarste Ergebnis für Käufer liefert, die nachbestellen wollen."
+          "text": "Die meiste seriöse B2B-Beschaffung findet hier statt. Eine Spezialfabrik (fokussiert auf Paulownia, Kiefer, Bambus, Akazie, Walnuss — wählen Sie eine oder zwei Holzarten) betreibt ihren eigenen Produktionsstandort und kombiniert ihn mit einem Vertriebsbüro in einem Export-Hub wie Xiamen, Shenzhen oder Shanghai. Die Fabrik übernimmt die Fertigung; das Vertriebsbüro übernimmt Dokumentation, Musterkoordination, Kommunikation und die unspektakuläre Logistik, die aus einer Palette Boxen etwas macht, das beim Zoll durchgeht. Unsere eigene Struktur — eine 20.000 m² große Produktionsstätte in Cao County, Shandong und ein Vertriebsbüro in Xiamen, Fujian — fällt in diese Kategorie, und es ist das Modell, das das vorhersehbarste Ergebnis für Käufer liefert, die nachbestellen wollen."
         },
         {
           "type": "h3",
@@ -1140,7 +1140,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Was folgt, ist, wie diese 26 Minuten tatsächlich aussehen, die in die sechs Herstellungs schritte eingebrochen sind, die jede Box in unserer 15.000 m² großen Anlage durchläuft. Wir haben gelernt, dass die Käufer, die diesen Prozess verstehen, bessere Entscheidungen über ihre Produkte treffen. Sie spezifizieren intelligenter, sie verhandeln intelligenter und sie fangen Probleme früher-was viel mehr wert ist als jedes Preis argument."
+          "text": "Was folgt, ist, wie diese 26 Minuten tatsächlich aussehen, die in die sechs Herstellungs schritte eingebrochen sind, die jede Box in unserer 20.000 m² großen Anlage durchläuft. Wir haben gelernt, dass die Käufer, die diesen Prozess verstehen, bessere Entscheidungen über ihre Produkte treffen. Sie spezifizieren intelligenter, sie verhandeln intelligenter und sie fangen Probleme früher-was viel mehr wert ist als jedes Preis argument."
         },
         {
           "type": "h2",

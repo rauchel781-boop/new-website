@@ -23,14 +23,14 @@ export function generateStaticParams() {
 
 export function generateMetadata({ params }) {
   const enPost = getPostBySlug(params.slug);
-  if (!enPost) return { title: 'Article — CHIC' };
+  if (!enPost) return { title: 'Article' };
   // Merge the per-locale translation overlay so og:title/description reflect
   // the localized content; falls back to English when overlay is empty.
   const t = getBlogTranslation(params.slug, params.locale);
   const post = { ...enPost, ...t };
   const path = `/blog/${enPost.slug}`;
   return {
-    title: `${post.title} — CHIC`,
+    title: post.title,
     description: post.excerpt,
     alternates: makeAlternates(params.locale, path),
     openGraph: {

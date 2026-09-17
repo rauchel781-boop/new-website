@@ -6,7 +6,7 @@ const P = (name) => '/folder/' + encodeURIComponent(name).replace(/\.(jpe?g|png)
 export const SHOWROOM_IMG = F('gemini-generated-image-nclf39nclf39nclf.jpg');
 
 export const FACTORY_IMAGES = [
-  { src: F('chic-factory.jpg'), caption: 'Werk Cao County · 15.000 m²' },
+  { src: F('chic-factory.jpg'), caption: 'Werk Cao County · 20.000 m²' },
   { src: F('material.jpg'),     caption: 'Massivholzlager · Paulownia, Kiefer, Eiche' },
   { src: F('1-1.jpg'),          caption: 'Holzvorbereitungs-Werkstatt' },
   { src: F('painting.jpg'),     caption: 'Spritzlackier-Linie mit Staubkontrolle' },
@@ -44,7 +44,7 @@ export const TIMELINE = [
   { year: '2023', title: 'Amazon-Boom',
     text: 'Spezielle Klein-MOQ-Linie für Amazon-Eigenmarken aufgebaut. Über eine Million Stück in einem einzigen Jahr ausgeliefert.' },
   { year: '2024', title: 'FSC-zertifiziert',
-    text: 'FSC-Chain-of-Custody-Zertifizierung erreicht. Werk auf 15.000 m² mit neuem Finish- und QC-Bereich erweitert.' },
+    text: 'FSC-Chain-of-Custody-Zertifizierung erreicht. Werk auf 20.000 m² mit neuem Finish- und QC-Bereich erweitert.' },
   { year: '2025', title: 'International',
     text: 'Aktive Kunden in 40+ Ländern. Internes ID- + 3D-Mockup-Team gestartet, um OEM/ODM-Wachstum zu unterstützen.' },
 ];
@@ -68,7 +68,7 @@ export const LOCATIONS = [
     role: 'Fertigung · Finish · QC · Verpackung',
     addr: 'Nördlich des Marktregulierungsamts, Pulianji-Dorf, Pulianji-Town, Cao County, Heze, Provinz Shandong, China',
     details: [
-      '15.000 m² mit CNC-, Laser-, Finish- und Montagelinien',
+      '20.000 m² mit CNC-, Laser-, Finish- und Montagelinien',
       '120+ Facharbeiter in zwei Produktionsschichten',
       'Lokaler Zugang zu Paulownia, Kiefer, Bambus, Walnuss und Eiche',
       'Direkter Schienen-Container-Service zu den Häfen Qingdao und Lianyungang',
@@ -89,7 +89,7 @@ export const MARKETS = [
 
 export const VALUES = [
   { num: '01', title: 'Echtes Werk, kein Trader',
-    text: 'Unser 15.000 m² großes Werk in Cao County wird direkt von Chic Homeware geführt — kein Zwischenhändler, keine Aufschlagskette und keine stille Post zwischen Ihnen und dem Produktionsboden.' },
+    text: 'Unser 20.000 m² großes Werk in Cao County wird direkt von Chic Homeware geführt — kein Zwischenhändler, keine Aufschlagskette und keine stille Post zwischen Ihnen und dem Produktionsboden.' },
   { num: '02', title: 'Für kleine und mittlere Volumen',
     text: 'Die meisten Werke wollen 5.000-Stück-Aufträge. Wir sind auf Auflagen von 200 bis 5.000 Stück ausgelegt — das Volumen, das für Amazon-Eigenmarken, Etsy-Verkäufer, Geschenkhändler und Markenstarts zählt.' },
   { num: '03', title: 'Englischsprachiger Vertrieb',
@@ -107,9 +107,9 @@ export const COPY = {
   meta: {
     title: 'Über uns — Xiamen Chic Homeware Co.,Ltd.',
     description:
-      'Xiamen Chic Homeware Co.,Ltd. — fünf Jahre alter Hersteller individueller Holzboxen mit Vertriebsbüro in Xiamen und 15.000 m²-Werk in Cao County, Shandong. Im Dienst von Amazon-Marken und Importeuren in Europa, USA, Japan und Korea.',
+      'Xiamen Chic Homeware Co.,Ltd. — fünf Jahre alter Hersteller individueller Holzboxen mit Vertriebsbüro in Xiamen und 20.000 m²-Werk in Cao County, Shandong. Im Dienst von Amazon-Marken und Importeuren in Europa, USA, Japan und Korea.',
     ogDescription:
-      'Hersteller individueller Holzboxen mit 15.000 m²-Werk in Cao County, Shandong. Im Dienst von Amazon-Marken und Importeuren weltweit.',
+      'Hersteller individueller Holzboxen mit 20.000 m²-Werk in Cao County, Shandong. Im Dienst von Amazon-Marken und Importeuren weltweit.',
   },
   hero: {
     eyebrow: 'Über Xiamen Chic Homeware',

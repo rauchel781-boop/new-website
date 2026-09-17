@@ -52,7 +52,7 @@
     "newsletterEyebrow": "Restez en contact",
     "newsletterTitle": "Recevez notre catalogue et les nouveautés produits",
     "newsletterPlaceholder": "Votre e-mail professionnel",
-    "brandBlurb": "Xiamen Chic Homeware Co.,Ltd. est un fabricant de boîtes en bois sur mesure avec son usine de 15 000 m² à Cao County, Shandong et son bureau de vente et de design à Xiamen, Fujian. Nous aidons les marques et détaillants mondiaux dans plus de 60 pays à mettre sur le marché des produits d'emballage et de rangement en bois haut de gamme — à grande échelle, avec un savoir-faire artisanal de qualité supérieure.",
+    "brandBlurb": "Xiamen Chic Homeware Co.,Ltd. est un fabricant de boîtes en bois sur mesure avec son usine de 20 000 m² à Cao County, Shandong et son bureau de vente et de design à Xiamen, Fujian. Nous aidons les marques et détaillants mondiaux dans plus de 60 pays à mettre sur le marché des produits d'emballage et de rangement en bois haut de gamme — à grande échelle, avec un savoir-faire artisanal de qualité supérieure.",
     "products": "Produits",
     "company": "Entreprise",
     "getInTouch": "Contactez-nous",
@@ -458,7 +458,7 @@
     "eyebrow": "Notre Catalogue",
     "titleStart": "Boîtes",
     "titleEm": "en Bois",
-    "sub": "Parcourez notre catalogue complet de boîtes en bois par usage, structure ou matériau. Chaque catégorie est entièrement personnalisable — bois, dimensions, finition, quincaillerie, branding. MOQ dès 100 pièces. OEM/ODM personnalisés bienvenus.",
+    "sub": "Parcourez notre catalogue complet de boîtes en bois par usage, structure ou matériau. Chaque catégorie est entièrement personnalisable — bois, dimensions, finition, quincaillerie, branding. MOQ standard 200–500 pièces ; séries échantillon dès 100. OEM/ODM personnalisés bienvenus.",
     "groupByUse": "Par Usage",
     "groupByStructure": "Par Structure",
     "groupByMaterial": "Par Matériau",
@@ -471,7 +471,7 @@
   "woodFab": {
     "meta": {
       "title": "Fabrication Bois — CHIC",
-      "description": "Du bois brut aux composants finis et emballés de boîtes en bois — CHIC gère découpe, façonnage, mortaisage, pré-assemblage, polissage et conditionnement sous un même toit de 15 000 m².",
+      "description": "Du bois brut aux composants finis et emballés de boîtes en bois — CHIC gère découpe, façonnage, mortaisage, pré-assemblage, polissage et conditionnement sous un même toit de 20 000 m².",
       "ogDescription": "Du bois brut aux composants finis et emballés — fabrication bois intégrale en interne."
     },
     "h1": "Fabrication Bois",
@@ -584,7 +584,7 @@
       "eyebrow": "Deux Sites",
       "titleStart": "Xiamen +",
       "titleEm": "Cao County",
-      "sub": "Ventes, design et export opèrent depuis notre bureau de Xiamen. La fabrication a lieu dans notre usine de 15 000 m² à Cao County, Shandong.",
+      "sub": "Ventes, design et export opèrent depuis notre bureau de Xiamen. La fabrication a lieu dans notre usine de 20 000 m² à Cao County, Shandong.",
       "salesEyebrow": "Bureau Commercial",
       "salesRole": "Ventes · design · documentation export · coordination échantillons",
       "factoryRole": "Fabrication · finition · CQ · emballage · plus de 120 ouvriers qualifiés",
@@ -596,7 +596,7 @@
       "salesPortValue": "Port de Xiamen — plus de 130 routes directes mondiales",
       "salesMetroLabel": "Meilleur métro",
       "salesMetroValue": "Arrêt Maluan (Métro Xiamen Ligne 1)",
-      "factoryEyebrow": "Usine de Production · 15 000 m²",
+      "factoryEyebrow": "Usine de Production · 20 000 m²",
       "factoryNameStart": "Cao County,",
       "factoryNameEm": "Shandong",
       "factoryAirportLabel": "Aéroport le plus proche",
@@ -625,7 +625,7 @@
       "q7": "Gérez-vous l’expédition internationale et les douanes ?",
       "a7": "Oui. Nous expédions FOB (port de Xiamen ou Shanghai), CIF ou DDP. Nous gérons les certificats phytosanitaires pour tout bois massif, certificat d’origine, facture commerciale, packing list et déclaration ISF pour les containers destinés aux États-Unis. Nous travaillons avec LCL (groupage) et FCL (container complet), selon le volume.",
       "q8": "Puis-je visiter l’usine ?",
-      "a8": "Absolument — nous accueillons les visites d’acheteurs et organisons la prise en charge depuis l’aéroport de Xiamen ou Heze. Notre site de 15 000 m² à Cao County est à 45 minutes en voiture de l’aéroport de Heze. Le bureau commercial de Xiamen est à 10 minutes de l’aéroport international Xiamen Gaoqi. Écrivez-nous à info@xmchichomeware.com pour planifier une visite."
+      "a8": "Absolument — nous accueillons les visites d’acheteurs et organisons la prise en charge depuis l’aéroport de Xiamen ou Heze. Notre site de 20 000 m² à Cao County est à 45 minutes en voiture de l’aéroport de Heze. Le bureau commercial de Xiamen est à 10 minutes de l’aéroport international Xiamen Gaoqi. Écrivez-nous à info@xmchichomeware.com pour planifier une visite."
     },
     "final": {
       "eyebrow": "Toujours en Recherche ?",

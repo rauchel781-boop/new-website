@@ -26,7 +26,7 @@ const ORG_LD = {
   logo: `${SITE.siteUrl}/logo.png`,
   image: `${SITE.siteUrl}/logo.png`,
   description:
-    'CHIC (Xiamen Chic Homeware Co., Ltd.) is a Chinese B2B manufacturer of custom wooden boxes, packaging, and homeware — 15,000 m² factory in Cao County, Shandong, plus a sales / design office in Xiamen, Fujian. We serve retail brands, hospitality, and packaging clients in the US, EU, UK, Japan, Korea, and Australia with hinged, sliding-lid, drawer, magnetic, lockable and open-tray box formats in acacia, walnut, oak, pine, paulownia, and bamboo.',
+    'CHIC (Xiamen Chic Homeware Co., Ltd.) is a Chinese B2B manufacturer of custom wooden boxes, packaging, and homeware — 20,000 m² factory in Cao County, Shandong, plus a sales / design office in Xiamen, Fujian. We serve retail brands, hospitality, and packaging clients in the US, EU, UK, Japan, Korea, and Australia with hinged, sliding-lid, drawer, magnetic, lockable and open-tray box formats in acacia, walnut, oak, pine, paulownia, and bamboo.',
   slogan: SITE.company.tagline,
   // E-E-A-T trust signals. foundingDate + certifications are already published
   // site-wide (OG card badges, FAQ); surfacing them as structured data helps

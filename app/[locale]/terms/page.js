@@ -8,13 +8,13 @@ export function generateMetadata({ params: { locale } }) {
   const en = routing.defaultLocale;
   const path = `/${en}/terms`;
   return {
-    title: 'Terms of Service — CHIC',
+    title: 'Terms of Service',
     description:
       'The terms that govern your use of custom-woodenbox.com and the B2B inquiry / quotation process with Xiamen Chic Homeware Co.,Ltd.',
     alternates: { canonical: path },
     openGraph: {
       url: path,
-      title: 'Terms of Service — CHIC',
+      title: 'Terms of Service',
       description:
         'Terms governing use of the CHIC website and the inquiry and quotation process.',
     },

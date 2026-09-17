@@ -831,7 +831,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A maior parte do sourcing B2B sério acontece aqui. Uma fábrica especializada (focada em paulownia, pinus, bambu, acácia, nogueira — escolha uma ou duas espécies) opera seu próprio pátio de produção e o emparelha com um escritório comercial num hub de exportação como Xiamen, Shenzhen ou Xangai. A fábrica cuida da manufatura; o escritório comercial cuida da documentação, coordenação de amostras, comunicação e da logística pouco glamourosa que transforma um palete de caixas em algo que passa pela alfândega. Nossa própria estrutura — uma fábrica de produção de 15.000 m² em Cao County, Shandong, e um escritório comercial em Xiamen, Fujian — entra nesta categoria, e é o modelo que entrega o resultado mais previsível para compradores que querem reabastecer."
+          "text": "A maior parte do sourcing B2B sério acontece aqui. Uma fábrica especializada (focada em paulownia, pinus, bambu, acácia, nogueira — escolha uma ou duas espécies) opera seu próprio pátio de produção e o emparelha com um escritório comercial num hub de exportação como Xiamen, Shenzhen ou Xangai. A fábrica cuida da manufatura; o escritório comercial cuida da documentação, coordenação de amostras, comunicação e da logística pouco glamourosa que transforma um palete de caixas em algo que passa pela alfândega. Nossa própria estrutura — uma fábrica de produção de 20.000 m² em Cao County, Shandong, e um escritório comercial em Xiamen, Fujian — entra nesta categoria, e é o modelo que entrega o resultado mais previsível para compradores que querem reabastecer."
         },
         {
           "type": "h3",
@@ -1140,7 +1140,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O que se segue é o que esses 26 minutos realmente parecem, divididos nas seis etapas de fabricação que cada caixa em nossa instalação de 15.000 m² passa. Aprendemos que os compradores que entendem esse processo acabam tomando melhores decisões sobre seus produtos. Eles especificam mais inteligente, negociam mais inteligente e pegam problemas mais cedo-o que vale muito mais do que qualquer argumento de preços."
+          "text": "O que se segue é o que esses 26 minutos realmente parecem, divididos nas seis etapas de fabricação que cada caixa em nossa instalação de 20.000 m² passa. Aprendemos que os compradores que entendem esse processo acabam tomando melhores decisões sobre seus produtos. Eles especificam mais inteligente, negociam mais inteligente e pegam problemas mais cedo-o que vale muito mais do que qualquer argumento de preços."
         },
         {
           "type": "h2",
