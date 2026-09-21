@@ -4,6 +4,8 @@
 
 export default {
   'gift-packaging': {
+    seoTitle: 'Caixas de oferta em madeira | Gravação a laser | CHIC',
+    seoDescription: 'Caixas de oferta em madeira personalizadas: fecho magnético, dobradiças ou tampa deslizante. Gravação a laser, espuma ou veludo, madeira FSC. MOQ 300-500.',
     longDesc: 'As nossas caixas de oferta e packaging em madeira transformam um produto num momento de unboxing. Quer esteja a lançar um novo SKU, a construir um programa de oferta corporativa ou a abastecer retalhistas com packaging pronto para prateleira, produzimos em volumes de 100 a 100.000+ peças com acabamento, ajuste e feel consistentes.',
     features: [
       { icon: '✦', title: 'Opções Magnética e Dobradiça', desc: 'Fecho magnético oculto ou dobradiças em latão visíveis — ambas com feel suave e premium.' },
@@ -23,6 +25,8 @@ export default {
   },
 
   'watch-jewelry': {
+    seoTitle: 'Caixas de relógios e joias em madeira | Veludo | CHIC',
+    seoDescription: 'Caixas de relógios e guarda-joias personalizadas, nogueira e acácia. Forro em veludo, dobradiças amortecidas, fechadura opcional. 1 a 24 relógios. MOQ 300-500.',
     longDesc: 'As caixas para relógios e joalharia são a categoria mais exigente que fabricamos — têm de parecer perfeitas por dentro e por fora. Cada caixa tem insertos forrados em feltro ou microfibra, dobradiças soft-close e uma tampa que assenta plana com zero folga. Disponíveis individuais, multi-watch winder e cofres completos para joalharia.',
     features: [
       { icon: '✦', title: 'Forro Veludo / Microfibra', desc: 'Interior soft-touch em 12+ cores. Logo bordado no forro disponível.' },
@@ -42,6 +46,8 @@ export default {
   },
 
   'tea-coffee': {
+    seoTitle: 'Caixas de chá e café em madeira | 4-9 compartimentos',
+    seoDescription: 'Caixas de chá e café em madeira personalizadas, bambu ou acácia. 4, 6, 8 ou 9 compartimentos, acabamento alimentar, janela opcional. MOQ 300-500.',
     longDesc: 'Concebidas para uso quotidiano na cozinha e para oferta. Os divisores internos criam 4, 6, 8 ou 9 compartimentos — perfeitos para seleções de saquetas de chá, cápsulas de café ou sachets piramidais. Tampa com dobradiça e fecho magnético mantém o conteúdo fresco, janela acrílica opcional permite ver o que está dentro.',
     features: [
       { icon: '✦', title: 'Compartimentos Modulares', desc: 'Layouts a 4 / 6 / 8 / 9 compartimentos. Divisores removíveis também disponíveis.' },
@@ -61,6 +67,8 @@ export default {
   },
 
   'wine-whisky': {
+    seoTitle: 'Caixas de vinho e whisky em madeira | Pinho ou nogueira',
+    seoDescription: 'Caixas de vinho e whisky personalizadas, de garrafa única a magnum. Caixas de pinho com pega em corda ou estojos em nogueira. MOQ 300-500.',
     longDesc: 'Desde caixas rústicas em pinho com pegas de corda a caixas de apresentação walnut de gama alta para edições limitadas — fabricamos caixas para vinho e whisky para cada segmento do mercado. Berços em espuma cortada para garrafas, suportes de copos e compartimentos acessórios para saca-rolhas, rolhas e doseadores.',
     features: [
       { icon: '✦', title: 'Berços em Espuma Cortada', desc: 'Espuma EVA cortada com precisão segura as garrafas firmes sem oscilação em transporte.' },
@@ -80,6 +88,8 @@ export default {
   },
 
   'kitchen-dining': {
+    seoTitle: 'Caixas de cozinha em madeira | Sal, talheres e pão',
+    seoDescription: 'Caixas de cozinha em madeira personalizadas, bambu e acácia. Saleiros, caixas de talheres e de pão com tampa de dobradiça. MOQ 300-500.',
     longDesc: 'As caixas em madeira para cozinha e sala devem equilibrar beleza com desgaste diário. Usamos acabamentos aptos para alimentos e madeiras duras resistentes — o bambu e a acácia são favoritos pela densidade e propriedades antibacterianas. Caixas de pão com tampas tambor, saleiros com fecho magnético, porta-talheres e porta-condimentos — disponíveis em stock ou totalmente personalizados.',
     features: [
       { icon: '✦', title: 'Acabamento Apto Alimentos', desc: 'Laca aprovada FDA, óleo mineral ou cera de abelha — segura para uso cozinha.' },
@@ -99,6 +109,8 @@ export default {
   },
 
   'garden-seed': {
+    seoTitle: 'Caixas para sementes em madeira | Bambu, divisórias',
+    seoDescription: 'Caixas para sementes em madeira personalizadas, em bambu, com divisórias ajustáveis e tampa deslizante ou de dobradiça. MOQ 300-500.',
     longDesc: 'Concebidas para uso exterior e jardim. As nossas caixas de sementes têm divisores compartimentados e ranhuras etiquetadas para arrumação organizada; os nossos vasos são feitos de madeira macia resistente à podridão com drenagem e acabamentos outdoor-grade. Caixas de ferramentas, porta-ervas e arrumação de pátio completam a gama.',
     features: [
       { icon: '✦', title: 'Acabamento Outdoor-Grade', desc: 'Laca exterior resistente a UV ou óleo natural para uso exterior à prova de intempéries.' },
@@ -118,6 +130,8 @@ export default {
   },
 
   'storage': {
+    seoTitle: 'Caixas de arrumação e recordações em madeira maciça',
+    seoDescription: 'Caixas de arrumação em madeira personalizadas: recordações, joias, óleos essenciais e secretária. Pinho, acácia e bambu. MOQ 300-500.',
     longDesc: 'Arrumação prática com presença. Cómodas modulares, caixas empilháveis e organizadores flat-stacking para tudo, das ferramentas a artigos de escritório ao back-stock retalho. Dimensionadas a profundidades padrão de gaveta e prateleira, com divisores opcionais, molduras de etiqueta e rodízios giratórios.',
     features: [
       { icon: '✦', title: 'Empilhável e Modular', desc: 'Footprints standard empilham e alinham — construa o sistema que precisa.' },
@@ -137,6 +151,8 @@ export default {
   },
 
   'hinged': {
+    seoTitle: 'Caixas de madeira com dobradiças | Latão e amortecido',
+    seoDescription: 'Caixas de madeira com dobradiças personalizadas: latão ou dobradiças europeias ocultas, fecho amortecido, trinco ou fechadura. MOQ 300-500.',
     longDesc: 'A construção com dobradiças é a estrutura mais versátil que oferecemos — apropriada para tudo, desde packaging de oferta a caixas de joalharia a humidores. Oferecemos dobradiças de superfície para looks rústicos, dobradiças europeias ocultas para exteriores limpos e mecanismos soft-close para feel premium.',
     features: [
       { icon: '✦', title: 'Latão / Aço / Preto', desc: 'Acabamentos de dobradiça para qualquer design — do latão antigo ao preto mate.' },
@@ -156,6 +172,8 @@ export default {
   },
 
   'sliding-lid': {
+    seoTitle: 'Caixas com tampa deslizante | Sem ferragens | CHIC',
+    seoDescription: 'Caixas com tampa deslizante personalizadas. Ranhura fresada em CNC, sem dobradiças nem trincos que falhem. Envio plano. MOQ 300-500.',
     longDesc: 'A tampa corrediça é a construção mais limpa — sem ferragens, sem dobradiças, apenas ranhuras fresadas com precisão e uma tampa que desliza suave. Perfeito para kits artesanais, caixas de chá, sets de canetas e qualquer produto onde a experiência de unboxing faz parte da oferta.',
     features: [
       { icon: '✦', title: 'Sem Ferragens', desc: 'Sem dobradiças, sem linguetas — só madeira. Exterior o mais limpo possível.' },
@@ -175,6 +193,8 @@ export default {
   },
 
   'drawer': {
+    seoTitle: 'Caixas de madeira com gaveta | 1 a 12 níveis | CHIC',
+    seoDescription: 'Caixas e móveis com gaveta personalizados, de 1 a 12 níveis, corrediças amortecidas, puxadores em latão. Nogueira, carvalho, pinho. MOQ 300-500.',
     longDesc: 'Quando um único compartimento não basta — a construção com gaveta oferece arrumação organizada e acessível em pouco espaço. Caixas joalheiro de gaveta única, cómodas apothecary multi-tier e torres de gavetas estilo biblioteca — todas com calhas deslizantes suaves e divisores opcionais.',
     features: [
       { icon: '✦', title: 'Calhas Gaveta Suaves', desc: 'Madeira-sobre-madeira, soft-close ou calhas de esferas de extração total.' },
@@ -194,6 +214,8 @@ export default {
   },
 
   'magnetic': {
+    seoTitle: 'Caixas de madeira magnéticas | Madeira real, não cartão',
+    seoDescription: 'Caixas de madeira personalizadas com ímanes de neodímio ocultos. Madeira maciça e folheado, não cartão rígido. Exterior limpo, fecho suave. MOQ 300-500.',
     longDesc: 'O fecho magnético é o padrão moderno para packaging de oferta premium. Os ímanes de neodímio estão ocultos dentro da parede, deixando um exterior perfeitamente limpo. A tampa fecha-se com um snap suave e deliberado — a experiência de unboxing que a sua marca merece.',
     features: [
       { icon: '✦', title: 'Ímanes Ocultos', desc: 'Ímanes de neodímio embutidos na parede — completamente invisíveis do exterior.' },
@@ -213,6 +235,8 @@ export default {
   },
 
   'with-lock': {
+    seoTitle: 'Caixas de madeira com fechadura | Chave e combinação',
+    seoDescription: 'Caixas de madeira com fechadura personalizadas: chave em latão, came ou combinação, dobradiças reforçadas. Nogueira e pinho. MOQ 300-500.',
     longDesc: 'Para objetos de valor, documentos, medicação e qualquer coisa que precise de ficar protegida. Oferecemos fechaduras de latão de superfície (o look clássico), cam locks embutidos (exterior limpo) e fechaduras por combinação de 3 dígitos (sem chave para perder). Todas com dobradiças reforçadas opcionais e construção com tiras de aço para segurança extra.',
     features: [
       { icon: '✦', title: 'Fechadura Latão / Cam / Combinação', desc: 'Latão de superfície com chave, cam lock oculto ou combinação de 3 dígitos.' },
@@ -232,6 +256,8 @@ export default {
   },
 
   'paulownia': {
+    seoTitle: 'Caixas em paulownia | Metade do peso do pinho',
+    seoDescription: 'Caixas em paulownia personalizadas. A madeira comercial mais leve, metade do peso do pinho: o frete desce. MOQ 300-500.',
     longDesc: 'A paulownia é a madeira comercial mais leve do mundo — as caixas pesam metade dos seus equivalentes em pinho, o que se traduz diretamente em custos de envio mais baixos. O seu grão direito recebe a gravação a laser magnificamente, e a sua estabilidade dimensional significa que não se deforma nem racha através de climas. A escolha por defeito para packaging de oferta em alto volume.',
     features: [
       { icon: '✦', title: 'Metade do Peso do Pinho', desc: 'Madeira comercial mais leve — poupanças diretas em custos de envio.' },
@@ -251,6 +277,8 @@ export default {
   },
 
   'pine': {
+    seoTitle: 'Caixas de pinho | Veio rústico, melhor relação preço',
+    seoDescription: 'Caixas de pinho personalizadas, silvestre e radiata, sem nós ou rústico. Aceita bem pirogravura e tinta. Melhor relação. MOQ 300-500.',
     longDesc: 'O pinho é a madeira macia cavalo de batalha — acessível, fácil de trabalhar e imediatamente reconhecível. Usamos pinho silvestre europeu e radiata neozelandesa para graus limpos sem nós, ou usamos pinho com nós seletivamente para looks de caixa rústica. Excelente para caixas de vinho, caixas de jardim e qualquer aplicação onde o caráter faz parte do atrativo.',
     features: [
       { icon: '✦', title: 'Sem Nós ou Rústico', desc: 'Escolha graus limpos sem nós ou pinho rico em caráter com nós.' },
@@ -270,6 +298,8 @@ export default {
   },
 
   'bamboo': {
+    seoTitle: 'Caixas de bambu | Certificado FSC, renovação rápida',
+    seoDescription: 'Caixas de bambu personalizadas. Certificado FSC, antibacteriano, acabamento alimentar, colheita em 5-7 anos. Chá e cozinha. MOQ 300-500.',
     longDesc: 'O bambu é tecnicamente uma erva, não uma árvore — e volta a crescer em 5–7 anos em vez de 30–60. Isso faz dele o material estrutural mais sustentável que oferecemos. Opções carbonizada (caramelo) e natural (ouro pálido), ambas com a icónica listagem horizontal. Naturalmente antibacteriano — ideal para uso cozinha e casa de banho.',
     features: [
       { icon: '✦', title: 'Colheita Sustentável', desc: 'Volta a crescer em 5–7 anos vs 30–60 para madeira dura — a escolha eco.' },
@@ -289,6 +319,8 @@ export default {
   },
 
   'acacia': {
+    seoTitle: 'Caixas de acácia | Madeira dura densa, veio marcado',
+    seoDescription: 'Caixas de acácia personalizadas. Dureza Janka 2300, veio ondulado, resistente à água com acabamento alimentar. Oferta premium. MOQ 300-500.',
     longDesc: 'A acácia é uma das mais belas madeiras duras acessíveis no mercado — veios dramáticos, tons quentes mel a chocolate e durabilidade excecional. Dureza Janka acima de 2300 significa que aguenta uso diário, e a sua resistência natural à água torna-a favorita para utensílios de cozinha e caixas de serviço.',
     features: [
       { icon: '✦', title: 'Veios Dramáticos', desc: 'Desenhos de veio rodopiantes e variação de cor — cada peça única.' },
@@ -308,6 +340,8 @@ export default {
   },
 
   'walnut': {
+    seoTitle: 'Caixas de nogueira | Nogueira preta americana | CHIC',
+    seoDescription: 'Caixas em nogueira preta americana personalizadas. Veio chocolate profundo, lixado sedoso, sem tinta. Relógios e joias. MOQ 300-500.',
     longDesc: 'A nogueira é a madeira dura mais cobiçada do mundo — e com razão. A cor chocolate profundo, o veio fino e direito e o acabamento superficial sedoso são inconfundíveis. Usamos nogueira preta americana para o tom mais profundo e o veio mais limpo. A escolha por defeito quando quer que a caixa em si pareça a oferta.',
     features: [
       { icon: '✦', title: 'Tom Chocolate Profundo', desc: 'Naturalmente rica, cor chocolate profundo — não requer tingimento.' },

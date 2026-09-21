@@ -3,6 +3,191 @@
 
 export default {
   "posts": {
+    "eva-vs-epe-vs-velvet-vs-felt-insert-guide": {
+      "title": "EVA, EPE, velluto o feltro: quale inserto scegliere per le scatole in legno",
+      "excerpt": "Guida completa alla scelta del materiale d'inserto per le tue scatole in legno. Spugna EVA, spugna EPE, velluto e feltro a confronto su protezione, costo, estetica e sostenibilità.",
+      "category": "Materiali",
+      "readTime": "12 min di lettura",
+      "body": [
+        {
+          "type": "p",
+          "text": "Quando si progetta una scatola in legno su misura, il materiale dell'inserto conta quanto la scatola stessa. La scelta sbagliata porta a prodotti danneggiati, costi più alti o una presentazione che non convince il cliente. In questa guida confrontiamo quattro materiali diffusi — spugna EVA, spugna EPE, velluto e feltro — sui criteri che decidono davvero: livello di protezione, rapporto costo-efficacia, estetica, impatto ambientale e possibilità di personalizzazione."
+        },
+        {
+          "type": "h2",
+          "text": "Panoramica dei materiali"
+        },
+        {
+          "type": "p",
+          "text": "Partiamo da una fotografia rapida di ciascun materiale. L'EVA (etilene vinil acetato) è una spugna a celle chiuse nota per densità, durata ed eccellente resistenza agli urti. L'EPE (polietilene espanso) è una spugna a celle aperte, leggera, flessibile ed economica. Il velluto è un tessuto morbido e vellutato, dalla texture ricca e dall'aspetto premium. Il feltro è un non tessuto di fibre di lana pressate, con finitura morbida e opaca, sempre più richiesto dai marchi attenti all'ambiente."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Materiale",
+            "Tipo",
+            "Uso principale",
+            "Punto di forza"
+          ],
+          "rows": [
+            [
+              "Spugna EVA",
+              "Polimero sintetico",
+              "Protezione dagli urti",
+              "Assorbimento urti superiore"
+            ],
+            [
+              "Spugna EPE",
+              "Spugna di polietilene",
+              "Imbottitura generica",
+              "Leggera ed economica"
+            ],
+            [
+              "Velluto",
+              "Tessuto (sintetico/naturale)",
+              "Presentazione di lusso",
+              "Estetica premium"
+            ],
+            [
+              "Feltro",
+              "Fibre di lana/sintetiche pressate",
+              "Imbottitura ecologica",
+              "Sostenibile e morbido"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Spugna EVA: protezione premium"
+        },
+        {
+          "type": "p",
+          "text": "L'EVA (etilene vinil acetato) è una spugna a celle chiuse nota per densità, durata ed eccellente resistenza agli urti. È il materiale dei tappetini da yoga, delle suole e degli imballaggi per elettronica di fascia alta. L'EVA assorbe gli urti in modo eccellente, con una durezza di 40-60 Shore C. Si fustella con precisione e può essere floccato con velluto per una finitura di lusso. Il prezzo è il più alto, ma è ideale per elettronica di valore come orologi, fotocamere e telefoni, per strumenti medicali, per utensili che richiedono un alloggiamento esatto e per prodotti il cui imballo verrà riutilizzato."
+        },
+        {
+          "type": "h2",
+          "text": "Spugna EPE: imbottitura versatile"
+        },
+        {
+          "type": "p",
+          "text": "L'EPE (polietilene espanso) è una spugna a celle aperte, leggera, flessibile ed economica. È il «pluriball» delle spugne: morbido, cedevole ed eccellente per l'imbottitura generica. L'EPE assorbe bene gli urti con una durezza inferiore, di 20-30 Shore C, quindi è più morbido e comprimibile dell'EVA. È conveniente, riciclabile e a basse emissioni di produzione. L'EPE va bene quando serve una protezione moderata, per imballi cumulativi nella spedizione di più unità, per progetti con budget contenuto e per prodotti di forma regolare che non richiedono profili complessi."
+        },
+        {
+          "type": "h2",
+          "text": "Velluto: presentazione di lusso"
+        },
+        {
+          "type": "p",
+          "text": "Il velluto è un tessuto morbido e vellutato (seta naturale o poliestere) dalla texture ricca e dall'aspetto premium. Si usa comunemente in portagioie, confezioni di profumo e set regalo di fascia alta. Da solo assorbe pochissimo e richiede un'imbottitura sotto, ma offre una sensazione di lusso impareggiabile e ottime possibilità di personalizzazione. Il velluto è ideale per gioielleria e oggetti preziosi, profumeria e cosmetica, regali di lusso e premi, e per i prodotti in cui conta il momento dell'apertura. Molti marchi lo combinano con la spugna: EVA o EPE come strato ammortizzante di base e flocking di velluto sopra per l'estetica."
+        },
+        {
+          "type": "h2",
+          "text": "Feltro: classico e sostenibile"
+        },
+        {
+          "type": "p",
+          "text": "Il feltro è un non tessuto di fibre di lana pressate (o alternative sintetiche). Offre una finitura morbida e opaca ed è sempre più richiesto dai marchi attenti all'ambiente. Ammortizza in modo moderato con un lusso elegante e discreto. Si taglia, si tinge e si modella facilmente, il che apre ampie possibilità di personalizzazione. Il feltro di lana è biodegradabile ed esistono versioni in sintetico riciclato, il che lo rende l'opzione più sostenibile. Il feltro va bene per marchi ecologici, prodotti artigianali, articoli di peso medio come libri, ceramica e vetreria, e per marchi che cercano un'estetica naturale."
+        },
+        {
+          "type": "h2",
+          "text": "Confronto diretto"
+        },
+        {
+          "type": "p",
+          "text": "Confrontando i quattro materiali sui criteri chiave, ognuno ha punti di forza netti. La spugna EVA eccelle nella protezione (5/5 stelle) ma al prezzo più alto ($$$). La spugna EPE offre buona protezione (4/5 stelle) al prezzo più basso ($). Il velluto protegge poco (2/5 stelle) ma è imbattibile nell'estetica (5/5 stelle), a prezzo premium. Il feltro offre protezione moderata (3/5 stelle) con ottima sostenibilità (5/5 stelle) nella fascia media ($$)."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Criterio",
+            "Spugna EVA",
+            "Spugna EPE",
+            "Velluto",
+            "Feltro"
+          ],
+          "rows": [
+            [
+              "Livello di protezione",
+              "⭐⭐⭐⭐⭐",
+              "⭐⭐⭐⭐",
+              "⭐⭐",
+              "⭐⭐⭐"
+            ],
+            [
+              "Costo",
+              "$$$",
+              "$",
+              "$$$",
+              "$$"
+            ],
+            [
+              "Estetica",
+              "⭐⭐⭐⭐",
+              "⭐⭐",
+              "⭐⭐⭐⭐⭐",
+              "⭐⭐⭐⭐"
+            ],
+            [
+              "Personalizzazione",
+              "⭐⭐⭐⭐⭐",
+              "⭐⭐⭐",
+              "⭐⭐⭐⭐",
+              "⭐⭐⭐⭐"
+            ],
+            [
+              "Sostenibilità",
+              "⭐⭐",
+              "⭐⭐⭐",
+              "⭐⭐⭐",
+              "⭐⭐⭐⭐⭐"
+            ],
+            [
+              "Ideale per",
+              "Elettronica, utensili",
+              "Spedizioni cumulative",
+              "Gioielli, profumi",
+              "Marchi eco, artigianato"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Schema decisionale"
+        },
+        {
+          "type": "p",
+          "text": "Usa questo schema per scegliere il materiale dell'inserto. Primo, valuta la fragilità del prodotto: articoli fragili come elettronica e vetro richiedono EVA o EPE, quelli di fragilità media si adattano a EPE o feltro, quelli robusti funzionano bene con velluto o feltro. Secondo, definisci il budget: i budget premium ($$$) reggono EVA o velluto, la fascia media ($$) si sposa col feltro, i progetti contenuti ($) dovrebbero usare EPE. Terzo, considera il posizionamento del marchio: i marchi di lusso guadagnano con velluto su base EVA, quelli ecologici dovrebbero scegliere il feltro, quelli tecnologici e professionali si sposano con l'EVA, quelli orientati al prezzo con l'EPE. Infine, valuta i volumi: gli ordini oltre 1.000 pezzi sfruttano la fustellatura automatizzata di EVA o EPE, i volumi medi da 100 a 1.000 pezzi ammettono qualsiasi materiale, e sotto i 100 pezzi feltro e velluto sono più facili da lavorare a mano."
+        },
+        {
+          "type": "h2",
+          "text": "Casi reali"
+        },
+        {
+          "type": "p",
+          "text": "Un marchio di orologi di lusso doveva proteggere segnatempo di alto valore mantenendo una presentazione premium: ha adottato uno strato base di spugna EVA fustellata a forma di orologio con uno strato superiore di flocking in velluto sulla superficie EVA, ottenendo protezione 5 stelle più un'apertura di lusso, a 3-5 $ per inserto con MOQ 500. Un laboratorio artigianale di candele cercava un imballo ecologico per candele fatte a mano e ha usato inserti in feltro di lana tagliati su misura per i vasi; l'immagine naturale e sostenibile era in linea con il marchio e ha prodotto un aumento del 30 % dei riacquisti, a 1,50-2 $ per inserto con MOQ 100. Un e-commerce di elettronica che spediva altoparlanti Bluetooth su larga scala ha scelto paraspigoli in EPE con cuscino centrale, riducendo il costo di spedizione a peso e portando il tasso di danni dal 5 % a meno dell'1 %, a 0,50-0,80 $ per inserto con MOQ 1.000."
+        },
+        {
+          "type": "h2",
+          "text": "Consigli da chi produce"
+        },
+        {
+          "type": "p",
+          "text": "Ordina sempre campioni con il prodotto reale e fai una prova di caduta da altezza fianco: se il prodotto regge, l'inserto funziona. Ragiona sull'intero ciclo di vita: per lo stoccaggio, verifica se le scatole verranno impilate, perché EVA ed EPE resistono meglio alla compressione; per il trasporto, le spedizioni internazionali richiedono la protezione più decisa dell'EVA; per il riutilizzo, i marchi di lusso guadagnano con inserti durevoli che il cliente conserva, come EVA più velluto. Non limitarti a un solo materiale: gli inserti migliori spesso combinano una base in EVA per la struttura con velluto sopra per l'estetica, oppure un cuscino in EPE con divisori in feltro per unire ecologia e funzione."
+        },
+        {
+          "type": "p",
+          "text": "Metti in conto la quantità minima d'ordine (MOQ): la spugna EVA richiede di norma 300-500 pezzi per il costo di attrezzaggio della fustella, la spugna EPE 500-1.000 pezzi, i rivestimenti in velluto 100-300 pezzi, e il feltro solo 50-100 pezzi perché si lavora più facilmente in piccole serie. Per prodotti alimentari, medicali o per l'infanzia, verifica la conformità RoHS (assenza di sostanze pericolose), la certificazione REACH del regolamento europeo sulle sostanze chimiche e l'approvazione FDA per i materiali a contatto con alimenti."
+        },
+        {
+          "type": "h2",
+          "text": "Conclusioni"
+        },
+        {
+          "type": "p",
+          "text": "Scegliere l'inserto giusto per le tue scatole in legno significa bilanciare protezione, costo, estetica e valori del marchio. La spugna EVA offre protezione e personalizzazione premium a $$$, e si ripaga sui prodotti di alto valore. La spugna EPE dà un'imbottitura leggera ed economica per l'uso generale, a $. Il velluto garantisce una presentazione di lusso e rende al meglio su una base in spugna, a $$$. Il feltro è ecologico, elegante e versatile, a $$. Per la maggior parte dei progetti di scatole in legno su misura consigliamo di partire dalla spugna EVA come base e aggiungere velluto o feltro sopra se il budget lo consente. Così ottieni il meglio di entrambi: una protezione di cui fidarti e una presentazione che conquista."
+        }
+      ]
+    },
     "wooden-box-closure-types-compared": {
       "title": "Chiusure per scatole in legno a confronto: scorrevole, a cerniera, magnetica, a cassetto e con serratura",
       "excerpt": "La chiusura è la prima cosa che un acquirente di scatole in legno dovrebbe specificare e l'ultima che la maggior parte delle schede tecniche menziona. Questo è il confronto di un produttore sulle cinque chiusure che realizziamo davvero: come viene lavorata ciascuna, cosa comporta per tempi di consegna e quantità minima, dove ognuna fallisce e come scegliere senza tirare a indovinare.",

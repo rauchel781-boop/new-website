@@ -4,6 +4,8 @@
 
 export default {
   'gift-packaging': {
+    seoTitle: 'Cajas de regalo de madera a medida | Grabado | CHIC',
+    seoDescription: 'Cajas de regalo de madera a medida: cierre magnético, bisagras o tapa deslizante. Grabado láser, interior de espuma o terciopelo, madera FSC. MOQ 300-500.',
     longDesc: 'Nuestras cajas de regalo y packaging de madera convierten un producto en un momento de unboxing. Tanto si lanzas un nuevo SKU, construyes un programa de regalo corporativo o suministras a minoristas con packaging listo para góndola, producimos en volúmenes de 100 a 100.000+ piezas con acabado, ajuste y feel consistentes.',
     features: [
       { icon: '✦', title: 'Opciones Magnéticas y Bisagra', desc: 'Cierre magnético oculto o bisagras de latón visibles — ambas con un feel suave y premium.' },
@@ -23,6 +25,8 @@ export default {
   },
 
   'watch-jewelry': {
+    seoTitle: 'Cajas de relojes y joyas de madera | Terciopelo | CHIC',
+    seoDescription: 'Cajas de relojes y joyeros de madera a medida en nogal y acacia. Forro de terciopelo, bisagras amortiguadas, cerradura opcional. De 1 a 24 relojes. MOQ 300-500.',
     longDesc: 'Las cajas para relojes y joyería son la categoría más exigente que hacemos — tienen que verse perfectas por dentro y por fuera. Cada caja lleva insertos forrados en fieltro o microfibra, bisagras soft-close y una tapa que asienta plana con cero holgura. Disponibles monoposto, multi-watch winder y cofres completos para joyería.',
     features: [
       { icon: '✦', title: 'Forro Terciopelo / Microfibra', desc: 'Interior soft-touch en 12+ colores. Logo bordado en el forro disponible.' },
@@ -42,6 +46,8 @@ export default {
   },
 
   'tea-coffee': {
+    seoTitle: 'Cajas de té y café de madera | 4-9 compartimentos',
+    seoDescription: 'Cajas de té y café de madera a medida en bambú o acacia. 4, 6, 8 o 9 compartimentos, acabado apto para alimentos, tapa con ventana opcional. MOQ 300-500.',
     longDesc: 'Diseñadas para uso diario en cocina y para regalo. Los divisores internos crean 4, 6, 8 o 9 compartimentos — perfectos para selecciones de bolsitas, cápsulas de café o sachets piramidales. Tapa con bisagra y cierre magnético mantiene el contenido fresco, ventana opcional de acrílico permite ver qué hay dentro.',
     features: [
       { icon: '✦', title: 'Compartimentos Modulares', desc: 'Layouts de 4 / 6 / 8 / 9 compartimentos. Divisores extraíbles también disponibles.' },
@@ -61,6 +67,8 @@ export default {
   },
 
   'wine-whisky': {
+    seoTitle: 'Cajas de vino y whisky de madera | Pino o nogal',
+    seoDescription: 'Cajas de vino y whisky de madera a medida, de una botella a magnum. Cajas de pino con asa de cuerda o estuches de nogal con cuna de espuma. MOQ 300-500.',
     longDesc: 'Desde cajas rústicas de pino con asas de cuerda hasta cajas de presentación walnut de alta gama para ediciones limitadas — fabricamos cajas para vino y whisky para cada nivel del mercado. Cunas de espuma cortada para botellas, soportes de copas y compartimentos accesorios para sacacorchos, tapones y vertedores.',
     features: [
       { icon: '✦', title: 'Cunas en Espuma Cortada', desc: 'Espuma EVA cortada con precisión sujeta las botellas firmes sin movimiento en transporte.' },
@@ -80,6 +88,8 @@ export default {
   },
 
   'kitchen-dining': {
+    seoTitle: 'Cajas de cocina de madera | Sal, cubiertos y pan',
+    seoDescription: 'Cajas de cocina de madera a medida en bambú y acacia. Saleros, cajas de cubiertos y paneras con tapa abatible, acabado apto para alimentos. MOQ 300-500.',
     longDesc: 'Las cajas de madera para cocina y comedor deben equilibrar belleza con uso diario. Usamos acabados aptos para alimentos y maderas duras resistentes — el bambú y la acacia son favoritos por su densidad y propiedades antibacterianas. Paneras con tapas tambor, saleros con cierre magnético, cubiertos y especieros — disponibles en stock o totalmente personalizados.',
     features: [
       { icon: '✦', title: 'Acabado Apto Alimentos', desc: 'Laca aprobada FDA, aceite mineral o cera de abeja — seguro para uso cocina.' },
@@ -99,6 +109,8 @@ export default {
   },
 
   'garden-seed': {
+    seoTitle: 'Cajas para semillas de madera | Bambú, divisores | CHIC',
+    seoDescription: 'Cajas para semillas de madera a medida en bambú, con divisores ajustables y tapa deslizante o abatible. Para marcas de semillas y jardinería. MOQ 300-500.',
     longDesc: 'Diseñadas para uso exterior y jardín. Nuestras cajas de semillas tienen divisores compartimentados y ranuras etiquetadas para almacenaje organizado; nuestras macetas están hechas de madera blanda resistente a la pudrición con drenaje y acabados outdoor-grade. Cajones de herramientas, portahierbas y almacenamiento de patio completan la gama.',
     features: [
       { icon: '✦', title: 'Acabado Outdoor-Grade', desc: 'Laca exterior resistente a UV o aceite natural para uso exterior a prueba de intemperie.' },
@@ -118,6 +130,8 @@ export default {
   },
 
   'storage': {
+    seoTitle: 'Cajas de almacenaje y recuerdos en madera maciza',
+    seoDescription: 'Cajas de almacenaje de madera a medida: recuerdos, joyas, aceites esenciales y escritorio, en pino, acacia y bambú. Apilables. MOQ 300-500.',
     longDesc: 'Almacenamiento práctico con presencia. Cajoneras modulares, cajas apilables y organizadores flat-stacking para todo, desde herramientas hasta artículos de oficina o back-stock retail. Dimensionadas a profundidades estándar de cajón y estante, con divisores opcionales, marcos de etiqueta y ruedas giratorias.',
     features: [
       { icon: '✦', title: 'Apilable y Modular', desc: 'Huellas estándar se apilan y alinean — construye el sistema que necesitas.' },
@@ -137,6 +151,8 @@ export default {
   },
 
   'hinged': {
+    seoTitle: 'Cajas de madera con bisagras | Latón y cierre suave',
+    seoDescription: 'Cajas de madera con bisagras a medida: latón o cazoleta europea oculta, cierre amortiguado, broche o cerradura. Cualquier especie. MOQ 300-500.',
     longDesc: 'La construcción con bisagras es la estructura más versátil que ofrecemos — apropiada para todo, desde packaging de regalo a cajas de joyería o humidores. Ofrecemos bisagras de superficie para looks rústicos, bisagras europeas ocultas para exteriores limpios y mecanismos soft-close para un feel premium.',
     features: [
       { icon: '✦', title: 'Latón / Acero / Negro', desc: 'Acabados de bisagra para cualquier diseño — desde latón antiguo a negro mate.' },
@@ -156,6 +172,8 @@ export default {
   },
 
   'sliding-lid': {
+    seoTitle: 'Cajas de madera con tapa deslizante | Sin herrajes',
+    seoDescription: 'Cajas de madera con tapa deslizante a medida. Ranura fresada en CNC, sin bisagras ni broches que fallen. Envío plano. MOQ 300-500.',
     longDesc: 'La tapa corredera es la construcción más limpia — sin herrajes, sin bisagras, solo ranuras fresadas con precisión y una tapa que desliza suave. Perfecto para kits artesanales, cajas de té, sets de plumas y cualquier producto donde la experiencia de unboxing es parte del regalo.',
     features: [
       { icon: '✦', title: 'Sin Herrajes', desc: 'Sin bisagras, sin pestillos — solo madera. Exterior lo más limpio posible.' },
@@ -175,6 +193,8 @@ export default {
   },
 
   'drawer': {
+    seoTitle: 'Cajas de madera con cajón | 1-12 niveles | CHIC',
+    seoDescription: 'Cajas y muebles de madera con cajón a medida, de 1 a 12 niveles, guías amortiguadas, tiradores de latón. Nogal, roble y pino. MOQ 300-500.',
     longDesc: 'Cuando un solo compartimento no basta — la construcción con cajón ofrece almacenaje organizado y accesible en poco espacio. Cajas joyero de cajón único, cajoneras apothecary multinivel y torres de cajones estilo biblioteca — todas con guías deslizables fluidas y divisores opcionales.',
     features: [
       { icon: '✦', title: 'Guías Cajón Fluidas', desc: 'Madera-sobre-madera, soft-close o guías de bolas de extracción total.' },
@@ -194,6 +214,8 @@ export default {
   },
 
   'magnetic': {
+    seoTitle: 'Cajas de madera magnéticas | Madera real, no cartón',
+    seoDescription: 'Cajas de madera a medida con imanes de neodimio ocultos. Madera maciza y chapa, no cartón rígido. Exterior limpio, cierre suave. MOQ 300-500.',
     longDesc: 'El cierre magnético es el estándar moderno para packaging de regalo premium. Los imanes de neodimio están ocultos dentro de la pared, dejando un exterior perfectamente limpio. La tapa se cierra con un snap suave y deliberado — la experiencia de unboxing que tu marca merece.',
     features: [
       { icon: '✦', title: 'Imanes Ocultos', desc: 'Imanes de neodimio embutidos en la pared — completamente invisibles desde fuera.' },
@@ -213,6 +235,8 @@ export default {
   },
 
   'with-lock': {
+    seoTitle: 'Cajas de madera con cerradura | Llave y combinación',
+    seoDescription: 'Cajas de madera con cerradura a medida: llave de latón, leva o combinación, con bisagras reforzadas. Nogal, roble y pino. MOQ 300-500.',
     longDesc: 'Para objetos de valor, documentos, medicamentos y cualquier cosa que necesite estar protegida. Ofrecemos cerraduras de latón de superficie (el look clásico), cam locks empotrados (exterior limpio) y cerraduras de combinación de 3 dígitos (sin llave que perder). Todas con bisagras reforzadas opcionales y construcción con tiras de acero para seguridad extra.',
     features: [
       { icon: '✦', title: 'Cerradura Latón / Cam / Combinación', desc: 'Latón de superficie con llave, cam lock oculto o combinación de 3 dígitos.' },
@@ -232,6 +256,8 @@ export default {
   },
 
   'paulownia': {
+    seoTitle: 'Cajas de paulownia | La mitad de peso que el pino',
+    seoDescription: 'Cajas de paulownia a medida. La madera comercial más ligera, casi la mitad que el pino, así baja el flete. Grabado láser nítido. MOQ 300-500.',
     longDesc: 'La paulownia es la madera comercial más ligera del mundo — las cajas pesan la mitad que sus equivalentes en pino, lo que se traduce directamente en costes de envío inferiores. Su grano recto acepta el grabado láser maravillosamente, y su estabilidad dimensional significa que no se deforma ni agrieta entre climas. La opción por defecto para packaging de regalo de alto volumen.',
     features: [
       { icon: '✦', title: 'Mitad del Peso del Pino', desc: 'Madera comercial más ligera — ahorros directos en costes de envío.' },
@@ -251,6 +277,8 @@ export default {
   },
 
   'pine': {
+    seoTitle: 'Cajas de madera de pino | Veta rústica, mejor precio',
+    seoDescription: 'Cajas de pino a medida en pino silvestre y radiata, sin nudos o rústico. Admite bien pirograbado y tinte. Mejor relación precio. MOQ 300-500.',
     longDesc: 'El pino es la madera blanda caballo de batalla — económica, fácil de trabajar e inmediatamente reconocible. Usamos pino silvestre europeo y radiata neozelandesa para grados limpios sin nudos, o usamos pino con nudos selectivamente para looks de caja rústica. Excelente para cajas de vino, cajas de jardín y cualquier aplicación donde el carácter forme parte del atractivo.',
     features: [
       { icon: '✦', title: 'Sin Nudos o Rústico', desc: 'Elige grados limpios sin nudos o pino con carácter rico en nudos.' },
@@ -270,6 +298,8 @@ export default {
   },
 
   'bamboo': {
+    seoTitle: 'Cajas de bambú | Certificado FSC, rápido de renovar',
+    seoDescription: 'Cajas de bambú a medida. Certificado FSC, antibacteriano, acabado apto para alimentos, cosecha en 5-7 años. Té, cocina y regalo eco. MOQ 300-500.',
     longDesc: 'El bambú es técnicamente una hierba, no un árbol — y vuelve a crecer en 5–7 años en vez de 30–60. Esto lo hace el material estructural más sostenible que ofrecemos. Opciones carbonizada (caramelo) y natural (oro pálido), ambas con el icónico rayado horizontal. Naturalmente antibacteriano — ideal para uso cocina y baño.',
     features: [
       { icon: '✦', title: 'Cosecha Sostenible', desc: 'Vuelve a crecer en 5–7 años vs 30–60 para madera dura — la opción eco.' },
@@ -289,6 +319,8 @@ export default {
   },
 
   'acacia': {
+    seoTitle: 'Cajas de acacia | Madera dura densa, veta marcada',
+    seoDescription: 'Cajas de acacia a medida. Dureza Janka 2300, veta arremolinada, resistente al agua con acabado alimentario. Regalo premium. MOQ 300-500.',
     longDesc: 'La acacia es una de las maderas duras económicas más bellas del mercado — vetas dramáticas, tonos cálidos miel a chocolate y durabilidad excepcional. Dureza Janka sobre 2300 significa que resiste el uso diario, y su resistencia natural al agua la hace favorita para utensilios de cocina y cajas de servicio.',
     features: [
       { icon: '✦', title: 'Vetas Dramáticas', desc: 'Diseños de veta arremolinados y variación de color — cada pieza única.' },
@@ -308,6 +340,8 @@ export default {
   },
 
   'walnut': {
+    seoTitle: 'Cajas de nogal | Nogal negro americano | CHIC',
+    seoDescription: 'Cajas de nogal negro americano a medida. Veta chocolate profunda, lijado sedoso, sin tinte. Relojes, joyas y herencia. MOQ 300-500.',
     longDesc: 'El nogal es la madera dura más codiciada del mundo — y con razón. El color chocolate profundo, la veta fina y recta y el acabado superficial sedoso son inconfundibles. Usamos nogal negro americano para el tono más profundo y la veta más limpia. La opción por defecto cuando quieres que la caja en sí parezca el regalo.',
     features: [
       { icon: '✦', title: 'Tono Chocolate Profundo', desc: 'Naturalmente rico, color chocolate profundo — no requiere teñido.' },

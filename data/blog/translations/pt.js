@@ -3,6 +3,191 @@
 
 export default {
   "posts": {
+    "eva-vs-epe-vs-velvet-vs-felt-insert-guide": {
+      "title": "EVA, EPE, veludo ou feltro: que interior escolher para caixas de madeira",
+      "excerpt": "Guia completo para escolher o material de interior das suas caixas de madeira. Espuma EVA, espuma EPE, veludo e feltro comparados em proteção, custo, estética e sustentabilidade.",
+      "category": "Materiais",
+      "readTime": "12 min de leitura",
+      "body": [
+        {
+          "type": "p",
+          "text": "Ao projetar caixas de madeira personalizadas, o material do interior pesa tanto como a própria caixa. A escolha errada acaba em produto danificado, custos mais altos ou uma apresentação que não convence o cliente. Neste guia comparamos quatro materiais comuns — espuma EVA, espuma EPE, veludo e feltro — segundo os critérios que realmente decidem: nível de proteção, relação custo-benefício, estética, impacto ambiental e opções de personalização."
+        },
+        {
+          "type": "h2",
+          "text": "Panorama dos materiais"
+        },
+        {
+          "type": "p",
+          "text": "Comecemos por uma vista rápida de cada um. O EVA (etileno-acetato de vinilo) é uma espuma de célula fechada conhecida pela densidade, durabilidade e excelente resistência ao impacto. O EPE (polietileno expandido) é uma espuma de célula aberta, leve, flexível e económica. O veludo é um têxtil macio e felpudo, de textura rica e aspeto premium. O feltro é um não tecido de fibras de lã prensadas, com acabamento macio e mate, cada vez mais procurado por marcas com consciência ecológica."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Material",
+            "Tipo",
+            "Uso principal",
+            "Ponto forte"
+          ],
+          "rows": [
+            [
+              "Espuma EVA",
+              "Polímero sintético",
+              "Proteção contra impactos",
+              "Absorção de choque superior"
+            ],
+            [
+              "Espuma EPE",
+              "Espuma de polietileno",
+              "Acolchoamento geral",
+              "Leve e acessível"
+            ],
+            [
+              "Veludo",
+              "Têxtil (sintético/natural)",
+              "Apresentação de luxo",
+              "Estética premium"
+            ],
+            [
+              "Feltro",
+              "Fibras de lã/sintéticas prensadas",
+              "Acolchoamento ecológico",
+              "Sustentável e macio"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Espuma EVA: proteção premium"
+        },
+        {
+          "type": "p",
+          "text": "O EVA (etileno-acetato de vinilo) é uma espuma de célula fechada conhecida pela densidade, durabilidade e excelente resistência ao impacto. É o material dos tapetes de ioga, das solas de calçado e das embalagens de eletrónica topo de gama. O EVA absorve choques de forma excelente, com uma dureza de 40-60 Shore C. Permite corte por cunho com precisão e pode ser flocado com veludo para um acabamento de luxo. O preço é o mais alto, mas é ideal para eletrónica de valor como relógios, câmaras e telemóveis, para instrumentos médicos, para ferramentas que exigem encaixe exato e para produtos cuja embalagem será reutilizada."
+        },
+        {
+          "type": "h2",
+          "text": "Espuma EPE: acolchoamento versátil"
+        },
+        {
+          "type": "p",
+          "text": "O EPE (polietileno expandido) é uma espuma de célula aberta, leve, flexível e económica. É o «plástico-bolha» das espumas: macio, cedente e excelente para acolchoamento geral. O EPE absorve bem os choques com uma dureza menor, de 20-30 Shore C, o que o torna mais macio e compressível do que o EVA. É acessível, reciclável e de fabrico pouco poluente. O EPE serve quando a proteção necessária é moderada, para embalagem em conjunto no envio de várias unidades, para projetos com orçamento apertado e para produtos de forma regular que não exigem contornos complexos."
+        },
+        {
+          "type": "h2",
+          "text": "Veludo: apresentação de luxo"
+        },
+        {
+          "type": "p",
+          "text": "O veludo é um têxtil macio e felpudo (seda natural ou poliéster) de textura rica e aspeto premium. Usa-se habitualmente em guarda-joias, embalagens de perfume e conjuntos de oferta topo de gama. Sozinho quase não amortece e precisa de acolchoamento por baixo, mas oferece um toque de luxo inigualável e excelentes opções de personalização. O veludo é ideal para joalharia e objetos preciosos, perfumaria e cosmética, ofertas de luxo e troféus, e para produtos em que o momento da abertura é o que conta. Muitas marcas combinam-no com espuma: EVA ou EPE como camada de amortecimento e flocagem de veludo por cima para a estética."
+        },
+        {
+          "type": "h2",
+          "text": "Feltro: clássico e sustentável"
+        },
+        {
+          "type": "p",
+          "text": "O feltro é um não tecido de fibras de lã prensadas (ou alternativas sintéticas). Tem acabamento macio e mate e ganha terreno junto das marcas com consciência ecológica. Amortece moderadamente com um luxo elegante e discreto. Corta-se, tinge-se e molda-se com facilidade, o que abre muitas opções de personalização. O feltro de lã é biodegradável e existem versões em sintético reciclado, o que o torna a opção mais sustentável. Serve para marcas ecológicas, produtos artesanais, artigos de peso médio como livros, cerâmica e vidro, e para marcas que procuram uma estética natural."
+        },
+        {
+          "type": "h2",
+          "text": "Comparação direta"
+        },
+        {
+          "type": "p",
+          "text": "Comparando os quatro materiais pelos critérios-chave, cada um tem forças claras. A espuma EVA lidera na proteção (5/5 estrelas) mas ao preço mais alto ($$$). A espuma EPE dá boa proteção (4/5 estrelas) ao preço mais baixo ($). O veludo protege pouco (2/5 estrelas) mas é imbatível na estética (5/5 estrelas), a preço premium. O feltro oferece proteção moderada (3/5 estrelas) com excelente sustentabilidade (5/5 estrelas) na faixa intermédia ($$)."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Critério",
+            "Espuma EVA",
+            "Espuma EPE",
+            "Veludo",
+            "Feltro"
+          ],
+          "rows": [
+            [
+              "Nível de proteção",
+              "⭐⭐⭐⭐⭐",
+              "⭐⭐⭐⭐",
+              "⭐⭐",
+              "⭐⭐⭐"
+            ],
+            [
+              "Custo",
+              "$$$",
+              "$",
+              "$$$",
+              "$$"
+            ],
+            [
+              "Estética",
+              "⭐⭐⭐⭐",
+              "⭐⭐",
+              "⭐⭐⭐⭐⭐",
+              "⭐⭐⭐⭐"
+            ],
+            [
+              "Personalização",
+              "⭐⭐⭐⭐⭐",
+              "⭐⭐⭐",
+              "⭐⭐⭐⭐",
+              "⭐⭐⭐⭐"
+            ],
+            [
+              "Sustentabilidade",
+              "⭐⭐",
+              "⭐⭐⭐",
+              "⭐⭐⭐",
+              "⭐⭐⭐⭐⭐"
+            ],
+            [
+              "Ideal para",
+              "Eletrónica, ferramentas",
+              "Envio em volume",
+              "Joias, perfumes",
+              "Marcas eco, artesanato"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Matriz de decisão"
+        },
+        {
+          "type": "p",
+          "text": "Use esta matriz para escolher o material do interior. Primeiro, avalie a fragilidade do produto: artigos frágeis como eletrónica e vidro pedem EVA ou EPE, os de fragilidade média aceitam EPE ou feltro, e os robustos funcionam bem com veludo ou feltro. Segundo, defina o orçamento: orçamentos premium ($$$) suportam EVA ou veludo, a faixa intermédia ($$) combina com feltro, e projetos apertados ($) devem usar EPE. Terceiro, pense no posicionamento da marca: marcas de luxo ganham com veludo sobre base de EVA, marcas ecológicas devem escolher feltro, marcas tecnológicas e profissionais combinam com EVA, e marcas orientadas ao preço com EPE. Por fim, avalie o volume de produção: encomendas acima de 1.000 unidades aproveitam o corte automatizado de EVA ou EPE, volumes médios de 100 a 1.000 unidades aceitam qualquer material, e abaixo de 100 unidades o feltro e o veludo são mais fáceis de trabalhar à mão."
+        },
+        {
+          "type": "h2",
+          "text": "Casos reais"
+        },
+        {
+          "type": "p",
+          "text": "Uma marca de relógios de luxo precisava de proteger peças de alto valor mantendo uma apresentação premium: usou uma camada base de espuma EVA cortada à forma do relógio com uma camada superior de flocagem em veludo sobre o EVA, conseguindo proteção de 5 estrelas mais uma abertura de luxo, a 3-5 $ por interior com MOQ de 500. Uma oficina artesanal de velas procurava embalagem ecológica para velas feitas à mão e usou interiores em feltro de lã cortados à medida dos frascos; a imagem natural e sustentável alinhou com a marca e traduziu-se em mais 30 % de recompras, a 1,50-2 $ por interior com MOQ de 100. Uma loja online de eletrónica que enviava colunas Bluetooth em larga escala optou por protetores de canto em EPE com almofada central, reduzindo o custo de envio ao peso e baixando a taxa de danos de 5 % para menos de 1 %, a 0,50-0,80 $ por interior com MOQ de 1.000."
+        },
+        {
+          "type": "h2",
+          "text": "Conselhos de quem produz"
+        },
+        {
+          "type": "p",
+          "text": "Peça sempre amostras com o seu produto real e faça um teste de queda à altura da cintura: se o produto aguenta, o interior cumpre. Pense no ciclo de vida completo: para armazenamento, verifique se as caixas serão empilhadas, porque EVA e EPE resistem melhor à compressão; para transporte, os envios internacionais exigem a proteção mais firme do EVA; para reutilização, as marcas de luxo ganham com interiores duráveis que o cliente guarda, como EVA mais veludo. Não se limite a um só material: os melhores interiores combinam muitas vezes uma base de EVA para a estrutura com veludo por cima para a estética, ou uma almofada de EPE com divisórias em feltro para juntar ecologia e função."
+        },
+        {
+          "type": "p",
+          "text": "Conte com a quantidade mínima de encomenda (MOQ): a espuma EVA exige em regra 300-500 unidades por causa do custo de preparação do cunho, a espuma EPE 500-1.000 unidades, os forros em veludo 100-300 unidades, e o feltro apenas 50-100 unidades por ser mais fácil de trabalhar em séries pequenas. Para produtos alimentares, médicos ou infantis, verifique a conformidade RoHS (ausência de substâncias perigosas), a certificação REACH do regulamento europeu de substâncias químicas e a aprovação FDA para materiais em contacto com alimentos."
+        },
+        {
+          "type": "h2",
+          "text": "Conclusão"
+        },
+        {
+          "type": "p",
+          "text": "Escolher o interior certo para as suas caixas de madeira é equilibrar proteção, custo, estética e valores de marca. A espuma EVA oferece proteção e personalização premium a $$$, e compensa em produtos de alto valor. A espuma EPE dá acolchoamento leve e acessível para uso geral, a $. O veludo garante apresentação de luxo e rende melhor sobre uma base de espuma, a $$$. O feltro é ecológico, elegante e versátil, a $$. Para a maioria dos projetos de caixas de madeira personalizadas recomendamos começar com espuma EVA como base e acrescentar veludo ou feltro por cima se o orçamento permitir. Assim obtém o melhor dos dois mundos: proteção em que pode confiar e uma apresentação que encanta."
+        }
+      ]
+    },
     "wooden-box-closure-types-compared": {
       "title": "Fechos de caixas de madeira comparados: deslizante, com dobradiças, magnético, gaveta e fechadura",
       "excerpt": "O fecho é a primeira coisa que um comprador de caixas de madeira deveria especificar e a última que a maioria das fichas técnicas menciona. Esta é a comparação de um fabricante sobre os cinco fechos que realmente produzimos: como cada um é maquinado, o que faz ao prazo de entrega e à quantidade mínima, onde cada um falha, e como escolher sem adivinhar.",

@@ -3,6 +3,191 @@
 
 export default {
   "posts": {
+    "eva-vs-epe-vs-velvet-vs-felt-insert-guide": {
+      "title": "EVA, EPE, Samt oder Filz: das richtige Inlay für Holzboxen",
+      "excerpt": "Ein vollständiger Leitfaden zur Wahl des passenden Inlay-Materials für Ihre Holzboxen. EVA-Schaum, EPE-Schaum, Samt und Filz im Vergleich — nach Schutzwirkung, Kosten, Optik und Nachhaltigkeit.",
+      "category": "Materialien",
+      "readTime": "12 Min. Lesezeit",
+      "body": [
+        {
+          "type": "p",
+          "text": "Beim Entwurf individueller Holzboxen ist das Inlay-Material genauso entscheidend wie die Box selbst. Die falsche Wahl führt zu beschädigter Ware, höheren Kosten oder einer Präsentation, die Ihre Kunden nicht überzeugt. In diesem Leitfaden vergleichen wir vier gängige Inlay-Materialien — EVA-Schaum, EPE-Schaum, Samt und Filz — entlang der Entscheidungskriterien Schutzniveau, Wirtschaftlichkeit, Optik, Umweltwirkung und Individualisierbarkeit."
+        },
+        {
+          "type": "h2",
+          "text": "Die Materialien im Überblick"
+        },
+        {
+          "type": "p",
+          "text": "Zunächst eine kurze Einordnung. EVA (Ethylenvinylacetat) ist ein geschlossenzelliger Schaum, bekannt für Dichte, Haltbarkeit und hervorragende Stoßfestigkeit. EPE (expandiertes Polyethylen) ist ein offenzelliger Schaum: leicht, flexibel und günstig. Samt ist ein weiches, flauschiges Textil mit reicher Haptik und Premium-Anmutung. Filz ist ein Vliesstoff aus gepressten Wollfasern mit weicher, matter Oberfläche, der bei umweltbewussten Marken zunehmend gefragt ist."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Material",
+            "Art",
+            "Haupteinsatz",
+            "Stärke"
+          ],
+          "rows": [
+            [
+              "EVA-Schaum",
+              "Synthetisches Polymer",
+              "Hoher Aufprallschutz",
+              "Sehr gute Stoßdämpfung"
+            ],
+            [
+              "EPE-Schaum",
+              "Polyethylenschaum",
+              "Allgemeine Polsterung",
+              "Leicht und preiswert"
+            ],
+            [
+              "Samt",
+              "Textil (synthetisch/natürlich)",
+              "Luxuriöse Präsentation",
+              "Premium-Optik"
+            ],
+            [
+              "Filz",
+              "Gepresste Woll-/Synthetikfasern",
+              "Ökologische Polsterung",
+              "Nachhaltig und weich"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "EVA-Schaum: Schutz auf Premium-Niveau"
+        },
+        {
+          "type": "p",
+          "text": "EVA (Ethylenvinylacetat) ist ein geschlossenzelliger Schaum, bekannt für Dichte, Haltbarkeit und hervorragende Stoßfestigkeit. Man findet ihn in Yogamatten, Schuhsohlen und Verpackungen hochwertiger Elektronik. EVA dämpft Stöße ausgezeichnet, mit einer Härte von 40–60 Shore C. Er lässt sich präzise stanzen und für ein luxuriöses Finish mit Samt beflocken. Der Preis liegt im oberen Bereich, dafür ist EVA ideal für hochwertige Elektronik wie Uhren, Kameras und Telefone, für medizinische Instrumente, für passgenau einzulegende Werkzeuge und für Produkte, deren Verpackung wiederverwendet werden soll."
+        },
+        {
+          "type": "h2",
+          "text": "EPE-Schaum: vielseitige Polsterung"
+        },
+        {
+          "type": "p",
+          "text": "EPE (expandiertes Polyethylen) ist ein offenzelliger Schaum: leicht, flexibel und kostengünstig. Er ist die „Luftpolsterfolie“ unter den Schäumen — weich, nachgiebig und hervorragend für allgemeine Polsterung. EPE dämpft gut bei einer geringeren Härte von 20–30 Shore C und ist damit weicher und stärker komprimierbar als EVA. Er ist budgetfreundlich, recycelbar und in der Herstellung emissionsarm. EPE eignet sich für mittleren Schutzbedarf, für Sammelverpackungen beim Versand mehrerer Einheiten, für preisbewusste Projekte und für Produkte mit regelmäßigen Formen ohne komplexe Konturen."
+        },
+        {
+          "type": "h2",
+          "text": "Samt: luxuriöse Präsentation"
+        },
+        {
+          "type": "p",
+          "text": "Samt ist ein weiches, flauschiges Textil (Naturseide oder Polyester) mit reicher Haptik und Premium-Anmutung. Es wird häufig in Schmuckboxen, Parfümverpackungen und hochwertigen Geschenksets eingesetzt. Samt allein dämpft kaum und braucht eine Polsterung darunter, liefert dafür aber ein unvergleichliches Luxusgefühl und hervorragende Gestaltungsmöglichkeiten. Samt ist ideal für Schmuck und Wertgegenstände, für Parfüm und Kosmetik, für Luxusgeschenke und Auszeichnungen sowie für Produkte, bei denen das Auspackerlebnis zählt. Viele Marken kombinieren Samt mit Schaum: EVA oder EPE als polsternde Basis, darüber Samtbeflockung für die Optik."
+        },
+        {
+          "type": "h2",
+          "text": "Filz: klassisch und nachhaltig"
+        },
+        {
+          "type": "p",
+          "text": "Filz ist ein Vliesstoff aus gepressten Wollfasern (oder synthetischen Alternativen). Er hat eine weiche, matte Oberfläche und ist bei umweltbewussten Marken zunehmend gefragt. Filz polstert moderat und wirkt dabei elegant und zurückhaltend luxuriös. Er lässt sich leicht schneiden, färben und formen und bietet damit sehr gute Gestaltungsmöglichkeiten. Wollfilz ist biologisch abbaubar, recycelte synthetische Varianten sind erhältlich — das macht ihn zur nachhaltigsten Option. Filz eignet sich für umweltbewusste Marken, für handwerkliche Produkte, für mittelschwere Artikel wie Bücher, Keramik und Glas sowie für Marken, die eine natürliche Anmutung suchen."
+        },
+        {
+          "type": "h2",
+          "text": "Direkter Vergleich"
+        },
+        {
+          "type": "p",
+          "text": "Vergleicht man alle vier Materialien entlang der wichtigsten Kriterien, hat jedes klare Stärken. EVA-Schaum führt beim Schutz (5/5 Sterne), kostet dafür aber am meisten ($$$). EPE-Schaum bietet guten Schutz (4/5 Sterne) zum kleinsten Preis ($). Samt schützt kaum (2/5 Sterne), ist optisch aber unübertroffen (5/5 Sterne) bei Premium-Preis. Filz schützt moderat (3/5 Sterne) und punktet bei Nachhaltigkeit (5/5 Sterne) im mittleren Preissegment ($$)."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Kriterium",
+            "EVA-Schaum",
+            "EPE-Schaum",
+            "Samt",
+            "Filz"
+          ],
+          "rows": [
+            [
+              "Schutzniveau",
+              "⭐⭐⭐⭐⭐",
+              "⭐⭐⭐⭐",
+              "⭐⭐",
+              "⭐⭐⭐"
+            ],
+            [
+              "Kosten",
+              "$$$",
+              "$",
+              "$$$",
+              "$$"
+            ],
+            [
+              "Optik",
+              "⭐⭐⭐⭐",
+              "⭐⭐",
+              "⭐⭐⭐⭐⭐",
+              "⭐⭐⭐⭐"
+            ],
+            [
+              "Individualisierung",
+              "⭐⭐⭐⭐⭐",
+              "⭐⭐⭐",
+              "⭐⭐⭐⭐",
+              "⭐⭐⭐⭐"
+            ],
+            [
+              "Nachhaltigkeit",
+              "⭐⭐",
+              "⭐⭐⭐",
+              "⭐⭐⭐",
+              "⭐⭐⭐⭐⭐"
+            ],
+            [
+              "Geeignet für",
+              "Elektronik, Werkzeug",
+              "Sammelversand",
+              "Schmuck, Parfüm",
+              "Öko-Marken, Handwerk"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Entscheidungsraster"
+        },
+        {
+          "type": "p",
+          "text": "Nutzen Sie dieses Raster, um Ihr Inlay-Material zu bestimmen. Erstens: Bewerten Sie die Empfindlichkeit des Produkts. Empfindliches wie Elektronik und Glas braucht EVA oder EPE, mittlere Ware kommt mit EPE oder Filz aus, robuste Ware passt zu Samt oder Filz. Zweitens: Legen Sie den Budgetrahmen fest. Premium-Budgets ($$$) tragen EVA oder Samt, das Mittelfeld ($$) passt zu Filz, preisbewusste Projekte ($) nehmen EPE. Drittens: Berücksichtigen Sie die Markenpositionierung. Luxusmarken profitieren von Samt auf EVA-Basis, umweltbewusste Marken wählen Filz, Technik- und Profimarken passen zu EVA, preisorientierte Marken zu EPE. Viertens: Prüfen Sie die Stückzahl. Ab 1.000 Stück lohnt das automatisierte Stanzen von EVA oder EPE, bei 100 bis 1.000 Stück ist jedes Material möglich, unter 100 Stück lassen sich Filz und Samt von Hand leichter verarbeiten."
+        },
+        {
+          "type": "h2",
+          "text": "Beispiele aus der Praxis"
+        },
+        {
+          "type": "p",
+          "text": "Eine Luxusuhrenmarke wollte hochwertige Zeitmesser schützen und zugleich hochwertig präsentieren. Gelöst wurde das mit einer Basis aus EVA-Schaum, auf Uhrenform gestanzt, und einer Samtbeflockung auf der EVA-Oberfläche — 5-Sterne-Schutz plus Luxus-Unboxing, zu 3–5 $ pro Inlay bei einer MOQ von 500. Eine handwerkliche Kerzenmanufaktur suchte eine umweltfreundliche Verpackung für handgefertigte Kerzen und setzte Wollfilz-Inlays ein, passgenau auf die Kerzengläser geschnitten; die natürliche, nachhaltige Anmutung passte zur Marke und führte zu 30 % mehr Wiederkäufen, zu 1,50–2 $ pro Inlay bei einer MOQ von 100. Ein E-Commerce-Elektronikhändler musste Bluetooth-Lautsprecher in großer Stückzahl sicher versenden und nutzte EPE-Eckenschutz mit Mittelpolster — geringeres Versandgewicht und eine Schadensquote, die von 5 % auf unter 1 % fiel, zu 0,50–0,80 $ pro Inlay bei einer MOQ von 1.000."
+        },
+        {
+          "type": "h2",
+          "text": "Tipps aus der Praxis"
+        },
+        {
+          "type": "p",
+          "text": "Bestellen Sie immer Muster mit Ihrem echten Produkt und machen Sie einen Falltest aus Hüfthöhe — übersteht das Produkt ihn, funktioniert das Inlay. Denken Sie den gesamten Lebenszyklus mit: Für die Lagerung prüfen Sie, ob die Boxen gestapelt werden, denn EVA und EPE widerstehen Druck besser; beim Versand brauchen internationale Sendungen den stärkeren Schutz von EVA; bei Wiederverwendung profitieren Luxusmarken von langlebigen Inlays, die Kunden behalten, etwa EVA plus Samt. Legen Sie sich nicht auf ein einziges Material fest — die besten Inlays kombinieren oft eine EVA-Basis für die Struktur mit Samt obenauf für die Optik, oder ein EPE-Polster mit Filz-Trennern für Ökologie plus Funktion."
+        },
+        {
+          "type": "p",
+          "text": "Kalkulieren Sie die Mindestbestellmenge (MOQ) ein: EVA-Schaum verlangt wegen der Stanzwerkzeug-Einrichtung meist 300–500 Stück, EPE-Schaum 500–1.000 Stück, Samt-Einlagen 100–300 Stück und Filz nur 50–100 Stück, da er sich in kleinen Chargen leichter verarbeiten lässt. Bei Lebensmittel-, Medizin- oder Kinderprodukten prüfen Sie die RoHS-Konformität (keine Gefahrstoffe), die REACH-Zertifizierung für die EU-Chemikalienverordnung und die FDA-Zulassung für Materialien mit Lebensmittelkontakt."
+        },
+        {
+          "type": "h2",
+          "text": "Fazit"
+        },
+        {
+          "type": "p",
+          "text": "Das richtige Inlay-Material für Ihre Holzboxen zu wählen heißt, Schutz, Kosten, Optik und Markenwerte auszubalancieren. EVA-Schaum bietet Premium-Schutz und Gestaltungsfreiheit zu $$$, lohnt sich aber bei hochwertigen Produkten. EPE-Schaum liefert günstige, leichte Polsterung für den allgemeinen Einsatz zu $. Samt sorgt für luxuriöse Präsentation und wirkt am besten auf einer Schaumbasis, zu $$$. Filz ist ökologisch, elegant und vielseitig, zu $$. Für die meisten individuellen Holzbox-Projekte empfehlen wir, mit EVA-Schaum als Basis zu starten und bei ausreichendem Budget Samt oder Filz darüberzulegen. So bekommen Sie beides — verlässlichen Schutz und eine Präsentation, die begeistert."
+        }
+      ]
+    },
     "wooden-box-closure-types-compared": {
       "title": "Holzbox-Verschlüsse im Vergleich: Schiebedeckel, Scharnier, Magnet, Schublade und Schloss",
       "excerpt": "Der Verschluss ist das Erste, was ein Holzbox-Käufer spezifizieren sollte — und das Letzte, was in den meisten Datenblättern auftaucht. Dies ist der Vergleich eines Herstellers über die fünf Verschlüsse, die wir tatsächlich bauen: wie jeder gefertigt wird, was er mit Lieferzeit und Mindestbestellmenge macht, wo er versagt, und wie Sie ohne Raten auswählen.",

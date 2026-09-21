@@ -3,6 +3,191 @@
 
 export default {
   "posts": {
+    "eva-vs-epe-vs-velvet-vs-felt-insert-guide": {
+      "title": "EVA, EPE, velours ou feutre : quel calage pour un coffret en bois ?",
+      "excerpt": "Guide complet pour choisir le matériau de calage de vos coffrets en bois. Mousse EVA, mousse EPE, velours et feutre comparés sur la protection, le coût, l'esthétique et la durabilité.",
+      "category": "Matériaux",
+      "readTime": "12 min de lecture",
+      "body": [
+        {
+          "type": "p",
+          "text": "Quand on conçoit un coffret en bois sur mesure, le matériau de calage compte autant que le coffret lui-même. Un mauvais choix se traduit par des produits abîmés, des coûts qui grimpent ou une présentation qui ne convainc pas le client. Dans ce guide, nous comparons quatre matériaux courants — mousse EVA, mousse EPE, velours et feutre — sur les critères qui tranchent vraiment : niveau de protection, rapport coût-efficacité, esthétique, impact environnemental et possibilités de personnalisation."
+        },
+        {
+          "type": "h2",
+          "text": "Vue d'ensemble des matériaux"
+        },
+        {
+          "type": "p",
+          "text": "Commençons par un aperçu rapide. L'EVA (éthylène-acétate de vinyle) est une mousse à cellules fermées reconnue pour sa densité, sa durabilité et son excellente résistance aux chocs. L'EPE (polyéthylène expansé) est une mousse à cellules ouvertes, légère, souple et économique. Le velours est un textile doux et moelleux, à la texture riche et à l'allure haut de gamme. Le feutre est un non-tissé de fibres de laine pressées, au fini doux et mat, de plus en plus demandé par les marques attentives à l'environnement."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Matériau",
+            "Type",
+            "Usage principal",
+            "Point fort"
+          ],
+          "rows": [
+            [
+              "Mousse EVA",
+              "Polymère synthétique",
+              "Protection aux chocs élevés",
+              "Absorption des chocs supérieure"
+            ],
+            [
+              "Mousse EPE",
+              "Mousse polyéthylène",
+              "Calage général",
+              "Légère et abordable"
+            ],
+            [
+              "Velours",
+              "Textile (synthétique/naturel)",
+              "Présentation de luxe",
+              "Esthétique haut de gamme"
+            ],
+            [
+              "Feutre",
+              "Fibres de laine/synthétiques pressées",
+              "Calage écologique",
+              "Durable et doux"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Mousse EVA : la protection haut de gamme"
+        },
+        {
+          "type": "p",
+          "text": "L'EVA (éthylène-acétate de vinyle) est une mousse à cellules fermées reconnue pour sa densité, sa durabilité et son excellente résistance aux chocs. C'est le matériau des tapis de yoga, des semelles de chaussures et des emballages d'électronique haut de gamme. L'EVA absorbe remarquablement les chocs, avec une dureté de 40 à 60 Shore C. Il se découpe à l'emporte-pièce avec précision et peut être floqué de velours pour une finition luxueuse. Son prix est le plus élevé, mais il est idéal pour l'électronique de valeur — montres, appareils photo, téléphones —, les instruments médicaux, les outils exigeant un calage exact et les produits dont l'emballage sera réutilisé."
+        },
+        {
+          "type": "h2",
+          "text": "Mousse EPE : le calage polyvalent"
+        },
+        {
+          "type": "p",
+          "text": "L'EPE (polyéthylène expansé) est une mousse à cellules ouvertes, légère, souple et économique. C'est le « papier bulle » des mousses : tendre, compressible et parfait pour un calage général. L'EPE absorbe bien les chocs avec une dureté plus faible, de 20 à 30 Shore C, ce qui le rend plus souple et plus compressible que l'EVA. Il est bon marché, recyclable et peu émetteur à la fabrication. L'EPE convient quand la protection requise est modérée, pour le conditionnement en nombre lors d'expéditions groupées, pour les projets au budget serré et pour les produits de forme régulière sans contours complexes."
+        },
+        {
+          "type": "h2",
+          "text": "Velours : la présentation de luxe"
+        },
+        {
+          "type": "p",
+          "text": "Le velours est un textile doux et moelleux (soie naturelle ou polyester) à la texture riche et à l'allure haut de gamme. On le trouve couramment dans les écrins à bijoux, les emballages de parfum et les coffrets cadeaux haut de gamme. Seul, il n'amortit presque rien et demande une couche de calage en dessous, mais il apporte un toucher de luxe inégalé et d'excellentes possibilités de personnalisation. Le velours est idéal pour la bijouterie et les objets précieux, la parfumerie et les cosmétiques, les cadeaux de prestige et les trophées, et pour tout produit où le moment du déballage fait la différence. Beaucoup de marques l'associent à la mousse : EVA ou EPE en couche de calage, velours floqué par-dessus pour l'esthétique."
+        },
+        {
+          "type": "h2",
+          "text": "Feutre : classique et durable"
+        },
+        {
+          "type": "p",
+          "text": "Le feutre est un non-tissé de fibres de laine pressées (ou d'alternatives synthétiques). Il offre un fini doux et mat et séduit de plus en plus les marques attentives à l'environnement. Il amortit modérément tout en affichant un luxe élégant et discret. Il se découpe, se teint et se met en forme facilement, ce qui ouvre de larges possibilités de personnalisation. Le feutre de laine est biodégradable et des versions en synthétique recyclé existent, ce qui en fait l'option la plus durable. Il convient aux marques écologiques, aux produits artisanaux, aux articles de poids moyen comme les livres, la céramique et la verrerie, et aux marques qui cherchent une esthétique naturelle."
+        },
+        {
+          "type": "h2",
+          "text": "Comparaison directe"
+        },
+        {
+          "type": "p",
+          "text": "En comparant les quatre matériaux sur les critères clés, chacun a des forces nettes. La mousse EVA domine sur la protection (5/5 étoiles) mais au prix le plus élevé ($$$). La mousse EPE offre une bonne protection (4/5 étoiles) au prix le plus bas ($). Le velours protège peu (2/5 étoiles) mais reste imbattable en esthétique (5/5 étoiles), à prix haut de gamme. Le feutre protège moyennement (3/5 étoiles) avec une excellente durabilité (5/5 étoiles) en milieu de gamme ($$)."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Critère",
+            "Mousse EVA",
+            "Mousse EPE",
+            "Velours",
+            "Feutre"
+          ],
+          "rows": [
+            [
+              "Niveau de protection",
+              "⭐⭐⭐⭐⭐",
+              "⭐⭐⭐⭐",
+              "⭐⭐",
+              "⭐⭐⭐"
+            ],
+            [
+              "Coût",
+              "$$$",
+              "$",
+              "$$$",
+              "$$"
+            ],
+            [
+              "Esthétique",
+              "⭐⭐⭐⭐",
+              "⭐⭐",
+              "⭐⭐⭐⭐⭐",
+              "⭐⭐⭐⭐"
+            ],
+            [
+              "Personnalisation",
+              "⭐⭐⭐⭐⭐",
+              "⭐⭐⭐",
+              "⭐⭐⭐⭐",
+              "⭐⭐⭐⭐"
+            ],
+            [
+              "Durabilité",
+              "⭐⭐",
+              "⭐⭐⭐",
+              "⭐⭐⭐",
+              "⭐⭐⭐⭐⭐"
+            ],
+            [
+              "Idéal pour",
+              "Électronique, outillage",
+              "Expédition en nombre",
+              "Bijoux, parfum",
+              "Marques éco, artisanat"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Grille de décision"
+        },
+        {
+          "type": "p",
+          "text": "Utilisez cette grille pour choisir votre calage. Premièrement, évaluez la fragilité du produit : les articles fragiles comme l'électronique et le verre exigent de l'EVA ou de l'EPE, les articles moyennement fragiles s'accommodent d'EPE ou de feutre, et les articles robustes vont bien avec du velours ou du feutre. Deuxièmement, fixez votre budget : un budget haut de gamme ($$$) permet l'EVA ou le velours, le milieu de gamme ($$) convient au feutre, et les projets serrés ($) prendront de l'EPE. Troisièmement, tenez compte du positionnement de marque : les marques de luxe gagnent avec du velours sur base EVA, les marques écologiques choisiront le feutre, les marques tech et professionnelles s'accordent à l'EVA, et les marques orientées prix à l'EPE. Enfin, regardez le volume de production : au-delà de 1 000 unités, la découpe automatisée de l'EVA ou de l'EPE devient rentable, entre 100 et 1 000 unités tous les matériaux conviennent, et en dessous de 100 unités le feutre et le velours se travaillent plus facilement à la main."
+        },
+        {
+          "type": "h2",
+          "text": "Cas concrets"
+        },
+        {
+          "type": "p",
+          "text": "Une marque horlogère de luxe devait protéger des montres de grande valeur tout en soignant la présentation : elle a utilisé une base de mousse EVA découpée à la forme de la montre, surmontée d'un flocage velours sur la surface EVA, obtenant une protection 5 étoiles et un déballage haut de gamme, pour 3 à 5 $ par calage avec une MOQ de 500. Un fabricant artisanal de bougies cherchait un emballage écologique pour des bougies faites main : il a opté pour des calages en feutre de laine découpés sur mesure pour ses pots ; l'image naturelle et durable correspondait à la marque et s'est traduite par 30 % de réachats en plus, pour 1,50 à 2 $ par calage avec une MOQ de 100. Un vendeur en ligne d'électronique expédiant des enceintes Bluetooth à grande échelle a retenu des protections d'angle en EPE avec coussin central, réduisant le coût d'expédition au poids et faisant passer le taux de casse de 5 % à moins de 1 %, pour 0,50 à 0,80 $ par calage avec une MOQ de 1 000."
+        },
+        {
+          "type": "h2",
+          "text": "Conseils de spécialiste"
+        },
+        {
+          "type": "p",
+          "text": "Commandez toujours des échantillons avec votre produit réel et faites un test de chute à hauteur de hanche : si le produit s'en sort, le calage fait son travail. Pensez au cycle de vie complet : pour le stockage, vérifiez si les coffrets seront empilés, car l'EVA et l'EPE résistent mieux à la compression ; pour le transport, les envois internationaux réclament la protection plus ferme de l'EVA ; pour la réutilisation, les marques de luxe gagnent avec des calages durables que le client garde, par exemple EVA plus velours. Ne vous limitez pas à un seul matériau : les meilleurs calages associent souvent une base EVA pour la structure et du velours au-dessus pour l'esthétique, ou un coussin EPE avec des séparateurs en feutre pour allier écologie et fonction."
+        },
+        {
+          "type": "p",
+          "text": "Intégrez la quantité minimale de commande (MOQ) : la mousse EVA demande en général 300 à 500 unités à cause du coût de mise en place de l'outil de découpe, la mousse EPE 500 à 1 000 unités, les doublures en velours 100 à 300 unités, et le feutre seulement 50 à 100 unités car il se travaille plus facilement en petites séries. Pour les produits alimentaires, médicaux ou destinés aux enfants, vérifiez la conformité RoHS (absence de substances dangereuses), la certification REACH du règlement européen sur les substances chimiques et l'agrément FDA pour les matériaux au contact alimentaire."
+        },
+        {
+          "type": "h2",
+          "text": "Conclusion"
+        },
+        {
+          "type": "p",
+          "text": "Choisir le bon calage pour vos coffrets en bois revient à équilibrer protection, coût, esthétique et valeurs de marque. La mousse EVA offre une protection et une personnalisation haut de gamme à $$$, et se justifie pour les produits de valeur. La mousse EPE apporte un calage léger et abordable pour un usage général, à $. Le velours assure une présentation de luxe et donne son meilleur sur une base de mousse, à $$$. Le feutre est écologique, élégant et polyvalent, à $$. Pour la plupart des projets de coffrets en bois sur mesure, nous conseillons de partir d'une base en mousse EVA, puis d'ajouter velours ou feutre par-dessus si le budget le permet. Vous obtenez ainsi le meilleur des deux : une protection fiable et une présentation qui séduit."
+        }
+      ]
+    },
     "wooden-box-closure-types-compared": {
       "title": "Fermetures de coffrets en bois comparées : coulissante, à charnières, magnétique, tiroir et serrure",
       "excerpt": "La fermeture est la première chose qu'un acheteur de coffrets en bois devrait spécifier, et la dernière que mentionnent la plupart des fiches techniques. Voici la comparaison d'un fabricant sur les cinq fermetures que nous produisons réellement : comment chacune est usinée, ce qu'elle fait au délai et à la quantité minimale, où chacune échoue, et comment choisir sans deviner.",

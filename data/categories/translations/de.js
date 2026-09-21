@@ -4,6 +4,8 @@
 
 export default {
   'gift-packaging': {
+    seoTitle: 'Holz-Geschenkboxen individuell | Lasergravur | CHIC',
+    seoDescription: 'Individuelle Holz-Geschenkboxen mit Magnet-, Scharnier- oder Schiebedeckel. Lasergravur, Schaum- und Samt-Inserts, FSC-Holz. MOQ 300–500, Musterlauf ab 100.',
     longDesc: 'Unsere Holzgeschenk- und Verpackungsboxen verwandeln ein Produkt in einen Unboxing-Moment. Ob Sie eine neue SKU lancieren, ein Corporate-Gift-Programm aufbauen oder Einzelhändler mit regalfertiger Verpackung beliefern — wir produzieren in Mengen von 100 bis 100.000+ Stück mit konsistenter Verarbeitung, Passform und Haptik.',
     features: [
       { icon: '✦', title: 'Magnet- und Scharnier-Optionen', desc: 'Verdeckter Magnetverschluss oder sichtbare Messingscharniere — beide mit weicher Premium-Haptik.' },
@@ -23,6 +25,8 @@ export default {
   },
 
   'watch-jewelry': {
+    seoTitle: 'Uhren- & Schmuckboxen aus Holz | Samtfutter | CHIC',
+    seoDescription: 'Individuelle Uhren- und Schmuckboxen aus Nussbaum und Akazie. Samtgefüttert, Soft-Close-Scharniere, Schloss optional. Für 1 bis 24 Uhren. MOQ 300–500.',
     longDesc: 'Uhren- und Schmuckboxen sind die anspruchsvollste Kategorie, die wir fertigen — sie müssen innen wie außen perfekt aussehen. Jede Box erhält filz- oder mikrofaserverkleidete Inserts, Soft-Close-Scharniere und einen Deckel, der mit null Spalt plan aufliegt. Verfügbar als Einzelstück, Multi-Watch-Winder und vollständige Schmuckkoffer.',
     features: [
       { icon: '✦', title: 'Samt- / Mikrofaser-Auskleidung', desc: 'Soft-Touch-Innenraum in 12+ Farben. Gesticktes Logo auf der Auskleidung verfügbar.' },
@@ -42,6 +46,8 @@ export default {
   },
 
   'tea-coffee': {
+    seoTitle: 'Tee- & Kaffeeboxen aus Holz | 4–9 Fächer | CHIC',
+    seoDescription: 'Individuelle Tee- und Kaffeeboxen aus Bambus oder Akazie. 4, 6, 8 oder 9 Fächer, lebensmittelechte Oberfläche, Acryl-Sichtdeckel optional. MOQ 300–500.',
     longDesc: 'Konzipiert für tägliche Küchenanwendung und das Verschenken. Innere Trenner schaffen 4, 6, 8 oder 9 Fächer — perfekt für Teebeutel-Sortimente, Kaffeepads oder Pyramiden-Sachets. Scharnierdeckel mit Magnetverschluss hält den Inhalt frisch, optionales Acrylfenster lässt sehen, was drin ist.',
     features: [
       { icon: '✦', title: 'Modulare Fächer', desc: 'Layouts mit 4 / 6 / 8 / 9 Fächern. Entfernbare Trenner ebenfalls verfügbar.' },
@@ -61,6 +67,8 @@ export default {
   },
 
   'wine-whisky': {
+    seoTitle: 'Wein- & Whiskyboxen aus Holz | Kiste oder Etui',
+    seoDescription: 'Individuelle Wein- und Whiskyboxen, von der Einzelflasche bis zur Magnum. Kiefernkisten mit Seilgriff oder Nussbaum-Etuis mit Schaumeinlage. MOQ 300–500.',
     longDesc: 'Von rustikalen Kiefernkisten mit Seilgriffen bis zu hochwertigen Walnuss-Präsentationsboxen für Limited-Edition-Releases — wir fertigen Wein- und Whiskyboxen für jedes Marktsegment. Schaumstoff-Wiegen für Flaschen, Glashalter und Zubehörfächer für Korkenzieher, Stopfen und Ausgießer.',
     features: [
       { icon: '✦', title: 'Schaum-Wiegen', desc: 'Präzisionsgeschnittener EVA-Schaum hält Flaschen ohne Klappern beim Transport fest.' },
@@ -80,6 +88,8 @@ export default {
   },
 
   'kitchen-dining': {
+    seoTitle: 'Küchenboxen aus Holz | Salz, Besteck & Brot | CHIC',
+    seoDescription: 'Individuelle Küchenboxen aus Bambus und Akazie. Salzboxen, Besteckkästen und Brotkästen mit Scharnierdeckel, lebensmittelechte Oberfläche. MOQ 300–500.',
     longDesc: 'Holzboxen für Küche und Esstisch müssen Schönheit mit täglichem Verschleiß ausbalancieren. Wir verwenden lebensmittelechte Oberflächen und langlebige Harthölzer — Bambus und Akazie sind Favoriten wegen ihrer Dichte und antibakteriellen Eigenschaften. Brotkästen mit Rolldeckel, Salzdosen mit Magnetverschluss, Besteckkästen und Gewürzhalter — auf Lager oder vollständig anpassbar.',
     features: [
       { icon: '✦', title: 'Lebensmittelechte Oberfläche', desc: 'FDA-zugelassener Lack, Mineralöl oder Bienenwachs — sicher für Küchengebrauch.' },
@@ -99,6 +109,8 @@ export default {
   },
 
   'garden-seed': {
+    seoTitle: 'Saatgutboxen aus Holz | Bambus, verstellbar | CHIC',
+    seoDescription: 'Individuelle Saatgutboxen aus Bambus, mit verstellbaren Trennwänden und Schiebe- oder Scharnierdeckel. Für Saatgutmarken und Gartenhandel. MOQ 300-500.',
     longDesc: 'Konzipiert für Outdoor- und Gartennutzung. Unsere Saatgut-Boxen haben fächerunterteilte Trenner und etikettierte Schlitze für organisierte Lagerung; unsere Pflanzgefäße sind aus fäulnisresistentem Weichholz mit Drainage und Outdoor-Grade-Oberflächen. Werkzeugkisten, Kräuter-Caddys und Terrassen-Aufbewahrung runden die Reihe ab.',
     features: [
       { icon: '✦', title: 'Outdoor-Grade-Oberfläche', desc: 'UV-beständiger Außenlack oder Naturöl für wetterfeste Außenanwendung.' },
@@ -118,6 +130,8 @@ export default {
   },
 
   'storage': {
+    seoTitle: 'Aufbewahrungs- & Erinnerungsboxen aus Massivholz',
+    seoDescription: 'Individuelle Holz-Aufbewahrungsboxen: Erinnerungs-, Schmuck-, Ätherisch-Öl- und Schreibtischboxen aus Kiefer, Akazie und Bambus. Stapelbar möglich. MOQ 300–500.',
     longDesc: 'Praktische Aufbewahrung mit Präsenz. Modulare Schubladenkommoden, stapelbare Kisten und flach stapelnde Organizer-Boxen für alles von Werkzeugen über Bürobedarf bis Retail-Backstock. Bemessen auf Standard-Schubladen- und Regaltiefen, mit optionalen Trennern, Etikettenrahmen und Rollen.',
     features: [
       { icon: '✦', title: 'Stapelbar und Modular', desc: 'Standard-Grundrisse stapeln und richten sich aus — bauen Sie das System, das Sie brauchen.' },
@@ -137,6 +151,8 @@ export default {
   },
 
   'hinged': {
+    seoTitle: 'Holzboxen mit Scharnier | Messing & Soft-Close',
+    seoDescription: 'Individuelle Scharnierboxen aus Holz: Messing- oder verdeckte Topfscharniere, Soft-Close, Verschluss oder Schloss. Jede Holzart. MOQ 300-500.',
     longDesc: 'Scharnier-Konstruktion ist die vielseitigste Struktur, die wir anbieten — geeignet für alles von Geschenkverpackung über Schmuckschatullen bis zu Humidors. Wir bieten Aufsatz-Scharniere für rustikale Looks, verdeckte europäische Scharniere für saubere Außenflächen und Soft-Close-Mechanismen für Premium-Haptik.',
     features: [
       { icon: '✦', title: 'Messing / Stahl / Schwarz', desc: 'Scharnier-Oberflächen für jedes Design — von Antikmessing bis Mattschwarz.' },
@@ -156,6 +172,8 @@ export default {
   },
 
   'sliding-lid': {
+    seoTitle: 'Holzboxen mit Schiebedeckel | ohne Beschläge | CHIC',
+    seoDescription: 'Individuelle Holzboxen mit Schiebedeckel. CNC-gefräste Nut, keine Scharniere oder Verschlüsse, die versagen. Flach versandfähig. MOQ 300-500.',
     longDesc: 'Schiebedeckel ist die sauberste Konstruktion — keine Beschläge, keine Scharniere, nur präzisionsgefräste Nuten und ein Deckel, der sanft gleitet. Perfekt für Bastelkits, Tee-Boxen, Stiftesets und jedes Produkt, bei dem das Unboxing-Erlebnis Teil des Geschenks ist.',
     features: [
       { icon: '✦', title: 'Beschlagfrei', desc: 'Keine Scharniere, keine Verschlüsse — nur Holz. Sauberstes mögliches Äußeres.' },
@@ -175,6 +193,8 @@ export default {
   },
 
   'drawer': {
+    seoTitle: 'Holzboxen mit Schublade | 1–12 Ebenen | CHIC',
+    seoDescription: 'Individuelle Schubladenboxen und mehrstöckige Kabinette mit Soft-Close-Auszügen, Messinggriffen und Etikettenrahmen. Nussbaum, Eiche und Kiefer. MOQ 300–500.',
     longDesc: 'Wenn ein einzelnes Fach nicht reicht — Schubladen-Konstruktion gibt Ihnen organisierten, zugänglichen Stauraum auf kleiner Stellfläche. Schmuckkästen mit einer Schublade, mehrstöckige Apothekerschränke und Schubladentürme im Bibliotheksstil — alle mit reibungslos laufenden Schubladenführungen und optionalen Trennern.',
     features: [
       { icon: '✦', title: 'Reibungslose Schubladenführungen', desc: 'Holz-auf-Holz, Soft-Close oder vollausziehbare Kugellager-Führungen.' },
@@ -194,6 +214,8 @@ export default {
   },
 
   'magnetic': {
+    seoTitle: 'Magnet-Holzboxen | echtes Holz, kein Karton',
+    seoDescription: 'Individuelle Holzboxen mit verdeckten Neodym-Magneten. Massivholz und Furnier, kein Kaschierkarton. Saubere Außenfläche, weiches Zuschnappen. MOQ 300–500.',
     longDesc: 'Magnetverschluss ist der moderne Standard für Premium-Geschenkverpackung. Die Neodym-Magnete sind in der Wand verborgen und hinterlassen ein perfekt sauberes Äußeres. Der Deckel schnappt mit einem weichen, gezielten Gefühl zu — das Unboxing-Erlebnis, das Ihre Marke verdient.',
     features: [
       { icon: '✦', title: 'Verdeckte Magnete', desc: 'In die Wand gefräste Neodym-Magnete — von außen völlig unsichtbar.' },
@@ -213,6 +235,8 @@ export default {
   },
 
   'with-lock': {
+    seoTitle: 'Abschließbare Holzboxen | Schlüssel & Zahlenschloss',
+    seoDescription: 'Individuelle abschließbare Holzboxen mit Messing-Schlüssel-, Hebel- oder Zahlenschloss und verstärkten Scharnieren. Nussbaum, Eiche und Kiefer. MOQ 300–500.',
     longDesc: 'Für Wertsachen, Dokumente, Medikamente und alles, was sicher bleiben muss. Wir bieten Aufsatz-Messingschlösser (der klassische Look), eingelassene Cam-Locks (sauberes Äußeres) und 3-stellige Zahlenschlösser (kein Schlüssel zu verlieren). Alle mit optionalen verstärkten Scharnieren und Stahlband-Konstruktion für extra Sicherheit.',
     features: [
       { icon: '✦', title: 'Messing- / Cam- / Kombi-Schlösser', desc: 'Aufsatz-Messing mit Schlüssel, verdecktes Cam-Lock oder 3-stellige Kombination.' },
@@ -232,6 +256,8 @@ export default {
   },
 
   'paulownia': {
+    seoTitle: 'Paulownia-Holzboxen | halb so schwer wie Kiefer',
+    seoDescription: 'Individuelle Paulownia-Boxen. Das leichteste Nutzholz, etwa halb so schwer wie Kiefer — das senkt die Frachtkosten. Scharfe Lasergravur. MOQ 300–500.',
     longDesc: 'Paulownia ist das leichteste kommerzielle Holz der Welt — Boxen wiegen halb so viel wie Kiefernäquivalente, was sich direkt in geringere Versandkosten übersetzt. Seine gerade Maserung nimmt Lasergravur wunderschön auf, und seine Dimensionsstabilität bedeutet, dass es sich nicht verzieht oder über Klimazonen reißt. Die Standardwahl für Hochvolumen-Geschenkverpackung.',
     features: [
       { icon: '✦', title: 'Halbes Gewicht wie Kiefer', desc: 'Leichtestes kommerzielles Holz — direkte Einsparungen bei Versandkosten.' },
@@ -251,6 +277,8 @@ export default {
   },
 
   'pine': {
+    seoTitle: 'Kiefernholzboxen | rustikale Maserung, bester Preis',
+    seoDescription: 'Individuelle Kiefernboxen aus Föhre und Radiata-Kiefer, astrein oder rustikal. Nimmt Brandzeichen und Beize gut an. Bestes Preis-Leistungs-Holz. MOQ 300–500.',
     longDesc: 'Kiefer ist das Arbeitspferd-Weichholz — preisgünstig, leicht zu verarbeiten und sofort erkennbar. Wir verwenden europäische Schottenkiefer und neuseeländische Radiata für saubere astfreie Sortierungen oder verwenden astige Kiefer selektiv für rustikale Kistenlooks. Hervorragend für Weinboxen, Gartenboxen und jede Anwendung, bei der Charakter Teil des Reizes ist.',
     features: [
       { icon: '✦', title: 'Astfrei oder Rustikal', desc: 'Wählen Sie saubere astfreie Sortierungen oder charaktervolle astige Kiefer.' },
@@ -270,6 +298,8 @@ export default {
   },
 
   'bamboo': {
+    seoTitle: 'Bambusboxen | FSC-zertifiziert, schnell nachwachsend',
+    seoDescription: 'Individuelle Bambusboxen. FSC-zertifiziert, antibakteriell, lebensmittelechte Oberfläche, 5-7 Jahre Erntezyklus. Tee, Küche, Eco-Geschenk. MOQ 300-500.',
     longDesc: 'Bambus ist technisch ein Gras, kein Baum — und er wächst in 5–7 Jahren statt 30–60 nach. Das macht ihn zum nachhaltigsten Strukturmaterial, das wir anbieten. Karbonisierte (Karamell) und natürliche (hellgold) Optionen, beide mit der ikonischen horizontalen Streifung. Natürlich antibakteriell — ideal für Küchen- und Bad-Anwendung.',
     features: [
       { icon: '✦', title: 'Nachhaltige Ernte', desc: 'Wächst in 5–7 Jahren nach vs. 30–60 für Hartholz — die Öko-Wahl.' },
@@ -289,6 +319,8 @@ export default {
   },
 
   'acacia': {
+    seoTitle: 'Akazienholzboxen | dichtes Hartholz, satte Maserung',
+    seoDescription: 'Individuelle Akazienboxen. Janka-Härte 2300, markante Maserung, wasserresistent mit lebensmittelechter Oberfläche. Premium-Geschenke. MOQ 300-500.',
     longDesc: 'Akazie ist eines der schönsten erschwinglichen Harthölzer auf dem Markt — dramatische Maserwirbel, warme Honig-bis-Schokoladen-Töne und außergewöhnliche Haltbarkeit. Janka-Härte über 2300 bedeutet, dass sie täglichem Gebrauch standhält, und ihre natürliche Wasserbeständigkeit macht sie zum Favoriten für Küchenwaren und Servierboxen.',
     features: [
       { icon: '✦', title: 'Dramatische Maserung', desc: 'Wirbelnde Maserungsmuster und Farbvariation — jedes Stück einzigartig.' },
@@ -308,6 +340,8 @@ export default {
   },
 
   'walnut': {
+    seoTitle: 'Nussbaumboxen | amerikanischer Schwarznussbaum | CHIC',
+    seoDescription: 'Individuelle Boxen aus amerikanischem Schwarznussbaum. Tiefe Maserung, seidig geschliffen, ohne Beize. Uhren und Schmuck. MOQ 300-500.',
     longDesc: 'Nussbaum ist das begehrteste Hartholz der Welt — und das aus gutem Grund. Die tiefe Schokoladenfarbe, die feine gerade Maserung und die seidige Oberflächen-Finish sind unverwechselbar. Wir verwenden amerikanischen Schwarznuss für den tiefsten Ton und die sauberste Maserung. Die Standardwahl, wenn Sie wollen, dass sich die Box selbst wie das Geschenk anfühlt.',
     features: [
       { icon: '✦', title: 'Tiefer Schokoladenton', desc: 'Natürlich reicher, tiefer Schokoladenton — keine Beize erforderlich.' },

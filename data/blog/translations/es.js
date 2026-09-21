@@ -3,6 +3,191 @@
 
 export default {
   "posts": {
+    "eva-vs-epe-vs-velvet-vs-felt-insert-guide": {
+      "title": "EVA, EPE, terciopelo o fieltro: qué interior elegir para cajas de madera",
+      "excerpt": "Guía completa para elegir el material interior adecuado para sus cajas de madera. Comparamos espuma EVA, espuma EPE, terciopelo y fieltro en protección, coste, estética y sostenibilidad.",
+      "category": "Materiales",
+      "readTime": "12 min de lectura",
+      "body": [
+        {
+          "type": "p",
+          "text": "Al diseñar cajas de madera a medida, el material interior es tan decisivo como la propia caja. Una elección equivocada acaba en producto dañado, costes más altos o una presentación que no convence al cliente. En esta guía comparamos cuatro materiales habituales —espuma EVA, espuma EPE, terciopelo y fieltro— según los criterios que realmente deciden: nivel de protección, relación coste-beneficio, estética, impacto ambiental y opciones de personalización."
+        },
+        {
+          "type": "h2",
+          "text": "Panorama de los materiales"
+        },
+        {
+          "type": "p",
+          "text": "Empecemos por una visión rápida de cada uno. El EVA (etileno-acetato de vinilo) es una espuma de celda cerrada conocida por su densidad, durabilidad y excelente resistencia al impacto. El EPE (polietileno expandido) es una espuma de celda abierta, ligera, flexible y económica. El terciopelo es un textil suave y afelpado, de textura rica y aspecto premium. El fieltro es un no tejido de fibras de lana prensadas, con acabado suave y mate, cada vez más solicitado por marcas con conciencia ecológica."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Material",
+            "Tipo",
+            "Uso principal",
+            "Punto fuerte"
+          ],
+          "rows": [
+            [
+              "Espuma EVA",
+              "Polímero sintético",
+              "Protección ante impactos",
+              "Absorción de golpes superior"
+            ],
+            [
+              "Espuma EPE",
+              "Espuma de polietileno",
+              "Acolchado general",
+              "Ligera y económica"
+            ],
+            [
+              "Terciopelo",
+              "Textil (sintético/natural)",
+              "Presentación de lujo",
+              "Estética premium"
+            ],
+            [
+              "Fieltro",
+              "Fibras de lana/sintéticas prensadas",
+              "Acolchado ecológico",
+              "Sostenible y suave"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Espuma EVA: protección premium"
+        },
+        {
+          "type": "p",
+          "text": "El EVA (etileno-acetato de vinilo) es una espuma de celda cerrada conocida por su densidad, durabilidad y excelente resistencia al impacto. Es el material de las esterillas de yoga, las suelas de calzado y el embalaje de electrónica de gama alta. El EVA absorbe golpes de forma excelente, con una dureza de 40-60 Shore C. Permite troquelado de precisión y puede flocarse con terciopelo para un acabado de lujo. Su precio es el más alto, pero resulta ideal para electrónica de valor como relojes, cámaras y teléfonos, para instrumental médico, para herramientas que requieren encaje exacto y para productos cuyo embalaje se va a reutilizar."
+        },
+        {
+          "type": "h2",
+          "text": "Espuma EPE: acolchado versátil"
+        },
+        {
+          "type": "p",
+          "text": "El EPE (polietileno expandido) es una espuma de celda abierta, ligera, flexible y económica. Es el «plástico de burbujas» de las espumas: blando, mullido y excelente para acolchado general. El EPE absorbe bien los golpes con una dureza menor, de 20-30 Shore C, lo que lo hace más blando y compresible que el EVA. Es asequible, reciclable y de fabricación poco contaminante. El EPE va bien cuando la protección necesaria es moderada, para embalaje a granel de varias unidades, para proyectos ajustados de presupuesto y para productos de forma regular que no exigen contornos complejos."
+        },
+        {
+          "type": "h2",
+          "text": "Terciopelo: presentación de lujo"
+        },
+        {
+          "type": "p",
+          "text": "El terciopelo es un textil suave y afelpado (seda natural o poliéster) de textura rica y aspecto premium. Se usa habitualmente en joyeros, envases de perfume y sets de regalo de gama alta. Por sí solo apenas absorbe impactos y necesita acolchado debajo, pero aporta un tacto de lujo insuperable y excelentes opciones de personalización. El terciopelo es ideal para joyería y objetos valiosos, perfumería y cosmética, regalos de lujo y trofeos, y para productos donde el momento de apertura es lo importante. Muchas marcas lo combinan con espuma: EVA o EPE como capa base de amortiguación y flocado de terciopelo encima para la estética."
+        },
+        {
+          "type": "h2",
+          "text": "Fieltro: clásico y sostenible"
+        },
+        {
+          "type": "p",
+          "text": "El fieltro es un no tejido de fibras de lana prensadas (o alternativas sintéticas). Ofrece un acabado suave y mate y gana terreno entre las marcas con conciencia ecológica. Aporta una amortiguación moderada con un lujo elegante y discreto. Se corta, tiñe y moldea con facilidad, lo que da muchas opciones de personalización. El fieltro de lana es biodegradable y existen versiones de sintético reciclado, lo que lo convierte en la opción más sostenible. Va bien para marcas ecológicas, productos artesanales, artículos de peso medio como libros, cerámica y cristalería, y para marcas que buscan una estética natural."
+        },
+        {
+          "type": "h2",
+          "text": "Comparativa directa"
+        },
+        {
+          "type": "p",
+          "text": "Al comparar los cuatro materiales según los criterios clave, cada uno tiene puntos fuertes claros. La espuma EVA destaca en protección (5/5 estrellas) pero a precio premium ($$$). La espuma EPE da buena protección (4/5 estrellas) al precio más bajo ($). El terciopelo protege poco (2/5 estrellas) pero es insuperable en estética (5/5 estrellas), a precio premium. El fieltro ofrece protección moderada (3/5 estrellas) con excelente sostenibilidad (5/5 estrellas) en la franja media ($$)."
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Criterio",
+            "Espuma EVA",
+            "Espuma EPE",
+            "Terciopelo",
+            "Fieltro"
+          ],
+          "rows": [
+            [
+              "Nivel de protección",
+              "⭐⭐⭐⭐⭐",
+              "⭐⭐⭐⭐",
+              "⭐⭐",
+              "⭐⭐⭐"
+            ],
+            [
+              "Coste",
+              "$$$",
+              "$",
+              "$$$",
+              "$$"
+            ],
+            [
+              "Estética",
+              "⭐⭐⭐⭐",
+              "⭐⭐",
+              "⭐⭐⭐⭐⭐",
+              "⭐⭐⭐⭐"
+            ],
+            [
+              "Personalización",
+              "⭐⭐⭐⭐⭐",
+              "⭐⭐⭐",
+              "⭐⭐⭐⭐",
+              "⭐⭐⭐⭐"
+            ],
+            [
+              "Sostenibilidad",
+              "⭐⭐",
+              "⭐⭐⭐",
+              "⭐⭐⭐",
+              "⭐⭐⭐⭐⭐"
+            ],
+            [
+              "Ideal para",
+              "Electrónica, herramientas",
+              "Envío a granel",
+              "Joyería, perfumería",
+              "Marcas eco, artesanía"
+            ]
+          ]
+        },
+        {
+          "type": "h2",
+          "text": "Marco de decisión"
+        },
+        {
+          "type": "p",
+          "text": "Use este marco para elegir su material interior. Primero, evalúe la fragilidad del producto: los artículos frágiles como electrónica y vidrio necesitan EVA o EPE, los de fragilidad media admiten EPE o fieltro, y los resistentes funcionan bien con terciopelo o fieltro. Segundo, defina el presupuesto: los presupuestos premium ($$$) permiten EVA o terciopelo, la franja media ($$) encaja con fieltro, y los proyectos ajustados ($) deberían usar EPE. Tercero, piense en el posicionamiento de marca: las marcas de lujo ganan con terciopelo sobre base de EVA, las ecológicas deberían elegir fieltro, las tecnológicas y profesionales encajan con EVA, y las orientadas al valor funcionan bien con EPE. Por último, valore el volumen de producción: los pedidos altos de más de 1.000 unidades aprovechan el troquelado automatizado de EVA o EPE, los volúmenes medios de 100 a 1.000 unidades admiten cualquier material, y por debajo de 100 unidades el fieltro o el terciopelo son más fáciles de trabajar a mano."
+        },
+        {
+          "type": "h2",
+          "text": "Casos reales"
+        },
+        {
+          "type": "p",
+          "text": "Una marca de relojes de lujo, ante el reto de proteger piezas de alto valor manteniendo una presentación premium, usó una capa base de espuma EVA troquelada con la forma del reloj y una capa superior de flocado de terciopelo sobre el EVA, logrando protección de 5 estrellas más una apertura de lujo, a 3-5 $ por interior con un pedido mínimo de 500. Una empresa artesanal de velas que necesitaba embalaje ecológico para velas hechas a mano usó interiores de fieltro de lana cortados a medida de los tarros; la imagen natural y sostenible encajó con su marca y se tradujo en un 30 % más de recompras, a 1,50-2 $ por interior con un mínimo de 100. Una tienda online de electrónica que enviaba altavoces Bluetooth a gran escala usó protectores de esquina de EPE con acolchado central, reduciendo el coste de envío por peso y bajando la tasa de daños del 5 % a menos del 1 %, a 0,50-0,80 $ por interior con un mínimo de 1.000."
+        },
+        {
+          "type": "h2",
+          "text": "Consejos de especialista"
+        },
+        {
+          "type": "p",
+          "text": "Pida siempre muestras con su producto real y haga una prueba de caída desde la altura de la cintura: si el producto sobrevive, el interior funciona. Piense en todo el ciclo de vida: para el almacenaje, valore si las cajas se apilarán, porque EVA y EPE resisten mejor la compresión; para el transporte, los envíos internacionales necesitan la protección más fuerte del EVA; para la reutilización, las marcas de lujo ganan con interiores duraderos que el cliente conserva, como EVA más terciopelo. No se limite a un solo material: los mejores interiores suelen combinar una base de EVA para la estructura con terciopelo encima para la estética, o un acolchado de EPE con separadores de fieltro para sumar ecología y función."
+        },
+        {
+          "type": "p",
+          "text": "Tenga en cuenta el pedido mínimo (MOQ): la espuma EVA suele exigir 300-500 unidades por el coste de preparación del troquel, la espuma EPE 500-1.000 unidades, los forros de terciopelo 100-300 unidades, y el fieltro solo 50-100 unidades porque es más fácil de trabajar en series cortas. Para productos alimentarios, sanitarios o infantiles, verifique el cumplimiento RoHS (ausencia de sustancias peligrosas), la certificación REACH del reglamento europeo de sustancias químicas y la aprobación FDA para materiales en contacto con alimentos."
+        },
+        {
+          "type": "h2",
+          "text": "Conclusión"
+        },
+        {
+          "type": "p",
+          "text": "Elegir el interior adecuado para sus cajas de madera consiste en equilibrar protección, coste, estética y valores de marca. La espuma EVA ofrece protección y personalización premium a $$$, y compensa en productos de alto valor. La espuma EPE aporta acolchado ligero y asequible para uso general, a $. El terciopelo da presentación de lujo y rinde mejor sobre una base de espuma, a $$$. El fieltro es ecológico, elegante y versátil, a $$. Para la mayoría de proyectos de cajas de madera a medida recomendamos empezar con espuma EVA como base y añadir terciopelo o fieltro encima si el presupuesto lo permite. Así se obtiene lo mejor de ambos mundos: protección en la que confiar y una presentación que encanta."
+        }
+      ]
+    },
     "wooden-box-closure-types-compared": {
       "title": "Cierres de cajas de madera comparados: deslizante, con bisagras, magnético, cajón y cerradura",
       "excerpt": "El cierre es lo primero que debería especificar un comprador de cajas de madera y lo último que mencionan la mayoría de las fichas técnicas. Esta es la comparación de un fabricante sobre los cinco cierres que realmente construimos: cómo se mecaniza cada uno, qué hace con el plazo de entrega y el pedido mínimo, dónde falla cada uno y cómo elegir sin adivinar.",

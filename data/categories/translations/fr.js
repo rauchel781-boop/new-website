@@ -4,6 +4,8 @@
 
 export default {
   'gift-packaging': {
+    seoTitle: 'Coffrets cadeaux en bois sur mesure | Gravure | CHIC',
+    seoDescription: 'Coffrets cadeaux en bois sur mesure : fermeture magnétique, charnières ou couvercle coulissant. Gravure laser, calage mousse ou velours, bois FSC. MOQ 300-500.',
     longDesc: 'Nos boîtes cadeau et de packaging en bois transforment un produit en moment d\'unboxing. Que vous lanciez un nouveau SKU, construisiez un programme de cadeaux d\'entreprise ou fournissiez aux détaillants un packaging prêt-rayon, nous produisons en volumes de 100 à 100 000+ pièces avec finition, ajustement et feel cohérents.',
     features: [
       { icon: '✦', title: 'Options Magnétique et Charnière', desc: 'Fermeture magnétique cachée ou charnières laiton visibles — toutes deux avec un feel doux et premium.' },
@@ -23,6 +25,8 @@ export default {
   },
 
   'watch-jewelry': {
+    seoTitle: 'Coffrets montres et bijoux en bois | Velours | CHIC',
+    seoDescription: 'Coffrets à montres et écrins à bijoux sur mesure, noyer et acacia. Intérieur velours, charnières amorties, serrure en option. 1 à 24 montres. MOQ 300-500.',
     longDesc: 'Les boîtes pour montres et bijoux sont la catégorie la plus exigeante que nous fabriquons — elles doivent être parfaites à l\'intérieur comme à l\'extérieur. Chaque boîte reçoit des inserts feutre ou microfibre, des charnières soft-close et un couvercle qui ferme à plat avec zéro jeu. Disponibles en monoplace, multi-watch winder et coffrets complets pour bijoux.',
     features: [
       { icon: '✦', title: 'Doublure Velours / Microfibre', desc: 'Intérieur soft-touch en 12+ couleurs. Logo brodé sur la doublure disponible.' },
@@ -42,6 +46,8 @@ export default {
   },
 
   'tea-coffee': {
+    seoTitle: 'Coffrets thé et café en bois | 4 à 9 compartiments',
+    seoDescription: 'Coffrets à thé et café en bois sur mesure, bambou ou acacia. 4, 6, 8 ou 9 compartiments, finition alimentaire, fenêtre acrylique en option. MOQ 300-500.',
     longDesc: 'Conçues pour usage quotidien en cuisine et pour le cadeau. Les séparateurs internes créent 4, 6, 8 ou 9 compartiments — parfaits pour sélections de sachets de thé, capsules de café ou sachets pyramide. Couvercle à charnière avec fermeture magnétique garde le contenu frais, fenêtre acrylique optionnelle laisse voir l\'intérieur.',
     features: [
       { icon: '✦', title: 'Compartiments Modulaires', desc: 'Layouts à 4 / 6 / 8 / 9 compartiments. Séparateurs amovibles également disponibles.' },
@@ -61,6 +67,8 @@ export default {
   },
 
   'wine-whisky': {
+    seoTitle: 'Coffrets vin et whisky en bois | Caisse ou écrin',
+    seoDescription: 'Coffrets vin et whisky sur mesure, de la bouteille au magnum. Caisses pin à poignée corde ou écrins noyer avec berceau mousse. MOQ 300-500.',
     longDesc: 'Des caisses rustiques en pin à poignées corde aux boîtes de présentation walnut haut de gamme pour éditions limitées — nous fabriquons des boîtes pour vin et whisky pour chaque segment du marché. Berceaux mousse découpée pour bouteilles, supports verres et compartiments accessoires pour tire-bouchons, bouchons et verseurs.',
     features: [
       { icon: '✦', title: 'Berceaux Mousse Découpée', desc: 'Mousse EVA découpée avec précision maintient les bouteilles fermes sans secousse en transport.' },
@@ -80,6 +88,8 @@ export default {
   },
 
   'kitchen-dining': {
+    seoTitle: 'Boîtes de cuisine en bois | Sel, couverts et pain',
+    seoDescription: 'Boîtes de cuisine en bois sur mesure, bambou et acacia. Boîtes à sel, à couverts et huches à pain à couvercle charnière, finition alimentaire. MOQ 300-500.',
     longDesc: 'Les boîtes en bois pour cuisine et dining doivent équilibrer beauté et usure quotidienne. Nous utilisons des finitions alimentaires et des bois durs durables — le bambou et l\'acacia sont favoris pour leur densité et propriétés antibactériennes. Boîtes à pain avec couvercles tambour, salières à fermeture magnétique, range-couverts et porte-condiments — disponibles en stock ou entièrement personnalisés.',
     features: [
       { icon: '✦', title: 'Finition Alimentaire', desc: 'Laque approuvée FDA, huile minérale ou cire d\'abeille — sûre pour usage cuisine.' },
@@ -99,6 +109,8 @@ export default {
   },
 
   'garden-seed': {
+    seoTitle: 'Boîtes à graines en bois | Bambou, séparateurs | CHIC',
+    seoDescription: 'Boîtes à graines en bois sur mesure, en bambou, séparateurs réglables et couvercle coulissant ou à charnières. Semences et jardineries. MOQ 300-500.',
     longDesc: 'Conçues pour usage extérieur et jardin. Nos boîtes à graines ont des séparateurs compartimentés et des fentes étiquetées pour stockage organisé ; nos jardinières sont en bois tendre résistant à la pourriture avec drainage et finitions outdoor-grade. Caisses à outils, porte-herbes et rangement patio complètent la gamme.',
     features: [
       { icon: '✦', title: 'Finition Outdoor-Grade', desc: 'Laque extérieure UV-résistante ou huile naturelle pour usage extérieur à l\'épreuve des intempéries.' },
@@ -118,6 +130,8 @@ export default {
   },
 
   'storage': {
+    seoTitle: 'Boîtes de rangement et à souvenirs en bois massif',
+    seoDescription: 'Boîtes de rangement en bois sur mesure : souvenirs, bijoux, huiles essentielles, bureau. Pin, acacia et bambou. Empilables. MOQ 300-500.',
     longDesc: 'Rangement pratique avec présence. Meubles à tiroirs modulaires, caisses empilables et boîtes organisateur flat-stacking pour tout, des outils aux fournitures bureau au back-stock retail. Dimensionnées aux profondeurs standard de tiroirs et étagères, avec séparateurs optionnels, cadres d\'étiquette et roulettes pivotantes.',
     features: [
       { icon: '✦', title: 'Empilable et Modulaire', desc: 'Empreintes standard s\'empilent et s\'alignent — construisez le système dont vous avez besoin.' },
@@ -137,6 +151,8 @@ export default {
   },
 
   'hinged': {
+    seoTitle: 'Coffrets en bois à charnières | Laiton et amorti',
+    seoDescription: 'Coffrets en bois à charnières sur mesure : laiton ou charnières invisibles, fermeture amortie, fermoir ou serrure. Toute essence. MOQ 300-500.',
     longDesc: 'La construction à charnières est la structure la plus polyvalente que nous offrons — appropriée pour tout, du packaging cadeau aux boîtes à bijoux aux humidors. Nous offrons des charnières de surface pour looks rustiques, des charnières européennes cachées pour extérieurs propres et des mécanismes soft-close pour un feel premium.',
     features: [
       { icon: '✦', title: 'Laiton / Acier / Noir', desc: 'Finitions charnière pour tout design — du laiton ancien au noir mat.' },
@@ -156,6 +172,8 @@ export default {
   },
 
   'sliding-lid': {
+    seoTitle: 'Coffrets à couvercle coulissant | Sans quincaillerie',
+    seoDescription: 'Coffrets à couvercle coulissant sur mesure. Rainure usinée CNC, aucune charnière ni fermoir à casser. Expédition à plat. MOQ 300-500.',
     longDesc: 'Le couvercle coulissant est la construction la plus propre — pas de quincaillerie, pas de charnières, juste des rainures fraisées avec précision et un couvercle qui glisse en douceur. Parfait pour kits artisanaux, boîtes à thé, sets de stylos et tout produit où l\'expérience d\'unboxing fait partie du cadeau.',
     features: [
       { icon: '✦', title: 'Sans Quincaillerie', desc: 'Pas de charnières, pas de loquets — juste du bois. Extérieur le plus propre possible.' },
@@ -175,6 +193,8 @@ export default {
   },
 
   'drawer': {
+    seoTitle: 'Coffrets en bois à tiroir | 1 à 12 niveaux | CHIC',
+    seoDescription: 'Coffrets en bois à tiroir sur mesure, 1 à 12 niveaux, coulisses amorties, poignées laiton. Noyer, chêne et pin. MOQ 300-500.',
     longDesc: 'Quand un seul compartiment ne suffit pas — la construction à tiroir offre un stockage organisé et accessible dans un petit encombrement. Boîtes à bijoux mono-tiroir, meubles apothecary multi-niveaux et tours à tiroirs style bibliothèque — toutes avec coulisses fluides et séparateurs optionnels.',
     features: [
       { icon: '✦', title: 'Coulisses Tiroir Fluides', desc: 'Bois-sur-bois, soft-close ou coulisses à billes pleine extension.' },
@@ -194,6 +214,8 @@ export default {
   },
 
   'magnetic': {
+    seoTitle: 'Coffrets en bois magnétiques | Vrai bois, pas carton',
+    seoDescription: 'Coffrets en bois sur mesure à aimants néodyme cachés. Bois massif et placage, pas de carton rigide. Extérieur net, fermeture douce. MOQ 300-500.',
     longDesc: 'La fermeture magnétique est le standard moderne pour packaging cadeau premium. Les aimants néodyme sont cachés dans la paroi, laissant un extérieur parfaitement propre. Le couvercle se ferme avec un snap doux et délibéré — l\'expérience d\'unboxing que votre marque mérite.',
     features: [
       { icon: '✦', title: 'Aimants Cachés', desc: 'Aimants néodyme fraisés dans la paroi — complètement invisibles de l\'extérieur.' },
@@ -213,6 +235,8 @@ export default {
   },
 
   'with-lock': {
+    seoTitle: 'Coffrets en bois à serrure | Clé laiton et code',
+    seoDescription: 'Coffrets en bois verrouillables sur mesure : serrure à clé laiton, à came ou à code, charnières renforcées. Noyer, chêne, pin. MOQ 300-500.',
     longDesc: 'Pour les objets de valeur, documents, médicaments et tout ce qui doit rester sécurisé. Nous offrons des serrures laiton de surface (le look classique), des cam locks encastrés (extérieur propre) et des serrures à combinaison 3 chiffres (pas de clé à perdre). Toutes avec charnières renforcées optionnelles et construction avec sangles acier pour sécurité extra.',
     features: [
       { icon: '✦', title: 'Serrure Laiton / Cam / Combinaison', desc: 'Laiton de surface avec clé, cam lock caché ou combinaison 3 chiffres.' },
@@ -232,6 +256,8 @@ export default {
   },
 
   'paulownia': {
+    seoTitle: 'Coffrets en paulownia | Moitié moins lourd que le pin',
+    seoDescription: 'Coffrets en paulownia sur mesure. Le bois commercial le plus léger, moitié moins lourd que le pin : le fret baisse. MOQ 300-500.',
     longDesc: 'Le paulownia est le bois commercial le plus léger au monde — les boîtes pèsent la moitié de leurs équivalents en pin, ce qui se traduit directement par des coûts de transport inférieurs. Son grain droit reçoit la gravure laser magnifiquement, et sa stabilité dimensionnelle signifie qu\'il ne se déforme ni ne se fissure à travers les climats. Le choix par défaut pour packaging cadeau gros volume.',
     features: [
       { icon: '✦', title: 'Moitié du Poids du Pin', desc: 'Bois commercial le plus léger — économies directes sur les coûts de transport.' },
@@ -251,6 +277,8 @@ export default {
   },
 
   'pine': {
+    seoTitle: 'Coffrets en pin | Veine rustique, meilleur rapport',
+    seoDescription: 'Coffrets en pin sur mesure, sylvestre et radiata, sans nœuds ou rustique. Accepte bien pyrogravure et teinte. Meilleur rapport. MOQ 300-500.',
     longDesc: 'Le pin est le bois tendre cheval de bataille — abordable, facile à travailler et immédiatement reconnaissable. Nous utilisons le pin sylvestre européen et le radiata néo-zélandais pour les grades propres sans nœuds, ou utilisons le pin avec nœuds sélectivement pour looks caisse rustique. Excellent pour boîtes à vin, boîtes de jardin et toute application où le caractère fait partie de l\'attrait.',
     features: [
       { icon: '✦', title: 'Sans Nœuds ou Rustique', desc: 'Choisissez des grades propres sans nœuds ou pin riche en caractère avec nœuds.' },
@@ -270,6 +298,8 @@ export default {
   },
 
   'bamboo': {
+    seoTitle: 'Boîtes en bambou | Certifié FSC, repousse rapide',
+    seoDescription: 'Boîtes en bambou sur mesure. Certifié FSC, antibactérien, finition alimentaire, récolte en 5 à 7 ans. Thé, cuisine, éco-cadeau. MOQ 300-500.',
     longDesc: 'Le bambou est techniquement une herbe, pas un arbre — et il repousse en 5–7 ans au lieu de 30–60. Cela en fait le matériau structurel le plus durable que nous offrons. Options carbonisée (caramel) et naturelle (or pâle), toutes deux avec le rayage horizontal iconique. Naturellement antibactérien — idéal pour usage cuisine et bain.',
     features: [
       { icon: '✦', title: 'Récolte Durable', desc: 'Repousse en 5–7 ans vs 30–60 pour bois dur — le choix éco.' },
@@ -289,6 +319,8 @@ export default {
   },
 
   'acacia': {
+    seoTitle: 'Coffrets en acacia | Bois dur dense, veine marquée',
+    seoDescription: 'Coffrets en acacia sur mesure. Dureté Janka 2300, veine tourbillonnante, résistant à l\'eau, finition alimentaire. Cadeau premium. MOQ 300-500.',
     longDesc: 'L\'acacia est l\'un des plus beaux bois durs abordables sur le marché — veines dramatiques, tons chauds miel à chocolat et durabilité exceptionnelle. Dureté Janka au-dessus de 2300 signifie qu\'il résiste à l\'usage quotidien, et sa résistance naturelle à l\'eau le rend favori pour ustensiles cuisine et boîtes de service.',
     features: [
       { icon: '✦', title: 'Veines Dramatiques', desc: 'Motifs de veine tourbillonnants et variation de couleur — chaque pièce unique.' },
@@ -308,6 +340,8 @@ export default {
   },
 
   'walnut': {
+    seoTitle: 'Coffrets en noyer | Noyer noir d\'Amérique | CHIC',
+    seoDescription: 'Coffrets en noyer noir d\'Amérique sur mesure. Veine chocolat profonde, ponçage soyeux, sans teinte. Montres et bijoux. MOQ 300-500.',
     longDesc: 'Le noyer est le bois dur le plus convoité au monde — et pour cause. La couleur chocolat profond, le grain fin et droit et la finition de surface soyeuse sont sans équivoque. Nous utilisons le noyer noir américain pour le ton le plus profond et le grain le plus propre. Le choix par défaut quand vous voulez que la boîte elle-même se sente comme le cadeau.',
     features: [
       { icon: '✦', title: 'Ton Chocolat Profond', desc: 'Naturellement riche, couleur chocolat profond — aucune teinte requise.' },

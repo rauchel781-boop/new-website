@@ -8,6 +8,8 @@
 
 export default {
   'gift-packaging': {
+    seoTitle: 'Scatole regalo in legno su misura | Incisione | CHIC',
+    seoDescription: 'Scatole regalo in legno su misura: chiusura magnetica, a cerniera o coperchio scorrevole. Incisione laser, inserti in spugna o velluto, legno FSC. MOQ 300-500.',
     longDesc: 'Le nostre scatole regalo e packaging in legno trasformano un prodotto in un momento di unboxing. Che tu stia lanciando un nuovo SKU, costruendo un programma corporate gift o rifornendo rivenditori di packaging pronto per lo scaffale, produciamo in volumi da 100 a 100.000+ pezzi con finitura, fit e feel coerenti.',
     features: [
       { icon: '✦', title: 'Chiusura Magnetica o a Cerniera', desc: 'Chiusura magnetica nascosta o cerniere in ottone a vista — entrambe con feel morbido e premium.' },
@@ -27,6 +29,8 @@ export default {
   },
 
   'watch-jewelry': {
+    seoTitle: 'Scatole per orologi e gioielli in legno | Velluto',
+    seoDescription: 'Scatole per orologi e portagioie su misura, noce e acacia. Interno in velluto, cerniere ammortizzate, serratura opzionale. Da 1 a 24 orologi. MOQ 300-500.',
     longDesc: 'Le scatole per orologi e gioielli sono la categoria più esigente che produciamo — devono essere perfette dentro e fuori. Ogni scatola ha inserti rivestiti in feltro o microfibra, cerniere soft-close e un coperchio che chiude piatto a zero gap. Disponibili monoposto, multi-watch winder e cofanetti completi per gioielli.',
     features: [
       { icon: '✦', title: 'Rivestimento Velluto / Microfibra', desc: 'Interno soft-touch in 12+ colori. Logo ricamato sul rivestimento disponibile.' },
@@ -46,6 +50,8 @@ export default {
   },
 
   'tea-coffee': {
+    seoTitle: 'Scatole per tè e caffè in legno | 4-9 scomparti',
+    seoDescription: 'Scatole per tè e caffè in legno su misura, bambù o acacia. 4, 6, 8 o 9 scomparti, finitura per alimenti, finestra in acrilico opzionale. MOQ 300-500.',
     longDesc: 'Progettate per uso quotidiano in cucina e per il gifting. I divisori interni creano 4, 6, 8 o 9 scomparti — perfetti per selezioni di bustine tè, capsule caffè o sachet piramidali. Coperchio a cerniera con chiusura magnetica mantiene il contenuto fresco, finestra opzionale in acrilico permette di vedere cosa c\'è dentro.',
     features: [
       { icon: '✦', title: 'Scomparti Modulari', desc: 'Layout a 4 / 6 / 8 / 9 scomparti. Divisori rimovibili anche disponibili.' },
@@ -65,6 +71,8 @@ export default {
   },
 
   'wine-whisky': {
+    seoTitle: 'Cassette per vino e whisky in legno | Pino o noce',
+    seoDescription: 'Cassette per vino e whisky su misura, dalla bottiglia al magnum. Cassette in pino con maniglia in corda o astucci in noce con culla. MOQ 300-500.',
     longDesc: 'Dalle cassette rustiche in pino con manici in corda alle scatole walnut di alta gamma per release limited edition — produciamo scatole per vino e whisky per ogni segmento di mercato. Culle in schiuma tagliata per bottiglie, supporti per bicchieri e scomparti accessori per cavatappi, tappi e dosatori.',
     features: [
       { icon: '✦', title: 'Culle in Schiuma Tagliata', desc: 'Schiuma EVA tagliata con precisione tiene le bottiglie ferme con zero scuotimento in trasporto.' },
@@ -84,6 +92,8 @@ export default {
   },
 
   'kitchen-dining': {
+    seoTitle: 'Scatole da cucina in legno | Sale, posate e pane',
+    seoDescription: 'Scatole da cucina in legno su misura, bambù e acacia. Portasale, portaposate e portapane con coperchio a cerniera, finitura per alimenti. MOQ 300-500.',
     longDesc: 'Le scatole in legno per cucina e dining devono bilanciare bellezza con usura quotidiana. Usiamo finiture food-safe e legni duri resistenti — bambù e acacia sono i preferiti per densità e proprietà antibatteriche. Portapane con coperchi tambour, saliere con chiusura magnetica, portaposate e portacondimenti — disponibili a stock o completamente personalizzati.',
     features: [
       { icon: '✦', title: 'Finitura Food-Safe', desc: 'Lacca approvata FDA, olio minerale o cera d\'api — sicura per uso cucina.' },
@@ -103,6 +113,8 @@ export default {
   },
 
   'garden-seed': {
+    seoTitle: 'Scatole portasemi in legno | Bambù, divisori | CHIC',
+    seoDescription: 'Scatole portasemi in legno su misura, in bambù, con divisori regolabili e coperchio scorrevole o a cerniera. Per marchi di sementi e garden retail. MOQ 300-500.',
     longDesc: 'Progettate per uso esterno e giardino. Le nostre scatole per semi hanno divisori a scomparti e slot etichettati per uno storage organizzato; le nostre fioriere sono in softwood resistente al marciume con drenaggio e finiture outdoor-grade. Cassette per attrezzi, portavasi per erbe aromatiche e storage da patio completano la gamma.',
     features: [
       { icon: '✦', title: 'Finitura Outdoor-Grade', desc: 'Lacca esterna UV-resistente o olio naturale per uso outdoor a prova di intemperie.' },
@@ -122,6 +134,8 @@ export default {
   },
 
   'storage': {
+    seoTitle: 'Scatole portaoggetti e ricordi in legno massello',
+    seoDescription: 'Scatole portaoggetti in legno su misura: ricordi, gioielli, oli essenziali e organizer da scrivania in pino, acacia e bambù. Versione impilabile. MOQ 300-500.',
     longDesc: 'Storage pratico con presenza. Cassettiere modulari, casse impilabili e scatole organizer flat-stacking per tutto, dagli utensili agli articoli da ufficio al back-stock retail. Dimensionate alle profondità standard di cassetti e scaffali, con divisori opzionali, telai per etichette e ruote rotanti.',
     features: [
       { icon: '✦', title: 'Impilabile e Modulare', desc: 'Footprint standard si impilano e si allineano — costruisci il sistema che ti serve.' },
@@ -141,6 +155,8 @@ export default {
   },
 
   'hinged': {
+    seoTitle: 'Scatole in legno a cerniera | Ottone e ammortizzate',
+    seoDescription: 'Scatole in legno a cerniera su misura: ottone o cerniere a scodellino a scomparsa, chiusura ammortizzata, gancio o serratura. MOQ 300-500.',
     longDesc: 'La costruzione a cerniera è la struttura più versatile che offriamo — appropriata per tutto, dal packaging regalo alle scatole per gioielli ai humidor. Offriamo cerniere a vista per look rustici, cerniere europee nascoste per esterni puliti e meccanismi soft-close per un feel premium.',
     features: [
       { icon: '✦', title: 'Ottone / Acciaio / Nero', desc: 'Finiture cerniera per ogni design — dall\'ottone antico al nero opaco.' },
@@ -160,6 +176,8 @@ export default {
   },
 
   'sliding-lid': {
+    seoTitle: 'Scatole con coperchio scorrevole | Senza ferramenta',
+    seoDescription: 'Scatole con coperchio scorrevole su misura. Scanalatura fresata a CNC, nessuna cerniera o gancio che ceda. Spedizione piatta. MOQ 300-500.',
     longDesc: 'Il coperchio scorrevole è la costruzione più pulita — nessun hardware, nessuna cerniera, solo scanalature fresate con precisione e un coperchio che scorre liscio. Perfetto per craft kit, scatole tè, set di penne e qualsiasi prodotto dove l\'esperienza di unboxing fa parte del regalo.',
     features: [
       { icon: '✦', title: 'Senza Ferramenta', desc: 'Niente cerniere, niente ganci — solo legno. Esterno il più pulito possibile.' },
@@ -179,6 +197,8 @@ export default {
   },
 
   'drawer': {
+    seoTitle: 'Scatole in legno a cassetto | Da 1 a 12 livelli',
+    seoDescription: 'Scatole e mobiletti a cassetto su misura, da 1 a 12 livelli, guide ammortizzate, maniglie in ottone. Noce, rovere e pino. MOQ 300-500.',
     longDesc: 'Quando un singolo scomparto non basta — la costruzione a cassetto offre storage organizzato e accessibile in poco spazio. Scatole gioielli a cassetto singolo, cassettiere apothecary multi-tier e torri a cassetto stile biblioteca — tutto con guide scorrevoli fluide e divisori opzionali.',
     features: [
       { icon: '✦', title: 'Guide Cassetto Fluide', desc: 'Legno-su-legno, soft-close o guide a sfera a estrazione totale.' },
@@ -198,6 +218,8 @@ export default {
   },
 
   'magnetic': {
+    seoTitle: 'Scatole in legno magnetiche | Legno vero, non cartone',
+    seoDescription: 'Scatole in legno su misura con magneti al neodimio nascosti. Legno massello e impiallacciato, non cartone rigido. Esterno pulito, chiusura morbida. MOQ 300-500.',
     longDesc: 'La chiusura magnetica è lo standard moderno per il packaging regalo premium. I magneti al neodimio sono nascosti nella parete, lasciando un esterno perfettamente pulito. Il coperchio si chiude con uno snap morbido e deliberato — l\'esperienza di unboxing che il tuo brand merita.',
     features: [
       { icon: '✦', title: 'Magneti Nascosti', desc: 'Magneti al neodimio fresati nella parete — completamente invisibili dall\'esterno.' },
@@ -217,6 +239,8 @@ export default {
   },
 
   'with-lock': {
+    seoTitle: 'Scatole in legno con serratura | Chiave e combinazione',
+    seoDescription: 'Scatole in legno con serratura su misura: chiave in ottone, camma o combinazione, cerniere rinforzate. Noce, rovere e pino. MOQ 300-500.',
     longDesc: 'Per oggetti di valore, documenti, medicinali e qualsiasi cosa debba rimanere protetta. Offriamo serrature in ottone a vista (il look classico), cam lock incassati (esterno pulito) e serrature a combinazione a 3 cifre (nessuna chiave da perdere). Tutte con cerniere rinforzate opzionali e costruzione con strap in acciaio per sicurezza extra.',
     features: [
       { icon: '✦', title: 'Serratura Ottone / Cam / Combinazione', desc: 'Ottone a vista con chiave, cam lock nascosto o combinazione a 3 cifre.' },
@@ -236,6 +260,8 @@ export default {
   },
 
   'paulownia': {
+    seoTitle: 'Scatole in paulownia | Metà del peso del pino',
+    seoDescription: 'Scatole in paulownia su misura. Il legname commerciale più leggero, metà del peso del pino: il trasporto costa meno. MOQ 300-500.',
     longDesc: 'La paulownia è il legname commerciale più leggero al mondo — le scatole pesano la metà delle equivalenti in pino, il che si traduce direttamente in costi di spedizione inferiori. La sua venatura diritta accoglie magnificamente l\'incisione laser, e la sua stabilità dimensionale significa che non si deforma né si crepa attraverso i climi. La scelta predefinita per packaging regalo ad alto volume.',
     features: [
       { icon: '✦', title: 'Metà del Peso del Pino', desc: 'Legname commerciale più leggero — risparmi diretti sui costi di spedizione.' },
@@ -255,6 +281,8 @@ export default {
   },
 
   'pine': {
+    seoTitle: 'Scatole in pino | Venatura rustica, miglior prezzo',
+    seoDescription: 'Scatole in pino su misura, silvestre e radiata, senza nodi o rustico. Accetta bene pirografia e mordente. Miglior rapporto. MOQ 300-500.',
     longDesc: 'Il pino è il softwood cavallo da battaglia — economico, facile da lavorare e immediatamente riconoscibile. Usiamo pino scozzese europeo e radiata neozelandese per gradi puliti senza nodi, oppure usiamo pino con nodi selettivamente per look cassetta rustica. Eccellente per scatole vino, scatole da giardino e qualsiasi applicazione dove il carattere è parte dell\'attrattiva.',
     features: [
       { icon: '✦', title: 'Senza Nodi o Rustico', desc: 'Scegli gradi puliti senza nodi o pino ricco di carattere con nodi.' },
@@ -274,6 +302,8 @@ export default {
   },
 
   'bamboo': {
+    seoTitle: 'Scatole in bambù | Certificato FSC, ricrescita rapida',
+    seoDescription: 'Scatole in bambù su misura. Certificato FSC, antibatterico, finitura per alimenti, raccolta in 5-7 anni. Tè, cucina, eco-regalo. MOQ 300-500.',
     longDesc: 'Il bambù è tecnicamente un\'erba, non un albero — e ricresce in 5–7 anni invece di 30–60. Questo lo rende il materiale strutturale più sostenibile che offriamo. Opzioni carbonizzata (caramello) e naturale (oro pallido), entrambe con l\'iconica striatura orizzontale. Naturalmente antibatterico — ideale per uso cucina e bagno.',
     features: [
       { icon: '✦', title: 'Raccolta Sostenibile', desc: 'Ricresce in 5–7 anni vs 30–60 per hardwood — la scelta eco.' },
@@ -293,6 +323,8 @@ export default {
   },
 
   'acacia': {
+    seoTitle: 'Scatole in acacia | Legno duro denso, venatura ricca',
+    seoDescription: 'Scatole in acacia su misura. Durezza Janka 2300, venatura vorticosa, resistente all\'acqua, finitura per alimenti. Regalo premium. MOQ 300-500.',
     longDesc: 'L\'acacia è uno dei più bei hardwood economici sul mercato — venature drammatiche, toni caldi dal miele al cioccolato e durabilità eccezionale. Durezza Janka oltre 2300 significa che resiste all\'uso quotidiano, e la sua naturale resistenza all\'acqua la rende preferita per stoviglie e scatole da portata.',
     features: [
       { icon: '✦', title: 'Venatura Drammatica', desc: 'Disegni di venatura vorticosi e variazione di colore — ogni pezzo unico.' },
@@ -312,6 +344,8 @@ export default {
   },
 
   'walnut': {
+    seoTitle: 'Scatole in noce | Noce nero americano | CHIC',
+    seoDescription: 'Scatole in noce nero americano su misura. Venatura cioccolato profonda, levigatura setosa, senza mordente. Orologi e gioielli. MOQ 300-500.',
     longDesc: 'Il noce è l\'hardwood più ambito al mondo — e per una buona ragione. Il colore cioccolato profondo, la venatura fine e dritta e la finitura superficiale setosa sono inconfondibili. Usiamo noce americano nero per il tono più profondo e la venatura più pulita. La scelta predefinita quando vuoi che la scatola stessa sembri il regalo.',
     features: [
       { icon: '✦', title: 'Tono Cioccolato Profondo', desc: 'Naturalmente ricco, colore cioccolato profondo — non richiede tintura.' },
