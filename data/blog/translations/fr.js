@@ -3,6 +3,352 @@
 
 export default {
   "posts": {
+    "custom-wooden-storage-boxes-with-removable-dividers-buyers-guide": {
+      "title": "Coffrets en bois à séparateurs amovibles : le guide d'achat",
+      "excerpt": "Guide d'achat complet pour les coffrets de rangement en bois sur mesure à séparateurs amovibles. Choix du matériau, épaisseurs, MOQ, méthodes de marquage, options d'emballage et contrôle qualité, par une usine chinoise forte de plus de 20 ans d'expérience.",
+      "category": "Guides d'achat",
+      "readTime": "14 min de lecture",
+      "body": [
+        {
+          "type": "p",
+          "text": "Les coffrets de rangement en bois sur mesure à séparateurs amovibles font partie de nos produits OEM les plus demandés. Ils conviennent aux marques de bijoux, aux maisons de thé, aux importateurs d'épices, aux fabricants de kits éducatifs, aux détaillants de fournitures créatives et aux marques de coffrets cadeaux. Comme les séparateurs s'enlèvent, le client final réorganise les compartiments selon ce qu'il range, ce qui ajoute de la souplesse et de la valeur perçue. Depuis notre atelier, voici ce qu'il faut savoir avant de commander : choix du matériau, épaisseurs, types de séparateurs, méthodes de marquage, MOQ, échantillonnage et contrôle qualité."
+        },
+        {
+          "type": "h2",
+          "text": "Qu'est-ce qu'un coffret en bois à séparateurs amovibles ?"
+        },
+        {
+          "type": "p",
+          "text": "Un coffret de rangement en bois sur mesure à séparateurs amovibles est un coffret à couvercle doté de cloisons intérieures que l'on peut soulever, déplacer ou retirer entièrement. Les séparateurs s'insèrent généralement dans des rainures ou s'emboîtent en grille au fond. Notre usine les produit du format 15 × 10 × 5 cm (petit écrin à bijoux) au format 40 × 30 × 10 cm (grand organiseur à thé ou à loisirs créatifs). Le corps peut être en pin abouté, en contreplaqué à queues d'aronde, en MDF plaqué, en bambou ou en acacia massif, selon votre positionnement prix."
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-2/set-2-01.png",
+          "caption": "Le système de séparateurs amovibles laisse l'utilisateur final définir la taille de chaque compartiment — bijoux, montres ou petits accessoires."
+        },
+        {
+          "type": "p",
+          "text": "Les séparateurs eux-mêmes font en général 3 à 5 mm d'épaisseur et reprennent le matériau du corps pour un rendu homogène. Certains acheteurs demandent un fond garni de feutre ou des inserts en velours pour protéger les pièces délicates comme les bijoux ou les montres. Selon le brief, nous ajoutons aussi de petites poignées en laiton ou en inox, des fermoirs magnétiques ou un couvercle à charnières."
+        },
+        {
+          "type": "h2",
+          "text": "Applications courantes"
+        },
+        {
+          "type": "p",
+          "text": "Vu de notre bureau des devis, voici les usages que nous rencontrons le plus :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Écrins à bijoux : bagues, boucles d'oreilles, bracelets, colliers — les séparateurs évitent que tout s'emmêle.",
+            "Coffrets à thé : plusieurs variétés en sachets ou du thé en vrac en boîtes, un compartiment par saveur.",
+            "Organiseurs à épices : petits pots ou sachets, les séparateurs empêchent les arômes de se mélanger.",
+            "Kits éducatifs : jouets STEM, fournitures d'arts plastiques, sachets de graines — les séparateurs rangent les pièces.",
+            "Rangement pour loisirs créatifs : perles, boutons, fils, petits outils — les compartiments modulaires suivent chaque projet.",
+            "Coffrets d'huiles essentielles : flacons de 5 à 15 ml, les séparateurs les maintiennent droits et les empêchent de rouler.",
+            "Coffrets à montres : 4 à 12 emplacements, séparateurs amovibles et intérieur coussiné.",
+            "Coffrets cadeaux : épicerie fine, échantillons de soins, objets promotionnels haut de gamme — les séparateurs structurent le déballage."
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-3/set-3-02.png",
+          "caption": "La conception multi-compartiments sert les marques de thé, les importateurs d'épices ou les détaillants créatifs : les séparateurs suivent la taille des articles."
+        },
+        {
+          "type": "h2",
+          "text": "Matériaux recommandés"
+        },
+        {
+          "type": "p",
+          "text": "Le choix du matériau pèse sur le coût, la durabilité, le poids et le rendu visuel. Voici ce que nous recommandons habituellement selon votre marché et votre positionnement :"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Matériau",
+            "Idéal pour",
+            "Rendu visuel",
+            "Prix",
+            "Remarques"
+          ],
+          "rows": [
+            [
+              "Pin (abouté)",
+              "Distribution économique, Amazon FBA, coffrets cadeaux d'entrée de gamme",
+              "Veine naturelle, teinte claire",
+              "$",
+              "Le plus léger, facile à teinter ou peindre, se grave bien au laser"
+            ],
+            [
+              "Contreplaqué (queues d'aronde)",
+              "Marques de milieu de gamme, kits éducatifs, organiseurs créatifs",
+              "Chants stratifiés, allure nette et moderne",
+              "$$",
+              "Angles solides, peu sujet au gauchissement, accepte bien l'impression UV"
+            ],
+            [
+              "MDF plaqué",
+              "Coffrets cadeaux haut de gamme, packaging de luxe, cadeaux d'affaires",
+              "Surface lisse, placage noyer/merisier/chêne",
+              "$$",
+              "Plus lourd, excellent pour l'impression UV quadri et la dorure à chaud"
+            ],
+            [
+              "Bambou",
+              "Marques écologiques, gammes durables, marchés US et UE",
+              "Veine caractéristique, ton miel chaleureux",
+              "$$",
+              "Disponible certifié FSC, plus léger que le bois dur, esthétique moderne"
+            ],
+            [
+              "Acacia (bois massif)",
+              "Écrins à bijoux haut de gamme, coffrets à montres, pièces à transmettre",
+              "Veine sombre et riche, toucher premium",
+              "$$$",
+              "Lourd, durable, vieillit bien, idéal en finition huile ou vernis"
+            ]
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-4/set-4-02.png",
+          "caption": "Le matériau détermine prix, poids et positionnement : le pin pour la distribution économique, l'acacia pour le haut de gamme."
+        },
+        {
+          "type": "h2",
+          "text": "Guide des épaisseurs"
+        },
+        {
+          "type": "p",
+          "text": "L'épaisseur des parois joue sur la solidité, le poids et le coût. Voici ce que notre usine recommande généralement :"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Format du coffret",
+            "Épaisseur de paroi",
+            "Épaisseur de séparateur",
+            "Usage typique"
+          ],
+          "rows": [
+            [
+              "Petit (15×10×5 cm)",
+              "5-6 mm",
+              "3 mm",
+              "Bijoux, huiles essentielles, petits coffrets cadeaux"
+            ],
+            [
+              "Moyen (25×20×8 cm)",
+              "6-8 mm",
+              "4 mm",
+              "Coffrets à thé, organiseurs à épices, loisirs créatifs"
+            ],
+            [
+              "Grand (35×25×10 cm)",
+              "8-10 mm",
+              "5 mm",
+              "Kits éducatifs, organiseurs multi-compartiments, coffrets à montres"
+            ],
+            [
+              "Très grand (40×30×12 cm)",
+              "10-12 mm",
+              "5-6 mm",
+              "Articles lourds, présentoir commercial, rangement d'outillage"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Pour un coffret de moins de 20 cm de long, 5 mm de paroi suffisent. Au-delà de 30 cm, s'il doit porter des articles lourds ou être manipulé souvent, nous conseillons 8 à 10 mm pour éviter le gauchissement et garantir que le couvercle ferme toujours à fleur après un usage répété. L'épaisseur des séparateurs doit suivre : 3 mm conviennent aux articles légers comme les bijoux, 5 mm valent mieux quand les compartiments accueillent des pots d'épices ou de petits outils."
+        },
+        {
+          "type": "h2",
+          "text": "Types de séparateurs intérieurs"
+        },
+        {
+          "type": "p",
+          "text": "C'est sur la conception des séparateurs que la personnalisation se joue vraiment. Notre usine propose trois systèmes :"
+        },
+        {
+          "type": "h3",
+          "text": "1. Séparateurs à grille emboîtable"
+        },
+        {
+          "type": "p",
+          "text": "Les séparateurs portent des encoches usinées à mi-hauteur qui leur permettent de s'emboîter en grille. L'utilisateur peut les retirer ou les déplacer pour créer des compartiments de tailles différentes. C'est le système le plus souple ; il convient bien aux bijoux, aux fournitures créatives ou aux petites pièces. Nous découpons en général 2 à 4 séparateurs verticaux et 2 à 3 horizontaux, ce qui donne 6 à 12 compartiments selon le format."
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-5/set-5-02.png",
+          "caption": "Les séparateurs à grille s'emboîtent par les encoches à mi-hauteur : l'utilisateur les replace selon les bagues, boucles d'oreilles ou petits accessoires."
+        },
+        {
+          "type": "h3",
+          "text": "2. Séparateurs à rainure"
+        },
+        {
+          "type": "p",
+          "text": "Le fond du coffret reçoit des rainures peu profondes (1 à 2 mm) usinées dans le bois. Les séparateurs y glissent et restent en place. Moins souple que la grille puisque les positions sont figées, mais plus net visuellement et mieux adapté aux coffrets haut de gamme où l'on cherche un ajustement précis. Courant dans les coffrets à thé et les organiseurs d'huiles essentielles."
+        },
+        {
+          "type": "h3",
+          "text": "3. Plateau amovible à séparateurs"
+        },
+        {
+          "type": "p",
+          "text": "Les séparateurs sont intégrés à un plateau peu profond qui se retire entièrement et dégage un second niveau de rangement en dessous. Très demandé pour les coffrets à montres et les écrins à bijoux, quand on veut du compartimenté au-dessus et du volume libre en dessous. Le plateau repose généralement sur de petites tasseaux collés à l'intérieur des parois."
+        },
+        {
+          "type": "p",
+          "text": "Pour un coffret de 30 × 20 × 8 cm, nous recommandons normalement une grille emboîtable de 3 pièces verticales et 2 horizontales, soit 12 compartiments modulables. Pour un écrin plus petit (15 × 10 × 5 cm), des séparateurs à rainure formant 2 ou 3 compartiments fixes font très bien l'affaire et contiennent le coût."
+        },
+        {
+          "type": "h2",
+          "text": "Options de marquage du logo"
+        },
+        {
+          "type": "p",
+          "text": "L'emplacement et la méthode dépendent de votre design, de votre budget et de la quantité commandée. Voici ce que propose notre usine :"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Méthode",
+            "Idéale pour",
+            "Coût",
+            "MOQ",
+            "Mise en place"
+          ],
+          "rows": [
+            [
+              "Gravure laser",
+              "Bois naturel, logos monochromes, noms de marque, design épuré",
+              "Faible",
+              "500 pcs",
+              "1 jour"
+            ],
+            [
+              "Sérigraphie",
+              "Logos 1-2 couleurs, texte de grande taille, graphismes simples",
+              "Faible-moyen",
+              "1 000 pcs",
+              "2-3 jours"
+            ],
+            [
+              "Impression UV",
+              "Visuels quadri, photos, dégradés, designs complexes",
+              "Moyen-élevé",
+              "500 pcs",
+              "2-3 jours"
+            ],
+            [
+              "Dorure à chaud",
+              "Logos métallisés (or, argent, or rose), coffrets haut de gamme, marques de luxe",
+              "Élevé",
+              "1 000 pcs",
+              "3-5 jours"
+            ],
+            [
+              "Marquage en creux / relief",
+              "Marquage tactile, logos effet cuir, cadeaux d'affaires",
+              "Moyen",
+              "1 000 pcs",
+              "3-5 jours"
+            ]
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-6/set-6-02.png",
+          "caption": "La gravure laser fonctionne sur toutes les surfaces en bois naturel : nette, permanente et rentable dès 500 pièces."
+        },
+        {
+          "type": "p",
+          "text": "Pour les vendeurs Amazon FBA attentifs au budget, la gravure laser sur le couvercle reste le choix le plus courant : permanente, d'aspect professionnel, et sans réel impact sur le coût unitaire. Pour les marques haut de gamme visant la distribution ou le cadeau d'affaires, la dorure à chaud en or ou or rose crée une allure premium qui justifie un prix de vente plus élevé."
+        },
+        {
+          "type": "h2",
+          "text": "Options d'emballage"
+        },
+        {
+          "type": "p",
+          "text": "L'emballage agit sur le coût rendu, l'attrait en rayon et le taux de casse pendant le transport. Notre usine propose trois formules standard :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Sachet plastique seul : le coût le plus bas, adapté à Amazon FBA ou aux livraisons directes en entrepôt où le coffret est le produit. Aucune présentation de vente.",
+            "Boîte carton blanche (à rabat ou type mailer) : formule intermédiaire, allure nette, compatible Amazon FBA, surface imprimable si vous souhaitez marquer l'emballage extérieur. C'est notre option la plus choisie par les acheteurs américains et européens.",
+            "Boîte kraft à fenêtre : emballage haut de gamme pour la distribution, esthétique écologique, laisse voir le coffret en bois. Idéale pour les boutiques cadeaux, les magasins spécialisés ou les marques en ligne qui misent sur le déballage."
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-7/set-7-03.png",
+          "caption": "L'emballage joue sur l'attrait en rayon et la protection au transport : la boîte blanche est le standard Amazon FBA, la kraft l'option haut de gamme."
+        },
+        {
+          "type": "p",
+          "text": "Au-delà de 2 000 pièces, nous pouvons imprimer votre logo et les informations produit sur l'emballage extérieur pour un faible supplément (en général 0,15 à 0,30 $ par unité selon la surface imprimée et le nombre de couleurs). Les cartons de groupage sont en carton ondulé export 5 plis, avec cornières mousse pour les coffrets de plus de 25 cm afin d'éviter la casse lors du transport maritime."
+        },
+        {
+          "type": "h2",
+          "text": "MOQ et délai d'échantillon"
+        },
+        {
+          "type": "p",
+          "text": "Notre MOQ usine pour les coffrets de rangement en bois sur mesure à séparateurs amovibles est de 500 pièces par design. Pour une commande mixte (plusieurs formats ou finitions), le total cumulé doit atteindre au moins 1 000 pièces. Le délai d'échantillon est de 7 à 10 jours ouvrés après validation du design, et le délai de production de 25 à 30 jours après validation de l'échantillon et versement de l'acompte."
+        },
+        {
+          "type": "p",
+          "text": "Un échantillon coûte en général 50 à 120 $ l'unité selon le format, le matériau et la méthode de marquage, et il est intégralement déduit de votre première commande de production à partir de 1 000 pièces. Nous expédions les échantillons par DHL ou FedEx (3 à 5 jours vers les États-Unis et l'Europe) et vous pouvez demander jusqu'à trois itérations de design avant validation finale."
+        },
+        {
+          "type": "p",
+          "text": "S'il vous faut un échantillon plus vite (5 à 7 jours), nous pouvons prioriser votre dossier moyennant une majoration d'urgence de 30 %. Pour les commandes récurrentes, nous conservons vos gabarits et vos programmes CNC, ce qui ramène le délai de réassort à 20-25 jours."
+        },
+        {
+          "type": "h2",
+          "text": "Expédition et contrôle qualité"
+        },
+        {
+          "type": "p",
+          "text": "Nous expédions vers les États-Unis, le Royaume-Uni, l'Union européenne, le Canada, l'Australie, Israël et plus de 60 autres marchés, par voie maritime (FOB Xiamen ou Qingdao) ou par express pour les petites commandes. Pour les acheteurs américains, le fret maritime de Xiamen à Los Angeles revient à environ 0,25-0,35 $ par unité pour un coffret de 25 × 20 × 8 cm en conteneur 40 pieds complet (soit 8 000 à 10 000 unités selon la densité de chargement)."
+        },
+        {
+          "type": "img",
+          "src": "/factory/production.jpg",
+          "caption": "Notre usine du Shandong produit plus de 15 000 coffrets en bois par mois, avec contrôle qualité en ligne à la découpe, à l'assemblage, à la finition et à l'emballage."
+        },
+        {
+          "type": "p",
+          "text": "Le contrôle qualité intervient à quatre points :"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Contrôle matière : taux d'humidité du bois vérifié entre 8 et 12 % avant découpe (évite le gauchissement après transport).",
+            "Précision d'usinage CNC : fentes de séparateurs, rainures et aboutages mesurés au pied à coulisse — tolérance ±0,3 mm.",
+            "Assemblage et finition : couvercles vérifiés à fleur, charnières testées en manœuvre, position du logo comparée à l'échantillon validé.",
+            "Contrôle avant expédition : prélèvement aléatoire de 2,5 % des unités finies (norme AQL 2,5) — nous photographions les défauts et remplaçons toute unité présentant un défaut visible avant emballage."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Au-delà de 5 000 pièces, nous proposons une inspection tierce (SGS, Intertek, Bureau Veritas) aux frais de l'acheteur, généralement 300 à 500 $ par jour d'inspection. Pour les acheteurs de l'UE, nous pouvons fournir une certification FSC ou PEFC pour le bambou et le pin issu de sources durables, avec un surcoût matière de 8 à 12 %."
+        },
+        {
+          "type": "h2",
+          "text": "Prêt à sourcer vos coffrets de rangement en bois ?"
+        },
+        {
+          "type": "p",
+          "text": "Nous avons produit des coffrets de rangement à séparateurs amovibles pour des marques de bijoux au Royaume-Uni, des maisons de thé en Allemagne, des fabricants de kits éducatifs aux États-Unis et des détaillants de fournitures créatives en Australie et au Canada. Que vous ayez besoin de 500 coffrets en pin économiques pour Amazon FBA ou de 5 000 organiseurs en acacia haut de gamme pour la distribution, notre bureau des devis vous établit un calcul de coût rendu et un calendrier d'échantillons sous 24 heures."
+        }
+      ]
+    },
     "eva-vs-epe-vs-velvet-vs-felt-insert-guide": {
       "title": "EVA, EPE, velours ou feutre : quel calage pour un coffret en bois ?",
       "excerpt": "Guide complet pour choisir le matériau de calage de vos coffrets en bois. Mousse EVA, mousse EPE, velours et feutre comparés sur la protection, le coût, l'esthétique et la durabilité.",
@@ -4432,6 +4778,7 @@ export default {
     }
   },
   "categories": {
+    "Buyer Guides": "Guides d'achat",
     "Pricing": "Tarification",
     "Process": "Processus",
     "Materials": "Matériaux",

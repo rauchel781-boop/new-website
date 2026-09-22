@@ -1,5 +1,7 @@
+// Dumps one English post to tmp-i18n/<slug>-en.json as the translation source.
+// Run from the repo root: node scripts/extract-post.mjs <slug>
 import { writeFileSync } from 'node:fs';
-import { POSTS } from './data/blog.js';
+import { POSTS } from '../data/blog.js';
 const slug = process.argv[2];
 const p = POSTS.find((x) => x.slug === slug);
 if (!p) { console.error('not found:', slug); process.exit(1); }

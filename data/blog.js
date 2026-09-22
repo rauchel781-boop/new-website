@@ -211,7 +211,7 @@ export const POSTS = [
     readTime: '16 min read',
     hero: '/storage-box/wooden-desktop-storage/three-layer-wooden-organizer-1.jpg',
     body: [
-      { type: 'p', text: 'Choosing the right wood thickness for custom wooden boxes depends on the box size, product weight, material, structure, lid design, hardware, and shipping method. For lightweight gift packaging, 3–5mm plywood or MDF veneer is often enough. For premium storage boxes, tea boxes, watch boxes, wine boxes, and wooden boxes with dividers, 6–10mm is more stable. For large or heavy-duty wooden boxes, 10–15mm or thicker solid wood may be recommended. From our factory floor with over 15 years of OEM wooden box manufacturing experience, here\'s everything you need to know about selecting the correct thickness for your custom wooden box project.' },
+      { type: 'p', text: 'Choosing the right wood thickness for custom wooden boxes depends on the box size, product weight, material, structure, lid design, hardware, and shipping method. For lightweight gift packaging, 3–5mm plywood or MDF veneer is often enough. For premium storage boxes, tea boxes, watch boxes, wine boxes, and wooden boxes with dividers, 6–10mm is more stable. For large or heavy-duty wooden boxes, 10–15mm or thicker solid wood may be recommended. From our factory floor with over 20 years of OEM wooden box manufacturing experience, here\'s everything you need to know about selecting the correct thickness for your custom wooden box project.' },
 
       { type: 'h2', text: 'Why Wood Thickness Matters for Custom Wooden Boxes' },
       { type: 'p', text: 'Wood thickness is one of the most important technical decisions in custom wooden box manufacturing, yet it\'s often overlooked by first-time buyers who focus only on exterior appearance or material type. The thickness you choose affects seven critical factors that determine whether your wooden box meets your quality standards, stays within budget, and performs well during shipping and end-user handling.' },
@@ -232,7 +232,7 @@ export const POSTS = [
       { type: 'img', src: '/folder/1-cutting-to-size.webp', caption: '3mm, 5mm, 8mm, and 10mm wood thickness comparison — our CNC cutting line handles all standard thicknesses.' },
 
       { type: 'h2', text: 'Recommended Thickness by Box Type' },
-      { type: 'p', text: 'Different wooden box products have different structural requirements, usage patterns, and customer expectations. Here\'s what our factory typically recommends for each major box type based on 15+ years of OEM manufacturing experience.' },
+      { type: 'p', text: 'Different wooden box products have different structural requirements, usage patterns, and customer expectations. Here\'s what our factory typically recommends for each major box type based on 20+ years of OEM manufacturing experience.' },
 
       { type: 'h3', text: 'Wooden Gift Boxes' },
       { type: 'p', text: 'For wooden gift boxes, we usually recommend 3–5mm plywood, MDF veneer, or pine depending on box size and brand positioning. Small favor boxes (under 10 × 10 cm) work fine with 3mm material because they\'re lightweight and don\'t experience much handling stress. Medium gift boxes (15 × 15 cm to 25 × 20 cm) should use 5mm material for better durability and a more premium feel. Large gift boxes (over 30 cm in any dimension) benefit from 6–8mm material to prevent lid warping and box flexing.' },
@@ -338,7 +338,7 @@ export const POSTS = [
       { type: 'p', text: 'MOQ (minimum order quantity) is typically not directly affected by thickness, but thicker boxes are more expensive per unit, so buyers naturally order smaller quantities. Our factory MOQ is 100 pieces for simple designs and 250–500 pieces for complex designs regardless of thickness. However, for 10mm+ boxes, we recommend ordering at least 500 pieces to amortize the tooling and setup costs across enough units to bring the per-unit price down to a reasonable level.' },
 
       { type: 'h2', text: 'Manufacturer\'s Recommendation: How to Choose the Right Thickness' },
-      { type: 'p', text: 'As a custom wooden box manufacturer with 15+ years of OEM experience producing over 2 million wooden boxes for brands in 60+ countries, we don\'t recommend choosing wood thickness based only on appearance or copying what competitors use. The correct thickness should be determined by product weight, box size, lid structure, divider design, hardware requirements, branding method, and shipping method.' },
+      { type: 'p', text: 'As a custom wooden box manufacturer with 20+ years of OEM experience producing over 2 million wooden boxes for brands in 60+ countries, we don\'t recommend choosing wood thickness based only on appearance or copying what competitors use. The correct thickness should be determined by product weight, box size, lid structure, divider design, hardware requirements, branding method, and shipping method.' },
       { type: 'p', text: 'Here\'s our simple decision framework: Start with box size. Under 15 cm → consider 3–5mm. 15–30 cm → consider 5–8mm. Over 30 cm → consider 8–12mm. Then adjust for product weight. Light products (under 200g) can use thinner material. Heavy products (over 500g) need thicker material. Then adjust for structure. Boxes with dividers need thicker walls. Boxes with glass lids need thicker frames. Boxes with heavy hardware need thicker mounting surfaces.' },
       { type: 'p', text: 'Then adjust for usage frequency. One-time gift boxes can be thinner. Storage boxes used daily need to be thicker. Finally, adjust for brand positioning. Budget brands can use minimum recommended thickness. Premium brands should go one level thicker for better feel and durability. This framework gives you a good starting point, and our quote desk can refine the recommendation once we see your specific requirements.' },
       { type: 'quote', text: 'The right wood thickness is not the thickest or the cheapest — it\'s the thickness that balances your quality requirements, budget constraints, and usage context. Over-engineering wastes money. Under-engineering causes returns and damages your brand reputation.' },
@@ -351,7 +351,7 @@ export const POSTS = [
   {
     slug: 'custom-wooden-storage-boxes-with-removable-dividers-buyers-guide',
     title: 'Custom Wooden Storage Boxes with Removable Dividers: A Buyer\'s Guide',
-    excerpt: 'Complete buyer\'s guide for custom wooden storage boxes with removable dividers. Material selection, thickness specs, MOQ, logo methods, packaging options, and quality control from a China factory with 15+ years experience.',
+    excerpt: 'Complete buyer\'s guide for custom wooden storage boxes with removable dividers. Material selection, thickness specs, MOQ, logo methods, packaging options, and quality control from a China factory with 20+ years experience.',
     date: '2026-06-09',
     category: 'Buyer Guides',
     readTime: '14 min read',

@@ -3,6 +3,352 @@
 
 export default {
   "posts": {
+    "custom-wooden-storage-boxes-with-removable-dividers-buyers-guide": {
+      "title": "Scatole in legno con divisori estraibili: la guida all'acquisto",
+      "excerpt": "Guida all'acquisto completa per scatole portaoggetti in legno su misura con divisori estraibili. Scelta del materiale, spessori, MOQ, metodi di personalizzazione del logo, opzioni di imballo e controllo qualità, da una fabbrica cinese con oltre 20 anni di esperienza.",
+      "category": "Guide all'acquisto",
+      "readTime": "14 min di lettura",
+      "body": [
+        {
+          "type": "p",
+          "text": "Le scatole portaoggetti in legno su misura con divisori estraibili sono tra i prodotti OEM che ci vengono richiesti più spesso. Funzionano per marchi di gioielleria, aziende del tè, importatori di spezie, produttori di kit didattici, rivenditori di materiali creativi e marchi di scatole regalo. Poiché i divisori si tolgono, il cliente finale può riorganizzare gli scomparti in base a ciò che ripone, il che aggiunge flessibilità e valore percepito. Dal nostro reparto produzione, ecco cosa conviene sapere prima di ordinare: scelta del materiale, spessori, tipi di divisore, metodi per il logo, MOQ, campionatura e controllo qualità."
+        },
+        {
+          "type": "h2",
+          "text": "Che cos'è una scatola in legno con divisori estraibili?"
+        },
+        {
+          "type": "p",
+          "text": "Una scatola portaoggetti in legno su misura con divisori estraibili è una scatola con coperchio e pareti interne che si possono sollevare, spostare o togliere del tutto. I divisori di solito si incastrano in scanalature oppure formano una griglia nella base. La nostra fabbrica le produce da 15 × 10 × 5 cm (piccolo portagioie) fino a 40 × 30 × 10 cm (grande organizer per tè o hobbistica). Il corpo può essere in pino con giunzione a pettine, compensato con incastro a coda di rondine, MDF impiallacciato, bambù o acacia massello, a seconda della fascia di prezzo e del posizionamento."
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-2/set-2-01.png",
+          "caption": "Il sistema di divisori estraibili lascia all'utente finale la scelta della dimensione di ogni scomparto: gioielli, orologi o piccoli accessori."
+        },
+        {
+          "type": "p",
+          "text": "I divisori hanno in genere spessore 3-5 mm e sono realizzati nello stesso materiale del corpo, così l'insieme resta coerente. Alcuni clienti chiedono fondi rivestiti in feltro o inserti in velluto per proteggere pezzi delicati come gioielli o orologi. Su richiesta aggiungiamo anche piccole maniglie in ottone o acciaio inox, chiusure magnetiche o coperchi a cerniera."
+        },
+        {
+          "type": "h2",
+          "text": "Applicazioni più comuni"
+        },
+        {
+          "type": "p",
+          "text": "Dal nostro ufficio preventivi, questi sono gli usi che vediamo più spesso:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Portagioie: anelli, orecchini, bracciali, collane — i divisori tengono i pezzi separati e senza grovigli.",
+            "Scatole per il tè: più varietà in bustina o tè sfuso in lattine, uno scomparto per ogni gusto.",
+            "Organizer per spezie: barattolini o bustine, i divisori impediscono che gli aromi si mescolino.",
+            "Kit didattici: giochi STEM, materiali artistici, bustine di semi — i divisori tengono in ordine i componenti.",
+            "Materiali creativi: perline, bottoni, fili, piccoli attrezzi — gli scomparti modulari si adattano a ogni progetto.",
+            "Scatole per oli essenziali: flaconcini da 5-15 ml, i divisori li tengono in piedi ed evitano che rotolino.",
+            "Scatole per orologi: da 4 a 12 alloggiamenti con divisori estraibili e interni imbottiti.",
+            "Set regalo: gastronomia, campioni di cosmetica, articoli promozionali premium — i divisori danno struttura all'apertura."
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-3/set-3-02.png",
+          "caption": "Il design multiscomparto serve a marchi del tè, importatori di spezie o rivenditori creativi: i divisori seguono la misura dell'articolo."
+        },
+        {
+          "type": "h2",
+          "text": "Materiali consigliati"
+        },
+        {
+          "type": "p",
+          "text": "La scelta del materiale incide su costo, durata, peso e resa estetica. Ecco cosa consigliamo di solito in base al mercato e alla fascia di prezzo:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Materiale",
+            "Ideale per",
+            "Resa estetica",
+            "Prezzo",
+            "Note"
+          ],
+          "rows": [
+            [
+              "Pino (giunzione a pettine)",
+              "Retail economico, Amazon FBA, scatole regalo entry level",
+              "Venatura naturale, colore chiaro",
+              "$",
+              "Il più leggero, facile da tingere o verniciare, ottimo per incisione laser"
+            ],
+            [
+              "Compensato (coda di rondine)",
+              "Marchi di fascia media, kit didattici, organizer creativi",
+              "Bordi stratificati, look pulito e moderno",
+              "$$",
+              "Angoli robusti, poco soggetto a imbarcarsi, accetta bene la stampa UV"
+            ],
+            [
+              "MDF impiallacciato",
+              "Scatole regalo premium, packaging di lusso, regalistica aziendale",
+              "Superficie liscia, impiallacciatura noce/ciliegio/rovere",
+              "$$",
+              "Più pesante, eccellente per stampa UV a colori e stampa a caldo"
+            ],
+            [
+              "Bambù",
+              "Marchi ecologici, linee sostenibili, mercati USA e UE",
+              "Venatura caratteristica, tono miele caldo",
+              "$$",
+              "Disponibile certificato FSC, più leggero del legno duro, estetica moderna"
+            ],
+            [
+              "Acacia (massello)",
+              "Portagioie di fascia alta, astucci per orologi, pezzi da tramandare",
+              "Venatura scura e intensa, percezione premium",
+              "$$$",
+              "Pesante, resistente, invecchia bene, ideale con finitura a olio o vernice"
+            ]
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-4/set-4-02.png",
+          "caption": "Il materiale determina prezzo, peso e posizionamento: pino per il retail economico, acacia per i marchi premium."
+        },
+        {
+          "type": "h2",
+          "text": "Guida agli spessori"
+        },
+        {
+          "type": "p",
+          "text": "Lo spessore delle pareti incide su robustezza, peso e costo. Ecco cosa consiglia di norma la nostra fabbrica:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Dimensione scatola",
+            "Spessore pareti",
+            "Spessore divisori",
+            "Uso tipico"
+          ],
+          "rows": [
+            [
+              "Piccola (15×10×5 cm)",
+              "5-6 mm",
+              "3 mm",
+              "Gioielli, oli essenziali, piccole scatole regalo"
+            ],
+            [
+              "Media (25×20×8 cm)",
+              "6-8 mm",
+              "4 mm",
+              "Scatole per tè, organizer per spezie, materiali creativi"
+            ],
+            [
+              "Grande (35×25×10 cm)",
+              "8-10 mm",
+              "5 mm",
+              "Kit didattici, organizer multiscomparto, scatole per orologi"
+            ],
+            [
+              "Extra large (40×30×12 cm)",
+              "10-12 mm",
+              "5-6 mm",
+              "Articoli pesanti, espositori commerciali, portautensili"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Per scatole sotto i 20 cm di lunghezza bastano pareti da 5 mm. Per scatole dai 30 cm in su che devono reggere articoli pesanti o essere maneggiate spesso, consigliamo 8-10 mm per evitare deformazioni e garantire che il coperchio chiuda a filo anche dopo un uso prolungato. Lo spessore dei divisori va proporzionato: 3 mm vanno bene per articoli leggeri come i gioielli, mentre 5 mm sono preferibili quando gli scomparti accolgono barattoli di spezie o piccoli attrezzi."
+        },
+        {
+          "type": "h2",
+          "text": "Tipi di divisori interni"
+        },
+        {
+          "type": "p",
+          "text": "È nel disegno dei divisori che la personalizzazione conta davvero. La nostra fabbrica offre tre sistemi:"
+        },
+        {
+          "type": "h3",
+          "text": "1. Divisori a griglia a incastro"
+        },
+        {
+          "type": "p",
+          "text": "I divisori hanno intagli a metà altezza che permettono di incastrarli tra loro formando una griglia. L'utente può toglierli o spostarli per creare scomparti di dimensioni diverse. È il sistema più flessibile e funziona bene per gioielli, materiali creativi o minuteria. Di solito tagliamo da 2 a 4 divisori verticali e da 2 a 3 orizzontali, ottenendo da 6 a 12 scomparti a seconda della misura."
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-5/set-5-02.png",
+          "caption": "I divisori a griglia si incastrano negli intagli a metà altezza: l'utente li sposta per anelli, orecchini o piccoli accessori."
+        },
+        {
+          "type": "h3",
+          "text": "2. Divisori a scanalatura"
+        },
+        {
+          "type": "p",
+          "text": "Nella base della scatola vengono fresate scanalature poco profonde (1-2 mm). I divisori vi scorrono dentro e restano in posizione. Meno flessibile della griglia perché le posizioni sono fisse, ma esteticamente più pulito e adatto a scatole premium dove si cerca un accoppiamento preciso. Comune nelle scatole per tè e negli organizer per oli essenziali."
+        },
+        {
+          "type": "h3",
+          "text": "3. Vassoio estraibile con divisori"
+        },
+        {
+          "type": "p",
+          "text": "I divisori sono integrati in un vassoio poco profondo che si estrae del tutto, scoprendo un secondo livello di alloggiamento sottostante. Molto richiesto per scatole da orologi e portagioie quando si vuole lo scomparto sopra e lo spazio libero sotto. Il vassoio poggia di solito su piccoli listelli di legno incollati all'interno delle pareti."
+        },
+        {
+          "type": "p",
+          "text": "Per scatole da 30 × 20 × 8 cm consigliamo normalmente divisori a griglia con 3 pezzi verticali e 2 orizzontali, ottenendo 12 scomparti regolabili. Per portagioie più piccoli (15 × 10 × 5 cm), i divisori a scanalatura con 2-3 scomparti fissi funzionano bene e contengono il costo."
+        },
+        {
+          "type": "h2",
+          "text": "Opzioni di personalizzazione del logo"
+        },
+        {
+          "type": "p",
+          "text": "Posizione e metodo dipendono dal tuo progetto, dal budget e dalla quantità. Ecco cosa offre la nostra fabbrica:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Metodo",
+            "Ideale per",
+            "Costo",
+            "MOQ",
+            "Attrezzaggio"
+          ],
+          "rows": [
+            [
+              "Incisione laser",
+              "Legno naturale, loghi monocolore, nomi di marchio, design essenziale",
+              "Basso",
+              "500 pz",
+              "1 giorno"
+            ],
+            [
+              "Serigrafia",
+              "Loghi a 1-2 colori, testo grande, grafiche semplici",
+              "Basso-medio",
+              "1.000 pz",
+              "2-3 giorni"
+            ],
+            [
+              "Stampa UV",
+              "Grafiche a colori, foto, sfumature, design complessi",
+              "Medio-alto",
+              "500 pz",
+              "2-3 giorni"
+            ],
+            [
+              "Stampa a caldo",
+              "Loghi metallizzati (oro, argento, oro rosa), scatole regalo premium, brand di lusso",
+              "Alto",
+              "1.000 pz",
+              "3-5 giorni"
+            ],
+            [
+              "Impressione in rilievo / incavo",
+              "Branding tattile, loghi effetto pelle, regalistica aziendale",
+              "Medio",
+              "1.000 pz",
+              "3-5 giorni"
+            ]
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-6/set-6-02.png",
+          "caption": "L'incisione laser funziona su tutte le superfici in legno naturale: pulita, permanente ed economica dai 500 pezzi."
+        },
+        {
+          "type": "p",
+          "text": "Per i venditori Amazon FBA attenti al budget, l'incisione laser sul coperchio è la scelta più diffusa: è permanente, ha un aspetto professionale e incide poco sul costo unitario. Per i marchi premium orientati al retail o alla regalistica aziendale, la stampa a caldo in oro o oro rosa crea un effetto di fascia alta che giustifica un prezzo a scaffale più elevato."
+        },
+        {
+          "type": "h2",
+          "text": "Opzioni di imballo"
+        },
+        {
+          "type": "p",
+          "text": "L'imballo incide sul costo a destino, sull'appeal a scaffale e sul tasso di danni in transito. La nostra fabbrica offre tre soluzioni standard:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Solo sacchetto in polietilene: il costo più basso, adatto ad Amazon FBA o alle consegne dirette a magazzino dove la scatola è il prodotto. Nessuna presentazione da vendita.",
+            "Scatola di cartone bianca (a incastro o tipo mailer): soluzione intermedia, aspetto pulito, pronta per Amazon FBA, superficie stampabile se vuoi personalizzare anche l'imballo esterno. È la più scelta dai nostri clienti di USA e UE.",
+            "Scatola in carta kraft con finestra: imballo premium da retail, estetica ecologica, lascia vedere la scatola in legno. Ideale per negozi di regali, punti vendita specializzati o marchi online che puntano sull'esperienza di apertura."
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-7/set-7-03.png",
+          "caption": "L'imballo incide su appeal a scaffale e protezione in transito: la scatola bianca è lo standard Amazon FBA, la kraft è l'opzione premium."
+        },
+        {
+          "type": "p",
+          "text": "Per ordini oltre 2.000 pezzi possiamo stampare il tuo logo e le informazioni di prodotto sull'imballo esterno con un piccolo sovrapprezzo (di norma 0,15-0,30 $ per unità a seconda dell'area di stampa e dei colori). I cartoni master sono in cartone ondulato da esportazione a 5 onde, con angolari in spugna per le scatole oltre i 25 cm, per evitare danni durante il trasporto marittimo."
+        },
+        {
+          "type": "h2",
+          "text": "MOQ e tempi di campionatura"
+        },
+        {
+          "type": "p",
+          "text": "Il MOQ di fabbrica per le scatole portaoggetti in legno su misura con divisori estraibili è di 500 pezzi per design. Per ordini misti (più misure o finiture), il totale combinato deve essere di almeno 1.000 pezzi. Il tempo di campionatura è di 7-10 giorni lavorativi dall'approvazione del design, e la produzione richiede 25-30 giorni dopo la conferma del campione e il versamento dell'acconto."
+        },
+        {
+          "type": "p",
+          "text": "Il costo del campione è di norma 50-120 $ per unità a seconda di misura, materiale e metodo per il logo, ed è interamente scalato dal primo ordine di produzione da 1.000 pezzi in su. Spediamo i campioni con DHL o FedEx (3-5 giorni verso USA ed Europa) e puoi richiedere fino a 3 revisioni del design prima dell'approvazione finale."
+        },
+        {
+          "type": "p",
+          "text": "Se ti serve una campionatura più rapida (5-7 giorni), possiamo dare priorità al tuo ordine con un sovrapprezzo d'urgenza del 30 %. Per gli ordini ricorrenti conserviamo le tue attrezzature e i programmi CNC, così il tempo di riordino scende a 20-25 giorni."
+        },
+        {
+          "type": "h2",
+          "text": "Spedizione e controllo qualità"
+        },
+        {
+          "type": "p",
+          "text": "Spediamo verso Stati Uniti, Regno Unito, UE, Canada, Australia, Israele e oltre 60 altri mercati, via mare (FOB Xiamen o Qingdao) oppure con corriere espresso per gli ordini più piccoli. Per i clienti statunitensi, il nolo marittimo da Xiamen a Los Angeles si aggira sui 0,25-0,35 $ per unità per una scatola da 25 × 20 × 8 cm caricata in un container da 40 piedi completo (circa 8.000-10.000 unità a seconda della densità di carico)."
+        },
+        {
+          "type": "img",
+          "src": "/factory/production.jpg",
+          "caption": "La nostra fabbrica nello Shandong produce oltre 15.000 scatole in legno al mese, con controllo qualità in linea in taglio, montaggio, finitura e imballo."
+        },
+        {
+          "type": "p",
+          "text": "Il controllo qualità avviene in quattro punti:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Controllo materiale: umidità del legno verificata tra l'8 e il 12 % prima del taglio (evita deformazioni dopo la spedizione).",
+            "Precisione di taglio CNC: sedi dei divisori, scanalature e giunzioni a pettine misurate col calibro — tolleranza ±0,3 mm.",
+            "Montaggio e finitura: coperchi verificati a filo, cerniere provate nel movimento, posizione del logo confrontata con il campione approvato.",
+            "Controllo pre-spedizione: campionamento casuale del 2,5 % dei pezzi finiti (norma AQL 2,5) — fotografiamo i difetti e sostituiamo ogni pezzo con difetti visibili prima dell'imballo."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Per ordini oltre 5.000 pezzi offriamo l'ispezione di terza parte (SGS, Intertek, Bureau Veritas) a carico dell'acquirente, di norma 300-500 $ per giornata di ispezione. Per i clienti UE possiamo fornire certificazione FSC o PEFC per bambù e pino di provenienza sostenibile, con un sovrapprezzo materiale dell'8-12 %."
+        },
+        {
+          "type": "h2",
+          "text": "Pronto a ordinare le tue scatole portaoggetti in legno?"
+        },
+        {
+          "type": "p",
+          "text": "Abbiamo prodotto scatole portaoggetti con divisori estraibili per marchi di gioielleria nel Regno Unito, aziende del tè in Germania, produttori di kit didattici negli Stati Uniti e rivenditori di materiali creativi in Australia e Canada. Che ti servano 500 scatole in pino economiche per Amazon FBA o 5.000 organizer in acacia premium per il retail, il nostro ufficio preventivi ti prepara un calcolo del costo a destino e un calendario di campionatura entro 24 ore."
+        }
+      ]
+    },
     "eva-vs-epe-vs-velvet-vs-felt-insert-guide": {
       "title": "EVA, EPE, velluto o feltro: quale inserto scegliere per le scatole in legno",
       "excerpt": "Guida completa alla scelta del materiale d'inserto per le tue scatole in legno. Spugna EVA, spugna EPE, velluto e feltro a confronto su protezione, costo, estetica e sostenibilità.",
@@ -4432,6 +4778,7 @@ export default {
     }
   },
   "categories": {
+    "Buyer Guides": "Guide all'acquisto",
     "Pricing": "Prezzi",
     "Process": "Processo",
     "Materials": "Materiali",

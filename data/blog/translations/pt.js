@@ -3,6 +3,352 @@
 
 export default {
   "posts": {
+    "custom-wooden-storage-boxes-with-removable-dividers-buyers-guide": {
+      "title": "Caixas de madeira com divisórias amovíveis: guia de compra",
+      "excerpt": "Guia de compra completo para caixas de arrumação em madeira personalizadas com divisórias amovíveis. Escolha de material, espessuras, MOQ, métodos de logótipo, opções de embalagem e controlo de qualidade, de uma fábrica chinesa com mais de 20 anos de experiência.",
+      "category": "Guias de compra",
+      "readTime": "14 min de leitura",
+      "body": [
+        {
+          "type": "p",
+          "text": "As caixas de arrumação em madeira personalizadas com divisórias amovíveis estão entre os produtos OEM que mais nos pedem. Servem a marcas de joalharia, empresas de chá, importadores de especiarias, fabricantes de kits educativos, lojas de materiais de artesanato e marcas de caixas de oferta. Como as divisórias saem, o cliente final reorganiza os compartimentos conforme o que guarda, o que acrescenta flexibilidade e valor percebido. A partir da nossa produção, eis o que convém saber antes de encomendar: escolha de material, espessuras, tipos de divisória, métodos de logótipo, MOQ, amostragem e controlo de qualidade."
+        },
+        {
+          "type": "h2",
+          "text": "O que é uma caixa de madeira com divisórias amovíveis?"
+        },
+        {
+          "type": "p",
+          "text": "Uma caixa de arrumação em madeira personalizada com divisórias amovíveis é uma caixa com tampa e separações interiores que se podem levantar, mudar de sítio ou retirar por completo. As divisórias encaixam normalmente em ranhuras ou formam uma grelha no fundo. A nossa fábrica produz desde 15 × 10 × 5 cm (guarda-joias pequeno) até 40 × 30 × 10 cm (organizador grande de chá ou artesanato). O corpo pode ser em pinho com junta dentada, contraplacado com malhete, MDF folheado, bambu ou acácia maciça, consoante o nível de preço e o posicionamento."
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-2/set-2-01.png",
+          "caption": "O sistema de divisórias amovíveis deixa o utilizador final definir o tamanho de cada compartimento — joias, relógios ou pequenos acessórios."
+        },
+        {
+          "type": "p",
+          "text": "As divisórias têm normalmente 3-5 mm de espessura e são feitas no mesmo material do corpo, para que o conjunto fique coerente. Alguns compradores pedem fundos forrados a feltro ou interiores em veludo para proteger peças delicadas como joias ou relógios. Consoante o briefing, acrescentamos ainda pequenas pegas em latão ou aço inoxidável, fechos magnéticos ou tampas com dobradiças."
+        },
+        {
+          "type": "h2",
+          "text": "Aplicações mais comuns"
+        },
+        {
+          "type": "p",
+          "text": "A partir da nossa equipa de orçamentos, estes são os usos que mais vemos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Guarda-joias: anéis, brincos, pulseiras, colares — as divisórias mantêm as peças separadas e sem emaranhados.",
+            "Caixas de chá: várias variedades em saqueta ou chá a granel em latas, um compartimento por sabor.",
+            "Organizadores de especiarias: frascos ou saquetas pequenas, as divisórias impedem que os aromas se misturem.",
+            "Kits educativos: brinquedos STEM, materiais de artes, saquetas de sementes — as divisórias organizam os componentes.",
+            "Arrumação de artesanato: missangas, botões, linhas, ferramentas pequenas — os compartimentos modulares adaptam-se a cada projeto.",
+            "Caixas de óleos essenciais: frascos de 5-15 ml, as divisórias mantêm-nos de pé e evitam que rolem.",
+            "Caixas de relógios: 4 a 12 lugares com divisórias amovíveis e interiores almofadados.",
+            "Conjuntos de oferta: gourmet, amostras de cosmética, brindes premium — as divisórias dão estrutura à abertura."
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-3/set-3-02.png",
+          "caption": "O desenho multicompartimento serve marcas de chá, importadores de especiarias ou lojas de artesanato: as divisórias acompanham o tamanho do artigo."
+        },
+        {
+          "type": "h2",
+          "text": "Materiais recomendados"
+        },
+        {
+          "type": "p",
+          "text": "O material determina custo, durabilidade, peso e apelo visual. É isto que costumamos recomendar consoante o mercado e o nível de preço:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Material",
+            "Ideal para",
+            "Aspeto",
+            "Preço",
+            "Notas"
+          ],
+          "rows": [
+            [
+              "Pinho (junta dentada)",
+              "Retalho económico, Amazon FBA, caixas de oferta de entrada",
+              "Veio natural, cor clara",
+              "$",
+              "O mais leve, fácil de tingir ou pintar, bom para gravação a laser"
+            ],
+            [
+              "Contraplacado (malhete)",
+              "Marcas de gama média, kits educativos, organizadores de artesanato",
+              "Topos laminados, ar limpo e moderno",
+              "$$",
+              "Cantos resistentes, pouco sujeito a empenar, aceita bem impressão UV"
+            ],
+            [
+              "MDF folheado",
+              "Caixas de oferta premium, embalagem de luxo, oferta corporativa",
+              "Superfície lisa, folheado de nogueira/cerejeira/carvalho",
+              "$$",
+              "Mais pesado, excelente para impressão UV a cores e estampagem a quente"
+            ],
+            [
+              "Bambu",
+              "Marcas ecológicas, linhas sustentáveis, mercados dos EUA e da UE",
+              "Veio característico, tom mel quente",
+              "$$",
+              "Disponível com certificação FSC, mais leve que madeira dura, estética moderna"
+            ],
+            [
+              "Acácia (madeira maciça)",
+              "Guarda-joias de gama alta, estojos de relógio, peças de herança",
+              "Veio escuro e rico, toque premium",
+              "$$$",
+              "Pesada, duradoura, envelhece bem, melhor com acabamento a óleo ou verniz"
+            ]
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-4/set-4-02.png",
+          "caption": "O material define preço, peso e posicionamento: pinho para retalho económico, acácia para marcas premium."
+        },
+        {
+          "type": "h2",
+          "text": "Guia de espessuras"
+        },
+        {
+          "type": "p",
+          "text": "A espessura das paredes afeta a resistência, o peso e o custo. É isto que a nossa fábrica costuma recomendar:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Tamanho da caixa",
+            "Espessura de parede",
+            "Espessura da divisória",
+            "Uso típico"
+          ],
+          "rows": [
+            [
+              "Pequena (15×10×5 cm)",
+              "5-6 mm",
+              "3 mm",
+              "Joias, óleos essenciais, caixas de oferta pequenas"
+            ],
+            [
+              "Média (25×20×8 cm)",
+              "6-8 mm",
+              "4 mm",
+              "Caixas de chá, organizadores de especiarias, artesanato"
+            ],
+            [
+              "Grande (35×25×10 cm)",
+              "8-10 mm",
+              "5 mm",
+              "Kits educativos, organizadores multicompartimento, caixas de relógios"
+            ],
+            [
+              "Extragrande (40×30×12 cm)",
+              "10-12 mm",
+              "5-6 mm",
+              "Artigos pesados, expositor comercial, arrumação de ferramentas"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Para caixas com menos de 20 cm de comprimento, 5 mm de parede chegam. Para caixas de 30 cm ou mais que vão suportar peso ou ser manuseadas com frequência, recomendamos 8-10 mm para evitar empenos e garantir que a tampa continua a fechar à face após uso prolongado. A espessura da divisória deve ser proporcional: 3 mm servem para artigos leves como joias, mas 5 mm são melhores quando os compartimentos levam frascos de especiarias ou ferramentas pequenas."
+        },
+        {
+          "type": "h2",
+          "text": "Tipos de divisória interior"
+        },
+        {
+          "type": "p",
+          "text": "É no desenho das divisórias que a personalização se nota mesmo. A nossa fábrica oferece três sistemas:"
+        },
+        {
+          "type": "h3",
+          "text": "1. Divisórias em grelha encaixável"
+        },
+        {
+          "type": "p",
+          "text": "As divisórias têm entalhes cortados a meia altura que permitem encaixá-las umas nas outras formando uma grelha. O utilizador pode retirá-las ou mudá-las de sítio para criar compartimentos de tamanhos diferentes. É o sistema mais flexível e funciona bem para joias, materiais de artesanato ou peças pequenas. Cortamos normalmente 2 a 4 divisórias verticais e 2 a 3 horizontais, o que dá 6 a 12 compartimentos conforme o tamanho."
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-5/set-5-02.png",
+          "caption": "As divisórias em grelha encaixam nos entalhes a meia altura: o utilizador muda-as de sítio para anéis, brincos ou pequenos acessórios."
+        },
+        {
+          "type": "h3",
+          "text": "2. Divisórias em ranhura"
+        },
+        {
+          "type": "p",
+          "text": "O fundo da caixa leva ranhuras pouco profundas (1-2 mm) fresadas na madeira. As divisórias deslizam para dentro delas e ficam fixas. Menos flexível do que a grelha porque as posições são fixas, mas de aspeto mais limpo e melhor para caixas premium onde se procura um encaixe preciso. Comum em caixas de chá e organizadores de óleos essenciais."
+        },
+        {
+          "type": "h3",
+          "text": "3. Tabuleiro amovível com divisórias"
+        },
+        {
+          "type": "p",
+          "text": "As divisórias vêm integradas num tabuleiro pouco fundo que sai por completo e revela um segundo nível de arrumação por baixo. Muito procurado em caixas de relógios e guarda-joias, quando se quer compartimentado em cima e espaço livre em baixo. O tabuleiro assenta normalmente em pequenas réguas de madeira coladas ao interior das paredes."
+        },
+        {
+          "type": "p",
+          "text": "Para caixas de 30 × 20 × 8 cm recomendamos normalmente divisórias em grelha com 3 peças verticais e 2 horizontais, o que dá 12 compartimentos ajustáveis. Para guarda-joias mais pequenos (15 × 10 × 5 cm), as divisórias em ranhura com 2-3 compartimentos fixos funcionam bem e mantêm o custo baixo."
+        },
+        {
+          "type": "h2",
+          "text": "Opções de personalização do logótipo"
+        },
+        {
+          "type": "p",
+          "text": "A colocação e o método dependem do seu design, do orçamento e da quantidade. É isto que a nossa fábrica oferece:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Método",
+            "Ideal para",
+            "Custo",
+            "MOQ",
+            "Preparação"
+          ],
+          "rows": [
+            [
+              "Gravação a laser",
+              "Madeira natural, logótipos a uma cor, nomes de marca, design minimalista",
+              "Baixo",
+              "500 un.",
+              "1 dia"
+            ],
+            [
+              "Serigrafia",
+              "Logótipos a 1-2 cores, texto grande, grafismos simples",
+              "Baixo-médio",
+              "1.000 un.",
+              "2-3 dias"
+            ],
+            [
+              "Impressão UV",
+              "Arte a cores, fotografias, degradês, designs complexos",
+              "Médio-alto",
+              "500 un.",
+              "2-3 dias"
+            ],
+            [
+              "Estampagem a quente",
+              "Logótipos metalizados (ouro, prata, ouro rosa), caixas premium, marcas de luxo",
+              "Alto",
+              "1.000 un.",
+              "3-5 dias"
+            ],
+            [
+              "Baixo-relevo / alto-relevo",
+              "Marcação tátil, logótipos com efeito pele, oferta corporativa",
+              "Médio",
+              "1.000 un.",
+              "3-5 dias"
+            ]
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-6/set-6-02.png",
+          "caption": "A gravação a laser funciona em qualquer superfície de madeira natural: limpa, permanente e rentável a partir de 500 unidades."
+        },
+        {
+          "type": "p",
+          "text": "Para vendedores de Amazon FBA com orçamento apertado, a gravação a laser na tampa é a escolha mais comum: é permanente, tem aspeto profissional e quase não pesa no custo unitário. Para marcas premium viradas para o retalho ou para a oferta corporativa, a estampagem a quente em ouro ou ouro rosa cria um aspeto de gama alta que sustenta um preço de prateleira mais elevado."
+        },
+        {
+          "type": "h2",
+          "text": "Opções de embalagem"
+        },
+        {
+          "type": "p",
+          "text": "A embalagem influencia o custo posto em destino, o apelo na prateleira e a taxa de danos em trânsito. A nossa fábrica oferece três opções padrão:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Apenas saco de polietileno: o custo mais baixo, adequado a Amazon FBA ou a entregas diretas em armazém onde a caixa é o produto. Sem apresentação de venda.",
+            "Caixa de cartão branca (de encaixe ou tipo mailer): opção intermédia, ar limpo, pronta para Amazon FBA, superfície imprimível se quiser marcar a embalagem exterior. É a mais escolhida pelos nossos compradores dos EUA e da UE.",
+            "Caixa de papel kraft com janela: embalagem premium de retalho, estética ecológica, deixa ver a caixa de madeira. Ideal para lojas de oferta, comércio especializado ou marcas online que apostam na experiência de abertura."
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-7/set-7-03.png",
+          "caption": "A embalagem influencia o apelo na prateleira e a proteção em trânsito: a caixa branca é o padrão Amazon FBA, a kraft é a opção premium."
+        },
+        {
+          "type": "p",
+          "text": "Para encomendas acima de 2.000 unidades podemos imprimir o seu logótipo e a informação de produto na embalagem exterior por um pequeno acréscimo (normalmente 0,15-0,30 $ por unidade consoante a área de impressão e as cores). As caixas máster são em cartão canelado de exportação de 5 camadas, com cantos em espuma para caixas acima de 25 cm, para evitar danos no transporte marítimo."
+        },
+        {
+          "type": "h2",
+          "text": "MOQ e prazo de amostra"
+        },
+        {
+          "type": "p",
+          "text": "O MOQ de fábrica para caixas de arrumação em madeira personalizadas com divisórias amovíveis é de 500 peças por design. Em encomendas mistas (vários tamanhos ou acabamentos), o total combinado deve ser de pelo menos 1.000 peças. O prazo de amostra é de 7-10 dias úteis a partir da aprovação do design, e a produção demora 25-30 dias após a validação da amostra e o pagamento do sinal."
+        },
+        {
+          "type": "p",
+          "text": "O custo da amostra é normalmente de 50-120 $ por unidade consoante tamanho, material e método de logótipo, e é integralmente abatido na sua primeira encomenda de produção de 1.000 unidades ou mais. Enviamos amostras por DHL ou FedEx (3-5 dias para os EUA e a UE) e pode pedir até 3 iterações de design antes da aprovação final."
+        },
+        {
+          "type": "p",
+          "text": "Se precisar de amostra mais depressa (5-7 dias), podemos dar prioridade à sua encomenda com uma taxa de urgência de 30 %. Em encomendas recorrentes guardamos os seus gabaritos e programas CNC em arquivo, pelo que o prazo de reposição desce para 20-25 dias."
+        },
+        {
+          "type": "h2",
+          "text": "Envio e controlo de qualidade"
+        },
+        {
+          "type": "p",
+          "text": "Enviamos para os EUA, Reino Unido, UE, Canadá, Austrália, Israel e mais de 60 outros mercados, por via marítima (FOB Xiamen ou Qingdao) ou por correio expresso em encomendas menores. Para compradores dos EUA, o frete marítimo de Xiamen para Los Angeles ronda os 0,25-0,35 $ por unidade numa caixa de 25 × 20 × 8 cm, em contentor completo de 40 pés (cerca de 8.000-10.000 unidades conforme a densidade de carga)."
+        },
+        {
+          "type": "img",
+          "src": "/factory/production.jpg",
+          "caption": "A nossa fábrica em Shandong produz mais de 15.000 caixas de madeira por mês, com controlo de qualidade em linha no corte, montagem, acabamento e embalagem."
+        },
+        {
+          "type": "p",
+          "text": "O controlo de qualidade acontece em quatro pontos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Inspeção de material: teor de humidade da madeira verificado entre 8 e 12 % antes do corte (evita empenos depois do transporte).",
+            "Precisão de corte CNC: rasgos das divisórias, ranhuras e juntas dentadas medidos com craveira — tolerância ±0,3 mm.",
+            "Montagem e acabamento: tampas verificadas à face, dobradiças testadas no movimento, posição do logótipo confrontada com a amostra aprovada.",
+            "Inspeção pré-embarque: amostragem aleatória de 2,5 % das unidades acabadas (norma AQL 2,5) — fotografamos os defeitos e substituímos qualquer unidade com falhas visíveis antes de embalar."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Para encomendas acima de 5.000 peças oferecemos inspeção por terceiros (SGS, Intertek, Bureau Veritas) a cargo do comprador, normalmente 300-500 $ por dia de inspeção. Para compradores da UE podemos fornecer certificação FSC ou PEFC para bambu e pinho de origem sustentável, com um acréscimo de 8-12 % no custo do material."
+        },
+        {
+          "type": "h2",
+          "text": "Pronto para encomendar as suas caixas de madeira?"
+        },
+        {
+          "type": "p",
+          "text": "Já produzimos caixas de arrumação com divisórias amovíveis para marcas de joalharia no Reino Unido, empresas de chá na Alemanha, fabricantes de kits educativos nos EUA e lojas de artesanato na Austrália e no Canadá. Quer precise de 500 caixas de pinho económicas para Amazon FBA quer de 5.000 organizadores de acácia premium para retalho, a nossa equipa de orçamentos prepara-lhe uma decomposição de custo posto em destino e um calendário de amostras em 24 horas."
+        }
+      ]
+    },
     "eva-vs-epe-vs-velvet-vs-felt-insert-guide": {
       "title": "EVA, EPE, veludo ou feltro: que interior escolher para caixas de madeira",
       "excerpt": "Guia completo para escolher o material de interior das suas caixas de madeira. Espuma EVA, espuma EPE, veludo e feltro comparados em proteção, custo, estética e sustentabilidade.",
@@ -4432,6 +4778,7 @@ export default {
     }
   },
   "categories": {
+    "Buyer Guides": "Guias de compra",
     "Pricing": "Preços",
     "Process": "Processo",
     "Materials": "Materiais",

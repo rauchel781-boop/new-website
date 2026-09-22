@@ -3,6 +3,352 @@
 
 export default {
   "posts": {
+    "custom-wooden-storage-boxes-with-removable-dividers-buyers-guide": {
+      "title": "Cajas de madera con divisores extraíbles: guía de compra",
+      "excerpt": "Guía de compra completa para cajas de madera a medida con divisores extraíbles. Elección de material, espesores, MOQ, métodos de logotipo, opciones de embalaje y control de calidad, desde una fábrica china con más de 20 años de experiencia.",
+      "category": "Guías de compra",
+      "readTime": "14 min de lectura",
+      "body": [
+        {
+          "type": "p",
+          "text": "Las cajas de madera a medida con divisores extraíbles son uno de los productos OEM que más nos piden. Funcionan para marcas de joyería, empresas de té, importadores de especias, fabricantes de kits educativos, tiendas de material de manualidades y marcas de cajas de regalo. Al poder quitar los divisores, el cliente final reorganiza los compartimentos según lo que guarde, lo que añade flexibilidad y valor percibido. Desde nuestra planta, esto es lo que conviene saber antes de encargar: elección de material, espesores, tipos de divisor, métodos de logotipo, MOQ, muestreo y control de calidad."
+        },
+        {
+          "type": "h2",
+          "text": "¿Qué es una caja de madera con divisores extraíbles?"
+        },
+        {
+          "type": "p",
+          "text": "Una caja de madera a medida con divisores extraíbles es una caja con tapa y particiones interiores que se pueden levantar, recolocar o quitar por completo. Los divisores suelen encajar en ranuras o formar una retícula dentro de la base. Nuestra fábrica las produce en tamaños desde 15 × 10 × 5 cm (joyero pequeño) hasta 40 × 30 × 10 cm (organizador grande de té o manualidades). El cuerpo puede ser de pino con unión dentada, contrachapado con cola de milano, DM con chapa, bambú o acacia maciza, según su nivel de precio y su posicionamiento."
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-2/set-2-01.png",
+          "caption": "El sistema de divisores extraíbles permite al usuario final definir el tamaño de cada compartimento para joyas, relojes o accesorios pequeños."
+        },
+        {
+          "type": "p",
+          "text": "Los divisores suelen tener 3-5 mm de espesor y se fabrican en el mismo material que el cuerpo para que el conjunto sea coherente. Algunos compradores piden bases forradas de fieltro o interiores de terciopelo para proteger piezas delicadas como joyas o relojes. También podemos añadir pequeñas asas de latón o acero inoxidable, cierres magnéticos o tapas con bisagras según el brief de diseño."
+        },
+        {
+          "type": "h2",
+          "text": "Aplicaciones habituales"
+        },
+        {
+          "type": "p",
+          "text": "Desde nuestro departamento de presupuestos, estos son los usos que más vemos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Joyeros: anillos, pendientes, pulseras, collares — los divisores mantienen las piezas separadas y sin enredos.",
+            "Cajas de té: varias variedades en bolsita o té a granel en latas, cada compartimento para un sabor distinto.",
+            "Organizadores de especias: botes o sobres pequeños, los divisores evitan que se mezclen los aromas.",
+            "Kits educativos: juguetes STEM, material de plástica, sobres de semillas — los divisores ordenan los componentes.",
+            "Material de manualidades: cuentas, botones, hilos, herramientas pequeñas — los compartimentos modulares se adaptan a cada proyecto.",
+            "Cajas para aceites esenciales: frascos de 5-15 ml, los divisores los mantienen de pie y evitan que rueden.",
+            "Cajas de relojes: de 4 a 12 huecos con divisores extraíbles e interiores acolchados.",
+            "Sets de regalo: gourmet, muestras de cosmética, artículos promocionales premium — los divisores dan estructura a la apertura."
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-3/set-3-02.png",
+          "caption": "El diseño multicompartimento sirve para marcas de té, importadores de especias o tiendas de manualidades: los divisores se ajustan al tamaño del artículo."
+        },
+        {
+          "type": "h2",
+          "text": "Materiales recomendados"
+        },
+        {
+          "type": "p",
+          "text": "El material determina coste, durabilidad, peso y atractivo visual. Esto es lo que solemos recomendar según su mercado y su nivel de precio:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Material",
+            "Ideal para",
+            "Acabado visual",
+            "Precio",
+            "Notas"
+          ],
+          "rows": [
+            [
+              "Pino (unión dentada)",
+              "Retail económico, Amazon FBA, cajas de regalo de entrada",
+              "Veta natural, color claro",
+              "$",
+              "El más ligero, fácil de teñir o pintar, bueno para grabado láser"
+            ],
+            [
+              "Contrachapado (cola de milano)",
+              "Marcas de gama media, kits educativos, organizadores de manualidades",
+              "Cantos laminados, aspecto limpio y moderno",
+              "$$",
+              "Esquinas resistentes, poco propenso a alabearse, admite bien impresión UV"
+            ],
+            [
+              "DM con chapa",
+              "Cajas de regalo premium, packaging de lujo, regalo corporativo",
+              "Superficie lisa, chapa de nogal/cerezo/roble",
+              "$$",
+              "Más pesado, excelente para impresión UV a todo color y estampado en caliente"
+            ],
+            [
+              "Bambú",
+              "Marcas ecológicas, líneas sostenibles, mercados de EE. UU. y la UE",
+              "Veta característica, tono miel cálido",
+              "$$",
+              "Disponible con certificación FSC, más ligero que la madera dura, estética moderna"
+            ],
+            [
+              "Acacia (madera maciza)",
+              "Joyeros de gama alta, estuches de reloj, piezas de herencia",
+              "Veta oscura intensa, tacto premium",
+              "$$$",
+              "Pesada, duradera, envejece bien, mejor con acabado al aceite o laca"
+            ]
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-4/set-4-02.png",
+          "caption": "El material marca precio, peso y posicionamiento: pino para retail económico, acacia para marcas premium."
+        },
+        {
+          "type": "h2",
+          "text": "Guía de espesores"
+        },
+        {
+          "type": "p",
+          "text": "El espesor de pared afecta a la resistencia, al peso y al coste. Esto es lo que suele recomendar nuestra fábrica:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Tamaño de caja",
+            "Espesor de pared",
+            "Espesor de divisor",
+            "Uso típico"
+          ],
+          "rows": [
+            [
+              "Pequeña (15×10×5 cm)",
+              "5-6 mm",
+              "3 mm",
+              "Joyas, aceites esenciales, cajas de regalo pequeñas"
+            ],
+            [
+              "Mediana (25×20×8 cm)",
+              "6-8 mm",
+              "4 mm",
+              "Cajas de té, organizadores de especias, manualidades"
+            ],
+            [
+              "Grande (35×25×10 cm)",
+              "8-10 mm",
+              "5 mm",
+              "Kits educativos, organizadores multicompartimento, cajas de relojes"
+            ],
+            [
+              "Extra grande (40×30×12 cm)",
+              "10-12 mm",
+              "5-6 mm",
+              "Artículos pesados, expositor comercial, guardado de herramientas"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Para cajas de menos de 20 cm de largo, 5 mm de pared son suficientes. Para cajas de 30 cm o más que vayan a soportar peso o que se manipulen a menudo, recomendamos 8-10 mm para evitar alabeos y asegurar que la tapa siga cerrando a ras tras un uso prolongado. El espesor del divisor debe ser proporcional: los divisores finos (3 mm) van bien para artículos ligeros como joyas, pero los de 5 mm son mejores cuando los compartimentos llevan botes de especias o herramientas pequeñas."
+        },
+        {
+          "type": "h2",
+          "text": "Opciones de divisor interior"
+        },
+        {
+          "type": "p",
+          "text": "El diseño del divisor es donde la personalización se nota de verdad. Nuestra fábrica ofrece tres sistemas:"
+        },
+        {
+          "type": "h3",
+          "text": "1. Divisores de retícula encajable"
+        },
+        {
+          "type": "p",
+          "text": "Los divisores llevan muescas cortadas hasta la mitad para encajar unos en otros formando una retícula. El usuario puede quitarlos o recolocarlos para crear compartimentos de distinto tamaño. Es el sistema más flexible y funciona bien para joyería, manualidades o piezas pequeñas. Solemos cortar de 2 a 4 divisores verticales y de 2 a 3 horizontales, lo que da entre 6 y 12 compartimentos según el tamaño de la caja."
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-5/set-5-02.png",
+          "caption": "Los divisores de retícula encajan por las muescas centrales: el usuario los recoloca para anillos, pendientes o accesorios pequeños."
+        },
+        {
+          "type": "h3",
+          "text": "2. Divisores en ranura"
+        },
+        {
+          "type": "p",
+          "text": "La base de la caja lleva ranuras poco profundas (1-2 mm) fresadas en la madera. Los divisores se deslizan en ellas y quedan fijos. Menos flexible que la retícula porque las posiciones son fijas, pero de aspecto más limpio y mejor para cajas premium donde se busca un ajuste preciso. Habitual en cajas de té y organizadores de aceites esenciales."
+        },
+        {
+          "type": "h3",
+          "text": "3. Bandeja extraíble con divisores"
+        },
+        {
+          "type": "p",
+          "text": "Los divisores van montados en una bandeja poco profunda que se extrae por completo y deja a la vista un segundo nivel de guardado. Es popular en cajas de relojes y joyeros donde se quiere compartimentado arriba y espacio libre abajo. La bandeja suele apoyarse en pequeños listones de madera encolados al interior de las paredes."
+        },
+        {
+          "type": "p",
+          "text": "Para cajas de 30 × 20 × 8 cm solemos recomendar divisores de retícula con 3 piezas verticales y 2 horizontales, lo que da 12 compartimentos regulables. Para joyeros más pequeños (15 × 10 × 5 cm), los divisores en ranura con 2-3 compartimentos fijos funcionan bien y mantienen el coste bajo."
+        },
+        {
+          "type": "h2",
+          "text": "Opciones de personalización del logotipo"
+        },
+        {
+          "type": "p",
+          "text": "La colocación y el método dependen de su diseño, su presupuesto y la cantidad del pedido. Esto es lo que ofrece nuestra fábrica:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Método",
+            "Ideal para",
+            "Coste",
+            "MOQ",
+            "Preparación"
+          ],
+          "rows": [
+            [
+              "Grabado láser",
+              "Madera natural, logotipos a un color, nombres de marca, diseños minimalistas",
+              "Bajo",
+              "500 uds.",
+              "1 día"
+            ],
+            [
+              "Serigrafía",
+              "Logotipos de 1-2 colores, texto grande, gráficos sencillos",
+              "Bajo-medio",
+              "1.000 uds.",
+              "2-3 días"
+            ],
+            [
+              "Impresión UV",
+              "Arte a todo color, fotos, degradados, diseños complejos",
+              "Medio-alto",
+              "500 uds.",
+              "2-3 días"
+            ],
+            [
+              "Estampado en caliente",
+              "Logotipos metalizados (oro, plata, oro rosa), cajas premium, marcas de lujo",
+              "Alto",
+              "1.000 uds.",
+              "3-5 días"
+            ],
+            [
+              "Grabado en hueco / relieve",
+              "Marca con textura, logotipos con efecto cuero, regalo corporativo",
+              "Medio",
+              "1.000 uds.",
+              "3-5 días"
+            ]
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-6/set-6-02.png",
+          "caption": "El grabado láser funciona sobre cualquier madera natural: limpio, permanente y rentable a partir de 500 unidades."
+        },
+        {
+          "type": "p",
+          "text": "Para vendedores de Amazon FBA con presupuesto ajustado, el grabado láser en la tapa es la opción más elegida: es permanente, se ve profesional y apenas repercute en el coste unitario. Para marcas premium orientadas al retail o al regalo corporativo, el estampado en caliente en oro u oro rosa crea un aspecto de gama alta que justifica un precio de estantería más alto."
+        },
+        {
+          "type": "h2",
+          "text": "Opciones de embalaje"
+        },
+        {
+          "type": "p",
+          "text": "El embalaje afecta al coste puesto en destino, al atractivo en tienda y a la tasa de daños durante el transporte. Nuestra fábrica ofrece tres opciones estándar:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Solo bolsa de polietileno: la opción más barata, adecuada para Amazon FBA o envíos directos a almacén donde la caja es el producto. Sin presentación de venta.",
+            "Caja de cartón blanca (tapa encajable o mailer): opción intermedia, aspecto limpio, lista para Amazon FBA, superficie imprimible si quiere marcar el envase exterior. Es la más elegida por nuestros compradores de EE. UU. y la UE.",
+            "Caja de papel kraft con ventana: embalaje premium para retail, estética ecológica, deja ver la caja de madera. Ideal para tiendas de regalo, comercio especializado o marcas online que buscan una apertura con impacto."
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-7/set-7-03.png",
+          "caption": "El embalaje influye en el atractivo en tienda y en la protección: la caja blanca es el estándar de Amazon FBA, la kraft es la opción premium."
+        },
+        {
+          "type": "p",
+          "text": "Para pedidos de más de 2.000 unidades podemos imprimir su logotipo y la información de producto en el envase exterior por un pequeño coste adicional (normalmente 0,15-0,30 $ por unidad según superficie impresa y número de colores). Las cajas máster son cartón corrugado de exportación de 5 capas, con esquineras de espuma para cajas de más de 25 cm, para evitar daños en el transporte marítimo."
+        },
+        {
+          "type": "h2",
+          "text": "MOQ y plazo de muestras"
+        },
+        {
+          "type": "p",
+          "text": "Nuestro MOQ de fábrica para cajas de madera a medida con divisores extraíbles es de 500 piezas por diseño. En pedidos mixtos (varios tamaños o acabados), el total combinado debe ser de al menos 1.000 piezas. El plazo de muestra es de 7-10 días hábiles desde la aprobación del diseño, y el plazo de producción de 25-30 días tras la validación de la muestra y el pago del anticipo."
+        },
+        {
+          "type": "p",
+          "text": "El coste de muestra suele ser de 50-120 $ por unidad según tamaño, material y método de logotipo, y es totalmente descontable de su primer pedido de producción de 1.000 unidades o más. Enviamos muestras por DHL o FedEx (3-5 días a EE. UU. y la UE) y puede pedir hasta 3 iteraciones de diseño antes de la aprobación final."
+        },
+        {
+          "type": "p",
+          "text": "Si necesita muestras más rápido (5-7 días), podemos priorizar su pedido con un recargo de urgencia del 30 %. En pedidos recurrentes conservamos sus plantillas y utillajes CNC en archivo, de modo que el plazo de repetición baja a 20-25 días."
+        },
+        {
+          "type": "h2",
+          "text": "Envío y control de calidad"
+        },
+        {
+          "type": "p",
+          "text": "Enviamos a EE. UU., Reino Unido, UE, Canadá, Australia, Israel y más de 60 mercados, por vía marítima (FOB Xiamen o Qingdao) o por mensajería exprés en pedidos pequeños. Para compradores estadounidenses, el flete marítimo de Xiamen a Los Ángeles ronda los 0,25-0,35 $ por unidad para una caja de 25 × 20 × 8 cm en contenedor completo de 40 pies (unas 8.000-10.000 unidades según la densidad de carga)."
+        },
+        {
+          "type": "img",
+          "src": "/factory/production.jpg",
+          "caption": "Nuestra fábrica de Shandong produce más de 15.000 cajas de madera al mes, con control de calidad en línea en corte, montaje, acabado y embalaje."
+        },
+        {
+          "type": "p",
+          "text": "El control de calidad se hace en cuatro puntos:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Inspección de material: se comprueba que la humedad de la madera esté entre el 8 y el 12 % antes de cortar (evita alabeos tras el transporte).",
+            "Precisión de corte CNC: ranuras de divisor, canales y uniones dentadas se miden con calibre — tolerancia ±0,3 mm.",
+            "Montaje y acabado: se comprueba que la tapa cierre a ras, se prueban las bisagras y se verifica la posición del logotipo contra la muestra aprobada.",
+            "Inspección previa al envío: muestreo aleatorio del 2,5 % de las unidades acabadas (norma AQL 2,5) — fotografiamos los defectos y reemplazamos cualquier unidad con fallos visibles antes de embalar."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Para pedidos de más de 5.000 unidades ofrecemos inspección de tercera parte (SGS, Intertek, Bureau Veritas) a cargo del comprador, normalmente 300-500 $ por día de inspección. Para compradores de la UE podemos aportar certificación FSC o PEFC para bambú y pino de origen sostenible, con un sobrecoste de material del 8-12 %."
+        },
+        {
+          "type": "h2",
+          "text": "¿Listo para encargar sus cajas de madera?"
+        },
+        {
+          "type": "p",
+          "text": "Hemos fabricado cajas de madera con divisores extraíbles para marcas de joyería en el Reino Unido, empresas de té en Alemania, fabricantes de kits educativos en EE. UU. y tiendas de manualidades en Australia y Canadá. Tanto si necesita 500 cajas de pino económicas para Amazon FBA como 5.000 organizadores de acacia premium para retail, nuestro departamento de presupuestos puede prepararle un desglose de coste puesto en destino y un calendario de muestras en 24 horas."
+        }
+      ]
+    },
     "eva-vs-epe-vs-velvet-vs-felt-insert-guide": {
       "title": "EVA, EPE, terciopelo o fieltro: qué interior elegir para cajas de madera",
       "excerpt": "Guía completa para elegir el material interior adecuado para sus cajas de madera. Comparamos espuma EVA, espuma EPE, terciopelo y fieltro en protección, coste, estética y sostenibilidad.",
@@ -4432,6 +4778,7 @@ export default {
     }
   },
   "categories": {
+    "Buyer Guides": "Guías de compra",
     "Pricing": "Precios",
     "Process": "Proceso",
     "Materials": "Materiales",

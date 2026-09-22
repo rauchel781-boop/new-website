@@ -3,6 +3,352 @@
 
 export default {
   "posts": {
+    "custom-wooden-storage-boxes-with-removable-dividers-buyers-guide": {
+      "title": "Holz-Aufbewahrungsboxen mit herausnehmbaren Trennwänden: der Einkaufsratgeber",
+      "excerpt": "Vollständiger Einkaufsratgeber für individuelle Holz-Aufbewahrungsboxen mit herausnehmbaren Trennwänden. Materialwahl, Stärken, MOQ, Logo-Verfahren, Verpackungsoptionen und Qualitätssicherung — aus einer chinesischen Fabrik mit über 20 Jahren Erfahrung.",
+      "category": "Einkaufsratgeber",
+      "readTime": "14 Min. Lesezeit",
+      "body": [
+        {
+          "type": "p",
+          "text": "Individuelle Holz-Aufbewahrungsboxen mit herausnehmbaren Trennwänden gehören zu den am häufigsten angefragten OEM-Produkten bei uns. Sie funktionieren für Schmuckmarken, Teeunternehmen, Gewürzimporteure, Hersteller von Lernbaukästen, Bastelbedarfshändler und Geschenkboxmarken. Weil die Trennwände herausnehmbar sind, kann Ihr Endkunde die Fächer für unterschiedliche Inhalte neu anordnen — das schafft Flexibilität und gefühlten Mehrwert. Aus unserer Produktion heraus: Das sollten Sie vor der Bestellung wissen — Materialwahl, Stärken, Trennwand-Varianten, Logo-Verfahren, MOQ, Bemusterung und Qualitätssicherung."
+        },
+        {
+          "type": "h2",
+          "text": "Was ist eine Holzbox mit herausnehmbaren Trennwänden?"
+        },
+        {
+          "type": "p",
+          "text": "Eine individuelle Holz-Aufbewahrungsbox mit herausnehmbaren Trennwänden ist eine Box mit Deckel und Innenunterteilungen, die sich herausheben, umstecken oder ganz entfernen lassen. Die Trennwände sitzen meist in Nuten oder stecken in einem Gittermuster im Boden. Unsere Fabrik fertigt sie in Größen von 15 × 10 × 5 cm (kleine Schmuckbox) bis 40 × 30 × 10 cm (großer Tee- oder Bastelorganizer). Der Korpus kann aus keilgezinkter Kiefer, Sperrholz mit Schwalbenschwanzverbindung, MDF mit Furnier, Bambus oder massiver Akazie bestehen — je nach Preisniveau und Marktpositionierung."
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-2/set-2-01.png",
+          "caption": "Das herausnehmbare Trennwandsystem lässt Endkunden die Fachgrößen selbst bestimmen — für Schmuck, Uhren oder kleine Accessoires."
+        },
+        {
+          "type": "p",
+          "text": "Die Trennwände selbst sind typischerweise 3–5 mm stark und bestehen aus demselben Material wie der Korpus, damit das Bild stimmig bleibt. Manche Kunden wünschen filzkaschierte Böden oder Samteinlagen, um empfindliche Stücke wie Schmuck oder Uhren zu schützen. Je nach Briefing ergänzen wir außerdem kleine Griffe aus Messing oder Edelstahl, Magnetverschlüsse oder Scharnierdeckel."
+        },
+        {
+          "type": "h2",
+          "text": "Typische Einsatzbereiche"
+        },
+        {
+          "type": "p",
+          "text": "Aus unserer Angebotsabteilung — das sind die häufigsten Anwendungsfälle:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Schmuck-Organizer: Ringe, Ohrringe, Armbänder, Ketten — die Trennwände halten alles getrennt und knotenfrei.",
+            "Teeboxen: mehrere Teebeutelsorten oder loser Tee in Dosen, jedes Fach für eine andere Sorte.",
+            "Gewürz-Organizer: kleine Gewürzgläser oder Tütchen, die Trennwände verhindern, dass sich Aromen vermischen.",
+            "Lernbaukästen: MINT-Spielzeug, Bastelmaterial, Saatgut-Tütchen — die Trennwände ordnen die Bauteile griffbereit.",
+            "Bastelbedarf: Perlen, Knöpfe, Garne, Kleinwerkzeug — modulare Fächer passen sich jedem Projekt an.",
+            "Boxen für ätherische Öle: 5–15-ml-Fläschchen, die Trennwände halten jedes Fläschchen aufrecht und am Rollen.",
+            "Uhrenboxen: 4–12 Uhrenplätze mit herausnehmbaren Trennwänden und gepolstertem Innenraum.",
+            "Geschenkboxen-Sets: Feinkost, Pflegeproben, hochwertige Werbeartikel — die Trennwände geben dem Auspacken Struktur."
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-3/set-3-02.png",
+          "caption": "Die Mehrfach-Fachaufteilung passt für Teemarken, Gewürzimporteure oder Bastelbedarfshändler — die Trennwände folgen der Artikelgröße."
+        },
+        {
+          "type": "h2",
+          "text": "Empfohlene Materialien"
+        },
+        {
+          "type": "p",
+          "text": "Die Materialwahl bestimmt Kosten, Haltbarkeit, Gewicht und Optik. Das empfehlen wir üblicherweise, je nach Markt und Preisniveau:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Material",
+            "Geeignet für",
+            "Optik",
+            "Preis",
+            "Hinweise"
+          ],
+          "rows": [
+            [
+              "Kiefer (keilgezinkt)",
+              "Preisbewusster Handel, Amazon FBA, Einsteiger-Geschenkboxen",
+              "Natürliche Maserung, helle Farbe",
+              "$",
+              "Geringstes Gewicht, leicht zu beizen oder zu lackieren, gut für Lasergravur"
+            ],
+            [
+              "Sperrholz (Schwalbenschwanz)",
+              "Mittleres Segment, Lernbaukästen, Bastelorganizer",
+              "Sichtbare Schichtkanten, klare moderne Optik",
+              "$$",
+              "Stabile Eckverbindungen, verzugsarm, nimmt UV-Druck gut an"
+            ],
+            [
+              "MDF mit Furnier",
+              "Hochwertige Geschenkboxen, Luxus-Retail, Firmengeschenke",
+              "Glatte Oberfläche, Nussbaum-/Kirsch-/Eichenfurnier",
+              "$$",
+              "Schwerer, hervorragend für Vollfarb-UV-Druck und Heißfolienprägung"
+            ],
+            [
+              "Bambus",
+              "Umweltbewusste Marken, nachhaltige Produktlinien, US-/EU-Markt",
+              "Markante Maserung, warmer Honigton",
+              "$$",
+              "FSC-zertifiziert erhältlich, leichter als Hartholz, moderne Anmutung"
+            ],
+            [
+              "Akazie (Massivholz)",
+              "Hochwertige Schmuckboxen, Uhrenkästen, Erbstück-Qualität",
+              "Satte dunkle Maserung, wertige Haptik",
+              "$$$",
+              "Schwer, langlebig, altert schön, am besten mit Öl- oder Lackfinish"
+            ]
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-4/set-4-02.png",
+          "caption": "Das Material bestimmt Preis, Gewicht und Positionierung — Kiefer für den preisbewussten Handel, Akazie für Premium-Marken."
+        },
+        {
+          "type": "h2",
+          "text": "Leitfaden zur Materialstärke"
+        },
+        {
+          "type": "p",
+          "text": "Die Wandstärke beeinflusst Stabilität, Gewicht und Kosten. Das empfiehlt unsere Fabrik in der Regel:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Boxgröße",
+            "Wandstärke",
+            "Trennwandstärke",
+            "Typischer Einsatz"
+          ],
+          "rows": [
+            [
+              "Klein (15×10×5 cm)",
+              "5–6 mm",
+              "3 mm",
+              "Schmuck, ätherische Öle, kleine Geschenkboxen"
+            ],
+            [
+              "Mittel (25×20×8 cm)",
+              "6–8 mm",
+              "4 mm",
+              "Teeboxen, Gewürz-Organizer, Bastelbedarf"
+            ],
+            [
+              "Groß (35×25×10 cm)",
+              "8–10 mm",
+              "5 mm",
+              "Lernbaukästen, Mehrfach-Organizer, Uhrenboxen"
+            ],
+            [
+              "Sehr groß (40×30×12 cm)",
+              "10–12 mm",
+              "5–6 mm",
+              "Schwere Inhalte, Handelsdisplay, Werkzeugaufbewahrung"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Bei Boxen unter 20 cm Länge genügen 5 mm Wandstärke. Bei Boxen ab 30 cm, die schwerere Inhalte tragen oder häufig in die Hand genommen werden, empfehlen wir 8–10 mm, damit sich nichts verzieht und der Deckel auch nach langem Gebrauch bündig schließt. Die Trennwandstärke sollte dazu passen: Dünnere Trennwände (3 mm) reichen für leichte Inhalte wie Schmuck, dickere (5 mm) sind besser, wenn die Fächer Schwereres wie Gewürzgläser oder Kleinwerkzeug aufnehmen."
+        },
+        {
+          "type": "h2",
+          "text": "Varianten der Innenunterteilung"
+        },
+        {
+          "type": "p",
+          "text": "Beim Trennwand-Design wird Individualisierung wirklich spürbar. Unsere Fabrik bietet drei Systeme an:"
+        },
+        {
+          "type": "h3",
+          "text": "1. Steckgitter-Trennwände"
+        },
+        {
+          "type": "p",
+          "text": "Die Trennwände haben auf halber Höhe eingeschnittene Kerben und stecken so zu einem Gitter zusammen. Der Nutzer kann sie entnehmen oder umstecken und damit unterschiedliche Fachgrößen bilden. Das ist das flexibelste System und eignet sich gut für Schmuck, Bastelbedarf oder Kleinteile. Üblicherweise fertigen wir 2–4 längs und 2–3 quer verlaufende Trennwände, was je nach Boxgröße 6–12 Fächer ergibt."
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-5/set-5-02.png",
+          "caption": "Steckgitter-Trennwände greifen an den mittigen Kerben ineinander — Nutzer stecken sie passend für Ringe, Ohrringe oder kleine Accessoires um."
+        },
+        {
+          "type": "h3",
+          "text": "2. Nut-Trennwände"
+        },
+        {
+          "type": "p",
+          "text": "In den Boden der Box werden flache Nuten (1–2 mm tief) gefräst. Die Trennwände gleiten hinein und sitzen fest. Weniger flexibel als das Steckgitter, weil die Nutpositionen feststehen, dafür sauberer im Erscheinungsbild und besser für hochwertige Boxen mit strammem, präzisem Sitz. Verbreitet bei Teeboxen und Organizern für ätherische Öle."
+        },
+        {
+          "type": "h3",
+          "text": "3. Herausnehmbare Einlegeschale"
+        },
+        {
+          "type": "p",
+          "text": "Die Trennwände sind in eine flache Schale eingebaut, die sich komplett aus der Box heben lässt und darunter eine zweite Ebene freigibt. Beliebt bei Uhren- und Schmuckboxen, wenn Sie oben gefächerte und darunter offene Aufbewahrung wollen. Die Schale ruht üblicherweise auf kleinen Holzleisten, die innen an die Wände geleimt sind."
+        },
+        {
+          "type": "p",
+          "text": "Bei Boxen von 30 × 20 × 8 cm empfehlen wir normalerweise Steckgitter-Trennwände mit 3 längs und 2 quer verlaufenden Teilen, was 12 veränderbare Fächer ergibt. Bei kleineren Schmuckboxen (15 × 10 × 5 cm) funktionieren Nut-Trennwände mit 2–3 festen Fächern gut und halten die Kosten niedrig."
+        },
+        {
+          "type": "h2",
+          "text": "Möglichkeiten der Logo-Anbringung"
+        },
+        {
+          "type": "p",
+          "text": "Platzierung und Verfahren hängen von Ihrem Design, Budget und der Bestellmenge ab. Das bietet unsere Fabrik an:"
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Verfahren",
+            "Geeignet für",
+            "Kosten",
+            "MOQ",
+            "Einrichtzeit"
+          ],
+          "rows": [
+            [
+              "Lasergravur",
+              "Naturbelassenes Holz, einfarbige Logos, Markennamen, reduzierte Gestaltung",
+              "Niedrig",
+              "500 Stück",
+              "1 Tag"
+            ],
+            [
+              "Siebdruck",
+              "1–2-farbige Logos, große Schrift, einfache Grafiken",
+              "Niedrig–mittel",
+              "1.000 Stück",
+              "2–3 Tage"
+            ],
+            [
+              "UV-Druck",
+              "Vollfarbige Motive, Fotos, Verläufe, komplexe Designs",
+              "Mittel–hoch",
+              "500 Stück",
+              "2–3 Tage"
+            ],
+            [
+              "Heißfolienprägung",
+              "Metallic-Logos (Gold, Silber, Roségold), Premium-Geschenkboxen, Luxus-Branding",
+              "Hoch",
+              "1.000 Stück",
+              "3–5 Tage"
+            ],
+            [
+              "Tief-/Hochprägung",
+              "Haptisches Branding, Lederoptik-Logos, Firmengeschenke",
+              "Mittel",
+              "1.000 Stück",
+              "3–5 Tage"
+            ]
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-6/set-6-02.png",
+          "caption": "Lasergravur funktioniert auf allen naturbelassenen Holzoberflächen — sauber, dauerhaft und ab 500 Stück wirtschaftlich."
+        },
+        {
+          "type": "p",
+          "text": "Für preisbewusste Amazon-FBA-Verkäufer ist die Lasergravur auf dem Deckel die beliebteste Wahl — dauerhaft, professionell im Erscheinungsbild und kaum spürbar im Stückpreis. Für Premium-Marken im Einzelhandel oder im Firmengeschäft erzeugt die Heißfolienprägung in Gold oder Roségold einen hochwertigen Auftritt, der einen höheren Regalpreis trägt."
+        },
+        {
+          "type": "h2",
+          "text": "Verpackungsoptionen"
+        },
+        {
+          "type": "p",
+          "text": "Die Verpackung wirkt auf Landed Cost, Regalwirkung und Schadensquote im Transport. Unsere Fabrik bietet drei Standardvarianten:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Nur Polybeutel: Günstigste Variante, geeignet für Amazon FBA oder Direktlieferung ins Lager, wenn die Box selbst das Produkt ist. Keine Handelspräsentation.",
+            "Weißer Karton (Steckdeckel- oder Versandkarton): Mittlere Variante, sauberes Bild, Amazon-FBA-tauglich, bedruckbar, falls Sie den Außenkarton branden möchten. Bei Kunden aus den USA und der EU unsere meistgewählte Option.",
+            "Kraftkarton mit Sichtfenster: Hochwertige Handelsverpackung, umweltnahe Anmutung, zeigt die Holzbox im Inneren. Am besten für Geschenkläden, Fachhandel oder Online-Marken, die ein starkes Auspackerlebnis wollen."
+          ]
+        },
+        {
+          "type": "img",
+          "src": "/drawer-wooden-box/set-7/set-7-03.png",
+          "caption": "Die Verpackung beeinflusst Regalwirkung und Transportschutz — der weiße Karton ist FBA-Standard, der Kraftkarton die Premium-Variante."
+        },
+        {
+          "type": "p",
+          "text": "Ab 2.000 Stück bedrucken wir die Außenverpackung gegen geringen Aufpreis mit Ihrem Logo und den Produktangaben (typischerweise 0,15–0,30 $ pro Einheit, je nach Druckfläche und Farbanzahl). Die Umkartons sind Standard-Exportwellpappe fünflagig, bei Boxen über 25 cm mit Schaumstoff-Eckschutz gegen Transportschäden auf See."
+        },
+        {
+          "type": "h2",
+          "text": "MOQ und Musterlaufzeit"
+        },
+        {
+          "type": "p",
+          "text": "Unsere MOQ für individuelle Holz-Aufbewahrungsboxen mit herausnehmbaren Trennwänden liegt bei 500 Stück pro Design. Bei gemischten Aufträgen (mehrere Größen oder Ausführungen) sollte die Gesamtmenge mindestens 1.000 Stück betragen. Die Musterlaufzeit beträgt 7–10 Arbeitstage ab Designfreigabe, die Produktionszeit 25–30 Tage nach Musterfreigabe und Anzahlung."
+        },
+        {
+          "type": "p",
+          "text": "Ein Muster kostet je nach Größe, Material und Logo-Verfahren typischerweise 50–120 $ pro Stück und wird bei Ihrer ersten Produktionsbestellung ab 1.000 Stück vollständig verrechnet. Wir versenden Muster per DHL oder FedEx (3–5 Tage in die USA/EU), und Sie können bis zu drei Designschleifen bis zur finalen Freigabe anfordern."
+        },
+        {
+          "type": "p",
+          "text": "Brauchen Sie schneller ein Muster (5–7 Tage), priorisieren wir Ihren Auftrag gegen einen Eilzuschlag von 30 %. Bei laufenden Aufträgen bewahren wir Ihre Vorrichtungen und CNC-Vorlagen auf, sodass die Nachbestellzeit auf 20–25 Tage sinkt."
+        },
+        {
+          "type": "h2",
+          "text": "Versand und Qualitätssicherung"
+        },
+        {
+          "type": "p",
+          "text": "Wir liefern in die USA, nach Großbritannien, in die EU, nach Kanada, Australien, Israel und über 60 weitere Märkte — per Seefracht (FOB Xiamen oder Qingdao) oder für kleinere Aufträge per Expresskurier. Für Kunden in den USA liegt die Seefracht von Xiamen nach Los Angeles bei etwa 0,25–0,35 $ pro Stück für eine 25 × 20 × 8 cm große Box, wenn ein voller 40-Fuß-Container verladen wird (je nach Packdichte rund 8.000–10.000 Stück)."
+        },
+        {
+          "type": "img",
+          "src": "/factory/production.jpg",
+          "caption": "Unsere Fabrik in Shandong fertigt monatlich über 15.000 Holzboxen, mit Inline-Qualitätskontrolle beim Zuschnitt, in der Montage, im Finish und beim Verpacken."
+        },
+        {
+          "type": "p",
+          "text": "Die Qualitätskontrolle findet an vier Punkten statt:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Materialprüfung: Holzfeuchte wird vor dem Zuschnitt auf 8–12 % geprüft (verhindert Verzug nach dem Transport).",
+            "CNC-Schnittgenauigkeit: Trennwandschlitze, Nuten und Zinkungen werden mit dem Messschieber kontrolliert — Toleranz ±0,3 mm.",
+            "Montage und Finish: Deckel auf bündigen Sitz prüfen, Scharniere auf leichten Lauf testen, Logo-Position gegen das freigegebene Muster abgleichen.",
+            "Endkontrolle vor dem Versand: Stichprobe von 2,5 % der fertigen Einheiten (AQL 2,5) — wir fotografieren Mängel und ersetzen jede Einheit mit sichtbaren Fehlern vor dem Verpacken."
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ab 5.000 Stück bieten wir eine Drittprüfung an (SGS, Intertek, Bureau Veritas) auf Kosten des Käufers, üblicherweise 300–500 $ pro Prüftag. Für EU-Kunden stellen wir FSC- oder PEFC-Zertifizierung für Bambus und nachhaltig bezogene Kiefer bereit, zu 8–12 % höheren Materialkosten."
+        },
+        {
+          "type": "h2",
+          "text": "Bereit, Ihre Holz-Aufbewahrungsboxen zu beschaffen?"
+        },
+        {
+          "type": "p",
+          "text": "Wir haben Holz-Aufbewahrungsboxen mit herausnehmbaren Trennwänden für Schmuckmarken in Großbritannien, Teeunternehmen in Deutschland, Hersteller von Lernbaukästen in den USA und Bastelbedarfshändler in Australien und Kanada produziert. Ob Sie 500 preisgünstige Kiefernboxen für Amazon FBA brauchen oder 5.000 hochwertige Akazien-Organizer für den Einzelhandel — unsere Angebotsabteilung erstellt Ihnen innerhalb von 24 Stunden eine Landed-Cost-Aufstellung und einen Musterzeitplan."
+        }
+      ]
+    },
     "eva-vs-epe-vs-velvet-vs-felt-insert-guide": {
       "title": "EVA, EPE, Samt oder Filz: das richtige Inlay für Holzboxen",
       "excerpt": "Ein vollständiger Leitfaden zur Wahl des passenden Inlay-Materials für Ihre Holzboxen. EVA-Schaum, EPE-Schaum, Samt und Filz im Vergleich — nach Schutzwirkung, Kosten, Optik und Nachhaltigkeit.",
@@ -4432,6 +4778,7 @@ export default {
     }
   },
   "categories": {
+    "Buyer Guides": "Einkaufsratgeber",
     "Pricing": "Preisgestaltung",
     "Process": "Prozess",
     "Materials": "Materialien",
