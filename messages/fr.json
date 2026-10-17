@@ -155,9 +155,9 @@
   },
   "capabilities": {
     "meta": {
-      "title": "Capacités — CHIC",
+      "title": "Capacités",
       "description": "Fraisage CNC, gravure laser, hot foil, sérigraphie, séchage au four, finition et emballage — équipement moderne et système QC strict pour les programmes wholesale et OEM de boîtes en bois.",
-      "ogTitle": "Capacités — CHIC",
+      "ogTitle": "Capacités",
       "ogDescription": "Fraisage CNC, laser, hot foil, sérigraphie, séchage au four, finition et emballage — production wholesale et OEM de boîtes en bois."
     },
     "h1": "Nos Capacités",
@@ -351,7 +351,7 @@
   },
   "blog": {
     "meta": {
-      "title": "Journal — CHIC",
+      "title": "Journal",
       "description": "Notes de terrain depuis notre usine de boîtes en bois sur mesure — processus de fabrication, choix des matériaux, manuels OEM/ODM, stratégie packaging et durabilité.",
       "ogDescription": "Notes de terrain depuis une usine de boîtes en bois — processus, matériaux, OEM/ODM, packaging, durabilité."
     },
@@ -452,7 +452,7 @@
   },
   "productsIndex": {
     "meta": {
-      "title": "Boîtes en Bois — CHIC",
+      "title": "Boîtes en Bois",
       "description": "Parcourez notre catalogue complet de boîtes en bois par usage, structure ou matériau. OEM/ODM personnalisés bienvenus."
     },
     "eyebrow": "Notre Catalogue",
@@ -470,7 +470,7 @@
   },
   "woodFab": {
     "meta": {
-      "title": "Fabrication Bois — CHIC",
+      "title": "Fabrication Bois",
       "description": "Du bois brut aux composants finis et emballés de boîtes en bois — CHIC gère découpe, façonnage, mortaisage, pré-assemblage, polissage et conditionnement sous un même toit de 20 000 m².",
       "ogDescription": "Du bois brut aux composants finis et emballés — fabrication bois intégrale en interne."
     },
@@ -485,7 +485,7 @@
   },
   "contact": {
     "meta": {
-      "title": "Contact — CHIC Wooden Expert",
+      "title": "Contact",
       "description": "Contactez CHIC — bureau commercial à Xiamen, usine à Cao County. WhatsApp, WeChat, email et formulaire de contact pour les demandes OEM/ODM de boîtes en bois.",
       "ogDescription": "Bureau commercial à Xiamen, usine à Cao County. WhatsApp, WeChat, email et formulaire de contact pour les demandes OEM/ODM de boîtes en bois."
     },
@@ -550,6 +550,7 @@
       "submit": "Envoyer la Demande →",
       "sending": "Envoi en cours…",
       "errorMsg": "Désolé — une erreur est survenue. Écrivez-nous directement à {email}",
+      "mailDraftMessage": "Envoyez la demande depuis votre application de messagerie. Si aucun brouillon ne s’est ouvert, écrivez directement à {email}. Votre message n’a pas été envoyé via ce formulaire.",
       "fine": "Vos informations restent chez nous — nous ne partageons ni ne revendons jamais les données de contact. Vous préférez l’email ? Écrivez à <emailLink>{email}</emailLink>."
     },
     "info": {

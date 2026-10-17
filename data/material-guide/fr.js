@@ -380,7 +380,7 @@ export const HARDWARE = [
 
 export const COPY = {
   meta: {
-    title: 'Guide des Matériaux — Référence Bois, Finition et Quincaillerie | CHIC',
+    title: 'Guide des Matériaux — Référence Bois, Finition et Quincaillerie',
     description:
       'Guide pédagogique complet des essences de bois, finitions, méthodes de branding et quincaillerie utilisées sur les boîtes en bois sur mesure. Comparez paulownia, pin, bambou, acacia et noyer, puis accédez aux produits correspondants.',
     ogDescription:

@@ -155,9 +155,9 @@
   },
   "capabilities": {
     "meta": {
-      "title": "対応力 — CHIC",
+      "title": "対応力",
       "description": "CNCルーティング、レーザー彫刻、ホットフォイル、シルクスクリーン、窯乾燥、仕上げ、梱包 —— 木箱のホールセール・OEMプログラム向けの最新設備と厳格なQCシステム。",
-      "ogTitle": "対応力 — CHIC",
+      "ogTitle": "対応力",
       "ogDescription": "CNCルーティング、レーザー、ホットフォイル、シルクスクリーン、窯乾燥、仕上げ、梱包 —— 木箱のホールセール・OEM生産。"
     },
     "h1": "当社の対応力",
@@ -351,7 +351,7 @@
   },
   "blog": {
     "meta": {
-      "title": "Journal — CHIC",
+      "title": "Journal",
       "description": "カスタム木箱メーカーの現場ノート — 製造プロセス、素材選び、OEM/ODM のプレイブック、パッケージング戦略、サステナビリティ。",
       "ogDescription": "木箱メーカーの現場ノート — プロセス、素材、OEM/ODM、パッケージング、サステナビリティ。"
     },
@@ -452,7 +452,7 @@
   },
   "productsIndex": {
     "meta": {
-      "title": "木箱 — CHIC",
+      "title": "木箱",
       "description": "用途、構造、素材で当社の木箱カタログ全体を閲覧できます。OEM/ODM カスタム対応。"
     },
     "eyebrow": "カタログ",
@@ -470,7 +470,7 @@
   },
   "woodFab": {
     "meta": {
-      "title": "木材加工 — CHIC",
+      "title": "木材加工",
       "description": "原木から完成・梱包済みの木箱コンポーネントまで — CHIC は 20,000 m² の一貫工場で切断、成形、ほぞ加工、仮組み、研磨、梱包を行います。",
       "ogDescription": "原木から完成・梱包済みコンポーネントまで — 完全内製の木材加工。"
     },
@@ -485,7 +485,7 @@
   },
   "contact": {
     "meta": {
-      "title": "お問い合わせ — CHIC Wooden Expert",
+      "title": "お問い合わせ",
       "description": "CHIC へのお問い合わせ — 厦門の販売オフィス、曹県の工場。WhatsApp、WeChat、メール、お問い合わせフォームから OEM/ODM の木箱に関するご相談を承ります。",
       "ogDescription": "厦門の販売オフィス、曹県の工場。WhatsApp、WeChat、メールと OEM/ODM 木箱のお問い合わせフォーム。"
     },
@@ -550,6 +550,7 @@
       "submit": "送信 →",
       "sending": "送信中…",
       "errorMsg": "申し訳ございません — エラーが発生しました。直接 {email} までメールください",
+      "mailDraftMessage": "お問い合わせを完了するには、メールアプリから送信してください。下書きが開かない場合は、{email} へ直接ご連絡ください。このフォームからはまだ送信されていません。",
       "fine": "お客様の情報は当社内で厳重に管理 — 連絡先データを第三者と共有・転売することはありません。メールがよろしければ <emailLink>{email}</emailLink> までどうぞ。"
     },
     "info": {

@@ -14,6 +14,9 @@
 
 import { ImageResponse } from 'next/og';
 
+// Use the bundled Edge renderer; the Node renderer in Next 14.2.5 joins
+// file URLs as Windows paths, which breaks local production builds.
+export const runtime = 'edge';
 export const size = { width: 32, height: 32 };
 export const contentType = 'image/png';
 

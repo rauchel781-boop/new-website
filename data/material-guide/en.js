@@ -388,7 +388,7 @@ export const HARDWARE = [
 // JSX-side strings (hero, section titles, ledes, table headers, eco panel, CTA)
 export const COPY = {
   meta: {
-    title: 'Material Guide — Wood, Finish & Hardware Reference | CHIC',
+    title: 'Wood Materials, Finishes & Hardware for Custom Boxes',
     description:
       'A complete educational guide to wood species, finishes, branding methods and hardware used in custom wooden boxes. Compare paulownia, pine, bamboo, acacia and walnut, then jump to matching products.',
     ogDescription:

@@ -155,9 +155,9 @@
   },
   "capabilities": {
     "meta": {
-      "title": "Capabilities — CHIC",
+      "title": "Custom Wooden Box Manufacturing Capabilities",
       "description": "CNC routing, laser engraving, hot foil, screen print, kiln drying, finishing and packing — modern equipment and a strict QC system for wholesale and OEM wooden box programs.",
-      "ogTitle": "Capabilities — CHIC",
+      "ogTitle": "Custom Wooden Box Manufacturing Capabilities",
       "ogDescription": "CNC routing, laser, hot foil, screen print, kiln drying, finishing and packing — wholesale and OEM wooden box production."
     },
     "h1": "Our Capabilities",
@@ -351,7 +351,7 @@
   },
   "blog": {
     "meta": {
-      "title": "Journal — CHIC",
+      "title": "Wooden Box Buying Guides for Wholesale & OEM Orders",
       "description": "Field notes from a custom wooden box factory — manufacturing process, material choices, OEM/ODM playbooks, packaging strategy and sustainability.",
       "ogDescription": "Field notes from a custom wooden box factory — process, materials, OEM/ODM, packaging, sustainability."
     },
@@ -452,7 +452,7 @@
   },
   "productsIndex": {
     "meta": {
-      "title": "Wooden Boxes — CHIC",
+      "title": "Custom Wooden Boxes for Wholesale & OEM Orders",
       "description": "Browse our full wooden box catalog by use, structure, or material. Custom OEM/ODM welcome."
     },
     "eyebrow": "Our Catalog",
@@ -470,7 +470,7 @@
   },
   "woodFab": {
     "meta": {
-      "title": "Wood Fabrication — CHIC",
+      "title": "Custom Wooden Box Fabrication & Finishing Services",
       "description": "From rough timber to finished, packaged wooden box components — CHIC handles cutting, shaping, mortising, pre-assembly, polishing and packing under one 20,000 m² roof.",
       "ogDescription": "Rough timber to finished, packaged wooden box components — full in-house wood fabrication."
     },
@@ -485,7 +485,7 @@
   },
   "contact": {
     "meta": {
-      "title": "Contact — CHIC Wooden Expert",
+      "title": "Request a Quote for Custom Wooden Box Manufacturing",
       "description": "Get in touch with CHIC — sales office in Xiamen, factory in Cao County. WhatsApp, WeChat, email, and a contact form for OEM/ODM wooden box inquiries.",
       "ogDescription": "Sales office in Xiamen, factory in Cao County. WhatsApp, WeChat, email and contact form for OEM/ODM wooden box inquiries."
     },
@@ -550,6 +550,7 @@
       "submit": "Send Inquiry →",
       "sending": "Sending…",
       "errorMsg": "Sorry — something went wrong. Please email us directly at {email}",
+      "mailDraftMessage": "Please send the inquiry from your email app to complete your request. If no draft opened, email {email} directly. Your message has not been submitted through this form.",
       "fine": "Your information stays with us — we never share or resell contact details. Prefer email? Write to <emailLink>{email}</emailLink>."
     },
     "info": {

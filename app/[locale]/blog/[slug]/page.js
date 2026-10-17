@@ -598,7 +598,7 @@ export default async function BlogPost({ params }) {
       name: SITE.company.legalName,
       logo: { '@type': 'ImageObject', url: `${SITE.siteUrl}/logo.png` },
     },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE.siteUrl}${postPath}` },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `${SITE.siteUrl}/${params.locale}${postPath}` },
   };
   const localePrefix = `/${params.locale}`;
   const breadcrumbLd = {

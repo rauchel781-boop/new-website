@@ -380,7 +380,7 @@ export const HARDWARE = [
 
 export const COPY = {
   meta: {
-    title: 'Guida ai Materiali — Riferimento Legno, Finitura e Ferramenta | CHIC',
+    title: 'Guida ai Materiali — Riferimento Legno, Finitura e Ferramenta',
     description:
       'Guida educativa completa alle specie di legno, alle finiture, ai metodi di branding e alla ferramenta utilizzata nelle scatole in legno su misura. Confronta paulownia, pino, bambù, acacia e noce, poi salta ai prodotti corrispondenti.',
     ogDescription:

@@ -9,6 +9,7 @@ export default {
       "category": "Guias de compra",
       "readTime": "14 min de leitura",
       "body": [
+        { type: 'p', text: 'Antes de definir as especificações, consulte [guia da espessura da madeira](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes).' },
         {
           "type": "p",
           "text": "As caixas de arrumação em madeira personalizadas com divisórias amovíveis estão entre os produtos OEM que mais nos pedem. Servem a marcas de joalharia, empresas de chá, importadores de especiarias, fabricantes de kits educativos, lojas de materiais de artesanato e marcas de caixas de oferta. Como as divisórias saem, o cliente final reorganiza os compartimentos conforme o que guarda, o que acrescenta flexibilidade e valor percebido. A partir da nossa produção, eis o que convém saber antes de encomendar: escolha de material, espessuras, tipos de divisória, métodos de logótipo, MOQ, amostragem e controlo de qualidade."
@@ -19,7 +20,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Uma caixa de arrumação em madeira personalizada com divisórias amovíveis é uma caixa com tampa e separações interiores que se podem levantar, mudar de sítio ou retirar por completo. As divisórias encaixam normalmente em ranhuras ou formam uma grelha no fundo. A nossa fábrica produz desde 15 × 10 × 5 cm (guarda-joias pequeno) até 40 × 30 × 10 cm (organizador grande de chá ou artesanato). O corpo pode ser em pinho com junta dentada, contraplacado com malhete, MDF folheado, bambu ou acácia maciça, consoante o nível de preço e o posicionamento."
+          "text": "Uma caixa de arrumação em madeira personalizada com divisórias amovíveis é uma caixa com tampa e separações interiores que se podem levantar, mudar de sítio ou retirar por completo. As divisórias encaixam normalmente em ranhuras ou formam uma grelha no fundo. A nossa fábrica produz desde 15 × 10 × 5 cm (guarda-joias pequeno) até 40 × 30 × 10 cm (organizador grande de chá ou artesanato). O corpo pode ser em pinho com junta dentada, contraplacado com malhete, MDF folheado, bambu ou acácia maciça, consoante o nível de preço e o posicionamento. Consulte os modelos disponíveis em [Caixas de Armazenamento](/products/storage)."
         },
         {
           "type": "img",
@@ -62,7 +63,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O material determina custo, durabilidade, peso e apelo visual. É isto que costumamos recomendar consoante o mercado e o nível de preço:"
+          "text": "O material determina custo, durabilidade, peso e apelo visual. É isto que costumamos recomendar consoante o mercado e o nível de preço: Consulte as opções em [guia de madeiras, acabamentos e ferragens](/material-guide)."
         },
         {
           "type": "table",
@@ -177,7 +178,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "As divisórias têm entalhes cortados a meia altura que permitem encaixá-las umas nas outras formando uma grelha. O utilizador pode retirá-las ou mudá-las de sítio para criar compartimentos de tamanhos diferentes. É o sistema mais flexível e funciona bem para joias, materiais de artesanato ou peças pequenas. Cortamos normalmente 2 a 4 divisórias verticais e 2 a 3 horizontais, o que dá 6 a 12 compartimentos conforme o tamanho."
+          "text": "As divisórias têm entalhes cortados a meia altura que permitem encaixá-las umas nas outras formando uma grelha. O utilizador pode retirá-las ou mudá-las de sítio para criar compartimentos de tamanhos diferentes. É o sistema mais flexível e funciona bem para joias, materiais de artesanato ou peças pequenas. Cortamos normalmente 2 a 4 divisórias verticais e 2 a 3 horizontais, o que dá 6 a 12 compartimentos conforme o tamanho. Como exemplo de catálogo, consulte [Caixa Sementes Bambu com Divisórias Ajustáveis](/products/garden-seed/bamboo-seed-storage-box-with-adjustable-removable-dividers)."
         },
         {
           "type": "img",
@@ -198,11 +199,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "As divisórias vêm integradas num tabuleiro pouco fundo que sai por completo e revela um segundo nível de arrumação por baixo. Muito procurado em caixas de relógios e guarda-joias, quando se quer compartimentado em cima e espaço livre em baixo. O tabuleiro assenta normalmente em pequenas réguas de madeira coladas ao interior das paredes."
+          "text": "As divisórias vêm integradas num tabuleiro pouco fundo que sai por completo e revela um segundo nível de arrumação por baixo. Muito procurado em caixas de relógios e guarda-joias, quando se quer compartimentado em cima e espaço livre em baixo. O tabuleiro assenta normalmente em pequenas réguas de madeira coladas ao interior das paredes. Consulte os modelos disponíveis em [Caixas de Madeira com Gaveta](/products/drawer)."
         },
         {
           "type": "p",
-          "text": "Para caixas de 30 × 20 × 8 cm recomendamos normalmente divisórias em grelha com 3 peças verticais e 2 horizontais, o que dá 12 compartimentos ajustáveis. Para guarda-joias mais pequenos (15 × 10 × 5 cm), as divisórias em ranhura com 2-3 compartimentos fixos funcionam bem e mantêm o custo baixo."
+          "text": "Para caixas de 30 × 20 × 8 cm recomendamos normalmente divisórias em grelha com 3 peças verticais e 2 horizontais, o que dá 12 compartimentos ajustáveis. Para guarda-joias mais pequenos (15 × 10 × 5 cm), as divisórias em ranhura com 2-3 compartimentos fixos funcionam bem e mantêm o custo baixo. Para mais informações, consulte [EVA, EPE, veludo ou feltro: que interior escolher para caixas de madeira](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide)."
         },
         {
           "type": "h2",
@@ -210,7 +211,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A colocação e o método dependem do seu design, do orçamento e da quantidade. É isto que a nossa fábrica oferece:"
+          "text": "A colocação e o método dependem do seu design, do orçamento e da quantidade. É isto que a nossa fábrica oferece: Para mais informações, consulte [5 técnicas de acabamento que mudam a aparência da caixa de madeira](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "table",
@@ -274,7 +275,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A embalagem influencia o custo posto em destino, o apelo na prateleira e a taxa de danos em trânsito. A nossa fábrica oferece três opções padrão:"
+          "text": "A embalagem influencia o custo posto em destino, o apelo na prateleira e a taxa de danos em trânsito. A nossa fábrica oferece três opções padrão: Para mais informações, consulte [Projetando embalagens de madeira Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "list",
@@ -299,7 +300,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O MOQ de fábrica para caixas de arrumação em madeira personalizadas com divisórias amovíveis é de 500 peças por design. Em encomendas mistas (vários tamanhos ou acabamentos), o total combinado deve ser de pelo menos 1.000 peças. O prazo de amostra é de 7-10 dias úteis a partir da aprovação do design, e a produção demora 25-30 dias após a validação da amostra e o pagamento do sinal."
+          "text": "O [MOQ](/blog/low-moq-sampling-strategy) de fábrica para caixas de arrumação em madeira personalizadas com divisórias amovíveis é de 500 peças por design. Em encomendas mistas (vários tamanhos ou acabamentos), o total combinado deve ser de pelo menos 1.000 peças. O prazo de amostra é de 7-10 dias úteis a partir da aprovação do design, e a produção demora 25-30 dias após a validação da amostra e o pagamento do sinal."
         },
         {
           "type": "p",
@@ -345,7 +346,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Já produzimos caixas de arrumação com divisórias amovíveis para marcas de joalharia no Reino Unido, empresas de chá na Alemanha, fabricantes de kits educativos nos EUA e lojas de artesanato na Austrália e no Canadá. Quer precise de 500 caixas de pinho económicas para Amazon FBA quer de 5.000 organizadores de acácia premium para retalho, a nossa equipa de orçamentos prepara-lhe uma decomposição de custo posto em destino e um calendário de amostras em 24 horas."
+          "text": "Já produzimos caixas de arrumação com divisórias amovíveis para marcas de joalharia no Reino Unido, empresas de chá na Alemanha, fabricantes de kits educativos nos EUA e lojas de artesanato na Austrália e no Canadá. Quer precise de 500 caixas de pinho económicas para Amazon FBA quer de 5.000 organizadores de acácia premium para retalho, a nossa equipa de orçamentos prepara-lhe uma decomposição de custo posto em destino e um calendário de amostras em 24 horas. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
         }
       ]
     },
@@ -355,9 +356,10 @@ export default {
       "category": "Materiais",
       "readTime": "12 min de leitura",
       "body": [
+        { type: 'p', text: 'Antes de definir as especificações, consulte [Por que um MOQ de 100 peças é a maneira mais inteligente de começar](/blog/low-moq-sampling-strategy).' },
         {
           "type": "p",
-          "text": "Ao projetar caixas de madeira personalizadas, o material do interior pesa tanto como a própria caixa. A escolha errada acaba em produto danificado, custos mais altos ou uma apresentação que não convence o cliente. Neste guia comparamos quatro materiais comuns — espuma EVA, espuma EPE, veludo e feltro — segundo os critérios que realmente decidem: nível de proteção, relação custo-benefício, estética, impacto ambiental e opções de personalização."
+          "text": "Ao projetar caixas de madeira personalizadas, o material do interior pesa tanto como a própria caixa. A escolha errada acaba em produto danificado, custos mais altos ou uma apresentação que não convence o cliente. Neste guia comparamos quatro materiais comuns — espuma EVA, espuma EPE, veludo e feltro — segundo os critérios que realmente decidem: nível de proteção, relação custo-benefício, estética, impacto ambiental e opções de personalização. Consulte os modelos disponíveis em [Caixas para Presente e Embalagem](/products/gift-packaging)."
         },
         {
           "type": "h2",
@@ -408,7 +410,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O EVA (etileno-acetato de vinilo) é uma espuma de célula fechada conhecida pela densidade, durabilidade e excelente resistência ao impacto. É o material dos tapetes de ioga, das solas de calçado e das embalagens de eletrónica topo de gama. O EVA absorve choques de forma excelente, com uma dureza de 40-60 Shore C. Permite corte por cunho com precisão e pode ser flocado com veludo para um acabamento de luxo. O preço é o mais alto, mas é ideal para eletrónica de valor como relógios, câmaras e telemóveis, para instrumentos médicos, para ferramentas que exigem encaixe exato e para produtos cuja embalagem será reutilizada."
+          "text": "O EVA (etileno-acetato de vinilo) é uma espuma de célula fechada conhecida pela densidade, durabilidade e excelente resistência ao impacto. É o material dos tapetes de ioga, das solas de calçado e das embalagens de eletrónica topo de gama. O EVA absorve choques de forma excelente, com uma dureza de 40-60 Shore C. Permite corte por cunho com precisão e pode ser flocado com veludo para um acabamento de luxo. O preço é o mais alto, mas é ideal para eletrónica de valor como relógios, câmaras e telemóveis, para instrumentos médicos, para ferramentas que exigem encaixe exato e para produtos cuja embalagem será reutilizada. Como exemplo de catálogo, consulte [Caixa Presente Magnética de Luxo](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "h2",
@@ -416,7 +418,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O EPE (polietileno expandido) é uma espuma de célula aberta, leve, flexível e económica. É o «plástico-bolha» das espumas: macio, cedente e excelente para acolchoamento geral. O EPE absorve bem os choques com uma dureza menor, de 20-30 Shore C, o que o torna mais macio e compressível do que o EVA. É acessível, reciclável e de fabrico pouco poluente. O EPE serve quando a proteção necessária é moderada, para embalagem em conjunto no envio de várias unidades, para projetos com orçamento apertado e para produtos de forma regular que não exigem contornos complexos."
+          "text": "O EPE (polietileno expandido) é uma espuma de célula aberta, leve, flexível e económica. É o «plástico-bolha» das espumas: macio, cedente e excelente para acolchoamento geral. O EPE absorve bem os choques com uma dureza menor, de 20-30 Shore C, o que o torna mais macio e compressível do que o EVA. É acessível, reciclável e de fabrico pouco poluente. O EPE serve quando a proteção necessária é moderada, para embalagem em conjunto no envio de várias unidades, para projetos com orçamento apertado e para produtos de forma regular que não exigem contornos complexos. Para mais informações, consulte [Quanto custam as caixas de madeira personalizadas? Um guia de preços grossista e OEM para 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "h2",
@@ -424,7 +426,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O veludo é um têxtil macio e felpudo (seda natural ou poliéster) de textura rica e aspeto premium. Usa-se habitualmente em guarda-joias, embalagens de perfume e conjuntos de oferta topo de gama. Sozinho quase não amortece e precisa de acolchoamento por baixo, mas oferece um toque de luxo inigualável e excelentes opções de personalização. O veludo é ideal para joalharia e objetos preciosos, perfumaria e cosmética, ofertas de luxo e troféus, e para produtos em que o momento da abertura é o que conta. Muitas marcas combinam-no com espuma: EVA ou EPE como camada de amortecimento e flocagem de veludo por cima para a estética."
+          "text": "O veludo é um têxtil macio e felpudo (seda natural ou poliéster) de textura rica e aspeto premium. Usa-se habitualmente em guarda-joias, embalagens de perfume e conjuntos de oferta topo de gama. Sozinho quase não amortece e precisa de acolchoamento por baixo, mas oferece um toque de luxo inigualável e excelentes opções de personalização. O veludo é ideal para joalharia e objetos preciosos, perfumaria e cosmética, ofertas de luxo e troféus, e para produtos em que o momento da abertura é o que conta. Muitas marcas combinam-no com espuma: EVA ou EPE como camada de amortecimento e flocagem de veludo por cima para a estética. Para mais informações, consulte [Anatomia de um grande relógio de madeira](/blog/wooden-watch-box-anatomy)."
         },
         {
           "type": "h2",
@@ -432,7 +434,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O feltro é um não tecido de fibras de lã prensadas (ou alternativas sintéticas). Tem acabamento macio e mate e ganha terreno junto das marcas com consciência ecológica. Amortece moderadamente com um luxo elegante e discreto. Corta-se, tinge-se e molda-se com facilidade, o que abre muitas opções de personalização. O feltro de lã é biodegradável e existem versões em sintético reciclado, o que o torna a opção mais sustentável. Serve para marcas ecológicas, produtos artesanais, artigos de peso médio como livros, cerâmica e vidro, e para marcas que procuram uma estética natural."
+          "text": "O feltro é um não tecido de fibras de lã prensadas (ou alternativas sintéticas). Tem acabamento macio e mate e ganha terreno junto das marcas com consciência ecológica. Amortece moderadamente com um luxo elegante e discreto. Corta-se, tinge-se e molda-se com facilidade, o que abre muitas opções de personalização. O feltro de lã é biodegradável e existem versões em sintético reciclado, o que o torna a opção mais sustentável. Serve para marcas ecológicas, produtos artesanais, artigos de peso médio como livros, cerâmica e vidro, e para marcas que procuram uma estética natural. Para mais informações, consulte [5 técnicas de acabamento que mudam a aparência da caixa de madeira](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -502,7 +504,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Use esta matriz para escolher o material do interior. Primeiro, avalie a fragilidade do produto: artigos frágeis como eletrónica e vidro pedem EVA ou EPE, os de fragilidade média aceitam EPE ou feltro, e os robustos funcionam bem com veludo ou feltro. Segundo, defina o orçamento: orçamentos premium ($$$) suportam EVA ou veludo, a faixa intermédia ($$) combina com feltro, e projetos apertados ($) devem usar EPE. Terceiro, pense no posicionamento da marca: marcas de luxo ganham com veludo sobre base de EVA, marcas ecológicas devem escolher feltro, marcas tecnológicas e profissionais combinam com EVA, e marcas orientadas ao preço com EPE. Por fim, avalie o volume de produção: encomendas acima de 1.000 unidades aproveitam o corte automatizado de EVA ou EPE, volumes médios de 100 a 1.000 unidades aceitam qualquer material, e abaixo de 100 unidades o feltro e o veludo são mais fáceis de trabalhar à mão."
+          "text": "Use esta matriz para escolher o material do interior. Primeiro, avalie a fragilidade do produto: artigos frágeis como eletrónica e vidro pedem EVA ou EPE, os de fragilidade média aceitam EPE ou feltro, e os robustos funcionam bem com veludo ou feltro. Segundo, defina o orçamento: orçamentos premium ($$$) suportam EVA ou veludo, a faixa intermédia ($$) combina com feltro, e projetos apertados ($) devem usar EPE. Terceiro, pense no posicionamento da marca: marcas de luxo ganham com veludo sobre base de EVA, marcas ecológicas devem escolher feltro, marcas tecnológicas e profissionais combinam com EVA, e marcas orientadas ao preço com EPE. Por fim, avalie o volume de produção: encomendas acima de 1.000 unidades aproveitam o corte automatizado de EVA ou EPE, volumes médios de 100 a 1.000 unidades aceitam qualquer material, e abaixo de 100 unidades o feltro e o veludo são mais fáceis de trabalhar à mão. Consulte as opções em [guia de madeiras, acabamentos e ferragens](/material-guide)."
         },
         {
           "type": "h2",
@@ -510,7 +512,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Uma marca de relógios de luxo precisava de proteger peças de alto valor mantendo uma apresentação premium: usou uma camada base de espuma EVA cortada à forma do relógio com uma camada superior de flocagem em veludo sobre o EVA, conseguindo proteção de 5 estrelas mais uma abertura de luxo, a 3-5 $ por interior com MOQ de 500. Uma oficina artesanal de velas procurava embalagem ecológica para velas feitas à mão e usou interiores em feltro de lã cortados à medida dos frascos; a imagem natural e sustentável alinhou com a marca e traduziu-se em mais 30 % de recompras, a 1,50-2 $ por interior com MOQ de 100. Uma loja online de eletrónica que enviava colunas Bluetooth em larga escala optou por protetores de canto em EPE com almofada central, reduzindo o custo de envio ao peso e baixando a taxa de danos de 5 % para menos de 1 %, a 0,50-0,80 $ por interior com MOQ de 1.000."
+          "text": "Uma marca de relógios de luxo precisava de proteger peças de alto valor mantendo uma apresentação premium: usou uma camada base de espuma EVA cortada à forma do relógio com uma camada superior de flocagem em veludo sobre o EVA, conseguindo proteção de 5 estrelas mais uma abertura de luxo, a 3-5 $ por interior com MOQ de 500. Uma oficina artesanal de velas procurava embalagem ecológica para velas feitas à mão e usou interiores em feltro de lã cortados à medida dos frascos; a imagem natural e sustentável alinhou com a marca e traduziu-se em mais 30 % de recompras, a 1,50-2 $ por interior com MOQ de 100. Uma loja online de eletrónica que enviava colunas Bluetooth em larga escala optou por protetores de canto em EPE com almofada central, reduzindo o custo de envio ao peso e baixando a taxa de danos de 5 % para menos de 1 %, a 0,50-0,80 $ por interior com MOQ de 1.000. Como exemplo de catálogo, consulte [Vitrine Display Três Relógios](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h2",
@@ -522,7 +524,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Conte com a quantidade mínima de encomenda (MOQ): a espuma EVA exige em regra 300-500 unidades por causa do custo de preparação do cunho, a espuma EPE 500-1.000 unidades, os forros em veludo 100-300 unidades, e o feltro apenas 50-100 unidades por ser mais fácil de trabalhar em séries pequenas. Para produtos alimentares, médicos ou infantis, verifique a conformidade RoHS (ausência de substâncias perigosas), a certificação REACH do regulamento europeu de substâncias químicas e a aprovação FDA para materiais em contacto com alimentos."
+          "text": "Conte com a quantidade mínima de encomenda (MOQ): a espuma EVA exige em regra 300-500 unidades por causa do custo de preparação do cunho, a espuma EPE 500-1.000 unidades, os forros em veludo 100-300 unidades, e o feltro apenas 50-100 unidades por ser mais fácil de trabalhar em séries pequenas. Para produtos alimentares, médicos ou infantis, verifique a conformidade RoHS (ausência de substâncias perigosas), a certificação REACH do regulamento europeu de substâncias químicas e a aprovação FDA para materiais em contacto com alimentos. Para mais informações, consulte [Como abastecer caixas de madeira personalizadas da China em 2026: o playbook do comprador B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
         },
         {
           "type": "h2",
@@ -530,7 +532,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Escolher o interior certo para as suas caixas de madeira é equilibrar proteção, custo, estética e valores de marca. A espuma EVA oferece proteção e personalização premium a $$$, e compensa em produtos de alto valor. A espuma EPE dá acolchoamento leve e acessível para uso geral, a $. O veludo garante apresentação de luxo e rende melhor sobre uma base de espuma, a $$$. O feltro é ecológico, elegante e versátil, a $$. Para a maioria dos projetos de caixas de madeira personalizadas recomendamos começar com espuma EVA como base e acrescentar veludo ou feltro por cima se o orçamento permitir. Assim obtém o melhor dos dois mundos: proteção em que pode confiar e uma apresentação que encanta."
+          "text": "Escolher o interior certo para as suas caixas de madeira é equilibrar proteção, custo, estética e valores de marca. A espuma EVA oferece proteção e personalização premium a $$$, e compensa em produtos de alto valor. A espuma EPE dá acolchoamento leve e acessível para uso geral, a $. O veludo garante apresentação de luxo e rende melhor sobre uma base de espuma, a $$$. O feltro é ecológico, elegante e versátil, a $$. Para a maioria dos projetos de caixas de madeira personalizadas recomendamos começar com espuma EVA como base e acrescentar veludo ou feltro por cima se o orçamento permitir. Assim obtém o melhor dos dois mundos: proteção em que pode confiar e uma apresentação que encanta. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
         }
       ]
     },
@@ -540,6 +542,7 @@ export default {
       "category": "Projeto",
       "readTime": "14 min de leitura",
       "body": [
+        { type: 'p', text: 'Antes de definir as especificações, consulte [Guia do comprador para hardware caixa de madeira](/blog/wooden-box-hardware-guide).' },
         {
           "type": "p",
           "text": "A maioria dos compradores especifica uma caixa de madeira por esta ordem: dimensões, espécie de madeira, marcação e depois — quase como uma reflexão tardia — como se abre. Essa ordem está invertida. O fecho determina as ferramentas, o tempo de montagem, a fatura de ferragens, se a caixa pode seguir plana e o que o cliente sente nos primeiros dois segundos em que lhe pega. Mudar o fecho tarde equivale a ter recotado o projeto inteiro."
@@ -785,7 +788,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O que muda de facto na produção é o resto da caixa. Uma fechadura concentra esforço no bordo da tampa e nas dobradiças sempre que alguém a testa, pelo que as caixas com fechadura levam dobradiças reforçadas e uma tampa mais espessa do que a mesma caixa precisaria de outro modo. Dispensar esse reforço é, de longe, a razão mais comum para uma caixa com fechadura voltar danificada. As nossas [caixas de madeira com fechadura](/products/with-lock) existem em nogueira, carvalho, pinho e acácia."
+          "text": "O que muda de facto na produção é o resto da caixa. Uma fechadura concentra esforço no bordo da tampa e nas dobradiças sempre que alguém a testa, pelo que as caixas com fechadura levam dobradiças reforçadas e uma tampa mais espessa do que a mesma caixa precisaria de outro modo. Dispensar esse reforço é, de longe, a razão mais comum para uma caixa com fechadura voltar danificada. As nossas [caixas de madeira com fechadura](/products/with-lock) existem em nogueira, carvalho, pinho e acácia. Para mais informações, consulte [guia da espessura da madeira](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "h2",
@@ -852,7 +855,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Todas as caixas que expedimos passam pelas mesmas seis estações, independentemente do fecho. O que muda é quanto trabalho acontece nas estações três e quatro, e é daí que vêm as diferenças de prazo da tabela acima."
+          "text": "Todas as caixas que expedimos passam pelas mesmas seis estações, independentemente do fecho. O que muda é quanto trabalho acontece nas estações três e quatro, e é daí que vêm as diferenças de prazo da tabela acima. Para mais informações, consulte [Dentro do nosso processo de fabricação 6 etapas caixa de madeira](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "flow",
@@ -913,11 +916,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Se duas respostas competirem — digamos, um guarda-joias que é ao mesmo tempo objeto de uso diário e unboxing premium —, deve ganhar o requisito de uso diário. Uma tampa magnética aberta duas vezes por dia sobreviverá ao programa, mas nunca dará na mão a mesma sensação de solidez de uma dobradiça bem especificada, e o cliente repara nisso ao trigésimo dia, não ao primeiro."
+          "text": "Se duas respostas competirem — digamos, um guarda-joias que é ao mesmo tempo objeto de uso diário e unboxing premium —, deve ganhar o requisito de uso diário. Uma tampa magnética aberta duas vezes por dia sobreviverá ao programa, mas nunca dará na mão a mesma sensação de solidez de uma dobradiça bem especificada, e o cliente repara nisso ao trigésimo dia, não ao primeiro. Para mais informações, consulte [Anatomia de um grande relógio de madeira](/blog/wooden-watch-box-anatomy)."
         },
         {
           "type": "p",
-          "text": "A espécie de madeira é uma decisão separada do fecho, e as duas interagem menos do que se supõe: qualquer um destes cinco fechos pode ser construído em qualquer uma das nossas espécies. O nosso [guia de materiais](/material-guide) compara paulownia, pinho, bambu, acácia e nogueira quanto a peso, dureza, comportamento no acabamento e certificação."
+          "text": "A espécie de madeira é uma decisão separada do fecho, e as duas interagem menos do que se supõe: qualquer um destes cinco fechos pode ser construído em qualquer uma das nossas espécies. O nosso [guia de materiais](/material-guide) compara paulownia, pinho, bambu, acácia e nogueira quanto a peso, dureza, comportamento no acabamento e certificação. Para mais informações, consulte [5 técnicas de acabamento que mudam a aparência da caixa de madeira](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "quote",
@@ -973,6 +976,7 @@ export default {
       "category": "Preços",
       "readTime": "12 min de leitura",
       "body": [
+        { type: 'p', text: 'Antes de definir as especificações, consulte [EVA, EPE, veludo ou feltro: que interior escolher para caixas de madeira](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide).' },
         {
           "type": "p",
           "text": "A pergunta mais comum que um fabricante de caixas de madeira ouve é também a mais difícil de responder num único número: “quanto custa uma caixa de madeira personalizada?”. A resposta honesta é um intervalo — sensivelmente $1.50 a $25 por unidade — porque uma caixa de oferta de pinho com tampa deslizante e tingida e um estojo de relógios em nogueira maciça forrado a veludo com fecho de latão são ambos “caixas de madeira”, e situam-se em extremos opostos do mapa de custos. Este guia transforma esse intervalo pouco útil em algo com que pode efetivamente orçamentar."
@@ -1275,7 +1279,7 @@ export default {
           "type": "list",
           "items": [
             "Desça um escalão de espécie onde não se note — a paulownia tingida de escuro lê-se próxima da nogueira por uma fração do custo.",
-            "Escolha uma [tampa deslizante](/products/sliding-lid) em vez de dobradiça ou magnético quando o caso de uso o permita — é a mais barata de montar.",
+            "Escolha uma tampa deslizante em vez de dobradiça ou magnético quando o caso de uso o permita — é a mais barata de montar.",
             "Simplifique o acabamento: uma demão de laca de grau alimentar em vez de brilho tipo piano.",
             "Otimize as dimensões à caixa de expedição e ao contentor — ar desperdiçado é frete desperdiçado.",
             "Use gravação a laser em vez de película a quente ou impressão a cores plenas para o branding.",
@@ -1311,6 +1315,7 @@ export default {
       "category": "Estratégia",
       "readTime": "13 min de leitura",
       "body": [
+        { type: 'p', text: 'Antes de definir as especificações, consulte [OEM vs. ODM: qual é o certo para o seu projeto caixa de madeira?](/blog/oem-vs-odm-wooden-boxes).' },
         {
           "type": "p",
           "text": "Da primeira vez que uma líder de compras de um varejista de presentes de Helsinque me perguntou como abastecer caixas de madeira personalizadas da China, ela já tinha passado por dois fornecedores em 18 meses. O primeiro havia cotado a US$ 3,20 por unidade, embolsado o dinheiro do ferramental e enviado caixas com teor de umidade tão variável que 14% do pedido chegou rachado. O segundo era tecnicamente competente, mas só se comunicava por respostas vagas no WeChat e perdeu a janela de Natal dela em seis semanas. Ela estava prestes a desistir de fornecedores chineses por completo."
@@ -1362,7 +1367,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A maior parte do sourcing B2B sério acontece aqui. Uma fábrica especializada (focada em paulownia, pinus, bambu, acácia, nogueira — escolha uma ou duas espécies) opera seu próprio pátio de produção e o emparelha com um escritório comercial num hub de exportação como Xiamen, Shenzhen ou Xangai. A fábrica cuida da manufatura; o escritório comercial cuida da documentação, coordenação de amostras, comunicação e da logística pouco glamourosa que transforma um palete de caixas em algo que passa pela alfândega. Nossa própria estrutura — uma fábrica de produção de 20.000 m² em Cao County, Shandong, e um escritório comercial em Xiamen, Fujian — entra nesta categoria, e é o modelo que entrega o resultado mais previsível para compradores que querem reabastecer."
+          "text": "A maior parte do sourcing B2B sério acontece aqui. Uma fábrica especializada (focada em paulownia, pinus, bambu, acácia, nogueira — escolha uma ou duas espécies) opera seu próprio pátio de produção e o emparelha com um escritório comercial num hub de exportação como Xiamen, Shenzhen ou Xangai. A fábrica cuida da manufatura; o escritório comercial cuida da documentação, coordenação de amostras, comunicação e da logística pouco glamourosa que transforma um palete de caixas em algo que passa pela alfândega. Nossa própria estrutura — uma fábrica de produção de 20.000 m² em Cao County, Shandong, e um escritório comercial em Xiamen, Fujian — entra nesta categoria, e é o modelo que entrega o resultado mais previsível para compradores que querem reabastecer. Consulte as opções em [Capacidades](/capabilities)."
         },
         {
           "type": "h3",
@@ -1370,7 +1375,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "No topo do mercado, você encontra pequenas oficinas produzindo séries de 300 peças de caixas para relógios em nogueira maciça ou peças heirloom gravadas à mão. Os prazos são longos, os preços unitários altos, e elas não são construídas para escalar — mas são quem você quer para edições limitadas e lançamentos de luxo onde cada detalhe é assinado pessoalmente."
+          "text": "No topo do mercado, você encontra pequenas oficinas produzindo séries de 300 peças de caixas para relógios em nogueira maciça ou peças heirloom gravadas à mão. Os prazos são longos, os preços unitários altos, e elas não são construídas para escalar — mas são quem você quer para edições limitadas e lançamentos de luxo onde cada detalhe é assinado pessoalmente. Como exemplo de catálogo, consulte [Vitrine Display Três Relógios](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "p",
@@ -1403,7 +1408,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "\"Típico\" diz o sweet spot comercial; \"mínimo\" diz se você pode fazer um piloto antes de se comprometer com uma temporada inteira. Para a maioria das caixas de madeira personalizadas o MOQ típico fica em 500–1.000 peças; MOQs mínimos para primeiros pedidos ou specs mais simples podem ser 100–300. Se um fornecedor recusa cotar nada abaixo de 1.000, provavelmente não está montado para teste incremental — bom para linhas estabelecidas, arriscado para um novo lançamento."
+          "text": "\"Típico\" diz o sweet spot comercial; \"mínimo\" diz se você pode fazer um piloto antes de se comprometer com uma temporada inteira. Para a maioria das caixas de madeira personalizadas o [MOQ](/blog/low-moq-sampling-strategy) típico fica em 500–1.000 peças; MOQs mínimos para primeiros pedidos ou specs mais simples podem ser 100–300. Se um fornecedor recusa cotar nada abaixo de 1.000, provavelmente não está montado para teste incremental — bom para linhas estabelecidas, arriscado para um novo lançamento."
         },
         {
           "type": "h3",
@@ -1419,7 +1424,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Boas fábricas amostram cada novo design antes de cotar produção plena. O custo de amostra varia — de gratuito para compradores estabelecidos a US$ 80–200 por peça para builds complexos pontuais — mas o princípio não é negociável: você nunca deve aprovar um pedido de 5.000 peças só com base em um render CAD. Desconfie de fornecedores que resistem a amostras físicas ou cobram custos de molde que parecem suspeitamente um markup de trading."
+          "text": "Boas fábricas amostram cada novo design antes de cotar produção plena. O custo de amostra varia — de gratuito para compradores estabelecidos a US$ 80–200 por peça para builds complexos pontuais — mas o princípio não é negociável: você nunca deve aprovar um pedido de 5.000 peças só com base em um render CAD. Desconfie de fornecedores que resistem a amostras físicas ou cobram custos de molde que parecem suspeitamente um markup de trading. Para mais informações, consulte [Quanto custam as caixas de madeira personalizadas? Um guia de preços grossista e OEM para 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "img",
@@ -1440,7 +1445,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Certificações permanentes e documentos por pedido são duas coisas diferentes. ISO 9001 é uma certificação permanente de sistema de gestão que se aplica à fábrica inteira. FSC, CARB e EU REACH normalmente são aplicadas por pedido: a madeira usada na sua série específica é abastecida e documentada para atender ao padrão. Pergunte ao fornecedor o que ele tem permanente e o que pode documentar para o seu pedido. Respostas desencontradas aqui são o sinal mais comum de problema."
+          "text": "[Certificações](/blog/sustainable-sourcing-2026) permanentes e documentos por pedido são duas coisas diferentes. ISO 9001 é uma certificação permanente de sistema de gestão que se aplica à fábrica inteira. FSC, CARB e EU REACH normalmente são aplicadas por pedido: a madeira usada na sua série específica é abastecida e documentada para atender ao padrão. Pergunte ao fornecedor o que ele tem permanente e o que pode documentar para o seu pedido. Respostas desencontradas aqui são o sinal mais comum de problema."
         },
         {
           "type": "h3",
@@ -1469,11 +1474,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Exemplo prático: um varejista de presentes de Berlim recentemente nos perguntou sobre produzir 1.200 caixas de chá de nogueira ao custo unitário alvo de US$ 4,80 com 28 dias de prazo. Nossa resposta honesta foi que 1.200 peças caem limpas na zona doce (sub US$ 5 com secagem em estufa adequada é realista), mas 28 dias só funcionam se ela aprovar a amostra em 5 dias e pular a segunda rodada de revisão. Ela fez, e as caixas embarcaram no dia 32. A lição é a mesma que todo comprador experiente aprende: o custo unitário nunca foi a alavanca — o relógio de aprovação da amostra era."
+          "text": "Exemplo prático: um varejista de presentes de Berlim recentemente nos perguntou sobre produzir 1.200 caixas de chá de nogueira ao custo unitário alvo de US$ 4,80 com 28 dias de prazo. Nossa resposta honesta foi que 1.200 peças caem limpas na zona doce (sub US$ 5 com secagem em estufa adequada é realista), mas 28 dias só funcionam se ela aprovar a amostra em 5 dias e pular a segunda rodada de revisão. Ela fez, e as caixas embarcaram no dia 32. A lição é a mesma que todo comprador experiente aprende: o custo unitário nunca foi a alavanca — o relógio de aprovação da amostra era. Como exemplo de catálogo, consulte [Caixa Saquinhos Chá Acácia 8 Compartimentos](/products/tea-coffee/acacia-tea-bag-box-8-compartment)."
         },
         {
           "type": "p",
-          "text": "Prazo são dois relógios rodando em paralelo. O primeiro é tempo de calendário: secagem em estufa (5–14 dias), cura do acabamento (3–5 dias), e espera por uma partida de exportação (5–10 dias da porta da fábrica ao contêiner do seu agente). O segundo é tempo real de produção: geralmente 12–25 minutos de trabalho por caixa, multiplicados pela quantidade do pedido. O tempo de calendário domina para pedidos abaixo de 5.000 unidades; o tempo de produção domina acima de 10.000. Uma série personalizada típica de 1.500 peças da nossa instalação leva 30–40 dias porta a porta."
+          "text": "Prazo são dois relógios rodando em paralelo. O primeiro é tempo de calendário: [secagem em estufa](/blog/six-step-manufacturing-process) (5–14 dias), cura do acabamento (3–5 dias), e espera por uma partida de exportação (5–10 dias da porta da fábrica ao contêiner do seu agente). O segundo é tempo real de produção: geralmente 12–25 minutos de trabalho por caixa, multiplicados pela quantidade do pedido. O tempo de calendário domina para pedidos abaixo de 5.000 unidades; o tempo de produção domina acima de 10.000. Uma série personalizada típica de 1.500 peças da nossa instalação leva 30–40 dias porta a porta."
         },
         {
           "type": "img",
@@ -1506,7 +1511,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Custo unitário é a menor das três variáveis em que você deveria estar otimizando. A que mais dói quando você erra é confiabilidade — uma economia de US$ 0,30 por unidade em um pedido de 2.000 peças são US$ 600. O custo de uma janela de varejo perdida é a margem inteira daquela temporada. Fornecedores que lideram pelo preço não são os que recebem reabastecimento."
+          "text": "Custo unitário é a menor das três variáveis em que você deveria estar otimizando. A que mais dói quando você erra é confiabilidade — uma economia de US$ 0,30 por unidade em um pedido de 2.000 peças são US$ 600. O custo de uma janela de varejo perdida é a margem inteira daquela temporada. Fornecedores que lideram pelo preço não são os que recebem reabastecimento. Consulte as opções em [guia de madeiras, acabamentos e ferragens](/material-guide)."
         },
         {
           "type": "h2",
@@ -1647,7 +1652,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Se você está no início dessa jornada e quer conversar sobre uma questão específica de design, MOQ, material ou compliance, nosso time em Xiamen pode te conduzir diretamente — envie um briefing pela página /contact e respondemos com um vídeo de amostra de fábrica e um pacote de documentação dentro de um dia útil. Atualmente embarcamos caixas de madeira personalizadas para marcas na Alemanha, Itália, Estados Unidos, Reino Unido, Canadá e Polônia exatamente por esse processo. Você pode navegar o catálogo produtivo em /products, ler sobre nosso processo de fabricação em seis etapas em /blog/six-step-manufacturing-process, ou começar pelo guia de materiais se ainda não escolheu a madeira (/material-guide)."
+          "text": "Se você está no início dessa jornada e quer conversar sobre uma questão específica de design, MOQ, material ou compliance, nosso time em Xiamen pode te conduzir diretamente — envie um briefing pela página /contact e respondemos com um vídeo de amostra de fábrica e um pacote de documentação dentro de um dia útil. Atualmente embarcamos caixas de madeira personalizadas para marcas na Alemanha, Itália, Estados Unidos, Reino Unido, Canadá e Polônia exatamente por esse processo. Você pode navegar o catálogo produtivo em /products, ler sobre nosso processo de fabricação em seis etapas em /blog/six-step-manufacturing-process, ou começar pelo guia de materiais se ainda não escolheu a madeira (/material-guide). Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
         }
       ]
     },
@@ -1657,6 +1662,7 @@ export default {
       "category": "Processo",
       "readTime": "11 min leitura",
       "body": [
+        { type: 'p', text: 'Antes de definir as especificações, consulte [Como abastecer caixas de madeira personalizadas da China em 2026: o playbook do comprador B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "Um comprador de Amsterdã visitou nossa fábrica Cao County em março passado. Ele vinha encomendando caixas de chá de nós há dois anos-cerca de 18.000 unidades por ano para sua marca de varejo na Holanda-mas ele nunca tinha visto o lugar pessoalmente. Depois que o pegamos no aeroporto Heze, dirigimos os 45 minutos para o leste, paramos no quintal por volta das dez da manhã e estacionamos ao lado da pilha de madeira."
@@ -1679,7 +1685,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Todas as encomendas começam no nosso pátio. Paulownia, pinho, bambu, acácia, nogueira e carvalho são armazenados em galpões cobertos, mas abertos, segregados por espécie e grau. Antes que qualquer placa toque uma serra, ela deve passar por nossos fornos de secagem e atingir 8-12% de umidade (MC)."
+          "text": "Todas as encomendas começam no nosso pátio. Paulownia, pinho, bambu, acácia, nogueira e carvalho são armazenados em galpões cobertos, mas abertos, segregados por espécie e grau. Antes que qualquer placa toque uma serra, ela deve passar por nossos fornos de secagem e atingir 8-12% de umidade (MC). Consulte as opções em [guia de madeiras, acabamentos e ferragens](/material-guide)."
         },
         {
           "type": "p",
@@ -1687,7 +1693,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Nossos fornos funcionam a 60-80 °C com umidade controlada para qualquer lugar de 7 a 21 dias, dependendo da espessura da placa e espécie. Nogueira e carvalho levam mais tempo porque são densos; paulownia seca mais rápido porque é leve. Cada placa é verificada com um medidor de umidade estilo pino antes de sair do forno, e as leituras são registradas."
+          "text": "Nossos fornos funcionam a 60-80 °C com umidade controlada para qualquer lugar de 7 a 21 dias, dependendo da [espessura](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes) da placa e espécie. Nogueira e carvalho levam mais tempo porque são densos; paulownia seca mais rápido porque é leve. Cada placa é verificada com um medidor de umidade estilo pino antes de sair do forno, e as leituras são registradas."
         },
         {
           "type": "p",
@@ -1712,7 +1718,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Para um pedido personalizado, programamos as serras diretamente do seu arquivo CAD ou do nosso modelo 3D interno. Cada peça é cortada nas especificações-laterais, superior, inferior, base, moldura da tampa, painel da tampa, divisórias-sem olhos e sem adivinhação. Nosso software de aninhamento organiza as peças em cada placa para minimizar o desperdício, normalmente alcançando 88-92% de rendimento material. Offcuts ir para uma instalação irmã que produz contas de madeira, alças e pequenos componentes torneados, então quase nada chega aterro."
+          "text": "Para um pedido personalizado, programamos as serras diretamente do seu arquivo CAD ou do nosso modelo 3D interno. Cada peça é cortada nas especificações-laterais, superior, inferior, base, moldura da tampa, painel da tampa, divisórias-sem olhos e sem adivinhação. Nosso software de aninhamento organiza as peças em cada placa para minimizar o desperdício, normalmente alcançando 88-92% de rendimento material. Offcuts ir para uma instalação irmã que produz contas de madeira, alças e pequenos componentes torneados, então quase nada chega aterro. Consulte os modelos disponíveis em [Caixas para Presente e Embalagem](/products/gift-packaging)."
         },
         {
           "type": "p",
@@ -1724,7 +1730,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O passo 3 é onde as caixas pegam sua personalidade. Os roteadores CNC lidam com cada corte que não seja uma linha reta: bordas chanfradas e arredondadas, ranhuras dadas para tampas deslizantes, mortises para dobradiças e fechaduras, juntas de dedos e encaixes para os lados, slots para divisórias internas."
+          "text": "O passo 3 é onde as caixas pegam sua personalidade. Os roteadores CNC lidam com cada corte que não seja uma linha reta: bordas chanfradas e arredondadas, ranhuras dadas para [tampas](/blog/wooden-box-closure-types-compared) deslizantes, mortises para dobradiças e fechaduras, juntas de dedos e encaixes para os lados, slots para divisórias internas."
         },
         {
           "type": "p",
@@ -1745,7 +1751,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Antes que qualquer cola ou hardware entre, cada parte da caixa é ajustada a seco para confirmar que a marcenaria está apertada, as tampas fecham-se, as gavetas deslizam suavemente. Isso parece óbvio, mas a maioria das fábricas de baixo custo ignora-elas vão direto das peças cortadas para a cola e esperam o melhor."
+          "text": "Antes que qualquer cola ou hardware entre, cada parte da caixa é ajustada a seco para confirmar que a marcenaria está apertada, as tampas fecham-se, as gavetas deslizam suavemente. Isso parece óbvio, mas a maioria das fábricas de baixo custo ignora-elas vão direto das peças cortadas para a cola e esperam o melhor. Para mais informações, consulte [Guia do comprador para hardware caixa de madeira](/blog/wooden-box-hardware-guide)."
         },
         {
           "type": "p",
@@ -1781,7 +1787,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A escolha do revestimento depende da caixa. Laca alimento-segura para caixas do chá, cremalheiras da especiaria e caixotes do pão. Cera de abelha ou óleo mineral para cortar tábuas e servir caixas. Verniz à base de água (baixo VOC, EU REACH e US CARB P2 compatível) para uso geral. Nogueira e carvalho premium recebem cera de óleo para aquela aparência acabada à mão que os acabamentos aplicados à máquina não podem igualar."
+          "text": "A escolha do revestimento depende da caixa. Laca alimento-segura para caixas do chá, cremalheiras da especiaria e caixotes do pão. Cera de abelha ou óleo mineral para cortar tábuas e servir caixas. Verniz à base de água (baixo VOC, EU REACH e US CARB P2 compatível) para uso geral. Nogueira e carvalho premium recebem cera de óleo para aquela aparência acabada à mão que os [acabamentos](/blog/wooden-box-finishing-techniques) aplicados à máquina não podem igualar."
         },
         {
           "type": "p",
@@ -1814,7 +1820,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Feito no pátio de madeira. Placas muito molhadas, muito deturpadas ou com nós, divisões ou variações de cor inaceitáveis nunca entram no fluxo de produção. Cerca de 5-8% da madeira recebida é rejeitada nesta fase e devolvida ao fornecedor."
+          "text": "Feito no pátio de madeira. Placas muito molhadas, muito deturpadas ou com nós, divisões ou variações de cor inaceitáveis nunca entram no fluxo de produção. Cerca de 5-8% da madeira recebida é rejeitada nesta fase e devolvida ao fornecedor. Para mais informações, consulte [Como escolher a madeira certa para embalagem de presente](/blog/choosing-wood-for-gift-packaging)."
         },
         {
           "type": "h3",
@@ -1834,7 +1840,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Depois que as caixas passam pelo QC final, elas são embrulhadas em tecido ou polybags, embaladas em caixas de varejo individuais ou caixas mestras a granel, paletizadas e carregadas com o pacote completo de documentação de exportação: fatura comercial com códigos HS, lista de embalagem com quebra de caixa por caixa, certificado fitossanitário para madeira maciça, certificado de origem, E conhecimento de embarque."
+          "text": "Depois que as caixas passam pelo QC final, elas são embrulhadas em tecido ou polybags, embaladas em caixas de varejo individuais ou caixas mestras a granel, paletizadas e carregadas com o pacote completo de documentação de exportação: fatura comercial com códigos HS, lista de embalagem com quebra de caixa por caixa, certificado fitossanitário para madeira maciça, certificado de origem, E conhecimento de embarque. Para mais informações, consulte [Projetando embalagens de madeira Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "p",
@@ -1926,7 +1932,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "E quanto melhor as conversas que você pode ter com a gente quando algo não parece certo-porque na fabricação, algo sempre eventualmente não parece certo, e como ele fica fixo é o que define uma parceria real."
+          "text": "E quanto melhor as conversas que você pode ter com a gente quando algo não parece certo-porque na fabricação, algo sempre eventualmente não parece certo, e como ele fica fixo é o que define uma parceria real. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
         }
       ]
     },
@@ -1936,6 +1942,7 @@ export default {
       "category": "Materiais",
       "readTime": "10 min leitura",
       "body": [
+        { type: 'p', text: 'Antes de definir as especificações, consulte [guia de madeiras, acabamentos e ferragens](/material-guide).' },
         {
           "type": "p",
           "text": "A seleção de madeira é a maior decisão em qualquer projeto. Ele impulsiona o custo unitário, o custo do frete, a qualidade do acabamento, a percepção de qualidade premium, a reciclagem no fim da vida útil e a leitura da caixa na mão do cliente. Às vezes importa mais do que o próprio design."
@@ -1954,7 +1961,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A maioria dos compradores se concentra no custo do material por placa-pé. Esse é o número errado. Para a maioria dos projetos de embalagens enviadas da China, o componente de frete domina-especialmente para caixas de varejo volumosas enviadas LCL ou via Amazon FBA."
+          "text": "A maioria dos compradores se concentra no custo do material por placa-pé. Esse é o número errado. Para a maioria dos projetos de embalagens enviadas da China, o componente de frete domina-especialmente para caixas de varejo volumosas enviadas LCL ou via Amazon FBA. Para mais informações, consulte [Quanto custam as caixas de madeira personalizadas? Um guia de preços grossista e OEM para 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
@@ -1970,7 +1977,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Paulownia é a madeira comercial mais leve na Terra-densidade em torno de 280 kg/m³, que é aproximadamente metade do pinheiro e um terço do carvalho. Para o empacotamento do presente do volume alto ganha no custo do frete sozinho, antes que você considere toda a outra variável."
+          "text": "[Paulownia](/products/paulownia) é a madeira comercial mais leve na Terra-densidade em torno de 280 kg/m³, que é aproximadamente metade do pinheiro e um terço do carvalho. Para o empacotamento do presente do volume alto ganha no custo do frete sozinho, antes que você considere toda a outra variável."
         },
         {
           "type": "p",
@@ -1990,7 +1997,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O pinho silvestre e o pinho radiata oferecem grãos quentes clássicos ao menor preço por pé de tábua de madeira macia que armazenamos. Trabalhamos com duas classes: pinho sem nós para embalagens de varejo limpas e pinho nodoso rústico para vinho de estilo engradado e presentear com tema de fazenda."
+          "text": "O [pinho](/products/pine) silvestre e o pinho radiata oferecem grãos quentes clássicos ao menor preço por pé de tábua de madeira macia que armazenamos. Trabalhamos com duas classes: pinho sem nós para embalagens de varejo limpas e pinho nodoso rústico para vinho de estilo engradado e presentear com tema de fazenda."
         },
         {
           "type": "p",
@@ -2015,11 +2022,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Tecnicamente o bambu é uma grama, não uma árvore. Ele cresce em 5-7 anos contra 30-60 anos para a madeira dura, o que o torna o material estrutural mais genuinamente renovável do planeta. Para marcas com uma mensagem ecológica explícita, o bambu é a única escolha honesta."
+          "text": "Tecnicamente o [bambu](/products/bamboo) é uma grama, não uma árvore. Ele cresce em 5-7 anos contra 30-60 anos para a madeira dura, o que o torna o material estrutural mais genuinamente renovável do planeta. Para marcas com uma mensagem ecológica explícita, o bambu é a única escolha honesta."
         },
         {
           "type": "p",
-          "text": "O bambu também é naturalmente antibacteriano-tornando-se a escolha padrão para produtos de cozinha, acessórios de banho e qualquer coisa que toque comida ou pele. É mais duro do que o carvalho vermelho (Janka ~ 1380), mais resistente à água do que a maioria das madeiras, e termina em uma bela superfície de ouro quente ou caramelo carbonizado."
+          "text": "O bambu também é naturalmente antibacteriano-tornando-se a escolha padrão para produtos de cozinha, acessórios de banho e qualquer coisa que toque comida ou pele. É mais duro do que o carvalho vermelho (Janka ~ 1380), mais resistente à água do que a maioria das madeiras, e termina em uma bela superfície de ouro quente ou caramelo carbonizado. Para mais informações, consulte [Bambu vs. acácia: qual madeira para produtos de cozinha?](/blog/bamboo-vs-acacia-kitchenware)."
         },
         {
           "type": "p",
@@ -2035,7 +2042,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Acacia é o herói subestimado do nosso catálogo. Dureza Janka acima de 2300 (mais dura que o carvalho), dramático grão rodopiante com estrias castanho-chocolate que atravessam cerne de mel quente e preços que pousa bem abaixo da noz enquanto parece quase tão premium."
+          "text": "Acacia é o herói subestimado do nosso catálogo. Dureza Janka acima de 2300 (mais dura que o carvalho), dramático grão rodopiante com estrias castanho-chocolate que atravessam cerne de mel quente e preços que pousa bem abaixo da noz enquanto parece quase tão premium. Consulte os modelos disponíveis em [Caixas de Madeira de Acácia](/products/acacia)."
         },
         {
           "type": "p",
@@ -2051,7 +2058,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A noz preta americana é a madeira mais cobiçada na indústria de presentes. Cor chocolate naturalmente profunda (sem necessidade de coloração), superfície lisa sedosa que lustra ao vidro e grão reto fino que leva gravura e incrustação trabalho lindamente."
+          "text": "A noz preta americana é a madeira mais cobiçada na indústria de presentes. Cor chocolate naturalmente profunda (sem necessidade de coloração), superfície lisa sedosa que lustra ao vidro e grão reto fino que leva gravura e incrustação trabalho lindamente. Consulte os modelos disponíveis em [Caixas de Madeira de Nogueira](/products/walnut)."
         },
         {
           "type": "p",
@@ -2154,7 +2161,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Breve: 8.000 unidades, caixa com tampa elevatória por uma linha de velas de US $65, distribuição FBA Europe, voz premium da marca minimalista. Orçamento: US $4 por caixa desembarcada no armazém da Amazon."
+          "text": "Breve: 8.000 unidades, caixa com tampa elevatória por uma linha de velas de US $65, distribuição FBA Europe, voz premium da marca minimalista. Orçamento: US $4 por caixa desembarcada no armazém da Amazon. Para mais informações, consulte [Projetando embalagens de madeira Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "p",
@@ -2229,7 +2236,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O país de origem importa menos do que a rastreabilidade do fornecedor. Paulownia, bambu e acácia cultivados na China são de alta qualidade com cadeias de suprimentos estabelecidas. Nogueira, carvalho e faia que normalmente importamos da América do Norte ou Europa para nossa fábrica de acabamento em Cao County. Peça à sua fábrica documentação de origem sobre todas as espécies-isso importa mais do que qual país processou a madeira."
+          "text": "O país de origem importa menos do que a rastreabilidade do fornecedor. Paulownia, bambu e acácia cultivados na China são de alta qualidade com cadeias de suprimentos estabelecidas. Nogueira, carvalho e faia que normalmente importamos da América do Norte ou Europa para nossa fábrica de acabamento em Cao County. Peça à sua fábrica documentação de origem sobre todas as espécies-isso importa mais do que qual país processou a madeira. Para mais informações, consulte [Nossas práticas de fornecimento sustentável em 2026](/blog/sustainable-sourcing-2026)."
         },
         {
           "type": "h3",
@@ -2237,7 +2244,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sim, frequentemente. Walnut frame paulownia base, bambu corpo acácia alças, esse tipo de coisa. Caixas de espécies mistas podem atingir um equilíbrio preço/aparência que nenhuma espécie sozinha alcançaria. O problema é que diferentes espécies se expandem e contraem a taxas diferentes-para caixas transportadas para variações climáticas extremas, a construção de espécies mistas pode causar estresse nas articulações. Projetamos em torno disso com construção de painel flutuante, quando apropriado."
+          "text": "Sim, frequentemente. Walnut frame paulownia base, bambu corpo acácia alças, esse tipo de coisa. Caixas de espécies mistas podem atingir um equilíbrio preço/aparência que nenhuma espécie sozinha alcançaria. O problema é que diferentes espécies se expandem e contraem a taxas diferentes-para caixas transportadas para variações climáticas extremas, a construção de espécies mistas pode causar estresse nas articulações. Projetamos em torno disso com construção de painel flutuante, quando apropriado. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
         },
         {
           "type": "quote",
@@ -2251,6 +2258,7 @@ export default {
       "category": "Projeto",
       "readTime": "11 minutos de leitura",
       "body": [
+        { type: 'p', text: 'Antes de definir as especificações, consulte [EVA, EPE, veludo ou feltro: que interior escolher para caixas de madeira](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide).' },
         {
           "type": "p",
           "text": "Caixas de madeira são a categoria mais exigente que fazemos. Os compradores de relógios virarão a caixa em suas mãos dez vezes antes de tocar no relógio. Eles vão passar uma unha ao longo da borda da tampa. Eles vão sentir o cheiro do forro. Eles vão fechar a tampa e ouvir o estalo. Eles notam tudo."
@@ -2269,7 +2277,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Uma tampa que fica até 0,5mm em um canto mata a qualidade percebida de toda a caixa. Não importa o quão bonita seja a madeira ou quão agradável seja o revestimento-uma tampa gappy parece barata."
+          "text": "Uma tampa que fica até 0,5mm em um canto mata a qualidade percebida de toda a caixa. Não importa o quão bonita seja a madeira ou quão agradável seja o revestimento-uma tampa gappy parece barata. Consulte os modelos disponíveis em [Caixas de Madeira com Dobradiça](/products/hinged)."
         },
         {
           "type": "p",
@@ -2285,7 +2293,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "As dobradiças de latão visíveis parecem tradicionais e funcionam bem para algumas marcas-presentes vintage, relojoeiros históricos, qualquer coisa com uma voz \"clássica\". Para uma sensação de luxo moderna, dobradiças europeias ocultas com um mecanismo de fechamento suave são o padrão."
+          "text": "As [dobradiças](/blog/wooden-box-hardware-guide) de latão visíveis parecem tradicionais e funcionam bem para algumas marcas-presentes vintage, relojoeiros históricos, qualquer coisa com uma voz \"clássica\". Para uma sensação de luxo moderna, dobradiças europeias ocultas com um mecanismo de fechamento suave são o padrão."
         },
         {
           "type": "p",
@@ -2317,7 +2325,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Parece luxuoso em fotos. Na vida real, ele pega impressões digitais, fiapos e poeira caso relógio dentro de semanas. Recomendamos apenas veludo para presentear uma vez onde a caixa vai viver em uma gaveta após o unboxing."
+          "text": "Parece luxuoso em fotos. Na vida real, ele pega impressões digitais, fiapos e poeira caso relógio dentro de semanas. Recomendamos apenas veludo para presentear uma vez onde a caixa vai viver em uma gaveta após o unboxing. Consulte os modelos disponíveis em [Caixas para Relógios e Joias](/products/watch-jewelry)."
         },
         {
           "type": "h3",
@@ -2342,7 +2350,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Latão para o tradicional. Chrome para esporte. Preto fosco para moderno. Bronze antigo para vintage. O acabamento do hardware faz parte do vocabulário da marca-a escolha errada e a caixa parece confusa."
+          "text": "Latão para o tradicional. Chrome para esporte. Preto fosco para moderno. Bronze antigo para vintage. O acabamento do hardware faz parte do vocabulário da marca-a escolha errada e a caixa parece confusa. Para mais informações, consulte [5 técnicas de acabamento que mudam a aparência da caixa de madeira](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "p",
@@ -2354,11 +2362,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "O Walnut é o padrão para caixas de relógio premium-o tom chocolate profundo, grão reto fino e acabamento superficial sedoso reforçam o posicionamento de luxo. É também o material mais caro que oferecemos. Para o varejo de alto volume, o MDF folheado com noz oferece a maior parte do visual sem o custo (e com melhor estabilidade dimensional para o transporte)."
+          "text": "O Walnut é o padrão para caixas de relógio premium-o tom chocolate profundo, grão reto fino e acabamento superficial sedoso reforçam o posicionamento de luxo. É também o material mais caro que oferecemos. Para o varejo de alto volume, o MDF folheado com noz oferece a maior parte do visual sem o custo (e com melhor estabilidade dimensional para o transporte). Consulte os modelos disponíveis em [Caixas de Madeira de Nogueira](/products/walnut)."
         },
         {
           "type": "p",
-          "text": "Para marcas de nível intermediário, a acácia oferece grãos dramáticos a um custo razoável. Para marcas de relógios esportivos/externos, carvalho com acabamento fosco lê como robusto-premium. Bambu para marcas de relógios ecologicamente posicionadas-cada vez mais popular com as marcas ao ar livre de estilo Patagônia que se deslocam para relógios."
+          "text": "Para marcas de nível intermediário, a acácia oferece grãos dramáticos a um custo razoável. Para marcas de relógios esportivos/externos, carvalho com acabamento fosco lê como robusto-premium. Bambu para marcas de relógios ecologicamente posicionadas-cada vez mais popular com as marcas ao ar livre de estilo Patagônia que se deslocam para relógios. Para mais informações, consulte [Como escolher a madeira certa para embalagem de presente](/blog/choosing-wood-for-gift-packaging)."
         },
         {
           "type": "p",
@@ -2390,7 +2398,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "As caixas de vários relógios (configurações de 3, 6, 10, 12, 24 relógios) são sobre armazenamento e exibição, não presenteando. Eles vendem para colecionadores e como móveis B2B para balcões de varejo. O desafio com caixas multi-relógio é garantir que cada slot de relógio seja lido individualmente como premium-o que significa paredes reais entre slots, não apenas uma única bandeja de espuma com recortes."
+          "text": "As caixas de vários relógios (configurações de 3, 6, 10, 12, 24 relógios) são sobre armazenamento e exibição, não presenteando. Eles vendem para colecionadores e como móveis B2B para balcões de varejo. O desafio com caixas multi-relógio é garantir que cada slot de relógio seja lido individualmente como premium-o que significa paredes reais entre slots, não apenas uma única bandeja de espuma com recortes. Para mais informações, consulte [Caixas de madeira com divisórias amovíveis: guia de compra](/blog/custom-wooden-storage-boxes-with-removable-dividers-buyers-guide). Como exemplo de catálogo, consulte [Vitrine Display Três Relógios](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "p",
@@ -2562,7 +2570,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Se você está comprando caixas de relógio pela primeira vez, recomendamos fortemente encomendar uma amostra de 50 peças antes de se comprometer com o volume. Desmontar as caixas pessoalmente, passar a tampa através de 200 ciclos de abrir-fechar, soltar um da altura da mesa, deixar um no porta-malas do seu carro por uma semana. As caixas que sobrevivem são as caixas que sobreviverão aos seus clientes."
+          "text": "Se você está comprando caixas de relógio pela primeira vez, recomendamos fortemente encomendar uma amostra de 50 peças antes de se comprometer com o volume. Desmontar as caixas pessoalmente, passar a tampa através de 200 ciclos de abrir-fechar, soltar um da altura da mesa, deixar um no porta-malas do seu carro por uma semana. As caixas que sobrevivem são as caixas que sobreviverão aos seus clientes. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
         }
       ]
     },
@@ -2572,6 +2580,7 @@ export default {
       "category": "Sustentabilidade",
       "readTime": "9 min leitura",
       "body": [
+        { type: 'p', text: 'Antes de definir as especificações, consulte [Como abastecer caixas de madeira personalizadas da China em 2026: o playbook do comprador B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "Sustentabilidade costumava ser uma linha de marketing. Hoje, é um requisito de aquisição da maioria das marcas europeias, japonesas e Amazon que atendemos-uma série de certificações específicas, documentos e auditorias de fornecedores que precisam ser limpas antes do navio."
@@ -2586,7 +2595,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Todas as espécies em nosso catálogo-paulownia, pinho, bambu, acácia, nogueira e carvalho-estão disponíveis com a certificação FSC (Forest Stewardship Council) mediante solicitação. Mantemos a certificação de cadeia de custódia FSC através de nossos fornecedores de madeira, o que significa que há rastreabilidade documentada do estande florestal ou plantação até o seu contêiner."
+          "text": "Todas as espécies em nosso catálogo-paulownia, pinho, bambu, acácia, nogueira e carvalho-estão disponíveis com a certificação FSC (Forest Stewardship Council) mediante solicitação. Mantemos a certificação de cadeia de custódia FSC através de nossos fornecedores de madeira, o que significa que há rastreabilidade documentada do estande florestal ou plantação até o seu contêiner. Para mais informações, consulte [Como escolher a madeira certa para embalagem de presente](/blog/choosing-wood-for-gift-packaging)."
         },
         {
           "type": "p",
@@ -2606,7 +2615,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Paulownia é a coisa mais próxima que a indústria da madeira tem de uma madeira renovável. As árvores amadurecem em 5-7 anos (versus 30-60 anos para carvalho ou nogueira), e quase todas as paulownias comerciais são cultivadas em plantações em vez de colhidas de florestas naturais."
+          "text": "[Paulownia](/products/paulownia) é a coisa mais próxima que a indústria da madeira tem de uma madeira renovável. As árvores amadurecem em 5-7 anos (versus 30-60 anos para carvalho ou nogueira), e quase todas as paulownias comerciais são cultivadas em plantações em vez de colhidas de florestas naturais."
         },
         {
           "type": "p",
@@ -2627,7 +2636,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Compostos orgânicos voláteis (COV) são os produtos químicos que produzem o \"novo cheiro de caixa\"-e que, em concentrações mais altas, contribuem para problemas de qualidade do ar interno. As lacas de nitrocelulose padrão, que são a opção de acabamento mais barata, podem desgaseificar em níveis que não cumprem os limites EU REACH e US CARB Fase 2."
+          "text": "Compostos orgânicos voláteis (COV) são os produtos químicos que produzem o \"novo cheiro de caixa\"-e que, em concentrações mais altas, contribuem para problemas de qualidade do ar interno. As lacas de nitrocelulose padrão, que são a opção de acabamento mais barata, podem desgaseificar em níveis que não cumprem os limites EU REACH e US CARB Fase 2. Para mais informações, consulte [5 técnicas de acabamento que mudam a aparência da caixa de madeira](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "p",
@@ -2647,7 +2656,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O desperdício de madeira é a sustentabilidade. A maioria das fábricas gera 18-25% de resíduos de suas operações de corte de tamanho-material que é pago, mas acaba queimado para calor de biomassa ou enviado para aterros sanitários."
+          "text": "O desperdício de madeira é a sustentabilidade. A maioria das fábricas gera 18-25% de resíduos de suas operações de corte de tamanho-material que é pago, mas acaba queimado para calor de biomassa ou enviado para aterros sanitários. Para mais informações, consulte [Dentro do nosso processo de fabricação 6 etapas caixa de madeira](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "p",
@@ -2663,7 +2672,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Todas as remessas de madeira maciça saem com certificados fitossanitários emitidos pela alfândega da China, confirmando que a madeira é tratada e isenta de pragas por padrões ISPM-15 (o padrão internacional para material de embalagem de madeira). Isso é fundamental para remessas para a UE, EUA, Austrália, Japão e Coréia-sem certificados fito, seu contêiner pode ser colocado em quarentena ou recusado no porto de destino."
+          "text": "Todas as remessas de madeira maciça saem com certificados fitossanitários emitidos pela alfândega da China, confirmando que a madeira é tratada e isenta de pragas por padrões ISPM-15 (o padrão internacional para material de embalagem de madeira). Isso é fundamental para remessas para a UE, EUA, Austrália, Japão e Coréia-sem certificados fito, seu contêiner pode ser colocado em quarentena ou recusado no porto de destino. Consulte as opções em [Capacidades](/capabilities)."
         },
         {
           "type": "p",
@@ -2703,7 +2712,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Plantação Paulownia. O ciclo de rebrota rápido e densidade muito baixa (menos massa significa menos energia incorporada no crescimento, secagem, usinagem e transporte) faz paulownia a escolha de menor carbono por unidade que oferecemos. Para marcas conscientes do carbono que rastreiam as emissões do Escopo 3, paulownia é quase sempre a resposta certa."
+          "text": "Plantação Paulownia. O ciclo de rebrota rápido e densidade muito baixa (menos massa significa menos energia incorporada no crescimento, secagem, usinagem e transporte) faz paulownia a escolha de menor carbono por unidade que oferecemos. Para marcas conscientes do carbono que rastreiam as emissões do Escopo 3, paulownia é quase sempre a resposta certa. Consulte as opções em [guia de madeiras, acabamentos e ferragens](/material-guide)."
         },
         {
           "type": "h3",
@@ -2711,7 +2720,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Bambus. O ciclo de rebrota de 5 a 7 anos (versus 30 a 60 anos para madeira dura) significa que o bambu representa zero pressão líquida de colheita florestal quando proveniente de plantações certificadas pelo FSC. Os sistemas radiculares também estabilizam o solo e melhoram a terra degradada."
+          "text": "Bambus. O ciclo de rebrota de 5 a 7 anos (versus 30 a 60 anos para madeira dura) significa que o bambu representa zero pressão líquida de colheita florestal quando proveniente de plantações certificadas pelo FSC. Os sistemas radiculares também estabilizam o solo e melhoram a terra degradada. Para mais informações, consulte [Bambu vs. acácia: qual madeira para produtos de cozinha?](/blog/bamboo-vs-acacia-kitchenware)."
         },
         {
           "type": "h3",
@@ -2719,7 +2728,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Madeira maciça com acabamento a óleo ou cera, sem laca. Totalmente compostável no final da vida, decompõe-se em solo normal dentro de 3-7 anos. A laca em acabamentos padrão evita a biodegradabilidade-apenas para produtos cradle-to-cradle, óleo ou cera."
+          "text": "Madeira maciça com acabamento a óleo ou cera, sem laca. Totalmente compostável no final da vida, decompõe-se em solo normal dentro de 3-7 anos. A laca em acabamentos padrão evita a biodegradabilidade-apenas para produtos cradle-to-cradle, óleo ou cera. Consulte os modelos disponíveis em [Caixas de Armazenamento](/products/storage)."
         },
         {
           "type": "h3",
@@ -2794,7 +2803,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Para compradores que nos avaliam em relação a outras fábricas, recomendamos que você faça as mesmas perguntas de documentação a todos em sua lista restrita: certificado FSC, relatórios de conformidade REACH/CARB, registro fito e histórico de auditoria. As fábricas que podem produzir os documentos em 48 horas são as fábricas que realmente vivem as práticas. Todo mundo está vendendo a versão de marketing."
+          "text": "Para compradores que nos avaliam em relação a outras fábricas, recomendamos que você faça as mesmas perguntas de documentação a todos em sua lista restrita: certificado FSC, relatórios de conformidade REACH/CARB, registro fito e histórico de auditoria. As fábricas que podem produzir os documentos em 48 horas são as fábricas que realmente vivem as práticas. Todo mundo está vendendo a versão de marketing. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
         }
       ]
     },
@@ -2804,6 +2813,7 @@ export default {
       "category": "Estratégia",
       "readTime": "10 minutos de leitura",
       "body": [
+        { type: 'p', text: 'Antes de definir as especificações, consulte [Por que um MOQ de 100 peças é a maneira mais inteligente de começar](/blog/low-moq-sampling-strategy).' },
         {
           "type": "p",
           "text": "A maioria dos compradores aprende a diferença entre OEM e ODM da maneira mais difícil. Normalmente, depois que uma cotação volta duas vezes o que eles esperavam, ou depois que um design de “estoque” acaba por estar em um backlog de um ano no fornecedor, ou depois que um design “personalizado” acaba não parecendo nada com a renderização."
@@ -2818,7 +2828,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Original Equipment Manufacturing significa que você traz o design e nós produzi-lo. \"Trazer o design\" pode significar qualquer coisa, desde um arquivo CAD totalmente detalhado com especificações de materiais e desenhos de dimensões, até um esboço em um guardanapo, até uma amostra de referência que você comprou de um concorrente e quer que melhoremos."
+          "text": "Original Equipment Manufacturing significa que você traz o design e nós produzi-lo. \"Trazer o design\" pode significar qualquer coisa, desde um arquivo CAD totalmente detalhado com especificações de materiais e desenhos de dimensões, até um esboço em um guardanapo, até uma amostra de referência que você comprou de um concorrente e quer que melhoremos. Consulte as opções em [Capacidades](/capabilities)."
         },
         {
           "type": "p",
@@ -2844,7 +2854,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Original Design Manufacturing significa que você escolher a partir do nosso catálogo existente de 500 projetos de caixa de madeira e nós personalizar o tamanho, acabamento e marca para você. O design base é nosso; a superfície e a identidade da marca são suas."
+          "text": "Original Design Manufacturing significa que você escolher a partir do nosso catálogo existente de 500 projetos de caixa de madeira e nós personalizar o tamanho, acabamento e marca para você. O design base é nosso; a superfície e a identidade da marca são suas. Consulte os modelos disponíveis em [Caixas para Presente e Embalagem](/products/gift-packaging)."
         },
         {
           "type": "p",
@@ -2870,7 +2880,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Para uma caixa de presente de madeira de 1.000 unidades típica ordem, aqui é aproximadamente como OEM e ODM comparar:"
+          "text": "Para uma caixa de presente de madeira de 1.000 unidades típica ordem, aqui é aproximadamente como OEM e ODM comparar: Para mais informações, consulte [Quanto custam as caixas de madeira personalizadas? Um guia de preços grossista e OEM para 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "table",
@@ -2932,11 +2942,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Em um projeto ODM-plus, o comprador escolhe um design básico do nosso catálogo, depois altera 2-3 elementos: uma madeira diferente (acácia em vez de pinho), um layout de inserção personalizado (5 compartimentos em vez do nosso padrão 4), um acabamento externo incomum (verniz preto fosco em vez de óleo natural), ou hardware modificado (Escondido magnético em vez de dobradiças visíveis)."
+          "text": "Em um projeto ODM-plus, o comprador escolhe um design básico do nosso catálogo, depois altera 2-3 elementos: uma madeira diferente (acácia em vez de pinho), um layout de inserção personalizado (5 compartimentos em vez do nosso padrão 4), um acabamento externo incomum (verniz preto fosco em vez de óleo natural), ou hardware modificado (Escondido magnético em vez de dobradiças visíveis). Para mais informações, consulte [Fechos de caixas de madeira comparados: deslizante, com dobradiças, magnético, gaveta e fechadura](/blog/wooden-box-closure-types-compared)."
         },
         {
           "type": "p",
-          "text": "Você obtém a velocidade do ODM (a maioria dos trabalhos de engenharia é feita), com grande parte da aparência do OEM (a caixa parece distinta, não genérica). Por unidade de custo terras em algum lugar entre ODM e OEM. Lead time é geralmente 25-35 dias. O custo das ferramentas é tipicamente de US $200-800-muito menos do que o OEM completo porque estamos modificando as ferramentas existentes em vez de construir novas a partir do zero."
+          "text": "Você obtém a velocidade do ODM (a maioria dos trabalhos de engenharia é feita), com grande parte da aparência do OEM (a caixa parece distinta, não genérica). Por unidade de custo terras em algum lugar entre ODM e OEM. Lead time é geralmente 25-35 dias. O custo das ferramentas é tipicamente de US $200-800-muito menos do que o OEM completo porque estamos modificando as ferramentas existentes em vez de construir novas a partir do zero. Como exemplo de catálogo, consulte [Caixa Presente Magnética de Luxo](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "p",
@@ -2961,7 +2971,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Para projetos ODM em que o design é nosso, a proteção IP é um problema menor-mas você ainda deve proteger sua marca específica, posicionamento do logotipo, cópia e opções de cores por meio do registro de marca registrada em seu mercado doméstico."
+          "text": "Para projetos ODM em que o design é nosso, a proteção IP é um problema menor-mas você ainda deve proteger sua marca específica, posicionamento do logotipo, cópia e opções de cores por meio do registro de marca registrada em seu mercado doméstico. Para mais informações, consulte [5 técnicas de acabamento que mudam a aparência da caixa de madeira](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -2981,7 +2991,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Uma vez que você mudou 5 elementos de um projeto do ODM, você está fazendo essencialmente o OEM com a estrutura errada do custo. Nesse ponto, geralmente recomendamos que você se comprometa com uma compilação personalizada real com amostragem e ferramentas adequadas-acaba mais barato e as caixas são melhores."
+          "text": "Uma vez que você mudou 5 elementos de um projeto do ODM, você está fazendo essencialmente o OEM com a estrutura errada do custo. Nesse ponto, geralmente recomendamos que você se comprometa com uma compilação personalizada real com amostragem e ferramentas adequadas-acaba mais barato e as caixas são melhores. Consulte as opções em [guia de madeiras, acabamentos e ferragens](/material-guide)."
         },
         {
           "type": "h3",
@@ -3057,7 +3067,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Muitas entidades que se apresentam como fábricas on-line são realmente empresas comerciais ou agentes que sub-contrato para quem cita mais baixo naquela semana. Os sinais: nenhum endereço de fábrica listado, apenas comunicação WeChat, hesitação em fazer tours de vídeo, nenhuma resposta a perguntas específicas de produção. Fábricas reais sempre mostrarão sua linha de produção real."
+          "text": "Muitas entidades que se apresentam como fábricas on-line são realmente [empresas comerciais](/blog/sourcing-custom-wooden-boxes-from-china-2026) ou agentes que sub-contrato para quem cita mais baixo naquela semana. Os sinais: nenhum endereço de fábrica listado, apenas comunicação WeChat, hesitação em fazer tours de vídeo, nenhuma resposta a perguntas específicas de produção. Fábricas reais sempre mostrarão sua linha de produção real."
         },
         {
           "type": "h2",
@@ -3097,7 +3107,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Nossa recomendação padrão é começar com uma pequena execução do ODM para criar confiança e testar o mercado, depois passar para o ODM-plus à medida que você cresce, depois passar para o OEM completo quando seu volume anual justificar ferramentas dedicadas. As linhas de produtos mais bem sucedidas que vimos evoluírem em todos os três estágios."
+          "text": "Nossa recomendação padrão é começar com uma pequena execução do ODM para criar confiança e testar o mercado, depois passar para o ODM-plus à medida que você cresce, depois passar para o OEM completo quando seu volume anual justificar ferramentas dedicadas. As linhas de produtos mais bem sucedidas que vimos evoluírem em todos os três estágios. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
         }
       ]
     },
@@ -3107,6 +3117,7 @@ export default {
       "category": "Projeto",
       "readTime": "10 minutos de leitura",
       "body": [
+        { type: 'p', text: 'Antes de definir as especificações, consulte [Como escolher a madeira certa para embalagem de presente](/blog/choosing-wood-for-gift-packaging).' },
         {
           "type": "p",
           "text": "Mesma caixa. Cinco acabamentos diferentes. Cinco produtos completamente diferentes."
@@ -3125,7 +3136,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Um laser CO₂ queima uma marca precisa na superfície da madeira. A marca obtém sua visibilidade da diferença natural de cor entre madeira queimada e não queimada-então a gravação a laser funciona melhor em espécies pálidas (paulownia, pinho, bambu) e parece sutil ou invisível em espécies escuras (nogueira)."
+          "text": "Um laser CO₂ queima uma marca precisa na superfície da madeira. A marca obtém sua visibilidade da diferença natural de cor entre madeira queimada e não queimada-então a gravação a laser funciona melhor em espécies pálidas (paulownia, pinho, bambu) e parece sutil ou invisível em espécies escuras (nogueira). Para mais informações, consulte [guia da espessura da madeira](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3162,7 +3173,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Uma matriz metálica aquecida pressiona a folha metálica na superfície da madeira. O resultado é uma marca nítida e brilhante em ouro, prata, cobre, ouro rosa ou preto fosco. Das cinco técnicas, a folha quente produz a primeira impressão mais \"premium\"-é a técnica que sinaliza mais fortemente \"este é um produto de luxo\"."
+          "text": "Uma matriz metálica aquecida pressiona a folha metálica na superfície da madeira. O resultado é uma marca nítida e brilhante em ouro, prata, cobre, ouro rosa ou preto fosco. Das cinco técnicas, a folha quente produz a primeira impressão mais \"premium\"-é a técnica que sinaliza mais fortemente \"este é um produto de luxo\". Consulte os modelos disponíveis em [Caixas para Presente e Embalagem](/products/gift-packaging)."
         },
         {
           "type": "h3",
@@ -3229,7 +3240,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Tinta pigmentada empurrada através de uma tela na madeira. Melhor técnica para logotipos coloridos, grandes áreas planas ou qualquer marca que precise corresponder a um Pantone específico. A impressão da tela fica na superfície (não pressionada) para que a textura fique levemente elevada."
+          "text": "Tinta pigmentada empurrada através de uma tela na madeira. Melhor técnica para logotipos coloridos, grandes áreas planas ou qualquer marca que precise corresponder a um Pantone específico. A impressão da tela fica na superfície (não pressionada) para que a textura fique levemente elevada. Consulte as opções em [Capacidades](/capabilities)."
         },
         {
           "type": "h3",
@@ -3270,7 +3281,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Acabamentos a óleo são particularmente importantes para caixas premium de nogueira, acácia e carvalho. A mesma caixa de noz, acabada em laca versus óleo, é lida como dois produtos completamente diferentes. A laca adiciona um leve brilho semelhante a plástico; o óleo revela a madeira e deixa-a envelhecer."
+          "text": "Acabamentos a óleo são particularmente importantes para caixas premium de [nogueira](/products/walnut), acácia e carvalho. A mesma caixa de noz, acabada em laca versus óleo, é lida como dois produtos completamente diferentes. A laca adiciona um leve brilho semelhante a plástico; o óleo revela a madeira e deixa-a envelhecer."
         },
         {
           "type": "p",
@@ -3278,7 +3289,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Custo: os acabamentos em óleo e cera normalmente adicionam US $0, 30-0, 80 por caixa versus verniz padrão, dependendo dos revestimentos. O tempo de cura é significativamente maior-até 72 horas por demão."
+          "text": "Custo: os acabamentos em óleo e cera normalmente adicionam US $0, 30-0, 80 por caixa versus verniz padrão, dependendo dos revestimentos. O tempo de cura é significativamente maior-até 72 horas por demão. Para mais informações, consulte [Dentro do nosso processo de fabricação 6 etapas caixa de madeira](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "h2",
@@ -3294,7 +3305,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Usado pela maioria relógio premium e jóias marcas. O acabamento em óleo de madeira permite que o grão respire; o logotipo gravado adiciona a presença da marca sem interromper a superfície. Sobre como prémio quanto ele ganha."
+          "text": "Usado pela maioria relógio premium e jóias marcas. O acabamento em óleo de madeira permite que o grão respire; o logotipo gravado adiciona a presença da marca sem interromper a superfície. Sobre como prémio quanto ele ganha. Como exemplo de catálogo, consulte [Vitrine Display Três Relógios](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h3",
@@ -3302,7 +3313,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Clássico mid-premium gifting. Pine é acessível; laca fosca dá um acabamento sofisticado sem a aparência de plástico brilhante; folha quente oferece o sinal premium que eleva o nível de preço percebido."
+          "text": "Clássico mid-premium gifting. Pine é acessível; laca fosca dá um acabamento sofisticado sem a aparência de plástico brilhante; folha quente oferece o sinal premium que eleva o nível de preço percebido. Consulte os modelos disponíveis em [Caixas de Madeira de Pinho](/products/pine)."
         },
         {
           "type": "h3",
@@ -3437,7 +3448,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "As lacas usadas em nossas especificações de segurança alimentar são compatíveis com a FDA para contato indireto com alimentos (tocando na caixa, não no próprio alimento). Para contato direto com alimentos (charcutaria, caixas de servir), use óleo mineral ou cera de abelha-ambos são 100% seguros para alimentos e aprovados internacionalmente. Sempre especifique o caso de uso para que possamos recomendar o acabamento correto para conformidade."
+          "text": "As lacas usadas em nossas especificações de segurança alimentar são compatíveis com a FDA para contato indireto com alimentos (tocando na caixa, não no próprio alimento). Para contato direto com alimentos (charcutaria, caixas de servir), use óleo mineral ou cera de abelha-ambos são 100% seguros para alimentos e aprovados internacionalmente. Sempre especifique o caso de uso para que possamos recomendar o acabamento correto para conformidade. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
         },
         {
           "type": "h3",
@@ -3445,7 +3456,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sim-recomendamos vivamente. Para aproximadamente $100-200 adicionados a uma ordem da amostra, nós podemos produzir duas amostras com tratamentos diferentes do revestimento. O custo é trivial em relação a fazer a escolha errada em milhares de unidades de produção."
+          "text": "Sim-recomendamos vivamente. Para aproximadamente $100-200 adicionados a uma ordem da amostra, nós podemos produzir duas amostras com tratamentos diferentes do revestimento. O custo é trivial em relação a fazer a escolha errada em milhares de unidades de produção. Para mais informações, consulte [Por que um MOQ de 100 peças é a maneira mais inteligente de começar](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "quote",
@@ -3459,6 +3470,7 @@ export default {
       "category": "Estratégia",
       "readTime": "9 minutos de leitura",
       "body": [
+        { type: 'p', text: 'Antes de definir as especificações, consulte [Como abastecer caixas de madeira personalizadas da China em 2026: o playbook do comprador B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "A maioria das fábricas cita 500-1000 peças mínimas em caixas de madeira personalizadas. Oferecemos deliberadamente uma amostra de 100 peças porque resolve um problema que a maioria dos compradores não percebe que tem até que os morda."
@@ -3477,7 +3489,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Um novo comprador no ano passado-pequena marca de relógios americana, primeiro pedido de caixa de madeira-nos enviou um arquivo CAD para uma caixa de apresentação de 4 relógios em nogueira. Nós citamos, assinamos um acordo de NNN, e fizemos uma única amostra hand-built. O comprador aprovou a amostra e colocou uma ordem para 5.000 unidades."
+          "text": "Um novo comprador no ano passado-pequena [marca de relógios](/products/watch-jewelry) americana, primeiro pedido de caixa de madeira-nos enviou um arquivo CAD para uma caixa de apresentação de 4 relógios em nogueira. Nós citamos, assinamos um acordo de NNN, e fizemos uma única amostra hand-built. O comprador aprovou a amostra e colocou uma ordem para 5.000 unidades."
         },
         {
           "type": "p",
@@ -3513,7 +3525,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "As únicas amostras mão-construídas usam gabaritos provisórios e um montador experiente que faz o trabalho único. As execuções de produção usam equipamentos permanentes com operadores fazendo a mesma tarefa centenas de vezes. A precisão da fixação em escala é a maior fonte de problemas \"a produção parece pior do que a amostra\". Uma corrida de 100 peças expõe isso."
+          "text": "As únicas amostras mão-construídas usam gabaritos provisórios e um montador experiente que faz o trabalho único. As execuções de produção usam equipamentos permanentes com operadores fazendo a mesma tarefa centenas de vezes. A precisão da fixação em escala é a maior fonte de problemas \"a produção parece pior do que a amostra\". Uma corrida de 100 peças expõe isso. Para mais informações, consulte [OEM vs. ODM: qual é o certo para o seu projeto caixa de madeira?](/blog/oem-vs-odm-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3521,7 +3533,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Uma única amostra usa a melhor placa da loja. Uma produção usa cada placa que atende às especificações. Variação de cor, variação de grãos, padrões de nó-todos medem 100 caixas de uma maneira que não pode ser testada com uma única amostra."
+          "text": "Uma única amostra usa a melhor placa da loja. Uma produção usa cada placa que atende às especificações. Variação de cor, variação de grãos, padrões de nó-todos medem 100 caixas de uma maneira que não pode ser testada com uma única amostra. Consulte as opções em [guia de madeiras, acabamentos e ferragens](/material-guide)."
         },
         {
           "type": "h3",
@@ -3529,7 +3541,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Acabamento casacos são misturados em lotes. O tom e o brilho exatos podem variar sutilmente entre os lotes. Uma corrida de 100 peças usa 1-2 lotes de acabamento, expondo se o seu design tolera essa variação natural."
+          "text": "Acabamento casacos são misturados em lotes. O tom e o brilho exatos podem variar sutilmente entre os lotes. Uma corrida de 100 peças usa 1-2 lotes de acabamento, expondo se o seu design tolera essa variação natural. Para mais informações, consulte [5 técnicas de acabamento que mudam a aparência da caixa de madeira](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h3",
@@ -3537,7 +3549,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Amostras individuais enviadas em sua própria embalagem protetora. A produção é executada em caixas principais empilhadas em paletes-elas estão expostas a tensões de manuseio que amostras individuais nunca veem. Uma expedição experimental de 100 partes atravessa costumes reais, frete real, entrada real do armazém. Os compradores encontram regularmente problemas de embalagem nesta fase que nunca teriam pego com uma única amostra."
+          "text": "Amostras individuais enviadas em sua própria embalagem protetora. A produção é executada em caixas principais empilhadas em paletes-elas estão expostas a tensões de manuseio que amostras individuais nunca veem. Uma expedição experimental de 100 partes atravessa costumes reais, frete real, entrada real do armazém. Os compradores encontram regularmente problemas de embalagem nesta fase que nunca teriam pego com uma única amostra. Para mais informações, consulte [Projetando embalagens de madeira Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "img",
@@ -3571,7 +3583,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O custo por unidade em uma corrida de 100 peças é tipicamente 30-60% maior do que em uma corrida de 1.000 peças. O trabalho de instalação é o mesmo; é apenas espalhado por menos unidades. Assim a diferença absoluta do custo depende do preço da caixa."
+          "text": "O custo por unidade em uma corrida de 100 peças é tipicamente 30-60% maior do que em uma corrida de 1.000 peças. O trabalho de instalação é o mesmo; é apenas espalhado por menos unidades. Assim a diferença absoluta do custo depende do preço da caixa. Para mais informações, consulte [Quanto custam as caixas de madeira personalizadas? Um guia de preços grossista e OEM para 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
@@ -3654,11 +3666,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Dois meses atrás, um comprador de caixas de presente do Reino Unido encomendou um teste de 100 peças de uma nova caixa de tampa para um lançamento de fragrâncias. A tampa tinha uma bandeja interna personalizada embalando o frasco do perfume. Parecia perfeito na única amostra construída à mão. Aprovado para julgamento."
+          "text": "Dois meses atrás, um comprador de caixas de presente do Reino Unido encomendou um teste de 100 peças de uma nova caixa de tampa para um lançamento de fragrâncias. A tampa tinha uma bandeja interna personalizada embalando o frasco do perfume. Parecia perfeito na única amostra construída à mão. Aprovado para julgamento. Como exemplo de catálogo, consulte [Caixa Presente Magnética de Luxo](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "p",
-          "text": "No teste, identificamos que a bandeja de espuma, embora dimensionalmente correta, tinha um ligeiro atraso na recuperação da espuma de memória-quando a tampa era levantada após o fechamento, a espuma levava de 8 a 10 segundos para voltar totalmente. Funcionalmente bem, mas visualmente estranho no momento do unboxing."
+          "text": "No teste, identificamos que a bandeja de [espuma](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide), embora dimensionalmente correta, tinha um ligeiro atraso na recuperação da espuma de memória-quando a tampa era levantada após o fechamento, a espuma levava de 8 a 10 segundos para voltar totalmente. Funcionalmente bem, mas visualmente estranho no momento do unboxing."
         },
         {
           "type": "p",
@@ -3694,7 +3706,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Não. Uma vez que um projeto foi produzido com sucesso em escala e reordens são ordens repetidas puras sem alterações de projeto, as tentativas são desnecessárias. Trial runs são para novos projetos e modificações significativas do projeto. Repita ordens ir direto para a produção com QC normal."
+          "text": "Não. Uma vez que um projeto foi produzido com sucesso em escala e reordens são ordens repetidas puras sem alterações de projeto, as tentativas são desnecessárias. Trial runs são para novos projetos e modificações significativas do projeto. Repita ordens ir direto para a produção com QC normal. Consulte as opções em [Capacidades](/capabilities)."
         },
         {
           "type": "h3",
@@ -3710,7 +3722,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Para compradores iniciantes, recomendamos tratar o teste de 100 peças como parte do orçamento do projeto desde o início, não como um complemento opcional. Construa-o em seu cronograma lançamento. Construa-o em seu preço SKU. Construa isso em seu relacionamento com a fábrica. Uma vez que é prática normal, você deixa de ver as taxas de 12% de defeitos e incêndios de última hora que atormentam os compradores que pulam essa etapa. A maioria dos nossos maiores e mais antigos relacionamentos com clientes começou exatamente dessa maneira: com um pequeno teste que criou confiança antes de ambos os lados se comprometerem com o volume."
+          "text": "Para compradores iniciantes, recomendamos tratar o teste de 100 peças como parte do orçamento do projeto desde o início, não como um complemento opcional. Construa-o em seu cronograma lançamento. Construa-o em seu preço SKU. Construa isso em seu relacionamento com a fábrica. Uma vez que é prática normal, você deixa de ver as taxas de 12% de defeitos e incêndios de última hora que atormentam os compradores que pulam essa etapa. A maioria dos nossos maiores e mais antigos relacionamentos com clientes começou exatamente dessa maneira: com um pequeno teste que criou confiança antes de ambos os lados se comprometerem com o volume. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
         }
       ]
     },
@@ -3720,6 +3732,7 @@ export default {
       "category": "Materiais",
       "readTime": "10 minutos de leitura",
       "body": [
+        { type: 'p', text: 'Antes de definir as especificações, consulte [Como escolher a madeira certa para embalagem de presente](/blog/choosing-wood-for-gift-packaging).' },
         {
           "type": "p",
           "text": "Bambu e acácia são as duas madeiras de cozinha mais populares em nosso catálogo. Ambos são densos. Ambos são seguros para alimentos. Ambos estão lindos. Ambos funcionam bem para caixas de chá, organizadores de talheres, prateleiras de especiarias, caixas de pão, charcutaria e qualquer outro produto de cozinha onde a madeira faz parte do design visível."
@@ -3797,7 +3810,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O bambu é tecnicamente uma grama, não uma árvore. Regrifica em 5-7 anos versus 30-60 anos para madeira dura. Esse único fato é o motivo pelo qual o bambu domina o mercado de produtos de cozinha eco-posicionado-é o material estrutural mais genuinamente renovável com o qual trabalhamos e é o único material que oferecemos que os clientes reconhecem imediatamente como \"a escolha sustentável\"."
+          "text": "O [bambu](/products/bamboo) é tecnicamente uma grama, não uma árvore. Regrifica em 5-7 anos versus 30-60 anos para madeira dura. Esse único fato é o motivo pelo qual o bambu domina o mercado de produtos de cozinha eco-posicionado-é o material estrutural mais genuinamente renovável com o qual trabalhamos e é o único material que oferecemos que os clientes reconhecem imediatamente como \"a escolha sustentável\"."
         },
         {
           "type": "p",
@@ -3817,7 +3830,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A acácia é uma madeira tropical com redemoinhos de grãos dramáticos e variação significativa de cor entre cerne loiro-mel e estrias marrom-chocolate. Cada placa acácia parece diferente. Cada caixa acácia tem seu próprio padrão grão. Alguns compradores adoram isso (exclusividade premium); alguns preferem a consistência do bambu."
+          "text": "A [acácia](/products/acacia) é uma madeira tropical com redemoinhos de grãos dramáticos e variação significativa de cor entre cerne loiro-mel e estrias marrom-chocolate. Cada placa acácia parece diferente. Cada caixa acácia tem seu próprio padrão grão. Alguns compradores adoram isso (exclusividade premium); alguns preferem a consistência do bambu."
         },
         {
           "type": "p",
@@ -3838,7 +3851,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Pegue um organizador de saquinho de chá com 8 compartimentos. Mesmas dimensões, mesmo layout interno, mesma tampa articulada com fecho magnético."
+          "text": "Pegue um organizador de saquinho de chá com 8 compartimentos. Mesmas dimensões, mesmo layout interno, mesma tampa articulada com fecho magnético. Como exemplo de catálogo, consulte [Caixa Saquinhos Chá Acácia 8 Compartimentos](/products/tea-coffee/acacia-tea-bag-box-8-compartment)."
         },
         {
           "type": "h3",
@@ -3854,7 +3867,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Terras a US $11-14 custo unitário de nós, vendido a US $48-72. Vende em Williams-Sonoma, Crate & Barrel, varejistas cozinha especialidade premium. Os clientes compram porque parece bonito-eles querem uma caixa de chá que funciona como um objeto de cozinha. Comentários enfatizam artesanato e grão padrão."
+          "text": "Terras a US $11-14 custo unitário de nós, vendido a US $48-72. Vende em Williams-Sonoma, Crate & Barrel, varejistas cozinha especialidade premium. Os clientes compram porque parece bonito-eles querem uma caixa de chá que funciona como um objeto de cozinha. Comentários enfatizam artesanato e grão padrão. Consulte os modelos disponíveis em [Caixas para Chá e Café](/products/tea-coffee)."
         },
         {
           "type": "p",
@@ -3870,7 +3883,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Com o uso normal da cozinha e um re-óleo anual com óleo mineral seguro para alimentos, o bambu dura 8-12 anos antes de mostrar desgaste significativo. O grão listrado horizontal vai clarear sutilmente ao longo do tempo, mas não muda significativamente."
+          "text": "Com o uso normal da cozinha e um re-óleo anual com óleo mineral seguro para alimentos, o bambu dura 8-12 anos antes de mostrar desgaste significativo. O grão listrado horizontal vai clarear sutilmente ao longo do tempo, mas não muda significativamente. Para mais informações, consulte [guia da espessura da madeira](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3890,7 +3903,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O bambu ganha esta categoria claramente mas não absolutamente. Ciclos de crescimento de cinco a sete anos versus colheita de árvores é a vantagem óbvia. Plantação-cultivada, com extensos sistemas radiculares que melhoram o solo e evitam a erosão, também pontos fortes."
+          "text": "O bambu ganha esta categoria claramente mas não absolutamente. Ciclos de crescimento de cinco a sete anos versus colheita de árvores é a vantagem óbvia. Plantação-cultivada, com extensos sistemas radiculares que melhoram o solo e evitam a erosão, também pontos fortes. Para mais informações, consulte [Nossas práticas de fornecimento sustentável em 2026](/blog/sustainable-sourcing-2026)."
         },
         {
           "type": "p",
@@ -3906,7 +3919,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Quando os compradores nos perguntam \"bambu ou acácia para este produto de cozinha?\", fazemos três perguntas:"
+          "text": "Quando os compradores nos perguntam \"bambu ou acácia para este produto de cozinha?\", fazemos três perguntas: Consulte as opções em [guia de madeiras, acabamentos e ferragens](/material-guide)."
         },
         {
           "type": "list",
@@ -3962,7 +3975,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Para ambas as espécies, os clientes que seguem cuidados simples obter anos mais vida do produto. Recomendamos fortemente incluir um pequeno cartão de cuidados na embalagem para qualquer produto de cozinha. O cartão deve cobrir:"
+          "text": "Para ambas as espécies, os clientes que seguem cuidados simples obter anos mais vida do produto. Recomendamos fortemente incluir um pequeno cartão de cuidados na embalagem para qualquer produto de cozinha. O cartão deve cobrir: Para mais informações, consulte [5 técnicas de acabamento que mudam a aparência da caixa de madeira](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "list",
@@ -4021,7 +4034,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sim, e pode produzir resultados impressionantes-corpo de bambu com alças acácia, base acácia com divisórias de bambu. Misturar materiais adiciona interesse visual e permite equilibrar o custo. O trade-off é que as duas espécies se expandem e contraem um pouco diferente com a umidade, então a marcenaria de espécies mistas precisa de tolerância projetada para evitar o estresse ao longo dos anos."
+          "text": "Sim, e pode produzir resultados impressionantes-corpo de bambu com alças acácia, base acácia com divisórias de bambu. Misturar materiais adiciona interesse visual e permite equilibrar o custo. O trade-off é que as duas espécies se expandem e contraem um pouco diferente com a umidade, então a marcenaria de espécies mistas precisa de tolerância projetada para evitar o estresse ao longo dos anos. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
         },
         {
           "type": "quote",
@@ -4035,6 +4048,7 @@ export default {
       "category": "Estratégia",
       "readTime": "12 min leitura",
       "body": [
+        { type: 'p', text: 'Antes de definir as especificações, consulte [Como abastecer caixas de madeira personalizadas da China em 2026: o playbook do comprador B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "Vender caixas de madeira pelo Amazon FBA é disciplina própria. O produto importa menos do que a estratégia de embalagem que o envolve. Dois vendedores podem oferecer a mesma caixa de madeira pelo mesmo preço de varejo e acabam com uma economia unitária completamente diferente-uma lucrativa, outra perdendo dinheiro em cada venda-por causa das decisões que tomaram sobre a embalagem."
@@ -4053,11 +4067,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Para produtos de madeira isso importa mais do que para quase qualquer outra categoria, porque a densidade da madeira varia drasticamente por espécie. Um cubo de carvalho 30 cm pesa aproximadamente 4 kg. O mesmo cubo em paulownia pesa cerca de 1.6 kg. Ambos enviam pela mesma taxa FBA-mas se você especificou carvalho quando paulownia teria funcionado, você está pagando o dobro do custo do frete no armazém da Amazon por nada."
+          "text": "Para produtos de madeira isso importa mais do que para quase qualquer outra categoria, porque a densidade da madeira varia drasticamente por espécie. Um cubo de carvalho 30 cm pesa aproximadamente 4 kg. O mesmo cubo em paulownia pesa cerca de 1.6 kg. Ambos enviam pela mesma taxa FBA-mas se você especificou carvalho quando paulownia teria funcionado, você está pagando o dobro do custo do frete no armazém da Amazon por nada. Consulte as opções em [guia de madeiras, acabamentos e ferragens](/material-guide)."
         },
         {
           "type": "p",
-          "text": "Para produtos de alto volume em que a madeira não é a característica visível (a maioria das embalagens de presente-o cliente vê a superfície da tampa, não a seção transversal), escolher as espécies mais leves pode economizar US $0, 40-1, 20 por unidade em frete de entrada. Em 10.000 unidades que é $4.000-12.000 de margem pura ganhou."
+          "text": "Para produtos de alto volume em que a madeira não é a característica visível (a maioria das embalagens de presente-o cliente vê a superfície da tampa, não a seção transversal), escolher as espécies mais leves pode economizar US $0, 40-1, 20 por unidade em frete de entrada. Em 10.000 unidades que é $4.000-12.000 de margem pura ganhou. Consulte os modelos disponíveis em [Caixas de Madeira de Paulownia](/products/paulownia)."
         },
         {
           "type": "h2",
@@ -4134,7 +4148,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Cada unidade FBA precisa ser ensacada com um aviso de sufocamento ou selada em uma caixa externa pronta para varejo. Três abordagens:"
+          "text": "Cada unidade FBA precisa ser ensacada com um aviso de sufocamento ou selada em uma caixa externa pronta para varejo. Três abordagens: Consulte os modelos disponíveis em [Caixas para Presente e Embalagem](/products/gift-packaging)."
         },
         {
           "type": "h3",
@@ -4166,7 +4180,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Recomendamos fortemente uma inspeção de terceiros (SGS, BV, AsiaInspection, Asia Quality Focus) para cada remessa da FBA. A razão é a economia brutal: retornos da Amazon são caros-em qualquer lugar entre 5% e 15% do valor da remessa, dependendo da categoria, além do dano da marca de comentários negativos."
+          "text": "Recomendamos fortemente uma inspeção de terceiros (SGS, BV, AsiaInspection, Asia Quality Focus) para cada remessa da FBA. A razão é a economia brutal: retornos da Amazon são caros-em qualquer lugar entre 5% e 15% do valor da remessa, dependendo da categoria, além do dano da marca de comentários negativos. Para mais informações, consulte [Por que um MOQ de 100 peças é a maneira mais inteligente de começar](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "p",
@@ -4221,7 +4235,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Um comprador lançando uma caixa de chá de madeira na FBA a 1.000 unidades/mês por 12 meses. Dois cenários:"
+          "text": "Um comprador lançando uma caixa de chá de madeira na FBA a 1.000 unidades/mês por 12 meses. Dois cenários: Como exemplo de catálogo, consulte [Caixa Saquinhos Chá Acácia 8 Compartimentos](/products/tea-coffee/acacia-tea-bag-box-8-compartment)."
         },
         {
           "type": "h3",
@@ -4241,7 +4255,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Em 12 meses e 12.000 unidades, o Cenário B economiza aproximadamente US $14.000 a 19.000 apenas em taxas (menor peso dimensional, sem taxas de rotulagem da Amazon, sem taxas de manuseio de papelão). Adicione a isso taxas de retorno mais baixas da inspeção, pontuações de revisão mais altas do unboxing premium e a diferença aumenta ainda mais."
+          "text": "Em 12 meses e 12.000 unidades, o Cenário B economiza aproximadamente US $14.000 a 19.000 apenas em taxas (menor peso dimensional, sem taxas de rotulagem da Amazon, sem taxas de manuseio de papelão). Adicione a isso taxas de retorno mais baixas da inspeção, pontuações de revisão mais altas do unboxing premium e a diferença aumenta ainda mais. Para mais informações, consulte [Quanto custam as caixas de madeira personalizadas? Um guia de preços grossista e OEM para 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
@@ -4275,7 +4289,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Para produtos de madeira especificamente, o frete marítimo da China para os EUA/UE tem funcionado de 22 a 35 dias em 2025-2026. Adicionar 7-14 dias para FBA receber. Isso é 30-50 dias desde a partida até a venda. Plano em conformidade."
+          "text": "Para produtos de madeira especificamente, o frete marítimo da China para os EUA/UE tem funcionado de 22 a 35 dias em 2025-2026. Adicionar 7-14 dias para FBA receber. Isso é 30-50 dias desde a partida até a venda. Plano em conformidade. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
         },
         {
           "type": "h2",
@@ -4311,7 +4325,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Três coisas reduzem substancialmente as taxas de retorno:"
+          "text": "Três coisas reduzem substancialmente as taxas de retorno: Para mais informações, consulte [Caixas de madeira com divisórias amovíveis: guia de compra](/blog/custom-wooden-storage-boxes-with-removable-dividers-buyers-guide)."
         },
         {
           "type": "h3",
@@ -4335,7 +4349,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Um pequeno cartão explicando como manter a madeira reduz \"a superfície desenvolveu marcas dentro de um mês\" reclamações. Custa US $0,04 por caixa; reduz a taxa de retorno em cerca de 1-2 pontos percentuais com base nos dados que os compradores compartilharam conosco."
+          "text": "Um pequeno cartão explicando como manter a madeira reduz \"a superfície desenvolveu marcas dentro de um mês\" reclamações. Custa US $0,04 por caixa; reduz a taxa de retorno em cerca de 1-2 pontos percentuais com base nos dados que os compradores compartilharam conosco. Para mais informações, consulte [5 técnicas de acabamento que mudam a aparência da caixa de madeira](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -4385,6 +4399,7 @@ export default {
       "category": "Projeto",
       "readTime": "11 minutos de leitura",
       "body": [
+        { type: 'p', text: 'Antes de definir as especificações, consulte [Fechos de caixas de madeira comparados: deslizante, com dobradiças, magnético, gaveta e fechadura](/blog/wooden-box-closure-types-compared).' },
         {
           "type": "p",
           "text": "Hardware é a parte de uma caixa de madeira compradores pensar sobre o último e sentir primeiro. Dobradiça errada e a tampa afunda após seis meses. Ímã direito e a caixa se fecha com aquele thunk premium satisfatório que vende o unboxing."
@@ -4403,7 +4418,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "As dobradiças são os clientes do hardware interagem com cada vez que abrem a caixa. Uma dobradiça ruim usa a madeira, torce a tampa ou falha completamente após algumas centenas de ciclos. Uma boa dobradiça dura a vida da caixa."
+          "text": "As dobradiças são os clientes do hardware interagem com cada vez que abrem a caixa. Uma dobradiça ruim usa a madeira, torce a tampa ou falha completamente após algumas centenas de ciclos. Uma boa dobradiça dura a vida da caixa. Consulte os modelos disponíveis em [Caixas de Madeira com Dobradiça](/products/hinged)."
         },
         {
           "type": "h3",
@@ -4423,7 +4438,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Escondido dentro recessos em forma de copo cortado na caixa e tampa. Exterior é limpo-nenhum hardware visível. Premium sentir, olhar moderno. Padrão para relógio high-end e caixas de jóias."
+          "text": "Escondido dentro recessos em forma de copo cortado na caixa e tampa. Exterior é limpo-nenhum hardware visível. Premium sentir, olhar moderno. Padrão para relógio high-end e caixas de jóias. Para mais informações, consulte [Anatomia de um grande relógio de madeira](/blog/wooden-watch-box-anatomy)."
         },
         {
           "type": "p",
@@ -4459,7 +4474,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ímãs ocultos de neodímio encaminhados para a parede de madeira produzem aquele \"clique\" satisfatório quando a tampa se fecha. A força é calibrada pelo grau e quantidade do ímã-muito fraca e a tampa abre em trânsito, muito forte e a caixa é difícil de abrir com uma mão."
+          "text": "Ímãs ocultos de neodímio encaminhados para a parede de madeira produzem aquele \"clique\" satisfatório quando a tampa se fecha. A força é calibrada pelo grau e quantidade do ímã-muito fraca e a tampa abre em trânsito, muito forte e a caixa é difícil de abrir com uma mão. Consulte os modelos disponíveis em [Caixas de Madeira Magnéticas](/products/magnetic)."
         },
         {
           "type": "p",
@@ -4518,7 +4533,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Tradicional, visível, tom dourado. Corpo bronze com chave bronze. O clássico procura caixas de jóias, caixas de documentos e caixas. Vem com duas chaves por bloqueio como padrão."
+          "text": "Tradicional, visível, tom dourado. Corpo bronze com chave bronze. O clássico procura caixas de jóias, caixas de documentos e caixas. Vem com duas chaves por bloqueio como padrão. Consulte os modelos disponíveis em [Caixas de Madeira com Fechadura](/products/with-lock)."
         },
         {
           "type": "p",
@@ -4605,7 +4620,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Os custos de hardware são baixos por unidade, mas acumulam rapidamente em um pedido. Qualidade graus variam amplamente. Existem, essencialmente, três níveis:"
+          "text": "Os custos de hardware são baixos por unidade, mas acumulam rapidamente em um pedido. Qualidade graus variam amplamente. Existem, essencialmente, três níveis: Para mais informações, consulte [Dentro do nosso processo de fabricação 6 etapas caixa de madeira](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "h3",
@@ -4672,7 +4687,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "As equipes de instalação baratas apertam demais os parafusos das dobradiças para compensar os encaixes mal cortados. As fibras de madeira ao redor do parafuso comprimem; com o tempo o parafuso solta; a dobradiça afunda; a tampa não fica mais plana."
+          "text": "As equipes de instalação baratas apertam demais os parafusos das dobradiças para compensar os encaixes mal cortados. As fibras de madeira ao redor do parafuso comprimem; com o tempo o parafuso solta; a dobradiça afunda; a tampa não fica mais plana. Para mais informações, consulte [guia da espessura da madeira](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "p",
@@ -4708,7 +4723,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O hardware é uma das atualizações mais alavancadas em uma caixa de madeira. Atualizar uma única dobradiça do Nível 1 para o Nível 2 normalmente adiciona US $0, 20-0, 40 por caixa. Atualizar toda a especificação de hardware do Tier 1 para o Tier 3 (premium europeu) adiciona US $1, 50-3, 50 por caixa."
+          "text": "O hardware é uma das atualizações mais alavancadas em uma caixa de madeira. Atualizar uma única dobradiça do Nível 1 para o Nível 2 normalmente adiciona US $0, 20-0, 40 por caixa. Atualizar toda a especificação de hardware do Tier 1 para o Tier 3 (premium europeu) adiciona US $1, 50-3, 50 por caixa. Para mais informações, consulte [Quanto custam as caixas de madeira personalizadas? Um guia de preços grossista e OEM para 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
@@ -4732,7 +4747,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sim-muitos compradores de maior volume fazem exatamente isso. Compre o hardware separadamente, envie-o para nossa fábrica em Cao County, e nós o instalamos. A complicação é o tempo: o hardware precisa chegar à nossa fábrica pelo menos 5 dias antes do início da produção, com a documentação correspondente à ordem de produção. Para compradores iniciantes, geralmente recomendamos nosso hardware primeiro; uma vez que o relacionamento e o processo são estabelecidos, o hardware fornecido pelo cliente é direto."
+          "text": "Sim-muitos compradores de maior volume fazem exatamente isso. Compre o hardware separadamente, envie-o para nossa fábrica em Cao County, e nós o instalamos. A complicação é o tempo: o hardware precisa chegar à nossa fábrica pelo menos 5 dias antes do início da produção, com a documentação correspondente à ordem de produção. Para compradores iniciantes, geralmente recomendamos nosso hardware primeiro; uma vez que o relacionamento e o processo são estabelecidos, o hardware fornecido pelo cliente é direto. Consulte as opções em [Capacidades](/capabilities)."
         },
         {
           "type": "h3",
@@ -4772,7 +4787,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Para compradores de primeira vez, recomendamos fazer uma rodada de amostragem especificamente focada em hardware. Peça três amostras da mesma caixa com três classes de hardware diferentes-Tier 1, Tier 2, Tier 3. Abra e feche cada uma cem vezes. Sinta a diferença na sua mão. A escolha que parece certa para você é quase sempre aquela a que seu cliente responderá. O hardware é uma pequena porcentagem do custo; é a maior parte da qualidade percebida."
+          "text": "Para compradores de primeira vez, recomendamos fazer uma rodada de amostragem especificamente focada em hardware. Peça três amostras da mesma caixa com três classes de hardware diferentes-Tier 1, Tier 2, Tier 3. Abra e feche cada uma cem vezes. Sinta a diferença na sua mão. A escolha que parece certa para você é quase sempre aquela a que seu cliente responderá. O hardware é uma pequena porcentagem do custo; é a maior parte da qualidade percebida. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
         }
       ]
     }

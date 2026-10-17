@@ -9,6 +9,7 @@ export default {
       "category": "Guide all'acquisto",
       "readTime": "14 min di lettura",
       "body": [
+        { type: 'p', text: 'Prima di definire le specifiche, consulta [guida allo spessore del legno](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes).' },
         {
           "type": "p",
           "text": "Le scatole portaoggetti in legno su misura con divisori estraibili sono tra i prodotti OEM che ci vengono richiesti più spesso. Funzionano per marchi di gioielleria, aziende del tè, importatori di spezie, produttori di kit didattici, rivenditori di materiali creativi e marchi di scatole regalo. Poiché i divisori si tolgono, il cliente finale può riorganizzare gli scomparti in base a ciò che ripone, il che aggiunge flessibilità e valore percepito. Dal nostro reparto produzione, ecco cosa conviene sapere prima di ordinare: scelta del materiale, spessori, tipi di divisore, metodi per il logo, MOQ, campionatura e controllo qualità."
@@ -19,7 +20,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Una scatola portaoggetti in legno su misura con divisori estraibili è una scatola con coperchio e pareti interne che si possono sollevare, spostare o togliere del tutto. I divisori di solito si incastrano in scanalature oppure formano una griglia nella base. La nostra fabbrica le produce da 15 × 10 × 5 cm (piccolo portagioie) fino a 40 × 30 × 10 cm (grande organizer per tè o hobbistica). Il corpo può essere in pino con giunzione a pettine, compensato con incastro a coda di rondine, MDF impiallacciato, bambù o acacia massello, a seconda della fascia di prezzo e del posizionamento."
+          "text": "Una scatola portaoggetti in legno su misura con divisori estraibili è una scatola con coperchio e pareti interne che si possono sollevare, spostare o togliere del tutto. I divisori di solito si incastrano in scanalature oppure formano una griglia nella base. La nostra fabbrica le produce da 15 × 10 × 5 cm (piccolo portagioie) fino a 40 × 30 × 10 cm (grande organizer per tè o hobbistica). Il corpo può essere in pino con giunzione a pettine, compensato con incastro a coda di rondine, MDF impiallacciato, bambù o acacia massello, a seconda della fascia di prezzo e del posizionamento. Consulta i modelli disponibili nella categoria [Scatole Portaoggetti](/products/storage)."
         },
         {
           "type": "img",
@@ -62,7 +63,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La scelta del materiale incide su costo, durata, peso e resa estetica. Ecco cosa consigliamo di solito in base al mercato e alla fascia di prezzo:"
+          "text": "La scelta del materiale incide su costo, durata, peso e resa estetica. Ecco cosa consigliamo di solito in base al mercato e alla fascia di prezzo: Consulta le opzioni in [guida a legni, finiture e ferramenta](/material-guide)."
         },
         {
           "type": "table",
@@ -177,7 +178,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "I divisori hanno intagli a metà altezza che permettono di incastrarli tra loro formando una griglia. L'utente può toglierli o spostarli per creare scomparti di dimensioni diverse. È il sistema più flessibile e funziona bene per gioielli, materiali creativi o minuteria. Di solito tagliamo da 2 a 4 divisori verticali e da 2 a 3 orizzontali, ottenendo da 6 a 12 scomparti a seconda della misura."
+          "text": "I divisori hanno intagli a metà altezza che permettono di incastrarli tra loro formando una griglia. L'utente può toglierli o spostarli per creare scomparti di dimensioni diverse. È il sistema più flessibile e funziona bene per gioielli, materiali creativi o minuteria. Di solito tagliamo da 2 a 4 divisori verticali e da 2 a 3 orizzontali, ottenendo da 6 a 12 scomparti a seconda della misura. Per un esempio a catalogo, consulta [Box Semi Bambu con Divisori Regolabili](/products/garden-seed/bamboo-seed-storage-box-with-adjustable-removable-dividers)."
         },
         {
           "type": "img",
@@ -198,11 +199,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "I divisori sono integrati in un vassoio poco profondo che si estrae del tutto, scoprendo un secondo livello di alloggiamento sottostante. Molto richiesto per scatole da orologi e portagioie quando si vuole lo scomparto sopra e lo spazio libero sotto. Il vassoio poggia di solito su piccoli listelli di legno incollati all'interno delle pareti."
+          "text": "I divisori sono integrati in un vassoio poco profondo che si estrae del tutto, scoprendo un secondo livello di alloggiamento sottostante. Molto richiesto per scatole da orologi e portagioie quando si vuole lo scomparto sopra e lo spazio libero sotto. Il vassoio poggia di solito su piccoli listelli di legno incollati all'interno delle pareti. Consulta i modelli disponibili nella categoria [Scatole in Legno con Cassetto](/products/drawer)."
         },
         {
           "type": "p",
-          "text": "Per scatole da 30 × 20 × 8 cm consigliamo normalmente divisori a griglia con 3 pezzi verticali e 2 orizzontali, ottenendo 12 scomparti regolabili. Per portagioie più piccoli (15 × 10 × 5 cm), i divisori a scanalatura con 2-3 scomparti fissi funzionano bene e contengono il costo."
+          "text": "Per scatole da 30 × 20 × 8 cm consigliamo normalmente divisori a griglia con 3 pezzi verticali e 2 orizzontali, ottenendo 12 scomparti regolabili. Per portagioie più piccoli (15 × 10 × 5 cm), i divisori a scanalatura con 2-3 scomparti fissi funzionano bene e contengono il costo. Per maggiori dettagli, consulta [EVA, EPE, velluto o feltro: quale inserto scegliere per le scatole in legno](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide)."
         },
         {
           "type": "h2",
@@ -210,7 +211,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Posizione e metodo dipendono dal tuo progetto, dal budget e dalla quantità. Ecco cosa offre la nostra fabbrica:"
+          "text": "Posizione e metodo dipendono dal tuo progetto, dal budget e dalla quantità. Ecco cosa offre la nostra fabbrica: Per maggiori dettagli, consulta [5 tecniche di finitura che cambiano l'aspetto e la sensazione di una scatola di legno](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "table",
@@ -274,7 +275,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'imballo incide sul costo a destino, sull'appeal a scaffale e sul tasso di danni in transito. La nostra fabbrica offre tre soluzioni standard:"
+          "text": "L'imballo incide sul costo a destino, sull'appeal a scaffale e sul tasso di danni in transito. La nostra fabbrica offre tre soluzioni standard: Per maggiori dettagli, consulta [Progettare imballaggi in legno per Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "list",
@@ -299,7 +300,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il MOQ di fabbrica per le scatole portaoggetti in legno su misura con divisori estraibili è di 500 pezzi per design. Per ordini misti (più misure o finiture), il totale combinato deve essere di almeno 1.000 pezzi. Il tempo di campionatura è di 7-10 giorni lavorativi dall'approvazione del design, e la produzione richiede 25-30 giorni dopo la conferma del campione e il versamento dell'acconto."
+          "text": "Il MOQ di fabbrica per le scatole portaoggetti in legno su misura con divisori estraibili è di 500 pezzi per design. Per ordini misti (più misure o finiture), il totale combinato deve essere di almeno 1.000 pezzi. Il tempo di [campionatura](/blog/low-moq-sampling-strategy) è di 7-10 giorni lavorativi dall'approvazione del design, e la produzione richiede 25-30 giorni dopo la conferma del campione e il versamento dell'acconto."
         },
         {
           "type": "p",
@@ -345,7 +346,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Abbiamo prodotto scatole portaoggetti con divisori estraibili per marchi di gioielleria nel Regno Unito, aziende del tè in Germania, produttori di kit didattici negli Stati Uniti e rivenditori di materiali creativi in Australia e Canada. Che ti servano 500 scatole in pino economiche per Amazon FBA o 5.000 organizer in acacia premium per il retail, il nostro ufficio preventivi ti prepara un calcolo del costo a destino e un calendario di campionatura entro 24 ore."
+          "text": "Abbiamo prodotto scatole portaoggetti con divisori estraibili per marchi di gioielleria nel Regno Unito, aziende del tè in Germania, produttori di kit didattici negli Stati Uniti e rivenditori di materiali creativi in Australia e Canada. Che ti servano 500 scatole in pino economiche per Amazon FBA o 5.000 organizer in acacia premium per il retail, il nostro ufficio preventivi ti prepara un calcolo del costo a destino e un calendario di campionatura entro 24 ore. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
         }
       ]
     },
@@ -355,9 +356,10 @@ export default {
       "category": "Materiali",
       "readTime": "12 min di lettura",
       "body": [
+        { type: 'p', text: 'Prima di definire le specifiche, consulta [Perché un MOQ di 100 pezzi è il modo più intelligente per iniziare](/blog/low-moq-sampling-strategy).' },
         {
           "type": "p",
-          "text": "Quando si progetta una scatola in legno su misura, il materiale dell'inserto conta quanto la scatola stessa. La scelta sbagliata porta a prodotti danneggiati, costi più alti o una presentazione che non convince il cliente. In questa guida confrontiamo quattro materiali diffusi — spugna EVA, spugna EPE, velluto e feltro — sui criteri che decidono davvero: livello di protezione, rapporto costo-efficacia, estetica, impatto ambientale e possibilità di personalizzazione."
+          "text": "Quando si progetta una scatola in legno su misura, il materiale dell'inserto conta quanto la scatola stessa. La scelta sbagliata porta a prodotti danneggiati, costi più alti o una presentazione che non convince il cliente. In questa guida confrontiamo quattro materiali diffusi — spugna EVA, spugna EPE, velluto e feltro — sui criteri che decidono davvero: livello di protezione, rapporto costo-efficacia, estetica, impatto ambientale e possibilità di personalizzazione. Consulta i modelli disponibili nella categoria [Scatole Regalo e Imballaggio](/products/gift-packaging)."
         },
         {
           "type": "h2",
@@ -408,7 +410,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'EVA (etilene vinil acetato) è una spugna a celle chiuse nota per densità, durata ed eccellente resistenza agli urti. È il materiale dei tappetini da yoga, delle suole e degli imballaggi per elettronica di fascia alta. L'EVA assorbe gli urti in modo eccellente, con una durezza di 40-60 Shore C. Si fustella con precisione e può essere floccato con velluto per una finitura di lusso. Il prezzo è il più alto, ma è ideale per elettronica di valore come orologi, fotocamere e telefoni, per strumenti medicali, per utensili che richiedono un alloggiamento esatto e per prodotti il cui imballo verrà riutilizzato."
+          "text": "L'EVA (etilene vinil acetato) è una spugna a celle chiuse nota per densità, durata ed eccellente resistenza agli urti. È il materiale dei tappetini da yoga, delle suole e degli imballaggi per elettronica di fascia alta. L'EVA assorbe gli urti in modo eccellente, con una durezza di 40-60 Shore C. Si fustella con precisione e può essere floccato con velluto per una finitura di lusso. Il prezzo è il più alto, ma è ideale per elettronica di valore come orologi, fotocamere e telefoni, per strumenti medicali, per utensili che richiedono un alloggiamento esatto e per prodotti il cui imballo verrà riutilizzato. Per un esempio a catalogo, consulta [Box Regalo Magnetica di Lusso](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "h2",
@@ -416,7 +418,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'EPE (polietilene espanso) è una spugna a celle aperte, leggera, flessibile ed economica. È il «pluriball» delle spugne: morbido, cedevole ed eccellente per l'imbottitura generica. L'EPE assorbe bene gli urti con una durezza inferiore, di 20-30 Shore C, quindi è più morbido e comprimibile dell'EVA. È conveniente, riciclabile e a basse emissioni di produzione. L'EPE va bene quando serve una protezione moderata, per imballi cumulativi nella spedizione di più unità, per progetti con budget contenuto e per prodotti di forma regolare che non richiedono profili complessi."
+          "text": "L'EPE (polietilene espanso) è una spugna a celle aperte, leggera, flessibile ed economica. È il «pluriball» delle spugne: morbido, cedevole ed eccellente per l'imbottitura generica. L'EPE assorbe bene gli urti con una durezza inferiore, di 20-30 Shore C, quindi è più morbido e comprimibile dell'EVA. È conveniente, riciclabile e a basse emissioni di produzione. L'EPE va bene quando serve una protezione moderata, per imballi cumulativi nella spedizione di più unità, per progetti con budget contenuto e per prodotti di forma regolare che non richiedono profili complessi. Per maggiori dettagli, consulta [Quanto costano le scatole di legno personalizzate? Una guida ai prezzi all'ingrosso e OEM per il 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "h2",
@@ -424,7 +426,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il velluto è un tessuto morbido e vellutato (seta naturale o poliestere) dalla texture ricca e dall'aspetto premium. Si usa comunemente in portagioie, confezioni di profumo e set regalo di fascia alta. Da solo assorbe pochissimo e richiede un'imbottitura sotto, ma offre una sensazione di lusso impareggiabile e ottime possibilità di personalizzazione. Il velluto è ideale per gioielleria e oggetti preziosi, profumeria e cosmetica, regali di lusso e premi, e per i prodotti in cui conta il momento dell'apertura. Molti marchi lo combinano con la spugna: EVA o EPE come strato ammortizzante di base e flocking di velluto sopra per l'estetica."
+          "text": "Il velluto è un tessuto morbido e vellutato (seta naturale o poliestere) dalla texture ricca e dall'aspetto premium. Si usa comunemente in portagioie, confezioni di profumo e set regalo di fascia alta. Da solo assorbe pochissimo e richiede un'imbottitura sotto, ma offre una sensazione di lusso impareggiabile e ottime possibilità di personalizzazione. Il velluto è ideale per gioielleria e oggetti preziosi, profumeria e cosmetica, regali di lusso e premi, e per i prodotti in cui conta il momento dell'apertura. Molti marchi lo combinano con la spugna: EVA o EPE come strato ammortizzante di base e flocking di velluto sopra per l'estetica. Per maggiori dettagli, consulta [Anatomia di una grande scatola di orologio in legno](/blog/wooden-watch-box-anatomy)."
         },
         {
           "type": "h2",
@@ -432,7 +434,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il feltro è un non tessuto di fibre di lana pressate (o alternative sintetiche). Offre una finitura morbida e opaca ed è sempre più richiesto dai marchi attenti all'ambiente. Ammortizza in modo moderato con un lusso elegante e discreto. Si taglia, si tinge e si modella facilmente, il che apre ampie possibilità di personalizzazione. Il feltro di lana è biodegradabile ed esistono versioni in sintetico riciclato, il che lo rende l'opzione più sostenibile. Il feltro va bene per marchi ecologici, prodotti artigianali, articoli di peso medio come libri, ceramica e vetreria, e per marchi che cercano un'estetica naturale."
+          "text": "Il feltro è un non tessuto di fibre di lana pressate (o alternative sintetiche). Offre una finitura morbida e opaca ed è sempre più richiesto dai marchi attenti all'ambiente. Ammortizza in modo moderato con un lusso elegante e discreto. Si taglia, si tinge e si modella facilmente, il che apre ampie possibilità di personalizzazione. Il feltro di lana è biodegradabile ed esistono versioni in sintetico riciclato, il che lo rende l'opzione più sostenibile. Il feltro va bene per marchi ecologici, prodotti artigianali, articoli di peso medio come libri, ceramica e vetreria, e per marchi che cercano un'estetica naturale. Per maggiori dettagli, consulta [5 tecniche di finitura che cambiano l'aspetto e la sensazione di una scatola di legno](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -502,7 +504,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Usa questo schema per scegliere il materiale dell'inserto. Primo, valuta la fragilità del prodotto: articoli fragili come elettronica e vetro richiedono EVA o EPE, quelli di fragilità media si adattano a EPE o feltro, quelli robusti funzionano bene con velluto o feltro. Secondo, definisci il budget: i budget premium ($$$) reggono EVA o velluto, la fascia media ($$) si sposa col feltro, i progetti contenuti ($) dovrebbero usare EPE. Terzo, considera il posizionamento del marchio: i marchi di lusso guadagnano con velluto su base EVA, quelli ecologici dovrebbero scegliere il feltro, quelli tecnologici e professionali si sposano con l'EVA, quelli orientati al prezzo con l'EPE. Infine, valuta i volumi: gli ordini oltre 1.000 pezzi sfruttano la fustellatura automatizzata di EVA o EPE, i volumi medi da 100 a 1.000 pezzi ammettono qualsiasi materiale, e sotto i 100 pezzi feltro e velluto sono più facili da lavorare a mano."
+          "text": "Usa questo schema per scegliere il materiale dell'inserto. Primo, valuta la fragilità del prodotto: articoli fragili come elettronica e vetro richiedono EVA o EPE, quelli di fragilità media si adattano a EPE o feltro, quelli robusti funzionano bene con velluto o feltro. Secondo, definisci il budget: i budget premium ($$$) reggono EVA o velluto, la fascia media ($$) si sposa col feltro, i progetti contenuti ($) dovrebbero usare EPE. Terzo, considera il posizionamento del marchio: i marchi di lusso guadagnano con velluto su base EVA, quelli ecologici dovrebbero scegliere il feltro, quelli tecnologici e professionali si sposano con l'EVA, quelli orientati al prezzo con l'EPE. Infine, valuta i volumi: gli ordini oltre 1.000 pezzi sfruttano la fustellatura automatizzata di EVA o EPE, i volumi medi da 100 a 1.000 pezzi ammettono qualsiasi materiale, e sotto i 100 pezzi feltro e velluto sono più facili da lavorare a mano. Consulta le opzioni in [guida a legni, finiture e ferramenta](/material-guide)."
         },
         {
           "type": "h2",
@@ -510,7 +512,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un marchio di orologi di lusso doveva proteggere segnatempo di alto valore mantenendo una presentazione premium: ha adottato uno strato base di spugna EVA fustellata a forma di orologio con uno strato superiore di flocking in velluto sulla superficie EVA, ottenendo protezione 5 stelle più un'apertura di lusso, a 3-5 $ per inserto con MOQ 500. Un laboratorio artigianale di candele cercava un imballo ecologico per candele fatte a mano e ha usato inserti in feltro di lana tagliati su misura per i vasi; l'immagine naturale e sostenibile era in linea con il marchio e ha prodotto un aumento del 30 % dei riacquisti, a 1,50-2 $ per inserto con MOQ 100. Un e-commerce di elettronica che spediva altoparlanti Bluetooth su larga scala ha scelto paraspigoli in EPE con cuscino centrale, riducendo il costo di spedizione a peso e portando il tasso di danni dal 5 % a meno dell'1 %, a 0,50-0,80 $ per inserto con MOQ 1.000."
+          "text": "Un marchio di orologi di lusso doveva proteggere segnatempo di alto valore mantenendo una presentazione premium: ha adottato uno strato base di spugna EVA fustellata a forma di orologio con uno strato superiore di flocking in velluto sulla superficie EVA, ottenendo protezione 5 stelle più un'apertura di lusso, a 3-5 $ per inserto con MOQ 500. Un laboratorio artigianale di candele cercava un imballo ecologico per candele fatte a mano e ha usato inserti in feltro di lana tagliati su misura per i vasi; l'immagine naturale e sostenibile era in linea con il marchio e ha prodotto un aumento del 30 % dei riacquisti, a 1,50-2 $ per inserto con MOQ 100. Un e-commerce di elettronica che spediva altoparlanti Bluetooth su larga scala ha scelto paraspigoli in EPE con cuscino centrale, riducendo il costo di spedizione a peso e portando il tasso di danni dal 5 % a meno dell'1 %, a 0,50-0,80 $ per inserto con MOQ 1.000. Per un esempio a catalogo, consulta [Vetrina Display Tre Orologi](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h2",
@@ -522,7 +524,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Metti in conto la quantità minima d'ordine (MOQ): la spugna EVA richiede di norma 300-500 pezzi per il costo di attrezzaggio della fustella, la spugna EPE 500-1.000 pezzi, i rivestimenti in velluto 100-300 pezzi, e il feltro solo 50-100 pezzi perché si lavora più facilmente in piccole serie. Per prodotti alimentari, medicali o per l'infanzia, verifica la conformità RoHS (assenza di sostanze pericolose), la certificazione REACH del regolamento europeo sulle sostanze chimiche e l'approvazione FDA per i materiali a contatto con alimenti."
+          "text": "Metti in conto la quantità minima d'ordine (MOQ): la spugna EVA richiede di norma 300-500 pezzi per il costo di attrezzaggio della fustella, la spugna EPE 500-1.000 pezzi, i rivestimenti in velluto 100-300 pezzi, e il feltro solo 50-100 pezzi perché si lavora più facilmente in piccole serie. Per prodotti alimentari, medicali o per l'infanzia, verifica la conformità RoHS (assenza di sostanze pericolose), la certificazione REACH del regolamento europeo sulle sostanze chimiche e l'approvazione FDA per i materiali a contatto con alimenti. Per maggiori dettagli, consulta [Approvvigionarsi di scatole di legno personalizzate dalla Cina nel 2026: il playbook del buyer B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
         },
         {
           "type": "h2",
@@ -530,7 +532,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Scegliere l'inserto giusto per le tue scatole in legno significa bilanciare protezione, costo, estetica e valori del marchio. La spugna EVA offre protezione e personalizzazione premium a $$$, e si ripaga sui prodotti di alto valore. La spugna EPE dà un'imbottitura leggera ed economica per l'uso generale, a $. Il velluto garantisce una presentazione di lusso e rende al meglio su una base in spugna, a $$$. Il feltro è ecologico, elegante e versatile, a $$. Per la maggior parte dei progetti di scatole in legno su misura consigliamo di partire dalla spugna EVA come base e aggiungere velluto o feltro sopra se il budget lo consente. Così ottieni il meglio di entrambi: una protezione di cui fidarti e una presentazione che conquista."
+          "text": "Scegliere l'inserto giusto per le tue scatole in legno significa bilanciare protezione, costo, estetica e valori del marchio. La spugna EVA offre protezione e personalizzazione premium a $$$, e si ripaga sui prodotti di alto valore. La spugna EPE dà un'imbottitura leggera ed economica per l'uso generale, a $. Il velluto garantisce una presentazione di lusso e rende al meglio su una base in spugna, a $$$. Il feltro è ecologico, elegante e versatile, a $$. Per la maggior parte dei progetti di scatole in legno su misura consigliamo di partire dalla spugna EVA come base e aggiungere velluto o feltro sopra se il budget lo consente. Così ottieni il meglio di entrambi: una protezione di cui fidarti e una presentazione che conquista. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
         }
       ]
     },
@@ -540,6 +542,7 @@ export default {
       "category": "Design",
       "readTime": "14 min di lettura",
       "body": [
+        { type: 'p', text: 'Prima di definire le specifiche, consulta [Una guida dell\'acquirente all\'hardware della scatola di legno](/blog/wooden-box-hardware-guide).' },
         {
           "type": "p",
           "text": "La maggior parte degli acquirenti specifica una scatola in legno in quest'ordine: dimensioni, essenza, personalizzazione e poi — quasi come un ripensamento — come si apre. Quest'ordine è rovesciato. La chiusura determina l'attrezzaggio, i tempi di montaggio, il costo della ferramenta, se la scatola può viaggiare piatta e cosa sente il cliente nei primi due secondi in cui la maneggia. Cambiare chiusura in ritardo equivale ad aver riquotato l'intero progetto."
@@ -785,7 +788,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ciò che cambia davvero in produzione è il resto della scatola. Una serratura concentra la forza sul bordo del coperchio e sulle cerniere ogni volta che qualcuno la prova, perciò le scatole con serratura ricevono cerniere rinforzate e un coperchio più spesso di quanto la stessa scatola richiederebbe altrimenti. Saltare quel rinforzo è di gran lunga la ragione più comune per cui una scatola con serratura torna indietro danneggiata. Le nostre [scatole in legno con serratura](/products/with-lock) sono disponibili in noce, rovere, pino e acacia."
+          "text": "Ciò che cambia davvero in produzione è il resto della scatola. Una serratura concentra la forza sul bordo del coperchio e sulle cerniere ogni volta che qualcuno la prova, perciò le scatole con serratura ricevono cerniere rinforzate e un coperchio più spesso di quanto la stessa scatola richiederebbe altrimenti. Saltare quel rinforzo è di gran lunga la ragione più comune per cui una scatola con serratura torna indietro danneggiata. Le nostre [scatole in legno con serratura](/products/with-lock) sono disponibili in noce, rovere, pino e acacia. Per maggiori dettagli, consulta [guida allo spessore del legno](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "h2",
@@ -852,7 +855,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ogni scatola che spediamo attraversa le stesse sei stazioni, indipendentemente dalla chiusura. Ciò che cambia è quanto lavoro avviene alle stazioni tre e quattro, ed è da lì che nascono le differenze di tempo della tabella precedente."
+          "text": "Ogni scatola che spediamo attraversa le stesse sei stazioni, indipendentemente dalla chiusura. Ciò che cambia è quanto lavoro avviene alle stazioni tre e quattro, ed è da lì che nascono le differenze di tempo della tabella precedente. Per maggiori dettagli, consulta [All'interno del nostro processo di produzione della scatola di legno in 6 fasi](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "flow",
@@ -913,11 +916,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Se due risposte competono — poniamo un portagioie che è insieme oggetto d'uso quotidiano e unboxing premium — deve vincere il requisito dell'uso quotidiano. Un coperchio magnetico aperto due volte al giorno sopravvivrà al programma, ma non darà mai in mano la stessa sensazione di solidità di una cerniera specificata bene, e il cliente se ne accorge al trentesimo giorno, non al primo."
+          "text": "Se due risposte competono — poniamo un portagioie che è insieme oggetto d'uso quotidiano e unboxing premium — deve vincere il requisito dell'uso quotidiano. Un coperchio magnetico aperto due volte al giorno sopravvivrà al programma, ma non darà mai in mano la stessa sensazione di solidità di una cerniera specificata bene, e il cliente se ne accorge al trentesimo giorno, non al primo. Per maggiori dettagli, consulta [Anatomia di una grande scatola di orologio in legno](/blog/wooden-watch-box-anatomy)."
         },
         {
           "type": "p",
-          "text": "L'essenza del legno è una decisione separata dalla chiusura, e le due interagiscono meno di quanto si pensi: ognuna di queste cinque chiusure può essere realizzata in ognuna delle nostre essenze. La nostra [guida ai materiali](/material-guide) confronta paulownia, pino, bambù, acacia e noce su peso, durezza, comportamento in finitura e certificazione."
+          "text": "L'essenza del legno è una decisione separata dalla chiusura, e le due interagiscono meno di quanto si pensi: ognuna di queste cinque chiusure può essere realizzata in ognuna delle nostre essenze. La nostra [guida ai materiali](/material-guide) confronta paulownia, pino, bambù, acacia e noce su peso, durezza, comportamento in finitura e certificazione. Per maggiori dettagli, consulta [5 tecniche di finitura che cambiano l'aspetto e la sensazione di una scatola di legno](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "quote",
@@ -973,6 +976,7 @@ export default {
       "category": "Prezzi",
       "readTime": "12 min di lettura",
       "body": [
+        { type: 'p', text: 'Prima di definire le specifiche, consulta [EVA, EPE, velluto o feltro: quale inserto scegliere per le scatole in legno](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide).' },
         {
           "type": "p",
           "text": "La domanda più comune che un produttore di scatole di legno si sente porre è anche la più difficile a cui rispondere con un solo numero: «quanto costa una scatola di legno personalizzata?» La risposta onesta è un intervallo — circa da $1.50 a $25 a pezzo — perché una scatola bomboniera in pino con coperchio scorrevole e un astuccio per orologi in noce massiccia foderato di velluto con serratura in ottone sono entrambi «scatole di legno», e si collocano agli estremi opposti della mappa dei costi. Questa guida trasforma quell'intervallo poco utile in qualcosa su cui potete davvero basare il vostro budget."
@@ -1275,7 +1279,7 @@ export default {
           "type": "list",
           "items": [
             "Scendete di una fascia di specie dove non si noterà — la paulownia tinta scura assomiglia molto al noce a una frazione del costo.",
-            "Scegliete un [coperchio scorrevole](/products/sliding-lid) invece di una chiusura a cerniera o magnetica quando l'uso lo consente — è il più economico da assemblare.",
+            "Scegliete un coperchio scorrevole invece di una chiusura a cerniera o magnetica quando l'uso lo consente — è il più economico da assemblare.",
             "Semplificate la finitura: una mano di lacca food-safe invece del gloss da pianoforte.",
             "Ottimizzate le dimensioni rispetto al cartone di spedizione e al container — l'aria sprecata è trasporto sprecato.",
             "Usate l'incisione laser invece della lamina a caldo o della stampa a colori pieni per il branding.",
@@ -1311,6 +1315,7 @@ export default {
       "category": "Strategia",
       "readTime": "13 min di lettura",
       "body": [
+        { type: 'p', text: 'Prima di definire le specifiche, consulta [OEM vs. ODM: quale è giusto per il tuo progetto di scatola di legno?](/blog/oem-vs-odm-wooden-boxes).' },
         {
           "type": "p",
           "text": "La prima volta che una responsabile acquisti di un retailer di regali di Helsinki mi chiese come approvvigionarsi di scatole di legno personalizzate dalla Cina, era già passata da due fornitori in 18 mesi. Il primo aveva quotato a 3,20 USD a pezzo, incassato il suo budget per gli stampi e spedito scatole con un contenuto di umidità così variabile che il 14% dell'ordine è arrivato crepato. Il secondo era tecnicamente competente ma comunicava solo con risposte vaghe su WeChat e ha mancato la sua finestra natalizia di sei settimane. Stava per rinunciare del tutto ai fornitori cinesi."
@@ -1362,7 +1367,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La maggior parte del sourcing B2B serio avviene qui. Una fabbrica specialistica (focalizzata su paulownia, pino, bambù, acacia, noce — sceglietene una o due) gestisce un proprio piazzale produttivo e lo abbina a un ufficio commerciale in un hub di export come Xiamen, Shenzhen o Shanghai. La fabbrica gestisce la produzione; l'ufficio commerciale gestisce documentazione, coordinamento campioni, comunicazione e la logistica poco sexy che trasforma una pallet di scatole in qualcosa che passa la dogana. La nostra struttura — uno stabilimento produttivo di 20.000 m² a Cao County, Shandong, e un ufficio commerciale a Xiamen, Fujian — rientra in questa categoria, ed è il modello che produce il risultato più prevedibile per i buyer che vogliono riordinare."
+          "text": "La maggior parte del sourcing B2B serio avviene qui. Una fabbrica specialistica (focalizzata su paulownia, pino, bambù, acacia, noce — sceglietene una o due) gestisce un proprio piazzale produttivo e lo abbina a un ufficio commerciale in un hub di export come Xiamen, Shenzhen o Shanghai. La fabbrica gestisce la produzione; l'ufficio commerciale gestisce documentazione, coordinamento campioni, comunicazione e la logistica poco sexy che trasforma una pallet di scatole in qualcosa che passa la dogana. La nostra struttura — uno stabilimento produttivo di 20.000 m² a Cao County, Shandong, e un ufficio commerciale a Xiamen, Fujian — rientra in questa categoria, ed è il modello che produce il risultato più prevedibile per i buyer che vogliono riordinare. Consulta le opzioni in [Capacità](/capabilities)."
         },
         {
           "type": "h3",
@@ -1370,7 +1375,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Nella fascia alta troverete piccoli laboratori che producono serie da 300 pezzi di scatole per orologi in noce massiccia o pezzi heirloom incisi a mano. I lead time sono lunghi, i prezzi unitari alti, e non sono costruiti per scalare — ma sono quelli che volete per edizioni limitate e lanci di lusso dove ogni dettaglio viene firmato di persona."
+          "text": "Nella fascia alta troverete piccoli laboratori che producono serie da 300 pezzi di scatole per orologi in noce massiccia o pezzi heirloom incisi a mano. I lead time sono lunghi, i prezzi unitari alti, e non sono costruiti per scalare — ma sono quelli che volete per edizioni limitate e lanci di lusso dove ogni dettaglio viene firmato di persona. Per un esempio a catalogo, consulta [Vetrina Display Tre Orologi](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "p",
@@ -1403,7 +1408,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "\"Tipico\" vi dice il loro sweet spot commerciale; \"minimo\" vi dice se potete fare un test prima di impegnarvi su una stagione intera. Per la maggior parte delle scatole di legno personalizzate il MOQ tipico è 500–1.000 pezzi; i MOQ minimi per primi ordini o specifiche più semplici possono essere 100–300. Se un fornitore rifiuta di quotare sotto i 1.000, probabilmente non è impostato per test incrementali — bene per linee consolidate, rischioso per un nuovo lancio."
+          "text": "\"Tipico\" vi dice il loro sweet spot commerciale; \"minimo\" vi dice se potete fare un test prima di impegnarvi su una stagione intera. Per la maggior parte delle scatole di legno personalizzate il [MOQ](/blog/low-moq-sampling-strategy) tipico è 500–1.000 pezzi; i MOQ minimi per primi ordini o specifiche più semplici possono essere 100–300. Se un fornitore rifiuta di quotare sotto i 1.000, probabilmente non è impostato per test incrementali — bene per linee consolidate, rischioso per un nuovo lancio."
         },
         {
           "type": "h3",
@@ -1419,7 +1424,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le buone fabbriche campionano ogni nuovo design prima di quotare la produzione piena. Il costo del campione varia — da gratuito per buyer consolidati a 80–200 USD a pezzo per build complessi una tantum — ma il principio non è negoziabile: non dovreste mai approvare un ordine da 5.000 pezzi su un render CAD da solo. Diffidate dei fornitori che si oppongono ai campioni fisici o caricano costi di stampo che sembrano sospettosamente markup da società di trading."
+          "text": "Le buone fabbriche campionano ogni nuovo design prima di quotare la produzione piena. Il [costo del campione](/blog/custom-wooden-box-cost-2026) varia — da gratuito per buyer consolidati a 80–200 USD a pezzo per build complessi una tantum — ma il principio non è negoziabile: non dovreste mai approvare un ordine da 5.000 pezzi su un render CAD da solo. Diffidate dei fornitori che si oppongono ai campioni fisici o caricano costi di stampo che sembrano sospettosamente markup da società di trading."
         },
         {
           "type": "img",
@@ -1440,7 +1445,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Certificazioni permanenti e documenti per ordine sono due cose diverse. ISO 9001 è una certificazione di sistema di gestione permanente che si applica all'intera fabbrica. FSC, CARB e EU REACH si applicano di solito per ordine: il legno usato nella vostra specifica serie è approvvigionato e documentato per rispettare lo standard. Chiedete al fornitore cosa ha permanente e cosa può documentare per il vostro ordine. Risposte disallineate qui sono il singolo segnale più comune di problemi."
+          "text": "[Certificazioni](/blog/sustainable-sourcing-2026) permanenti e documenti per ordine sono due cose diverse. ISO 9001 è una certificazione di sistema di gestione permanente che si applica all'intera fabbrica. FSC, CARB e EU REACH si applicano di solito per ordine: il legno usato nella vostra specifica serie è approvvigionato e documentato per rispettare lo standard. Chiedete al fornitore cosa ha permanente e cosa può documentare per il vostro ordine. Risposte disallineate qui sono il singolo segnale più comune di problemi."
         },
         {
           "type": "h3",
@@ -1469,11 +1474,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Esempio pratico: un retailer di regali di Berlino ci ha chiesto recentemente di produrre 1.200 scatole da tè in noce a un costo unitario target di 4,80 USD con 28 giorni di lead time. La nostra risposta onesta è stata che 1.200 pezzi atterrano puliti nello sweet zone (sotto 5 USD con un'adeguata essiccazione in essiccatoio è realistico), ma 28 giorni funzionano solo se approva il campione entro 5 giorni e salta il secondo round di revisione. Ha fatto così, e le scatole sono partite il giorno 32. La lezione è la stessa che ogni buyer esperto impara: il costo unitario non è mai stata la leva — l'orologio dell'approvazione del campione lo era."
+          "text": "Esempio pratico: un retailer di regali di Berlino ci ha chiesto recentemente di produrre 1.200 scatole da tè in noce a un costo unitario target di 4,80 USD con 28 giorni di lead time. La nostra risposta onesta è stata che 1.200 pezzi atterrano puliti nello sweet zone (sotto 5 USD con un'adeguata essiccazione in essiccatoio è realistico), ma 28 giorni funzionano solo se approva il campione entro 5 giorni e salta il secondo round di revisione. Ha fatto così, e le scatole sono partite il giorno 32. La lezione è la stessa che ogni buyer esperto impara: il costo unitario non è mai stata la leva — l'orologio dell'approvazione del campione lo era. Per un esempio a catalogo, consulta [Box Bustine Tè Acacia 8 Scomparti](/products/tea-coffee/acacia-tea-bag-box-8-compartment)."
         },
         {
           "type": "p",
-          "text": "Il lead time è composto da due orologi che corrono in parallelo. Il primo è il tempo di calendario: essiccazione in essiccatoio (5–14 giorni), maturazione della finitura (3–5 giorni) e attesa di una partenza export (5–10 giorni dalla porta della fabbrica al container del vostro spedizioniere). Il secondo è il tempo di produzione effettivo: di solito 12–25 minuti di lavoro per scatola, moltiplicati per la quantità del vostro ordine. Il tempo di calendario domina per ordini sotto le 5.000 unità; il tempo di produzione domina sopra le 10.000. Una tipica serie personalizzata da 1.500 pezzi dal nostro stabilimento impiega 30–40 giorni porta a porta."
+          "text": "Il lead time è composto da due orologi che corrono in parallelo. Il primo è il tempo di calendario: essiccazione in essiccatoio (5–14 giorni), maturazione della finitura (3–5 giorni) e attesa di una partenza export (5–10 giorni dalla porta della fabbrica al container del vostro spedizioniere). Il secondo è il tempo di produzione effettivo: di solito 12–25 minuti di lavoro per scatola, moltiplicati per la quantità del vostro ordine. Il tempo di calendario domina per ordini sotto le 5.000 unità; il tempo di produzione domina sopra le 10.000. Una tipica serie personalizzata da 1.500 pezzi dal nostro stabilimento impiega 30–40 giorni porta a porta. Per maggiori dettagli, consulta [All'interno del nostro processo di produzione della scatola di legno in 6 fasi](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "img",
@@ -1506,7 +1511,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il costo unitario è la più piccola delle tre variabili su cui dovreste ottimizzare. Quella che fa più male se sbagliata è l'affidabilità — un risparmio di 0,30 USD a pezzo su un ordine da 2.000 pezzi sono 600 USD. Il costo di una finestra retail mancata è l'intero margine di quella stagione. I fornitori che guidano col prezzo non sono quelli a cui si riordina."
+          "text": "Il costo unitario è la più piccola delle tre variabili su cui dovreste ottimizzare. Quella che fa più male se sbagliata è l'affidabilità — un risparmio di 0,30 USD a pezzo su un ordine da 2.000 pezzi sono 600 USD. Il costo di una finestra retail mancata è l'intero margine di quella stagione. I fornitori che guidano col prezzo non sono quelli a cui si riordina. Consulta le opzioni in [guida a legni, finiture e ferramenta](/material-guide)."
         },
         {
           "type": "h2",
@@ -1647,7 +1652,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Se siete all'inizio di quel viaggio e volete discutere una specifica questione di design, MOQ, materiale o compliance, il nostro team a Xiamen può accompagnarvi direttamente — inviate un brief dalla pagina /contact e risponderemo con un video di esempio della fabbrica e un pacchetto di documentazione entro un giorno lavorativo. Attualmente spediamo scatole di legno personalizzate a brand in Germania, Italia, Stati Uniti, Regno Unito, Canada e Polonia attraverso esattamente questo processo. Potete sfogliare il catalogo produttivo su /products, leggere il nostro processo di produzione in sei passi su /blog/six-step-manufacturing-process, o iniziare dalla guida ai materiali se non avete ancora scelto un legno (/material-guide)."
+          "text": "Se siete all'inizio di quel viaggio e volete discutere una specifica questione di design, MOQ, materiale o compliance, il nostro team a Xiamen può accompagnarvi direttamente — inviate un brief dalla pagina /contact e risponderemo con un video di esempio della fabbrica e un pacchetto di documentazione entro un giorno lavorativo. Attualmente spediamo scatole di legno personalizzate a brand in Germania, Italia, Stati Uniti, Regno Unito, Canada e Polonia attraverso esattamente questo processo. Potete sfogliare il catalogo produttivo su /products, leggere il nostro processo di produzione in sei passi su /blog/six-step-manufacturing-process, o iniziare dalla guida ai materiali se non avete ancora scelto un legno (/material-guide). Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
         }
       ]
     },
@@ -1657,6 +1662,7 @@ export default {
       "category": "Processo",
       "readTime": "11 min di lettura",
       "body": [
+        { type: 'p', text: 'Prima di definire le specifiche, consulta [Approvvigionarsi di scatole di legno personalizzate dalla Cina nel 2026: il playbook del buyer B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "Un acquirente di Amsterdam ha visitato la nostra fabbrica di Cao County lo scorso marzo. Ordinava da noi scatole da tè da due anni-circa 18.000 unità all'anno per il suo marchio di vendita al dettaglio nei Paesi Bassi-ma non aveva mai visto il posto di persona. Dopo averlo preso all'aeroporto di Heze, abbiamo guidato per 45 minuti verso est, siamo entrati nel cortile verso le dieci del mattino e abbiamo parcheggiato vicino al mucchio di legname."
@@ -1679,7 +1685,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ogni ordine inizia nel nostro deposito di legname. Paulownia, pino, bambù, acacia, noce e quercia sono conservati in capannoni coperti ma aperti, separati per specie e grado. Prima che qualsiasi tavola tocchi una sega, deve passare attraverso i nostri forni di essiccazione e raggiungere l'8-12% di umidità (MC)."
+          "text": "Ogni ordine inizia nel nostro deposito di legname. Paulownia, pino, bambù, acacia, noce e quercia sono conservati in capannoni coperti ma aperti, separati per specie e grado. Prima che qualsiasi tavola tocchi una sega, deve passare attraverso i nostri forni di essiccazione e raggiungere l'8-12% di umidità (MC). Consulta le opzioni in [guida a legni, finiture e ferramenta](/material-guide)."
         },
         {
           "type": "p",
@@ -1687,7 +1693,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "I nostri forni funzionano a 60-80 ° C con umidità controllata per un periodo compreso tra 7 e 21 giorni a seconda dello spessore del pannello e della specie. La noce e la quercia impiegano più tempo perché sono dense; la paulownia si asciuga più velocemente perché è leggera. Ogni tavola viene controllata con un misuratore di umidità a perno prima che lasci il forno e le letture vengono registrate."
+          "text": "I nostri forni funzionano a 60-80 ° C con umidità controllata per un periodo compreso tra 7 e 21 giorni a seconda dello [spessore](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes) del pannello e della specie. La noce e la quercia impiegano più tempo perché sono dense; la paulownia si asciuga più velocemente perché è leggera. Ogni tavola viene controllata con un misuratore di umidità a perno prima che lasci il forno e le letture vengono registrate."
         },
         {
           "type": "p",
@@ -1712,7 +1718,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Per un ordine personalizzato, programmiamo le seghe direttamente dal tuo file CAD o dal nostro mockup 3D interno. Ogni parte viene tagliata su specifiche-lati, parte superiore, inferiore, base, telaio del coperchio, pannello del coperchio, divisori-senza occhielli e senza congetture. Il nostro software di nidificazione organizza le parti su ciascuna scheda per ridurre al minimo i rifiuti tagliati, raggiungendo in genere l'88-92% di resa del materiale. I ritagli vanno in una struttura gemella che produce perline di legno, maniglie e piccoli componenti torniti, quindi quasi nulla raggiunge la discarica."
+          "text": "Per un ordine personalizzato, programmiamo le seghe direttamente dal tuo file CAD o dal nostro mockup 3D interno. Ogni parte viene tagliata su specifiche-lati, parte superiore, inferiore, base, telaio del coperchio, pannello del coperchio, divisori-senza occhielli e senza congetture. Il nostro software di nidificazione organizza le parti su ciascuna scheda per ridurre al minimo i rifiuti tagliati, raggiungendo in genere l'88-92% di resa del materiale. I ritagli vanno in una struttura gemella che produce perline di legno, maniglie e piccoli componenti torniti, quindi quasi nulla raggiunge la discarica. Consulta i modelli disponibili nella categoria [Scatole Regalo e Imballaggio](/products/gift-packaging)."
         },
         {
           "type": "p",
@@ -1724,7 +1730,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il passaggio 3 è dove le scatole raccolgono la loro personalità. I router CNC gestiscono ogni taglio che non è una linea retta: bordi smussati e arrotondati, scanalature dado per coperchi scorrevoli, morse per cerniere e serrature, giunti delle dita e code di rondine per i lati, slot per divisori interni."
+          "text": "Il passaggio 3 è dove le scatole raccolgono la loro personalità. I router CNC gestiscono ogni taglio che non è una linea retta: bordi smussati e arrotondati, scanalature dado per [coperchi](/blog/wooden-box-closure-types-compared) scorrevoli, morse per cerniere e serrature, giunti delle dita e code di rondine per i lati, slot per divisori interni."
         },
         {
           "type": "p",
@@ -1745,7 +1751,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Prima che la colla o l'hardware arrivino, ogni parte della scatola è montata a secco per confermare che la falegnameria è stretta, i coperchi si chiudono piatti, i cassetti scorrono dolcemente. Questo sembra ovvio, ma la maggior parte delle fabbriche di fascia bassa lo salta: passano direttamente dalle parti tagliate alla colla e sperano per il meglio."
+          "text": "Prima che la colla o l'hardware arrivino, ogni parte della scatola è montata a secco per confermare che la falegnameria è stretta, i coperchi si chiudono piatti, i cassetti scorrono dolcemente. Questo sembra ovvio, ma la maggior parte delle fabbriche di fascia bassa lo salta: passano direttamente dalle parti tagliate alla colla e sperano per il meglio. Per maggiori dettagli, consulta [Una guida dell'acquirente all'hardware della scatola di legno](/blog/wooden-box-hardware-guide)."
         },
         {
           "type": "p",
@@ -1781,7 +1787,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La scelta di finitura dipende dalla scatola. Lacca adatta al cibo per scatole da tè, portaspezie e cestini per il pane. Cera d'api o olio minerale per taglieri e scatole da portata. Lacca a base d'acqua (a basso contenuto di VOC, EU REACH e US CARB P2 conformi) per uso generale. Noce e rovere premium ottengono cera ad olio per quell'aspetto rifinito a mano che le finiture applicate a macchina non possono eguagliare."
+          "text": "La scelta di finitura dipende dalla scatola. Lacca adatta al cibo per scatole da tè, portaspezie e cestini per il pane. Cera d'api o olio minerale per taglieri e scatole da portata. Lacca a base d'acqua (a basso contenuto di VOC, EU REACH e US CARB P2 conformi) per uso generale. Noce e rovere premium ottengono cera ad olio per quell'aspetto rifinito a mano che le [finiture](/blog/wooden-box-finishing-techniques) applicate a macchina non possono eguagliare."
         },
         {
           "type": "p",
@@ -1814,7 +1820,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Fatto al deposito di legname. Tavole troppo bagnate, troppo deformate o con nodi, spaccature o variazioni di colore inaccettabili non entrano mai nel flusso di produzione. Circa il 5-8% del legname in arrivo viene rifiutato in questa fase e restituito al fornitore."
+          "text": "Fatto al deposito di legname. Tavole troppo bagnate, troppo deformate o con nodi, spaccature o variazioni di colore inaccettabili non entrano mai nel flusso di produzione. Circa il 5-8% del legname in arrivo viene rifiutato in questa fase e restituito al fornitore. Per maggiori dettagli, consulta [Come scegliere il legno giusto per l'imballaggio regalo](/blog/choosing-wood-for-gift-packaging)."
         },
         {
           "type": "h3",
@@ -1834,7 +1840,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Una volta che le scatole superano il controllo di qualità finale, vengono avvolte in tessuti o sacchetti di tessuto, imballate in singoli cartoni al dettaglio o cartoni principali alla rinfusa, pallettizzate e caricate con il pacchetto completo della documentazione di esportazione: fattura commerciale con codici HS, lista di imballaggio con ripartizione cartone per cartone, certificato fitosanitario per legno massiccio, certificato di origine, E polizza di carico."
+          "text": "Una volta che le scatole superano il controllo di qualità finale, vengono avvolte in tessuti o sacchetti di tessuto, imballate in singoli cartoni al dettaglio o cartoni principali alla rinfusa, pallettizzate e caricate con il pacchetto completo della documentazione di esportazione: fattura commerciale con codici HS, lista di imballaggio con ripartizione cartone per cartone, certificato fitosanitario per legno massiccio, certificato di origine, E polizza di carico. Per maggiori dettagli, consulta [Progettare imballaggi in legno per Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "p",
@@ -1926,7 +1932,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "E migliori sono le conversazioni che puoi avere con noi quando qualcosa non va bene-perché nella produzione, qualcosa alla fine non sembra sempre giusto, e come viene risolto è ciò che definisce una vera partnership."
+          "text": "E migliori sono le conversazioni che puoi avere con noi quando qualcosa non va bene-perché nella produzione, qualcosa alla fine non sembra sempre giusto, e come viene risolto è ciò che definisce una vera partnership. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
         }
       ]
     },
@@ -1936,6 +1942,7 @@ export default {
       "category": "Materiali",
       "readTime": "10 min di lettura",
       "body": [
+        { type: 'p', text: 'Prima di definire le specifiche, consulta [guida a legni, finiture e ferramenta](/material-guide).' },
         {
           "type": "p",
           "text": "La selezione del legno è la decisione più grande in qualsiasi progetto di confezione regalo. Guida il costo unitario, il costo del trasporto, la qualità delle finiture, il premio percepito, la riciclabilità di fine vita e il modo in cui la scatola legge nella mano del cliente. A volte conta più del design stesso."
@@ -1954,7 +1961,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La maggior parte degli acquirenti si concentra sul costo del materiale per piede di tavola. Questo è il numero sbagliato. Per la maggior parte dei progetti di imballaggi regalo spediti dalla Cina, il componente merci domina, in particolare per le scatole al dettaglio ingombranti spedite LCL o tramite Amazon FBA."
+          "text": "La maggior parte degli acquirenti si concentra sul costo del materiale per piede di tavola. Questo è il numero sbagliato. Per la maggior parte dei progetti di imballaggi regalo spediti dalla Cina, il componente merci domina, in particolare per le scatole al dettaglio ingombranti spedite LCL o tramite Amazon FBA. Per maggiori dettagli, consulta [Quanto costano le scatole di legno personalizzate? Una guida ai prezzi all'ingrosso e OEM per il 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
@@ -1970,7 +1977,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La Paulownia è il legname commerciale più leggero della Terra: una densità di circa 280 kg/m³, che è circa la metà del pino e un terzo della quercia. Per l'imballaggio regalo ad alto volume vince solo sul costo del trasporto, prima di considerare qualsiasi altra variabile."
+          "text": "La [Paulownia](/products/paulownia) è il legname commerciale più leggero della Terra: una densità di circa 280 kg/m³, che è circa la metà del pino e un terzo della quercia. Per l'imballaggio regalo ad alto volume vince solo sul costo del trasporto, prima di considerare qualsiasi altra variabile."
         },
         {
           "type": "p",
@@ -1990,7 +1997,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il pino silvestre e il pino radiato ti offrono il classico grano caldo al prezzo più basso per piede di tavola di qualsiasi legno tenero che immagazziniamo. Lavoriamo con due gradi: pino senza nodi per imballaggi puliti per la vendita al dettaglio e pino rustico nodoso per vino in cassa e regali a tema fattoria."
+          "text": "Il [pino](/products/pine) silvestre e il pino radiato ti offrono il classico grano caldo al prezzo più basso per piede di tavola di qualsiasi legno tenero che immagazziniamo. Lavoriamo con due gradi: pino senza nodi per imballaggi puliti per la vendita al dettaglio e pino rustico nodoso per vino in cassa e regali a tema fattoria."
         },
         {
           "type": "p",
@@ -2015,11 +2022,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Tecnicamente il bambù è un'erba, non un albero. Riesce in 5-7 anni contro i 30-60 anni del legno duro, il che lo rende il materiale strutturale più realmente rinnovabile del pianeta. Per i marchi con un messaggio eco esplicito, il bambù è l'unica scelta onesta."
+          "text": "Tecnicamente il [bambù](/products/bamboo) è un'erba, non un albero. Riesce in 5-7 anni contro i 30-60 anni del legno duro, il che lo rende il materiale strutturale più realmente rinnovabile del pianeta. Per i marchi con un messaggio eco esplicito, il bambù è l'unica scelta onesta."
         },
         {
           "type": "p",
-          "text": "Il bambù è anche naturalmente antibatterico, rendendolo la scelta predefinita per i prodotti da cucina, gli accessori da bagno e tutto ciò che tocca il cibo o la pelle. È più duro della quercia rossa (Janka ~ 1380), più resistente all'acqua della maggior parte dei legni duri e termina con una bella superficie oro caldo o caramello carbonizzato."
+          "text": "Il bambù è anche naturalmente antibatterico, rendendolo la scelta predefinita per i prodotti da cucina, gli accessori da bagno e tutto ciò che tocca il cibo o la pelle. È più duro della quercia rossa (Janka ~ 1380), più resistente all'acqua della maggior parte dei legni duri e termina con una bella superficie oro caldo o caramello carbonizzato. Per maggiori dettagli, consulta [Bambù vs. acacia: quale legno per i prodotti da cucina?](/blog/bamboo-vs-acacia-kitchenware)."
         },
         {
           "type": "p",
@@ -2035,7 +2042,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Acacia è l'eroe sottovalutato del nostro catalogo. Durezza Janka superiore a 2300 (più dura della quercia), grano vorticoso drammatico con strisce marrone cioccolato che attraversano il caldo durame del miele e prezzi che atterrano ben al di sotto della noce mentre sembrano quasi altrettanto premium."
+          "text": "[Acacia](/products/acacia) è l'eroe sottovalutato del nostro catalogo. Durezza Janka superiore a 2300 (più dura della quercia), grano vorticoso drammatico con strisce marrone cioccolato che attraversano il caldo durame del miele e prezzi che atterrano ben al di sotto della noce mentre sembrano quasi altrettanto premium."
         },
         {
           "type": "p",
@@ -2051,7 +2058,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il noce nero americano è il legno duro più ambito nell'industria del regalo. Colore cioccolato naturalmente intenso (nessuna colorazione richiesta), superficie liscia come la seta che lucida al vetro e grana fine che richiede incisione e intarsio magnificamente."
+          "text": "Il [noce](/products/walnut) nero americano è il legno duro più ambito nell'industria del regalo. Colore cioccolato naturalmente intenso (nessuna colorazione richiesta), superficie liscia come la seta che lucida al vetro e grana fine che richiede incisione e intarsio magnificamente."
         },
         {
           "type": "p",
@@ -2154,7 +2161,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Breve: 8.000 unità, scatola del coperchio sollevabile per una linea di candele al dettaglio da $65, distribuzione FBA Europe, voce del marchio minimalista premium. Budget: $4 per scatola sbarcata nel magazzino di Amazon."
+          "text": "Breve: 8.000 unità, scatola del coperchio sollevabile per una linea di candele al dettaglio da $65, distribuzione FBA Europe, voce del marchio minimalista premium. Budget: $4 per scatola sbarcata nel magazzino di Amazon. Per maggiori dettagli, consulta [Progettare imballaggi in legno per Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "p",
@@ -2229,7 +2236,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il paese di origine conta meno della tracciabilità del fornitore. La paulownia, il bambù e l'acacia coltivati in Cina sono tutti di alta qualità con catene di approvvigionamento di piantagioni consolidate. Noce, quercia e faggio che in genere importiamo dal Nord America o dall'Europa alla nostra fabbrica di finitura nella contea di Cao. Chiedi alla tua fabbrica la documentazione di origine su ogni specie, che conta più di quale paese ha lavorato il legno."
+          "text": "Il paese di origine conta meno della tracciabilità del fornitore. La paulownia, il bambù e l'acacia coltivati in Cina sono tutti di alta qualità con catene di approvvigionamento di piantagioni consolidate. Noce, quercia e faggio che in genere importiamo dal Nord America o dall'Europa alla nostra fabbrica di finitura nella contea di Cao. Chiedi alla tua fabbrica la documentazione di origine su ogni specie, che conta più di quale paese ha lavorato il legno. Per maggiori dettagli, consulta [Le nostre pratiche di approvvigionamento sostenibile nel 2026](/blog/sustainable-sourcing-2026)."
         },
         {
           "type": "h3",
@@ -2237,7 +2244,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sì, spesso. Base di paulownia con struttura in noce, maniglie in acacia per il corpo in bambù, quel genere di cose. Le scatole di specie miste possono raggiungere un equilibrio prezzo/aspetto che nessuna delle due specie raggiungerebbe da sola. Il problema è che specie diverse si espandono e si contraggono a tariffe diverse: per le scatole spedite con variazioni climatiche estreme, la costruzione di specie miste può causare stress articolari. Progettiamo intorno a questo con la costruzione del pannello galleggiante dove appropriato."
+          "text": "Sì, spesso. Base di paulownia con struttura in noce, maniglie in acacia per il corpo in bambù, quel genere di cose. Le scatole di specie miste possono raggiungere un equilibrio prezzo/aspetto che nessuna delle due specie raggiungerebbe da sola. Il problema è che specie diverse si espandono e si contraggono a tariffe diverse: per le scatole spedite con variazioni climatiche estreme, la costruzione di specie miste può causare stress articolari. Progettiamo intorno a questo con la costruzione del pannello galleggiante dove appropriato. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
         },
         {
           "type": "quote",
@@ -2251,6 +2258,7 @@ export default {
       "category": "Design",
       "readTime": "11 minuti di lettura",
       "body": [
+        { type: 'p', text: 'Prima di definire le specifiche, consulta [EVA, EPE, velluto o feltro: quale inserto scegliere per le scatole in legno](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide).' },
         {
           "type": "p",
           "text": "Le scatole di orologi in legno sono la categoria più esigente che facciamo. Gli acquirenti di orologi gireranno la scatola nelle loro mani dieci volte prima di toccare l'orologio. Fanno scorrere un'unghia lungo il bordo del coperchio. Sentiranno l'odore del rivestimento. Chiuderanno il coperchio e ascolteranno lo snap. Notano tutto."
@@ -2269,7 +2277,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un coperchio che si distende anche di 0,5mm in un angolo uccide la qualità percepita dell'intera scatola. Non importa quanto sia bello il legno o quanto sia bello il rivestimento: un coperchio aperto sembra economico."
+          "text": "Un coperchio che si distende anche di 0,5mm in un angolo uccide la qualità percepita dell'intera scatola. Non importa quanto sia bello il legno o quanto sia bello il rivestimento: un coperchio aperto sembra economico. Consulta i modelli disponibili nella categoria [Scatole in Legno con Cerniera](/products/hinged)."
         },
         {
           "type": "p",
@@ -2285,7 +2293,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le cerniere in ottone visibili sembrano tradizionali e funzionano bene per alcuni marchi: regali vintage, orologiai storici, qualsiasi cosa con una voce \"classica\". Per una sensazione di lusso moderna, le cerniere europee nascoste con un meccanismo di chiusura morbida sono lo standard."
+          "text": "Le [cerniere](/blog/wooden-box-hardware-guide) in ottone visibili sembrano tradizionali e funzionano bene per alcuni marchi: regali vintage, orologiai storici, qualsiasi cosa con una voce \"classica\". Per una sensazione di lusso moderna, le cerniere europee nascoste con un meccanismo di chiusura morbida sono lo standard."
         },
         {
           "type": "p",
@@ -2317,7 +2325,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sembra lussuoso nelle foto. Nella vita reale raccoglie impronte digitali, lanugine e polvere della cassa dell'orologio in poche settimane. Consigliamo solo il velluto per regalare una volta dove la scatola vivrà in un cassetto dopo il unboxing."
+          "text": "Sembra lussuoso nelle foto. Nella vita reale raccoglie impronte digitali, lanugine e polvere della cassa dell'orologio in poche settimane. Consigliamo solo il velluto per regalare una volta dove la scatola vivrà in un cassetto dopo il unboxing. Consulta i modelli disponibili nella categoria [Scatole per Orologi e Gioielli](/products/watch-jewelry)."
         },
         {
           "type": "h3",
@@ -2342,7 +2350,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ottone per il tradizionale. Chrome per lo sport. Nero opaco per il moderno. Ottone antico per l'annata. La finitura dell'hardware fa parte del vocabolario del marchio: la scelta sbagliata e la scatola si dice confusa."
+          "text": "Ottone per il tradizionale. Chrome per lo sport. Nero opaco per il moderno. Ottone antico per l'annata. La finitura dell'hardware fa parte del vocabolario del marchio: la scelta sbagliata e la scatola si dice confusa. Per maggiori dettagli, consulta [5 tecniche di finitura che cambiano l'aspetto e la sensazione di una scatola di legno](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "p",
@@ -2354,11 +2362,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "La noce è l'impostazione predefinita per le scatole per orologi premium: il tono del cioccolato profondo, la grana fine e la finitura superficiale setosa rafforzano il posizionamento di lusso. È anche il materiale più costoso che offriamo. Per la vendita al dettaglio ad alto volume, MDF impiallacciato con noce offre la maggior parte della visuale senza il costo (e con una migliore stabilità dimensionale per la spedizione)."
+          "text": "La [noce](/products/walnut) è l'impostazione predefinita per le scatole per orologi premium: il tono del cioccolato profondo, la grana fine e la finitura superficiale setosa rafforzano il posizionamento di lusso. È anche il materiale più costoso che offriamo. Per la vendita al dettaglio ad alto volume, MDF impiallacciato con noce offre la maggior parte della visuale senza il costo (e con una migliore stabilità dimensionale per la spedizione)."
         },
         {
           "type": "p",
-          "text": "Per i marchi di fascia media, l'acacia ti dà un grano drammatico a un costo ragionevole. Per i marchi di orologi sportivi/outdoor, il rovere con finitura opaca si legge come robusto-premium. Bambù per marchi di orologi eco-posizionati-sempre più popolare tra i marchi per esterni in stile Patagonia che si spostano negli orologi."
+          "text": "Per i marchi di fascia media, l'acacia ti dà un grano drammatico a un costo ragionevole. Per i marchi di orologi sportivi/outdoor, il rovere con finitura opaca si legge come robusto-premium. Bambù per marchi di orologi eco-posizionati-sempre più popolare tra i marchi per esterni in stile Patagonia che si spostano negli orologi. Per maggiori dettagli, consulta [Come scegliere il legno giusto per l'imballaggio regalo](/blog/choosing-wood-for-gift-packaging)."
         },
         {
           "type": "p",
@@ -2390,7 +2398,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le custodie multi-orologio (configurazioni 3, 6, 10, 12, 24 orologi) sono su archiviazione e visualizzazione, non regali. Vendono ai collezionisti e come mobili B2B per i banchi di vendita al dettaglio. La sfida con le scatole multi-watch è assicurarsi che ogni slot per orologi si legga come premium individualmente, il che significa pareti reali tra le fessure, non solo un singolo vassoio di schiuma con ritagli."
+          "text": "Le custodie multi-orologio (configurazioni 3, 6, 10, 12, 24 orologi) sono su archiviazione e visualizzazione, non regali. Vendono ai collezionisti e come mobili B2B per i banchi di vendita al dettaglio. La sfida con le scatole multi-watch è assicurarsi che ogni slot per orologi si legga come premium individualmente, il che significa pareti reali tra le fessure, non solo un singolo vassoio di schiuma con ritagli. Per maggiori dettagli, consulta [Scatole in legno con divisori estraibili: la guida all'acquisto](/blog/custom-wooden-storage-boxes-with-removable-dividers-buyers-guide). Per un esempio a catalogo, consulta [Vetrina Display Tre Orologi](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "p",
@@ -2562,7 +2570,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Se si cercano scatole per orologi per la prima volta, si consiglia vivamente di ordinare un campione di 50 pezzi prima di impegnarsi sul volume. Smonta le scatole di persona, fai scorrere il coperchio attraverso 200 cicli di chiusura aperta, lasciarne uno dall'altezza della scrivania, lasciarne uno nel bagagliaio dell'auto per una settimana. Le scatole che sopravvivono che sono le scatole che sopravviveranno ai tuoi clienti."
+          "text": "Se si cercano scatole per orologi per la prima volta, si consiglia vivamente di ordinare un campione di 50 pezzi prima di impegnarsi sul volume. Smonta le scatole di persona, fai scorrere il coperchio attraverso 200 cicli di chiusura aperta, lasciarne uno dall'altezza della scrivania, lasciarne uno nel bagagliaio dell'auto per una settimana. Le scatole che sopravvivono che sono le scatole che sopravviveranno ai tuoi clienti. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
         }
       ]
     },
@@ -2572,6 +2580,7 @@ export default {
       "category": "Sostenibilità",
       "readTime": "9 min di lettura",
       "body": [
+        { type: 'p', text: 'Prima di definire le specifiche, consulta [Approvvigionarsi di scatole di legno personalizzate dalla Cina nel 2026: il playbook del buyer B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "La sostenibilità era una linea di marketing. Oggi è un requisito di approvvigionamento dalla maggior parte dei marchi europei, giapponesi e Amazon che serviamo: una serie di certificazioni specifiche, documenti e audit dei fornitori che devono essere cancellate prima di qualsiasi scatola."
@@ -2586,7 +2595,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ogni specie nel nostro catalogo-paulownia, pino, bambù, acacia, noce e quercia-è disponibile con certificazione FSC (Forest Stewardship Council) su richiesta. Disponiamo della certificazione della catena di custodia FSC tramite i nostri fornitori di legname, il che significa che è documentata la tracciabilità dal banco forestale o dalla piantagione al container."
+          "text": "Ogni specie nel nostro catalogo-paulownia, pino, bambù, acacia, noce e quercia-è disponibile con certificazione FSC (Forest Stewardship Council) su richiesta. Disponiamo della certificazione della catena di custodia FSC tramite i nostri fornitori di legname, il che significa che è documentata la tracciabilità dal banco forestale o dalla piantagione al container. Per maggiori dettagli, consulta [Come scegliere il legno giusto per l'imballaggio regalo](/blog/choosing-wood-for-gift-packaging)."
         },
         {
           "type": "p",
@@ -2606,7 +2615,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Paulownia è la cosa più vicina che l'industria della lavorazione del legno ha a un legname rinnovabile. Gli alberi maturano in 5-7 anni (contro i 30-60 anni per la quercia o la noce) e quasi tutta la paulownia commerciale è coltivata a piantagioni piuttosto che raccolta da foreste naturali."
+          "text": "[Paulownia](/products/paulownia) è la cosa più vicina che l'industria della lavorazione del legno ha a un legname rinnovabile. Gli alberi maturano in 5-7 anni (contro i 30-60 anni per la quercia o la noce) e quasi tutta la paulownia commerciale è coltivata a piantagioni piuttosto che raccolta da foreste naturali."
         },
         {
           "type": "p",
@@ -2627,7 +2636,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "I composti organici volatili (COV) sono i prodotti chimici di sgrassatura che producono il \"nuovo odore di scatola\" e che, a concentrazioni più elevate, contribuiscono ai problemi di qualità dell'aria interna. Le lacche di nitrocellulosa standard, che sono l'opzione di finitura più economica, possono staccare il gas a livelli che non superano i limiti di fase 2 di EU REACH e US CARB."
+          "text": "I composti organici volatili (COV) sono i prodotti chimici di sgrassatura che producono il \"nuovo odore di scatola\" e che, a concentrazioni più elevate, contribuiscono ai problemi di qualità dell'aria interna. Le lacche di nitrocellulosa standard, che sono l'opzione di finitura più economica, possono staccare il gas a livelli che non superano i limiti di fase 2 di EU REACH e US CARB. Per maggiori dettagli, consulta [5 tecniche di finitura che cambiano l'aspetto e la sensazione di una scatola di legno](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "p",
@@ -2647,7 +2656,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "I rifiuti di legno sono il problema della sostenibilità non sexy. La maggior parte delle fabbriche genera il 18-25% di rifiuti fuori taglio dalle loro operazioni tagliate su dimensioni, materiale che viene pagato ma finisce per essere bruciato per il calore della biomassa o inviato in discarica."
+          "text": "I rifiuti di legno sono il problema della sostenibilità non sexy. La maggior parte delle fabbriche genera il 18-25% di rifiuti fuori taglio dalle loro operazioni tagliate su dimensioni, materiale che viene pagato ma finisce per essere bruciato per il calore della biomassa o inviato in discarica. Per maggiori dettagli, consulta [All'interno del nostro processo di produzione della scatola di legno in 6 fasi](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "p",
@@ -2663,7 +2672,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Tutte le spedizioni di legno massiccio partono con certificati fitosanitari rilasciati dalla dogana cinese, confermando che il legno è trattato e privo di parassiti secondo gli standard ISPM-15 (lo standard internazionale per il materiale da imballaggio in legno). Questo è fondamentale per le spedizioni verso l'UE, gli Stati Uniti, l'Australia, il Giappone e la Corea: senza i certificati fito, il tuo container può essere messo in quarantena o rifiutato nel porto di destinazione."
+          "text": "Tutte le spedizioni di legno massiccio partono con certificati fitosanitari rilasciati dalla dogana cinese, confermando che il legno è trattato e privo di parassiti secondo gli standard ISPM-15 (lo standard internazionale per il materiale da imballaggio in legno). Questo è fondamentale per le spedizioni verso l'UE, gli Stati Uniti, l'Australia, il Giappone e la Corea: senza i certificati fito, il tuo container può essere messo in quarantena o rifiutato nel porto di destinazione. Consulta le opzioni in [Capacità](/capabilities)."
         },
         {
           "type": "p",
@@ -2703,7 +2712,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La piantagione di Paulownia. Il ciclo di ricrescita veloce e la densità molto bassa (meno massa significa meno energia incorporata in crescita, essiccazione, lavorazione e spedizione) rende paulownia la scelta più bassa di carbonio per unità che offriamo. Per i marchi attenti al carbonio che monitorano le emissioni di Scope 3, paulownia è quasi sempre la risposta giusta."
+          "text": "La piantagione di Paulownia. Il ciclo di ricrescita veloce e la densità molto bassa (meno massa significa meno energia incorporata in crescita, essiccazione, lavorazione e spedizione) rende paulownia la scelta più bassa di carbonio per unità che offriamo. Per i marchi attenti al carbonio che monitorano le emissioni di Scope 3, paulownia è quasi sempre la risposta giusta. Consulta le opzioni in [guida a legni, finiture e ferramenta](/material-guide)."
         },
         {
           "type": "h3",
@@ -2711,7 +2720,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Bambù. Il ciclo di ricrescita di 5-7 anni (contro i 30-60 anni per il legno duro) significa che il bambù rappresenta zero pressione netta del raccolto forestale se proveniente da piantagioni certificate FSC. I sistemi di radici stabilizzano anche il suolo e migliorano i terreni degradati."
+          "text": "Bambù. Il ciclo di ricrescita di 5-7 anni (contro i 30-60 anni per il legno duro) significa che il bambù rappresenta zero pressione netta del raccolto forestale se proveniente da piantagioni certificate FSC. I sistemi di radici stabilizzano anche il suolo e migliorano i terreni degradati. Per maggiori dettagli, consulta [Bambù vs. acacia: quale legno per i prodotti da cucina?](/blog/bamboo-vs-acacia-kitchenware)."
         },
         {
           "type": "h3",
@@ -2719,7 +2728,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Legno massiccio con finitura a olio o cera, senza lacca. Completamente compostabile alla fine della vita, si rompe in terreno normale entro 3-7 anni. La lacca nelle finiture standard impedisce la biodegradabilità-per veri prodotti da culla a culla, solo olio o cera."
+          "text": "Legno massiccio con finitura a olio o cera, senza lacca. Completamente compostabile alla fine della vita, si rompe in terreno normale entro 3-7 anni. La lacca nelle finiture standard impedisce la biodegradabilità-per veri prodotti da culla a culla, solo olio o cera. Consulta i modelli disponibili nella categoria [Scatole Portaoggetti](/products/storage)."
         },
         {
           "type": "h3",
@@ -2794,7 +2803,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Per gli acquirenti che ci valutano rispetto ad altre fabbriche, ti invitiamo a porre le stesse domande di documentazione a tutti nella tua rosa dei candidati: certificato FSC, rapporti di conformità REACH/CARB, registrazione fito e cronologia audit. Le fabbriche che possono produrre i documenti entro 48 ore sono le fabbriche che vivono effettivamente le pratiche. Tutti gli altri ti stanno vendendo la versione di marketing."
+          "text": "Per gli acquirenti che ci valutano rispetto ad altre fabbriche, ti invitiamo a porre le stesse domande di documentazione a tutti nella tua rosa dei candidati: certificato FSC, rapporti di conformità REACH/CARB, registrazione fito e cronologia audit. Le fabbriche che possono produrre i documenti entro 48 ore sono le fabbriche che vivono effettivamente le pratiche. Tutti gli altri ti stanno vendendo la versione di marketing. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
         }
       ]
     },
@@ -2804,6 +2813,7 @@ export default {
       "category": "Strategia",
       "readTime": "10 minuti di lettura",
       "body": [
+        { type: 'p', text: 'Prima di definire le specifiche, consulta [Perché un MOQ di 100 pezzi è il modo più intelligente per iniziare](/blog/low-moq-sampling-strategy).' },
         {
           "type": "p",
           "text": "La maggior parte degli acquirenti impara la differenza tra OEM e ODM nel modo più duro. Di solito dopo che un preventivo torna al doppio di quello che si aspettavano, o dopo che un design \"stock\" risulta essere su un arretrato di un anno presso il fornitore, o dopo che un design \"personalizzato\" finisce per non assomigliare al rendering."
@@ -2818,7 +2828,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Original Equipment Manufacturing significa che porti il design e lo produciamo. \"Portare il design\" può significare qualsiasi cosa, da un file CAD completamente dettagliato con specifiche del materiale e disegni delle dimensioni, a uno schizzo su un tovagliolo, a un campione di riferimento che hai acquistato da un concorrente e vuoi che miglioriamo."
+          "text": "Original Equipment Manufacturing significa che porti il design e lo produciamo. \"Portare il design\" può significare qualsiasi cosa, da un file CAD completamente dettagliato con specifiche del materiale e disegni delle dimensioni, a uno schizzo su un tovagliolo, a un campione di riferimento che hai acquistato da un concorrente e vuoi che miglioriamo. Consulta le opzioni in [Capacità](/capabilities)."
         },
         {
           "type": "p",
@@ -2844,7 +2854,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Original Design Manufacturing significa che scegli dal nostro catalogo esistente di 500 design di scatole in legno e personalizziamo dimensioni, finiture e branding per te. Il design di base è nostro; la superficie e l'identità del marchio sono tue."
+          "text": "Original Design Manufacturing significa che scegli dal nostro catalogo esistente di 500 design di scatole in legno e personalizziamo dimensioni, finiture e branding per te. Il design di base è nostro; la superficie e l'identità del marchio sono tue. Consulta i modelli disponibili nella categoria [Scatole Regalo e Imballaggio](/products/gift-packaging)."
         },
         {
           "type": "p",
@@ -2870,7 +2880,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Per un tipico ordine di confezioni regalo in legno da 1.000 unità, ecco approssimativamente come si confrontano OEM e ODM:"
+          "text": "Per un tipico ordine di confezioni regalo in legno da 1.000 unità, ecco approssimativamente come si confrontano OEM e ODM: Per maggiori dettagli, consulta [Quanto costano le scatole di legno personalizzate? Una guida ai prezzi all'ingrosso e OEM per il 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "table",
@@ -2932,11 +2942,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "In un progetto ODM-plus, l'acquirente sceglie un design di base dal nostro catalogo, quindi cambia 2-3 elementi: un legno diverso (acacia invece di pino), un layout di inserto personalizzato (5 scomparti invece del nostro 4 predefinito), una finitura esterna insolita (lacca nera opaca invece di olio naturale) o hardware modificato (Magnetico nascosto invece di cerniere visibili)."
+          "text": "In un progetto ODM-plus, l'acquirente sceglie un design di base dal nostro catalogo, quindi cambia 2-3 elementi: un legno diverso (acacia invece di pino), un layout di inserto personalizzato (5 scomparti invece del nostro 4 predefinito), una finitura esterna insolita (lacca nera opaca invece di olio naturale) o hardware modificato (Magnetico nascosto invece di cerniere visibili). Per maggiori dettagli, consulta [Chiusure per scatole in legno a confronto: scorrevole, a cerniera, magnetica, a cassetto e con serratura](/blog/wooden-box-closure-types-compared)."
         },
         {
           "type": "p",
-          "text": "Si ottiene la velocità dell'ODM (la maggior parte del lavoro di ingegneria è fatta), con gran parte dell'aspetto dell'OEM (la scatola sembra distintiva, non generica). Il costo unitario atterra da qualche parte tra ODM e OEM. Il tempo di piombo è di solito 25-35 giorni. Il costo degli strumenti è in genere di $200-800, molto meno dell'OEM completo perché stiamo modificando gli strumenti esistenti piuttosto che costruirne di nuovi da zero."
+          "text": "Si ottiene la velocità dell'ODM (la maggior parte del lavoro di ingegneria è fatta), con gran parte dell'aspetto dell'OEM (la scatola sembra distintiva, non generica). Il costo unitario atterra da qualche parte tra ODM e OEM. Il tempo di piombo è di solito 25-35 giorni. Il costo degli strumenti è in genere di $200-800, molto meno dell'OEM completo perché stiamo modificando gli strumenti esistenti piuttosto che costruirne di nuovi da zero. Per un esempio a catalogo, consulta [Box Regalo Magnetica di Lusso](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "p",
@@ -2961,7 +2971,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Per i progetti ODM in cui il design è nostro, la protezione IP è un problema minore, ma dovresti comunque proteggere il tuo marchio specifico, il posizionamento del logo, la copia e le scelte di colore attraverso la registrazione del marchio nel tuo mercato interno."
+          "text": "Per i progetti ODM in cui il design è nostro, la protezione IP è un problema minore, ma dovresti comunque proteggere il tuo marchio specifico, il posizionamento del logo, la copia e le scelte di colore attraverso la registrazione del marchio nel tuo mercato interno. Per maggiori dettagli, consulta [5 tecniche di finitura che cambiano l'aspetto e la sensazione di una scatola di legno](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -2981,7 +2991,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Dopo aver modificato 5 elementi di un design ODM, stai essenzialmente facendo OEM con la struttura dei costi sbagliata. A quel punto di solito ti consigliamo di impegnarti in una build personalizzata con campionamento e utensili adeguati: finisce per essere più economico e le scatole sono migliori."
+          "text": "Dopo aver modificato 5 elementi di un design ODM, stai essenzialmente facendo OEM con la struttura dei costi sbagliata. A quel punto di solito ti consigliamo di impegnarti in una build personalizzata con campionamento e utensili adeguati: finisce per essere più economico e le scatole sono migliori. Consulta le opzioni in [guida a legni, finiture e ferramenta](/material-guide)."
         },
         {
           "type": "h3",
@@ -3057,7 +3067,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Molte entità che si presentano come fabbriche online sono in realtà società commerciali o agenti che subappaltano a chi cita il più basso quella settimana. I cartelli: nessun indirizzo di fabbrica elencato, solo comunicazione WeChat, esitazione a fare video tour, nessuna risposta a specifiche domande di produzione. Le fabbriche reali vi mostreranno sempre la loro linea di produzione reale."
+          "text": "Molte entità che si presentano come fabbriche online sono in realtà [società commerciali](/blog/sourcing-custom-wooden-boxes-from-china-2026) o agenti che subappaltano a chi cita il più basso quella settimana. I cartelli: nessun indirizzo di fabbrica elencato, solo comunicazione WeChat, esitazione a fare video tour, nessuna risposta a specifiche domande di produzione. Le fabbriche reali vi mostreranno sempre la loro linea di produzione reale."
         },
         {
           "type": "h2",
@@ -3097,7 +3107,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La nostra raccomandazione predefinita è di iniziare con una piccola corsa ODM per creare fiducia e testare il mercato, quindi passare all'ODM-plus man mano che cresci, quindi passare all'OEM completo una volta che il tuo volume annuale giustifica gli strumenti dedicati. Le linee di prodotti di maggior successo che abbiamo visto evolversi attraverso tutte e tre le fasi."
+          "text": "La nostra raccomandazione predefinita è di iniziare con una piccola corsa ODM per creare fiducia e testare il mercato, quindi passare all'ODM-plus man mano che cresci, quindi passare all'OEM completo una volta che il tuo volume annuale giustifica gli strumenti dedicati. Le linee di prodotti di maggior successo che abbiamo visto evolversi attraverso tutte e tre le fasi. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
         }
       ]
     },
@@ -3107,6 +3117,7 @@ export default {
       "category": "Design",
       "readTime": "10 minuti di lettura",
       "body": [
+        { type: 'p', text: 'Prima di definire le specifiche, consulta [Come scegliere il legno giusto per l\'imballaggio regalo](/blog/choosing-wood-for-gift-packaging).' },
         {
           "type": "p",
           "text": "Stessa scatola. Cinque diverse finiture. Cinque prodotti completamente diversi."
@@ -3125,7 +3136,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un laser COgoverno brucia un segno preciso sulla superficie del legno. Il marchio ottiene la sua visibilità dalla naturale differenza di colore tra legno bruciato e incombusto, quindi l'incisione laser funziona meglio sulle specie pallide (paulownia, pino, bambù) e sembra sottile o invisibile sulle specie scure (noce)."
+          "text": "Un laser COgoverno brucia un segno preciso sulla superficie del legno. Il marchio ottiene la sua visibilità dalla naturale differenza di colore tra legno bruciato e incombusto, quindi l'incisione laser funziona meglio sulle specie pallide (paulownia, pino, bambù) e sembra sottile o invisibile sulle specie scure (noce). Per maggiori dettagli, consulta [guida allo spessore del legno](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3162,7 +3173,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Una matrice metallica riscaldata preme un foglio metallico nella superficie del legno. Il risultato è un segno nitido e lucido in oro, argento, rame, oro rosa o nero opaco. Delle cinque tecniche, la pellicola a caldo produce la prima impressione più \"premium\": è la tecnica che segnala più fortemente \"questo è un prodotto di lusso\"."
+          "text": "Una matrice metallica riscaldata preme un foglio metallico nella superficie del legno. Il risultato è un segno nitido e lucido in oro, argento, rame, oro rosa o nero opaco. Delle cinque tecniche, la pellicola a caldo produce la prima impressione più \"premium\": è la tecnica che segnala più fortemente \"questo è un prodotto di lusso\". Consulta i modelli disponibili nella categoria [Scatole Regalo e Imballaggio](/products/gift-packaging)."
         },
         {
           "type": "h3",
@@ -3229,7 +3240,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'inchiostro del pigmento ha spinto attraverso uno schermo sul legno. La migliore tecnica per loghi a colori, grandi aree piane o qualsiasi marchio che debba corrispondere a un Pantone specifico. La serigrafia si trova sulla superficie (non viene premuta) in modo che la trama sia leggermente sollevata."
+          "text": "L'inchiostro del pigmento ha spinto attraverso uno schermo sul legno. La migliore tecnica per loghi a colori, grandi aree piane o qualsiasi marchio che debba corrispondere a un Pantone specifico. La serigrafia si trova sulla superficie (non viene premuta) in modo che la trama sia leggermente sollevata. Consulta le opzioni in [Capacità](/capabilities)."
         },
         {
           "type": "h3",
@@ -3270,7 +3281,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le finiture ad olio sono particolarmente importanti per le scatole premium in noce, acacia e quercia. La stessa scatola di noce, rifinita in lacca rispetto all'olio, si legge come due prodotti completamente diversi. La lacca aggiunge una leggera lucentezza simile alla plastica; l'olio rivela il legno e lo lascia invecchiare."
+          "text": "Le finiture ad olio sono particolarmente importanti per le scatole premium in [noce](/products/walnut), acacia e quercia. La stessa scatola di noce, rifinita in lacca rispetto all'olio, si legge come due prodotti completamente diversi. La lacca aggiunge una leggera lucentezza simile alla plastica; l'olio rivela il legno e lo lascia invecchiare."
         },
         {
           "type": "p",
@@ -3278,7 +3289,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Costo: le finiture in olio e cera in genere aggiungono $0, 30-0, 80 per scatola rispetto alla lacca standard, a seconda dei cappotti. Il tempo di cura è significativamente più lungo-fino a 72 ore per cappotto."
+          "text": "Costo: le finiture in olio e cera in genere aggiungono $0, 30-0, 80 per scatola rispetto alla lacca standard, a seconda dei cappotti. Il tempo di cura è significativamente più lungo-fino a 72 ore per cappotto. Per maggiori dettagli, consulta [All'interno del nostro processo di produzione della scatola di legno in 6 fasi](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "h2",
@@ -3294,7 +3305,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Utilizzato dalla maggior parte dei marchi di orologi e gioielli premium. La finitura ad olio di legno di noce lascia respirare il grano; il logo con impresso aggiunge la presenza del marchio senza interrompere la superficie. Più o meno il premio che diventa."
+          "text": "Utilizzato dalla maggior parte dei marchi di orologi e gioielli premium. La finitura ad olio di legno di noce lascia respirare il grano; il logo con impresso aggiunge la presenza del marchio senza interrompere la superficie. Più o meno il premio che diventa. Per un esempio a catalogo, consulta [Vetrina Display Tre Orologi](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h3",
@@ -3302,7 +3313,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Classico regalo mid-premium. Il pino è conveniente; la lacca opaca conferisce una finitura sofisticata senza l'aspetto di plastica lucida; la lamina a caldo fornisce il segnale premium che solleva il livello di prezzo percepito."
+          "text": "Classico regalo mid-premium. Il [pino](/products/pine) è conveniente; la lacca opaca conferisce una finitura sofisticata senza l'aspetto di plastica lucida; la lamina a caldo fornisce il segnale premium che solleva il livello di prezzo percepito."
         },
         {
           "type": "h3",
@@ -3437,7 +3448,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le lacche utilizzate nelle nostre specifiche per alimenti sono conformi alla FDA per il contatto indiretto con gli alimenti (toccando la scatola, non il cibo stesso). Per il contatto diretto con gli alimenti (salumi, scatole da portata), utilizzare olio minerale o cera d'api: entrambi sono sicuri al 100% per gli alimenti e approvati a livello internazionale. Specificare sempre il caso d'uso in modo che possiamo consigliare la giusta finitura per la conformità."
+          "text": "Le lacche utilizzate nelle nostre specifiche per alimenti sono conformi alla FDA per il contatto indiretto con gli alimenti (toccando la scatola, non il cibo stesso). Per il contatto diretto con gli alimenti (salumi, scatole da portata), utilizzare olio minerale o cera d'api: entrambi sono sicuri al 100% per gli alimenti e approvati a livello internazionale. Specificare sempre il caso d'uso in modo che possiamo consigliare la giusta finitura per la conformità. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
         },
         {
           "type": "h3",
@@ -3445,7 +3456,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sì, lo consigliamo vivamente. Per circa $100-200 aggiunti a un ordine del campione, possiamo produrre due campioni con diversi trattamenti di finitura. Il costo è banale rispetto alla scelta sbagliata su migliaia di unità di produzione."
+          "text": "Sì, lo consigliamo vivamente. Per circa $100-200 aggiunti a un ordine del campione, possiamo produrre due campioni con diversi trattamenti di finitura. Il costo è banale rispetto alla scelta sbagliata su migliaia di unità di produzione. Per maggiori dettagli, consulta [Perché un MOQ di 100 pezzi è il modo più intelligente per iniziare](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "quote",
@@ -3459,6 +3470,7 @@ export default {
       "category": "Strategia",
       "readTime": "9 minuti di lettura",
       "body": [
+        { type: 'p', text: 'Prima di definire le specifiche, consulta [Approvvigionarsi di scatole di legno personalizzate dalla Cina nel 2026: il playbook del buyer B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "La maggior parte delle fabbriche cita 500-1.000 pezzi minimi su scatole di legno personalizzate. Offriamo deliberatamente un campione di 100 pezzi perché risolve un problema che la maggior parte degli acquirenti non si rende conto di avere fino a quando non li morde."
@@ -3477,7 +3489,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un nuovo acquirente lo scorso anno-piccolo marchio di orologi con sede negli Stati Uniti, primo ordine di scatole di legno-ci ha inviato un file CAD per una cassa di presentazione di 4 orologi in noce. Abbiamo citato, firmato un accordo NNN e realizzato un singolo campione costruito a mano. L'acquirente ha approvato il campione e ha effettuato un ordine per 5.000 unità."
+          "text": "Un nuovo acquirente lo scorso anno-piccolo [marchio di orologi](/products/watch-jewelry) con sede negli Stati Uniti, primo ordine di scatole di legno-ci ha inviato un file CAD per una cassa di presentazione di 4 orologi in noce. Abbiamo citato, firmato un accordo NNN e realizzato un singolo campione costruito a mano. L'acquirente ha approvato il campione e ha effettuato un ordine per 5.000 unità."
         },
         {
           "type": "p",
@@ -3513,7 +3525,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "I singoli campioni costruiti a mano utilizzano maschere temporanee e un assemblatore esperto che svolge un lavoro unico. Le corse di produzione utilizzano dispositivi permanenti con operatori che svolgono lo stesso compito centinaia di volte. La precisione del dispositivo su larga scala è la principale fonte di problemi \"la produzione sembra peggiore del campione\". Una corsa di 100 pezzi lo rivela."
+          "text": "I singoli campioni costruiti a mano utilizzano maschere temporanee e un assemblatore esperto che svolge un lavoro unico. Le corse di produzione utilizzano dispositivi permanenti con operatori che svolgono lo stesso compito centinaia di volte. La precisione del dispositivo su larga scala è la principale fonte di problemi \"la produzione sembra peggiore del campione\". Una corsa di 100 pezzi lo rivela. Per maggiori dettagli, consulta [OEM vs. ODM: quale è giusto per il tuo progetto di scatola di legno?](/blog/oem-vs-odm-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3521,7 +3533,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un singolo campione utilizza la migliore tavola del negozio. Una corsa di produzione utilizza ogni scheda che soddisfa le specifiche. Variazione di colore, variazione dei grani, motivi dei nodi: tutti si aggirano in media su 100 scatole in un modo che non può essere testato con un singolo campione."
+          "text": "Un singolo campione utilizza la migliore tavola del negozio. Una corsa di produzione utilizza ogni scheda che soddisfa le specifiche. Variazione di colore, variazione dei grani, motivi dei nodi: tutti si aggirano in media su 100 scatole in un modo che non può essere testato con un singolo campione. Consulta le opzioni in [guida a legni, finiture e ferramenta](/material-guide)."
         },
         {
           "type": "h3",
@@ -3529,7 +3541,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "I cappotti finiti sono mescolati in lotti. Il tono esatto e la lucentezza possono variare leggermente tra i lotti. Una corsa di 100 pezzi utilizza 1-2 lotti di finitura, esponendo se il tuo design tollera quella variazione naturale."
+          "text": "I cappotti finiti sono mescolati in lotti. Il tono esatto e la lucentezza possono variare leggermente tra i lotti. Una corsa di 100 pezzi utilizza 1-2 lotti di finitura, esponendo se il tuo design tollera quella variazione naturale. Per maggiori dettagli, consulta [5 tecniche di finitura che cambiano l'aspetto e la sensazione di una scatola di legno](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h3",
@@ -3537,7 +3549,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "I singoli campioni vengono spediti nel proprio imballaggio protettivo. La produzione viene spedita in mastri cartoni impilati su pallet: sono esposti a sollecitazioni di manipolazione che i singoli campioni non vedono mai. Una spedizione di prova di 100 pezzi passa attraverso la dogana reale, il trasporto reale, l'assunzione di magazzino reale. Gli acquirenti trovano regolarmente problemi di imballaggio in questa fase che non avrebbero mai catturato con un singolo campione."
+          "text": "I singoli campioni vengono spediti nel proprio imballaggio protettivo. La produzione viene spedita in mastri cartoni impilati su pallet: sono esposti a sollecitazioni di manipolazione che i singoli campioni non vedono mai. Una spedizione di prova di 100 pezzi passa attraverso la dogana reale, il trasporto reale, l'assunzione di magazzino reale. Gli acquirenti trovano regolarmente problemi di imballaggio in questa fase che non avrebbero mai catturato con un singolo campione. Per maggiori dettagli, consulta [Progettare imballaggi in legno per Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "img",
@@ -3571,7 +3583,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il costo unitario su una corsa di 100 pezzi è in genere del 30-60% superiore rispetto a una corsa di 1.000 pezzi. Il lavoro di installazione è lo stesso; è solo distribuito su meno unità. Quindi la differenza di costo assoluta dipende dal prezzo della scatola."
+          "text": "Il [costo unitario](/blog/custom-wooden-box-cost-2026) su una corsa di 100 pezzi è in genere del 30-60% superiore rispetto a una corsa di 1.000 pezzi. Il lavoro di installazione è lo stesso; è solo distribuito su meno unità. Quindi la differenza di costo assoluta dipende dal prezzo della scatola."
         },
         {
           "type": "p",
@@ -3654,11 +3666,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Due mesi fa, un acquirente di scatole regalo con sede nel Regno Unito ha ordinato una prova di 100 pezzi di una nuova scatola del coperchio sollevabile per un lancio di fragranze. Il coperchio aveva un vassoio interno personalizzato in schiuma che cullava la bottiglia di profumo. Sembrava perfetto sul singolo campione costruito a mano. Approvato per il processo."
+          "text": "Due mesi fa, un acquirente di scatole regalo con sede nel Regno Unito ha ordinato una prova di 100 pezzi di una nuova scatola del coperchio sollevabile per un lancio di fragranze. Il coperchio aveva un vassoio interno personalizzato in schiuma che cullava la bottiglia di profumo. Sembrava perfetto sul singolo campione costruito a mano. Approvato per il processo. Per un esempio a catalogo, consulta [Box Regalo Magnetica di Lusso](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "p",
-          "text": "Durante la corsa di prova, abbiamo identificato che il vassoio di schiuma, sebbene dimensionalmente corretto, aveva un leggero ritardo di recupero della schiuma di memoria: quando il coperchio è stato sollevato dopo la chiusura, la schiuma ha impiegato 8-10 secondi per tornare indietro completamente. Funzionalmente fine, ma visivamente strano al momento dell'unboxing."
+          "text": "Durante la corsa di prova, abbiamo identificato che il vassoio di [schiuma](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide), sebbene dimensionalmente corretto, aveva un leggero ritardo di recupero della schiuma di memoria: quando il coperchio è stato sollevato dopo la chiusura, la schiuma ha impiegato 8-10 secondi per tornare indietro completamente. Funzionalmente fine, ma visivamente strano al momento dell'unboxing."
         },
         {
           "type": "p",
@@ -3694,7 +3706,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "No. Una volta che un progetto è stato prodotto con successo su larga scala e i riordini sono puri ordini ripetuti senza modifiche di progettazione, le prove non sono necessarie. Le corse di prova servono a nuovi design e modifiche significative al design. Gli ordini ripetuti vanno direttamente alla produzione con il normale QC."
+          "text": "No. Una volta che un progetto è stato prodotto con successo su larga scala e i riordini sono puri ordini ripetuti senza modifiche di progettazione, le prove non sono necessarie. Le corse di prova servono a nuovi design e modifiche significative al design. Gli ordini ripetuti vanno direttamente alla produzione con il normale QC. Consulta le opzioni in [Capacità](/capabilities)."
         },
         {
           "type": "h3",
@@ -3710,7 +3722,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Per gli acquirenti per la prima volta, consigliamo di trattare la prova di 100 pezzi come parte del budget del progetto dall'inizio, non come componente aggiuntivo opzionale. Costruiscilo nella tua linea temporale di lancio. Costruiscilo nel tuo prezzo SKU. Costruiscilo nel tuo rapporto con la fabbrica. Una volta che è una pratica normale, smetti di vedere i tassi di difetti del 12% e gli incendi di produzione dell'ultimo minuto che affliggono gli acquirenti che saltano questo passaggio. La maggior parte delle nostre relazioni con i clienti più grandi e più longeve è iniziata esattamente in questo modo: con un piccolo studio che ha creato fiducia prima che entrambe le parti si impegnassero a volume."
+          "text": "Per gli acquirenti per la prima volta, consigliamo di trattare la prova di 100 pezzi come parte del budget del progetto dall'inizio, non come componente aggiuntivo opzionale. Costruiscilo nella tua linea temporale di lancio. Costruiscilo nel tuo prezzo SKU. Costruiscilo nel tuo rapporto con la fabbrica. Una volta che è una pratica normale, smetti di vedere i tassi di difetti del 12% e gli incendi di produzione dell'ultimo minuto che affliggono gli acquirenti che saltano questo passaggio. La maggior parte delle nostre relazioni con i clienti più grandi e più longeve è iniziata esattamente in questo modo: con un piccolo studio che ha creato fiducia prima che entrambe le parti si impegnassero a volume. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
         }
       ]
     },
@@ -3720,6 +3732,7 @@ export default {
       "category": "Materiali",
       "readTime": "10 minuti di lettura",
       "body": [
+        { type: 'p', text: 'Prima di definire le specifiche, consulta [Come scegliere il legno giusto per l\'imballaggio regalo](/blog/choosing-wood-for-gift-packaging).' },
         {
           "type": "p",
           "text": "Il bambù e l'acacia sono i due legni di cucina più popolari nel nostro catalogo. Entrambi sono densi. Entrambi sono sicuri per il cibo. Entrambi sono bellissimi. Entrambi funzionano bene per scatole da tè, organizer per posate, portaspezie, cestini per il pane, set di salumi e qualsiasi altro prodotto da cucina in cui il legno fa parte del design visibile."
@@ -3797,7 +3810,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il bambù è tecnicamente un'erba, non un albero. Si ricresce in 5-7 anni contro 30-60 anni per il legno duro. Questo singolo fatto è il motivo per cui il bambù domina il mercato dei prodotti da cucina in posizione ecologica: è il materiale strutturale più genuinamente rinnovabile con cui lavoriamo ed è l'unico materiale che offriamo che i clienti riconoscono immediatamente come \"la scelta sostenibile\"."
+          "text": "Il [bambù](/products/bamboo) è tecnicamente un'erba, non un albero. Si ricresce in 5-7 anni contro 30-60 anni per il legno duro. Questo singolo fatto è il motivo per cui il bambù domina il mercato dei prodotti da cucina in posizione ecologica: è il materiale strutturale più genuinamente rinnovabile con cui lavoriamo ed è l'unico materiale che offriamo che i clienti riconoscono immediatamente come \"la scelta sostenibile\"."
         },
         {
           "type": "p",
@@ -3817,7 +3830,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'acacia è un legno duro tropicale con drammatici vortici di grano e significative variazioni di colore tra il durame biondo miele e le striature marrone cioccolato. Ogni tavola di acacia ha un aspetto diverso. Ogni scatola di acacia ha il suo motivo a grana. Alcuni acquirenti adorano questo (unicità premium); alcuni preferiscono la consistenza del bambù."
+          "text": "L'[acacia](/products/acacia) è un legno duro tropicale con drammatici vortici di grano e significative variazioni di colore tra il durame biondo miele e le striature marrone cioccolato. Ogni tavola di acacia ha un aspetto diverso. Ogni scatola di acacia ha il suo motivo a grana. Alcuni acquirenti adorano questo (unicità premium); alcuni preferiscono la consistenza del bambù."
         },
         {
           "type": "p",
@@ -3838,7 +3851,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Prendi un organizzatore di bustine di tè a 8 scomparti. Stesse dimensioni, stessa disposizione interna, stesso coperchio incernierato con chiusura magnetica."
+          "text": "Prendi un organizzatore di bustine di tè a 8 scomparti. Stesse dimensioni, stessa disposizione interna, stesso coperchio incernierato con chiusura magnetica. Per un esempio a catalogo, consulta [Box Bustine Tè Acacia 8 Scomparti](/products/tea-coffee/acacia-tea-bag-box-8-compartment)."
         },
         {
           "type": "h3",
@@ -3854,7 +3867,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Terre a $11-14 unità di costo da noi, al dettaglio a $48-72. Vende a Williams-Sonoma, Crate & Barrel, rivenditori di cucine speciali premium. I clienti lo comprano perché è bellissimo: vogliono una scatola da tè che funge anche da oggetto da cucina. Le recensioni enfatizzano l'artigianato e il modello di grano."
+          "text": "Terre a $11-14 unità di costo da noi, al dettaglio a $48-72. Vende a Williams-Sonoma, Crate & Barrel, rivenditori di cucine speciali premium. I clienti lo comprano perché è bellissimo: vogliono una scatola da tè che funge anche da oggetto da cucina. Le recensioni enfatizzano l'artigianato e il modello di grano. Consulta i modelli disponibili nella categoria [Scatole per Tè e Caffè](/products/tea-coffee)."
         },
         {
           "type": "p",
@@ -3870,7 +3883,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Con il normale uso in cucina e un nuovo olio annuale con olio minerale sicuro per il cibo, il bambù dura 8-12 anni prima di mostrare un'usura significativa. La grana a strisce orizzontali si alleggerirà leggermente nel tempo ma non cambierà in modo significativo."
+          "text": "Con il normale uso in cucina e un nuovo olio annuale con olio minerale sicuro per il cibo, il bambù dura 8-12 anni prima di mostrare un'usura significativa. La grana a strisce orizzontali si alleggerirà leggermente nel tempo ma non cambierà in modo significativo. Per maggiori dettagli, consulta [guida allo spessore del legno](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3890,7 +3903,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il bambù vince questa categoria chiaramente ma non assolutamente. La ricrescita da cinque a sette anni rispetto ai cicli di raccolta degli alberi è l'ovvio vantaggio. Piantantinato, con ampi sistemi di radici che migliorano il suolo e prevengono l'erosione, anche punti di forza."
+          "text": "Il bambù vince questa categoria chiaramente ma non assolutamente. La ricrescita da cinque a sette anni rispetto ai cicli di raccolta degli alberi è l'ovvio vantaggio. Piantantinato, con ampi sistemi di radici che migliorano il suolo e prevengono l'erosione, anche punti di forza. Per maggiori dettagli, consulta [Le nostre pratiche di approvvigionamento sostenibile nel 2026](/blog/sustainable-sourcing-2026)."
         },
         {
           "type": "p",
@@ -3906,7 +3919,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Quando gli acquirenti ci chiedono \"bambù o acacia per questo prodotto da cucina?\", Riponiamo tre domande:"
+          "text": "Quando gli acquirenti ci chiedono \"bambù o acacia per questo prodotto da cucina?\", Riponiamo tre domande: Consulta le opzioni in [guida a legni, finiture e ferramenta](/material-guide)."
         },
         {
           "type": "list",
@@ -3962,7 +3975,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Per entrambe le specie, i clienti che seguono cure semplici ottengono anni in più di vita del prodotto. Raccomandiamo vivamente di includere una piccola scheda di cura nella confezione per qualsiasi prodotto da cucina. La carta dovrebbe coprire:"
+          "text": "Per entrambe le specie, i clienti che seguono cure semplici ottengono anni in più di vita del prodotto. Raccomandiamo vivamente di includere una piccola scheda di cura nella confezione per qualsiasi prodotto da cucina. La carta dovrebbe coprire: Per maggiori dettagli, consulta [5 tecniche di finitura che cambiano l'aspetto e la sensazione di una scatola di legno](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "list",
@@ -4021,7 +4034,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sì, e può produrre risultati sorprendenti: corpo in bambù con manici in acacia, base in acacia con divisori in bambù. La miscelazione dei materiali aggiunge interesse visivo e consente di bilanciare i costi. Il compromesso è che le due specie si espandono e si contraggono in modo leggermente diverso con l'umidità, quindi la falegnameria di specie miste ha bisogno di una tolleranza progettata per evitare lo stress nel corso degli anni."
+          "text": "Sì, e può produrre risultati sorprendenti: corpo in bambù con manici in acacia, base in acacia con divisori in bambù. La miscelazione dei materiali aggiunge interesse visivo e consente di bilanciare i costi. Il compromesso è che le due specie si espandono e si contraggono in modo leggermente diverso con l'umidità, quindi la falegnameria di specie miste ha bisogno di una tolleranza progettata per evitare lo stress nel corso degli anni. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
         },
         {
           "type": "quote",
@@ -4035,6 +4048,7 @@ export default {
       "category": "Strategia",
       "readTime": "12 min leggi",
       "body": [
+        { type: 'p', text: 'Prima di definire le specifiche, consulta [Approvvigionarsi di scatole di legno personalizzate dalla Cina nel 2026: il playbook del buyer B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "La vendita di scatole di legno tramite Amazon FBA è una sua disciplina. Il prodotto conta meno della strategia di confezionamento che lo avvolge. Due venditori possono offrire la stessa scatola di legno allo stesso prezzo al dettaglio e finire con un'economia di unità completamente diversa-una redditizia, una che perde denaro ad ogni vendita-a causa delle decisioni prese sul packaging."
@@ -4053,11 +4067,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Per i prodotti in legno questo conta più che per quasi tutte le altre categorie, perché la densità del legno varia notevolmente in base alle specie. Un cubo di quercia di 30 cm pesa circa 4 kg. Lo stesso cubo di paulownia pesa circa 1,6 kg. Entrambi spediscono per la stessa tassa FBA, ma se hai specificato la quercia quando paulownia avrebbe funzionato, stai pagando il doppio del costo di trasporto nel magazzino di Amazon per niente."
+          "text": "Per i prodotti in legno questo conta più che per quasi tutte le altre categorie, perché la densità del legno varia notevolmente in base alle specie. Un cubo di quercia di 30 cm pesa circa 4 kg. Lo stesso cubo di paulownia pesa circa 1,6 kg. Entrambi spediscono per la stessa tassa FBA, ma se hai specificato la quercia quando paulownia avrebbe funzionato, stai pagando il doppio del costo di trasporto nel magazzino di Amazon per niente. Consulta le opzioni in [guida a legni, finiture e ferramenta](/material-guide)."
         },
         {
           "type": "p",
-          "text": "Per i prodotti ad alto volume in cui il legno non è la caratteristica visibile (la maggior parte delle confezioni regalo-il cliente vede la superficie del coperchio, non la sezione trasversale), la scelta delle specie più leggere può risparmiare $0, 40-1, 20 per unità nel trasporto in entrata. Attraverso 10.000 unità che è $4. 000-12. 000 di margine puro guadagnato."
+          "text": "Per i prodotti ad alto volume in cui il legno non è la caratteristica visibile (la maggior parte delle confezioni regalo-il cliente vede la superficie del coperchio, non la sezione trasversale), la scelta delle specie più leggere può risparmiare $0, 40-1, 20 per unità nel trasporto in entrata. Attraverso 10.000 unità che è $4. 000-12. 000 di margine puro guadagnato. Consulta i modelli disponibili nella categoria [Scatole in Legno di Paulownia](/products/paulownia)."
         },
         {
           "type": "h2",
@@ -4134,7 +4148,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ogni unità FBA deve essere insaccata con un avviso di soffocamento o sigillata in un cartone esterno pronto per la vendita al dettaglio. Tre approcci:"
+          "text": "Ogni unità FBA deve essere insaccata con un avviso di soffocamento o sigillata in un cartone esterno pronto per la vendita al dettaglio. Tre approcci: Consulta i modelli disponibili nella categoria [Scatole Regalo e Imballaggio](/products/gift-packaging)."
         },
         {
           "type": "h3",
@@ -4166,7 +4180,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Consigliamo vivamente un'ispezione di terze parti (SGS, BV, AsiaInspection, Asia Quality Focus) per ogni spedizione FBA. Il motivo è l'economia brutale: i rendimenti da Amazon sono costosi, ovunque tra il 5% e il 15% del valore della spedizione a seconda della categoria, più i danni al marchio causati dalle recensioni negative."
+          "text": "Consigliamo vivamente un'ispezione di terze parti (SGS, BV, AsiaInspection, Asia Quality Focus) per ogni spedizione FBA. Il motivo è l'economia brutale: i rendimenti da Amazon sono costosi, ovunque tra il 5% e il 15% del valore della spedizione a seconda della categoria, più i danni al marchio causati dalle recensioni negative. Per maggiori dettagli, consulta [Perché un MOQ di 100 pezzi è il modo più intelligente per iniziare](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "p",
@@ -4221,7 +4235,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un acquirente che lancia una scatola da tè in legno su FBA a 1.000 unità/mese per 12 mesi. Due scenari:"
+          "text": "Un acquirente che lancia una scatola da tè in legno su FBA a 1.000 unità/mese per 12 mesi. Due scenari: Per un esempio a catalogo, consulta [Box Bustine Tè Acacia 8 Scomparti](/products/tea-coffee/acacia-tea-bag-box-8-compartment)."
         },
         {
           "type": "h3",
@@ -4241,7 +4255,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "In 12 mesi e 12.000 unità, lo scenario B risparmia circa $14. 000-19. 000 solo in commissioni (peso dimensionale inferiore, nessuna tariffa di etichettatura Amazon, nessuna tariffa di gestione del cartone di grandi dimensioni). Aggiungete a quei tassi di rendimento più bassi dall'ispezione, punteggi di revisione più alti dall'unboxing premium e il divario si allarga ulteriormente."
+          "text": "In 12 mesi e 12.000 unità, lo scenario B risparmia circa $14. 000-19. 000 solo in commissioni (peso dimensionale inferiore, nessuna tariffa di etichettatura Amazon, nessuna tariffa di gestione del cartone di grandi dimensioni). Aggiungete a quei tassi di rendimento più bassi dall'ispezione, punteggi di revisione più alti dall'unboxing premium e il divario si allarga ulteriormente. Per maggiori dettagli, consulta [Quanto costano le scatole di legno personalizzate? Una guida ai prezzi all'ingrosso e OEM per il 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
@@ -4275,7 +4289,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Per i prodotti in legno in particolare, il trasporto via mare dalla Cina agli Stati Uniti/UE è in funzione 22-35 giorni nel 2025-2026. Aggiungere 7-14 giorni per la ricezione FBA. Ovvero 30-50 giorni dalla partenza al sellable. Pianifica di conseguenza."
+          "text": "Per i prodotti in legno in particolare, il trasporto via mare dalla Cina agli Stati Uniti/UE è in funzione 22-35 giorni nel 2025-2026. Aggiungere 7-14 giorni per la ricezione FBA. Ovvero 30-50 giorni dalla partenza al sellable. Pianifica di conseguenza. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
         },
         {
           "type": "h2",
@@ -4311,7 +4325,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Tre cose riducono sostanzialmente i tassi di rendimento:"
+          "text": "Tre cose riducono sostanzialmente i tassi di rendimento: Per maggiori dettagli, consulta [Scatole in legno con divisori estraibili: la guida all'acquisto](/blog/custom-wooden-storage-boxes-with-removable-dividers-buyers-guide)."
         },
         {
           "type": "h3",
@@ -4335,7 +4349,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Una piccola carta che spiega come mantenere il legno riduce i reclami \"la superficie sviluppata segna entro un mese\". Costa $0,04 per scatola; riduce il tasso di rendimento di circa 1-2 punti percentuali in base ai dati che gli acquirenti hanno condiviso con noi."
+          "text": "Una piccola carta che spiega come mantenere il legno riduce i reclami \"la superficie sviluppata segna entro un mese\". Costa $0,04 per scatola; riduce il tasso di rendimento di circa 1-2 punti percentuali in base ai dati che gli acquirenti hanno condiviso con noi. Per maggiori dettagli, consulta [5 tecniche di finitura che cambiano l'aspetto e la sensazione di una scatola di legno](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -4385,6 +4399,7 @@ export default {
       "category": "Design",
       "readTime": "11 minuti di lettura",
       "body": [
+        { type: 'p', text: 'Prima di definire le specifiche, consulta [Chiusure per scatole in legno a confronto: scorrevole, a cerniera, magnetica, a cassetto e con serratura](/blog/wooden-box-closure-types-compared).' },
         {
           "type": "p",
           "text": "L'hardware è la parte di una scatola di legno che gli acquirenti pensano per ultimi e si sentono prima. Cerniera sbagliata e il coperchio si incurva dopo sei mesi. Magnete destro e la scatola si chiude con quel soddisfacente thunk premium che vende il unboxing."
@@ -4403,7 +4418,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le cerniere sono l'hardware con cui i clienti interagiscono ogni volta che aprono la scatola. Una cerniera difettosa indossa il legno, torce il coperchio o fallisce completamente dopo poche centinaia di cicli. Una buona cerniera dura la vita della scatola."
+          "text": "Le cerniere sono l'hardware con cui i clienti interagiscono ogni volta che aprono la scatola. Una cerniera difettosa indossa il legno, torce il coperchio o fallisce completamente dopo poche centinaia di cicli. Una buona cerniera dura la vita della scatola. Consulta i modelli disponibili nella categoria [Scatole in Legno con Cerniera](/products/hinged)."
         },
         {
           "type": "h3",
@@ -4423,7 +4438,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Nascosto all'interno di rientranze a forma di coppa tagliate nella scatola e nel coperchio. L'esterno è pulito-nessun hardware visibile. Sento premium, look moderno. Standard per orologi di fascia alta e portagioie."
+          "text": "Nascosto all'interno di rientranze a forma di coppa tagliate nella scatola e nel coperchio. L'esterno è pulito-nessun hardware visibile. Sento premium, look moderno. Standard per [orologi](/blog/wooden-watch-box-anatomy) di fascia alta e portagioie."
         },
         {
           "type": "p",
@@ -4459,7 +4474,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "I magneti al neodimio nascosti instradati nella parete di legno producono quel soddisfacente \"clic\" quando il coperchio si chiude. La forza è calibrata dal grado e dalla quantità del magnete-troppo debole e il coperchio si apre durante il trasporto, troppo forte e la scatola è difficile da aprire con una sola mano."
+          "text": "I magneti al neodimio nascosti instradati nella parete di legno producono quel soddisfacente \"clic\" quando il coperchio si chiude. La forza è calibrata dal grado e dalla quantità del magnete-troppo debole e il coperchio si apre durante il trasporto, troppo forte e la scatola è difficile da aprire con una sola mano. Consulta i modelli disponibili nella categoria [Scatole in Legno Magnetiche](/products/magnetic)."
         },
         {
           "type": "p",
@@ -4518,7 +4533,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Tradizionale, visibile, color oro. Corpo d'ottone con la chiave d'ottone. Il look classico per scatole di gioielli, scatole di documenti e scatole di scorta. Viene fornito con due chiavi per serratura come standard."
+          "text": "Tradizionale, visibile, color oro. Corpo d'ottone con la chiave d'ottone. Il look classico per scatole di gioielli, scatole di documenti e scatole di scorta. Viene fornito con due chiavi per serratura come standard. Consulta i modelli disponibili nella categoria [Scatole in Legno con Serratura](/products/with-lock)."
         },
         {
           "type": "p",
@@ -4605,7 +4620,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "I costi dell'hardware sono bassi per unità ma si accumulano rapidamente su un ordine. I voti di qualità variano ampiamente. Ci sono essenzialmente tre livelli:"
+          "text": "I costi dell'hardware sono bassi per unità ma si accumulano rapidamente su un ordine. I voti di qualità variano ampiamente. Ci sono essenzialmente tre livelli: Per maggiori dettagli, consulta [All'interno del nostro processo di produzione della scatola di legno in 6 fasi](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "h3",
@@ -4672,7 +4687,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le squadre di installazione economiche stringono eccessivamente le viti della cerniera per compensare le mortidi mal tagliate. Le fiber di legno attorno alla vite si comprimono; nel tempo la vite si allenta; la cerniera si incurva; il coperchio non è più piatto."
+          "text": "Le squadre di installazione economiche stringono eccessivamente le viti della cerniera per compensare le mortidi mal tagliate. Le fiber di legno attorno alla vite si comprimono; nel tempo la vite si allenta; la cerniera si incurva; il coperchio non è più piatto. Per maggiori dettagli, consulta [guida allo spessore del legno](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "p",
@@ -4708,7 +4723,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'hardware è uno degli aggiornamenti più indebitamento in una scatola di legno. L'aggiornamento di una singola cerniera da Tier 1 a Tier 2 in genere aggiunge $0, 20-0, 40 per scatola. L'aggiornamento dell'intera specifica hardware dal livello 1 al livello 3 (europeo premium) aggiunge $1, 50-3, 50 per scatola."
+          "text": "L'hardware è uno degli aggiornamenti più indebitamento in una scatola di legno. L'aggiornamento di una singola cerniera da Tier 1 a Tier 2 in genere aggiunge $0, 20-0, 40 per scatola. L'aggiornamento dell'intera specifica hardware dal livello 1 al livello 3 (europeo premium) aggiunge $1, 50-3, 50 per scatola. Per maggiori dettagli, consulta [Quanto costano le scatole di legno personalizzate? Una guida ai prezzi all'ingrosso e OEM per il 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
@@ -4732,7 +4747,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sì, molti acquirenti di volume più elevato fanno esattamente questo. Acquista l'hardware separatamente, spedirlo alla nostra fabbrica nella contea di Cao e lo installiamo. La complicazione è la tempistica: l'hardware deve arrivare alla nostra fabbrica almeno 5 giorni prima dell'inizio della produzione, con la documentazione corrispondente all'ordine di produzione. Per gli acquirenti per la prima volta, di solito consigliamo prima il nostro hardware; una volta stabilita la relazione e il processo, l'hardware fornito dal cliente è semplice."
+          "text": "Sì, molti acquirenti di volume più elevato fanno esattamente questo. Acquista l'hardware separatamente, spedirlo alla nostra fabbrica nella contea di Cao e lo installiamo. La complicazione è la tempistica: l'hardware deve arrivare alla nostra fabbrica almeno 5 giorni prima dell'inizio della produzione, con la documentazione corrispondente all'ordine di produzione. Per gli acquirenti per la prima volta, di solito consigliamo prima il nostro hardware; una volta stabilita la relazione e il processo, l'hardware fornito dal cliente è semplice. Consulta le opzioni in [Capacità](/capabilities)."
         },
         {
           "type": "h3",
@@ -4772,7 +4787,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Per gli acquirenti per la prima volta, consigliamo di eseguire un ciclo di campionamento incentrato specificamente sull'hardware. Ordina tre campioni della stessa scatola con tre diversi gradi hardware: Livello 1, Livello 2, Livello 3. Aprile e chiudi ciascuno cento volte. Senti la differenza nella tua mano. La scelta che ti sembra giusta è quasi sempre quella a cui il tuo cliente risponderà. L'hardware è una piccola percentuale del costo; è la maggior parte della qualità percepita."
+          "text": "Per gli acquirenti per la prima volta, consigliamo di eseguire un ciclo di campionamento incentrato specificamente sull'hardware. Ordina tre campioni della stessa scatola con tre diversi gradi hardware: Livello 1, Livello 2, Livello 3. Aprile e chiudi ciascuno cento volte. Senti la differenza nella tua mano. La scelta che ti sembra giusta è quasi sempre quella a cui il tuo cliente risponderà. L'hardware è una piccola percentuale del costo; è la maggior parte della qualità percepita. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
         }
       ]
     }

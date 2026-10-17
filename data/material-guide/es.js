@@ -382,7 +382,7 @@ export const HARDWARE = [
 
 export const COPY = {
   meta: {
-    title: 'Guía de Materiales — Referencia de Madera, Acabado y Herrajes | CHIC',
+    title: 'Guía de Materiales — Referencia de Madera, Acabado y Herrajes',
     description:
       'Guía educativa completa de especies de madera, acabados, métodos de branding y herrajes utilizados en cajas de madera personalizadas. Compara paulownia, pino, bambú, acacia y nogal y salta a los productos correspondientes.',
     ogDescription:

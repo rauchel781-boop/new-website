@@ -9,6 +9,7 @@ export default {
       "category": "Einkaufsratgeber",
       "readTime": "14 Min. Lesezeit",
       "body": [
+        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [Leitfaden zur Holzstärke](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes).' },
         {
           "type": "p",
           "text": "Individuelle Holz-Aufbewahrungsboxen mit herausnehmbaren Trennwänden gehören zu den am häufigsten angefragten OEM-Produkten bei uns. Sie funktionieren für Schmuckmarken, Teeunternehmen, Gewürzimporteure, Hersteller von Lernbaukästen, Bastelbedarfshändler und Geschenkboxmarken. Weil die Trennwände herausnehmbar sind, kann Ihr Endkunde die Fächer für unterschiedliche Inhalte neu anordnen — das schafft Flexibilität und gefühlten Mehrwert. Aus unserer Produktion heraus: Das sollten Sie vor der Bestellung wissen — Materialwahl, Stärken, Trennwand-Varianten, Logo-Verfahren, MOQ, Bemusterung und Qualitätssicherung."
@@ -19,7 +20,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Eine individuelle Holz-Aufbewahrungsbox mit herausnehmbaren Trennwänden ist eine Box mit Deckel und Innenunterteilungen, die sich herausheben, umstecken oder ganz entfernen lassen. Die Trennwände sitzen meist in Nuten oder stecken in einem Gittermuster im Boden. Unsere Fabrik fertigt sie in Größen von 15 × 10 × 5 cm (kleine Schmuckbox) bis 40 × 30 × 10 cm (großer Tee- oder Bastelorganizer). Der Korpus kann aus keilgezinkter Kiefer, Sperrholz mit Schwalbenschwanzverbindung, MDF mit Furnier, Bambus oder massiver Akazie bestehen — je nach Preisniveau und Marktpositionierung."
+          "text": "Eine individuelle Holz-Aufbewahrungsbox mit herausnehmbaren Trennwänden ist eine Box mit Deckel und Innenunterteilungen, die sich herausheben, umstecken oder ganz entfernen lassen. Die Trennwände sitzen meist in Nuten oder stecken in einem Gittermuster im Boden. Unsere Fabrik fertigt sie in Größen von 15 × 10 × 5 cm (kleine Schmuckbox) bis 40 × 30 × 10 cm (großer Tee- oder Bastelorganizer). Der Korpus kann aus keilgezinkter Kiefer, Sperrholz mit Schwalbenschwanzverbindung, MDF mit Furnier, Bambus oder massiver Akazie bestehen — je nach Preisniveau und Marktpositionierung. Verfügbare Ausführungen finden Sie in der Kategorie [Aufbewahrungsboxen](/products/storage)."
         },
         {
           "type": "img",
@@ -62,7 +63,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Materialwahl bestimmt Kosten, Haltbarkeit, Gewicht und Optik. Das empfehlen wir üblicherweise, je nach Markt und Preisniveau:"
+          "text": "Die Materialwahl bestimmt Kosten, Haltbarkeit, Gewicht und Optik. Das empfehlen wir üblicherweise, je nach Markt und Preisniveau: Die Optionen finden Sie unter [Leitfaden zu Holz, Oberflächen und Beschlägen](/material-guide)."
         },
         {
           "type": "table",
@@ -177,7 +178,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Trennwände haben auf halber Höhe eingeschnittene Kerben und stecken so zu einem Gitter zusammen. Der Nutzer kann sie entnehmen oder umstecken und damit unterschiedliche Fachgrößen bilden. Das ist das flexibelste System und eignet sich gut für Schmuck, Bastelbedarf oder Kleinteile. Üblicherweise fertigen wir 2–4 längs und 2–3 quer verlaufende Trennwände, was je nach Boxgröße 6–12 Fächer ergibt."
+          "text": "Die Trennwände haben auf halber Höhe eingeschnittene Kerben und stecken so zu einem Gitter zusammen. Der Nutzer kann sie entnehmen oder umstecken und damit unterschiedliche Fachgrößen bilden. Das ist das flexibelste System und eignet sich gut für Schmuck, Bastelbedarf oder Kleinteile. Üblicherweise fertigen wir 2–4 längs und 2–3 quer verlaufende Trennwände, was je nach Boxgröße 6–12 Fächer ergibt. Ein Produktbeispiel finden Sie unter [Bambus Saatgutbox mit Verstellbaren Trennern](/products/garden-seed/bamboo-seed-storage-box-with-adjustable-removable-dividers)."
         },
         {
           "type": "img",
@@ -198,11 +199,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Trennwände sind in eine flache Schale eingebaut, die sich komplett aus der Box heben lässt und darunter eine zweite Ebene freigibt. Beliebt bei Uhren- und Schmuckboxen, wenn Sie oben gefächerte und darunter offene Aufbewahrung wollen. Die Schale ruht üblicherweise auf kleinen Holzleisten, die innen an die Wände geleimt sind."
+          "text": "Die Trennwände sind in eine flache Schale eingebaut, die sich komplett aus der Box heben lässt und darunter eine zweite Ebene freigibt. Beliebt bei Uhren- und Schmuckboxen, wenn Sie oben gefächerte und darunter offene Aufbewahrung wollen. Die Schale ruht üblicherweise auf kleinen Holzleisten, die innen an die Wände geleimt sind. Verfügbare Ausführungen finden Sie in der Kategorie [Holzboxen mit Schublade](/products/drawer)."
         },
         {
           "type": "p",
-          "text": "Bei Boxen von 30 × 20 × 8 cm empfehlen wir normalerweise Steckgitter-Trennwände mit 3 längs und 2 quer verlaufenden Teilen, was 12 veränderbare Fächer ergibt. Bei kleineren Schmuckboxen (15 × 10 × 5 cm) funktionieren Nut-Trennwände mit 2–3 festen Fächern gut und halten die Kosten niedrig."
+          "text": "Bei Boxen von 30 × 20 × 8 cm empfehlen wir normalerweise Steckgitter-Trennwände mit 3 längs und 2 quer verlaufenden Teilen, was 12 veränderbare Fächer ergibt. Bei kleineren Schmuckboxen (15 × 10 × 5 cm) funktionieren Nut-Trennwände mit 2–3 festen Fächern gut und halten die Kosten niedrig. Weitere Hinweise finden Sie unter [EVA, EPE, Samt oder Filz: das richtige Inlay für Holzboxen](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide)."
         },
         {
           "type": "h2",
@@ -210,7 +211,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Platzierung und Verfahren hängen von Ihrem Design, Budget und der Bestellmenge ab. Das bietet unsere Fabrik an:"
+          "text": "Platzierung und Verfahren hängen von Ihrem Design, Budget und der Bestellmenge ab. Das bietet unsere Fabrik an: Weitere Hinweise finden Sie unter [5 Finishing-Techniken, die verändern, wie eine Holzkiste aussieht und sich anfühlt](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "table",
@@ -274,7 +275,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Verpackung wirkt auf Landed Cost, Regalwirkung und Schadensquote im Transport. Unsere Fabrik bietet drei Standardvarianten:"
+          "text": "Die Verpackung wirkt auf Landed Cost, Regalwirkung und Schadensquote im Transport. Unsere Fabrik bietet drei Standardvarianten: Weitere Hinweise finden Sie unter [Entwerfen von Holz verpackungen für Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "list",
@@ -299,7 +300,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Unsere MOQ für individuelle Holz-Aufbewahrungsboxen mit herausnehmbaren Trennwänden liegt bei 500 Stück pro Design. Bei gemischten Aufträgen (mehrere Größen oder Ausführungen) sollte die Gesamtmenge mindestens 1.000 Stück betragen. Die Musterlaufzeit beträgt 7–10 Arbeitstage ab Designfreigabe, die Produktionszeit 25–30 Tage nach Musterfreigabe und Anzahlung."
+          "text": "Unsere [MOQ](/blog/low-moq-sampling-strategy) für individuelle Holz-Aufbewahrungsboxen mit herausnehmbaren Trennwänden liegt bei 500 Stück pro Design. Bei gemischten Aufträgen (mehrere Größen oder Ausführungen) sollte die Gesamtmenge mindestens 1.000 Stück betragen. Die Musterlaufzeit beträgt 7–10 Arbeitstage ab Designfreigabe, die Produktionszeit 25–30 Tage nach Musterfreigabe und Anzahlung."
         },
         {
           "type": "p",
@@ -345,7 +346,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Wir haben Holz-Aufbewahrungsboxen mit herausnehmbaren Trennwänden für Schmuckmarken in Großbritannien, Teeunternehmen in Deutschland, Hersteller von Lernbaukästen in den USA und Bastelbedarfshändler in Australien und Kanada produziert. Ob Sie 500 preisgünstige Kiefernboxen für Amazon FBA brauchen oder 5.000 hochwertige Akazien-Organizer für den Einzelhandel — unsere Angebotsabteilung erstellt Ihnen innerhalb von 24 Stunden eine Landed-Cost-Aufstellung und einen Musterzeitplan."
+          "text": "Wir haben Holz-Aufbewahrungsboxen mit herausnehmbaren Trennwänden für Schmuckmarken in Großbritannien, Teeunternehmen in Deutschland, Hersteller von Lernbaukästen in den USA und Bastelbedarfshändler in Australien und Kanada produziert. Ob Sie 500 preisgünstige Kiefernboxen für Amazon FBA brauchen oder 5.000 hochwertige Akazien-Organizer für den Einzelhandel — unsere Angebotsabteilung erstellt Ihnen innerhalb von 24 Stunden eine Landed-Cost-Aufstellung und einen Musterzeitplan. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
         }
       ]
     },
@@ -355,9 +356,10 @@ export default {
       "category": "Materialien",
       "readTime": "12 Min. Lesezeit",
       "body": [
+        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [Warum ein 100-teiliges MOQ der klügste Weg ist, um zu beginnen](/blog/low-moq-sampling-strategy).' },
         {
           "type": "p",
-          "text": "Beim Entwurf individueller Holzboxen ist das Inlay-Material genauso entscheidend wie die Box selbst. Die falsche Wahl führt zu beschädigter Ware, höheren Kosten oder einer Präsentation, die Ihre Kunden nicht überzeugt. In diesem Leitfaden vergleichen wir vier gängige Inlay-Materialien — EVA-Schaum, EPE-Schaum, Samt und Filz — entlang der Entscheidungskriterien Schutzniveau, Wirtschaftlichkeit, Optik, Umweltwirkung und Individualisierbarkeit."
+          "text": "Beim Entwurf individueller Holzboxen ist das Inlay-Material genauso entscheidend wie die Box selbst. Die falsche Wahl führt zu beschädigter Ware, höheren Kosten oder einer Präsentation, die Ihre Kunden nicht überzeugt. In diesem Leitfaden vergleichen wir vier gängige Inlay-Materialien — EVA-Schaum, EPE-Schaum, Samt und Filz — entlang der Entscheidungskriterien Schutzniveau, Wirtschaftlichkeit, Optik, Umweltwirkung und Individualisierbarkeit. Verfügbare Ausführungen finden Sie in der Kategorie [Geschenk- und Verpackungsboxen](/products/gift-packaging)."
         },
         {
           "type": "h2",
@@ -408,7 +410,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "EVA (Ethylenvinylacetat) ist ein geschlossenzelliger Schaum, bekannt für Dichte, Haltbarkeit und hervorragende Stoßfestigkeit. Man findet ihn in Yogamatten, Schuhsohlen und Verpackungen hochwertiger Elektronik. EVA dämpft Stöße ausgezeichnet, mit einer Härte von 40–60 Shore C. Er lässt sich präzise stanzen und für ein luxuriöses Finish mit Samt beflocken. Der Preis liegt im oberen Bereich, dafür ist EVA ideal für hochwertige Elektronik wie Uhren, Kameras und Telefone, für medizinische Instrumente, für passgenau einzulegende Werkzeuge und für Produkte, deren Verpackung wiederverwendet werden soll."
+          "text": "EVA (Ethylenvinylacetat) ist ein geschlossenzelliger Schaum, bekannt für Dichte, Haltbarkeit und hervorragende Stoßfestigkeit. Man findet ihn in Yogamatten, Schuhsohlen und Verpackungen hochwertiger Elektronik. EVA dämpft Stöße ausgezeichnet, mit einer Härte von 40–60 Shore C. Er lässt sich präzise stanzen und für ein luxuriöses Finish mit Samt beflocken. Der Preis liegt im oberen Bereich, dafür ist EVA ideal für hochwertige Elektronik wie Uhren, Kameras und Telefone, für medizinische Instrumente, für passgenau einzulegende Werkzeuge und für Produkte, deren Verpackung wiederverwendet werden soll. Ein Produktbeispiel finden Sie unter [Luxus Magnetische Geschenkbox](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "h2",
@@ -416,7 +418,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "EPE (expandiertes Polyethylen) ist ein offenzelliger Schaum: leicht, flexibel und kostengünstig. Er ist die „Luftpolsterfolie“ unter den Schäumen — weich, nachgiebig und hervorragend für allgemeine Polsterung. EPE dämpft gut bei einer geringeren Härte von 20–30 Shore C und ist damit weicher und stärker komprimierbar als EVA. Er ist budgetfreundlich, recycelbar und in der Herstellung emissionsarm. EPE eignet sich für mittleren Schutzbedarf, für Sammelverpackungen beim Versand mehrerer Einheiten, für preisbewusste Projekte und für Produkte mit regelmäßigen Formen ohne komplexe Konturen."
+          "text": "EPE (expandiertes Polyethylen) ist ein offenzelliger Schaum: leicht, flexibel und kostengünstig. Er ist die „Luftpolsterfolie“ unter den Schäumen — weich, nachgiebig und hervorragend für allgemeine Polsterung. EPE dämpft gut bei einer geringeren Härte von 20–30 Shore C und ist damit weicher und stärker komprimierbar als EVA. Er ist budgetfreundlich, recycelbar und in der Herstellung emissionsarm. EPE eignet sich für mittleren Schutzbedarf, für Sammelverpackungen beim Versand mehrerer Einheiten, für preisbewusste Projekte und für Produkte mit regelmäßigen Formen ohne komplexe Konturen. Weitere Hinweise finden Sie unter [Was kosten maßgefertigte Holzboxen? Ein Großhandels- und OEM-Preisleitfaden für 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "h2",
@@ -424,7 +426,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Samt ist ein weiches, flauschiges Textil (Naturseide oder Polyester) mit reicher Haptik und Premium-Anmutung. Es wird häufig in Schmuckboxen, Parfümverpackungen und hochwertigen Geschenksets eingesetzt. Samt allein dämpft kaum und braucht eine Polsterung darunter, liefert dafür aber ein unvergleichliches Luxusgefühl und hervorragende Gestaltungsmöglichkeiten. Samt ist ideal für Schmuck und Wertgegenstände, für Parfüm und Kosmetik, für Luxusgeschenke und Auszeichnungen sowie für Produkte, bei denen das Auspackerlebnis zählt. Viele Marken kombinieren Samt mit Schaum: EVA oder EPE als polsternde Basis, darüber Samtbeflockung für die Optik."
+          "text": "Samt ist ein weiches, flauschiges Textil (Naturseide oder Polyester) mit reicher Haptik und Premium-Anmutung. Es wird häufig in Schmuckboxen, Parfümverpackungen und hochwertigen Geschenksets eingesetzt. Samt allein dämpft kaum und braucht eine Polsterung darunter, liefert dafür aber ein unvergleichliches Luxusgefühl und hervorragende Gestaltungsmöglichkeiten. Samt ist ideal für Schmuck und Wertgegenstände, für Parfüm und Kosmetik, für Luxusgeschenke und Auszeichnungen sowie für Produkte, bei denen das Auspackerlebnis zählt. Viele Marken kombinieren Samt mit Schaum: EVA oder EPE als polsternde Basis, darüber Samtbeflockung für die Optik. Weitere Hinweise finden Sie unter [Anatomie einer großen hölzernen Uhren box](/blog/wooden-watch-box-anatomy)."
         },
         {
           "type": "h2",
@@ -432,7 +434,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Filz ist ein Vliesstoff aus gepressten Wollfasern (oder synthetischen Alternativen). Er hat eine weiche, matte Oberfläche und ist bei umweltbewussten Marken zunehmend gefragt. Filz polstert moderat und wirkt dabei elegant und zurückhaltend luxuriös. Er lässt sich leicht schneiden, färben und formen und bietet damit sehr gute Gestaltungsmöglichkeiten. Wollfilz ist biologisch abbaubar, recycelte synthetische Varianten sind erhältlich — das macht ihn zur nachhaltigsten Option. Filz eignet sich für umweltbewusste Marken, für handwerkliche Produkte, für mittelschwere Artikel wie Bücher, Keramik und Glas sowie für Marken, die eine natürliche Anmutung suchen."
+          "text": "Filz ist ein Vliesstoff aus gepressten Wollfasern (oder synthetischen Alternativen). Er hat eine weiche, matte Oberfläche und ist bei umweltbewussten Marken zunehmend gefragt. Filz polstert moderat und wirkt dabei elegant und zurückhaltend luxuriös. Er lässt sich leicht schneiden, färben und formen und bietet damit sehr gute Gestaltungsmöglichkeiten. Wollfilz ist biologisch abbaubar, recycelte synthetische Varianten sind erhältlich — das macht ihn zur nachhaltigsten Option. Filz eignet sich für umweltbewusste Marken, für handwerkliche Produkte, für mittelschwere Artikel wie Bücher, Keramik und Glas sowie für Marken, die eine natürliche Anmutung suchen. Weitere Hinweise finden Sie unter [5 Finishing-Techniken, die verändern, wie eine Holzkiste aussieht und sich anfühlt](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -502,7 +504,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Nutzen Sie dieses Raster, um Ihr Inlay-Material zu bestimmen. Erstens: Bewerten Sie die Empfindlichkeit des Produkts. Empfindliches wie Elektronik und Glas braucht EVA oder EPE, mittlere Ware kommt mit EPE oder Filz aus, robuste Ware passt zu Samt oder Filz. Zweitens: Legen Sie den Budgetrahmen fest. Premium-Budgets ($$$) tragen EVA oder Samt, das Mittelfeld ($$) passt zu Filz, preisbewusste Projekte ($) nehmen EPE. Drittens: Berücksichtigen Sie die Markenpositionierung. Luxusmarken profitieren von Samt auf EVA-Basis, umweltbewusste Marken wählen Filz, Technik- und Profimarken passen zu EVA, preisorientierte Marken zu EPE. Viertens: Prüfen Sie die Stückzahl. Ab 1.000 Stück lohnt das automatisierte Stanzen von EVA oder EPE, bei 100 bis 1.000 Stück ist jedes Material möglich, unter 100 Stück lassen sich Filz und Samt von Hand leichter verarbeiten."
+          "text": "Nutzen Sie dieses Raster, um Ihr Inlay-Material zu bestimmen. Erstens: Bewerten Sie die Empfindlichkeit des Produkts. Empfindliches wie Elektronik und Glas braucht EVA oder EPE, mittlere Ware kommt mit EPE oder Filz aus, robuste Ware passt zu Samt oder Filz. Zweitens: Legen Sie den Budgetrahmen fest. Premium-Budgets ($$$) tragen EVA oder Samt, das Mittelfeld ($$) passt zu Filz, preisbewusste Projekte ($) nehmen EPE. Drittens: Berücksichtigen Sie die Markenpositionierung. Luxusmarken profitieren von Samt auf EVA-Basis, umweltbewusste Marken wählen Filz, Technik- und Profimarken passen zu EVA, preisorientierte Marken zu EPE. Viertens: Prüfen Sie die Stückzahl. Ab 1.000 Stück lohnt das automatisierte Stanzen von EVA oder EPE, bei 100 bis 1.000 Stück ist jedes Material möglich, unter 100 Stück lassen sich Filz und Samt von Hand leichter verarbeiten. Die Optionen finden Sie unter [Leitfaden zu Holz, Oberflächen und Beschlägen](/material-guide)."
         },
         {
           "type": "h2",
@@ -510,7 +512,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Eine Luxusuhrenmarke wollte hochwertige Zeitmesser schützen und zugleich hochwertig präsentieren. Gelöst wurde das mit einer Basis aus EVA-Schaum, auf Uhrenform gestanzt, und einer Samtbeflockung auf der EVA-Oberfläche — 5-Sterne-Schutz plus Luxus-Unboxing, zu 3–5 $ pro Inlay bei einer MOQ von 500. Eine handwerkliche Kerzenmanufaktur suchte eine umweltfreundliche Verpackung für handgefertigte Kerzen und setzte Wollfilz-Inlays ein, passgenau auf die Kerzengläser geschnitten; die natürliche, nachhaltige Anmutung passte zur Marke und führte zu 30 % mehr Wiederkäufen, zu 1,50–2 $ pro Inlay bei einer MOQ von 100. Ein E-Commerce-Elektronikhändler musste Bluetooth-Lautsprecher in großer Stückzahl sicher versenden und nutzte EPE-Eckenschutz mit Mittelpolster — geringeres Versandgewicht und eine Schadensquote, die von 5 % auf unter 1 % fiel, zu 0,50–0,80 $ pro Inlay bei einer MOQ von 1.000."
+          "text": "Eine Luxusuhrenmarke wollte hochwertige Zeitmesser schützen und zugleich hochwertig präsentieren. Gelöst wurde das mit einer Basis aus EVA-Schaum, auf Uhrenform gestanzt, und einer Samtbeflockung auf der EVA-Oberfläche — 5-Sterne-Schutz plus Luxus-Unboxing, zu 3–5 $ pro Inlay bei einer MOQ von 500. Eine handwerkliche Kerzenmanufaktur suchte eine umweltfreundliche Verpackung für handgefertigte Kerzen und setzte Wollfilz-Inlays ein, passgenau auf die Kerzengläser geschnitten; die natürliche, nachhaltige Anmutung passte zur Marke und führte zu 30 % mehr Wiederkäufen, zu 1,50–2 $ pro Inlay bei einer MOQ von 100. Ein E-Commerce-Elektronikhändler musste Bluetooth-Lautsprecher in großer Stückzahl sicher versenden und nutzte EPE-Eckenschutz mit Mittelpolster — geringeres Versandgewicht und eine Schadensquote, die von 5 % auf unter 1 % fiel, zu 0,50–0,80 $ pro Inlay bei einer MOQ von 1.000. Ein Produktbeispiel finden Sie unter [Drei-Uhren-Präsentationskasten](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h2",
@@ -522,7 +524,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Kalkulieren Sie die Mindestbestellmenge (MOQ) ein: EVA-Schaum verlangt wegen der Stanzwerkzeug-Einrichtung meist 300–500 Stück, EPE-Schaum 500–1.000 Stück, Samt-Einlagen 100–300 Stück und Filz nur 50–100 Stück, da er sich in kleinen Chargen leichter verarbeiten lässt. Bei Lebensmittel-, Medizin- oder Kinderprodukten prüfen Sie die RoHS-Konformität (keine Gefahrstoffe), die REACH-Zertifizierung für die EU-Chemikalienverordnung und die FDA-Zulassung für Materialien mit Lebensmittelkontakt."
+          "text": "Kalkulieren Sie die Mindestbestellmenge (MOQ) ein: EVA-Schaum verlangt wegen der Stanzwerkzeug-Einrichtung meist 300–500 Stück, EPE-Schaum 500–1.000 Stück, Samt-Einlagen 100–300 Stück und Filz nur 50–100 Stück, da er sich in kleinen Chargen leichter verarbeiten lässt. Bei Lebensmittel-, Medizin- oder Kinderprodukten prüfen Sie die RoHS-Konformität (keine Gefahrstoffe), die REACH-Zertifizierung für die EU-Chemikalienverordnung und die FDA-Zulassung für Materialien mit Lebensmittelkontakt. Weitere Hinweise finden Sie unter [Maßgefertigte Holzboxen aus China beziehen 2026: ein B2B-Beschaffungsleitfaden](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
         },
         {
           "type": "h2",
@@ -530,7 +532,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Das richtige Inlay-Material für Ihre Holzboxen zu wählen heißt, Schutz, Kosten, Optik und Markenwerte auszubalancieren. EVA-Schaum bietet Premium-Schutz und Gestaltungsfreiheit zu $$$, lohnt sich aber bei hochwertigen Produkten. EPE-Schaum liefert günstige, leichte Polsterung für den allgemeinen Einsatz zu $. Samt sorgt für luxuriöse Präsentation und wirkt am besten auf einer Schaumbasis, zu $$$. Filz ist ökologisch, elegant und vielseitig, zu $$. Für die meisten individuellen Holzbox-Projekte empfehlen wir, mit EVA-Schaum als Basis zu starten und bei ausreichendem Budget Samt oder Filz darüberzulegen. So bekommen Sie beides — verlässlichen Schutz und eine Präsentation, die begeistert."
+          "text": "Das richtige Inlay-Material für Ihre Holzboxen zu wählen heißt, Schutz, Kosten, Optik und Markenwerte auszubalancieren. EVA-Schaum bietet Premium-Schutz und Gestaltungsfreiheit zu $$$, lohnt sich aber bei hochwertigen Produkten. EPE-Schaum liefert günstige, leichte Polsterung für den allgemeinen Einsatz zu $. Samt sorgt für luxuriöse Präsentation und wirkt am besten auf einer Schaumbasis, zu $$$. Filz ist ökologisch, elegant und vielseitig, zu $$. Für die meisten individuellen Holzbox-Projekte empfehlen wir, mit EVA-Schaum als Basis zu starten und bei ausreichendem Budget Samt oder Filz darüberzulegen. So bekommen Sie beides — verlässlichen Schutz und eine Präsentation, die begeistert. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
         }
       ]
     },
@@ -540,6 +542,7 @@ export default {
       "category": "Design",
       "readTime": "14 Min. Lesezeit",
       "body": [
+        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [Ein Einkaufs führer für Holzkisten-Hardware](/blog/wooden-box-hardware-guide).' },
         {
           "type": "p",
           "text": "Die meisten Käufer spezifizieren eine Holzbox in dieser Reihenfolge: Größe, Holzart, Branding — und dann, fast nebenbei, wie sie sich öffnet. Diese Reihenfolge ist verkehrt. Der Verschluss entscheidet über Werkzeuge, Montagezeit, Beschlagrechnung, ob die Box flach versendet werden kann und was der Kunde in den ersten zwei Sekunden in der Hand spürt. Wer den Verschluss spät ändert, hat faktisch das gesamte Projekt neu kalkuliert."
@@ -785,7 +788,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Was sich in der Produktion tatsächlich ändert, ist der Rest der Box. Ein Schloss konzentriert bei jedem Test die Kraft auf Deckelkante und Scharniere, deshalb bekommen abschließbare Boxen verstärkte Scharniere und stärkeres Deckelmaterial, als dieselbe Box sonst bräuchte. Diese Verstärkung wegzulassen ist der mit Abstand häufigste Grund, warum eine abschließbare Box beschädigt zurückkommt. Unsere [abschließbaren Holzboxen](/products/with-lock) gibt es in Nussbaum, Eiche, Kiefer und Akazie."
+          "text": "Was sich in der Produktion tatsächlich ändert, ist der Rest der Box. Ein Schloss konzentriert bei jedem Test die Kraft auf Deckelkante und Scharniere, deshalb bekommen abschließbare Boxen verstärkte Scharniere und stärkeres Deckelmaterial, als dieselbe Box sonst bräuchte. Diese Verstärkung wegzulassen ist der mit Abstand häufigste Grund, warum eine abschließbare Box beschädigt zurückkommt. Unsere [abschließbaren Holzboxen](/products/with-lock) gibt es in Nussbaum, Eiche, Kiefer und Akazie. Weitere Hinweise finden Sie unter [Leitfaden zur Holzstärke](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "h2",
@@ -852,7 +855,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Jede Box, die wir versenden, durchläuft unabhängig vom Verschluss dieselben sechs Stationen. Was sich ändert, ist der Arbeitsumfang an Station drei und vier — und genau daher kommen die Lieferzeitunterschiede in der Tabelle oben."
+          "text": "Jede Box, die wir versenden, durchläuft unabhängig vom Verschluss dieselben sechs Stationen. Was sich ändert, ist der Arbeitsumfang an Station drei und vier — und genau daher kommen die Lieferzeitunterschiede in der Tabelle oben. Weitere Hinweise finden Sie unter [In unserem 6-stufigen Herstellungs prozess für Holzkisten](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "flow",
@@ -913,11 +916,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Wenn zwei Antworten konkurrieren — etwa eine Schmuckbox, die zugleich täglicher Gebrauchsgegenstand und Premium-Unboxing ist —, sollte die Anforderung des täglichen Gebrauchs gewinnen. Ein Magnetdeckel, der zweimal täglich geöffnet wird, überlebt das Programm zwar, aber er wird sich nie so gesetzt anfühlen wie ein sauber spezifiziertes Scharnier — und der Kunde merkt das an Tag dreißig, nicht an Tag eins."
+          "text": "Wenn zwei Antworten konkurrieren — etwa eine Schmuckbox, die zugleich täglicher Gebrauchsgegenstand und Premium-Unboxing ist —, sollte die Anforderung des täglichen Gebrauchs gewinnen. Ein Magnetdeckel, der zweimal täglich geöffnet wird, überlebt das Programm zwar, aber er wird sich nie so gesetzt anfühlen wie ein sauber spezifiziertes Scharnier — und der Kunde merkt das an Tag dreißig, nicht an Tag eins. Weitere Hinweise finden Sie unter [Anatomie einer großen hölzernen Uhren box](/blog/wooden-watch-box-anatomy)."
         },
         {
           "type": "p",
-          "text": "Die Holzart ist eine vom Verschluss getrennte Entscheidung, und beide beeinflussen sich weniger, als man annimmt: Jeder dieser fünf Verschlüsse lässt sich in jeder unserer Holzarten bauen. Unser [Materialratgeber](/material-guide) vergleicht Paulownia, Kiefer, Bambus, Akazie und Nussbaum nach Gewicht, Härte, Oberflächenverhalten und Zertifizierung."
+          "text": "Die Holzart ist eine vom Verschluss getrennte Entscheidung, und beide beeinflussen sich weniger, als man annimmt: Jeder dieser fünf Verschlüsse lässt sich in jeder unserer Holzarten bauen. Unser [Materialratgeber](/material-guide) vergleicht Paulownia, Kiefer, Bambus, Akazie und Nussbaum nach Gewicht, Härte, Oberflächenverhalten und Zertifizierung. Weitere Hinweise finden Sie unter [5 Finishing-Techniken, die verändern, wie eine Holzkiste aussieht und sich anfühlt](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "quote",
@@ -973,6 +976,7 @@ export default {
       "category": "Preisgestaltung",
       "readTime": "12 Min. Lesezeit",
       "body": [
+        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [EVA, EPE, Samt oder Filz: das richtige Inlay für Holzboxen](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide).' },
         {
           "type": "p",
           "text": "Die häufigste Frage, die ein Holzbox-Hersteller hört, ist zugleich die am schwersten in einer einzigen Zahl zu beantwortende: „Was kostet eine maßgefertigte Holzbox?“ Die ehrliche Antwort ist eine Spanne — etwa $1.50 bis $25 pro Stück —, denn eine gebeizte Kiefernbox mit Schiebedeckel als Gastgeschenk und ein samtgefütterter Uhrenkasten aus massivem Walnussholz mit Messingschloss sind beide „Holzboxen“ und liegen an entgegengesetzten Enden der Kostenkarte. Dieser Leitfaden verwandelt diese wenig hilfreiche Spanne in etwas, gegen das Sie tatsächlich budgetieren können."
@@ -1275,7 +1279,7 @@ export default {
           "type": "list",
           "items": [
             "Stufen Sie die Holzart dort herab, wo es nicht auffällt — dunkel gebeizte Paulownia liest sich nahezu wie Walnuss zu einem Bruchteil der Kosten.",
-            "Wählen Sie einen [Schiebedeckel](/products/sliding-lid) statt Scharnier oder Magnet, wenn der Anwendungsfall es zulässt — er ist am günstigsten zu montieren.",
+            "Wählen Sie einen Schiebedeckel statt Scharnier oder Magnet, wenn der Anwendungsfall es zulässt — er ist am günstigsten zu montieren.",
             "Vereinfachen Sie das Finish: eine Schicht lebensmittelechter Lack statt Klavierlack-Hochglanz.",
             "Optimieren Sie die Abmessungen auf den Versandkarton und den Container — verschwendete Luft ist verschwendete Fracht.",
             "Verwenden Sie Lasergravur statt Heißfolie oder Vollfarbdruck für das Branding.",
@@ -1311,6 +1315,7 @@ export default {
       "category": "Strategie",
       "readTime": "13 Min. Lesezeit",
       "body": [
+        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [OEM vs. ODM: Welches ist das Richtige für Ihr Holzkisten projekt?](/blog/oem-vs-odm-wooden-boxes).' },
         {
           "type": "p",
           "text": "Als mich die Einkaufsleiterin eines Helsinki-Geschenkfachhändlers das erste Mal fragte, wie man maßgefertigte Holzboxen aus China bezieht, hatte sie bereits in 18 Monaten zwei Lieferanten durchlaufen. Der erste hatte 3,20 USD pro Stück angeboten, ihr Werkzeugbudget kassiert und Boxen mit so variablem Feuchtigkeitsgehalt geliefert, dass 14 % der Bestellung mit Rissen ankamen. Der zweite war fachlich kompetent, kommunizierte aber nur in vagen WeChat-Antworten und verpasste ihr Weihnachtsfenster um sechs Wochen. Sie war kurz davor, chinesische Lieferanten ganz aufzugeben."
@@ -1362,7 +1367,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die meiste seriöse B2B-Beschaffung findet hier statt. Eine Spezialfabrik (fokussiert auf Paulownia, Kiefer, Bambus, Akazie, Walnuss — wählen Sie eine oder zwei Holzarten) betreibt ihren eigenen Produktionsstandort und kombiniert ihn mit einem Vertriebsbüro in einem Export-Hub wie Xiamen, Shenzhen oder Shanghai. Die Fabrik übernimmt die Fertigung; das Vertriebsbüro übernimmt Dokumentation, Musterkoordination, Kommunikation und die unspektakuläre Logistik, die aus einer Palette Boxen etwas macht, das beim Zoll durchgeht. Unsere eigene Struktur — eine 20.000 m² große Produktionsstätte in Cao County, Shandong und ein Vertriebsbüro in Xiamen, Fujian — fällt in diese Kategorie, und es ist das Modell, das das vorhersehbarste Ergebnis für Käufer liefert, die nachbestellen wollen."
+          "text": "Die meiste seriöse B2B-Beschaffung findet hier statt. Eine Spezialfabrik (fokussiert auf Paulownia, Kiefer, Bambus, Akazie, Walnuss — wählen Sie eine oder zwei Holzarten) betreibt ihren eigenen Produktionsstandort und kombiniert ihn mit einem Vertriebsbüro in einem Export-Hub wie Xiamen, Shenzhen oder Shanghai. Die Fabrik übernimmt die Fertigung; das Vertriebsbüro übernimmt Dokumentation, Musterkoordination, Kommunikation und die unspektakuläre Logistik, die aus einer Palette Boxen etwas macht, das beim Zoll durchgeht. Unsere eigene Struktur — eine 20.000 m² große Produktionsstätte in Cao County, Shandong und ein Vertriebsbüro in Xiamen, Fujian — fällt in diese Kategorie, und es ist das Modell, das das vorhersehbarste Ergebnis für Käufer liefert, die nachbestellen wollen. Die Optionen finden Sie unter [Kapazitäten](/capabilities)."
         },
         {
           "type": "h3",
@@ -1370,7 +1375,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Am oberen Ende finden Sie kleine Werkstätten, die 300-Stück-Serien aus massivem Walnussholz für Uhrenboxen oder handgravierte Erbstücke produzieren. Lieferzeiten sind lang, Stückpreise hoch, und sie sind nicht für Skalierung gebaut — aber sie sind diejenigen, die Sie für limitierte Editionen und Luxus-Launches wollen, bei denen jedes Detail persönlich abgenommen wird."
+          "text": "Am oberen Ende finden Sie kleine Werkstätten, die 300-Stück-Serien aus massivem Walnussholz für Uhrenboxen oder handgravierte Erbstücke produzieren. Lieferzeiten sind lang, Stückpreise hoch, und sie sind nicht für Skalierung gebaut — aber sie sind diejenigen, die Sie für limitierte Editionen und Luxus-Launches wollen, bei denen jedes Detail persönlich abgenommen wird. Ein Produktbeispiel finden Sie unter [Drei-Uhren-Präsentationskasten](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "p",
@@ -1403,7 +1408,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "\"Typisch\" verrät Ihnen den kommerziellen Sweet Spot; \"Mindest\" verrät Ihnen, ob Sie einen Testlauf machen können, bevor Sie sich für eine ganze Saison verpflichten. Für die meisten maßgefertigten Holzboxen liegt die typische MOQ bei 500–1.000 Stück; Mindest-MOQs für Erstbestellungen oder einfachere Spezifikationen können bei 100–300 liegen. Wenn ein Lieferant sich weigert, etwas unter 1.000 zu offerieren, ist er wahrscheinlich nicht auf inkrementelles Testen ausgelegt — okay für etablierte Linien, riskant für einen neuen Produkt-Launch."
+          "text": "\"Typisch\" verrät Ihnen den kommerziellen Sweet Spot; \"Mindest\" verrät Ihnen, ob Sie einen [Testlauf](/blog/low-moq-sampling-strategy) machen können, bevor Sie sich für eine ganze Saison verpflichten. Für die meisten maßgefertigten Holzboxen liegt die typische MOQ bei 500–1.000 Stück; Mindest-MOQs für Erstbestellungen oder einfachere Spezifikationen können bei 100–300 liegen. Wenn ein Lieferant sich weigert, etwas unter 1.000 zu offerieren, ist er wahrscheinlich nicht auf inkrementelles Testen ausgelegt — okay für etablierte Linien, riskant für einen neuen Produkt-Launch."
         },
         {
           "type": "h3",
@@ -1419,7 +1424,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Gute Fabriken bemustern jedes neue Design, bevor sie Vollproduktion anbieten. Die Musterkosten variieren — von kostenlos für etablierte Käufer bis 80–200 USD pro Stück für einmalige komplexe Bauten — aber das Prinzip ist nicht verhandelbar: Sie sollten nie eine 5.000-Stück-Bestellung allein auf Basis eines CAD-Renders genehmigen. Seien Sie misstrauisch bei Lieferanten, die sich gegen physische Muster wehren oder Formkosten berechnen, die verdächtig nach Handelsgesellschafts-Aufschlag aussehen."
+          "text": "Gute Fabriken bemustern jedes neue Design, bevor sie Vollproduktion anbieten. Die [Musterkosten](/blog/custom-wooden-box-cost-2026) variieren — von kostenlos für etablierte Käufer bis 80–200 USD pro Stück für einmalige komplexe Bauten — aber das Prinzip ist nicht verhandelbar: Sie sollten nie eine 5.000-Stück-Bestellung allein auf Basis eines CAD-Renders genehmigen. Seien Sie misstrauisch bei Lieferanten, die sich gegen physische Muster wehren oder Formkosten berechnen, die verdächtig nach Handelsgesellschafts-Aufschlag aussehen."
         },
         {
           "type": "img",
@@ -1440,7 +1445,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Permanente Zertifizierungen und auftragsbezogene Dokumente sind zwei verschiedene Dinge. ISO 9001 ist eine permanente Management-System-Zertifizierung, die für die gesamte Fabrik gilt. FSC, CARB und EU REACH werden meist pro Auftrag angewendet: Das in Ihrer spezifischen Serie verwendete Holz wird so beschafft und dokumentiert, dass es dem Standard entspricht. Fragen Sie den Lieferanten, was er permanent hält und was er für Ihre Bestellung dokumentieren kann. Widersprüchliche Antworten hier sind das häufigste Warnzeichen für Ärger."
+          "text": "Permanente [Zertifizierungen](/blog/sustainable-sourcing-2026) und auftragsbezogene Dokumente sind zwei verschiedene Dinge. ISO 9001 ist eine permanente Management-System-Zertifizierung, die für die gesamte Fabrik gilt. FSC, CARB und EU REACH werden meist pro Auftrag angewendet: Das in Ihrer spezifischen Serie verwendete Holz wird so beschafft und dokumentiert, dass es dem Standard entspricht. Fragen Sie den Lieferanten, was er permanent hält und was er für Ihre Bestellung dokumentieren kann. Widersprüchliche Antworten hier sind das häufigste Warnzeichen für Ärger."
         },
         {
           "type": "h3",
@@ -1469,11 +1474,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Praktisches Beispiel: Ein Berliner Geschenkfachhändler fragte uns kürzlich nach 1.200 Walnuss-Teeboxen zu einem Zielstückpreis von 4,80 USD bei 28 Tagen Lieferzeit. Unsere ehrliche Antwort war, dass 1.200 Stück sauber in den Sweet Spot fallen (unter 5 USD mit ordentlicher Ofentrocknung ist realistisch), aber 28 Tage funktionieren nur, wenn sie das Muster innerhalb von 5 Tagen genehmigt und die zweite Revisionsrunde überspringt. Sie tat es, und die Boxen wurden an Tag 32 versandt. Die Lektion ist die gleiche, die jeder erfahrene Käufer lernt: Die Stückkosten waren nie der Hebel — die Musterfreigabe-Uhr war es."
+          "text": "Praktisches Beispiel: Ein Berliner Geschenkfachhändler fragte uns kürzlich nach 1.200 Walnuss-Teeboxen zu einem Zielstückpreis von 4,80 USD bei 28 Tagen Lieferzeit. Unsere ehrliche Antwort war, dass 1.200 Stück sauber in den Sweet Spot fallen (unter 5 USD mit ordentlicher Ofentrocknung ist realistisch), aber 28 Tage funktionieren nur, wenn sie das Muster innerhalb von 5 Tagen genehmigt und die zweite Revisionsrunde überspringt. Sie tat es, und die Boxen wurden an Tag 32 versandt. Die Lektion ist die gleiche, die jeder erfahrene Käufer lernt: Die Stückkosten waren nie der Hebel — die Musterfreigabe-Uhr war es. Ein Produktbeispiel finden Sie unter [Akazien-Teebeutel-Box 8 Fächer](/products/tea-coffee/acacia-tea-bag-box-8-compartment)."
         },
         {
           "type": "p",
-          "text": "Lieferzeit sind zwei parallel laufende Uhren. Die erste ist Kalenderzeit: Ofentrocknung (5–14 Tage), Finish-Aushärtung (3–5 Tage) und Warten auf eine Export-Verschiffung (5–10 Tage von der Fabriktür zum Container Ihres Spediteurs). Die zweite ist tatsächliche Produktionszeit: meist 12–25 Minuten Arbeit pro Box, multipliziert mit Ihrer Bestellmenge. Kalenderzeit dominiert bei Bestellungen unter 5.000 Einheiten; Produktionszeit dominiert über 10.000. Eine typische 1.500-Stück-Maßserie aus unserer Anlage dauert 30–40 Tage Tür-zu-Tür."
+          "text": "Lieferzeit sind zwei parallel laufende Uhren. Die erste ist Kalenderzeit: Ofentrocknung (5–14 Tage), Finish-Aushärtung (3–5 Tage) und Warten auf eine Export-Verschiffung (5–10 Tage von der Fabriktür zum Container Ihres Spediteurs). Die zweite ist tatsächliche Produktionszeit: meist 12–25 Minuten Arbeit pro Box, multipliziert mit Ihrer Bestellmenge. Kalenderzeit dominiert bei Bestellungen unter 5.000 Einheiten; Produktionszeit dominiert über 10.000. Eine typische 1.500-Stück-Maßserie aus unserer Anlage dauert 30–40 Tage Tür-zu-Tür. Weitere Hinweise finden Sie unter [In unserem 6-stufigen Herstellungs prozess für Holzkisten](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "img",
@@ -1506,7 +1511,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Stückkosten sind die kleinste der drei Variablen, auf die Sie optimieren sollten. Diejenige, die am meisten schmerzt, wenn Sie sie falsch machen, ist Zuverlässigkeit — 0,30 USD Ersparnis pro Stück bei einer 2.000-Stück-Bestellung sind 600 USD. Die Kosten eines verpassten Einzelhandelsfensters sind die gesamte Marge dieser Saison. Lieferanten, die mit dem Preis vorangehen, sind nicht diejenigen, die nachbestellt werden."
+          "text": "Stückkosten sind die kleinste der drei Variablen, auf die Sie optimieren sollten. Diejenige, die am meisten schmerzt, wenn Sie sie falsch machen, ist Zuverlässigkeit — 0,30 USD Ersparnis pro Stück bei einer 2.000-Stück-Bestellung sind 600 USD. Die Kosten eines verpassten Einzelhandelsfensters sind die gesamte Marge dieser Saison. Lieferanten, die mit dem Preis vorangehen, sind nicht diejenigen, die nachbestellt werden. Die Optionen finden Sie unter [Leitfaden zu Holz, Oberflächen und Beschlägen](/material-guide)."
         },
         {
           "type": "h2",
@@ -1647,7 +1652,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Wenn Sie am Anfang dieser Reise stehen und ein spezifisches Design, MOQ, Material oder Compliance-Frage durchsprechen möchten, kann unser Team in Xiamen Sie direkt durchführen — senden Sie ein Briefing über die Seite /contact und wir antworten innerhalb eines Werktags mit einem Beispiel-Fabrikvideo und einem Dokumentationspaket. Wir versenden derzeit maßgefertigte Holzboxen an Marken in Deutschland, Italien, den USA, Großbritannien, Kanada und Polen über genau diesen Prozess. Sie können den Produktionskatalog unter /products durchstöbern, über unseren sechsstufigen Herstellungsprozess unter /blog/six-step-manufacturing-process lesen oder beim Materialleitfaden beginnen, falls Sie noch kein Holz gewählt haben (/material-guide)."
+          "text": "Wenn Sie am Anfang dieser Reise stehen und ein spezifisches Design, MOQ, Material oder Compliance-Frage durchsprechen möchten, kann unser Team in Xiamen Sie direkt durchführen — senden Sie ein Briefing über die Seite /contact und wir antworten innerhalb eines Werktags mit einem Beispiel-Fabrikvideo und einem Dokumentationspaket. Wir versenden derzeit maßgefertigte Holzboxen an Marken in Deutschland, Italien, den USA, Großbritannien, Kanada und Polen über genau diesen Prozess. Sie können den Produktionskatalog unter /products durchstöbern, über unseren sechsstufigen Herstellungsprozess unter /blog/six-step-manufacturing-process lesen oder beim Materialleitfaden beginnen, falls Sie noch kein Holz gewählt haben (/material-guide). Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
         }
       ]
     },
@@ -1657,6 +1662,7 @@ export default {
       "category": "Prozess",
       "readTime": "11 min lesen",
       "body": [
+        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [Maßgefertigte Holzboxen aus China beziehen 2026: ein B2B-Beschaffungsleitfaden](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "Ein Käufer aus Amsterdam hat im vergangenen März unsere Fabrik in Cao County besucht. Er hatte zwei Jahre lang Tee boxen bei uns bestellt-ungefähr 18.000 Einheiten pro Jahr für seine Einzelhandel marke in den Niederlanden-, aber er hatte den Ort nie persönlich gesehen. Nachdem wir ihn am Flughafen von Heze abgeholt hatten, fuhren wir die 45 Minuten nach Osten, fuhren gegen zehn Uhr morgens auf den Hof und parkten neben dem Holzpfahl."
@@ -1679,7 +1685,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Jeder Auftrag beginnt auf unserem Holzhof. Paulo wnia, Kiefer, Bambus, Akazie, Walnuss und Eiche werden in überdachten, aber offenen Schuppen gelagert, die nach Arten und Sorten getrennt sind. Bevor ein Brett eine Säge berührt, muss es durch unsere Trocken öfen gehen und einen Feuchtigkeit gehalt von 8-12% (MC) erreichen."
+          "text": "Jeder Auftrag beginnt auf unserem Holzhof. Paulo wnia, Kiefer, Bambus, Akazie, Walnuss und Eiche werden in überdachten, aber offenen Schuppen gelagert, die nach Arten und Sorten getrennt sind. Bevor ein Brett eine Säge berührt, muss es durch unsere Trocken öfen gehen und einen Feuchtigkeit gehalt von 8-12% (MC) erreichen. Die Optionen finden Sie unter [Leitfaden zu Holz, Oberflächen und Beschlägen](/material-guide)."
         },
         {
           "type": "p",
@@ -1687,7 +1693,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Unsere Öfen laufen bei 60-80 ° C mit kontrollierter Luft feuchtigkeit für 7 bis 21 Tage, je nach Brett dicke und Art. Walnuss und Eiche brauchen am längsten, weil sie dicht sind; Paulo wnia trocknet am schnellsten, weil es leicht ist. Jedes Board wird mit einem Feuchtigkeit messer im Pin-Stil überprüft, bevor es den Ofen verlässt, und die Messwerte werden protokoll iert."
+          "text": "Unsere Öfen laufen bei 60-80 ° C mit kontrollierter Luft feuchtigkeit für 7 bis 21 Tage, je nach Brett dicke und Art. Walnuss und Eiche brauchen am längsten, weil sie dicht sind; Paulo wnia trocknet am schnellsten, weil es leicht ist. Jedes Board wird mit einem Feuchtigkeit messer im Pin-Stil überprüft, bevor es den Ofen verlässt, und die Messwerte werden protokoll iert. Weitere Hinweise finden Sie unter [Leitfaden zur Holzstärke](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "p",
@@ -1712,7 +1718,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Für eine benutzer definierte Bestellung programmieren wir die Sägen direkt aus Ihrer CAD-Datei oder aus unserem internen 3D-Modell. Jedes Teil wird auf die Spezifikation geschnitten-Seiten, oben, unten, Basis, Deckel rahmen, Deckel platte, Trennwände-ohne Augen auflagen und ohne Rätsel raten. Unsere Nist software ordnet die Teile auf jeder Platine an, um den Abschnitt zu minimieren, und erreicht in der Regel eine Material ausbeute von 88-92%. Offcuts gehen an eine Schwester einrichtung, in der Holz perlen, Griffe und kleine gedrehte Komponenten hergestellt werden, sodass fast nichts die Deponie erreicht."
+          "text": "Für eine benutzer definierte Bestellung programmieren wir die Sägen direkt aus Ihrer CAD-Datei oder aus unserem internen 3D-Modell. Jedes Teil wird auf die Spezifikation geschnitten-Seiten, oben, unten, Basis, Deckel rahmen, Deckel platte, Trennwände-ohne Augen auflagen und ohne Rätsel raten. Unsere Nist software ordnet die Teile auf jeder Platine an, um den Abschnitt zu minimieren, und erreicht in der Regel eine Material ausbeute von 88-92%. Offcuts gehen an eine Schwester einrichtung, in der Holz perlen, Griffe und kleine gedrehte Komponenten hergestellt werden, sodass fast nichts die Deponie erreicht. Verfügbare Ausführungen finden Sie in der Kategorie [Geschenk- und Verpackungsboxen](/products/gift-packaging)."
         },
         {
           "type": "p",
@@ -1724,7 +1730,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "In Schritt 3 nehmen Boxen ihre Persönlichkeit auf. CNC-Fräser bewältigen jeden Schnitt, der keine gerade Linie ist: abgeschrägte und abgerundete Kanten, Dado-Rillen für Gleit deckel, Einschnitt für Scharniere und Schlösser, Finger gelenke und Schobben schwänze für Seiten, Schlitze für Innenteiler."
+          "text": "In Schritt 3 nehmen Boxen ihre Persönlichkeit auf. CNC-Fräser bewältigen jeden Schnitt, der keine gerade Linie ist: abgeschrägte und abgerundete Kanten, Dado-Rillen für Gleit [deckel](/blog/wooden-box-closure-types-compared), Einschnitt für Scharniere und Schlösser, Finger gelenke und Schobben schwänze für Seiten, Schlitze für Innenteiler."
         },
         {
           "type": "p",
@@ -1745,7 +1751,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Bevor Klebstoff oder Beschläge eingehen, wird jeder Teil der Box trocken montiert, um zu bestätigen, dass die Tischlerei fest ist, die Deckel flach schließen und die Schubladen reibungslos gleiten. Das klingt offen sichtlich, aber die meisten Fabriken der unteren Enden überspringen es-sie gehen direkt von geschnittenen Teilen zum Aufkleben und hoffen auf das Beste."
+          "text": "Bevor Klebstoff oder [Beschläge](/blog/wooden-box-hardware-guide) eingehen, wird jeder Teil der Box trocken montiert, um zu bestätigen, dass die Tischlerei fest ist, die Deckel flach schließen und die Schubladen reibungslos gleiten. Das klingt offen sichtlich, aber die meisten Fabriken der unteren Enden überspringen es-sie gehen direkt von geschnittenen Teilen zum Aufkleben und hoffen auf das Beste."
         },
         {
           "type": "p",
@@ -1781,7 +1787,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Wahl zum Ziel hängt von der Box ab. Lebensmittels icherer Lack für Tee boxen, Gewürz regale und Brot behälter. Bienenwachs oder Mineralöl zum Schneiden von Brettern und Servier boxen. Wasser basierter Lack (VOC-arm, EU REACH und US CARB P2 konform) für den allgemeinen Gebrauch. Premium-Walnuss und Eiche erhalten Öl wachs für diesen hand gefertigten Look, mit dem maschinen aufgetragene Oberflächen nicht mithalten können."
+          "text": "Die Wahl zum Ziel hängt von der Box ab. Lebensmittels icherer Lack für Tee boxen, Gewürz regale und Brot behälter. Bienenwachs oder Mineralöl zum Schneiden von Brettern und Servier boxen. Wasser basierter Lack (VOC-arm, EU REACH und US CARB P2 konform) für den allgemeinen Gebrauch. Premium-Walnuss und Eiche erhalten Öl wachs für diesen hand gefertigten Look, mit dem maschinen aufgetragene Oberflächen nicht mithalten können. Weitere Hinweise finden Sie unter [5 Finishing-Techniken, die verändern, wie eine Holzkiste aussieht und sich anfühlt](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "p",
@@ -1814,7 +1820,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Auf dem Holzhof gemacht. Bretter, die zu nass, zu verzogen sind oder inakzeptable Knoten, Splits oder Farb variationen aufweisen, treten niemals in den Produktions strom ein. Etwa 5-8% des eingehenden Holzes werden zu diesem Zeitpunkt abgelehnt und an den Lieferanten zurück gegeben."
+          "text": "Auf dem Holzhof gemacht. Bretter, die zu nass, zu verzogen sind oder inakzeptable Knoten, Splits oder Farb variationen aufweisen, treten niemals in den Produktions strom ein. Etwa 5-8% des eingehenden Holzes werden zu diesem Zeitpunkt abgelehnt und an den Lieferanten zurück gegeben. Weitere Hinweise finden Sie unter [So wählen Sie das richtige Holz für Geschenk verpackungen](/blog/choosing-wood-for-gift-packaging)."
         },
         {
           "type": "h3",
@@ -1834,7 +1840,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sobald die Kartons die endgültige Qualitäts kontrolle bestanden haben, werden sie in Taschen tücher oder Poly beutel eingewickelt, in einzelne Einzelhandel kartons oder Massen kartons verpackt, palettiert und mit dem vollständigen Export dokumentation paket beladen: Handels rechnung mit HS-Codes, Pack liste mit Aufschlüsse lung von Karton zu Karton, Pflanzens chutz besch einigung für Massivholz, ursprungs zeugnis, Und Frachtbrief."
+          "text": "Sobald die Kartons die endgültige Qualitäts kontrolle bestanden haben, werden sie in Taschen tücher oder Poly beutel eingewickelt, in einzelne Einzelhandel kartons oder Massen kartons verpackt, palettiert und mit dem vollständigen Export dokumentation paket beladen: Handels rechnung mit HS-Codes, Pack liste mit Aufschlüsse lung von Karton zu Karton, Pflanzens chutz besch einigung für Massivholz, ursprungs zeugnis, Und Frachtbrief. Weitere Hinweise finden Sie unter [Entwerfen von Holz verpackungen für Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "p",
@@ -1926,7 +1932,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Und je besser die Gespräche Sie mit uns führen können, wenn etwas nicht richtig aussieht-denn in der Fertigung sieht etwas letztendlich immer nicht richtig aus, und wie es repariert wird, definiert eine echte Partnerschaft."
+          "text": "Und je besser die Gespräche Sie mit uns führen können, wenn etwas nicht richtig aussieht-denn in der Fertigung sieht etwas letztendlich immer nicht richtig aus, und wie es repariert wird, definiert eine echte Partnerschaft. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
         }
       ]
     },
@@ -1936,6 +1942,7 @@ export default {
       "category": "Materialien",
       "readTime": "10 min lesen",
       "body": [
+        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [Leitfaden zu Holz, Oberflächen und Beschlägen](/material-guide).' },
         {
           "type": "p",
           "text": "Die Holz auswahl ist die größte Entscheidung in jedem Geschenk verpackungs projekt. Es treibt die Stückkosten, die Frachtkosten, die End qualität, die wahrgenommene Premium-Qualität, die Recycling fähigkeit am Lebens ende und die Art und Weise, wie die Box in der Hand des Kunden liest. Manchmal ist es wichtiger als das Design selbst."
@@ -1954,7 +1961,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die meisten Käufer konzentrieren sich auf die Material kosten pro Brett fuß. Das ist die falsche Zahl. Bei den meisten Geschenk verpackungs projekten, die aus China geliefert werden, dominiert die Fracht komponente-insbesondere bei sperrigen Einzelhandel boxen, die LCL oder über Amazon FBA geliefert werden."
+          "text": "Die meisten Käufer konzentrieren sich auf die Material kosten pro Brett fuß. Das ist die falsche Zahl. Bei den meisten Geschenk verpackungs projekten, die aus China geliefert werden, dominiert die Fracht komponente-insbesondere bei sperrigen Einzelhandel boxen, die LCL oder über Amazon FBA geliefert werden. Weitere Hinweise finden Sie unter [Was kosten maßgefertigte Holzboxen? Ein Großhandels- und OEM-Preisleitfaden für 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
@@ -1970,7 +1977,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Paulo wnia ist das leichteste kommerzielle Holz der Erde-eine Dichte von etwa 280 kg/m³, was ungefähr der Hälfte der Kiefer und einem Drittel der Eiche entspricht. Für großvolumige Geschenk verpackungen gewinnt es allein bei den Frachtkosten, bevor Sie eine andere Variable in Betracht ziehen."
+          "text": "Paulo wnia ist das leichteste kommerzielle Holz der Erde-eine Dichte von etwa 280 kg/m³, was ungefähr der Hälfte der Kiefer und einem Drittel der Eiche entspricht. Für großvolumige Geschenk verpackungen gewinnt es allein bei den Frachtkosten, bevor Sie eine andere Variable in Betracht ziehen. Verfügbare Ausführungen finden Sie in der Kategorie [Holzboxen aus Paulownia](/products/paulownia)."
         },
         {
           "type": "p",
@@ -1990,7 +1997,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Wald kiefer und Radiata-Kiefer geben Ihnen klassisches warmes Getreide zum niedrigsten Preis pro Brett fuß aller von uns auf Lager befindlichen Nadelhölzer. Wir arbeiten mit zwei Klassen: knoten freie Kiefer für saubere Einzelhandel verpackungen und rustikale knotige Kiefer für Wein im Kisten stil und Geschenk zum Thema Bauernhaus."
+          "text": "Wald [kiefer](/products/pine) und Radiata-Kiefer geben Ihnen klassisches warmes Getreide zum niedrigsten Preis pro Brett fuß aller von uns auf Lager befindlichen Nadelhölzer. Wir arbeiten mit zwei Klassen: knoten freie Kiefer für saubere Einzelhandel verpackungen und rustikale knotige Kiefer für Wein im Kisten stil und Geschenk zum Thema Bauernhaus."
         },
         {
           "type": "p",
@@ -2015,11 +2022,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Technisch gesehen ist Bambus ein Gras, kein Baum. Es wächst in 5-7 Jahren gegenüber 30-60 Jahren für Hartholz nach, was es zum wirklich erneuer barsten Struktur material der Welt macht. Für Marken mit einer expliziten Öko-Botschaft ist Bambus die einzige ehrliche Wahl."
+          "text": "Technisch gesehen ist [Bambus](/products/bamboo) ein Gras, kein Baum. Es wächst in 5-7 Jahren gegenüber 30-60 Jahren für Hartholz nach, was es zum wirklich erneuer barsten Struktur material der Welt macht. Für Marken mit einer expliziten Öko-Botschaft ist Bambus die einzige ehrliche Wahl."
         },
         {
           "type": "p",
-          "text": "Bambus ist auch von Natur aus anti bakteriell-was es zur Standard wahl für Küchen produkte, Bade zubehörteile und alles macht, was Lebensmittel oder Haut berührt. Es ist härter als Roteiche (Janka ~ 1380), wasser beständiger als die meisten Harthölzer und endet auf einer schönen Oberfläche aus warmem Gold oder karamell haltigem Karamell."
+          "text": "Bambus ist auch von Natur aus anti bakteriell-was es zur Standard wahl für Küchen produkte, Bade zubehörteile und alles macht, was Lebensmittel oder Haut berührt. Es ist härter als Roteiche (Janka ~ 1380), wasser beständiger als die meisten Harthölzer und endet auf einer schönen Oberfläche aus warmem Gold oder karamell haltigem Karamell. Weitere Hinweise finden Sie unter [Bambus vs. Akazie: Welches Holz für Küchen produkte?](/blog/bamboo-vs-acacia-kitchenware)."
         },
         {
           "type": "p",
@@ -2035,7 +2042,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Acacia ist der unterschätzte Held unseres Katalogs. Janka-Härte über 2300 (härter als Eiche), dramatisch wirbeln des Getreide mit schokoladen braunen Streifen, die durch warmes Honig-Kernholz laufen, und Preise, die weit unter Walnuss landen und gleichzeitig fast so hochwertig aussehen."
+          "text": "Acacia ist der unterschätzte Held unseres Katalogs. Janka-Härte über 2300 (härter als Eiche), dramatisch wirbeln des Getreide mit schokoladen braunen Streifen, die durch warmes Honig-Kernholz laufen, und Preise, die weit unter Walnuss landen und gleichzeitig fast so hochwertig aussehen. Verfügbare Ausführungen finden Sie in der Kategorie [Holzboxen aus Akazie](/products/acacia)."
         },
         {
           "type": "p",
@@ -2051,7 +2058,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Amerikanische schwarze Walnuss ist das begehrte ste Hartholz in der Geschenk industrie. Natürlich tiefe Schokoladen farbe (keine Färbung erforderlich), seidig glatte Oberfläche, die auf Glas poliert, und feine gerade Körnung, die Gravur und Inlay-Arbeit wunderbar macht."
+          "text": "Amerikanische schwarze [Walnuss](/products/walnut) ist das begehrte ste Hartholz in der Geschenk industrie. Natürlich tiefe Schokoladen farbe (keine Färbung erforderlich), seidig glatte Oberfläche, die auf Glas poliert, und feine gerade Körnung, die Gravur und Inlay-Arbeit wunderbar macht."
         },
         {
           "type": "p",
@@ -2154,7 +2161,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Kurz: 8.000 Einheiten, Lift-Off-Deckel-Box für eine Kerzen linie im Wert von 65 US-Dollar, Vertrieb von FBA Europe, minimalist ische Premium-Marken stimme. Budget: 4 USD pro Box, die im Lager von Amazon gelandet sind."
+          "text": "Kurz: 8.000 Einheiten, Lift-Off-Deckel-Box für eine Kerzen linie im Wert von 65 US-Dollar, Vertrieb von FBA Europe, minimalist ische Premium-Marken stimme. Budget: 4 USD pro Box, die im Lager von Amazon gelandet sind. Weitere Hinweise finden Sie unter [Entwerfen von Holz verpackungen für Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "p",
@@ -2229,7 +2236,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Das Herkunfts land ist weniger wichtig als die Rück verfolgbar keit des Lieferanten. In China angebaute Paulo wnia, Bambus und Akazien sind alle von hoher Qualität mit etablierten Plantagen versorgungs ketten. Walnuss, Eiche und Buche importieren wir normaler weise aus Nordamerika oder Europa in unsere Veredelung fabrik in Cao County. Fragen Sie Ihre Fabrik nach Quellen dokumenten für jede Art-das ist wichtiger als das Land, das das Holz verarbeitet hat."
+          "text": "Das Herkunfts land ist weniger wichtig als die Rück verfolgbar keit des Lieferanten. In China angebaute Paulo wnia, Bambus und Akazien sind alle von hoher Qualität mit etablierten Plantagen versorgungs ketten. Walnuss, Eiche und Buche importieren wir normaler weise aus Nordamerika oder Europa in unsere Veredelung fabrik in Cao County. Fragen Sie Ihre Fabrik nach Quellen dokumenten für jede Art-das ist wichtiger als das Land, das das Holz verarbeitet hat. Weitere Hinweise finden Sie unter [Unsere nachhaltigen Beschaffungs praktiken im Jahr 2026](/blog/sustainable-sourcing-2026)."
         },
         {
           "type": "h3",
@@ -2237,7 +2244,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ja, häufig. Walnuss rahmen Paulownia-Basis, Akazien griffe aus Bambus körper, so etwas. Boxen mit gemischten Arten können ein Preis-/Aussehen-Gleichgewicht erreichen, das keine Art allein erreichen würde. Der Haken ist, dass sich verschiedene Arten mit unterschied lichen Raten ausdehnen und zusammenziehen-für Kisten, die zu extremen Klimas chwankungen transport iert werden, kann der Bau gemischter Arten Gelenks pannung verursachen. Wir entwerfen dies gegebenen falls mit schwimmender Paneel konstruktion."
+          "text": "Ja, häufig. Walnuss rahmen Paulownia-Basis, Akazien griffe aus Bambus körper, so etwas. Boxen mit gemischten Arten können ein Preis-/Aussehen-Gleichgewicht erreichen, das keine Art allein erreichen würde. Der Haken ist, dass sich verschiedene Arten mit unterschied lichen Raten ausdehnen und zusammenziehen-für Kisten, die zu extremen Klimas chwankungen transport iert werden, kann der Bau gemischter Arten Gelenks pannung verursachen. Wir entwerfen dies gegebenen falls mit schwimmender Paneel konstruktion. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
         },
         {
           "type": "quote",
@@ -2251,6 +2258,7 @@ export default {
       "category": "Design",
       "readTime": "11 Minuten Lesezeit",
       "body": [
+        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [EVA, EPE, Samt oder Filz: das richtige Inlay für Holzboxen](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide).' },
         {
           "type": "p",
           "text": "Uhren boxen aus Holz sind die anspruchs vollste Kategorie, die wir herstellen. Uhren käufer drehen die Schachtel zehnmal in ihren Händen um, bevor sie jemals die Uhr berühren. Sie werden einen Fingernagel entlang der Deckel kante laufen lassen. Sie werden das Futter riechen. Sie schließen den Deckel und hören auf den Schnapp schuss. Sie bemerken alles."
@@ -2269,7 +2277,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ein Deckel, der an einer Ecke sogar 0,5mm spalt, tötet die wahrgenommene Qualität der gesamten Box. Es spielt keine Rolle, wie schön das Holz ist oder wie schön sich das Futter anfühlt-ein klappiger Deckel liest sich als billig."
+          "text": "Ein Deckel, der an einer Ecke sogar 0,5mm spalt, tötet die wahrgenommene Qualität der gesamten Box. Es spielt keine Rolle, wie schön das Holz ist oder wie schön sich das Futter anfühlt-ein klappiger Deckel liest sich als billig. Verfügbare Ausführungen finden Sie in der Kategorie [Holzboxen mit Scharnier](/products/hinged)."
         },
         {
           "type": "p",
@@ -2285,7 +2293,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sichtbare Messings ch arniere sehen traditionell aus und eignen sich gut für einige Marken-Vintage-Geschenk artikel, Traditions uhrmacher, alles mit einer \"klassischen\" Stimme. Für ein modernes Luxus gefühl sind verdeckte europäische Scharniere mit einem Soft-Close-Mechanismus der Standard."
+          "text": "Sichtbare Messings ch arniere sehen traditionell aus und eignen sich gut für einige Marken-Vintage-Geschenk artikel, Traditions uhrmacher, alles mit einer \"klassischen\" Stimme. Für ein modernes Luxus gefühl sind verdeckte europäische [Scharniere](/blog/wooden-box-hardware-guide) mit einem Soft-Close-Mechanismus der Standard."
         },
         {
           "type": "p",
@@ -2317,7 +2325,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sieht auf Fotos luxuriös aus. Im wirklichen Leben nimmt es innerhalb von Wochen Finger abdrücke, Flusen und Uhren staub auf. Wir empfehlen Samt nur für einmalige Geschenke, bei denen die Box nach dem Unboxing in einer Schublade lebt."
+          "text": "Sieht auf Fotos luxuriös aus. Im wirklichen Leben nimmt es innerhalb von Wochen Finger abdrücke, Flusen und Uhren staub auf. Wir empfehlen Samt nur für einmalige Geschenke, bei denen die Box nach dem Unboxing in einer Schublade lebt. Verfügbare Ausführungen finden Sie in der Kategorie [Uhren- und Schmuckboxen](/products/watch-jewelry)."
         },
         {
           "type": "h3",
@@ -2342,7 +2350,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Messing für traditionelle. Chrome für den Sport. Mattschwarz für moderne. Antikes Messing für Vintage. Hardware-Finish gehört zum Marken vokabular-die falsche Wahl und die Box liest sich als verwirrt."
+          "text": "Messing für traditionelle. Chrome für den Sport. Mattschwarz für moderne. Antikes Messing für Vintage. Hardware-Finish gehört zum Marken vokabular-die falsche Wahl und die Box liest sich als verwirrt. Weitere Hinweise finden Sie unter [5 Finishing-Techniken, die verändern, wie eine Holzkiste aussieht und sich anfühlt](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "p",
@@ -2354,11 +2362,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Walnuss ist die Standard einstellung für Premium-Uhren boxen-der tiefe Schokoladen ton, die feine gerade Maserung und die seidige Oberflächen oberfläche verstärken die luxuriöse Position ierung. Es ist auch das teuerste Material, das wir anbieten. Für den großvolumigen Einzelhandel liefert MDF, das mit Walnuss furniert ist, den größten Teil des Visuellen ohne die Kosten (und mit einer besseren Dimensions stabilität für den Versand)."
+          "text": "[Walnuss](/products/walnut) ist die Standard einstellung für Premium-Uhren boxen-der tiefe Schokoladen ton, die feine gerade Maserung und die seidige Oberflächen oberfläche verstärken die luxuriöse Position ierung. Es ist auch das teuerste Material, das wir anbieten. Für den großvolumigen Einzelhandel liefert MDF, das mit Walnuss furniert ist, den größten Teil des Visuellen ohne die Kosten (und mit einer besseren Dimensions stabilität für den Versand)."
         },
         {
           "type": "p",
-          "text": "Für mittels tän dische Marken bietet Akazie dramatisches Getreide zu vernünftigen Kosten. Für Sport-/Outdoor-Uhrenmarken liest sich Eiche mit mattem Finish als robust-Premium. Bambus für umwelt freundliche Uhrenmarken-immer beliebter bei Outdoor-Marken im Patagonia-Stil, die in Uhren wechseln."
+          "text": "Für mittels tän dische Marken bietet Akazie dramatisches Getreide zu vernünftigen Kosten. Für Sport-/Outdoor-Uhrenmarken liest sich Eiche mit mattem Finish als robust-Premium. Bambus für umwelt freundliche Uhrenmarken-immer beliebter bei Outdoor-Marken im Patagonia-Stil, die in Uhren wechseln. Weitere Hinweise finden Sie unter [So wählen Sie das richtige Holz für Geschenk verpackungen](/blog/choosing-wood-for-gift-packaging)."
         },
         {
           "type": "p",
@@ -2390,7 +2398,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Bei Multi-Watch-Hüllen (3, 6, 10, 12, 24-Uhr-Konfigurationen) geht es um Lagerung und Anzeige, nicht um Geschenk. Sie verkaufen an Sammler und als B2B-Möbel für Einzelhandel theken. Die Herausforderung bei Multi-Watch-Boxen besteht darin, sicher zustellen, dass jeder Uhren schlitz einzeln als Premium angezeigt wird-was bedeutet, dass echte Wände zwischen den Schlitzen vorhanden sind, nicht nur eine einzelne Schaumstoff schale mit Ausschnitten."
+          "text": "Bei Multi-Watch-Hüllen (3, 6, 10, 12, 24-Uhr-Konfigurationen) geht es um Lagerung und Anzeige, nicht um Geschenk. Sie verkaufen an Sammler und als B2B-Möbel für Einzelhandel theken. Die Herausforderung bei Multi-Watch-Boxen besteht darin, sicher zustellen, dass jeder Uhren schlitz einzeln als Premium angezeigt wird-was bedeutet, dass echte Wände zwischen den Schlitzen vorhanden sind, nicht nur eine einzelne Schaumstoff schale mit Ausschnitten. Weitere Hinweise finden Sie unter [Holz-Aufbewahrungsboxen mit herausnehmbaren Trennwänden: der Einkaufsratgeber](/blog/custom-wooden-storage-boxes-with-removable-dividers-buyers-guide). Ein Produktbeispiel finden Sie unter [Drei-Uhren-Präsentationskasten](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "p",
@@ -2562,7 +2570,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Wenn Sie zum ersten Mal Uhren boxen beziehen, empfehlen wir dringend, einen 50-teiligen Probelauf zu bestellen, bevor Sie sich auf das Volumen festlegen. Nehmen Sie die Kisten persönlich auseinander, führen Sie den Deckel durch 200 Open-Close-Zyklen, lassen Sie einen von der Schreibtisch höhe fallen und lassen Sie einen eine Woche lang im Kofferraum Ihres Autos. Die Boxen, die überleben, sind die Boxen, die Ihre Kunden überleben werden."
+          "text": "Wenn Sie zum ersten Mal Uhren boxen beziehen, empfehlen wir dringend, einen 50-teiligen Probelauf zu bestellen, bevor Sie sich auf das Volumen festlegen. Nehmen Sie die Kisten persönlich auseinander, führen Sie den Deckel durch 200 Open-Close-Zyklen, lassen Sie einen von der Schreibtisch höhe fallen und lassen Sie einen eine Woche lang im Kofferraum Ihres Autos. Die Boxen, die überleben, sind die Boxen, die Ihre Kunden überleben werden. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
         }
       ]
     },
@@ -2572,6 +2580,7 @@ export default {
       "category": "Nachhaltigkeit",
       "readTime": "9 min lesen",
       "body": [
+        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [Maßgefertigte Holzboxen aus China beziehen 2026: ein B2B-Beschaffungsleitfaden](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "Nachhaltig keit war früher eine Marketing linie. Heute handelt es sich um eine Beschaffungs anforderung der meisten europäischen, japanischen und Amazon-Marken, die wir bedienen-eine Reihe spezifischer Zertifizie rungen, Dokumente und Lieferanten prüfungen, die vor dem Versand von Boxen geklärt werden müssen."
@@ -2586,7 +2595,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Jede Art in unserem Katalog-Paulo wnia, Kiefer, Bambus, Akazie, Walnuss und Eiche-ist auf Anfrage mit der FSC-Zertifizierung (Forest Stewardship Council) erhältlich. Wir verfügen über die FSC-Sorgerecht kette über unsere Holz lieferanten, was bedeutet, dass die Rück verfolgbar keit vom Wald bestand oder der Plantage bis zu Ihrem Versand behälter dokumentiert ist."
+          "text": "Jede Art in unserem Katalog-Paulo wnia, Kiefer, Bambus, Akazie, Walnuss und Eiche-ist auf Anfrage mit der FSC-Zertifizierung (Forest Stewardship Council) erhältlich. Wir verfügen über die FSC-Sorgerecht kette über unsere Holz lieferanten, was bedeutet, dass die Rück verfolgbar keit vom Wald bestand oder der Plantage bis zu Ihrem Versand behälter dokumentiert ist. Weitere Hinweise finden Sie unter [So wählen Sie das richtige Holz für Geschenk verpackungen](/blog/choosing-wood-for-gift-packaging)."
         },
         {
           "type": "p",
@@ -2606,7 +2615,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Paulo wnia ist das, was die holz verarbeitende Industrie einem erneuerbaren Holz am nächsten kommt. Die Bäume reifen in 5-7 Jahren (gegenüber 30-60 Jahren für Eiche oder Walnuss), und fast alle kommerziellen Paulo wnia werden eher auf Plantagen angebaut als aus natürlichen Wäldern geerntet."
+          "text": "Paulo wnia ist das, was die holz verarbeitende Industrie einem erneuerbaren Holz am nächsten kommt. Die Bäume reifen in 5-7 Jahren (gegenüber 30-60 Jahren für Eiche oder Walnuss), und fast alle kommerziellen Paulo wnia werden eher auf Plantagen angebaut als aus natürlichen Wäldern geerntet. Verfügbare Ausführungen finden Sie in der Kategorie [Holzboxen aus Paulownia](/products/paulownia)."
         },
         {
           "type": "p",
@@ -2627,7 +2636,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Flüchtige organische Verbindungen (VOCs) sind die abgasenden Chemikalien, die den \"neuen Kasten geruch\" erzeugen-und die in höheren Konzentrationen zu Problemen bei der Luftqualität in Innenräumen beitragen. Standard-Nitrocellulose-Lacke, die die billigste End option darstellen, können in Mengen abgasen, die die EU-REACH-und US-CARB-Phase-2-Grenzwerte nicht überschreiten."
+          "text": "Flüchtige organische Verbindungen (VOCs) sind die abgasenden Chemikalien, die den \"neuen Kasten geruch\" erzeugen-und die in höheren Konzentrationen zu Problemen bei der Luftqualität in Innenräumen beitragen. Standard-Nitrocellulose-Lacke, die die billigste End option darstellen, können in Mengen abgasen, die die EU-REACH-und US-CARB-Phase-2-Grenzwerte nicht überschreiten. Weitere Hinweise finden Sie unter [5 Finishing-Techniken, die verändern, wie eine Holzkiste aussieht und sich anfühlt](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "p",
@@ -2647,7 +2656,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Holz abfälle sind das unsexy Thema Nachhaltig keit. Die meisten Fabriken erzeugen 18-25% Abfall abfälle aus ihren reduzierten Betrieben-Material, das bezahlt wird, aber für Biomasse wärme verbrannt oder auf Müll deponien verbracht wird."
+          "text": "Holz abfälle sind das unsexy Thema Nachhaltig keit. Die meisten Fabriken erzeugen 18-25% Abfall abfälle aus ihren reduzierten Betrieben-Material, das bezahlt wird, aber für Biomasse wärme verbrannt oder auf Müll deponien verbracht wird. Weitere Hinweise finden Sie unter [In unserem 6-stufigen Herstellungs prozess für Holzkisten](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "p",
@@ -2663,7 +2672,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Alle Massivholz lieferungen werden mit vom chinesischen Zoll ausgestellten Pflanzen gesundheits zertifikaten abgeliefert, die bestätigen, dass das Holz gemäß ISPM-15 Standards (dem internat ionalen Standard für Holz verpackungs material) behandelt und frei von Schädlingen ist. Dies ist für Lieferungen in die EU, in die USA, nach Australien, Japan und Korea von entscheidender Bedeutung. Ohne Phyto-Zertifikate kann Ihr Container im Zielhafen unter Quarantäne gestellt oder abgelehnt werden."
+          "text": "Alle Massivholz lieferungen werden mit vom chinesischen Zoll ausgestellten Pflanzen gesundheits zertifikaten abgeliefert, die bestätigen, dass das Holz gemäß ISPM-15 Standards (dem internat ionalen Standard für Holz verpackungs material) behandelt und frei von Schädlingen ist. Dies ist für Lieferungen in die EU, in die USA, nach Australien, Japan und Korea von entscheidender Bedeutung. Ohne Phyto-Zertifikate kann Ihr Container im Zielhafen unter Quarantäne gestellt oder abgelehnt werden. Die Optionen finden Sie unter [Kapazitäten](/capabilities)."
         },
         {
           "type": "p",
@@ -2703,7 +2712,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Plantage Paulo wnia. Der schnelle Nachwachsen zyklus und die sehr geringe Dichte (weniger Masse bedeutet weniger Energie beim Wachsen, Trocknen, Bearbeiten und Versenden) machen Paulo wnia zur Wahl mit dem niedrigsten Kohlenstoff pro Einheit, die wir anbieten. Für kohlenstoff bewusste Marken, die die Scope 3-Emissionen verfolgen, ist Paulo wnia fast immer die richtige Antwort."
+          "text": "Plantage Paulo wnia. Der schnelle Nachwachsen zyklus und die sehr geringe Dichte (weniger Masse bedeutet weniger Energie beim Wachsen, Trocknen, Bearbeiten und Versenden) machen Paulo wnia zur Wahl mit dem niedrigsten Kohlenstoff pro Einheit, die wir anbieten. Für kohlenstoff bewusste Marken, die die Scope 3-Emissionen verfolgen, ist Paulo wnia fast immer die richtige Antwort. Die Optionen finden Sie unter [Leitfaden zu Holz, Oberflächen und Beschlägen](/material-guide)."
         },
         {
           "type": "h3",
@@ -2711,7 +2720,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Bambus. Der 5-7-jährige Nachwachsen zyklus (gegenüber 30-60 Jahren für Hartholz) bedeutet, dass Bambus einen Netto-Walde rnte druck von null darstellt, wenn er von FSC-zertifizierten Plantagen stammt. Die Wurzelsysteme stabilisieren auch den Boden und verbessern degradiertes Land."
+          "text": "Bambus. Der 5-7-jährige Nachwachsen zyklus (gegenüber 30-60 Jahren für Hartholz) bedeutet, dass Bambus einen Netto-Walde rnte druck von null darstellt, wenn er von FSC-zertifizierten Plantagen stammt. Die Wurzelsysteme stabilisieren auch den Boden und verbessern degradiertes Land. Weitere Hinweise finden Sie unter [Bambus vs. Akazie: Welches Holz für Küchen produkte?](/blog/bamboo-vs-acacia-kitchenware)."
         },
         {
           "type": "h3",
@@ -2719,7 +2728,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Massivholz mit Öl-oder Wachs finish, kein Lack. Vollständig kompost ierbar am Ende des Lebens, zerfällt in normalem Boden innerhalb von 3-7 Jahren. Der Lack in Standard oberflächen verhindert die biologische Abbaubarkeit-nur für echte Cradle-to-Cradle-Produkte, Öl oder Wachs."
+          "text": "Massivholz mit Öl-oder Wachs finish, kein Lack. Vollständig kompost ierbar am Ende des Lebens, zerfällt in normalem Boden innerhalb von 3-7 Jahren. Der Lack in Standard oberflächen verhindert die biologische Abbaubarkeit-nur für echte Cradle-to-Cradle-Produkte, Öl oder Wachs. Verfügbare Ausführungen finden Sie in der Kategorie [Aufbewahrungsboxen](/products/storage)."
         },
         {
           "type": "h3",
@@ -2794,7 +2803,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Für Käufer, die uns gegenüber anderen Fabriken bewerten, empfehlen wir Ihnen, allen in Ihrer Short list dieselben Dokumentation fragen zu stellen: FSC-Zertifikat, REACH/CARB-Compliance-Berichte, Phyto-Registrierung und Prüfungs verlauf. Die Fabriken, die die Dokumente innerhalb von 48 Stunden produzieren können, sind die Fabriken, die die Praktiken tatsächlich leben. Alle anderen verkaufen Ihnen die Marketing version."
+          "text": "Für Käufer, die uns gegenüber anderen Fabriken bewerten, empfehlen wir Ihnen, allen in Ihrer Short list dieselben Dokumentation fragen zu stellen: FSC-Zertifikat, REACH/CARB-Compliance-Berichte, Phyto-Registrierung und Prüfungs verlauf. Die Fabriken, die die Dokumente innerhalb von 48 Stunden produzieren können, sind die Fabriken, die die Praktiken tatsächlich leben. Alle anderen verkaufen Ihnen die Marketing version. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
         }
       ]
     },
@@ -2804,6 +2813,7 @@ export default {
       "category": "Strategie",
       "readTime": "10 Minuten Lesezeit",
       "body": [
+        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [Warum ein 100-teiliges MOQ der klügste Weg ist, um zu beginnen](/blog/low-moq-sampling-strategy).' },
         {
           "type": "p",
           "text": "Die meisten Käufer lernen den Unterschied zwischen OEM und ODM auf die harte Tour. Normaler weise, nachdem ein Angebot doppelt so hoch ist wie erwartet, oder nachdem sich herausstellt, dass ein \"Stock\"-Design einen einjährigen Rückstand beim Lieferanten hat oder nachdem ein \"benutzer definiertes\" Design nicht wie das Rendering aussieht."
@@ -2818,7 +2828,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Original Equipment Manufac turing bedeutet, dass Sie das Design mitbringen und wir es produzieren. \"Bringing the Design\" kann alles bedeuten, von einer vollständig detaillierten CAD-Datei mit Materials pezifi kationen und Dimensions zeichnungen über eine Skizze auf einer Serviette bis hin zu einem Referenz muster, das Sie von einem Konkurrenten gekauft haben und das wir verbessern sollen."
+          "text": "Original Equipment Manufac turing bedeutet, dass Sie das Design mitbringen und wir es produzieren. \"Bringing the Design\" kann alles bedeuten, von einer vollständig detaillierten CAD-Datei mit Materials pezifi kationen und Dimensions zeichnungen über eine Skizze auf einer Serviette bis hin zu einem Referenz muster, das Sie von einem Konkurrenten gekauft haben und das wir verbessern sollen. Die Optionen finden Sie unter [Kapazitäten](/capabilities)."
         },
         {
           "type": "p",
@@ -2844,7 +2854,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Original Design Manufac turing bedeutet, dass Sie aus unserem bestehenden Katalog von 500 Holzkisten-Designs auswählen und wir passen Größe, Finish und Branding für Sie an. Das Basis design gehört uns; Die Oberfläche und die Marken identität gehören Ihnen."
+          "text": "Original Design Manufac turing bedeutet, dass Sie aus unserem bestehenden Katalog von 500 Holzkisten-Designs auswählen und wir passen Größe, Finish und Branding für Sie an. Das Basis design gehört uns; Die Oberfläche und die Marken identität gehören Ihnen. Verfügbare Ausführungen finden Sie in der Kategorie [Geschenk- und Verpackungsboxen](/products/gift-packaging)."
         },
         {
           "type": "p",
@@ -2870,7 +2880,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Für eine typische Geschenk box aus Holz mit 1.000 Einheiten ist hier ungefähr so, wie OEM und ODM vergleichen:"
+          "text": "Für eine typische Geschenk box aus Holz mit 1.000 Einheiten ist hier ungefähr so, wie OEM und ODM vergleichen: Weitere Hinweise finden Sie unter [Was kosten maßgefertigte Holzboxen? Ein Großhandels- und OEM-Preisleitfaden für 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "table",
@@ -2932,11 +2942,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "In einem ODM-Plus-Projekt wählt der Käufer ein Basis design aus unserem Katalog aus und ändert dann 2-3 Elemente: ein anderes Holz (Akazie statt Kiefer), ein benutzer definiertes Einfüge layout (5 Fächer anstelle unserer Standard ausstattung 4), ein ungewöhnliches externes Finish (mattschwarzer Lack anstelle von natürlichem Öl) oder modifizierte Hardware (Verdeckte magnetische statt sichtbarer Scharniere)."
+          "text": "In einem ODM-Plus-Projekt wählt der Käufer ein Basis design aus unserem Katalog aus und ändert dann 2-3 Elemente: ein anderes Holz (Akazie statt Kiefer), ein benutzer definiertes Einfüge layout (5 Fächer anstelle unserer Standard ausstattung 4), ein ungewöhnliches externes Finish (mattschwarzer Lack anstelle von natürlichem Öl) oder modifizierte Hardware (Verdeckte magnetische statt sichtbarer Scharniere). Weitere Hinweise finden Sie unter [Holzbox-Verschlüsse im Vergleich: Schiebedeckel, Scharnier, Magnet, Schublade und Schloss](/blog/wooden-box-closure-types-compared)."
         },
         {
           "type": "p",
-          "text": "Sie erhalten die Geschwindigkeit von ODM (die meisten technischen Arbeiten werden ausgeführt), mit einem Großteil des Erscheinung gefühdes von OEM (die Box sieht unver wechsel bar aus, nicht generisch). Die Kosten pro Einheit landen irgendwo zwischen ODM und OEM. Die Vorlaufzeit beträgt normaler weise 25-35 Tage. Die Werkzeug kosten betragen in der Regel 200 bis 800 US-Dollar-viel weniger als bei Voll-OEM, da wir vorhandene Tools ändern, anstatt neue von Grund auf neu zu bauen."
+          "text": "Sie erhalten die Geschwindigkeit von ODM (die meisten technischen Arbeiten werden ausgeführt), mit einem Großteil des Erscheinung gefühdes von OEM (die Box sieht unver wechsel bar aus, nicht generisch). Die Kosten pro Einheit landen irgendwo zwischen ODM und OEM. Die Vorlaufzeit beträgt normaler weise 25-35 Tage. Die Werkzeug kosten betragen in der Regel 200 bis 800 US-Dollar-viel weniger als bei Voll-OEM, da wir vorhandene Tools ändern, anstatt neue von Grund auf neu zu bauen. Ein Produktbeispiel finden Sie unter [Luxus Magnetische Geschenkbox](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "p",
@@ -2961,7 +2971,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Bei ODM-Projekten, bei denen das Design bei uns liegt, ist der IP-Schutz weniger ein Problem. Sie sollten jedoch Ihr spezifisches Branding, Ihre Logo platzierung, Kopier-und Farbauswahl durch Marken registrierung in Ihrem Heimatmarkt schützen."
+          "text": "Bei ODM-Projekten, bei denen das Design bei uns liegt, ist der IP-Schutz weniger ein Problem. Sie sollten jedoch Ihr spezifisches Branding, Ihre Logo platzierung, Kopier-und Farbauswahl durch Marken registrierung in Ihrem Heimatmarkt schützen. Weitere Hinweise finden Sie unter [5 Finishing-Techniken, die verändern, wie eine Holzkiste aussieht und sich anfühlt](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -2981,7 +2991,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sobald Sie 5 Elemente eines ODM-Designs geändert haben, machen Sie im Wesentlichen OEM mit der falschen Kosten struktur. Zu diesem Zeitpunkt empfehlen wir Ihnen normaler weise, sich zu einem echten Custom Build mit ordnungs gemäßer Probenahme und Werkzeug ausstattung zu verpflichten-es wird billiger und die Boxen sind besser."
+          "text": "Sobald Sie 5 Elemente eines ODM-Designs geändert haben, machen Sie im Wesentlichen OEM mit der falschen Kosten struktur. Zu diesem Zeitpunkt empfehlen wir Ihnen normaler weise, sich zu einem echten Custom Build mit ordnungs gemäßer Probenahme und Werkzeug ausstattung zu verpflichten-es wird billiger und die Boxen sind besser. Die Optionen finden Sie unter [Leitfaden zu Holz, Oberflächen und Beschlägen](/material-guide)."
         },
         {
           "type": "h3",
@@ -3057,7 +3067,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Viele Unternehmen, die sich online als Fabriken präsentieren, sind tatsächlich Handels unternehmen oder Agenten, die Unter verträge an diejenigen vergeben, die in dieser Woche am niedrigsten sind. Die Zeichen: keine aufgeführte Werks adresse, nur WeChat-Kommunikation, Zögern, Video touren zu machen, keine Antwort auf bestimmte Produktions fragen. Echte Fabriken zeigen Ihnen immer ihre tatsächliche Produktions linie."
+          "text": "Viele Unternehmen, die sich online als Fabriken präsentieren, sind tatsächlich Handels unternehmen oder Agenten, die Unter verträge an diejenigen vergeben, die in dieser Woche am niedrigsten sind. Die Zeichen: keine aufgeführte Werks adresse, nur WeChat-Kommunikation, Zögern, Video touren zu machen, keine Antwort auf bestimmte Produktions fragen. Echte Fabriken zeigen Ihnen immer ihre tatsächliche Produktions linie. Weitere Hinweise finden Sie unter [Maßgefertigte Holzboxen aus China beziehen 2026: ein B2B-Beschaffungsleitfaden](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
         },
         {
           "type": "h2",
@@ -3097,7 +3107,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Unsere Standard empfehlung ist, mit einem kleinen ODM-Lauf zu beginnen, um Vertrauen aufzubauen und den Markt zu testen, dann zu ODM-plus zu wechseln, wenn Sie wachsen, und dann zu vollem OEM zu wechseln, sobald Ihr jährliches Volumen dedizierte Werkzeuge rechtfertigt. Die erfolgreich sten Produktlinien, die wir gesehen haben, entwickeln sich in allen drei Phasen."
+          "text": "Unsere Standard empfehlung ist, mit einem kleinen ODM-Lauf zu beginnen, um Vertrauen aufzubauen und den Markt zu testen, dann zu ODM-plus zu wechseln, wenn Sie wachsen, und dann zu vollem OEM zu wechseln, sobald Ihr jährliches Volumen dedizierte Werkzeuge rechtfertigt. Die erfolgreich sten Produktlinien, die wir gesehen haben, entwickeln sich in allen drei Phasen. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
         }
       ]
     },
@@ -3107,6 +3117,7 @@ export default {
       "category": "Design",
       "readTime": "10 Minuten Lesezeit",
       "body": [
+        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [So wählen Sie das richtige Holz für Geschenk verpackungen](/blog/choosing-wood-for-gift-packaging).' },
         {
           "type": "p",
           "text": "Die gleiche Kiste. Fünf verschiedene Oberflächen. Fünf völlig unterschied liche Produkte."
@@ -3125,7 +3136,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ein CO₂-Laser brennt eine genaue Markierung in die Holz oberfläche. Die Marke erhält ihre Sichtbarkeit durch den natürlichen Far bunter schied zwischen verbranntem und unverbranntem Holz. Daher funktioniert die Laser gravur am besten bei blassen Arten (Paulownia, Kiefer, Bambus) und sieht bei dunklen Arten (Walnuss) subtil oder unsichtbar aus."
+          "text": "Ein CO₂-Laser brennt eine genaue Markierung in die Holz oberfläche. Die Marke erhält ihre Sichtbarkeit durch den natürlichen Far bunter schied zwischen verbranntem und unverbranntem Holz. Daher funktioniert die Laser gravur am besten bei blassen Arten (Paulownia, Kiefer, Bambus) und sieht bei dunklen Arten (Walnuss) subtil oder unsichtbar aus. Weitere Hinweise finden Sie unter [Leitfaden zur Holzstärke](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3162,7 +3173,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Eine erhitzte Metall-Matrize drückt metallische Folie in die Holz oberfläche. Das Ergebnis ist eine knackige, glänzende Markierung in Gold, Silber, Kupfer, Roségold oder Mattschwarz. Von den fünf Techniken erzeugt Heiß folie den meisten \"Premium\"-ersten Eindruck-es ist die Technik, die am stärksten signalisiert, dass \"dies ein Luxus produkt ist\"."
+          "text": "Eine erhitzte Metall-Matrize drückt metallische Folie in die Holz oberfläche. Das Ergebnis ist eine knackige, glänzende Markierung in Gold, Silber, Kupfer, Roségold oder Mattschwarz. Von den fünf Techniken erzeugt Heiß folie den meisten \"Premium\"-ersten Eindruck-es ist die Technik, die am stärksten signalisiert, dass \"dies ein Luxus produkt ist\". Verfügbare Ausführungen finden Sie in der Kategorie [Geschenk- und Verpackungsboxen](/products/gift-packaging)."
         },
         {
           "type": "h3",
@@ -3229,7 +3240,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Pigment tinte schob sich durch ein Sieb auf das Holz. Beste Technik für farbige Logos, große flache Bereiche oder Branding, die mit einem bestimmten Pantone übereinstimmen müssen. Der Siebdruck befindet sich auf der Oberfläche (nicht eingedrückt), sodass die Textur leicht angehoben wird."
+          "text": "Pigment tinte schob sich durch ein Sieb auf das Holz. Beste Technik für farbige Logos, große flache Bereiche oder Branding, die mit einem bestimmten Pantone übereinstimmen müssen. Der Siebdruck befindet sich auf der Oberfläche (nicht eingedrückt), sodass die Textur leicht angehoben wird. Die Optionen finden Sie unter [Kapazitäten](/capabilities)."
         },
         {
           "type": "h3",
@@ -3270,7 +3281,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Öl oberflächen sind besonders wichtig für Premium-Walnuss-, Akazien-und Eichen kisten. Die gleiche Walnuss box, fertig in Lack gegen Öl, liest sich als zwei völlig unterschied liche Produkte. Lack fügt einen leichten plastik artigen Glanz hinzu; Öl zeigt das Holz und lässt es altern."
+          "text": "Öl oberflächen sind besonders wichtig für Premium-[Walnuss](/products/walnut)-, Akazien-und Eichen kisten. Die gleiche Walnuss box, fertig in Lack gegen Öl, liest sich als zwei völlig unterschied liche Produkte. Lack fügt einen leichten plastik artigen Glanz hinzu; Öl zeigt das Holz und lässt es altern."
         },
         {
           "type": "p",
@@ -3278,7 +3289,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Kosten: Öl-und Wachs oberflächen addieren normaler weise 0,30 bis 0,80 USD pro Schachtel im Vergleich zu Standard lack, abhängig von den Schichten. Die Heilung szeit ist deutlich länger-bis zu 72 Stunden pro Schicht."
+          "text": "Kosten: Öl-und Wachs oberflächen addieren normaler weise 0,30 bis 0,80 USD pro Schachtel im Vergleich zu Standard lack, abhängig von den Schichten. Die Heilung szeit ist deutlich länger-bis zu 72 Stunden pro Schicht. Weitere Hinweise finden Sie unter [In unserem 6-stufigen Herstellungs prozess für Holzkisten](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "h2",
@@ -3294,7 +3305,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Wird von den meisten Premium-Uhren-und Schmuck marken verwendet. Walnussholz-Öl-Finish lässt das Getreide atmen; Das Debossed-Logo erhöht die Marken präsenz, ohne die Oberfläche zu stören. Ungefähr so prämie wie es nur geht."
+          "text": "Wird von den meisten Premium-Uhren-und Schmuck marken verwendet. Walnussholz-Öl-Finish lässt das Getreide atmen; Das Debossed-Logo erhöht die Marken präsenz, ohne die Oberfläche zu stören. Ungefähr so prämie wie es nur geht. Ein Produktbeispiel finden Sie unter [Drei-Uhren-Präsentationskasten](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h3",
@@ -3302,7 +3313,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Klassisches Mid-Premium-Geschenk. Kiefer ist erschwing lich; Matter Lack verleiht ein raffiniertes Finish ohne den Glanz-Kunststoff-Look. Heiße Folie liefert das Premium-Signal, das die wahrgenommene Preis stufe anhebt."
+          "text": "Klassisches Mid-Premium-Geschenk. [Kiefer](/products/pine) ist erschwing lich; Matter Lack verleiht ein raffiniertes Finish ohne den Glanz-Kunststoff-Look. Heiße Folie liefert das Premium-Signal, das die wahrgenommene Preis stufe anhebt."
         },
         {
           "type": "h3",
@@ -3437,7 +3448,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "In unserer lebensmittels ic heren Spezifikation verwendete Lacke sind FDA-konform für den indirekten Lebensmittel kontakt (Berühren der Schachtel, nicht des Lebensmittels selbst). Verwenden Sie für den direkten Lebensmittel kontakt (Wurstwaren bretter, Servier boxen) Mineralöl oder Bienenwachs-beide sind zu 100% lebensmittel sicher und internat ional zugelassen. Geben Sie immer den Anwendungs fall an, damit wir das richtige Finish für die Einhaltung empfehlen können."
+          "text": "In unserer lebensmittels ic heren Spezifikation verwendete Lacke sind FDA-konform für den indirekten Lebensmittel kontakt (Berühren der Schachtel, nicht des Lebensmittels selbst). Verwenden Sie für den direkten Lebensmittel kontakt (Wurstwaren bretter, Servier boxen) Mineralöl oder Bienenwachs-beide sind zu 100% lebensmittel sicher und internat ional zugelassen. Geben Sie immer den Anwendungs fall an, damit wir das richtige Finish für die Einhaltung empfehlen können. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
         },
         {
           "type": "h3",
@@ -3445,7 +3456,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ja-wir empfehlen es dringend. Für etwa 100 bis 200 US-Dollar, die zu einer Muster bestellung hinzugefügt wurden, können wir zwei Proben mit unterschied lichen Finish-Behandlungen herstellen. Die Kosten sind im Verhältnis zu Tausenden von Produktions einheiten trivial."
+          "text": "Ja-wir empfehlen es dringend. Für etwa 100 bis 200 US-Dollar, die zu einer Muster bestellung hinzugefügt wurden, können wir zwei Proben mit unterschied lichen Finish-Behandlungen herstellen. Die Kosten sind im Verhältnis zu Tausenden von Produktions einheiten trivial. Weitere Hinweise finden Sie unter [Warum ein 100-teiliges MOQ der klügste Weg ist, um zu beginnen](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "quote",
@@ -3459,6 +3470,7 @@ export default {
       "category": "Strategie",
       "readTime": "9 Minuten Lesezeit",
       "body": [
+        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [Maßgefertigte Holzboxen aus China beziehen 2026: ein B2B-Beschaffungsleitfaden](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "Die meisten Fabriken geben Mindest anforderungen von 500 bis 1.000 Stück auf benutzer definierten Holzkisten an. Wir bieten absichtlich einen 100-teiligen Probelauf an, da er ein Problem löst, das die meisten Käufer nicht bemerken, bis es sie beißt."
@@ -3477,7 +3489,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ein neuer Käufer im letzten Jahr-kleine US-amerikanische Uhrenmarke, erste Holzkisten bestellung-schickte uns eine CAD-Datei für eine Präsentation sbox mit 4 Uhren aus Walnuss. Wir haben zitiert, eine NNN-Vereinbarung unter zeichnet und eine einzige hand gefertigte Probe erstellt. Der Käufer genehmigte die Probe und gab eine Bestellung für 5.000 Einheiten auf."
+          "text": "Ein neuer Käufer im letzten Jahr-kleine US-amerikanische [Uhrenmarke](/products/watch-jewelry), erste Holzkisten bestellung-schickte uns eine CAD-Datei für eine Präsentation sbox mit 4 Uhren aus Walnuss. Wir haben zitiert, eine NNN-Vereinbarung unter zeichnet und eine einzige hand gefertigte Probe erstellt. Der Käufer genehmigte die Probe und gab eine Bestellung für 5.000 Einheiten auf."
         },
         {
           "type": "p",
@@ -3513,7 +3525,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Einzelne hand gefertigte Proben verwenden temporäre Vorsprünge und einen erfahrenen Assembler, der einmalige Arbeiten leistet. Bei Produktions läufen werden permanente Geräte verwendet, bei denen die Bediener hunderte Male dieselbe Aufgabe ausführen. Die Genauigkeit der Fixierung im Maßstab ist die größte Quelle für Probleme mit \"Der Produktions lauf sieht schlechter aus als die Stichprobe\". Ein 100-teiler Lauf enthüllt dies."
+          "text": "Einzelne hand gefertigte Proben verwenden temporäre Vorsprünge und einen erfahrenen Assembler, der einmalige Arbeiten leistet. Bei Produktions läufen werden permanente Geräte verwendet, bei denen die Bediener hunderte Male dieselbe Aufgabe ausführen. Die Genauigkeit der Fixierung im Maßstab ist die größte Quelle für Probleme mit \"Der Produktions lauf sieht schlechter aus als die Stichprobe\". Ein 100-teiler Lauf enthüllt dies. Weitere Hinweise finden Sie unter [OEM vs. ODM: Welches ist das Richtige für Ihr Holzkisten projekt?](/blog/oem-vs-odm-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3521,7 +3533,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Eine einzelne Probe verwendet das beste Board im Shop. Bei einem Produktions lauf wird jedes Board verwendet, das der Spezifikation entspricht. Farb variation, Korn variation, Knoten muster-alle durchschnitt lich 100 Kartons auf eine Weise, die nicht mit einer einzigen Probe getestet werden kann."
+          "text": "Eine einzelne Probe verwendet das beste Board im Shop. Bei einem Produktions lauf wird jedes Board verwendet, das der Spezifikation entspricht. Farb variation, Korn variation, Knoten muster-alle durchschnitt lich 100 Kartons auf eine Weise, die nicht mit einer einzigen Probe getestet werden kann. Die Optionen finden Sie unter [Leitfaden zu Holz, Oberflächen und Beschlägen](/material-guide)."
         },
         {
           "type": "h3",
@@ -3529,7 +3541,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Finish-Mäntel werden in Chargen gemischt. Der genaue Ton und der Glanz können zwischen den Chargen subtil variieren. Bei einem 100-teiligen Lauf werden 1-2 Finish-Chargen verwendet, um fest zustellen, ob Ihr Design diese natürliche Variation toleriert."
+          "text": "Finish-Mäntel werden in Chargen gemischt. Der genaue Ton und der Glanz können zwischen den Chargen subtil variieren. Bei einem 100-teiligen Lauf werden 1-2 Finish-Chargen verwendet, um fest zustellen, ob Ihr Design diese natürliche Variation toleriert. Weitere Hinweise finden Sie unter [5 Finishing-Techniken, die verändern, wie eine Holzkiste aussieht und sich anfühlt](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h3",
@@ -3537,7 +3549,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Einzelne Proben versenden in einer eigenen Schutz verpackung. Die Produktions läufe werden in auf Paletten gestapelten Haupt kartons durchgeführt-sie sind Handling spannungen ausgesetzt, die einzelne Proben niemals sehen. Eine 100-teilige Probelieferung geht durch echten Zoll, echte Fracht und echte Lager aufnahme. Käufer finden zu diesem Zeitpunkt regelmäßig Verpackungs probleme, die sie mit einer einzigen Probe niemals erwischt hätten."
+          "text": "Einzelne Proben versenden in einer eigenen Schutz verpackung. Die Produktions läufe werden in auf Paletten gestapelten Haupt kartons durchgeführt-sie sind Handling spannungen ausgesetzt, die einzelne Proben niemals sehen. Eine 100-teilige Probelieferung geht durch echten Zoll, echte Fracht und echte Lager aufnahme. Käufer finden zu diesem Zeitpunkt regelmäßig Verpackungs probleme, die sie mit einer einzigen Probe niemals erwischt hätten. Weitere Hinweise finden Sie unter [Entwerfen von Holz verpackungen für Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "img",
@@ -3571,7 +3583,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Kosten pro Einheit bei einem 100-teiligen Lauf sind in der Regel 30-60% höher als bei einem Lauf mit 1.000 Teilen. Die Setup-Arbeit ist die gleiche; es ist nur auf weniger Einheiten verteilt. Der absolute Kosten unterschied hängt also vom Box preis ab."
+          "text": "Die Kosten pro Einheit bei einem 100-teiligen Lauf sind in der Regel 30-60% höher als bei einem Lauf mit 1.000 Teilen. Die Setup-Arbeit ist die gleiche; es ist nur auf weniger Einheiten verteilt. Der absolute Kosten unterschied hängt also vom Box preis ab. Weitere Hinweise finden Sie unter [Was kosten maßgefertigte Holzboxen? Ein Großhandels- und OEM-Preisleitfaden für 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
@@ -3654,11 +3666,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Vor zwei Monaten bestellte ein in Großbritannien ansässiger Käufer von Geschenk boxen einen 100-teiligen Test einer neuen Lift-Off-Deckel-Box für eine Dufts tart. Der Deckel hatte eine benutzer definierte interne Schaumstoff schale, die die Parfüm flasche wiegte. Sah auf der einzelnen hand gefertigten Probe perfekt aus. Für den Prozess zugelassen."
+          "text": "Vor zwei Monaten bestellte ein in Großbritannien ansässiger Käufer von Geschenk boxen einen 100-teiligen Test einer neuen Lift-Off-Deckel-Box für eine Dufts tart. Der Deckel hatte eine benutzer definierte interne Schaumstoff schale, die die Parfüm flasche wiegte. Sah auf der einzelnen hand gefertigten Probe perfekt aus. Für den Prozess zugelassen. Ein Produktbeispiel finden Sie unter [Luxus Magnetische Geschenkbox](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "p",
-          "text": "Während des Probelaufs stellten wir fest, dass die Schaumstoff schale, obwohl sie dimensional korrekt war, eine leichte Verzögerung bei der Wiederherstellung von Schaumstoffen aufwies. Beim Abheben des Deckels nach dem Schließen dauerte es 8 bis 10 Sekunden, bis der Schaum vollständig zurück sprang. Funktionell fein, aber im Moment des Unboxens optisch schräg."
+          "text": "Während des Probelaufs stellten wir fest, dass die [Schaumstoff](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide) schale, obwohl sie dimensional korrekt war, eine leichte Verzögerung bei der Wiederherstellung von Schaumstoffen aufwies. Beim Abheben des Deckels nach dem Schließen dauerte es 8 bis 10 Sekunden, bis der Schaum vollständig zurück sprang. Funktionell fein, aber im Moment des Unboxens optisch schräg."
         },
         {
           "type": "p",
@@ -3694,7 +3706,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Nein. Sobald ein Design erfolgreich im Maßstab erstellt wurde und Nachbestellungen reine Wiederholung aufträge ohne Design änderungen sind, sind Versuche nicht erforderlich. Probe läufe sind für neue Designs und bedeutende Design modifikationen vorgesehen. Wiederholen Sie Aufträge gehen direkt in die Produktion mit normalem QC."
+          "text": "Nein. Sobald ein Design erfolgreich im Maßstab erstellt wurde und Nachbestellungen reine Wiederholung aufträge ohne Design änderungen sind, sind Versuche nicht erforderlich. Probe läufe sind für neue Designs und bedeutende Design modifikationen vorgesehen. Wiederholen Sie Aufträge gehen direkt in die Produktion mit normalem QC. Die Optionen finden Sie unter [Kapazitäten](/capabilities)."
         },
         {
           "type": "h3",
@@ -3710,7 +3722,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Für Erst käufer empfehlen wir, die 100-teilige Testversion von Anfang an als Teil des Projekt budgets und nicht als optionales Add-On zu behandeln. Bauen Sie es in Ihre Start zeitleiste ein. Bauen Sie es in Ihre SKU-Preise ein. Bauen Sie es in Ihre Beziehung zur Fabrik ein. Sobald dies üblich ist, sehen Sie nicht mehr die 12% Fehler raten und Last-Minute-Produktions brände, die Käufer plagen, die diesen Schritt überspringen. Die meisten unserer größten und am längsten laufenden Kunden beziehungen begannen genau so: mit einer kleinen Testversion, die Vertrauen aufbaute, bevor sich beide Seiten dem Volumen verschrieben hatten."
+          "text": "Für Erst käufer empfehlen wir, die 100-teilige Testversion von Anfang an als Teil des Projekt budgets und nicht als optionales Add-On zu behandeln. Bauen Sie es in Ihre Start zeitleiste ein. Bauen Sie es in Ihre SKU-Preise ein. Bauen Sie es in Ihre Beziehung zur Fabrik ein. Sobald dies üblich ist, sehen Sie nicht mehr die 12% Fehler raten und Last-Minute-Produktions brände, die Käufer plagen, die diesen Schritt überspringen. Die meisten unserer größten und am längsten laufenden Kunden beziehungen begannen genau so: mit einer kleinen Testversion, die Vertrauen aufbaute, bevor sich beide Seiten dem Volumen verschrieben hatten. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
         }
       ]
     },
@@ -3720,6 +3732,7 @@ export default {
       "category": "Materialien",
       "readTime": "10 Minuten Lesezeit",
       "body": [
+        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [So wählen Sie das richtige Holz für Geschenk verpackungen](/blog/choosing-wood-for-gift-packaging).' },
         {
           "type": "p",
           "text": "Bambus und Akazie sind die beiden beliebtesten Küchen hölzer in unserem Katalog. Beide sind dicht. Beide sind lebensmittels icher. Beide sehen wunderschön aus. Beide eignen sich gut für Tee boxen, Besteck organisatoren, Gewürz regale, Brot behälter, Wurstwaren-Sets und alle anderen Küchen produkte, bei denen das Holz Teil des sichtbaren Designs ist."
@@ -3797,7 +3810,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Bambus ist technisch gesehen ein Gras, kein Baum. Es wächst in 5-7 Jahren gegenüber 30-60 Jahren für Hartholz nach. Diese einzige Tatsache ist der Grund, warum Bambus den umwelt freundlichen Markt für Küchen produkte dominiert-es ist das wirklich erneuerbare Struktur material, mit dem wir arbeiten, und es ist das einzige Material, das wir anbieten, das Kunden sofort als \"nachhaltige Wahl\" erkennen."
+          "text": "[Bambus](/products/bamboo) ist technisch gesehen ein Gras, kein Baum. Es wächst in 5-7 Jahren gegenüber 30-60 Jahren für Hartholz nach. Diese einzige Tatsache ist der Grund, warum Bambus den umwelt freundlichen Markt für Küchen produkte dominiert-es ist das wirklich erneuerbare Struktur material, mit dem wir arbeiten, und es ist das einzige Material, das wir anbieten, das Kunden sofort als \"nachhaltige Wahl\" erkennen."
         },
         {
           "type": "p",
@@ -3817,7 +3830,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Acacia ist ein tropisches Hartholz mit dramatischen Maserung wirbeln und signifikanten Farb unterschieden zwischen honig blondem Kernholz und schokoladen braunen Streifen. Jedes Akazien brett sieht anders aus. Jede Akazien box hat ein eigenes Korn muster. Einige Käufer lieben dies (Premium-Einzigartig keit); Einige bevorzugen die Konsistenz von Bambus."
+          "text": "Acacia ist ein tropisches Hartholz mit dramatischen Maserung wirbeln und signifikanten Farb unterschieden zwischen honig blondem Kernholz und schokoladen braunen Streifen. Jedes Akazien brett sieht anders aus. Jede Akazien box hat ein eigenes Korn muster. Einige Käufer lieben dies (Premium-Einzigartig keit); Einige bevorzugen die Konsistenz von Bambus. Verfügbare Ausführungen finden Sie in der Kategorie [Holzboxen aus Akazie](/products/acacia)."
         },
         {
           "type": "p",
@@ -3838,7 +3851,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Nehmen Sie einen 8-Fach Teebeutel Organizer. Gleiche Abmessungen, gleiches internes Layout, gleicher Klappdeckel mit Magnet verschluss."
+          "text": "Nehmen Sie einen 8-Fach Teebeutel Organizer. Gleiche Abmessungen, gleiches internes Layout, gleicher Klappdeckel mit Magnet verschluss. Ein Produktbeispiel finden Sie unter [Akazien-Teebeutel-Box 8 Fächer](/products/tea-coffee/acacia-tea-bag-box-8-compartment)."
         },
         {
           "type": "h3",
@@ -3854,7 +3867,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Grundstücke zu einem Preis von 11 bis 14 US-Dollar bei uns, im Einzelhandel bei 48 bis 72 US-Dollar. Verkauft in Williams-Sonoma, Crate & Barrel, Premium-Spezial küchen händler. Kunden kaufen es, weil es schön aussieht-sie wollen eine Tee kiste, die gleichzeitig als Küchen objekt dient. Bewertungen betonen Handwerks kunst und Maserung muster."
+          "text": "Grundstücke zu einem Preis von 11 bis 14 US-Dollar bei uns, im Einzelhandel bei 48 bis 72 US-Dollar. Verkauft in Williams-Sonoma, Crate & Barrel, Premium-Spezial küchen händler. Kunden kaufen es, weil es schön aussieht-sie wollen eine Tee kiste, die gleichzeitig als Küchen objekt dient. Bewertungen betonen Handwerks kunst und Maserung muster. Verfügbare Ausführungen finden Sie in der Kategorie [Tee- und Kaffeeboxen](/products/tea-coffee)."
         },
         {
           "type": "p",
@@ -3870,7 +3883,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Bei normalem Küchen gebrauch und einem jährlichen Re-Oil mit lebensmittels icherem Mineralöl hält Bambus 8 bis 12 Jahre, bevor er einen sinnvollen Verschleiß zeigt. Die horizontal gestreifte Maserung wird im Laufe der Zeit subtil aufhellen, ändert sich jedoch nicht wesentlich."
+          "text": "Bei normalem Küchen gebrauch und einem jährlichen Re-Oil mit lebensmittels icherem Mineralöl hält Bambus 8 bis 12 Jahre, bevor er einen sinnvollen Verschleiß zeigt. Die horizontal gestreifte Maserung wird im Laufe der Zeit subtil aufhellen, ändert sich jedoch nicht wesentlich. Weitere Hinweise finden Sie unter [Leitfaden zur Holzstärke](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3890,7 +3903,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Bambus gewinnt diese Kategorie klar, aber nicht absolut. Das Nachwachsen von fünf bis sieben Jahren gegenüber den Ernte zyklen von Bäumen ist der offen sichtliche Vorteil. Plantagen angebaut, mit ausgedehnten Wurzelsystemen, die den Boden verbessern und Erosion verhindern, auch starke Punkte."
+          "text": "Bambus gewinnt diese Kategorie klar, aber nicht absolut. Das Nachwachsen von fünf bis sieben Jahren gegenüber den Ernte zyklen von Bäumen ist der offen sichtliche Vorteil. Plantagen angebaut, mit ausgedehnten Wurzelsystemen, die den Boden verbessern und Erosion verhindern, auch starke Punkte. Weitere Hinweise finden Sie unter [Unsere nachhaltigen Beschaffungs praktiken im Jahr 2026](/blog/sustainable-sourcing-2026)."
         },
         {
           "type": "p",
@@ -3906,7 +3919,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Wenn Käufer uns \"Bambus oder Akazie für dieses Küchen produkt?\" fragen, stellen wir drei Fragen zurück:"
+          "text": "Wenn Käufer uns \"Bambus oder Akazie für dieses Küchen produkt?\" fragen, stellen wir drei Fragen zurück: Die Optionen finden Sie unter [Leitfaden zu Holz, Oberflächen und Beschlägen](/material-guide)."
         },
         {
           "type": "list",
@@ -3962,7 +3975,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Für beide Arten erhalten Kunden, die eine einfache Pflege verfolgen, Jahre mehr Produkt leben. Wir empfehlen dringend, für jedes Küchen produkt eine kleine Pflege karte in die Verpackung aufzunehmen. Die Karte sollte Folgendes abdecken:"
+          "text": "Für beide Arten erhalten Kunden, die eine einfache Pflege verfolgen, Jahre mehr Produkt leben. Wir empfehlen dringend, für jedes Küchen produkt eine kleine Pflege karte in die Verpackung aufzunehmen. Die Karte sollte Folgendes abdecken: Weitere Hinweise finden Sie unter [5 Finishing-Techniken, die verändern, wie eine Holzkiste aussieht und sich anfühlt](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "list",
@@ -4021,7 +4034,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ja, und es kann zu auffälligen Ergebnissen führen-Bambus körper mit Akazien griffen, Akazien basis mit Bambus teilern. Das Mischen von Materialien erhöht das visuelle Interesse und ermöglicht es Ihnen, die Kosten auszug leichen. Der Kompromiss besteht darin, dass sich die beiden Arten mit der Luft feuchtigkeit leicht unterschied lich ausdehnen und zusammenziehen, sodass eine Tischlerei mit gemischten Arten eine Toleranz benötigt, um Stress über Jahre zu vermeiden."
+          "text": "Ja, und es kann zu auffälligen Ergebnissen führen-Bambus körper mit Akazien griffen, Akazien basis mit Bambus teilern. Das Mischen von Materialien erhöht das visuelle Interesse und ermöglicht es Ihnen, die Kosten auszug leichen. Der Kompromiss besteht darin, dass sich die beiden Arten mit der Luft feuchtigkeit leicht unterschied lich ausdehnen und zusammenziehen, sodass eine Tischlerei mit gemischten Arten eine Toleranz benötigt, um Stress über Jahre zu vermeiden. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
         },
         {
           "type": "quote",
@@ -4035,6 +4048,7 @@ export default {
       "category": "Strategie",
       "readTime": "12 min lesen",
       "body": [
+        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [Maßgefertigte Holzboxen aus China beziehen 2026: ein B2B-Beschaffungsleitfaden](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "Der Verkauf von Holzkisten über Amazon FBA ist eine eigene Disziplin. Das Produkt ist weniger wichtig als die Verpackungs strategie, die es umgibt. Zwei Verkäufer können dieselbe Holzkiste zum gleichen Einzelhandel preis anbieten und haben aufgrund von Entscheidungen, die sie über die Verpackung getroffen haben, eine profitable, eine verliert bei jedem Verkauf Geld."
@@ -4053,11 +4067,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Für Holzprodukte ist dies wichtiger als für fast jede andere Kategorie, da die Holz dichte je nach Art dramatisch variiert. Ein 30 cm großer Eichen würfel wiegt ungefähr 4 kg. Der gleiche Würfel in Paulo wnia wiegt ungefähr 1,6 kg. Beide versenden gegen dieselbe FBA-Gebühr-aber wenn Sie Eiche angegeben haben, wann Paulo wnia funktioniert hätte, zahlen Sie das Doppelte der Frachtkosten für nichts in das Lager von Amazon."
+          "text": "Für Holzprodukte ist dies wichtiger als für fast jede andere Kategorie, da die Holz dichte je nach Art dramatisch variiert. Ein 30 cm großer Eichen würfel wiegt ungefähr 4 kg. Der gleiche Würfel in Paulo wnia wiegt ungefähr 1,6 kg. Beide versenden gegen dieselbe FBA-Gebühr-aber wenn Sie Eiche angegeben haben, wann Paulo wnia funktioniert hätte, zahlen Sie das Doppelte der Frachtkosten für nichts in das Lager von Amazon. Die Optionen finden Sie unter [Leitfaden zu Holz, Oberflächen und Beschlägen](/material-guide)."
         },
         {
           "type": "p",
-          "text": "Bei großvolumigen Produkten, bei denen das Holz nicht das sichtbare Merkmal ist (die meisten Geschenk verpackungen-der Kunde sieht die Deckel oberfläche, nicht den Querschnitt), kann die Auswahl der leichteren Arten 0,40 bis 1,20 USD pro Einheit für eingehende Fracht einsparen. Über 10.000 Einheiten, die 4.000 bis 12.000 USD reine Marge gewonnen haben."
+          "text": "Bei großvolumigen Produkten, bei denen das Holz nicht das sichtbare Merkmal ist (die meisten Geschenk verpackungen-der Kunde sieht die Deckel oberfläche, nicht den Querschnitt), kann die Auswahl der leichteren Arten 0,40 bis 1,20 USD pro Einheit für eingehende Fracht einsparen. Über 10.000 Einheiten, die 4.000 bis 12.000 USD reine Marge gewonnen haben. Verfügbare Ausführungen finden Sie in der Kategorie [Holzboxen aus Paulownia](/products/paulownia)."
         },
         {
           "type": "h2",
@@ -4134,7 +4148,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Jede FBA-Einheit muss entweder mit einer Erstickung warnung verpackt oder in einem Einzelhandel karton versiegelt werden. Drei Ansätze:"
+          "text": "Jede FBA-Einheit muss entweder mit einer Erstickung warnung verpackt oder in einem Einzelhandel karton versiegelt werden. Drei Ansätze: Verfügbare Ausführungen finden Sie in der Kategorie [Geschenk- und Verpackungsboxen](/products/gift-packaging)."
         },
         {
           "type": "h3",
@@ -4166,7 +4180,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Wir empfehlen dringend eine Dritt anbieter inspektion (SGS, BV, Asia Inspection, Asia Quality Focus) für jede FBA-Sendung. Der Grund ist die brutale Wirtschaft lichkeit: Retouren von Amazon sind teuer-je nach Kategorie zwischen 5% und 15% des Sendung werts, zuzüglich des Marken schadens durch negative Bewertungen."
+          "text": "Wir empfehlen dringend eine Dritt anbieter inspektion (SGS, BV, Asia Inspection, Asia Quality Focus) für jede FBA-Sendung. Der Grund ist die brutale Wirtschaft lichkeit: Retouren von Amazon sind teuer-je nach Kategorie zwischen 5% und 15% des Sendung werts, zuzüglich des Marken schadens durch negative Bewertungen. Weitere Hinweise finden Sie unter [Warum ein 100-teiliges MOQ der klügste Weg ist, um zu beginnen](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "p",
@@ -4221,7 +4235,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ein Käufer bringt 12 Monate lang eine hölzerne Tee kiste auf FBA mit 1.000 Einheiten/Monat auf den Markt. Zwei Szenarien:"
+          "text": "Ein Käufer bringt 12 Monate lang eine hölzerne Tee kiste auf FBA mit 1.000 Einheiten/Monat auf den Markt. Zwei Szenarien: Ein Produktbeispiel finden Sie unter [Akazien-Teebeutel-Box 8 Fächer](/products/tea-coffee/acacia-tea-bag-box-8-compartment)."
         },
         {
           "type": "h3",
@@ -4241,7 +4255,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "In 12 Monaten und 12.000 Einheiten spart Szenario B allein Gebühren in Höhe von 14.000 bis 19.000 USD (geringeres Maß gewicht, keine Amazon-Kennzeichnung gebühren, keine übergroßen Karton bearbeitungs gebühren). Hinzu kommen niedrigere Rücklauf quoten aus der Inspektion, höhere Überprüfung werte aus dem Premium-Unboxing, und die Lücke vergrößert sich weiter."
+          "text": "In 12 Monaten und 12.000 Einheiten spart Szenario B allein Gebühren in Höhe von 14.000 bis 19.000 USD (geringeres Maß gewicht, keine Amazon-Kennzeichnung gebühren, keine übergroßen Karton bearbeitungs gebühren). Hinzu kommen niedrigere Rücklauf quoten aus der Inspektion, höhere Überprüfung werte aus dem Premium-Unboxing, und die Lücke vergrößert sich weiter. Weitere Hinweise finden Sie unter [Was kosten maßgefertigte Holzboxen? Ein Großhandels- und OEM-Preisleitfaden für 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
@@ -4275,7 +4289,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Speziell für Holzprodukte läuft die Seefracht von China nach USA/EU zwischen 2025 und 2026 22 und 35 Tage. Fügen Sie 7-14 Tage für den FBA-Empfang hinzu. Das sind 30-50 Tage von der Abreise bis zum verkäuflichen. Planen Sie entsprechend."
+          "text": "Speziell für Holzprodukte läuft die Seefracht von China nach USA/EU zwischen 2025 und 2026 22 und 35 Tage. Fügen Sie 7-14 Tage für den FBA-Empfang hinzu. Das sind 30-50 Tage von der Abreise bis zum verkäuflichen. Planen Sie entsprechend. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
         },
         {
           "type": "h2",
@@ -4311,7 +4325,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Drei Dinge reduzieren die Rücklauf quoten erheblich:"
+          "text": "Drei Dinge reduzieren die Rücklauf quoten erheblich: Weitere Hinweise finden Sie unter [Holz-Aufbewahrungsboxen mit herausnehmbaren Trennwänden: der Einkaufsratgeber](/blog/custom-wooden-storage-boxes-with-removable-dividers-buyers-guide)."
         },
         {
           "type": "h3",
@@ -4335,7 +4349,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Eine kleine Karte, auf der erklärt wird, wie das Holz gepflegt wird, reduziert Beschwerden \"die oberflächen entwickelten Markierungen innerhalb eines Monats\". Kosten 0,04 USD pro Box; Reduziert die Rücklauf quote um geschätzte 1-2 Prozent punkte, basierend auf den Daten, die Käufer mit uns geteilt haben."
+          "text": "Eine kleine Karte, auf der erklärt wird, wie das Holz gepflegt wird, reduziert Beschwerden \"die oberflächen entwickelten Markierungen innerhalb eines Monats\". Kosten 0,04 USD pro Box; Reduziert die Rücklauf quote um geschätzte 1-2 Prozent punkte, basierend auf den Daten, die Käufer mit uns geteilt haben. Weitere Hinweise finden Sie unter [5 Finishing-Techniken, die verändern, wie eine Holzkiste aussieht und sich anfühlt](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -4385,6 +4399,7 @@ export default {
       "category": "Design",
       "readTime": "11 Minuten Lesezeit",
       "body": [
+        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [Holzbox-Verschlüsse im Vergleich: Schiebedeckel, Scharnier, Magnet, Schublade und Schloss](/blog/wooden-box-closure-types-compared).' },
         {
           "type": "p",
           "text": "Hardware ist der Teil einer Holzkiste Käufer denken über den letzten und fühlen sich zuerst. Falsches Scharnier und der Deckel sackt nach sechs Monaten ab. Der rechte Magnet und die Box schnappt mit dem zufriedenstellen den Premium-Thunk zu, der das Unboxing verkauft."
@@ -4403,7 +4418,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Scharniere sind die Hardware, mit der Kunden jedes Mal interagieren, wenn sie die Box öffnen. Ein schlechtes Scharnier trägt das Holz, dreht den Deckel oder fällt nach einigen hundert Zyklen ganz aus. Ein gutes Scharnier hält das Leben der Box."
+          "text": "Scharniere sind die Hardware, mit der Kunden jedes Mal interagieren, wenn sie die Box öffnen. Ein schlechtes Scharnier trägt das Holz, dreht den Deckel oder fällt nach einigen hundert Zyklen ganz aus. Ein gutes Scharnier hält das Leben der Box. Verfügbare Ausführungen finden Sie in der Kategorie [Holzboxen mit Scharnier](/products/hinged)."
         },
         {
           "type": "h3",
@@ -4423,7 +4438,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Versteckte innen becher förmige Aussparungen in die Schachtel und den Deckel schneiden. Äußeres ist sauber-keine sichtbare Hardware. Premium-Gefühl, moderner Look. Standard für High-End-Uhren-und Schmucks cha tullen."
+          "text": "Versteckte innen becher förmige Aussparungen in die Schachtel und den Deckel schneiden. Äußeres ist sauber-keine sichtbare Hardware. Premium-Gefühl, moderner Look. Standard für High-End-[Uhren](/blog/wooden-watch-box-anatomy)-und Schmucks cha tullen."
         },
         {
           "type": "p",
@@ -4459,7 +4474,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Versteckte Neodym-Magnete, die in die Holzwand geleitet werden, erzeugen das zufriedenstellende \"Klicken\", wenn sich der Deckel schließt. Die Stärke wird durch Magnet qualität und-menge kalibriert-zu schwach und der Deckel öffnet sich während des Transports, zu stark und die Box ist schwer mit einer Hand zu öffnen."
+          "text": "Versteckte Neodym-Magnete, die in die Holzwand geleitet werden, erzeugen das zufriedenstellende \"Klicken\", wenn sich der Deckel schließt. Die Stärke wird durch Magnet qualität und-menge kalibriert-zu schwach und der Deckel öffnet sich während des Transports, zu stark und die Box ist schwer mit einer Hand zu öffnen. Verfügbare Ausführungen finden Sie in der Kategorie [Magnetische Holzboxen](/products/magnetic)."
         },
         {
           "type": "p",
@@ -4518,7 +4533,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Traditionell, sichtbar, Goldton. Messing körper mit Messings chl üssel. Der klassische Look für Schmuck kästchen, Dokumenten schachteln und Versteck boxen. Kommt mit zwei Schlüsseln pro Schloss als Standard."
+          "text": "Traditionell, sichtbar, Goldton. Messing körper mit Messings chl üssel. Der klassische Look für Schmuck kästchen, Dokumenten schachteln und Versteck boxen. Kommt mit zwei Schlüsseln pro Schloss als Standard. Verfügbare Ausführungen finden Sie in der Kategorie [Abschließbare Holzboxen](/products/with-lock)."
         },
         {
           "type": "p",
@@ -4605,7 +4620,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Hardware kosten sind pro Einheit niedrig, akkumulieren sich jedoch schnell über einen Auftrag. Die Qualitäts noten variieren stark. Es gibt im Wesentlichen drei Ebenen:"
+          "text": "Die Hardware kosten sind pro Einheit niedrig, akkumulieren sich jedoch schnell über einen Auftrag. Die Qualitäts noten variieren stark. Es gibt im Wesentlichen drei Ebenen: Weitere Hinweise finden Sie unter [In unserem 6-stufigen Herstellungs prozess für Holzkisten](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "h3",
@@ -4672,7 +4687,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Billige Installation crews ziehen die Scharniers ch rauben zu fest, um schlecht geschnittene Einschnitt zu kompensieren. Die Holzfasern um die Schrauben kompresse; mit der Zeit löst sich die Schraube; das Scharnier sackt durch; Der Deckel sitzt nicht mehr flach."
+          "text": "Billige Installation crews ziehen die Scharniers ch rauben zu fest, um schlecht geschnittene Einschnitt zu kompensieren. Die Holzfasern um die Schrauben kompresse; mit der Zeit löst sich die Schraube; das Scharnier sackt durch; Der Deckel sitzt nicht mehr flach. Weitere Hinweise finden Sie unter [Leitfaden zur Holzstärke](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "p",
@@ -4708,7 +4723,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Hardware ist eines der am meisten gehefteten Upgrades in einer Holzkiste. Wenn Sie ein einzelnes Scharnier von Tier 1 auf Tier 2 aktualisieren, werden normaler weise 0, 20-0, 40 US-Dollar pro Box hinzugefügt. Wenn Sie die gesamte Hardware-Spezifikation von Tier 1 auf Tier 3 (Premium European) aktualisieren, werden 1,50 bis 3,50 USD pro Box hinzugefügt."
+          "text": "Hardware ist eines der am meisten gehefteten Upgrades in einer Holzkiste. Wenn Sie ein einzelnes Scharnier von Tier 1 auf Tier 2 aktualisieren, werden normaler weise 0, 20-0, 40 US-Dollar pro Box hinzugefügt. Wenn Sie die gesamte Hardware-Spezifikation von Tier 1 auf Tier 3 (Premium European) aktualisieren, werden 1,50 bis 3,50 USD pro Box hinzugefügt. Weitere Hinweise finden Sie unter [Was kosten maßgefertigte Holzboxen? Ein Großhandels- und OEM-Preisleitfaden für 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
@@ -4732,7 +4747,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ja-viele Käufer mit höherem Volumen tun genau das. Kaufen Sie die Hardware separat, versenden Sie sie an unsere Fabrik in Cao County und wir installieren sie. Die Komplikation ist das Timing: Die Hardware muss mindestens 5 Tage vor Produktions beginn in unserem Werk eintreffen, wobei die Dokumentation dem Produktions auftrag entspricht. Für Erst käufer empfehlen wir normaler weise zuerst unsere Hardware. Sobald die Beziehung und der Prozess hergestellt sind, ist die vom Kunden gelieferte Hardware unkompliziert."
+          "text": "Ja-viele Käufer mit höherem Volumen tun genau das. Kaufen Sie die Hardware separat, versenden Sie sie an unsere Fabrik in Cao County und wir installieren sie. Die Komplikation ist das Timing: Die Hardware muss mindestens 5 Tage vor Produktions beginn in unserem Werk eintreffen, wobei die Dokumentation dem Produktions auftrag entspricht. Für Erst käufer empfehlen wir normaler weise zuerst unsere Hardware. Sobald die Beziehung und der Prozess hergestellt sind, ist die vom Kunden gelieferte Hardware unkompliziert. Die Optionen finden Sie unter [Kapazitäten](/capabilities)."
         },
         {
           "type": "h3",
@@ -4772,7 +4787,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Für Erst käufer empfehlen wir eine Stichproben runde, die sich speziell auf Hardware konzentriert. Bestellen Sie drei Muster derselben Box mit drei verschiedenen Hardware-Qualitäten-Tier 1, Tier 2, Tier 3. Öffnen und schließen Sie jeweils hundert Mal. Spüren Sie den Unterschied in Ihrer Hand. Die Wahl, die sich für Sie richtig anfühlt, ist fast immer die, auf die Ihr Kunde reagieren wird. Die Hardware ist ein kleiner Prozentsatz der Kosten; es ist der größte Teil der wahrgenommenen Qualität."
+          "text": "Für Erst käufer empfehlen wir eine Stichproben runde, die sich speziell auf Hardware konzentriert. Bestellen Sie drei Muster derselben Box mit drei verschiedenen Hardware-Qualitäten-Tier 1, Tier 2, Tier 3. Öffnen und schließen Sie jeweils hundert Mal. Spüren Sie den Unterschied in Ihrer Hand. Die Wahl, die sich für Sie richtig anfühlt, ist fast immer die, auf die Ihr Kunde reagieren wird. Die Hardware ist ein kleiner Prozentsatz der Kosten; es ist der größte Teil der wahrgenommenen Qualität. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
         }
       ]
     }

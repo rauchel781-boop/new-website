@@ -155,9 +155,9 @@
   },
   "capabilities": {
     "meta": {
-      "title": "Capacidades — CHIC",
+      "title": "Capacidades",
       "description": "Fresado CNC, grabado láser, hot foil, serigrafía, secado en horno, acabados y embalaje — equipamiento moderno y un estricto sistema QC para programas mayoristas y OEM de cajas de madera.",
-      "ogTitle": "Capacidades — CHIC",
+      "ogTitle": "Capacidades",
       "ogDescription": "Fresado CNC, láser, hot foil, serigrafía, secado en horno, acabados y embalaje — producción mayorista y OEM de cajas de madera."
     },
     "h1": "Nuestras Capacidades",
@@ -351,7 +351,7 @@
   },
   "blog": {
     "meta": {
-      "title": "Journal — CHIC",
+      "title": "Journal",
       "description": "Apuntes desde nuestra fábrica de cajas de madera a medida — proceso de fabricación, elección de materiales, manuales OEM/ODM, estrategia de packaging y sostenibilidad.",
       "ogDescription": "Apuntes desde una fábrica de cajas de madera — proceso, materiales, OEM/ODM, packaging, sostenibilidad."
     },
@@ -452,7 +452,7 @@
   },
   "productsIndex": {
     "meta": {
-      "title": "Cajas de Madera — CHIC",
+      "title": "Cajas de Madera",
       "description": "Explora nuestro catálogo completo de cajas de madera por uso, estructura o material. OEM/ODM personalizados bienvenidos."
     },
     "eyebrow": "Nuestro Catálogo",
@@ -470,7 +470,7 @@
   },
   "woodFab": {
     "meta": {
-      "title": "Fabricación en Madera — CHIC",
+      "title": "Fabricación en Madera",
       "description": "Desde la madera en bruto hasta los componentes acabados y embalados de cajas de madera — CHIC realiza corte, conformado, espiga, pre-ensamblaje, pulido y embalaje bajo un único techo de 20.000 m².",
       "ogDescription": "De madera en bruto a componentes acabados y embalados — fabricación de madera integral interna."
     },
@@ -485,7 +485,7 @@
   },
   "contact": {
     "meta": {
-      "title": "Contacto — CHIC Wooden Expert",
+      "title": "Contacto",
       "description": "Contacta con CHIC — oficina comercial en Xiamen, fábrica en Cao County. WhatsApp, WeChat, email y formulario de contacto para consultas OEM/ODM de cajas de madera.",
       "ogDescription": "Oficina comercial en Xiamen, fábrica en Cao County. WhatsApp, WeChat, email y formulario de contacto para consultas OEM/ODM de cajas de madera."
     },
@@ -550,6 +550,7 @@
       "submit": "Enviar Consulta →",
       "sending": "Enviando…",
       "errorMsg": "Lo sentimos — algo salió mal. Escríbenos directamente a {email}",
+      "mailDraftMessage": "Envía la consulta desde tu aplicación de correo para completar la solicitud. Si no se abrió un borrador, escribe directamente a {email}. El mensaje aún no se ha enviado mediante este formulario.",
       "fine": "Tu información se queda con nosotros — nunca compartimos ni revendemos datos de contacto. ¿Prefieres email? Escribe a <emailLink>{email}</emailLink>."
     },
     "info": {

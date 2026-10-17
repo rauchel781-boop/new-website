@@ -9,6 +9,7 @@ export default {
       "category": "Guides d'achat",
       "readTime": "14 min de lecture",
       "body": [
+        { type: 'p', text: 'Avant de fixer les spécifications, consultez [guide de l’épaisseur du bois](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes).' },
         {
           "type": "p",
           "text": "Les coffrets de rangement en bois sur mesure à séparateurs amovibles font partie de nos produits OEM les plus demandés. Ils conviennent aux marques de bijoux, aux maisons de thé, aux importateurs d'épices, aux fabricants de kits éducatifs, aux détaillants de fournitures créatives et aux marques de coffrets cadeaux. Comme les séparateurs s'enlèvent, le client final réorganise les compartiments selon ce qu'il range, ce qui ajoute de la souplesse et de la valeur perçue. Depuis notre atelier, voici ce qu'il faut savoir avant de commander : choix du matériau, épaisseurs, types de séparateurs, méthodes de marquage, MOQ, échantillonnage et contrôle qualité."
@@ -19,7 +20,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un coffret de rangement en bois sur mesure à séparateurs amovibles est un coffret à couvercle doté de cloisons intérieures que l'on peut soulever, déplacer ou retirer entièrement. Les séparateurs s'insèrent généralement dans des rainures ou s'emboîtent en grille au fond. Notre usine les produit du format 15 × 10 × 5 cm (petit écrin à bijoux) au format 40 × 30 × 10 cm (grand organiseur à thé ou à loisirs créatifs). Le corps peut être en pin abouté, en contreplaqué à queues d'aronde, en MDF plaqué, en bambou ou en acacia massif, selon votre positionnement prix."
+          "text": "Un coffret de rangement en bois sur mesure à séparateurs amovibles est un coffret à couvercle doté de cloisons intérieures que l'on peut soulever, déplacer ou retirer entièrement. Les séparateurs s'insèrent généralement dans des rainures ou s'emboîtent en grille au fond. Notre usine les produit du format 15 × 10 × 5 cm (petit écrin à bijoux) au format 40 × 30 × 10 cm (grand organiseur à thé ou à loisirs créatifs). Le corps peut être en pin abouté, en contreplaqué à queues d'aronde, en MDF plaqué, en bambou ou en acacia massif, selon votre positionnement prix. Consultez les modèles disponibles dans la catégorie [Boîtes de Rangement](/products/storage)."
         },
         {
           "type": "img",
@@ -62,7 +63,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le choix du matériau pèse sur le coût, la durabilité, le poids et le rendu visuel. Voici ce que nous recommandons habituellement selon votre marché et votre positionnement :"
+          "text": "Le choix du matériau pèse sur le coût, la durabilité, le poids et le rendu visuel. Voici ce que nous recommandons habituellement selon votre marché et votre positionnement : Consultez les options dans [guide des bois, finitions et ferrures](/material-guide)."
         },
         {
           "type": "table",
@@ -177,7 +178,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les séparateurs portent des encoches usinées à mi-hauteur qui leur permettent de s'emboîter en grille. L'utilisateur peut les retirer ou les déplacer pour créer des compartiments de tailles différentes. C'est le système le plus souple ; il convient bien aux bijoux, aux fournitures créatives ou aux petites pièces. Nous découpons en général 2 à 4 séparateurs verticaux et 2 à 3 horizontaux, ce qui donne 6 à 12 compartiments selon le format."
+          "text": "Les séparateurs portent des encoches usinées à mi-hauteur qui leur permettent de s'emboîter en grille. L'utilisateur peut les retirer ou les déplacer pour créer des compartiments de tailles différentes. C'est le système le plus souple ; il convient bien aux bijoux, aux fournitures créatives ou aux petites pièces. Nous découpons en général 2 à 4 séparateurs verticaux et 2 à 3 horizontaux, ce qui donne 6 à 12 compartiments selon le format. Pour un exemple du catalogue, consultez [Boîte Graines Bambou Séparateurs Ajustables](/products/garden-seed/bamboo-seed-storage-box-with-adjustable-removable-dividers)."
         },
         {
           "type": "img",
@@ -198,11 +199,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les séparateurs sont intégrés à un plateau peu profond qui se retire entièrement et dégage un second niveau de rangement en dessous. Très demandé pour les coffrets à montres et les écrins à bijoux, quand on veut du compartimenté au-dessus et du volume libre en dessous. Le plateau repose généralement sur de petites tasseaux collés à l'intérieur des parois."
+          "text": "Les séparateurs sont intégrés à un plateau peu profond qui se retire entièrement et dégage un second niveau de rangement en dessous. Très demandé pour les coffrets à montres et les écrins à bijoux, quand on veut du compartimenté au-dessus et du volume libre en dessous. Le plateau repose généralement sur de petites tasseaux collés à l'intérieur des parois. Consultez les modèles disponibles dans la catégorie [Boîtes en Bois à Tiroir](/products/drawer)."
         },
         {
           "type": "p",
-          "text": "Pour un coffret de 30 × 20 × 8 cm, nous recommandons normalement une grille emboîtable de 3 pièces verticales et 2 horizontales, soit 12 compartiments modulables. Pour un écrin plus petit (15 × 10 × 5 cm), des séparateurs à rainure formant 2 ou 3 compartiments fixes font très bien l'affaire et contiennent le coût."
+          "text": "Pour un coffret de 30 × 20 × 8 cm, nous recommandons normalement une grille emboîtable de 3 pièces verticales et 2 horizontales, soit 12 compartiments modulables. Pour un écrin plus petit (15 × 10 × 5 cm), des séparateurs à rainure formant 2 ou 3 compartiments fixes font très bien l'affaire et contiennent le coût. Pour plus de détails, consultez [EVA, EPE, velours ou feutre : quel calage pour un coffret en bois ?](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide)."
         },
         {
           "type": "h2",
@@ -210,7 +211,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'emplacement et la méthode dépendent de votre design, de votre budget et de la quantité commandée. Voici ce que propose notre usine :"
+          "text": "L'emplacement et la méthode dépendent de votre design, de votre budget et de la quantité commandée. Voici ce que propose notre usine : Pour plus de détails, consultez [5 techniques de finition qui changent l'apparence et la sensation d'une boîte en bois](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "table",
@@ -274,7 +275,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'emballage agit sur le coût rendu, l'attrait en rayon et le taux de casse pendant le transport. Notre usine propose trois formules standard :"
+          "text": "L'emballage agit sur le coût rendu, l'attrait en rayon et le taux de casse pendant le transport. Notre usine propose trois formules standard : Pour plus de détails, consultez [Concevoir des emballages en bois pour Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "list",
@@ -299,7 +300,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Notre MOQ usine pour les coffrets de rangement en bois sur mesure à séparateurs amovibles est de 500 pièces par design. Pour une commande mixte (plusieurs formats ou finitions), le total cumulé doit atteindre au moins 1 000 pièces. Le délai d'échantillon est de 7 à 10 jours ouvrés après validation du design, et le délai de production de 25 à 30 jours après validation de l'échantillon et versement de l'acompte."
+          "text": "Notre [MOQ](/blog/low-moq-sampling-strategy) usine pour les coffrets de rangement en bois sur mesure à séparateurs amovibles est de 500 pièces par design. Pour une commande mixte (plusieurs formats ou finitions), le total cumulé doit atteindre au moins 1 000 pièces. Le délai d'échantillon est de 7 à 10 jours ouvrés après validation du design, et le délai de production de 25 à 30 jours après validation de l'échantillon et versement de l'acompte."
         },
         {
           "type": "p",
@@ -345,7 +346,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Nous avons produit des coffrets de rangement à séparateurs amovibles pour des marques de bijoux au Royaume-Uni, des maisons de thé en Allemagne, des fabricants de kits éducatifs aux États-Unis et des détaillants de fournitures créatives en Australie et au Canada. Que vous ayez besoin de 500 coffrets en pin économiques pour Amazon FBA ou de 5 000 organiseurs en acacia haut de gamme pour la distribution, notre bureau des devis vous établit un calcul de coût rendu et un calendrier d'échantillons sous 24 heures."
+          "text": "Nous avons produit des coffrets de rangement à séparateurs amovibles pour des marques de bijoux au Royaume-Uni, des maisons de thé en Allemagne, des fabricants de kits éducatifs aux États-Unis et des détaillants de fournitures créatives en Australie et au Canada. Que vous ayez besoin de 500 coffrets en pin économiques pour Amazon FBA ou de 5 000 organiseurs en acacia haut de gamme pour la distribution, notre bureau des devis vous établit un calcul de coût rendu et un calendrier d'échantillons sous 24 heures. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
         }
       ]
     },
@@ -355,9 +356,10 @@ export default {
       "category": "Matériaux",
       "readTime": "12 min de lecture",
       "body": [
+        { type: 'p', text: 'Avant de fixer les spécifications, consultez [Pourquoi un MOQ de 100 pièces est la façon la plus intelligente de commencer](/blog/low-moq-sampling-strategy).' },
         {
           "type": "p",
-          "text": "Quand on conçoit un coffret en bois sur mesure, le matériau de calage compte autant que le coffret lui-même. Un mauvais choix se traduit par des produits abîmés, des coûts qui grimpent ou une présentation qui ne convainc pas le client. Dans ce guide, nous comparons quatre matériaux courants — mousse EVA, mousse EPE, velours et feutre — sur les critères qui tranchent vraiment : niveau de protection, rapport coût-efficacité, esthétique, impact environnemental et possibilités de personnalisation."
+          "text": "Quand on conçoit un coffret en bois sur mesure, le matériau de calage compte autant que le coffret lui-même. Un mauvais choix se traduit par des produits abîmés, des coûts qui grimpent ou une présentation qui ne convainc pas le client. Dans ce guide, nous comparons quatre matériaux courants — mousse EVA, mousse EPE, velours et feutre — sur les critères qui tranchent vraiment : niveau de protection, rapport coût-efficacité, esthétique, impact environnemental et possibilités de personnalisation. Consultez les modèles disponibles dans la catégorie [Boîtes Cadeau et Emballage](/products/gift-packaging)."
         },
         {
           "type": "h2",
@@ -408,7 +410,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'EVA (éthylène-acétate de vinyle) est une mousse à cellules fermées reconnue pour sa densité, sa durabilité et son excellente résistance aux chocs. C'est le matériau des tapis de yoga, des semelles de chaussures et des emballages d'électronique haut de gamme. L'EVA absorbe remarquablement les chocs, avec une dureté de 40 à 60 Shore C. Il se découpe à l'emporte-pièce avec précision et peut être floqué de velours pour une finition luxueuse. Son prix est le plus élevé, mais il est idéal pour l'électronique de valeur — montres, appareils photo, téléphones —, les instruments médicaux, les outils exigeant un calage exact et les produits dont l'emballage sera réutilisé."
+          "text": "L'EVA (éthylène-acétate de vinyle) est une mousse à cellules fermées reconnue pour sa densité, sa durabilité et son excellente résistance aux chocs. C'est le matériau des tapis de yoga, des semelles de chaussures et des emballages d'électronique haut de gamme. L'EVA absorbe remarquablement les chocs, avec une dureté de 40 à 60 Shore C. Il se découpe à l'emporte-pièce avec précision et peut être floqué de velours pour une finition luxueuse. Son prix est le plus élevé, mais il est idéal pour l'électronique de valeur — montres, appareils photo, téléphones —, les instruments médicaux, les outils exigeant un calage exact et les produits dont l'emballage sera réutilisé. Pour un exemple du catalogue, consultez [Coffret Cadeau Magnétique de Luxe](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "h2",
@@ -416,7 +418,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'EPE (polyéthylène expansé) est une mousse à cellules ouvertes, légère, souple et économique. C'est le « papier bulle » des mousses : tendre, compressible et parfait pour un calage général. L'EPE absorbe bien les chocs avec une dureté plus faible, de 20 à 30 Shore C, ce qui le rend plus souple et plus compressible que l'EVA. Il est bon marché, recyclable et peu émetteur à la fabrication. L'EPE convient quand la protection requise est modérée, pour le conditionnement en nombre lors d'expéditions groupées, pour les projets au budget serré et pour les produits de forme régulière sans contours complexes."
+          "text": "L'EPE (polyéthylène expansé) est une mousse à cellules ouvertes, légère, souple et économique. C'est le « papier bulle » des mousses : tendre, compressible et parfait pour un calage général. L'EPE absorbe bien les chocs avec une dureté plus faible, de 20 à 30 Shore C, ce qui le rend plus souple et plus compressible que l'EVA. Il est bon marché, recyclable et peu émetteur à la fabrication. L'EPE convient quand la protection requise est modérée, pour le conditionnement en nombre lors d'expéditions groupées, pour les projets au budget serré et pour les produits de forme régulière sans contours complexes. Pour plus de détails, consultez [Combien coûtent les boîtes en bois personnalisées ? Un guide de tarification grossiste et OEM 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "h2",
@@ -424,7 +426,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le velours est un textile doux et moelleux (soie naturelle ou polyester) à la texture riche et à l'allure haut de gamme. On le trouve couramment dans les écrins à bijoux, les emballages de parfum et les coffrets cadeaux haut de gamme. Seul, il n'amortit presque rien et demande une couche de calage en dessous, mais il apporte un toucher de luxe inégalé et d'excellentes possibilités de personnalisation. Le velours est idéal pour la bijouterie et les objets précieux, la parfumerie et les cosmétiques, les cadeaux de prestige et les trophées, et pour tout produit où le moment du déballage fait la différence. Beaucoup de marques l'associent à la mousse : EVA ou EPE en couche de calage, velours floqué par-dessus pour l'esthétique."
+          "text": "Le velours est un textile doux et moelleux (soie naturelle ou polyester) à la texture riche et à l'allure haut de gamme. On le trouve couramment dans les écrins à bijoux, les emballages de parfum et les coffrets cadeaux haut de gamme. Seul, il n'amortit presque rien et demande une couche de calage en dessous, mais il apporte un toucher de luxe inégalé et d'excellentes possibilités de personnalisation. Le velours est idéal pour la bijouterie et les objets précieux, la parfumerie et les cosmétiques, les cadeaux de prestige et les trophées, et pour tout produit où le moment du déballage fait la différence. Beaucoup de marques l'associent à la mousse : EVA ou EPE en couche de calage, velours floqué par-dessus pour l'esthétique. Pour plus de détails, consultez [Anatomie d'une grande boîte de montre en bois](/blog/wooden-watch-box-anatomy)."
         },
         {
           "type": "h2",
@@ -432,7 +434,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le feutre est un non-tissé de fibres de laine pressées (ou d'alternatives synthétiques). Il offre un fini doux et mat et séduit de plus en plus les marques attentives à l'environnement. Il amortit modérément tout en affichant un luxe élégant et discret. Il se découpe, se teint et se met en forme facilement, ce qui ouvre de larges possibilités de personnalisation. Le feutre de laine est biodégradable et des versions en synthétique recyclé existent, ce qui en fait l'option la plus durable. Il convient aux marques écologiques, aux produits artisanaux, aux articles de poids moyen comme les livres, la céramique et la verrerie, et aux marques qui cherchent une esthétique naturelle."
+          "text": "Le feutre est un non-tissé de fibres de laine pressées (ou d'alternatives synthétiques). Il offre un fini doux et mat et séduit de plus en plus les marques attentives à l'environnement. Il amortit modérément tout en affichant un luxe élégant et discret. Il se découpe, se teint et se met en forme facilement, ce qui ouvre de larges possibilités de personnalisation. Le feutre de laine est biodégradable et des versions en synthétique recyclé existent, ce qui en fait l'option la plus durable. Il convient aux marques écologiques, aux produits artisanaux, aux articles de poids moyen comme les livres, la céramique et la verrerie, et aux marques qui cherchent une esthétique naturelle. Pour plus de détails, consultez [5 techniques de finition qui changent l'apparence et la sensation d'une boîte en bois](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -502,7 +504,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Utilisez cette grille pour choisir votre calage. Premièrement, évaluez la fragilité du produit : les articles fragiles comme l'électronique et le verre exigent de l'EVA ou de l'EPE, les articles moyennement fragiles s'accommodent d'EPE ou de feutre, et les articles robustes vont bien avec du velours ou du feutre. Deuxièmement, fixez votre budget : un budget haut de gamme ($$$) permet l'EVA ou le velours, le milieu de gamme ($$) convient au feutre, et les projets serrés ($) prendront de l'EPE. Troisièmement, tenez compte du positionnement de marque : les marques de luxe gagnent avec du velours sur base EVA, les marques écologiques choisiront le feutre, les marques tech et professionnelles s'accordent à l'EVA, et les marques orientées prix à l'EPE. Enfin, regardez le volume de production : au-delà de 1 000 unités, la découpe automatisée de l'EVA ou de l'EPE devient rentable, entre 100 et 1 000 unités tous les matériaux conviennent, et en dessous de 100 unités le feutre et le velours se travaillent plus facilement à la main."
+          "text": "Utilisez cette grille pour choisir votre calage. Premièrement, évaluez la fragilité du produit : les articles fragiles comme l'électronique et le verre exigent de l'EVA ou de l'EPE, les articles moyennement fragiles s'accommodent d'EPE ou de feutre, et les articles robustes vont bien avec du velours ou du feutre. Deuxièmement, fixez votre budget : un budget haut de gamme ($$$) permet l'EVA ou le velours, le milieu de gamme ($$) convient au feutre, et les projets serrés ($) prendront de l'EPE. Troisièmement, tenez compte du positionnement de marque : les marques de luxe gagnent avec du velours sur base EVA, les marques écologiques choisiront le feutre, les marques tech et professionnelles s'accordent à l'EVA, et les marques orientées prix à l'EPE. Enfin, regardez le volume de production : au-delà de 1 000 unités, la découpe automatisée de l'EVA ou de l'EPE devient rentable, entre 100 et 1 000 unités tous les matériaux conviennent, et en dessous de 100 unités le feutre et le velours se travaillent plus facilement à la main. Consultez les options dans [guide des bois, finitions et ferrures](/material-guide)."
         },
         {
           "type": "h2",
@@ -510,7 +512,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Une marque horlogère de luxe devait protéger des montres de grande valeur tout en soignant la présentation : elle a utilisé une base de mousse EVA découpée à la forme de la montre, surmontée d'un flocage velours sur la surface EVA, obtenant une protection 5 étoiles et un déballage haut de gamme, pour 3 à 5 $ par calage avec une MOQ de 500. Un fabricant artisanal de bougies cherchait un emballage écologique pour des bougies faites main : il a opté pour des calages en feutre de laine découpés sur mesure pour ses pots ; l'image naturelle et durable correspondait à la marque et s'est traduite par 30 % de réachats en plus, pour 1,50 à 2 $ par calage avec une MOQ de 100. Un vendeur en ligne d'électronique expédiant des enceintes Bluetooth à grande échelle a retenu des protections d'angle en EPE avec coussin central, réduisant le coût d'expédition au poids et faisant passer le taux de casse de 5 % à moins de 1 %, pour 0,50 à 0,80 $ par calage avec une MOQ de 1 000."
+          "text": "Une marque horlogère de luxe devait protéger des montres de grande valeur tout en soignant la présentation : elle a utilisé une base de mousse EVA découpée à la forme de la montre, surmontée d'un flocage velours sur la surface EVA, obtenant une protection 5 étoiles et un déballage haut de gamme, pour 3 à 5 $ par calage avec une MOQ de 500. Un fabricant artisanal de bougies cherchait un emballage écologique pour des bougies faites main : il a opté pour des calages en feutre de laine découpés sur mesure pour ses pots ; l'image naturelle et durable correspondait à la marque et s'est traduite par 30 % de réachats en plus, pour 1,50 à 2 $ par calage avec une MOQ de 100. Un vendeur en ligne d'électronique expédiant des enceintes Bluetooth à grande échelle a retenu des protections d'angle en EPE avec coussin central, réduisant le coût d'expédition au poids et faisant passer le taux de casse de 5 % à moins de 1 %, pour 0,50 à 0,80 $ par calage avec une MOQ de 1 000. Pour un exemple du catalogue, consultez [Vitrine de Présentation Trois Montres](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h2",
@@ -522,7 +524,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Intégrez la quantité minimale de commande (MOQ) : la mousse EVA demande en général 300 à 500 unités à cause du coût de mise en place de l'outil de découpe, la mousse EPE 500 à 1 000 unités, les doublures en velours 100 à 300 unités, et le feutre seulement 50 à 100 unités car il se travaille plus facilement en petites séries. Pour les produits alimentaires, médicaux ou destinés aux enfants, vérifiez la conformité RoHS (absence de substances dangereuses), la certification REACH du règlement européen sur les substances chimiques et l'agrément FDA pour les matériaux au contact alimentaire."
+          "text": "Intégrez la quantité minimale de commande (MOQ) : la mousse EVA demande en général 300 à 500 unités à cause du coût de mise en place de l'outil de découpe, la mousse EPE 500 à 1 000 unités, les doublures en velours 100 à 300 unités, et le feutre seulement 50 à 100 unités car il se travaille plus facilement en petites séries. Pour les produits alimentaires, médicaux ou destinés aux enfants, vérifiez la conformité RoHS (absence de substances dangereuses), la certification REACH du règlement européen sur les substances chimiques et l'agrément FDA pour les matériaux au contact alimentaire. Pour plus de détails, consultez [Sourcer des boîtes en bois personnalisées depuis la Chine en 2026 : le guide de l'acheteur B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
         },
         {
           "type": "h2",
@@ -530,7 +532,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Choisir le bon calage pour vos coffrets en bois revient à équilibrer protection, coût, esthétique et valeurs de marque. La mousse EVA offre une protection et une personnalisation haut de gamme à $$$, et se justifie pour les produits de valeur. La mousse EPE apporte un calage léger et abordable pour un usage général, à $. Le velours assure une présentation de luxe et donne son meilleur sur une base de mousse, à $$$. Le feutre est écologique, élégant et polyvalent, à $$. Pour la plupart des projets de coffrets en bois sur mesure, nous conseillons de partir d'une base en mousse EVA, puis d'ajouter velours ou feutre par-dessus si le budget le permet. Vous obtenez ainsi le meilleur des deux : une protection fiable et une présentation qui séduit."
+          "text": "Choisir le bon calage pour vos coffrets en bois revient à équilibrer protection, coût, esthétique et valeurs de marque. La mousse EVA offre une protection et une personnalisation haut de gamme à $$$, et se justifie pour les produits de valeur. La mousse EPE apporte un calage léger et abordable pour un usage général, à $. Le velours assure une présentation de luxe et donne son meilleur sur une base de mousse, à $$$. Le feutre est écologique, élégant et polyvalent, à $$. Pour la plupart des projets de coffrets en bois sur mesure, nous conseillons de partir d'une base en mousse EVA, puis d'ajouter velours ou feutre par-dessus si le budget le permet. Vous obtenez ainsi le meilleur des deux : une protection fiable et une présentation qui séduit. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
         }
       ]
     },
@@ -540,6 +542,7 @@ export default {
       "category": "Conception",
       "readTime": "14 min de lecture",
       "body": [
+        { type: 'p', text: 'Avant de fixer les spécifications, consultez [Un guide de l\'acheteur pour le matériel de boîte en bois](/blog/wooden-box-hardware-guide).' },
         {
           "type": "p",
           "text": "La plupart des acheteurs spécifient un coffret en bois dans cet ordre : dimensions, essence, marquage — puis, presque après coup, la manière dont il s'ouvre. Cet ordre est inversé. La fermeture détermine l'outillage, le temps d'assemblage, la facture de quincaillerie, la possibilité d'expédier à plat et ce que le client ressent dans les deux premières secondes de manipulation. Changer de fermeture tardivement revient à avoir rechiffré tout le projet."
@@ -785,7 +788,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ce qui change réellement en production, c'est le reste du coffret. Une serrure concentre l'effort sur le chant du couvercle et les charnières chaque fois que quelqu'un la teste ; les coffrets verrouillables reçoivent donc des charnières renforcées et un couvercle plus épais que le même coffret n'en aurait autrement besoin. Faire l'impasse sur ce renfort est de loin la raison la plus fréquente pour laquelle un coffret verrouillable revient endommagé. Nos [coffrets en bois à serrure](/products/with-lock) existent en noyer, chêne, pin et acacia."
+          "text": "Ce qui change réellement en production, c'est le reste du coffret. Une serrure concentre l'effort sur le chant du couvercle et les charnières chaque fois que quelqu'un la teste ; les coffrets verrouillables reçoivent donc des charnières renforcées et un couvercle plus épais que le même coffret n'en aurait autrement besoin. Faire l'impasse sur ce renfort est de loin la raison la plus fréquente pour laquelle un coffret verrouillable revient endommagé. Nos [coffrets en bois à serrure](/products/with-lock) existent en noyer, chêne, pin et acacia. Pour plus de détails, consultez [guide de l’épaisseur du bois](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "h2",
@@ -852,7 +855,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Chaque coffret que nous expédions passe par les mêmes six postes, quelle que soit la fermeture. Ce qui change, c'est la charge de travail aux postes trois et quatre — et c'est de là que viennent les écarts de délai du tableau ci-dessus."
+          "text": "Chaque coffret que nous expédions passe par les mêmes six postes, quelle que soit la fermeture. Ce qui change, c'est la charge de travail aux postes trois et quatre — et c'est de là que viennent les écarts de délai du tableau ci-dessus. Pour plus de détails, consultez [À l'intérieur de notre processus de fabrication de boîte en bois de 6 étapes](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "flow",
@@ -913,11 +916,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Si deux réponses s'opposent — un écrin à bijoux qui est à la fois objet d'usage quotidien et déballage haut de gamme, par exemple —, c'est l'exigence d'usage quotidien qui doit l'emporter. Un couvercle magnétique ouvert deux fois par jour survivra au programme, mais il ne donnera jamais en main la même impression d'assise qu'une charnière correctement spécifiée, et le client le remarque au trentième jour, pas au premier."
+          "text": "Si deux réponses s'opposent — un écrin à bijoux qui est à la fois objet d'usage quotidien et déballage haut de gamme, par exemple —, c'est l'exigence d'usage quotidien qui doit l'emporter. Un couvercle magnétique ouvert deux fois par jour survivra au programme, mais il ne donnera jamais en main la même impression d'assise qu'une charnière correctement spécifiée, et le client le remarque au trentième jour, pas au premier. Pour plus de détails, consultez [Anatomie d'une grande boîte de montre en bois](/blog/wooden-watch-box-anatomy)."
         },
         {
           "type": "p",
-          "text": "L'essence de bois est une décision distincte de la fermeture, et les deux interagissent moins qu'on ne le suppose : chacune de ces cinq fermetures peut être réalisée dans chacune de nos essences. Notre [guide des matériaux](/material-guide) compare paulownia, pin, bambou, acacia et noyer sur le poids, la dureté, le comportement en finition et la certification."
+          "text": "L'essence de bois est une décision distincte de la fermeture, et les deux interagissent moins qu'on ne le suppose : chacune de ces cinq fermetures peut être réalisée dans chacune de nos essences. Notre [guide des matériaux](/material-guide) compare paulownia, pin, bambou, acacia et noyer sur le poids, la dureté, le comportement en finition et la certification. Pour plus de détails, consultez [5 techniques de finition qui changent l'apparence et la sensation d'une boîte en bois](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "quote",
@@ -973,6 +976,7 @@ export default {
       "category": "Tarification",
       "readTime": "12 min de lecture",
       "body": [
+        { type: 'p', text: 'Avant de fixer les spécifications, consultez [EVA, EPE, velours ou feutre : quel calage pour un coffret en bois ?](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide).' },
         {
           "type": "p",
           "text": "La question la plus fréquente qu'un fabricant de boîtes en bois entend est aussi la plus difficile à résumer en un seul chiffre : « combien coûte une boîte en bois personnalisée ? » La réponse honnête est une fourchette — environ 1,50 $ à 25 $ l'unité — car une boîte cadeau en pin teinté à couvercle coulissant et un écrin à montre en noyer massif doublé de velours avec serrure en laiton sont toutes deux des « boîtes en bois », et elles se situent aux deux extrémités opposées de la carte des coûts. Ce guide transforme cette fourchette peu utile en quelque chose sur lequel vous pouvez réellement bâtir un budget."
@@ -1275,7 +1279,7 @@ export default {
           "type": "list",
           "items": [
             "Descendez d'un palier d'essence là où cela ne se verra pas — le paulownia teinté foncé se rapproche du noyer pour une fraction du coût.",
-            "Choisissez un [couvercle coulissant](/products/sliding-lid) plutôt qu'une charnière ou une fermeture magnétique quand le cas d'usage le permet — c'est le moins cher à monter.",
+            "Choisissez un couvercle coulissant plutôt qu'une charnière ou une fermeture magnétique quand le cas d'usage le permet — c'est le moins cher à monter.",
             "Simplifiez la finition : une couche de laque alimentaire plutôt qu'un poli laqué brillant.",
             "Optimisez les dimensions selon le carton d'expédition et le conteneur — l'air gaspillé est du fret gaspillé.",
             "Utilisez la gravure laser plutôt que la dorure à chaud ou l'impression pleine couleur pour le marquage.",
@@ -1311,6 +1315,7 @@ export default {
       "category": "Stratégie",
       "readTime": "13 min de lecture",
       "body": [
+        { type: 'p', text: 'Avant de fixer les spécifications, consultez [OEM vs ODM: lequel est bon pour votre projet de boîte en bois?](/blog/oem-vs-odm-wooden-boxes).' },
         {
           "type": "p",
           "text": "La première fois qu'une responsable achats d'un détaillant cadeaux d'Helsinki m'a demandé comment sourcer des boîtes en bois personnalisées depuis la Chine, elle était déjà passée par deux fournisseurs en 18 mois. Le premier avait coté à 3,20 USD l'unité, encaissé son budget outillage et expédié des boîtes avec un taux d'humidité tellement variable que 14 % de la commande est arrivée fissurée. Le deuxième était techniquement compétent mais ne communiquait que par réponses vagues sur WeChat et avait raté sa fenêtre de Noël de six semaines. Elle était sur le point d'abandonner les fournisseurs chinois pour de bon."
@@ -1362,7 +1367,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La plupart du sourcing B2B sérieux se passe ici. Une usine spécialisée (concentrée sur le paulownia, le pin, le bambou, l'acacia, le noyer — choisissez une ou deux essences) opère sa propre cour de production et la couple avec un bureau commercial dans un hub export comme Xiamen, Shenzhen ou Shanghai. L'usine s'occupe de la fabrication ; le bureau commercial s'occupe de la documentation, de la coordination des échantillons, de la communication et de la logistique peu sexy qui transforme une palette de boîtes en quelque chose qui passe la douane. Notre propre structure — une usine de production de 20 000 m² à Cao County, Shandong et un bureau commercial à Xiamen, Fujian — entre dans cette catégorie, et c'est le modèle qui produit le résultat le plus prévisible pour les acheteurs qui veulent réapprovisionner."
+          "text": "La plupart du sourcing B2B sérieux se passe ici. Une usine spécialisée (concentrée sur le paulownia, le pin, le bambou, l'acacia, le noyer — choisissez une ou deux essences) opère sa propre cour de production et la couple avec un bureau commercial dans un hub export comme Xiamen, Shenzhen ou Shanghai. L'usine s'occupe de la fabrication ; le bureau commercial s'occupe de la documentation, de la coordination des échantillons, de la communication et de la logistique peu sexy qui transforme une palette de boîtes en quelque chose qui passe la douane. Notre propre structure — une usine de production de 20 000 m² à Cao County, Shandong et un bureau commercial à Xiamen, Fujian — entre dans cette catégorie, et c'est le modèle qui produit le résultat le plus prévisible pour les acheteurs qui veulent réapprovisionner. Consultez les options dans [Capacités](/capabilities)."
         },
         {
           "type": "h3",
@@ -1370,7 +1375,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "En haut de gamme, vous trouverez de petits ateliers produisant des séries de 300 pièces de boîtes à montres en noyer massif ou de pièces heirloom gravées à la main. Les délais sont longs, les prix unitaires élevés, et ils ne sont pas faits pour scaler — mais ce sont ceux que vous voulez pour les éditions limitées et les lancements luxe où chaque détail est validé en personne."
+          "text": "En haut de gamme, vous trouverez de petits ateliers produisant des séries de 300 pièces de boîtes à montres en noyer massif ou de pièces heirloom gravées à la main. Les délais sont longs, les prix unitaires élevés, et ils ne sont pas faits pour scaler — mais ce sont ceux que vous voulez pour les éditions limitées et les lancements luxe où chaque détail est validé en personne. Pour un exemple du catalogue, consultez [Vitrine de Présentation Trois Montres](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "p",
@@ -1403,7 +1408,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "\"Typique\" vous dit leur sweet spot commercial ; \"plancher\" vous dit si vous pouvez faire un test avant de vous engager sur une saison entière. Pour la plupart des boîtes en bois personnalisées, le MOQ typique se situe à 500–1 000 pièces ; les MOQ planchers pour premières commandes ou spécifications plus simples peuvent être de 100–300. Si un fournisseur refuse de coter quoi que ce soit en dessous de 1 000, il n'est probablement pas configuré pour des tests incrémentaux — bien pour des lignes établies, risqué pour un nouveau lancement."
+          "text": "\"Typique\" vous dit leur sweet spot commercial ; \"plancher\" vous dit si vous pouvez faire un test avant de vous engager sur une saison entière. Pour la plupart des boîtes en bois personnalisées, le [MOQ](/blog/low-moq-sampling-strategy) typique se situe à 500–1 000 pièces ; les MOQ planchers pour premières commandes ou spécifications plus simples peuvent être de 100–300. Si un fournisseur refuse de coter quoi que ce soit en dessous de 1 000, il n'est probablement pas configuré pour des tests incrémentaux — bien pour des lignes établies, risqué pour un nouveau lancement."
         },
         {
           "type": "h3",
@@ -1419,7 +1424,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les bonnes usines échantillonnent chaque nouveau design avant de coter la production pleine. Le coût d'échantillon varie — gratuit pour les acheteurs établis, 80–200 USD la pièce pour des builds complexes ponctuels — mais le principe n'est pas négociable : vous ne devriez jamais approuver une commande de 5 000 pièces sur un seul rendu CAO. Méfiez-vous des fournisseurs qui résistent aux échantillons physiques ou facturent des coûts de moule qui ressemblent suspicieusement à une marge de société de négoce."
+          "text": "Les bonnes usines échantillonnent chaque nouveau design avant de coter la production pleine. Le coût d'échantillon varie — gratuit pour les acheteurs établis, 80–200 USD la pièce pour des builds complexes ponctuels — mais le principe n'est pas négociable : vous ne devriez jamais approuver une commande de 5 000 pièces sur un seul rendu CAO. Méfiez-vous des fournisseurs qui résistent aux échantillons physiques ou facturent des coûts de moule qui ressemblent suspicieusement à une marge de société de négoce. Pour plus de détails, consultez [Combien coûtent les boîtes en bois personnalisées ? Un guide de tarification grossiste et OEM 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "img",
@@ -1440,7 +1445,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Certifications permanentes et documents par commande sont deux choses différentes. ISO 9001 est une certification de système de management permanent qui s'applique à toute l'usine. FSC, CARB et EU REACH sont généralement appliqués par commande : le bois utilisé dans votre série spécifique est sourcé et documenté pour respecter le standard. Demandez au fournisseur ce qu'il a en permanent et ce qu'il peut documenter pour votre commande. Des réponses désalignées ici sont le signe le plus courant d'ennuis."
+          "text": "[Certifications](/blog/sustainable-sourcing-2026) permanentes et documents par commande sont deux choses différentes. ISO 9001 est une certification de système de management permanent qui s'applique à toute l'usine. FSC, CARB et EU REACH sont généralement appliqués par commande : le bois utilisé dans votre série spécifique est sourcé et documenté pour respecter le standard. Demandez au fournisseur ce qu'il a en permanent et ce qu'il peut documenter pour votre commande. Des réponses désalignées ici sont le signe le plus courant d'ennuis."
         },
         {
           "type": "h3",
@@ -1469,11 +1474,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Exemple pratique : un détaillant cadeau berlinois nous a récemment demandé de produire 1 200 boîtes à thé en noyer à un coût unitaire cible de 4,80 USD avec 28 jours de délai. Notre réponse honnête a été que 1 200 pièces atterrissent proprement dans la zone douce (sous 5 USD avec un séchage en four correct est réaliste), mais 28 jours ne fonctionnent que si elle approuve l'échantillon dans les 5 jours et saute la seconde manche de révision. Elle l'a fait, et les boîtes ont été expédiées au jour 32. La leçon est la même que chaque acheteur expérimenté apprend : le coût unitaire n'a jamais été le levier — l'horloge d'approbation d'échantillon l'était."
+          "text": "Exemple pratique : un détaillant cadeau berlinois nous a récemment demandé de produire 1 200 boîtes à thé en noyer à un coût unitaire cible de 4,80 USD avec 28 jours de délai. Notre réponse honnête a été que 1 200 pièces atterrissent proprement dans la zone douce (sous 5 USD avec un séchage en four correct est réaliste), mais 28 jours ne fonctionnent que si elle approuve l'échantillon dans les 5 jours et saute la seconde manche de révision. Elle l'a fait, et les boîtes ont été expédiées au jour 32. La leçon est la même que chaque acheteur expérimenté apprend : le coût unitaire n'a jamais été le levier — l'horloge d'approbation d'échantillon l'était. Pour un exemple du catalogue, consultez [Boîte à Sachets de Thé Acacia 8 Compartiments](/products/tea-coffee/acacia-tea-bag-box-8-compartment)."
         },
         {
           "type": "p",
-          "text": "Le délai, ce sont deux horloges qui tournent en parallèle. La première est le temps calendaire : séchage en four (5–14 jours), durcissement de la finition (3–5 jours), et attente d'un départ export (5–10 jours de la porte de l'usine au conteneur de votre transitaire). La seconde est le temps de production réel : généralement 12–25 minutes de travail par boîte, multipliés par votre quantité de commande. Le temps calendaire domine pour les commandes en dessous de 5 000 unités ; le temps de production domine au-dessus de 10 000. Une série personnalisée typique de 1 500 pièces depuis notre installation prend 30–40 jours porte à porte."
+          "text": "Le délai, ce sont deux horloges qui tournent en parallèle. La première est le temps calendaire : séchage en four (5–14 jours), durcissement de la finition (3–5 jours), et attente d'un départ export (5–10 jours de la porte de l'usine au conteneur de votre transitaire). La seconde est le temps de production réel : généralement 12–25 minutes de travail par boîte, multipliés par votre quantité de commande. Le temps calendaire domine pour les commandes en dessous de 5 000 unités ; le temps de production domine au-dessus de 10 000. Une série personnalisée typique de 1 500 pièces depuis notre installation prend 30–40 jours porte à porte. Pour plus de détails, consultez [À l'intérieur de notre processus de fabrication de boîte en bois de 6 étapes](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "img",
@@ -1506,7 +1511,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le coût unitaire est la plus petite des trois variables que vous devriez optimiser. Celle qui fait le plus mal quand vous vous trompez, c'est la fiabilité — une économie de 0,30 USD par unité sur une commande de 2 000 pièces fait 600 USD. Le coût d'une fenêtre retail manquée, c'est la marge entière de cette saison. Les fournisseurs qui mènent avec le prix ne sont pas ceux qui reçoivent des re-commandes."
+          "text": "Le coût unitaire est la plus petite des trois variables que vous devriez optimiser. Celle qui fait le plus mal quand vous vous trompez, c'est la fiabilité — une économie de 0,30 USD par unité sur une commande de 2 000 pièces fait 600 USD. Le coût d'une fenêtre retail manquée, c'est la marge entière de cette saison. Les fournisseurs qui mènent avec le prix ne sont pas ceux qui reçoivent des re-commandes. Consultez les options dans [guide des bois, finitions et ferrures](/material-guide)."
         },
         {
           "type": "h2",
@@ -1647,7 +1652,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Si vous êtes au début de ce voyage et voulez discuter d'une question spécifique de design, MOQ, matériau ou conformité, notre équipe à Xiamen peut vous accompagner directement — envoyez un brief depuis la page /contact et nous répondrons avec une vidéo d'échantillon d'usine et un paquet de documentation sous un jour ouvré. Nous expédions actuellement des boîtes en bois personnalisées vers des marques en Allemagne, Italie, États-Unis, Royaume-Uni, Canada et Pologne via exactement ce processus. Vous pouvez parcourir le catalogue de production sur /products, lire sur notre processus de fabrication en six étapes sur /blog/six-step-manufacturing-process, ou commencer par le guide des matériaux si vous n'avez pas encore choisi votre bois (/material-guide)."
+          "text": "Si vous êtes au début de ce voyage et voulez discuter d'une question spécifique de design, MOQ, matériau ou conformité, notre équipe à Xiamen peut vous accompagner directement — envoyez un brief depuis la page /contact et nous répondrons avec une vidéo d'échantillon d'usine et un paquet de documentation sous un jour ouvré. Nous expédions actuellement des boîtes en bois personnalisées vers des marques en Allemagne, Italie, États-Unis, Royaume-Uni, Canada et Pologne via exactement ce processus. Vous pouvez parcourir le catalogue de production sur /products, lire sur notre processus de fabrication en six étapes sur /blog/six-step-manufacturing-process, ou commencer par le guide des matériaux si vous n'avez pas encore choisi votre bois (/material-guide). Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
         }
       ]
     },
@@ -1657,6 +1662,7 @@ export default {
       "category": "Processus",
       "readTime": "11 min de lecture",
       "body": [
+        { type: 'p', text: 'Avant de fixer les spécifications, consultez [Sourcer des boîtes en bois personnalisées depuis la Chine en 2026 : le guide de l\'acheteur B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "Un acheteur d'Amsterdam a visité notre usine de Cao County en mars dernier. Il commandait des boîtes de thé chez nous depuis deux ans-environ 18 000 unités par an pour sa marque de détail aux Pays-Bas-mais il n'avait jamais vu l'endroit en personne. Après que nous l'avons ramassé à l'aéroport de Heze nous avons conduit les 45 minutes à l'est, tiré dans la cour autour de dix heures du matin, et garé à côté de la pile de bois."
@@ -1679,7 +1685,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Chaque commande commence à notre cour de bois. Le paulownia, le pin, le bambou, l'acacia, le noyer et le chêne sont stockés dans des hangars couverts mais ouverts, séparés par espèce et grade. Avant qu'une planche ne touche une scie, elle doit passer par nos fours de séchage et atteindre 8-12% d'humidité (MC)."
+          "text": "Chaque commande commence à notre cour de bois. Le paulownia, le pin, le bambou, l'acacia, le noyer et le chêne sont stockés dans des hangars couverts mais ouverts, séparés par espèce et grade. Avant qu'une planche ne touche une scie, elle doit passer par nos fours de séchage et atteindre 8-12% d'humidité (MC). Consultez les options dans [guide des bois, finitions et ferrures](/material-guide)."
         },
         {
           "type": "p",
@@ -1687,7 +1693,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Nos fours fonctionnent à 60-80 ° C avec une humidité contrôlée pendant 7 à 21 jours selon l'épaisseur et l'espèce du panneau. Le noyer et le chêne prennent le plus longtemps parce qu'ils sont denses; le paulownia sèche le plus rapidement parce qu'il est léger. Chaque carte est vérifiée avec un humidimètre à broche avant de quitter le four et les lectures sont consignées."
+          "text": "Nos fours fonctionnent à 60-80 ° C avec une humidité contrôlée pendant 7 à 21 jours selon l'[épaisseur](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes) et l'espèce du panneau. Le noyer et le chêne prennent le plus longtemps parce qu'ils sont denses; le paulownia sèche le plus rapidement parce qu'il est léger. Chaque carte est vérifiée avec un humidimètre à broche avant de quitter le four et les lectures sont consignées."
         },
         {
           "type": "p",
@@ -1712,7 +1718,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Pour une commande personnalisée, nous programmons les scies directement à partir de votre fichier CAO ou de notre maquette 3D interne. Chaque partie est coupée aux côtés, haut, bas, base, cadre de couvercle, panneau de couvercle, diviseurs-sans le regard et aucune conjecture. Notre logiciel de nidification organise les pièces sur chaque carte pour minimiser les déchets de coupe, atteignant généralement un rendement de matière de 88-92%. Les chutes vont à une installation sœur qui produit des perles en bois, des poignées et de petits composants tournés, de sorte que presque rien n'atteint la décharge."
+          "text": "Pour une commande personnalisée, nous programmons les scies directement à partir de votre fichier CAO ou de notre maquette 3D interne. Chaque partie est coupée aux côtés, haut, bas, base, cadre de couvercle, panneau de couvercle, diviseurs-sans le regard et aucune conjecture. Notre logiciel de nidification organise les pièces sur chaque carte pour minimiser les déchets de coupe, atteignant généralement un rendement de matière de 88-92%. Les chutes vont à une installation sœur qui produit des perles en bois, des poignées et de petits composants tournés, de sorte que presque rien n'atteint la décharge. Consultez les modèles disponibles dans la catégorie [Boîtes Cadeau et Emballage](/products/gift-packaging)."
         },
         {
           "type": "p",
@@ -1724,7 +1730,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'étape 3 est où les boîtes prennent leur personnalité. Les routeurs CNC gèrent chaque coupe qui n'est pas une ligne droite: bords chanfreinés et arrondis, rainures dado pour couvercles coulissants, mortaises pour charnières et serrures, articulations des doigts et queues d'aronde pour les côtés, fentes pour séparateurs internes."
+          "text": "L'étape 3 est où les boîtes prennent leur personnalité. Les routeurs CNC gèrent chaque coupe qui n'est pas une ligne droite: bords chanfreinés et arrondis, rainures dado pour [couvercles](/blog/wooden-box-closure-types-compared) coulissants, mortaises pour charnières et serrures, articulations des doigts et queues d'aronde pour les côtés, fentes pour séparateurs internes."
         },
         {
           "type": "p",
@@ -1745,7 +1751,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Avant n'importe quelle colle ou matériel entre, chaque partie de la boîte est sèche-adaptée pour confirmer que la menuiserie est serrée, les couvercles ferment à plat, les tiroirs glissent doucement. Cela semble évident, mais la plupart des usines bas de gamme le sautent-elles vont directement des pièces coupées à la colle et espèrent le meilleur."
+          "text": "Avant n'importe quelle colle ou matériel entre, chaque partie de la boîte est sèche-adaptée pour confirmer que la menuiserie est serrée, les couvercles ferment à plat, les tiroirs glissent doucement. Cela semble évident, mais la plupart des usines bas de gamme le sautent-elles vont directement des pièces coupées à la colle et espèrent le meilleur. Pour plus de détails, consultez [Un guide de l'acheteur pour le matériel de boîte en bois](/blog/wooden-box-hardware-guide)."
         },
         {
           "type": "p",
@@ -1781,7 +1787,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le choix de la finition dépend de la boîte. Laque alimentaire sûre pour les boîtes à thé, les casiers à épices et les poubelles à pain. Cire d'abeille ou huile minérale pour les planches à découper et les boîtes de service. Laque à base d'eau (faible COV, conforme EU REACH et US CARB P2) pour usage général. Le noyer et le chêne de qualité supérieure obtiennent de la cire d'huile pour ce look fini à la main que les finitions appliquées à la machine ne peuvent égaler."
+          "text": "Le choix de la finition dépend de la boîte. Laque alimentaire sûre pour les boîtes à thé, les casiers à épices et les poubelles à pain. Cire d'abeille ou huile minérale pour les planches à découper et les boîtes de service. Laque à base d'eau (faible COV, conforme EU REACH et US CARB P2) pour usage général. Le noyer et le chêne de qualité supérieure obtiennent de la cire d'huile pour ce look fini à la main que les [finitions](/blog/wooden-box-finishing-techniques) appliquées à la machine ne peuvent égaler."
         },
         {
           "type": "p",
@@ -1814,7 +1820,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Fait à la cour de bois. Les planches qui sont trop humides, trop déformée ou qui ont des nœuds, des fentes ou des variations de couleur inacceptables n'entrent jamais dans le flux de production. Environ 5 à 8% du bois entrant est rejeté à ce stade et retourné au fournisseur."
+          "text": "Fait à la cour de bois. Les planches qui sont trop humides, trop déformée ou qui ont des nœuds, des fentes ou des variations de couleur inacceptables n'entrent jamais dans le flux de production. Environ 5 à 8% du bois entrant est rejeté à ce stade et retourné au fournisseur. Pour plus de détails, consultez [Comment choisir le bon bois pour l'emballage cadeau](/blog/choosing-wood-for-gift-packaging)."
         },
         {
           "type": "h3",
@@ -1834,7 +1840,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Une fois que les boîtes passent QC final, elles sont enveloppées dans des tissus ou des polybags, emballées dans des cartons individuels au détail ou des cartons maîtres en vrac, palettisés et chargés avec le paquet complet de documentation d'exportation: facture commerciale avec les codes HS, liste de colisage avec ventilation carton par carton, certificat phytosanitaire pour bois massif, certificat d'origine, Et le connaissement."
+          "text": "Une fois que les boîtes passent QC final, elles sont enveloppées dans des tissus ou des polybags, emballées dans des cartons individuels au détail ou des cartons maîtres en vrac, palettisés et chargés avec le paquet complet de documentation d'exportation: facture commerciale avec les codes HS, liste de colisage avec ventilation carton par carton, certificat phytosanitaire pour bois massif, certificat d'origine, Et le connaissement. Pour plus de détails, consultez [Concevoir des emballages en bois pour Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "p",
@@ -1926,7 +1932,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Et plus les conversations que vous pouvez avoir avec nous quand quelque chose ne semble pas correct-parce que dans la fabrication, quelque chose finit toujours par ne pas sembler juste, et comment il est fixé est ce qui définit un vrai partenariat."
+          "text": "Et plus les conversations que vous pouvez avoir avec nous quand quelque chose ne semble pas correct-parce que dans la fabrication, quelque chose finit toujours par ne pas sembler juste, et comment il est fixé est ce qui définit un vrai partenariat. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
         }
       ]
     },
@@ -1936,6 +1942,7 @@ export default {
       "category": "Matériaux",
       "readTime": "10 min de lecture",
       "body": [
+        { type: 'p', text: 'Avant de fixer les spécifications, consultez [guide des bois, finitions et ferrures](/material-guide).' },
         {
           "type": "p",
           "text": "Le choix du bois est la décision la plus importante dans tout projet d'emballage cadeau. Il entraîne le coût unitaire, le coût du fret, la qualité de finition, la prime perçue, la recyclabilité en fin de vie et la façon dont la boîte se lit dans la main du client. Parfois, il importe plus que le design lui-même."
@@ -1954,7 +1961,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La plupart des acheteurs se concentrent sur le coût des matériaux par pied-planche. C'est le mauvais numéro. Pour la plupart des projets d'emballage de cadeaux expédiés de Chine, la composante fret domine-en particulier pour les boîtes de vente au détail volumineuses expédiées LCL ou via Amazon FBA."
+          "text": "La plupart des acheteurs se concentrent sur le coût des matériaux par pied-planche. C'est le mauvais numéro. Pour la plupart des projets d'emballage de cadeaux expédiés de Chine, la composante fret domine-en particulier pour les boîtes de vente au détail volumineuses expédiées LCL ou via Amazon FBA. Pour plus de détails, consultez [Combien coûtent les boîtes en bois personnalisées ? Un guide de tarification grossiste et OEM 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
@@ -1970,7 +1977,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le paulownia est le bois commercial le plus léger sur Terre-densité autour de 280 kg/m³, soit environ la moitié du pin et un tiers du chêne. Pour les emballages cadeaux à volume élevé, il gagne sur le coût du fret seul, avant d'envisager toute autre variable."
+          "text": "Le [paulownia](/products/paulownia) est le bois commercial le plus léger sur Terre-densité autour de 280 kg/m³, soit environ la moitié du pin et un tiers du chêne. Pour les emballages cadeaux à volume élevé, il gagne sur le coût du fret seul, avant d'envisager toute autre variable."
         },
         {
           "type": "p",
@@ -1990,7 +1997,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le pin sylvestre et le pin radiata vous donnent le grain chaud classique au plus bas prix-par-conseil-pied de n'importe quel bois résineux que nous avons en stock. Nous travaillons avec deux grades: le pin sans nœud pour un emballage de détail propre et le pin noueux rustique pour le vin de style caisse et les cadeaux sur le thème de la ferme."
+          "text": "Le [pin](/products/pine) sylvestre et le pin radiata vous donnent le grain chaud classique au plus bas prix-par-conseil-pied de n'importe quel bois résineux que nous avons en stock. Nous travaillons avec deux grades: le pin sans nœud pour un emballage de détail propre et le pin noueux rustique pour le vin de style caisse et les cadeaux sur le thème de la ferme."
         },
         {
           "type": "p",
@@ -2015,11 +2022,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Techniquement, le bambou est une herbe, pas un arbre. Il repousse en 5 à 7 ans contre 30 à 60 ans pour le bois dur, ce qui en fait le matériau structurel le plus véritablement renouvelable de la planète. Pour les marques avec un message écologique explicite, le bambou est le seul choix honnête."
+          "text": "Techniquement, le [bambou](/products/bamboo) est une herbe, pas un arbre. Il repousse en 5 à 7 ans contre 30 à 60 ans pour le bois dur, ce qui en fait le matériau structurel le plus véritablement renouvelable de la planète. Pour les marques avec un message écologique explicite, le bambou est le seul choix honnête."
         },
         {
           "type": "p",
-          "text": "Le bambou est également naturellement antibactérien-ce qui en fait le choix par défaut pour les produits de cuisine, les accessoires de bain et tout ce qui touche la nourriture ou la peau. Il est plus dur que le chêne rouge (Janka ~ 1380), plus résistant à l'eau que la plupart des bois durs, et se termine par une belle surface en or chaud ou en caramel carbonisé."
+          "text": "Le bambou est également naturellement antibactérien-ce qui en fait le choix par défaut pour les produits de cuisine, les accessoires de bain et tout ce qui touche la nourriture ou la peau. Il est plus dur que le chêne rouge (Janka ~ 1380), plus résistant à l'eau que la plupart des bois durs, et se termine par une belle surface en or chaud ou en caramel carbonisé. Pour plus de détails, consultez [Bambou vs acacia: quel bois pour les produits de cuisine?](/blog/bamboo-vs-acacia-kitchenware)."
         },
         {
           "type": "p",
@@ -2035,7 +2042,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Acacia est le héros sous-estimé de notre catalogue. Dureté Janka au-dessus de 2300 (plus dur que le chêne), grain tourbillonnant dramatique avec des stries brun chocolat qui traversent heartwood miel chaud, et les prix qui atterrit bien en dessous de noyer tout en regardant presque comme prime."
+          "text": "[Acacia](/products/acacia) est le héros sous-estimé de notre catalogue. Dureté Janka au-dessus de 2300 (plus dur que le chêne), grain tourbillonnant dramatique avec des stries brun chocolat qui traversent heartwood miel chaud, et les prix qui atterrit bien en dessous de noyer tout en regardant presque comme prime."
         },
         {
           "type": "p",
@@ -2051,7 +2058,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le noyer noir américain est le bois dur le plus convoité dans l'industrie du cadeau. Couleur de chocolat naturellement profonde (aucune coloration requise), surface lisse soyeuse qui polit au verre, et grain droit fin qui prend le travail de gravure et d'incrustation magnifiquement."
+          "text": "Le [noyer](/products/walnut) noir américain est le bois dur le plus convoité dans l'industrie du cadeau. Couleur de chocolat naturellement profonde (aucune coloration requise), surface lisse soyeuse qui polit au verre, et grain droit fin qui prend le travail de gravure et d'incrustation magnifiquement."
         },
         {
           "type": "p",
@@ -2154,7 +2161,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Brief: 8 000 unités, boîte de couvercle de décollage pour une ligne de bougie au détail de 65 $, distribution de l'Europe de FBA, voix minimaliste de la meilleure qualité de marque. Budget: 4 $ par boîte atterri dans l'entrepôt d'Amazon."
+          "text": "Brief: 8 000 unités, boîte de couvercle de décollage pour une ligne de bougie au détail de 65 $, distribution de l'Europe de FBA, voix minimaliste de la meilleure qualité de marque. Budget: 4 $ par boîte atterri dans l'entrepôt d'Amazon. Pour plus de détails, consultez [Concevoir des emballages en bois pour Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "p",
@@ -2229,7 +2236,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le pays d'origine importe moins que la traçabilité des fournisseurs. Le paulownia, le bambou et l'acacia cultivés en Chine sont tous de haute qualité avec des chaînes d'approvisionnement de plantation établies. Noyer, chêne et hêtre nous importons généralement d'Amérique du Nord ou d'Europe à notre usine de finition dans le comté de Cao. Demandez à votre usine la documentation de source sur chaque espèce-qui importe plus que quel pays a traité le bois."
+          "text": "Le pays d'origine importe moins que la traçabilité des fournisseurs. Le paulownia, le bambou et l'acacia cultivés en Chine sont tous de haute qualité avec des chaînes d'approvisionnement de plantation établies. Noyer, chêne et hêtre nous importons généralement d'Amérique du Nord ou d'Europe à notre usine de finition dans le comté de Cao. Demandez à votre usine la documentation de source sur chaque espèce-qui importe plus que quel pays a traité le bois. Pour plus de détails, consultez [Nos pratiques d'approvisionnement durable en 2026](/blog/sustainable-sourcing-2026)."
         },
         {
           "type": "h3",
@@ -2237,7 +2244,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Oui, souvent. Base de paulownia de cadre de noix, poignées en bambou d'acacia de corps, ce genre de chose. Les boîtes d'espèces mélangées peuvent atteindre un équilibre prix/look que ni les espèces seules n'atteindraient. Le hic est que différentes espèces se dilatent et se contractent à des rythmes différents-pour les boîtes d'expédition à des variations climatiques extrêmes, la construction d'espèces mixtes peut causer un stress articulaire. Nous concevons autour de ceci avec la construction de flotter-panneau le cas échéant."
+          "text": "Oui, souvent. Base de paulownia de cadre de noix, poignées en bambou d'acacia de corps, ce genre de chose. Les boîtes d'espèces mélangées peuvent atteindre un équilibre prix/look que ni les espèces seules n'atteindraient. Le hic est que différentes espèces se dilatent et se contractent à des rythmes différents-pour les boîtes d'expédition à des variations climatiques extrêmes, la construction d'espèces mixtes peut causer un stress articulaire. Nous concevons autour de ceci avec la construction de flotter-panneau le cas échéant. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
         },
         {
           "type": "quote",
@@ -2251,6 +2258,7 @@ export default {
       "category": "Conception",
       "readTime": "11 minutes de lecture",
       "body": [
+        { type: 'p', text: 'Avant de fixer les spécifications, consultez [EVA, EPE, velours ou feutre : quel calage pour un coffret en bois ?](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide).' },
         {
           "type": "p",
           "text": "Les boîtes de montre en bois sont la catégorie la plus exigeante que nous faisons. Les acheteurs de montres retourneront la boîte dans leurs mains dix fois avant de toucher la montre. Ils vont courir un ongle le long du bord du couvercle. Ils vont sentir la doublure. Ils vont fermer le couvercle et écouter le snap. Ils remarquent tout."
@@ -2269,7 +2277,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un couvercle qui s'interde même 0,5mm à un coin tue la qualité perçue de la boîte entière. Peu importe la beauté du bois ou la sensation de la doublure-un couvercle gappy se lit comme bon marché."
+          "text": "Un couvercle qui s'interde même 0,5mm à un coin tue la qualité perçue de la boîte entière. Peu importe la beauté du bois ou la sensation de la doublure-un couvercle gappy se lit comme bon marché. Consultez les modèles disponibles dans la catégorie [Boîtes en Bois à Charnières](/products/hinged)."
         },
         {
           "type": "p",
@@ -2285,7 +2293,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Charnières en laiton visibles look traditionnel et fonctionnent bien pour certaines marques-cadeaux vintage, horlogers du patrimoine, quoi que ce soit avec une voix «classique». Pour une sensation de luxe moderne, les charnières européennes dissimulées avec un mécanisme de fermeture douce sont la norme."
+          "text": "[Charnières](/blog/wooden-box-hardware-guide) en laiton visibles look traditionnel et fonctionnent bien pour certaines marques-cadeaux vintage, horlogers du patrimoine, quoi que ce soit avec une voix «classique». Pour une sensation de luxe moderne, les charnières européennes dissimulées avec un mécanisme de fermeture douce sont la norme."
         },
         {
           "type": "p",
@@ -2317,7 +2325,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Semble luxueux dans les photos. Dans la vraie vie, il ramasse les empreintes digitales, les peluches et la poussière de boîtier de montre en quelques semaines. Nous recommandons uniquement le velours pour les cadeaux ponctuelles où la boîte vivra dans un tiroir après le déballage."
+          "text": "Semble luxueux dans les photos. Dans la vraie vie, il ramasse les empreintes digitales, les peluches et la poussière de boîtier de montre en quelques semaines. Nous recommandons uniquement le velours pour les cadeaux ponctuelles où la boîte vivra dans un tiroir après le déballage. Consultez les modèles disponibles dans la catégorie [Boîtes à Montres et Bijoux](/products/watch-jewelry)."
         },
         {
           "type": "h3",
@@ -2342,7 +2350,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "En laiton pour traditionnel. Chrome pour le sport. Noir mat pour le moderne. Laiton antique pour vintage. La finition matérielle fait partie du vocabulaire de la marque-le mauvais choix et la boîte se lit comme confus."
+          "text": "En laiton pour traditionnel. Chrome pour le sport. Noir mat pour le moderne. Laiton antique pour vintage. La finition matérielle fait partie du vocabulaire de la marque-le mauvais choix et la boîte se lit comme confus. Pour plus de détails, consultez [5 techniques de finition qui changent l'apparence et la sensation d'une boîte en bois](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "p",
@@ -2354,11 +2362,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "La noix est la valeur par défaut pour les boîtes de montre de qualité supérieure-le ton de chocolat profond, le grain droit fin et la finition de surface soyeuse renforcent tous le positionnement de luxe. C'est aussi le matériau le plus cher que nous proposons. Pour la vente au détail à fort volume, MDF plaqué de noyer offre la plupart du visuel sans le coût (et avec une meilleure stabilité dimensionnelle pour l'expédition)."
+          "text": "La noix est la valeur par défaut pour les boîtes de montre de qualité supérieure-le ton de chocolat profond, le grain droit fin et la finition de surface soyeuse renforcent tous le positionnement de luxe. C'est aussi le matériau le plus cher que nous proposons. Pour la vente au détail à fort volume, MDF plaqué de [noyer](/products/walnut) offre la plupart du visuel sans le coût (et avec une meilleure stabilité dimensionnelle pour l'expédition)."
         },
         {
           "type": "p",
-          "text": "Pour les marques de niveau intermédiaire, l'acacia vous donne un grain spectaculaire à un coût raisonnable. Pour les marques de montres sport/plein air, le chêne avec finition mate se lit comme robuste-premium. Le bambou pour les marques horlogères éco-positionnées-de plus en plus populaire auprès des marques outdoor de style Patagonia qui se tournent vers les montres."
+          "text": "Pour les marques de niveau intermédiaire, l'acacia vous donne un grain spectaculaire à un coût raisonnable. Pour les marques de montres sport/plein air, le chêne avec finition mate se lit comme robuste-premium. Le bambou pour les marques horlogères éco-positionnées-de plus en plus populaire auprès des marques outdoor de style Patagonia qui se tournent vers les montres. Pour plus de détails, consultez [Comment choisir le bon bois pour l'emballage cadeau](/blog/choosing-wood-for-gift-packaging)."
         },
         {
           "type": "p",
@@ -2390,7 +2398,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les boîtiers multi-montres (3, 6, 10, 12, 24 configurations) sont sur le stockage et l'affichage, pas le don. Ils vendent aux collectionneurs et comme meubles B2B pour les comptoirs de vente au détail. Le défi avec les boîtes multi-montres est de s'assurer que chaque fente de montre se lit individuellement comme premium-ce qui signifie de vrais murs entre les fentes, pas seulement un seul plateau en mousse avec des découpes."
+          "text": "Les boîtiers multi-montres (3, 6, 10, 12, 24 configurations) sont sur le stockage et l'affichage, pas le don. Ils vendent aux collectionneurs et comme meubles B2B pour les comptoirs de vente au détail. Le défi avec les boîtes multi-montres est de s'assurer que chaque fente de montre se lit individuellement comme premium-ce qui signifie de vrais murs entre les fentes, pas seulement un seul plateau en mousse avec des découpes. Pour plus de détails, consultez [Coffrets en bois à séparateurs amovibles : le guide d'achat](/blog/custom-wooden-storage-boxes-with-removable-dividers-buyers-guide). Pour un exemple du catalogue, consultez [Vitrine de Présentation Trois Montres](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "p",
@@ -2562,7 +2570,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Si vous vous approvisionnez en boîtes de montre pour la première fois, nous vous recommandons fortement de commander un échantillon de 50 pièces avant de vous engager au volume. Prenez les boîtes en dehors en personne, exécutez le couvercle à travers 200 cycles d'ouverture-fermeture, laissez tomber un de la hauteur du bureau, laissez-en un dans le coffre de votre voiture pendant une semaine. Les boîtes qui survivent sont les boîtes qui survivront à vos clients."
+          "text": "Si vous vous approvisionnez en boîtes de montre pour la première fois, nous vous recommandons fortement de commander un échantillon de 50 pièces avant de vous engager au volume. Prenez les boîtes en dehors en personne, exécutez le couvercle à travers 200 cycles d'ouverture-fermeture, laissez tomber un de la hauteur du bureau, laissez-en un dans le coffre de votre voiture pendant une semaine. Les boîtes qui survivent sont les boîtes qui survivront à vos clients. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
         }
       ]
     },
@@ -2572,6 +2580,7 @@ export default {
       "category": "Durabilité",
       "readTime": "9 min de lecture",
       "body": [
+        { type: 'p', text: 'Avant de fixer les spécifications, consultez [Sourcer des boîtes en bois personnalisées depuis la Chine en 2026 : le guide de l\'acheteur B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "La durabilité était une ligne de marketing. Aujourd'hui, il s'agit d'une exigence d'approvisionnement de la plupart des marques européennes, japonaises et Amazon que nous servons-une série de certifications spécifiques, de documents et d'audits de fournisseurs qui doivent être valides avant toute boîte."
@@ -2586,7 +2595,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Toutes les espèces de notre catalogue-paulownia, pin, bambou, acacia, noyer et chêne-sont disponibles sur demande avec la certification FSC (Forest Stewardship Council). Nous détenons la certification de la chaîne de contrôle FSC par le biais de nos fournisseurs de bois, ce qui signifie qu'il existe une traçabilité documentée du peuplement forestier ou de la plantation à votre conteneur d'expédition."
+          "text": "Toutes les espèces de notre catalogue-paulownia, pin, bambou, acacia, noyer et chêne-sont disponibles sur demande avec la certification FSC (Forest Stewardship Council). Nous détenons la certification de la chaîne de contrôle FSC par le biais de nos fournisseurs de bois, ce qui signifie qu'il existe une traçabilité documentée du peuplement forestier ou de la plantation à votre conteneur d'expédition. Pour plus de détails, consultez [Comment choisir le bon bois pour l'emballage cadeau](/blog/choosing-wood-for-gift-packaging)."
         },
         {
           "type": "p",
@@ -2606,7 +2615,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Paulownia est la chose la plus proche de l'industrie du bois a à un bois renouvelable. Les arbres arrivent à maturité en 5 à 7 ans (contre 30 à 60 ans pour le chêne ou le noyer), et presque tous les paulownia commerciaux sont cultivés en plantation plutôt que récoltés dans des forêts naturelles."
+          "text": "[Paulownia](/products/paulownia) est la chose la plus proche de l'industrie du bois a à un bois renouvelable. Les arbres arrivent à maturité en 5 à 7 ans (contre 30 à 60 ans pour le chêne ou le noyer), et presque tous les paulownia commerciaux sont cultivés en plantation plutôt que récoltés dans des forêts naturelles."
         },
         {
           "type": "p",
@@ -2627,7 +2636,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les composés organiques volatils (COV) sont les produits chimiques dégagés qui produisent «l'odeur de la nouvelle boîte» et qui, à des concentrations plus élevées, contribuent aux problèmes de qualité de l'air intérieur. Les laques standard de nitrocellulose, qui sont l'option de finition la moins chère, peuvent dégagent des gaz à des niveaux qui échouent aux limites EU REACH et US CARB Phase 2."
+          "text": "Les composés organiques volatils (COV) sont les produits chimiques dégagés qui produisent «l'odeur de la nouvelle boîte» et qui, à des concentrations plus élevées, contribuent aux problèmes de qualité de l'air intérieur. Les laques standard de nitrocellulose, qui sont l'option de finition la moins chère, peuvent dégagent des gaz à des niveaux qui échouent aux limites EU REACH et US CARB Phase 2. Pour plus de détails, consultez [5 techniques de finition qui changent l'apparence et la sensation d'une boîte en bois](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "p",
@@ -2647,7 +2656,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les déchets de bois sont le problème de durabilité unsexy. La plupart des usines génèrent 18 à 25% de déchets découpés à partir de leurs opérations coupées à la taille-des matériaux qui sont payés mais qui finissent par être brûlés pour la chaleur de la biomasse ou envoyés à la décharge."
+          "text": "Les déchets de bois sont le problème de durabilité unsexy. La plupart des usines génèrent 18 à 25% de déchets découpés à partir de leurs opérations coupées à la taille-des matériaux qui sont payés mais qui finissent par être brûlés pour la chaleur de la biomasse ou envoyés à la décharge. Pour plus de détails, consultez [À l'intérieur de notre processus de fabrication de boîte en bois de 6 étapes](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "p",
@@ -2663,7 +2672,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Toutes les expéditions de bois massif partent avec des certificats phytosanitaires délivrés par les douanes chinoises, confirmant que le bois est traité et exempt de parasites selon les normes ISPM-15 (la norme internationale pour les matériaux d'emballage en bois). Ceci est essentiel pour les envois vers l'UE, les États-Unis, l'Australie, le Japon et la Corée-sans certificats phyto, votre conteneur peut être mis en quarantaine ou refusé au port de destination."
+          "text": "Toutes les expéditions de bois massif partent avec des certificats phytosanitaires délivrés par les douanes chinoises, confirmant que le bois est traité et exempt de parasites selon les normes ISPM-15 (la norme internationale pour les matériaux d'emballage en bois). Ceci est essentiel pour les envois vers l'UE, les États-Unis, l'Australie, le Japon et la Corée-sans certificats phyto, votre conteneur peut être mis en quarantaine ou refusé au port de destination. Consultez les options dans [Capacités](/capabilities)."
         },
         {
           "type": "p",
@@ -2703,7 +2712,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Plantation de paulownia. Le cycle rapide de recroissance et la densité très basse (moins de masse signifie moins d'énergie incorporée dans la croissance, le séchage, l'usinage et l'expédition) fait paulownia le choix le plus bas-carbone-par-unité que nous offrons. Pour les marques soucieuses du carbone qui suivent les émissions du Scope 3, le paulownia est presque toujours la bonne réponse."
+          "text": "Plantation de paulownia. Le cycle rapide de recroissance et la densité très basse (moins de masse signifie moins d'énergie incorporée dans la croissance, le séchage, l'usinage et l'expédition) fait paulownia le choix le plus bas-carbone-par-unité que nous offrons. Pour les marques soucieuses du carbone qui suivent les émissions du Scope 3, le paulownia est presque toujours la bonne réponse. Consultez les options dans [guide des bois, finitions et ferrures](/material-guide)."
         },
         {
           "type": "h3",
@@ -2711,7 +2720,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Bambou. Le cycle de repousse de 5 à 7 ans (contre 30 à 60 ans pour le bois dur) signifie que le bambou représente une pression de récolte nette nulle lorsqu'il provient de plantations certifiées FSC. Les systèmes racinaires stabilisent également le sol et améliorent les terres dégradées."
+          "text": "Bambou. Le cycle de repousse de 5 à 7 ans (contre 30 à 60 ans pour le bois dur) signifie que le bambou représente une pression de récolte nette nulle lorsqu'il provient de plantations certifiées FSC. Les systèmes racinaires stabilisent également le sol et améliorent les terres dégradées. Pour plus de détails, consultez [Bambou vs acacia: quel bois pour les produits de cuisine?](/blog/bamboo-vs-acacia-kitchenware)."
         },
         {
           "type": "h3",
@@ -2719,7 +2728,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Bois massif avec finition à l'huile ou à la cire, sans laque. Entièrement compostable en fin de vie, se décompose dans un sol normal dans les 3 à 7 ans. La laque dans les finitions standard empêche la biodégradabilité-pour de vrais produits de berceau à berceau, huile ou cire seulement."
+          "text": "Bois massif avec finition à l'huile ou à la cire, sans laque. Entièrement compostable en fin de vie, se décompose dans un sol normal dans les 3 à 7 ans. La laque dans les finitions standard empêche la biodégradabilité-pour de vrais produits de berceau à berceau, huile ou cire seulement. Consultez les modèles disponibles dans la catégorie [Boîtes de Rangement](/products/storage)."
         },
         {
           "type": "h3",
@@ -2794,7 +2803,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Pour les acheteurs qui nous évaluent par rapport à d'autres usines, nous vous encourageons à poser les mêmes questions de documentation à tout le monde dans votre liste restreinte: certificat FSC, rapports de conformité REACH/CARB, enregistrement phyto et historique des audits. Les usines qui peuvent produire les documents dans les 48 heures sont les usines qui vivent les pratiques. Tout le monde vous vend la version marketing."
+          "text": "Pour les acheteurs qui nous évaluent par rapport à d'autres usines, nous vous encourageons à poser les mêmes questions de documentation à tout le monde dans votre liste restreinte: certificat FSC, rapports de conformité REACH/CARB, enregistrement phyto et historique des audits. Les usines qui peuvent produire les documents dans les 48 heures sont les usines qui vivent les pratiques. Tout le monde vous vend la version marketing. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
         }
       ]
     },
@@ -2804,6 +2813,7 @@ export default {
       "category": "Stratégie",
       "readTime": "10 minutes de lecture",
       "body": [
+        { type: 'p', text: 'Avant de fixer les spécifications, consultez [Pourquoi un MOQ de 100 pièces est la façon la plus intelligente de commencer](/blog/low-moq-sampling-strategy).' },
         {
           "type": "p",
           "text": "La plupart des acheteurs apprennent la différence entre OEM et ODM à la dure. Habituellement, après un devis revient à deux fois ce qu'ils attendaient, ou après un design \"stock\" se révèle être sur un carnet de commandes d'un an chez le fournisseur, ou après un design \"personnalisé\" finit par ne rien ressembler au rendu."
@@ -2818,7 +2828,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Original Equipment Manufacturing signifie que vous apportez la conception et nous la produisons. \"Apporter la conception\" peut signifier n'importe quoi d'un fichier CAO entièrement détaillé avec des spécifications matérielles et des dessins de dimension, à un croquis sur une serviette, à un échantillon de référence que vous avez acheté chez un concurrent et que vous voulez que nous nous améliorons."
+          "text": "Original Equipment Manufacturing signifie que vous apportez la conception et nous la produisons. \"Apporter la conception\" peut signifier n'importe quoi d'un fichier CAO entièrement détaillé avec des spécifications matérielles et des dessins de dimension, à un croquis sur une serviette, à un échantillon de référence que vous avez acheté chez un concurrent et que vous voulez que nous nous améliorons. Consultez les options dans [Capacités](/capabilities)."
         },
         {
           "type": "p",
@@ -2844,7 +2854,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Original Design Manufacturing signifie que vous choisissez dans notre catalogue existant de 500 conceptions de boîtes en bois et nous personnalisons la taille, la finition et l'image de marque pour vous. La conception de base est la nôtre; la surface et l'identité de la marque sont les vôtres."
+          "text": "Original Design Manufacturing signifie que vous choisissez dans notre catalogue existant de 500 conceptions de boîtes en bois et nous personnalisons la taille, la finition et l'image de marque pour vous. La conception de base est la nôtre; la surface et l'identité de la marque sont les vôtres. Consultez les modèles disponibles dans la catégorie [Boîtes Cadeau et Emballage](/products/gift-packaging)."
         },
         {
           "type": "p",
@@ -2870,7 +2880,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Pour une commande typique de boîte-cadeau en bois de 1 000 unités, voici à peu près comment OEM et ODM se comparent:"
+          "text": "Pour une commande typique de boîte-cadeau en bois de 1 000 unités, voici à peu près comment OEM et ODM se comparent: Pour plus de détails, consultez [Combien coûtent les boîtes en bois personnalisées ? Un guide de tarification grossiste et OEM 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "table",
@@ -2932,11 +2942,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Dans un projet ODM-plus, l'acheteur choisit un design de base de notre catalogue, puis change 2-3 éléments: un bois différent (acacia au lieu de pin), une disposition d'insertion personnalisée (5 compartiments au lieu de notre défaut 4), une finition extérieure inhabituelle (laque noire mate au lieu d'huile naturelle), ou du matériel modifié (Charnières magnétiques dissimulées au lieu de charnières visibles)."
+          "text": "Dans un projet ODM-plus, l'acheteur choisit un design de base de notre catalogue, puis change 2-3 éléments: un bois différent (acacia au lieu de pin), une disposition d'insertion personnalisée (5 compartiments au lieu de notre défaut 4), une finition extérieure inhabituelle (laque noire mate au lieu d'huile naturelle), ou du matériel modifié (Charnières magnétiques dissimulées au lieu de charnières visibles). Pour plus de détails, consultez [Fermetures de coffrets en bois comparées : coulissante, à charnières, magnétique, tiroir et serrure](/blog/wooden-box-closure-types-compared)."
         },
         {
           "type": "p",
-          "text": "Vous obtenez la vitesse de l'ODM (la plupart des travaux d'ingénierie sont effectués), avec une grande partie de l'aspect et de la sensation de l'OEM (la boîte semble distinctive, pas générique). Le coût unitaire atterrit quelque part entre ODM et OEM. Le délai d'exécution est habituellement de 25-35 jours. Le coût d'outillage est typiquement $200-800-beaucoup moins que le plein OEM parce que nous modifions les outils existants plutôt que de construire de nouveaux à partir de zéro."
+          "text": "Vous obtenez la vitesse de l'ODM (la plupart des travaux d'ingénierie sont effectués), avec une grande partie de l'aspect et de la sensation de l'OEM (la boîte semble distinctive, pas générique). Le coût unitaire atterrit quelque part entre ODM et OEM. Le délai d'exécution est habituellement de 25-35 jours. Le coût d'outillage est typiquement $200-800-beaucoup moins que le plein OEM parce que nous modifions les outils existants plutôt que de construire de nouveaux à partir de zéro. Pour un exemple du catalogue, consultez [Coffret Cadeau Magnétique de Luxe](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "p",
@@ -2961,7 +2971,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Pour les projets ODM où la conception est la nôtre, la protection de la propriété intellectuelle est moins un problème-mais vous devriez toujours protéger votre marque spécifique, le placement de logo, la copie et les choix de couleurs grâce à l'enregistrement de la marque sur votre marché national."
+          "text": "Pour les projets ODM où la conception est la nôtre, la protection de la propriété intellectuelle est moins un problème-mais vous devriez toujours protéger votre marque spécifique, le placement de logo, la copie et les choix de couleurs grâce à l'enregistrement de la marque sur votre marché national. Pour plus de détails, consultez [5 techniques de finition qui changent l'apparence et la sensation d'une boîte en bois](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -2981,7 +2991,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Une fois que vous avez changé 5 éléments d'une conception ODM, vous faites essentiellement OEM avec la mauvaise structure de coûts. À ce stade, nous vous recommandons généralement de vous engager dans une véritable construction personnalisée avec un échantillonnage et un outillage appropriés-cela revient moins cher et les boîtes sont meilleures."
+          "text": "Une fois que vous avez changé 5 éléments d'une conception ODM, vous faites essentiellement OEM avec la mauvaise structure de coûts. À ce stade, nous vous recommandons généralement de vous engager dans une véritable construction personnalisée avec un échantillonnage et un outillage appropriés-cela revient moins cher et les boîtes sont meilleures. Consultez les options dans [guide des bois, finitions et ferrures](/material-guide)."
         },
         {
           "type": "h3",
@@ -3057,7 +3067,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Beaucoup d'entités qui se présentent comme des usines en ligne sont en fait des sociétés commerciales ou des agents qui sous-traitent à celui qui cite le plus bas cette semaine. Les signes: pas d'adresse d'usine répertoriée, seulement communication WeChat, hésitation à faire des visites vidéo, pas de réponse à des questions de production spécifiques. Les vraies usines vous montreront toujours leur ligne de production réelle."
+          "text": "Beaucoup d'entités qui se présentent comme des usines en ligne sont en fait des sociétés commerciales ou des agents qui sous-traitent à celui qui cite le plus bas cette semaine. Les signes: pas d'adresse d'usine répertoriée, seulement communication WeChat, hésitation à faire des visites vidéo, pas de réponse à des questions de production spécifiques. Les vraies usines vous montreront toujours leur ligne de production réelle. Pour plus de détails, consultez [Sourcer des boîtes en bois personnalisées depuis la Chine en 2026 : le guide de l'acheteur B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
         },
         {
           "type": "h2",
@@ -3097,7 +3107,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Notre recommandation par défaut est de commencer par une petite course d'ODM pour établir la confiance et pour examiner le marché, puis se déplacer à l'ODM-plus pendant que vous vous développez, puis se déplacez au plein OEM une fois que votre volume annuel justifie l'outillage consacré. Les lignes de produits les plus réussies que nous avons vues évoluent à travers les trois étapes."
+          "text": "Notre recommandation par défaut est de commencer par une petite course d'ODM pour établir la confiance et pour examiner le marché, puis se déplacer à l'ODM-plus pendant que vous vous développez, puis se déplacez au plein OEM une fois que votre volume annuel justifie l'outillage consacré. Les lignes de produits les plus réussies que nous avons vues évoluent à travers les trois étapes. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
         }
       ]
     },
@@ -3107,6 +3117,7 @@ export default {
       "category": "Conception",
       "readTime": "10 minutes de lecture",
       "body": [
+        { type: 'p', text: 'Avant de fixer les spécifications, consultez [Comment choisir le bon bois pour l\'emballage cadeau](/blog/choosing-wood-for-gift-packaging).' },
         {
           "type": "p",
           "text": "La même boîte. Cinq finitions différentes. Cinq produits complètement différents."
@@ -3125,7 +3136,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un laser au CO₂ brûle une marque précise sur la surface du bois. La marque tire sa visibilité de la différence de couleur naturelle entre le bois brûlé et le bois non brûlé-la gravure au laser fonctionne donc mieux sur les espèces pâles (paulownia, pin, bambou) et semble subtile ou invisible sur les espèces sombres (noyer)."
+          "text": "Un laser au CO₂ brûle une marque précise sur la surface du bois. La marque tire sa visibilité de la différence de couleur naturelle entre le bois brûlé et le bois non brûlé-la gravure au laser fonctionne donc mieux sur les espèces pâles (paulownia, pin, bambou) et semble subtile ou invisible sur les espèces sombres (noyer). Pour plus de détails, consultez [guide de l’épaisseur du bois](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3162,7 +3173,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Une matrice métallique chauffée presse une feuille métallique dans la surface du bois. Le résultat est une marque nette et brillante en or, argent, cuivre, or rose ou noir mat. Parmi les cinq techniques, la feuille à chaud produit la première impression la plus \"premium\"-c'est la technique qui signale le plus fortement \"c'est un produit de luxe\"."
+          "text": "Une matrice métallique chauffée presse une feuille métallique dans la surface du bois. Le résultat est une marque nette et brillante en or, argent, cuivre, or rose ou noir mat. Parmi les cinq techniques, la feuille à chaud produit la première impression la plus \"premium\"-c'est la technique qui signale le plus fortement \"c'est un produit de luxe\". Consultez les modèles disponibles dans la catégorie [Boîtes Cadeau et Emballage](/products/gift-packaging)."
         },
         {
           "type": "h3",
@@ -3229,7 +3240,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Encre pigmentaire poussée à travers un écran sur le bois. Meilleure technique pour les logos en couleur, les grandes zones plates ou toute marque qui doit correspondre à un Pantone spécifique. La sérigraphie repose sur la surface (non enfoncée) de sorte que la texture est légèrement surélevée."
+          "text": "Encre pigmentaire poussée à travers un écran sur le bois. Meilleure technique pour les logos en couleur, les grandes zones plates ou toute marque qui doit correspondre à un Pantone spécifique. La sérigraphie repose sur la surface (non enfoncée) de sorte que la texture est légèrement surélevée. Consultez les options dans [Capacités](/capabilities)."
         },
         {
           "type": "h3",
@@ -3270,7 +3281,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les finitions à l'huile sont particulièrement importantes pour les boîtes de noyer, d'acacia et de chêne de première qualité. La même boîte de noix, finie en laque par rapport à l'huile, se lit comme deux produits complètement différents. La laque ajoute un léger éclat plastique; l'huile révèle le bois et le laisse vieillir."
+          "text": "Les finitions à l'huile sont particulièrement importantes pour les boîtes de [noyer](/products/walnut), d'acacia et de chêne de première qualité. La même boîte de noix, finie en laque par rapport à l'huile, se lit comme deux produits complètement différents. La laque ajoute un léger éclat plastique; l'huile révèle le bois et le laisse vieillir."
         },
         {
           "type": "p",
@@ -3278,7 +3289,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Coût: les finitions à l'huile et à la cire ajoutent généralement 0,30 à 0,80 $ par boîte par rapport à la laque standard, selon les couches. Le temps de cure est nettement plus long-jusqu'à 72 heures par couche."
+          "text": "Coût: les finitions à l'huile et à la cire ajoutent généralement 0,30 à 0,80 $ par boîte par rapport à la laque standard, selon les couches. Le temps de cure est nettement plus long-jusqu'à 72 heures par couche. Pour plus de détails, consultez [À l'intérieur de notre processus de fabrication de boîte en bois de 6 étapes](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "h2",
@@ -3294,7 +3305,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Utilisé par la plupart des marques de montres et de bijoux haut de gamme. La finition d'huile de bois de noix laisse le grain respirer; le logo debossed ajoute la présence de marque sans perturber la surface. À peu près aussi premium qu'il obtient."
+          "text": "Utilisé par la plupart des marques de montres et de bijoux haut de gamme. La finition d'huile de bois de noix laisse le grain respirer; le logo debossed ajoute la présence de marque sans perturber la surface. À peu près aussi premium qu'il obtient. Pour un exemple du catalogue, consultez [Vitrine de Présentation Trois Montres](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h3",
@@ -3302,7 +3313,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Classique mid-premium gifting. Le pin est abordable; la laque mate donne une finition sophistiquée sans l'aspect brillant-plastique; le clinquant chaud délivre le signal premium qui soulève le niveau de prix perçu."
+          "text": "Classique mid-premium gifting. Le [pin](/products/pine) est abordable; la laque mate donne une finition sophistiquée sans l'aspect brillant-plastique; le clinquant chaud délivre le signal premium qui soulève le niveau de prix perçu."
         },
         {
           "type": "h3",
@@ -3437,7 +3448,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les laques utilisées dans nos spécifications de sécurité alimentaire sont conformes à la FDA pour le contact alimentaire indirect (toucher la boîte, pas la nourriture elle-même). Pour un contact direct avec les aliments (planches de charcuterie, boîtes de service), utilisez de l'huile minérale ou de la cire d'abeille-les deux sont 100% sans danger pour les aliments et approuvés au niveau international. Spécifiez toujours le cas d'utilisation afin que nous puissions recommander la bonne finition pour la conformité."
+          "text": "Les laques utilisées dans nos spécifications de sécurité alimentaire sont conformes à la FDA pour le contact alimentaire indirect (toucher la boîte, pas la nourriture elle-même). Pour un contact direct avec les aliments (planches de charcuterie, boîtes de service), utilisez de l'huile minérale ou de la cire d'abeille-les deux sont 100% sans danger pour les aliments et approuvés au niveau international. Spécifiez toujours le cas d'utilisation afin que nous puissions recommander la bonne finition pour la conformité. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
         },
         {
           "type": "h3",
@@ -3445,7 +3456,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Oui-nous le recommandons fortement. Pour environ $100-200 ajouté à une commande d'échantillon, nous pouvons produire deux échantillons avec différents traitements de finition. Le coût est négligeable par rapport au fait de faire le mauvais choix parmi des milliers d'unités de production."
+          "text": "Oui-nous le recommandons fortement. Pour environ $100-200 ajouté à une commande d'échantillon, nous pouvons produire deux échantillons avec différents traitements de finition. Le coût est négligeable par rapport au fait de faire le mauvais choix parmi des milliers d'unités de production. Pour plus de détails, consultez [Pourquoi un MOQ de 100 pièces est la façon la plus intelligente de commencer](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "quote",
@@ -3459,6 +3470,7 @@ export default {
       "category": "Stratégie",
       "readTime": "9 minutes de lecture",
       "body": [
+        { type: 'p', text: 'Avant de fixer les spécifications, consultez [Sourcer des boîtes en bois personnalisées depuis la Chine en 2026 : le guide de l\'acheteur B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "La plupart des usines citent des minimums de 500 à 1 000 pièces sur des boîtes en bois personnalisées. Nous offrons délibérément un échantillon de 100 pièces, car il résout un problème que la plupart des acheteurs ne réalisent pas qu'ils ont jusqu'à ce qu'il les mord."
@@ -3477,7 +3489,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un nouvel acheteur l'année dernière-petite marque de montre basée aux États-Unis, première commande de boîte en bois-nous a envoyé un fichier CAO pour un boîtier de présentation de 4 montres en noyer. Nous avons cité, signé un accord NNN et fabriqué un seul échantillon fabriqué à la main. L'acheteur a approuvé l'échantillon et a passé une commande de 5 000 unités."
+          "text": "Un nouvel acheteur l'année dernière-petite marque de montre basée aux États-Unis, première commande de boîte en bois-nous a envoyé un fichier CAO pour un boîtier de présentation de 4 montres en noyer. Nous avons cité, signé un accord NNN et fabriqué un seul échantillon fabriqué à la main. L'acheteur a approuvé l'échantillon et a passé une commande de 5 000 unités. Consultez les modèles disponibles dans la catégorie [Boîtes à Montres et Bijoux](/products/watch-jewelry)."
         },
         {
           "type": "p",
@@ -3513,7 +3525,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Des échantillons simples construits à la main utilisent des gabarits temporaires et un assembleur expérimenté effectuant un travail ponctuel. Les cadences de production utilisent des montages permanents avec des opérateurs effectuant la même tâche des centaines de fois. L'exactitude de montage à l'échelle est la plus grande source simple des problèmes «de course de production semble pire que l'échantillon». Une course de 100 pièces expose cela."
+          "text": "Des échantillons simples construits à la main utilisent des gabarits temporaires et un assembleur expérimenté effectuant un travail ponctuel. Les cadences de production utilisent des montages permanents avec des opérateurs effectuant la même tâche des centaines de fois. L'exactitude de montage à l'échelle est la plus grande source simple des problèmes «de course de production semble pire que l'échantillon». Une course de 100 pièces expose cela. Pour plus de détails, consultez [OEM vs ODM: lequel est bon pour votre projet de boîte en bois?](/blog/oem-vs-odm-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3521,7 +3533,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un seul échantillon utilise la meilleure planche du magasin. Une course de production utilise chaque conseil qui répond aux spécifications. Variation de couleur, variation de grain, motifs de nœuds-tout cela fait en moyenne 100 boîtes d'une manière qui ne peut pas être testée avec un seul échantillon."
+          "text": "Un seul échantillon utilise la meilleure planche du magasin. Une course de production utilise chaque conseil qui répond aux spécifications. Variation de couleur, variation de grain, motifs de nœuds-tout cela fait en moyenne 100 boîtes d'une manière qui ne peut pas être testée avec un seul échantillon. Consultez les options dans [guide des bois, finitions et ferrures](/material-guide)."
         },
         {
           "type": "h3",
@@ -3529,7 +3541,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les couches de finition sont mélangées par lots. Le ton exact et la brillance peuvent varier subtilement entre les lots. Une course de 100 pièces utilise 1-2 lots de finition, exposant si votre conception tolère cette variation naturelle."
+          "text": "Les couches de finition sont mélangées par lots. Le ton exact et la brillance peuvent varier subtilement entre les lots. Une course de 100 pièces utilise 1-2 lots de finition, exposant si votre conception tolère cette variation naturelle. Pour plus de détails, consultez [5 techniques de finition qui changent l'apparence et la sensation d'une boîte en bois](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h3",
@@ -3537,7 +3549,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les échantillons uniques sont expédiés dans leur propre emballage protecteur. Les courses de production sont expédiées dans des cartons maîtres empilés sur des palettes-elles sont exposées à des contraintes de manipulation que des échantillons uniques ne voient jamais. Une expédition d'essai de 100 pièces passe par de vraies douanes, un fret réel, une véritable prise d'entrepôt. Les acheteurs trouvent régulièrement des problèmes d'emballage à ce stade qu'ils n'auraient jamais attrapés avec un seul échantillon."
+          "text": "Les échantillons uniques sont expédiés dans leur propre emballage protecteur. Les courses de production sont expédiées dans des cartons maîtres empilés sur des palettes-elles sont exposées à des contraintes de manipulation que des échantillons uniques ne voient jamais. Une expédition d'essai de 100 pièces passe par de vraies douanes, un fret réel, une véritable prise d'entrepôt. Les acheteurs trouvent régulièrement des problèmes d'emballage à ce stade qu'ils n'auraient jamais attrapés avec un seul échantillon. Pour plus de détails, consultez [Concevoir des emballages en bois pour Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "img",
@@ -3571,7 +3583,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le coût par unité sur une course de 100 pièces est généralement 30 à 60% plus élevé que sur une course de 1 000 pièces. Le travail de configuration est le même; il est juste réparti sur moins d'unités. Donc, la différence de coût absolue dépend du prix de la boîte."
+          "text": "Le coût par unité sur une course de 100 pièces est généralement 30 à 60% plus élevé que sur une course de 1 000 pièces. Le travail de configuration est le même; il est juste réparti sur moins d'unités. Donc, la différence de coût absolue dépend du prix de la boîte. Pour plus de détails, consultez [Combien coûtent les boîtes en bois personnalisées ? Un guide de tarification grossiste et OEM 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
@@ -3654,11 +3666,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il y a deux mois, un acheteur de boîte cadeau basé au Royaume-Uni a commandé un essai de 100 pièces d'une nouvelle boîte de couvercle de décollage pour un lancement de parfum. Le couvercle avait un plateau en mousse interne personnalisé bercant la bouteille de parfum. Parait parfait sur le seul échantillon construit à la main. Approuvé pour le procès."
+          "text": "Il y a deux mois, un acheteur de boîte cadeau basé au Royaume-Uni a commandé un essai de 100 pièces d'une nouvelle boîte de couvercle de décollage pour un lancement de parfum. Le couvercle avait un plateau en mousse interne personnalisé bercant la bouteille de parfum. Parait parfait sur le seul échantillon construit à la main. Approuvé pour le procès. Pour un exemple du catalogue, consultez [Coffret Cadeau Magnétique de Luxe](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "p",
-          "text": "Lors du test, nous avons identifié que le plateau en mousse, bien que dimensionnellement correct, avait un léger retard de récupération de la mémoire-lorsque le couvercle était soulevé après la fermeture, la mousse prenait 8 à 10 secondes pour revenir complètement. Fonctionnellement bien, mais visuellement bizarre au moment de l'unboxing."
+          "text": "Lors du test, nous avons identifié que le plateau en [mousse](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide), bien que dimensionnellement correct, avait un léger retard de récupération de la mémoire-lorsque le couvercle était soulevé après la fermeture, la mousse prenait 8 à 10 secondes pour revenir complètement. Fonctionnellement bien, mais visuellement bizarre au moment de l'unboxing."
         },
         {
           "type": "p",
@@ -3694,7 +3706,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Non. Une fois qu'une conception a été produite avec succès à l'échelle et que les récommandes sont de pures commandes répétées sans modification de conception, les essais sont inutiles. Les essais sont pour les nouvelles conceptions et les modifications importantes de conception. Les commandes répétées vont directement à la production avec un QC normal."
+          "text": "Non. Une fois qu'une conception a été produite avec succès à l'échelle et que les récommandes sont de pures commandes répétées sans modification de conception, les essais sont inutiles. Les essais sont pour les nouvelles conceptions et les modifications importantes de conception. Les commandes répétées vont directement à la production avec un QC normal. Consultez les options dans [Capacités](/capabilities)."
         },
         {
           "type": "h3",
@@ -3710,7 +3722,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Pour les primo-accédants, nous recommandons de traiter l'essai de 100 pièces comme faisant partie du budget du projet dès le début, et non comme un ajout optionnel. Intégrez-le dans votre calendrier de lancement. Intégrer dans votre tarification SKU. Construisez-le dans votre relation avec l'usine. Une fois que c'est une pratique normale, vous cessez de voir les taux de défauts de 12% et les incendies de production de dernière minute qui affligent les acheteurs qui sautent cette étape. La plupart de nos relations clients les plus importantes et les plus anciennes ont commencé exactement de cette façon: avec un petit essai qui a établi la confiance avant que les deux parties ne s'engagent sur le volume."
+          "text": "Pour les primo-accédants, nous recommandons de traiter l'essai de 100 pièces comme faisant partie du budget du projet dès le début, et non comme un ajout optionnel. Intégrez-le dans votre calendrier de lancement. Intégrer dans votre tarification SKU. Construisez-le dans votre relation avec l'usine. Une fois que c'est une pratique normale, vous cessez de voir les taux de défauts de 12% et les incendies de production de dernière minute qui affligent les acheteurs qui sautent cette étape. La plupart de nos relations clients les plus importantes et les plus anciennes ont commencé exactement de cette façon: avec un petit essai qui a établi la confiance avant que les deux parties ne s'engagent sur le volume. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
         }
       ]
     },
@@ -3720,6 +3732,7 @@ export default {
       "category": "Matériaux",
       "readTime": "10 minutes de lecture",
       "body": [
+        { type: 'p', text: 'Avant de fixer les spécifications, consultez [Comment choisir le bon bois pour l\'emballage cadeau](/blog/choosing-wood-for-gift-packaging).' },
         {
           "type": "p",
           "text": "Le bambou et l'acacia sont les deux bois de cuisine les plus populaires dans notre catalogue. Les deux sont denses. Les deux sont sans danger pour la nourriture. Les deux sont beaux. Les deux fonctionnent bien pour les boîtes à thé, les organisateurs de couverts, les étagères à épices, les poubelles à pain, les ensembles de charcuterie et tout autre produit de cuisine où le bois fait partie de la conception visible."
@@ -3797,7 +3810,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Techniquement, le bambou est une herbe, pas un arbre. Il repousse en 5-7 ans contre 30-60 ans pour les feuillus. Ce fait unique est la raison pour laquelle le bambou domine le marché des produits de cuisine éco-positionnés-c'est le matériau structurel le plus véritablement renouvelable avec lequel nous travaillons, et c'est le seul matériau que nous offrons que les clients reconnaissent immédiatement comme «le choix durable»."
+          "text": "Techniquement, le [bambou](/products/bamboo) est une herbe, pas un arbre. Il repousse en 5-7 ans contre 30-60 ans pour les feuillus. Ce fait unique est la raison pour laquelle le bambou domine le marché des produits de cuisine éco-positionnés-c'est le matériau structurel le plus véritablement renouvelable avec lequel nous travaillons, et c'est le seul matériau que nous offrons que les clients reconnaissent immédiatement comme «le choix durable»."
         },
         {
           "type": "p",
@@ -3817,7 +3830,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'acacia est un bois dur tropical avec des tourbillons de grain dramatiques et une variation de couleur significative entre le bois de cœur blond miel et les stries brun chocolat. Chaque planche d'acacia est différente. Chaque boîte d'acacia a son propre motif de grain. Certains acheteurs aiment cela (unicité premium); certains préfèrent la consistance du bambou."
+          "text": "L'[acacia](/products/acacia) est un bois dur tropical avec des tourbillons de grain dramatiques et une variation de couleur significative entre le bois de cœur blond miel et les stries brun chocolat. Chaque planche d'acacia est différente. Chaque boîte d'acacia a son propre motif de grain. Certains acheteurs aiment cela (unicité premium); certains préfèrent la consistance du bambou."
         },
         {
           "type": "p",
@@ -3838,7 +3851,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Prenez un organisateur de sachet de thé à 8 compartiments. Mêmes dimensions, même disposition interne, même couvercle à charnière avec fermeture magnétique."
+          "text": "Prenez un organisateur de sachet de thé à 8 compartiments. Mêmes dimensions, même disposition interne, même couvercle à charnière avec fermeture magnétique. Pour un exemple du catalogue, consultez [Boîte à Sachets de Thé Acacia 8 Compartiments](/products/tea-coffee/acacia-tea-bag-box-8-compartment)."
         },
         {
           "type": "h3",
@@ -3854,7 +3867,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Terres à 11-14 $ coût unitaire de nous, au détail à 48-72 $. Vend à Williams-Sonoma, Crate & Barrel, détaillants de cuisine spécialisés haut de gamme. Les clients l'achètent parce qu'il est beau-ils veulent une boîte à thé qui sert également d'objet de cuisine. Les critiques mettent l'accent sur l'artisanat et le motif du grain."
+          "text": "Terres à 11-14 $ coût unitaire de nous, au détail à 48-72 $. Vend à Williams-Sonoma, Crate & Barrel, détaillants de cuisine spécialisés haut de gamme. Les clients l'achètent parce qu'il est beau-ils veulent une boîte à thé qui sert également d'objet de cuisine. Les critiques mettent l'accent sur l'artisanat et le motif du grain. Consultez les modèles disponibles dans la catégorie [Boîtes à Thé et Café](/products/tea-coffee)."
         },
         {
           "type": "p",
@@ -3870,7 +3883,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Avec une utilisation normale dans la cuisine et une nouvelle huile annuelle avec de l'huile minérale sans danger pour les aliments, le bambou dure de 8 à 12 ans avant de montrer une usure significative. Le grain à rayures horizontales s'éclaircira subtilement avec le temps, mais ne changera pas de manière significative."
+          "text": "Avec une utilisation normale dans la cuisine et une nouvelle huile annuelle avec de l'huile minérale sans danger pour les aliments, le bambou dure de 8 à 12 ans avant de montrer une usure significative. Le grain à rayures horizontales s'éclaircira subtilement avec le temps, mais ne changera pas de manière significative. Pour plus de détails, consultez [guide de l’épaisseur du bois](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3890,7 +3903,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le bambou gagne cette catégorie clairement mais pas absolument. La repousse de cinq à sept ans par rapport aux cycles de récolte d'arbres est l'avantage évident. Plantation-cultivé, avec des systèmes racinaires étendus qui améliorent le sol et empêchent l'érosion, également des points forts."
+          "text": "Le bambou gagne cette catégorie clairement mais pas absolument. La repousse de cinq à sept ans par rapport aux cycles de récolte d'arbres est l'avantage évident. Plantation-cultivé, avec des systèmes racinaires étendus qui améliorent le sol et empêchent l'érosion, également des points forts. Pour plus de détails, consultez [Nos pratiques d'approvisionnement durable en 2026](/blog/sustainable-sourcing-2026)."
         },
         {
           "type": "p",
@@ -3906,7 +3919,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Lorsque les acheteurs nous demandent «bambou ou acacia pour ce produit de cuisine?», nous posons trois questions en retour:"
+          "text": "Lorsque les acheteurs nous demandent «bambou ou acacia pour ce produit de cuisine?», nous posons trois questions en retour: Consultez les options dans [guide des bois, finitions et ferrures](/material-guide)."
         },
         {
           "type": "list",
@@ -3962,7 +3975,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Pour les deux espèces, les clients qui suivent des soins simples obtiennent des années de plus de vie du produit. Nous vous recommandons fortement d'inclure une petite carte de soin dans l'emballage pour tout produit de cuisine. La carte doit couvrir:"
+          "text": "Pour les deux espèces, les clients qui suivent des soins simples obtiennent des années de plus de vie du produit. Nous vous recommandons fortement d'inclure une petite carte de soin dans l'emballage pour tout produit de cuisine. La carte doit couvrir: Pour plus de détails, consultez [5 techniques de finition qui changent l'apparence et la sensation d'une boîte en bois](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "list",
@@ -4021,7 +4034,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Oui, et il peut produire des résultats frappants-corps en bambou avec poignées en acacia, base en acacia avec séparateurs en bambou. Le mélange des matériaux ajoute un intérêt visuel et vous permet d'équilibrer les coûts. Le compromis est que les deux espèces se dilatent et se contractent légèrement différemment avec l'humidité, de sorte que la menuiserie mixte doit être conçue-en tolérance pour éviter le stress au fil des ans."
+          "text": "Oui, et il peut produire des résultats frappants-corps en bambou avec poignées en acacia, base en acacia avec séparateurs en bambou. Le mélange des matériaux ajoute un intérêt visuel et vous permet d'équilibrer les coûts. Le compromis est que les deux espèces se dilatent et se contractent légèrement différemment avec l'humidité, de sorte que la menuiserie mixte doit être conçue-en tolérance pour éviter le stress au fil des ans. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
         },
         {
           "type": "quote",
@@ -4035,6 +4048,7 @@ export default {
       "category": "Stratégie",
       "readTime": "12 min de lecture",
       "body": [
+        { type: 'p', text: 'Avant de fixer les spécifications, consultez [Sourcer des boîtes en bois personnalisées depuis la Chine en 2026 : le guide de l\'acheteur B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
           "text": "La vente de boîtes en bois via Amazon FBA est sa propre discipline. Le produit importe moins que la stratégie d'emballage qui l'entoure. Deux vendeurs peuvent offrir la même boîte en bois au même prix de détail et se retrouver avec une économie unitaire complètement différente-une rentable, une perte d'argent à chaque vente-en raison des décisions qu'ils ont prises au sujet de l'emballage."
@@ -4053,11 +4067,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Pour les produits en bois, cela est plus important que pour presque toutes les autres catégories, car la densité du bois varie considérablement selon les espèces. Un cube de 30 cm de chêne pèse environ 4 kg. Le même cube en paulownia pèse environ 1,6 kg. Les deux expédier pour les mêmes frais FBA-mais si vous avez spécifié le chêne lorsque paulownia aurait travaillé, vous payez deux fois le coût du fret dans l'entrepôt d'Amazon pour rien."
+          "text": "Pour les produits en bois, cela est plus important que pour presque toutes les autres catégories, car la densité du bois varie considérablement selon les espèces. Un cube de 30 cm de chêne pèse environ 4 kg. Le même cube en paulownia pèse environ 1,6 kg. Les deux expédier pour les mêmes frais FBA-mais si vous avez spécifié le chêne lorsque paulownia aurait travaillé, vous payez deux fois le coût du fret dans l'entrepôt d'Amazon pour rien. Consultez les options dans [guide des bois, finitions et ferrures](/material-guide)."
         },
         {
           "type": "p",
-          "text": "Pour les produits à volume élevé où le bois n'est pas la caractéristique visible (la plupart des emballages cadeaux-le client voit la surface du couvercle, pas la section transversale), le choix des essences plus légères peut économiser 0, 40-1, 20 $ par unité de fret entrant. Sur 10 000 unités, c'est 4 000 à 12 000 $ de marge pure gagnée."
+          "text": "Pour les produits à volume élevé où le bois n'est pas la caractéristique visible (la plupart des emballages cadeaux-le client voit la surface du couvercle, pas la section transversale), le choix des essences plus légères peut économiser 0, 40-1, 20 $ par unité de fret entrant. Sur 10 000 unités, c'est 4 000 à 12 000 $ de marge pure gagnée. Consultez les modèles disponibles dans la catégorie [Boîtes en Bois de Paulownia](/products/paulownia)."
         },
         {
           "type": "h2",
@@ -4134,7 +4148,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Chaque unité FBA doit être soit ensachée avec un avertissement de suffocation, soit scellée dans un carton extérieur prêt pour la vente au détail. Trois approches:"
+          "text": "Chaque unité FBA doit être soit ensachée avec un avertissement de suffocation, soit scellée dans un carton extérieur prêt pour la vente au détail. Trois approches: Consultez les modèles disponibles dans la catégorie [Boîtes Cadeau et Emballage](/products/gift-packaging)."
         },
         {
           "type": "h3",
@@ -4166,7 +4180,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Nous recommandons fortement une inspection par un tiers (SGS, BV, AsiaInspection, Asia Quality Focus) pour chaque envoi FBA. La raison en est l'économie brutale: les retours d'Amazon sont chers-entre 5% et 15% de la valeur de l'expédition selon la catégorie, plus les dommages de marque des critiques négatives."
+          "text": "Nous recommandons fortement une inspection par un tiers (SGS, BV, AsiaInspection, Asia Quality Focus) pour chaque envoi FBA. La raison en est l'économie brutale: les retours d'Amazon sont chers-entre 5% et 15% de la valeur de l'expédition selon la catégorie, plus les dommages de marque des critiques négatives. Pour plus de détails, consultez [Pourquoi un MOQ de 100 pièces est la façon la plus intelligente de commencer](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "p",
@@ -4221,7 +4235,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un acheteur lançant une boîte à thé en bois sur FBA à 1 000 unités/mois pendant 12 mois. Deux scénarios:"
+          "text": "Un acheteur lançant une boîte à thé en bois sur FBA à 1 000 unités/mois pendant 12 mois. Deux scénarios: Pour un exemple du catalogue, consultez [Boîte à Sachets de Thé Acacia 8 Compartiments](/products/tea-coffee/acacia-tea-bag-box-8-compartment)."
         },
         {
           "type": "h3",
@@ -4241,7 +4255,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sur 12 mois et 12 000 unités, le scénario B permet d'économiser environ 14 000 à 19 000 $ en frais uniquement (poids dimensionnel inférieur, pas de frais d'étiquetage Amazon, pas de frais de manutention de cartons surdimensionnés). Ajoutez à cela des taux de retour inférieurs de l'inspection, des scores d'examen plus élevés de l'unboxing premium, et l'écart se creuse davantage."
+          "text": "Sur 12 mois et 12 000 unités, le scénario B permet d'économiser environ 14 000 à 19 000 $ en frais uniquement (poids dimensionnel inférieur, pas de frais d'étiquetage Amazon, pas de frais de manutention de cartons surdimensionnés). Ajoutez à cela des taux de retour inférieurs de l'inspection, des scores d'examen plus élevés de l'unboxing premium, et l'écart se creuse davantage. Pour plus de détails, consultez [Combien coûtent les boîtes en bois personnalisées ? Un guide de tarification grossiste et OEM 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
@@ -4275,7 +4289,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Pour les produits en bois en particulier, le fret maritime de la Chine vers les États-Unis/UE a été en cours d'exécution 22-35 jours en 2025-2026. Ajoutez 7-14 jours pour la réception de FBA. C'est 30-50 jours du départ à vendable. Planifiez en conséquence."
+          "text": "Pour les produits en bois en particulier, le fret maritime de la Chine vers les États-Unis/UE a été en cours d'exécution 22-35 jours en 2025-2026. Ajoutez 7-14 jours pour la réception de FBA. C'est 30-50 jours du départ à vendable. Planifiez en conséquence. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
         },
         {
           "type": "h2",
@@ -4311,7 +4325,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Trois choses réduisent considérablement les taux de retour:"
+          "text": "Trois choses réduisent considérablement les taux de retour: Pour plus de détails, consultez [Coffrets en bois à séparateurs amovibles : le guide d'achat](/blog/custom-wooden-storage-boxes-with-removable-dividers-buyers-guide)."
         },
         {
           "type": "h3",
@@ -4335,7 +4349,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Une petite carte expliquant comment entretenir le bois réduit les plaintes «la surface a développé des marques dans un mois». Coûte 0,04 $ par boîte; réduit le taux de retour d'environ 1 à 2 points de pourcentage en fonction des données que les acheteurs ont partagées avec nous."
+          "text": "Une petite carte expliquant comment entretenir le bois réduit les plaintes «la surface a développé des marques dans un mois». Coûte 0,04 $ par boîte; réduit le taux de retour d'environ 1 à 2 points de pourcentage en fonction des données que les acheteurs ont partagées avec nous. Pour plus de détails, consultez [5 techniques de finition qui changent l'apparence et la sensation d'une boîte en bois](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -4385,6 +4399,7 @@ export default {
       "category": "Conception",
       "readTime": "11 minutes de lecture",
       "body": [
+        { type: 'p', text: 'Avant de fixer les spécifications, consultez [Fermetures de coffrets en bois comparées : coulissante, à charnières, magnétique, tiroir et serrure](/blog/wooden-box-closure-types-compared).' },
         {
           "type": "p",
           "text": "Le matériel est la partie d'une boîte en bois que les acheteurs pensent à la dernière et se sentent d'abord. Mauvaise charnière et le couvercle s'affaisse après six mois. Aimant droit et la boîte se ferme avec ce thunk premium satisfaisant qui vend l'unboxing."
@@ -4403,7 +4418,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les charnières sont le matériel avec lequel les clients interagissent chaque fois qu'ils ouvrent la boîte. Une mauvaise charnière porte le bois, tord le couvercle ou échoue complètement après quelques centaines de cycles. Une bonne charnière dure toute la vie de la boîte."
+          "text": "Les charnières sont le matériel avec lequel les clients interagissent chaque fois qu'ils ouvrent la boîte. Une mauvaise charnière porte le bois, tord le couvercle ou échoue complètement après quelques centaines de cycles. Une bonne charnière dure toute la vie de la boîte. Consultez les modèles disponibles dans la catégorie [Boîtes en Bois à Charnières](/products/hinged)."
         },
         {
           "type": "h3",
@@ -4423,7 +4438,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Caché à l'intérieur des évidements en forme de coupe coupés dans la boîte et le couvercle. L'extérieur est propre-pas de matériel visible. Premium sentir, look moderne. Standard pour montres haut de gamme et boîtes à bijoux."
+          "text": "Caché à l'intérieur des évidements en forme de coupe coupés dans la boîte et le couvercle. L'extérieur est propre-pas de matériel visible. Premium sentir, look moderne. Standard pour [montres](/blog/wooden-watch-box-anatomy) haut de gamme et boîtes à bijoux."
         },
         {
           "type": "p",
@@ -4459,7 +4474,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les aimants en néodyme cachés acheminés dans le mur en bois produisent ce «clic» satisfaisant lorsque le couvercle se ferme. La force est calibrée par la catégorie et la quantité d'aimant-trop faible et le couvercle s'ouvre en transit, trop fort et la boîte est difficile à ouvrir d'une seule main."
+          "text": "Les aimants en néodyme cachés acheminés dans le mur en bois produisent ce «clic» satisfaisant lorsque le couvercle se ferme. La force est calibrée par la catégorie et la quantité d'aimant-trop faible et le couvercle s'ouvre en transit, trop fort et la boîte est difficile à ouvrir d'une seule main. Consultez les modèles disponibles dans la catégorie [Boîtes en Bois Magnétiques](/products/magnetic)."
         },
         {
           "type": "p",
@@ -4518,7 +4533,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Traditionnel, visible, doré. Corps en laiton avec clé en laiton. Le look classique pour les boîtes à bijoux, les boîtes à documents et les caches. Livré avec deux clés par serrure en standard."
+          "text": "Traditionnel, visible, doré. Corps en laiton avec clé en laiton. Le look classique pour les boîtes à bijoux, les boîtes à documents et les caches. Livré avec deux clés par serrure en standard. Consultez les modèles disponibles dans la catégorie [Boîtes en Bois Verrouillables](/products/with-lock)."
         },
         {
           "type": "p",
@@ -4605,7 +4620,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les coûts de matériel sont faibles par unité mais s'accumulent rapidement à travers une commande. Les grades de qualité varient considérablement. Il y a essentiellement trois niveaux:"
+          "text": "Les coûts de matériel sont faibles par unité mais s'accumulent rapidement à travers une commande. Les grades de qualité varient considérablement. Il y a essentiellement trois niveaux: Pour plus de détails, consultez [À l'intérieur de notre processus de fabrication de boîte en bois de 6 étapes](/blog/six-step-manufacturing-process)."
         },
         {
           "type": "h3",
@@ -4672,7 +4687,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les équipes d'installation bon marché serrent trop les vis de la charnière pour compenser les mortaises mal coupées. Les fibres de bois autour de la vis se compriment; au fil du temps, la vis se desserre; la charnière s'affaisse; le couvercle ne repose plus à plat."
+          "text": "Les équipes d'installation bon marché serrent trop les vis de la charnière pour compenser les mortaises mal coupées. Les fibres de bois autour de la vis se compriment; au fil du temps, la vis se desserre; la charnière s'affaisse; le couvercle ne repose plus à plat. Pour plus de détails, consultez [guide de l’épaisseur du bois](/blog/how-to-choose-wood-thickness-for-custom-wooden-boxes)."
         },
         {
           "type": "p",
@@ -4708,7 +4723,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le matériel est l'une des mises à niveau les plus mises à profit dans une boîte en bois. La mise à niveau d'une seule charnière du niveau 1 au niveau 2 ajoute généralement 0,20 à 0,40 $ par boîte. La mise à niveau de l'ensemble des spécifications matérielles du niveau 1 au niveau 3 (premium européen) ajoute 1, 50-3, 50 $ par boîte."
+          "text": "Le matériel est l'une des mises à niveau les plus mises à profit dans une boîte en bois. La mise à niveau d'une seule charnière du niveau 1 au niveau 2 ajoute généralement 0,20 à 0,40 $ par boîte. La mise à niveau de l'ensemble des spécifications matérielles du niveau 1 au niveau 3 (premium européen) ajoute 1, 50-3, 50 $ par boîte. Pour plus de détails, consultez [Combien coûtent les boîtes en bois personnalisées ? Un guide de tarification grossiste et OEM 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
@@ -4732,7 +4747,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Oui-de nombreux acheteurs à volume plus élevé font exactement cela. Source le matériel séparément, expédiez-le à notre usine dans le comté de Cao, et nous l'installons. La complication est le timing: le matériel doit arriver à notre usine au moins 5 jours avant le début de la production, avec une documentation correspondant à l'ordre de production. Pour les premiers acheteurs, nous recommandons généralement notre matériel en premier; une fois que la relation et le processus sont établis, le matériel fourni par le client est simple."
+          "text": "Oui-de nombreux acheteurs à volume plus élevé font exactement cela. Source le matériel séparément, expédiez-le à notre usine dans le comté de Cao, et nous l'installons. La complication est le timing: le matériel doit arriver à notre usine au moins 5 jours avant le début de la production, avec une documentation correspondant à l'ordre de production. Pour les premiers acheteurs, nous recommandons généralement notre matériel en premier; une fois que la relation et le processus sont établis, le matériel fourni par le client est simple. Consultez les options dans [Capacités](/capabilities)."
         },
         {
           "type": "h3",
@@ -4772,7 +4787,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Pour les primo-accédants, nous recommandons de faire un tour d'échantillonnage spécifiquement axé sur le matériel. Commandez trois échantillons de la même boîte avec trois grades de matériel différents-Tier 1, Tier 2, Tier 3 Ouvrir et fermer chacun cent fois. Sentez la différence dans votre main. Le choix qui vous convient est presque toujours celui auquel votre client répondra. Le matériel est un petit pourcentage du coût; c'est la plupart de la qualité perçue."
+          "text": "Pour les primo-accédants, nous recommandons de faire un tour d'échantillonnage spécifiquement axé sur le matériel. Commandez trois échantillons de la même boîte avec trois grades de matériel différents-Tier 1, Tier 2, Tier 3 Ouvrir et fermer chacun cent fois. Sentez la différence dans votre main. Le choix qui vous convient est presque toujours celui auquel votre client répondra. Le matériel est un petit pourcentage du coût; c'est la plupart de la qualité perçue. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
         }
       ]
     }

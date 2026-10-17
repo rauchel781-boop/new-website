@@ -380,7 +380,7 @@ export const HARDWARE = [
 
 export const COPY = {
   meta: {
-    title: '소재 가이드 —— 목재·마감·하드웨어 레퍼런스 | CHIC',
+    title: '소재 가이드 —— 목재·마감·하드웨어 레퍼런스',
     description:
       '맞춤형 목재 박스에 사용되는 목재 종류, 마감, 브랜딩 방법, 하드웨어에 대한 완전한 교육 가이드. 오동나무, 소나무, 대나무, 아카시아, 호두나무를 비교하고 해당 제품으로 이동하세요.',
     ogDescription:

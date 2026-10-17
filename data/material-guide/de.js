@@ -380,7 +380,7 @@ export const HARDWARE = [
 
 export const COPY = {
   meta: {
-    title: 'Materialleitfaden — Holz, Finish und Beschläge im Überblick | CHIC',
+    title: 'Materialleitfaden — Holz, Finish und Beschläge im Überblick',
     description:
       'Vollständiger Leitfaden zu Holzarten, Oberflächenfinishes, Branding-Methoden und Beschlägen für individuelle Holzboxen. Vergleichen Sie Paulownia, Kiefer, Bambus, Akazie und Walnuss und springen Sie zu passenden Produkten.',
     ogDescription:

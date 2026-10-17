@@ -155,9 +155,9 @@
   },
   "capabilities": {
     "meta": {
-      "title": "Capacità — CHIC",
+      "title": "Capacità",
       "description": "Fresatura CNC, incisione laser, hot foil, serigrafia, essiccazione in forno, finitura e imballaggio — attrezzature moderne e un severo sistema QC per programmi wholesale e OEM di scatole in legno.",
-      "ogTitle": "Capacità — CHIC",
+      "ogTitle": "Capacità",
       "ogDescription": "Fresatura CNC, laser, hot foil, serigrafia, essiccazione in forno, finitura e imballaggio — produzione wholesale e OEM di scatole in legno."
     },
     "h1": "Le Nostre Capacità",
@@ -351,7 +351,7 @@
   },
   "blog": {
     "meta": {
-      "title": "Journal — CHIC",
+      "title": "Journal",
       "description": "Appunti dal nostro stabilimento di scatole in legno su misura — processo produttivo, scelta dei materiali, playbook OEM/ODM, strategia di packaging e sostenibilità.",
       "ogDescription": "Appunti da una fabbrica di scatole in legno — processo, materiali, OEM/ODM, packaging, sostenibilità."
     },
@@ -452,7 +452,7 @@
   },
   "productsIndex": {
     "meta": {
-      "title": "Scatole in Legno — CHIC",
+      "title": "Scatole in Legno",
       "description": "Sfoglia il nostro catalogo completo di scatole in legno per uso, struttura o materiale. OEM/ODM personalizzati benvenuti."
     },
     "eyebrow": "Il Nostro Catalogo",
@@ -470,7 +470,7 @@
   },
   "woodFab": {
     "meta": {
-      "title": "Lavorazione del Legno — CHIC",
+      "title": "Lavorazione del Legno",
       "description": "Dal legname grezzo ai componenti finiti e imballati di scatole in legno — CHIC gestisce taglio, sagomatura, mortasatura, pre-assemblaggio, lucidatura e imballaggio sotto un unico tetto di 20.000 m².",
       "ogDescription": "Dal legname grezzo ai componenti finiti e imballati — lavorazione del legno completa in-house."
     },
@@ -485,7 +485,7 @@
   },
   "contact": {
     "meta": {
-      "title": "Contatti — CHIC Wooden Expert",
+      "title": "Contatti",
       "description": "Contatta CHIC — ufficio vendite a Xiamen, fabbrica a Cao County. WhatsApp, WeChat, email e modulo di contatto per richieste OEM/ODM di scatole in legno.",
       "ogDescription": "Ufficio vendite a Xiamen, fabbrica a Cao County. WhatsApp, WeChat, email e modulo di contatto per richieste OEM/ODM di scatole in legno."
     },
@@ -550,6 +550,7 @@
       "submit": "Invia Richiesta →",
       "sending": "Invio in corso…",
       "errorMsg": "Spiacenti — qualcosa è andato storto. Scrivici direttamente a {email}",
+      "mailDraftMessage": "Invia la richiesta dalla tua applicazione di posta. Se non si è aperta una bozza, scrivi direttamente a {email}. Il messaggio non è stato inviato tramite questo modulo.",
       "fine": "Le tue informazioni restano con noi — non condividiamo né rivendiamo i dati di contatto. Preferisci l'email? Scrivi a <emailLink>{email}</emailLink>."
     },
     "info": {

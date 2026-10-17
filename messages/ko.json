@@ -155,9 +155,9 @@
   },
   "capabilities": {
     "meta": {
-      "title": "역량 — CHIC",
+      "title": "역량",
       "description": "CNC 라우팅, 레이저 각인, 핫 포일, 실크스크린, 가마 건조, 마감, 포장 —— 도매 및 OEM 목재 박스 프로그램을 위한 최신 장비와 엄격한 QC 시스템.",
-      "ogTitle": "역량 — CHIC",
+      "ogTitle": "역량",
       "ogDescription": "CNC 라우팅, 레이저, 핫 포일, 실크스크린, 가마 건조, 마감, 포장 —— 도매 및 OEM 목재 박스 생산."
     },
     "h1": "우리의 역량",
@@ -351,7 +351,7 @@
   },
   "blog": {
     "meta": {
-      "title": "Journal — CHIC",
+      "title": "Journal",
       "description": "맞춤형 목재 박스 공장의 현장 노트 — 제조 공정, 자재 선택, OEM/ODM 플레이북, 포장 전략 및 지속 가능성.",
       "ogDescription": "목재 박스 공장의 현장 노트 — 공정, 자재, OEM/ODM, 포장, 지속 가능성."
     },
@@ -452,7 +452,7 @@
   },
   "productsIndex": {
     "meta": {
-      "title": "목재 박스 — CHIC",
+      "title": "목재 박스",
       "description": "용도, 구조 또는 재질별로 저희 목재 박스 카탈로그 전체를 둘러보세요. OEM/ODM 맞춤 환영."
     },
     "eyebrow": "카탈로그",
@@ -470,7 +470,7 @@
   },
   "woodFab": {
     "meta": {
-      "title": "목재 가공 — CHIC",
+      "title": "목재 가공",
       "description": "원목에서 완성·포장된 목재 박스 부품까지 — CHIC은 절단, 성형, 장부가공, 가조립, 광택, 포장을 20,000 m² 단일 시설에서 처리합니다.",
       "ogDescription": "원목에서 완성·포장된 부품까지 — 사내 완전 통합 목재 가공."
     },
@@ -485,7 +485,7 @@
   },
   "contact": {
     "meta": {
-      "title": "문의하기 — CHIC Wooden Expert",
+      "title": "문의하기",
       "description": "CHIC에 문의하세요 — 샤먼 영업 사무소, 차오현 공장. WhatsApp, WeChat, 이메일 및 OEM/ODM 목재 박스 문의 양식을 제공합니다.",
       "ogDescription": "샤먼 영업 사무소, 차오현 공장. WhatsApp, WeChat, 이메일 및 OEM/ODM 목재 박스 문의 양식."
     },
@@ -550,6 +550,7 @@
       "submit": "문의 보내기 →",
       "sending": "전송 중…",
       "errorMsg": "죄송합니다 — 문제가 발생했습니다. 직접 {email}로 메일 부탁드립니다",
+      "mailDraftMessage": "문의를 완료하려면 이메일 앱에서 직접 보내 주세요. 초안이 열리지 않으면 {email}로 연락해 주세요. 이 양식에서는 아직 메시지가 전송되지 않았습니다.",
       "fine": "고객 정보는 저희가 보관합니다 — 연락처 데이터를 공유하거나 재판매하지 않습니다. 이메일을 선호하시면 <emailLink>{email}</emailLink>로 보내주세요."
     },
     "info": {

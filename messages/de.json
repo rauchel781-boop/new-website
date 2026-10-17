@@ -155,9 +155,9 @@
   },
   "capabilities": {
     "meta": {
-      "title": "Kapazitäten — CHIC",
+      "title": "Kapazitäten",
       "description": "CNC-Fräsen, Lasergravur, Hot Foil, Siebdruck, Kammertrocknung, Finish und Verpackung — moderne Ausrüstung und strenges QC-System für Wholesale- und OEM-Programme von Holzboxen.",
-      "ogTitle": "Kapazitäten — CHIC",
+      "ogTitle": "Kapazitäten",
       "ogDescription": "CNC-Fräsen, Laser, Hot Foil, Siebdruck, Kammertrocknung, Finish und Verpackung — Wholesale- und OEM-Produktion von Holzboxen."
     },
     "h1": "Unsere Kapazitäten",
@@ -351,7 +351,7 @@
   },
   "blog": {
     "meta": {
-      "title": "Journal — CHIC",
+      "title": "Journal",
       "description": "Werkstattnotizen aus unserer Manufaktur für Holzboxen — Fertigungsprozess, Materialwahl, OEM/ODM-Playbooks, Verpackungsstrategie und Nachhaltigkeit.",
       "ogDescription": "Werkstattnotizen aus einer Holzbox-Manufaktur — Prozess, Materialien, OEM/ODM, Verpackung, Nachhaltigkeit."
     },
@@ -452,7 +452,7 @@
   },
   "productsIndex": {
     "meta": {
-      "title": "Holzboxen — CHIC",
+      "title": "Holzboxen",
       "description": "Durchsuchen Sie unseren vollständigen Holzbox-Katalog nach Verwendung, Struktur oder Material. Individuelle OEM/ODM willkommen."
     },
     "eyebrow": "Unser Katalog",
@@ -470,7 +470,7 @@
   },
   "woodFab": {
     "meta": {
-      "title": "Holzbearbeitung — CHIC",
+      "title": "Holzbearbeitung",
       "description": "Vom Rohholz zu fertigen, verpackten Holzbox-Komponenten — CHIC übernimmt Zuschnitt, Formgebung, Stemmen, Vormontage, Polieren und Verpackung unter einem Dach von 20.000 m².",
       "ogDescription": "Vom Rohholz zu fertigen, verpackten Komponenten — komplette interne Holzbearbeitung."
     },
@@ -485,7 +485,7 @@
   },
   "contact": {
     "meta": {
-      "title": "Kontakt — CHIC Wooden Expert",
+      "title": "Kontakt",
       "description": "Kontaktieren Sie CHIC — Vertriebsbüro in Xiamen, Fabrik in Cao County. WhatsApp, WeChat, E-Mail und Kontaktformular für OEM/ODM-Anfragen zu Holzboxen.",
       "ogDescription": "Vertriebsbüro in Xiamen, Fabrik in Cao County. WhatsApp, WeChat, E-Mail und Kontaktformular für OEM/ODM-Anfragen zu Holzboxen."
     },
@@ -550,6 +550,7 @@
       "submit": "Anfrage Senden →",
       "sending": "Wird gesendet…",
       "errorMsg": "Entschuldigung — etwas ist schiefgelaufen. Schreiben Sie uns direkt an {email}",
+      "mailDraftMessage": "Bitte senden Sie die Anfrage in Ihrem E-Mail-Programm ab. Falls kein Entwurf geöffnet wurde, schreiben Sie direkt an {email}. Ihre Nachricht wurde über dieses Formular noch nicht übermittelt.",
       "fine": "Ihre Daten bleiben bei uns — wir geben Kontaktdaten nie weiter oder verkaufen sie. Lieber per E-Mail? Schreiben Sie an <emailLink>{email}</emailLink>."
     },
     "info": {

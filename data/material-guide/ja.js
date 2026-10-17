@@ -380,7 +380,7 @@ export const HARDWARE = [
 
 export const COPY = {
   meta: {
-    title: '素材ガイド —— 木材・仕上げ・金具リファレンス | CHIC',
+    title: '素材ガイド —— 木材・仕上げ・金具リファレンス',
     description:
       'カスタム木箱に使用する木材、仕上げ、ブランディング手法、金具に関する完全教育ガイド。桐・松・竹・アカシア・ウォールナットを比較し、対応する商品にジャンプ。',
     ogDescription:

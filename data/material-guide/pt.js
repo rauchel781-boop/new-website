@@ -380,7 +380,7 @@ export const HARDWARE = [
 
 export const COPY = {
   meta: {
-    title: 'Guia de Materiais — Referência de Madeira, Acabamento e Ferragens | CHIC',
+    title: 'Guia de Materiais — Referência de Madeira, Acabamento e Ferragens',
     description:
       'Guia educativo completo das espécies de madeira, acabamentos, métodos de branding e ferragens utilizadas em caixas de madeira personalizadas. Compara paulownia, pinho, bambu, acácia e nogueira e salta para os produtos correspondentes.',
     ogDescription:

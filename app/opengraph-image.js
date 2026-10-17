@@ -10,10 +10,11 @@
 // preview cards on LinkedIn / Twitter / Slack. A branded 1200×630 card
 // is what B2B buyers actually see when our links are shared.
 //
-// Generated at build time — zero runtime cost.
+// Rendered on demand with the bundled Edge renderer and ImageResponse caching.
 
 import { ImageResponse } from 'next/og';
 
+export const runtime = 'edge';
 export const alt =
   'CHIC — Custom Wooden Box Manufacturer · Cao County Factory · Xiamen';
 export const size = { width: 1200, height: 630 };
@@ -99,6 +100,9 @@ export default function OgImage() {
         >
           <div
             style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: 10,
               fontSize: 16,
               color: '#C58E4A',
               letterSpacing: 5,
@@ -107,7 +111,10 @@ export default function OgImage() {
               fontFamily: 'sans-serif',
             }}
           >
-            ✦ Custom Wooden Box Manufacturer
+            <svg width="16" height="16" viewBox="0 0 16 16">
+              <path d="M8 0L10 6L16 8L10 10L8 16L6 10L0 8L6 6Z" fill="#C58E4A" />
+            </svg>
+            Custom Wooden Box Manufacturer
           </div>
           <div
             style={{

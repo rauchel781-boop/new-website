@@ -547,16 +547,15 @@ export default function ContactPage() {
       const body = encodeURIComponent(
         `Name: ${form.name}\nEmail: ${form.email}\nCompany: ${form.company || '(not provided)'}\nCountry: ${form.country || 'not provided'}\nSubject: ${form.subject}\n\n${form.message}`
       );
-      // Track before navigating away — once the mailto: opens we lose
-      // the page context.
-      trackEvent('inquiry_form_submitted', {
+      // Opening a mail client creates a draft; it does not confirm a send.
+      trackEvent('inquiry_email_draft_opened', {
         subject: form.subject,
         has_company: Boolean(form.company),
         country: form.country || 'not_provided',
         source: 'Contact page (mailto fallback)',
       });
       window.location.href = `mailto:${SITE.email}?subject=${subject}&body=${body}`;
-      setState('done');
+      setState('draft');
     }
   }
 
@@ -666,6 +665,7 @@ export default function ContactPage() {
                   {state === 'sending' ? t('form.sending') : t('form.submit')}
                 </button>
                 {state === 'error' && <div className="form-msg error">{errMsg}</div>}
+                {state === 'draft' && <div className="form-msg" role="status">{t('form.mailDraftMessage', { email: SITE.email })}</div>}
                 <p className="form-fine">
                   {t.rich('form.fine', {
                     email: SITE.email,
