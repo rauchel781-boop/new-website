@@ -31,6 +31,7 @@ import { alternates as makeAlternates } from '@/i18n/seo';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getProductTranslation } from '@/data/products/translations';
 import { isNonBoxProduct } from '@/data/non-box-products';
+import { getProductSeoDescription } from '@/data/product-seo';
 
 // Map category slug → its products data. Mirror of the same map in the
 // category landing page. Add new categories here as more product files exist.
@@ -77,9 +78,10 @@ export function generateMetadata({ params }) {
   // data/non-box-products.js for the full rationale). `follow: true` keeps
   // link equity flowing from these pages through to the box pages.
   const noIndex = isNonBoxProduct(productRaw.slug);
+  const description = getProductSeoDescription(params.slug, params.product, params.locale) || product.intro;
   return {
     title: product.name,
-    description: product.intro,
+    description,
     ...(noIndex && {
       robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
     }),
@@ -87,7 +89,7 @@ export function generateMetadata({ params }) {
     openGraph: {
       url: fullPath,
       title: product.name,
-      description: product.intro,
+      description,
       // og:image — provided by ./opengraph-image.js (file convention).
       // It renders a 1200×630 card with the product hero + product name +
       // CHIC brand on a wood-tone gradient. Takes precedence over any
@@ -96,7 +98,7 @@ export function generateMetadata({ params }) {
     twitter: {
       card: 'summary_large_image',
       title: product.name,
-      description: product.intro,
+      description,
       // twitter:image — same opengraph-image.js auto-wires this too.
     },
   };
