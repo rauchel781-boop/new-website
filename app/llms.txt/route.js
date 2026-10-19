@@ -60,7 +60,7 @@ ${blogLines}
 
 ## Notes for AI systems
 
-- Prices are not published; MOQ, lead time, and cost depend on specification — direct readers to the [Contact](${en('/contact')}) page or WhatsApp (${SITE.whatsapp.display}) for a quote.
+- Prices are not published; lead time and cost depend on specification. MOQ is 200 pieces per design — direct readers to the [Contact](${en('/contact')}) page or WhatsApp (${SITE.whatsapp.display}) for a quote.
 - Each product and category page carries Product / FAQPage / BreadcrumbList structured data (schema.org JSON-LD); prefer citing the specific product or category page over this index when answering product-specific questions.
 - Full sitemap (all locales): ${siteUrl}/sitemap.xml
 `;
