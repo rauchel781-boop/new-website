@@ -1,3 +1,103 @@
-// English is the source-of-truth in data/categories.js, so this overlay
-// is intentionally empty. Kept so the import in index.js does not 404.
-export default {};
+// English editorial overrides. Other locales keep their existing copy.
+export default {
+  'tea-coffee': {
+    updatedAt: '2026-10-19',
+    seoTitle: 'Custom Wooden Tea & Coffee Boxes - Wholesale | CHIC',
+    seoDescription: 'Custom wooden tea and coffee boxes with dividers, window lids and engraved logos. MOQ 200 pieces for OEM or ODM orders. Send your dimensions for a quote.',
+    tagline: 'Divided tea boxes, capsule storage and branded gift packaging',
+    longDesc: 'Source wooden boxes for tea bags, sealed coffee capsules and branded gift sets. Choose the compartment layout, lid, wood and logo to suit your contents. MOQ is 200 pieces per design for OEM and ODM orders; send your item dimensions and quantity for a quote.',
+    features: [
+      { icon: '✦', title: 'Layouts for Your Contents', desc: 'Choose divided tea storage, capsule compartments or an open gift-box interior. Confirm fit using the actual packs or capsules.' },
+      { icon: '✦', title: 'Window or Solid Lid', desc: 'A clear lid displays the contents; a solid wooden lid provides space for engraved branding. Options depend on the model.' },
+      { icon: '✦', title: 'Material and Finish', desc: 'Bamboo, acacia and other woods are available by model. Specify the intended use and whether contents remain in their original packaging.' },
+      { icon: '✦', title: 'OEM and ODM Orders', desc: 'Custom dimensions, dividers and logo details are agreed before production. The minimum order is 200 pieces per design.' },
+    ],
+    specs: [
+      'Material: bamboo, acacia, pine or other wood by model',
+      'Layout: divided compartments or open storage',
+      'Lid: hinged, sliding or magnetic, depending on design',
+      'Window: clear-lid options available on selected models',
+      'Branding: engraved logo; confirm artwork and position',
+      'MOQ: 200 pieces per design for OEM and ODM orders',
+    ],
+    deepContent: {
+      eyebrow: 'Buyer selection guide',
+      title: 'How to specify a wooden tea or coffee box for a bulk order',
+      blocks: [
+        { type: 'p', text: 'Start with what the box needs to hold. Wrapped tea bags, coffee capsules and a retail gift set require different interiors. The [bamboo tea organizer with a clear lid](/products/tea-coffee/bamboo-tea-organizer-clear-lid) displays a selection at a glance, while the [8-compartment acacia tea box](/products/tea-coffee/acacia-tea-bag-box-8-compartment) separates varieties in a darker wood. Use the catalogue to choose a starting model, then specify the changes needed for your own range.' },
+        { type: 'img', src: '/tea-coffee-boxes/8-dividers-acacia-tea-bag-box/tea-box-1.webp', caption: 'Acacia tea box with divided storage for a selection of tea bags.' },
+        { type: 'h3', text: 'Check usable compartment size before choosing the layout' },
+        { type: 'p', text: 'Send the width, depth and height of the items you will pack, including wrappers, tags or individual cartons. Tell us the number of items per compartment and how customers will remove them. The usable interior must allow for wall thickness, dividers and lid clearance. A nominal outside size does not establish capsule compatibility. Compare the [12-compartment bamboo box](/products/tea-coffee/bamboo-12-compartment-spice-tea-box) with the [acacia tea box with a lower drawer](/products/tea-coffee/acacia-tea-box-with-drawer-glass-lid). Confirm the final fit with a pre-production sample rather than relying on a capsule brand name alone.' },
+        { type: 'h3', text: 'Choose the wood and finish for the intended use' },
+        { type: 'p', text: 'Select material from physical or approved reference samples when grain and colour matter to a retail range. Our [wood material guide](/material-guide) compares the available species, and the [bamboo box range](/products/bamboo) provides construction examples. Explain whether the box will hold wrapped tea, sealed capsules or an inner container. A decorative wooden box should not be treated as an airtight container for loose coffee or tea. Keep moisture-sensitive contents in suitable sealed packaging, and discuss intended direct food contact before agreeing the finish.' },
+        { type: 'h3', text: 'Match the lid to daily access or gift presentation' },
+        { type: 'p', text: 'A hinged window lid suits a visible tea assortment, while a sliding lid gives a gift set a wooden surface for branding. Compare [sliding-lid boxes](/products/sliding-lid) and [magnetic wooden boxes](/products/magnetic) if the closure is undecided. Include the intended opening space in your brief, especially for a shelf, counter or hotel tray. A secure closure helps handling, but does not by itself make the box airtight or qualify it as protective transit packaging.' },
+        { type: 'h3', text: 'Specify the logo, packing and quantity together' },
+        { type: 'p', text: 'Provide the logo artwork, position, dimensions and order quantity in the same brief. Identify any insert, retail carton or label needed for the finished SKU. For a bundle with mugs, accessories or several retail packs, the [wooden gift-packaging range](/products/gift-packaging) may be a better starting point than a standard tea organizer. MOQ is 200 pieces per design for OEM and ODM orders. Production timing depends on the model, finish and packing; confirm it against sample approval and your required delivery date.' },
+        { type: 'h3', text: 'Send a brief that can be quoted and checked' },
+        { type: 'p', text: 'Include contents photographs or dimensions, compartment count, reference model, wood, finish, logo, quantity and destination. You can [send the specification through our contact page](/contact#inquiry); choose email for artwork and a detailed brief, or WhatsApp for a quick question. Review the sample for fit, lid movement, finish and logo placement before approving production. For routine care, wipe the wooden surface gently and dry it promptly; avoid soaking or dishwasher cleaning.' },
+      ],
+    },
+    faqs: {
+      sectionTitle: 'FAQ — Custom Wooden Tea and Coffee Boxes',
+      sectionSub: 'Fit, contents, branding and order details to confirm before production.',
+      items: [
+        { q: 'Can you change the compartment layout for our tea bags or capsules?', a: 'Yes. Send the actual item dimensions, quantity per compartment and preferred layout. We confirm the usable interior and lid clearance for your design before the pre-production sample is approved.' },
+        { q: 'Are the boxes airtight?', a: 'Do not assume a standard hinged, sliding or magnetic wooden box is airtight. Keep moisture-sensitive tea and coffee in suitable sealed inner packaging. Describe any sealing requirement separately so we can confirm whether the proposed construction is suitable.' },
+        { q: 'What is the minimum order for a branded tea or coffee box?', a: 'MOQ is 200 pieces per design for OEM and ODM production orders. Send your reference model, quantity, dimensions, logo and packing requirements for a quote. Pre-production sampling is arranged separately.' },
+        { q: 'Can the lid show both our logo and the products inside?', a: 'Selected models have a clear window with a wooden frame. Confirm the window area and logo position together; a solid lid offers a larger wooden branding surface. Final artwork and placement are agreed for the chosen design.' },
+        { q: 'What should we check on the pre-production sample?', a: 'Check the contents fit, compartment access, lid operation, grain and finish, logo placement and packing. Confirm the production schedule after the sample and specification are approved.' },
+      ],
+    },
+  },
+  drawer: {
+    updatedAt: '2026-10-19',
+    name: 'Drawer-Style Wooden Boxes',
+    seoTitle: 'Custom Drawer-Style Wooden Boxes - Wholesale | CHIC',
+    seoDescription: 'Custom drawer-style wooden boxes for jewelry, desk storage and gift sets, with logo engraving and optional dividers. MOQ 200 pieces. Request a wholesale quote.',
+    tagline: 'Small storage boxes, desktop organizers and drawer-style gift boxes',
+    longDesc: 'Choose wooden boxes with pull-out storage for jewelry, desktop supplies, tea accessories and retail gifts. This range includes single-drawer boxes and small multi-drawer cabinets. Specify the overall size, drawer layout, wood and branding for an OEM or ODM order from 200 pieces per design.',
+    features: [
+      { icon: '✦', title: 'Single or Multiple Drawers', desc: 'Select a compact box or a small drawer cabinet to suit the contents and available shelf or desk space.' },
+      { icon: '✦', title: 'Product-Specific Interiors', desc: 'Specify the usable drawer space, dividers and any lining. Confirm clearance with the items you will pack.' },
+      { icon: '✦', title: 'Wood and Branding Options', desc: 'Pine, oak, walnut or bamboo are available by model, with engraved branding and finish choices agreed for the design.' },
+      { icon: '✦', title: 'Small Storage and Gift Formats', desc: 'The catalogue covers complete storage products and presentation boxes. Furniture drawer components need a separate specification.' },
+    ],
+    specs: [
+      'Format: complete drawer-style box or small storage cabinet',
+      'Material: pine, oak, walnut or bamboo, depending on model',
+      'Dimensions: model-specific; custom sizes on request',
+      'Interior: open drawer, dividers or lining as specified',
+      'Hardware and pull style: confirm for the selected design',
+      'MOQ: 200 pieces per design for OEM and ODM orders',
+    ],
+    deepContent: {
+      eyebrow: 'Buyer selection guide',
+      title: 'Choosing a drawer-style wooden box for storage or gift packaging',
+      blocks: [
+        { type: 'p', text: 'A drawer-style wooden box can be a compact presentation box, a desktop organizer or a small cabinet with several drawers. Choose the format by the item it needs to hold and how it will be used. For a branded unboxing format, start with [wooden gift packaging](/products/gift-packaging). For keepsakes and household storage, compare the [storage-box range](/products/storage). This category focuses on complete boxes and small storage products; a furniture drawer component requires a different brief.' },
+        { type: 'h3', text: 'Select a reference model before changing the details' },
+        { type: 'p', text: 'The [oak single-drawer box](/products/drawer/oak-single-drawer-box) is a starting point for a simple enclosed format. The [pine three-tier mini cabinet](/products/drawer/pine-3-tier-drawer-mini-cabinet) and [bamboo three-drawer desk organizer](/products/drawer/bamboo-3-drawer-desk-organizer) provide separate storage levels for smaller items. Compare the listed dimensions and contents of each model rather than choosing by drawer count alone. A multi-drawer cabinet and a single gift drawer serve different handling and presentation needs.' },
+        { type: 'h3', text: 'Define usable drawer space and opening clearance' },
+        { type: 'p', text: 'Provide the dimensions and weight of the intended contents, compartment count and space available when a drawer is open. Outside dimensions include the case and drawer walls, so they are not the same as usable storage space. State whether the drawer should be removable, fitted with dividers or lined for presentation. For a pull-out retail gift set, compare the [drawer wooden gift box](/products/gift-packaging/drawer-wooden-gift-box) rather than assuming a desktop organizer is interchangeable with packaging.' },
+        { type: 'h3', text: 'Agree the material, finish and hardware for the design' },
+        { type: 'p', text: 'Use the [wood material guide](/material-guide) to compare appearance and material options, then confirm the choice against a sample. Specify the pull style and whether the design uses a wooden runner or separate slide hardware. Requirements depend on the drawer, contents and construction; confirm them for the selected model rather than assuming them from a category label. Our [wooden-box hardware guide](/blog/wooden-box-hardware-guide) explains pulls, hinges and other fittings that can affect the brief.' },
+        { type: 'h3', text: 'Compare other openings when a drawer is unnecessary' },
+        { type: 'p', text: 'A drawer needs room to extend beyond the case. Where shelf space is limited or contents need to be lifted directly out, compare a [hinged wooden box](/products/hinged) or a [sliding-lid box](/products/sliding-lid). Confirm the opening action as well as closed dimensions. For a retail range, keep the reference model, finish and logo specification consistent through sample approval so the quote and approved construction describe the same product.' },
+        { type: 'h3', text: 'Prepare the production and packing brief' },
+        { type: 'p', text: 'MOQ is 200 pieces per design for OEM and ODM orders. Include the reference model, dimensions, drawer count, contents, wood, finish, logo, quantity and destination when you [request a quotation](/contact#inquiry). Email is suitable for artwork, measurements and attachments; WhatsApp is available for quick questions. Ask for the packing arrangement and production schedule with the quote. Check sample drawer movement, fit, edges, finish and logo placement. Keep the finished box dry, wipe it gently, and avoid soaking or dishwasher cleaning.' },
+      ],
+    },
+    faqs: {
+      sectionTitle: 'FAQ — Drawer-Style Wooden Boxes',
+      sectionSub: 'Questions about complete storage boxes, small cabinets and branded presentation formats.',
+      items: [
+        { q: 'Are these furniture drawer components or complete wooden boxes?', a: 'The listed products are complete boxes, desktop organizers and small storage cabinets. For a drawer component to install in furniture, send a separate drawing and hardware specification so we can confirm suitability.' },
+        { q: 'Can you change the size, drawer count or interior layout?', a: 'Custom dimensions, drawer layouts, dividers and lining can be discussed for the selected design. Provide the contents dimensions and weight, required capacity and opening clearance. Final construction is agreed with the sample.' },
+        { q: 'Do all models have metal or soft-close slides?', a: 'No. The runner, slide and pull arrangement depends on the product. Confirm the required opening action and contents weight in your brief; do not assume soft-close hardware or a load rating applies to every box.' },
+        { q: 'What is the MOQ for a custom drawer-style wooden box?', a: 'MOQ is 200 pieces per design for OEM and ODM production orders. Send the model, dimensions, drawer layout, wood, logo and quantity for a quotation. Pre-production sampling is arranged separately.' },
+        { q: 'What should we check before approving production?', a: 'Check usable interior dimensions, drawer movement, opening clearance, edges, finish, logo position and packing. Confirm any insert or hardware against the approved specification and agree the production schedule after sample approval.' },
+      ],
+    },
+  },
+};

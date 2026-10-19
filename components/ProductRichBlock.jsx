@@ -18,8 +18,8 @@ const CSS = `
 @media (max-width: 600px) { .pdp-rich { padding: 48px 18px; } }
 `;
 
-export default function ProductRichBlock({ product, locale = 'en' }) {
-  const blocks = buildRichDescription(product, locale);
+export default function ProductRichBlock({ product, locale = 'en', blocks: editorialBlocks }) {
+  const blocks = editorialBlocks || buildRichDescription(product, locale);
   if (!blocks.length) return null;
   const labels = getProductContentLabels(locale);
 

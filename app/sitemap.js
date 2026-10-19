@@ -3,6 +3,8 @@ import { CATEGORIES, SLUGS } from '@/data/categories';
 import { POSTS } from '@/data/blog';
 import { routing } from '@/i18n/routing';
 import { isNonBoxProduct } from '@/data/non-box-products';
+import { getCategoryTranslation } from '@/data/categories/translations';
+import { getProductPageCopy } from '@/data/product-page-copy';
 
 // Pull product slug lists for each category that has products.
 import { PRODUCTS as GIFT_PACKAGING_PRODUCTS } from '@/data/products/gift-packaging';
@@ -88,7 +90,8 @@ function pushLocalized(entries, localizedPath, opts = {}) {
       priority: opts.priority ?? 0.7,
       alternates: { languages: langs },
     };
-    if (opts.lastModified) entry.lastModified = opts.lastModified;
+    const lastModified = opts.lastModifiedByLocale?.[loc] || opts.lastModified;
+    if (lastModified) entry.lastModified = lastModified;
     if (images.length) entry.images = images;
     entries.push(entry);
   }
@@ -120,6 +123,10 @@ export default function sitemap() {
       changeFrequency: 'weekly',
       priority: 0.8,
       images: catImages.slice(0, 5),
+      lastModifiedByLocale: Object.fromEntries(routing.locales.flatMap(loc => {
+        const updatedAt = getCategoryTranslation(slug, loc).updatedAt;
+        return updatedAt ? [[loc, new Date(updatedAt)]] : [];
+      })),
     });
   }
 
@@ -137,6 +144,10 @@ export default function sitemap() {
         changeFrequency: 'monthly',
         priority: 0.7,
         images: productImages,
+        lastModifiedByLocale: Object.fromEntries(routing.locales.flatMap(loc => {
+          const updatedAt = getProductPageCopy(categorySlug, productSlug, loc)?.updatedAt;
+          return updatedAt ? [[loc, new Date(updatedAt)]] : [];
+        })),
       });
     }
   }

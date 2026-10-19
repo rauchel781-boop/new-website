@@ -3,6 +3,7 @@
 // Missing locales deliberately use the caller's localized introduction.
 export const PRODUCT_SEO_DESCRIPTIONS = {
   en: {
+    'sliding-lid/walnut-sliding-box': 'Custom walnut sliding-lid boxes with engraved logos, felt or velvet lining and tailored dimensions. MOQ 200 pieces. Request a quote for branded gift packaging.',
     'gift-packaging/luxury-magnetic-gift-box': 'Custom magnetic gift boxes with MDF or paulownia cores, wrapped finishes and fitted inserts for retail brands. Request a quote for your branded packaging.',
     'gift-packaging/hinged-wooden-gift-box': 'Source hinged wooden gift boxes in pine or paulownia with brass-finish hardware, custom inserts and engraved logos. Request a quote for wholesale orders.',
     'gift-packaging/sliding-lid-gift-box': 'Custom sliding lid wooden gift boxes in pine, bamboo or paulownia, with routed grooves and logo engraving. Request a quote for your wholesale packaging.',

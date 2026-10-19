@@ -565,6 +565,8 @@ export default async function CategoryPage({ params }) {
   // useCases / longDesc). Anything missing falls back to the English source
   // in `data/categories.js`, so partially-translated languages still build.
   const catTranslation = getCategoryTranslation(params.slug, params.locale);
+  translatedName = catTranslation.name || translatedName;
+  translatedTagline = catTranslation.tagline || translatedTagline;
   const translatedFeatures = catTranslation.features || item.features;
   const translatedSpecs    = catTranslation.specs    || item.specs;
   const translatedUseCases = catTranslation.useCases || item.useCases;
@@ -633,7 +635,7 @@ export default async function CategoryPage({ params }) {
   // schema so Google can show the questions as expandable rich results
   // in SERP (per the FAQPage rich-result guidelines, the schema content
   // must exactly match the visible page text).
-  const faqs = getCategoryFaqs(params.slug, params.locale);
+  const faqs = catTranslation.faqs || getCategoryFaqs(params.slug, params.locale);
   const faqLd = faqs
     ? {
         '@context': 'https://schema.org',

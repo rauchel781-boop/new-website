@@ -7,6 +7,8 @@
 // the build).
 //
 // Supported overlay fields (any subset can be provided):
+//   - name / tagline / faqs — localized heading, short label and buyer FAQs
+//   - updatedAt             — real modification date for this locale only
 //   - longDesc    string         — hero long-description paragraph
 //   - features    array          — full features array [{ icon, title, desc }, …]
 //                                  If provided, REPLACES the English features
