@@ -42,6 +42,7 @@
     "sending": "전송 중…",
     "emailUs": "이메일 문의",
     "whatsapp": "WhatsApp 채팅",
+    "whatsappMessage": "CHIC 담당자님, 맞춤 목재 상자 견적을 받고 싶습니다.\n{url}",
     "viewAllProducts": "모든 제품 보기"
   },
   "utility": {
@@ -78,7 +79,7 @@
     "label": "언어"
   },
   "cookie": {
-    "message": "채팅 위젯 작동과 언어 설정 기억을 위해 쿠키를 사용합니다. 자세한 내용은 <privacy>개인정보 처리방침</privacy>을 참고하세요.",
+    "message": "언어 설정을 저장하고, 동의하신 경우 사이트 이용을 분석하기 위해 쿠키를 사용합니다. 자세한 내용은 <privacy>개인정보 처리방침</privacy>을 확인하세요.",
     "accept": "동의",
     "decline": "거부",
     "dialogLabel": "쿠키 동의"

@@ -42,6 +42,7 @@
     "sending": "送信中…",
     "emailUs": "メールでお問い合わせ",
     "whatsapp": "WhatsAppでチャット",
+    "whatsappMessage": "CHIC ご担当者様、オーダーメイド木箱の見積もりを希望します。\n{url}",
     "viewAllProducts": "全製品を見る"
   },
   "utility": {
@@ -78,7 +79,7 @@
     "label": "言語"
   },
   "cookie": {
-    "message": "チャットウィジェットの稼働と言語設定の記憶のためにクッキーを使用しています。詳しくは<privacy>プライバシーポリシー</privacy>をご確認ください。",
+    "message": "言語設定の保存と、ご同意いただいた場合のサイト利用分析のために Cookie を使用します。詳しくは<privacy>プライバシーポリシー</privacy>をご確認ください。",
     "accept": "同意する",
     "decline": "拒否する",
     "dialogLabel": "Cookie 同意"

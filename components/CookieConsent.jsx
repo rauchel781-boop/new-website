@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useContext, useEffect, useState, useCallback } from 'react';
+import { createContext, useContext, useEffect, useState, useCallback, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { readConsent, writeConsent } from '@/lib/cookie-consent';
@@ -128,6 +128,20 @@ const BANNER_CSS = `
 export function CookieBanner() {
   const t = useTranslations('cookie');
   const { consent, setConsent, hydrated } = useCookieConsent();
+  const bannerRef = useRef(null);
+
+  useEffect(() => {
+    const banner = bannerRef.current;
+    if (!banner) return;
+    const update = () => document.documentElement.style.setProperty('--cookie-banner-offset', `${Math.ceil(banner.getBoundingClientRect().height) + 28}px`);
+    update();
+    const observer = new ResizeObserver(update);
+    observer.observe(banner);
+    return () => {
+      observer.disconnect();
+      document.documentElement.style.removeProperty('--cookie-banner-offset');
+    };
+  }, [consent, hydrated]);
 
   // Don't render until we've read the cookie on the client. Otherwise the
   // banner would briefly flash for visitors who already accepted.
@@ -137,7 +151,7 @@ export function CookieBanner() {
   return (
     <>
       <style dangerouslySetInnerHTML={{ __html: BANNER_CSS }} />
-      <div className="cookie-banner" role="dialog" aria-label={t('dialogLabel')} aria-live="polite">
+      <div ref={bannerRef} className="cookie-banner" role="dialog" aria-label={t('dialogLabel')} aria-live="polite">
         <div className="cookie-banner-inner">
           <p className="cookie-banner-text">
             {t.rich('message', {

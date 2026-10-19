@@ -42,6 +42,7 @@
     "sending": "Wird gesendet…",
     "emailUs": "Jetzt E-Mail senden",
     "whatsapp": "WhatsApp-Chat",
+    "whatsappMessage": "Hallo CHIC, ich möchte ein Angebot für individuelle Holzboxen erhalten.\n{url}",
     "viewAllProducts": "Alle Produkte ansehen"
   },
   "utility": {
@@ -78,7 +79,7 @@
     "label": "Sprache"
   },
   "cookie": {
-    "message": "Wir verwenden Cookies für unser Chat-Widget und um Ihre Spracheinstellung zu speichern. Details finden Sie in unserer <privacy>Datenschutzerklärung</privacy>.",
+    "message": "Wir verwenden Cookies, um Ihre Spracheinstellung zu speichern, und mit Ihrer Zustimmung zur Website-Analyse. Details finden Sie in unserer <privacy>Datenschutzerklärung</privacy>.",
     "accept": "Akzeptieren",
     "decline": "Ablehnen",
     "dialogLabel": "Cookie-Zustimmung"

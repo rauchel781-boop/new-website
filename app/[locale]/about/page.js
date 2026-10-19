@@ -6,6 +6,7 @@ import CertIcon from '@/components/CertIcons';
 import Image from 'next/image';
 import PageBreadcrumbLd from '@/components/PageBreadcrumbLd';
 import { SITE } from '@/data/site-config';
+import { WhatsAppLink } from '@/components/WhatsAppChat';
 
 export async function generateMetadata({ params: { locale } }) {
   const { COPY } = getAbout(locale);
@@ -929,9 +930,7 @@ export default function AboutPage({ params: { locale } }) {
           <h2 className="about-cta-title">{COPY.cta.titleA}<br />{COPY.cta.titleB}</h2>
           <p className="about-cta-sub">{COPY.cta.sub}</p>
           <div className="about-cta-btns">
-            <a href="https://wa.me/8618960098762" className="about-btn-primary" target="_blank" rel="noopener noreferrer">
-              {COPY.cta.btnWhatsapp}
-            </a>
+            <WhatsAppLink className="about-btn-primary">WhatsApp</WhatsAppLink>
             <a href="tel:+8618960098762" className="about-btn-outline">
               📞 +86 189 6009 8762
             </a>

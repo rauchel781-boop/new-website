@@ -42,6 +42,7 @@
     "sending": "Enviando…",
     "emailUs": "Envíenos un Correo",
     "whatsapp": "Chatear por WhatsApp",
+    "whatsappMessage": "Hola CHIC, me gustaría solicitar un presupuesto para cajas de madera personalizadas.\n{url}",
     "viewAllProducts": "Ver Todos los Productos"
   },
   "utility": {
@@ -78,7 +79,7 @@
     "label": "Idioma"
   },
   "cookie": {
-    "message": "Usamos cookies para nuestro widget de chat y para recordar tu idioma. Consulta nuestra <privacy>Política de Privacidad</privacy> para más información.",
+    "message": "Usamos cookies para recordar tu idioma y, con tu consentimiento, analizar el uso del sitio. Consulta nuestra <privacy>Política de Privacidad</privacy> para más información.",
     "accept": "Aceptar",
     "decline": "Rechazar",
     "dialogLabel": "Consentimiento de cookies"

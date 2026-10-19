@@ -26,7 +26,7 @@ export function generateMetadata({ params: { locale } }) {
   };
 }
 
-const LAST_UPDATED = 'May 12, 2026';
+const LAST_UPDATED = 'October 19, 2026';
 
 const LEGAL_CSS = `
 .legal {
@@ -139,7 +139,7 @@ export default function PrivacyPage({ params: { locale } }) {
           </li>
           <li>
             <strong>Direct contact:</strong> anything you choose to share when emailing us,
-            messaging on WhatsApp, or chatting via the on-page Tawk.to widget.
+            or messaging us on WhatsApp or WeChat.
           </li>
         </ul>
 
@@ -187,8 +187,8 @@ export default function PrivacyPage({ params: { locale } }) {
             contact form session, and basic security. These can&apos;t be disabled.
           </li>
           <li>
-            <strong>Tawk.to chat cookies:</strong> set by our chat widget so a conversation
-            can persist across pages. See <a href="https://www.tawk.to/data-protection/" target="_blank" rel="noopener noreferrer">tawk.to&apos;s privacy notice</a>.
+            <strong>Optional analytics:</strong> Google Analytics and Microsoft Clarity
+            load only after you accept cookies. They help us understand site usage.
           </li>
         </ul>
         <p>
@@ -208,9 +208,8 @@ export default function PrivacyPage({ params: { locale } }) {
             (<a href="https://www.emailjs.com/legal/privacy-policy/" target="_blank" rel="noopener noreferrer">privacy policy</a>)
           </li>
           <li>
-            <strong>Tawk.to</strong> — runs the live chat widget. Receives chat
-            transcript and basic device info if you open the chat.
-            (<a href="https://www.tawk.to/privacy-policy/" target="_blank" rel="noopener noreferrer">privacy policy</a>)
+            <strong>WhatsApp</strong> — our contact buttons open WhatsApp or WhatsApp Web.
+            A product name and page link may be prefilled; you choose whether to send the message.
           </li>
           <li>
             <strong>Google Fonts</strong> — serves the Playfair, Fraunces, Jost, and

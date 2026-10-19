@@ -25,7 +25,7 @@ export function generateMetadata({ params: { locale } }) {
   };
 }
 
-const LAST_UPDATED = 'May 12, 2026';
+const LAST_UPDATED = 'October 19, 2026';
 
 const LEGAL_CSS = `
 .legal {
@@ -145,7 +145,7 @@ export default function TermsPage({ params: { locale } }) {
 
         <h2>3. Inquiries and quotations</h2>
         <p>
-          Inquiries you submit through the Site, by email, on WhatsApp, or via Tawk.to
+          Inquiries you submit through the Site, by email, or on WhatsApp
           chat are <strong>not</strong> orders. Each inquiry triggers a quotation process:
         </p>
         <ul>

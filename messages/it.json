@@ -42,6 +42,7 @@
     "sending": "Invio in corso…",
     "emailUs": "Inviaci un'Email",
     "whatsapp": "Chatta su WhatsApp",
+    "whatsappMessage": "Buongiorno CHIC, vorrei un preventivo per scatole in legno personalizzate.\n{url}",
     "viewAllProducts": "Vedi Tutti i Prodotti"
   },
   "utility": {
@@ -78,7 +79,7 @@
     "label": "Lingua"
   },
   "cookie": {
-    "message": "Utilizziamo cookie per il nostro widget di chat e per ricordare la tua lingua. Vedi la nostra <privacy>Informativa sulla Privacy</privacy> per i dettagli.",
+    "message": "Utilizziamo cookie per ricordare la tua lingua e, con il tuo consenso, analizzare l'uso del sito. Consulta la nostra <privacy>Informativa sulla Privacy</privacy> per i dettagli.",
     "accept": "Accetta",
     "decline": "Rifiuta",
     "dialogLabel": "Consenso cookie"

@@ -26,7 +26,7 @@ import ProductRichBlock from '@/components/ProductRichBlock';
 import ProductFaqBlock from '@/components/ProductFaqBlock';
 import { isProductContentLocaleSupported, hasFullProductTranslation } from '@/lib/product-content';
 import JsonLd from '@/components/JsonLd';
-import StickyInquiryCta from '@/components/StickyInquiryCta';
+import { WhatsAppLink } from '@/components/WhatsAppChat';
 import RecentlyViewedTracker from '@/components/RecentlyViewedTracker';
 import { SITE } from '@/data/site-config';
 import { alternates as makeAlternates } from '@/i18n/seo';
@@ -570,7 +570,7 @@ export default async function ProductDetail({ params }) {
             </div>
 
             <div className="pdp-cta">
-              <Link href={inquiryLinks.formHref} className="pdp-btn-primary">{t('sendInquiry')}</Link>
+              <WhatsAppLink productName={product.name} className="pdp-btn-primary">{tCta('whatsapp')}</WhatsAppLink>
               <Link href={`/products/${params.slug}`} className="pdp-btn-outline">{t('browseCategory')}</Link>
             </div>
 
@@ -623,8 +623,8 @@ export default async function ProductDetail({ params }) {
           <h2 className="pdp-inquiry-title">{t('inquiryTitle', { name: product.name })}</h2>
           <p className="pdp-inquiry-sub">{t('inquiryDescription')}</p>
           <div className="pdp-inquiry-btns">
-            <a href={inquiryLinks.emailHref} className="pdp-btn-primary">{tCta('emailUs')} →</a>
-            <a href={inquiryLinks.whatsappHref} className="pdp-btn-outline" target="_blank" rel="noopener noreferrer">{tCta('whatsapp')}</a>
+            <WhatsAppLink productName={product.name} className="pdp-btn-primary">{tCta('whatsapp')}</WhatsAppLink>
+            <a href={inquiryLinks.emailHref} className="pdp-btn-outline">{tCta('emailUs')} →</a>
           </div>
         </div>
       </section>
@@ -656,10 +656,6 @@ export default async function ProductDetail({ params }) {
           </div>
         </section>
       )}
-
-      {/* Mobile-only sticky inquiry CTA — bottom-left to avoid the
-          Tawk.to chat widget on the right. Renders on PDP only. */}
-      <StickyInquiryCta productName={product.name} productPath={productPath} />
 
       {/* Side-effect: record this product into the recently-viewed list
           so it appears on /products on the next visit. Renders nothing. */}

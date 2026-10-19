@@ -7,6 +7,7 @@ import { useEmailJS } from '@/lib/use-emailjs';
 import { trackEvent } from '@/lib/analytics';
 import ProductInquiryPrefill from '@/components/ProductInquiryPrefill';
 import { prefillProductInquiry } from '@/lib/product-inquiry';
+import { WhatsAppLink } from '@/components/WhatsAppChat';
 
 const CONTACT_CSS = `
 
@@ -902,8 +903,8 @@ export default function ContactPage() {
         <h2 className="final-title">{t('final.titleStart')} <em>{t('final.titleEm')}</em> {t('final.titleEnd')}</h2>
         <p className="final-sub">{t('final.sub')}</p>
         <div className="final-btns">
-          <a href={`mailto:${SITE.email}`} className="final-btn">{t('final.emailBtn')}</a>
-          <a href={SITE.whatsapp.chatUrl} target="_blank" rel="noopener noreferrer" className="final-btn outline">{t('final.whatsappBtn')}</a>
+          <WhatsAppLink className="final-btn">{t('final.whatsappBtn')}</WhatsAppLink>
+          <a href={`mailto:${SITE.email}`} className="final-btn outline">{t('final.emailBtn')}</a>
         </div>
       </section>
     </div>
