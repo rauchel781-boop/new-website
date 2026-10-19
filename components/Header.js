@@ -505,7 +505,7 @@ export default function Header() {
             <kbd className="search-btn-kbd">{t('search.openShortcut')}</kbd>
           </button>
 
-          <WhatsAppLink className="cta">{t('cta.whatsapp')} →</WhatsAppLink>
+          <WhatsAppLink className="cta" aria-label={t('cta.whatsapp')}>WhatsApp →</WhatsAppLink>
 
           <button
             className="burger"
@@ -548,8 +548,8 @@ export default function Header() {
               )}
             </div>
           ))}
-          <WhatsAppLink className="drawer-cta" onClick={() => setMobileOpen(false)}>
-            {t('cta.whatsapp')} →
+          <WhatsAppLink className="drawer-cta" aria-label={t('cta.whatsapp')} onClick={() => setMobileOpen(false)}>
+            WhatsApp →
           </WhatsAppLink>
 
           {/* Mobile language list */}
