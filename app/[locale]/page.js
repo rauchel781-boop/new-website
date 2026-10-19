@@ -1222,7 +1222,7 @@ export default async function HomePage({ params: { locale } }) {
           <h2 className="cta-title">{COPY.cta.titleA}<br />{COPY.cta.titleB}</h2>
           <p className="cta-sub">{COPY.cta.sub}</p>
           <div className="cta-btns">
-            <a href="mailto:info@xmchichomeware.com" className="btn-primary">{COPY.cta.btnEmail}</a>
+            <a href={`mailto:${SITE.email}`} className="btn-primary">{COPY.cta.btnEmail}</a>
             <a href="https://wa.me/8618960098762" className="btn-outline" target="_blank" rel="noopener noreferrer">{COPY.cta.btnWhatsapp}</a>
           </div>
         </div>

@@ -1,4 +1,6 @@
 import { Link } from '@/i18n/navigation';
+import Image from 'next/image';
+import { buildProductInquiryLinks } from '@/lib/product-inquiry';
 import { notFound } from 'next/navigation';
 import { CATEGORIES } from '@/data/categories';
 import { PRODUCTS as GIFT_PACKAGING_PRODUCTS } from '@/data/products/gift-packaging';
@@ -375,7 +377,7 @@ const CSS = `
   box-shadow: 0 14px 40px rgba(61,42,31,0.14);
   border-color: var(--pdp-accent);
 }
-.pdp-rel-img { aspect-ratio: 4 / 3; background: var(--pdp-cream-dk); overflow: hidden; }
+.pdp-rel-img { position: relative; aspect-ratio: 4 / 3; background: var(--pdp-cream-dk); overflow: hidden; }
 .pdp-rel-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .pdp-rel-info { padding: 16px 18px; }
 .pdp-rel-name {
@@ -451,6 +453,7 @@ export default async function ProductDetail({ params }) {
   // every `item` URL means Google doesn't need to follow a redirect.
   const localePrefix = `/${params.locale}`;
   const productPath = `/products/${params.slug}/${params.product}`;
+  const inquiryLinks = buildProductInquiryLinks(product.name, productPath, params.locale);
   // Surface the spec table as structured `additionalProperty` so Google can
   // use spec values (closure / material / MOQ / lead time) in product
   // result enrichments. Each spec key becomes a PropertyValue node.
@@ -567,7 +570,7 @@ export default async function ProductDetail({ params }) {
             </div>
 
             <div className="pdp-cta">
-              <Link href="/contact#inquiry" className="pdp-btn-primary">{t('sendInquiry')}</Link>
+              <Link href={inquiryLinks.formHref} className="pdp-btn-primary">{t('sendInquiry')}</Link>
               <Link href={`/products/${params.slug}`} className="pdp-btn-outline">{t('browseCategory')}</Link>
             </div>
 
@@ -620,8 +623,8 @@ export default async function ProductDetail({ params }) {
           <h2 className="pdp-inquiry-title">{t('inquiryTitle', { name: product.name })}</h2>
           <p className="pdp-inquiry-sub">{t('inquiryDescription')}</p>
           <div className="pdp-inquiry-btns">
-            <a href="mailto:info@xmchichomeware.com" className="pdp-btn-primary">{tCta('emailUs')} →</a>
-            <a href="https://wa.me/8618960098762" className="pdp-btn-outline" target="_blank" rel="noopener noreferrer">{tCta('whatsapp')}</a>
+            <a href={inquiryLinks.emailHref} className="pdp-btn-primary">{tCta('emailUs')} →</a>
+            <a href={inquiryLinks.whatsappHref} className="pdp-btn-outline" target="_blank" rel="noopener noreferrer">{tCta('whatsapp')}</a>
           </div>
         </div>
       </section>
@@ -640,7 +643,8 @@ export default async function ProductDetail({ params }) {
                   className="pdp-rel-card"
                 >
                   <div className="pdp-rel-img">
-                    <img src={rp.images[0]} alt={rp.name} loading="lazy" width="1200" height="900" />
+                    <Image src={rp.images[0]} alt={rp.name} fill
+                      sizes="(max-width: 800px) calc(100vw - 48px), (max-width: 1520px) calc(33.333vw - 51px), 456px" />
                   </div>
                   <div className="pdp-rel-info">
                     <div className="pdp-rel-name">{rp.name}</div>
@@ -655,7 +659,7 @@ export default async function ProductDetail({ params }) {
 
       {/* Mobile-only sticky inquiry CTA — bottom-left to avoid the
           Tawk.to chat widget on the right. Renders on PDP only. */}
-      <StickyInquiryCta productName={product.name} />
+      <StickyInquiryCta productName={product.name} productPath={productPath} />
 
       {/* Side-effect: record this product into the recently-viewed list
           so it appears on /products on the next visit. Renders nothing. */}

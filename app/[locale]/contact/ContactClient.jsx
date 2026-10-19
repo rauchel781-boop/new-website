@@ -1,10 +1,12 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, useCallback, Suspense } from 'react';
 import { useTranslations } from 'next-intl';
 import { SITE, isEmailJSConfigured } from '@/data/site-config';
 import { useEmailJS } from '@/lib/use-emailjs';
 import { trackEvent } from '@/lib/analytics';
+import ProductInquiryPrefill from '@/components/ProductInquiryPrefill';
+import { prefillProductInquiry } from '@/lib/product-inquiry';
 
 const CONTACT_CSS = `
 
@@ -507,6 +509,13 @@ export default function ContactPage() {
   const [state, setState] = useState('idle');
   const [errMsg, setErrMsg] = useState('');
   const [openFaq, setOpenFaq] = useState(0);
+  const [productInquiry, setProductInquiry] = useState(null);
+  const quoteSubject = t('form.subjectQuote');
+  const generalSubject = t('form.subjectGeneral');
+  const applyProductInquiry = useCallback((context) => {
+    setProductInquiry(context);
+    setForm(current => prefillProductInquiry(current, context, quoteSubject, generalSubject));
+  }, [quoteSubject, generalSubject]);
 
   // FAQs are stored as q1/a1…q8/a8 pairs in messages/{locale}.json under `contact.faq`.
   // Build the array once per render so the open/close state still works by index.
@@ -560,13 +569,14 @@ export default function ContactPage() {
   }
 
   function reset() {
-    setForm({ name: '', email: '', company: '', country: '', subject: t('form.subjectGeneral'), message: '' });
+    setForm(prefillProductInquiry({ name: '', email: '', company: '', country: '', subject: generalSubject, message: '' }, productInquiry, quoteSubject, generalSubject));
     setState('idle');
     setErrMsg('');
   }
 
   return (
     <div className="cp">
+      <Suspense fallback={null}><ProductInquiryPrefill onContext={applyProductInquiry} /></Suspense>
       <style dangerouslySetInnerHTML={{ __html: CONTACT_CSS }} />
 
       {/* ── HERO ── */}

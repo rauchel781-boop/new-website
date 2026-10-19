@@ -24,12 +24,13 @@
 //   compete with the hero image for paint priority.
 
 import { useEffect, useState } from 'react';
-import { useTranslations } from 'next-intl';
-import { SITE } from '@/data/site-config';
+import { useTranslations, useLocale } from 'next-intl';
+import { buildProductInquiryLinks } from '@/lib/product-inquiry';
 import { trackEvent } from '@/lib/analytics';
 
-export default function StickyInquiryCta({ productName }) {
+export default function StickyInquiryCta({ productName, productPath }) {
   const t = useTranslations('cta');
+  const locale = useLocale();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -37,19 +38,7 @@ export default function StickyInquiryCta({ productName }) {
     return () => clearTimeout(id);
   }, []);
 
-  // Build a contextual WhatsApp message with the product name pre-filled.
-  // This is a huge conversion lever — buyer doesn't have to type, just send.
-  const waMessage = encodeURIComponent(
-    productName
-      ? `Hi CHIC team — interested in your "${productName}" product. Could you share MOQ, lead time, and pricing?`
-      : `Hi CHIC team — could you send your product catalog?`,
-  );
-  const waHref = `${SITE.whatsapp.chatUrl}?text=${waMessage}`;
-
-  const mailSubject = encodeURIComponent(
-    productName ? `Inquiry: ${productName}` : 'Product inquiry',
-  );
-  const mailHref = `mailto:${SITE.email}?subject=${mailSubject}`;
+  const {whatsappHref, emailHref} = buildProductInquiryLinks(productName, productPath, locale);
 
   return (
     <>
@@ -60,7 +49,8 @@ export default function StickyInquiryCta({ productName }) {
         aria-label="Quick inquiry"
       >
         <a
-          href={waHref}
+          href={whatsappHref}
+          aria-label={t('whatsapp')}
           target="_blank"
           rel="noopener noreferrer"
           className="sticky-cta-btn sticky-cta-wa"
@@ -72,7 +62,8 @@ export default function StickyInquiryCta({ productName }) {
           <span>WhatsApp</span>
         </a>
         <a
-          href={mailHref}
+          href={emailHref}
+          aria-label={t('emailUs')}
           className="sticky-cta-btn sticky-cta-email"
           onClick={() => trackEvent('email_click', { source: 'pdp_sticky' })}
         >

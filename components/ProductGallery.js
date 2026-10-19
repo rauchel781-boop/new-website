@@ -108,8 +108,9 @@ export default function ProductGallery({ images, name }) {
           src={images[idx]}
           alt={t('mainAlt', { name, idx: idx + 1 })}
           fill
-          priority
-          sizes="(max-width: 800px) 100vw, 600px"
+          priority={idx === 0}
+          loading={idx === 0 ? undefined : 'eager'}
+          sizes="(max-width: 800px) calc(100vw - 48px), (max-width: 1100px) calc(100vw - 120px), (max-width: 1520px) calc(53.489vw - 97px), 717px"
           style={{ objectFit: 'contain' }}
         />
         {total > 1 && (
@@ -146,13 +147,14 @@ export default function ProductGallery({ images, name }) {
               onClick={() => setIdx(i)}
               type="button"
               aria-label={t('thumbAria', { idx: i + 1 })}
+              aria-pressed={i === idx}
             >
               <Image
                 src={src}
                 alt=""
                 fill
                 loading="lazy"
-                sizes="120px"
+                sizes="(max-width: 800px) calc(20vw - 16px), (max-width: 1100px) calc(16.667vw - 27px), (max-width: 1520px) calc(8.915vw - 23px), 113px"
                 style={{ objectFit: 'cover' }}
               />
             </button>

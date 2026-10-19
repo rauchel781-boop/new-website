@@ -5,6 +5,7 @@ import { getAbout } from '@/data/about';
 import CertIcon from '@/components/CertIcons';
 import Image from 'next/image';
 import PageBreadcrumbLd from '@/components/PageBreadcrumbLd';
+import { SITE } from '@/data/site-config';
 
 export async function generateMetadata({ params: { locale } }) {
   const { COPY } = getAbout(locale);
@@ -934,8 +935,8 @@ export default function AboutPage({ params: { locale } }) {
             <a href="tel:+8618960098762" className="about-btn-outline">
               📞 +86 189 6009 8762
             </a>
-            <a href="mailto:info@xmchichomeware.com" className="about-btn-outline">
-              ✉ info@xmchichomeware.com
+            <a href={`mailto:${SITE.email}`} className="about-btn-outline">
+              ✉ {SITE.email}
             </a>
           </div>
         </div>
