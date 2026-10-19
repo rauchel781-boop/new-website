@@ -191,7 +191,7 @@ export default async function OgImage({ params }) {
               textTransform: 'uppercase',
             }}
           >
-            Founded in {SITE.company.foundingYear}
+            {`Founded in ${SITE.company.foundingYear}`}
           </div>
         </div>
       </div>

@@ -85,7 +85,7 @@ export default function OgImage() {
                 fontFamily: 'sans-serif',
               }}
             >
-              Wooden Expert · Founded in {SITE.company.foundingYear}
+              {`Wooden Expert · Founded in ${SITE.company.foundingYear}`}
             </div>
           </div>
         </div>

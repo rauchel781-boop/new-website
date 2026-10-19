@@ -191,6 +191,7 @@ async function verify() {
   for(const route of unexpectedMain) ok(false,route,'Unexpected main-content change outside reviewed scope');
   let products = 0, specValues = 0, relatedCards = 0, contextualChoices = 0, hiddenPanels = 0;
   const unchangedEnglishSpecValues = [];
+  const missingSpecHeaders = [];
   const localizedSpecCoverage = Object.fromEntries(locales.map(l=>[l,{products:0,keys:0,missing:0}]));
   for(const locale of locales) for(const [category,items] of Object.entries(catalog)) for(const raw of Object.values(items)) {
     const route = `/${locale}/products/${category}/${raw.slug}`;
@@ -241,6 +242,12 @@ async function verify() {
     const renderedSpecs = [...(table?.inner || '').matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/g)].map(row=>({label:textOf(row[1].match(/<th\b[^>]*>([\s\S]*?)<\/th>/)?.[1] || ''),value:textOf(row[1].match(/<td\b[^>]*>([\s\S]*?)<\/td>/)?.[1] || '')}));
     const sourceSpecs = Object.entries(raw.specs);
     const effectiveSpecs = Object.entries(product.specs);
+    for(const [key] of effectiveSpecs) {
+      const translatedHeader=m.specKeys?.[key];
+      const present=typeof translatedHeader==='string' && Boolean(translatedHeader.trim()) && !translatedHeader.startsWith('specKeys.');
+      if(!present) missingSpecHeaders.push({route,locale,key});
+      ok(present,route,`Every specification header has a locale message: ${key}`);
+    }
     same(effectiveSpecs.map(([k])=>k),sourceSpecs.map(([k])=>k),route,'Translation preserves every original spec key');
     same(renderedSpecs,effectiveSpecs.map(([key,value])=>({label:m.specKeys[key] || key,value:normalized(value)})),route,'All localized specifications render correctly');
     const oldSpecs = Object.fromEntries((prior.productLd?.additionalProperty || []).map(p=>[p.name,p.value]));
@@ -314,7 +321,7 @@ async function verify() {
     }
   }
   same(productSitemapEntries,1176,'*','147 indexable products × 8 locales in sitemap');
-  const result = {checkedAt:new Date().toISOString(),baselineHead:before.head,passed:issueCount===0,counts:{renderedPages:Object.keys(after).length,products,specValues,relatedCards,contextualChoices,hiddenPanels,changedMain:changedMain.length,preservedMain:Object.keys(after).length-changedMain.length,metadataChanges:changedMetadata.length,socialImageChanges:changedSocialImages.length,sitemapDateChanges:sitemapDateChanges.length,productSitemapEntries,unchangedEnglishSpecValues:unchangedEnglishSpecValues.length},localizedSpecCoverage,unchangedEnglishSpecValues,changedMain,relatedCardRestorations,changedMetadata,changedSocialImages,unexpectedMain,explicitDependentChanges:extraChanges,sitemapDateChanges,issueCount,issues};
+  const result = {checkedAt:new Date().toISOString(),baselineHead:before.head,passed:issueCount===0,counts:{renderedPages:Object.keys(after).length,products,specValues,relatedCards,contextualChoices,hiddenPanels,changedMain:changedMain.length,preservedMain:Object.keys(after).length-changedMain.length,metadataChanges:changedMetadata.length,socialImageChanges:changedSocialImages.length,sitemapDateChanges:sitemapDateChanges.length,productSitemapEntries,unchangedEnglishSpecValues:unchangedEnglishSpecValues.length,missingSpecHeaders:missingSpecHeaders.length},missingSpecHeaders,localizedSpecCoverage,unchangedEnglishSpecValues,changedMain,relatedCardRestorations,changedMetadata,changedSocialImages,unexpectedMain,explicitDependentChanges:extraChanges,sitemapDateChanges,issueCount,issues};
   fs.writeFileSync(`${folder}/product-content-validation.json`,JSON.stringify(result,null,2)+'\n');
   console.log(JSON.stringify({...result,changedMain:undefined,changedMetadata:undefined,changedSocialImages:undefined,sitemapDateChanges:undefined,unchangedEnglishSpecValues:unchangedEnglishSpecValues.slice(0,8),issues:issues.slice(0,20)},null,2));
   if(issueCount) process.exitCode=1;
