@@ -1,4 +1,5 @@
 import { Link } from '@/i18n/navigation';
+import Image from 'next/image';
 import { POSTS, CATEGORIES } from '@/data/blog';
 import NewsletterForm from '@/components/NewsletterForm';
 import { alternates as makeAlternates } from '@/i18n/seo';
@@ -58,12 +59,11 @@ const BLOG_CSS = `
 }
 .blg .hero-bg {
   position: absolute; inset: 0; z-index: 0;
-  background-image: url('/folder/5-polishing.webp');
-  background-size: cover; background-position: center;
   filter: contrast(1.05) saturate(0.95);
   transform: scale(1.06);
   animation: blgHeroBg 22s ease-in-out infinite alternate;
 }
+.blg .hero-bg img { object-fit: cover; }
 .blg .hero-bg::after {
   content: '';
   position: absolute; inset: 0;
@@ -462,7 +462,9 @@ export default async function BlogPage({ params: { locale } }) {
 
       {/* ─── HERO ─── */}
       <section className="hero">
-        <div className="hero-bg" />
+        <div className="hero-bg">
+          <Image src="/folder/5-polishing.webp" alt="" fill priority sizes="116vw" />
+        </div>
         <div className="hero-inner">
           <div className="hero-eyebrow">{t('heroEyebrow')}</div>
           <h1 className="hero-title">{t('heroTitleStart')} <em>{t('heroTitleEm')}</em></h1>
@@ -498,7 +500,8 @@ export default async function BlogPage({ params: { locale } }) {
               <div className="latest-img">
                 <span className="latest-stamp">{t('latestStamp')}</span>
                 <span className="latest-num"><strong>{t('latestNumPrefix')} {String(POSTS.length).padStart(2, '0')}</strong>· {fmtDate(featured.date)}</span>
-                <img loading="lazy" decoding="async" src={featured.hero} alt={featured.title} width="1200" height="900" />
+                <Image src={featured.hero} alt={featured.title} fill
+                  sizes="(max-width: 720px) calc(100vw - 44px), (max-width: 1100px) calc(100vw - 120px), (max-width: 1420px) calc(55.556vw - 67px), 722px" />
               </div>
               <div className="latest-body">
                 <div className="latest-cat">{featured.category}</div>
@@ -534,7 +537,10 @@ export default async function BlogPage({ params: { locale } }) {
               <Link key={p.slug} href={`/blog/${p.slug}`} className={`mc ${spanFor(i, rest.length)}`}>
                 <div className="mc-img">
                   <span className="mc-pill">{p.category}</span>
-                  <img src={p.hero} alt={p.title} loading="lazy" width="1200" height="900" />
+                  <Image src={p.hero} alt={p.title} fill
+                    sizes={spanFor(i, rest.length) === 'span-3'
+                      ? '(max-width: 720px) calc(100vw - 44px), (max-width: 1100px) calc(100vw - 120px), (max-width: 1420px) calc(50vw - 72px), 638px'
+                      : '(max-width: 720px) calc(100vw - 44px), (max-width: 1100px) calc(50vw - 72px), (max-width: 1420px) calc(33.333vw - 56px), 417px'} />
                 </div>
                 <div className="mc-body">
                   <div className="mc-meta">{fmtDate(p.date)} · {p.readTime}</div>

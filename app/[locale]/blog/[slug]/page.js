@@ -1,4 +1,6 @@
 import { Link } from '@/i18n/navigation';
+import Image from 'next/image';
+import { BLOG_IMAGE_SIZES } from '@/data/blog-image-sizes';
 import { notFound } from 'next/navigation';
 import { POSTS, getPostBySlug, getRelatedPosts } from '@/data/blog';
 import JsonLd from '@/components/JsonLd';
@@ -161,6 +163,7 @@ const POST_CSS = `
   padding: 0 60px;
 }
 .bp .hero-img {
+  position: relative;
   width: 100%; aspect-ratio: 16/8;
   border-radius: 4px; overflow: hidden;
   background: var(--wd-ink);
@@ -267,7 +270,7 @@ const POST_CSS = `
   box-shadow: 0 16px 40px rgba(61,42,31,0.15);
 }
 .bp .body figure { margin: 32px 0; }
-.bp .body figure img { width: 100%; border-radius: 4px; box-shadow: 0 16px 40px rgba(61,42,31,0.15); }
+.bp .body figure img { width: 100%; height: auto; display: block; border-radius: 4px; box-shadow: 0 16px 40px rgba(61,42,31,0.15); }
 .bp .body figcaption {
   text-align: center; font-size: 0.82rem;
   color: var(--wd-mute); font-style: italic;
@@ -338,7 +341,7 @@ const POST_CSS = `
   transition: transform .3s, box-shadow .3s, border-color .3s;
 }
 .bp .rel-card:hover { transform: translateY(-4px); box-shadow: 0 20px 50px rgba(61,42,31,0.14); border-color: var(--wd-warm); }
-.bp .rel-img { aspect-ratio: 16/10; background: var(--wd-ink); overflow: hidden; }
+.bp .rel-img { position: relative; aspect-ratio: 16/10; background: var(--wd-ink); overflow: hidden; }
 .bp .rel-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .8s; }
 .bp .rel-card:hover .rel-img img { transform: scale(1.06); }
 .bp .rel-body { padding: 22px 22px 24px; }
@@ -496,7 +499,8 @@ function renderBlock(block, i, headingIds) {
     case 'img':
       return (
         <figure key={i}>
-          <img loading="lazy" decoding="async" src={block.src} alt={block.caption || ''} width="1200" height="900" />
+          <Image src={block.src} alt={block.caption || ''} {...BLOG_IMAGE_SIZES[block.src]}
+            sizes="(max-width: 720px) calc(100vw - 48px), (max-width: 800px) calc(100vw - 120px), 680px" />
           {block.caption && <figcaption>{block.caption}</figcaption>}
         </figure>
       );
@@ -646,7 +650,8 @@ export default async function BlogPost({ params }) {
       {/* Hero image */}
       <div className="hero-img-wrap">
         <div className="hero-img">
-          <img loading="lazy" decoding="async" src={post.hero} alt={post.title} width="1200" height="900" />
+          <Image src={post.hero} alt={post.title} fill priority
+            sizes="(max-width: 720px) calc(100vw - 48px), (max-width: 1300px) calc(100vw - 120px), 1180px" />
         </div>
       </div>
 
@@ -692,7 +697,8 @@ export default async function BlogPost({ params }) {
               {related.map((rp) => (
                 <Link key={rp.slug} href={`/blog/${rp.slug}`} className="rel-card">
                   <div className="rel-img">
-                    <img src={rp.hero} alt={rp.title} loading="lazy" width="1200" height="900" />
+                    <Image src={rp.hero} alt={rp.title} fill
+                      sizes="(max-width: 720px) calc(100vw - 48px), (max-width: 1100px) calc(50vw - 72px), (max-width: 1420px) calc(33.333vw - 56px), 418px" />
                   </div>
                   <div className="rel-body">
                     <div className="rel-meta">
