@@ -354,9 +354,12 @@ export default {
       "title": "EVA, EPE, veludo ou feltro: que interior escolher para caixas de madeira",
       "excerpt": "Guia completo para escolher o material de interior das suas caixas de madeira. Espuma EVA, espuma EPE, veludo e feltro comparados em proteção, custo, estética e sustentabilidade.",
       "category": "Materiais",
-      "readTime": "12 min de leitura",
+      "readTime": "5 min de leitura",
       "body": [
-        { type: 'p', text: "Antes de definir as especificações, consulte [Por que um MOQ de 200 peças é a maneira mais inteligente de começar](/blog/low-moq-sampling-strategy)." },
+        {
+          "type": "p",
+          "text": "Antes de definir as especificações, consulte [Por que um MOQ de 200 peças é a maneira mais inteligente de começar](/blog/low-moq-sampling-strategy)."
+        },
         {
           "type": "p",
           "text": "Ao projetar caixas de madeira personalizadas, o material do interior pesa tanto como a própria caixa. A escolha errada acaba em produto danificado, custos mais altos ou uma apresentação que não convence o cliente. Neste guia comparamos quatro materiais comuns — espuma EVA, espuma EPE, veludo e feltro — segundo os critérios que realmente decidem: nível de proteção, relação custo-benefício, estética, impacto ambiental e opções de personalização. Consulte os modelos disponíveis em [Caixas para Presente e Embalagem](/products/gift-packaging)."
@@ -367,40 +370,40 @@ export default {
         },
         {
           "type": "p",
-          "text": "Comecemos por uma vista rápida de cada um. O EVA (etileno-acetato de vinilo) é uma espuma de célula fechada conhecida pela densidade, durabilidade e excelente resistência ao impacto. O EPE (polietileno expandido) é uma espuma de célula aberta, leve, flexível e económica. O veludo é um têxtil macio e felpudo, de textura rica e aspeto premium. O feltro é um não tecido de fibras de lã prensadas, com acabamento macio e mate, cada vez mais procurado por marcas com consciência ecológica."
+          "text": "EVA e EPE são espumas de células fechadas. O EVA permite suportes recortados, enquanto o polietileno expandido (EPE) é comum em amortecimento leve. O desempenho depende do tipo, da espessura e da geometria. O veludo é um tecido de superfície; o feltro é um não tecido de lã, fibras sintéticas ou misturas. Nenhum desses tecidos garante sozinho a proteção no transporte."
         },
         {
           "type": "table",
           "headers": [
             "Material",
-            "Tipo",
-            "Uso principal",
-            "Ponto forte"
+            "Construção",
+            "Função típica",
+            "Verificações"
           ],
           "rows": [
             [
               "Espuma EVA",
-              "Polímero sintético",
-              "Proteção contra impactos",
-              "Absorção de choque superior"
+              "Células fechadas",
+              "Suporte recortado e amortecimento",
+              "Tipo, densidade, dureza e encaixe"
             ],
             [
               "Espuma EPE",
-              "Espuma de polietileno",
-              "Acolchoamento geral",
-              "Leve e acessível"
+              "Polietileno de células fechadas",
+              "Placas, cantoneiras e amortecimento",
+              "Tipo, espessura e comportamento com carga"
             ],
             [
               "Veludo",
-              "Têxtil (sintético/natural)",
-              "Apresentação de luxo",
-              "Estética premium"
+              "Tecido ou flocagem especificada separadamente",
+              "Apresentação e contato",
+              "Fibra, base, adesão e transferência de cor"
             ],
             [
               "Feltro",
-              "Fibras de lã/sintéticas prensadas",
-              "Acolchoamento ecológico",
-              "Sustentável e macio"
+              "Não tecido de lã, fibras sintéticas ou misturas",
+              "Forro, divisórias e contato",
+              "Composição, espessura e abrasão"
             ]
           ]
         },
@@ -410,7 +413,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O EVA (etileno-acetato de vinilo) é uma espuma de célula fechada conhecida pela densidade, durabilidade e excelente resistência ao impacto. É o material dos tapetes de ioga, das solas de calçado e das embalagens de eletrónica topo de gama. O EVA absorve choques de forma excelente, com uma dureza de 40-60 Shore C. Permite corte por cunho com precisão e pode ser flocado com veludo para um acabamento de luxo. O preço é o mais alto, mas é ideal para eletrónica de valor como relógios, câmaras e telemóveis, para instrumentos médicos, para ferramentas que exigem encaixe exato e para produtos cuja embalagem será reutilizada. Como exemplo de catálogo, consulte [Caixa Presente Magnética de Luxo](/products/gift-packaging/luxury-magnetic-gift-box)."
+          "text": "A espuma EVA pode prender uma peça, mas seu nome não define o desempenho. Solicite o tipo, a densidade em kg/m³, a espessura e o método de ensaio de dureza. Shore C é uma escala de dureza, não uma unidade de densidade; registre os valores separadamente. Aprove material e encaixe com uma amostra carregada. Veja a [caixa magnética de presente de luxo](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "h2",
@@ -418,7 +421,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O EPE (polietileno expandido) é uma espuma de célula aberta, leve, flexível e económica. É o «plástico-bolha» das espumas: macio, cedente e excelente para acolchoamento geral. O EPE absorve bem os choques com uma dureza menor, de 20-30 Shore C, o que o torna mais macio e compressível do que o EVA. É acessível, reciclável e de fabrico pouco poluente. O EPE serve quando a proteção necessária é moderada, para embalagem em conjunto no envio de várias unidades, para projetos com orçamento apertado e para produtos de forma regular que não exigem contornos complexos. Para mais informações, consulte [Quanto custam as caixas de madeira personalizadas? Um guia de preços grossista e OEM para 2026](/blog/custom-wooden-box-cost-2026)."
+          "text": "EPE é polietileno expandido de células fechadas, não abertas. Pode formar placas, cantoneiras e suportes. Selecione tipo e espessura conforme peso e transporte, sem presumir que seja sempre mais macio ou menos protetor que EVA. A reciclagem depende da coleta local de espuma PE e da separação de tecidos e adesivos. Consulte o [guia de custos](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "h2",
@@ -426,15 +429,15 @@ export default {
         },
         {
           "type": "p",
-          "text": "O veludo é um têxtil macio e felpudo (seda natural ou poliéster) de textura rica e aspeto premium. Usa-se habitualmente em guarda-joias, embalagens de perfume e conjuntos de oferta topo de gama. Sozinho quase não amortece e precisa de acolchoamento por baixo, mas oferece um toque de luxo inigualável e excelentes opções de personalização. O veludo é ideal para joalharia e objetos preciosos, perfumaria e cosmética, ofertas de luxo e troféus, e para produtos em que o momento da abertura é o que conta. Muitas marcas combinam-no com espuma: EVA ou EPE como camada de amortecimento e flocagem de veludo por cima para a estética. Para mais informações, consulte [Anatomia de um grande relógio de madeira](/blog/wooden-watch-box-anatomy)."
+          "text": "O veludo pode ser aplicado como tecido; a flocagem é um processo distinto. Confirme fibra, base, adesivo e solidez da cor. A superfície pode reduzir atrito e melhorar a apresentação, mas o amortecimento depende do suporte. Compare opções no [guia de caixas para relógios](/blog/wooden-watch-box-anatomy)."
         },
         {
           "type": "h2",
-          "text": "Feltro: clássico e sustentável"
+          "text": "Feltro: verificar fibras e construção"
         },
         {
           "type": "p",
-          "text": "O feltro é um não tecido de fibras de lã prensadas (ou alternativas sintéticas). Tem acabamento macio e mate e ganha terreno junto das marcas com consciência ecológica. Amortece moderadamente com um luxo elegante e discreto. Corta-se, tinge-se e molda-se com facilidade, o que abre muitas opções de personalização. O feltro de lã é biodegradável e existem versões em sintético reciclado, o que o torna a opção mais sustentável. Serve para marcas ecológicas, produtos artesanais, artigos de peso médio como livros, cerâmica e vidro, e para marcas que procuram uma estética natural. Para mais informações, consulte [5 técnicas de acabamento que mudam a aparência da caixa de madeira](/blog/wooden-box-finishing-techniques)."
+          "text": "O feltro pode conter lã, poliéster, fibras recicladas ou misturas. Especifique composição, espessura, resistência à abrasão, base e adesivo. Fibra natural ou conteúdo reciclado não comprovam, isoladamente, reciclabilidade, compostabilidade ou menor impacto ambiental. Verifique as evidências do material específico. Veja o [guia de acabamento e marca](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -442,12 +445,12 @@ export default {
         },
         {
           "type": "p",
-          "text": "Comparando os quatro materiais pelos critérios-chave, cada um tem forças claras. A espuma EVA lidera na proteção (5/5 estrelas) mas ao preço mais alto ($$$). A espuma EPE dá boa proteção (4/5 estrelas) ao preço mais baixo ($). O veludo protege pouco (2/5 estrelas) mas é imbatível na estética (5/5 estrelas), a preço premium. O feltro oferece proteção moderada (3/5 estrelas) com excelente sustentabilidade (5/5 estrelas) na faixa intermédia ($$)."
+          "text": "O nome do material não permite uma nota universal de proteção ou sustentabilidade. Compare tipos usando o mesmo produto, embalagem e condições de ensaio. Estes controles mostram quais informações pedir antes da aprovação."
         },
         {
           "type": "table",
           "headers": [
-            "Critério",
+            "Controle",
             "Espuma EVA",
             "Espuma EPE",
             "Veludo",
@@ -455,46 +458,25 @@ export default {
           ],
           "rows": [
             [
-              "Nível de proteção",
-              "⭐⭐⭐⭐⭐",
-              "⭐⭐⭐⭐",
-              "⭐⭐",
-              "⭐⭐⭐"
+              "Proteção",
+              "Testar tipo e geometria",
+              "Testar tipo e geometria",
+              "Avaliar suporte amortecedor",
+              "Avaliar espessura e suporte"
             ],
             [
               "Custo",
-              "$$$",
-              "$",
-              "$$$",
-              "$$"
+              "Cotar tipo, corte e ferramental",
+              "Cotar tipo, corte e ferramental",
+              "Cotar tecido e aplicação",
+              "Cotar fibra e corte"
             ],
             [
-              "Estética",
-              "⭐⭐⭐⭐",
-              "⭐⭐",
-              "⭐⭐⭐⭐⭐",
-              "⭐⭐⭐⭐"
-            ],
-            [
-              "Personalização",
-              "⭐⭐⭐⭐⭐",
-              "⭐⭐⭐",
-              "⭐⭐⭐⭐",
-              "⭐⭐⭐⭐"
-            ],
-            [
-              "Sustentabilidade",
-              "⭐⭐",
-              "⭐⭐⭐",
-              "⭐⭐⭐",
-              "⭐⭐⭐⭐⭐"
-            ],
-            [
-              "Ideal para",
-              "Eletrónica, ferramentas",
-              "Envio em volume",
-              "Joias, perfumes",
-              "Marcas eco, artesanato"
+              "Fim de vida",
+              "Confirmar coleta e separação",
+              "Confirmar coleta e separação",
+              "Confirmar fibra, base e adesivo",
+              "Confirmar fibra, base e adesivo"
             ]
           ]
         },
@@ -504,15 +486,15 @@ export default {
         },
         {
           "type": "p",
-          "text": "Use esta matriz para escolher o material do interior. Primeiro, avalie a fragilidade do produto: artigos frágeis como eletrónica e vidro pedem EVA ou EPE, os de fragilidade média aceitam EPE ou feltro, e os robustos funcionam bem com veludo ou feltro. Segundo, defina o orçamento: orçamentos premium ($$$) suportam EVA ou veludo, a faixa intermédia ($$) combina com feltro, e projetos apertados ($) devem usar EPE. Terceiro, pense no posicionamento da marca: marcas de luxo ganham com veludo sobre base de EVA, marcas ecológicas devem escolher feltro, marcas tecnológicas e profissionais combinam com EVA, e marcas orientadas ao preço com EPE. Por fim, avalie o volume de produção: encomendas acima de 1.000 unidades aproveitam o corte automatizado de EVA ou EPE, volumes médios de 100 a 1.000 unidades aceitam qualquer material, e abaixo de 100 unidades o feltro e o veludo são mais fáceis de trabalhar à mão. Consulte as opções em [guia de madeiras, acabamentos e ferragens](/material-guide)."
+          "text": "Comece pelo peso, pontos frágeis, sensibilidade da superfície e rota de transporte. Defina folgas e retirada do produto. Compare suporte de espuma e alternativa revestida, depois teste a embalagem completa. Corte e ferramental afetam o preço; nosso MOQ de produção continua sendo 200 peças por modelo. Consulte a [referência de materiais e ferragens](/material-guide)."
         },
         {
           "type": "h2",
-          "text": "Casos reais"
+          "text": "Exemplos ilustrativos de aplicação"
         },
         {
           "type": "p",
-          "text": "Uma marca de relógios de luxo precisava de proteger peças de alto valor mantendo uma apresentação premium: usou uma camada base de espuma EVA cortada à forma do relógio com uma camada superior de flocagem em veludo sobre o EVA, conseguindo proteção de 5 estrelas mais uma abertura de luxo, a 3-5 $ por interior. Uma oficina artesanal de velas procurava embalagem ecológica para velas feitas à mão e usou interiores em feltro de lã cortados à medida dos frascos; a imagem natural e sustentável alinhou com a marca e traduziu-se em mais 30 % de recompras, a 1,50-2 $ por interior. Uma loja online de eletrónica que enviava colunas Bluetooth em larga escala optou por protetores de canto em EPE com almofada central, reduzindo o custo de envio ao peso e baixando a taxa de danos de 5 % para menos de 1 %, a 0,50-0,80 $ por interior. Como exemplo de catálogo, consulte [Vitrine Display Três Relógios](/products/watch-jewelry/three-watch-display-case)."
+          "text": "Para um relógio, compare suporte de espuma e almofada revestida. Para vela em vidro, avalie encaixe, folga entre vidro e madeira e vazamentos. Para eletrônicos, confirme requisitos antiestáticos além do amortecimento. São exemplos de projeto, não resultados medidos de clientes ou preços cotados. Veja o [estojo para três relógios](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h2",
@@ -520,7 +502,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Peça sempre amostras com o seu produto real e faça um teste de queda à altura da cintura: se o produto aguenta, o interior cumpre. Pense no ciclo de vida completo: para armazenamento, verifique se as caixas serão empilhadas, porque EVA e EPE resistem melhor à compressão; para transporte, os envios internacionais exigem a proteção mais firme do EVA; para reutilização, as marcas de luxo ganham com interiores duráveis que o cliente guarda, como EVA mais veludo. Não se limite a um só material: os melhores interiores combinam muitas vezes uma base de EVA para a estrutura com veludo por cima para a estética, ou uma almofada de EPE com divisórias em feltro para juntar ecologia e função."
+          "text": "Teste amostras com produto real, caixa de venda e embalagem externa. Combine ensaios de queda, vibração e compressão adequados à rota e à carga; uma queda informal não valida a embalagem. Verifique também recuperação após armazenagem, marcas, odor e retirada. Registre tipo e construção aprovados para reproduzir a amostra."
         },
         {
           "type": "p",
@@ -532,9 +514,18 @@ export default {
         },
         {
           "type": "p",
-          "text": "Escolher o interior certo para as suas caixas de madeira é equilibrar proteção, custo, estética e valores de marca. A espuma EVA oferece proteção e personalização premium a $$$, e compensa em produtos de alto valor. A espuma EPE dá acolchoamento leve e acessível para uso geral, a $. O veludo garante apresentação de luxo e rende melhor sobre uma base de espuma, a $$$. O feltro é ecológico, elegante e versátil, a $$. Para a maioria dos projetos de caixas de madeira personalizadas recomendamos começar com espuma EVA como base e acrescentar veludo ou feltro por cima se o orçamento permitir. Assim obtém o melhor dos dois mundos: proteção em que pode confiar e uma apresentação que encanta. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
+          "text": "Escolha o inserto como parte da embalagem completa. EVA e EPE podem amortecer quando bem especificados; veludo e feltro podem formar a superfície de contato ou o forro. Nenhum material é automaticamente o mais seguro ou sustentável. Para comparar construções, [solicite uma cotação](/contact#inquiry) com dimensões, peso e destino."
+        },
+        {
+          "type": "h2",
+          "text": "Referências técnicas"
+        },
+        {
+          "type": "p",
+          "text": "Estrutura e reciclagem: [guia PE da Sealed Air](https://www.sealedair.com/products/protective-packaging/polyethylene-foam/cell-aire). Dureza: [guia de ensaios Shore da Bareiss](https://bareiss.de/en/support-downloads-en/customer-support). Dados revisados em 19 de outubro de 2026."
         }
-      ]
+      ],
+      "updated": "2026-10-19"
     },
     "wooden-box-closure-types-compared": {
       "title": "Fechos de caixas de madeira comparados: deslizante, com dobradiças, magnético, gaveta e fechadura",
@@ -2575,237 +2566,128 @@ export default {
       ]
     },
     "sustainable-sourcing-2026": {
-      "title": "Nossas práticas de fornecimento sustentável em 2026",
-      "excerpt": "Cadeia de custódia do FSC, paulownia cultivada em plantações, acabamentos de baixo VOC e como mantemos os resíduos de madeira abaixo de 8%-escrito para compradores que realmente precisam defender sua cadeia de suprimentos.",
+      "title": "Compra sustentável de caixas de madeira: checklist 2026",
+      "excerpt": "Checklist para comprar caixas de madeira: declarações FSC, datas EUDR, materiais, acabamentos, embalagem de exportação e evidências ambientais.",
       "category": "Sustentabilidade",
-      "readTime": "9 min leitura",
+      "readTime": "4 min de leitura",
       "body": [
-        { type: 'p', text: 'Antes de definir as especificações, consulte [Como abastecer caixas de madeira personalizadas da China em 2026: o playbook do comprador B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
-          "text": "Sustentabilidade costumava ser uma linha de marketing. Hoje, é um requisito de aquisição da maioria das marcas europeias, japonesas e Amazon que atendemos-uma série de certificações específicas, documentos e auditorias de fornecedores que precisam ser limpas antes do navio."
+          "text": "Antes de definir as especificações, consulte [Como abastecer caixas de madeira personalizadas da China em 2026: o playbook do comprador B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
         },
         {
           "type": "p",
-          "text": "Este artigo é como são nossas práticas reais em 2026, escrito para o comprador que precisa defender sua cadeia de suprimentos para um oficial de sustentabilidade, uma equipe de conformidade do Amazon Brand Registry ou um auditor do CBAM da UE. Nenhuma reivindicação vaga-apenas o que fazemos e os documentos que podemos produzir para provar isso."
+          "text": "Avalie a compra de caixas de madeira com especificação escrita e evidências da cadeia concreta. Use esta lista para confirmar escopo dos certificados, relatórios de ensaio e registros de origem disponíveis para os materiais e fornecedores escolhidos antes de fazer o pedido."
         },
         {
           "type": "h2",
-          "text": "Cadeia de custódia FSC-e o que isso realmente significa"
+          "text": "Declarações FSC: verificar toda a cadeia"
         },
         {
           "type": "p",
-          "text": "Todas as espécies em nosso catálogo-paulownia, pinho, bambu, acácia, nogueira e carvalho-estão disponíveis com a certificação FSC (Forest Stewardship Council) mediante solicitação. Mantemos a certificação de cadeia de custódia FSC através de nossos fornecedores de madeira, o que significa que há rastreabilidade documentada do estande florestal ou plantação até o seu contêiner. Para mais informações, consulte [Como escolher a madeira certa para embalagem de presente](/blog/choosing-wood-for-gift-packaging)."
+          "text": "Não se pode adotar como própria a certificação de um fornecedor de madeira. Verifique titular, validade, escopo de produto e declaração nos documentos de venda. Consulte o [guia de seleção de madeira](/blog/choosing-wood-for-gift-packaging) e a [cadeia de custódia FSC](https://fsc.org/en/chain-of-custody)."
         },
         {
-          "type": "p",
-          "text": "A coisa importante a entender sobre o FSC é que a certificação cobre a madeira, não a caixa. Nossas caixas são certificadas pelo FSC quando (a) a madeira vem de fornecedores certificados pelo FSC E (b) o lote de produção passa por nosso processo de cadeia de custódia certificada. Temos que manter registros de lote, separar o estoque do FSC do estoque não-FSC durante a produção e produzir um certificado por remessa que remonta à origem."
-        },
-        {
-          "type": "p",
-          "text": "Para os compradores que vendem para a UE, isso é cada vez mais não opcional. O Regulamento de Desmatamento da UE (EUDR), que entrou em vigor em 2025, exige que os importadores de produtos de madeira demonstrem que a madeira não está ligada ao desmatamento após 31 de dezembro de 2020. A certificação FSC é a maneira mais simples de satisfazer esse requisito."
-        },
-        {
-          "type": "p",
-          "text": "Cobremos um pequeno prêmio (tipicamente 4-7%) para pedidos do FSC para cobrir a documentação adicional e os custos de segregação. Para a maioria dos compradores, isso é recuperado muitas vezes nos mercados que abre."
+          "type": "list",
+          "items": [
+            "Confirmar código e escopo dos certificados das empresas envolvidas.",
+            "Confirmar declaração de saída e registros de compra e lote.",
+            "Acordar rotulagem FSC somente após verificar cadeia de custódia e permissões."
+          ]
         },
         {
           "type": "h2",
-          "text": "Paulownia-plantação-cultivada por definição"
+          "text": "EUDR: datas atuais de aplicação"
         },
         {
           "type": "p",
-          "text": "[Paulownia](/products/paulownia) é a coisa mais próxima que a indústria da madeira tem de uma madeira renovável. As árvores amadurecem em 5-7 anos (versus 30-60 anos para carvalho ou nogueira), e quase todas as paulownias comerciais são cultivadas em plantações em vez de colhidas de florestas naturais."
+          "text": "Revisão de 19 de outubro de 2026: aplicação a partir de 30 de dezembro de 2026 para operadores grandes e médios, e 30 de junho de 2027 para a maioria dos micro e pequenos operadores. Os já abrangidos pelo EUTR começam em 30 de dezembro de 2026. Consulte o [calendário da Comissão Europeia](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en)."
         },
         {
           "type": "p",
-          "text": "Nossa paulownia vem de plantações administradas nas províncias de Henan e Anhui. As plantações são de propriedade de cooperativas agrícolas que rotacionam as colheitas para que aproximadamente 1/6 da área plantada seja colhida a cada ano, com novas mudas plantadas para substituir as árvores colhidas. O resultado é um fornecimento contínuo de madeira que não diminui o estoque florestal."
+          "text": "Confirme produtos abrangidos, função da empresa e provas necessárias ao pedido. O FSC pode apoiar a análise, mas não substitui a diligência devida EUDR nem comprova automaticamente conformidade. Veja a [orientação FSC sobre EUDR](https://uk.fsc.org/eudr-and-fsc)."
+        },
+        {
+          "type": "h2",
+          "text": "Origem dos materiais e especificação de acabamento"
         },
         {
           "type": "p",
-          "text": "Para compradores com eco-posicionamento explícito, paulownia é a escolha óbvia-e podemos documentar a fonte da plantação mediante solicitação."
+          "text": "A [paulownia](/products/paulownia) pode reduzir o peso, mas o nome da espécie não prova origem de plantação nem menor pegada de carbono. Solicite espécie, país de corte e registros disponíveis para o lote real."
+        },
+        {
+          "type": "p",
+          "text": "Defina formulação, cura e escopo dos ensaios com o [guia de acabamentos](/blog/wooden-box-finishing-techniques). Base aquosa não significa automaticamente zero COV. CARB Phase 2 trata do formaldeído de certos painéis compostos, não é aprovação geral de COV dos revestimentos; veja as [perguntas da CARB](https://ww2.arb.ca.gov/resources/documents/consumer-faq)."
+        },
+        {
+          "type": "p",
+          "text": "Óleo ou cera natural não é automaticamente adequado ao contato com alimentos. Se esse for o uso, confirme formulação, cura e evidências para o mercado e as condições de contato. Cada relatório deve corresponder ao material e produto encomendados."
         },
         {
           "type": "img",
           "src": "/factory/material.webp",
-          "caption": "Plantação-crescido paulownia estoque em nosso quintal madeira"
+          "caption": "Estoque de madeira para produção"
         },
         {
           "type": "h2",
-          "text": "Acabamentos de baixo VOC (compatíveis com REACH e CARB)"
+          "text": "Resíduos, reúso e declarações"
         },
         {
           "type": "p",
-          "text": "Compostos orgânicos voláteis (COV) são os produtos químicos que produzem o \"novo cheiro de caixa\"-e que, em concentrações mais altas, contribuem para problemas de qualidade do ar interno. As lacas de nitrocelulose padrão, que são a opção de acabamento mais barata, podem desgaseificar em níveis que não cumprem os limites EU REACH e US CARB Fase 2. Para mais informações, consulte [5 técnicas de acabamento que mudam a aparência da caixa de madeira](/blog/wooden-box-finishing-techniques)."
+          "text": "Solicite plano de corte e medições antes de publicar percentuais de redução de resíduos. Compare processos no [guia de fabricação](/blog/six-step-manufacturing-process). Descreva reúso ou reciclagem de sobras somente com destino documentado."
         },
         {
           "type": "p",
-          "text": "Mudamos nossa linha de chegada para lacas à base de água como padrão. Acabamentos à base de água contêm uma fração do teor de COV de nitrocelulose, secam mais rápido e produzem um resultado visual semelhante. O trade-off é o custo (cerca de 15% a mais por litro) e uma construção de filme ligeiramente mais fina, que compensamos com uma camada extra."
+          "text": "No bambu, verifique painel laminado, adesivo e ensaios de emissões; crescimento rápido não torna todo painel acabado ambientalmente preferível. Veja a [comparação bambu-acácia](/blog/bamboo-vs-acacia-kitchenware). Confirme conteúdo reciclado com registros do fornecedor."
         },
         {
           "type": "p",
-          "text": "Para produtos premium, usamos acabamentos naturais de óleo vegetal-óleo de tungue, óleo de linhaça, cera de abelha. Zero VOC, totalmente seguro para alimentos, e a superfície envelhece lindamente. A desvantagem é tempos de cura mais longos (até 72 horas por demão) e aplicação mais exigente-esses acabamentos não são apropriados para produtos de alto volume."
-        },
-        {
-          "type": "p",
-          "text": "Todos os acabamentos que oferecemos estão documentados quanto à conformidade com o REACH (UE), CARB Fase 2 (EUA) e segurança de contato com alimentos FDA (quando aplicável). Relatórios de teste disponíveis a pedido."
+          "text": "Projete para reúso e separação de madeira, ferragens e forros. Óleo, cera, laca e adesivos afetam o descarte; não prometa compostagem doméstica ou tempo fixo de decomposição sem provas. Compare [caixas de armazenamento reutilizáveis](/products/storage)."
         },
         {
           "type": "h2",
-          "text": "Redução de resíduos no corte à medida"
+          "text": "Embalagem exportadora e sanidade vegetal"
         },
         {
           "type": "p",
-          "text": "O desperdício de madeira é a sustentabilidade. A maioria das fábricas gera 18-25% de resíduos de suas operações de corte de tamanho-material que é pago, mas acaba queimado para calor de biomassa ou enviado para aterros sanitários. Para mais informações, consulte [Dentro do nosso processo de fabricação 6 etapas caixa de madeira](/blog/six-step-manufacturing-process)."
+          "text": "A NIMF 15 regula certas embalagens de madeira. Embalagens de madeira processada e algumas caixas de presente fabricadas livres de pragas podem ser isentas; nem todos os produtos têm os mesmos requisitos. Consulte a [NIMF 15 da CIPV](https://www.ippc.int/en/publications/91395/) e nossas [capacidades de fabricação](/capabilities)."
         },
         {
           "type": "p",
-          "text": "Nosso software de agrupamento otimiza os layouts de peças em cada placa para reduzir o desperdício abaixo de 12% na maioria dos pedidos e abaixo de 8% nos SKUs padrão que executamos repetidamente. Para comparação, uma redução de 4% no desperdício em um recipiente de 20 pés de paulownia é de aproximadamente US $400-600 de material economizado-pequeno por unidade, mas significativo em volume."
-        },
-        {
-          "type": "p",
-          "text": "Os restos restantes vão para uma instalação irmã que produz contas de madeira, alças, gavetas e pequenos componentes virados. Quase nada chega a aterros. A serragem é recolhida e vendida a um fabricante de painéis de partículas no mesmo parque industrial. O único desperdício real do nosso processo é o acabamento das extremidades das placas, que vai para o aquecimento de biomassa local."
+          "text": "Para embalagens abrangidas, confirme tratamento aprovado e marca autorizada. Na NIMF 15, a marca geralmente substitui o certificado fitossanitário da embalagem. Verifique separadamente as exigências do produto com importador ou autoridade de destino; não presuma que cada caixa exige certificado individual."
         },
         {
           "type": "h2",
-          "text": "Documentação fitossanitária"
+          "text": "Comparar impactos com evidências"
         },
         {
           "type": "p",
-          "text": "Todas as remessas de madeira maciça saem com certificados fitossanitários emitidos pela alfândega da China, confirmando que a madeira é tratada e isenta de pragas por padrões ISPM-15 (o padrão internacional para material de embalagem de madeira). Isso é fundamental para remessas para a UE, EUA, Austrália, Japão e Coréia-sem certificados fito, seu contêiner pode ser colocado em quarentena ou recusado no porto de destino. Consulte as opções em [Capacidades](/capabilities)."
-        },
-        {
-          "type": "p",
-          "text": "Nossa instalação está registrada para tratamento térmico ISPM-15 e nossos produtos acabados carregam o selo IPPC mostrando a data de tratamento e nosso código de instalação. O certificado fito acompanha o conhecimento de embarque e desembarca com documentação aduaneira em menos de 24 horas na maioria dos portos."
+          "text": "Compare projetos com o mesmo uso e vida útil. Massa, secagem, processamento, transporte e descarte importam. Uma comparação de carbono precisa de método e limites definidos; certificação ou baixa densidade não provam a menor pegada. Use a [referência de materiais](/material-guide) para especificações comparáveis."
         },
         {
           "type": "h2",
-          "text": "O que ainda precisamos fazer melhor"
-        },
-        {
-          "type": "p",
-          "text": "A sustentabilidade não é uma caixa que você verifica-é uma direção contínua. Três coisas em que estamos trabalhando para 2026-2027:"
+          "text": "Documentos a acordar antes da produção"
         },
         {
           "type": "list",
           "items": [
-            "Mudando todas as empilhadeiras internas e veículos do pátio para elétrico. Atualmente, 60% da nossa frota interna é elétrica; a meta é 100% até o final de 2026.",
-            "Instalando o telhado solar em nossos dois edifícios principais da produção. Estimado para cobrir 30-40% da nossa carga de eletricidade diurna.",
-            "Trabalhando com nossos fornecedores de pinheiros e carvalhos para expandir a cobertura do FSC de 70% para 95% de nosso estoque de madeira até meados de 2027."
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Nenhum deles é revolucionário-eles são o tipo de trabalho incremental que se soma ao longo dos anos. Vamos publicar atualizações sobre este Jornal como cada um é feito."
-        },
-        {
-          "type": "h2",
-          "text": "O que dizemos aos compradores que pedem \"a opção mais sustentável\""
-        },
-        {
-          "type": "p",
-          "text": "A resposta honesta é: não existe uma única escolha “mais sustentável”. Diferentes produtos otimizam para diferentes dimensões ambientais, e os trade-offs estão sempre envolvidos. Aqui está a estrutura que usamos quando os compradores nos pedem para recomendar uma especificação liderada pela sustentabilidade."
-        },
-        {
-          "type": "h3",
-          "text": "1. Menor pegada ecológica por caixa"
-        },
-        {
-          "type": "p",
-          "text": "Plantação Paulownia. O ciclo de rebrota rápido e densidade muito baixa (menos massa significa menos energia incorporada no crescimento, secagem, usinagem e transporte) faz paulownia a escolha de menor carbono por unidade que oferecemos. Para marcas conscientes do carbono que rastreiam as emissões do Escopo 3, paulownia é quase sempre a resposta certa. Consulte as opções em [guia de madeiras, acabamentos e ferragens](/material-guide)."
-        },
-        {
-          "type": "h3",
-          "text": "2. Menor impacto florestal"
-        },
-        {
-          "type": "p",
-          "text": "Bambus. O ciclo de rebrota de 5 a 7 anos (versus 30 a 60 anos para madeira dura) significa que o bambu representa zero pressão líquida de colheita florestal quando proveniente de plantações certificadas pelo FSC. Os sistemas radiculares também estabilizam o solo e melhoram a terra degradada. Para mais informações, consulte [Bambu vs. acácia: qual madeira para produtos de cozinha?](/blog/bamboo-vs-acacia-kitchenware)."
-        },
-        {
-          "type": "h3",
-          "text": "3. Melhor comportamento de fim de vida"
-        },
-        {
-          "type": "p",
-          "text": "Madeira maciça com acabamento a óleo ou cera, sem laca. Totalmente compostável no final da vida, decompõe-se em solo normal dentro de 3-7 anos. A laca em acabamentos padrão evita a biodegradabilidade-apenas para produtos cradle-to-cradle, óleo ou cera. Consulte os modelos disponíveis em [Caixas de Armazenamento](/products/storage)."
-        },
-        {
-          "type": "h3",
-          "text": "4. Lowest impacto qualidade do ar interior"
-        },
-        {
-          "type": "p",
-          "text": "Acabamentos à base de água ou óleo natural. As emissões de COV durante o uso são o fator de sustentabilidade mais negligenciado-produtos que emitem gás em ambientes fechados durante anos contribuem para problemas de qualidade do ar interno, mesmo que os materiais de origem sejam tecnicamente \"sustentáveis\"."
-        },
-        {
-          "type": "h2",
-          "text": "Por que enviamos documentação com cada pedido"
-        },
-        {
-          "type": "p",
-          "text": "Especialmente para os clientes europeus, as alegações de sustentabilidade sem documentação são cada vez mais inúteis. O Regulamento de Desmatamento da UE, o German Supply Chain Due Diligence Act (LkSG) e a CSRD (Corporate Sustainability Reporting Directive) exigem que os importadores comprovem as alegações ambientais com documentação de grau de auditoria. A era do \"estamos comprometidos com a sustentabilidade\" sem provas acabou."
-        },
-        {
-          "type": "p",
-          "text": "Nosso pacote de documentação de sustentabilidade, incluído em cada remessa que atenda às especificações ecológicas:"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Certificado de origem FSC com rastreabilidade de lote até povoamento florestal ou plantação",
-            "Certificado fitossanitário por ISPM-15 com data de tratamento e marca IPPC",
-            "Termine o relatório de ensaio da emissão (ALCANCE para a UE, CARB Fase 2 para E.U., ambos disponíveis)",
-            "Declaração de materiais listando espécies, país fonte e tipo de plantação/floresta",
-            "Pegada de carbono por unidade (calculada utilizando fatores DEFRA)",
-            "Orientação de eliminação em fim de vida do produto (estado reciclável/compostável)"
+            "Material, espécie, origem e rastreabilidade de lote disponível.",
+            "Escopo certificado verificado e declaração exata do pedido, quando aplicável.",
+            "Dados de acabamentos e adesivos e testes pertinentes ao produto.",
+            "Construção da embalagem e registros aplicáveis de tratamento ou marca.",
+            "Provas das alegações de reciclado, resíduos ou carbono utilizadas."
           ]
         },
         {
           "type": "h2",
-          "text": "Perguntas frequentes sobre sustentabilidade"
-        },
-        {
-          "type": "h3",
-          "text": "O prêmio FSC vale a pena?"
+          "text": "Preparar a especificação do pedido"
         },
         {
           "type": "p",
-          "text": "Para produtos vendidos nos mercados da UE ou para compradores corporativos com requisitos de sustentabilidade: sim, quase sempre. O prêmio de custo de 4-7% é recuperado muitas vezes no acesso ao mercado, aceitação do comprador de varejo e risco reduzido de conformidade. Para produtos vendidos em mercados onde o FSC não é comercialmente relevante: provavelmente não, a menos que a marca comercialize especificamente a certificação para os consumidores."
-        },
-        {
-          "type": "h3",
-          "text": "Devo usar materiais reciclados na minha embalagem?"
-        },
-        {
-          "type": "p",
-          "text": "Para caixas, mangas e tecidos exteriores de papel: sim, o conteúdo reciclado está amplamente disponível e sem custos. Usamos 80% + papel reciclado pós-consumo para quase todas as embalagens secundárias por padrão. Para caixas de madeira em si: madeira não realmente reciclada raramente está disponível na qualidade consistente e dimensões necessárias para caixas. Melhor se concentrar em materiais virgens certificados pelo FSC com origem documentada."
-        },
-        {
-          "type": "h3",
-          "text": "E as compensações de carbono para o transporte marítimo?"
-        },
-        {
-          "type": "p",
-          "text": "Atualmente, não compensamos nossas remessas por padrão-os compradores que desejam compensar o fazem por meio de seus próprios programas de carbono (geralmente Climate Neutral, Pachama ou acordos específicos da empresa). Podemos fornecer estimativas de carbono por remessa se necessário para cálculos compensadores. O frete marítimo é um modo relativamente de baixo carbono por kg-km; o frete aéreo é o problema do carbono e recomendamos fortemente que os compradores evitem o frete aéreo para caixas de madeira sempre que possível."
-        },
-        {
-          "type": "h3",
-          "text": "As tábuas de bambu são tão ecológicas quanto as pessoas dizem?"
-        },
-        {
-          "type": "p",
-          "text": "Principalmente sim, com uma ressalva. O cultivo do bambu é genuinamente sustentável. Fabricação de bambu envolve laminação tiras com adesivos-e fornecedores baratos usam adesivos à base de formaldeído que falham UE e Califórnia padrões de qualidade do ar. Fornecedores respeitáveis (trabalhamos com E0 e E1-grade laminadores) usam adesivos de baixa emissão. Sempre peça relatórios de teste de emissão se você estiver posicionando o produto como eco-premium. O bambu barato pode ser uma história ambiental pior do que a madeira pensativa."
-        },
-        {
-          "type": "quote",
-          "text": "Sustentabilidade afirma que não pode ser documentado é marketing. Os certificados e as trilhas de auditoria são o que seus clientes, reguladores e auditores realmente aceitam."
-        },
-        {
-          "type": "p",
-          "text": "Para compradores que nos avaliam em relação a outras fábricas, recomendamos que você faça as mesmas perguntas de documentação a todos em sua lista restrita: certificado FSC, relatórios de conformidade REACH/CARB, registro fito e histórico de auditoria. As fábricas que podem produzir os documentos em 48 horas são as fábricas que realmente vivem as práticas. Todo mundo está vendendo a versão de marketing. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
+          "text": "Nosso MOQ é 200 peças por modelo para OEM, ODM e pedidos de teste de produção. Ao [solicitar uma cotação](/contact#inquiry), informe mercado, uso, material e documentos necessários. Assim confirmaremos a construção viável e a documentação disponível para o pedido."
         }
-      ]
+      ],
+      "updated": "2026-10-19"
     },
     "oem-vs-odm-wooden-boxes": {
       "title": "OEM vs. ODM: qual é o certo para o seu projeto caixa de madeira?",

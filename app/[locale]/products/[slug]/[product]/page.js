@@ -23,7 +23,7 @@ import ProductGallery from '@/components/ProductGallery';
 import ProductTabs from '@/components/ProductTabs';
 import ProductRichBlock from '@/components/ProductRichBlock';
 import ProductFaqBlock from '@/components/ProductFaqBlock';
-import { isProductContentLocaleSupported, hasFullProductTranslation } from '@/lib/product-content';
+import { buildProductDescription, isProductContentLocaleSupported, hasFullProductTranslation } from '@/lib/product-content';
 import JsonLd from '@/components/JsonLd';
 import { ContactChoices } from '@/components/ContactOptions';
 import RecentlyViewedTracker from '@/components/RecentlyViewedTracker';
@@ -31,6 +31,7 @@ import { SITE } from '@/data/site-config';
 import { alternates as makeAlternates } from '@/i18n/seo';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getProductTranslation } from '@/data/products/translations';
+import { getProductSpecTranslation } from '@/data/products/translations/specs';
 import { isNonBoxProduct } from '@/data/non-box-products';
 import { getProductSeoDescription } from '@/data/product-seo';
 import { getProductPageCopy } from '@/data/product-page-copy';
@@ -57,6 +58,17 @@ const PRODUCTS_BY_CATEGORY = {
   'walnut': WALNUT_PRODUCTS,
 };
 
+// Keep the large specs supplement in this server page. ProductGrid only needs
+// names/taglines and continues to use the smaller narrative overlay module.
+function localizeProduct(raw, locale) {
+  const translation = getProductTranslation(raw.slug, locale);
+  return {
+    ...raw,
+    ...translation,
+    specs: translation.specs || getProductSpecTranslation(raw, locale),
+  };
+}
+
 export function generateStaticParams() {
   const params = [];
   for (const [catSlug, products] of Object.entries(PRODUCTS_BY_CATEGORY)) {
@@ -72,7 +84,7 @@ export function generateMetadata({ params }) {
   const productRaw = products?.[params.product];
   if (!productRaw) return { title: 'Product' };
   const pageCopy = getProductPageCopy(params.slug, params.product, params.locale);
-  const product = { ...productRaw, ...getProductTranslation(productRaw.slug, params.locale), ...(pageCopy && { intro: pageCopy.intro }) };
+  const product = { ...localizeProduct(productRaw, params.locale), ...(pageCopy && { intro: pageCopy.intro }) };
   const localePath = `/products/${params.slug}/${params.product}`;
   const fullPath = `/${params.locale}${localePath}`;
   // Topical focus: this site covers wooden BOXES. Trays, caddies, holders,
@@ -407,13 +419,14 @@ export default async function ProductDetail({ params }) {
   const products = PRODUCTS_BY_CATEGORY[params.slug];
   const productRaw = products?.[params.product];
   const pageCopy = getProductPageCopy(params.slug, params.product, params.locale);
-  const product = productRaw ? { ...productRaw, ...getProductTranslation(productRaw.slug, params.locale), ...(pageCopy && { intro: pageCopy.intro }) } : null;
+  const product = productRaw ? { ...localizeProduct(productRaw, params.locale), ...(pageCopy && { intro: pageCopy.intro }) } : null;
   if (!category || !product) notFound();
 
   const related = (product.related || [])
     .map((s) => products[s])
     .filter(Boolean)
-    .slice(0, 3);
+    .slice(0, 3)
+    .map((item) => ({ ...item, ...getProductTranslation(item.slug, params.locale) }));
 
   // ── Localized labels for BreadcrumbList JSON-LD ───────────────────
   // Falls back to English if a key is missing for this locale.
@@ -434,6 +447,9 @@ export default async function ProductDetail({ params }) {
   //    banner, related products). Loaded into a single `t` object that's
   //    consumed throughout the JSX below.
   const t = await getTranslations({ locale: params.locale, namespace: 'productDetail' });
+  const tSpec = await getTranslations({ locale: params.locale, namespace: 'specKeys' });
+  const sizeKey = ['Size', 'Sizes', 'Footprint'].find((key) => product.specs[key]);
+  const size = product.specs[sizeKey];
 
   // ── Hero closure eyebrow (e.g. "Magnetic Closure"). We look up the
   // raw English closure string (from data file, before translation overlay)
@@ -507,9 +523,9 @@ export default async function ProductDetail({ params }) {
 
   // Gate the per-product rich description + FAQ blocks: only render when the
   // locale has a lib template AND the product's overlay translations cover
-  // intro/customization/useCases/packaging (otherwise we'd output mixed
+  // intro/specs/customization/useCases/packaging (otherwise we'd output mixed
   // language text). English is always considered fully covered.
-  const _productTrans = getProductTranslation(productRaw.slug, params.locale);
+  const _productTrans = { ...getProductTranslation(productRaw.slug, params.locale), specs: product.specs };
   const showRichBlocks = isProductContentLocaleSupported(params.locale) && hasFullProductTranslation(_productTrans, params.locale);
 
   return (
@@ -521,9 +537,9 @@ export default async function ProductDetail({ params }) {
       {/* ── BREADCRUMB ── */}
       <div className="pdp-bread">
         <div className="pdp-bread-inner">
-          <Link href="/products">Products</Link>
+          <Link href="/products">{labelProducts}</Link>
           <span className="sep">/</span>
-          <Link href={`/products/${params.slug}`}>{category.name}</Link>
+          <Link href={`/products/${params.slug}`}>{translatedCategoryName}</Link>
           <span className="sep">/</span>
           {product.name}
         </div>
@@ -544,27 +560,27 @@ export default async function ProductDetail({ params }) {
 
             <div className="pdp-quick">
               <div className="pdp-quick-row">
-                <div className="pdp-quick-label">MOQ</div>
+                <div className="pdp-quick-label">{tSpec('MOQ')}</div>
                 <div className="pdp-quick-value is-highlight">{product.specs.MOQ}</div>
               </div>
               <div className="pdp-quick-row">
-                <div className="pdp-quick-label">Lead Time</div>
+                <div className="pdp-quick-label">{tSpec('Lead Time')}</div>
                 <div className="pdp-quick-value is-highlight">{product.specs['Lead Time']}</div>
               </div>
+              {size && <div className="pdp-quick-row">
+                <div className="pdp-quick-label">{tSpec(sizeKey)}</div>
+                <div className="pdp-quick-value">{size}</div>
+              </div>}
               <div className="pdp-quick-row">
-                <div className="pdp-quick-label">Size</div>
-                <div className="pdp-quick-value">{product.specs.Size}</div>
-              </div>
-              <div className="pdp-quick-row">
-                <div className="pdp-quick-label">Material</div>
+                <div className="pdp-quick-label">{tSpec('Material')}</div>
                 <div className="pdp-quick-value">{product.specs.Material}</div>
               </div>
               <div className="pdp-quick-row">
-                <div className="pdp-quick-label">Surface</div>
+                <div className="pdp-quick-label">{tSpec('Surface Finish')}</div>
                 <div className="pdp-quick-value">{product.specs['Surface Finish']}</div>
               </div>
               <div className="pdp-quick-row">
-                <div className="pdp-quick-label">Branding</div>
+                <div className="pdp-quick-label">{tSpec('Branding')}</div>
                 <div className="pdp-quick-value">{product.specs.Branding}</div>
               </div>
             </div>
@@ -588,7 +604,7 @@ export default async function ProductDetail({ params }) {
       <section className="pdp-detail">
         <div className="pdp-detail-inner">
           <ProductTabs
-            description={pageCopy?.description || product.intro}
+            description={pageCopy?.description || buildProductDescription(product, params.locale)}
             specs={product.specs}
             customization={product.customization}
             packaging={product.packaging}
@@ -596,7 +612,7 @@ export default async function ProductDetail({ params }) {
         </div>
       </section>
 
-      {/* ── DETAILED OVERVIEW (English only — generated from per-product data) ── */}
+      {/* ── DETAILED OVERVIEW — generated from localized product data ── */}
       {showRichBlocks && <ProductRichBlock product={product} locale={params.locale} blocks={pageCopy?.overview} />}
 
       {/* ── USE CASES ── */}
@@ -614,7 +630,7 @@ export default async function ProductDetail({ params }) {
         </section>
       )}
 
-      {/* ── PRODUCT-SPECIFIC FAQ (English only — FAQPage JSON-LD per PDP) ── */}
+      {/* ── PRODUCT-SPECIFIC FAQ — visible answers and matching JSON-LD ── */}
       {showRichBlocks && <ProductFaqBlock product={product} locale={params.locale} />}
 
       {/* ── INQUIRY BANNER ── */}

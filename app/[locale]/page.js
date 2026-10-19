@@ -35,7 +35,7 @@ const ORG_LD = {
   // are not currently held.
   // foundingDate confirmed 2021 — must match the About page story copy
   // (data/about/*.js) which says "founded in 2021" / "Five years in" (as of 2026).
-  foundingDate: '2021',
+  foundingDate: SITE.company.foundingYear,
   // Named founder — a Person node rather than a bare string. GEO rationale:
   // generative engines weigh named, attributable expertise (who is behind the
   // company, what is their background) far more heavily than anonymous "our
@@ -53,7 +53,7 @@ const ORG_LD = {
       'Export operations and documentation',
     ],
     description:
-      'Founder of Xiamen Chic Homeware. Spent more than two decades in China’s wood trade — timber yards in Cao County, CNC production in Heze, and export order management out of Xiamen — before founding CHIC in 2021.',
+      `Founder of Xiamen Chic Homeware. Spent more than two decades in China’s wood trade — timber yards in Cao County, CNC production in Heze, and export order management out of Xiamen — before founding CHIC in ${SITE.company.foundingYear}.`,
   },
   hasCertification: [
     { '@type': 'Certification', name: 'ISO 9001 — Quality Management System' },

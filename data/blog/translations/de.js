@@ -354,9 +354,12 @@ export default {
       "title": "EVA, EPE, Samt oder Filz: das richtige Inlay für Holzboxen",
       "excerpt": "Ein vollständiger Leitfaden zur Wahl des passenden Inlay-Materials für Ihre Holzboxen. EVA-Schaum, EPE-Schaum, Samt und Filz im Vergleich — nach Schutzwirkung, Kosten, Optik und Nachhaltigkeit.",
       "category": "Materialien",
-      "readTime": "12 Min. Lesezeit",
+      "readTime": "4 Min. Lesezeit",
       "body": [
-        { type: 'p', text: "Bevor Sie die Spezifikationen festlegen, lesen Sie [Warum ein 200-teiliges MOQ der klügste Weg ist, um zu beginnen](/blog/low-moq-sampling-strategy)." },
+        {
+          "type": "p",
+          "text": "Bevor Sie die Spezifikationen festlegen, lesen Sie [Warum ein 200-teiliges MOQ der klügste Weg ist, um zu beginnen](/blog/low-moq-sampling-strategy)."
+        },
         {
           "type": "p",
           "text": "Beim Entwurf individueller Holzboxen ist das Inlay-Material genauso entscheidend wie die Box selbst. Die falsche Wahl führt zu beschädigter Ware, höheren Kosten oder einer Präsentation, die Ihre Kunden nicht überzeugt. In diesem Leitfaden vergleichen wir vier gängige Inlay-Materialien — EVA-Schaum, EPE-Schaum, Samt und Filz — entlang der Entscheidungskriterien Schutzniveau, Wirtschaftlichkeit, Optik, Umweltwirkung und Individualisierbarkeit. Verfügbare Ausführungen finden Sie in der Kategorie [Geschenk- und Verpackungsboxen](/products/gift-packaging)."
@@ -367,40 +370,40 @@ export default {
         },
         {
           "type": "p",
-          "text": "Zunächst eine kurze Einordnung. EVA (Ethylenvinylacetat) ist ein geschlossenzelliger Schaum, bekannt für Dichte, Haltbarkeit und hervorragende Stoßfestigkeit. EPE (expandiertes Polyethylen) ist ein offenzelliger Schaum: leicht, flexibel und günstig. Samt ist ein weiches, flauschiges Textil mit reicher Haptik und Premium-Anmutung. Filz ist ein Vliesstoff aus gepressten Wollfasern mit weicher, matter Oberfläche, der bei umweltbewussten Marken zunehmend gefragt ist."
+          "text": "EVA und EPE sind geschlossenzellige Schäume. EVA eignet sich für passgenaue Halterungen, expandiertes Polyethylen (EPE) häufig für leichte Polsterung. Die Leistung hängt von Sorte, Dicke und Geometrie ab. Samt ist ein Oberflächentextil; Filz ist ein Vlies aus Wolle, Kunstfasern oder Mischungen. Keines der Textilien allein garantiert Transportschutz."
         },
         {
           "type": "table",
           "headers": [
             "Material",
-            "Art",
-            "Haupteinsatz",
-            "Stärke"
+            "Aufbau",
+            "Typischer Zweck",
+            "Vor Freigabe prüfen"
           ],
           "rows": [
             [
               "EVA-Schaum",
-              "Synthetisches Polymer",
-              "Hoher Aufprallschutz",
-              "Sehr gute Stoßdämpfung"
+              "Geschlossenzelliger Schaum",
+              "Formhalterung und Polsterung",
+              "Sorte, Rohdichte, Härte und Passform"
             ],
             [
               "EPE-Schaum",
-              "Polyethylenschaum",
-              "Allgemeine Polsterung",
-              "Leicht und preiswert"
+              "Geschlossenzelliges Polyethylen",
+              "Platten, Ecken und Polsterung",
+              "Sorte, Dicke und Verhalten unter Last"
             ],
             [
               "Samt",
-              "Textil (synthetisch/natürlich)",
-              "Luxuriöse Präsentation",
-              "Premium-Optik"
+              "Stoff oder gesondert festgelegte Beflockung",
+              "Präsentation und Kontaktfläche",
+              "Faser, Träger, Haftung und Abfärben"
             ],
             [
               "Filz",
-              "Gepresste Woll-/Synthetikfasern",
-              "Ökologische Polsterung",
-              "Nachhaltig und weich"
+              "Vlies aus Wolle, Kunstfasern oder Mischungen",
+              "Futter, Trennwände und Kontaktfläche",
+              "Zusammensetzung, Dicke und Abrieb"
             ]
           ]
         },
@@ -410,7 +413,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "EVA (Ethylenvinylacetat) ist ein geschlossenzelliger Schaum, bekannt für Dichte, Haltbarkeit und hervorragende Stoßfestigkeit. Man findet ihn in Yogamatten, Schuhsohlen und Verpackungen hochwertiger Elektronik. EVA dämpft Stöße ausgezeichnet, mit einer Härte von 40–60 Shore C. Er lässt sich präzise stanzen und für ein luxuriöses Finish mit Samt beflocken. Der Preis liegt im oberen Bereich, dafür ist EVA ideal für hochwertige Elektronik wie Uhren, Kameras und Telefone, für medizinische Instrumente, für passgenau einzulegende Werkzeuge und für Produkte, deren Verpackung wiederverwendet werden soll. Ein Produktbeispiel finden Sie unter [Luxus Magnetische Geschenkbox](/products/gift-packaging/luxury-magnetic-gift-box)."
+          "text": "EVA-Schaum kann ein Produkt passgenau halten, sein Name definiert jedoch keine Schutzleistung. Fordern Sie Sorte, Rohdichte in kg/m³, Dicke und Härteprüfverfahren an. Shore C ist eine Härteskala, keine Dichteeinheit; beide Werte sind getrennt festzuhalten. Bestätigen Sie Material und Passform am bestückten Muster. Ein Anwendungsbeispiel ist die [magnetische Luxus-Geschenkbox](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "h2",
@@ -418,7 +421,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "EPE (expandiertes Polyethylen) ist ein offenzelliger Schaum: leicht, flexibel und kostengünstig. Er ist die „Luftpolsterfolie“ unter den Schäumen — weich, nachgiebig und hervorragend für allgemeine Polsterung. EPE dämpft gut bei einer geringeren Härte von 20–30 Shore C und ist damit weicher und stärker komprimierbar als EVA. Er ist budgetfreundlich, recycelbar und in der Herstellung emissionsarm. EPE eignet sich für mittleren Schutzbedarf, für Sammelverpackungen beim Versand mehrerer Einheiten, für preisbewusste Projekte und für Produkte mit regelmäßigen Formen ohne komplexe Konturen. Weitere Hinweise finden Sie unter [Was kosten maßgefertigte Holzboxen? Ein Großhandels- und OEM-Preisleitfaden für 2026](/blog/custom-wooden-box-cost-2026)."
+          "text": "EPE ist geschlossenzelliges expandiertes Polyethylen, kein offenzelliger Schaum. Es lässt sich für Polsterplatten, Ecken und Formhalter einsetzen. Wählen Sie Sorte und Dicke nach Gewicht und Transportbedingungen, statt pauschal geringere Härte oder Schutzleistung als bei EVA anzunehmen. Recycling hängt von örtlicher PE-Schaum-Sammlung und trennbaren Textilien und Klebstoffen ab. Siehe den [Kostenleitfaden](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "h2",
@@ -426,15 +429,15 @@ export default {
         },
         {
           "type": "p",
-          "text": "Samt ist ein weiches, flauschiges Textil (Naturseide oder Polyester) mit reicher Haptik und Premium-Anmutung. Es wird häufig in Schmuckboxen, Parfümverpackungen und hochwertigen Geschenksets eingesetzt. Samt allein dämpft kaum und braucht eine Polsterung darunter, liefert dafür aber ein unvergleichliches Luxusgefühl und hervorragende Gestaltungsmöglichkeiten. Samt ist ideal für Schmuck und Wertgegenstände, für Parfüm und Kosmetik, für Luxusgeschenke und Auszeichnungen sowie für Produkte, bei denen das Auspackerlebnis zählt. Viele Marken kombinieren Samt mit Schaum: EVA oder EPE als polsternde Basis, darüber Samtbeflockung für die Optik. Weitere Hinweise finden Sie unter [Anatomie einer großen hölzernen Uhren box](/blog/wooden-watch-box-anatomy)."
+          "text": "Samt kann als Stoffbezug aufgebracht werden; Beflockung ist ein eigenes Verfahren. Klären Sie Faser, Träger, Klebstoff und Farbechtheit. Die Oberfläche kann Reibspuren begrenzen und die Präsentation verbessern, die Polsterung muss aber die Unterkonstruktion leisten. Vergleichen Sie Lösungen im [Uhrenbox-Leitfaden](/blog/wooden-watch-box-anatomy)."
         },
         {
           "type": "h2",
-          "text": "Filz: klassisch und nachhaltig"
+          "text": "Filz: Faser und Aufbau prüfen"
         },
         {
           "type": "p",
-          "text": "Filz ist ein Vliesstoff aus gepressten Wollfasern (oder synthetischen Alternativen). Er hat eine weiche, matte Oberfläche und ist bei umweltbewussten Marken zunehmend gefragt. Filz polstert moderat und wirkt dabei elegant und zurückhaltend luxuriös. Er lässt sich leicht schneiden, färben und formen und bietet damit sehr gute Gestaltungsmöglichkeiten. Wollfilz ist biologisch abbaubar, recycelte synthetische Varianten sind erhältlich — das macht ihn zur nachhaltigsten Option. Filz eignet sich für umweltbewusste Marken, für handwerkliche Produkte, für mittelschwere Artikel wie Bücher, Keramik und Glas sowie für Marken, die eine natürliche Anmutung suchen. Weitere Hinweise finden Sie unter [5 Finishing-Techniken, die verändern, wie eine Holzkiste aussieht und sich anfühlt](/blog/wooden-box-finishing-techniques)."
+          "text": "Filz kann Wolle, Polyester, Recyclingfasern oder Mischungen enthalten. Legen Sie Zusammensetzung, Dicke, Abriebfestigkeit, Träger und Klebstoff fest. Naturfasern oder Recyclinganteile beweisen für sich weder Recyclingfähigkeit noch Kompostierbarkeit oder geringere Umweltbelastung. Prüfen Sie Nachweise zum konkreten Material. Siehe den [Leitfaden zu Oberflächen und Branding](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -442,12 +445,12 @@ export default {
         },
         {
           "type": "p",
-          "text": "Vergleicht man alle vier Materialien entlang der wichtigsten Kriterien, hat jedes klare Stärken. EVA-Schaum führt beim Schutz (5/5 Sterne), kostet dafür aber am meisten ($$$). EPE-Schaum bietet guten Schutz (4/5 Sterne) zum kleinsten Preis ($). Samt schützt kaum (2/5 Sterne), ist optisch aber unübertroffen (5/5 Sterne) bei Premium-Preis. Filz schützt moderat (3/5 Sterne) und punktet bei Nachhaltigkeit (5/5 Sterne) im mittleren Preissegment ($$)."
+          "text": "Materialnamen erlauben keine allgemeingültige Schutz- oder Nachhaltigkeitsbewertung. Vergleichen Sie Sorten mit demselben Produkt, Verpackungsaufbau und Prüfbedingungen. Die folgenden Punkte zeigen, welche Angaben vor Freigabe nötig sind."
         },
         {
           "type": "table",
           "headers": [
-            "Kriterium",
+            "Prüfung",
             "EVA-Schaum",
             "EPE-Schaum",
             "Samt",
@@ -455,46 +458,25 @@ export default {
           ],
           "rows": [
             [
-              "Schutzniveau",
-              "⭐⭐⭐⭐⭐",
-              "⭐⭐⭐⭐",
-              "⭐⭐",
-              "⭐⭐⭐"
+              "Schutz",
+              "Sorte und Geometrie prüfen",
+              "Sorte und Geometrie prüfen",
+              "Polsternden Unterbau prüfen",
+              "Dicke und Unterbau prüfen"
             ],
             [
               "Kosten",
-              "$$$",
-              "$",
-              "$$$",
-              "$$"
+              "Sorte, Zuschnitt und Werkzeug kalkulieren",
+              "Sorte, Zuschnitt und Werkzeug kalkulieren",
+              "Stoff und Aufbringung kalkulieren",
+              "Faser und Zuschnitt kalkulieren"
             ],
             [
-              "Optik",
-              "⭐⭐⭐⭐",
-              "⭐⭐",
-              "⭐⭐⭐⭐⭐",
-              "⭐⭐⭐⭐"
-            ],
-            [
-              "Individualisierung",
-              "⭐⭐⭐⭐⭐",
-              "⭐⭐⭐",
-              "⭐⭐⭐⭐",
-              "⭐⭐⭐⭐"
-            ],
-            [
-              "Nachhaltigkeit",
-              "⭐⭐",
-              "⭐⭐⭐",
-              "⭐⭐⭐",
-              "⭐⭐⭐⭐⭐"
-            ],
-            [
-              "Geeignet für",
-              "Elektronik, Werkzeug",
-              "Sammelversand",
-              "Schmuck, Parfüm",
-              "Öko-Marken, Handwerk"
+              "Entsorgung",
+              "Örtliche Annahme und Trennung klären",
+              "Örtliche Annahme und Trennung klären",
+              "Faser, Träger und Klebstoff klären",
+              "Faser, Träger und Klebstoff klären"
             ]
           ]
         },
@@ -504,15 +486,15 @@ export default {
         },
         {
           "type": "p",
-          "text": "Nutzen Sie dieses Raster, um Ihr Inlay-Material zu bestimmen. Erstens: Bewerten Sie die Empfindlichkeit des Produkts. Empfindliches wie Elektronik und Glas braucht EVA oder EPE, mittlere Ware kommt mit EPE oder Filz aus, robuste Ware passt zu Samt oder Filz. Zweitens: Legen Sie den Budgetrahmen fest. Premium-Budgets ($$$) tragen EVA oder Samt, das Mittelfeld ($$) passt zu Filz, preisbewusste Projekte ($) nehmen EPE. Drittens: Berücksichtigen Sie die Markenpositionierung. Luxusmarken profitieren von Samt auf EVA-Basis, umweltbewusste Marken wählen Filz, Technik- und Profimarken passen zu EVA, preisorientierte Marken zu EPE. Viertens: Prüfen Sie die Stückzahl. Ab 1.000 Stück lohnt das automatisierte Stanzen von EVA oder EPE, bei 100 bis 1.000 Stück ist jedes Material möglich, unter 100 Stück lassen sich Filz und Samt von Hand leichter verarbeiten. Die Optionen finden Sie unter [Leitfaden zu Holz, Oberflächen und Beschlägen](/material-guide)."
+          "text": "Beginnen Sie mit Gewicht, empfindlichen Stellen, Oberflächen und Transportweg. Definieren Sie Abstände und Entnahme. Vergleichen Sie eine Schaumhalterung mit einer textilbezogenen Alternative und prüfen Sie die vollständig gepackte Box. Schnittverfahren und Werkzeuge beeinflussen den Preis; unsere Produktions-MOQ bleibt 200 Stück je Design. Siehe die [Material- und Beschlagreferenz](/material-guide)."
         },
         {
           "type": "h2",
-          "text": "Beispiele aus der Praxis"
+          "text": "Beispielhafte Anwendungen"
         },
         {
           "type": "p",
-          "text": "Eine Luxusuhrenmarke wollte hochwertige Zeitmesser schützen und zugleich hochwertig präsentieren. Gelöst wurde das mit einer Basis aus EVA-Schaum, auf Uhrenform gestanzt, und einer Samtbeflockung auf der EVA-Oberfläche — 5-Sterne-Schutz plus Luxus-Unboxing, zu 3–5 $ pro Inlay. Eine handwerkliche Kerzenmanufaktur suchte eine umweltfreundliche Verpackung für handgefertigte Kerzen und setzte Wollfilz-Inlays ein, passgenau auf die Kerzengläser geschnitten; die natürliche, nachhaltige Anmutung passte zur Marke und führte zu 30 % mehr Wiederkäufen, zu 1,50–2 $ pro Inlay. Ein E-Commerce-Elektronikhändler musste Bluetooth-Lautsprecher in großer Stückzahl sicher versenden und nutzte EPE-Eckenschutz mit Mittelpolster — geringeres Versandgewicht und eine Schadensquote, die von 5 % auf unter 1 % fiel, zu 0,50–0,80 $ pro Inlay. Ein Produktbeispiel finden Sie unter [Drei-Uhren-Präsentationskasten](/products/watch-jewelry/three-watch-display-case)."
+          "text": "Vergleichen Sie für eine Uhr eine Schaumhalterung mit einem bezogenen Kissen. Prüfen Sie bei einem Kerzenglas Passform, Abstand zwischen Glas und Holz sowie Leckagerisiken. Klären Sie bei Elektronik zusätzlich zur Polsterung nötige antistatische Eigenschaften. Dies sind Entwurfsbeispiele, keine gemessenen Kundenergebnisse oder Preisangebote. Siehe das [Etui für drei Uhren](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h2",
@@ -520,7 +502,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Bestellen Sie immer Muster mit Ihrem echten Produkt und machen Sie einen Falltest aus Hüfthöhe — übersteht das Produkt ihn, funktioniert das Inlay. Denken Sie den gesamten Lebenszyklus mit: Für die Lagerung prüfen Sie, ob die Boxen gestapelt werden, denn EVA und EPE widerstehen Druck besser; beim Versand brauchen internationale Sendungen den stärkeren Schutz von EVA; bei Wiederverwendung profitieren Luxusmarken von langlebigen Inlays, die Kunden behalten, etwa EVA plus Samt. Legen Sie sich nicht auf ein einziges Material fest — die besten Inlays kombinieren oft eine EVA-Basis für die Struktur mit Samt obenauf für die Optik, oder ein EPE-Polster mit Filz-Trennern für Ökologie plus Funktion."
+          "text": "Prüfen Sie Muster mit Originalprodukt, Verkaufsbox und Versandkarton. Vereinbaren Sie Fall-, Vibrations- und Druckprüfungen passend zu Route und Last; ein einzelner informeller Falltest validiert die Verpackung nicht. Prüfen Sie auch Rückstellung nach Lagerung, Abdrücke, Geruch und Entnahme. Dokumentieren Sie freigegebene Sorte und Aufbau für die Produktion."
         },
         {
           "type": "p",
@@ -532,9 +514,18 @@ export default {
         },
         {
           "type": "p",
-          "text": "Das richtige Inlay-Material für Ihre Holzboxen zu wählen heißt, Schutz, Kosten, Optik und Markenwerte auszubalancieren. EVA-Schaum bietet Premium-Schutz und Gestaltungsfreiheit zu $$$, lohnt sich aber bei hochwertigen Produkten. EPE-Schaum liefert günstige, leichte Polsterung für den allgemeinen Einsatz zu $. Samt sorgt für luxuriöse Präsentation und wirkt am besten auf einer Schaumbasis, zu $$$. Filz ist ökologisch, elegant und vielseitig, zu $$. Für die meisten individuellen Holzbox-Projekte empfehlen wir, mit EVA-Schaum als Basis zu starten und bei ausreichendem Budget Samt oder Filz darüberzulegen. So bekommen Sie beides — verlässlichen Schutz und eine Präsentation, die begeistert. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
+          "text": "Wählen Sie den Einsatz als Teil der gesamten Verpackung. EVA und EPE können bei richtiger Auslegung polstern; Samt und Filz können Kontaktfläche oder Futter bilden. Kein Material ist automatisch am sichersten oder nachhaltigsten. Zum Vergleich geeigneter Aufbauten [fordern Sie ein Angebot an](/contact#inquiry) und nennen Maße, Gewicht und Zielmarkt."
+        },
+        {
+          "type": "h2",
+          "text": "Technische Quellen"
+        },
+        {
+          "type": "p",
+          "text": "Zellstruktur und Recycling: [PE-Schaum-Leitfaden von Sealed Air](https://www.sealedair.com/products/protective-packaging/polyethylene-foam/cell-aire). Härte: [Shore-Prüfhinweise von Bareiss](https://bareiss.de/en/support-downloads-en/customer-support). Fakten geprüft am 19. Oktober 2026."
         }
-      ]
+      ],
+      "updated": "2026-10-19"
     },
     "wooden-box-closure-types-compared": {
       "title": "Holzbox-Verschlüsse im Vergleich: Schiebedeckel, Scharnier, Magnet, Schublade und Schloss",
@@ -2575,237 +2566,128 @@ export default {
       ]
     },
     "sustainable-sourcing-2026": {
-      "title": "Unsere nachhaltigen Beschaffungs praktiken im Jahr 2026",
-      "excerpt": "FSC-Sorgerecht kette, Paulownia aus Plantagen, VOC-niedrigere Oberflächen und wie wir Holz abfälle unter 8% halten-geschrieben für Käufer, die ihre Lieferkette tatsächlich verteidigen müssen.",
+      "title": "Holzboxen nachhaltig beschaffen: Einkaufscheckliste 2026",
+      "excerpt": "Prüfpunkte für den Einkauf von Holzboxen: FSC-Aussagen, aktuelle EUDR-Termine, Material- und Oberflächennachweise, Exportverpackung und Umweltbelege.",
       "category": "Nachhaltigkeit",
-      "readTime": "9 min lesen",
+      "readTime": "3 Min. Lesezeit",
       "body": [
-        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [Maßgefertigte Holzboxen aus China beziehen 2026: ein B2B-Beschaffungsleitfaden](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
-          "text": "Nachhaltig keit war früher eine Marketing linie. Heute handelt es sich um eine Beschaffungs anforderung der meisten europäischen, japanischen und Amazon-Marken, die wir bedienen-eine Reihe spezifischer Zertifizie rungen, Dokumente und Lieferanten prüfungen, die vor dem Versand von Boxen geklärt werden müssen."
+          "text": "Bevor Sie die Spezifikationen festlegen, lesen Sie [Maßgefertigte Holzboxen aus China beziehen 2026: ein B2B-Beschaffungsleitfaden](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
         },
         {
           "type": "p",
-          "text": "In diesem Artikel sehen unsere tatsächlichen Praktiken im Jahr 2026 aus. Er wurde für den Käufer geschrieben, der seine Lieferkette vor einem Nachhaltig keits beauftragten, einem Compliance-Team von Amazon Brand Registry oder einem EU CBAM-Prüfer verteidigen muss. Keine vagen Behauptungen-genau das, was wir tun und die Dokumente, die wir vorlegen können, um dies zu beweisen."
+          "text": "Prüfen Sie bei Holzboxen die Beschaffung anhand einer schriftlichen Spezifikation und der Nachweise zur konkreten Lieferkette. Bestätigen Sie mit dieser Checkliste Zertifikatsumfang, Prüfberichte und verfügbare Herkunftsbelege für die gewählten Materialien und Unternehmen vor der Bestellung."
         },
         {
           "type": "h2",
-          "text": "FSC-Sorgerecht kette-und was sie wirklich bedeutet"
+          "text": "FSC-Aussagen: die gesamte Kette prüfen"
         },
         {
           "type": "p",
-          "text": "Jede Art in unserem Katalog-Paulo wnia, Kiefer, Bambus, Akazie, Walnuss und Eiche-ist auf Anfrage mit der FSC-Zertifizierung (Forest Stewardship Council) erhältlich. Wir verfügen über die FSC-Sorgerecht kette über unsere Holz lieferanten, was bedeutet, dass die Rück verfolgbar keit vom Wald bestand oder der Plantage bis zu Ihrem Versand behälter dokumentiert ist. Weitere Hinweise finden Sie unter [So wählen Sie das richtige Holz für Geschenk verpackungen](/blog/choosing-wood-for-gift-packaging)."
+          "text": "Das Zertifikat eines Holzlieferanten kann nicht als eigenes Zertifikat übernommen werden. Prüfen Sie Inhaber, Gültigkeit, Produktumfang und die Aussage auf Verkaufsbelegen. Vergleichen Sie Arten im [Holzauswahl-Leitfaden](/blog/choosing-wood-for-gift-packaging) und lesen Sie die [FSC-Produktkettenhinweise](https://fsc.org/en/chain-of-custody)."
         },
         {
-          "type": "p",
-          "text": "Das Wichtigste, was Sie über FSC verstehen müssen, ist, dass die Zertifizierung das Holz und nicht die Box abdeckt. Unsere Boxen sind FSC-zertifiziert, wenn sowohl (a) das Holz von FSC-zertifizierten Lieferanten stammt als auch (b) die Produktions charge unseren zertifizierten Sorgerecht kette prozess durchläuft. Wir müssen Chargen aufzeichnungen führen, FSC-Lager bestände während der Produktion von Nicht-FSC-Lager teilen und ein Zertifikat pro Sendung erstellen, das auf die Quelle zurückgeht."
-        },
-        {
-          "type": "p",
-          "text": "Für Käufer, die in die EU verkaufen, ist dies zunehmend nicht optional. Die EU-Entwaldung verordnung (EUDR), die im Jahr 2025 in Kraft trat, schreibt vor, dass Importeure von Holzprodukten nachweisen müssen, dass das Holz nach dem 31. Dezember 2020 nicht mit der Entwaldung verbunden ist. Die FSC-Zertifizierung ist der einfachste Weg, um diese Anforderung zu erfüllen."
-        },
-        {
-          "type": "p",
-          "text": "Wir berechnen eine kleine Prämie (normaler weise 4-7%) für FSC-Bestellungen, um die zusätzlichen Dokumentations-und Segregation kosten zu decken. Für die meisten Käufer wird dies auf den Märkten, die es öffnet, um ein Vielfaches wieder hergestellt."
+          "type": "list",
+          "items": [
+            "Zertifikatscode und Geltungsbereich der beteiligten Unternehmen bestätigen.",
+            "Ausgangsaussage sowie Einkaufs- und Chargenbelege prüfen.",
+            "FSC-Kennzeichnung erst nach Prüfung von Produktkette und Berechtigungen vereinbaren."
+          ]
         },
         {
           "type": "h2",
-          "text": "Paulo wnia-Plantage-per Definition angebaut"
+          "text": "EUDR: aktuelle Anwendungstermine"
         },
         {
           "type": "p",
-          "text": "Paulo wnia ist das, was die holz verarbeitende Industrie einem erneuerbaren Holz am nächsten kommt. Die Bäume reifen in 5-7 Jahren (gegenüber 30-60 Jahren für Eiche oder Walnuss), und fast alle kommerziellen Paulo wnia werden eher auf Plantagen angebaut als aus natürlichen Wäldern geerntet. Verfügbare Ausführungen finden Sie in der Kategorie [Holzboxen aus Paulownia](/products/paulownia)."
+          "text": "Stand 19. Oktober 2026: Anwendung ab 30. Dezember 2026 für große und mittlere Marktteilnehmer, ab 30. Juni 2027 für die meisten Kleinst- und Kleinmarktteilnehmer. Bereits unter die EUTR fallende Kleinst- und Kleinmarktteilnehmer beginnen ebenfalls am 30. Dezember 2026. Siehe den [Zeitplan der Europäischen Kommission](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en)."
         },
         {
           "type": "p",
-          "text": "Unsere Paulo wnia stammt aus bewirtschaft eten Plantagen in den Provinzen Henan und Anhui. Die Plantagen gehören landwirtschaft lichen Genossenschaften, die die Ernten so drehen, dass jedes Jahr ungefähr 1/6 der bepflanzten Fläche geerntet wird und neue Setzlinge gepflanzt werden, um geerntete Bäume zu ersetzen. Das Ergebnis ist eine durch gängige Holz versorgung, die den Wald bestand nicht abnimmt."
+          "text": "Klären Sie Produktumfang, Unternehmensrolle und erforderliche Lieferkettenbelege für den Auftrag. FSC kann unterstützen, ersetzt aber weder EUDR-Sorgfaltspflichten noch bestätigt es automatisch die Konformität. Siehe die [FSC-Erläuterungen zur EUDR](https://uk.fsc.org/eudr-and-fsc)."
+        },
+        {
+          "type": "h2",
+          "text": "Materialherkunft und Oberflächen festlegen"
         },
         {
           "type": "p",
-          "text": "Für Käufer mit expliziter Öko position ierung ist Paulo wnia die naheliegende Wahl-und wir können die Plantagen quelle auf Anfrage dokumentieren."
+          "text": "[Paulownia](/products/paulownia) kann das Verpackungsgewicht senken. Der Artname allein beweist aber weder Plantagenherkunft noch einen geringeren CO₂-Fußabdruck. Fordern Sie Art, Ernteland und verfügbare Herkunftsbelege der tatsächlichen Charge an."
+        },
+        {
+          "type": "p",
+          "text": "Definieren Sie Rezeptur, Aushärtung und Prüfumfang anhand des [Oberflächenleitfadens](/blog/wooden-box-finishing-techniques). Wasserbasiert bedeutet nicht automatisch VOC-frei. CARB Phase 2 betrifft Formaldehyd aus erfassten Holzwerkstoffen, keine allgemeine VOC-Zulassung für Beschichtungen; siehe die [CARB-Verbraucherhinweise](https://ww2.arb.ca.gov/resources/documents/consumer-faq)."
+        },
+        {
+          "type": "p",
+          "text": "Natürliches Öl oder Wachs ist nicht automatisch für Lebensmittelkontakt geeignet. Klären Sie dafür Rezeptur, Aushärtung und Nachweise für Zielmarkt und Kontaktbedingungen. Jeder Bericht muss zum bestellten Material und Produkt passen."
         },
         {
           "type": "img",
           "src": "/factory/material.webp",
-          "caption": "Plantagen gewachsener Paulownia-Bestand in unserem Holzhof"
+          "caption": "Holzvorrat für die Produktion"
         },
         {
           "type": "h2",
-          "text": "VOC-niedriger (REACH-und CARB-konform)"
+          "text": "Abfall, Wiederverwendung und Angaben"
         },
         {
           "type": "p",
-          "text": "Flüchtige organische Verbindungen (VOCs) sind die abgasenden Chemikalien, die den \"neuen Kasten geruch\" erzeugen-und die in höheren Konzentrationen zu Problemen bei der Luftqualität in Innenräumen beitragen. Standard-Nitrocellulose-Lacke, die die billigste End option darstellen, können in Mengen abgasen, die die EU-REACH-und US-CARB-Phase-2-Grenzwerte nicht überschreiten. Weitere Hinweise finden Sie unter [5 Finishing-Techniken, die verändern, wie eine Holzkiste aussieht und sich anfühlt](/blog/wooden-box-finishing-techniques)."
+          "text": "Fordern Sie Zuschnittplan und gemessene Abfalldaten an, bevor Sie Einsparquoten veröffentlichen. Vergleichen Sie Verfahren im [Fertigungsleitfaden](/blog/six-step-manufacturing-process). Beschreiben Sie Reststoffnutzung oder Recycling nur bei belegtem Verwertungsweg."
         },
         {
           "type": "p",
-          "text": "Wir haben unsere Ziellinie standard mäßig auf Lacke auf Wasserbasis verschoben. Oberflächen auf Wasserbasis enthalten einen Bruchteil des VOC-Gehalts an Nitro cellulose, trocknen schneller und erzielen ein ähnliches visuelles Ergebnis. Der Kompromiss ist Kosten (ca. 15% mehr pro Liter) und ein etwas dünnerer Filmbau, den wir mit einer zusätzlichen Schicht kompensieren."
+          "text": "Prüfen Sie bei Bambus Platte, Klebstoff und relevante Emissionstests; schnelles Wachstum macht nicht jede fertige Platte umweltfreundlicher. Siehe den [Vergleich Bambus und Akazie](/blog/bamboo-vs-acacia-kitchenware). Recyclinganteile brauchen Lieferantenbelege."
         },
         {
           "type": "p",
-          "text": "Für Premium-Produkte verwenden wir natürliche Pflanzenöl-Oberflächen-Tungöl, Leinöl, Bienenwachs. Null VOC, vollständig lebensmittels icher und die Oberfläche altert wunderschön. Der Nachteil sind längere Aushärtung zeiten (bis zu 72 Stunden pro Schicht) und eine anspruchs vollere Anwendung-diese Oberflächen sind nicht für Produkte mit hohem Budget geeignet."
-        },
-        {
-          "type": "p",
-          "text": "Alle von uns angebotenen Ausführungen sind für die REACH-Compliance (EU), die CARB-Phase 2 (USA) und die FDA-Sicherheit für Lebensmittel kontakt (sofern zutreffend) dokumentiert. Testberichte sind auf Anfrage erhältlich."
+          "text": "Planen Sie Wiederverwendung und Trennung von Holz, Beschlägen und Futter. Öl, Wachs, Lack und Klebstoff beeinflussen Entsorgungswege. Versprechen Sie ohne Belege weder Heimkompostierbarkeit noch feste Abbauzeiten. Vergleichen Sie wiederverwendbare [Aufbewahrungsboxen](/products/storage)."
         },
         {
           "type": "h2",
-          "text": "Abfall reduzierung im Schnitt"
+          "text": "Exportverpackung und Pflanzengesundheit"
         },
         {
           "type": "p",
-          "text": "Holz abfälle sind das unsexy Thema Nachhaltig keit. Die meisten Fabriken erzeugen 18-25% Abfall abfälle aus ihren reduzierten Betrieben-Material, das bezahlt wird, aber für Biomasse wärme verbrannt oder auf Müll deponien verbracht wird. Weitere Hinweise finden Sie unter [In unserem 6-stufigen Herstellungs prozess für Holzkisten](/blog/six-step-manufacturing-process)."
+          "text": "ISPM 15 regelt bestimmte Holzverpackungen. Verpackungen aus verarbeitetem Holz und manche schädlingsfrei hergestellten Geschenkboxen können ausgenommen sein; nicht alle Holzprodukte haben dieselben Anforderungen. Lesen Sie [IPPC ISPM 15](https://www.ippc.int/en/publications/91395/) und besprechen Sie den Aufbau über unsere [Fertigungsmöglichkeiten](/capabilities)."
         },
         {
           "type": "p",
-          "text": "Unsere Nesting-Software optimiert die Teile layouts auf jeder Platine, um Abstands abfälle bei den meisten Bestellungen unter 12% und bei Standard-SKUs, die wir wiederholt ausführen, unter 8% zu drücken. Zum Vergleich: Eine Reduzierung des Abfalls in einem 20-Fuß-Behälter mit Paulownia um 4% beträgt etwa 400 bis 600 US-Dollar an eingespartem Material-klein pro Einheit, aber volumen mäßig sinnvoll."
-        },
-        {
-          "type": "p",
-          "text": "Die restlichen Abkürzungen gehen an eine Schwester einrichtung, in der Holz perlen, Griffe, Schubladen züge und kleine gedrehte Komponenten hergestellt werden. Fast nichts erreicht die Deponie. Sägemehl wird gesammelt und an einen Spanplatten hersteller im selben Gewerbe gebiet verkauft. Der einzige wirkliche Abfall aus unserem Prozess ist die Verkleidung von den Enden der Bretter, die für die lokale Biomasse heizung verwendet wird."
+          "text": "Bei erfassten Verpackungen sind zugelassene Behandlung und autorisierte Markierung zu bestätigen. Nach ISPM 15 ersetzt die Markierung in der Regel das Pflanzengesundheitszeugnis für die Verpackung. Produktbezogene Einfuhrpflichten separat mit Importeur oder Zielbehörde klären; nicht jede Geschenkbox benötigt ein Einzelzeugnis."
         },
         {
           "type": "h2",
-          "text": "Phyto sanitäre Dokumentation"
+          "text": "Umweltwirkungen mit Nachweisen vergleichen"
         },
         {
           "type": "p",
-          "text": "Alle Massivholz lieferungen werden mit vom chinesischen Zoll ausgestellten Pflanzen gesundheits zertifikaten abgeliefert, die bestätigen, dass das Holz gemäß ISPM-15 Standards (dem internat ionalen Standard für Holz verpackungs material) behandelt und frei von Schädlingen ist. Dies ist für Lieferungen in die EU, in die USA, nach Australien, Japan und Korea von entscheidender Bedeutung. Ohne Phyto-Zertifikate kann Ihr Container im Zielhafen unter Quarantäne gestellt oder abgelehnt werden. Die Optionen finden Sie unter [Kapazitäten](/capabilities)."
-        },
-        {
-          "type": "p",
-          "text": "Unsere Einrichtung ist für die ISPM-15 Wärme behandlung registriert und unsere Fertigwaren tragen den IPPC-Stempel mit dem Behandlungs datum und unserem Anlagen code. Das Phyto-Zertifikat begleitet den Frachtbrief und wird in den meisten Häfen in weniger als 24 Stunden mit Zoll dokumenten bereinigt."
+          "text": "Vergleichen Sie Entwürfe mit gleichem Zweck und gleicher Nutzungsdauer. Masse, Trocknung, Verarbeitung, Transport und Entsorgung zählen. Ein CO₂-Vergleich braucht Methode und Systemgrenze; Zertifizierung oder geringe Dichte allein belegen keinen Minimalwert. Nutzen Sie die [Materialreferenz](/material-guide) für vergleichbare Spezifikationen."
         },
         {
           "type": "h2",
-          "text": "Was wir noch besser machen müssen"
-        },
-        {
-          "type": "p",
-          "text": "Nachhaltig keit ist kein Kästchen, das Sie aktivieren-es ist eine kontinuierliche Richtung. Drei Dinge, an denen wir für 2026-2027 arbeiten:"
+          "text": "Vor Produktion abzustimmende Unterlagen"
         },
         {
           "type": "list",
           "items": [
-            "Alle internen Gabelstapler und Hof fahrzeuge auf elektrisch umstellen. Derzeit sind 60% unserer internen Flotte elektrisch; Ziel ist 100% bis Ende 2026.",
-            "Installation von Solar auf dem Dach in unseren beiden Hauptprodukt ions gebäuden. Geschätzt auf 30-40% unserer Tages strom last.",
-            "Arbeiten Sie mit unseren Lieferanten von Kiefern und Eichen zusammen, um die FSC-Abdeckung bis Mitte 2027 von 70% auf 95% unseres Holzbestands zu erweitern."
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Keines davon ist revolutionär-es ist die Art von inkrementeller Arbeit, die sich über Jahre summiert. Wir werden Updates in diesem Journal veröffentlichen, sobald jedes erledigt ist."
-        },
-        {
-          "type": "h2",
-          "text": "Was wir Käufern sagen, die nach \"der nachhaltig sten Option\" fragen"
-        },
-        {
-          "type": "p",
-          "text": "Die ehrliche Antwort lautet: Es gibt keine einzige \"nachhaltig ste\" Wahl. Verschiedene Produkte optimieren für unterschied liche Umwelt dimensionen, und Kompromisse sind immer invol viert. Hier ist das Framework, das wir verwenden, wenn Käufer uns bitten, eine von Nachhaltig keit geleitete Spezifikation zu empfehlen."
-        },
-        {
-          "type": "h3",
-          "text": "1. Niedrigster CO2-Fußabdruck pro Box"
-        },
-        {
-          "type": "p",
-          "text": "Plantage Paulo wnia. Der schnelle Nachwachsen zyklus und die sehr geringe Dichte (weniger Masse bedeutet weniger Energie beim Wachsen, Trocknen, Bearbeiten und Versenden) machen Paulo wnia zur Wahl mit dem niedrigsten Kohlenstoff pro Einheit, die wir anbieten. Für kohlenstoff bewusste Marken, die die Scope 3-Emissionen verfolgen, ist Paulo wnia fast immer die richtige Antwort. Die Optionen finden Sie unter [Leitfaden zu Holz, Oberflächen und Beschlägen](/material-guide)."
-        },
-        {
-          "type": "h3",
-          "text": "2. Niedrigste Auswirkungen auf den Wald"
-        },
-        {
-          "type": "p",
-          "text": "Bambus. Der 5-7-jährige Nachwachsen zyklus (gegenüber 30-60 Jahren für Hartholz) bedeutet, dass Bambus einen Netto-Walde rnte druck von null darstellt, wenn er von FSC-zertifizierten Plantagen stammt. Die Wurzelsysteme stabilisieren auch den Boden und verbessern degradiertes Land. Weitere Hinweise finden Sie unter [Bambus vs. Akazie: Welches Holz für Küchen produkte?](/blog/bamboo-vs-acacia-kitchenware)."
-        },
-        {
-          "type": "h3",
-          "text": "3. Bestes Verhalten am Lebens ende"
-        },
-        {
-          "type": "p",
-          "text": "Massivholz mit Öl-oder Wachs finish, kein Lack. Vollständig kompost ierbar am Ende des Lebens, zerfällt in normalem Boden innerhalb von 3-7 Jahren. Der Lack in Standard oberflächen verhindert die biologische Abbaubarkeit-nur für echte Cradle-to-Cradle-Produkte, Öl oder Wachs. Verfügbare Ausführungen finden Sie in der Kategorie [Aufbewahrungsboxen](/products/storage)."
-        },
-        {
-          "type": "h3",
-          "text": "4. Niedrigste Auswirkungen auf die Raumluft qualität"
-        },
-        {
-          "type": "p",
-          "text": "Lack auf Wasserbasis oder natürliche Öl oberflächen. VOC-Emissionen während des Gebrauchs sind der am meisten übersehene Nachhaltig keits faktor-Produkte, die jahrelang in Innenräumen abgas frei sind, tragen zu Problemen mit der Luftqualität in Innenräumen bei, selbst wenn die Ausgangs materialien technisch \"nachhaltig\" waren."
-        },
-        {
-          "type": "h2",
-          "text": "Warum wir die Dokumentation bei jeder Bestellung versenden"
-        },
-        {
-          "type": "p",
-          "text": "Gerade für europäische Kunden sind Nachhaltig keits ansprüche ohne Dokumentation zunehmend wertlos. Die EU-Entwaldung verordnung, das deutsche Gesetz zur Sorgfalt pflicht in der Lieferkette (LkSG) und die umfassendere CSRD (Corporate Sustain ability Reporting Directive) verlangen von den Importeuren, Umwelt ansprüche mit einer Dokumentation in Audit-Qualität zu belegen. Die Ära \"Wir sind der Nachhaltig keit verpflichtet\" ohne Beweis ist vorbei."
-        },
-        {
-          "type": "p",
-          "text": "Unser Standard-Dokumentation paket zur Nachhaltig keit, das in jeder Sendung enthalten ist, die den Öko-Spezifikationen entspricht:"
-        },
-        {
-          "type": "list",
-          "items": [
-            "FSC-Ursprungs zeugnis mit Chargen rück verfolgbar keit auf Wald bestand oder Plantage",
-            "Pflanzens chutz besch einigung pro ISPM-15 mit Behandlungs datum und IPPC-Kennzeichen",
-            "Emissions prüfbericht beenden (REACH für EU, CARB Phase 2 für USA, beide verfügbar)",
-            "Material erklärung zur Auflistung von Arten, Herkunfts land und Plantagen-/Wald typ",
-            "Schätzung des CO2-Fußabdrucks pro Einheit (berechnet unter Verwendung von DEFRA-Emissions faktoren)",
-            "Leitfaden zur Entsorgung am Ende des Lebens für das Produkt (recycelbarer/kompost ierbarer Status)"
+            "Material, Art, Herkunft und verfügbare Chargenrückverfolgung.",
+            "Geprüfter Zertifikatsumfang und genaue Auftragsaussage, soweit zutreffend.",
+            "Oberflächen- und Klebstoffdaten sowie passende Produktprüfungen.",
+            "Verpackungsaufbau und anwendbare Behandlungs- oder Markierungsbelege.",
+            "Belege für beworbene Recycling-, Abfall- oder CO₂-Aussagen."
           ]
         },
         {
           "type": "h2",
-          "text": "Häufig gestellte Nachhaltig keits fragen"
-        },
-        {
-          "type": "h3",
-          "text": "Lohnt sich die FSC-Prämie?"
+          "text": "Eine auftragsbezogene Spezifikation vorbereiten"
         },
         {
           "type": "p",
-          "text": "Für Produkte, die auf EU-Märkten verkauft werden, oder an Firmen käufer mit Anforderungen an die Nachhaltig keit der Beschaffung: ja, fast immer. Die Kosten prämie von 4 bis 7% wird durch den Markt zugang, die Akzeptanz von Einzelhandel käufern und das verringerte Compliance-Risiko um ein Vielfaches zurück gefordert. Für Produkte, die in Märkten verkauft werden, in denen FSC kommerziell nicht relevant ist: wahr schein lich nicht, es sei denn, die Marke vermarktet die Zertifizierung speziell an Verbraucher."
-        },
-        {
-          "type": "h3",
-          "text": "Soll ich recycelte Materialien in meiner Verpackung verwenden?"
-        },
-        {
-          "type": "p",
-          "text": "Für Papier außen kartons, Hüllen und Gewebe: Ja, Recycling gehalt ist weit verbreitet und kosten neutral. Standard mäßig verwenden wir für fast alle Sekundär verpackungen mehr als 80% Post-Consumer-Recycling papier. Für Holzkisten selbst: nicht wirklich-recyceltes Holz gibt es selten in der gleich bleibenden Qualität und den Abmessungen, die für Kästen benötigt werden. Konzentrieren Sie sich besser auf FSC-zertifizierte jungfräuliche Materialien mit dokumentierter Herkunft."
-        },
-        {
-          "type": "h3",
-          "text": "Was ist mit CO2-Ausgleichs zahlungen für die Schifffahrt?"
-        },
-        {
-          "type": "p",
-          "text": "Wir gleichen unsere Lieferungen derzeit nicht standard mäßig aus-Käufer, die einen Ausgleich wünschen, tun dies durch ihre eigenen Kohlenstoff programme (häufig Climate Neutral, Pachama oder unternehmens spezifische Vereinbarungen). Wir können Schätzungen des CO2-Fußabdrucks pro Sendung bereitstellen, wenn dies für Kompensation berechnungen erforderlich ist. Seefracht ist ein relativ kohlenstoff armer Modus pro kg-km; Luftfracht ist das Kohlenstoff problem und wir empfehlen den Käufern dringend, Luftfracht für Holzkisten zu vermeiden, wo immer dies möglich ist."
-        },
-        {
-          "type": "h3",
-          "text": "Sind Bambus bretter wirklich so umwelt freundlich wie die Leute sagen?"
-        },
-        {
-          "type": "p",
-          "text": "Meistens ja, mit einer Einschränkung. Bambus anbau ist wirklich nachhaltig. Bei der Herstellung von Bambus werden Streifen mit Klebstoffen laminiert-und billige Lieferanten verwenden Klebstoffe auf Formaldehyd basis, die die Luftqualität standards der EU und Kaliforniens nicht erfüllen. Seriöse Lieferanten (wir arbeiten mit E0 und E1-grade laminatoren) verwenden emissions arme Klebstoffe. Fragen Sie immer nach Emissions testberichten, wenn Sie das Produkt als Öko-Prämie positionieren. Billiger Bambus kann eine schlechtere Umwelt geschichte sein als nachdenkliches Hartholz."
-        },
-        {
-          "type": "quote",
-          "text": "Nachhaltig keits ansprüche, die nicht dokumentiert werden können, sind Marketing. Die Zertifikate und Prüfungs pfade sind das, was Ihre Kunden, Aufsichts behörden und Prüfer tatsächlich akzeptieren."
-        },
-        {
-          "type": "p",
-          "text": "Für Käufer, die uns gegenüber anderen Fabriken bewerten, empfehlen wir Ihnen, allen in Ihrer Short list dieselben Dokumentation fragen zu stellen: FSC-Zertifikat, REACH/CARB-Compliance-Berichte, Phyto-Registrierung und Prüfungs verlauf. Die Fabriken, die die Dokumente innerhalb von 48 Stunden produzieren können, sind die Fabriken, die die Praktiken tatsächlich leben. Alle anderen verkaufen Ihnen die Marketing version. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
+          "text": "Unsere MOQ beträgt 200 Stück je Design für OEM, ODM und Produktionsprobeläufe. Nennen Sie bei der [Angebotsanfrage](/contact#inquiry) Zielmarkt, Verwendung, Material und benötigte Nachweise. So können wir umsetzbaren Aufbau und verfügbare Auftragsunterlagen bestätigen."
         }
-      ]
+      ],
+      "updated": "2026-10-19"
     },
     "oem-vs-odm-wooden-boxes": {
       "title": "OEM vs. ODM: Welches ist das Richtige für Ihr Holzkisten projekt?",

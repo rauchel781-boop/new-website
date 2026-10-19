@@ -13,6 +13,7 @@
 // Rendered on demand with the bundled Edge renderer and ImageResponse caching.
 
 import { ImageResponse } from 'next/og';
+import { SITE } from '@/data/site-config';
 
 export const runtime = 'edge';
 export const alt =
@@ -84,7 +85,7 @@ export default function OgImage() {
                 fontFamily: 'sans-serif',
               }}
             >
-              Wooden Expert · Est. 2010
+              Wooden Expert · Founded in {SITE.company.foundingYear}
             </div>
           </div>
         </div>

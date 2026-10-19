@@ -354,9 +354,12 @@ export default {
       "title": "EVA, EPE, velluto o feltro: quale inserto scegliere per le scatole in legno",
       "excerpt": "Guida completa alla scelta del materiale d'inserto per le tue scatole in legno. Spugna EVA, spugna EPE, velluto e feltro a confronto su protezione, costo, estetica e sostenibilità.",
       "category": "Materiali",
-      "readTime": "12 min di lettura",
+      "readTime": "5 min di lettura",
       "body": [
-        { type: 'p', text: "Prima di definire le specifiche, consulta [Perché un MOQ di 200 pezzi è il modo più intelligente per iniziare](/blog/low-moq-sampling-strategy)." },
+        {
+          "type": "p",
+          "text": "Prima di definire le specifiche, consulta [Perché un MOQ di 200 pezzi è il modo più intelligente per iniziare](/blog/low-moq-sampling-strategy)."
+        },
         {
           "type": "p",
           "text": "Quando si progetta una scatola in legno su misura, il materiale dell'inserto conta quanto la scatola stessa. La scelta sbagliata porta a prodotti danneggiati, costi più alti o una presentazione che non convince il cliente. In questa guida confrontiamo quattro materiali diffusi — spugna EVA, spugna EPE, velluto e feltro — sui criteri che decidono davvero: livello di protezione, rapporto costo-efficacia, estetica, impatto ambientale e possibilità di personalizzazione. Consulta i modelli disponibili nella categoria [Scatole Regalo e Imballaggio](/products/gift-packaging)."
@@ -367,40 +370,40 @@ export default {
         },
         {
           "type": "p",
-          "text": "Partiamo da una fotografia rapida di ciascun materiale. L'EVA (etilene vinil acetato) è una spugna a celle chiuse nota per densità, durata ed eccellente resistenza agli urti. L'EPE (polietilene espanso) è una spugna a celle aperte, leggera, flessibile ed economica. Il velluto è un tessuto morbido e vellutato, dalla texture ricca e dall'aspetto premium. Il feltro è un non tessuto di fibre di lana pressate, con finitura morbida e opaca, sempre più richiesto dai marchi attenti all'ambiente."
+          "text": "EVA ed EPE sono schiume a cellule chiuse. L’EVA permette supporti sagomati, mentre il polietilene espanso (EPE) è usato per imbottiture leggere. Le prestazioni dipendono da qualità, spessore e geometria. Il velluto è un tessuto di superficie; il feltro è un non tessuto di lana, fibre sintetiche o miste. Nessuno dei due tessuti garantisce da solo la protezione nel trasporto."
         },
         {
           "type": "table",
           "headers": [
             "Materiale",
-            "Tipo",
-            "Uso principale",
-            "Punto di forza"
+            "Costruzione",
+            "Funzione tipica",
+            "Verifiche"
           ],
           "rows": [
             [
-              "Spugna EVA",
-              "Polimero sintetico",
-              "Protezione dagli urti",
-              "Assorbimento urti superiore"
+              "Schiuma EVA",
+              "Cellule chiuse",
+              "Supporto sagomato e ammortizzazione",
+              "Qualità, densità, durezza e adattamento"
             ],
             [
-              "Spugna EPE",
-              "Spugna di polietilene",
-              "Imbottitura generica",
-              "Leggera ed economica"
+              "Schiuma EPE",
+              "Polietilene a cellule chiuse",
+              "Cuscinetti, angolari e imbottitura",
+              "Qualità, spessore e prova con carico"
             ],
             [
               "Velluto",
-              "Tessuto (sintetico/naturale)",
-              "Presentazione di lusso",
-              "Estetica premium"
+              "Tessuto o floccaggio specificato separatamente",
+              "Presentazione e contatto",
+              "Fibra, supporto, adesione e trasferimento di colore"
             ],
             [
               "Feltro",
-              "Fibre di lana/sintetiche pressate",
-              "Imbottitura ecologica",
-              "Sostenibile e morbido"
+              "Non tessuto di lana, fibre sintetiche o miste",
+              "Rivestimenti, divisori e contatto",
+              "Composizione, spessore e abrasione"
             ]
           ]
         },
@@ -410,7 +413,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'EVA (etilene vinil acetato) è una spugna a celle chiuse nota per densità, durata ed eccellente resistenza agli urti. È il materiale dei tappetini da yoga, delle suole e degli imballaggi per elettronica di fascia alta. L'EVA assorbe gli urti in modo eccellente, con una durezza di 40-60 Shore C. Si fustella con precisione e può essere floccato con velluto per una finitura di lusso. Il prezzo è il più alto, ma è ideale per elettronica di valore come orologi, fotocamere e telefoni, per strumenti medicali, per utensili che richiedono un alloggiamento esatto e per prodotti il cui imballo verrà riutilizzato. Per un esempio a catalogo, consulta [Box Regalo Magnetica di Lusso](/products/gift-packaging/luxury-magnetic-gift-box)."
+          "text": "La schiuma EVA può essere tagliata per trattenere un prodotto, ma il nome non ne definisce le prestazioni. Richiedere qualità, densità in kg/m³, spessore e metodo di prova della durezza. Shore C è una scala di durezza, non un’unità di densità: i valori vanno registrati separatamente. Approvare materiale e adattamento con un campione caricato. Vedere la [confezione regalo magnetica di lusso](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "h2",
@@ -418,7 +421,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'EPE (polietilene espanso) è una spugna a celle aperte, leggera, flessibile ed economica. È il «pluriball» delle spugne: morbido, cedevole ed eccellente per l'imbottitura generica. L'EPE assorbe bene gli urti con una durezza inferiore, di 20-30 Shore C, quindi è più morbido e comprimibile dell'EVA. È conveniente, riciclabile e a basse emissioni di produzione. L'EPE va bene quando serve una protezione moderata, per imballi cumulativi nella spedizione di più unità, per progetti con budget contenuto e per prodotti di forma regolare che non richiedono profili complessi. Per maggiori dettagli, consulta [Quanto costano le scatole di legno personalizzate? Una guida ai prezzi all'ingrosso e OEM per il 2026](/blog/custom-wooden-box-cost-2026)."
+          "text": "L’EPE è polietilene espanso a cellule chiuse, non aperte. Può formare cuscinetti, angolari e supporti sagomati. Scegliere qualità e spessore in base a peso e trasporto, senza presumere che sia sempre più morbido o meno protettivo dell’EVA. Il riciclo dipende dalla raccolta locale delle schiume PE e dalla separabilità di tessuti e adesivi. Consultare la [guida ai costi](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "h2",
@@ -426,15 +429,15 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il velluto è un tessuto morbido e vellutato (seta naturale o poliestere) dalla texture ricca e dall'aspetto premium. Si usa comunemente in portagioie, confezioni di profumo e set regalo di fascia alta. Da solo assorbe pochissimo e richiede un'imbottitura sotto, ma offre una sensazione di lusso impareggiabile e ottime possibilità di personalizzazione. Il velluto è ideale per gioielleria e oggetti preziosi, profumeria e cosmetica, regali di lusso e premi, e per i prodotti in cui conta il momento dell'apertura. Molti marchi lo combinano con la spugna: EVA o EPE come strato ammortizzante di base e flocking di velluto sopra per l'estetica. Per maggiori dettagli, consulta [Anatomia di una grande scatola di orologio in legno](/blog/wooden-watch-box-anatomy)."
+          "text": "Il velluto può essere applicato come tessuto; il floccaggio è un processo distinto. Confermare fibra, supporto, adesivo e solidità del colore. La superficie può limitare gli sfregamenti e migliorare la presentazione, ma l’ammortizzazione dipende dalla struttura sottostante. Confrontare le soluzioni nella [guida alle scatole per orologi](/blog/wooden-watch-box-anatomy)."
         },
         {
           "type": "h2",
-          "text": "Feltro: classico e sostenibile"
+          "text": "Feltro: verificare fibre e costruzione"
         },
         {
           "type": "p",
-          "text": "Il feltro è un non tessuto di fibre di lana pressate (o alternative sintetiche). Offre una finitura morbida e opaca ed è sempre più richiesto dai marchi attenti all'ambiente. Ammortizza in modo moderato con un lusso elegante e discreto. Si taglia, si tinge e si modella facilmente, il che apre ampie possibilità di personalizzazione. Il feltro di lana è biodegradabile ed esistono versioni in sintetico riciclato, il che lo rende l'opzione più sostenibile. Il feltro va bene per marchi ecologici, prodotti artigianali, articoli di peso medio come libri, ceramica e vetreria, e per marchi che cercano un'estetica naturale. Per maggiori dettagli, consulta [5 tecniche di finitura che cambiano l'aspetto e la sensazione di una scatola di legno](/blog/wooden-box-finishing-techniques)."
+          "text": "Il feltro può contenere lana, poliestere, fibre riciclate o miscele. Specificare composizione, spessore, resistenza all’abrasione, supporto e adesivo. Fibre naturali o riciclate non dimostrano da sole riciclabilità, compostabilità o minore impatto ambientale. Verificare le prove del materiale concreto. Consultare la [guida a finiture e marchi](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -442,59 +445,38 @@ export default {
         },
         {
           "type": "p",
-          "text": "Confrontando i quattro materiali sui criteri chiave, ognuno ha punti di forza netti. La spugna EVA eccelle nella protezione (5/5 stelle) ma al prezzo più alto ($$$). La spugna EPE offre buona protezione (4/5 stelle) al prezzo più basso ($). Il velluto protegge poco (2/5 stelle) ma è imbattibile nell'estetica (5/5 stelle), a prezzo premium. Il feltro offre protezione moderata (3/5 stelle) con ottima sostenibilità (5/5 stelle) nella fascia media ($$)."
+          "text": "Il nome del materiale non consente una valutazione universale della protezione o sostenibilità. Confrontare qualità diverse con lo stesso prodotto, imballaggio e condizioni di prova. Questi controlli indicano quali dati richiedere prima dell’approvazione."
         },
         {
           "type": "table",
           "headers": [
-            "Criterio",
-            "Spugna EVA",
-            "Spugna EPE",
+            "Controllo",
+            "Schiuma EVA",
+            "Schiuma EPE",
             "Velluto",
             "Feltro"
           ],
           "rows": [
             [
-              "Livello di protezione",
-              "⭐⭐⭐⭐⭐",
-              "⭐⭐⭐⭐",
-              "⭐⭐",
-              "⭐⭐⭐"
+              "Protezione",
+              "Testare qualità e geometria",
+              "Testare qualità e geometria",
+              "Valutare il supporto ammortizzante",
+              "Valutare spessore e supporto"
             ],
             [
               "Costo",
-              "$$$",
-              "$",
-              "$$$",
-              "$$"
+              "Quotare qualità, taglio e attrezzaggio",
+              "Quotare qualità, taglio e attrezzaggio",
+              "Quotare tessuto e applicazione",
+              "Quotare fibra e taglio"
             ],
             [
-              "Estetica",
-              "⭐⭐⭐⭐",
-              "⭐⭐",
-              "⭐⭐⭐⭐⭐",
-              "⭐⭐⭐⭐"
-            ],
-            [
-              "Personalizzazione",
-              "⭐⭐⭐⭐⭐",
-              "⭐⭐⭐",
-              "⭐⭐⭐⭐",
-              "⭐⭐⭐⭐"
-            ],
-            [
-              "Sostenibilità",
-              "⭐⭐",
-              "⭐⭐⭐",
-              "⭐⭐⭐",
-              "⭐⭐⭐⭐⭐"
-            ],
-            [
-              "Ideale per",
-              "Elettronica, utensili",
-              "Spedizioni cumulative",
-              "Gioielli, profumi",
-              "Marchi eco, artigianato"
+              "Fine vita",
+              "Confermare raccolta e separazione",
+              "Confermare raccolta e separazione",
+              "Confermare fibra, supporto e adesivo",
+              "Confermare fibra, supporto e adesivo"
             ]
           ]
         },
@@ -504,15 +486,15 @@ export default {
         },
         {
           "type": "p",
-          "text": "Usa questo schema per scegliere il materiale dell'inserto. Primo, valuta la fragilità del prodotto: articoli fragili come elettronica e vetro richiedono EVA o EPE, quelli di fragilità media si adattano a EPE o feltro, quelli robusti funzionano bene con velluto o feltro. Secondo, definisci il budget: i budget premium ($$$) reggono EVA o velluto, la fascia media ($$) si sposa col feltro, i progetti contenuti ($) dovrebbero usare EPE. Terzo, considera il posizionamento del marchio: i marchi di lusso guadagnano con velluto su base EVA, quelli ecologici dovrebbero scegliere il feltro, quelli tecnologici e professionali si sposano con l'EVA, quelli orientati al prezzo con l'EPE. Infine, valuta i volumi: gli ordini oltre 1.000 pezzi sfruttano la fustellatura automatizzata di EVA o EPE, i volumi medi da 100 a 1.000 pezzi ammettono qualsiasi materiale, e sotto i 100 pezzi feltro e velluto sono più facili da lavorare a mano. Consulta le opzioni in [guida a legni, finiture e ferramenta](/material-guide)."
+          "text": "Partire da peso, punti fragili, sensibilità superficiale e percorso di spedizione. Definire giochi interni e modalità di estrazione. Confrontare un supporto in schiuma con una variante rivestita e testare l’intera confezione. Taglio e attrezzaggio influiscono sul prezzo; il nostro MOQ produttivo resta 200 pezzi per modello. Vedere la [guida a materiali e ferramenta](/material-guide)."
         },
         {
           "type": "h2",
-          "text": "Casi reali"
+          "text": "Esempi applicativi indicativi"
         },
         {
           "type": "p",
-          "text": "Un marchio di orologi di lusso doveva proteggere segnatempo di alto valore mantenendo una presentazione premium: ha adottato uno strato base di spugna EVA fustellata a forma di orologio con uno strato superiore di flocking in velluto sulla superficie EVA, ottenendo protezione 5 stelle più un'apertura di lusso, a 3-5 $ per inserto. Un laboratorio artigianale di candele cercava un imballo ecologico per candele fatte a mano e ha usato inserti in feltro di lana tagliati su misura per i vasi; l'immagine naturale e sostenibile era in linea con il marchio e ha prodotto un aumento del 30 % dei riacquisti, a 1,50-2 $ per inserto. Un e-commerce di elettronica che spediva altoparlanti Bluetooth su larga scala ha scelto paraspigoli in EPE con cuscino centrale, riducendo il costo di spedizione a peso e portando il tasso di danni dal 5 % a meno dell'1 %, a 0,50-0,80 $ per inserto. Per un esempio a catalogo, consulta [Vetrina Display Tre Orologi](/products/watch-jewelry/three-watch-display-case)."
+          "text": "Per un orologio, confrontare supporto in schiuma e cuscino rivestito. Per una candela in vetro, valutare adattamento, distanza vetro-legno e perdite. Per l’elettronica, verificare eventuali proprietà antistatiche oltre all’ammortizzazione. Sono esempi progettuali, non risultati misurati di clienti o preventivi. Vedere la [custodia per tre orologi](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h2",
@@ -520,7 +502,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ordina sempre campioni con il prodotto reale e fai una prova di caduta da altezza fianco: se il prodotto regge, l'inserto funziona. Ragiona sull'intero ciclo di vita: per lo stoccaggio, verifica se le scatole verranno impilate, perché EVA ed EPE resistono meglio alla compressione; per il trasporto, le spedizioni internazionali richiedono la protezione più decisa dell'EVA; per il riutilizzo, i marchi di lusso guadagnano con inserti durevoli che il cliente conserva, come EVA più velluto. Non limitarti a un solo materiale: gli inserti migliori spesso combinano una base in EVA per la struttura con velluto sopra per l'estetica, oppure un cuscino in EPE con divisori in feltro per unire ecologia e funzione."
+          "text": "Testare campioni con prodotto reale, confezione commerciale e cartone esterno. Concordare prove di caduta, vibrazione e compressione adatte al percorso e al carico: una sola caduta informale non convalida l’imballaggio. Verificare anche recupero dopo stoccaggio, segni, odore ed estrazione. Registrare qualità e costruzione approvate per riprodurre il campione."
         },
         {
           "type": "p",
@@ -532,9 +514,18 @@ export default {
         },
         {
           "type": "p",
-          "text": "Scegliere l'inserto giusto per le tue scatole in legno significa bilanciare protezione, costo, estetica e valori del marchio. La spugna EVA offre protezione e personalizzazione premium a $$$, e si ripaga sui prodotti di alto valore. La spugna EPE dà un'imbottitura leggera ed economica per l'uso generale, a $. Il velluto garantisce una presentazione di lusso e rende al meglio su una base in spugna, a $$$. Il feltro è ecologico, elegante e versatile, a $$. Per la maggior parte dei progetti di scatole in legno su misura consigliamo di partire dalla spugna EVA come base e aggiungere velluto o feltro sopra se il budget lo consente. Così ottieni il meglio di entrambi: una protezione di cui fidarti e una presentazione che conquista. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
+          "text": "Scegliere l’inserto come parte dell’intero imballaggio. EVA ed EPE possono ammortizzare se correttamente specificati; velluto e feltro possono fornire superficie di contatto o rivestimento. Nessun materiale è automaticamente il più sicuro o sostenibile. Per confrontare costruzioni, [richiedere un preventivo](/contact#inquiry) con dimensioni, peso e destinazione."
+        },
+        {
+          "type": "h2",
+          "text": "Riferimenti tecnici"
+        },
+        {
+          "type": "p",
+          "text": "Struttura e riciclo: [guida PE di Sealed Air](https://www.sealedair.com/products/protective-packaging/polyethylene-foam/cell-aire). Durezza: [guida alle prove Shore di Bareiss](https://bareiss.de/en/support-downloads-en/customer-support). Dati verificati il 19 ottobre 2026."
         }
-      ]
+      ],
+      "updated": "2026-10-19"
     },
     "wooden-box-closure-types-compared": {
       "title": "Chiusure per scatole in legno a confronto: scorrevole, a cerniera, magnetica, a cassetto e con serratura",
@@ -2575,237 +2566,128 @@ export default {
       ]
     },
     "sustainable-sourcing-2026": {
-      "title": "Le nostre pratiche di approvvigionamento sostenibile nel 2026",
-      "excerpt": "Catena di custodia FSC, paulownia coltivata in piantagioni, finiture a basso contenuto di COV e come manteniamo i rifiuti di legno sotto l'8 %, scritti per gli acquirenti che devono effettivamente difendere la loro catena di approvvigionamento.",
+      "title": "Approvvigionamento sostenibile di scatole in legno: guida 2026",
+      "excerpt": "Controlli per acquistare scatole di legno: dichiarazioni FSC, scadenze EUDR, materiali, finiture, imballaggio per esportazione e prove ambientali.",
       "category": "Sostenibilità",
-      "readTime": "9 min di lettura",
+      "readTime": "4 min di lettura",
       "body": [
-        { type: 'p', text: 'Prima di definire le specifiche, consulta [Approvvigionarsi di scatole di legno personalizzate dalla Cina nel 2026: il playbook del buyer B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
-          "text": "La sostenibilità era una linea di marketing. Oggi è un requisito di approvvigionamento dalla maggior parte dei marchi europei, giapponesi e Amazon che serviamo: una serie di certificazioni specifiche, documenti e audit dei fornitori che devono essere cancellate prima di qualsiasi scatola."
+          "text": "Prima di definire le specifiche, consulta [Approvvigionarsi di scatole di legno personalizzate dalla Cina nel 2026: il playbook del buyer B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
         },
         {
           "type": "p",
-          "text": "Questo articolo è l'aspetto delle nostre pratiche effettive nel 2026, scritto per l'acquirente che deve difendere la propria catena di fornitura a un responsabile della sostenibilità, un team di conformità del Registro dei marchi Amazon o un revisore CBAM dell'UE. Nessuna affermazione vaga, solo quello che facciamo e i documenti che possiamo produrre per dimostrarlo."
+          "text": "Valutare l’acquisto di scatole di legno con specifiche scritte e prove sulla filiera concreta. Usare questa lista per confermare ambito dei certificati, rapporti di prova e documenti di origine disponibili per i materiali e i fornitori scelti prima di effettuare l’ordine."
         },
         {
           "type": "h2",
-          "text": "Catena di custodia FSC-e cosa significa veramente"
+          "text": "Dichiarazioni FSC: verificare l’intera filiera"
         },
         {
           "type": "p",
-          "text": "Ogni specie nel nostro catalogo-paulownia, pino, bambù, acacia, noce e quercia-è disponibile con certificazione FSC (Forest Stewardship Council) su richiesta. Disponiamo della certificazione della catena di custodia FSC tramite i nostri fornitori di legname, il che significa che è documentata la tracciabilità dal banco forestale o dalla piantagione al container. Per maggiori dettagli, consulta [Come scegliere il legno giusto per l'imballaggio regalo](/blog/choosing-wood-for-gift-packaging)."
+          "text": "Non si può adottare come propria la certificazione di un fornitore di legname. Verificare titolare, validità, ambito di prodotto e dichiarazione nei documenti di vendita. Consultare la [guida alla scelta del legno](/blog/choosing-wood-for-gift-packaging) e la [catena di custodia FSC](https://fsc.org/en/chain-of-custody)."
         },
         {
-          "type": "p",
-          "text": "La cosa importante da capire su FSC è che la certificazione copre il legno, non la scatola. Le nostre scatole sono certificate FSC quando entrambi (a) il legname proviene da fornitori certificati FSC E (b) il lotto di produzione passa attraverso la nostra catena di custodia certificata. Dobbiamo tenere registri dei lotti, separare le scorte FSC dalle scorte non FSC durante la produzione e produrre un certificato per spedizione che risale alla fonte."
-        },
-        {
-          "type": "p",
-          "text": "Per gli acquirenti che vendono nell'UE, questo è sempre più non facoltativo. Il regolamento UE sulla deforestazione (EUDR), entrato in vigore nel 2025, richiede agli importatori di prodotti in legno di dimostrare che il legno non è collegato alla deforestazione dopo il 31 dicembre 2020. La certificazione FSC è il modo più semplice per soddisfare questo requisito."
-        },
-        {
-          "type": "p",
-          "text": "Addebito un piccolo premio (in genere 4-7%) per gli ordini FSC per coprire i costi aggiuntivi di documentazione e segregazione. Per la maggior parte degli acquirenti questo viene recuperato molte volte nei mercati che apre."
+          "type": "list",
+          "items": [
+            "Confermare codice e ambito dei certificati dei soggetti coinvolti.",
+            "Confermare dichiarazione in uscita e registri di acquisto e lotto.",
+            "Concordare etichette FSC solo dopo avere verificato catena di custodia e autorizzazioni."
+          ]
         },
         {
           "type": "h2",
-          "text": "Paulownia-piantagione-coltivata per definizione"
+          "text": "EUDR: date attuali di applicazione"
         },
         {
           "type": "p",
-          "text": "[Paulownia](/products/paulownia) è la cosa più vicina che l'industria della lavorazione del legno ha a un legname rinnovabile. Gli alberi maturano in 5-7 anni (contro i 30-60 anni per la quercia o la noce) e quasi tutta la paulownia commerciale è coltivata a piantagioni piuttosto che raccolta da foreste naturali."
+          "text": "Verifica del 19 ottobre 2026: applicazione dal 30 dicembre 2026 per operatori grandi e medi, dal 30 giugno 2027 per la maggior parte dei micro e piccoli operatori. Quelli già soggetti all’EUTR iniziano il 30 dicembre 2026. Consultare il [calendario della Commissione europea](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en)."
         },
         {
           "type": "p",
-          "text": "La nostra paulownia proviene da piantagioni gestite nelle province di Henan e Anhui. Le piantagioni sono di proprietà di cooperative agricole che ruotano i raccolti in modo che circa 1/6 della superficie coltivata venga raccolta ogni anno, con nuove piantine piantate per sostituire gli alberi raccolti. Il risultato è un continuo approvvigionamento di legname che non riduce lo stock forestale."
+          "text": "Confermare prodotti interessati, ruolo aziendale e prove necessarie per l’ordine. FSC può supportare la verifica, ma non sostituisce la dovuta diligenza EUDR né attesta automaticamente la conformità. Vedere le [indicazioni FSC sull’EUDR](https://uk.fsc.org/eudr-and-fsc)."
+        },
+        {
+          "type": "h2",
+          "text": "Origine e specifiche delle finiture"
         },
         {
           "type": "p",
-          "text": "Per gli acquirenti con eco-posizionamento esplicito, paulownia è la scelta ovvia e possiamo documentare la fonte della piantagione su richiesta."
+          "text": "La [paulownia](/products/paulownia) può ridurre il peso, ma la specie da sola non prova origine da piantagione o minore impronta di carbonio. Richiedere specie, paese di raccolta e documenti disponibili per il lotto effettivo."
+        },
+        {
+          "type": "p",
+          "text": "Specificare formulazione, indurimento e ambito dei test con la [guida alle finiture](/blog/wooden-box-finishing-techniques). Una finitura all’acqua non è automaticamente priva di COV. CARB Phase 2 riguarda la formaldeide dei pannelli compositi interessati, non un’approvazione generale dei COV dei rivestimenti; vedere le [FAQ CARB](https://ww2.arb.ca.gov/resources/documents/consumer-faq)."
+        },
+        {
+          "type": "p",
+          "text": "Oli o cere naturali non sono automaticamente idonei al contatto alimentare. Se previsto, confermare formulazione, indurimento e prove per mercato e condizioni di contatto. Ogni rapporto deve corrispondere a materiale e prodotto ordinati."
         },
         {
           "type": "img",
           "src": "/factory/material.webp",
-          "caption": "Paulownia coltivata in piantagioni nel nostro deposito di legname"
+          "caption": "Scorte di legno per la produzione"
         },
         {
           "type": "h2",
-          "text": "Finiture a basso VOC (conformi a REACH e CARB)"
+          "text": "Scarti, riuso e dichiarazioni"
         },
         {
           "type": "p",
-          "text": "I composti organici volatili (COV) sono i prodotti chimici di sgrassatura che producono il \"nuovo odore di scatola\" e che, a concentrazioni più elevate, contribuiscono ai problemi di qualità dell'aria interna. Le lacche di nitrocellulosa standard, che sono l'opzione di finitura più economica, possono staccare il gas a livelli che non superano i limiti di fase 2 di EU REACH e US CARB. Per maggiori dettagli, consulta [5 tecniche di finitura che cambiano l'aspetto e la sensazione di una scatola di legno](/blog/wooden-box-finishing-techniques)."
+          "text": "Richiedere piano di taglio e misurazioni prima di pubblicare percentuali di riduzione degli scarti. Confrontare i processi nella [guida alla produzione](/blog/six-step-manufacturing-process). Descrivere riuso e riciclo degli scarti solo con destinazione documentata."
         },
         {
           "type": "p",
-          "text": "Abbiamo spostato il nostro traguardo in lacche a base d'acqua come impostazione predefinita. Le finiture a base d'acqua contengono una frazione del contenuto di VOC di nitrocellulosa, si asciugano più velocemente e producono un risultato visivo simile. Il compromesso è il costo (circa il 15% in più al litro) e una costruzione della pellicola leggermente più sottile, che compensiamo con un cappotto in più."
+          "text": "Per il bambù verificare pannello laminato, adesivo e test sulle emissioni: la crescita rapida non rende preferibile ogni pannello finito. Vedere il [confronto bambù-acacia](/blog/bamboo-vs-acacia-kitchenware). Verificare i contenuti riciclati nei registri del fornitore."
         },
         {
           "type": "p",
-          "text": "Per i prodotti premium utilizziamo finiture a olio vegetale naturale-olio di tung, olio di lino, cera d'api. Zero VOC, completamente sicuro per il cibo e la superficie invecchia magnificamente. Il rovescio della medaglia sono tempi di cura più lunghi (fino a 72 ore per mano) e un'applicazione più impegnativa: queste finiture non sono appropriate per i prodotti economici ad alto volume."
-        },
-        {
-          "type": "p",
-          "text": "Tutte le finiture che offriamo sono documentate per la conformità REACH (UE), CARB Fase 2 (USA) e la sicurezza del contatto alimentare FDA (ove applicabile). I rapporti di prova sono disponibili su richiesta."
+          "text": "Progettare per il riuso e la separazione di legno, ferramenta e rivestimenti. Oli, cere, lacche e adesivi influenzano lo smaltimento; non promettere compostabilità domestica o tempi fissi di decomposizione senza prove. Confrontare le [scatole contenitore riutilizzabili](/products/storage)."
         },
         {
           "type": "h2",
-          "text": "Riduzione dei rifiuti in dimensioni ridotte"
+          "text": "Imballaggio export e salute delle piante"
         },
         {
           "type": "p",
-          "text": "I rifiuti di legno sono il problema della sostenibilità non sexy. La maggior parte delle fabbriche genera il 18-25% di rifiuti fuori taglio dalle loro operazioni tagliate su dimensioni, materiale che viene pagato ma finisce per essere bruciato per il calore della biomassa o inviato in discarica. Per maggiori dettagli, consulta [All'interno del nostro processo di produzione della scatola di legno in 6 fasi](/blog/six-step-manufacturing-process)."
+          "text": "L’ISPM 15 disciplina alcuni imballaggi in legno. Imballaggi in legno trasformato e alcune scatole regalo fabbricate esenti da organismi nocivi possono essere esclusi: non tutti i prodotti hanno identici requisiti. Consultare [IPPC ISPM 15](https://www.ippc.int/en/publications/91395/) e le nostre [capacità produttive](/capabilities)."
         },
         {
           "type": "p",
-          "text": "Il nostro software di nidificazione ottimizza i layout delle parti su ciascuna scheda per spingere i rifiuti tagliati al di sotto del 12% sulla maggior parte degli ordini e al di sotto dell'8 % sugli SKU standard che eseguiamo ripetutamente. Per fare un confronto, una riduzione del 4% dei rifiuti su un contenitore di paulownia di 20 piedi è di circa $400-600 di materiale risparmiato, piccolo per unità ma significativo in termini di volume."
-        },
-        {
-          "type": "p",
-          "text": "I ritagli rimanenti vanno in una struttura gemella che produce perline di legno, manici, tiranti per cassetti e piccoli componenti torniti. Quasi nulla raggiunge la discarica. La segatura viene raccolta e venduta a un produttore di pannelli di particelle nello stesso parco industriale. L'unico vero spreco del nostro processo è l'assetto dalle estremità delle tavole, che va al riscaldamento a biomassa locale."
+          "text": "Per gli imballaggi inclusi, confermare trattamento approvato e marchio autorizzato. Nell’ISPM 15 il marchio sostituisce generalmente il certificato fitosanitario dell’imballaggio. Verificare separatamente i requisiti del prodotto con importatore o autorità di destinazione; non ogni scatola richiede un certificato individuale."
         },
         {
           "type": "h2",
-          "text": "Documentazione fitosanitaria"
+          "text": "Confrontare gli impatti con prove"
         },
         {
           "type": "p",
-          "text": "Tutte le spedizioni di legno massiccio partono con certificati fitosanitari rilasciati dalla dogana cinese, confermando che il legno è trattato e privo di parassiti secondo gli standard ISPM-15 (lo standard internazionale per il materiale da imballaggio in legno). Questo è fondamentale per le spedizioni verso l'UE, gli Stati Uniti, l'Australia, il Giappone e la Corea: senza i certificati fito, il tuo container può essere messo in quarantena o rifiutato nel porto di destinazione. Consulta le opzioni in [Capacità](/capabilities)."
-        },
-        {
-          "type": "p",
-          "text": "La nostra struttura è registrata per il trattamento termico ISPM-15 e i nostri prodotti finiti portano il timbro IPPC che mostra la data di trattamento e il codice della nostra struttura. Il certificato phyto accompagna la polizza di carico e sgombra con la documentazione doganale in meno di 24 ore presso la maggior parte dei porti."
+          "text": "Confrontare progetti con lo stesso uso e durata. Contano massa, essiccazione, lavorazione, trasporto e smaltimento. Il confronto del carbonio richiede metodo e confini definiti; certificazione o bassa densità non provano un’impronta minima. Usare la [guida ai materiali](/material-guide) per specifiche confrontabili."
         },
         {
           "type": "h2",
-          "text": "Quello che dobbiamo ancora fare meglio"
-        },
-        {
-          "type": "p",
-          "text": "La sostenibilità non è una casella che controlli: è una direzione continua. Tre cose su cui stiamo lavorando per il 2026-2027:"
+          "text": "Documenti da concordare prima della produzione"
         },
         {
           "type": "list",
           "items": [
-            "Passare tutti i carrelli elevatori interni e i veicoli da cantiere all'elettrico. Attualmente il 60% della nostra flotta interna è elettrica; l'obiettivo è il 100% entro la fine del 2026.",
-            "Installazione di solare sul tetto attraverso i nostri due principali edifici di produzione. Stimato per coprire il 30-40% del nostro carico di elettricità diurna.",
-            "Collaborare con i nostri fornitori di pino e quercia per espandere la copertura FSC dal 70% al 95% del nostro stock di legname entro la metà del 2027."
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Nessuno di questi è rivoluzionario: sono il tipo di lavoro incrementale che si somma nel corso degli anni. Pubblicheremo aggiornamenti su questo giornale man mano che ognuno verrà fatto."
-        },
-        {
-          "type": "h2",
-          "text": "Cosa diciamo agli acquirenti che chiedono \"l'opzione più sostenibile\""
-        },
-        {
-          "type": "p",
-          "text": "La risposta onesta è: non esiste un'unica scelta \"più sostenibile\". Prodotti diversi ottimizzano per dimensioni ambientali diverse e sono sempre coinvolti compromessi. Ecco la struttura che utilizziamo quando gli acquirenti ci chiedono di raccomandare una specifica guidata dalla sostenibilità."
-        },
-        {
-          "type": "h3",
-          "text": "1. Impronta di carbonio più bassa per scatola"
-        },
-        {
-          "type": "p",
-          "text": "La piantagione di Paulownia. Il ciclo di ricrescita veloce e la densità molto bassa (meno massa significa meno energia incorporata in crescita, essiccazione, lavorazione e spedizione) rende paulownia la scelta più bassa di carbonio per unità che offriamo. Per i marchi attenti al carbonio che monitorano le emissioni di Scope 3, paulownia è quasi sempre la risposta giusta. Consulta le opzioni in [guida a legni, finiture e ferramenta](/material-guide)."
-        },
-        {
-          "type": "h3",
-          "text": "2. Impatto della foresta più basso"
-        },
-        {
-          "type": "p",
-          "text": "Bambù. Il ciclo di ricrescita di 5-7 anni (contro i 30-60 anni per il legno duro) significa che il bambù rappresenta zero pressione netta del raccolto forestale se proveniente da piantagioni certificate FSC. I sistemi di radici stabilizzano anche il suolo e migliorano i terreni degradati. Per maggiori dettagli, consulta [Bambù vs. acacia: quale legno per i prodotti da cucina?](/blog/bamboo-vs-acacia-kitchenware)."
-        },
-        {
-          "type": "h3",
-          "text": "3. Miglior comportamento di fine vita"
-        },
-        {
-          "type": "p",
-          "text": "Legno massiccio con finitura a olio o cera, senza lacca. Completamente compostabile alla fine della vita, si rompe in terreno normale entro 3-7 anni. La lacca nelle finiture standard impedisce la biodegradabilità-per veri prodotti da culla a culla, solo olio o cera. Consulta i modelli disponibili nella categoria [Scatole Portaoggetti](/products/storage)."
-        },
-        {
-          "type": "h3",
-          "text": "4. impatto più basso della qualità dell'aria interna"
-        },
-        {
-          "type": "p",
-          "text": "Lacca a base d'acqua o finiture ad olio naturale. Le emissioni di COV durante l'uso sono il fattore di sostenibilità più trascurato: i prodotti che off-gas all'interno per anni contribuiscono a problemi di qualità dell'aria interna anche se i materiali di partenza erano tecnicamente \"sostenibili\"."
-        },
-        {
-          "type": "h2",
-          "text": "Perché spediamo la documentazione con ogni ordine"
-        },
-        {
-          "type": "p",
-          "text": "Per i clienti europei, in particolare, le richieste di sostenibilità senza documentazione sono sempre più prive di valore. Il regolamento dell'UE sulla deforestazione, il tedesco sulla due diligence della catena di approvvigionamento (LkSG) e il più ampio CSRD (Corporate Sustainability Reporting Directive) richiedono tutti agli importatori di dimostrare le affermazioni ambientali con documentazione di livello di audit. È finita l'era del \"ci impegniamo per la sostenibilità\" senza prove."
-        },
-        {
-          "type": "p",
-          "text": "Il nostro pacchetto standard di documentazione sulla sostenibilità, incluso in ogni spedizione che soddisfa le specifiche ecologiche:"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Certificato di origine FSC con tracciabilità del lotto al banco forestale o alla piantagione",
-            "Certificato fitosanitario per ISPM-15 con data di trattamento e marchio IPPC",
-            "Finitura del rapporto di prova delle emissioni (REACH per UE, CARB Fase 2 per gli Stati Uniti, entrambi disponibili)",
-            "Dichiarazione dei materiali che elenca le specie, il paese di origine e il tipo di piantagione/foresta",
-            "Stima dell'impronta di carbonio per unità (calcolata utilizzando i fattori di emissione DEFRA)",
-            "Orientamenti per lo smaltimento finale del prodotto (stato riciclabile/compostabile)"
+            "Materiali, specie, origine e tracciabilità di lotto disponibile.",
+            "Ambito certificato verificato e dichiarazione esatta dell’ordine, se applicabile.",
+            "Dati di finiture e adesivi e prove pertinenti al prodotto.",
+            "Costruzione dell’imballaggio e registri applicabili di trattamento o marchio.",
+            "Prove delle dichiarazioni su riciclato, scarti o carbonio utilizzate."
           ]
         },
         {
           "type": "h2",
-          "text": "Domande frequenti sulla sostenibilità"
-        },
-        {
-          "type": "h3",
-          "text": "Ne vale la pena il premio FSC?"
+          "text": "Preparare le specifiche dell’ordine"
         },
         {
           "type": "p",
-          "text": "Per i prodotti venduti nei mercati dell'UE o per gli acquirenti aziendali con requisiti di approvvigionamento di sostenibilità: sì, quasi sempre. Il premio di costo del 4-7% viene recuperato molte volte in termini di accesso al mercato, accettazione da parte degli acquirenti al dettaglio e riduzione del rischio di conformità. Per i prodotti venduti nei mercati in cui FSC non è commercialmente rilevante: probabilmente no, a meno che il marchio non commercializzi specificamente la certificazione ai consumatori."
-        },
-        {
-          "type": "h3",
-          "text": "Dovrei usare materiali riciclati nella mia confezione?"
-        },
-        {
-          "type": "p",
-          "text": "Per cartoni, manicotti e tessuti esterni in carta: sì, il contenuto riciclato è ampiamente disponibile e neutro in termini di costi. Per impostazione predefinita, utilizziamo l'80 % di carta riciclata post-consumo per quasi tutti gli imballaggi secondari. Per le scatole di legno stesse: il legno non realmente riciclato è raramente disponibile nella qualità e nelle dimensioni costanti necessarie per le scatole. Meglio puntare su materiali vergini certificati FSC con provenienza documentata."
-        },
-        {
-          "type": "h3",
-          "text": "E le compensazioni di carbonio per la spedizione?"
-        },
-        {
-          "type": "p",
-          "text": "Attualmente non compensiamo le nostre spedizioni per impostazione predefinita: gli acquirenti che desiderano la compensazione lo fanno attraverso i propri programmi di carbonio (spesso Climate Neutral, Pachama o accordi specifici dell'azienda). Possiamo fornire stime dell'impronta di carbonio per spedizione, se necessario, per i calcoli di compensazione. Il trasporto via mare è una modalità relativamente a basse emissioni di carbonio per kg-km; il trasporto aereo è il problema del carbonio e consigliamo vivamente agli acquirenti di evitare il trasporto aereo di scatole di legno, ove possibile."
-        },
-        {
-          "type": "h3",
-          "text": "Le tavole di bambù sono davvero ecologiche come dicono le persone?"
-        },
-        {
-          "type": "p",
-          "text": "Per lo più sì, con un avvertimento. La coltivazione del bambù è genuinamente sostenibile. La produzione di bambù prevede la laminazione di strisce con adesivi e fornitori economici utilizzano adesivi a base di formaldeide che non soddisfano gli standard di qualità dell'aria dell'UE e della California. Fornitori rispettabili (lavoriamo con i laminatori E0 e E1-grade) utilizzano adesivi a basse emissioni. Chiedi sempre rapporti sui test delle emissioni se stai posizionando il prodotto come eco-premium. Il bambù economico può essere una storia ambientale peggiore del legno duro premuroso."
-        },
-        {
-          "type": "quote",
-          "text": "Le affermazioni di sostenibilità che non possono essere documentate sono marketing. I certificati e gli audit trail sono ciò che i tuoi clienti, regolatori e revisori accettano effettivamente."
-        },
-        {
-          "type": "p",
-          "text": "Per gli acquirenti che ci valutano rispetto ad altre fabbriche, ti invitiamo a porre le stesse domande di documentazione a tutti nella tua rosa dei candidati: certificato FSC, rapporti di conformità REACH/CARB, registrazione fito e cronologia audit. Le fabbriche che possono produrre i documenti entro 48 ore sono le fabbriche che vivono effettivamente le pratiche. Tutti gli altri ti stanno vendendo la versione di marketing. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
+          "text": "Il nostro MOQ è 200 pezzi per modello per OEM, ODM e ordini di prova produttiva. Nella [richiesta di preventivo](/contact#inquiry), indicare mercato, uso, materiale e prove necessarie. Potremo confermare costruzione fattibile e documenti disponibili per quell’ordine."
         }
-      ]
+      ],
+      "updated": "2026-10-19"
     },
     "oem-vs-odm-wooden-boxes": {
       "title": "OEM vs. ODM: quale è giusto per il tuo progetto di scatola di legno?",

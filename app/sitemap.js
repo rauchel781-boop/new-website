@@ -5,6 +5,7 @@ import { routing } from '@/i18n/routing';
 import { isNonBoxProduct } from '@/data/non-box-products';
 import { getCategoryTranslation } from '@/data/categories/translations';
 import { getProductPageCopy } from '@/data/product-page-copy';
+import { PRODUCT_CONTENT_UPDATED_AT } from '@/lib/product-content';
 
 // Pull product slug lists for each category that has products.
 import { PRODUCTS as GIFT_PACKAGING_PRODUCTS } from '@/data/products/gift-packaging';
@@ -145,7 +146,7 @@ export default function sitemap() {
         priority: 0.7,
         images: productImages,
         lastModifiedByLocale: Object.fromEntries(routing.locales.flatMap(loc => {
-          const updatedAt = getProductPageCopy(categorySlug, productSlug, loc)?.updatedAt;
+          const updatedAt = getProductPageCopy(categorySlug, productSlug, loc)?.updatedAt || PRODUCT_CONTENT_UPDATED_AT;
           return updatedAt ? [[loc, new Date(updatedAt)]] : [];
         })),
       });

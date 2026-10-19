@@ -12,6 +12,7 @@
 // has generateStaticParams), so there is no runtime cost per request.
 
 import { ImageResponse } from 'next/og';
+import { SITE } from '@/data/site-config';
 import { getPostBySlug } from '@/data/blog';
 import { getBlogTranslation, getBlogCategoryTranslation } from '@/data/blog/translations';
 
@@ -190,7 +191,7 @@ export default async function OgImage({ params }) {
               textTransform: 'uppercase',
             }}
           >
-            Est. 2010
+            Founded in {SITE.company.foundingYear}
           </div>
         </div>
       </div>

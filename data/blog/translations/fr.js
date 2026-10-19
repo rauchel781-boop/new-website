@@ -354,9 +354,12 @@ export default {
       "title": "EVA, EPE, velours ou feutre : quel calage pour un coffret en bois ?",
       "excerpt": "Guide complet pour choisir le matériau de calage de vos coffrets en bois. Mousse EVA, mousse EPE, velours et feutre comparés sur la protection, le coût, l'esthétique et la durabilité.",
       "category": "Matériaux",
-      "readTime": "12 min de lecture",
+      "readTime": "5 min de lecture",
       "body": [
-        { type: 'p', text: "Avant de fixer les spécifications, consultez [Pourquoi un MOQ de 200 pièces est la façon la plus intelligente de commencer](/blog/low-moq-sampling-strategy)." },
+        {
+          "type": "p",
+          "text": "Avant de fixer les spécifications, consultez [Pourquoi un MOQ de 200 pièces est la façon la plus intelligente de commencer](/blog/low-moq-sampling-strategy)."
+        },
         {
           "type": "p",
           "text": "Quand on conçoit un coffret en bois sur mesure, le matériau de calage compte autant que le coffret lui-même. Un mauvais choix se traduit par des produits abîmés, des coûts qui grimpent ou une présentation qui ne convainc pas le client. Dans ce guide, nous comparons quatre matériaux courants — mousse EVA, mousse EPE, velours et feutre — sur les critères qui tranchent vraiment : niveau de protection, rapport coût-efficacité, esthétique, impact environnemental et possibilités de personnalisation. Consultez les modèles disponibles dans la catégorie [Boîtes Cadeau et Emballage](/products/gift-packaging)."
@@ -367,40 +370,40 @@ export default {
         },
         {
           "type": "p",
-          "text": "Commençons par un aperçu rapide. L'EVA (éthylène-acétate de vinyle) est une mousse à cellules fermées reconnue pour sa densité, sa durabilité et son excellente résistance aux chocs. L'EPE (polyéthylène expansé) est une mousse à cellules ouvertes, légère, souple et économique. Le velours est un textile doux et moelleux, à la texture riche et à l'allure haut de gamme. Le feutre est un non-tissé de fibres de laine pressées, au fini doux et mat, de plus en plus demandé par les marques attentives à l'environnement."
+          "text": "L’EVA et l’EPE sont des mousses à cellules fermées. L’EVA permet de réaliser des supports découpés ; le polyéthylène expansé (EPE) est courant pour le calage léger. Les performances dépendent de la qualité, de l’épaisseur et de la géométrie. Le velours est un textile de surface ; le feutre est un non-tissé en laine, fibres synthétiques ou mélanges. Ces textiles ne garantissent pas seuls la protection pendant le transport."
         },
         {
           "type": "table",
           "headers": [
             "Matériau",
-            "Type",
-            "Usage principal",
-            "Point fort"
+            "Construction",
+            "Usage courant",
+            "À vérifier"
           ],
           "rows": [
             [
               "Mousse EVA",
-              "Polymère synthétique",
-              "Protection aux chocs élevés",
-              "Absorption des chocs supérieure"
+              "Cellules fermées",
+              "Maintien découpé et amortissement",
+              "Qualité, masse volumique, dureté et ajustement"
             ],
             [
               "Mousse EPE",
-              "Mousse polyéthylène",
-              "Calage général",
-              "Légère et abordable"
+              "Polyéthylène à cellules fermées",
+              "Plaques, coins et calage",
+              "Qualité, épaisseur et essais en charge"
             ],
             [
               "Velours",
-              "Textile (synthétique/naturel)",
-              "Présentation de luxe",
-              "Esthétique haut de gamme"
+              "Tissu ou flocage spécifié séparément",
+              "Présentation et contact",
+              "Fibre, support, collage et dégorgement"
             ],
             [
               "Feutre",
-              "Fibres de laine/synthétiques pressées",
-              "Calage écologique",
-              "Durable et doux"
+              "Non-tissé de laine, synthétique ou mélange",
+              "Doublure, cloisons et contact",
+              "Composition, épaisseur et abrasion"
             ]
           ]
         },
@@ -410,7 +413,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'EVA (éthylène-acétate de vinyle) est une mousse à cellules fermées reconnue pour sa densité, sa durabilité et son excellente résistance aux chocs. C'est le matériau des tapis de yoga, des semelles de chaussures et des emballages d'électronique haut de gamme. L'EVA absorbe remarquablement les chocs, avec une dureté de 40 à 60 Shore C. Il se découpe à l'emporte-pièce avec précision et peut être floqué de velours pour une finition luxueuse. Son prix est le plus élevé, mais il est idéal pour l'électronique de valeur — montres, appareils photo, téléphones —, les instruments médicaux, les outils exigeant un calage exact et les produits dont l'emballage sera réutilisé. Pour un exemple du catalogue, consultez [Coffret Cadeau Magnétique de Luxe](/products/gift-packaging/luxury-magnetic-gift-box)."
+          "text": "La mousse EVA peut maintenir un objet, mais son nom ne définit pas ses performances. Demandez la référence, la masse volumique en kg/m³, l’épaisseur et la méthode de mesure de dureté. Shore C est une échelle de dureté, pas une unité de masse volumique ; consignez les deux séparément. Validez la mousse et l’ajustement avec le produit réel. Voir le [coffret cadeau magnétique de luxe](/products/gift-packaging/luxury-magnetic-gift-box)."
         },
         {
           "type": "h2",
@@ -418,7 +421,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'EPE (polyéthylène expansé) est une mousse à cellules ouvertes, légère, souple et économique. C'est le « papier bulle » des mousses : tendre, compressible et parfait pour un calage général. L'EPE absorbe bien les chocs avec une dureté plus faible, de 20 à 30 Shore C, ce qui le rend plus souple et plus compressible que l'EVA. Il est bon marché, recyclable et peu émetteur à la fabrication. L'EPE convient quand la protection requise est modérée, pour le conditionnement en nombre lors d'expéditions groupées, pour les projets au budget serré et pour les produits de forme régulière sans contours complexes. Pour plus de détails, consultez [Combien coûtent les boîtes en bois personnalisées ? Un guide de tarification grossiste et OEM 2026](/blog/custom-wooden-box-cost-2026)."
+          "text": "L’EPE est du polyéthylène expansé à cellules fermées, et non ouvertes. Il convient aux plaques de calage, coins et supports. Choisissez qualité et épaisseur selon le poids et le transport, sans supposer qu’il est toujours plus souple ou moins protecteur que l’EVA. Le recyclage dépend de la collecte locale et de la séparation des textiles et colles. Voir notre [guide des coûts](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "h2",
@@ -426,15 +429,15 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le velours est un textile doux et moelleux (soie naturelle ou polyester) à la texture riche et à l'allure haut de gamme. On le trouve couramment dans les écrins à bijoux, les emballages de parfum et les coffrets cadeaux haut de gamme. Seul, il n'amortit presque rien et demande une couche de calage en dessous, mais il apporte un toucher de luxe inégalé et d'excellentes possibilités de personnalisation. Le velours est idéal pour la bijouterie et les objets précieux, la parfumerie et les cosmétiques, les cadeaux de prestige et les trophées, et pour tout produit où le moment du déballage fait la différence. Beaucoup de marques l'associent à la mousse : EVA ou EPE en couche de calage, velours floqué par-dessus pour l'esthétique. Pour plus de détails, consultez [Anatomie d'une grande boîte de montre en bois](/blog/wooden-watch-box-anatomy)."
+          "text": "Le velours peut être posé comme tissu ; le flocage est un procédé distinct. Vérifiez fibre, support, colle et tenue des couleurs. La surface peut limiter les frottements et soigner la présentation, mais l’amortissement dépend du support. Comparez les solutions dans le [guide des coffrets à montres](/blog/wooden-watch-box-anatomy)."
         },
         {
           "type": "h2",
-          "text": "Feutre : classique et durable"
+          "text": "Feutre : vérifier les fibres et la construction"
         },
         {
           "type": "p",
-          "text": "Le feutre est un non-tissé de fibres de laine pressées (ou d'alternatives synthétiques). Il offre un fini doux et mat et séduit de plus en plus les marques attentives à l'environnement. Il amortit modérément tout en affichant un luxe élégant et discret. Il se découpe, se teint et se met en forme facilement, ce qui ouvre de larges possibilités de personnalisation. Le feutre de laine est biodégradable et des versions en synthétique recyclé existent, ce qui en fait l'option la plus durable. Il convient aux marques écologiques, aux produits artisanaux, aux articles de poids moyen comme les livres, la céramique et la verrerie, et aux marques qui cherchent une esthétique naturelle. Pour plus de détails, consultez [5 techniques de finition qui changent l'apparence et la sensation d'une boîte en bois](/blog/wooden-box-finishing-techniques)."
+          "text": "Le feutre peut contenir laine, polyester, fibres recyclées ou mélanges. Précisez composition, épaisseur, résistance à l’abrasion, support et colle. Une fibre naturelle ou recyclée ne prouve pas à elle seule la recyclabilité, la compostabilité ou un impact réduit. Vérifiez les justificatifs du matériau choisi. Voir le [guide des finitions et du marquage](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h2",
@@ -442,7 +445,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "En comparant les quatre matériaux sur les critères clés, chacun a des forces nettes. La mousse EVA domine sur la protection (5/5 étoiles) mais au prix le plus élevé ($$$). La mousse EPE offre une bonne protection (4/5 étoiles) au prix le plus bas ($). Le velours protège peu (2/5 étoiles) mais reste imbattable en esthétique (5/5 étoiles), à prix haut de gamme. Le feutre protège moyennement (3/5 étoiles) avec une excellente durabilité (5/5 étoiles) en milieu de gamme ($$)."
+          "text": "Le nom du matériau ne permet pas une notation universelle de protection ou de durabilité. Comparez les références avec le même produit, le même emballage et les mêmes essais. Voici les informations à demander avant validation."
         },
         {
           "type": "table",
@@ -455,46 +458,25 @@ export default {
           ],
           "rows": [
             [
-              "Niveau de protection",
-              "⭐⭐⭐⭐⭐",
-              "⭐⭐⭐⭐",
-              "⭐⭐",
-              "⭐⭐⭐"
+              "Protection",
+              "Tester qualité et géométrie",
+              "Tester qualité et géométrie",
+              "Évaluer le support amortissant",
+              "Évaluer épaisseur et support"
             ],
             [
               "Coût",
-              "$$$",
-              "$",
-              "$$$",
-              "$$"
+              "Chiffrer qualité, découpe et outillage",
+              "Chiffrer qualité, découpe et outillage",
+              "Chiffrer tissu et pose",
+              "Chiffrer fibres et découpe"
             ],
             [
-              "Esthétique",
-              "⭐⭐⭐⭐",
-              "⭐⭐",
-              "⭐⭐⭐⭐⭐",
-              "⭐⭐⭐⭐"
-            ],
-            [
-              "Personnalisation",
-              "⭐⭐⭐⭐⭐",
-              "⭐⭐⭐",
-              "⭐⭐⭐⭐",
-              "⭐⭐⭐⭐"
-            ],
-            [
-              "Durabilité",
-              "⭐⭐",
-              "⭐⭐⭐",
-              "⭐⭐⭐",
-              "⭐⭐⭐⭐⭐"
-            ],
-            [
-              "Idéal pour",
-              "Électronique, outillage",
-              "Expédition en nombre",
-              "Bijoux, parfum",
-              "Marques éco, artisanat"
+              "Fin de vie",
+              "Vérifier collecte et séparation",
+              "Vérifier collecte et séparation",
+              "Vérifier fibres, support et colle",
+              "Vérifier fibres, support et colle"
             ]
           ]
         },
@@ -504,15 +486,15 @@ export default {
         },
         {
           "type": "p",
-          "text": "Utilisez cette grille pour choisir votre calage. Premièrement, évaluez la fragilité du produit : les articles fragiles comme l'électronique et le verre exigent de l'EVA ou de l'EPE, les articles moyennement fragiles s'accommodent d'EPE ou de feutre, et les articles robustes vont bien avec du velours ou du feutre. Deuxièmement, fixez votre budget : un budget haut de gamme ($$$) permet l'EVA ou le velours, le milieu de gamme ($$) convient au feutre, et les projets serrés ($) prendront de l'EPE. Troisièmement, tenez compte du positionnement de marque : les marques de luxe gagnent avec du velours sur base EVA, les marques écologiques choisiront le feutre, les marques tech et professionnelles s'accordent à l'EVA, et les marques orientées prix à l'EPE. Enfin, regardez le volume de production : au-delà de 1 000 unités, la découpe automatisée de l'EVA ou de l'EPE devient rentable, entre 100 et 1 000 unités tous les matériaux conviennent, et en dessous de 100 unités le feutre et le velours se travaillent plus facilement à la main. Consultez les options dans [guide des bois, finitions et ferrures](/material-guide)."
+          "text": "Commencez par le poids, les points fragiles, la sensibilité des surfaces et le trajet. Définissez les jeux et la façon de retirer le produit. Comparez un support en mousse et une solution habillée de textile, puis testez l’ensemble emballé. Découpe et outillage influent sur le prix ; notre MOQ de production reste de 200 pièces par modèle. Consultez la [référence des matériaux et ferrures](/material-guide)."
         },
         {
           "type": "h2",
-          "text": "Cas concrets"
+          "text": "Exemples de conception"
         },
         {
           "type": "p",
-          "text": "Une marque horlogère de luxe devait protéger des montres de grande valeur tout en soignant la présentation : elle a utilisé une base de mousse EVA découpée à la forme de la montre, surmontée d'un flocage velours sur la surface EVA, obtenant une protection 5 étoiles et un déballage haut de gamme, pour 3 à 5 $ par calage. Un fabricant artisanal de bougies cherchait un emballage écologique pour des bougies faites main : il a opté pour des calages en feutre de laine découpés sur mesure pour ses pots ; l'image naturelle et durable correspondait à la marque et s'est traduite par 30 % de réachats en plus, pour 1,50 à 2 $ par calage. Un vendeur en ligne d'électronique expédiant des enceintes Bluetooth à grande échelle a retenu des protections d'angle en EPE avec coussin central, réduisant le coût d'expédition au poids et faisant passer le taux de casse de 5 % à moins de 1 %, pour 0,50 à 0,80 $ par calage. Pour un exemple du catalogue, consultez [Vitrine de Présentation Trois Montres](/products/watch-jewelry/three-watch-display-case)."
+          "text": "Pour une montre, comparez un support en mousse et un coussin habillé. Pour une bougie en verre, vérifiez l’ajustement, le jeu verre-bois et les risques de fuite. Pour l’électronique, confirmez les propriétés antistatiques nécessaires en plus du calage. Ce sont des exemples, pas des résultats clients mesurés ni des prix proposés. Voir le [coffret pour trois montres](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h2",
@@ -520,7 +502,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Commandez toujours des échantillons avec votre produit réel et faites un test de chute à hauteur de hanche : si le produit s'en sort, le calage fait son travail. Pensez au cycle de vie complet : pour le stockage, vérifiez si les coffrets seront empilés, car l'EVA et l'EPE résistent mieux à la compression ; pour le transport, les envois internationaux réclament la protection plus ferme de l'EVA ; pour la réutilisation, les marques de luxe gagnent avec des calages durables que le client garde, par exemple EVA plus velours. Ne vous limitez pas à un seul matériau : les meilleurs calages associent souvent une base EVA pour la structure et du velours au-dessus pour l'esthétique, ou un coussin EPE avec des séparateurs en feutre pour allier écologie et fonction."
+          "text": "Testez le produit réel avec le coffret et le carton d’expédition. Convenez d’essais de chute, vibration et compression adaptés au trajet et à la charge ; une seule chute informelle ne valide pas l’emballage. Vérifiez aussi reprise de forme, marques, odeur et extraction. Consignez la référence et la construction approuvées pour la production."
         },
         {
           "type": "p",
@@ -532,9 +514,18 @@ export default {
         },
         {
           "type": "p",
-          "text": "Choisir le bon calage pour vos coffrets en bois revient à équilibrer protection, coût, esthétique et valeurs de marque. La mousse EVA offre une protection et une personnalisation haut de gamme à $$$, et se justifie pour les produits de valeur. La mousse EPE apporte un calage léger et abordable pour un usage général, à $. Le velours assure une présentation de luxe et donne son meilleur sur une base de mousse, à $$$. Le feutre est écologique, élégant et polyvalent, à $$. Pour la plupart des projets de coffrets en bois sur mesure, nous conseillons de partir d'une base en mousse EVA, puis d'ajouter velours ou feutre par-dessus si le budget le permet. Vous obtenez ainsi le meilleur des deux : une protection fiable et une présentation qui séduit. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
+          "text": "Choisissez le calage avec l’ensemble de l’emballage. EVA et EPE peuvent amortir lorsqu’ils sont bien spécifiés ; velours et feutre peuvent servir de surface de contact ou de doublure. Aucun matériau n’est automatiquement le plus sûr ou durable. Pour comparer les constructions, [demandez un devis](/contact#inquiry) avec dimensions, poids et destination."
+        },
+        {
+          "type": "h2",
+          "text": "Références techniques"
+        },
+        {
+          "type": "p",
+          "text": "Structure et recyclage : [guide PE de Sealed Air](https://www.sealedair.com/products/protective-packaging/polyethylene-foam/cell-aire). Dureté : [guide Shore de Bareiss](https://bareiss.de/en/support-downloads-en/customer-support). Données vérifiées le 19 octobre 2026."
         }
-      ]
+      ],
+      "updated": "2026-10-19"
     },
     "wooden-box-closure-types-compared": {
       "title": "Fermetures de coffrets en bois comparées : coulissante, à charnières, magnétique, tiroir et serrure",
@@ -2575,237 +2566,128 @@ export default {
       ]
     },
     "sustainable-sourcing-2026": {
-      "title": "Nos pratiques d'approvisionnement durable en 2026",
-      "excerpt": "La chaîne de contrôle FSC, le paulownia cultivé dans les plantations, les finitions à faible teneur en COV et la façon dont nous gardons les déchets de bois sous 8%-écrit pour les acheteurs qui doivent défendre leur chaîne d'approvisionnement.",
+      "title": "Approvisionnement durable en coffrets en bois : guide 2026",
+      "excerpt": "Les vérifications pour acheter des coffrets en bois : allégations FSC, calendrier EUDR, matériaux, finitions, emballage export et justificatifs environnementaux.",
       "category": "Durabilité",
-      "readTime": "9 min de lecture",
+      "readTime": "4 min de lecture",
       "body": [
-        { type: 'p', text: 'Avant de fixer les spécifications, consultez [Sourcer des boîtes en bois personnalisées depuis la Chine en 2026 : le guide de l\'acheteur B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
-          "text": "La durabilité était une ligne de marketing. Aujourd'hui, il s'agit d'une exigence d'approvisionnement de la plupart des marques européennes, japonaises et Amazon que nous servons-une série de certifications spécifiques, de documents et d'audits de fournisseurs qui doivent être valides avant toute boîte."
+          "text": "Avant de fixer les spécifications, consultez [Sourcer des boîtes en bois personnalisées depuis la Chine en 2026 : le guide de l'acheteur B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
         },
         {
           "type": "p",
-          "text": "Cet article est ce à quoi ressemblent nos pratiques réelles en 2026, écrit pour l'acheteur qui doit défendre sa chaîne d'approvisionnement auprès d'un responsable du développement durable, d'une équipe de conformité du registre des marques Amazon ou d'un auditeur CBAM européen. Pas de revendications vagues-juste ce que nous faisons et les documents que nous pouvons produire pour le prouver."
+          "text": "Évaluez l’approvisionnement des coffrets en bois à partir d’un cahier des charges écrit et des preuves propres à la chaîne concernée. Utilisez cette liste pour confirmer le périmètre des certificats, les essais et les justificatifs d’origine disponibles pour les matériaux et entreprises retenus avant commande."
         },
         {
           "type": "h2",
-          "text": "Chaîne de traçabilité FSC-et ce que cela signifie vraiment"
+          "text": "Allégations FSC : vérifier toute la chaîne"
         },
         {
           "type": "p",
-          "text": "Toutes les espèces de notre catalogue-paulownia, pin, bambou, acacia, noyer et chêne-sont disponibles sur demande avec la certification FSC (Forest Stewardship Council). Nous détenons la certification de la chaîne de contrôle FSC par le biais de nos fournisseurs de bois, ce qui signifie qu'il existe une traçabilité documentée du peuplement forestier ou de la plantation à votre conteneur d'expédition. Pour plus de détails, consultez [Comment choisir le bon bois pour l'emballage cadeau](/blog/choosing-wood-for-gift-packaging)."
+          "text": "La certification d’un fournisseur de bois ne peut pas être reprise comme sa propre certification. Vérifiez titulaire, validité, périmètre produit et déclaration sur les documents de vente. Consultez le [guide de choix du bois](/blog/choosing-wood-for-gift-packaging) et la [chaîne de contrôle FSC](https://fsc.org/en/chain-of-custody)."
         },
         {
-          "type": "p",
-          "text": "La chose importante à comprendre à propos du FSC est que la certification couvre le bois, pas la boîte. Nos boîtes sont certifiées FSC lorsque (a) le bois provient de fournisseurs certifiés FSC ET (b) le lot de production passe par notre chaîne de contrôle certifiée. Nous devons tenir des registres de lots, séparer le stock FSC du stock non FSC pendant la production et produire un certificat par expédition qui remonte à la source."
-        },
-        {
-          "type": "p",
-          "text": "Pour les acheteurs qui vendent dans l'UE, cette option est de plus en plus non facultative. Le règlement européen sur la déforestation (EUDR), entré en vigueur en 2025, oblige les importateurs de produits ligneux à démontrer que le bois n'est pas lié à la déforestation après le 31 décembre 2020. La certification FSC est le moyen le plus simple de satisfaire à cette exigence."
-        },
-        {
-          "type": "p",
-          "text": "Nous facturons une petite prime (généralement de 4 à 7%) pour les commandes FSC afin de couvrir les coûts supplémentaires de documentation et de ségrégation. Pour la plupart des acheteurs, cela est récupéré plusieurs fois sur les marchés qu'il ouvre."
+          "type": "list",
+          "items": [
+            "Confirmer code et périmètre des certificats des entités concernées.",
+            "Confirmer la déclaration de sortie, les achats et les registres de lot.",
+            "Prévoir un étiquetage FSC seulement après vérification de la chaîne de contrôle et des autorisations."
+          ]
         },
         {
           "type": "h2",
-          "text": "Paulownia-plantation-cultivé par définition"
+          "text": "EUDR : calendrier d’application actuel"
         },
         {
           "type": "p",
-          "text": "[Paulownia](/products/paulownia) est la chose la plus proche de l'industrie du bois a à un bois renouvelable. Les arbres arrivent à maturité en 5 à 7 ans (contre 30 à 60 ans pour le chêne ou le noyer), et presque tous les paulownia commerciaux sont cultivés en plantation plutôt que récoltés dans des forêts naturelles."
+          "text": "Vérification du 19 octobre 2026 : application au 30 décembre 2026 pour les opérateurs grands et moyens, et au 30 juin 2027 pour la plupart des micro et petits opérateurs. Ceux déjà couverts par le RBUE commencent au 30 décembre 2026. Consultez le [calendrier de la Commission européenne](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en)."
         },
         {
           "type": "p",
-          "text": "Notre paulownia provient de plantations gérées dans les provinces du Henan et de l'Anhui. Les plantations appartiennent à des coopératives agricoles qui alternent les récoltes de sorte qu'environ 1/6 de la superficie plantée est récolté chaque année, avec de nouveaux semis plantés pour remplacer les arbres récoltés. Il en résulte un approvisionnement continu en bois qui ne tire pas vers le bas le stock forestier."
+          "text": "Confirmez produits concernés, rôle de l’entreprise et justificatifs nécessaires. FSC peut contribuer à la revue, sans remplacer la diligence raisonnée EUDR ni garantir automatiquement la conformité. Voir les [explications FSC sur l’EUDR](https://uk.fsc.org/eudr-and-fsc)."
+        },
+        {
+          "type": "h2",
+          "text": "Origine des matériaux et finitions"
         },
         {
           "type": "p",
-          "text": "Pour les acheteurs avec un éco-positionnement explicite, le paulownia est le choix évident-et nous pouvons documenter la source de la plantation sur demande."
+          "text": "Le [paulownia](/products/paulownia) peut alléger le colis, mais le nom de l’essence ne prouve ni une origine de plantation ni une empreinte carbone réduite. Demandez essence, pays de récolte et documents disponibles pour le lot réel."
+        },
+        {
+          "type": "p",
+          "text": "Définissez formulation, séchage et périmètre d’essai avec le [guide des finitions](/blog/wooden-box-finishing-techniques). Une finition aqueuse n’est pas automatiquement sans COV. CARB Phase 2 vise le formaldéhyde de certains bois composites, pas une approbation générale des COV des revêtements ; voir la [FAQ CARB](https://ww2.arb.ca.gov/resources/documents/consumer-faq)."
+        },
+        {
+          "type": "p",
+          "text": "Une huile ou cire naturelle n’est pas automatiquement adaptée au contact alimentaire. Si cet usage est prévu, confirmez formulation, durcissement et justificatifs pour le marché et les conditions de contact. Chaque rapport doit correspondre au matériau et au produit commandés."
         },
         {
           "type": "img",
           "src": "/factory/material.webp",
-          "caption": "Stock de paulownia cultivé par plantation dans notre cour à bois"
+          "caption": "Stock de bois destiné à la production"
         },
         {
           "type": "h2",
-          "text": "Finitions à faible teneur en COV (conformes REACH et CARB)"
+          "text": "Déchets, réemploi et allégations"
         },
         {
           "type": "p",
-          "text": "Les composés organiques volatils (COV) sont les produits chimiques dégagés qui produisent «l'odeur de la nouvelle boîte» et qui, à des concentrations plus élevées, contribuent aux problèmes de qualité de l'air intérieur. Les laques standard de nitrocellulose, qui sont l'option de finition la moins chère, peuvent dégagent des gaz à des niveaux qui échouent aux limites EU REACH et US CARB Phase 2. Pour plus de détails, consultez [5 techniques de finition qui changent l'apparence et la sensation d'une boîte en bois](/blog/wooden-box-finishing-techniques)."
+          "text": "Demandez plan de découpe et mesures avant de publier un taux de réduction des déchets. Comparez les procédés dans le [guide de fabrication](/blog/six-step-manufacturing-process). Ne décrivez le réemploi ou recyclage des chutes que lorsqu’une filière est documentée."
         },
         {
           "type": "p",
-          "text": "Nous avons déplacé notre ligne d'arrivée aux laques à base d'eau comme défaut. Les finitions à base d'eau contiennent une fraction de la teneur en COV de la nitrocellulose, sèchent plus rapidement et produisent un résultat visuel similaire. Le compromis est le coût (environ 15% de plus par litre) et une construction de film légèrement plus mince, que nous compensons avec une couche supplémentaire."
+          "text": "Pour le bambou, vérifiez panneau, colle et essais d’émissions ; sa croissance rapide ne rend pas chaque panneau fini préférable. Voir notre [comparaison bambou-acacia](/blog/bamboo-vs-acacia-kitchenware). Appuyez les taux de recyclé sur les registres du fournisseur."
         },
         {
           "type": "p",
-          "text": "Pour les produits haut de gamme, nous utilisons des finitions à l'huile végétale naturelle-huile de tung, huile de lin, cire d'abeille. Zéro COV, entièrement sans danger pour les aliments, et la surface vieillit magnifiquement. L'inconvénient est des temps de durcissement plus longs (jusqu'à 72 heures par couche) et une application plus exigeante-ces finitions ne sont pas appropriées pour les produits budgétaires à fort volume."
-        },
-        {
-          "type": "p",
-          "text": "Toutes les finitions que nous proposons sont documentées pour la conformité REACH (UE), CARB Phase 2 (États-Unis) et la sécurité au contact alimentaire de la FDA (le cas échéant). Les rapports d'essai sont disponibles sur demande."
+          "text": "Concevez pour le réemploi et la séparation du bois, des ferrures et des doublures. Huiles, cires, laques et colles influent sur les filières ; ne promettez ni compostage domestique ni durée fixe de dégradation sans preuve. Comparez les [coffrets de rangement réutilisables](/products/storage)."
         },
         {
           "type": "h2",
-          "text": "Réduction des déchets en coupe à la taille"
+          "text": "Emballage export et santé des végétaux"
         },
         {
           "type": "p",
-          "text": "Les déchets de bois sont le problème de durabilité unsexy. La plupart des usines génèrent 18 à 25% de déchets découpés à partir de leurs opérations coupées à la taille-des matériaux qui sont payés mais qui finissent par être brûlés pour la chaleur de la biomasse ou envoyés à la décharge. Pour plus de détails, consultez [À l'intérieur de notre processus de fabrication de boîte en bois de 6 étapes](/blog/six-step-manufacturing-process)."
+          "text": "La NIMP 15 régit certains emballages en bois. Les emballages en bois transformé et certains coffrets fabriqués exempts d’organismes nuisibles peuvent être exemptés ; les exigences ne sont pas identiques pour tous les produits. Consultez la [NIMP 15 de la CIPV](https://www.ippc.int/en/publications/91395/) et nos [capacités de fabrication](/capabilities)."
         },
         {
           "type": "p",
-          "text": "Notre logiciel d'imbrication optimise les dispositions de pièces sur chaque carte pour pousser les déchets offcut en dessous de 12% sur la plupart des commandes, et en dessous de 8% sur les SKU standard que nous exécutons à plusieurs reprises. À titre de comparaison, une réduction de 4% des déchets sur un conteneur de 20 pieds de paulownia représente environ 400 à 600 dollars de matériel économisé-petit par unité mais significatif au volume."
-        },
-        {
-          "type": "p",
-          "text": "Les chutes restantes vont à une installation soeur qui produit des perles en bois, des poignées, des tirettes de tiroir et de petits composants tournés. Presque rien n'atteint la décharge. La sciure est collectée et vendue à un fabricant de panneaux de particules dans le même parc industriel. Le seul véritable gaspillage de notre processus est la garniture des extrémités des planches, qui va au chauffage local de la biomasse."
+          "text": "Pour les emballages concernés, confirmez traitement approuvé et marque autorisée. Selon la NIMP 15, cette marque remplace généralement le certificat phytosanitaire de l’emballage. Vérifiez séparément les exigences du produit avec l’importateur ou l’autorité de destination ; chaque coffret n’exige pas forcément son propre certificat."
         },
         {
           "type": "h2",
-          "text": "Documentation phytosanitaire"
+          "text": "Comparer les impacts avec des preuves"
         },
         {
           "type": "p",
-          "text": "Toutes les expéditions de bois massif partent avec des certificats phytosanitaires délivrés par les douanes chinoises, confirmant que le bois est traité et exempt de parasites selon les normes ISPM-15 (la norme internationale pour les matériaux d'emballage en bois). Ceci est essentiel pour les envois vers l'UE, les États-Unis, l'Australie, le Japon et la Corée-sans certificats phyto, votre conteneur peut être mis en quarantaine ou refusé au port de destination. Consultez les options dans [Capacités](/capabilities)."
-        },
-        {
-          "type": "p",
-          "text": "Notre installation est enregistrée pour ISPM-15 traitement thermique et nos produits finis portent le timbre IPPC indiquant la date de traitement et notre code d'installation. Le certificat phyto accompagne le connaissement et se dédouane avec la documentation douanière en moins de 24 heures dans la plupart des ports."
+          "text": "Comparez des modèles de même usage et durée de service. Masse, séchage, transformation, transport et fin de vie comptent. Une comparaison carbone nécessite méthode et périmètre ; certification ou faible densité ne prouvent pas une empreinte minimale. Préparez des spécifications comparables avec la [référence des matériaux](/material-guide)."
         },
         {
           "type": "h2",
-          "text": "Ce que nous devons encore faire mieux"
-        },
-        {
-          "type": "p",
-          "text": "La durabilité n'est pas une case que vous cochez-c'est une direction continue. Trois choses sur lesquelles nous travaillons pour 2026-2027:"
+          "text": "Documents à convenir avant production"
         },
         {
           "type": "list",
           "items": [
-            "Commutation de tous les chariots élévateurs internes et véhicules de cour à l'électrique. Actuellement, 60% de notre flotte interne est électrique; l'objectif est de 100% d'ici la fin de 2026.",
-            "Installation de toit solaire sur nos deux principaux bâtiments de production. Estimé pour couvrir 30-40% de notre charge d'électricité de jour.",
-            "Travailler avec nos fournisseurs de pin et de chêne pour étendre la couverture FSC de 70% à 95% de notre stock de bois d'ici la mi-2027."
-          ]
-        },
-        {
-          "type": "p",
-          "text": "Aucun d'entre eux n'est révolutionnaire-ils sont le genre de travail incrémental qui s'additionne au fil des ans. Nous publierons des mises à jour sur ce journal au fur et à mesure."
-        },
-        {
-          "type": "h2",
-          "text": "Ce que nous disons aux acheteurs qui demandent «l'option la plus durable»"
-        },
-        {
-          "type": "p",
-          "text": "La réponse honnête est la suivante: il n'existe pas de choix «le plus durable». Différents produits optimisent pour différentes dimensions environnementales, et des compromis sont toujours impliqués. Voici le cadre que nous utilisons lorsque les acheteurs nous demandent de recommander une spécification de durabilité."
-        },
-        {
-          "type": "h3",
-          "text": "1. empreinte carbone la plus faible par boîte"
-        },
-        {
-          "type": "p",
-          "text": "Plantation de paulownia. Le cycle rapide de recroissance et la densité très basse (moins de masse signifie moins d'énergie incorporée dans la croissance, le séchage, l'usinage et l'expédition) fait paulownia le choix le plus bas-carbone-par-unité que nous offrons. Pour les marques soucieuses du carbone qui suivent les émissions du Scope 3, le paulownia est presque toujours la bonne réponse. Consultez les options dans [guide des bois, finitions et ferrures](/material-guide)."
-        },
-        {
-          "type": "h3",
-          "text": "2. Impact forestier le plus faible"
-        },
-        {
-          "type": "p",
-          "text": "Bambou. Le cycle de repousse de 5 à 7 ans (contre 30 à 60 ans pour le bois dur) signifie que le bambou représente une pression de récolte nette nulle lorsqu'il provient de plantations certifiées FSC. Les systèmes racinaires stabilisent également le sol et améliorent les terres dégradées. Pour plus de détails, consultez [Bambou vs acacia: quel bois pour les produits de cuisine?](/blog/bamboo-vs-acacia-kitchenware)."
-        },
-        {
-          "type": "h3",
-          "text": "3. Meilleur comportement en fin de vie"
-        },
-        {
-          "type": "p",
-          "text": "Bois massif avec finition à l'huile ou à la cire, sans laque. Entièrement compostable en fin de vie, se décompose dans un sol normal dans les 3 à 7 ans. La laque dans les finitions standard empêche la biodégradabilité-pour de vrais produits de berceau à berceau, huile ou cire seulement. Consultez les modèles disponibles dans la catégorie [Boîtes de Rangement](/products/storage)."
-        },
-        {
-          "type": "h3",
-          "text": "4. Impact le plus faible sur la qualité de l'air intérieur"
-        },
-        {
-          "type": "p",
-          "text": "Laque à base d'eau ou finitions naturelles d'huile. Les émissions de COV pendant l'utilisation sont le facteur de durabilité le plus négligé-les produits qui dégagent des gaz à l'intérieur pendant des années contribuent aux problèmes de qualité de l'air intérieur même si les matériaux de base étaient techniquement «durables»."
-        },
-        {
-          "type": "h2",
-          "text": "Pourquoi nous expédions la documentation avec chaque commande"
-        },
-        {
-          "type": "p",
-          "text": "Pour les clients européens en particulier, les revendications de durabilité sans documentation sont de plus en plus sans valeur. Le règlement européen sur la déforestation, la loi allemande sur le devoir de diligence de la chaîne d'approvisionnement (LkSG) et la directive CSRD (Corporate Sustainability Reporting Directive), plus large, obligent tous les importateurs à étayer leurs allégations environnementales par une documentation de qualité audit. L'ère du «nous nous engageons pour la durabilité» sans preuve est terminée."
-        },
-        {
-          "type": "p",
-          "text": "Notre paquet standard de documentation de durabilité, inclus avec chaque expédition qui répond aux spécifications écologiques:"
-        },
-        {
-          "type": "list",
-          "items": [
-            "Certificat d'origine FSC avec traçabilité des lots jusqu'au peuplement forestier ou à la plantation",
-            "Certificat phytosanitaire par ISPM-15 avec date de traitement et marque IPPC",
-            "Rapport d'essai des émissions de finition (REACH pour l'UE, CARB Phase 2 pour les États-Unis, tous deux disponibles)",
-            "Déclaration des matériaux énumérant les espèces, le pays d'origine et le type de plantation/forêt",
-            "Estimation de l'empreinte carbone par unité (calculée à l'aide des facteurs d'émission du DEFRA)",
-            "Guide d'élimination en fin de vie du produit (statut recyclable/compostable)"
+            "Matériaux, essence, origine et traçabilité de lot disponible.",
+            "Périmètre de certification vérifié et déclaration exacte de la commande, si applicable.",
+            "Données sur finitions et colles, et essais pertinents au produit.",
+            "Construction de l’emballage et justificatifs de traitement ou marquage applicables.",
+            "Preuves des allégations de recyclé, de déchets ou de carbone utilisées."
           ]
         },
         {
           "type": "h2",
-          "text": "Questions fréquemment posées sur la durabilité"
-        },
-        {
-          "type": "h3",
-          "text": "La prime FSC en vaut-elle la peine?"
+          "text": "Préparer le cahier des charges de la commande"
         },
         {
           "type": "p",
-          "text": "Pour les produits vendus sur les marchés de l'UE ou aux acheteurs d'entreprise avec des exigences d'approvisionnement en matière de durabilité: oui, presque toujours. La prime de coût de 4-7% est récupérée plusieurs fois dans l'accès au marché, l'acceptation des acheteurs au détail et la réduction du risque de conformité. Pour les produits vendus sur des marchés où FSC n'est pas commercialement pertinent: probablement pas, sauf si la marque commercialise spécifiquement la certification auprès des consommateurs."
-        },
-        {
-          "type": "h3",
-          "text": "Dois-je utiliser des matériaux recyclés dans mes emballages?"
-        },
-        {
-          "type": "p",
-          "text": "Pour les cartons, les manchons et les mouchoirs extérieurs en papier: oui, le contenu recyclé est largement disponible et neutre en termes de coûts. Par défaut, nous utilisons plus de 80% de papier recyclé post-consommation pour presque tous les emballages secondaires. Pour les boîtes en bois elles-mêmes: pas vraiment-le bois recyclé est rarement disponible dans la qualité et les dimensions constantes nécessaires pour les boîtes. Mieux vaut se concentrer sur des matériaux vierges certifiés FSC avec origine documentée."
-        },
-        {
-          "type": "h3",
-          "text": "Qu'en est-il des compensations de carbone pour le transport maritime?"
-        },
-        {
-          "type": "p",
-          "text": "Nous ne compensons actuellement pas nos expéditions par défaut-les acheteurs qui veulent compenser le font par le biais de leurs propres programmes de carbone (souvent climatiquement neutre, Pachama ou des arrangements spécifiques à l'entreprise). Nous pouvons fournir des estimations de l'empreinte carbone par envoi si nécessaire pour les calculs de compensation. Le fret maritime est un mode relativement faible teneur en carbone par kg-km; le fret aérien est le problème de carbone et nous recommandons fortement aux acheteurs d'éviter le fret aérien pour les boîtes en bois dans la mesure du possible."
-        },
-        {
-          "type": "h3",
-          "text": "Les planches de bambou sont-elles vraiment aussi écologiques que les gens le disent?"
-        },
-        {
-          "type": "p",
-          "text": "La plupart du temps oui, avec une mise en garde. La culture du bambou est véritablement durable. La fabrication du bambou implique des bandes de laminage avec des adhésifs-et les fournisseurs bon marché utilisent des adhésifs à base de formaldéhyde qui ne respectent pas les normes de qualité de l'air de l'UE et de la Californie. Des fournisseurs réputés (nous travaillons avec des laminateurs E0 et E1-grade) utilisent des adhésifs à faibles émissions. Demandez toujours des rapports de test d'émissions si vous positionnez le produit comme éco-premium. Le bambou bon marché peut être une histoire environnementale pire que le bois dur réfléchi."
-        },
-        {
-          "type": "quote",
-          "text": "Les allégations de durabilité qui ne peuvent pas être documentées sont du marketing. Les certificats et les pistes d'audit sont ce que vos clients, les régulateurs et les auditeurs acceptent réellement."
-        },
-        {
-          "type": "p",
-          "text": "Pour les acheteurs qui nous évaluent par rapport à d'autres usines, nous vous encourageons à poser les mêmes questions de documentation à tout le monde dans votre liste restreinte: certificat FSC, rapports de conformité REACH/CARB, enregistrement phyto et historique des audits. Les usines qui peuvent produire les documents dans les 48 heures sont les usines qui vivent les pratiques. Tout le monde vous vend la version marketing. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
+          "text": "Notre MOQ est de 200 pièces par modèle pour OEM, ODM et séries d’essai de production. Lors de votre [demande de devis](/contact#inquiry), indiquez marché, usage, matériau et justificatifs nécessaires. Nous pourrons confirmer la construction réalisable et les documents disponibles pour cette commande."
         }
-      ]
+      ],
+      "updated": "2026-10-19"
     },
     "oem-vs-odm-wooden-boxes": {
       "title": "OEM vs ODM: lequel est bon pour votre projet de boîte en bois?",

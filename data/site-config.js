@@ -15,6 +15,7 @@ export const SITE = {
     legalName: 'Xiamen Chic Homeware Co.,Ltd.',
     brand: 'CHIC',
     tagline: 'Wooden Expert',
+    foundingYear: '2021',
   },
 
   // 网站显示用邮箱。这个域名（custom-woodenbox.com）需要在邮箱托管那边

@@ -118,7 +118,7 @@ export default function ProductTabs({ description, specs, customization, packagi
             id={`tab-${item.id}`}
             role="tab"
             aria-selected={tab === item.id}
-            aria-controls="product-tabpanel"
+            aria-controls={`product-panel-${item.id}`}
             className={`tabs-btn${tab === item.id ? ' is-active' : ''}`}
             onClick={() => setTab(item.id)}
             type="button"
@@ -128,41 +128,32 @@ export default function ProductTabs({ description, specs, customization, packagi
         ))}
       </div>
 
-      <div className="tabs-panel" role="tabpanel" id="product-tabpanel" aria-labelledby={`tab-${tab}`}>
-        {tab === 'description' && (
-          <div>
-            <p>{description}</p>
-            <p>{t('descriptionBoilerplate')}</p>
-          </div>
-        )}
-
-        {tab === 'specifications' && (
-          <table className="spec-table">
-            <tbody>
-              {Object.entries(specs).map(([key, value]) => (
-                <tr key={key}>
-                  <th>{translateSpecKey(key)}</th>
-                  <td>{value}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        )}
-
-        {tab === 'customization' && (
-          <ul className="cust-list">
-            {customization.map((c, i) => (
-              <li key={i} className="cust-item">{c}</li>
+      {/* Render every panel on the server; visitors reveal each with its tab. */}
+      <div className="tabs-panel" role="tabpanel" id="product-panel-description" aria-labelledby="tab-description" hidden={tab !== 'description'}>
+        <p>{description}</p>
+      </div>
+      <div className="tabs-panel" role="tabpanel" id="product-panel-specifications" aria-labelledby="tab-specifications" hidden={tab !== 'specifications'}>
+        <table className="spec-table">
+          <tbody>
+            {Object.entries(specs).map(([key, value]) => (
+              <tr key={key}>
+                <th>{translateSpecKey(key)}</th>
+                <td>{value}</td>
+              </tr>
             ))}
-          </ul>
-        )}
-
-        {tab === 'packaging' && (
-          <div>
-            <p>{packaging}</p>
-            <p>{t('packagingBoilerplate')}</p>
-          </div>
-        )}
+          </tbody>
+        </table>
+      </div>
+      <div className="tabs-panel" role="tabpanel" id="product-panel-customization" aria-labelledby="tab-customization" hidden={tab !== 'customization'}>
+        <ul className="cust-list">
+          {customization.map((c, i) => (
+            <li key={i} className="cust-item">{c}</li>
+          ))}
+        </ul>
+      </div>
+      <div className="tabs-panel" role="tabpanel" id="product-panel-packaging" aria-labelledby="tab-packaging" hidden={tab !== 'packaging'}>
+        <p>{packaging}</p>
+        <p>{t('packagingBoilerplate')}</p>
       </div>
     </div>
   );

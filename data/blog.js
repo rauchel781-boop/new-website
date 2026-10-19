@@ -156,54 +156,189 @@ export const POSTS = [
   },
   // ════════════════════════════════════ LATEST ════════════════════════════════════
   {
-    slug: 'eva-vs-epe-vs-velvet-vs-felt-insert-guide',
-    title: 'EVA vs EPE vs Velvet vs Felt: How to Choose an Insert for Wooden Boxes',
-    excerpt: 'A comprehensive guide to selecting the perfect insert material for your wooden boxes. Compare EVA foam, EPE foam, velvet, and felt liners across protection, cost, aesthetics, and sustainability.',
-    date: '2026-06-26',
-    updated: "2026-10-19",
-    category: 'Materials',
-    readTime: '12 min read',
-    hero: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp',
-    body: [
-      { type: 'p', text: 'Before finalizing your specifications, consult our [low MOQ sampling guide](/blog/low-moq-sampling-strategy).' },
-      { type: 'p', text: 'When designing [custom wooden boxes](/products/gift-packaging), the insert material is just as critical as the box itself. The wrong choice can lead to damaged products, increased costs, or a presentation that fails to impress your customers. In this comprehensive guide, we\'ll compare four popular insert materials—EVA foam, EPE foam, velvet, and felt—across key decision factors including protection level, cost-effectiveness, aesthetic appeal, environmental impact, and customization options.' },
-      { type: 'h2', text: 'Material Overview' },
-      { type: 'p', text: 'Let\'s start with a quick snapshot of each material. EVA (Ethylene-Vinyl Acetate) is a closed-cell foam known for its density, durability, and superior impact resistance. EPE (Expanded Polyethylene) is an open-cell foam that\'s lightweight, flexible, and cost-effective. Velvet is a soft, plush textile known for its rich texture and premium aesthetic. Felt is a non-woven fabric made from pressed wool fibers, offering a soft, matte finish and increasing popularity for eco-conscious brands.' },
-      { type: 'table', headers: ['Material', 'Type', 'Primary Use', 'Key Strength'], rows: [
-        ['EVA Foam', 'Synthetic polymer', 'High-impact protection', 'Superior shock absorption'],
-        ['EPE Foam', 'Polyethylene foam', 'General cushioning', 'Lightweight & affordable'],
-        ['Velvet', 'Textile (synthetic/natural)', 'Luxury presentation', 'Premium aesthetic'],
-        ['Felt', 'Pressed wool/synthetic fibers', 'Eco-friendly cushioning', 'Sustainable & soft'],
-      ] },
-      { type: 'h2', text: 'EVA Foam: Premium Protection' },
-      { type: 'p', text: 'EVA (Ethylene-Vinyl Acetate) is a closed-cell foam known for its density, durability, and superior impact resistance. It\'s the material you\'ll find in yoga mats, shoe soles, and high-end electronics packaging. EVA offers excellent shock absorption, with a density of 40-60 Shore C. It provides precision die-cutting capabilities and can be flocked with velvet for a luxury finish. While it comes at a premium price point, EVA is ideal for high-value electronics like watches, cameras, and phones, medical instruments, tools requiring precise fit, and products needing reusable packaging. For a catalogue example, see the [Luxury Magnetic Gift Box](/products/gift-packaging/luxury-magnetic-gift-box).' },
-      { type: 'h2', text: 'EPE Foam: Versatile Cushioning' },
-      { type: 'p', text: 'EPE (Expanded Polyethylene) is an open-cell foam that\'s lightweight, flexible, and cost-effective. It\'s the "bubble wrap" of foams—soft, squishy, and excellent for general cushioning. EPE provides good shock absorption with a lower density of 20-30 Shore C, making it softer and more compressible than EVA. It\'s budget-friendly and recyclable with low manufacturing emissions. EPE is best for moderate protection needs, bulk packaging for shipping multiple units, budget-conscious projects, and products with regular shapes that don\'t require complex contours. For a budget breakdown, see our [wooden box cost guide](/blog/custom-wooden-box-cost-2026).' },
-      { type: 'h2', text: 'Velvet: Luxury Presentation' },
-      { type: 'p', text: 'Velvet is a soft, plush textile (natural silk or synthetic polyester) known for its rich texture and premium aesthetic. It\'s commonly used in jewelry boxes, perfume packaging, and high-end gift sets. While velvet offers minimal shock absorption on its own and requires padding beneath, it provides an unmatched luxury feel with excellent customization options. Velvet is ideal for jewelry and precious items, perfume and cosmetics, luxury gifts and awards, and products where the unboxing experience is critical. Many brands combine velvet with foam, using EVA or EPE as the base cushioning layer with velvet flocking on top for aesthetics. See how the components fit together in our [watch box design guide](/blog/wooden-watch-box-anatomy).' },
-      { type: 'h2', text: 'Felt: Classic & Sustainable' },
-      { type: 'p', text: 'Felt is a non-woven fabric made from pressed wool fibers (or synthetic alternatives). It offers a soft, matte finish and is increasingly popular for eco-conscious brands. Felt provides moderate cushioning with an elegant, understated luxury aesthetic. It\'s easy to cut, dye, and shape, offering excellent customization options. Wool felt is biodegradable with recycled synthetics available, making it the most sustainable option. Felt is best for eco-conscious brands, artisan and handmade products, moderate-weight items like books, ceramics, and glassware, and brands seeking a natural aesthetic. Compare branding and surface treatments in our [finishing and branding guide](/blog/wooden-box-finishing-techniques).' },
-      { type: 'h2', text: 'Head-to-Head Comparison' },
-      { type: 'p', text: 'When comparing all four materials across key criteria, each has distinct strengths. EVA foam excels in protection (5/5 stars) but comes at a premium cost ($$$). EPE foam offers good protection (4/5 stars) at budget-friendly pricing ($). Velvet provides minimal protection (2/5 stars) but unmatched aesthetics (5/5 stars) at premium cost. Felt offers moderate protection (3/5 stars) with excellent sustainability (5/5 stars) at mid-range pricing ($$).' },
-      { type: 'table', headers: ['Criteria', 'EVA Foam', 'EPE Foam', 'Velvet', 'Felt'], rows: [
-        ['Protection Level', '⭐⭐⭐⭐⭐', '⭐⭐⭐⭐', '⭐⭐', '⭐⭐⭐'],
-        ['Cost', '$$$', '$', '$$$', '$$'],
-        ['Aesthetics', '⭐⭐⭐⭐', '⭐⭐', '⭐⭐⭐⭐⭐', '⭐⭐⭐⭐'],
-        ['Customization', '⭐⭐⭐⭐⭐', '⭐⭐⭐', '⭐⭐⭐⭐', '⭐⭐⭐⭐'],
-        ['Sustainability', '⭐⭐', '⭐⭐⭐', '⭐⭐⭐', '⭐⭐⭐⭐⭐'],
-        ['Best For', 'Electronics, tools', 'Bulk shipping', 'Jewelry, perfume', 'Eco brands, artisan goods'],
-      ] },
-      { type: 'h2', text: 'Decision Framework' },
-      { type: 'p', text: 'Use this decision framework to select your ideal insert material. First, assess product fragility: fragile items like electronics and glass need EVA or EPE, moderate items can use EPE or felt, and sturdy items work well with velvet or felt. Second, define your budget range: premium budgets ($$$) can afford EVA or velvet, mid-range ($$) suits felt, and budget ($) projects should use EPE. Third, consider brand positioning: luxury brands benefit from velvet with EVA base, eco-conscious brands should choose felt, tech and professional brands suit EVA, and value-focused brands work well with EPE. Finally, evaluate production volume: high volume orders over 1,000 units benefit from automated cutting of EVA or EPE, medium volume 100-1,000 units can use any material, and low volume under 100 units find felt or velvet easier for manual work. Check the options in our [wood, finish and hardware reference](/material-guide).' },
-      { type: 'h2', text: 'Real-World Applications' },
-      { type: 'p', text: "A luxury watch brand facing the challenge of protecting high-value timepieces while maintaining premium presentation used a base layer of EVA foam die-cut to watch shape with a top layer of velvet flocking on the EVA surface, achieving 5-star protection plus luxury unboxing at $3-5 per insert. An artisan candle company needing eco-friendly packaging for handmade candles used wool felt inserts custom-cut to fit candle jars, with the natural, sustainable image aligning with their brand and resulting in a 30% increase in repeat purchases at $1.50-2 per insert. An e-commerce electronics company shipping Bluetooth speakers safely at scale used EPE foam corner protectors with center cushion, achieving lightweight shipping cost reduction and dropping damage rate from 5% to less than 1% at $0.50-0.80 per insert. For a catalogue example, see the [Three-Watch Display Case](/products/watch-jewelry/three-watch-display-case)." },
-      { type: 'h2', text: 'Expert Selection Tips' },
-      { type: 'p', text: 'Always order samples with your actual product and drop test from waist height—if the product survives, the insert works. Consider the full lifecycle: for storage, evaluate if boxes will be stacked, as EVA and EPE resist compression better; for shipping, international shipments need heavier protection like EVA; for reusability, luxury brands benefit from durable inserts customers keep, such as EVA plus velvet. Don\'t limit yourself to one material—the best inserts often combine EVA base for structure with velvet top for aesthetics, or EPE cushion with felt dividers for eco-friendliness plus function.' },
-      { type: 'p', text: "Our MOQ is 200 pieces per design for OEM, ODM and production trial orders. For more details, see [China sourcing guide](/blog/sourcing-custom-wooden-boxes-from-china-2026)." },
-      { type: 'h2', text: 'Conclusion' },
-      { type: 'p', text: 'Choosing the right insert material for your wooden boxes comes down to balancing protection, cost, aesthetics, and brand values. EVA foam offers premium protection and customization at $$$ but is worth it for high-value products. EPE foam provides affordable, lightweight cushioning for general use at $. Velvet delivers luxury presentation best when paired with foam base at $$$. Felt provides eco-friendly, elegant, and versatile options at $$. For most custom wooden box projects, we recommend starting with EVA foam as your base, then adding velvet or felt on top if your budget allows. This gives you the best of both worlds—protection you can trust plus presentation that delights. For a specification based on your project, [request a quote](/contact#inquiry).' },
+    "slug": "eva-vs-epe-vs-velvet-vs-felt-insert-guide",
+    "title": "EVA vs EPE vs Velvet vs Felt: How to Choose an Insert for Wooden Boxes",
+    "excerpt": "A comprehensive guide to selecting the perfect insert material for your wooden boxes. Compare EVA foam, EPE foam, velvet, and felt liners across protection, cost, aesthetics, and sustainability.",
+    "date": "2026-06-26",
+    "updated": "2026-10-19",
+    "category": "Materials",
+    "readTime": "5 min read",
+    "hero": "/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp",
+    "body": [
+      {
+        "type": "p",
+        "text": "Before finalizing your specifications, consult our [low MOQ sampling guide](/blog/low-moq-sampling-strategy)."
+      },
+      {
+        "type": "p",
+        "text": "When designing [custom wooden boxes](/products/gift-packaging), the insert material is just as critical as the box itself. The wrong choice can lead to damaged products, increased costs, or a presentation that fails to impress your customers. In this comprehensive guide, we'll compare four popular insert materials—EVA foam, EPE foam, velvet, and felt—across key decision factors including protection level, cost-effectiveness, aesthetic appeal, environmental impact, and customization options."
+      },
+      {
+        "type": "h2",
+        "text": "Material Overview"
+      },
+      {
+        "type": "p",
+        "text": "EVA and EPE are closed-cell foams. EVA can provide a shaped support, while expanded polyethylene (EPE) is widely used for light cushioning. Performance depends on the foam grade, thickness and insert geometry. Velvet is a surface textile; felt is a non-woven material made from wool, synthetic fibres or blends. Neither textile alone guarantees transit protection."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Material",
+          "Construction",
+          "Typical Role",
+          "Check Before Approval"
+        ],
+        "rows": [
+          [
+            "EVA foam",
+            "Closed-cell foam",
+            "Shaped support and cushioning",
+            "Grade, density, hardness and fit"
+          ],
+          [
+            "EPE foam",
+            "Closed-cell polyethylene foam",
+            "Pads, corners and cushioning",
+            "Grade, thickness and loaded performance"
+          ],
+          [
+            "Velvet",
+            "Fabric or a separately specified flocked surface",
+            "Presentation and contact layer",
+            "Fibre, backing, adhesion and colour transfer"
+          ],
+          [
+            "Felt",
+            "Non-woven wool, synthetic fibres or blends",
+            "Lining, dividers and contact layer",
+            "Composition, thickness and abrasion"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "EVA Foam: Premium Protection"
+      },
+      {
+        "type": "p",
+        "text": "EVA foam can be cut to hold a product securely, but the material name does not specify its performance. Request the grade, density in kg/m³, thickness and hardness test method. Shore C is a hardness scale, not a density unit; hardness and density must be recorded separately. Approve the actual foam and cavity fit with a loaded sample. See the [Luxury Magnetic Gift Box](/products/gift-packaging/luxury-magnetic-gift-box) for an insert application."
+      },
+      {
+        "type": "h2",
+        "text": "EPE Foam: Versatile Cushioning"
+      },
+      {
+        "type": "p",
+        "text": "EPE is closed-cell expanded polyethylene, not open-cell foam. It can be used for pads, corner blocks and shaped supports. Select the grade and thickness for the product weight and shipping conditions rather than assuming it is always softer or less protective than EVA. Recycling depends on local PE-foam collection and on whether fabric or adhesive can be separated. See our [wooden box cost guide](/blog/custom-wooden-box-cost-2026)."
+      },
+      {
+        "type": "h2",
+        "text": "Velvet: Luxury Presentation"
+      },
+      {
+        "type": "p",
+        "text": "Velvet can be supplied as a fabric covering; flocking is a separate surface process. Confirm the fibre, backing, adhesive and colourfastness of the chosen finish. A velvet surface can limit rubbing and improve presentation, but any required cushioning comes from the supporting structure. Compare layouts in our [watch box design guide](/blog/wooden-watch-box-anatomy)."
+      },
+      {
+        "type": "h2",
+        "text": "Felt: Fibre and Construction Matter"
+      },
+      {
+        "type": "p",
+        "text": "Felt may contain wool, polyester, recycled fibres or a blend. Specify composition, thickness, abrasion resistance and any backing or adhesive. A recycled-content or natural-fibre description does not by itself establish recyclability, compostability or a lower environmental impact. Confirm the evidence for the particular material. Compare surface options in our [finishing and branding guide](/blog/wooden-box-finishing-techniques)."
+      },
+      {
+        "type": "h2",
+        "text": "Head-to-Head Comparison"
+      },
+      {
+        "type": "p",
+        "text": "Material names alone cannot support a universal protection or sustainability rating. Compare candidate grades using the same product, package design and test conditions. The following checks identify the information to request before approving an insert."
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Check",
+          "EVA Foam",
+          "EPE Foam",
+          "Velvet",
+          "Felt"
+        ],
+        "rows": [
+          [
+            "Protection",
+            "Test the specified grade and geometry",
+            "Test the specified grade and geometry",
+            "Assess the supporting cushion",
+            "Assess thickness and supporting cushion"
+          ],
+          [
+            "Cost",
+            "Quote grade, cutting and tooling",
+            "Quote grade, cutting and tooling",
+            "Quote fabric and application",
+            "Quote fibre and cutting"
+          ],
+          [
+            "End of life",
+            "Confirm local acceptance and separability",
+            "Confirm local acceptance and separability",
+            "Confirm fibre, backing and adhesive",
+            "Confirm fibre, backing and adhesive"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Decision Framework"
+      },
+      {
+        "type": "p",
+        "text": "Start with product mass, fragile points, surface sensitivity and the required shipping route. Specify internal clearances and how the buyer removes the item. Compare a shaped foam support with a textile-covered alternative, then test the complete packed box. Cutting method and tooling affect price; our production MOQ remains 200 pieces per design. See the [wood, finish and hardware reference](/material-guide)."
+      },
+      {
+        "type": "h2",
+        "text": "Illustrative Applications"
+      },
+      {
+        "type": "p",
+        "text": "For a watch, compare a shaped foam support with a fabric-covered cushion. For a candle jar, evaluate cavity fit, glass-to-wood clearance and leakage risks. For electronics, confirm any required antistatic properties as well as cushioning. These are design examples, not measured customer outcomes or quoted prices. See the [Three-Watch Display Case](/products/watch-jewelry/three-watch-display-case) for one layout."
+      },
+      {
+        "type": "h2",
+        "text": "Expert Selection Tips"
+      },
+      {
+        "type": "p",
+        "text": "Test samples with the actual product, retail box and outer shipping carton. Agree the drop, vibration and compression checks for the route and load; surviving one informal drop does not validate a shipping package. Also check recovery after storage, surface marking, odour and ease of removal. Record the approved grade and construction so production can reproduce the sample."
+      },
+      {
+        "type": "p",
+        "text": "Our MOQ is 200 pieces per design for OEM, ODM and production trial orders. For more details, see [China sourcing guide](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
+      },
+      {
+        "type": "h2",
+        "text": "Conclusion"
+      },
+      {
+        "type": "p",
+        "text": "Choose the insert as part of the complete package. EVA and EPE can provide cushioning when correctly specified; velvet and felt can provide a contact surface or lining. No material is automatically the safest or most sustainable choice. Ask us to compare suitable constructions and [request a quote](/contact#inquiry) with your product dimensions, weight and destination."
+      },
+      {
+        "type": "h2",
+        "text": "Technical References"
+      },
+      {
+        "type": "p",
+        "text": "Foam structure and recycling: [Sealed Air PE foam guidance](https://www.sealedair.com/products/protective-packaging/polyethylene-foam/cell-aire). Hardness measurement: [Bareiss Shore testing guidance](https://bareiss.de/en/support-downloads-en/customer-support). Technical facts reviewed on 19 October 2026."
+      }
     ],
-    related: ['wooden-box-finishing-techniques', 'wooden-watch-box-anatomy', 'custom-wooden-box-hardware-guide'],
+    "related": [
+      "wooden-box-finishing-techniques",
+      "wooden-watch-box-anatomy",
+      "custom-wooden-box-hardware-guide"
+    ]
   },
   {
     slug: 'how-to-choose-wood-thickness-for-custom-wooden-boxes',
@@ -1044,100 +1179,136 @@ export const POSTS = [
 
   // ════════════════════════════════════ 04 ════════════════════════════════════
   {
-    slug: 'sustainable-sourcing-2026',
-    title: 'Our sustainable sourcing practices in 2026',
-    excerpt: 'FSC chain of custody, plantation-grown paulownia, lower-VOC finishes, and how we keep wood waste under 8% — written for buyers who actually have to defend their supply chain.',
-    date: '2026-03-25',
-    updated: '2026-10-17',
-    category: 'Sustainability',
-    readTime: '9 min read',
-    hero: '/factory/painting.webp',
-    body: [
-      { type: 'p', text: 'Before finalizing your specifications, consult our [China sourcing guide](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
-      { type: 'p', text: 'Sustainability used to be a marketing line. Today it is a procurement requirement from most of the European, Japanese and Amazon brands we serve — a series of specific certifications, documents and supplier audits that have to clear before any box ships.' },
-      { type: 'p', text: 'This article is what our actual practices look like in 2026, written for the buyer who has to defend their supply chain to a sustainability officer, an Amazon Brand Registry compliance team, or an EU CBAM auditor. No vague claims — just what we do and the documents we can produce to prove it.' },
-
-      { type: 'h2', text: 'FSC chain of custody — and what it really means' },
-      { type: 'p', text: 'Every species in our catalog — paulownia, pine, bamboo, acacia, walnut and oak — is available with FSC (Forest Stewardship Council) certification on request. We hold FSC chain of custody certification through our timber suppliers, which means there is documented traceability from the forest stand or plantation to your shipping container. Compare species in our [wood selection guide](/blog/choosing-wood-for-gift-packaging).' },
-      { type: 'p', text: 'The important thing to understand about FSC is that the certification covers the wood, not the box. Our boxes are FSC-certified when both (a) the timber comes from FSC-certified suppliers AND (b) the production batch passes through our certified chain of custody process. We have to keep batch records, segregate FSC stock from non-FSC stock during production, and produce a per-shipment certificate that traces back to the source.' },
-      { type: 'p', text: 'For buyers selling into the EU, this is increasingly non-optional. The EU Deforestation Regulation (EUDR), which entered enforcement in 2025, requires importers of wood products to demonstrate that the wood is not linked to deforestation after December 31, 2020. FSC certification is the simplest way to satisfy this requirement.' },
-      { type: 'p', text: 'We charge a small premium (typically 4-7%) for FSC orders to cover the additional documentation and segregation costs. For most buyers this is recovered many times over in the markets it opens.' },
-
-      { type: 'h2', text: 'Paulownia — plantation-grown by definition' },
-      { type: 'p', text: '[Paulownia](/products/paulownia) is the closest thing the woodworking industry has to a renewable timber. The trees mature in 5-7 years (versus 30-60 years for oak or walnut), and almost all commercial paulownia is plantation-grown rather than harvested from natural forests.' },
-      { type: 'p', text: 'Our paulownia comes from managed plantations in Henan and Anhui provinces. The plantations are owned by farming cooperatives that rotate harvests so that approximately 1/6 of the planted area is harvested each year, with new seedlings planted to replace harvested trees. The result is a continuous timber supply that does not draw down the forest stock.' },
-      { type: 'p', text: 'For buyers with explicit eco-positioning, paulownia is the obvious choice — and we can document the plantation source on request.' },
-      { type: 'img', src: '/factory/material.webp', caption: 'Plantation-grown paulownia stock in our timber yard' },
-
-      { type: 'h2', text: 'Lower-VOC finishes (REACH and CARB compliant)' },
-      { type: 'p', text: 'Volatile organic compounds (VOCs) are the off-gassing chemicals that produce the "new box smell" — and that, at higher concentrations, contribute to indoor air quality problems. Standard nitrocellulose lacquers, which are the cheapest finish option, can off-gas at levels that fail EU REACH and US CARB Phase 2 limits. Compare branding and surface treatments in our [finishing and branding guide](/blog/wooden-box-finishing-techniques).' },
-      { type: 'p', text: 'We have moved our finishing line to water-based lacquers as the default. Water-based finishes contain a fraction of the VOC content of nitrocellulose, dry faster, and produce a similar visual result. The trade-off is cost (about 15% more per liter) and a slightly thinner film build, which we compensate for with an extra coat.' },
-      { type: 'p', text: 'For premium products we use natural plant-oil finishes — tung oil, linseed oil, beeswax. Zero VOC, fully food-safe, and the surface ages beautifully. The downside is longer cure times (up to 72 hours per coat) and more demanding application — these finishes are not appropriate for high-volume budget products.' },
-      { type: 'p', text: 'All finishes we offer are documented for REACH compliance (EU), CARB Phase 2 (US), and FDA food contact safety (where applicable). Test reports are available on request.' },
-
-      { type: 'h2', text: 'Waste reduction in cut-to-size' },
-      { type: 'p', text: 'Wood waste is the unsexy sustainability issue. Most factories generate 18-25% offcut waste from their cut-to-size operations — material that is paid for but ends up burned for biomass heat or sent to landfill. Follow each production stage in our [wooden box manufacturing guide](/blog/six-step-manufacturing-process).' },
-      { type: 'p', text: 'Our nesting software optimizes part layouts on each board to push offcut waste below 12% on most orders, and below 8% on standard SKUs we run repeatedly. For comparison, a 4% reduction in waste on a 20-foot container of paulownia is roughly $400-600 of saved material — small per unit but meaningful at volume.' },
-      { type: 'p', text: 'The remaining offcuts go to a sister facility that produces wooden beads, handles, drawer pulls and small turned components. Almost nothing reaches landfill. Sawdust is collected and sold to a particle board manufacturer in the same industrial park. The only real waste from our process is the trim from the very ends of boards, which goes to local biomass heating.' },
-
-      { type: 'h2', text: 'Phytosanitary documentation' },
-      { type: 'p', text: 'All solid wood shipments leave with phytosanitary certificates issued by China customs, confirming the wood is treated and pest-free per ISPM-15 standards (the international standard for wood packaging material). This is critical for shipments to the EU, US, Australia, Japan and Korea — without phyto certificates, your container can be quarantined or refused at the destination port. Check the options in our [Custom Wooden Box Manufacturing Capabilities](/capabilities).' },
-      { type: 'p', text: 'Our facility is registered for ISPM-15 heat treatment and our finished goods carry the IPPC stamp showing the treatment date and our facility code. The phyto certificate accompanies the bill of lading and clears with customs documentation in under 24 hours at most ports.' },
-
-      { type: 'h2', text: 'What we still need to do better' },
-      { type: 'p', text: 'Sustainability is not a box you check — it is a continuous direction. Three things we are working on for 2026-2027:' },
-      { type: 'list', items: [
-        'Switching all internal forklifts and yard vehicles to electric. Currently 60% of our internal fleet is electric; target is 100% by end of 2026.',
-        'Installing rooftop solar across our two main production buildings. Estimated to cover 30-40% of our daytime electricity load.',
-        'Working with our pine and oak suppliers to expand FSC coverage from 70% to 95% of our timber stock by mid-2027.',
-      ]},
-      { type: 'p', text: 'None of these are revolutionary — they are the kind of incremental work that adds up over years. We will publish updates on this Journal as each gets done.' },
-
-      { type: 'h2', text: 'What we tell buyers asking for "the most sustainable option"' },
-      { type: 'p', text: 'The honest answer is: there is no single "most sustainable" choice. Different products optimize for different environmental dimensions, and trade-offs are always involved. Here is the framework we use when buyers ask us to recommend a sustainability-led spec.' },
-
-      { type: 'h3', text: '1. Lowest carbon footprint per box' },
-      { type: 'p', text: 'Plantation paulownia. The fast regrowth cycle and very low density (less mass means less embodied energy in growing, drying, machining and shipping) makes paulownia the lowest-carbon-per-unit choice we offer. For carbon-conscious brands tracking Scope 3 emissions, paulownia is almost always the right answer. Check the options in our [wood, finish and hardware reference](/material-guide).' },
-
-      { type: 'h3', text: '2. Lowest forest impact' },
-      { type: 'p', text: '[Bamboo](/blog/bamboo-vs-acacia-kitchenware). The 5-7 year regrowth cycle (versus 30-60 years for hardwood) means bamboo represents zero net forest harvest pressure when sourced from FSC-certified plantations. The root systems also stabilize soil and improve degraded land.' },
-
-      { type: 'h3', text: '3. Best end-of-life behavior' },
-      { type: 'p', text: 'Solid wood with oil or wax finish, no lacquer. Fully compostable at end of life, breaks down in normal soil within 3-7 years. The lacquer in standard finishes prevents biodegradability — for true cradle-to-cradle products, oil or wax only. Compare the [Storage Boxes](/products/storage) for available designs.' },
-
-      { type: 'h3', text: '4. Lowest indoor air quality impact' },
-      { type: 'p', text: 'Water-based lacquer or natural oil finishes. VOC emissions during use are the most-overlooked sustainability factor — products that off-gas indoors for years contribute to indoor air quality problems even if the source materials were technically "sustainable."' },
-
-      { type: 'h2', text: 'Why we ship documentation with every order' },
-      { type: 'p', text: 'For European customers especially, sustainability claims without documentation are increasingly worthless. The EU Deforestation Regulation, the German Supply Chain Due Diligence Act (LkSG), and the broader CSRD (Corporate Sustainability Reporting Directive) all require importers to substantiate environmental claims with audit-grade documentation. The era of "we are committed to sustainability" without proof is over.' },
-      { type: 'p', text: 'Our standard sustainability documentation packet, included with every shipment that meets eco specifications:' },
-      { type: 'list', items: [
-        'FSC certificate of origin with batch traceability back to forest stand or plantation',
-        'Phytosanitary certificate per ISPM-15 with treatment date and IPPC mark',
-        'Finish emission test report (REACH for EU, CARB Phase 2 for US, both available)',
-        'Materials declaration listing species, source country, and plantation/forest type',
-        'Carbon footprint estimate per unit (calculated using DEFRA emission factors)',
-        'End-of-life disposal guidance for the product (recyclable / compostable status)',
-      ]},
-
-      { type: 'h2', text: 'Frequently asked sustainability questions' },
-      { type: 'h3', text: 'Is the FSC premium worth it?' },
-      { type: 'p', text: 'For products selling in EU markets or to corporate buyers with sustainability procurement requirements: yes, almost always. The 4-7% cost premium is recovered many times over in market access, retail buyer acceptance, and reduced compliance risk. For products selling in markets where FSC is not commercially relevant: probably not, unless the brand specifically markets the certification to consumers.' },
-
-      { type: 'h3', text: 'Should I use recycled materials in my packaging?' },
-      { type: 'p', text: 'For paper outer cartons, sleeves and tissue: yes, recycled content is widely available and cost-neutral. We use 80%+ post-consumer recycled paper for almost all secondary packaging by default. For wooden boxes themselves: not really — recycled wood is rarely available in the consistent quality and dimensions needed for boxes. Better to focus on FSC-certified virgin materials with documented origin.' },
-
-      { type: 'h3', text: 'What about carbon offsets for shipping?' },
-      { type: 'p', text: 'We do not currently offset our shipments by default — buyers who want offsetting do so through their own carbon programs (often Climate Neutral, Pachama, or company-specific arrangements). We can provide carbon footprint estimates per shipment if needed for offsetting calculations. Sea freight is a relatively low-carbon mode per kg-km; air freight is the carbon problem and we strongly recommend buyers avoid air freight for wooden boxes wherever possible.' },
-
-      { type: 'h3', text: 'Are bamboo boards really as eco-friendly as people say?' },
-      { type: 'p', text: 'Mostly yes, with one caveat. Bamboo growing is genuinely sustainable. Bamboo manufacturing involves laminating strips with adhesives — and cheap suppliers use formaldehyde-based adhesives that fail EU and California air quality standards. Reputable suppliers (we work with E0 and E1-grade laminators) use low-emission adhesives. Always ask for emission test reports if you are positioning the product as eco-premium. Cheap bamboo can be a worse environmental story than thoughtful hardwood.' },
-
-      { type: 'quote', text: 'Sustainability claims that cannot be documented are marketing. The certificates and audit trails are what your customers, regulators and auditors actually accept.' },
-
-      { type: 'p', text: 'For buyers evaluating us against other factories, we encourage you to ask the same documentation questions of everyone in your shortlist: FSC certificate, REACH/CARB compliance reports, phyto registration, and audit history. The factories that can produce the documents within 48 hours are the factories that actually live the practices. Everyone else is selling you the marketing version. For a specification based on your project, [request a quote](/contact#inquiry).' },
+    "slug": "sustainable-sourcing-2026",
+    "title": "Sustainable Wooden Box Sourcing: 2026 Buyer Checklist",
+    "excerpt": "A buyer checklist for wooden box sourcing: verify FSC claims, current EUDR dates, material and finish records, export packaging and environmental evidence.",
+    "date": "2026-03-25",
+    "updated": "2026-10-19",
+    "category": "Sustainability",
+    "readTime": "4 min read",
+    "hero": "/factory/painting.webp",
+    "body": [
+      {
+        "type": "p",
+        "text": "Before finalizing your specifications, consult our [China sourcing guide](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
+      },
+      {
+        "type": "p",
+        "text": "For a custom wooden box order, assess sourcing against a written specification and evidence for the particular supply chain. Use this checklist to confirm certification scope, test reports and available source records for the selected materials and supplier entities before placing an order."
+      },
+      {
+        "type": "h2",
+        "text": "FSC Claims: Verify the Complete Chain"
+      },
+      {
+        "type": "p",
+        "text": "An FSC claim cannot be borrowed from a timber supplier. Check the relevant certificate holder, validity, product scope and the claim on the sales documents. Compare species in our [wood selection guide](/blog/choosing-wood-for-gift-packaging) and review [FSC chain of custody](https://fsc.org/en/chain-of-custody)."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Confirm the certificate code and scope for the entities handling the order.",
+          "Confirm the output claim and supporting purchase and batch records.",
+          "Agree any FSC labelling only after the chain of custody and permissions are verified."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "EUDR: Current Application Dates"
+      },
+      {
+        "type": "p",
+        "text": "As reviewed on 19 October 2026, application starts on 30 December 2026 for large and medium operators and on 30 June 2027 for most micro and small operators. Micro and small operators already covered by the EUTR also start on 30 December 2026. Check the [European Commission timeline](https://environment.ec.europa.eu/topics/forests/deforestation/regulation-deforestation-free-products_en)."
+      },
+      {
+        "type": "p",
+        "text": "Confirm product scope, business role and required supply-chain evidence for the order. FSC can support the review but does not replace EUDR due diligence or automatically establish compliance. See [FSC guidance on EUDR duties](https://uk.fsc.org/eudr-and-fsc)."
+      },
+      {
+        "type": "h2",
+        "text": "Material Origin and Finish Specifications"
+      },
+      {
+        "type": "p",
+        "text": "[Paulownia](/products/paulownia) can reduce package weight, but the species name alone proves neither plantation origin nor a lower carbon footprint. Request the species, harvest country and available source records for the actual batch."
+      },
+      {
+        "type": "p",
+        "text": "Specify the finish formulation, curing conditions and relevant test scope using our [finishing and branding guide](/blog/wooden-box-finishing-techniques). A water-based finish is not automatically zero-VOC. CARB Phase 2 concerns formaldehyde from covered composite wood, not a general coating VOC approval; see the [CARB consumer FAQ](https://ww2.arb.ca.gov/resources/documents/consumer-faq)."
+      },
+      {
+        "type": "p",
+        "text": "Natural oil or wax is not automatically suitable for food contact. If that use is intended, confirm the formulation, cure and evidence for the destination market and contact conditions. Match each report to the material and product being ordered."
+      },
+      {
+        "type": "img",
+        "src": "/factory/material.webp",
+        "caption": "Wood material stock for production"
+      },
+      {
+        "type": "h2",
+        "text": "Waste, Reuse and Material Claims"
+      },
+      {
+        "type": "p",
+        "text": "Ask for the cutting plan and measured waste records before publishing a waste-reduction percentage. Compare production choices in our [manufacturing guide](/blog/six-step-manufacturing-process). Offcut reuse and recycling should be described only where a documented outlet exists."
+      },
+      {
+        "type": "p",
+        "text": "For bamboo, ask about the laminated board, adhesive and relevant emissions tests; a fast-growing plant does not make every finished board environmentally preferable. See our [bamboo and acacia comparison](/blog/bamboo-vs-acacia-kitchenware). Verify any recycled-content percentage against supplier records."
+      },
+      {
+        "type": "p",
+        "text": "Design for reuse and separation of wood, hardware and liners. Oil, wax, lacquer and adhesives affect disposal options; do not promise household compostability or a fixed decomposition time without supporting evidence. Compare reusable [storage box designs](/products/storage)."
+      },
+      {
+        "type": "h2",
+        "text": "Export Packaging and Plant-Health Checks"
+      },
+      {
+        "type": "p",
+        "text": "ISPM 15 regulates certain wood packaging material. Processed-wood packaging and some pest-free manufactured gift boxes can be exempt; not every wooden product has the same treatment requirements. Review [IPPC ISPM 15](https://www.ippc.int/en/publications/91395/) and discuss the packing construction through our [manufacturing capabilities](/capabilities)."
+      },
+      {
+        "type": "p",
+        "text": "For packaging that is in scope, confirm the approved treatment and authorised mark. Under ISPM 15, that mark generally replaces a phytosanitary certificate for the packaging. Separate import requirements for the product must be checked with the destination authority or importer; do not assume every gift box requires an individual certificate."
+      },
+      {
+        "type": "h2",
+        "text": "Compare Environmental Outcomes with Evidence"
+      },
+      {
+        "type": "p",
+        "text": "Compare designs with the same intended use and service life. Material mass, drying, processing, transport and disposal all matter. A carbon comparison needs a defined method and boundary; certification or low density alone cannot establish a lowest-carbon claim. Use our [material reference](/material-guide) to prepare comparable specifications."
+      },
+      {
+        "type": "h2",
+        "text": "Documents to Agree Before Production"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Material specification, species, origin and available batch traceability.",
+          "Verified certificate scope and the exact order claim, where applicable.",
+          "Finish and adhesive information plus relevant, product-matched test reports.",
+          "Export packing construction and applicable treatment or marking records.",
+          "Evidence for any recycled-content, waste or carbon claim used in marketing."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Prepare an Order-Level Specification"
+      },
+      {
+        "type": "p",
+        "text": "Our MOQ is 200 pieces per design for OEM, ODM and production trial orders. Send the destination market, intended use, material preference and required evidence when you [request a quote](/contact#inquiry). We can then confirm the feasible specification and available documents for that order."
+      }
     ],
-    related: ['choosing-wood-for-gift-packaging', 'six-step-manufacturing-process', 'amazon-fba-wooden-packaging'],
+    "related": [
+      "choosing-wood-for-gift-packaging",
+      "six-step-manufacturing-process",
+      "amazon-fba-wooden-packaging"
+    ]
   },
 
   // ════════════════════════════════════ 05 ════════════════════════════════════
