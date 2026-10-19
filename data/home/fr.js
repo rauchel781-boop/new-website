@@ -114,7 +114,7 @@ export const COPY = {
     titleB: 'à l’Échelle Mondiale',
     text: 'Avec notre usine de 20 000 m² à Cao County, Shandong — cœur historique de l’industrie chinoise des boîtes en bois — et notre bureau commercial à Xiamen, Fujian, nous sommes un fabricant dédié de boîtes en bois servant détaillants, marques et importateurs en Europe, Amérique du Nord, Japon, Corée et au-delà.',
     features: [
-      'MOQ standard 200–500 pièces — séries échantillon dès 100',
+      "MOQ: 200 pièces",
       'Personnalisation totale : taille, finition, logo, insert, quincaillerie',
       'Bois certifié FSC et finitions écologiques disponibles',
       'Équipe design interne pour projets OEM et ODM',

@@ -35,7 +35,7 @@ export const FAQS = {
       },
       {
         q: 'What is the MOQ for custom wooden gift boxes?',
-        a: 'Standard MOQ is 300–500 pcs depending on design complexity. Trial orders from 100 pcs may be accepted for selected simple models with stock dimensions. Pre-production sample units (1-3 pcs) ship within 7 working days for your design approval.',
+        a: "Our MOQ is 200 pieces per design for both OEM and ODM orders. Send your specifications and target quantity for a quote. Pre-production sample units (1-3 pcs) ship within 7 working days for your design approval.",
       },
       {
         q: 'How are interior inserts customized for gift sets?',
@@ -127,7 +127,7 @@ export const FAQS = {
       },
       {
         q: 'What\'s the typical lead time and MOQ for custom-branded wine boxes?',
-        a: 'Standard MOQ is 300–500 pcs depending on design complexity. Trial orders from 100 pcs may be accepted for simple stock-size boxes. Lead time is 30-35 days after artwork approval; rush production (20-25 days) is available for an expedite fee.',
+        a: "Our MOQ is 200 pieces per design for both OEM and ODM orders. Send your specifications and target quantity for a quote. Lead time is 30-35 days after artwork approval; rush production (20-25 days) is available for an expedite fee.",
       },
     ],
   },
@@ -207,7 +207,7 @@ export const FAQS = {
       },
       {
         q: 'What\'s the MOQ and lead time for custom storage boxes?',
-        a: 'Standard MOQ is 300–500 pcs depending on design complexity. Trial orders from 100 pcs may be accepted for selected simple models. Lead time is 30-35 days after artwork sign-off; 7 days for sample units. Sample cost is refunded against the bulk order.',
+        a: "Our MOQ is 200 pieces per design for both OEM and ODM orders. Send your specifications and target quantity for a quote. Lead time is 30-35 days after artwork sign-off; 7 days for sample units. Sample cost is refunded against the bulk order.",
       },
       {
         q: 'Are storage boxes stackable?',
@@ -272,7 +272,7 @@ export const FAQS = {
       },
       {
         q: "What is your MOQ for custom sliding lid wooden boxes, and what does it cost to scale?",
-        a: 'Standard MOQ on a custom sliding lid wooden box design is 300 pieces — this is the floor where setup costs (CNC programming, sample build, finish formulation) amortise into a competitive unit price. First-order test runs can go down to 100 pieces with a higher unit cost. Sweet-spot pricing kicks in between 500 and 2,000 pieces; above 5,000 the next discount step usually requires shifting to a lighter wood species or a simpler closure on the same product family. Wholesale account terms (FOB Xiamen) are 30 / 70 split — deposit on PO, balance against pre-shipment inspection photos.',
+        a: "Our MOQ is 200 pieces per design for both OEM and ODM orders. Send your specifications and target quantity for a quote. Sweet-spot pricing kicks in between 500 and 2,000 pieces; above 5,000 the next discount step usually requires shifting to a lighter wood species or a simpler closure on the same product family. Wholesale account terms (FOB Xiamen) are 30 / 70 split — deposit on PO, balance against pre-shipment inspection photos.",
       },
       {
         q: 'Can you supply FSC-certified and food-safe finishes on sliding lid wooden boxes?',
@@ -280,7 +280,7 @@ export const FAQS = {
       },
       {
         q: 'Do you make sliding lid wooden cigar boxes? What sizes and woods are available?',
-        a: 'Yes — sliding lid wooden cigar boxes are one of our most-requested B2B applications. Standard cigar-box sizes range from 5-cigar boxes (170 × 70 × 35 mm interior) up to 25-count humidor-style sliding lid boxes (240 × 200 × 80 mm interior). Spanish cedar is the traditional liner — we line our walnut, paulownia and pine exteriors with cedar veneer for moisture and aroma management. MOQ for custom dimensions is 300 pieces; for stock dimensions with engraved branding only, MOQ can be 100. We ship cigar-box orders to distillers, tobacco brands and spirits houses across the EU, US and Canada.',
+        a: "Yes — sliding lid wooden cigar boxes are one of our most-requested B2B applications. Standard cigar-box sizes range from 5-cigar boxes (170 × 70 × 35 mm interior) up to 25-count humidor-style sliding lid boxes (240 × 200 × 80 mm interior). Spanish cedar is the traditional liner — we line our walnut, paulownia and pine exteriors with cedar veneer for moisture and aroma management. MOQ is 200 pieces per design for both custom and stock dimensions with engraved branding. We ship cigar-box orders to distillers, tobacco brands and spirits houses across the EU, US and Canada.",
       },
     ],
   },

@@ -114,7 +114,7 @@ export const COPY = {
     titleB: 'su Scala Globale',
     text: 'Con il nostro stabilimento di 20.000 m² a Cao County, Shandong — il cuore storico dell’industria cinese delle scatole in legno — e il nostro ufficio vendite a Xiamen, Fujian, siamo un produttore dedicato di scatole in legno al servizio di retailer, brand e importatori in Europa, Nord America, Giappone, Corea e oltre.',
     features: [
-      'MOQ standard 200–500 pezzi — serie campione da 100',
+      "MOQ: 200 pezzi",
       'Personalizzazione completa: misura, finitura, logo, inserto, ferramenta',
       'Legno certificato FSC e finiture eco disponibili',
       'Team di design interno per progetti OEM e ODM',

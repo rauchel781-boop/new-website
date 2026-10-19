@@ -16,7 +16,7 @@ export const FAQS = {
       },
       {
         "q": "Qual é o MOQ para caixas de presente de madeira personalizadas?",
-        "a": "O MOQ padrão é de 300 a 500 peças, dependendo da complexidade do design. Pedidos de teste a partir de 100 peças podem ser aceitos para modelos simples selecionados. Unidades de amostra pré-produção (1-3 pcs) navio no prazo de 7 dias úteis para a sua aprovação do projeto."
+        "a": "A nossa quantidade mínima é de 200 peças por design para encomendas OEM e ODM. Envie as especificações e a quantidade pretendida para receber um orçamento. Unidades de amostra pré-produção (1-3 pcs) navio no prazo de 7 dias úteis para a sua aprovação do projeto."
       },
       {
         "q": "Como são inserções interiores personalizadas para jogos do presente?",
@@ -102,7 +102,7 @@ export const FAQS = {
       },
       {
         "q": "Que é o prazo de espera e o MOQ típicos para caixas personalizadas do vinho?",
-        "a": "O MOQ padrão é de 300 a 500 peças, dependendo da complexidade do design. Pedidos de teste a partir de 100 peças podem ser aceitos para caixas simples de tamanho padrão. O prazo de espera padrão é 30-35 dias após a aprovação da arte finala; a produção apressada (20-25 dias) está disponível para uma taxa da aceleração."
+        "a": "A nossa quantidade mínima é de 200 peças por design para encomendas OEM e ODM. Envie as especificações e a quantidade pretendida para receber um orçamento. O prazo de espera padrão é 30-35 dias após a aprovação da arte finala; a produção apressada (20-25 dias) está disponível para uma taxa da aceleração."
       }
     ],
     "sectionTitle": "FAQ-Vinho, Whisky & Espíritos Caixas De Madeira",
@@ -176,7 +176,7 @@ export const FAQS = {
       },
       {
         "q": "Qual é o MOQ e prazo para caixas de armazenamento personalizado?",
-        "a": "O MOQ padrão é de 300 a 500 peças, dependendo da complexidade do design. Pedidos de teste a partir de 100 peças podem ser aceitos para modelos simples selecionados. O prazo de execução é 30-35 dias após a assinatura da arte finala; 7 dias para unidades da amostra. O custo da amostra é reembolsado contra o pedido em grandes quantidades."
+        "a": "A nossa quantidade mínima é de 200 peças por design para encomendas OEM e ODM. Envie as especificações e a quantidade pretendida para receber um orçamento. O prazo de execução é 30-35 dias após a assinatura da arte finala; 7 dias para unidades da amostra. O custo da amostra é reembolsado contra o pedido em grandes quantidades."
       },
       {
         "q": "As caixas são empilháveis?",

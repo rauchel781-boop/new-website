@@ -94,7 +94,7 @@ export const FAQS = {
       },
       {
         q: 'Qual é a vossa quantidade mínima de encomenda (MOQ)?',
-        a: 'A nossa MOQ padrão é de 300 unidades por design, sendo por vezes possíveis quantidades menores para caixas mais simples e mínimos mais elevados para caixas maiores ou complexas. Envie-nos o seu design e o volume pretendido e confirmaremos a MOQ exata para o seu projeto.',
+        a: "A nossa quantidade mínima é de 200 peças por design para encomendas OEM e ODM. Envie as especificações e a quantidade pretendida para receber um orçamento.",
       },
       {
         q: 'Qual é o prazo de produção de uma encomenda personalizada?',

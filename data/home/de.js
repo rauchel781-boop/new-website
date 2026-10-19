@@ -114,7 +114,7 @@ export const COPY = {
     titleB: 'im globalen Maßstab',
     text: 'Mit unserem 20.000 m² Werk in Cao County, Shandong — dem historischen Herzen der chinesischen Holzboxen-Industrie — und unserem Vertriebsbüro in Xiamen, Fujian, sind wir ein dedizierter Holzboxen-Hersteller, der Einzelhändler, Marken und Importeure in Europa, Nordamerika, Japan, Korea und darüber hinaus bedient.',
     features: [
-      'Standard-MOQ 200–500 Stück — Musterläufe ab 100',
+      "MOQ: 200 Stück",
       'Volle Anpassung: Größe, Finish, Logo, Einsatz, Beschlag',
       'FSC-zertifiziertes Holz und umweltfreundliche Finishes verfügbar',
       'Internes Designteam für OEM- und ODM-Projekte',

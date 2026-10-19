@@ -94,7 +94,7 @@ export const FAQS = {
       },
       {
         q: '¿Cuál es su cantidad mínima de pedido (MOQ)?',
-        a: 'Nuestra MOQ estándar es de 300 piezas por diseño, con cantidades menores a veces posibles para cajas más sencillas y mínimos más altos para cajas más grandes o complejas. Envíanos tu diseño y el volumen objetivo y confirmaremos la MOQ exacta para tu proyecto.',
+        a: "Nuestro pedido mínimo es de 200 piezas por diseño para pedidos OEM y ODM. Envíanos tus especificaciones y la cantidad deseada para recibir un presupuesto.",
       },
       {
         q: '¿Cuánto dura el plazo de producción de un pedido personalizado?',

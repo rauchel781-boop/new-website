@@ -16,7 +16,7 @@ export const FAQS = {
       },
       {
         "q": "¿Cuál es el MOQ para cajas de regalo de madera personalizadas?",
-        "a": "El MOQ estándar es de 300 a 500 piezas dependiendo de la complejidad del diseño. Se pueden aceptar pedidos de prueba desde 100 piezas para modelos simples seleccionados. Las unidades de la muestra de la preproducción (1-3 PC) nave en el plazo de 7 días laborables para su aprobación del diseño."
+        "a": "Nuestro pedido mínimo es de 200 piezas por diseño para pedidos OEM y ODM. Envíanos tus especificaciones y la cantidad deseada para recibir un presupuesto. Las unidades de la muestra de la preproducción (1-3 PC) nave en el plazo de 7 días laborables para su aprobación del diseño."
       },
       {
         "q": "¿Cómo se personalizan las inserciones interiores para conjuntos de regalo?",
@@ -102,7 +102,7 @@ export const FAQS = {
       },
       {
         "q": "¿Cuál es el tiempo de entrega típico y el MOQ para las cajas de vino de marca personalizada?",
-        "a": "El MOQ estándar es de 300 a 500 piezas dependiendo de la complejidad del diseño. Se pueden aceptar pedidos de prueba desde 100 piezas para cajas simples de tamaño estándar. El plazo de ejecución estándar es 30-35 días después de la aprobación de la obra de arte; la producción rápida (20-25 días) está disponible para una tarifa expedita."
+        "a": "Nuestro pedido mínimo es de 200 piezas por diseño para pedidos OEM y ODM. Envíanos tus especificaciones y la cantidad deseada para recibir un presupuesto. El plazo de ejecución estándar es 30-35 días después de la aprobación de la obra de arte; la producción rápida (20-25 días) está disponible para una tarifa expedita."
       }
     ],
     "sectionTitle": "FAQ-Cajas de madera de vino, whisky y licores",
@@ -176,7 +176,7 @@ export const FAQS = {
       },
       {
         "q": "¿Cuál es el MOQ y el tiempo de entrega para cajas de almacenamiento personalizadas?",
-        "a": "El MOQ estándar es de 300 a 500 piezas dependiendo de la complejidad del diseño. Se pueden aceptar pedidos de prueba desde 100 piezas para modelos simples seleccionados. El tiempo de entrega es de 30-35 días después de la firma de obras de arte; 7 días para unidades de muestra. El costo de la muestra se reembolsa contra el pedido a granel."
+        "a": "Nuestro pedido mínimo es de 200 piezas por diseño para pedidos OEM y ODM. Envíanos tus especificaciones y la cantidad deseada para recibir un presupuesto. El tiempo de entrega es de 30-35 días después de la firma de obras de arte; 7 días para unidades de muestra. El costo de la muestra se reembolsa contra el pedido a granel."
       },
       {
         "q": "¿Las cajas de almacenamiento son apilables?",

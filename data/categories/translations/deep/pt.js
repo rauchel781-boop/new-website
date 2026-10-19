@@ -6,7 +6,7 @@
 export default {
   "walnut": {
     "seoTitle": "Caixas de madeira de nogueira — Fabricante grossista e OEM personalizado | CHIC",
-    "seoDescription": "Caixas de madeira de nogueira personalizadas por grosso — caixas para relógios, joias e presentes em nogueira-preta-americana. MOQ 300, gravação a laser, opções FSC e CARB P2. FOB Xiamen, envio para EU/US/UK/CA.",
+    "seoDescription": "Caixas de madeira de nogueira personalizadas por grosso — caixas para relógios, joias e presentes em nogueira-preta-americana. MOQ 200, gravação a laser, opções FSC e CARB P2. FOB Xiamen, envio para EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guia de compra B2B",
       "title": "Adquirir caixas de madeira de nogueira por grosso: um guia de compra B2B",
@@ -44,7 +44,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A personalização é o ponto em que um programa grossista de nogueira se distingue do produto de catálogo padrão. Em encomendas OEM (MOQ 300 peças por design, 100 peças numa primeira encomenda de teste), a gravação a laser é o método de marcação mais limpo na nogueira — o veio denso mantém o detalhe nítido a profundidade total ou fracionária de milímetro, e a madeira escura proporciona alto contraste sem qualquer tinta. A folha quente e o embutido em latão cobrem o escalão de retalho dourado e metálico; o relevo afundado (deboss) e a serigrafia estão disponíveis para tiragens de logótipos. Para além da marcação, a nogueira aceita toda a gama de ferragens: [dobradiças escondidas de fecho suave](/products/hinged) para estojos de joias e relógios, um [íman de neodímio escondido](/products/magnetic) para o estalido premium de exterior limpo, ou uma [fechadura de chave ou de came em latão](/products/with-lock) para objetos de valor e documentos. Os interiores são feitos à medida — espuma cortada por CNC, bandejas forradas a veludo ou microfibra, almofadas para relógios, ranhuras para anéis — e as dimensões são ilimitadas, desde uma pequena caixa de anel até um cofre para vários relógios, tudo a partir do mesmo padrão de construção."
+          "text": "A personalização é o ponto em que um programa grossista de nogueira se distingue do produto de catálogo padrão. Em encomendas OEM (MOQ 200 peças por design, 200 peças numa primeira encomenda de teste), a gravação a laser é o método de marcação mais limpo na nogueira — o veio denso mantém o detalhe nítido a profundidade total ou fracionária de milímetro, e a madeira escura proporciona alto contraste sem qualquer tinta. A folha quente e o embutido em latão cobrem o escalão de retalho dourado e metálico; o relevo afundado (deboss) e a serigrafia estão disponíveis para tiragens de logótipos. Para além da marcação, a nogueira aceita toda a gama de ferragens: [dobradiças escondidas de fecho suave](/products/hinged) para estojos de joias e relógios, um [íman de neodímio escondido](/products/magnetic) para o estalido premium de exterior limpo, ou uma [fechadura de chave ou de came em latão](/products/with-lock) para objetos de valor e documentos. Os interiores são feitos à medida — espuma cortada por CNC, bandejas forradas a veludo ou microfibra, almofadas para relógios, ranhuras para anéis — e as dimensões são ilimitadas, desde uma pequena caixa de anel até um cofre para vários relógios, tudo a partir do mesmo padrão de construção."
         },
         {
           "type": "p",
@@ -64,7 +64,7 @@ export default {
   },
   "bamboo": {
     "seoTitle": "Caixas de Bambu — Fabricante Sustentável de Grosso e OEM Personalizado | CHIC",
-    "seoDescription": "Caixas de bambu personalizadas a grosso — certificadas FSC, naturalmente antibacterianas, food-safe. Embalagem para chá, cozinha e presentes eco. MOQ 300, gravação a laser. FOB Xiamen, expedimos para UE/EUA/RU/CA.",
+    "seoDescription": "Caixas de bambu personalizadas a grosso — certificadas FSC, naturalmente antibacterianas, food-safe. Embalagem para chá, cozinha e presentes eco. MOQ 200, gravação a laser. FOB Xiamen, expedimos para UE/EUA/RU/CA.",
     "deepContent": {
       "eyebrow": "Guia de aprovisionamento B2B",
       "title": "Aprovisionar caixas de bambu a grosso: o guia B2B para compradores focados na sustentabilidade",
@@ -102,7 +102,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A personalização numa encomenda grossista de bambu (MOQ 300 peças por design, 100 numa produção de teste de primeira encomenda) começa com o acabamento: a laca de base aquosa food-safe, conforme com EU EC 1935/2004 e US FDA 21 CFR 175.300, é padrão para qualquer caixa de bambu que acondicione alimentos, chá, café ou utensílios de cozinha, e um acabamento em bruto ou de óleo natural está disponível para compradores que querem o material nu. A gravação a laser assenta de forma limpa no grão uniforme do bambu e proporciona alto contraste sem tinta — a marcação mais limpa para uma SKU eco que pretende evitar etiquetas impressas. Para além da marcação, a construção comporta toda a gama de detalhe: divisórias de compartimentos modulares (disposições de 4/6/8/9 nichos para programas de chá e cápsulas), tampas de janela acrílica para visibilidade no retalho e qualquer fecho — magnético, de dobradiça ou a [tampa deslizante](/products/sliding-lid) totalmente reciclável que mantém a caixa monomaterial para alegações de reciclagem em fim de vida."
+          "text": "A personalização numa encomenda grossista de bambu (MOQ 200 peças por design, 200 numa produção de teste de primeira encomenda) começa com o acabamento: a laca de base aquosa food-safe, conforme com EU EC 1935/2004 e US FDA 21 CFR 175.300, é padrão para qualquer caixa de bambu que acondicione alimentos, chá, café ou utensílios de cozinha, e um acabamento em bruto ou de óleo natural está disponível para compradores que querem o material nu. A gravação a laser assenta de forma limpa no grão uniforme do bambu e proporciona alto contraste sem tinta — a marcação mais limpa para uma SKU eco que pretende evitar etiquetas impressas. Para além da marcação, a construção comporta toda a gama de detalhe: divisórias de compartimentos modulares (disposições de 4/6/8/9 nichos para programas de chá e cápsulas), tampas de janela acrílica para visibilidade no retalho e qualquer fecho — magnético, de dobradiça ou a [tampa deslizante](/products/sliding-lid) totalmente reciclável que mantém a caixa monomaterial para alegações de reciclagem em fim de vida."
         },
         {
           "type": "p",
@@ -122,7 +122,7 @@ export default {
   },
   "pine": {
     "seoTitle": "Caixas de Madeira de Pinho — Fabricante Grossista e OEM Personalizado | CHIC",
-    "seoDescription": "Caixas de madeira de pinho personalizadas por grosso — pinho Scots e radiata económico para vinho, jardim, caixotes e embalagem de presente rústica. MOQ 300, marcação a fogo e a laser. FOB Xiamen, envio para EU/US/UK/CA.",
+    "seoDescription": "Caixas de madeira de pinho personalizadas por grosso — pinho Scots e radiata económico para vinho, jardim, caixotes e embalagem de presente rústica. MOQ 200, marcação a fogo e a laser. FOB Xiamen, envio para EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guia de aprovisionamento B2B",
       "title": "Aprovisionar caixas de madeira de pinho por grosso: o guia B2B do custo unitário",
@@ -160,7 +160,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A personalização numa encomenda grossista de pinho (MOQ 300 peças por design, 100 numa série de teste de primeira encomenda) começa pelo acabamento, porque o pinho em bruto é uma tela em branco: laca exterior resistente aos UV para uso em exterior e jardim, laca interior de grau alimentar para caixas de piquenique e despensa, ou acabamentos a óleo natural e a fogo para o aspeto rústico. A marcação é onde o pinho supera a sua categoria de preço — marcação a fogo tradicional para a marca vintage gravada, gravação a laser para detalhe nítido e serigrafia ou estampagem a quente para logótipos de retalho. A construção aceita toda a gama de ferragens: pegas de corda e de couro, [dobradiças de latão e aço](/products/hinged), fechos, e inserções de espuma ou divisórias para garrafas e ferramentas. As dimensões são ilimitadas, desde uma caixa de vinho de uma só garrafa até um grande caixote de ferramentas de jardim, tudo a partir da mesma madeira macia."
+          "text": "A personalização numa encomenda grossista de pinho (MOQ 200 peças por design, 200 numa série de teste de primeira encomenda) começa pelo acabamento, porque o pinho em bruto é uma tela em branco: laca exterior resistente aos UV para uso em exterior e jardim, laca interior de grau alimentar para caixas de piquenique e despensa, ou acabamentos a óleo natural e a fogo para o aspeto rústico. A marcação é onde o pinho supera a sua categoria de preço — marcação a fogo tradicional para a marca vintage gravada, gravação a laser para detalhe nítido e serigrafia ou estampagem a quente para logótipos de retalho. A construção aceita toda a gama de ferragens: pegas de corda e de couro, [dobradiças de latão e aço](/products/hinged), fechos, e inserções de espuma ou divisórias para garrafas e ferramentas. As dimensões são ilimitadas, desde uma caixa de vinho de uma só garrafa até um grande caixote de ferramentas de jardim, tudo a partir da mesma madeira macia."
         },
         {
           "type": "p",
@@ -180,7 +180,7 @@ export default {
   },
   "paulownia": {
     "seoTitle": "Caixas de Madeira de Paulownia — Fabricante Leve por Grosso & OEM Personalizado | CHIC",
-    "seoDescription": "Caixas de madeira de paulownia personalizadas por grosso — a madeira mais leve para embalagens de oferta e de subscrição de elevado volume e baixo custo de transporte. Dimensionalmente estável, gravação a laser limpa. MOQ 300, FOB Xiamen, envio para EU/US/UK/CA.",
+    "seoDescription": "Caixas de madeira de paulownia personalizadas por grosso — a madeira mais leve para embalagens de oferta e de subscrição de elevado volume e baixo custo de transporte. Dimensionalmente estável, gravação a laser limpa. MOQ 200, FOB Xiamen, envio para EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guia de aquisição B2B",
       "title": "Adquirir caixas de madeira de paulownia por grosso: o guia B2B de economia de transporte",
@@ -218,7 +218,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A personalização numa encomenda por grosso de paulownia (MOQ 300 peças por design, 100 numa série de teste de primeira encomenda) tira partido dos pontos fortes do material. A superfície em creme pálido é uma tela em branco: tingir para qualquer tom de madeira, pintar para uma cor de marca, lacar em mate ou brilho, ou deixar em bruto para um aspeto natural. A gravação a laser é o método de branding de destaque — o grão uniforme da paulownia aceita trabalho detalhado de logótipo e padrão com a mesma limpeza que qualquer espécie que trabalhamos, a profundidade total ou de fração de milímetro. A folha quente, a serigrafia e o relevo gravado cobrem os patamares de retalho e de cor integral. A construção admite toda a gama: qualquer fecho, incluindo a [tampa deslizante](/products/sliding-lid) de empacotamento plano e amigável ao transporte, inserções de espuma e divisórias, puxadores de fita e compartimentos — e, porque o material base é tão leve, mesmo uma grande caixa multicompartimentada mantém-se barata de transportar."
+          "text": "A personalização numa encomenda por grosso de paulownia (MOQ 200 peças por design, 200 numa série de teste de primeira encomenda) tira partido dos pontos fortes do material. A superfície em creme pálido é uma tela em branco: tingir para qualquer tom de madeira, pintar para uma cor de marca, lacar em mate ou brilho, ou deixar em bruto para um aspeto natural. A gravação a laser é o método de branding de destaque — o grão uniforme da paulownia aceita trabalho detalhado de logótipo e padrão com a mesma limpeza que qualquer espécie que trabalhamos, a profundidade total ou de fração de milímetro. A folha quente, a serigrafia e o relevo gravado cobrem os patamares de retalho e de cor integral. A construção admite toda a gama: qualquer fecho, incluindo a [tampa deslizante](/products/sliding-lid) de empacotamento plano e amigável ao transporte, inserções de espuma e divisórias, puxadores de fita e compartimentos — e, porque o material base é tão leve, mesmo uma grande caixa multicompartimentada mantém-se barata de transportar."
         },
         {
           "type": "p",
@@ -238,7 +238,7 @@ export default {
   },
   "acacia": {
     "seoTitle": "Caixas de madeira de acácia — Grossista e fabricante OEM personalizado | CHIC",
-    "seoDescription": "Caixas de madeira de acácia personalizadas no grossista — madeira dura de veio dramático para utensílios de cozinha, charcutaria, caixas de serviço e de presente premium. Janka 2300+, segura para alimentos, resistente à água. MOQ 300, FOB Xiamen, envio para EU/US/UK/CA.",
+    "seoDescription": "Caixas de madeira de acácia personalizadas no grossista — madeira dura de veio dramático para utensílios de cozinha, charcutaria, caixas de serviço e de presente premium. Janka 2300+, segura para alimentos, resistente à água. MOQ 200, FOB Xiamen, envio para EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guia de compra B2B",
       "title": "Comprar caixas de madeira de acácia no grossista: o guia B2B para compradores de utensílios de cozinha",
@@ -276,7 +276,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A personalização de uma encomenda grossista de acácia (MOQ 300 peças por design, 100 numa série de teste de primeira encomenda) começa pelo acabamento, porque o veio da acácia o recompensa: óleo seguro para alimentos e cera de abelha realçam o desenho de mel a chocolate para utensílios de cozinha (em conformidade com EU EC 1935/2004 e US FDA 21 CFR 175.300 onde haja contacto com alimentos), ou verniz para uma superfície selada e durável. A gravação a laser fica nítida e o desenho escuro proporciona contraste natural; a folha quente e o relevo (debossing) cobrem o nível de presente premium. A construção aceita toda a gama: [dobradiças ocultas e de fecho suave](/products/hinged) para caixas de serviço e de presente, um [íman de neodímio oculto](/products/magnetic) para o fecho premium limpo, divisórias de compartimentos e insertos de espuma cortados por CNC, e ferragens em aço inoxidável ou latão para construções de cozinha. As dimensões são ilimitadas, desde um pequeno saleiro até uma grande caixa de apresentação de charcutaria."
+          "text": "A personalização de uma encomenda grossista de acácia (MOQ 200 peças por design, 200 numa série de teste de primeira encomenda) começa pelo acabamento, porque o veio da acácia o recompensa: óleo seguro para alimentos e cera de abelha realçam o desenho de mel a chocolate para utensílios de cozinha (em conformidade com EU EC 1935/2004 e US FDA 21 CFR 175.300 onde haja contacto com alimentos), ou verniz para uma superfície selada e durável. A gravação a laser fica nítida e o desenho escuro proporciona contraste natural; a folha quente e o relevo (debossing) cobrem o nível de presente premium. A construção aceita toda a gama: [dobradiças ocultas e de fecho suave](/products/hinged) para caixas de serviço e de presente, um [íman de neodímio oculto](/products/magnetic) para o fecho premium limpo, divisórias de compartimentos e insertos de espuma cortados por CNC, e ferragens em aço inoxidável ou latão para construções de cozinha. As dimensões são ilimitadas, desde um pequeno saleiro até uma grande caixa de apresentação de charcutaria."
         },
         {
           "type": "p",
@@ -296,14 +296,14 @@ export default {
   },
   "gift-packaging": {
     "seoTitle": "Caixas de Oferta e Embalagem em Madeira — Grossista e Fabricante OEM Personalizado | CHIC",
-    "seoDescription": "Caixas de oferta e embalagem em madeira personalizadas a grosso — fecho magnético, de dobradiça e de tampa deslizante, branding em baixo-relevo, inserções em espuma/veludo. MOQ 300, volumes até 100.000+. FOB Xiamen, envio para UE/US/UK/CA.",
+    "seoDescription": "Caixas de oferta e embalagem em madeira personalizadas a grosso — fecho magnético, de dobradiça e de tampa deslizante, branding em baixo-relevo, inserções em espuma/veludo. MOQ 200, volumes até 100.000+. FOB Xiamen, envio para UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guia de aquisição B2B",
       "title": "Adquirir caixas de oferta em madeira a grosso: um guia de compra de embalagem B2B",
       "blocks": [
         {
           "type": "p",
-          "text": "Uma caixa de oferta em madeira é a decisão de embalagem que transforma um produto num momento de unboxing — e, para os compradores B2B, esse momento é mensurável: impulsiona o vídeo de unboxing, a recompra e a perceção de valor que permite a uma marca manter o seu preço. Fornecemos caixas de oferta e embalagem em madeira a grosso a marcas de produto que lançam uma nova SKU, a agências que constroem programas de presentes corporativos e a importadores que abastecem retalhistas com embalagem pronta para prateleira, em volumes desde séries de amostra de 100 peças até encomendas de produção de mais de 100.000 peças, com acabamento, encaixe e toque consistentes em todos os lotes. As três decisões que orientam um programa de caixas de oferta são o fecho, o material e o branding — e o nosso [guia de materiais](/material-guide) compara as espécies lado a lado, enquanto esta página aborda como os compradores a grosso especificam de facto o resto."
+          "text": "Uma caixa de oferta em madeira é a decisão de embalagem que transforma um produto num momento de unboxing — e, para os compradores B2B, esse momento é mensurável: impulsiona o vídeo de unboxing, a recompra e a perceção de valor que permite a uma marca manter o seu preço. Fornecemos caixas de oferta e embalagem em madeira a grosso a marcas de produto que lançam uma nova SKU, a agências que constroem programas de presentes corporativos e a importadores que abastecem retalhistas com embalagem pronta para prateleira, em volumes desde séries de amostra de 200 peças até encomendas de produção de mais de 100.000 peças, com acabamento, encaixe e toque consistentes em todos os lotes. As três decisões que orientam um programa de caixas de oferta são o fecho, o material e o branding — e o nosso [guia de materiais](/material-guide) compara as espécies lado a lado, enquanto esta página aborda como os compradores a grosso especificam de facto o resto."
         },
         {
           "type": "img",
@@ -325,7 +325,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Os compradores a grosso a quem mais frequentemente enviamos caixas de oferta em madeira enquadram-se em cinco grupos. As **marcas de produto e os lançamentos de novas SKU** usam caixas de oferta com branding como embalagem primária — a caixa que sustenta o produto na prateleira e no vídeo de unboxing. Os programas de **ofertas corporativas e promocionais** produzem caixas gravadas em 200-1.000 peças para presentes a clientes e colaboradores, confortavelmente acima do nosso limiar de MOQ 300. As **marcas de caixas por subscrição** usam caixas de madeira como o encarte que se conserva, transformando um envio postal num presente e impulsionando a recompra. Os programas de **retalho e prontos para prateleira** precisam de caixas individuais, blisters ou caixas-mãe com código de barras para distribuição. E as marcas de **beleza, joalharia e consumo premium** ([veja a gama de relógios e joalharia](/products/watch-jewelry)) usam caixas de oferta forradas a feltro com inserções em espuma ou veludo para peças de apresentação. O fator que impulsiona a repetição de encomenda em todas as cinco é a consistência entre lotes — acabamento, encaixe e correspondência de cor ao longo dos trimestres."
+          "text": "Os compradores a grosso a quem mais frequentemente enviamos caixas de oferta em madeira enquadram-se em cinco grupos. As **marcas de produto e os lançamentos de novas SKU** usam caixas de oferta com branding como embalagem primária — a caixa que sustenta o produto na prateleira e no vídeo de unboxing. Os programas de **ofertas corporativas e promocionais** produzem caixas gravadas em 200-1.000 peças para presentes a clientes e colaboradores, confortavelmente acima do nosso limiar de MOQ 200. As **marcas de caixas por subscrição** usam caixas de madeira como o encarte que se conserva, transformando um envio postal num presente e impulsionando a recompra. Os programas de **retalho e prontos para prateleira** precisam de caixas individuais, blisters ou caixas-mãe com código de barras para distribuição. E as marcas de **beleza, joalharia e consumo premium** ([veja a gama de relógios e joalharia](/products/watch-jewelry)) usam caixas de oferta forradas a feltro com inserções em espuma ou veludo para peças de apresentação. O fator que impulsiona a repetição de encomenda em todas as cinco é a consistência entre lotes — acabamento, encaixe e correspondência de cor ao longo dos trimestres."
         },
         {
           "type": "img",
@@ -334,7 +334,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A personalização é o verdadeiro propósito de um programa de caixas de oferta a grosso (MOQ 300 peças por design, 100 numa série de teste de primeira encomenda). O branding cobre toda a gama: gravação a laser para marcas nítidas e sem tinta, baixo-relevo para um logótipo tátil pressionado, película a quente para acabamentos de retalho dourados e metálicos, serigrafia para logótipos de uma a seis cores e impressão UV a cores plenas para artes gráficas fotográficas. Os interiores são construídos à medida — espuma cortada por CNC, tabuleiros revestidos a veludo, polpa moldada para programas ecológicos ou fitas de puxar e divisórias. Os acabamentos abrangem laca mate e brilhante, oleado, pintado e em bruto. As dimensões são ilimitadas, desde uma caixa de amostra de 80 × 60 × 30 mm até uma mala de apresentação de 600 × 400 × 200 mm, e um único programa pode combinar fechos e inserções entre SKU. É aqui que a caixa deixa de ser embalagem e passa a fazer parte do produto."
+          "text": "A personalização é o verdadeiro propósito de um programa de caixas de oferta a grosso (MOQ 200 peças por design, 200 numa série de teste de primeira encomenda). O branding cobre toda a gama: gravação a laser para marcas nítidas e sem tinta, baixo-relevo para um logótipo tátil pressionado, película a quente para acabamentos de retalho dourados e metálicos, serigrafia para logótipos de uma a seis cores e impressão UV a cores plenas para artes gráficas fotográficas. Os interiores são construídos à medida — espuma cortada por CNC, tabuleiros revestidos a veludo, polpa moldada para programas ecológicos ou fitas de puxar e divisórias. Os acabamentos abrangem laca mate e brilhante, oleado, pintado e em bruto. As dimensões são ilimitadas, desde uma caixa de amostra de 80 × 60 × 30 mm até uma mala de apresentação de 600 × 400 × 200 mm, e um único programa pode combinar fechos e inserções entre SKU. É aqui que a caixa deixa de ser embalagem e passa a fazer parte do produto."
         },
         {
           "type": "p",
@@ -354,7 +354,7 @@ export default {
   },
   "tea-coffee": {
     "seoTitle": "Caixas de madeira para chá e café — Fabricante grossista e OEM personalizado | CHIC",
-    "seoDescription": "Caixas de madeira para café e chá personalizadas no grossista — compartimentadas para cápsulas e saquetas de chá, janelas em acrílico, acabamento de contacto alimentar seguro. MOQ 300, gravação a laser. FOB Xiamen, envio para UE/EUA/Reino Unido/Canadá.",
+    "seoDescription": "Caixas de madeira para café e chá personalizadas no grossista — compartimentadas para cápsulas e saquetas de chá, janelas em acrílico, acabamento de contacto alimentar seguro. MOQ 200, gravação a laser. FOB Xiamen, envio para UE/EUA/Reino Unido/Canadá.",
     "deepContent": {
       "eyebrow": "Guia de sourcing B2B",
       "title": "Adquirir caixas de madeira para café no grossista: uma checklist de compra B2B",
@@ -370,7 +370,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A profundidade dos compartimentos é onde a maioria dos importadores de caixas de madeira para chá prontas falha com os seus clientes grossistas quando o canal de café em cápsula volta a encomendar a SKU. Um interior genérico de 30-40 mm acomoda uma saqueta de chá, mas é demasiado raso para qualquer formato de cápsula moderno — a Nespresso OriginalLine tem 37 mm, a K-Cup tem 62 mm, a Nespresso Vertuo tem 53 mm, a Lavazza A Modo Mio tem 53 mm. As caixas de madeira para café personalizadas deste catálogo são fornecidas de série com 60-72 mm de profundidade interior, suficiente para a cápsula corrente mais funda, e em encomendas personalizadas de grande volume (MOQ 300 peças por design) dividimos rotineiramente os compartimentos de forma assimétrica — por exemplo, quatro alvéolos grandes para cápsulas mais uma fila rasa para açúcar/biscotti — para contas de minibar de hotel e programas de copa de escritório corporativos. As tampas com janela em acrílico permitem que o pessoal do seu cliente final veja o nível de enchimento sem abrir cada caixa, o que importa em ambientes de hospitalidade de elevado fluxo e é um fator recorrente de reencomenda para contas B2B."
+          "text": "A profundidade dos compartimentos é onde a maioria dos importadores de caixas de madeira para chá prontas falha com os seus clientes grossistas quando o canal de café em cápsula volta a encomendar a SKU. Um interior genérico de 30-40 mm acomoda uma saqueta de chá, mas é demasiado raso para qualquer formato de cápsula moderno — a Nespresso OriginalLine tem 37 mm, a K-Cup tem 62 mm, a Nespresso Vertuo tem 53 mm, a Lavazza A Modo Mio tem 53 mm. As caixas de madeira para café personalizadas deste catálogo são fornecidas de série com 60-72 mm de profundidade interior, suficiente para a cápsula corrente mais funda, e em encomendas personalizadas de grande volume (MOQ 200 peças por design) dividimos rotineiramente os compartimentos de forma assimétrica — por exemplo, quatro alvéolos grandes para cápsulas mais uma fila rasa para açúcar/biscotti — para contas de minibar de hotel e programas de copa de escritório corporativos. As tampas com janela em acrílico permitem que o pessoal do seu cliente final veja o nível de enchimento sem abrir cada caixa, o que importa em ambientes de hospitalidade de elevado fluxo e é um fator recorrente de reencomenda para contas B2B."
         },
         {
           "type": "img",
@@ -379,7 +379,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "No lado grossista, os compradores B2B a quem mais frequentemente enviamos caixas de madeira para café personalizadas dividem-se em quatro grupos. As marcas de subscrição de café de marca própria precisam de um acabamento de lote consistente e de gravação de marca ao longo de séries de 1.000-5.000 peças — a relação com o fabricante de caixas de madeira para café vive ou morre da consistência de tonalidade entre trimestres. Os programas de oferta corporativa correm em menor escala — 200-500 peças com logótipo gravado na tampa, situando-se confortavelmente acima do nosso limiar de MOQ 300 para encomendas OEM. Os operadores de hotelaria e estadias curtas especificam lacado de contacto alimentar seguro e lavável e fecho magnético ou de dobradiça para um serviço de turndown sem ruído. As cafetarias de especialidade agrupam pacotes de grãos e acessórios para clientes domésticos e precisam de caixas prontas para retalho com códigos de barras. A decisão do fecho é sobretudo estética — as [caixas de tampa deslizante](/products/sliding-lid) são as mais tradicionais e adequadas para oferta, o [fecho magnético](/products/magnetic) é o toque mais moderno e a escolha de maior valor percebido para os escalões grossistas premium, e o de dobradiça fica no meio para o uso diário em retalho."
+          "text": "No lado grossista, os compradores B2B a quem mais frequentemente enviamos caixas de madeira para café personalizadas dividem-se em quatro grupos. As marcas de subscrição de café de marca própria precisam de um acabamento de lote consistente e de gravação de marca ao longo de séries de 1.000-5.000 peças — a relação com o fabricante de caixas de madeira para café vive ou morre da consistência de tonalidade entre trimestres. Os programas de oferta corporativa correm em menor escala — 200-500 peças com logótipo gravado na tampa, situando-se confortavelmente acima do nosso limiar de MOQ 200 para encomendas OEM. Os operadores de hotelaria e estadias curtas especificam lacado de contacto alimentar seguro e lavável e fecho magnético ou de dobradiça para um serviço de turndown sem ruído. As cafetarias de especialidade agrupam pacotes de grãos e acessórios para clientes domésticos e precisam de caixas prontas para retalho com códigos de barras. A decisão do fecho é sobretudo estética — as [caixas de tampa deslizante](/products/sliding-lid) são as mais tradicionais e adequadas para oferta, o [fecho magnético](/products/magnetic) é o toque mais moderno e a escolha de maior valor percebido para os escalões grossistas premium, e o de dobradiça fica no meio para o uso diário em retalho."
         },
         {
           "type": "p",
@@ -390,7 +390,7 @@ export default {
   },
   "wine-whisky": {
     "seoTitle": "Caixas de Madeira para Vinho e Whisky — Fabricante por Grosso e OEM Personalizado | CHIC",
-    "seoDescription": "Caixas de madeira para vinho e whisky personalizadas por grosso — de garrafa única a magnum, berços em espuma, caixotes de pinho a apresentação em nogueira. MOQ 300, marcação a laser e a fogo. FOB Xiamen, envio para EU/US/UK/CA.",
+    "seoDescription": "Caixas de madeira para vinho e whisky personalizadas por grosso — de garrafa única a magnum, berços em espuma, caixotes de pinho a apresentação em nogueira. MOQ 200, marcação a laser e a fogo. FOB Xiamen, envio para EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guia de compra B2B",
       "title": "Adquirir caixas de madeira para vinho e whisky por grosso: um guia de compra B2B",
@@ -428,7 +428,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A personalização num pedido de caixa de vinho e whisky por grosso (MOQ 300 peças por design, 100 numa série de teste de primeira encomenda) centra-se em duas coisas: o encaixe da garrafa e a marcação. Os berços em espuma são recortados por CNC ao perfil exato da garrafa e dos acessórios, em EVA preto ou personalizado, de modo a que uma disposição para 1, 2, 3 ou 6 garrafas (magnum a pedido) mantenha tudo sem oscilação. A marcação vai desde a tradicional gravação a fogo para a marca de colheita rústica — que o pinho recebe melhor do que qualquer madeira de lei — passando pela gravação a laser, a estampagem a quente do ano e do rótulo, até à serigrafia. As opções de construção incluem pegas em corda, em couro e embutidas, trincos e dobradiças em latão, suportes para copos e decanters, e tabuleiros de acessórios para saca-rolhas e bicos doseadores. Os acabamentos abrangem flamejado, oleado, lacado e envernizado. As dimensões são ilimitadas, desde uma caixa estreita para garrafa única até um caixote de apresentação magnum de seis garrafas."
+          "text": "A personalização num pedido de caixa de vinho e whisky por grosso (MOQ 200 peças por design, 200 numa série de teste de primeira encomenda) centra-se em duas coisas: o encaixe da garrafa e a marcação. Os berços em espuma são recortados por CNC ao perfil exato da garrafa e dos acessórios, em EVA preto ou personalizado, de modo a que uma disposição para 1, 2, 3 ou 6 garrafas (magnum a pedido) mantenha tudo sem oscilação. A marcação vai desde a tradicional gravação a fogo para a marca de colheita rústica — que o pinho recebe melhor do que qualquer madeira de lei — passando pela gravação a laser, a estampagem a quente do ano e do rótulo, até à serigrafia. As opções de construção incluem pegas em corda, em couro e embutidas, trincos e dobradiças em latão, suportes para copos e decanters, e tabuleiros de acessórios para saca-rolhas e bicos doseadores. Os acabamentos abrangem flamejado, oleado, lacado e envernizado. As dimensões são ilimitadas, desde uma caixa estreita para garrafa única até um caixote de apresentação magnum de seis garrafas."
         },
         {
           "type": "img",
@@ -444,7 +444,7 @@ export default {
   },
   "sliding-lid": {
     "seoTitle": "Caixas de Madeira com Tampa Deslizante — Fabricante Grossista e OEM Personalizado | CHIC",
-    "seoDescription": "Caixas de madeira com tampa deslizante personalizadas para grossistas — pinho, nogueira, bambu, paulownia. MOQ 300, gravação a laser, opções FSC e de contacto alimentar. FOB Xiamen, expedição para UE/EUA/Reino Unido/Canadá.",
+    "seoDescription": "Caixas de madeira com tampa deslizante personalizadas para grossistas — pinho, nogueira, bambu, paulownia. MOQ 200, gravação a laser, opções FSC e de contacto alimentar. FOB Xiamen, expedição para UE/EUA/Reino Unido/Canadá.",
     "deepContent": {
       "eyebrow": "Guia de aquisição B2B",
       "title": "Caixas de madeira com tampa deslizante por grosso: como os compradores B2B avaliam um fornecedor",
@@ -473,7 +473,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Os compradores grossistas a quem expedimos caixas de madeira com tampa deslizante com mais frequência enquadram-se em seis clusters de aplicação. **A embalagem de oferta de charutos** é o segmento de maior valor — caixas de madeira com tampa deslizante para charutos forradas a cedro-espanhol para marcas de tabaco, destiladores e casas de bebidas espirituosas com edições limitadas (tamanhos de 5 charutos a 25 unidades, ao estilo humidor). **A embalagem de lembranças de casamento e eventos** impulsiona o volume — caixas de madeira com tampa deslizante gravadas para presentes de convidados, com superfícies de tampa propícias à personalização e escalões de MOQ adequados a eventos de 200-500 peças. **Os kits de artesanato e brinquedos educativos** assentam em caixas de madeira com tampa deslizante sem acabamento — os exportadores vendem-nas a retalhistas que as pintam, decoram e expedem como produto DIY. **O chá e café premium** ([ver a gama de caixas de chá/café](/products/tea-coffee)) usa caixas de madeira com tampa deslizante com divisórias de compartimentos e tampas com janela de acrílico para visibilidade no retalho. **As SKUs de joalharia, bugigangas e recordações** usam caixas de madeira com tampa deslizante forradas a feltro para peças de apresentação acessíveis, situadas abaixo do escalão de preço das caixas com dobradiças. E **as marcas de caixas de subscrição** expedem caixas de madeira com tampa deslizante como o elemento estrutural que transforma um envelope de cartão numa recordação — mecânica de recompra integrada no unboxing."
+          "text": "Os compradores grossistas a quem expedimos caixas de madeira com tampa deslizante com mais frequência enquadram-se em seis clusters de aplicação. **A embalagem de oferta de charutos** é o segmento de maior valor — caixas de madeira com tampa deslizante para charutos forradas a cedro-espanhol para marcas de tabaco, destiladores e casas de bebidas espirituosas com edições limitadas (tamanhos de 5 charutos a 25 unidades, ao estilo humidor). **A embalagem de lembranças de casamento e eventos** impulsiona o volume — caixas de madeira com tampa deslizante gravadas para presentes de convidados, com superfícies de tampa propícias à personalização e escalões de MOQ adequados a eventos de 200 peças. **Os kits de artesanato e brinquedos educativos** assentam em caixas de madeira com tampa deslizante sem acabamento — os exportadores vendem-nas a retalhistas que as pintam, decoram e expedem como produto DIY. **O chá e café premium** ([ver a gama de caixas de chá/café](/products/tea-coffee)) usa caixas de madeira com tampa deslizante com divisórias de compartimentos e tampas com janela de acrílico para visibilidade no retalho. **As SKUs de joalharia, bugigangas e recordações** usam caixas de madeira com tampa deslizante forradas a feltro para peças de apresentação acessíveis, situadas abaixo do escalão de preço das caixas com dobradiças. E **as marcas de caixas de subscrição** expedem caixas de madeira com tampa deslizante como o elemento estrutural que transforma um envelope de cartão numa recordação — mecânica de recompra integrada no unboxing."
         },
         {
           "type": "img",
@@ -482,7 +482,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A personalização é onde o programa grossista de caixas de madeira com tampa deslizante se distingue do produto de catálogo pronto a usar. Em pedidos OEM (MOQ 300 peças por design), a tampa é a maior área para branding de qualquer construção de caixa de madeira — a gravação a laser assenta de forma limpa em nogueira, pinho e paulownia, a profundidade de milímetro inteiro ou fracionário; o estampagem a quente funciona para caixas de escalão de retalho cuja especificação requer acabamento dourado ou metálico; a serigrafia e a impressão UV cobrem logótipos a cores completas para pedidos promocionais e de oferta corporativa. Para além da tampa, a própria construção admite trabalho de detalhe: uma pega de dedo fresada na aresta frontal para abertura com uma só mão, uma lingueta de latão embutida para os escalões premium, uma janela de acrílico recortada na tampa para visibilidade (popular em programas de chá e kits de artesanato), um forro de feltro ou veludo para SKUs de joalharia, e um íman oculto montado no canto que converte uma tampa deslizante num mecanismo push-to-eject para caixas de oferta premium de marca própria. As dimensões personalizadas das caixas de madeira com tampa deslizante são ilimitadas — já construímos desde caixas para brincos de 60 × 40 × 15 mm até caixas de apresentação de sommelier de 400 × 300 × 100 mm a partir do mesmo padrão de construção."
+          "text": "A personalização é onde o programa grossista de caixas de madeira com tampa deslizante se distingue do produto de catálogo pronto a usar. Em pedidos OEM (MOQ 200 peças por design), a tampa é a maior área para branding de qualquer construção de caixa de madeira — a gravação a laser assenta de forma limpa em nogueira, pinho e paulownia, a profundidade de milímetro inteiro ou fracionário; o estampagem a quente funciona para caixas de escalão de retalho cuja especificação requer acabamento dourado ou metálico; a serigrafia e a impressão UV cobrem logótipos a cores completas para pedidos promocionais e de oferta corporativa. Para além da tampa, a própria construção admite trabalho de detalhe: uma pega de dedo fresada na aresta frontal para abertura com uma só mão, uma lingueta de latão embutida para os escalões premium, uma janela de acrílico recortada na tampa para visibilidade (popular em programas de chá e kits de artesanato), um forro de feltro ou veludo para SKUs de joalharia, e um íman oculto montado no canto que converte uma tampa deslizante num mecanismo push-to-eject para caixas de oferta premium de marca própria. As dimensões personalizadas das caixas de madeira com tampa deslizante são ilimitadas — já construímos desde caixas para brincos de 60 × 40 × 15 mm até caixas de apresentação de sommelier de 400 × 300 × 100 mm a partir do mesmo padrão de construção."
         },
         {
           "type": "p",
@@ -502,7 +502,7 @@ export default {
   },
   "magnetic": {
     "seoTitle": "Caixas de Madeira com Fecho Magnético — Fabricante Grossista e OEM Personalizado | CHIC",
-    "seoDescription": "Caixas de madeira com fecho magnético personalizadas no grossista — ímanes de neodímio ocultos, exterior limpo, fecho premium. Embalagem para beleza, tecnologia, subscrição e press kits. MOQ 300, FOB Xiamen, expedição para EU/US/UK/CA.",
+    "seoDescription": "Caixas de madeira com fecho magnético personalizadas no grossista — ímanes de neodímio ocultos, exterior limpo, fecho premium. Embalagem para beleza, tecnologia, subscrição e press kits. MOQ 200, FOB Xiamen, expedição para EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guia de aquisição B2B",
       "title": "Aquisição de caixas de madeira com fecho magnético no grossista: um guia de compra B2B",
@@ -540,7 +540,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A personalização numa encomenda grossista de caixas magnéticas (MOQ 300 peças por design, 100 numa primeira produção de teste) tira partido do exterior limpo. Como nada interrompe a superfície, o branding pode correr de extremo a extremo: impressão UV de cobertura integral e litolaminado para artes fotográficas, estampagem a quente para logótipos metálicos, gravação em relevo negativo (deboss) para uma marca tátil prensada, serigrafia e gravação a laser. Um puxador de fita é um acréscimo comum — facilita a abertura e adiciona um toque de cor da marca. Os interiores são feitos por especificação: espuma cortada por CNC, tabuleiros revestidos a veludo, polpa moldada para programas ecológicos ou compartimentos divididos. As opções de madeira e folheado vão da madeira maciça para os níveis premium ao MDF folheado para construções impressas de parede fina. As dimensões não têm restrições, desde uma caixa de formato de baralho de cartas até um grande conjunto de presente de várias peças, todas com o íman calibrado para a respetiva tampa."
+          "text": "A personalização numa encomenda grossista de caixas magnéticas (MOQ 200 peças por design, 200 numa primeira produção de teste) tira partido do exterior limpo. Como nada interrompe a superfície, o branding pode correr de extremo a extremo: impressão UV de cobertura integral e litolaminado para artes fotográficas, estampagem a quente para logótipos metálicos, gravação em relevo negativo (deboss) para uma marca tátil prensada, serigrafia e gravação a laser. Um puxador de fita é um acréscimo comum — facilita a abertura e adiciona um toque de cor da marca. Os interiores são feitos por especificação: espuma cortada por CNC, tabuleiros revestidos a veludo, polpa moldada para programas ecológicos ou compartimentos divididos. As opções de madeira e folheado vão da madeira maciça para os níveis premium ao MDF folheado para construções impressas de parede fina. As dimensões não têm restrições, desde uma caixa de formato de baralho de cartas até um grande conjunto de presente de várias peças, todas com o íman calibrado para a respetiva tampa."
         },
         {
           "type": "img",

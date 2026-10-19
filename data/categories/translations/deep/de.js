@@ -7,7 +7,7 @@
 export default {
   "walnut": {
     "seoTitle": "Walnuss-Holzboxen — Großhandel & Custom-OEM-Hersteller | CHIC",
-    "seoDescription": "Maßgefertigte Walnuss-Holzboxen im Großhandel — Uhren-, Schmuck- & Geschenkboxen aus amerikanischem Schwarznussbaum. MOQ 300, Lasergravur, FSC & CARB P2. FOB Xiamen, Versand in EU/US/UK/CA.",
+    "seoDescription": "Maßgefertigte Walnuss-Holzboxen im Großhandel — Uhren-, Schmuck- & Geschenkboxen aus amerikanischem Schwarznussbaum. MOQ 200, Lasergravur, FSC & CARB P2. FOB Xiamen, Versand in EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "B2B-Einkaufsleitfaden",
       "title": "Walnuss-Holzboxen im Großhandel beziehen: ein B2B-Einkaufsleitfaden",
@@ -45,7 +45,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Individualisierung ist der Punkt, an dem sich ein Walnuss-Großhandelsprogramm von Katalogware abhebt. Bei OEM-Aufträgen (MOQ 300 Stück pro Design, 100 Stück beim Erstauftrags-Test) ist die Lasergravur die sauberste Branding-Methode auf Walnuss — die dichte Maserung hält gestochen scharfe Details bei voller oder Bruchteil-Millimeter-Tiefe, und das dunkle Holz liefert hohen Kontrast ganz ohne Farbe. Heißfolie und Messing-Intarsien decken die Gold- und Metallic-Retail-Stufe ab; Deboss und Siebdruck stehen für Logo-Auflagen zur Verfügung. Über das Branding hinaus nimmt Walnuss das volle Beschlag-Sortiment auf: [verdeckte Soft-Close-Scharniere](/products/hinged) für Schmuck- und Uhrenkoffer, einen [verdeckten Neodym-Magneten](/products/magnetic) für den sauberen Premium-Snap oder ein [Messing-Schlüssel- oder Cam-Lock](/products/with-lock) für Wertsachen und Dokumente. Innenausstattungen werden nach Vorgabe gefertigt — CNC-geschnittener Schaum, samt- oder mikrofaserbezogene Trays, Uhrenkissen, Ringschlitze — und die Abmessungen sind unbegrenzt, von einer kleinen Ringbox bis zu einer Mehr-Uhren-Truhe, alles aus demselben Konstruktionsmuster."
+          "text": "Individualisierung ist der Punkt, an dem sich ein Walnuss-Großhandelsprogramm von Katalogware abhebt. Bei OEM-Aufträgen (MOQ 200 Stück pro Design, 200 Stück beim Erstauftrags-Test) ist die Lasergravur die sauberste Branding-Methode auf Walnuss — die dichte Maserung hält gestochen scharfe Details bei voller oder Bruchteil-Millimeter-Tiefe, und das dunkle Holz liefert hohen Kontrast ganz ohne Farbe. Heißfolie und Messing-Intarsien decken die Gold- und Metallic-Retail-Stufe ab; Deboss und Siebdruck stehen für Logo-Auflagen zur Verfügung. Über das Branding hinaus nimmt Walnuss das volle Beschlag-Sortiment auf: [verdeckte Soft-Close-Scharniere](/products/hinged) für Schmuck- und Uhrenkoffer, einen [verdeckten Neodym-Magneten](/products/magnetic) für den sauberen Premium-Snap oder ein [Messing-Schlüssel- oder Cam-Lock](/products/with-lock) für Wertsachen und Dokumente. Innenausstattungen werden nach Vorgabe gefertigt — CNC-geschnittener Schaum, samt- oder mikrofaserbezogene Trays, Uhrenkissen, Ringschlitze — und die Abmessungen sind unbegrenzt, von einer kleinen Ringbox bis zu einer Mehr-Uhren-Truhe, alles aus demselben Konstruktionsmuster."
         },
         {
           "type": "p",
@@ -65,7 +65,7 @@ export default {
   },
   "bamboo": {
     "seoTitle": "Bambusboxen — Nachhaltiger Großhandel & Custom-OEM-Hersteller | CHIC",
-    "seoDescription": "Maßgefertigte Bambusboxen im Großhandel — FSC-zertifiziert, natürlich antibakteriell, lebensmittelecht. Tee-, Küchen- & Öko-Geschenkverpackung. MOQ 300, Lasergravur. FOB Xiamen, Versand in EU/US/UK/CA.",
+    "seoDescription": "Maßgefertigte Bambusboxen im Großhandel — FSC-zertifiziert, natürlich antibakteriell, lebensmittelecht. Tee-, Küchen- & Öko-Geschenkverpackung. MOQ 200, Lasergravur. FOB Xiamen, Versand in EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "B2B-Einkaufsleitfaden",
       "title": "Bambusboxen im Großhandel beziehen: der B2B-Leitfaden für Nachhaltigkeitseinkäufer",
@@ -103,7 +103,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Individualisierung eines Bambus-Großhandelsauftrags (MOQ 300 Stück pro Design, 100 beim Erstauftrags-Test) beginnt mit der Oberfläche: Lebensmittelechter Lack auf Wasserbasis, konform mit EU EC 1935/2004 und US FDA 21 CFR 175.300, ist Standard für jede Bambusbox, die Lebensmittel, Tee, Kaffee oder Küchenutensilien aufnimmt, und eine rohe oder naturgeölte Oberfläche steht für Käufer zur Verfügung, die das blanke Material wollen. Lasergravur sitzt sauber auf der gleichmäßigen Maserung von Bambus und liefert hohen Kontrast ohne Farbe — das sauberste Branding für eine Öko-SKU, die gedruckte Etiketten vermeiden will. Über das Branding hinaus nimmt die Konstruktion das volle Detail-Sortiment auf: modulare Fächertrenner (Layouts mit 4/6/8/9 Fächern für Tee- und Pad-Programme), Acrylfenster-Deckel für Retail-Sichtbarkeit und jeden Verschluss — magnetisch, Scharnier oder der vollständig recycelbare [Schiebedeckel](/products/sliding-lid), der die Box für Recycling-Versprechen am Lebensende sortenrein hält."
+          "text": "Die Individualisierung eines Bambus-Großhandelsauftrags (MOQ 200 Stück pro Design, 200 beim Erstauftrags-Test) beginnt mit der Oberfläche: Lebensmittelechter Lack auf Wasserbasis, konform mit EU EC 1935/2004 und US FDA 21 CFR 175.300, ist Standard für jede Bambusbox, die Lebensmittel, Tee, Kaffee oder Küchenutensilien aufnimmt, und eine rohe oder naturgeölte Oberfläche steht für Käufer zur Verfügung, die das blanke Material wollen. Lasergravur sitzt sauber auf der gleichmäßigen Maserung von Bambus und liefert hohen Kontrast ohne Farbe — das sauberste Branding für eine Öko-SKU, die gedruckte Etiketten vermeiden will. Über das Branding hinaus nimmt die Konstruktion das volle Detail-Sortiment auf: modulare Fächertrenner (Layouts mit 4/6/8/9 Fächern für Tee- und Pad-Programme), Acrylfenster-Deckel für Retail-Sichtbarkeit und jeden Verschluss — magnetisch, Scharnier oder der vollständig recycelbare [Schiebedeckel](/products/sliding-lid), der die Box für Recycling-Versprechen am Lebensende sortenrein hält."
         },
         {
           "type": "p",
@@ -123,7 +123,7 @@ export default {
   },
   "pine": {
     "seoTitle": "Kiefern-Holzboxen — Großhandel & Custom-OEM-Hersteller | CHIC",
-    "seoDescription": "Maßgefertigte Kiefern-Holzboxen im Großhandel — günstige Scots- & Radiata-Kiefer für Wein, Garten, Kisten & rustikale Geschenkverpackung. MOQ 300, Brand- & Lasergravur. FOB Xiamen, Versand in EU/US/UK/CA.",
+    "seoDescription": "Maßgefertigte Kiefern-Holzboxen im Großhandel — günstige Scots- & Radiata-Kiefer für Wein, Garten, Kisten & rustikale Geschenkverpackung. MOQ 200, Brand- & Lasergravur. FOB Xiamen, Versand in EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "B2B-Einkaufsleitfaden",
       "title": "Kiefern-Holzboxen im Großhandel beziehen: der B2B-Leitfaden zu den Stückkosten",
@@ -161,7 +161,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Individualisierung eines Kiefern-Großhandelsauftrags (MOQ 300 Stück pro Design, 100 beim Erstauftrags-Test) beginnt mit der Oberfläche, denn rohe Kiefer ist eine leere Leinwand: UV-beständiger Außenlack für Outdoor- und Gartennutzung, lebensmittelechter Innenlack für Picknick- und Vorratsboxen oder Naturöl- und Flammen-Finishes für den rustikalen Look. Branding ist der Bereich, in dem Kiefer ihre Preisstufe übertrifft — traditionelles Brandmarken für das eingebrannte Vintage-Zeichen, Lasergravur für gestochen scharfe Details und Siebdruck oder Heißfolie für Retail-Logos. Die Konstruktion nimmt das volle Beschlag-Sortiment auf: Seil- und Lederbügel, [Messing- und Stahlscharniere](/products/hinged), Riegel sowie Schaum- oder Trenner-Inserts für Flaschen und Werkzeuge. Die Abmessungen sind unbegrenzt, von einer Einzelflaschen-Weinbox bis zu einer großen Garten-Werkzeugkiste, alles aus demselben Weichholz."
+          "text": "Die Individualisierung eines Kiefern-Großhandelsauftrags (MOQ 200 Stück pro Design, 200 beim Erstauftrags-Test) beginnt mit der Oberfläche, denn rohe Kiefer ist eine leere Leinwand: UV-beständiger Außenlack für Outdoor- und Gartennutzung, lebensmittelechter Innenlack für Picknick- und Vorratsboxen oder Naturöl- und Flammen-Finishes für den rustikalen Look. Branding ist der Bereich, in dem Kiefer ihre Preisstufe übertrifft — traditionelles Brandmarken für das eingebrannte Vintage-Zeichen, Lasergravur für gestochen scharfe Details und Siebdruck oder Heißfolie für Retail-Logos. Die Konstruktion nimmt das volle Beschlag-Sortiment auf: Seil- und Lederbügel, [Messing- und Stahlscharniere](/products/hinged), Riegel sowie Schaum- oder Trenner-Inserts für Flaschen und Werkzeuge. Die Abmessungen sind unbegrenzt, von einer Einzelflaschen-Weinbox bis zu einer großen Garten-Werkzeugkiste, alles aus demselben Weichholz."
         },
         {
           "type": "p",
@@ -181,7 +181,7 @@ export default {
   },
   "paulownia": {
     "seoTitle": "Paulownia-Holzboxen — Leichter Großhandel & Custom-OEM-Hersteller | CHIC",
-    "seoDescription": "Maßgefertigte Paulownia-Holzboxen im Großhandel — das leichteste Holz für frachtgünstige, hochvolumige Geschenk- & Abo-Verpackung. Maßhaltig, sauber lasergravierbar. MOQ 300, FOB Xiamen, Versand in EU/US/UK/CA.",
+    "seoDescription": "Maßgefertigte Paulownia-Holzboxen im Großhandel — das leichteste Holz für frachtgünstige, hochvolumige Geschenk- & Abo-Verpackung. Maßhaltig, sauber lasergravierbar. MOQ 200, FOB Xiamen, Versand in EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "B2B-Einkaufsleitfaden",
       "title": "Paulownia-Holzboxen im Großhandel beziehen: der B2B-Leitfaden zur Frachtökonomie",
@@ -219,7 +219,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Individualisierung eines Paulownia-Großhandelsauftrags (MOQ 300 Stück pro Design, 100 beim Erstauftrags-Test) spielt mit den Stärken des Materials. Die blassgelbe Oberfläche ist eine leere Leinwand: in jeden Holzton beizen, in eine Markenfarbe lackieren, matt oder glänzend versiegeln oder roh für einen natürlichen Look belassen. Lasergravur ist die herausragende Branding-Methode — Paulownias gleichmäßige Maserung nimmt detaillierte Logo- und Musterarbeit so sauber auf wie jede Holzart, die wir verarbeiten, bei voller oder Bruchteil-Millimeter-Tiefe. Heißfolie, Siebdruck und Deboss decken die Retail- und Vollfarb-Stufen ab. Die Konstruktion nimmt das volle Sortiment auf: jeden Verschluss einschließlich des frachtfreundlichen, flach packbaren [Schiebedeckels](/products/sliding-lid), Schaum- und Trenner-Inserts, Bandzüge und Fächer — und weil das Grundmaterial so leicht ist, bleibt selbst eine große Mehrfachbox günstig im Versand."
+          "text": "Die Individualisierung eines Paulownia-Großhandelsauftrags (MOQ 200 Stück pro Design, 200 beim Erstauftrags-Test) spielt mit den Stärken des Materials. Die blassgelbe Oberfläche ist eine leere Leinwand: in jeden Holzton beizen, in eine Markenfarbe lackieren, matt oder glänzend versiegeln oder roh für einen natürlichen Look belassen. Lasergravur ist die herausragende Branding-Methode — Paulownias gleichmäßige Maserung nimmt detaillierte Logo- und Musterarbeit so sauber auf wie jede Holzart, die wir verarbeiten, bei voller oder Bruchteil-Millimeter-Tiefe. Heißfolie, Siebdruck und Deboss decken die Retail- und Vollfarb-Stufen ab. Die Konstruktion nimmt das volle Sortiment auf: jeden Verschluss einschließlich des frachtfreundlichen, flach packbaren [Schiebedeckels](/products/sliding-lid), Schaum- und Trenner-Inserts, Bandzüge und Fächer — und weil das Grundmaterial so leicht ist, bleibt selbst eine große Mehrfachbox günstig im Versand."
         },
         {
           "type": "p",
@@ -239,7 +239,7 @@ export default {
   },
   "acacia": {
     "seoTitle": "Akazien-Holzboxen — Großhandel & Custom-OEM-Hersteller | CHIC",
-    "seoDescription": "Maßgefertigte Akazien-Holzboxen im Großhandel — Hartholz mit dramatischer Maserung für Küchenartikel, Charcuterie, Servier- & Premium-Geschenkboxen. Janka 2300+, lebensmittelecht, wasserbeständig. MOQ 300, FOB Xiamen, Versand in EU/US/UK/CA.",
+    "seoDescription": "Maßgefertigte Akazien-Holzboxen im Großhandel — Hartholz mit dramatischer Maserung für Küchenartikel, Charcuterie, Servier- & Premium-Geschenkboxen. Janka 2300+, lebensmittelecht, wasserbeständig. MOQ 200, FOB Xiamen, Versand in EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "B2B-Einkaufsleitfaden",
       "title": "Akazien-Holzboxen im Großhandel beziehen: der B2B-Leitfaden für Küchenartikel-Einkäufer",
@@ -277,7 +277,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Individualisierung eines Akazien-Großhandelsauftrags (MOQ 300 Stück pro Design, 100 beim Erstauftrags-Test) beginnt mit der Oberfläche, denn Akazies Maserung belohnt sie: lebensmittelechtes Öl und Bienenwachs bringen die Honig-bis-Schokoladen-Zeichnung für Küchenartikel hervor (konform mit EU EC 1935/2004 und US FDA 21 CFR 175.300, wo Lebensmittelkontakt vorliegt), oder Lack für eine versiegelte, langlebige Oberfläche. Lasergravur sitzt sauber, und die dunkle Zeichnung liefert natürlichen Kontrast; Heißfolie und Deboss decken die Premium-Geschenkstufe ab. Die Konstruktion nimmt das volle Sortiment auf: [verdeckte und Soft-Close-Scharniere](/products/hinged) für Servier- und Geschenkboxen, einen [verdeckten Neodym-Magneten](/products/magnetic) für den sauberen Premium-Verschluss, Fächertrenner und CNC-geschnittene Schaum-Inserts sowie Edelstahl- oder Messingbeschläge für Küchenkonstruktionen. Die Abmessungen sind unbegrenzt, von einem kleinen Salzgefäß bis zu einer großen Charcuterie-Präsentationsbox."
+          "text": "Die Individualisierung eines Akazien-Großhandelsauftrags (MOQ 200 Stück pro Design, 200 beim Erstauftrags-Test) beginnt mit der Oberfläche, denn Akazies Maserung belohnt sie: lebensmittelechtes Öl und Bienenwachs bringen die Honig-bis-Schokoladen-Zeichnung für Küchenartikel hervor (konform mit EU EC 1935/2004 und US FDA 21 CFR 175.300, wo Lebensmittelkontakt vorliegt), oder Lack für eine versiegelte, langlebige Oberfläche. Lasergravur sitzt sauber, und die dunkle Zeichnung liefert natürlichen Kontrast; Heißfolie und Deboss decken die Premium-Geschenkstufe ab. Die Konstruktion nimmt das volle Sortiment auf: [verdeckte und Soft-Close-Scharniere](/products/hinged) für Servier- und Geschenkboxen, einen [verdeckten Neodym-Magneten](/products/magnetic) für den sauberen Premium-Verschluss, Fächertrenner und CNC-geschnittene Schaum-Inserts sowie Edelstahl- oder Messingbeschläge für Küchenkonstruktionen. Die Abmessungen sind unbegrenzt, von einem kleinen Salzgefäß bis zu einer großen Charcuterie-Präsentationsbox."
         },
         {
           "type": "p",
@@ -297,14 +297,14 @@ export default {
   },
   "gift-packaging": {
     "seoTitle": "Holzgeschenk- & Verpackungsboxen — Großhandel & Custom-OEM-Hersteller | CHIC",
-    "seoDescription": "Maßgefertigte Holzgeschenk- & Verpackungsboxen im Großhandel — Magnet-, Scharnier- & Schiebedeckel, Deboss-Branding, Schaum-/Samt-Inserts. MOQ 300, Mengen bis 100.000+. FOB Xiamen, Versand in EU/US/UK/CA.",
+    "seoDescription": "Maßgefertigte Holzgeschenk- & Verpackungsboxen im Großhandel — Magnet-, Scharnier- & Schiebedeckel, Deboss-Branding, Schaum-/Samt-Inserts. MOQ 200, Mengen bis 100.000+. FOB Xiamen, Versand in EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "B2B-Einkaufsleitfaden",
       "title": "Holzgeschenkboxen im Großhandel beziehen: ein B2B-Verpackungs-Einkaufsleitfaden",
       "blocks": [
         {
           "type": "p",
-          "text": "Eine Holzgeschenkbox ist die Verpackungsentscheidung, die ein Produkt in einen Unboxing-Moment verwandelt — und für B2B-Einkäufer ist dieser Moment messbar: Er treibt das Unboxing-Video, den Wiederkauf und die Wertwahrnehmung, die einer Marke erlaubt, ihren Preis zu halten. Wir beliefern Produktmarken, die eine neue SKU lancieren, Agenturen, die Firmengeschenk-Programme aufbauen, und Importeure, die Einzelhändler mit regalfertiger Verpackung versorgen, mit Großhandels-Holzgeschenk- und -Verpackungsboxen in Mengen von 100-Stück-Mustern bis zu Produktionsaufträgen von über 100.000 Stück mit konsistenter Verarbeitung, Passform und Haptik über jede Charge. Die drei Entscheidungen, die ein Geschenkbox-Programm treiben, sind Verschluss, Material und Branding — unser [Materialratgeber](/material-guide) zeigt die Holzarten nebeneinander, während diese Seite behandelt, wie Großhandelskäufer den Rest tatsächlich spezifizieren."
+          "text": "Eine Holzgeschenkbox ist die Verpackungsentscheidung, die ein Produkt in einen Unboxing-Moment verwandelt — und für B2B-Einkäufer ist dieser Moment messbar: Er treibt das Unboxing-Video, den Wiederkauf und die Wertwahrnehmung, die einer Marke erlaubt, ihren Preis zu halten. Wir beliefern Produktmarken, die eine neue SKU lancieren, Agenturen, die Firmengeschenk-Programme aufbauen, und Importeure, die Einzelhändler mit regalfertiger Verpackung versorgen, mit Großhandels-Holzgeschenk- und -Verpackungsboxen in Mengen von 200-Stück-Mustern bis zu Produktionsaufträgen von über 100.000 Stück mit konsistenter Verarbeitung, Passform und Haptik über jede Charge. Die drei Entscheidungen, die ein Geschenkbox-Programm treiben, sind Verschluss, Material und Branding — unser [Materialratgeber](/material-guide) zeigt die Holzarten nebeneinander, während diese Seite behandelt, wie Großhandelskäufer den Rest tatsächlich spezifizieren."
         },
         {
           "type": "img",
@@ -326,7 +326,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Großhandelskäufer, an die wir Holzgeschenkboxen am häufigsten liefern, lassen sich in fünf Cluster einteilen. **Produktmarken und neue SKU-Launches** nutzen gebrandete Geschenkboxen als Primärverpackung — die Box, die das Produkt im Regal und im Unboxing-Video hält. **Corporate- und Promotion-Geschenk**-Programme lassen gravierte Boxen in 200–1.000 Stück für Kunden- und Mitarbeitergeschenke fertigen, komfortabel über unserer MOQ-300-Schwelle. **Abo-Box-Marken** nutzen Holzboxen als das aufbewahrbare Inlay, das einen Versandkarton in ein Geschenk verwandelt und den Wiederkauf treibt. **Retail- und regalfertige** Programme brauchen Einzelkartons, Blister oder barcodierte Master-Kartons für die Distribution. Und **Beauty-, Schmuck- und Premium-Konsumenten**-Marken ([siehe das Uhren- und Schmuck-Sortiment](/products/watch-jewelry)) nutzen filzausgekleidete Geschenkboxen mit Schaum- oder Samt-Inserts für Präsentationsstücke. Der Treiber für Nachbestellungen über alle fünf hinweg ist die Chargenkonsistenz — Oberfläche, Passform und Farbabstimmung über Quartale."
+          "text": "Die Großhandelskäufer, an die wir Holzgeschenkboxen am häufigsten liefern, lassen sich in fünf Cluster einteilen. **Produktmarken und neue SKU-Launches** nutzen gebrandete Geschenkboxen als Primärverpackung — die Box, die das Produkt im Regal und im Unboxing-Video hält. **Corporate- und Promotion-Geschenk**-Programme lassen gravierte Boxen in 200–1.000 Stück für Kunden- und Mitarbeitergeschenke fertigen, komfortabel über unserer MOQ-200-Schwelle. **Abo-Box-Marken** nutzen Holzboxen als das aufbewahrbare Inlay, das einen Versandkarton in ein Geschenk verwandelt und den Wiederkauf treibt. **Retail- und regalfertige** Programme brauchen Einzelkartons, Blister oder barcodierte Master-Kartons für die Distribution. Und **Beauty-, Schmuck- und Premium-Konsumenten**-Marken ([siehe das Uhren- und Schmuck-Sortiment](/products/watch-jewelry)) nutzen filzausgekleidete Geschenkboxen mit Schaum- oder Samt-Inserts für Präsentationsstücke. Der Treiber für Nachbestellungen über alle fünf hinweg ist die Chargenkonsistenz — Oberfläche, Passform und Farbabstimmung über Quartale."
         },
         {
           "type": "img",
@@ -335,7 +335,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Individualisierung ist der eigentliche Sinn eines Großhandels-Geschenkbox-Programms (MOQ 300 Stück pro Design, 100 beim Erstauftrags-Test). Das Branding nutzt das volle Sortiment: Lasergravur für gestochen scharfe, farblose Zeichen, Deboss für ein taktiles, eingeprägtes Logo, Heißfolie für Gold- und Metallic-Retail-Finishes, Siebdruck für Ein-bis-Sechs-Farben-Logos und Vollfarb-UV-Druck für fotografische Artworks. Innenausstattungen werden nach Vorgabe gefertigt — CNC-geschnittener Schaum, samtbezogene Trays, Formpulpe für Öko-Programme oder Bandzüge und Trenner. Oberflächen umfassen Matt- und Glanzlack, geölt, lackiert und roh. Die Größen sind unbegrenzt, von einer 80 × 60 × 30 mm Musterbox bis zu einem 600 × 400 × 200 mm Präsentationskoffer, und ein einziges Programm kann Verschlüsse und Inserts über SKUs hinweg mischen. Hier hört die Box auf, Verpackung zu sein, und wird Teil des Produkts."
+          "text": "Individualisierung ist der eigentliche Sinn eines Großhandels-Geschenkbox-Programms (MOQ 200 Stück pro Design, 200 beim Erstauftrags-Test). Das Branding nutzt das volle Sortiment: Lasergravur für gestochen scharfe, farblose Zeichen, Deboss für ein taktiles, eingeprägtes Logo, Heißfolie für Gold- und Metallic-Retail-Finishes, Siebdruck für Ein-bis-Sechs-Farben-Logos und Vollfarb-UV-Druck für fotografische Artworks. Innenausstattungen werden nach Vorgabe gefertigt — CNC-geschnittener Schaum, samtbezogene Trays, Formpulpe für Öko-Programme oder Bandzüge und Trenner. Oberflächen umfassen Matt- und Glanzlack, geölt, lackiert und roh. Die Größen sind unbegrenzt, von einer 80 × 60 × 30 mm Musterbox bis zu einem 600 × 400 × 200 mm Präsentationskoffer, und ein einziges Programm kann Verschlüsse und Inserts über SKUs hinweg mischen. Hier hört die Box auf, Verpackung zu sein, und wird Teil des Produkts."
         },
         {
           "type": "p",
@@ -355,7 +355,7 @@ export default {
   },
   "tea-coffee": {
     "seoTitle": "Holz-Tee- & Kaffeeboxen — Großhandel & Custom-OEM-Hersteller | CHIC",
-    "seoDescription": "Maßgefertigte Holz-Kaffee- & Teeboxen im Großhandel — gefächert für Pads & Teebeutel, Acrylfenster, lebensmittelechte Oberfläche. MOQ 300, Lasergravur. FOB Xiamen, Versand in EU/US/UK/CA.",
+    "seoDescription": "Maßgefertigte Holz-Kaffee- & Teeboxen im Großhandel — gefächert für Pads & Teebeutel, Acrylfenster, lebensmittelechte Oberfläche. MOQ 200, Lasergravur. FOB Xiamen, Versand in EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "B2B-Einkaufsleitfaden",
       "title": "Holz-Kaffeeboxen im Großhandel beziehen: eine B2B-Einkaufs-Checkliste",
@@ -371,7 +371,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Fachtiefe ist der Punkt, an dem die meisten Stangen-Importeure von Holz-Teeboxen ihre Großhandelskunden enttäuschen, wenn der Pad-Kaffee-Kanal die SKU nachbestellt. Ein generischer 30–40-mm-Innenraum fasst einen Teebeutel, ist aber für jedes moderne Pad-Format zu flach — Nespresso OriginalLine ist 37 mm, K-Cup ist 62 mm, Nespresso Vertuo ist 53 mm, Lavazza A Modo Mio ist 53 mm. Die maßgefertigten Holz-Kaffeeboxen in diesem Katalog werden standardmäßig mit 60–72 mm Innentiefe geliefert, lang genug für das tiefste gängige Pad, und bei kundenspezifischen Großaufträgen (MOQ 300 Stück pro Design) teilen wir Fächer routinemäßig asymmetrisch — etwa vier große Pad-Mulden plus eine flache Zucker-/Biscotti-Reihe — für Hotel-Minibar-Konten und Office-Pantry-Programme. Acrylfenster-Deckel lassen das Personal Ihres Endkunden den Füllstand sehen, ohne jede Box zu öffnen, was in durchsatzstarken Hospitality-Umgebungen zählt und ein wiederkehrender Nachbestellungs-Treiber für B2B-Konten ist."
+          "text": "Die Fachtiefe ist der Punkt, an dem die meisten Stangen-Importeure von Holz-Teeboxen ihre Großhandelskunden enttäuschen, wenn der Pad-Kaffee-Kanal die SKU nachbestellt. Ein generischer 30–40-mm-Innenraum fasst einen Teebeutel, ist aber für jedes moderne Pad-Format zu flach — Nespresso OriginalLine ist 37 mm, K-Cup ist 62 mm, Nespresso Vertuo ist 53 mm, Lavazza A Modo Mio ist 53 mm. Die maßgefertigten Holz-Kaffeeboxen in diesem Katalog werden standardmäßig mit 60–72 mm Innentiefe geliefert, lang genug für das tiefste gängige Pad, und bei kundenspezifischen Großaufträgen (MOQ 200 Stück pro Design) teilen wir Fächer routinemäßig asymmetrisch — etwa vier große Pad-Mulden plus eine flache Zucker-/Biscotti-Reihe — für Hotel-Minibar-Konten und Office-Pantry-Programme. Acrylfenster-Deckel lassen das Personal Ihres Endkunden den Füllstand sehen, ohne jede Box zu öffnen, was in durchsatzstarken Hospitality-Umgebungen zählt und ein wiederkehrender Nachbestellungs-Treiber für B2B-Konten ist."
         },
         {
           "type": "img",
@@ -380,7 +380,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Auf der Großhandelsseite fallen die B2B-Käufer, an die wir maßgefertigte Holz-Kaffeeboxen am häufigsten liefern, in vier Gruppen. Private-Label-Kaffee-Abo-Marken brauchen konsistente Chargen-Oberfläche und gebrandete Gravur über 1.000–5.000-Stück-Aufträge — die Hersteller-Beziehung steht und fällt mit der Farbton-Konsistenz zwischen Quartalen. Firmengeschenk-Programme laufen kleiner — 200–500 Stück mit deckelgraviertem Logo, sauber über unserer MOQ-300-Schwelle für OEM-Aufträge. Hotel- und Kurzaufenthalts-Betreiber spezifizieren waschbaren lebensmittelechten Lack und entweder Magnet- oder Scharnierverschluss für geräuschlosen Turndown-Service. Spezialitäten-Cafés bündeln Bohnenbeutel und Zubehör für Heimkunden und brauchen regalfertige Kartons mit Barcodes. Die Verschluss-Entscheidung ist überwiegend ästhetisch — [Schiebedeckelboxen](/products/sliding-lid) sind die traditionellsten und geschenkfreundlichsten, [Magnetverschluss](/products/magnetic) ist die modernste Haptik und die höchstwertige Wahl für Premium-Großhandelsstufen, und Scharnier liegt in der Mitte für den täglichen Retail-Gebrauch."
+          "text": "Auf der Großhandelsseite fallen die B2B-Käufer, an die wir maßgefertigte Holz-Kaffeeboxen am häufigsten liefern, in vier Gruppen. Private-Label-Kaffee-Abo-Marken brauchen konsistente Chargen-Oberfläche und gebrandete Gravur über 1.000–5.000-Stück-Aufträge — die Hersteller-Beziehung steht und fällt mit der Farbton-Konsistenz zwischen Quartalen. Firmengeschenk-Programme laufen kleiner — 200–500 Stück mit deckelgraviertem Logo, sauber über unserer MOQ-200-Schwelle für OEM-Aufträge. Hotel- und Kurzaufenthalts-Betreiber spezifizieren waschbaren lebensmittelechten Lack und entweder Magnet- oder Scharnierverschluss für geräuschlosen Turndown-Service. Spezialitäten-Cafés bündeln Bohnenbeutel und Zubehör für Heimkunden und brauchen regalfertige Kartons mit Barcodes. Die Verschluss-Entscheidung ist überwiegend ästhetisch — [Schiebedeckelboxen](/products/sliding-lid) sind die traditionellsten und geschenkfreundlichsten, [Magnetverschluss](/products/magnetic) ist die modernste Haptik und die höchstwertige Wahl für Premium-Großhandelsstufen, und Scharnier liegt in der Mitte für den täglichen Retail-Gebrauch."
         },
         {
           "type": "p",
@@ -391,7 +391,7 @@ export default {
   },
   "wine-whisky": {
     "seoTitle": "Holz-Wein- & Whiskyboxen — Großhandel & Custom-OEM-Hersteller | CHIC",
-    "seoDescription": "Maßgefertigte Holz-Wein- & Whiskyboxen im Großhandel — Einzelflasche bis Magnum, Schaummulden, Kiefernkisten bis Walnuss-Präsentation. MOQ 300, Laser- & Brand-Branding. FOB Xiamen, Versand in EU/US/UK/CA.",
+    "seoDescription": "Maßgefertigte Holz-Wein- & Whiskyboxen im Großhandel — Einzelflasche bis Magnum, Schaummulden, Kiefernkisten bis Walnuss-Präsentation. MOQ 200, Laser- & Brand-Branding. FOB Xiamen, Versand in EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "B2B-Einkaufsleitfaden",
       "title": "Holz-Wein- & Whiskyboxen im Großhandel beziehen: ein B2B-Einkaufsleitfaden",
@@ -429,7 +429,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Individualisierung eines Großhandels-Wein- und -Whiskybox-Auftrags (MOQ 300 Stück pro Design, 100 beim Erstauftrags-Test) dreht sich um zwei Dinge: die Flaschenpassform und das Branding. Schaummulden werden auf das exakte Flaschen- und Zubehörprofil in schwarzem oder gebrandetem EVA CNC-geschnitten, sodass ein Layout für 1, 2, 3 oder 6 Flaschen (Magnum auf Anfrage) alles klapperfrei hält. Das Branding reicht von traditionellem Brandmarken für das rustikale Vintage-Zeichen — das Kiefer besser annimmt als jedes Hartholz — über Lasergravur, Heißfolienprägung von Jahrgang und Etikett bis zum Siebdruck. Konstruktionsoptionen umfassen Seil-, Leder- und versenkte Griffe, Messingriegel und -scharniere, Glas- und Karaffenhalter sowie Zubehör-Trays für Öffner und Ausgießer. Oberflächen umfassen geflammt, geölt, lackiert und gefirnisst. Die Größen sind unbegrenzt, von einer schlanken Einzelflaschen-Box bis zu einer Sechs-Flaschen-Magnum-Präsentationskiste."
+          "text": "Die Individualisierung eines Großhandels-Wein- und -Whiskybox-Auftrags (MOQ 200 Stück pro Design, 200 beim Erstauftrags-Test) dreht sich um zwei Dinge: die Flaschenpassform und das Branding. Schaummulden werden auf das exakte Flaschen- und Zubehörprofil in schwarzem oder gebrandetem EVA CNC-geschnitten, sodass ein Layout für 1, 2, 3 oder 6 Flaschen (Magnum auf Anfrage) alles klapperfrei hält. Das Branding reicht von traditionellem Brandmarken für das rustikale Vintage-Zeichen — das Kiefer besser annimmt als jedes Hartholz — über Lasergravur, Heißfolienprägung von Jahrgang und Etikett bis zum Siebdruck. Konstruktionsoptionen umfassen Seil-, Leder- und versenkte Griffe, Messingriegel und -scharniere, Glas- und Karaffenhalter sowie Zubehör-Trays für Öffner und Ausgießer. Oberflächen umfassen geflammt, geölt, lackiert und gefirnisst. Die Größen sind unbegrenzt, von einer schlanken Einzelflaschen-Box bis zu einer Sechs-Flaschen-Magnum-Präsentationskiste."
         },
         {
           "type": "img",
@@ -445,7 +445,7 @@ export default {
   },
   "sliding-lid": {
     "seoTitle": "Schiebedeckel-Holzboxen — Großhandel & Custom-OEM-Hersteller | CHIC",
-    "seoDescription": "Maßgefertigte Schiebedeckel-Holzboxen im Großhandel — Kiefer, Walnuss, Bambus, Paulownia. Custom-OEM, MOQ 300, Lasergravur, FSC & lebensmittelecht. FOB Xiamen, Versand in EU/US/UK/CA.",
+    "seoDescription": "Maßgefertigte Schiebedeckel-Holzboxen im Großhandel — Kiefer, Walnuss, Bambus, Paulownia. Custom-OEM, MOQ 200, Lasergravur, FSC & lebensmittelecht. FOB Xiamen, Versand in EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "B2B-Einkaufsleitfaden",
       "title": "Schiebedeckel-Holzboxen im Großhandel: wie B2B-Käufer einen Lieferanten prüfen",
@@ -474,7 +474,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Großhandelskäufer, an die wir Schiebedeckel-Holzboxen am häufigsten liefern, fallen in sechs Anwendungs-Cluster. **Zigarren-Geschenkverpackung** ist das hochwertigste Segment — zedernholzgefütterte Schiebedeckel-Holz-Zigarrenboxen für Tabakmarken, Brenner und Spirituosenhäuser mit limitierten Editionen (5-Zigarren- bis 25-Stück-Humidor-Größen). **Hochzeitsgastgeschenk- und Event-Verpackung** treibt das Volumen — gravierte Schiebedeckel-Holzboxen für Gastgeschenke, mit personalisierungsfreundlichen Deckelflächen und MOQ-Stufen, die zu 200–500-Stück-Events passen. **Bastelsets und Lernspielzeug** setzen auf unbehandelte Schiebedeckel-Holzboxen — Exporteure verkaufen sie an Händler, die sie bemalen, verzieren und als DIY-Produkt weiterversenden. **Premium-Tee und -Kaffee** ([siehe das Tee-/Kaffeebox-Sortiment](/products/tea-coffee)) nutzt Schiebedeckel-Holzboxen mit Fächertrennern und Acrylfenster-Deckeln für Retail-Sichtbarkeit. **Schmuck-, Schmuckkästchen- und Andenken**-SKUs nutzen filzgefütterte Schiebedeckel-Holzboxen für erschwingliche Präsentationsstücke unter der Scharnierbox-Preisstufe. Und **Abo-Box-Marken** versenden Schiebedeckel-Holzboxen als das strukturelle Inlay, das einen Kartonmailer in ein Andenken verwandelt — Wiederkauf-Mechanik in das Unboxing eingebaut."
+          "text": "Die Großhandelskäufer, an die wir Schiebedeckel-Holzboxen am häufigsten liefern, fallen in sechs Anwendungs-Cluster. **Zigarren-Geschenkverpackung** ist das hochwertigste Segment — zedernholzgefütterte Schiebedeckel-Holz-Zigarrenboxen für Tabakmarken, Brenner und Spirituosenhäuser mit limitierten Editionen (5-Zigarren- bis 25-Stück-Humidor-Größen). **Hochzeitsgastgeschenk- und Event-Verpackung** treibt das Volumen — gravierte Schiebedeckel-Holzboxen für Gastgeschenke, mit personalisierungsfreundlichen Deckelflächen und MOQ-Stufen, die zu 200-Stück-Events passen. **Bastelsets und Lernspielzeug** setzen auf unbehandelte Schiebedeckel-Holzboxen — Exporteure verkaufen sie an Händler, die sie bemalen, verzieren und als DIY-Produkt weiterversenden. **Premium-Tee und -Kaffee** ([siehe das Tee-/Kaffeebox-Sortiment](/products/tea-coffee)) nutzt Schiebedeckel-Holzboxen mit Fächertrennern und Acrylfenster-Deckeln für Retail-Sichtbarkeit. **Schmuck-, Schmuckkästchen- und Andenken**-SKUs nutzen filzgefütterte Schiebedeckel-Holzboxen für erschwingliche Präsentationsstücke unter der Scharnierbox-Preisstufe. Und **Abo-Box-Marken** versenden Schiebedeckel-Holzboxen als das strukturelle Inlay, das einen Kartonmailer in ein Andenken verwandelt — Wiederkauf-Mechanik in das Unboxing eingebaut."
         },
         {
           "type": "img",
@@ -483,7 +483,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Individualisierung ist der Punkt, an dem sich das Großhandels-Schiebedeckel-Holzbox-Programm von Stangen-Katalogware trennt. Bei OEM-Aufträgen (MOQ 300 Stück pro Design) ist der Deckel die größte brandbare Fläche jeder Holzbox-Konstruktion — Lasergravur sitzt sauber auf Walnuss, Kiefer und Paulownia bei voller oder Bruchteil-Millimeter-Tiefe; Heißfolie funktioniert für Retail-Boxen, deren Spezifikation Gold- oder Metallic-Finish braucht; Siebdruck und UV-Druck decken Vollfarb-Logos für Promotion- und Firmengeschenk-Aufträge ab. Über den Deckel hinaus nimmt die Konstruktion selbst Detailarbeit auf: ein gefräster Fingergriff an der Vorderkante zum einhändigen Öffnen, eine eingelegte Messinglasche für Premium-Stufen, ein in den Deckel geschnittenes Acrylfenster für Sichtbarkeit (beliebt bei Tee- und Bastelset-Programmen), eine Filz- oder Samtfütterung für Schmuck-SKUs und ein eckmontierter verdeckter Magnet, der einen Schiebedeckel in einen Push-to-Eject-Mechanismus für Premium-Private-Label-Geschenkboxen verwandelt. Maßgefertigte Schiebedeckel-Holzbox-Abmessungen sind unbegrenzt — wir haben von 60 × 40 × 15 mm Ohrringboxen bis zu 400 × 300 × 100 mm Sommelier-Präsentationsboxen aus demselben Konstruktionsmuster gebaut."
+          "text": "Individualisierung ist der Punkt, an dem sich das Großhandels-Schiebedeckel-Holzbox-Programm von Stangen-Katalogware trennt. Bei OEM-Aufträgen (MOQ 200 Stück pro Design) ist der Deckel die größte brandbare Fläche jeder Holzbox-Konstruktion — Lasergravur sitzt sauber auf Walnuss, Kiefer und Paulownia bei voller oder Bruchteil-Millimeter-Tiefe; Heißfolie funktioniert für Retail-Boxen, deren Spezifikation Gold- oder Metallic-Finish braucht; Siebdruck und UV-Druck decken Vollfarb-Logos für Promotion- und Firmengeschenk-Aufträge ab. Über den Deckel hinaus nimmt die Konstruktion selbst Detailarbeit auf: ein gefräster Fingergriff an der Vorderkante zum einhändigen Öffnen, eine eingelegte Messinglasche für Premium-Stufen, ein in den Deckel geschnittenes Acrylfenster für Sichtbarkeit (beliebt bei Tee- und Bastelset-Programmen), eine Filz- oder Samtfütterung für Schmuck-SKUs und ein eckmontierter verdeckter Magnet, der einen Schiebedeckel in einen Push-to-Eject-Mechanismus für Premium-Private-Label-Geschenkboxen verwandelt. Maßgefertigte Schiebedeckel-Holzbox-Abmessungen sind unbegrenzt — wir haben von 60 × 40 × 15 mm Ohrringboxen bis zu 400 × 300 × 100 mm Sommelier-Präsentationsboxen aus demselben Konstruktionsmuster gebaut."
         },
         {
           "type": "p",
@@ -503,7 +503,7 @@ export default {
   },
   "magnetic": {
     "seoTitle": "Magnetverschluss-Holzboxen — Großhandel & Custom-OEM-Hersteller | CHIC",
-    "seoDescription": "Maßgefertigte Magnetverschluss-Holzboxen im Großhandel — verdeckte Neodym-Magnete, sauberes Äußeres, Premium-Snap. Beauty-, Tech-, Abo- & Presse-Kit-Verpackung. MOQ 300, FOB Xiamen, Versand in EU/US/UK/CA.",
+    "seoDescription": "Maßgefertigte Magnetverschluss-Holzboxen im Großhandel — verdeckte Neodym-Magnete, sauberes Äußeres, Premium-Snap. Beauty-, Tech-, Abo- & Presse-Kit-Verpackung. MOQ 200, FOB Xiamen, Versand in EU/US/UK/CA.",
     "deepContent": {
       "eyebrow": "B2B-Einkaufsleitfaden",
       "title": "Magnetverschluss-Holzboxen im Großhandel beziehen: ein B2B-Einkaufsleitfaden",
@@ -541,7 +541,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Individualisierung eines Großhandels-Magnetbox-Auftrags (MOQ 300 Stück pro Design, 100 beim Erstauftrags-Test) spielt mit dem sauberen Äußeren. Da nichts die Oberfläche unterbricht, kann das Branding randlos laufen: Vollfarb-UV- und Litho-Laminat-Druck für fotografische Artworks, Heißfolie für Metallic-Logos, Deboss für ein taktiles, eingeprägtes Zeichen, Siebdruck und Lasergravur. Ein Bandzug ist eine häufige Ergänzung — er erleichtert das Öffnen und fügt einen Markenfarbakzent hinzu. Innenausstattungen werden nach Vorgabe gefertigt: CNC-geschnittener Schaum, samtbezogene Trays, Formpulpe für Öko-Programme oder geteilte Fächer. Holz- und Furnieroptionen umfassen Massivholz für Premium-Stufen und furniertes MDF für dünnwandige bedruckte Konstruktionen. Die Größen sind unbegrenzt, von einer Kartenpack-Box bis zu einem großen mehrteiligen Geschenkset, alle mit dem auf den jeweiligen Deckel kalibrierten Magneten."
+          "text": "Die Individualisierung eines Großhandels-Magnetbox-Auftrags (MOQ 200 Stück pro Design, 200 beim Erstauftrags-Test) spielt mit dem sauberen Äußeren. Da nichts die Oberfläche unterbricht, kann das Branding randlos laufen: Vollfarb-UV- und Litho-Laminat-Druck für fotografische Artworks, Heißfolie für Metallic-Logos, Deboss für ein taktiles, eingeprägtes Zeichen, Siebdruck und Lasergravur. Ein Bandzug ist eine häufige Ergänzung — er erleichtert das Öffnen und fügt einen Markenfarbakzent hinzu. Innenausstattungen werden nach Vorgabe gefertigt: CNC-geschnittener Schaum, samtbezogene Trays, Formpulpe für Öko-Programme oder geteilte Fächer. Holz- und Furnieroptionen umfassen Massivholz für Premium-Stufen und furniertes MDF für dünnwandige bedruckte Konstruktionen. Die Größen sind unbegrenzt, von einer Kartenpack-Box bis zu einem großen mehrteiligen Geschenkset, alle mit dem auf den jeweiligen Deckel kalibrierten Magneten."
         },
         {
           "type": "img",

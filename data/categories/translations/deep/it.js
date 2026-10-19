@@ -7,7 +7,7 @@
 export default {
   "walnut": {
     "seoTitle": "Scatole in legno di noce — Ingrosso e produttore OEM su misura | CHIC",
-    "seoDescription": "Scatole in legno di noce su misura all’ingrosso — scatole per orologi, gioielli e regali in noce nero americano. MOQ 300, incisione laser, FSC e CARB P2. FOB Xiamen, spedizione in UE/US/UK/CA.",
+    "seoDescription": "Scatole in legno di noce su misura all’ingrosso — scatole per orologi, gioielli e regali in noce nero americano. MOQ 200, incisione laser, FSC e CARB P2. FOB Xiamen, spedizione in UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guida all’acquisto B2B",
       "title": "Acquistare scatole in legno di noce all’ingrosso: una guida per buyer B2B",
@@ -45,7 +45,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalizzazione è il punto in cui un programma all’ingrosso di noce si distingue dal prodotto di catalogo. Sugli ordini OEM (MOQ 300 pezzi per design, 100 pezzi su un primo ordine di prova) l’incisione laser è il metodo di branding più pulito sulla noce — la venatura densa trattiene dettagli nitidi a profondità piena o frazioni di millimetro, e il legno scuro offre alto contrasto senza alcun inchiostro. Lamina a caldo e intarsi in ottone coprono la fascia retail oro e metallizzata; deboss e serigrafia sono disponibili per tirature di logo. Oltre al branding, la noce accoglie l’intera gamma di ferramenta: [cerniere soft-close a scomparsa](/products/hinged) per cofanetti di gioielli e orologi, un [magnete al neodimio a scomparsa](/products/magnetic) per lo scatto premium pulito o una [serratura in ottone a chiave o cam-lock](/products/with-lock) per oggetti di valore e documenti. Gli interni sono realizzati su specifica — schiuma tagliata a CNC, vassoi rivestiti in velluto o microfibra, cuscini per orologi, alloggiamenti per anelli — e le dimensioni sono illimitate, da una piccola scatola per anelli a un cofanetto multi-orologio, tutto dallo stesso schema costruttivo."
+          "text": "La personalizzazione è il punto in cui un programma all’ingrosso di noce si distingue dal prodotto di catalogo. Sugli ordini OEM (MOQ 200 pezzi per design, 200 pezzi su un primo ordine di prova) l’incisione laser è il metodo di branding più pulito sulla noce — la venatura densa trattiene dettagli nitidi a profondità piena o frazioni di millimetro, e il legno scuro offre alto contrasto senza alcun inchiostro. Lamina a caldo e intarsi in ottone coprono la fascia retail oro e metallizzata; deboss e serigrafia sono disponibili per tirature di logo. Oltre al branding, la noce accoglie l’intera gamma di ferramenta: [cerniere soft-close a scomparsa](/products/hinged) per cofanetti di gioielli e orologi, un [magnete al neodimio a scomparsa](/products/magnetic) per lo scatto premium pulito o una [serratura in ottone a chiave o cam-lock](/products/with-lock) per oggetti di valore e documenti. Gli interni sono realizzati su specifica — schiuma tagliata a CNC, vassoi rivestiti in velluto o microfibra, cuscini per orologi, alloggiamenti per anelli — e le dimensioni sono illimitate, da una piccola scatola per anelli a un cofanetto multi-orologio, tutto dallo stesso schema costruttivo."
         },
         {
           "type": "p",
@@ -65,7 +65,7 @@ export default {
   },
   "bamboo": {
     "seoTitle": "Scatole in bambù — Ingrosso sostenibile e produttore OEM su misura | CHIC",
-    "seoDescription": "Scatole in bambù su misura all’ingrosso — certificate FSC, naturalmente antibatteriche, idonee al contatto alimentare. Packaging per tè, cucina ed eco-regalo. MOQ 300, incisione laser. FOB Xiamen, spedizione in UE/US/UK/CA.",
+    "seoDescription": "Scatole in bambù su misura all’ingrosso — certificate FSC, naturalmente antibatteriche, idonee al contatto alimentare. Packaging per tè, cucina ed eco-regalo. MOQ 200, incisione laser. FOB Xiamen, spedizione in UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guida all’acquisto B2B",
       "title": "Acquistare scatole in bambù all’ingrosso: la guida B2B per buyer della sostenibilità",
@@ -103,7 +103,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalizzazione di un ordine all’ingrosso in bambù (MOQ 300 pezzi per design, 100 su un primo ordine di prova) inizia dalla finitura: la vernice all’acqua idonea al contatto alimentare, conforme a EU EC 1935/2004 e US FDA 21 CFR 175.300, è standard per qualsiasi scatola in bambù che contenga alimenti, tè, caffè o utensili da cucina, mentre una finitura grezza o a olio naturale è disponibile per i buyer che vogliono il materiale nudo. L’incisione laser si posa pulita sulla venatura uniforme del bambù e offre alto contrasto senza inchiostro — il branding più pulito per una SKU eco che vuole evitare etichette stampate. Oltre al branding, la costruzione accoglie l’intera gamma di dettagli: divisori modulari per scomparti (layout a 4/6/8/9 vani per programmi tè e capsule), coperchi a finestra in acrilico per la visibilità a scaffale e qualsiasi chiusura — magnetica, a cerniera o il [coperchio scorrevole](/products/sliding-lid) completamente riciclabile che mantiene la scatola monomateriale per le dichiarazioni di riciclo a fine vita."
+          "text": "La personalizzazione di un ordine all’ingrosso in bambù (MOQ 200 pezzi per design, 200 su un primo ordine di prova) inizia dalla finitura: la vernice all’acqua idonea al contatto alimentare, conforme a EU EC 1935/2004 e US FDA 21 CFR 175.300, è standard per qualsiasi scatola in bambù che contenga alimenti, tè, caffè o utensili da cucina, mentre una finitura grezza o a olio naturale è disponibile per i buyer che vogliono il materiale nudo. L’incisione laser si posa pulita sulla venatura uniforme del bambù e offre alto contrasto senza inchiostro — il branding più pulito per una SKU eco che vuole evitare etichette stampate. Oltre al branding, la costruzione accoglie l’intera gamma di dettagli: divisori modulari per scomparti (layout a 4/6/8/9 vani per programmi tè e capsule), coperchi a finestra in acrilico per la visibilità a scaffale e qualsiasi chiusura — magnetica, a cerniera o il [coperchio scorrevole](/products/sliding-lid) completamente riciclabile che mantiene la scatola monomateriale per le dichiarazioni di riciclo a fine vita."
         },
         {
           "type": "p",
@@ -123,7 +123,7 @@ export default {
   },
   "pine": {
     "seoTitle": "Scatole in legno di pino — Ingrosso e produttore OEM su misura | CHIC",
-    "seoDescription": "Scatole in legno di pino su misura all’ingrosso — pino Scots e radiata economico per vino, giardino, casse e packaging regalo rustico. MOQ 300, branding a fuoco e laser. FOB Xiamen, spedizione in UE/US/UK/CA.",
+    "seoDescription": "Scatole in legno di pino su misura all’ingrosso — pino Scots e radiata economico per vino, giardino, casse e packaging regalo rustico. MOQ 200, branding a fuoco e laser. FOB Xiamen, spedizione in UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guida all’acquisto B2B",
       "title": "Acquistare scatole in legno di pino all’ingrosso: la guida B2B ai costi unitari",
@@ -161,7 +161,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalizzazione di un ordine all’ingrosso in pino (MOQ 300 pezzi per design, 100 su un primo ordine di prova) inizia dalla finitura, perché il pino grezzo è una tela bianca: vernice esterna resistente ai UV per uso outdoor e giardino, vernice interna idonea al contatto alimentare per scatole da picnic e dispensa, oppure finiture a olio naturale e fiammate per il look rustico. Il branding è il punto in cui il pino supera la sua fascia di prezzo — branding tradizionale a fuoco per il marchio vintage impresso, incisione laser per dettagli nitidi e serigrafia o lamina a caldo per loghi retail. La costruzione accoglie l’intera gamma di ferramenta: manici in corda e cuoio, [cerniere in ottone e acciaio](/products/hinged), chiusure e inserti in schiuma o divisori per bottiglie e utensili. Le dimensioni sono illimitate, da una scatola da vino monobottiglia a una grande cassa portautensili da giardino, tutto dallo stesso legno tenero."
+          "text": "La personalizzazione di un ordine all’ingrosso in pino (MOQ 200 pezzi per design, 200 su un primo ordine di prova) inizia dalla finitura, perché il pino grezzo è una tela bianca: vernice esterna resistente ai UV per uso outdoor e giardino, vernice interna idonea al contatto alimentare per scatole da picnic e dispensa, oppure finiture a olio naturale e fiammate per il look rustico. Il branding è il punto in cui il pino supera la sua fascia di prezzo — branding tradizionale a fuoco per il marchio vintage impresso, incisione laser per dettagli nitidi e serigrafia o lamina a caldo per loghi retail. La costruzione accoglie l’intera gamma di ferramenta: manici in corda e cuoio, [cerniere in ottone e acciaio](/products/hinged), chiusure e inserti in schiuma o divisori per bottiglie e utensili. Le dimensioni sono illimitate, da una scatola da vino monobottiglia a una grande cassa portautensili da giardino, tutto dallo stesso legno tenero."
         },
         {
           "type": "p",
@@ -181,7 +181,7 @@ export default {
   },
   "paulownia": {
     "seoTitle": "Scatole in legno di paulownia — Ingrosso leggero e produttore OEM | CHIC",
-    "seoDescription": "Scatole in legno di paulownia su misura all’ingrosso — il legno più leggero per packaging regalo e in abbonamento ad alto volume e basso costo di spedizione. Stabile, incisione laser nitida. MOQ 300, FOB Xiamen, spedizione in UE/US/UK/CA.",
+    "seoDescription": "Scatole in legno di paulownia su misura all’ingrosso — il legno più leggero per packaging regalo e in abbonamento ad alto volume e basso costo di spedizione. Stabile, incisione laser nitida. MOQ 200, FOB Xiamen, spedizione in UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guida all’acquisto B2B",
       "title": "Acquistare scatole in legno di paulownia all’ingrosso: la guida B2B all’economia di spedizione",
@@ -219,7 +219,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalizzazione di un ordine all’ingrosso in paulownia (MOQ 300 pezzi per design, 100 su un primo ordine di prova) gioca sui punti di forza del materiale. La superficie color crema pallido è una tela bianca: tingere in qualsiasi tono di legno, verniciare in un colore di marca, laccare opaco o lucido, oppure lasciare grezzo per un look naturale. L’incisione laser è il metodo di branding di punta — la venatura uniforme del paulownia accoglie lavori dettagliati di logo e motivi puliti come qualsiasi essenza che lavoriamo, a profondità piena o frazioni di millimetro. Lamina a caldo, serigrafia e deboss coprono le fasce retail e a colori pieni. La costruzione accoglie l’intera gamma: qualsiasi chiusura incluso il [coperchio scorrevole](/products/sliding-lid) impilabile in piano e conveniente per la spedizione, inserti in schiuma e divisori, nastri di tiraggio e scomparti — e poiché il materiale di base è così leggero, persino una grande scatola multiscomparto resta economica da spedire."
+          "text": "La personalizzazione di un ordine all’ingrosso in paulownia (MOQ 200 pezzi per design, 200 su un primo ordine di prova) gioca sui punti di forza del materiale. La superficie color crema pallido è una tela bianca: tingere in qualsiasi tono di legno, verniciare in un colore di marca, laccare opaco o lucido, oppure lasciare grezzo per un look naturale. L’incisione laser è il metodo di branding di punta — la venatura uniforme del paulownia accoglie lavori dettagliati di logo e motivi puliti come qualsiasi essenza che lavoriamo, a profondità piena o frazioni di millimetro. Lamina a caldo, serigrafia e deboss coprono le fasce retail e a colori pieni. La costruzione accoglie l’intera gamma: qualsiasi chiusura incluso il [coperchio scorrevole](/products/sliding-lid) impilabile in piano e conveniente per la spedizione, inserti in schiuma e divisori, nastri di tiraggio e scomparti — e poiché il materiale di base è così leggero, persino una grande scatola multiscomparto resta economica da spedire."
         },
         {
           "type": "p",
@@ -239,7 +239,7 @@ export default {
   },
   "acacia": {
     "seoTitle": "Scatole in legno di acacia — Ingrosso e produttore OEM su misura | CHIC",
-    "seoDescription": "Scatole in legno di acacia su misura all’ingrosso — legno duro dalla venatura drammatica per utensili da cucina, charcuterie, scatole da portata e regalo premium. Janka 2300+, idoneo al contatto alimentare, idrorepellente. MOQ 300, FOB Xiamen, spedizione in UE/US/UK/CA.",
+    "seoDescription": "Scatole in legno di acacia su misura all’ingrosso — legno duro dalla venatura drammatica per utensili da cucina, charcuterie, scatole da portata e regalo premium. Janka 2300+, idoneo al contatto alimentare, idrorepellente. MOQ 200, FOB Xiamen, spedizione in UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guida all’acquisto B2B",
       "title": "Acquistare scatole in legno di acacia all’ingrosso: la guida B2B per buyer di articoli da cucina",
@@ -277,7 +277,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalizzazione di un ordine all’ingrosso in acacia (MOQ 300 pezzi per design, 100 su un primo ordine di prova) inizia dalla finitura, perché la venatura dell’acacia la premia: olio idoneo al contatto alimentare e cera d’api esaltano il disegno miele-cioccolato per gli articoli da cucina (conforme a EU EC 1935/2004 e US FDA 21 CFR 175.300 dove si applica il contatto alimentare), oppure vernice per una superficie sigillata e durevole. L’incisione laser si posa pulita e il disegno scuro offre un contrasto naturale; lamina a caldo e deboss coprono la fascia regalo premium. La costruzione accoglie l’intera gamma: [cerniere a scomparsa e soft-close](/products/hinged) per scatole da portata e regalo, un [magnete al neodimio a scomparsa](/products/magnetic) per la chiusura premium pulita, divisori per scomparti e inserti in schiuma tagliati a CNC, e ferramenta in acciaio inox o ottone per costruzioni da cucina. Le dimensioni sono illimitate, da una piccola saliera a una grande scatola di presentazione per charcuterie."
+          "text": "La personalizzazione di un ordine all’ingrosso in acacia (MOQ 200 pezzi per design, 200 su un primo ordine di prova) inizia dalla finitura, perché la venatura dell’acacia la premia: olio idoneo al contatto alimentare e cera d’api esaltano il disegno miele-cioccolato per gli articoli da cucina (conforme a EU EC 1935/2004 e US FDA 21 CFR 175.300 dove si applica il contatto alimentare), oppure vernice per una superficie sigillata e durevole. L’incisione laser si posa pulita e il disegno scuro offre un contrasto naturale; lamina a caldo e deboss coprono la fascia regalo premium. La costruzione accoglie l’intera gamma: [cerniere a scomparsa e soft-close](/products/hinged) per scatole da portata e regalo, un [magnete al neodimio a scomparsa](/products/magnetic) per la chiusura premium pulita, divisori per scomparti e inserti in schiuma tagliati a CNC, e ferramenta in acciaio inox o ottone per costruzioni da cucina. Le dimensioni sono illimitate, da una piccola saliera a una grande scatola di presentazione per charcuterie."
         },
         {
           "type": "p",
@@ -297,14 +297,14 @@ export default {
   },
   "gift-packaging": {
     "seoTitle": "Scatole regalo e packaging in legno — Ingrosso e produttore OEM | CHIC",
-    "seoDescription": "Scatole regalo e da imballaggio in legno su misura all’ingrosso — magnetiche, a cerniera e scorrevoli, branding deboss, inserti in schiuma/velluto. MOQ 300, volumi fino a 100.000+. FOB Xiamen, spedizione in UE/US/UK/CA.",
+    "seoDescription": "Scatole regalo e da imballaggio in legno su misura all’ingrosso — magnetiche, a cerniera e scorrevoli, branding deboss, inserti in schiuma/velluto. MOQ 200, volumi fino a 100.000+. FOB Xiamen, spedizione in UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guida all’acquisto B2B",
       "title": "Acquistare scatole regalo in legno all’ingrosso: una guida B2B al packaging",
       "blocks": [
         {
           "type": "p",
-          "text": "Una scatola regalo in legno è la decisione di packaging che trasforma un prodotto in un momento di unboxing — e per i buyer B2B quel momento è misurabile: guida il video di unboxing, il riacquisto e il valore percepito che permette a un marchio di mantenere il prezzo. Forniamo scatole regalo e da imballaggio in legno all’ingrosso a marchi che lanciano una nuova SKU, ad agenzie che costruiscono programmi di regalistica aziendale e a importatori che riforniscono i rivenditori con packaging pronto a scaffale, in volumi da campioni di 100 pezzi a ordini di produzione oltre i 100.000 pezzi con lavorazione, vestibilità e tatto costanti su ogni lotto. Le tre decisioni che guidano un programma di scatole regalo sono chiusura, materiale e branding — la nostra [guida ai materiali](/material-guide) mette le essenze a confronto, mentre questa pagina copre come i buyer all’ingrosso specificano davvero il resto."
+          "text": "Una scatola regalo in legno è la decisione di packaging che trasforma un prodotto in un momento di unboxing — e per i buyer B2B quel momento è misurabile: guida il video di unboxing, il riacquisto e il valore percepito che permette a un marchio di mantenere il prezzo. Forniamo scatole regalo e da imballaggio in legno all’ingrosso a marchi che lanciano una nuova SKU, ad agenzie che costruiscono programmi di regalistica aziendale e a importatori che riforniscono i rivenditori con packaging pronto a scaffale, in volumi da campioni di 200 pezzi a ordini di produzione oltre i 100.000 pezzi con lavorazione, vestibilità e tatto costanti su ogni lotto. Le tre decisioni che guidano un programma di scatole regalo sono chiusura, materiale e branding — la nostra [guida ai materiali](/material-guide) mette le essenze a confronto, mentre questa pagina copre come i buyer all’ingrosso specificano davvero il resto."
         },
         {
           "type": "img",
@@ -326,7 +326,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "I buyer all’ingrosso a cui spediamo più spesso scatole regalo in legno si dividono in cinque cluster. **Marchi di prodotto e lanci di nuove SKU** usano scatole regalo brandizzate come packaging primario — la scatola che tiene il prodotto a scaffale e nel video di unboxing. **Programmi di regalistica aziendale e promozionale** producono scatole incise in 200–1.000 pezzi per regali a clienti e dipendenti, comodamente sopra la soglia MOQ 300. **I marchi di scatole in abbonamento** usano scatole in legno come inserto da conservare che trasforma un pacco in un regalo e guida il riacquisto. **Programmi retail e pronti a scaffale** richiedono scatole singole, blister o cartoni master con codice a barre per la distribuzione. E **marchi beauty, gioielli e consumer premium** ([vedi la gamma orologi e gioielli](/products/watch-jewelry)) usano scatole regalo foderate in feltro con inserti in schiuma o velluto per pezzi di presentazione. Il driver del riordino in tutti e cinque è la costanza di lotto — finitura, vestibilità e abbinamento colore tra i trimestri."
+          "text": "I buyer all’ingrosso a cui spediamo più spesso scatole regalo in legno si dividono in cinque cluster. **Marchi di prodotto e lanci di nuove SKU** usano scatole regalo brandizzate come packaging primario — la scatola che tiene il prodotto a scaffale e nel video di unboxing. **Programmi di regalistica aziendale e promozionale** producono scatole incise in 200–1.000 pezzi per regali a clienti e dipendenti, comodamente sopra la soglia MOQ 200. **I marchi di scatole in abbonamento** usano scatole in legno come inserto da conservare che trasforma un pacco in un regalo e guida il riacquisto. **Programmi retail e pronti a scaffale** richiedono scatole singole, blister o cartoni master con codice a barre per la distribuzione. E **marchi beauty, gioielli e consumer premium** ([vedi la gamma orologi e gioielli](/products/watch-jewelry)) usano scatole regalo foderate in feltro con inserti in schiuma o velluto per pezzi di presentazione. Il driver del riordino in tutti e cinque è la costanza di lotto — finitura, vestibilità e abbinamento colore tra i trimestri."
         },
         {
           "type": "img",
@@ -335,7 +335,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalizzazione è il vero senso di un programma all’ingrosso di scatole regalo (MOQ 300 pezzi per design, 100 su un primo ordine di prova). Il branding usa l’intera gamma: incisione laser per marchi nitidi senza inchiostro, deboss per un logo impresso tattile, lamina a caldo per finiture retail oro e metallizzate, serigrafia per loghi da uno a sei colori e stampa UV a colori pieni per artwork fotografici. Gli interni sono realizzati su specifica — schiuma tagliata a CNC, vassoi rivestiti in velluto, polpa stampata per programmi eco, oppure nastri di tiraggio e divisori. Le finiture spaziano da vernice opaca e lucida, oliata, verniciata e grezza. Le dimensioni sono illimitate, da una scatola campione di 80 × 60 × 30 mm a un cofanetto di presentazione di 600 × 400 × 200 mm, e un singolo programma può mescolare chiusure e inserti tra le SKU. Qui la scatola smette di essere imballaggio e diventa parte del prodotto."
+          "text": "La personalizzazione è il vero senso di un programma all’ingrosso di scatole regalo (MOQ 200 pezzi per design, 200 su un primo ordine di prova). Il branding usa l’intera gamma: incisione laser per marchi nitidi senza inchiostro, deboss per un logo impresso tattile, lamina a caldo per finiture retail oro e metallizzate, serigrafia per loghi da uno a sei colori e stampa UV a colori pieni per artwork fotografici. Gli interni sono realizzati su specifica — schiuma tagliata a CNC, vassoi rivestiti in velluto, polpa stampata per programmi eco, oppure nastri di tiraggio e divisori. Le finiture spaziano da vernice opaca e lucida, oliata, verniciata e grezza. Le dimensioni sono illimitate, da una scatola campione di 80 × 60 × 30 mm a un cofanetto di presentazione di 600 × 400 × 200 mm, e un singolo programma può mescolare chiusure e inserti tra le SKU. Qui la scatola smette di essere imballaggio e diventa parte del prodotto."
         },
         {
           "type": "p",
@@ -355,7 +355,7 @@ export default {
   },
   "tea-coffee": {
     "seoTitle": "Scatole in legno per tè e caffè — Ingrosso e produttore OEM | CHIC",
-    "seoDescription": "Scatole in legno per caffè e tè su misura all’ingrosso — scompartimentate per capsule e bustine, finestra in acrilico, finitura idonea al contatto alimentare. MOQ 300, incisione laser. FOB Xiamen, spedizione in UE/US/UK/CA.",
+    "seoDescription": "Scatole in legno per caffè e tè su misura all’ingrosso — scompartimentate per capsule e bustine, finestra in acrilico, finitura idonea al contatto alimentare. MOQ 200, incisione laser. FOB Xiamen, spedizione in UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guida all’acquisto B2B",
       "title": "Acquistare scatole in legno per caffè all’ingrosso: una checklist per buyer B2B",
@@ -371,7 +371,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La profondità degli scomparti è il punto in cui la maggior parte degli importatori di scatole in legno per tè di serie delude i propri clienti all’ingrosso quando il canale caffè-in-capsule riordina la SKU. Un interno generico di 30–40 mm contiene una bustina di tè ma è troppo basso per qualsiasi formato di capsula moderno — Nespresso OriginalLine è 37 mm, K-Cup è 62 mm, Nespresso Vertuo è 53 mm, Lavazza A Modo Mio è 53 mm. Le scatole in legno per caffè su misura di questo catalogo vengono fornite con 60–72 mm di profondità interna di serie, sufficiente per la capsula mainstream più profonda, e sugli ordini personalizzati in grandi quantità (MOQ 300 pezzi per design) suddividiamo regolarmente gli scomparti in modo asimmetrico — ad esempio quattro grandi vani per capsule più una fila bassa per zucchero/biscotti — per account di minibar alberghieri e programmi di dispensa per uffici aziendali. I coperchi con finestra in acrilico permettono al personale del tuo cliente finale di vedere il livello senza aprire ogni scatola, cosa che conta negli ambienti hospitality ad alto flusso ed è un driver di riordino ricorrente per gli account B2B."
+          "text": "La profondità degli scomparti è il punto in cui la maggior parte degli importatori di scatole in legno per tè di serie delude i propri clienti all’ingrosso quando il canale caffè-in-capsule riordina la SKU. Un interno generico di 30–40 mm contiene una bustina di tè ma è troppo basso per qualsiasi formato di capsula moderno — Nespresso OriginalLine è 37 mm, K-Cup è 62 mm, Nespresso Vertuo è 53 mm, Lavazza A Modo Mio è 53 mm. Le scatole in legno per caffè su misura di questo catalogo vengono fornite con 60–72 mm di profondità interna di serie, sufficiente per la capsula mainstream più profonda, e sugli ordini personalizzati in grandi quantità (MOQ 200 pezzi per design) suddividiamo regolarmente gli scomparti in modo asimmetrico — ad esempio quattro grandi vani per capsule più una fila bassa per zucchero/biscotti — per account di minibar alberghieri e programmi di dispensa per uffici aziendali. I coperchi con finestra in acrilico permettono al personale del tuo cliente finale di vedere il livello senza aprire ogni scatola, cosa che conta negli ambienti hospitality ad alto flusso ed è un driver di riordino ricorrente per gli account B2B."
         },
         {
           "type": "img",
@@ -380,7 +380,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sul lato all’ingrosso, i buyer B2B a cui spediamo più spesso scatole in legno per caffè su misura ricadono in quattro categorie. I marchi private-label di caffè in abbonamento hanno bisogno di una finitura di lotto costante e di un’incisione brandizzata su tirature di 1.000–5.000 pezzi — il rapporto con il produttore si regge sulla costanza della tonalità tra i trimestri. I programmi di regalistica aziendale sono più piccoli — 200–500 pezzi con logo inciso sul coperchio, comodamente sopra la nostra soglia MOQ 300 per gli ordini OEM. Gli operatori alberghieri e di soggiorni brevi specificano vernice lavabile idonea al contatto alimentare e chiusura magnetica o a cerniera per un servizio di riassetto silenzioso. I caffè specialty abbinano sacchetti di chicchi e accessori per i clienti casalinghi e hanno bisogno di cartoni pronti a scaffale con codici a barre. La decisione sulla chiusura è prevalentemente estetica — le [scatole a coperchio scorrevole](/products/sliding-lid) sono le più tradizionali e adatte al regalo, la [chiusura magnetica](/products/magnetic) è il tatto più moderno e la scelta a più alto valore percepito per le fasce all’ingrosso premium, e la cerniera sta nel mezzo per l’uso retail quotidiano."
+          "text": "Sul lato all’ingrosso, i buyer B2B a cui spediamo più spesso scatole in legno per caffè su misura ricadono in quattro categorie. I marchi private-label di caffè in abbonamento hanno bisogno di una finitura di lotto costante e di un’incisione brandizzata su tirature di 1.000–5.000 pezzi — il rapporto con il produttore si regge sulla costanza della tonalità tra i trimestri. I programmi di regalistica aziendale sono più piccoli — 200–500 pezzi con logo inciso sul coperchio, comodamente sopra la nostra soglia MOQ 200 per gli ordini OEM. Gli operatori alberghieri e di soggiorni brevi specificano vernice lavabile idonea al contatto alimentare e chiusura magnetica o a cerniera per un servizio di riassetto silenzioso. I caffè specialty abbinano sacchetti di chicchi e accessori per i clienti casalinghi e hanno bisogno di cartoni pronti a scaffale con codici a barre. La decisione sulla chiusura è prevalentemente estetica — le [scatole a coperchio scorrevole](/products/sliding-lid) sono le più tradizionali e adatte al regalo, la [chiusura magnetica](/products/magnetic) è il tatto più moderno e la scelta a più alto valore percepito per le fasce all’ingrosso premium, e la cerniera sta nel mezzo per l’uso retail quotidiano."
         },
         {
           "type": "p",
@@ -391,7 +391,7 @@ export default {
   },
   "wine-whisky": {
     "seoTitle": "Scatole in legno per vino e whisky — Ingrosso e produttore OEM | CHIC",
-    "seoDescription": "Scatole in legno per vino e whisky su misura all’ingrosso — da monobottiglia a magnum, alloggiamenti in schiuma, dalle casse in pino alla presentazione in noce. MOQ 300, branding laser e a fuoco. FOB Xiamen, spedizione in UE/US/UK/CA.",
+    "seoDescription": "Scatole in legno per vino e whisky su misura all’ingrosso — da monobottiglia a magnum, alloggiamenti in schiuma, dalle casse in pino alla presentazione in noce. MOQ 200, branding laser e a fuoco. FOB Xiamen, spedizione in UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guida all’acquisto B2B",
       "title": "Acquistare scatole in legno per vino e whisky all’ingrosso: una guida per buyer B2B",
@@ -429,7 +429,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalizzazione di un ordine all’ingrosso di scatole per vino e whisky (MOQ 300 pezzi per design, 100 su un primo ordine di prova) ruota attorno a due cose: la vestibilità della bottiglia e il branding. Gli alloggiamenti in schiuma sono tagliati a CNC sul profilo esatto della bottiglia e degli accessori in EVA nero o brandizzato, così un layout per 1, 2, 3 o 6 bottiglie (magnum su richiesta) tiene tutto senza vibrazioni. Il branding va dal tradizionale a fuoco per il marchio vintage impresso — che il pino accoglie meglio di qualsiasi legno duro — passando per incisione laser, stampa a lamina a caldo dell’annata e dell’etichetta, fino alla serigrafia. Le opzioni costruttive includono manici in corda, cuoio e a incasso, chiusure e cerniere in ottone, portabicchieri e portacaraffe, e vassoi per accessori per cavatappi e versatori. Le finiture spaziano da fiammata, oliata, verniciata e laccata. Le dimensioni sono illimitate, da una sottile scatola monobottiglia a una cassa di presentazione magnum a sei bottiglie."
+          "text": "La personalizzazione di un ordine all’ingrosso di scatole per vino e whisky (MOQ 200 pezzi per design, 200 su un primo ordine di prova) ruota attorno a due cose: la vestibilità della bottiglia e il branding. Gli alloggiamenti in schiuma sono tagliati a CNC sul profilo esatto della bottiglia e degli accessori in EVA nero o brandizzato, così un layout per 1, 2, 3 o 6 bottiglie (magnum su richiesta) tiene tutto senza vibrazioni. Il branding va dal tradizionale a fuoco per il marchio vintage impresso — che il pino accoglie meglio di qualsiasi legno duro — passando per incisione laser, stampa a lamina a caldo dell’annata e dell’etichetta, fino alla serigrafia. Le opzioni costruttive includono manici in corda, cuoio e a incasso, chiusure e cerniere in ottone, portabicchieri e portacaraffe, e vassoi per accessori per cavatappi e versatori. Le finiture spaziano da fiammata, oliata, verniciata e laccata. Le dimensioni sono illimitate, da una sottile scatola monobottiglia a una cassa di presentazione magnum a sei bottiglie."
         },
         {
           "type": "img",
@@ -445,7 +445,7 @@ export default {
   },
   "sliding-lid": {
     "seoTitle": "Scatole in legno a coperchio scorrevole — Ingrosso e produttore OEM | CHIC",
-    "seoDescription": "Scatole in legno a coperchio scorrevole su misura all’ingrosso — pino, noce, bambù, paulownia. OEM su misura, MOQ 300, incisione laser, FSC e idoneo al contatto alimentare. FOB Xiamen, spedizione in UE/US/UK/CA.",
+    "seoDescription": "Scatole in legno a coperchio scorrevole su misura all’ingrosso — pino, noce, bambù, paulownia. OEM su misura, MOQ 200, incisione laser, FSC e idoneo al contatto alimentare. FOB Xiamen, spedizione in UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guida all’acquisto B2B",
       "title": "Scatole in legno a coperchio scorrevole all’ingrosso: come i buyer B2B valutano un fornitore",
@@ -474,7 +474,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "I buyer all’ingrosso a cui spediamo più spesso scatole in legno a coperchio scorrevole ricadono in sei cluster applicativi. **Il packaging regalo per sigari** è il segmento di maggior valore — scatole in legno a coperchio scorrevole per sigari foderate in cedro spagnolo per marchi di tabacco, distillatori e case di distillati con edizioni limitate (misure da 5 sigari fino a 25 in stile humidor). **Il packaging per bomboniere ed eventi** guida il volume — scatole in legno a coperchio scorrevole incise per regali agli ospiti, con superfici del coperchio adatte alla personalizzazione e fasce MOQ adatte a eventi da 200–500 pezzi. **Kit artigianali e giocattoli educativi** puntano su scatole in legno a coperchio scorrevole grezze — gli esportatori le vendono a rivenditori che le dipingono, decorano e rivendono come prodotto fai-da-te. **Tè e caffè premium** ([vedi la gamma scatole per tè/caffè](/products/tea-coffee)) usa scatole in legno a coperchio scorrevole con divisori per scomparti e coperchi a finestra in acrilico per la visibilità retail. **Le SKU per gioielli, piccoli oggetti e ricordi** usano scatole in legno a coperchio scorrevole foderate in feltro per pezzi di presentazione accessibili che si collocano sotto la fascia di prezzo delle scatole a cerniera. E **i marchi di scatole in abbonamento** spediscono scatole in legno a coperchio scorrevole come inserto strutturale che trasforma un pacco di cartone in un ricordo — meccanica di riacquisto integrata nell’unboxing."
+          "text": "I buyer all’ingrosso a cui spediamo più spesso scatole in legno a coperchio scorrevole ricadono in sei cluster applicativi. **Il packaging regalo per sigari** è il segmento di maggior valore — scatole in legno a coperchio scorrevole per sigari foderate in cedro spagnolo per marchi di tabacco, distillatori e case di distillati con edizioni limitate (misure da 5 sigari fino a 25 in stile humidor). **Il packaging per bomboniere ed eventi** guida il volume — scatole in legno a coperchio scorrevole incise per regali agli ospiti, con superfici del coperchio adatte alla personalizzazione e fasce MOQ adatte a eventi da 200 pezzi. **Kit artigianali e giocattoli educativi** puntano su scatole in legno a coperchio scorrevole grezze — gli esportatori le vendono a rivenditori che le dipingono, decorano e rivendono come prodotto fai-da-te. **Tè e caffè premium** ([vedi la gamma scatole per tè/caffè](/products/tea-coffee)) usa scatole in legno a coperchio scorrevole con divisori per scomparti e coperchi a finestra in acrilico per la visibilità retail. **Le SKU per gioielli, piccoli oggetti e ricordi** usano scatole in legno a coperchio scorrevole foderate in feltro per pezzi di presentazione accessibili che si collocano sotto la fascia di prezzo delle scatole a cerniera. E **i marchi di scatole in abbonamento** spediscono scatole in legno a coperchio scorrevole come inserto strutturale che trasforma un pacco di cartone in un ricordo — meccanica di riacquisto integrata nell’unboxing."
         },
         {
           "type": "img",
@@ -483,7 +483,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalizzazione è il punto in cui il programma all’ingrosso di scatole in legno a coperchio scorrevole si separa dal prodotto di catalogo di serie. Sugli ordini OEM (MOQ 300 pezzi per design), il coperchio è la più ampia area brandizzabile di qualsiasi costruzione di scatola in legno — l’incisione laser si posa pulita su noce, pino e paulownia a profondità piena o frazioni di millimetro; la lamina a caldo funziona per scatole brandizzate di fascia retail dove la specifica richiede una finitura oro o metallizzata; serigrafia e stampa UV coprono i loghi a colori pieni per tirature promozionali e di regalistica aziendale. Oltre al coperchio, la costruzione stessa accoglie lavori di dettaglio: una presa per le dita fresata sul bordo anteriore per l’apertura a una mano, una linguetta in ottone intarsiata per le fasce premium, una finestra in acrilico tagliata nel coperchio per la visibilità (apprezzata nei programmi tè e kit artigianali), una fodera in feltro o velluto per le SKU di gioielli, e un magnete nascosto montato all’angolo che converte un coperchio scorrevole in un meccanismo push-to-eject per scatole regalo private-label premium. Le dimensioni delle scatole in legno a coperchio scorrevole su misura sono illimitate — abbiamo costruito da scatole per orecchini di 60 × 40 × 15 mm fino a scatole di presentazione da sommelier di 400 × 300 × 100 mm dallo stesso schema costruttivo."
+          "text": "La personalizzazione è il punto in cui il programma all’ingrosso di scatole in legno a coperchio scorrevole si separa dal prodotto di catalogo di serie. Sugli ordini OEM (MOQ 200 pezzi per design), il coperchio è la più ampia area brandizzabile di qualsiasi costruzione di scatola in legno — l’incisione laser si posa pulita su noce, pino e paulownia a profondità piena o frazioni di millimetro; la lamina a caldo funziona per scatole brandizzate di fascia retail dove la specifica richiede una finitura oro o metallizzata; serigrafia e stampa UV coprono i loghi a colori pieni per tirature promozionali e di regalistica aziendale. Oltre al coperchio, la costruzione stessa accoglie lavori di dettaglio: una presa per le dita fresata sul bordo anteriore per l’apertura a una mano, una linguetta in ottone intarsiata per le fasce premium, una finestra in acrilico tagliata nel coperchio per la visibilità (apprezzata nei programmi tè e kit artigianali), una fodera in feltro o velluto per le SKU di gioielli, e un magnete nascosto montato all’angolo che converte un coperchio scorrevole in un meccanismo push-to-eject per scatole regalo private-label premium. Le dimensioni delle scatole in legno a coperchio scorrevole su misura sono illimitate — abbiamo costruito da scatole per orecchini di 60 × 40 × 15 mm fino a scatole di presentazione da sommelier di 400 × 300 × 100 mm dallo stesso schema costruttivo."
         },
         {
           "type": "p",
@@ -503,7 +503,7 @@ export default {
   },
   "magnetic": {
     "seoTitle": "Scatole in legno a chiusura magnetica — Ingrosso e produttore OEM | CHIC",
-    "seoDescription": "Scatole in legno a chiusura magnetica su misura all’ingrosso — magneti al neodimio a scomparsa, esterno pulito, scatto premium. Packaging beauty, tech, abbonamento e press kit. MOQ 300, FOB Xiamen, spedizione in UE/US/UK/CA.",
+    "seoDescription": "Scatole in legno a chiusura magnetica su misura all’ingrosso — magneti al neodimio a scomparsa, esterno pulito, scatto premium. Packaging beauty, tech, abbonamento e press kit. MOQ 200, FOB Xiamen, spedizione in UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guida all’acquisto B2B",
       "title": "Acquistare scatole in legno a chiusura magnetica all’ingrosso: una guida per buyer B2B",
@@ -541,7 +541,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalizzazione di un ordine all’ingrosso di scatole magnetiche (MOQ 300 pezzi per design, 100 su un primo ordine di prova) gioca sull’esterno pulito. Poiché nulla interrompe la superficie, il branding può estendersi da bordo a bordo: stampa UV a colori pieni e litho-laminato per artwork fotografici, lamina a caldo per loghi metallizzati, deboss per un marchio impresso tattile, serigrafia e incisione laser. Un nastro di tiraggio è un’aggiunta comune — facilita l’apertura e aggiunge un accento di colore di marca. Gli interni sono realizzati su specifica: schiuma tagliata a CNC, vassoi rivestiti in velluto, polpa stampata per programmi eco, oppure scomparti divisi. Le opzioni di legno e impiallacciatura spaziano dal legno massiccio per le fasce premium all’MDF impiallacciato per costruzioni stampate a parete sottile. Le dimensioni sono illimitate, da una scatola formato mazzo di carte a un grande set regalo multipezzo, tutte con il magnete calibrato sul coperchio specifico."
+          "text": "La personalizzazione di un ordine all’ingrosso di scatole magnetiche (MOQ 200 pezzi per design, 200 su un primo ordine di prova) gioca sull’esterno pulito. Poiché nulla interrompe la superficie, il branding può estendersi da bordo a bordo: stampa UV a colori pieni e litho-laminato per artwork fotografici, lamina a caldo per loghi metallizzati, deboss per un marchio impresso tattile, serigrafia e incisione laser. Un nastro di tiraggio è un’aggiunta comune — facilita l’apertura e aggiunge un accento di colore di marca. Gli interni sono realizzati su specifica: schiuma tagliata a CNC, vassoi rivestiti in velluto, polpa stampata per programmi eco, oppure scomparti divisi. Le opzioni di legno e impiallacciatura spaziano dal legno massiccio per le fasce premium all’MDF impiallacciato per costruzioni stampate a parete sottile. Le dimensioni sono illimitate, da una scatola formato mazzo di carte a un grande set regalo multipezzo, tutte con il magnete calibrato sul coperchio specifico."
         },
         {
           "type": "img",

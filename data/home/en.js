@@ -127,7 +127,7 @@ export const COPY = {
     titleB: 'at Global Scale',
     text: 'With our 20,000 m² factory in Cao County, Shandong — the historic heart of China’s wooden box industry — and our sales office in Xiamen, Fujian, we are a dedicated wooden box manufacturer serving retailers, brands, and importers across Europe, North America, Japan, Korea and beyond.',
     features: [
-      'Standard MOQ 200–500 pcs — sample runs from 100',
+      "MOQ: 200 pcs",
       'Full customization: size, finish, logo, insert, hardware',
       'FSC certified wood & eco-friendly finishes available',
       'In-house design team for OEM & ODM projects',

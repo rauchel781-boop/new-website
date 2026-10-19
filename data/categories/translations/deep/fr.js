@@ -7,7 +7,7 @@
 export default {
   "walnut": {
     "seoTitle": "Boîtes en bois de noyer — Grossiste et fabricant OEM sur mesure | CHIC",
-    "seoDescription": "Boîtes en bois de noyer sur mesure en gros — boîtes pour montres, bijoux et cadeaux en noyer noir américain. MOQ 300, gravure laser, FSC et CARB P2. FOB Xiamen, expédition vers UE/US/UK/CA.",
+    "seoDescription": "Boîtes en bois de noyer sur mesure en gros — boîtes pour montres, bijoux et cadeaux en noyer noir américain. MOQ 200, gravure laser, FSC et CARB P2. FOB Xiamen, expédition vers UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guide d’achat B2B",
       "title": "Acheter des boîtes en bois de noyer en gros : un guide pour acheteurs B2B",
@@ -45,7 +45,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personnalisation est là où un programme en gros de noyer se distingue du produit de catalogue. Sur les commandes OEM (MOQ 300 pièces par design, 100 pièces sur une première commande d’essai) la gravure laser est la méthode de branding la plus nette sur le noyer — le grain dense retient des détails précis à pleine profondeur ou au dixième de millimètre, et le bois sombre offre un fort contraste sans aucune encre. La dorure à chaud et la marqueterie de laiton couvrent la tranche retail or et métallisée ; le débossage et la sérigraphie sont disponibles pour les séries de logo. Au-delà du branding, le noyer accepte toute la gamme de quincaillerie : [charnières soft-close dissimulées](/products/hinged) pour les coffrets de bijoux et de montres, un [aimant néodyme dissimulé](/products/magnetic) pour le clic premium net, ou une [serrure en laiton à clé ou cam-lock](/products/with-lock) pour objets de valeur et documents. Les intérieurs sont fabriqués sur mesure — mousse découpée CNC, plateaux gainés de velours ou de microfibre, coussins de montres, logements pour bagues — et les dimensions sont illimitées, d’une petite boîte à bagues à un coffret multi-montres, le tout à partir du même schéma de construction."
+          "text": "La personnalisation est là où un programme en gros de noyer se distingue du produit de catalogue. Sur les commandes OEM (MOQ 200 pièces par design, 200 pièces sur une première commande d’essai) la gravure laser est la méthode de branding la plus nette sur le noyer — le grain dense retient des détails précis à pleine profondeur ou au dixième de millimètre, et le bois sombre offre un fort contraste sans aucune encre. La dorure à chaud et la marqueterie de laiton couvrent la tranche retail or et métallisée ; le débossage et la sérigraphie sont disponibles pour les séries de logo. Au-delà du branding, le noyer accepte toute la gamme de quincaillerie : [charnières soft-close dissimulées](/products/hinged) pour les coffrets de bijoux et de montres, un [aimant néodyme dissimulé](/products/magnetic) pour le clic premium net, ou une [serrure en laiton à clé ou cam-lock](/products/with-lock) pour objets de valeur et documents. Les intérieurs sont fabriqués sur mesure — mousse découpée CNC, plateaux gainés de velours ou de microfibre, coussins de montres, logements pour bagues — et les dimensions sont illimitées, d’une petite boîte à bagues à un coffret multi-montres, le tout à partir du même schéma de construction."
         },
         {
           "type": "p",
@@ -65,7 +65,7 @@ export default {
   },
   "bamboo": {
     "seoTitle": "Boîtes en bambou — Grossiste durable et fabricant OEM sur mesure | CHIC",
-    "seoDescription": "Boîtes en bambou sur mesure en gros — certifiées FSC, naturellement antibactériennes, contact alimentaire. Emballage thé, cuisine et éco-cadeau. MOQ 300, gravure laser. FOB Xiamen, expédition vers UE/US/UK/CA.",
+    "seoDescription": "Boîtes en bambou sur mesure en gros — certifiées FSC, naturellement antibactériennes, contact alimentaire. Emballage thé, cuisine et éco-cadeau. MOQ 200, gravure laser. FOB Xiamen, expédition vers UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guide d’achat B2B",
       "title": "Acheter des boîtes en bambou en gros : le guide B2B pour acheteurs durabilité",
@@ -103,7 +103,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personnalisation d’une commande en gros de bambou (MOQ 300 pièces par design, 100 sur une première commande d’essai) commence par la finition : la laque à l’eau contact alimentaire, conforme à EU EC 1935/2004 et US FDA 21 CFR 175.300, est standard pour toute boîte en bambou contenant des aliments, du thé, du café ou des ustensiles de cuisine, tandis qu’une finition brute ou à l’huile naturelle est disponible pour les acheteurs qui veulent le matériau nu. La gravure laser se pose nette sur le grain uniforme du bambou et offre un fort contraste sans encre — le branding le plus net pour une SKU éco qui veut éviter les étiquettes imprimées. Au-delà du branding, la construction accepte toute la gamme de détails : séparateurs de compartiments modulaires (configurations à 4/6/8/9 logements pour programmes thé et capsules), couvercles à fenêtre acrylique pour la visibilité en rayon et toute fermeture — magnétique, à charnière ou le [couvercle coulissant](/products/sliding-lid) entièrement recyclable qui maintient la boîte monomatériau pour les allégations de recyclage en fin de vie."
+          "text": "La personnalisation d’une commande en gros de bambou (MOQ 200 pièces par design, 200 sur une première commande d’essai) commence par la finition : la laque à l’eau contact alimentaire, conforme à EU EC 1935/2004 et US FDA 21 CFR 175.300, est standard pour toute boîte en bambou contenant des aliments, du thé, du café ou des ustensiles de cuisine, tandis qu’une finition brute ou à l’huile naturelle est disponible pour les acheteurs qui veulent le matériau nu. La gravure laser se pose nette sur le grain uniforme du bambou et offre un fort contraste sans encre — le branding le plus net pour une SKU éco qui veut éviter les étiquettes imprimées. Au-delà du branding, la construction accepte toute la gamme de détails : séparateurs de compartiments modulaires (configurations à 4/6/8/9 logements pour programmes thé et capsules), couvercles à fenêtre acrylique pour la visibilité en rayon et toute fermeture — magnétique, à charnière ou le [couvercle coulissant](/products/sliding-lid) entièrement recyclable qui maintient la boîte monomatériau pour les allégations de recyclage en fin de vie."
         },
         {
           "type": "p",
@@ -123,7 +123,7 @@ export default {
   },
   "pine": {
     "seoTitle": "Boîtes en bois de pin — Grossiste et fabricant OEM sur mesure | CHIC",
-    "seoDescription": "Boîtes en bois de pin sur mesure en gros — pin sylvestre et radiata économique pour vin, jardin, caisses et emballage cadeau rustique. MOQ 300, branding pyrogravé et laser. FOB Xiamen, expédition vers UE/US/UK/CA.",
+    "seoDescription": "Boîtes en bois de pin sur mesure en gros — pin sylvestre et radiata économique pour vin, jardin, caisses et emballage cadeau rustique. MOQ 200, branding pyrogravé et laser. FOB Xiamen, expédition vers UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guide d’achat B2B",
       "title": "Acheter des boîtes en bois de pin en gros : le guide B2B du coût unitaire",
@@ -161,7 +161,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personnalisation d’une commande en gros de pin (MOQ 300 pièces par design, 100 sur une première commande d’essai) commence par la finition, car le pin brut est une toile vierge : laque extérieure résistante aux UV pour usage extérieur et jardin, laque intérieure contact alimentaire pour boîtes de pique-nique et de garde-manger, ou finitions à l’huile naturelle et brûlées pour le look rustique. Le branding est là où le pin surpasse sa gamme de prix — branding traditionnel pyrogravé pour la marque vintage brûlée, gravure laser pour des détails nets et sérigraphie ou dorure à chaud pour les logos retail. La construction accepte toute la gamme de quincaillerie : poignées en corde et cuir, [charnières en laiton et acier](/products/hinged), fermoirs et inserts en mousse ou séparateurs pour bouteilles et outils. Les dimensions sont illimitées, d’une boîte à vin une bouteille à une grande caisse à outils de jardin, le tout dans le même bois tendre."
+          "text": "La personnalisation d’une commande en gros de pin (MOQ 200 pièces par design, 200 sur une première commande d’essai) commence par la finition, car le pin brut est une toile vierge : laque extérieure résistante aux UV pour usage extérieur et jardin, laque intérieure contact alimentaire pour boîtes de pique-nique et de garde-manger, ou finitions à l’huile naturelle et brûlées pour le look rustique. Le branding est là où le pin surpasse sa gamme de prix — branding traditionnel pyrogravé pour la marque vintage brûlée, gravure laser pour des détails nets et sérigraphie ou dorure à chaud pour les logos retail. La construction accepte toute la gamme de quincaillerie : poignées en corde et cuir, [charnières en laiton et acier](/products/hinged), fermoirs et inserts en mousse ou séparateurs pour bouteilles et outils. Les dimensions sont illimitées, d’une boîte à vin une bouteille à une grande caisse à outils de jardin, le tout dans le même bois tendre."
         },
         {
           "type": "p",
@@ -181,7 +181,7 @@ export default {
   },
   "paulownia": {
     "seoTitle": "Boîtes en bois de paulownia — Grossiste léger et fabricant OEM | CHIC",
-    "seoDescription": "Boîtes en bois de paulownia sur mesure en gros — le bois le plus léger pour l’emballage cadeau et abonnement à fort volume et faible coût de transport. Stable, gravure laser nette. MOQ 300, FOB Xiamen, expédition vers UE/US/UK/CA.",
+    "seoDescription": "Boîtes en bois de paulownia sur mesure en gros — le bois le plus léger pour l’emballage cadeau et abonnement à fort volume et faible coût de transport. Stable, gravure laser nette. MOQ 200, FOB Xiamen, expédition vers UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guide d’achat B2B",
       "title": "Acheter des boîtes en bois de paulownia en gros : le guide B2B de l’économie de transport",
@@ -219,7 +219,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personnalisation d’une commande en gros de paulownia (MOQ 300 pièces par design, 100 sur une première commande d’essai) joue sur les forces du matériau. La surface crème pâle est une toile vierge : teinter dans toute teinte de bois, peindre dans une couleur de marque, laquer mat ou brillant, ou laisser brut pour un look naturel. La gravure laser est la méthode de branding phare — le grain uniforme du paulownia accepte des travaux de logo et de motifs détaillés aussi nets que toute essence que nous travaillons, à pleine profondeur ou au dixième de millimètre. Dorure à chaud, sérigraphie et débossage couvrent les tranches retail et pleine couleur. La construction accepte toute la gamme : toute fermeture y compris le [couvercle coulissant](/products/sliding-lid) empilable à plat et économique au transport, inserts en mousse et séparateurs, rubans de tirage et compartiments — et comme le matériau de base est si léger, même une grande boîte multi-compartiments reste économique à expédier."
+          "text": "La personnalisation d’une commande en gros de paulownia (MOQ 200 pièces par design, 200 sur une première commande d’essai) joue sur les forces du matériau. La surface crème pâle est une toile vierge : teinter dans toute teinte de bois, peindre dans une couleur de marque, laquer mat ou brillant, ou laisser brut pour un look naturel. La gravure laser est la méthode de branding phare — le grain uniforme du paulownia accepte des travaux de logo et de motifs détaillés aussi nets que toute essence que nous travaillons, à pleine profondeur ou au dixième de millimètre. Dorure à chaud, sérigraphie et débossage couvrent les tranches retail et pleine couleur. La construction accepte toute la gamme : toute fermeture y compris le [couvercle coulissant](/products/sliding-lid) empilable à plat et économique au transport, inserts en mousse et séparateurs, rubans de tirage et compartiments — et comme le matériau de base est si léger, même une grande boîte multi-compartiments reste économique à expédier."
         },
         {
           "type": "p",
@@ -239,7 +239,7 @@ export default {
   },
   "acacia": {
     "seoTitle": "Boîtes en bois d’acacia — Grossiste et fabricant OEM sur mesure | CHIC",
-    "seoDescription": "Boîtes en bois d’acacia sur mesure en gros — bois dur au grain spectaculaire pour ustensiles de cuisine, charcuterie, boîtes de service et cadeau premium. Janka 2300+, contact alimentaire, hydrofuge. MOQ 300, FOB Xiamen, expédition vers UE/US/UK/CA.",
+    "seoDescription": "Boîtes en bois d’acacia sur mesure en gros — bois dur au grain spectaculaire pour ustensiles de cuisine, charcuterie, boîtes de service et cadeau premium. Janka 2300+, contact alimentaire, hydrofuge. MOQ 200, FOB Xiamen, expédition vers UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guide d’achat B2B",
       "title": "Acheter des boîtes en bois d’acacia en gros : le guide B2B pour acheteurs d’ustensiles de cuisine",
@@ -277,7 +277,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personnalisation d’une commande en gros d’acacia (MOQ 300 pièces par design, 100 sur une première commande d’essai) commence par la finition, car le grain de l’acacia la récompense : huile contact alimentaire et cire d’abeille rehaussent le motif miel-chocolat pour les ustensiles de cuisine (conforme à EU EC 1935/2004 et US FDA 21 CFR 175.300 là où le contact alimentaire s’applique), ou laque pour une surface scellée et durable. La gravure laser se pose nette et le motif sombre offre un contraste naturel ; dorure à chaud et débossage couvrent la tranche cadeau premium. La construction accepte toute la gamme : [charnières dissimulées et soft-close](/products/hinged) pour boîtes de service et cadeau, un [aimant néodyme dissimulé](/products/magnetic) pour la fermeture premium nette, séparateurs de compartiments et inserts en mousse découpés CNC, et quincaillerie en acier inoxydable ou laiton pour les constructions de cuisine. Les dimensions sont illimitées, d’une petite salière à une grande boîte de présentation de charcuterie."
+          "text": "La personnalisation d’une commande en gros d’acacia (MOQ 200 pièces par design, 200 sur une première commande d’essai) commence par la finition, car le grain de l’acacia la récompense : huile contact alimentaire et cire d’abeille rehaussent le motif miel-chocolat pour les ustensiles de cuisine (conforme à EU EC 1935/2004 et US FDA 21 CFR 175.300 là où le contact alimentaire s’applique), ou laque pour une surface scellée et durable. La gravure laser se pose nette et le motif sombre offre un contraste naturel ; dorure à chaud et débossage couvrent la tranche cadeau premium. La construction accepte toute la gamme : [charnières dissimulées et soft-close](/products/hinged) pour boîtes de service et cadeau, un [aimant néodyme dissimulé](/products/magnetic) pour la fermeture premium nette, séparateurs de compartiments et inserts en mousse découpés CNC, et quincaillerie en acier inoxydable ou laiton pour les constructions de cuisine. Les dimensions sont illimitées, d’une petite salière à une grande boîte de présentation de charcuterie."
         },
         {
           "type": "p",
@@ -297,14 +297,14 @@ export default {
   },
   "gift-packaging": {
     "seoTitle": "Boîtes cadeaux et d’emballage en bois — Grossiste et fabricant OEM | CHIC",
-    "seoDescription": "Boîtes cadeaux et d’emballage en bois sur mesure en gros — magnétiques, à charnière et coulissantes, branding débossé, inserts mousse/velours. MOQ 300, volumes jusqu’à 100 000+. FOB Xiamen, expédition vers UE/US/UK/CA.",
+    "seoDescription": "Boîtes cadeaux et d’emballage en bois sur mesure en gros — magnétiques, à charnière et coulissantes, branding débossé, inserts mousse/velours. MOQ 200, volumes jusqu’à 200 000+. FOB Xiamen, expédition vers UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guide d’achat B2B",
       "title": "Acheter des boîtes cadeaux en bois en gros : un guide B2B de l’emballage",
       "blocks": [
         {
           "type": "p",
-          "text": "Une boîte cadeau en bois est la décision d’emballage qui transforme un produit en moment d’unboxing — et pour les acheteurs B2B, ce moment est mesurable : il alimente la vidéo d’unboxing, le rachat et la valeur perçue qui permet à une marque de tenir son prix. Nous fournissons des boîtes cadeaux et d’emballage en bois en gros à des marques qui lancent une nouvelle SKU, à des agences qui construisent des programmes de cadeaux d’affaires et à des importateurs qui approvisionnent les détaillants en emballage prêt pour le rayon, en volumes allant d’échantillons de 100 pièces à des commandes de production de plus de 100 000 pièces avec finition, ajustement et toucher constants sur chaque lot. Les trois décisions qui pilotent un programme de boîtes cadeaux sont la fermeture, le matériau et le branding — notre [guide des matériaux](/material-guide) compare les essences, tandis que cette page couvre comment les acheteurs en gros spécifient réellement le reste."
+          "text": "Une boîte cadeau en bois est la décision d’emballage qui transforme un produit en moment d’unboxing — et pour les acheteurs B2B, ce moment est mesurable : il alimente la vidéo d’unboxing, le rachat et la valeur perçue qui permet à une marque de tenir son prix. Nous fournissons des boîtes cadeaux et d’emballage en bois en gros à des marques qui lancent une nouvelle SKU, à des agences qui construisent des programmes de cadeaux d’affaires et à des importateurs qui approvisionnent les détaillants en emballage prêt pour le rayon, en volumes allant d’échantillons de 200 pièces à des commandes de production de plus de 200 000 pièces avec finition, ajustement et toucher constants sur chaque lot. Les trois décisions qui pilotent un programme de boîtes cadeaux sont la fermeture, le matériau et le branding — notre [guide des matériaux](/material-guide) compare les essences, tandis que cette page couvre comment les acheteurs en gros spécifient réellement le reste."
         },
         {
           "type": "img",
@@ -326,7 +326,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les acheteurs en gros à qui nous expédions le plus souvent des boîtes cadeaux en bois se répartissent en cinq groupes. **Les marques de produit et lancements de nouvelles SKU** utilisent des boîtes cadeaux brandées comme emballage primaire — la boîte qui tient le produit en rayon et dans la vidéo d’unboxing. **Les programmes de cadeaux d’affaires et promotionnels** produisent des boîtes gravées en 200–1 000 pièces pour les cadeaux clients et employés, confortablement au-dessus du seuil MOQ 300. **Les marques de boîtes d’abonnement** utilisent des boîtes en bois comme insert à conserver qui transforme un colis en cadeau et alimente le rachat. **Les programmes retail et prêts pour le rayon** nécessitent des boîtes individuelles, blisters ou cartons maîtres codés-barres pour la distribution. Et **les marques beauté, bijouterie et grand public premium** ([voir la gamme montres et bijoux](/products/watch-jewelry)) utilisent des boîtes cadeaux doublées de feutre avec inserts mousse ou velours pour les pièces de présentation. Le moteur de réassort dans les cinq cas est la constance de lot — finition, ajustement et correspondance des couleurs d’un trimestre à l’autre."
+          "text": "Les acheteurs en gros à qui nous expédions le plus souvent des boîtes cadeaux en bois se répartissent en cinq groupes. **Les marques de produit et lancements de nouvelles SKU** utilisent des boîtes cadeaux brandées comme emballage primaire — la boîte qui tient le produit en rayon et dans la vidéo d’unboxing. **Les programmes de cadeaux d’affaires et promotionnels** produisent des boîtes gravées en 200–1 000 pièces pour les cadeaux clients et employés, confortablement au-dessus du seuil MOQ 200. **Les marques de boîtes d’abonnement** utilisent des boîtes en bois comme insert à conserver qui transforme un colis en cadeau et alimente le rachat. **Les programmes retail et prêts pour le rayon** nécessitent des boîtes individuelles, blisters ou cartons maîtres codés-barres pour la distribution. Et **les marques beauté, bijouterie et grand public premium** ([voir la gamme montres et bijoux](/products/watch-jewelry)) utilisent des boîtes cadeaux doublées de feutre avec inserts mousse ou velours pour les pièces de présentation. Le moteur de réassort dans les cinq cas est la constance de lot — finition, ajustement et correspondance des couleurs d’un trimestre à l’autre."
         },
         {
           "type": "img",
@@ -335,7 +335,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personnalisation est tout l’intérêt d’un programme en gros de boîtes cadeaux (MOQ 300 pièces par design, 100 sur une première commande d’essai). Le branding utilise toute la gamme : gravure laser pour des marques nettes sans encre, débossage pour un logo pressé tactile, dorure à chaud pour des finitions retail or et métallisées, sérigraphie pour des logos d’une à six couleurs et impression UV pleine couleur pour des visuels photographiques. Les intérieurs sont fabriqués sur mesure — mousse découpée CNC, plateaux gainés de velours, pulpe moulée pour les programmes éco, ou rubans de tirage et séparateurs. Les finitions couvrent laque mate et brillante, huilée, peinte et brute. Les dimensions sont illimitées, d’une boîte échantillon de 80 × 60 × 30 mm à un coffret de présentation de 600 × 400 × 200 mm, et un seul programme peut mélanger fermetures et inserts entre les SKU. Ici la boîte cesse d’être un emballage et devient partie du produit."
+          "text": "La personnalisation est tout l’intérêt d’un programme en gros de boîtes cadeaux (MOQ 200 pièces par design, 200 sur une première commande d’essai). Le branding utilise toute la gamme : gravure laser pour des marques nettes sans encre, débossage pour un logo pressé tactile, dorure à chaud pour des finitions retail or et métallisées, sérigraphie pour des logos d’une à six couleurs et impression UV pleine couleur pour des visuels photographiques. Les intérieurs sont fabriqués sur mesure — mousse découpée CNC, plateaux gainés de velours, pulpe moulée pour les programmes éco, ou rubans de tirage et séparateurs. Les finitions couvrent laque mate et brillante, huilée, peinte et brute. Les dimensions sont illimitées, d’une boîte échantillon de 80 × 60 × 30 mm à un coffret de présentation de 600 × 400 × 200 mm, et un seul programme peut mélanger fermetures et inserts entre les SKU. Ici la boîte cesse d’être un emballage et devient partie du produit."
         },
         {
           "type": "p",
@@ -355,7 +355,7 @@ export default {
   },
   "tea-coffee": {
     "seoTitle": "Boîtes en bois pour thé et café — Grossiste et fabricant OEM | CHIC",
-    "seoDescription": "Boîtes en bois pour café et thé sur mesure en gros — compartimentées pour capsules et sachets, fenêtre acrylique, finition contact alimentaire. MOQ 300, gravure laser. FOB Xiamen, expédition vers UE/US/UK/CA.",
+    "seoDescription": "Boîtes en bois pour café et thé sur mesure en gros — compartimentées pour capsules et sachets, fenêtre acrylique, finition contact alimentaire. MOQ 200, gravure laser. FOB Xiamen, expédition vers UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guide d’achat B2B",
       "title": "Acheter des boîtes en bois pour café en gros : une checklist pour acheteurs B2B",
@@ -371,7 +371,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La profondeur de compartiment est là où la plupart des importateurs de boîtes en bois pour thé de série déçoivent leurs clients en gros lorsque le canal café en capsules réapprovisionne la SKU. Un intérieur générique de 30 à 40 mm accueille un sachet de thé mais est trop peu profond pour tout format de capsule moderne — Nespresso OriginalLine fait 37 mm, K-Cup 62 mm, Nespresso Vertuo 53 mm, Lavazza A Modo Mio 53 mm. Les boîtes en bois pour café sur mesure de ce catalogue sont livrées avec 60 à 72 mm de profondeur intérieure de série, assez longues pour la capsule grand public la plus profonde, et sur les grosses commandes personnalisées (MOQ 300 pièces par design) nous divisons régulièrement les compartiments de façon asymétrique — par exemple quatre grands logements à capsules plus une rangée basse sucre/biscotti — pour les comptes minibar d’hôtel et les programmes de garde-manger de bureau d’entreprise. Les couvercles à fenêtre acrylique permettent au personnel de votre client final de voir le niveau sans ouvrir chaque boîte, ce qui compte dans les environnements hôteliers à fort débit et est un moteur de réassort récurrent pour les comptes B2B."
+          "text": "La profondeur de compartiment est là où la plupart des importateurs de boîtes en bois pour thé de série déçoivent leurs clients en gros lorsque le canal café en capsules réapprovisionne la SKU. Un intérieur générique de 30 à 40 mm accueille un sachet de thé mais est trop peu profond pour tout format de capsule moderne — Nespresso OriginalLine fait 37 mm, K-Cup 62 mm, Nespresso Vertuo 53 mm, Lavazza A Modo Mio 53 mm. Les boîtes en bois pour café sur mesure de ce catalogue sont livrées avec 60 à 72 mm de profondeur intérieure de série, assez longues pour la capsule grand public la plus profonde, et sur les grosses commandes personnalisées (MOQ 200 pièces par design) nous divisons régulièrement les compartiments de façon asymétrique — par exemple quatre grands logements à capsules plus une rangée basse sucre/biscotti — pour les comptes minibar d’hôtel et les programmes de garde-manger de bureau d’entreprise. Les couvercles à fenêtre acrylique permettent au personnel de votre client final de voir le niveau sans ouvrir chaque boîte, ce qui compte dans les environnements hôteliers à fort débit et est un moteur de réassort récurrent pour les comptes B2B."
         },
         {
           "type": "img",
@@ -380,7 +380,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Côté gros, les acheteurs B2B à qui nous expédions le plus souvent des boîtes en bois pour café sur mesure se répartissent en quatre catégories. Les marques de café par abonnement en marque blanche ont besoin d’une finition de lot constante et d’une gravure brandée sur des séries de 1 000 à 5 000 pièces — la relation avec le fabricant repose sur la constance de la teinte d’un trimestre à l’autre. Les programmes de cadeaux d’affaires sont plus petits — 200 à 500 pièces avec logo gravé sur le couvercle, confortablement au-dessus de notre seuil MOQ 300 pour les commandes OEM. Les opérateurs d’hôtellerie et de courts séjours spécifient une laque lavable contact alimentaire et une fermeture magnétique ou à charnière pour un service de couverture silencieux. Les cafés de spécialité regroupent sachets de grains et accessoires pour clients à domicile et ont besoin de cartons prêts pour le rayon avec codes-barres. La décision de fermeture est essentiellement esthétique — les [boîtes à couvercle coulissant](/products/sliding-lid) sont les plus traditionnelles et adaptées au cadeau, la [fermeture magnétique](/products/magnetic) est le toucher le plus moderne et le choix à plus forte valeur perçue pour les tranches en gros premium, et la charnière se situe au milieu pour l’usage retail quotidien."
+          "text": "Côté gros, les acheteurs B2B à qui nous expédions le plus souvent des boîtes en bois pour café sur mesure se répartissent en quatre catégories. Les marques de café par abonnement en marque blanche ont besoin d’une finition de lot constante et d’une gravure brandée sur des séries de 1 000 à 5 000 pièces — la relation avec le fabricant repose sur la constance de la teinte d’un trimestre à l’autre. Les programmes de cadeaux d’affaires sont plus petits — 200 à 500 pièces avec logo gravé sur le couvercle, confortablement au-dessus de notre seuil MOQ 200 pour les commandes OEM. Les opérateurs d’hôtellerie et de courts séjours spécifient une laque lavable contact alimentaire et une fermeture magnétique ou à charnière pour un service de couverture silencieux. Les cafés de spécialité regroupent sachets de grains et accessoires pour clients à domicile et ont besoin de cartons prêts pour le rayon avec codes-barres. La décision de fermeture est essentiellement esthétique — les [boîtes à couvercle coulissant](/products/sliding-lid) sont les plus traditionnelles et adaptées au cadeau, la [fermeture magnétique](/products/magnetic) est le toucher le plus moderne et le choix à plus forte valeur perçue pour les tranches en gros premium, et la charnière se situe au milieu pour l’usage retail quotidien."
         },
         {
           "type": "p",
@@ -391,7 +391,7 @@ export default {
   },
   "wine-whisky": {
     "seoTitle": "Boîtes en bois pour vin et whisky — Grossiste et fabricant OEM | CHIC",
-    "seoDescription": "Boîtes en bois pour vin et whisky sur mesure en gros — d’une bouteille au magnum, berceaux mousse, des caisses en pin à la présentation en noyer. MOQ 300, branding laser et pyrogravé. FOB Xiamen, expédition vers UE/US/UK/CA.",
+    "seoDescription": "Boîtes en bois pour vin et whisky sur mesure en gros — d’une bouteille au magnum, berceaux mousse, des caisses en pin à la présentation en noyer. MOQ 200, branding laser et pyrogravé. FOB Xiamen, expédition vers UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guide d’achat B2B",
       "title": "Acheter des boîtes en bois pour vin et whisky en gros : un guide pour acheteurs B2B",
@@ -429,7 +429,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personnalisation d’une commande en gros de boîtes pour vin et whisky (MOQ 300 pièces par design, 100 sur une première commande d’essai) tourne autour de deux choses : l’ajustement de la bouteille et le branding. Les berceaux en mousse sont découpés CNC au profil exact de la bouteille et des accessoires en EVA noir ou brandé, ainsi une configuration pour 1, 2, 3 ou 6 bouteilles (magnum sur demande) maintient tout sans vibration. Le branding va du pyrogravage traditionnel pour la marque vintage brûlée — que le pin accepte mieux que tout bois dur — à la gravure laser, l’estampage à chaud du millésime et de l’étiquette, jusqu’à la sérigraphie. Les options de construction incluent poignées en corde, cuir et encastrées, loquets et charnières en laiton, porte-verres et porte-carafes, et plateaux à accessoires pour tire-bouchons et becs verseurs. Les finitions couvrent brûlée, huilée, laquée et vernie. Les dimensions sont illimitées, d’une fine boîte une bouteille à une caisse de présentation magnum six bouteilles."
+          "text": "La personnalisation d’une commande en gros de boîtes pour vin et whisky (MOQ 200 pièces par design, 200 sur une première commande d’essai) tourne autour de deux choses : l’ajustement de la bouteille et le branding. Les berceaux en mousse sont découpés CNC au profil exact de la bouteille et des accessoires en EVA noir ou brandé, ainsi une configuration pour 1, 2, 3 ou 6 bouteilles (magnum sur demande) maintient tout sans vibration. Le branding va du pyrogravage traditionnel pour la marque vintage brûlée — que le pin accepte mieux que tout bois dur — à la gravure laser, l’estampage à chaud du millésime et de l’étiquette, jusqu’à la sérigraphie. Les options de construction incluent poignées en corde, cuir et encastrées, loquets et charnières en laiton, porte-verres et porte-carafes, et plateaux à accessoires pour tire-bouchons et becs verseurs. Les finitions couvrent brûlée, huilée, laquée et vernie. Les dimensions sont illimitées, d’une fine boîte une bouteille à une caisse de présentation magnum six bouteilles."
         },
         {
           "type": "img",
@@ -445,7 +445,7 @@ export default {
   },
   "sliding-lid": {
     "seoTitle": "Boîtes en bois à couvercle coulissant — Grossiste et fabricant OEM | CHIC",
-    "seoDescription": "Boîtes en bois à couvercle coulissant sur mesure en gros — pin, noyer, bambou, paulownia. OEM sur mesure, MOQ 300, gravure laser, FSC et contact alimentaire. FOB Xiamen, expédition vers UE/US/UK/CA.",
+    "seoDescription": "Boîtes en bois à couvercle coulissant sur mesure en gros — pin, noyer, bambou, paulownia. OEM sur mesure, MOQ 200, gravure laser, FSC et contact alimentaire. FOB Xiamen, expédition vers UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guide d’achat B2B",
       "title": "Boîtes en bois à couvercle coulissant en gros : comment les acheteurs B2B évaluent un fournisseur",
@@ -474,7 +474,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les acheteurs en gros à qui nous expédions le plus souvent des boîtes en bois à couvercle coulissant relèvent de six groupes d’application. **L’emballage cadeau pour cigares** est le segment à plus forte valeur — boîtes en bois à couvercle coulissant pour cigares doublées de cèdre espagnol pour les marques de tabac, distillateurs et maisons de spiritueux avec éditions limitées (tailles de 5 cigares à 25 façon humidor). **L’emballage pour cadeaux de mariage et événements** pilote le volume — boîtes en bois à couvercle coulissant gravées pour les cadeaux aux invités, avec des surfaces de couvercle adaptées à la personnalisation et des tranches de MOQ adaptées aux événements de 200 à 500 pièces. **Kits créatifs et jouets éducatifs** misent sur des boîtes en bois à couvercle coulissant brutes — les exportateurs les vendent à des détaillants qui les peignent, décorent et revendent comme produit DIY. **Thé et café premium** ([voir la gamme boîtes thé/café](/products/tea-coffee)) utilise des boîtes en bois à couvercle coulissant avec séparateurs de compartiments et couvercles à fenêtre acrylique pour la visibilité retail. **Les SKU bijoux, petits objets et souvenir** utilisent des boîtes en bois à couvercle coulissant doublées de feutre pour des pièces de présentation abordables qui se situent sous la tranche de prix des boîtes à charnière. Et **les marques de boîtes d’abonnement** expédient des boîtes en bois à couvercle coulissant comme insert structurel qui transforme une pochette carton en souvenir — mécanique de rachat intégrée à l’unboxing."
+          "text": "Les acheteurs en gros à qui nous expédions le plus souvent des boîtes en bois à couvercle coulissant relèvent de six groupes d’application. **L’emballage cadeau pour cigares** est le segment à plus forte valeur — boîtes en bois à couvercle coulissant pour cigares doublées de cèdre espagnol pour les marques de tabac, distillateurs et maisons de spiritueux avec éditions limitées (tailles de 5 cigares à 25 façon humidor). **L’emballage pour cadeaux de mariage et événements** pilote le volume — boîtes en bois à couvercle coulissant gravées pour les cadeaux aux invités, avec des surfaces de couvercle adaptées à la personnalisation et des tranches de MOQ adaptées aux événements de 200 pièces. **Kits créatifs et jouets éducatifs** misent sur des boîtes en bois à couvercle coulissant brutes — les exportateurs les vendent à des détaillants qui les peignent, décorent et revendent comme produit DIY. **Thé et café premium** ([voir la gamme boîtes thé/café](/products/tea-coffee)) utilise des boîtes en bois à couvercle coulissant avec séparateurs de compartiments et couvercles à fenêtre acrylique pour la visibilité retail. **Les SKU bijoux, petits objets et souvenir** utilisent des boîtes en bois à couvercle coulissant doublées de feutre pour des pièces de présentation abordables qui se situent sous la tranche de prix des boîtes à charnière. Et **les marques de boîtes d’abonnement** expédient des boîtes en bois à couvercle coulissant comme insert structurel qui transforme une pochette carton en souvenir — mécanique de rachat intégrée à l’unboxing."
         },
         {
           "type": "img",
@@ -483,7 +483,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personnalisation est là où le programme en gros de boîtes en bois à couvercle coulissant se sépare du produit de catalogue de série. Sur les commandes OEM (MOQ 300 pièces par design), le couvercle est la plus grande surface brandable de toute construction de boîte en bois — la gravure laser se pose nette sur le noyer, le pin et le paulownia à pleine profondeur ou au dixième de millimètre ; la dorure à chaud fonctionne pour les boîtes brandées de tranche retail où la spécification nécessite une finition or ou métallisée ; sérigraphie et impression UV couvrent les logos pleine couleur pour les séries promotionnelles et de cadeaux d’affaires. Au-delà du couvercle, la construction elle-même accepte le travail de détail : une prise pour les doigts fraisée sur le bord avant pour l’ouverture à une main, une languette en laiton incrustée pour les tranches premium, une fenêtre acrylique découpée dans le couvercle pour la visibilité (appréciée des programmes thé et kits créatifs), une doublure feutre ou velours pour les SKU bijoux, et un aimant dissimulé monté en coin qui convertit un couvercle coulissant en mécanisme push-to-eject pour les boîtes cadeaux premium en marque blanche. Les dimensions des boîtes en bois à couvercle coulissant sur mesure sont illimitées — nous avons construit de boîtes à boucles d’oreilles de 60 × 40 × 15 mm à des boîtes de présentation de sommelier de 400 × 300 × 100 mm à partir du même schéma de construction."
+          "text": "La personnalisation est là où le programme en gros de boîtes en bois à couvercle coulissant se sépare du produit de catalogue de série. Sur les commandes OEM (MOQ 200 pièces par design), le couvercle est la plus grande surface brandable de toute construction de boîte en bois — la gravure laser se pose nette sur le noyer, le pin et le paulownia à pleine profondeur ou au dixième de millimètre ; la dorure à chaud fonctionne pour les boîtes brandées de tranche retail où la spécification nécessite une finition or ou métallisée ; sérigraphie et impression UV couvrent les logos pleine couleur pour les séries promotionnelles et de cadeaux d’affaires. Au-delà du couvercle, la construction elle-même accepte le travail de détail : une prise pour les doigts fraisée sur le bord avant pour l’ouverture à une main, une languette en laiton incrustée pour les tranches premium, une fenêtre acrylique découpée dans le couvercle pour la visibilité (appréciée des programmes thé et kits créatifs), une doublure feutre ou velours pour les SKU bijoux, et un aimant dissimulé monté en coin qui convertit un couvercle coulissant en mécanisme push-to-eject pour les boîtes cadeaux premium en marque blanche. Les dimensions des boîtes en bois à couvercle coulissant sur mesure sont illimitées — nous avons construit de boîtes à boucles d’oreilles de 60 × 40 × 15 mm à des boîtes de présentation de sommelier de 400 × 300 × 100 mm à partir du même schéma de construction."
         },
         {
           "type": "p",
@@ -503,7 +503,7 @@ export default {
   },
   "magnetic": {
     "seoTitle": "Boîtes en bois à fermeture magnétique — Grossiste et fabricant OEM | CHIC",
-    "seoDescription": "Boîtes en bois à fermeture magnétique sur mesure en gros — aimants néodyme dissimulés, extérieur net, clic premium. Emballage beauté, tech, abonnement et press kit. MOQ 300, FOB Xiamen, expédition vers UE/US/UK/CA.",
+    "seoDescription": "Boîtes en bois à fermeture magnétique sur mesure en gros — aimants néodyme dissimulés, extérieur net, clic premium. Emballage beauté, tech, abonnement et press kit. MOQ 200, FOB Xiamen, expédition vers UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guide d’achat B2B",
       "title": "Acheter des boîtes en bois à fermeture magnétique en gros : un guide pour acheteurs B2B",
@@ -541,7 +541,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personnalisation d’une commande en gros de boîtes magnétiques (MOQ 300 pièces par design, 100 sur une première commande d’essai) joue sur l’extérieur net. Comme rien n’interrompt la surface, le branding peut s’étendre bord à bord : impression UV pleine couleur et litho-laminé pour les visuels photographiques, dorure à chaud pour les logos métallisés, débossage pour une marque pressée tactile, sérigraphie et gravure laser. Un ruban de tirage est un ajout courant — il facilite l’ouverture et ajoute une touche de couleur de marque. Les intérieurs sont fabriqués sur mesure : mousse découpée CNC, plateaux gainés de velours, pulpe moulée pour les programmes éco, ou compartiments cloisonnés. Les options de bois et de placage couvrent le bois massif pour les tranches premium et le MDF plaqué pour les constructions imprimées à paroi fine. Les dimensions sont illimitées, d’une boîte format jeu de cartes à un grand coffret cadeau multi-pièces, toutes avec l’aimant calibré au couvercle spécifique."
+          "text": "La personnalisation d’une commande en gros de boîtes magnétiques (MOQ 200 pièces par design, 200 sur une première commande d’essai) joue sur l’extérieur net. Comme rien n’interrompt la surface, le branding peut s’étendre bord à bord : impression UV pleine couleur et litho-laminé pour les visuels photographiques, dorure à chaud pour les logos métallisés, débossage pour une marque pressée tactile, sérigraphie et gravure laser. Un ruban de tirage est un ajout courant — il facilite l’ouverture et ajoute une touche de couleur de marque. Les intérieurs sont fabriqués sur mesure : mousse découpée CNC, plateaux gainés de velours, pulpe moulée pour les programmes éco, ou compartiments cloisonnés. Les options de bois et de placage couvrent le bois massif pour les tranches premium et le MDF plaqué pour les constructions imprimées à paroi fine. Les dimensions sont illimitées, d’une boîte format jeu de cartes à un grand coffret cadeau multi-pièces, toutes avec l’aimant calibré au couvercle spécifique."
         },
         {
           "type": "img",

@@ -16,7 +16,7 @@ export const FAQS = {
       },
       {
         "q": "Qual è il MOQ per scatole regalo in legno personalizzate?",
-        "a": "Il MOQ standard è di 300-500 pezzi a seconda della complessità del design. Ordini di prova da 100 pezzi possono essere accettati per modelli semplici selezionati. Le unità del campione di pre-produzione (1-3 pcs) spediscono entro 7 giorni lavorativi per la vostra approvazione di progettazione."
+        "a": "Il nostro ordine minimo è di 200 pezzi per modello per gli ordini OEM e ODM. Inviaci le specifiche e la quantità desiderata per un preventivo. Le unità del campione di pre-produzione (1-3 pcs) spediscono entro 7 giorni lavorativi per la vostra approvazione di progettazione."
       },
       {
         "q": "In che modo gli inserti interni sono personalizzati per i set regalo?",
@@ -102,7 +102,7 @@ export const FAQS = {
       },
       {
         "q": "Qual è il lead time tipico e MOQ per le scatole di vino di marca personalizzata?",
-        "a": "Il MOQ standard è di 300-500 pezzi a seconda della complessità del design. Ordini di prova da 100 pezzi possono essere accettati per scatole semplici di dimensioni standard. Il lead time standard è di 30-35 giorni dopo l'approvazione dell'opera d'arte; la produzione di punta (20-25 giorni) è disponibile per una tassa di accelerazione."
+        "a": "Il nostro ordine minimo è di 200 pezzi per modello per gli ordini OEM e ODM. Inviaci le specifiche e la quantità desiderata per un preventivo. Il lead time standard è di 30-35 giorni dopo l'approvazione dell'opera d'arte; la produzione di punta (20-25 giorni) è disponibile per una tassa di accelerazione."
       }
     ],
     "sectionTitle": "FAQ-Scatole in legno di vino, whisky e alcolici",
@@ -176,7 +176,7 @@ export const FAQS = {
       },
       {
         "q": "Qual è il MOQ e il tempo di consegna per le scatole di immagazzinaggio personalizzate?",
-        "a": "Il MOQ standard è di 300-500 pezzi a seconda della complessità del design. Ordini di prova da 100 pezzi possono essere accettati per modelli semplici selezionati. Il tempo di piombo è di 30-35 giorni dopo la firma dell'opera d'arte; 7 giorni per le unità del campione. Il costo del campione è rimborsato contro l'ordine all'ingrosso."
+        "a": "Il nostro ordine minimo è di 200 pezzi per modello per gli ordini OEM e ODM. Inviaci le specifiche e la quantità desiderata per un preventivo. Il tempo di piombo è di 30-35 giorni dopo la firma dell'opera d'arte; 7 giorni per le unità del campione. Il costo del campione è rimborsato contro l'ordine all'ingrosso."
       },
       {
         "q": "Le scatole di immagazzinaggio sono impilabili?",

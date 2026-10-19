@@ -112,7 +112,7 @@ export const FAQS = {
       },
       {
         q: 'What is your minimum order quantity (MOQ)?',
-        a: 'MOQ depends on the box size, structure and customisation. Our standard MOQ is 300 pieces per design, with lower quantities sometimes possible for simpler boxes and higher minimums on larger or more complex ones. Share your design and target volume and we will confirm the exact MOQ for your project.',
+        a: "Our MOQ is 200 pieces per design for both OEM and ODM orders. Send your specifications and target quantity for a quote.",
       },
       {
         q: 'How long is the production lead time for a custom order?',

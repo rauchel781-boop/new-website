@@ -94,7 +94,7 @@ export const FAQS = {
       },
       {
         q: 'Quelle est votre quantité minimale de commande (MOQ) ?',
-        a: 'Notre MOQ standard est de 300 pièces par design, des quantités inférieures étant parfois possibles pour des boîtes plus simples et des minimums plus élevés pour des boîtes plus grandes ou complexes. Envoyez-nous votre design et le volume visé et nous confirmerons la MOQ exacte pour votre projet.',
+        a: "Notre quantité minimale est de 200 pièces par modèle pour les commandes OEM et ODM. Envoyez vos spécifications et la quantité souhaitée pour obtenir un devis.",
       },
       {
         q: 'Quel est le délai de production d’une commande sur mesure ?',

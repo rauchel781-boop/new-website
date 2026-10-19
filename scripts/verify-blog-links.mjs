@@ -14,7 +14,7 @@ for(const post of POSTS){
   assert.ok(links.length>=10&&links.length<=15,`${post.slug}: ${links.length} contextual internal links`);
   assert.equal(new Set(links).size,links.length,`${post.slug}: no repeated internal destinations`);
   assert.ok(markdownLinks([post.body[0]]).some(href=>href.startsWith('/')),'Opening paragraph includes a contextual link');
-  assert.equal(post.updated,'2026-10-17');
+  assert.match(post.updated,/^\d{4}-\d{2}-\d{2}$/);
   assert.ok(links.includes('/contact#inquiry'),`${post.slug}: inquiry link`);
   for(const href of links.filter(href=>href.startsWith('/blog/'))){
     const target=href.slice('/blog/'.length);assert.notEqual(target,post.slug);assert.ok(incoming.has(target),href);incoming.get(target).add(post.slug);
@@ -48,7 +48,7 @@ if(!process.argv.includes('--source-only')){
   for(const locale of locales)for(const post of POSTS){
     const url=`https://www.custom-woodenbox.com/${locale}/blog/${post.slug}`;
     const entry=entries.find(e=>e.includes(`<loc>${url}</loc>`));
-    assert.ok(entry?.includes('<lastmod>2026-10-17T00:00:00.000Z</lastmod>'),`Sitemap revision date: ${url}`);
+    assert.ok(entry?.includes(`<lastmod>${post.updated}T00:00:00.000Z</lastmod>`),`Sitemap revision date: ${url}`);
   }
   fs.mkdirSync('audits/seo-2026-10-17',{recursive:true});
   fs.writeFileSync('audits/seo-2026-10-17/second-batch-link-checks.json',JSON.stringify({articles:16,localizedArticles:128,renderedInternalLinks:total,sitemapRevisionEntries:128,summary},null,2));

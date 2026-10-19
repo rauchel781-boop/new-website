@@ -114,7 +114,7 @@ export const COPY = {
     titleB: 'à Escala Global',
     text: 'Com a nossa fábrica de 20.000 m² em Cao County, Shandong — o coração histórico da indústria chinesa de caixas de madeira — e o nosso escritório de vendas em Xiamen, Fujian, somos um fabricante dedicado de caixas de madeira ao serviço de retalhistas, marcas e importadores na Europa, América do Norte, Japão, Coreia e além.',
     features: [
-      'MOQ padrão 200–500 unidades — séries de amostra a partir de 100',
+      "MOQ: 200 peças",
       'Personalização completa: tamanho, acabamento, logo, inserto, ferragens',
       'Madeira certificada FSC e acabamentos ecológicos disponíveis',
       'Equipa de design interna para projetos OEM e ODM',

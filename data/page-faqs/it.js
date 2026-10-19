@@ -94,7 +94,7 @@ export const FAQS = {
       },
       {
         q: 'Qual è la vostra quantità minima d’ordine (MOQ)?',
-        a: 'La nostra MOQ standard è di 300 pezzi per design, con quantità inferiori talvolta possibili per scatole più semplici e minimi più alti per scatole più grandi o complesse. Inviaci il tuo design e il volume target e confermeremo la MOQ esatta per il tuo progetto.',
+        a: "Il nostro ordine minimo è di 200 pezzi per modello per gli ordini OEM e ODM. Inviaci le specifiche e la quantità desiderata per un preventivo.",
       },
       {
         q: 'Quanto dura la produzione per un ordine personalizzato?',

@@ -227,35 +227,35 @@ export default {
               "Gravure laser",
               "Bois naturel, logos monochromes, noms de marque, design épuré",
               "Faible",
-              "500 pcs",
+              "200 pièces",
               "1 jour"
             ],
             [
               "Sérigraphie",
               "Logos 1-2 couleurs, texte de grande taille, graphismes simples",
               "Faible-moyen",
-              "1 000 pcs",
+              "200 pièces",
               "2-3 jours"
             ],
             [
               "Impression UV",
               "Visuels quadri, photos, dégradés, designs complexes",
               "Moyen-élevé",
-              "500 pcs",
+              "200 pièces",
               "2-3 jours"
             ],
             [
               "Dorure à chaud",
               "Logos métallisés (or, argent, or rose), coffrets haut de gamme, marques de luxe",
               "Élevé",
-              "1 000 pcs",
+              "200 pièces",
               "3-5 jours"
             ],
             [
               "Marquage en creux / relief",
               "Marquage tactile, logos effet cuir, cadeaux d'affaires",
               "Moyen",
-              "1 000 pcs",
+              "200 pièces",
               "3-5 jours"
             ]
           ]
@@ -300,7 +300,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Notre [MOQ](/blog/low-moq-sampling-strategy) usine pour les coffrets de rangement en bois sur mesure à séparateurs amovibles est de 500 pièces par design. Pour une commande mixte (plusieurs formats ou finitions), le total cumulé doit atteindre au moins 1 000 pièces. Le délai d'échantillon est de 7 à 10 jours ouvrés après validation du design, et le délai de production de 25 à 30 jours après validation de l'échantillon et versement de l'acompte."
+          "text": "Notre quantité minimale est de 200 pièces par modèle pour les commandes OEM, ODM et séries d’essai. Le délai d'échantillon est de 7 à 10 jours ouvrés après validation du design, et le délai de production de 25 à 30 jours après validation de l'échantillon et versement de l'acompte. Pour en savoir plus, consultez [MOQ](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "p",
@@ -356,7 +356,7 @@ export default {
       "category": "Matériaux",
       "readTime": "12 min de lecture",
       "body": [
-        { type: 'p', text: 'Avant de fixer les spécifications, consultez [Pourquoi un MOQ de 100 pièces est la façon la plus intelligente de commencer](/blog/low-moq-sampling-strategy).' },
+        { type: 'p', text: "Avant de fixer les spécifications, consultez [Pourquoi un MOQ de 200 pièces est la façon la plus intelligente de commencer](/blog/low-moq-sampling-strategy)." },
         {
           "type": "p",
           "text": "Quand on conçoit un coffret en bois sur mesure, le matériau de calage compte autant que le coffret lui-même. Un mauvais choix se traduit par des produits abîmés, des coûts qui grimpent ou une présentation qui ne convainc pas le client. Dans ce guide, nous comparons quatre matériaux courants — mousse EVA, mousse EPE, velours et feutre — sur les critères qui tranchent vraiment : niveau de protection, rapport coût-efficacité, esthétique, impact environnemental et possibilités de personnalisation. Consultez les modèles disponibles dans la catégorie [Boîtes Cadeau et Emballage](/products/gift-packaging)."
@@ -512,7 +512,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Une marque horlogère de luxe devait protéger des montres de grande valeur tout en soignant la présentation : elle a utilisé une base de mousse EVA découpée à la forme de la montre, surmontée d'un flocage velours sur la surface EVA, obtenant une protection 5 étoiles et un déballage haut de gamme, pour 3 à 5 $ par calage avec une MOQ de 500. Un fabricant artisanal de bougies cherchait un emballage écologique pour des bougies faites main : il a opté pour des calages en feutre de laine découpés sur mesure pour ses pots ; l'image naturelle et durable correspondait à la marque et s'est traduite par 30 % de réachats en plus, pour 1,50 à 2 $ par calage avec une MOQ de 100. Un vendeur en ligne d'électronique expédiant des enceintes Bluetooth à grande échelle a retenu des protections d'angle en EPE avec coussin central, réduisant le coût d'expédition au poids et faisant passer le taux de casse de 5 % à moins de 1 %, pour 0,50 à 0,80 $ par calage avec une MOQ de 1 000. Pour un exemple du catalogue, consultez [Vitrine de Présentation Trois Montres](/products/watch-jewelry/three-watch-display-case)."
+          "text": "Une marque horlogère de luxe devait protéger des montres de grande valeur tout en soignant la présentation : elle a utilisé une base de mousse EVA découpée à la forme de la montre, surmontée d'un flocage velours sur la surface EVA, obtenant une protection 5 étoiles et un déballage haut de gamme, pour 3 à 5 $ par calage. Un fabricant artisanal de bougies cherchait un emballage écologique pour des bougies faites main : il a opté pour des calages en feutre de laine découpés sur mesure pour ses pots ; l'image naturelle et durable correspondait à la marque et s'est traduite par 30 % de réachats en plus, pour 1,50 à 2 $ par calage. Un vendeur en ligne d'électronique expédiant des enceintes Bluetooth à grande échelle a retenu des protections d'angle en EPE avec coussin central, réduisant le coût d'expédition au poids et faisant passer le taux de casse de 5 % à moins de 1 %, pour 0,50 à 0,80 $ par calage. Pour un exemple du catalogue, consultez [Vitrine de Présentation Trois Montres](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h2",
@@ -524,7 +524,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Intégrez la quantité minimale de commande (MOQ) : la mousse EVA demande en général 300 à 500 unités à cause du coût de mise en place de l'outil de découpe, la mousse EPE 500 à 1 000 unités, les doublures en velours 100 à 300 unités, et le feutre seulement 50 à 100 unités car il se travaille plus facilement en petites séries. Pour les produits alimentaires, médicaux ou destinés aux enfants, vérifiez la conformité RoHS (absence de substances dangereuses), la certification REACH du règlement européen sur les substances chimiques et l'agrément FDA pour les matériaux au contact alimentaire. Pour plus de détails, consultez [Sourcer des boîtes en bois personnalisées depuis la Chine en 2026 : le guide de l'acheteur B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
+          "text": "Notre quantité minimale est de 200 pièces par modèle pour les commandes OEM, ODM et séries d’essai. Pour en savoir plus, consultez [Sourcer des boîtes en bois personnalisées depuis la Chine en 2026 : le guide de l'acheteur B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
         },
         {
           "type": "h2",
@@ -561,7 +561,7 @@ export default {
         },
         {
           "type": "compare",
-          "caption": "Comparaison structurelle des cinq fermetures. Les délais correspondent à la fourchette observée dans notre propre catalogue pour ce type de fermeture ; la MOQ est le minimum le plus courant, et elle évolue avec la taille et la complexité du marquage.",
+          "caption": "Notre quantité minimale est de 200 pièces par modèle pour les commandes OEM, ODM et séries d’essai.",
           "items": [
             {
               "kind": "sliding",
@@ -574,7 +574,7 @@ export default {
                 },
                 {
                   "k": "MOQ courante",
-                  "v": "200–500"
+                  "v": "200"
                 },
                 {
                   "k": "Délai",
@@ -597,7 +597,7 @@ export default {
                 },
                 {
                   "k": "MOQ courante",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Délai",
@@ -621,7 +621,7 @@ export default {
                 },
                 {
                   "k": "MOQ courante",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Délai",
@@ -644,7 +644,7 @@ export default {
                 },
                 {
                   "k": "MOQ courante",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Délai",
@@ -667,7 +667,7 @@ export default {
                 },
                 {
                   "k": "MOQ courante",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Délai",
@@ -796,7 +796,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le tableau ci-dessous est tiré de nos propres relevés de production, et non de moyennes sectorielles. Les MOQ indiquées sont le minimum le plus fréquent pour cette fermeture ; MOQ et délai évoluent tous deux avec la taille du coffret, la méthode de marquage et la complexité du calage — considérez-les donc comme la forme de la décision, pas comme une cotation."
+          "text": "Notre quantité minimale est de 200 pièces par modèle pour les commandes OEM, ODM et séries d’essai."
         },
         {
           "type": "table",
@@ -811,35 +811,35 @@ export default {
             [
               "Couvercle coulissant",
               "18",
-              "200–300 pcs",
+              "200 pièces",
               "20–30 jours",
               "Type de finition ; rainure usinée à la cote finie"
             ],
             [
               "Couvercle à charnières",
               "55",
-              "200–300 pcs",
+              "200 pièces",
               "25–35 jours",
               "Spécification de charnière et approvisionnement quincaillerie"
             ],
             [
               "Magnétique",
               "14",
-              "200–300 pcs",
+              "200 pièces",
               "30–35 jours",
               "Pose et polymérisation des aimants avant finition"
             ],
             [
               "Tiroir",
               "25",
-              "200–300 pcs",
+              "200 pièces",
               "25–40 jours",
               "Nombre de niveaux ; type de coulisse"
             ],
             [
               "Verrouillable",
               "9",
-              "200–300 pcs",
+              "200 pièces",
               "25–30 jours",
               "Type de serrure et renfort de charnières"
             ]
@@ -945,7 +945,7 @@ export default {
           },
           {
             "q": "Changer de fermeture réduit-il la quantité minimale de commande ?",
-            "a": "Non. Sur toute notre gamme, la MOQ la plus fréquente est de 200 à 300 pièces quelle que soit la fermeture, car le minimum est fixé par le réglage machine et l'achat matière, non par le mécanisme. Passer du magnétique au coulissant changera votre coût unitaire et votre délai, mais pas votre minimum."
+            "a": "Notre quantité minimale est de 200 pièces par modèle pour les commandes OEM, ODM et séries d’essai."
           },
           {
             "q": "Les coffrets en bois magnétiques sont-ils la même chose que les boîtes rigides magnétiques ?",
@@ -998,7 +998,7 @@ export default {
               "label": "Part du coût en matière première"
             },
             {
-              "num": "300",
+              "num": "200",
               "label": "Pièces — MOQ standard"
             }
           ]
@@ -1009,7 +1009,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Si vous avez simplement besoin d'un chiffre pour vérifier la cohérence d'une cotation, voici les fourchettes FOB indicatives que nous observons le plus souvent. Elles supposent une commande OEM personnalisée à notre MOQ standard de 300 pièces par design ou au-dessus ; considérez-les comme des points de départ, non comme une liste de prix — votre spécification exacte les fera varier."
+          "text": "Si vous avez simplement besoin d'un chiffre pour vérifier la cohérence d'une cotation, voici les fourchettes FOB indicatives que nous observons le plus souvent. Elles supposent une commande OEM personnalisée à notre MOQ standard de 200 pièces par design ou au-dessus ; considérez-les comme des points de départ, non comme une liste de prix — votre spécification exacte les fera varier."
         },
         {
           "type": "table",
@@ -1110,7 +1110,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La quantité est le levier que vous contrôlez le plus directement. Les coûts fixes — l'échantillon, la mise en route CNC, le calibrage machine, une série de mise en concordance des couleurs — sont répartis sur la commande, de sorte que le prix par unité chute le plus rapidement entre un test de 100 pièces et environ 1,000 pièces, puis s'aplatit. C'est pourquoi commander 300 plutôt que 100 réduit souvent le prix unitaire d'un tiers, tandis que passer de 3,000 à 10,000 fait économiser bien moins par pièce."
+          "text": "Les quantités et prix ci-dessous sont des comparaisons indicatives, pas des offres actuelles. Le MOQ actuel est de 200 pièces par modèle ; demandez un devis selon vos spécifications."
         },
         {
           "type": "img",
@@ -1126,12 +1126,12 @@ export default {
           ],
           "rows": [
             [
-              "100 (test de première commande)",
+              "100",
               "$14.0",
               "—"
             ],
             [
-              "300 (MOQ standard)",
+              "300",
               "$9.5",
               "−32%"
             ],
@@ -1154,7 +1154,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "L'enseignement pratique : commencez par une [commande test de 100–300 pièces](/blog/low-moq-sampling-strategy) pour valider la boîte sur le marché, puis montez en charge dans les paliers de prix une fois qu'elle se vend. Payer le prix unitaire plus élevé de la première commande est une assurance peu coûteuse contre l'engagement de 5,000 pièces sur un SKU non éprouvé."
+          "text": "L'enseignement pratique : commencez par une [commande test de 200 pièces](/blog/low-moq-sampling-strategy) pour valider la boîte sur le marché, puis montez en charge dans les paliers de prix une fois qu'elle se vend. Payer le prix unitaire plus élevé de la première commande est une assurance peu coûteuse contre l'engagement de 5,000 pièces sur un SKU non éprouvé."
         },
         {
           "type": "h2",
@@ -1408,7 +1408,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "\"Typique\" vous dit leur sweet spot commercial ; \"plancher\" vous dit si vous pouvez faire un test avant de vous engager sur une saison entière. Pour la plupart des boîtes en bois personnalisées, le [MOQ](/blog/low-moq-sampling-strategy) typique se situe à 500–1 000 pièces ; les MOQ planchers pour premières commandes ou spécifications plus simples peuvent être de 100–300. Si un fournisseur refuse de coter quoi que ce soit en dessous de 1 000, il n'est probablement pas configuré pour des tests incrémentaux — bien pour des lignes établies, risqué pour un nouveau lancement."
+          "text": "Notre quantité minimale est de 200 pièces par modèle pour les commandes OEM, ODM et séries d’essai. Pour en savoir plus, consultez [MOQ](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "h3",
@@ -1470,7 +1470,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le MOQ est fixé par le coût de mise en route — programmer les scies, configurer la CNC, mélanger la finition, construire un échantillon, former une équipe de finition sur votre design spécifique. En dessous de 200–300 pièces, ces coûts de mise en route s'étalent finement sur l'unité et le prix s'envole. Entre 300 et 2 000 pièces se trouve le sweet spot commercial où la mise en route s'amortit et où vous obtenez le coût par unité le plus attractif. Au-dessus de 5 000 pièces, le prochain palier de remise nécessite généralement de passer à un matériau plus léger ou à une menuiserie plus simple — un produit différent, pas juste une plus grande série du même."
+          "text": "Le MOQ est fixé par le coût de mise en route — programmer les scies, configurer la CNC, mélanger la finition, construire un échantillon, former une équipe de finition sur votre design spécifique. En dessous de 200 pièces, ces coûts de mise en route s'étalent finement sur l'unité et le prix s'envole. Entre 300 et 2 000 pièces se trouve le sweet spot commercial où la mise en route s'amortit et où vous obtenez le coût par unité le plus attractif. Au-dessus de 5 000 pièces, le prochain palier de remise nécessite généralement de passer à un matériau plus léger ou à une menuiserie plus simple — un produit différent, pas juste une plus grande série du même."
         },
         {
           "type": "p",
@@ -1489,7 +1489,7 @@ export default {
           "type": "stats",
           "items": [
             {
-              "num": "300",
+              "num": "200",
               "label": "MOQ standard par design (pcs)"
             },
             {
@@ -2570,7 +2570,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Si vous vous approvisionnez en boîtes de montre pour la première fois, nous vous recommandons fortement de commander un échantillon de 50 pièces avant de vous engager au volume. Prenez les boîtes en dehors en personne, exécutez le couvercle à travers 200 cycles d'ouverture-fermeture, laissez tomber un de la hauteur du bureau, laissez-en un dans le coffre de votre voiture pendant une semaine. Les boîtes qui survivent sont les boîtes qui survivront à vos clients. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
+          "text": "Si vous vous approvisionnez en boîtes de montre pour la première fois, nous vous recommandons fortement de commander un échantillon de 200 pièces avant de vous engager au volume. Prenez les boîtes en dehors en personne, exécutez le couvercle à travers 200 cycles d'ouverture-fermeture, laissez tomber un de la hauteur du bureau, laissez-en un dans le coffre de votre voiture pendant une semaine. Les boîtes qui survivent sont les boîtes qui survivront à vos clients. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
         }
       ]
     },
@@ -2813,7 +2813,7 @@ export default {
       "category": "Stratégie",
       "readTime": "10 minutes de lecture",
       "body": [
-        { type: 'p', text: 'Avant de fixer les spécifications, consultez [Pourquoi un MOQ de 100 pièces est la façon la plus intelligente de commencer](/blog/low-moq-sampling-strategy).' },
+        { type: 'p', text: "Avant de fixer les spécifications, consultez [Pourquoi un MOQ de 200 pièces est la façon la plus intelligente de commencer](/blog/low-moq-sampling-strategy)." },
         {
           "type": "p",
           "text": "La plupart des acheteurs apprennent la différence entre OEM et ODM à la dure. Habituellement, après un devis revient à deux fois ce qu'ils attendaient, ou après un design \"stock\" se révèle être sur un carnet de commandes d'un an chez le fournisseur, ou après un design \"personnalisé\" finit par ne rien ressembler au rendu."
@@ -3456,7 +3456,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Oui-nous le recommandons fortement. Pour environ $100-200 ajouté à une commande d'échantillon, nous pouvons produire deux échantillons avec différents traitements de finition. Le coût est négligeable par rapport au fait de faire le mauvais choix parmi des milliers d'unités de production. Pour plus de détails, consultez [Pourquoi un MOQ de 100 pièces est la façon la plus intelligente de commencer](/blog/low-moq-sampling-strategy)."
+          "text": "Oui-nous le recommandons fortement. Pour environ $100-200 ajouté à une commande d'échantillon, nous pouvons produire deux échantillons avec différents traitements de finition. Le coût est négligeable par rapport au fait de faire le mauvais choix parmi des milliers d'unités de production. Pour plus de détails, consultez [Pourquoi un MOQ de 200 pièces est la façon la plus intelligente de commencer](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "quote",
@@ -3465,7 +3465,7 @@ export default {
       ]
     },
     "low-moq-sampling-strategy": {
-      "title": "Pourquoi un MOQ de 100 pièces est la façon la plus intelligente de commencer",
+      "title": "Pourquoi un MOQ de 200 pièces est la façon la plus intelligente de commencer",
       "excerpt": "Comment utiliser des échantillons de production à faible MOQ pour valider une conception avant de vous engager volume-et pourquoi le coût unitaire plus élevé paie presque toujours pour lui-même.",
       "category": "Stratégie",
       "readTime": "9 minutes de lecture",
@@ -3473,7 +3473,7 @@ export default {
         { type: 'p', text: 'Avant de fixer les spécifications, consultez [Sourcer des boîtes en bois personnalisées depuis la Chine en 2026 : le guide de l\'acheteur B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
-          "text": "La plupart des usines citent des minimums de 500 à 1 000 pièces sur des boîtes en bois personnalisées. Nous offrons délibérément un échantillon de 100 pièces, car il résout un problème que la plupart des acheteurs ne réalisent pas qu'ils ont jusqu'à ce qu'il les mord."
+          "text": "Notre quantité minimale est de 200 pièces par modèle pour les commandes OEM, ODM et séries d’essai. Les cas historiques ci-dessous décrivent des quantités commandées auparavant ; le minimum actuel est de 200 pièces par modèle."
         },
         {
           "type": "p",
@@ -3481,7 +3481,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Une course d'échantillon de 100 morceaux par le même outillage, les mêmes montages, les mêmes assembleurs et la même ligne d'arrivée comme une commande de 5 000 morceaux-juste avec 100 morceaux au lieu de 5 000. Vous voyez à quoi ressembleront les boîtes à l'échelle. Nous pouvons ajuster les luminaires, les finitions et l'emballage avant de vous engager sur le volume. Les deux parties apprennent à quoi ressemble le produit réel, pas à quoi ressemble le prototype."
+          "text": "Une course d'échantillon de 200 morceaux par le même outillage, les mêmes montages, les mêmes assembleurs et la même ligne d'arrivée comme une commande de 5 000 morceaux-juste avec 200 morceaux au lieu de 5 000. Vous voyez à quoi ressembleront les boîtes à l'échelle. Nous pouvons ajuster les luminaires, les finitions et l'emballage avant de vous engager sur le volume. Les deux parties apprennent à quoi ressemble le produit réel, pas à quoi ressemble le prototype."
         },
         {
           "type": "h2",
@@ -3517,7 +3517,7 @@ export default {
         },
         {
           "type": "h2",
-          "text": "Ce qu'une course de 100 pièces teste réellement"
+          "text": "Ce qu'une course de 200 pièces teste réellement"
         },
         {
           "type": "h3",
@@ -3525,7 +3525,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Des échantillons simples construits à la main utilisent des gabarits temporaires et un assembleur expérimenté effectuant un travail ponctuel. Les cadences de production utilisent des montages permanents avec des opérateurs effectuant la même tâche des centaines de fois. L'exactitude de montage à l'échelle est la plus grande source simple des problèmes «de course de production semble pire que l'échantillon». Une course de 100 pièces expose cela. Pour plus de détails, consultez [OEM vs ODM: lequel est bon pour votre projet de boîte en bois?](/blog/oem-vs-odm-wooden-boxes)."
+          "text": "Des échantillons simples construits à la main utilisent des gabarits temporaires et un assembleur expérimenté effectuant un travail ponctuel. Les cadences de production utilisent des montages permanents avec des opérateurs effectuant la même tâche des centaines de fois. L'exactitude de montage à l'échelle est la plus grande source simple des problèmes «de course de production semble pire que l'échantillon». Une course de 200 pièces expose cela. Pour plus de détails, consultez [OEM vs ODM: lequel est bon pour votre projet de boîte en bois?](/blog/oem-vs-odm-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3533,7 +3533,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un seul échantillon utilise la meilleure planche du magasin. Une course de production utilise chaque conseil qui répond aux spécifications. Variation de couleur, variation de grain, motifs de nœuds-tout cela fait en moyenne 100 boîtes d'une manière qui ne peut pas être testée avec un seul échantillon. Consultez les options dans [guide des bois, finitions et ferrures](/material-guide)."
+          "text": "Un seul échantillon utilise la meilleure planche du magasin. Une course de production utilise chaque conseil qui répond aux spécifications. Variation de couleur, variation de grain, motifs de nœuds-tout cela fait en moyenne 200 boîtes d'une manière qui ne peut pas être testée avec un seul échantillon. Consultez les options dans [guide des bois, finitions et ferrures](/material-guide)."
         },
         {
           "type": "h3",
@@ -3541,7 +3541,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les couches de finition sont mélangées par lots. Le ton exact et la brillance peuvent varier subtilement entre les lots. Une course de 100 pièces utilise 1-2 lots de finition, exposant si votre conception tolère cette variation naturelle. Pour plus de détails, consultez [5 techniques de finition qui changent l'apparence et la sensation d'une boîte en bois](/blog/wooden-box-finishing-techniques)."
+          "text": "Les couches de finition sont mélangées par lots. Le ton exact et la brillance peuvent varier subtilement entre les lots. Une course de 200 pièces utilise 1-2 lots de finition, exposant si votre conception tolère cette variation naturelle. Pour plus de détails, consultez [5 techniques de finition qui changent l'apparence et la sensation d'une boîte en bois](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h3",
@@ -3549,16 +3549,16 @@ export default {
         },
         {
           "type": "p",
-          "text": "Les échantillons uniques sont expédiés dans leur propre emballage protecteur. Les courses de production sont expédiées dans des cartons maîtres empilés sur des palettes-elles sont exposées à des contraintes de manipulation que des échantillons uniques ne voient jamais. Une expédition d'essai de 100 pièces passe par de vraies douanes, un fret réel, une véritable prise d'entrepôt. Les acheteurs trouvent régulièrement des problèmes d'emballage à ce stade qu'ils n'auraient jamais attrapés avec un seul échantillon. Pour plus de détails, consultez [Concevoir des emballages en bois pour Amazon FBA](/blog/amazon-fba-wooden-packaging)."
+          "text": "Les échantillons uniques sont expédiés dans leur propre emballage protecteur. Les courses de production sont expédiées dans des cartons maîtres empilés sur des palettes-elles sont exposées à des contraintes de manipulation que des échantillons uniques ne voient jamais. Une expédition d'essai de 200 pièces passe par de vraies douanes, un fret réel, une véritable prise d'entrepôt. Les acheteurs trouvent régulièrement des problèmes d'emballage à ce stade qu'ils n'auraient jamais attrapés avec un seul échantillon. Pour plus de détails, consultez [Concevoir des emballages en bois pour Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "img",
           "src": "/folder/4-pre-assemble.webp",
-          "caption": "Un échantillon de 100 pièces exécuté sur la ligne de production-mêmes appareils que les commandes complètes"
+          "caption": "Un échantillon de 200 pièces exécuté sur la ligne de production-mêmes appareils que les commandes complètes"
         },
         {
           "type": "h2",
-          "text": "Quand sauter l'essai de 100 pièces"
+          "text": "Quand sauter l'essai de 200 pièces"
         },
         {
           "type": "p",
@@ -3583,11 +3583,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Le coût par unité sur une course de 100 pièces est généralement 30 à 60% plus élevé que sur une course de 1 000 pièces. Le travail de configuration est le même; il est juste réparti sur moins d'unités. Donc, la différence de coût absolue dépend du prix de la boîte. Pour plus de détails, consultez [Combien coûtent les boîtes en bois personnalisées ? Un guide de tarification grossiste et OEM 2026](/blog/custom-wooden-box-cost-2026)."
+          "text": "Dans une série d’essai, les frais de préparation sont répartis sur moins d’unités que dans une grande commande. Demandez les prix pour votre essai de 200 pièces et votre réassort prévu avec les mêmes spécifications ; l’écart dépend du modèle. Pour en savoir plus, consultez [Combien coûtent les boîtes en bois personnalisées ? Un guide de tarification grossiste et OEM 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
-          "text": "Pour une boîte de 5 $, l'essai de 100 pièces coûte environ 700-900 $ par rapport à une série de 1 000 pièces de la même boîte (ce qui serait ~ 5 000 $). Pour une boîte de 25 $, le procès coûte entre 3 000 et 3 800 $ par rapport à une série de 1 000 pièces de 25 000 $."
+          "text": "Comparez le coût total du projet, préparation, échantillons et transport compris, avant de commander l’essai. Confirmez le devis pour la quantité choisie plutôt que d’extrapoler un ancien exemple de prix unitaire."
         },
         {
           "type": "p",
@@ -3686,7 +3686,7 @@ export default {
         },
         {
           "type": "h3",
-          "text": "Combien de temps dure un essai de 100 pièces?"
+          "text": "Combien de temps dure un essai de 200 pièces?"
         },
         {
           "type": "p",
@@ -3698,7 +3698,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Oui, mais le coût unitaire augmente fortement (généralement 60-100% de prime sur 100-pièce prix) parce que la configuration de la production est la même indépendamment. Pour les essais de 25 pièces, nous recommandons généralement de les traiter comme un échantillonnage payant plutôt que des essais-le volume est trop petit pour exercer pleinement la ligne de production."
+          "text": "Les commandes de production et séries d’essai commencent à 200 pièces par modèle. Pour valider uniquement la construction ou la finition, demandez un échantillon de préproduction avant de commander."
         },
         {
           "type": "h3",
@@ -3710,11 +3710,11 @@ export default {
         },
         {
           "type": "h3",
-          "text": "Qu'advient-il des 100 unités d'essai après que je les ai inspecté?"
+          "text": "Qu'advient-il des 200 unités d'essai après que je les ai inspecté?"
         },
         {
           "type": "p",
-          "text": "Tu les gardes. Ce sont de véritables boîtes de qualité de production (en supposant qu'aucun problème majeur ne soit trouvé). La plupart des acheteurs utilisent des unités d'essai pour la photographie marketing, l'ensemencement au détail ou comme inventaire initial. Certains acheteurs les utilisent comme base pour les premiers commentaires des clients sur Amazon ou Shopify. De toute façon, les unités ne sont pas jetables-ce sont vos 100 premières unités d'inventaire."
+          "text": "Tu les gardes. Ce sont de véritables boîtes de qualité de production (en supposant qu'aucun problème majeur ne soit trouvé). La plupart des acheteurs utilisent des unités d'essai pour la photographie marketing, l'ensemencement au détail ou comme inventaire initial. Certains acheteurs les utilisent comme base pour les premiers commentaires des clients sur Amazon ou Shopify. De toute façon, les unités ne sont pas jetables-ce sont vos 200 premières unités d'inventaire."
         },
         {
           "type": "quote",
@@ -3722,7 +3722,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Pour les primo-accédants, nous recommandons de traiter l'essai de 100 pièces comme faisant partie du budget du projet dès le début, et non comme un ajout optionnel. Intégrez-le dans votre calendrier de lancement. Intégrer dans votre tarification SKU. Construisez-le dans votre relation avec l'usine. Une fois que c'est une pratique normale, vous cessez de voir les taux de défauts de 12% et les incendies de production de dernière minute qui affligent les acheteurs qui sautent cette étape. La plupart de nos relations clients les plus importantes et les plus anciennes ont commencé exactement de cette façon: avec un petit essai qui a établi la confiance avant que les deux parties ne s'engagent sur le volume. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
+          "text": "Pour les primo-accédants, nous recommandons de traiter l'essai de 200 pièces comme faisant partie du budget du projet dès le début, et non comme un ajout optionnel. Intégrez-le dans votre calendrier de lancement. Intégrer dans votre tarification SKU. Construisez-le dans votre relation avec l'usine. Une fois que c'est une pratique normale, vous cessez de voir les taux de défauts de 12% et les incendies de production de dernière minute qui affligent les acheteurs qui sautent cette étape. La plupart de nos relations clients les plus importantes et les plus anciennes ont commencé exactement de cette façon: avec un petit essai qui a établi la confiance avant que les deux parties ne s'engagent sur le volume. Pour définir les spécifications de votre projet, vous pouvez [demander un devis](/contact#inquiry)."
         }
       ]
     },
@@ -4180,7 +4180,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Nous recommandons fortement une inspection par un tiers (SGS, BV, AsiaInspection, Asia Quality Focus) pour chaque envoi FBA. La raison en est l'économie brutale: les retours d'Amazon sont chers-entre 5% et 15% de la valeur de l'expédition selon la catégorie, plus les dommages de marque des critiques négatives. Pour plus de détails, consultez [Pourquoi un MOQ de 100 pièces est la façon la plus intelligente de commencer](/blog/low-moq-sampling-strategy)."
+          "text": "Nous recommandons fortement une inspection par un tiers (SGS, BV, AsiaInspection, Asia Quality Focus) pour chaque envoi FBA. La raison en est l'économie brutale: les retours d'Amazon sont chers-entre 5% et 15% de la valeur de l'expédition selon la catégorie, plus les dommages de marque des critiques négatives. Pour plus de détails, consultez [Pourquoi un MOQ de 200 pièces est la façon la plus intelligente de commencer](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "p",

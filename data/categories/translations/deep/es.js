@@ -7,7 +7,7 @@
 export default {
   "walnut": {
     "seoTitle": "Cajas de madera de nogal — Mayorista y fabricante OEM personalizado | CHIC",
-    "seoDescription": "Cajas de madera de nogal personalizadas al por mayor — cajas para relojes, joyería y regalo en nogal negro americano. MOQ 300, grabado láser, FSC y CARB P2. FOB Xiamen, envío a UE/US/UK/CA.",
+    "seoDescription": "Cajas de madera de nogal personalizadas al por mayor — cajas para relojes, joyería y regalo en nogal negro americano. MOQ 200, grabado láser, FSC y CARB P2. FOB Xiamen, envío a UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guía de compra B2B",
       "title": "Comprar cajas de madera de nogal al por mayor: una guía para compradores B2B",
@@ -45,7 +45,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalización es donde un programa mayorista de nogal se distingue del producto de catálogo. En los pedidos OEM (MOQ 300 piezas por diseño, 100 piezas en un primer pedido de prueba) el grabado láser es el método de branding más limpio sobre nogal — la veta densa retiene detalles nítidos a profundidad plena o de fracciones de milímetro, y la madera oscura ofrece alto contraste sin tinta alguna. La estampación en caliente y la marquetería de latón cubren la franja retail oro y metalizada; deboss y serigrafía están disponibles para tiradas de logotipo. Más allá del branding, el nogal admite toda la gama de herrajes: [bisagras soft-close ocultas](/products/hinged) para estuches de joyería y relojes, un [imán de neodimio oculto](/products/magnetic) para el clic premium limpio, o una [cerradura de latón con llave o cam-lock](/products/with-lock) para objetos de valor y documentos. Los interiores se fabrican a medida — espuma cortada por CNC, bandejas forradas en terciopelo o microfibra, cojines para relojes, alojamientos para anillos — y las dimensiones no tienen límite, desde una pequeña caja para anillos hasta un cofre multireloj, todo del mismo patrón constructivo."
+          "text": "La personalización es donde un programa mayorista de nogal se distingue del producto de catálogo. En los pedidos OEM (MOQ 200 piezas por diseño, 200 piezas en un primer pedido de prueba) el grabado láser es el método de branding más limpio sobre nogal — la veta densa retiene detalles nítidos a profundidad plena o de fracciones de milímetro, y la madera oscura ofrece alto contraste sin tinta alguna. La estampación en caliente y la marquetería de latón cubren la franja retail oro y metalizada; deboss y serigrafía están disponibles para tiradas de logotipo. Más allá del branding, el nogal admite toda la gama de herrajes: [bisagras soft-close ocultas](/products/hinged) para estuches de joyería y relojes, un [imán de neodimio oculto](/products/magnetic) para el clic premium limpio, o una [cerradura de latón con llave o cam-lock](/products/with-lock) para objetos de valor y documentos. Los interiores se fabrican a medida — espuma cortada por CNC, bandejas forradas en terciopelo o microfibra, cojines para relojes, alojamientos para anillos — y las dimensiones no tienen límite, desde una pequeña caja para anillos hasta un cofre multireloj, todo del mismo patrón constructivo."
         },
         {
           "type": "p",
@@ -65,7 +65,7 @@ export default {
   },
   "bamboo": {
     "seoTitle": "Cajas de bambú — Mayorista sostenible y fabricante OEM personalizado | CHIC",
-    "seoDescription": "Cajas de bambú personalizadas al por mayor — certificadas FSC, naturalmente antibacterianas, aptas para contacto alimentario. Embalaje para té, cocina y eco-regalo. MOQ 300, grabado láser. FOB Xiamen, envío a UE/US/UK/CA.",
+    "seoDescription": "Cajas de bambú personalizadas al por mayor — certificadas FSC, naturalmente antibacterianas, aptas para contacto alimentario. Embalaje para té, cocina y eco-regalo. MOQ 200, grabado láser. FOB Xiamen, envío a UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guía de compra B2B",
       "title": "Comprar cajas de bambú al por mayor: la guía B2B para compradores de sostenibilidad",
@@ -103,7 +103,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalización de un pedido mayorista de bambú (MOQ 300 piezas por diseño, 100 en un primer pedido de prueba) empieza por el acabado: la laca al agua apta para contacto alimentario, conforme a EU EC 1935/2004 y US FDA 21 CFR 175.300, es estándar para cualquier caja de bambú que contenga alimentos, té, café o utensilios de cocina, mientras que un acabado crudo o de aceite natural está disponible para los compradores que quieren el material desnudo. El grabado láser se asienta limpio sobre la veta uniforme del bambú y ofrece alto contraste sin tinta — el branding más limpio para una SKU eco que quiere evitar etiquetas impresas. Más allá del branding, la construcción admite toda la gama de detalles: divisores modulares de compartimentos (distribuciones de 4/6/8/9 huecos para programas de té y cápsulas), tapas de ventana de acrílico para la visibilidad en estantería y cualquier cierre — magnético, de bisagra o la [tapa deslizante](/products/sliding-lid) totalmente reciclable que mantiene la caja monomaterial para las declaraciones de reciclaje al final de su vida."
+          "text": "La personalización de un pedido mayorista de bambú (MOQ 200 piezas por diseño, 200 en un primer pedido de prueba) empieza por el acabado: la laca al agua apta para contacto alimentario, conforme a EU EC 1935/2004 y US FDA 21 CFR 175.300, es estándar para cualquier caja de bambú que contenga alimentos, té, café o utensilios de cocina, mientras que un acabado crudo o de aceite natural está disponible para los compradores que quieren el material desnudo. El grabado láser se asienta limpio sobre la veta uniforme del bambú y ofrece alto contraste sin tinta — el branding más limpio para una SKU eco que quiere evitar etiquetas impresas. Más allá del branding, la construcción admite toda la gama de detalles: divisores modulares de compartimentos (distribuciones de 4/6/8/9 huecos para programas de té y cápsulas), tapas de ventana de acrílico para la visibilidad en estantería y cualquier cierre — magnético, de bisagra o la [tapa deslizante](/products/sliding-lid) totalmente reciclable que mantiene la caja monomaterial para las declaraciones de reciclaje al final de su vida."
         },
         {
           "type": "p",
@@ -123,7 +123,7 @@ export default {
   },
   "pine": {
     "seoTitle": "Cajas de madera de pino — Mayorista y fabricante OEM personalizado | CHIC",
-    "seoDescription": "Cajas de madera de pino personalizadas al por mayor — pino Scots y radiata económico para vino, jardín, cajas y embalaje de regalo rústico. MOQ 300, branding a fuego y láser. FOB Xiamen, envío a UE/US/UK/CA.",
+    "seoDescription": "Cajas de madera de pino personalizadas al por mayor — pino Scots y radiata económico para vino, jardín, cajas y embalaje de regalo rústico. MOQ 200, branding a fuego y láser. FOB Xiamen, envío a UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guía de compra B2B",
       "title": "Comprar cajas de madera de pino al por mayor: la guía B2B de coste unitario",
@@ -161,7 +161,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalización de un pedido mayorista de pino (MOQ 300 piezas por diseño, 100 en un primer pedido de prueba) empieza por el acabado, porque el pino crudo es un lienzo en blanco: laca exterior resistente a los UV para uso de exterior y jardín, laca interior apta para contacto alimentario para cajas de pícnic y despensa, o acabados de aceite natural y flameado para el aspecto rústico. El branding es donde el pino supera su gama de precio — branding tradicional a fuego para la marca vintage quemada, grabado láser para detalles nítidos y serigrafía o estampación en caliente para logotipos retail. La construcción admite toda la gama de herrajes: asas de cuerda y cuero, [bisagras de latón y acero](/products/hinged), cierres e insertos de espuma o divisores para botellas y herramientas. Las dimensiones no tienen límite, desde una caja de vino de una botella hasta una gran caja de herramientas de jardín, todo de la misma madera blanda."
+          "text": "La personalización de un pedido mayorista de pino (MOQ 200 piezas por diseño, 200 en un primer pedido de prueba) empieza por el acabado, porque el pino crudo es un lienzo en blanco: laca exterior resistente a los UV para uso de exterior y jardín, laca interior apta para contacto alimentario para cajas de pícnic y despensa, o acabados de aceite natural y flameado para el aspecto rústico. El branding es donde el pino supera su gama de precio — branding tradicional a fuego para la marca vintage quemada, grabado láser para detalles nítidos y serigrafía o estampación en caliente para logotipos retail. La construcción admite toda la gama de herrajes: asas de cuerda y cuero, [bisagras de latón y acero](/products/hinged), cierres e insertos de espuma o divisores para botellas y herramientas. Las dimensiones no tienen límite, desde una caja de vino de una botella hasta una gran caja de herramientas de jardín, todo de la misma madera blanda."
         },
         {
           "type": "p",
@@ -181,7 +181,7 @@ export default {
   },
   "paulownia": {
     "seoTitle": "Cajas de madera de paulownia — Mayorista ligero y fabricante OEM | CHIC",
-    "seoDescription": "Cajas de madera de paulownia personalizadas al por mayor — la madera más ligera para embalaje de regalo y suscripción de alto volumen y bajo coste de envío. Estable, grabado láser nítido. MOQ 300, FOB Xiamen, envío a UE/US/UK/CA.",
+    "seoDescription": "Cajas de madera de paulownia personalizadas al por mayor — la madera más ligera para embalaje de regalo y suscripción de alto volumen y bajo coste de envío. Estable, grabado láser nítido. MOQ 200, FOB Xiamen, envío a UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guía de compra B2B",
       "title": "Comprar cajas de madera de paulownia al por mayor: la guía B2B de economía de envío",
@@ -219,7 +219,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalización de un pedido mayorista de paulownia (MOQ 300 piezas por diseño, 100 en un primer pedido de prueba) juega con las fortalezas del material. La superficie color crema pálido es un lienzo en blanco: teñir en cualquier tono de madera, pintar en un color de marca, lacar mate o brillante, o dejar cruda para un aspecto natural. El grabado láser es el método de branding destacado — la veta uniforme de la paulownia admite trabajos detallados de logotipo y motivos tan limpios como cualquier especie que trabajamos, a profundidad plena o de fracciones de milímetro. Estampación en caliente, serigrafía y deboss cubren las franjas retail y de color pleno. La construcción admite toda la gama: cualquier cierre incluida la [tapa deslizante](/products/sliding-lid) apilable en plano y conveniente para el envío, insertos de espuma y divisores, lazos de tiro y compartimentos — y como el material base es tan ligero, incluso una gran caja multicompartimento sigue siendo económica de enviar."
+          "text": "La personalización de un pedido mayorista de paulownia (MOQ 200 piezas por diseño, 200 en un primer pedido de prueba) juega con las fortalezas del material. La superficie color crema pálido es un lienzo en blanco: teñir en cualquier tono de madera, pintar en un color de marca, lacar mate o brillante, o dejar cruda para un aspecto natural. El grabado láser es el método de branding destacado — la veta uniforme de la paulownia admite trabajos detallados de logotipo y motivos tan limpios como cualquier especie que trabajamos, a profundidad plena o de fracciones de milímetro. Estampación en caliente, serigrafía y deboss cubren las franjas retail y de color pleno. La construcción admite toda la gama: cualquier cierre incluida la [tapa deslizante](/products/sliding-lid) apilable en plano y conveniente para el envío, insertos de espuma y divisores, lazos de tiro y compartimentos — y como el material base es tan ligero, incluso una gran caja multicompartimento sigue siendo económica de enviar."
         },
         {
           "type": "p",
@@ -239,7 +239,7 @@ export default {
   },
   "acacia": {
     "seoTitle": "Cajas de madera de acacia — Mayorista y fabricante OEM personalizado | CHIC",
-    "seoDescription": "Cajas de madera de acacia personalizadas al por mayor — madera dura de veta espectacular para menaje de cocina, charcutería, cajas de servicio y regalo premium. Janka 2300+, apta para contacto alimentario, resistente al agua. MOQ 300, FOB Xiamen, envío a UE/US/UK/CA.",
+    "seoDescription": "Cajas de madera de acacia personalizadas al por mayor — madera dura de veta espectacular para menaje de cocina, charcutería, cajas de servicio y regalo premium. Janka 2300+, apta para contacto alimentario, resistente al agua. MOQ 200, FOB Xiamen, envío a UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guía de compra B2B",
       "title": "Comprar cajas de madera de acacia al por mayor: la guía B2B para compradores de menaje",
@@ -277,7 +277,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalización de un pedido mayorista de acacia (MOQ 300 piezas por diseño, 100 en un primer pedido de prueba) empieza por el acabado, porque la veta de la acacia lo recompensa: aceite apto para contacto alimentario y cera de abejas realzan el dibujo miel-chocolate para el menaje de cocina (conforme a EU EC 1935/2004 y US FDA 21 CFR 175.300 donde aplica el contacto alimentario), o laca para una superficie sellada y duradera. El grabado láser se asienta limpio y el dibujo oscuro ofrece un contraste natural; estampación en caliente y deboss cubren la franja de regalo premium. La construcción admite toda la gama: [bisagras ocultas y soft-close](/products/hinged) para cajas de servicio y regalo, un [imán de neodimio oculto](/products/magnetic) para el cierre premium limpio, divisores de compartimentos e insertos de espuma cortados por CNC, y herrajes de acero inoxidable o latón para construcciones de cocina. Las dimensiones no tienen límite, desde un pequeño salero hasta una gran caja de presentación de charcutería."
+          "text": "La personalización de un pedido mayorista de acacia (MOQ 200 piezas por diseño, 200 en un primer pedido de prueba) empieza por el acabado, porque la veta de la acacia lo recompensa: aceite apto para contacto alimentario y cera de abejas realzan el dibujo miel-chocolate para el menaje de cocina (conforme a EU EC 1935/2004 y US FDA 21 CFR 175.300 donde aplica el contacto alimentario), o laca para una superficie sellada y duradera. El grabado láser se asienta limpio y el dibujo oscuro ofrece un contraste natural; estampación en caliente y deboss cubren la franja de regalo premium. La construcción admite toda la gama: [bisagras ocultas y soft-close](/products/hinged) para cajas de servicio y regalo, un [imán de neodimio oculto](/products/magnetic) para el cierre premium limpio, divisores de compartimentos e insertos de espuma cortados por CNC, y herrajes de acero inoxidable o latón para construcciones de cocina. Las dimensiones no tienen límite, desde un pequeño salero hasta una gran caja de presentación de charcutería."
         },
         {
           "type": "p",
@@ -297,14 +297,14 @@ export default {
   },
   "gift-packaging": {
     "seoTitle": "Cajas de regalo y embalaje de madera — Mayorista y fabricante OEM | CHIC",
-    "seoDescription": "Cajas de regalo y embalaje de madera personalizadas al por mayor — magnéticas, de bisagra y deslizantes, branding deboss, insertos de espuma/terciopelo. MOQ 300, volúmenes hasta 100.000+. FOB Xiamen, envío a UE/US/UK/CA.",
+    "seoDescription": "Cajas de regalo y embalaje de madera personalizadas al por mayor — magnéticas, de bisagra y deslizantes, branding deboss, insertos de espuma/terciopelo. MOQ 200, volúmenes hasta 100.000+. FOB Xiamen, envío a UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guía de compra B2B",
       "title": "Comprar cajas de regalo de madera al por mayor: una guía B2B de embalaje",
       "blocks": [
         {
           "type": "p",
-          "text": "Una caja de regalo de madera es la decisión de embalaje que convierte un producto en un momento de unboxing — y para los compradores B2B ese momento es medible: impulsa el vídeo de unboxing, la recompra y el valor percibido que permite a una marca mantener su precio. Suministramos cajas de regalo y embalaje de madera al por mayor a marcas que lanzan una nueva SKU, a agencias que construyen programas de regalo corporativo y a importadores que abastecen a minoristas con embalaje listo para estantería, en volúmenes desde muestras de 100 piezas hasta pedidos de producción de más de 100.000 piezas con acabado, ajuste y tacto constantes en cada lote. Las tres decisiones que impulsan un programa de cajas de regalo son cierre, material y branding — nuestra [guía de materiales](/material-guide) compara las especies, mientras que esta página cubre cómo los compradores mayoristas especifican realmente el resto."
+          "text": "Una caja de regalo de madera es la decisión de embalaje que convierte un producto en un momento de unboxing — y para los compradores B2B ese momento es medible: impulsa el vídeo de unboxing, la recompra y el valor percibido que permite a una marca mantener su precio. Suministramos cajas de regalo y embalaje de madera al por mayor a marcas que lanzan una nueva SKU, a agencias que construyen programas de regalo corporativo y a importadores que abastecen a minoristas con embalaje listo para estantería, en volúmenes desde muestras de 200 piezas hasta pedidos de producción de más de 100.000 piezas con acabado, ajuste y tacto constantes en cada lote. Las tres decisiones que impulsan un programa de cajas de regalo son cierre, material y branding — nuestra [guía de materiales](/material-guide) compara las especies, mientras que esta página cubre cómo los compradores mayoristas especifican realmente el resto."
         },
         {
           "type": "img",
@@ -326,7 +326,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Los compradores mayoristas a los que más enviamos cajas de regalo de madera se agrupan en cinco clústeres. **Marcas de producto y lanzamientos de nuevas SKU** usan cajas de regalo con marca como embalaje primario — la caja que sostiene el producto en estantería y en el vídeo de unboxing. **Programas de regalo corporativo y promocional** producen cajas grabadas en 200–1.000 piezas para regalos a clientes y empleados, cómodamente por encima del umbral MOQ 300. **Las marcas de cajas de suscripción** usan cajas de madera como inserto conservable que convierte un paquete en un regalo e impulsa la recompra. **Programas retail y listos para estantería** requieren cajas individuales, blísteres o cajas máster con código de barras para la distribución. Y **marcas de belleza, joyería y consumo premium** ([ver la gama de relojes y joyería](/products/watch-jewelry)) usan cajas de regalo forradas en fieltro con insertos de espuma o terciopelo para piezas de presentación. El impulsor del repedido en los cinco es la constancia de lote — acabado, ajuste y correspondencia de color entre trimestres."
+          "text": "Los compradores mayoristas a los que más enviamos cajas de regalo de madera se agrupan en cinco clústeres. **Marcas de producto y lanzamientos de nuevas SKU** usan cajas de regalo con marca como embalaje primario — la caja que sostiene el producto en estantería y en el vídeo de unboxing. **Programas de regalo corporativo y promocional** producen cajas grabadas en 200–1.000 piezas para regalos a clientes y empleados, cómodamente por encima del umbral MOQ 200. **Las marcas de cajas de suscripción** usan cajas de madera como inserto conservable que convierte un paquete en un regalo e impulsa la recompra. **Programas retail y listos para estantería** requieren cajas individuales, blísteres o cajas máster con código de barras para la distribución. Y **marcas de belleza, joyería y consumo premium** ([ver la gama de relojes y joyería](/products/watch-jewelry)) usan cajas de regalo forradas en fieltro con insertos de espuma o terciopelo para piezas de presentación. El impulsor del repedido en los cinco es la constancia de lote — acabado, ajuste y correspondencia de color entre trimestres."
         },
         {
           "type": "img",
@@ -335,7 +335,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalización es el verdadero sentido de un programa mayorista de cajas de regalo (MOQ 300 piezas por diseño, 100 en un primer pedido de prueba). El branding usa toda la gama: grabado láser para marcas nítidas sin tinta, deboss para un logotipo prensado táctil, estampación en caliente para acabados retail oro y metalizados, serigrafía para logotipos de uno a seis colores e impresión UV a color pleno para artwork fotográfico. Los interiores se fabrican a medida — espuma cortada por CNC, bandejas forradas en terciopelo, pulpa moldeada para programas eco, o lazos de tiro y divisores. Los acabados abarcan laca mate y brillante, aceitado, pintado y crudo. Las dimensiones no tienen límite, desde una caja de muestra de 80 × 60 × 30 mm hasta un estuche de presentación de 600 × 400 × 200 mm, y un solo programa puede mezclar cierres e insertos entre SKU. Aquí la caja deja de ser embalaje y se convierte en parte del producto."
+          "text": "La personalización es el verdadero sentido de un programa mayorista de cajas de regalo (MOQ 200 piezas por diseño, 200 en un primer pedido de prueba). El branding usa toda la gama: grabado láser para marcas nítidas sin tinta, deboss para un logotipo prensado táctil, estampación en caliente para acabados retail oro y metalizados, serigrafía para logotipos de uno a seis colores e impresión UV a color pleno para artwork fotográfico. Los interiores se fabrican a medida — espuma cortada por CNC, bandejas forradas en terciopelo, pulpa moldeada para programas eco, o lazos de tiro y divisores. Los acabados abarcan laca mate y brillante, aceitado, pintado y crudo. Las dimensiones no tienen límite, desde una caja de muestra de 80 × 60 × 30 mm hasta un estuche de presentación de 600 × 400 × 200 mm, y un solo programa puede mezclar cierres e insertos entre SKU. Aquí la caja deja de ser embalaje y se convierte en parte del producto."
         },
         {
           "type": "p",
@@ -355,7 +355,7 @@ export default {
   },
   "tea-coffee": {
     "seoTitle": "Cajas de madera para té y café — Mayorista y fabricante OEM | CHIC",
-    "seoDescription": "Cajas de madera para café y té personalizadas al por mayor — compartimentadas para cápsulas y bolsitas, ventana de acrílico, acabado apto para contacto alimentario. MOQ 300, grabado láser. FOB Xiamen, envío a UE/US/UK/CA.",
+    "seoDescription": "Cajas de madera para café y té personalizadas al por mayor — compartimentadas para cápsulas y bolsitas, ventana de acrílico, acabado apto para contacto alimentario. MOQ 200, grabado láser. FOB Xiamen, envío a UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guía de compra B2B",
       "title": "Comprar cajas de madera para café al por mayor: una checklist para compradores B2B",
@@ -371,7 +371,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La profundidad de compartimento es donde la mayoría de importadores de cajas de madera para té de serie defrauda a sus clientes mayoristas cuando el canal de café en cápsulas repide la SKU. Un interior genérico de 30–40 mm cabe una bolsita de té pero es demasiado bajo para cualquier formato de cápsula moderno — Nespresso OriginalLine es 37 mm, K-Cup es 62 mm, Nespresso Vertuo es 53 mm, Lavazza A Modo Mio es 53 mm. Las cajas de madera para café personalizadas de este catálogo se suministran con 60–72 mm de profundidad interior de serie, suficiente para la cápsula mainstream más profunda, y en los pedidos personalizados a granel (MOQ 300 piezas por diseño) dividimos rutinariamente los compartimentos de forma asimétrica — por ejemplo cuatro grandes huecos para cápsulas más una fila baja de azúcar/galletas — para cuentas de minibar de hotel y programas de despensa de oficina corporativa. Las tapas con ventana de acrílico permiten al personal de tu cliente final ver el nivel sin abrir cada caja, lo que importa en entornos de hostelería de alto flujo y es un impulsor de repedido recurrente para las cuentas B2B."
+          "text": "La profundidad de compartimento es donde la mayoría de importadores de cajas de madera para té de serie defrauda a sus clientes mayoristas cuando el canal de café en cápsulas repide la SKU. Un interior genérico de 30–40 mm cabe una bolsita de té pero es demasiado bajo para cualquier formato de cápsula moderno — Nespresso OriginalLine es 37 mm, K-Cup es 62 mm, Nespresso Vertuo es 53 mm, Lavazza A Modo Mio es 53 mm. Las cajas de madera para café personalizadas de este catálogo se suministran con 60–72 mm de profundidad interior de serie, suficiente para la cápsula mainstream más profunda, y en los pedidos personalizados a granel (MOQ 200 piezas por diseño) dividimos rutinariamente los compartimentos de forma asimétrica — por ejemplo cuatro grandes huecos para cápsulas más una fila baja de azúcar/galletas — para cuentas de minibar de hotel y programas de despensa de oficina corporativa. Las tapas con ventana de acrílico permiten al personal de tu cliente final ver el nivel sin abrir cada caja, lo que importa en entornos de hostelería de alto flujo y es un impulsor de repedido recurrente para las cuentas B2B."
         },
         {
           "type": "img",
@@ -380,7 +380,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "En el lado mayorista, los compradores B2B a los que más enviamos cajas de madera para café personalizadas caen en cuatro grupos. Las marcas private-label de café por suscripción necesitan un acabado de lote constante y un grabado con marca en tiradas de 1.000–5.000 piezas — la relación con el fabricante se sostiene en la constancia del tono entre trimestres. Los programas de regalo corporativo son más pequeños — 200–500 piezas con logotipo grabado en la tapa, cómodamente por encima de nuestro umbral MOQ 300 para pedidos OEM. Los operadores de hotel y de estancia corta especifican laca lavable apta para contacto alimentario y cierre magnético o de bisagra para un servicio de cobertura silencioso. Las cafeterías de especialidad agrupan bolsas de grano y accesorios para clientes domésticos y necesitan cajas listas para estantería con códigos de barras. La decisión de cierre es mayormente estética — las [cajas de tapa deslizante](/products/sliding-lid) son las más tradicionales y aptas para regalo, el [cierre magnético](/products/magnetic) es el tacto más moderno y la opción de mayor valor percibido para las franjas mayoristas premium, y la bisagra está en medio para el uso retail diario."
+          "text": "En el lado mayorista, los compradores B2B a los que más enviamos cajas de madera para café personalizadas caen en cuatro grupos. Las marcas private-label de café por suscripción necesitan un acabado de lote constante y un grabado con marca en tiradas de 1.000–5.000 piezas — la relación con el fabricante se sostiene en la constancia del tono entre trimestres. Los programas de regalo corporativo son más pequeños — 200–500 piezas con logotipo grabado en la tapa, cómodamente por encima de nuestro umbral MOQ 200 para pedidos OEM. Los operadores de hotel y de estancia corta especifican laca lavable apta para contacto alimentario y cierre magnético o de bisagra para un servicio de cobertura silencioso. Las cafeterías de especialidad agrupan bolsas de grano y accesorios para clientes domésticos y necesitan cajas listas para estantería con códigos de barras. La decisión de cierre es mayormente estética — las [cajas de tapa deslizante](/products/sliding-lid) son las más tradicionales y aptas para regalo, el [cierre magnético](/products/magnetic) es el tacto más moderno y la opción de mayor valor percibido para las franjas mayoristas premium, y la bisagra está en medio para el uso retail diario."
         },
         {
           "type": "p",
@@ -391,7 +391,7 @@ export default {
   },
   "wine-whisky": {
     "seoTitle": "Cajas de madera para vino y whisky — Mayorista y fabricante OEM | CHIC",
-    "seoDescription": "Cajas de madera para vino y whisky personalizadas al por mayor — de una botella a magnum, alojamientos de espuma, de cajas de pino a presentación en nogal. MOQ 300, branding láser y a fuego. FOB Xiamen, envío a UE/US/UK/CA.",
+    "seoDescription": "Cajas de madera para vino y whisky personalizadas al por mayor — de una botella a magnum, alojamientos de espuma, de cajas de pino a presentación en nogal. MOQ 200, branding láser y a fuego. FOB Xiamen, envío a UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guía de compra B2B",
       "title": "Comprar cajas de madera para vino y whisky al por mayor: una guía para compradores B2B",
@@ -429,7 +429,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalización de un pedido mayorista de cajas para vino y whisky (MOQ 300 piezas por diseño, 100 en un primer pedido de prueba) gira en torno a dos cosas: el ajuste de la botella y el branding. Los alojamientos de espuma se cortan por CNC al perfil exacto de la botella y los accesorios en EVA negro o con marca, así una distribución para 1, 2, 3 o 6 botellas (magnum bajo petición) sujeta todo sin vibración. El branding va desde el tradicional a fuego para la marca vintage quemada — que el pino admite mejor que cualquier madera dura — pasando por grabado láser, estampación en caliente del añada y la etiqueta, hasta la serigrafía. Las opciones de construcción incluyen asas de cuerda, cuero y empotradas, cierres y bisagras de latón, portavasos y portadecantadores, y bandejas de accesorios para abridores y vertedores. Los acabados abarcan flameado, aceitado, lacado y barnizado. Las dimensiones no tienen límite, desde una estrecha caja de una botella hasta una caja de presentación magnum de seis botellas."
+          "text": "La personalización de un pedido mayorista de cajas para vino y whisky (MOQ 200 piezas por diseño, 200 en un primer pedido de prueba) gira en torno a dos cosas: el ajuste de la botella y el branding. Los alojamientos de espuma se cortan por CNC al perfil exacto de la botella y los accesorios en EVA negro o con marca, así una distribución para 1, 2, 3 o 6 botellas (magnum bajo petición) sujeta todo sin vibración. El branding va desde el tradicional a fuego para la marca vintage quemada — que el pino admite mejor que cualquier madera dura — pasando por grabado láser, estampación en caliente del añada y la etiqueta, hasta la serigrafía. Las opciones de construcción incluyen asas de cuerda, cuero y empotradas, cierres y bisagras de latón, portavasos y portadecantadores, y bandejas de accesorios para abridores y vertedores. Los acabados abarcan flameado, aceitado, lacado y barnizado. Las dimensiones no tienen límite, desde una estrecha caja de una botella hasta una caja de presentación magnum de seis botellas."
         },
         {
           "type": "img",
@@ -445,7 +445,7 @@ export default {
   },
   "sliding-lid": {
     "seoTitle": "Cajas de madera de tapa deslizante — Mayorista y fabricante OEM | CHIC",
-    "seoDescription": "Cajas de madera de tapa deslizante personalizadas al por mayor — pino, nogal, bambú, paulownia. OEM personalizado, MOQ 300, grabado láser, FSC y apto para contacto alimentario. FOB Xiamen, envío a UE/US/UK/CA.",
+    "seoDescription": "Cajas de madera de tapa deslizante personalizadas al por mayor — pino, nogal, bambú, paulownia. OEM personalizado, MOQ 200, grabado láser, FSC y apto para contacto alimentario. FOB Xiamen, envío a UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guía de compra B2B",
       "title": "Cajas de madera de tapa deslizante al por mayor: cómo los compradores B2B evalúan a un proveedor",
@@ -474,7 +474,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Los compradores mayoristas a los que más enviamos cajas de madera de tapa deslizante caen en seis clústeres de aplicación. **El embalaje de regalo para puros** es el segmento de mayor valor — cajas de madera de tapa deslizante para puros forradas en cedro español para marcas de tabaco, destiladores y casas de destilados con ediciones limitadas (tamaños de 5 puros hasta 25 estilo humidor). **El embalaje para detalles de boda y eventos** impulsa el volumen — cajas de madera de tapa deslizante grabadas para regalos a invitados, con superficies de tapa aptas para la personalización y franjas de MOQ adecuadas a eventos de 200–500 piezas. **Kits artesanales y juguetes educativos** apuestan por cajas de madera de tapa deslizante crudas — los exportadores las venden a minoristas que las pintan, decoran y revenden como producto de bricolaje. **Té y café premium** ([ver la gama de cajas para té/café](/products/tea-coffee)) usa cajas de madera de tapa deslizante con divisores de compartimentos y tapas de ventana de acrílico para la visibilidad retail. **Las SKU de joyería, pequeños objetos y recuerdo** usan cajas de madera de tapa deslizante forradas en fieltro para piezas de presentación asequibles que se sitúan por debajo de la franja de precio de las cajas de bisagra. Y **las marcas de cajas de suscripción** envían cajas de madera de tapa deslizante como inserto estructural que convierte un sobre de cartón en un recuerdo — mecánica de recompra integrada en el unboxing."
+          "text": "Los compradores mayoristas a los que más enviamos cajas de madera de tapa deslizante caen en seis clústeres de aplicación. **El embalaje de regalo para puros** es el segmento de mayor valor — cajas de madera de tapa deslizante para puros forradas en cedro español para marcas de tabaco, destiladores y casas de destilados con ediciones limitadas (tamaños de 5 puros hasta 25 estilo humidor). **El embalaje para detalles de boda y eventos** impulsa el volumen — cajas de madera de tapa deslizante grabadas para regalos a invitados, con superficies de tapa aptas para la personalización y franjas de MOQ adecuadas a eventos de 200 piezas. **Kits artesanales y juguetes educativos** apuestan por cajas de madera de tapa deslizante crudas — los exportadores las venden a minoristas que las pintan, decoran y revenden como producto de bricolaje. **Té y café premium** ([ver la gama de cajas para té/café](/products/tea-coffee)) usa cajas de madera de tapa deslizante con divisores de compartimentos y tapas de ventana de acrílico para la visibilidad retail. **Las SKU de joyería, pequeños objetos y recuerdo** usan cajas de madera de tapa deslizante forradas en fieltro para piezas de presentación asequibles que se sitúan por debajo de la franja de precio de las cajas de bisagra. Y **las marcas de cajas de suscripción** envían cajas de madera de tapa deslizante como inserto estructural que convierte un sobre de cartón en un recuerdo — mecánica de recompra integrada en el unboxing."
         },
         {
           "type": "img",
@@ -483,7 +483,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalización es donde el programa mayorista de cajas de madera de tapa deslizante se separa del producto de catálogo de serie. En los pedidos OEM (MOQ 300 piezas por diseño), la tapa es la mayor área brandizable de cualquier construcción de caja de madera — el grabado láser se asienta limpio sobre nogal, pino y paulownia a profundidad plena o de fracciones de milímetro; la estampación en caliente funciona para cajas con marca de franja retail donde la especificación necesita un acabado oro o metalizado; serigrafía e impresión UV cubren los logotipos a color pleno para tiradas promocionales y de regalo corporativo. Más allá de la tapa, la construcción misma admite trabajo de detalle: un tirador de dedo fresado en el borde frontal para apertura a una mano, una lengüeta de latón incrustada para las franjas premium, una ventana de acrílico cortada en la tapa para visibilidad (apreciada en programas de té y kits artesanales), un forro de fieltro o terciopelo para las SKU de joyería, y un imán oculto montado en la esquina que convierte una tapa deslizante en un mecanismo push-to-eject para cajas de regalo private-label premium. Las dimensiones de las cajas de madera de tapa deslizante personalizadas no tienen límite — hemos construido desde cajas para pendientes de 60 × 40 × 15 mm hasta cajas de presentación de sommelier de 400 × 300 × 100 mm del mismo patrón constructivo."
+          "text": "La personalización es donde el programa mayorista de cajas de madera de tapa deslizante se separa del producto de catálogo de serie. En los pedidos OEM (MOQ 200 piezas por diseño), la tapa es la mayor área brandizable de cualquier construcción de caja de madera — el grabado láser se asienta limpio sobre nogal, pino y paulownia a profundidad plena o de fracciones de milímetro; la estampación en caliente funciona para cajas con marca de franja retail donde la especificación necesita un acabado oro o metalizado; serigrafía e impresión UV cubren los logotipos a color pleno para tiradas promocionales y de regalo corporativo. Más allá de la tapa, la construcción misma admite trabajo de detalle: un tirador de dedo fresado en el borde frontal para apertura a una mano, una lengüeta de latón incrustada para las franjas premium, una ventana de acrílico cortada en la tapa para visibilidad (apreciada en programas de té y kits artesanales), un forro de fieltro o terciopelo para las SKU de joyería, y un imán oculto montado en la esquina que convierte una tapa deslizante en un mecanismo push-to-eject para cajas de regalo private-label premium. Las dimensiones de las cajas de madera de tapa deslizante personalizadas no tienen límite — hemos construido desde cajas para pendientes de 60 × 40 × 15 mm hasta cajas de presentación de sommelier de 400 × 300 × 100 mm del mismo patrón constructivo."
         },
         {
           "type": "p",
@@ -503,7 +503,7 @@ export default {
   },
   "magnetic": {
     "seoTitle": "Cajas de madera de cierre magnético — Mayorista y fabricante OEM | CHIC",
-    "seoDescription": "Cajas de madera de cierre magnético personalizadas al por mayor — imanes de neodimio ocultos, exterior limpio, clic premium. Embalaje de belleza, tecnología, suscripción y press kit. MOQ 300, FOB Xiamen, envío a UE/US/UK/CA.",
+    "seoDescription": "Cajas de madera de cierre magnético personalizadas al por mayor — imanes de neodimio ocultos, exterior limpio, clic premium. Embalaje de belleza, tecnología, suscripción y press kit. MOQ 200, FOB Xiamen, envío a UE/US/UK/CA.",
     "deepContent": {
       "eyebrow": "Guía de compra B2B",
       "title": "Comprar cajas de madera de cierre magnético al por mayor: una guía para compradores B2B",
@@ -541,7 +541,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La personalización de un pedido mayorista de cajas magnéticas (MOQ 300 piezas por diseño, 100 en un primer pedido de prueba) juega con el exterior limpio. Como nada interrumpe la superficie, el branding puede extenderse de borde a borde: impresión UV a color pleno y litho-laminado para artwork fotográfico, estampación en caliente para logotipos metalizados, deboss para una marca prensada táctil, serigrafía y grabado láser. Un lazo de tiro es un añadido común — facilita la apertura y añade un acento de color de marca. Los interiores se fabrican a medida: espuma cortada por CNC, bandejas forradas en terciopelo, pulpa moldeada para programas eco, o compartimentos divididos. Las opciones de madera y chapa abarcan madera maciza para las franjas premium y MDF chapado para construcciones impresas de pared fina. Las dimensiones no tienen límite, desde una caja tamaño baraja hasta un gran set de regalo de varias piezas, todas con el imán calibrado a la tapa específica."
+          "text": "La personalización de un pedido mayorista de cajas magnéticas (MOQ 200 piezas por diseño, 200 en un primer pedido de prueba) juega con el exterior limpio. Como nada interrumpe la superficie, el branding puede extenderse de borde a borde: impresión UV a color pleno y litho-laminado para artwork fotográfico, estampación en caliente para logotipos metalizados, deboss para una marca prensada táctil, serigrafía y grabado láser. Un lazo de tiro es un añadido común — facilita la apertura y añade un acento de color de marca. Los interiores se fabrican a medida: espuma cortada por CNC, bandejas forradas en terciopelo, pulpa moldeada para programas eco, o compartimentos divididos. Las opciones de madera y chapa abarcan madera maciza para las franjas premium y MDF chapado para construcciones impresas de pared fina. Las dimensiones no tienen límite, desde una caja tamaño baraja hasta un gran set de regalo de varias piezas, todas con el imán calibrado a la tapa específica."
         },
         {
           "type": "img",

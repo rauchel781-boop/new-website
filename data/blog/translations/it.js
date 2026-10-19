@@ -227,35 +227,35 @@ export default {
               "Incisione laser",
               "Legno naturale, loghi monocolore, nomi di marchio, design essenziale",
               "Basso",
-              "500 pz",
+              "200 pezzi",
               "1 giorno"
             ],
             [
               "Serigrafia",
               "Loghi a 1-2 colori, testo grande, grafiche semplici",
               "Basso-medio",
-              "1.000 pz",
+              "200 pezzi",
               "2-3 giorni"
             ],
             [
               "Stampa UV",
               "Grafiche a colori, foto, sfumature, design complessi",
               "Medio-alto",
-              "500 pz",
+              "200 pezzi",
               "2-3 giorni"
             ],
             [
               "Stampa a caldo",
               "Loghi metallizzati (oro, argento, oro rosa), scatole regalo premium, brand di lusso",
               "Alto",
-              "1.000 pz",
+              "200 pezzi",
               "3-5 giorni"
             ],
             [
               "Impressione in rilievo / incavo",
               "Branding tattile, loghi effetto pelle, regalistica aziendale",
               "Medio",
-              "1.000 pz",
+              "200 pezzi",
               "3-5 giorni"
             ]
           ]
@@ -300,7 +300,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il MOQ di fabbrica per le scatole portaoggetti in legno su misura con divisori estraibili è di 500 pezzi per design. Per ordini misti (più misure o finiture), il totale combinato deve essere di almeno 1.000 pezzi. Il tempo di [campionatura](/blog/low-moq-sampling-strategy) è di 7-10 giorni lavorativi dall'approvazione del design, e la produzione richiede 25-30 giorni dopo la conferma del campione e il versamento dell'acconto."
+          "text": "Il nostro ordine minimo è di 200 pezzi per modello per gli ordini OEM, ODM e i lotti di prova. Il tempo di [campionatura](/blog/low-moq-sampling-strategy) è di 7-10 giorni lavorativi dall'approvazione del design, e la produzione richiede 25-30 giorni dopo la conferma del campione e il versamento dell'acconto."
         },
         {
           "type": "p",
@@ -356,7 +356,7 @@ export default {
       "category": "Materiali",
       "readTime": "12 min di lettura",
       "body": [
-        { type: 'p', text: 'Prima di definire le specifiche, consulta [Perché un MOQ di 100 pezzi è il modo più intelligente per iniziare](/blog/low-moq-sampling-strategy).' },
+        { type: 'p', text: "Prima di definire le specifiche, consulta [Perché un MOQ di 200 pezzi è il modo più intelligente per iniziare](/blog/low-moq-sampling-strategy)." },
         {
           "type": "p",
           "text": "Quando si progetta una scatola in legno su misura, il materiale dell'inserto conta quanto la scatola stessa. La scelta sbagliata porta a prodotti danneggiati, costi più alti o una presentazione che non convince il cliente. In questa guida confrontiamo quattro materiali diffusi — spugna EVA, spugna EPE, velluto e feltro — sui criteri che decidono davvero: livello di protezione, rapporto costo-efficacia, estetica, impatto ambientale e possibilità di personalizzazione. Consulta i modelli disponibili nella categoria [Scatole Regalo e Imballaggio](/products/gift-packaging)."
@@ -512,7 +512,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un marchio di orologi di lusso doveva proteggere segnatempo di alto valore mantenendo una presentazione premium: ha adottato uno strato base di spugna EVA fustellata a forma di orologio con uno strato superiore di flocking in velluto sulla superficie EVA, ottenendo protezione 5 stelle più un'apertura di lusso, a 3-5 $ per inserto con MOQ 500. Un laboratorio artigianale di candele cercava un imballo ecologico per candele fatte a mano e ha usato inserti in feltro di lana tagliati su misura per i vasi; l'immagine naturale e sostenibile era in linea con il marchio e ha prodotto un aumento del 30 % dei riacquisti, a 1,50-2 $ per inserto con MOQ 100. Un e-commerce di elettronica che spediva altoparlanti Bluetooth su larga scala ha scelto paraspigoli in EPE con cuscino centrale, riducendo il costo di spedizione a peso e portando il tasso di danni dal 5 % a meno dell'1 %, a 0,50-0,80 $ per inserto con MOQ 1.000. Per un esempio a catalogo, consulta [Vetrina Display Tre Orologi](/products/watch-jewelry/three-watch-display-case)."
+          "text": "Un marchio di orologi di lusso doveva proteggere segnatempo di alto valore mantenendo una presentazione premium: ha adottato uno strato base di spugna EVA fustellata a forma di orologio con uno strato superiore di flocking in velluto sulla superficie EVA, ottenendo protezione 5 stelle più un'apertura di lusso, a 3-5 $ per inserto. Un laboratorio artigianale di candele cercava un imballo ecologico per candele fatte a mano e ha usato inserti in feltro di lana tagliati su misura per i vasi; l'immagine naturale e sostenibile era in linea con il marchio e ha prodotto un aumento del 30 % dei riacquisti, a 1,50-2 $ per inserto. Un e-commerce di elettronica che spediva altoparlanti Bluetooth su larga scala ha scelto paraspigoli in EPE con cuscino centrale, riducendo il costo di spedizione a peso e portando il tasso di danni dal 5 % a meno dell'1 %, a 0,50-0,80 $ per inserto. Per un esempio a catalogo, consulta [Vetrina Display Tre Orologi](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h2",
@@ -524,7 +524,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Metti in conto la quantità minima d'ordine (MOQ): la spugna EVA richiede di norma 300-500 pezzi per il costo di attrezzaggio della fustella, la spugna EPE 500-1.000 pezzi, i rivestimenti in velluto 100-300 pezzi, e il feltro solo 50-100 pezzi perché si lavora più facilmente in piccole serie. Per prodotti alimentari, medicali o per l'infanzia, verifica la conformità RoHS (assenza di sostanze pericolose), la certificazione REACH del regolamento europeo sulle sostanze chimiche e l'approvazione FDA per i materiali a contatto con alimenti. Per maggiori dettagli, consulta [Approvvigionarsi di scatole di legno personalizzate dalla Cina nel 2026: il playbook del buyer B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
+          "text": "Il nostro ordine minimo è di 200 pezzi per modello per gli ordini OEM, ODM e i lotti di prova. Per maggiori informazioni, consulta [Approvvigionarsi di scatole di legno personalizzate dalla Cina nel 2026: il playbook del buyer B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
         },
         {
           "type": "h2",
@@ -561,7 +561,7 @@ export default {
         },
         {
           "type": "compare",
-          "caption": "Confronto strutturale delle cinque chiusure. I tempi di consegna sono l'intervallo osservato nel nostro catalogo per quel tipo di chiusura; la MOQ è il minimo più frequente e si sposta con le dimensioni e la complessità della personalizzazione.",
+          "caption": "Il nostro ordine minimo è di 200 pezzi per modello per gli ordini OEM, ODM e i lotti di prova.",
           "items": [
             {
               "kind": "sliding",
@@ -574,7 +574,7 @@ export default {
                 },
                 {
                   "k": "MOQ tipica",
-                  "v": "200–500"
+                  "v": "200"
                 },
                 {
                   "k": "Tempo di consegna",
@@ -597,7 +597,7 @@ export default {
                 },
                 {
                   "k": "MOQ tipica",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Tempo di consegna",
@@ -621,7 +621,7 @@ export default {
                 },
                 {
                   "k": "MOQ tipica",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Tempo di consegna",
@@ -644,7 +644,7 @@ export default {
                 },
                 {
                   "k": "MOQ tipica",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Tempo di consegna",
@@ -667,7 +667,7 @@ export default {
                 },
                 {
                   "k": "MOQ tipica",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Tempo di consegna",
@@ -796,7 +796,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La tabella qui sotto è tratta dai nostri registri di produzione, non da medie di settore. I valori di MOQ sono il minimo più frequente per quella chiusura; sia la MOQ sia il tempo di consegna si spostano con le dimensioni della scatola, il metodo di personalizzazione e la complessità dell'interno, quindi consideratela come la forma della decisione e non come un preventivo."
+          "text": "Il nostro ordine minimo è di 200 pezzi per modello per gli ordini OEM, ODM e i lotti di prova."
         },
         {
           "type": "table",
@@ -811,35 +811,35 @@ export default {
             [
               "Coperchio scorrevole",
               "18",
-              "200–300 pz",
+              "200 pezzi",
               "20–30 giorni",
               "Tipo di finitura; la scanalatura è lavorata sulla dimensione finita"
             ],
             [
               "Coperchio a cerniera",
               "55",
-              "200–300 pz",
+              "200 pezzi",
               "25–35 giorni",
               "Specifica della cerniera e approvvigionamento ferramenta"
             ],
             [
               "Magnetica",
               "14",
-              "200–300 pz",
+              "200 pezzi",
               "30–35 giorni",
               "Posa e indurimento dei magneti prima della finitura"
             ],
             [
               "Cassetto",
               "25",
-              "200–300 pz",
+              "200 pezzi",
               "25–40 giorni",
               "Numero di livelli; tipo di guida"
             ],
             [
               "Con serratura",
               "9",
-              "200–300 pz",
+              "200 pezzi",
               "25–30 giorni",
               "Tipo di serratura e rinforzo delle cerniere"
             ]
@@ -945,7 +945,7 @@ export default {
           },
           {
             "q": "Cambiare chiusura abbassa la quantità minima d'ordine?",
-            "a": "No. In tutta la nostra gamma la MOQ più frequente è di 200-300 pezzi indipendentemente dalla chiusura, perché il minimo è fissato dall'attrezzaggio macchina e dall'acquisto dei materiali, non dal meccanismo. Passare da magnetica a scorrevole cambierà il costo unitario e i tempi, ma non il minimo."
+            "a": "Il nostro ordine minimo è di 200 pezzi per modello per gli ordini OEM, ODM e i lotti di prova."
           },
           {
             "q": "Le scatole in legno magnetiche sono la stessa cosa delle scatole rigide magnetiche?",
@@ -998,7 +998,7 @@ export default {
               "label": "Costo che è materia prima"
             },
             {
-              "num": "300",
+              "num": "200",
               "label": "Pezzi — MOQ standard"
             }
           ]
@@ -1009,7 +1009,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Se vi serve solo un numero per verificare una quotazione, ecco gli intervalli FOB indicativi che vediamo più spesso. Assumono un ordine OEM personalizzato pari o superiore al nostro MOQ standard di 300 pezzi per design; considerateli punti di partenza, non un listino prezzi — la vostra specifica esatta li muove."
+          "text": "Se vi serve solo un numero per verificare una quotazione, ecco gli intervalli FOB indicativi che vediamo più spesso. Assumono un ordine OEM personalizzato pari o superiore al nostro MOQ standard di 200 pezzi per design; considerateli punti di partenza, non un listino prezzi — la vostra specifica esatta li muove."
         },
         {
           "type": "table",
@@ -1110,7 +1110,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La quantità è la leva che controllate più direttamente. I costi fissi — il campione, il setup CNC, la calibrazione macchina, una serie di abbinamento colore — si spalmano sull'ordine, quindi il prezzo per unità scende più rapidamente tra un test da 100 pezzi e circa 1,000 pezzi, poi si appiattisce. Ecco perché ordinare 300 invece di 100 spesso taglia il prezzo unitario di un terzo, mentre passare da 3,000 a 10,000 fa risparmiare molto meno a pezzo."
+          "text": "Le quantità e i prezzi seguenti sono confronti indicativi, non offerte attuali. Il MOQ attuale è di 200 pezzi per modello; richiedi un preventivo per le tue specifiche."
         },
         {
           "type": "img",
@@ -1126,12 +1126,12 @@ export default {
           ],
           "rows": [
             [
-              "100 (test primo ordine)",
+              "100",
               "$14.0",
               "—"
             ],
             [
-              "300 (MOQ standard)",
+              "300",
               "$9.5",
               "−32%"
             ],
@@ -1154,7 +1154,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "La conclusione pratica: iniziate con un [ordine di prova da 100–300 pezzi](/blog/low-moq-sampling-strategy) per validare la scatola sul mercato, poi scalate negli scaglioni di prezzo una volta che vende. Pagare il prezzo unitario più alto del primo ordine è un'assicurazione economica contro l'impegno di 5,000 pezzi su uno SKU non provato."
+          "text": "La conclusione pratica: iniziate con un [ordine di prova da 200 pezzi](/blog/low-moq-sampling-strategy) per validare la scatola sul mercato, poi scalate negli scaglioni di prezzo una volta che vende. Pagare il prezzo unitario più alto del primo ordine è un'assicurazione economica contro l'impegno di 5,000 pezzi su uno SKU non provato."
         },
         {
           "type": "h2",
@@ -1408,7 +1408,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "\"Tipico\" vi dice il loro sweet spot commerciale; \"minimo\" vi dice se potete fare un test prima di impegnarvi su una stagione intera. Per la maggior parte delle scatole di legno personalizzate il [MOQ](/blog/low-moq-sampling-strategy) tipico è 500–1.000 pezzi; i MOQ minimi per primi ordini o specifiche più semplici possono essere 100–300. Se un fornitore rifiuta di quotare sotto i 1.000, probabilmente non è impostato per test incrementali — bene per linee consolidate, rischioso per un nuovo lancio."
+          "text": "Il nostro ordine minimo è di 200 pezzi per modello per gli ordini OEM, ODM e i lotti di prova. Per maggiori informazioni, consulta [MOQ](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "h3",
@@ -1470,7 +1470,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il MOQ è determinato dal costo del setup — programmare le seghe, configurare CNC, miscelare la finitura, costruire un campione, formare un team di finitura sul vostro design specifico. Sotto i 200–300 pezzi questi costi di setup si distribuiscono sottilmente sull'unità e il prezzo schizza. Tra 300 e 2.000 pezzi è lo sweet spot commerciale dove il setup ammortizza e ottenete il costo unitario più attraente. Sopra i 5.000 pezzi il prossimo gradino di sconto di solito richiede passare a un materiale più leggero o a una falegnameria più semplice — un prodotto diverso, non solo una serie più grande dello stesso."
+          "text": "Il MOQ è determinato dal costo del setup — programmare le seghe, configurare CNC, miscelare la finitura, costruire un campione, formare un team di finitura sul vostro design specifico. Sotto i 200 pezzi questi costi di setup si distribuiscono sottilmente sull'unità e il prezzo schizza. Tra 300 e 2.000 pezzi è lo sweet spot commerciale dove il setup ammortizza e ottenete il costo unitario più attraente. Sopra i 5.000 pezzi il prossimo gradino di sconto di solito richiede passare a un materiale più leggero o a una falegnameria più semplice — un prodotto diverso, non solo una serie più grande dello stesso."
         },
         {
           "type": "p",
@@ -1489,7 +1489,7 @@ export default {
           "type": "stats",
           "items": [
             {
-              "num": "300",
+              "num": "200",
               "label": "MOQ standard per design (pz)"
             },
             {
@@ -2570,7 +2570,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Se si cercano scatole per orologi per la prima volta, si consiglia vivamente di ordinare un campione di 50 pezzi prima di impegnarsi sul volume. Smonta le scatole di persona, fai scorrere il coperchio attraverso 200 cicli di chiusura aperta, lasciarne uno dall'altezza della scrivania, lasciarne uno nel bagagliaio dell'auto per una settimana. Le scatole che sopravvivono che sono le scatole che sopravviveranno ai tuoi clienti. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
+          "text": "Se si cercano scatole per orologi per la prima volta, si consiglia vivamente di ordinare un campione di 200 pezzi prima di impegnarsi sul volume. Smonta le scatole di persona, fai scorrere il coperchio attraverso 200 cicli di chiusura aperta, lasciarne uno dall'altezza della scrivania, lasciarne uno nel bagagliaio dell'auto per una settimana. Le scatole che sopravvivono che sono le scatole che sopravviveranno ai tuoi clienti. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
         }
       ]
     },
@@ -2813,7 +2813,7 @@ export default {
       "category": "Strategia",
       "readTime": "10 minuti di lettura",
       "body": [
-        { type: 'p', text: 'Prima di definire le specifiche, consulta [Perché un MOQ di 100 pezzi è il modo più intelligente per iniziare](/blog/low-moq-sampling-strategy).' },
+        { type: 'p', text: "Prima di definire le specifiche, consulta [Perché un MOQ di 200 pezzi è il modo più intelligente per iniziare](/blog/low-moq-sampling-strategy)." },
         {
           "type": "p",
           "text": "La maggior parte degli acquirenti impara la differenza tra OEM e ODM nel modo più duro. Di solito dopo che un preventivo torna al doppio di quello che si aspettavano, o dopo che un design \"stock\" risulta essere su un arretrato di un anno presso il fornitore, o dopo che un design \"personalizzato\" finisce per non assomigliare al rendering."
@@ -3456,7 +3456,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sì, lo consigliamo vivamente. Per circa $100-200 aggiunti a un ordine del campione, possiamo produrre due campioni con diversi trattamenti di finitura. Il costo è banale rispetto alla scelta sbagliata su migliaia di unità di produzione. Per maggiori dettagli, consulta [Perché un MOQ di 100 pezzi è il modo più intelligente per iniziare](/blog/low-moq-sampling-strategy)."
+          "text": "Sì, lo consigliamo vivamente. Per circa $100-200 aggiunti a un ordine del campione, possiamo produrre due campioni con diversi trattamenti di finitura. Il costo è banale rispetto alla scelta sbagliata su migliaia di unità di produzione. Per maggiori dettagli, consulta [Perché un MOQ di 200 pezzi è il modo più intelligente per iniziare](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "quote",
@@ -3465,7 +3465,7 @@ export default {
       ]
     },
     "low-moq-sampling-strategy": {
-      "title": "Perché un MOQ di 100 pezzi è il modo più intelligente per iniziare",
+      "title": "Perché un MOQ di 200 pezzi è il modo più intelligente per iniziare",
       "excerpt": "Come utilizzare campioni di produzione a basso MOQ per convalidare un progetto prima di impegnare il volume e perché il costo per unità più elevato si ripaga quasi sempre da solo.",
       "category": "Strategia",
       "readTime": "9 minuti di lettura",
@@ -3473,7 +3473,7 @@ export default {
         { type: 'p', text: 'Prima di definire le specifiche, consulta [Approvvigionarsi di scatole di legno personalizzate dalla Cina nel 2026: il playbook del buyer B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
-          "text": "La maggior parte delle fabbriche cita 500-1.000 pezzi minimi su scatole di legno personalizzate. Offriamo deliberatamente un campione di 100 pezzi perché risolve un problema che la maggior parte degli acquirenti non si rende conto di avere fino a quando non li morde."
+          "text": "Il nostro ordine minimo è di 200 pezzi per modello per gli ordini OEM, ODM e i lotti di prova. I casi storici seguenti descrivono quantità di ordini precedenti; il minimo attuale è di 200 pezzi per modello."
         },
         {
           "type": "p",
@@ -3481,7 +3481,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un campione di 100 pezzi attraversa gli stessi utensili, gli stessi dispositivi, gli stessi assemblatori e lo stesso traguardo di un ordine di 5.000 pezzi, solo con 100 pezzi invece di 5.000. Vedi come saranno effettivamente le scatole su scala. Possiamo regolare i dispositivi, le finiture e l'imballaggio prima di impegnarti a volume. Entrambe le parti imparano come appare il prodotto reale, non come appare il prototipo."
+          "text": "Un campione di 200 pezzi attraversa gli stessi utensili, gli stessi dispositivi, gli stessi assemblatori e lo stesso traguardo di un ordine di 5.000 pezzi, solo con 200 pezzi invece di 5.000. Vedi come saranno effettivamente le scatole su scala. Possiamo regolare i dispositivi, le finiture e l'imballaggio prima di impegnarti a volume. Entrambe le parti imparano come appare il prodotto reale, non come appare il prototipo."
         },
         {
           "type": "h2",
@@ -3517,7 +3517,7 @@ export default {
         },
         {
           "type": "h2",
-          "text": "Che test effettivamente eseguito da 100 pezzi"
+          "text": "Che test effettivamente eseguito da 200 pezzi"
         },
         {
           "type": "h3",
@@ -3525,7 +3525,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "I singoli campioni costruiti a mano utilizzano maschere temporanee e un assemblatore esperto che svolge un lavoro unico. Le corse di produzione utilizzano dispositivi permanenti con operatori che svolgono lo stesso compito centinaia di volte. La precisione del dispositivo su larga scala è la principale fonte di problemi \"la produzione sembra peggiore del campione\". Una corsa di 100 pezzi lo rivela. Per maggiori dettagli, consulta [OEM vs. ODM: quale è giusto per il tuo progetto di scatola di legno?](/blog/oem-vs-odm-wooden-boxes)."
+          "text": "I singoli campioni costruiti a mano utilizzano maschere temporanee e un assemblatore esperto che svolge un lavoro unico. Le corse di produzione utilizzano dispositivi permanenti con operatori che svolgono lo stesso compito centinaia di volte. La precisione del dispositivo su larga scala è la principale fonte di problemi \"la produzione sembra peggiore del campione\". Una corsa di 200 pezzi lo rivela. Per maggiori dettagli, consulta [OEM vs. ODM: quale è giusto per il tuo progetto di scatola di legno?](/blog/oem-vs-odm-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3533,7 +3533,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Un singolo campione utilizza la migliore tavola del negozio. Una corsa di produzione utilizza ogni scheda che soddisfa le specifiche. Variazione di colore, variazione dei grani, motivi dei nodi: tutti si aggirano in media su 100 scatole in un modo che non può essere testato con un singolo campione. Consulta le opzioni in [guida a legni, finiture e ferramenta](/material-guide)."
+          "text": "Un singolo campione utilizza la migliore tavola del negozio. Una corsa di produzione utilizza ogni scheda che soddisfa le specifiche. Variazione di colore, variazione dei grani, motivi dei nodi: tutti si aggirano in media su 200 scatole in un modo che non può essere testato con un singolo campione. Consulta le opzioni in [guida a legni, finiture e ferramenta](/material-guide)."
         },
         {
           "type": "h3",
@@ -3541,7 +3541,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "I cappotti finiti sono mescolati in lotti. Il tono esatto e la lucentezza possono variare leggermente tra i lotti. Una corsa di 100 pezzi utilizza 1-2 lotti di finitura, esponendo se il tuo design tollera quella variazione naturale. Per maggiori dettagli, consulta [5 tecniche di finitura che cambiano l'aspetto e la sensazione di una scatola di legno](/blog/wooden-box-finishing-techniques)."
+          "text": "I cappotti finiti sono mescolati in lotti. Il tono esatto e la lucentezza possono variare leggermente tra i lotti. Una corsa di 200 pezzi utilizza 1-2 lotti di finitura, esponendo se il tuo design tollera quella variazione naturale. Per maggiori dettagli, consulta [5 tecniche di finitura che cambiano l'aspetto e la sensazione di una scatola di legno](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h3",
@@ -3549,16 +3549,16 @@ export default {
         },
         {
           "type": "p",
-          "text": "I singoli campioni vengono spediti nel proprio imballaggio protettivo. La produzione viene spedita in mastri cartoni impilati su pallet: sono esposti a sollecitazioni di manipolazione che i singoli campioni non vedono mai. Una spedizione di prova di 100 pezzi passa attraverso la dogana reale, il trasporto reale, l'assunzione di magazzino reale. Gli acquirenti trovano regolarmente problemi di imballaggio in questa fase che non avrebbero mai catturato con un singolo campione. Per maggiori dettagli, consulta [Progettare imballaggi in legno per Amazon FBA](/blog/amazon-fba-wooden-packaging)."
+          "text": "I singoli campioni vengono spediti nel proprio imballaggio protettivo. La produzione viene spedita in mastri cartoni impilati su pallet: sono esposti a sollecitazioni di manipolazione che i singoli campioni non vedono mai. Una spedizione di prova di 200 pezzi passa attraverso la dogana reale, il trasporto reale, l'assunzione di magazzino reale. Gli acquirenti trovano regolarmente problemi di imballaggio in questa fase che non avrebbero mai catturato con un singolo campione. Per maggiori dettagli, consulta [Progettare imballaggi in legno per Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "img",
           "src": "/folder/4-pre-assemble.webp",
-          "caption": "Un campione di 100 pezzi eseguito sulla linea di produzione, gli stessi dispositivi degli ordini completi"
+          "caption": "Un campione di 200 pezzi eseguito sulla linea di produzione, gli stessi dispositivi degli ordini completi"
         },
         {
           "type": "h2",
-          "text": "Quando saltare la prova da 100 pezzi"
+          "text": "Quando saltare la prova da 200 pezzi"
         },
         {
           "type": "p",
@@ -3583,11 +3583,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Il [costo unitario](/blog/custom-wooden-box-cost-2026) su una corsa di 100 pezzi è in genere del 30-60% superiore rispetto a una corsa di 1.000 pezzi. Il lavoro di installazione è lo stesso; è solo distribuito su meno unità. Quindi la differenza di costo assoluta dipende dal prezzo della scatola."
+          "text": "Nei lotti di prova, i costi di avviamento si distribuiscono su meno unità rispetto agli ordini più grandi. Richiedi prezzi per il lotto di prova da 200 pezzi e per il riordino previsto con le stesse specifiche; la differenza dipende dal modello. Per maggiori informazioni, consulta [costo unitario](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
-          "text": "Per una scatola da $5, la prova da 100 pezzi costa circa $700-900 contro una corsa da 1.000 pezzi della stessa scatola (che sarebbe ~ $5.000). Per una scatola da $25, la prova costa $3. 000-3. 800 contro una corsa di 1.000 pezzi di $25.000."
+          "text": "Confronta il costo totale del progetto, inclusi avviamento, campioni e trasporto, prima di ordinare il lotto di prova. Conferma il preventivo per la quantità scelta anziché estrapolare un vecchio esempio di prezzo unitario."
         },
         {
           "type": "p",
@@ -3686,7 +3686,7 @@ export default {
         },
         {
           "type": "h3",
-          "text": "Quanto tempo richiede effettivamente una prova di 100 pezzi?"
+          "text": "Quanto tempo richiede effettivamente una prova di 200 pezzi?"
         },
         {
           "type": "p",
@@ -3698,7 +3698,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sì, ma il costo unitario aumenta notevolmente (in genere un premio del 60-100% rispetto ai prezzi di 100 pezzi) perché la configurazione della produzione è la stessa a prescindere. Per le prove da 25 pezzi di solito raccomandiamo di trattarle come campionamenti a pagamento piuttosto che come corse di prova: il volume è troppo piccolo per esercitare completamente la linea di produzione."
+          "text": "Ordini di produzione e lotti di prova partono da 200 pezzi per modello. Se devi approvare soltanto costruzione o finitura, richiedi un campione di preproduzione prima dell’ordine."
         },
         {
           "type": "h3",
@@ -3710,11 +3710,11 @@ export default {
         },
         {
           "type": "h3",
-          "text": "Cosa succede alle 100 unità di prova dopo che le ho ispezionate?"
+          "text": "Cosa succede alle 200 unità di prova dopo che le ho ispezionate?"
         },
         {
           "type": "p",
-          "text": "Tu tienili. Sono scatole di vera qualità di produzione (supponendo che non siano stati trovati problemi importanti). La maggior parte degli acquirenti utilizza unità di prova per la fotografia di marketing, la semina al dettaglio o come inventario iniziale. Alcuni acquirenti li usano come base per le prime recensioni dei clienti su Amazon o Shopify. In ogni caso, le unità non sono usa e getta: sono le tue prime 100 unità di inventario."
+          "text": "Tu tienili. Sono scatole di vera qualità di produzione (supponendo che non siano stati trovati problemi importanti). La maggior parte degli acquirenti utilizza unità di prova per la fotografia di marketing, la semina al dettaglio o come inventario iniziale. Alcuni acquirenti li usano come base per le prime recensioni dei clienti su Amazon o Shopify. In ogni caso, le unità non sono usa e getta: sono le tue prime 200 unità di inventario."
         },
         {
           "type": "quote",
@@ -3722,7 +3722,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Per gli acquirenti per la prima volta, consigliamo di trattare la prova di 100 pezzi come parte del budget del progetto dall'inizio, non come componente aggiuntivo opzionale. Costruiscilo nella tua linea temporale di lancio. Costruiscilo nel tuo prezzo SKU. Costruiscilo nel tuo rapporto con la fabbrica. Una volta che è una pratica normale, smetti di vedere i tassi di difetti del 12% e gli incendi di produzione dell'ultimo minuto che affliggono gli acquirenti che saltano questo passaggio. La maggior parte delle nostre relazioni con i clienti più grandi e più longeve è iniziata esattamente in questo modo: con un piccolo studio che ha creato fiducia prima che entrambe le parti si impegnassero a volume. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
+          "text": "Per gli acquirenti per la prima volta, consigliamo di trattare la prova di 200 pezzi come parte del budget del progetto dall'inizio, non come componente aggiuntivo opzionale. Costruiscilo nella tua linea temporale di lancio. Costruiscilo nel tuo prezzo SKU. Costruiscilo nel tuo rapporto con la fabbrica. Una volta che è una pratica normale, smetti di vedere i tassi di difetti del 12% e gli incendi di produzione dell'ultimo minuto che affliggono gli acquirenti che saltano questo passaggio. La maggior parte delle nostre relazioni con i clienti più grandi e più longeve è iniziata esattamente in questo modo: con un piccolo studio che ha creato fiducia prima che entrambe le parti si impegnassero a volume. Per definire le specifiche del tuo progetto, puoi [richiedere un preventivo](/contact#inquiry)."
         }
       ]
     },
@@ -4180,7 +4180,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Consigliamo vivamente un'ispezione di terze parti (SGS, BV, AsiaInspection, Asia Quality Focus) per ogni spedizione FBA. Il motivo è l'economia brutale: i rendimenti da Amazon sono costosi, ovunque tra il 5% e il 15% del valore della spedizione a seconda della categoria, più i danni al marchio causati dalle recensioni negative. Per maggiori dettagli, consulta [Perché un MOQ di 100 pezzi è il modo più intelligente per iniziare](/blog/low-moq-sampling-strategy)."
+          "text": "Consigliamo vivamente un'ispezione di terze parti (SGS, BV, AsiaInspection, Asia Quality Focus) per ogni spedizione FBA. Il motivo è l'economia brutale: i rendimenti da Amazon sono costosi, ovunque tra il 5% e il 15% del valore della spedizione a seconda della categoria, più i danni al marchio causati dalle recensioni negative. Per maggiori dettagli, consulta [Perché un MOQ di 200 pezzi è il modo più intelligente per iniziare](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "p",

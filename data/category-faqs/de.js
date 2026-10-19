@@ -16,7 +16,7 @@ export const FAQS = {
       },
       {
         "q": "Was ist das MOQ für individuell gestaltete Geschenkboxen aus Holz?",
-        "a": "Die Standard-MOQ beträgt 300–500 Stück, abhängig von der Designkomplexität. Testbestellungen ab 100 Stück können für ausgewählte einfache Modelle akzeptiert werden. Mustereinheiten vor der Produktion (1-3 Stück) werden innerhalb von 7 Arbeitstagen für Ihre Entwurfsgenehmigung versendet."
+        "a": "Unsere Mindestbestellmenge beträgt 200 Stück pro Design für OEM- und ODM-Aufträge. Senden Sie uns Ihre Spezifikationen und die gewünschte Menge für ein Angebot. Mustereinheiten vor der Produktion (1-3 Stück) werden innerhalb von 7 Arbeitstagen für Ihre Entwurfsgenehmigung versendet."
       },
       {
         "q": "Wie werden Innen einsätze für Geschenks ets angepasst?",
@@ -102,7 +102,7 @@ export const FAQS = {
       },
       {
         "q": "Was ist die typische Vorlaufzeit und MOQ für Weinkisten mit individueller Marke?",
-        "a": "Die Standard-MOQ beträgt 300–500 Stück, abhängig von der Designkomplexität. Testbestellungen ab 100 Stück können für einfache Standardgrößen akzeptiert werden. Die Standardvorlaufzeit beträgt 30-35 Tage nach der Genehmigung des Kunstwerks. Die Eilproduktion (20-25 Tage) ist gegen eine Beschleunigungsgebühr erhältlich."
+        "a": "Unsere Mindestbestellmenge beträgt 200 Stück pro Design für OEM- und ODM-Aufträge. Senden Sie uns Ihre Spezifikationen und die gewünschte Menge für ein Angebot. Die Standardvorlaufzeit beträgt 30-35 Tage nach der Genehmigung des Kunstwerks. Die Eilproduktion (20-25 Tage) ist gegen eine Beschleunigungsgebühr erhältlich."
       }
     ],
     "sectionTitle": "FAQ-Wein, Whisky & Spirituosen Holzkisten",
@@ -176,7 +176,7 @@ export const FAQS = {
       },
       {
         "q": "Was ist das MOQ und die Vorlaufzeit für kundenspezifische Aufbewahrungsboxen?",
-        "a": "Die Standard-MOQ beträgt 300–500 Stück, abhängig von der Designkomplexität. Testbestellungen ab 100 Stück können für ausgewählte einfache Modelle akzeptiert werden. Die Lieferzeit beträgt 30-35 Tage nach der Abmeldung des Kunstwerks. 7 Tage für Mustereinheiten. Die Musterkosten werden gegen die Großbestellung zurückerstattet."
+        "a": "Unsere Mindestbestellmenge beträgt 200 Stück pro Design für OEM- und ODM-Aufträge. Senden Sie uns Ihre Spezifikationen und die gewünschte Menge für ein Angebot. Die Lieferzeit beträgt 30-35 Tage nach der Abmeldung des Kunstwerks. 7 Tage für Mustereinheiten. Die Musterkosten werden gegen die Großbestellung zurückerstattet."
       },
       {
         "q": "Sind Aufbewahrung boxen stapelbar?",

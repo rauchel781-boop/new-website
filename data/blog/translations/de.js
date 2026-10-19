@@ -227,35 +227,35 @@ export default {
               "Lasergravur",
               "Naturbelassenes Holz, einfarbige Logos, Markennamen, reduzierte Gestaltung",
               "Niedrig",
-              "500 Stück",
+              "200 Stück",
               "1 Tag"
             ],
             [
               "Siebdruck",
               "1–2-farbige Logos, große Schrift, einfache Grafiken",
               "Niedrig–mittel",
-              "1.000 Stück",
+              "200 Stück",
               "2–3 Tage"
             ],
             [
               "UV-Druck",
               "Vollfarbige Motive, Fotos, Verläufe, komplexe Designs",
               "Mittel–hoch",
-              "500 Stück",
+              "200 Stück",
               "2–3 Tage"
             ],
             [
               "Heißfolienprägung",
               "Metallic-Logos (Gold, Silber, Roségold), Premium-Geschenkboxen, Luxus-Branding",
               "Hoch",
-              "1.000 Stück",
+              "200 Stück",
               "3–5 Tage"
             ],
             [
               "Tief-/Hochprägung",
               "Haptisches Branding, Lederoptik-Logos, Firmengeschenke",
               "Mittel",
-              "1.000 Stück",
+              "200 Stück",
               "3–5 Tage"
             ]
           ]
@@ -300,7 +300,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Unsere [MOQ](/blog/low-moq-sampling-strategy) für individuelle Holz-Aufbewahrungsboxen mit herausnehmbaren Trennwänden liegt bei 500 Stück pro Design. Bei gemischten Aufträgen (mehrere Größen oder Ausführungen) sollte die Gesamtmenge mindestens 1.000 Stück betragen. Die Musterlaufzeit beträgt 7–10 Arbeitstage ab Designfreigabe, die Produktionszeit 25–30 Tage nach Musterfreigabe und Anzahlung."
+          "text": "Unsere Mindestbestellmenge beträgt 200 Stück pro Design für OEM-, ODM- und Produktions-Testaufträge. Die Musterlaufzeit beträgt 7–10 Arbeitstage ab Designfreigabe, die Produktionszeit 25–30 Tage nach Musterfreigabe und Anzahlung. Weitere Informationen finden Sie hier: [MOQ](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "p",
@@ -356,7 +356,7 @@ export default {
       "category": "Materialien",
       "readTime": "12 Min. Lesezeit",
       "body": [
-        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [Warum ein 100-teiliges MOQ der klügste Weg ist, um zu beginnen](/blog/low-moq-sampling-strategy).' },
+        { type: 'p', text: "Bevor Sie die Spezifikationen festlegen, lesen Sie [Warum ein 200-teiliges MOQ der klügste Weg ist, um zu beginnen](/blog/low-moq-sampling-strategy)." },
         {
           "type": "p",
           "text": "Beim Entwurf individueller Holzboxen ist das Inlay-Material genauso entscheidend wie die Box selbst. Die falsche Wahl führt zu beschädigter Ware, höheren Kosten oder einer Präsentation, die Ihre Kunden nicht überzeugt. In diesem Leitfaden vergleichen wir vier gängige Inlay-Materialien — EVA-Schaum, EPE-Schaum, Samt und Filz — entlang der Entscheidungskriterien Schutzniveau, Wirtschaftlichkeit, Optik, Umweltwirkung und Individualisierbarkeit. Verfügbare Ausführungen finden Sie in der Kategorie [Geschenk- und Verpackungsboxen](/products/gift-packaging)."
@@ -512,7 +512,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Eine Luxusuhrenmarke wollte hochwertige Zeitmesser schützen und zugleich hochwertig präsentieren. Gelöst wurde das mit einer Basis aus EVA-Schaum, auf Uhrenform gestanzt, und einer Samtbeflockung auf der EVA-Oberfläche — 5-Sterne-Schutz plus Luxus-Unboxing, zu 3–5 $ pro Inlay bei einer MOQ von 500. Eine handwerkliche Kerzenmanufaktur suchte eine umweltfreundliche Verpackung für handgefertigte Kerzen und setzte Wollfilz-Inlays ein, passgenau auf die Kerzengläser geschnitten; die natürliche, nachhaltige Anmutung passte zur Marke und führte zu 30 % mehr Wiederkäufen, zu 1,50–2 $ pro Inlay bei einer MOQ von 100. Ein E-Commerce-Elektronikhändler musste Bluetooth-Lautsprecher in großer Stückzahl sicher versenden und nutzte EPE-Eckenschutz mit Mittelpolster — geringeres Versandgewicht und eine Schadensquote, die von 5 % auf unter 1 % fiel, zu 0,50–0,80 $ pro Inlay bei einer MOQ von 1.000. Ein Produktbeispiel finden Sie unter [Drei-Uhren-Präsentationskasten](/products/watch-jewelry/three-watch-display-case)."
+          "text": "Eine Luxusuhrenmarke wollte hochwertige Zeitmesser schützen und zugleich hochwertig präsentieren. Gelöst wurde das mit einer Basis aus EVA-Schaum, auf Uhrenform gestanzt, und einer Samtbeflockung auf der EVA-Oberfläche — 5-Sterne-Schutz plus Luxus-Unboxing, zu 3–5 $ pro Inlay. Eine handwerkliche Kerzenmanufaktur suchte eine umweltfreundliche Verpackung für handgefertigte Kerzen und setzte Wollfilz-Inlays ein, passgenau auf die Kerzengläser geschnitten; die natürliche, nachhaltige Anmutung passte zur Marke und führte zu 30 % mehr Wiederkäufen, zu 1,50–2 $ pro Inlay. Ein E-Commerce-Elektronikhändler musste Bluetooth-Lautsprecher in großer Stückzahl sicher versenden und nutzte EPE-Eckenschutz mit Mittelpolster — geringeres Versandgewicht und eine Schadensquote, die von 5 % auf unter 1 % fiel, zu 0,50–0,80 $ pro Inlay. Ein Produktbeispiel finden Sie unter [Drei-Uhren-Präsentationskasten](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h2",
@@ -524,7 +524,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Kalkulieren Sie die Mindestbestellmenge (MOQ) ein: EVA-Schaum verlangt wegen der Stanzwerkzeug-Einrichtung meist 300–500 Stück, EPE-Schaum 500–1.000 Stück, Samt-Einlagen 100–300 Stück und Filz nur 50–100 Stück, da er sich in kleinen Chargen leichter verarbeiten lässt. Bei Lebensmittel-, Medizin- oder Kinderprodukten prüfen Sie die RoHS-Konformität (keine Gefahrstoffe), die REACH-Zertifizierung für die EU-Chemikalienverordnung und die FDA-Zulassung für Materialien mit Lebensmittelkontakt. Weitere Hinweise finden Sie unter [Maßgefertigte Holzboxen aus China beziehen 2026: ein B2B-Beschaffungsleitfaden](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
+          "text": "Unsere Mindestbestellmenge beträgt 200 Stück pro Design für OEM-, ODM- und Produktions-Testaufträge. Weitere Informationen finden Sie hier: [Maßgefertigte Holzboxen aus China beziehen 2026: ein B2B-Beschaffungsleitfaden](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
         },
         {
           "type": "h2",
@@ -561,7 +561,7 @@ export default {
         },
         {
           "type": "compare",
-          "caption": "Struktureller Vergleich der fünf Verschlüsse. Die Lieferzeiten sind die Spanne, die wir für diesen Verschlusstyp im eigenen Katalog beobachten; die MOQ ist das häufigste Minimum und verschiebt sich mit Größe und Branding-Komplexität.",
+          "caption": "Unsere Mindestbestellmenge beträgt 200 Stück pro Design für OEM-, ODM- und Produktions-Testaufträge.",
           "items": [
             {
               "kind": "sliding",
@@ -574,7 +574,7 @@ export default {
                 },
                 {
                   "k": "Typische MOQ",
-                  "v": "200–500"
+                  "v": "200"
                 },
                 {
                   "k": "Lieferzeit",
@@ -597,7 +597,7 @@ export default {
                 },
                 {
                   "k": "Typische MOQ",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Lieferzeit",
@@ -621,7 +621,7 @@ export default {
                 },
                 {
                   "k": "Typische MOQ",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Lieferzeit",
@@ -644,7 +644,7 @@ export default {
                 },
                 {
                   "k": "Typische MOQ",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Lieferzeit",
@@ -667,7 +667,7 @@ export default {
                 },
                 {
                   "k": "Typische MOQ",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Lieferzeit",
@@ -796,7 +796,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die folgende Tabelle stammt aus unseren eigenen Produktionsaufzeichnungen, nicht aus Branchendurchschnitten. Die MOQ-Werte sind das häufigste Minimum für diesen Verschluss; sowohl MOQ als auch Lieferzeit verschieben sich mit Boxgröße, Branding-Methode und Einlagenkomplexität — nehmen Sie sie also als Form der Entscheidung, nicht als Angebot."
+          "text": "Unsere Mindestbestellmenge beträgt 200 Stück pro Design für OEM-, ODM- und Produktions-Testaufträge."
         },
         {
           "type": "table",
@@ -811,35 +811,35 @@ export default {
             [
               "Schiebedeckel",
               "18",
-              "200–300 Stk.",
+              "200 Stück",
               "20–30 Tage",
               "Oberflächenart; Nut wird auf Fertigmaß gefräst"
             ],
             [
               "Scharnierdeckel",
               "55",
-              "200–300 Stk.",
+              "200 Stück",
               "25–35 Tage",
               "Scharnier-Spezifikation und Beschlagbeschaffung"
             ],
             [
               "Magnetisch",
               "14",
-              "200–300 Stk.",
+              "200 Stück",
               "30–35 Tage",
               "Magnetsitz und Aushärtung vor der Lackierung"
             ],
             [
               "Schublade",
               "25",
-              "200–300 Stk.",
+              "200 Stück",
               "25–40 Tage",
               "Ebenenzahl; Auszugstyp"
             ],
             [
               "Abschließbar",
               "9",
-              "200–300 Stk.",
+              "200 Stück",
               "25–30 Tage",
               "Schlosstyp und Scharnierverstärkung"
             ]
@@ -945,7 +945,7 @@ export default {
           },
           {
             "q": "Senkt ein Wechsel des Verschlusses die Mindestbestellmenge?",
-            "a": "Nein. In unserem gesamten Sortiment liegt die häufigste MOQ unabhängig vom Verschluss bei 200 bis 300 Stück, weil das Minimum von Maschinenrüstung und Materialeinkauf bestimmt wird und nicht vom Mechanismus. Der Wechsel von Magnet auf Schiebedeckel ändert Stückpreis und Lieferzeit, aber nicht Ihr Minimum."
+            "a": "Unsere Mindestbestellmenge beträgt 200 Stück pro Design für OEM-, ODM- und Produktions-Testaufträge."
           },
           {
             "q": "Sind Holzboxen mit Magnetverschluss dasselbe wie magnetische Kaschierschachteln?",
@@ -998,7 +998,7 @@ export default {
               "label": "Kostenanteil Rohmaterial"
             },
             {
-              "num": "300",
+              "num": "200",
               "label": "Stück — Standard-MOQ"
             }
           ]
@@ -1009,7 +1009,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Wenn Sie nur eine Zahl brauchen, um ein Angebot auf Plausibilität zu prüfen, hier die indikativen FOB-Spannen, die wir am häufigsten sehen. Sie setzen einen maßgefertigten OEM-Auftrag bei oder über unserer Standard-MOQ von 300 Stück pro Design voraus; behandeln Sie sie als Ausgangspunkte, nicht als Preisliste — Ihre genaue Spezifikation verschiebt sie."
+          "text": "Wenn Sie nur eine Zahl brauchen, um ein Angebot auf Plausibilität zu prüfen, hier die indikativen FOB-Spannen, die wir am häufigsten sehen. Sie setzen einen maßgefertigten OEM-Auftrag bei oder über unserer Standard-MOQ von 200 Stück pro Design voraus; behandeln Sie sie als Ausgangspunkte, nicht als Preisliste — Ihre genaue Spezifikation verschiebt sie."
         },
         {
           "type": "table",
@@ -1110,7 +1110,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Menge ist der Hebel, den Sie am direktesten kontrollieren. Fixkosten — das Muster, die CNC-Einrichtung, die Maschinenkalibrierung, ein Farbabgleichs-Lauf — werden über den Auftrag verteilt, sodass der Stückpreis am schnellsten zwischen einem 100-Stück-Test und etwa 1,000 Stück fällt und dann abflacht. Deshalb senkt die Bestellung von 300 statt 100 den Stückpreis oft um ein Drittel, während der Sprung von 3,000 auf 10,000 weit weniger pro Stück spart."
+          "text": "Die Mengen und Preise unten dienen nur dem Vergleich und sind keine aktuellen Bestellangebote. Die aktuelle MOQ beträgt 200 Stück pro Design; fragen Sie ein Angebot für Ihre Spezifikation an."
         },
         {
           "type": "img",
@@ -1126,12 +1126,12 @@ export default {
           ],
           "rows": [
             [
-              "100 (Erstbestellungs-Test)",
+              "100",
               "$14.0",
               "—"
             ],
             [
-              "300 (Standard-MOQ)",
+              "300",
               "$9.5",
               "−32%"
             ],
@@ -1154,7 +1154,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die praktische Erkenntnis: Beginnen Sie mit einer [Testbestellung von 100–300 Stück](/blog/low-moq-sampling-strategy), um die Box im Markt zu validieren, und skalieren Sie dann in die Preisstaffeln, sobald sie sich verkauft. Den höheren Stückpreis der Erstbestellung zu zahlen, ist eine günstige Versicherung dagegen, 5,000 Stück für eine unerprobte SKU zu verpflichten."
+          "text": "Die praktische Erkenntnis: Beginnen Sie mit einer [Testbestellung von 200 Stück](/blog/low-moq-sampling-strategy), um die Box im Markt zu validieren, und skalieren Sie dann in die Preisstaffeln, sobald sie sich verkauft. Den höheren Stückpreis der Erstbestellung zu zahlen, ist eine günstige Versicherung dagegen, 5,000 Stück für eine unerprobte SKU zu verpflichten."
         },
         {
           "type": "h2",
@@ -1408,7 +1408,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "\"Typisch\" verrät Ihnen den kommerziellen Sweet Spot; \"Mindest\" verrät Ihnen, ob Sie einen [Testlauf](/blog/low-moq-sampling-strategy) machen können, bevor Sie sich für eine ganze Saison verpflichten. Für die meisten maßgefertigten Holzboxen liegt die typische MOQ bei 500–1.000 Stück; Mindest-MOQs für Erstbestellungen oder einfachere Spezifikationen können bei 100–300 liegen. Wenn ein Lieferant sich weigert, etwas unter 1.000 zu offerieren, ist er wahrscheinlich nicht auf inkrementelles Testen ausgelegt — okay für etablierte Linien, riskant für einen neuen Produkt-Launch."
+          "text": "Unsere Mindestbestellmenge beträgt 200 Stück pro Design für OEM-, ODM- und Produktions-Testaufträge. Weitere Informationen finden Sie hier: [Testlauf](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "h3",
@@ -1470,7 +1470,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die MOQ wird durch die Rüstkosten bestimmt — Sägen programmieren, CNC konfigurieren, Finish mischen, ein Muster bauen, ein Veredelungs-Team auf Ihr spezifisches Design schulen. Unter 200–300 Stück verteilen sich diese Rüstkosten dünn auf die Einheit und der Preis schießt nach oben. Zwischen 300 und 2.000 Stück liegt der kommerzielle Sweet Spot, in dem die Rüstkosten amortisieren und Sie die attraktivsten Stückkosten bekommen. Über 5.000 Stück erfordert der nächste Rabattschritt meist einen Wechsel zu leichterem Material oder einfacherer Schreinerarbeit — ein anderes Produkt, nicht nur eine größere Serie desselben."
+          "text": "Die MOQ wird durch die Rüstkosten bestimmt — Sägen programmieren, CNC konfigurieren, Finish mischen, ein Muster bauen, ein Veredelungs-Team auf Ihr spezifisches Design schulen. Unter 200 Stück verteilen sich diese Rüstkosten dünn auf die Einheit und der Preis schießt nach oben. Zwischen 300 und 2.000 Stück liegt der kommerzielle Sweet Spot, in dem die Rüstkosten amortisieren und Sie die attraktivsten Stückkosten bekommen. Über 5.000 Stück erfordert der nächste Rabattschritt meist einen Wechsel zu leichterem Material oder einfacherer Schreinerarbeit — ein anderes Produkt, nicht nur eine größere Serie desselben."
         },
         {
           "type": "p",
@@ -1489,7 +1489,7 @@ export default {
           "type": "stats",
           "items": [
             {
-              "num": "300",
+              "num": "200",
               "label": "Standard-MOQ pro Design (Stk.)"
             },
             {
@@ -2570,7 +2570,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Wenn Sie zum ersten Mal Uhren boxen beziehen, empfehlen wir dringend, einen 50-teiligen Probelauf zu bestellen, bevor Sie sich auf das Volumen festlegen. Nehmen Sie die Kisten persönlich auseinander, führen Sie den Deckel durch 200 Open-Close-Zyklen, lassen Sie einen von der Schreibtisch höhe fallen und lassen Sie einen eine Woche lang im Kofferraum Ihres Autos. Die Boxen, die überleben, sind die Boxen, die Ihre Kunden überleben werden. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
+          "text": "Wenn Sie zum ersten Mal Uhren boxen beziehen, empfehlen wir dringend, einen 200-teiligen Probelauf zu bestellen, bevor Sie sich auf das Volumen festlegen. Nehmen Sie die Kisten persönlich auseinander, führen Sie den Deckel durch 200 Open-Close-Zyklen, lassen Sie einen von der Schreibtisch höhe fallen und lassen Sie einen eine Woche lang im Kofferraum Ihres Autos. Die Boxen, die überleben, sind die Boxen, die Ihre Kunden überleben werden. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
         }
       ]
     },
@@ -2813,7 +2813,7 @@ export default {
       "category": "Strategie",
       "readTime": "10 Minuten Lesezeit",
       "body": [
-        { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [Warum ein 100-teiliges MOQ der klügste Weg ist, um zu beginnen](/blog/low-moq-sampling-strategy).' },
+        { type: 'p', text: "Bevor Sie die Spezifikationen festlegen, lesen Sie [Warum ein 200-teiliges MOQ der klügste Weg ist, um zu beginnen](/blog/low-moq-sampling-strategy)." },
         {
           "type": "p",
           "text": "Die meisten Käufer lernen den Unterschied zwischen OEM und ODM auf die harte Tour. Normaler weise, nachdem ein Angebot doppelt so hoch ist wie erwartet, oder nachdem sich herausstellt, dass ein \"Stock\"-Design einen einjährigen Rückstand beim Lieferanten hat oder nachdem ein \"benutzer definiertes\" Design nicht wie das Rendering aussieht."
@@ -3456,7 +3456,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ja-wir empfehlen es dringend. Für etwa 100 bis 200 US-Dollar, die zu einer Muster bestellung hinzugefügt wurden, können wir zwei Proben mit unterschied lichen Finish-Behandlungen herstellen. Die Kosten sind im Verhältnis zu Tausenden von Produktions einheiten trivial. Weitere Hinweise finden Sie unter [Warum ein 100-teiliges MOQ der klügste Weg ist, um zu beginnen](/blog/low-moq-sampling-strategy)."
+          "text": "Ja-wir empfehlen es dringend. Für etwa 100 bis 200 US-Dollar, die zu einer Muster bestellung hinzugefügt wurden, können wir zwei Proben mit unterschied lichen Finish-Behandlungen herstellen. Die Kosten sind im Verhältnis zu Tausenden von Produktions einheiten trivial. Weitere Hinweise finden Sie unter [Warum ein 200-teiliges MOQ der klügste Weg ist, um zu beginnen](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "quote",
@@ -3465,7 +3465,7 @@ export default {
       ]
     },
     "low-moq-sampling-strategy": {
-      "title": "Warum ein 100-teiliges MOQ der klügste Weg ist, um zu beginnen",
+      "title": "Warum ein 200-teiliges MOQ der klügste Weg ist, um zu beginnen",
       "excerpt": "Wie Sie Produktions muster mit niedrigem MOQ verwenden, um ein Design zu validieren, bevor Sie das Volumen festlegen-und warum sich die höheren Kosten pro Einheit fast immer amortis ieren.",
       "category": "Strategie",
       "readTime": "9 Minuten Lesezeit",
@@ -3473,7 +3473,7 @@ export default {
         { type: 'p', text: 'Bevor Sie die Spezifikationen festlegen, lesen Sie [Maßgefertigte Holzboxen aus China beziehen 2026: ein B2B-Beschaffungsleitfaden](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
-          "text": "Die meisten Fabriken geben Mindest anforderungen von 500 bis 1.000 Stück auf benutzer definierten Holzkisten an. Wir bieten absichtlich einen 100-teiligen Probelauf an, da er ein Problem löst, das die meisten Käufer nicht bemerken, bis es sie beißt."
+          "text": "Unsere Mindestbestellmenge beträgt 200 Stück pro Design für OEM-, ODM- und Produktions-Testaufträge. Die historischen Beispiele unten beschreiben frühere Bestellmengen; die aktuelle Mindestmenge beträgt 200 Stück pro Design."
         },
         {
           "type": "p",
@@ -3481,7 +3481,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ein 100-teiler Probelauf durchläuft dieselben Werkzeuge, dieselben Vorrichtungen, dieselben Monteure und dieselbe Ziellinie wie eine Bestellung mit 5.000 Teilen-nur mit 100 statt 5.000 Stück. Sie sehen, wie die Boxen tatsächlich im Maßstab aussehen werden. Wir können Armaturen, Oberflächen und Verpackungen anpassen, bevor Sie sich zur Lautstärke verpflichten. Beide Seiten erfahren, wie das echte Produkt aussieht, nicht wie der Prototyp aussieht."
+          "text": "Ein 200-teiler Probelauf durchläuft dieselben Werkzeuge, dieselben Vorrichtungen, dieselben Monteure und dieselbe Ziellinie wie eine Bestellung mit 5.000 Teilen-nur mit 200 statt 5.000 Stück. Sie sehen, wie die Boxen tatsächlich im Maßstab aussehen werden. Wir können Armaturen, Oberflächen und Verpackungen anpassen, bevor Sie sich zur Lautstärke verpflichten. Beide Seiten erfahren, wie das echte Produkt aussieht, nicht wie der Prototyp aussieht."
         },
         {
           "type": "h2",
@@ -3517,7 +3517,7 @@ export default {
         },
         {
           "type": "h2",
-          "text": "Was für ein 100-teiler Lauf tatsächlich testet"
+          "text": "Was für ein 200-teiler Lauf tatsächlich testet"
         },
         {
           "type": "h3",
@@ -3525,7 +3525,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Einzelne hand gefertigte Proben verwenden temporäre Vorsprünge und einen erfahrenen Assembler, der einmalige Arbeiten leistet. Bei Produktions läufen werden permanente Geräte verwendet, bei denen die Bediener hunderte Male dieselbe Aufgabe ausführen. Die Genauigkeit der Fixierung im Maßstab ist die größte Quelle für Probleme mit \"Der Produktions lauf sieht schlechter aus als die Stichprobe\". Ein 100-teiler Lauf enthüllt dies. Weitere Hinweise finden Sie unter [OEM vs. ODM: Welches ist das Richtige für Ihr Holzkisten projekt?](/blog/oem-vs-odm-wooden-boxes)."
+          "text": "Einzelne hand gefertigte Proben verwenden temporäre Vorsprünge und einen erfahrenen Assembler, der einmalige Arbeiten leistet. Bei Produktions läufen werden permanente Geräte verwendet, bei denen die Bediener hunderte Male dieselbe Aufgabe ausführen. Die Genauigkeit der Fixierung im Maßstab ist die größte Quelle für Probleme mit \"Der Produktions lauf sieht schlechter aus als die Stichprobe\". Ein 200-teiler Lauf enthüllt dies. Weitere Hinweise finden Sie unter [OEM vs. ODM: Welches ist das Richtige für Ihr Holzkisten projekt?](/blog/oem-vs-odm-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3533,7 +3533,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Eine einzelne Probe verwendet das beste Board im Shop. Bei einem Produktions lauf wird jedes Board verwendet, das der Spezifikation entspricht. Farb variation, Korn variation, Knoten muster-alle durchschnitt lich 100 Kartons auf eine Weise, die nicht mit einer einzigen Probe getestet werden kann. Die Optionen finden Sie unter [Leitfaden zu Holz, Oberflächen und Beschlägen](/material-guide)."
+          "text": "Eine einzelne Probe verwendet das beste Board im Shop. Bei einem Produktions lauf wird jedes Board verwendet, das der Spezifikation entspricht. Farb variation, Korn variation, Knoten muster-alle durchschnitt lich 200 Kartons auf eine Weise, die nicht mit einer einzigen Probe getestet werden kann. Die Optionen finden Sie unter [Leitfaden zu Holz, Oberflächen und Beschlägen](/material-guide)."
         },
         {
           "type": "h3",
@@ -3541,7 +3541,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Finish-Mäntel werden in Chargen gemischt. Der genaue Ton und der Glanz können zwischen den Chargen subtil variieren. Bei einem 100-teiligen Lauf werden 1-2 Finish-Chargen verwendet, um fest zustellen, ob Ihr Design diese natürliche Variation toleriert. Weitere Hinweise finden Sie unter [5 Finishing-Techniken, die verändern, wie eine Holzkiste aussieht und sich anfühlt](/blog/wooden-box-finishing-techniques)."
+          "text": "Finish-Mäntel werden in Chargen gemischt. Der genaue Ton und der Glanz können zwischen den Chargen subtil variieren. Bei einem 200-teiligen Lauf werden 1-2 Finish-Chargen verwendet, um fest zustellen, ob Ihr Design diese natürliche Variation toleriert. Weitere Hinweise finden Sie unter [5 Finishing-Techniken, die verändern, wie eine Holzkiste aussieht und sich anfühlt](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h3",
@@ -3549,16 +3549,16 @@ export default {
         },
         {
           "type": "p",
-          "text": "Einzelne Proben versenden in einer eigenen Schutz verpackung. Die Produktions läufe werden in auf Paletten gestapelten Haupt kartons durchgeführt-sie sind Handling spannungen ausgesetzt, die einzelne Proben niemals sehen. Eine 100-teilige Probelieferung geht durch echten Zoll, echte Fracht und echte Lager aufnahme. Käufer finden zu diesem Zeitpunkt regelmäßig Verpackungs probleme, die sie mit einer einzigen Probe niemals erwischt hätten. Weitere Hinweise finden Sie unter [Entwerfen von Holz verpackungen für Amazon FBA](/blog/amazon-fba-wooden-packaging)."
+          "text": "Einzelne Proben versenden in einer eigenen Schutz verpackung. Die Produktions läufe werden in auf Paletten gestapelten Haupt kartons durchgeführt-sie sind Handling spannungen ausgesetzt, die einzelne Proben niemals sehen. Eine 200-teilige Probelieferung geht durch echten Zoll, echte Fracht und echte Lager aufnahme. Käufer finden zu diesem Zeitpunkt regelmäßig Verpackungs probleme, die sie mit einer einzigen Probe niemals erwischt hätten. Weitere Hinweise finden Sie unter [Entwerfen von Holz verpackungen für Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "img",
           "src": "/folder/4-pre-assemble.webp",
-          "caption": "Ein 100-teiliges Muster auf der Produktions linie-die gleichen Leuchten wie bei vollständigen Bestellungen"
+          "caption": "Ein 200-teiliges Muster auf der Produktions linie-die gleichen Leuchten wie bei vollständigen Bestellungen"
         },
         {
           "type": "h2",
-          "text": "Wann sollte die 100-teilige Testversion übersprungen werden"
+          "text": "Wann sollte die 200-teilige Testversion übersprungen werden"
         },
         {
           "type": "p",
@@ -3583,11 +3583,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "Die Kosten pro Einheit bei einem 100-teiligen Lauf sind in der Regel 30-60% höher als bei einem Lauf mit 1.000 Teilen. Die Setup-Arbeit ist die gleiche; es ist nur auf weniger Einheiten verteilt. Der absolute Kosten unterschied hängt also vom Box preis ab. Weitere Hinweise finden Sie unter [Was kosten maßgefertigte Holzboxen? Ein Großhandels- und OEM-Preisleitfaden für 2026](/blog/custom-wooden-box-cost-2026)."
+          "text": "Bei Testläufen verteilen sich die Rüstkosten auf weniger Einheiten als bei größeren Aufträgen. Fragen Sie Preise für einen Testlauf mit 200 Stück und die geplante Nachbestellmenge bei identischer Spezifikation an; die Preisdifferenz hängt vom Design ab. Weitere Informationen finden Sie hier: [Was kosten maßgefertigte Holzboxen? Ein Großhandels- und OEM-Preisleitfaden für 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
-          "text": "Für eine 5-Dollar-Box kostet die 100-teilige Testversion etwa 700 bis 900 US-Dollar im Vergleich zu einem 1000-teiligen Lauf derselben Box (das wären ~ 5. 000 US-Dollar). Für eine 25-Dollar-Box kostet der Test 3.000 bis 3.800 Dollar, verglichen mit einem 1000-teiligen Lauf von 25.000 Dollar."
+          "text": "Vergleichen Sie vor dem Testauftrag die gesamten Projektkosten einschließlich Einrichtung, Muster und Fracht. Bestätigen Sie das Angebot für die gewählte Menge, statt ein früheres Stückpreisbeispiel hochzurechnen."
         },
         {
           "type": "p",
@@ -3686,7 +3686,7 @@ export default {
         },
         {
           "type": "h3",
-          "text": "Wie lange dauert eine 100-teilige Testversion tatsächlich?"
+          "text": "Wie lange dauert eine 200-teilige Testversion tatsächlich?"
         },
         {
           "type": "p",
@@ -3698,7 +3698,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Ja, aber die Kosten pro Einheit steigen stark an (normaler weise 60-100% Prämie gegenüber 100-teiligen Preisen), da das Produktions-Setup unabhängig davon gleich ist. Für 25-teilige Versuche empfehlen wir normaler weise, sie als bezahlte Probenahme und nicht als Probe läufe zu behandeln-das Volumen ist zu gering, um die Produktions linie vollständig auszuüben."
+          "text": "Produktionsaufträge und Testläufe beginnen bei 200 Stück pro Design. Wenn Sie nur Konstruktion oder Oberfläche freigeben möchten, fragen Sie vor dem Produktionsauftrag nach einem Vorserienmuster."
         },
         {
           "type": "h3",
@@ -3710,11 +3710,11 @@ export default {
         },
         {
           "type": "h3",
-          "text": "Was passiert mit den 100 Versuchs einheiten, nachdem ich sie inspiziert habe?"
+          "text": "Was passiert mit den 200 Versuchs einheiten, nachdem ich sie inspiziert habe?"
         },
         {
           "type": "p",
-          "text": "Du behältst sie. Es handelt sich um echte Boxen in Produktions qualität (unter der Annahme, dass keine größeren Probleme gefunden wurden). Die meisten Käufer verwenden Test geräte für die Vermarktung von Fotografie, Seeding im Einzelhandel oder als Erst inventar. Einige Käufer verwenden sie als Grundlage für frühe Kunden bewertungen bei Amazon oder Shopify. In jedem Fall sind die Einheiten nicht verfügbar-sie sind Ihre ersten 100 Inventar einheiten."
+          "text": "Du behältst sie. Es handelt sich um echte Boxen in Produktions qualität (unter der Annahme, dass keine größeren Probleme gefunden wurden). Die meisten Käufer verwenden Test geräte für die Vermarktung von Fotografie, Seeding im Einzelhandel oder als Erst inventar. Einige Käufer verwenden sie als Grundlage für frühe Kunden bewertungen bei Amazon oder Shopify. In jedem Fall sind die Einheiten nicht verfügbar-sie sind Ihre ersten 200 Inventar einheiten."
         },
         {
           "type": "quote",
@@ -3722,7 +3722,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Für Erst käufer empfehlen wir, die 100-teilige Testversion von Anfang an als Teil des Projekt budgets und nicht als optionales Add-On zu behandeln. Bauen Sie es in Ihre Start zeitleiste ein. Bauen Sie es in Ihre SKU-Preise ein. Bauen Sie es in Ihre Beziehung zur Fabrik ein. Sobald dies üblich ist, sehen Sie nicht mehr die 12% Fehler raten und Last-Minute-Produktions brände, die Käufer plagen, die diesen Schritt überspringen. Die meisten unserer größten und am längsten laufenden Kunden beziehungen begannen genau so: mit einer kleinen Testversion, die Vertrauen aufbaute, bevor sich beide Seiten dem Volumen verschrieben hatten. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
+          "text": "Für Erst käufer empfehlen wir, die 200-teilige Testversion von Anfang an als Teil des Projekt budgets und nicht als optionales Add-On zu behandeln. Bauen Sie es in Ihre Start zeitleiste ein. Bauen Sie es in Ihre SKU-Preise ein. Bauen Sie es in Ihre Beziehung zur Fabrik ein. Sobald dies üblich ist, sehen Sie nicht mehr die 12% Fehler raten und Last-Minute-Produktions brände, die Käufer plagen, die diesen Schritt überspringen. Die meisten unserer größten und am längsten laufenden Kunden beziehungen begannen genau so: mit einer kleinen Testversion, die Vertrauen aufbaute, bevor sich beide Seiten dem Volumen verschrieben hatten. Für die Spezifikation Ihres Projekts können Sie [ein Angebot anfordern](/contact#inquiry)."
         }
       ]
     },
@@ -4180,7 +4180,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Wir empfehlen dringend eine Dritt anbieter inspektion (SGS, BV, Asia Inspection, Asia Quality Focus) für jede FBA-Sendung. Der Grund ist die brutale Wirtschaft lichkeit: Retouren von Amazon sind teuer-je nach Kategorie zwischen 5% und 15% des Sendung werts, zuzüglich des Marken schadens durch negative Bewertungen. Weitere Hinweise finden Sie unter [Warum ein 100-teiliges MOQ der klügste Weg ist, um zu beginnen](/blog/low-moq-sampling-strategy)."
+          "text": "Wir empfehlen dringend eine Dritt anbieter inspektion (SGS, BV, Asia Inspection, Asia Quality Focus) für jede FBA-Sendung. Der Grund ist die brutale Wirtschaft lichkeit: Retouren von Amazon sind teuer-je nach Kategorie zwischen 5% und 15% des Sendung werts, zuzüglich des Marken schadens durch negative Bewertungen. Weitere Hinweise finden Sie unter [Warum ein 200-teiliges MOQ der klügste Weg ist, um zu beginnen](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "p",

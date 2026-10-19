@@ -94,7 +94,7 @@ export const FAQS = {
       },
       {
         q: 'Wie hoch ist Ihre Mindestbestellmenge (MOQ)?',
-        a: 'Unsere Standard-MOQ beträgt 300 Stück pro Design, wobei für einfachere Boxen mitunter geringere Mengen möglich sind und größere oder komplexere Boxen höhere Mindestmengen haben können. Teilen Sie uns Ihr Design und die Zielmenge mit, und wir bestätigen die genaue MOQ für Ihr Projekt.',
+        a: "Unsere Mindestbestellmenge beträgt 200 Stück pro Design für OEM- und ODM-Aufträge. Senden Sie uns Ihre Spezifikationen und die gewünschte Menge für ein Angebot.",
       },
       {
         q: 'Wie lang ist die Produktionszeit für eine individuelle Bestellung?',

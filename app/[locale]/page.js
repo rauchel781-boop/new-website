@@ -173,7 +173,7 @@ const SERVICE_LD = {
   serviceType: 'Custom Wooden Box Manufacturing — OEM / ODM',
   name: 'Custom Wooden Box Manufacturing (OEM / ODM)',
   description:
-    'End-to-end custom wooden box manufacturing for B2B clients. From rough timber to finished, retail-ready packaging — kiln drying, CNC cutting, joinery, finishing, branding (laser engrave / hot foil / deboss / screen print), QC and export documentation. Wood species include paulownia, pine, bamboo, acacia, walnut, oak. MOQ from 100 pieces.',
+    "End-to-end custom wooden box manufacturing for B2B clients. From rough timber to finished, retail-ready packaging — kiln drying, CNC cutting, joinery, finishing, branding (laser engrave / hot foil / deboss / screen print), QC and export documentation. Wood species include paulownia, pine, bamboo, acacia, walnut, oak. MOQ from 200 pieces.",
   provider: { '@id': `${SITE.siteUrl}/#organization` },
   areaServed: ['US', 'EU', 'GB', 'JP', 'KR', 'AU', 'CA', 'DE', 'FR', 'IT', 'ES', 'PT'],
   hasOfferCatalog: {

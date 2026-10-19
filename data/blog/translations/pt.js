@@ -227,35 +227,35 @@ export default {
               "Gravação a laser",
               "Madeira natural, logótipos a uma cor, nomes de marca, design minimalista",
               "Baixo",
-              "500 un.",
+              "200 peças",
               "1 dia"
             ],
             [
               "Serigrafia",
               "Logótipos a 1-2 cores, texto grande, grafismos simples",
               "Baixo-médio",
-              "1.000 un.",
+              "200 peças",
               "2-3 dias"
             ],
             [
               "Impressão UV",
               "Arte a cores, fotografias, degradês, designs complexos",
               "Médio-alto",
-              "500 un.",
+              "200 peças",
               "2-3 dias"
             ],
             [
               "Estampagem a quente",
               "Logótipos metalizados (ouro, prata, ouro rosa), caixas premium, marcas de luxo",
               "Alto",
-              "1.000 un.",
+              "200 peças",
               "3-5 dias"
             ],
             [
               "Baixo-relevo / alto-relevo",
               "Marcação tátil, logótipos com efeito pele, oferta corporativa",
               "Médio",
-              "1.000 un.",
+              "200 peças",
               "3-5 dias"
             ]
           ]
@@ -300,7 +300,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O [MOQ](/blog/low-moq-sampling-strategy) de fábrica para caixas de arrumação em madeira personalizadas com divisórias amovíveis é de 500 peças por design. Em encomendas mistas (vários tamanhos ou acabamentos), o total combinado deve ser de pelo menos 1.000 peças. O prazo de amostra é de 7-10 dias úteis a partir da aprovação do design, e a produção demora 25-30 dias após a validação da amostra e o pagamento do sinal."
+          "text": "A nossa quantidade mínima é de 200 peças por design para encomendas OEM, ODM e lotes de teste. O prazo de amostra é de 7-10 dias úteis a partir da aprovação do design, e a produção demora 25-30 dias após a validação da amostra e o pagamento do sinal. Para mais informações, consulte [MOQ](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "p",
@@ -356,7 +356,7 @@ export default {
       "category": "Materiais",
       "readTime": "12 min de leitura",
       "body": [
-        { type: 'p', text: 'Antes de definir as especificações, consulte [Por que um MOQ de 100 peças é a maneira mais inteligente de começar](/blog/low-moq-sampling-strategy).' },
+        { type: 'p', text: "Antes de definir as especificações, consulte [Por que um MOQ de 200 peças é a maneira mais inteligente de começar](/blog/low-moq-sampling-strategy)." },
         {
           "type": "p",
           "text": "Ao projetar caixas de madeira personalizadas, o material do interior pesa tanto como a própria caixa. A escolha errada acaba em produto danificado, custos mais altos ou uma apresentação que não convence o cliente. Neste guia comparamos quatro materiais comuns — espuma EVA, espuma EPE, veludo e feltro — segundo os critérios que realmente decidem: nível de proteção, relação custo-benefício, estética, impacto ambiental e opções de personalização. Consulte os modelos disponíveis em [Caixas para Presente e Embalagem](/products/gift-packaging)."
@@ -512,7 +512,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Uma marca de relógios de luxo precisava de proteger peças de alto valor mantendo uma apresentação premium: usou uma camada base de espuma EVA cortada à forma do relógio com uma camada superior de flocagem em veludo sobre o EVA, conseguindo proteção de 5 estrelas mais uma abertura de luxo, a 3-5 $ por interior com MOQ de 500. Uma oficina artesanal de velas procurava embalagem ecológica para velas feitas à mão e usou interiores em feltro de lã cortados à medida dos frascos; a imagem natural e sustentável alinhou com a marca e traduziu-se em mais 30 % de recompras, a 1,50-2 $ por interior com MOQ de 100. Uma loja online de eletrónica que enviava colunas Bluetooth em larga escala optou por protetores de canto em EPE com almofada central, reduzindo o custo de envio ao peso e baixando a taxa de danos de 5 % para menos de 1 %, a 0,50-0,80 $ por interior com MOQ de 1.000. Como exemplo de catálogo, consulte [Vitrine Display Três Relógios](/products/watch-jewelry/three-watch-display-case)."
+          "text": "Uma marca de relógios de luxo precisava de proteger peças de alto valor mantendo uma apresentação premium: usou uma camada base de espuma EVA cortada à forma do relógio com uma camada superior de flocagem em veludo sobre o EVA, conseguindo proteção de 5 estrelas mais uma abertura de luxo, a 3-5 $ por interior. Uma oficina artesanal de velas procurava embalagem ecológica para velas feitas à mão e usou interiores em feltro de lã cortados à medida dos frascos; a imagem natural e sustentável alinhou com a marca e traduziu-se em mais 30 % de recompras, a 1,50-2 $ por interior. Uma loja online de eletrónica que enviava colunas Bluetooth em larga escala optou por protetores de canto em EPE com almofada central, reduzindo o custo de envio ao peso e baixando a taxa de danos de 5 % para menos de 1 %, a 0,50-0,80 $ por interior. Como exemplo de catálogo, consulte [Vitrine Display Três Relógios](/products/watch-jewelry/three-watch-display-case)."
         },
         {
           "type": "h2",
@@ -524,7 +524,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Conte com a quantidade mínima de encomenda (MOQ): a espuma EVA exige em regra 300-500 unidades por causa do custo de preparação do cunho, a espuma EPE 500-1.000 unidades, os forros em veludo 100-300 unidades, e o feltro apenas 50-100 unidades por ser mais fácil de trabalhar em séries pequenas. Para produtos alimentares, médicos ou infantis, verifique a conformidade RoHS (ausência de substâncias perigosas), a certificação REACH do regulamento europeu de substâncias químicas e a aprovação FDA para materiais em contacto com alimentos. Para mais informações, consulte [Como abastecer caixas de madeira personalizadas da China em 2026: o playbook do comprador B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
+          "text": "A nossa quantidade mínima é de 200 peças por design para encomendas OEM, ODM e lotes de teste. Para mais informações, consulte [Como abastecer caixas de madeira personalizadas da China em 2026: o playbook do comprador B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026)."
         },
         {
           "type": "h2",
@@ -561,7 +561,7 @@ export default {
         },
         {
           "type": "compare",
-          "caption": "Comparação estrutural dos cinco fechos. Os prazos são o intervalo observado no nosso próprio catálogo para esse tipo de fecho; a MOQ é o mínimo mais frequente e move-se com o tamanho e a complexidade da marcação.",
+          "caption": "A nossa quantidade mínima é de 200 peças por design para encomendas OEM, ODM e lotes de teste.",
           "items": [
             {
               "kind": "sliding",
@@ -574,7 +574,7 @@ export default {
                 },
                 {
                   "k": "MOQ habitual",
-                  "v": "200–500"
+                  "v": "200"
                 },
                 {
                   "k": "Prazo de entrega",
@@ -597,7 +597,7 @@ export default {
                 },
                 {
                   "k": "MOQ habitual",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Prazo de entrega",
@@ -621,7 +621,7 @@ export default {
                 },
                 {
                   "k": "MOQ habitual",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Prazo de entrega",
@@ -644,7 +644,7 @@ export default {
                 },
                 {
                   "k": "MOQ habitual",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Prazo de entrega",
@@ -667,7 +667,7 @@ export default {
                 },
                 {
                   "k": "MOQ habitual",
-                  "v": "200–300"
+                  "v": "200"
                 },
                 {
                   "k": "Prazo de entrega",
@@ -796,7 +796,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A tabela seguinte vem dos nossos próprios registos de produção, não de médias do setor. Os valores de MOQ são o mínimo mais frequente para esse fecho; tanto a MOQ como o prazo se movem com o tamanho da caixa, o método de marcação e a complexidade do interior, por isso trate-os como a forma da decisão e não como uma cotação."
+          "text": "A nossa quantidade mínima é de 200 peças por design para encomendas OEM, ODM e lotes de teste."
         },
         {
           "type": "table",
@@ -811,35 +811,35 @@ export default {
             [
               "Tampa deslizante",
               "18",
-              "200–300 un.",
+              "200 peças",
               "20–30 dias",
               "Tipo de acabamento; a ranhura é maquinada à dimensão acabada"
             ],
             [
               "Tampa com dobradiças",
               "55",
-              "200–300 un.",
+              "200 peças",
               "25–35 dias",
               "Especificação da dobradiça e aprovisionamento de ferragens"
             ],
             [
               "Magnético",
               "14",
-              "200–300 un.",
+              "200 peças",
               "30–35 dias",
               "Assentamento e cura dos ímanes antes do acabamento"
             ],
             [
               "Gaveta",
               "25",
-              "200–300 un.",
+              "200 peças",
               "25–40 dias",
               "Número de níveis; tipo de corrediça"
             ],
             [
               "Com fechadura",
               "9",
-              "200–300 un.",
+              "200 peças",
               "25–30 dias",
               "Tipo de fechadura e reforço das dobradiças"
             ]
@@ -945,7 +945,7 @@ export default {
           },
           {
             "q": "Mudar o fecho reduz a quantidade mínima de encomenda?",
-            "a": "Não. Em toda a nossa gama a MOQ mais frequente é de 200 a 300 unidades independentemente do fecho, porque o mínimo é definido pela preparação de máquina e pela compra de material, e não pelo mecanismo. Passar de magnético para deslizante mudará o custo unitário e o prazo, mas não o mínimo."
+            "a": "A nossa quantidade mínima é de 200 peças por design para encomendas OEM, ODM e lotes de teste."
           },
           {
             "q": "As caixas de madeira magnéticas são o mesmo que as caixas rígidas magnéticas?",
@@ -998,7 +998,7 @@ export default {
               "label": "Custo que é matéria-prima"
             },
             {
-              "num": "300",
+              "num": "200",
               "label": "Peças — MOQ padrão"
             }
           ]
@@ -1009,7 +1009,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Se só precisa de um número para validar uma cotação, eis os intervalos FOB indicativos que vemos com mais frequência. Pressupõem uma encomenda OEM personalizada igual ou acima da nossa MOQ padrão de 300 peças por design; trate-os como pontos de partida, não como uma tabela de preços — a sua especificação exata fá-los variar."
+          "text": "Se só precisa de um número para validar uma cotação, eis os intervalos FOB indicativos que vemos com mais frequência. Pressupõem uma encomenda OEM personalizada igual ou acima da nossa MOQ padrão de 200 peças por design; trate-os como pontos de partida, não como uma tabela de preços — a sua especificação exata fá-los variar."
         },
         {
           "type": "table",
@@ -1110,7 +1110,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A quantidade é a alavanca que controla mais diretamente. Os custos fixos — a amostra, a preparação do CNC, a calibração da máquina, uma série de correspondência de cor — são distribuídos pela encomenda, pelo que o preço por unidade cai mais depressa entre um teste de 100 peças e cerca de 1,000 peças, e depois estabiliza. É por isso que encomendar 300 em vez de 100 corta frequentemente o preço unitário num terço, enquanto saltar de 3,000 para 10,000 poupa muito menos por peça."
+          "text": "As quantidades e os preços abaixo são comparações ilustrativas, não ofertas atuais. O MOQ atual é de 200 peças por design; peça um orçamento para as suas especificações."
         },
         {
           "type": "img",
@@ -1126,12 +1126,12 @@ export default {
           ],
           "rows": [
             [
-              "100 (teste de primeira encomenda)",
+              "100",
               "$14.0",
               "—"
             ],
             [
-              "300 (MOQ padrão)",
+              "300",
               "$9.5",
               "−32%"
             ],
@@ -1154,7 +1154,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "A conclusão prática: comece com uma [encomenda de teste de 100–300 peças](/blog/low-moq-sampling-strategy) para validar a caixa no mercado e, depois, escale para os escalões de preço assim que vender. Pagar o preço unitário mais alto da primeira encomenda é um seguro barato contra comprometer 5,000 peças num SKU por comprovar."
+          "text": "A conclusão prática: comece com uma [encomenda de teste de 200 peças](/blog/low-moq-sampling-strategy) para validar a caixa no mercado e, depois, escale para os escalões de preço assim que vender. Pagar o preço unitário mais alto da primeira encomenda é um seguro barato contra comprometer 5,000 peças num SKU por comprovar."
         },
         {
           "type": "h2",
@@ -1408,7 +1408,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "\"Típico\" diz o sweet spot comercial; \"mínimo\" diz se você pode fazer um piloto antes de se comprometer com uma temporada inteira. Para a maioria das caixas de madeira personalizadas o [MOQ](/blog/low-moq-sampling-strategy) típico fica em 500–1.000 peças; MOQs mínimos para primeiros pedidos ou specs mais simples podem ser 100–300. Se um fornecedor recusa cotar nada abaixo de 1.000, provavelmente não está montado para teste incremental — bom para linhas estabelecidas, arriscado para um novo lançamento."
+          "text": "A nossa quantidade mínima é de 200 peças por design para encomendas OEM, ODM e lotes de teste. Para mais informações, consulte [MOQ](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "h3",
@@ -1470,7 +1470,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "O MOQ é definido pelo custo de setup — programar serras, configurar CNC, misturar o acabamento, fazer uma amostra, treinar uma equipe de acabamento no seu design específico. Abaixo de 200–300 peças esses custos de setup se espalham fino na unidade e o preço dispara. Entre 300 e 2.000 peças está o sweet spot comercial onde o setup se amortiza e você obtém o custo unitário mais atrativo. Acima de 5.000 peças, o próximo degrau de desconto geralmente exige mudar para um material mais leve ou marcenaria mais simples — um produto diferente, não só uma série maior do mesmo."
+          "text": "O MOQ é definido pelo custo de setup — programar serras, configurar CNC, misturar o acabamento, fazer uma amostra, treinar uma equipe de acabamento no seu design específico. Abaixo de 200 peças esses custos de setup se espalham fino na unidade e o preço dispara. Entre 300 e 2.000 peças está o sweet spot comercial onde o setup se amortiza e você obtém o custo unitário mais atrativo. Acima de 5.000 peças, o próximo degrau de desconto geralmente exige mudar para um material mais leve ou marcenaria mais simples — um produto diferente, não só uma série maior do mesmo."
         },
         {
           "type": "p",
@@ -1489,7 +1489,7 @@ export default {
           "type": "stats",
           "items": [
             {
-              "num": "300",
+              "num": "200",
               "label": "MOQ padrão por design (pçs)"
             },
             {
@@ -2570,7 +2570,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Se você está comprando caixas de relógio pela primeira vez, recomendamos fortemente encomendar uma amostra de 50 peças antes de se comprometer com o volume. Desmontar as caixas pessoalmente, passar a tampa através de 200 ciclos de abrir-fechar, soltar um da altura da mesa, deixar um no porta-malas do seu carro por uma semana. As caixas que sobrevivem são as caixas que sobreviverão aos seus clientes. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
+          "text": "Se você está comprando caixas de relógio pela primeira vez, recomendamos fortemente encomendar uma amostra de 200 peças antes de se comprometer com o volume. Desmontar as caixas pessoalmente, passar a tampa através de 200 ciclos de abrir-fechar, soltar um da altura da mesa, deixar um no porta-malas do seu carro por uma semana. As caixas que sobrevivem são as caixas que sobreviverão aos seus clientes. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
         }
       ]
     },
@@ -2813,7 +2813,7 @@ export default {
       "category": "Estratégia",
       "readTime": "10 minutos de leitura",
       "body": [
-        { type: 'p', text: 'Antes de definir as especificações, consulte [Por que um MOQ de 100 peças é a maneira mais inteligente de começar](/blog/low-moq-sampling-strategy).' },
+        { type: 'p', text: "Antes de definir as especificações, consulte [Por que um MOQ de 200 peças é a maneira mais inteligente de começar](/blog/low-moq-sampling-strategy)." },
         {
           "type": "p",
           "text": "A maioria dos compradores aprende a diferença entre OEM e ODM da maneira mais difícil. Normalmente, depois que uma cotação volta duas vezes o que eles esperavam, ou depois que um design de “estoque” acaba por estar em um backlog de um ano no fornecedor, ou depois que um design “personalizado” acaba não parecendo nada com a renderização."
@@ -3456,7 +3456,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sim-recomendamos vivamente. Para aproximadamente $100-200 adicionados a uma ordem da amostra, nós podemos produzir duas amostras com tratamentos diferentes do revestimento. O custo é trivial em relação a fazer a escolha errada em milhares de unidades de produção. Para mais informações, consulte [Por que um MOQ de 100 peças é a maneira mais inteligente de começar](/blog/low-moq-sampling-strategy)."
+          "text": "Sim-recomendamos vivamente. Para aproximadamente $100-200 adicionados a uma ordem da amostra, nós podemos produzir duas amostras com tratamentos diferentes do revestimento. O custo é trivial em relação a fazer a escolha errada em milhares de unidades de produção. Para mais informações, consulte [Por que um MOQ de 200 peças é a maneira mais inteligente de começar](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "quote",
@@ -3465,7 +3465,7 @@ export default {
       ]
     },
     "low-moq-sampling-strategy": {
-      "title": "Por que um MOQ de 100 peças é a maneira mais inteligente de começar",
+      "title": "Por que um MOQ de 200 peças é a maneira mais inteligente de começar",
       "excerpt": "Como usar amostras de produção de baixo MOQ para validar um projeto antes de comprometer o volume-e por que o maior custo por unidade quase sempre se paga.",
       "category": "Estratégia",
       "readTime": "9 minutos de leitura",
@@ -3473,7 +3473,7 @@ export default {
         { type: 'p', text: 'Antes de definir as especificações, consulte [Como abastecer caixas de madeira personalizadas da China em 2026: o playbook do comprador B2B](/blog/sourcing-custom-wooden-boxes-from-china-2026).' },
         {
           "type": "p",
-          "text": "A maioria das fábricas cita 500-1000 peças mínimas em caixas de madeira personalizadas. Oferecemos deliberadamente uma amostra de 100 peças porque resolve um problema que a maioria dos compradores não percebe que tem até que os morda."
+          "text": "A nossa quantidade mínima é de 200 peças por design para encomendas OEM, ODM e lotes de teste. Os casos históricos abaixo descrevem quantidades de encomendas anteriores; o mínimo atual é de 200 peças por design."
         },
         {
           "type": "p",
@@ -3481,7 +3481,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Uma amostra de 100 peças percorre as mesmas ferramentas, os mesmos equipamentos, os mesmos montadores e a mesma linha de chegada de um pedido de 5.000 peças-apenas com 100 peças em vez de 5.000. Você vê como as caixas realmente se parecerão em escala. Podemos ajustar acessórios, acabamentos e embalagem antes de se comprometer com o volume. Ambos os lados aprendem como é o produto real, não como é o protótipo."
+          "text": "Uma amostra de 200 peças percorre as mesmas ferramentas, os mesmos equipamentos, os mesmos montadores e a mesma linha de chegada de um pedido de 5.000 peças-apenas com 200 peças em vez de 5.000. Você vê como as caixas realmente se parecerão em escala. Podemos ajustar acessórios, acabamentos e embalagem antes de se comprometer com o volume. Ambos os lados aprendem como é o produto real, não como é o protótipo."
         },
         {
           "type": "h2",
@@ -3517,7 +3517,7 @@ export default {
         },
         {
           "type": "h2",
-          "text": "O que uma corrida de 100 peças realmente testa"
+          "text": "O que uma corrida de 200 peças realmente testa"
         },
         {
           "type": "h3",
@@ -3525,7 +3525,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "As únicas amostras mão-construídas usam gabaritos provisórios e um montador experiente que faz o trabalho único. As execuções de produção usam equipamentos permanentes com operadores fazendo a mesma tarefa centenas de vezes. A precisão da fixação em escala é a maior fonte de problemas \"a produção parece pior do que a amostra\". Uma corrida de 100 peças expõe isso. Para mais informações, consulte [OEM vs. ODM: qual é o certo para o seu projeto caixa de madeira?](/blog/oem-vs-odm-wooden-boxes)."
+          "text": "As únicas amostras mão-construídas usam gabaritos provisórios e um montador experiente que faz o trabalho único. As execuções de produção usam equipamentos permanentes com operadores fazendo a mesma tarefa centenas de vezes. A precisão da fixação em escala é a maior fonte de problemas \"a produção parece pior do que a amostra\". Uma corrida de 200 peças expõe isso. Para mais informações, consulte [OEM vs. ODM: qual é o certo para o seu projeto caixa de madeira?](/blog/oem-vs-odm-wooden-boxes)."
         },
         {
           "type": "h3",
@@ -3533,7 +3533,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Uma única amostra usa a melhor placa da loja. Uma produção usa cada placa que atende às especificações. Variação de cor, variação de grãos, padrões de nó-todos medem 100 caixas de uma maneira que não pode ser testada com uma única amostra. Consulte as opções em [guia de madeiras, acabamentos e ferragens](/material-guide)."
+          "text": "Uma única amostra usa a melhor placa da loja. Uma produção usa cada placa que atende às especificações. Variação de cor, variação de grãos, padrões de nó-todos medem 200 caixas de uma maneira que não pode ser testada com uma única amostra. Consulte as opções em [guia de madeiras, acabamentos e ferragens](/material-guide)."
         },
         {
           "type": "h3",
@@ -3541,7 +3541,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Acabamento casacos são misturados em lotes. O tom e o brilho exatos podem variar sutilmente entre os lotes. Uma corrida de 100 peças usa 1-2 lotes de acabamento, expondo se o seu design tolera essa variação natural. Para mais informações, consulte [5 técnicas de acabamento que mudam a aparência da caixa de madeira](/blog/wooden-box-finishing-techniques)."
+          "text": "Acabamento casacos são misturados em lotes. O tom e o brilho exatos podem variar sutilmente entre os lotes. Uma corrida de 200 peças usa 1-2 lotes de acabamento, expondo se o seu design tolera essa variação natural. Para mais informações, consulte [5 técnicas de acabamento que mudam a aparência da caixa de madeira](/blog/wooden-box-finishing-techniques)."
         },
         {
           "type": "h3",
@@ -3549,16 +3549,16 @@ export default {
         },
         {
           "type": "p",
-          "text": "Amostras individuais enviadas em sua própria embalagem protetora. A produção é executada em caixas principais empilhadas em paletes-elas estão expostas a tensões de manuseio que amostras individuais nunca veem. Uma expedição experimental de 100 partes atravessa costumes reais, frete real, entrada real do armazém. Os compradores encontram regularmente problemas de embalagem nesta fase que nunca teriam pego com uma única amostra. Para mais informações, consulte [Projetando embalagens de madeira Amazon FBA](/blog/amazon-fba-wooden-packaging)."
+          "text": "Amostras individuais enviadas em sua própria embalagem protetora. A produção é executada em caixas principais empilhadas em paletes-elas estão expostas a tensões de manuseio que amostras individuais nunca veem. Uma expedição experimental de 200 partes atravessa costumes reais, frete real, entrada real do armazém. Os compradores encontram regularmente problemas de embalagem nesta fase que nunca teriam pego com uma única amostra. Para mais informações, consulte [Projetando embalagens de madeira Amazon FBA](/blog/amazon-fba-wooden-packaging)."
         },
         {
           "type": "img",
           "src": "/folder/4-pre-assemble.webp",
-          "caption": "Uma amostra de 100 peças é executada na linha de produção-os mesmos equipamentos que os pedidos completos"
+          "caption": "Uma amostra de 200 peças é executada na linha de produção-os mesmos equipamentos que os pedidos completos"
         },
         {
           "type": "h2",
-          "text": "Quando pular o julgamento de 100 peças"
+          "text": "Quando pular o julgamento de 200 peças"
         },
         {
           "type": "p",
@@ -3583,11 +3583,11 @@ export default {
         },
         {
           "type": "p",
-          "text": "O custo por unidade em uma corrida de 100 peças é tipicamente 30-60% maior do que em uma corrida de 1.000 peças. O trabalho de instalação é o mesmo; é apenas espalhado por menos unidades. Assim a diferença absoluta do custo depende do preço da caixa. Para mais informações, consulte [Quanto custam as caixas de madeira personalizadas? Um guia de preços grossista e OEM para 2026](/blog/custom-wooden-box-cost-2026)."
+          "text": "Nos lotes de teste, os custos de preparação distribuem-se por menos unidades do que em encomendas maiores. Peça preços para o teste de 200 peças e para a quantidade de reposição prevista com a mesma especificação; a diferença depende do design. Para mais informações, consulte [Quanto custam as caixas de madeira personalizadas? Um guia de preços grossista e OEM para 2026](/blog/custom-wooden-box-cost-2026)."
         },
         {
           "type": "p",
-          "text": "Para uma caixa de US $5, o teste de 100 peças custa cerca de US $700-900 contra uma corrida de 1.000 peças da mesma caixa (o que seria ~ US $5.000). Por uma caixa de US $25, o julgamento custa US $3.000 a 3.800 contra uma corrida de 1.000 peças de US $25.000."
+          "text": "Compare o custo total do projeto, incluindo preparação, amostras e transporte, antes de encomendar o lote de teste. Confirme o orçamento para a quantidade escolhida em vez de extrapolar um exemplo anterior de preço unitário."
         },
         {
           "type": "p",
@@ -3686,7 +3686,7 @@ export default {
         },
         {
           "type": "h3",
-          "text": "Quanto tempo leva um julgamento de 100 peças?"
+          "text": "Quanto tempo leva um julgamento de 200 peças?"
         },
         {
           "type": "p",
@@ -3698,7 +3698,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Sim, mas o custo por unidade aumenta acentuadamente (normalmente 60-100% premium sobre o preço de 100 peças) porque a configuração de produção é a mesma independentemente. Para ensaios de 25 peças, geralmente recomendamos tratá-los como amostragem paga em vez de ensaios-o volume é muito pequeno para exercer totalmente a linha de produção."
+          "text": "Encomendas de produção e lotes de teste começam em 200 peças por design. Para aprovar apenas a construção ou o acabamento, pergunte por uma amostra de pré-produção antes da encomenda."
         },
         {
           "type": "h3",
@@ -3710,11 +3710,11 @@ export default {
         },
         {
           "type": "h3",
-          "text": "O que acontece com as 100 unidades experimentais após eu inspecioná-las?"
+          "text": "O que acontece com as 200 unidades experimentais após eu inspecioná-las?"
         },
         {
           "type": "p",
-          "text": "Você os mantém. São caixas reais de qualidade de produção (assumindo que não foram encontrados grandes problemas). A maioria dos compradores usa unidades experimentais para fotografia de marketing, semeadura de varejo ou como inventário inicial. Alguns compradores os usam como base para as primeiras avaliações de clientes na Amazon ou Shopify. De qualquer forma, as unidades não são descartáveis-elas são suas primeiras 100 unidades de estoque."
+          "text": "Você os mantém. São caixas reais de qualidade de produção (assumindo que não foram encontrados grandes problemas). A maioria dos compradores usa unidades experimentais para fotografia de marketing, semeadura de varejo ou como inventário inicial. Alguns compradores os usam como base para as primeiras avaliações de clientes na Amazon ou Shopify. De qualquer forma, as unidades não são descartáveis-elas são suas primeiras 200 unidades de estoque."
         },
         {
           "type": "quote",
@@ -3722,7 +3722,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Para compradores iniciantes, recomendamos tratar o teste de 100 peças como parte do orçamento do projeto desde o início, não como um complemento opcional. Construa-o em seu cronograma lançamento. Construa-o em seu preço SKU. Construa isso em seu relacionamento com a fábrica. Uma vez que é prática normal, você deixa de ver as taxas de 12% de defeitos e incêndios de última hora que atormentam os compradores que pulam essa etapa. A maioria dos nossos maiores e mais antigos relacionamentos com clientes começou exatamente dessa maneira: com um pequeno teste que criou confiança antes de ambos os lados se comprometerem com o volume. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
+          "text": "Para compradores iniciantes, recomendamos tratar o teste de 200 peças como parte do orçamento do projeto desde o início, não como um complemento opcional. Construa-o em seu cronograma lançamento. Construa-o em seu preço SKU. Construa isso em seu relacionamento com a fábrica. Uma vez que é prática normal, você deixa de ver as taxas de 12% de defeitos e incêndios de última hora que atormentam os compradores que pulam essa etapa. A maioria dos nossos maiores e mais antigos relacionamentos com clientes começou exatamente dessa maneira: com um pequeno teste que criou confiança antes de ambos os lados se comprometerem com o volume. Para definir as especificações do seu projeto, pode [pedir um orçamento](/contact#inquiry)."
         }
       ]
     },
@@ -4180,7 +4180,7 @@ export default {
         },
         {
           "type": "p",
-          "text": "Recomendamos fortemente uma inspeção de terceiros (SGS, BV, AsiaInspection, Asia Quality Focus) para cada remessa da FBA. A razão é a economia brutal: retornos da Amazon são caros-em qualquer lugar entre 5% e 15% do valor da remessa, dependendo da categoria, além do dano da marca de comentários negativos. Para mais informações, consulte [Por que um MOQ de 100 peças é a maneira mais inteligente de começar](/blog/low-moq-sampling-strategy)."
+          "text": "Recomendamos fortemente uma inspeção de terceiros (SGS, BV, AsiaInspection, Asia Quality Focus) para cada remessa da FBA. A razão é a economia brutal: retornos da Amazon são caros-em qualquer lugar entre 5% e 15% do valor da remessa, dependendo da categoria, além do dano da marca de comentários negativos. Para mais informações, consulte [Por que um MOQ de 200 peças é a maneira mais inteligente de começar](/blog/low-moq-sampling-strategy)."
         },
         {
           "type": "p",

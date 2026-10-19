@@ -16,7 +16,7 @@ export const FAQS = {
       },
       {
         "q": "Quel est le MOQ pour les boîtes-cadeaux en bois personnalisées?",
-        "a": "Le MOQ standard est de 300 à 500 pièces selon la complexité du design. Les commandes d'essai à partir de 100 pièces peuvent être acceptées pour certains modèles simples sélectionnés. Les unités d'échantillons de pré-production (1-3 pcs) expédient dans les 7 jours ouvrables pour votre approbation de conception."
+        "a": "Notre quantité minimale est de 200 pièces par modèle pour les commandes OEM et ODM. Envoyez vos spécifications et la quantité souhaitée pour obtenir un devis. Les unités d'échantillons de pré-production (1-3 pcs) expédient dans les 7 jours ouvrables pour votre approbation de conception."
       },
       {
         "q": "Comment les inserts intérieurs sont-ils personnalisés pour les coffrets cadeaux?",
@@ -102,7 +102,7 @@ export const FAQS = {
       },
       {
         "q": "Quel est le délai d'exécution typique et MOQ pour les boîtes à vin personnalisées?",
-        "a": "Le MOQ standard est de 300 à 500 pièces selon la complexité du design. Les commandes d'essai à partir de 100 pièces peuvent être acceptées pour des modèles simples de taille stock. Le délai d'exécution standard est de 30-35 jours après approbation d'illustration; la production de rush (20-25 jours) est disponible pour des frais accélérés."
+        "a": "Notre quantité minimale est de 200 pièces par modèle pour les commandes OEM et ODM. Envoyez vos spécifications et la quantité souhaitée pour obtenir un devis. Le délai d'exécution standard est de 30-35 jours après approbation d'illustration; la production de rush (20-25 jours) est disponible pour des frais accélérés."
       }
     ],
     "sectionTitle": "FAQ-Boîtes en bois pour vins, whiskies et spiritueux",
@@ -176,7 +176,7 @@ export const FAQS = {
       },
       {
         "q": "Quel est le MOQ et le délai d'exécution pour les boîtes de rangement personnalisées?",
-        "a": "Le MOQ standard est de 300 à 500 pièces selon la complexité du design. Les commandes d'essai à partir de 100 pièces peuvent être acceptées pour certains modèles simples sélectionnés. Le délai d'exécution est de 30-35 jours après la signature d'illustration; 7 jours pour des unités témoin. Le coût de l'échantillon est remboursé contre la commande en gros."
+        "a": "Notre quantité minimale est de 200 pièces par modèle pour les commandes OEM et ODM. Envoyez vos spécifications et la quantité souhaitée pour obtenir un devis. Le délai d'exécution est de 30-35 jours après la signature d'illustration; 7 jours pour des unités témoin. Le coût de l'échantillon est remboursé contre la commande en gros."
       },
       {
         "q": "Les boîtes de rangement sont-elles empilables?",
