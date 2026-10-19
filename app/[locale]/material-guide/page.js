@@ -1,6 +1,6 @@
 import { Link } from '@/i18n/navigation';
 import { alternates } from '@/i18n/seo';
-import { WhatsAppLink } from '@/components/WhatsAppChat';
+import { ContactChoices } from '@/components/ContactOptions';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getMaterialGuide } from '@/data/material-guide';
 import PageFaq from '@/components/PageFaq';
@@ -1074,7 +1074,7 @@ export default async function MaterialGuidePage({ params: { locale } }) {
           </h2>
           <p className="mg-cta-sub">{COPY.cta.sub}</p>
           <div className="mg-cta-btns">
-            <WhatsAppLink className="mg-btn-pri">{COPY.cta.btnPrimary} · WhatsApp</WhatsAppLink>
+            <ContactChoices />
             <Link href="/products" className="mg-btn-out">{COPY.cta.btnSecondary}</Link>
           </div>
         </div>

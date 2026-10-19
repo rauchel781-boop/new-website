@@ -35,6 +35,13 @@
     "acacia": "Caixas de Madeira de Acácia",
     "walnut": "Caixas de Madeira de Nogueira"
   },
+  "contactOptions": {
+    "label": "Escolha como nos contactar",
+    "email": "E-mail",
+    "emailNote": "Orçamentos detalhados e anexos",
+    "whatsappNote": "Perguntas rápidas e conversa",
+    "emailSubject": "Consulta sobre caixas de madeira personalizadas"
+  },
   "cta": {
     "getQuote": "Solicitar Orçamento",
     "viewAll": "Ver Tudo",

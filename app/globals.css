@@ -119,3 +119,31 @@ a {
     scroll-behavior: auto !important;
   }
 }
+/* Equal contact choices: detailed discussions by email, quick chat on WhatsApp. */
+.contact-options {
+  display: flex; flex-wrap: wrap; gap: 12px; width: 100%; max-width: 600px;
+  font-family: var(--font-jost), system-ui, sans-serif; text-align: left;
+}
+.contact-choice {
+  flex: 1 1 160px; min-width: 0; display: flex; flex-direction: column; gap: 5px;
+  padding: 14px 18px; border: 1px solid #B48C5B; border-radius: 5px;
+  background: #fffdf8; color: #3D2A1F; text-decoration: none;
+  box-shadow: 0 3px 12px rgba(61,42,31,.08);
+}
+.contact-choice strong { font-size: 15px; font-weight: 600; line-height: 1.3; }
+.contact-choice span { font-size: 12px; font-weight: 400; line-height: 1.4; color: #6B4A33; }
+.contact-choice:hover { background: #F6EEDF; border-color: #6B4A33; }
+.contact-choice:focus-visible { outline: 3px solid #C58E4A; outline-offset: 3px; }
+.contact-dock {
+  position: fixed; right: 16px;
+  bottom: calc(max(20px, var(--cookie-banner-offset, 0px)) + env(safe-area-inset-bottom, 0px));
+  z-index: 200; width: min(420px, calc(100vw - 32px));
+}
+.contact-dock .contact-options { flex-wrap: nowrap; gap: 8px; }
+.contact-dock .contact-choice { flex: 1 1 0; padding: 11px 13px; box-shadow: 0 6px 20px rgba(0,0,0,.18); }
+.contact-page-options { max-width: 1200px; margin: 0 auto 28px; }
+@media (max-width: 480px) {
+  .contact-dock .contact-choice strong { font-size: 14px; }
+  .contact-dock .contact-choice span { font-size: 11px; }
+}
+@media print { .contact-dock { display: none; } }

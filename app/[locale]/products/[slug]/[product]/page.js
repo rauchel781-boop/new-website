@@ -1,6 +1,5 @@
 import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
-import { buildProductInquiryLinks } from '@/lib/product-inquiry';
 import { notFound } from 'next/navigation';
 import { CATEGORIES } from '@/data/categories';
 import { PRODUCTS as GIFT_PACKAGING_PRODUCTS } from '@/data/products/gift-packaging';
@@ -26,7 +25,7 @@ import ProductRichBlock from '@/components/ProductRichBlock';
 import ProductFaqBlock from '@/components/ProductFaqBlock';
 import { isProductContentLocaleSupported, hasFullProductTranslation } from '@/lib/product-content';
 import JsonLd from '@/components/JsonLd';
-import { WhatsAppLink } from '@/components/WhatsAppChat';
+import { ContactChoices } from '@/components/ContactOptions';
 import RecentlyViewedTracker from '@/components/RecentlyViewedTracker';
 import { SITE } from '@/data/site-config';
 import { alternates as makeAlternates } from '@/i18n/seo';
@@ -432,7 +431,6 @@ export default async function ProductDetail({ params }) {
   //    banner, related products). Loaded into a single `t` object that's
   //    consumed throughout the JSX below.
   const t = await getTranslations({ locale: params.locale, namespace: 'productDetail' });
-  const tCta = await getTranslations({ locale: params.locale, namespace: 'cta' });
 
   // ── Hero closure eyebrow (e.g. "Magnetic Closure"). We look up the
   // raw English closure string (from data file, before translation overlay)
@@ -453,7 +451,6 @@ export default async function ProductDetail({ params }) {
   // every `item` URL means Google doesn't need to follow a redirect.
   const localePrefix = `/${params.locale}`;
   const productPath = `/products/${params.slug}/${params.product}`;
-  const inquiryLinks = buildProductInquiryLinks(product.name, productPath, params.locale);
   // Surface the spec table as structured `additionalProperty` so Google can
   // use spec values (closure / material / MOQ / lead time) in product
   // result enrichments. Each spec key becomes a PropertyValue node.
@@ -570,7 +567,7 @@ export default async function ProductDetail({ params }) {
             </div>
 
             <div className="pdp-cta">
-              <WhatsAppLink productName={product.name} className="pdp-btn-primary">{tCta('whatsapp')}</WhatsAppLink>
+              <ContactChoices productName={product.name} />
               <Link href={`/products/${params.slug}`} className="pdp-btn-outline">{t('browseCategory')}</Link>
             </div>
 
@@ -623,8 +620,7 @@ export default async function ProductDetail({ params }) {
           <h2 className="pdp-inquiry-title">{t('inquiryTitle', { name: product.name })}</h2>
           <p className="pdp-inquiry-sub">{t('inquiryDescription')}</p>
           <div className="pdp-inquiry-btns">
-            <WhatsAppLink productName={product.name} className="pdp-btn-primary">{tCta('whatsapp')}</WhatsAppLink>
-            <a href={inquiryLinks.emailHref} className="pdp-btn-outline">{tCta('emailUs')} →</a>
+            <ContactChoices productName={product.name} />
           </div>
         </div>
       </section>

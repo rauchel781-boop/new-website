@@ -3,7 +3,7 @@ import { unstable_setRequestLocale, getMessages, getTranslations } from 'next-in
 import { notFound } from 'next/navigation';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import WhatsAppChat from '@/components/WhatsAppChat';
+import ContactDock from '@/components/ContactOptions';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import ClarityAnalytics from '@/components/ClarityAnalytics';
 import AnalyticsTracker from '@/components/AnalyticsTracker';
@@ -125,7 +125,7 @@ export default async function LocaleLayout({ children, params: { locale } }) {
             <Header />
             <main id="main-content">{children}</main>
             <Footer />
-            <WhatsAppChat />
+            <ContactDock />
             <GoogleAnalytics />
             <ClarityAnalytics />
             <AnalyticsTracker />

@@ -1,5 +1,5 @@
 import { Link } from '@/i18n/navigation';
-import { WhatsAppLink } from '@/components/WhatsAppChat';
+import { ContactChoices } from '@/components/ContactOptions';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
 import { CATEGORIES, SLUGS } from '@/data/categories';
@@ -544,13 +544,11 @@ export default async function CategoryPage({ params }) {
     if (k) translatedGroup = tg(k) || translatedGroup;
   } catch (e) {}
   // Translated common CTA strings.
-  let ctaQuote = 'Request a Quote';
   let ctaBrowse = 'Browse All Boxes';
   let labelProducts = 'Products';
   let labelHome = 'Home';
   try {
     const tc = await getTranslations({ locale: params.locale, namespace: 'cta' });
-    ctaQuote = tc('getQuote') || ctaQuote;
     ctaBrowse = tc('viewAllProducts') || ctaBrowse;
   } catch (e) {}
   try {
@@ -676,7 +674,7 @@ export default async function CategoryPage({ params }) {
               : (params.locale === 'en' ? item.longDesc : translatedIntro)}
           </p>
           <div className="cat-hero-btns">
-            <WhatsAppLink className="cat-btn-primary">{ctaQuote} · WhatsApp</WhatsAppLink>
+            <ContactChoices />
             <Link href="/products" className="cat-btn-outline">{ctaBrowse}</Link>
           </div>
         </div>
@@ -692,7 +690,7 @@ export default async function CategoryPage({ params }) {
                 {products ? tcp('browseTheRange') : tcp('aLookAtTheRange')}
               </h2>
             </div>
-            <WhatsAppLink className="cat-btn-primary">{tcp('requestSamples')} · WhatsApp</WhatsAppLink>
+            <ContactChoices />
           </div>
 
           {products ? (
@@ -835,7 +833,7 @@ export default async function CategoryPage({ params }) {
           <h2 className="cat-cta-title">{tcp('ctaTitle', { name: translatedName })}</h2>
           <p className="cat-cta-sub">{tcp('ctaSub')}</p>
           <div className="cat-hero-btns" style={{ justifyContent: 'center' }}>
-            <WhatsAppLink className="cat-btn-primary">{ctaQuote} · WhatsApp</WhatsAppLink>
+            <ContactChoices />
             <Link href="/products" className="cat-btn-outline">{tcp('ctaBrowse')}</Link>
           </div>
         </div>

@@ -35,6 +35,13 @@
     "acacia": "Holzboxen aus Akazie",
     "walnut": "Holzboxen aus Nussbaum"
   },
+  "contactOptions": {
+    "label": "Wählen Sie Ihren Kontaktweg",
+    "email": "E-Mail",
+    "emailNote": "Detaillierte Angebote & Anhänge",
+    "whatsappNote": "Schnelle Fragen & Chat",
+    "emailSubject": "Anfrage zu individuellen Holzboxen"
+  },
   "cta": {
     "getQuote": "Angebot anfordern",
     "viewAll": "Alle ansehen",

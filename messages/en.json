@@ -35,6 +35,13 @@
     "acacia": "Acacia Wooden Boxes",
     "walnut": "Walnut Wooden Boxes"
   },
+  "contactOptions": {
+    "label": "Choose how to contact us",
+    "email": "Email",
+    "emailNote": "Detailed quotes & attachments",
+    "whatsappNote": "Quick questions & chat",
+    "emailSubject": "Custom wooden box inquiry"
+  },
   "cta": {
     "getQuote": "Get a Quote",
     "viewAll": "View All",

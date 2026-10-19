@@ -35,6 +35,13 @@
     "acacia": "아카시아 박스",
     "walnut": "호두나무 박스"
   },
+  "contactOptions": {
+    "label": "문의 방법을 선택하세요",
+    "email": "이메일",
+    "emailNote": "상세 견적 및 첨부 자료",
+    "whatsappNote": "간단한 질문 및 채팅",
+    "emailSubject": "맞춤 목재 상자 문의"
+  },
   "cta": {
     "getQuote": "견적 요청",
     "viewAll": "전체 보기",

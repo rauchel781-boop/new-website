@@ -35,6 +35,13 @@
     "acacia": "Boîtes en Bois d'Acacia",
     "walnut": "Boîtes en Bois de Noyer"
   },
+  "contactOptions": {
+    "label": "Choisissez comment nous contacter",
+    "email": "E-mail",
+    "emailNote": "Devis détaillés et pièces jointes",
+    "whatsappNote": "Questions rapides et discussion",
+    "emailSubject": "Demande de boîtes en bois sur mesure"
+  },
   "cta": {
     "getQuote": "Demander un Devis",
     "viewAll": "Voir Tout",

@@ -35,6 +35,13 @@
     "acacia": "Scatole in Legno di Acacia",
     "walnut": "Scatole in Legno di Noce"
   },
+  "contactOptions": {
+    "label": "Scegli come contattarci",
+    "email": "Email",
+    "emailNote": "Preventivi dettagliati e allegati",
+    "whatsappNote": "Domande rapide e chat",
+    "emailSubject": "Richiesta di scatole in legno personalizzate"
+  },
   "cta": {
     "getQuote": "Richiedi un Preventivo",
     "viewAll": "Vedi Tutto",

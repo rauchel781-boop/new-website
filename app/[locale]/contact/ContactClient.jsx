@@ -7,7 +7,7 @@ import { useEmailJS } from '@/lib/use-emailjs';
 import { trackEvent } from '@/lib/analytics';
 import ProductInquiryPrefill from '@/components/ProductInquiryPrefill';
 import { prefillProductInquiry } from '@/lib/product-inquiry';
-import { WhatsAppLink } from '@/components/WhatsAppChat';
+import { ContactChoices } from '@/components/ContactOptions';
 
 const CONTACT_CSS = `
 
@@ -614,6 +614,7 @@ export default function ContactPage() {
 
       {/* ── FORM + INFO ── */}
       <section id="inquiry" className="form-wrap-section">
+        <div className="contact-page-options"><ContactChoices productName={productInquiry?.name} pageUrl={productInquiry?.url} /></div>
         <div className="form-grid">
           <div className="form-card">
             {state === 'done' ? (
@@ -903,8 +904,7 @@ export default function ContactPage() {
         <h2 className="final-title">{t('final.titleStart')} <em>{t('final.titleEm')}</em> {t('final.titleEnd')}</h2>
         <p className="final-sub">{t('final.sub')}</p>
         <div className="final-btns">
-          <WhatsAppLink className="final-btn">{t('final.whatsappBtn')}</WhatsAppLink>
-          <a href={`mailto:${SITE.email}`} className="final-btn outline">{t('final.emailBtn')}</a>
+          <ContactChoices productName={productInquiry?.name} pageUrl={productInquiry?.url} />
         </div>
       </section>
     </div>

@@ -35,6 +35,13 @@
     "acacia": "Cajas de Madera de Acacia",
     "walnut": "Cajas de Madera de Nogal"
   },
+  "contactOptions": {
+    "label": "Elige cómo contactarnos",
+    "email": "Email",
+    "emailNote": "Presupuestos detallados y archivos",
+    "whatsappNote": "Consultas rápidas y chat",
+    "emailSubject": "Consulta sobre cajas de madera personalizadas"
+  },
   "cta": {
     "getQuote": "Solicitar Presupuesto",
     "viewAll": "Ver Todo",

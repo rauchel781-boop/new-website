@@ -70,7 +70,13 @@ async function check(row) {
     const response = await fetch(SITE.siteUrl + route, {signal: AbortSignal.timeout(60000)});
     assert.equal(response.status, 200, route); html = await response.text();
   } else html = fs.readFileSync(`.next/server/app${route}.html`, 'utf8');
-  const cta = [...html.matchAll(/<a\b[^>]*>/g)].map(m => attrs(m[0])).find(a => a.class === 'pdp-btn-primary');
+  const hero = html.match(/<div class="pdp-cta">([\s\S]*?)<\/div>/)[1];
+  const ctas = [...hero.matchAll(/<a\b[^>]*>/g)].map(m => attrs(m[0]));
+  const cta = ctas.find(a => a.href.startsWith('https://wa.me/'));
+  const heroMail = new URL(ctas.find(a => a.href.startsWith('mailto:')).href);
+  assert.equal(heroMail.pathname, SITE.email);
+  assert.equal(heroMail.searchParams.get('subject'), row.product.name);
+  assert.ok(heroMail.searchParams.get('body').includes(`${SITE.siteUrl}${route}`));
   const url = new URL(cta.href, SITE.siteUrl);
   assert.equal(url.origin, 'https://wa.me');
   assert.equal(url.pathname, `/${SITE.whatsapp.number}`);

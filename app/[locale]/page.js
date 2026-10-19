@@ -9,7 +9,7 @@ import IntroCarousel from '@/components/IntroCarousel';
 import JsonLd from '@/components/JsonLd';
 import CertIcon from '@/components/CertIcons';
 import { SITE } from '@/data/site-config';
-import { WhatsAppLink } from '@/components/WhatsAppChat';
+import { ContactChoices } from '@/components/ContactOptions';
 import { unstable_setRequestLocale, getTranslations } from 'next-intl/server';
 import { getHome } from '@/data/home';
 
@@ -1223,8 +1223,7 @@ export default async function HomePage({ params: { locale } }) {
           <h2 className="cta-title">{COPY.cta.titleA}<br />{COPY.cta.titleB}</h2>
           <p className="cta-sub">{COPY.cta.sub}</p>
           <div className="cta-btns">
-            <WhatsAppLink className="btn-primary">{COPY.cta.btnWhatsapp}</WhatsAppLink>
-            <a href={`mailto:${SITE.email}`} className="btn-outline">{COPY.cta.btnEmail}</a>
+            <ContactChoices />
           </div>
         </div>
       </section>

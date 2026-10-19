@@ -35,6 +35,13 @@
     "acacia": "アカシアの木箱",
     "walnut": "ウォールナットの木箱"
   },
+  "contactOptions": {
+    "label": "お問い合わせ方法をお選びください",
+    "email": "メール",
+    "emailNote": "詳細な見積もり・添付資料",
+    "whatsappNote": "簡単なご質問・チャット",
+    "emailSubject": "オーダーメイド木箱のお問い合わせ"
+  },
   "cta": {
     "getQuote": "見積もり依頼",
     "viewAll": "すべて見る",

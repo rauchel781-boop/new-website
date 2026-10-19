@@ -6,7 +6,6 @@ import { Link, usePathname } from '@/i18n/navigation';
 import { routing, localeNames } from '@/i18n/routing';
 import { SITE } from '@/data/site-config';
 import SearchModal from '@/components/SearchModal';
-import { WhatsAppLink } from '@/components/WhatsAppChat';
 
 // Mega-menu structure as raw data (no labels — labels come from translations).
 // `key` matches the messages/<lang>.json `categories.<key>` entry.
@@ -505,7 +504,7 @@ export default function Header() {
             <kbd className="search-btn-kbd">{t('search.openShortcut')}</kbd>
           </button>
 
-          <WhatsAppLink className="cta" aria-label={t('cta.whatsapp')}>WhatsApp →</WhatsAppLink>
+          <Link href="/contact#inquiry" className="cta">{t('nav.contact')} →</Link>
 
           <button
             className="burger"
@@ -548,9 +547,9 @@ export default function Header() {
               )}
             </div>
           ))}
-          <WhatsAppLink className="drawer-cta" aria-label={t('cta.whatsapp')} onClick={() => setMobileOpen(false)}>
-            WhatsApp →
-          </WhatsAppLink>
+          <Link href="/contact#inquiry" className="drawer-cta" onClick={() => setMobileOpen(false)}>
+            {t('nav.contact')} →
+          </Link>
 
           {/* Mobile language list */}
           <div className="drawer-sub" style={{ marginTop: 20 }}>
