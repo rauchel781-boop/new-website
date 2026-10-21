@@ -1,8 +1,9 @@
+// Shared card copy revision: 2026-10-21. Update this entry and its alt when lib/og-card text changes so image URLs refresh.
 import { ogCard, size, contentType } from '@/lib/og-card';
 import { SITE } from '@/data/site-config';
 
 export { size, contentType };
-export const alt = `About CHIC — Founded in ${SITE.company.foundingYear}`;
+export const alt = `About CHIC — Custom Wooden Box Manufacturer, Founded in ${SITE.company.foundingYear}`;
 
 export default function Image() {
   return ogCard({
