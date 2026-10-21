@@ -3,6 +3,12 @@
 // FEATURED, FACTORY_TILES, PROCESS, MATERIALS, WHY, CERTS arrays + COPY object
 // hold all translatable strings. Translated copies live as ./es.js, ./fr.js, etc.
 
+export const UPDATED_AT = '2026-10-21';
+export const SEO = {
+  title: 'Custom Wooden Boxes - Wholesale Manufacturer | CHIC',
+  description: 'Custom wooden boxes made to your dimensions, wood, finish and logo. OEM and ODM orders from 200 pieces per design. Send your brief for a wholesale quote.',
+};
+
 // Best Sellers now link to the SPECIFIC product detail page rather than
 // the category landing. Per the SEO audit:
 //   - Concentrates internal link equity on the individual SKU pages
@@ -13,13 +19,13 @@ export const FEATURED = [
   { href: '/products/gift-packaging/luxury-magnetic-gift-box', img: '/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp', w: 800, h: 800,
     tag: 'Gift & Packaging Boxes', name: 'Luxury Magnetic Gift Box', meta: 'Hidden magnets · Velvet insert' },
   { href: '/products/gift-packaging/sliding-lid-gift-box', img: '/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp', w: 1488, h: 1182,
-    tag: 'Gift & Packaging Boxes', name: 'Sliding Lid Gift Box', meta: 'Hardware-free · Flat-pack ready' },
+    tag: 'Gift & Packaging Boxes', name: 'Sliding Lid Gift Box', meta: 'Hardware-free · Routed sliding lid' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Boxes with Lock', name: 'Large Black Stash Box Kit', meta: 'Combination lock · Multi-compartment' },
   { href: '/products/tea-coffee/bamboo-tea-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
-    tag: 'Tea & Coffee', name: 'Bamboo Tea Bag Organizer', meta: '8 dividers · Clear hinged lid' },
+    tag: 'Tea & Coffee', name: 'Bamboo Tea Bag Organizer', meta: 'Sliding lid · Configurable compartments' },
   { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
-    tag: 'Watch & Jewelry', name: 'Wooden Watch Display Box', meta: 'Linen pillow · 6-watch capacity' },
+    tag: 'Watch & Jewelry', name: 'Wooden Watch Display Box', meta: 'Linen pillow · Single-watch presentation' },
   { href: '/products/hinged/acacia-wooden-storage-box', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
     tag: 'Acacia Series', name: 'Acacia Wood Keepsake Box', meta: 'Rich grain · Hardwood durability' },
 ];
@@ -56,7 +62,7 @@ export const MATERIALS = [
   { href: '/products/pine',      swatch: 'swatch-pine',      name: 'Pine',
     desc: 'Classic rustic grain. Affordable and durable. Popular for wine & storage.' },
   { href: '/products/bamboo',    swatch: 'swatch-bamboo',    name: 'Bamboo',
-    desc: 'Eco-friendly and sustainable. Unique texture, naturally antibacterial.' },
+    desc: 'A fine, straight grain for tea organizers, storage and gift packaging. Confirm the finish for the intended use.' },
   { href: '/products/acacia',    swatch: 'swatch-acacia',    name: 'Acacia',
     desc: 'Dense hardwood with rich, warm tones. Ideal for premium gift boxes.' },
   { href: '/products/walnut',    swatch: 'swatch-walnut',    name: 'Walnut',
@@ -71,20 +77,15 @@ export const WHY = [
   { icon: '📋', title: 'Strict Quality Control',
     text: 'Each order goes through a 3-stage QC process: material inspection, in-process checks, and pre-shipment final inspection.' },
   { icon: '🌍', title: 'Export-Ready Documentation',
-    text: 'We handle phytosanitary certificates, CO, commercial invoices, and packing lists — stress-free customs clearance for you.' },
+    text: 'Confirm the destination, materials and packing before ordering so the required commercial and shipment documents can be agreed for your project.' },
 ];
 
 // `slug` is the stable cert key used by <CertIcon slug="..."> to pick
 // the right inline SVG (components/CertIcons.jsx). Translated locale
 // files keep the same `slug` values; only `name` localizes.
-export const CERTS = [
-  { slug: 'fsc',      name: 'FSC Certified' },
-  { slug: 'eu-reach', name: 'EU REACH' },
-  { slug: 'carb',     name: 'CARB P2' },
-  { slug: 'sgs',      name: 'SGS Tested' },
-  { slug: 'phyto',    name: 'Phyto Cert' },
-  { slug: 'iso-9001', name: 'ISO 9001' },
-];
+// Publish a certification only after its entity, product scope and validity
+// have been checked. A report for one bamboo model does not cover the range.
+export const CERTS = [];
 
 export const COPY = {
   hero: {
@@ -92,9 +93,9 @@ export const COPY = {
     titleEm1: 'Manufacturer',
     titleB: '& Wholesale',
     titleEm2: 'OEM Supplier',
-    sub: 'From luxury gift packaging to bespoke storage — we engineer custom wooden boxes in our 20,000 m² Cao County factory and ship to brands in 60+ countries from our Xiamen office. Built by hand, finished with bench-grade precision.',
+    sub: 'Custom wooden gift, presentation and storage boxes for brands, importers and distributors. Specify the wood, dimensions, closure, insert and logo for OEM or ODM production from 200 pieces per design.',
     btnPrimary: 'View Best Sellers →',
-    btnOutline: 'Request a Free Sample',
+    btnOutline: 'Request a Sample and Quote',
     metaItems: [
       { num: '20+', label: 'Years Team Experience' },
       { num: '500+', label: 'Box Styles' },
@@ -108,10 +109,10 @@ export const COPY = {
       stampSub: 'Years',
     },
     trust: [
-      'FSC Certified Wood',
+      'MOQ 200 per Design',
       'Full OEM / ODM',
-      'Sample in 7 Days',
-      'EU REACH · CARB · ISO 9001',
+      'Custom Sizes and Branding',
+      'Pre-Production Sample Approval',
     ],
   },
   stats: [
@@ -129,9 +130,9 @@ export const COPY = {
     features: [
       "MOQ: 200 pcs",
       'Full customization: size, finish, logo, insert, hardware',
-      'FSC certified wood & eco-friendly finishes available',
+      'Confirm material and finish documents for your model and intended use',
       'In-house design team for OEM & ODM projects',
-      'Sample delivery within 7 days',
+      'Sampling schedule confirmed against the design and finish',
     ],
   },
   featured: {
@@ -169,9 +170,9 @@ export const COPY = {
     title: 'The CHIC Advantage',
   },
   trust: {
-    label: 'Certifications & Compliance',
-    title: 'Trusted by Global Buyers',
-    text: 'All our wooden products meet international export standards. We hold FSC certification for responsible forestry, and our finishes comply with EU REACH and US CARB regulations. Phytosanitary certificates issued on request for all solid wood shipments.',
+    label: 'Order Specifications & Documentation',
+    title: 'Check the Documents for Your Actual Product',
+    text: 'Tell us the model, wood, finish, intended contents and importing market. We will confirm which documents are available for that specification. A report for one product or material does not establish compliance for every box. Agree any required testing, packing and shipment documentation before approving production.',
   },
   cta: {
     label: 'Ready to Start?',

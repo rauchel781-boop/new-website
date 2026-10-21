@@ -20,6 +20,7 @@
 export const FAQS = {
   // ──────────────────────────────────────────────────────────────────────
   'material-guide': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'Wood Material FAQs',
     sectionSub:
       'Choosing the right species is the first decision in any custom box project. Here is how our five core woods compare on grain, weight, durability and cost.',
@@ -54,13 +55,14 @@ export const FAQS = {
       },
       {
         q: 'Is your wood sustainably sourced and certified?',
-        a: 'We work with responsibly sourced material and can supply wood meeting recognised standards including FSC (responsible forestry), CARB (formaldehyde emissions) and EU REACH, plus our ISO 9001 quality system. If your market requires specific certification documents, confirm the requirement with our team so we source and document accordingly.',
+        a: "Tell us the exact product, wood or board, finish, intended use and destination market. We will check which sourcing records, certificates or test reports apply and whether they are available for that specification. FSC claims require verification of the certificate holder, scope and order documents; ISO 9001, REACH or CARB compliance must not be assumed from the wood species alone.",
       },
     ],
   },
 
   // ──────────────────────────────────────────────────────────────────────
   'wood-fabrication': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'Wood Fabrication FAQs',
     sectionSub:
       'From a sketch or sample to a finished, branded box — here is how our 20,000 m² factory cuts, joins, finishes and decorates custom wooden packaging.',
@@ -95,7 +97,7 @@ export const FAQS = {
       },
       {
         q: 'How do you control quality during fabrication?',
-        a: 'Quality is checked at incoming material, in-process and pre-shipment stages against your approved sample, covering dimensions, finish, hardware function and packing. We operate to an ISO 9001 quality system. For larger orders we can share inspection photos before shipment and accommodate third-party inspections.',
+        a: "Quality is checked at incoming material, in-process and pre-shipment stages against your approved sample, covering dimensions, finish, hardware function and packing. For larger orders we can share inspection photos before shipment and accommodate third-party inspections.",
       },
     ],
   },

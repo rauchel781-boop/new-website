@@ -6,6 +6,7 @@ import { Link } from '@/i18n/navigation';
 import Image from 'next/image';
 import Testimonials from '@/components/Testimonials';
 import IntroCarousel from '@/components/IntroCarousel';
+import HomeBuyerGuide from '@/components/HomeBuyerGuide';
 import JsonLd from '@/components/JsonLd';
 import CertIcon from '@/components/CertIcons';
 import { SITE } from '@/data/site-config';
@@ -29,10 +30,6 @@ const ORG_LD = {
   description:
     'CHIC (Xiamen Chic Homeware Co., Ltd.) is a Chinese B2B manufacturer of custom wooden boxes, packaging, and homeware — 20,000 m² factory in Cao County, Shandong, plus a sales / design office in Xiamen, Fujian. We serve retail brands, hospitality, and packaging clients in the US, EU, UK, Japan, Korea, and Australia with hinged, sliding-lid, drawer, magnetic, lockable and open-tray box formats in acacia, walnut, oak, pine, paulownia, and bamboo.',
   slogan: SITE.company.tagline,
-  // E-E-A-T trust signals. foundingDate + certifications are already published
-  // site-wide (OG card badges, FAQ); surfacing them as structured data helps
-  // Google's entity understanding. Confirm/adjust the cert list if any of these
-  // are not currently held.
   // foundingDate confirmed 2021 — must match the About page story copy
   // (data/about/*.js) which says "founded in 2021" / "Five years in" (as of 2026).
   foundingDate: SITE.company.foundingYear,
@@ -55,12 +52,6 @@ const ORG_LD = {
     description:
       `Founder of Xiamen Chic Homeware. Spent more than two decades in China’s wood trade — timber yards in Cao County, CNC production in Heze, and export order management out of Xiamen — before founding CHIC in ${SITE.company.foundingYear}.`,
   },
-  hasCertification: [
-    { '@type': 'Certification', name: 'ISO 9001 — Quality Management System' },
-    { '@type': 'Certification', name: 'FSC — Forest Stewardship Council (responsible wood sourcing)' },
-    { '@type': 'Certification', name: 'CARB — formaldehyde emissions compliance' },
-    { '@type': 'Certification', name: 'EU REACH compliance' },
-  ],
   numberOfEmployees: {
     '@type': 'QuantitativeValue',
     minValue: 120,
@@ -136,6 +127,29 @@ function buildWebsiteLd(locale) {
     name: SITE.company.brand,
     publisher: { '@id': `${SITE.siteUrl}/#organization` },
     inLanguage: LOCALE_TO_BCP47[locale] || 'en-US',
+  };
+}
+
+export async function generateMetadata({ params: { locale } }, parent) {
+  const home = getHome(locale);
+  const seo = home.SEO;
+  if (!seo) return {};
+  // Nested metadata replaces the layout object; retain its generated share image.
+  const inherited = await parent;
+  const images = inherited.openGraph?.images || [{ url: `${SITE.siteUrl}/opengraph-image`, width: 1200, height: 630 }];
+  return {
+    title: { absolute: seo.title },
+    description: seo.description,
+    openGraph: {
+      type: 'website',
+      locale: 'en_US',
+      siteName: `${SITE.company.brand} — ${SITE.company.tagline}`,
+      url: `${SITE.siteUrl}/${locale}`,
+      title: seo.title,
+      description: seo.description,
+      images,
+    },
+    twitter: { card: 'summary_large_image', title: seo.title, description: seo.description, images: inherited.twitter?.images || images },
   };
 }
 
@@ -852,6 +866,17 @@ const HOMEPAGE_CSS = `
 }
 
 /* ─── ANIMATIONS ─── */
+.wcb-home .buyer-guide { padding: 72px 60px; background: var(--cream); }
+.wcb-home .buyer-guide-inner { max-width: 1200px; margin: 0 auto; }
+.wcb-home .buyer-guide-intro { max-width: 820px; color: var(--blue-mid); line-height: 1.8; margin: 24px 0 36px; }
+.wcb-home .buyer-guide-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px 40px; }
+.wcb-home .buyer-guide-grid article { padding-top: 20px; border-top: 1px solid #D9C9B5; }
+.wcb-home .buyer-guide-grid h3 { font-family: var(--font-playfair), Georgia, serif; font-size: 1.2rem; color: var(--blue-dark); margin: 0 0 12px; }
+.wcb-home .buyer-guide-grid p, .wcb-home .buyer-guide-contact p { color: #5B4637; line-height: 1.8; font-size: .96rem; }
+.wcb-home .buyer-guide-grid a { color: #6B4A33; text-decoration: underline; text-underline-offset: 3px; }
+.wcb-home .buyer-guide-contact { margin-top: 36px; }
+.wcb-home .trust-inner--single { grid-template-columns: 1fr; max-width: 900px; }
+
 @keyframes wcbFadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
 @keyframes wcbScrollAnim { 0%,100% { opacity: 0.5; } 50% { opacity: 1; } }
 @keyframes wcbRotateBadge { from { transform: translateY(-50%) rotate(0deg); } to { transform: translateY(-50%) rotate(360deg); } }
@@ -882,6 +907,8 @@ const HOMEPAGE_CSS = `
   .wcb-home .fac-7 { grid-column: 5 / 7; grid-row: 3 / 4; }
 }
 @media (max-width: 960px) {
+  .wcb-home .buyer-guide { padding: 56px 24px; }
+  .wcb-home .buyer-guide-grid { grid-template-columns: 1fr; gap: 22px; }
   .wcb-home .hero { height: auto; min-height: unset; max-height: unset; }
   .wcb-home .hero-inner { padding: 60px 24px 130px; }
   .wcb-home .hero-eyebrow { font-size: 0.62rem; letter-spacing: 3px; padding: 6px 14px; }
@@ -1154,6 +1181,9 @@ export default async function HomePage({ params: { locale } }) {
         </div>
       </section>
 
+      {/* ORDER PLANNING — English procurement landing page */}
+      {locale === 'en' && <HomeBuyerGuide />}
+
       {/* MATERIALS */}
       <section className="materials">
         <div className="mat-inner">
@@ -1196,20 +1226,20 @@ export default async function HomePage({ params: { locale } }) {
 
       {/* TRUST */}
       <section className="trust">
-        <div className="trust-inner">
+        <div className={`trust-inner${CERTS.length ? '' : ' trust-inner--single'}`}>
           <div className="trust-text">
             <div className="section-label">{COPY.trust.label}</div>
             <h2 className="section-title">{COPY.trust.title}</h2>
             <p>{COPY.trust.text}</p>
           </div>
-          <div className="cert-badges">
+          {CERTS.length > 0 && <div className="cert-badges">
             {CERTS.map((c, i) => (
               <div className="cert-badge" key={i}>
                 <div className="cert-icon" aria-hidden="true"><CertIcon slug={c.slug} /></div>
                 <div className="cert-name">{c.name}</div>
               </div>
             ))}
-          </div>
+          </div>}
         </div>
       </section>
 

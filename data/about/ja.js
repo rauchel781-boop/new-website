@@ -1,4 +1,6 @@
 // About — Japanese translation.
+export const UPDATED_AT = '2026-10-21';
+
 const F = (name) => '/factory/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
 const E = (name) => '/employees/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
 const P = (name) => '/folder/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
@@ -43,8 +45,8 @@ export const TIMELINE = [
     text: '蒲蓮集鎮にて専用6,000 m²生産拠点の賃貸契約を締結。最初の欧州ワインボックスクライアントを受注。' },
   { year: '2023', title: 'Amazonブーム',
     text: 'Amazonプライベートブランド向け小ロット専用ラインを構築。年間100万個を超える出荷を達成。' },
-  { year: '2024', title: 'FSC認証取得',
-    text: 'FSC chain-of-custody認証を取得。工場を20,000 m²に拡張し、新たな仕上げ・QCエリアを設置。' },
+  { year: '2024', title: '工場拡張',
+    text: '工場を20,000 m²に拡張し、新たな仕上げ・QCエリアを設置。' },
   { year: '2025', title: 'グローバル展開',
     text: '40カ国以上にアクティブな顧客。OEM/ODM成長を支援するため、社内ID + 3Dモックアップチームを発足。' },
 ];
@@ -78,13 +80,13 @@ export const LOCATIONS = [
 
 export const MARKETS = [
   { flag: '🇪🇺', name: 'ヨーロッパ',
-    text: 'イギリス、ドイツ、フランス、オランダ、イタリア、スペイン — REACH準拠の仕上げ、EU植物検疫証明書を標準で発行。' },
+    text: 'イギリス、ドイツ、フランス、オランダ、イタリア、スペイン — 選択した製品と仕向地に必要な書類および表示をご確認ください。' },
   { flag: '🇺🇸', name: '北米',
-    text: '米国とカナダ — CARB P2仕上げ、FBA対応梱包あり、毎週のLCL混載便。' },
+    text: '米国とカナダ — 買い手が指定する梱包、表示、書類の要件を注文仕様に記載してください。' },
   { flag: '🇯🇵', name: '日本',
-    text: '東京、大阪、名古屋 — JIS等級の公差基準、JAS準拠ラベリングは要請に応じて対応。' },
+    text: '東京、大阪、名古屋 — 対象市場に必要な仕様、表示、書類をご確認ください。' },
   { flag: '🇰🇷', name: '韓国',
-    text: 'ソウル、釜山 — KCマークラベリング対応、厦門から仁川・釜山港への高速航路。' },
+    text: 'ソウル、釜山 — 選択したモデルについて、仕向地または買い手が指定する書類と表示の要件をご相談ください。' },
 ];
 
 export const VALUES = [
@@ -96,12 +98,7 @@ export const VALUES = [
     text: '当社の厦門オフィスは、見積もりからアートワーク、出荷書類まで、流暢な英語でプロジェクトを最後まで対応します。EU・US朝の時間帯と重なる時差で対応可能です。' },
 ];
 
-export const CERTS = [
-  { slug: 'fsc',      name: 'FSC',       status: '認証取得済み',         pending: false },
-  { slug: 'eu-reach', name: 'EU REACH',  status: '認証取得済み',         pending: false },
-  { slug: 'carb',     name: 'CARB P2',   status: '認証取得済み',         pending: false },
-  { slug: 'iso-9001', name: 'ISO 9001',  status: '認証取得済み',         pending: false },
-];
+export const CERTS = [];
 
 export const COPY = {
   meta: {
@@ -187,10 +184,10 @@ export const COPY = {
     titleEm: '違うところ',
   },
   certs: {
-    label: '基準とコンプライアンス',
-    title: '認証',
+    label: 'ご注文に関する書類',
+    title: '製品ごとの書類確認',
     paragraph:
-      '当社の木材はFSC認証林業ルートから調達され、丸太からカートンまで監査記録をクリーンに保つチェーン・オブ・カスタディプログラムを運用しています。さらにCARB P2(米国のホルムアルデヒド排出基準)およびEU REACHにも準拠し、ISO 9001品質管理システムも導入しているため、米国・EUをはじめとする各国の輸入要件に対応済みです。',
+      'ご注文前に、製品モデル、材料、用途、仕向地の市場をお知らせください。その仕様について提供可能な関連書類を確認します。適合性に関する表示を行う前に、各書類に記載された製品、材料、対象範囲、制限事項をご確認ください。書類は、そこに明記された製品と範囲に適用されます。',
   },
   cta: {
     label: 'お問い合わせ',

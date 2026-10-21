@@ -3,13 +3,13 @@ export const FEATURED = [
   { href: '/products/gift-packaging/luxury-magnetic-gift-box', img: '/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp', w: 800, h: 800,
     tag: 'Cajas de Regalo y Embalaje', name: 'Caja de Regalo Magnética de Lujo', meta: 'Imanes ocultos · Interior de terciopelo' },
   { href: '/products/gift-packaging/sliding-lid-gift-box', img: '/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp', w: 1488, h: 1182,
-    tag: 'Cajas de Regalo y Embalaje', name: 'Caja de Regalo con Tapa Deslizante', meta: 'Sin herrajes · Apto para envío plano' },
+    tag: 'Cajas de Regalo y Embalaje', name: 'Caja de Regalo con Tapa Deslizante', meta: 'Sin herrajes · Tapa corredera con guías fresadas' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Cajas con Cerradura', name: 'Kit de Caja Negra Grande con Cerradura', meta: 'Cierre por combinación · Multi-compartimento' },
   { href: '/products/tea-coffee/bamboo-tea-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
-    tag: 'Té y Café', name: 'Organizador de Bolsas de Té de Bambú', meta: '8 separadores · Tapa transparente con bisagra' },
+    tag: 'Té y Café', name: 'Organizador de Bolsas de Té de Bambú', meta: 'Tapa corredera · Compartimentos configurables' },
   { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
-    tag: 'Relojes y Joyería', name: 'Caja Expositora de Relojes en Madera', meta: 'Cojín de lino · Capacidad 6 relojes' },
+    tag: 'Relojes y Joyería', name: 'Caja Expositora de Relojes en Madera', meta: 'Cojín de lino · Presentación para un reloj' },
   { href: '/products/hinged/acacia-wooden-storage-box', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
     tag: 'Serie Acacia', name: 'Caja de Recuerdos en Madera de Acacia', meta: 'Veta rica · Durabilidad de madera dura' },
 ];
@@ -46,7 +46,7 @@ export const MATERIALS = [
   { href: '/products/pine',      swatch: 'swatch-pine',      name: 'Pino',
     desc: 'Veta rústica clásica. Asequible y duradero. Popular para vino y almacenaje.' },
   { href: '/products/bamboo',    swatch: 'swatch-bamboo',    name: 'Bambú',
-    desc: 'Ecológico y sostenible. Textura única, antibacteriano natural.' },
+    desc: 'Bambú para cajas a medida. Confirma construcción, color y acabado con la muestra.' },
   { href: '/products/acacia',    swatch: 'swatch-acacia',    name: 'Acacia',
     desc: 'Madera dura y densa con tonos cálidos. Ideal para cajas regalo premium.' },
   { href: '/products/walnut',    swatch: 'swatch-walnut',    name: 'Nogal',
@@ -60,18 +60,11 @@ export const WHY = [
     text: 'Grabado de logo, hot stamping, serigrafía, insertos a medida, herrajes, forrado en terciopelo — manejamos cada detalle internamente.' },
   { icon: '📋', title: 'Control de Calidad Estricto',
     text: 'Cada pedido pasa por un proceso QC de 3 etapas: inspección de material, comprobaciones en proceso y inspección final pre-embarque.' },
-  { icon: '🌍', title: 'Documentación Lista para Exportar',
-    text: 'Gestionamos certificados fitosanitarios, CO, facturas comerciales y listas de empaque — despacho aduanero sin estrés para ti.' },
+  { icon: '🌍', title: 'Documentación por pedido',
+    text: 'Confirma antes de producir qué documentos son necesarios y están disponibles para el modelo, los materiales y el país de destino seleccionados.' },
 ];
 
-export const CERTS = [
-  { slug: 'fsc',      name: 'Certificado FSC' },
-  { slug: 'eu-reach', name: 'EU REACH' },
-  { slug: 'carb',     name: 'CARB P2' },
-  { slug: 'sgs',      name: 'Probado por SGS' },
-  { slug: 'phyto',    name: 'Cert. Fitosanitario' },
-  { slug: 'iso-9001', name: 'ISO 9001' },
-];
+export const CERTS = [];
 
 export const COPY = {
   hero: {
@@ -81,7 +74,7 @@ export const COPY = {
     titleEm2: 'Proveedor OEM',
     sub: 'Desde embalaje regalo de lujo hasta almacenaje a medida — diseñamos cajas de madera personalizadas en nuestra fábrica de 20.000 m² en Cao County y enviamos a marcas en 60+ países desde nuestra oficina de Xiamen. Hechas a mano, terminadas con precisión de banco.',
     btnPrimary: 'Ver Best Sellers →',
-    btnOutline: 'Solicitar Muestra Gratuita',
+    btnOutline: 'Solicitar muestra y presupuesto',
     metaItems: [
       { num: '20+', label: 'Años de experiencia del equipo' },
       { num: '500+', label: 'Estilos de caja' },
@@ -95,10 +88,10 @@ export const COPY = {
       stampSub: 'Años',
     },
     trust: [
-      'Madera Certificada FSC',
-      'OEM / ODM Completo',
-      'Muestra en 7 días',
-      'EU REACH · CARB · ISO 9001',
+      'MOQ: 200 piezas',
+      'Pedidos OEM y ODM',
+      'Dimensiones a medida',
+      'Aprobación de la muestra',
     ],
   },
   stats: [
@@ -116,9 +109,9 @@ export const COPY = {
     features: [
       "MOQ: 200 piezas",
       'Personalización completa: tamaño, acabado, logo, inserto, herraje',
-      'Madera certificada FSC y acabados ecológicos disponibles',
+      'Materiales y documentación aplicable según modelo y uso previsto',
       'Equipo interno de diseño para proyectos OEM y ODM',
-      'Entrega de muestras en 7 días',
+      'Coste y plazo de la muestra confirmados según las especificaciones',
     ],
   },
   featured: {
@@ -156,9 +149,9 @@ export const COPY = {
     title: 'La Ventaja CHIC',
   },
   trust: {
-    label: 'Certificaciones y Conformidad',
-    title: 'En Quien Confían los Compradores Globales',
-    text: 'Todos nuestros productos de madera cumplen los estándares internacionales de exportación. Tenemos certificación FSC para silvicultura responsable y nuestros acabados cumplen las regulaciones EU REACH y US CARB. Certificados fitosanitarios emitidos bajo solicitud para todos los envíos de madera maciza.',
+    label: 'Especificaciones y documentación',
+    title: 'Revisa los documentos del modelo seleccionado',
+    text: 'Indica el modelo, los materiales, el uso previsto y el mercado de destino. Antes de aprobar el pedido, confirma qué documentos se aplican a esa configuración concreta y a ese pedido.',
   },
   cta: {
     label: '¿Listo para Empezar?',
@@ -169,3 +162,5 @@ export const COPY = {
     btnWhatsapp: 'Chatear por WhatsApp',
   },
 };
+
+export const UPDATED_AT = '2026-10-21';

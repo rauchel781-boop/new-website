@@ -3,13 +3,13 @@ export const FEATURED = [
   { href: '/products/gift-packaging/luxury-magnetic-gift-box', img: '/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp', w: 800, h: 800,
     tag: 'ギフト・パッケージボックス', name: '高級マグネット式ギフトボックス', meta: '隠しマグネット · ベルベット内装' },
   { href: '/products/gift-packaging/sliding-lid-gift-box', img: '/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp', w: 1488, h: 1182,
-    tag: 'ギフト・パッケージボックス', name: 'スライド蓋ギフトボックス', meta: '金具なし · フラット梱包対応' },
+    tag: 'ギフト・パッケージボックス', name: 'スライド蓋ギフトボックス', meta: '金具なし · 溝加工のスライド蓋' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'ロック付きボックス', name: '大型ブラック木製ストレージボックスキット', meta: 'ダイヤルロック · 多区画' },
   { href: '/products/tea-coffee/bamboo-tea-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
-    tag: 'お茶・コーヒー', name: '竹製ティーバッグオーガナイザー', meta: '8仕切り · クリア蝶番蓋' },
+    tag: 'お茶・コーヒー', name: '竹製ティーバッグオーガナイザー', meta: 'スライド蓋 · 仕切り構成の変更可' },
   { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
-    tag: 'ウォッチ・ジュエリー', name: '木製ウォッチディスプレイボックス', meta: 'リネンクッション · 6本収納' },
+    tag: 'ウォッチ・ジュエリー', name: '木製ウォッチディスプレイボックス', meta: 'リネンクッション · 腕時計1本の展示用' },
   { href: '/products/hinged/acacia-wooden-storage-box', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
     tag: 'アカシアシリーズ', name: 'アカシア木製キープセイクボックス', meta: '豊かな木目 · 硬木の耐久性' },
 ];
@@ -46,7 +46,7 @@ export const MATERIALS = [
   { href: '/products/pine',      swatch: 'swatch-pine',      name: '松',
     desc: 'クラシックなラスティック木目。手頃で耐久性あり。ワインや収納に人気。' },
   { href: '/products/bamboo',    swatch: 'swatch-bamboo',    name: '竹',
-    desc: '環境に優しく持続可能。独特のテクスチャ、天然の抗菌性。' },
+    desc: 'オーダーメイド木箱向けの竹材。構造・色・仕上げをサンプルでご確認ください。' },
   { href: '/products/acacia',    swatch: 'swatch-acacia',    name: 'アカシア',
     desc: '濃密な硬木で豊かで温かみのあるトーン。プレミアムギフトボックスに最適。' },
   { href: '/products/walnut',    swatch: 'swatch-walnut',    name: 'ウォールナット',
@@ -60,18 +60,11 @@ export const WHY = [
     text: 'ロゴ彫刻、ホットスタンプ、シルクスクリーン、特注インサート、金具、ベルベットライニング — すべての細部を社内で対応します。' },
   { icon: '📋', title: '厳格な品質管理',
     text: '各注文は3段階のQCプロセスを経ます：素材検査、工程内チェック、出荷前最終検査。' },
-  { icon: '🌍', title: '輸出書類対応済み',
-    text: '植物検疫証明書、原産地証明、商業送り状、パッキングリストを当社が処理します — お客様は手間なく通関完了。' },
+  { icon: '🌍', title: '注文ごとの書類確認',
+    text: '生産前に、選択したモデル・材料・仕向地に必要な書類と、用意できる書類をご確認ください。' },
 ];
 
-export const CERTS = [
-  { slug: 'fsc',      name: 'FSC認証' },
-  { slug: 'eu-reach', name: 'EU REACH' },
-  { slug: 'carb',     name: 'CARB P2' },
-  { slug: 'sgs',      name: 'SGSテスト済み' },
-  { slug: 'phyto',    name: '植物検疫証明' },
-  { slug: 'iso-9001', name: 'ISO 9001' },
-];
+export const CERTS = [];
 
 export const COPY = {
   hero: {
@@ -81,7 +74,7 @@ export const COPY = {
     titleEm2: 'OEMサプライヤー',
     sub: '高級ギフト包装からカスタム収納まで — 当社の20,000 m²曹県工場でカスタム木箱を設計し、厦門オフィスから60カ国以上のブランドへ出荷します。手作りで、職人レベルの精度で仕上げます。',
     btnPrimary: 'ベストセラーを見る →',
-    btnOutline: '無料サンプル請求',
+    btnOutline: 'サンプルと見積もりを相談',
     metaItems: [
       { num: '20+', label: '年のチーム経験' },
       { num: '500+', label: 'ボックススタイル' },
@@ -95,10 +88,10 @@ export const COPY = {
       stampSub: '年',
     },
     trust: [
-      'FSC認証木材',
-      '完全OEM / ODM',
-      '7日でサンプル',
-      'EU REACH · CARB · ISO 9001',
+      'MOQ：200個',
+      'OEM・ODM対応',
+      '寸法のカスタマイズ',
+      '量産前サンプルの承認',
     ],
   },
   stats: [
@@ -116,9 +109,9 @@ export const COPY = {
     features: [
       "MOQ: 200 個",
       '完全カスタマイズ：サイズ、仕上げ、ロゴ、インサート、金具',
-      'FSC認証木材と環境配慮型仕上げ対応',
+      'モデルと用途に応じた材料・適用書類の確認',
       'OEM・ODMプロジェクト対応の社内デザインチーム',
-      '7日以内のサンプル配送',
+      '仕様に応じてサンプル費用と日程を確認',
     ],
   },
   featured: {
@@ -156,9 +149,9 @@ export const COPY = {
     title: 'CHICのアドバンテージ',
   },
   trust: {
-    label: '認証とコンプライアンス',
-    title: '世界中のバイヤーが信頼',
-    text: '当社のすべての木製品は、国際輸出基準を満たしています。責任ある林業のためのFSC認証を取得し、仕上げはEU REACHおよびUS CARB規制に準拠しています。すべての無垢材出荷について、リクエストに応じて植物検疫証明書を発行いたします。',
+    label: '注文仕様と関連書類',
+    title: '選択したモデルの書類を確認',
+    text: 'モデル、材料、用途、販売先の市場をお知らせください。注文を承認する前に、その仕様と注文に適用される書類をご確認ください。',
   },
   cta: {
     label: 'はじめませんか？',
@@ -169,3 +162,5 @@ export const COPY = {
     btnWhatsapp: 'WhatsAppでチャット',
   },
 };
+
+export const UPDATED_AT = '2026-10-21';

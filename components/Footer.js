@@ -380,12 +380,6 @@ export default function Footer() {
             </div>
           </Link>
           <p className="brand-blurb">{t('footer.brandBlurb')}</p>
-          <div className="badges">
-            <span className="badge">FSC Certified</span>
-            <span className="badge">EU REACH</span>
-            <span className="badge">CARB P2</span>
-            <span className="badge">ISO 9001</span>
-          </div>
         </div>
 
         <div className="col">

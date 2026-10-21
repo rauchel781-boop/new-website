@@ -4,6 +4,7 @@
 
 export const FAQS = {
   'material-guide': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'Häufige Fragen zu Holzmaterialien',
     sectionSub:
       'Die Wahl der richtigen Holzart ist die erste Entscheidung bei jedem individuellen Box-Projekt. So vergleichen sich unsere fünf Kernhölzer in Maserung, Gewicht, Haltbarkeit und Kosten.',
@@ -38,12 +39,13 @@ export const FAQS = {
       },
       {
         q: 'Ist Ihr Holz nachhaltig bezogen und zertifiziert?',
-        a: 'Wir arbeiten mit verantwortungsvoll beschafftem Material und können Holz liefern, das anerkannte Standards erfüllt, darunter FSC (verantwortungsvolle Forstwirtschaft), CARB (Formaldehyd-Emissionen) und EU REACH, ergänzt durch unser ISO-9001-Qualitätssystem. Wenn Ihr Markt bestimmte Zertifizierungsnachweise verlangt, stimmen Sie die Anforderung mit unserem Team ab, damit wir entsprechend beschaffen und dokumentieren.',
+        a: "Nennen Sie uns das genaue Produkt, Holz oder Plattenmaterial, die Oberfläche, den Verwendungszweck und den Zielmarkt. Wir prüfen, welche Herkunftsnachweise, Zertifikate oder Prüfberichte dafür relevant und verfügbar sind. Für FSC-Aussagen müssen Zertifikatsinhaber, Geltungsbereich und Auftragsunterlagen geprüft werden. ISO 9001, REACH oder CARB dürfen nicht allein aus der Holzart abgeleitet werden.",
       },
     ],
   },
 
   'wood-fabrication': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'Häufige Fragen zur Holzfertigung',
     sectionSub:
       'Von der Skizze oder dem Muster bis zur fertigen, gebrandeten Box – so schneidet, fügt, veredelt und dekoriert unsere 20.000 m² große Fabrik individuelle Holzverpackungen.',
@@ -78,7 +80,7 @@ export const FAQS = {
       },
       {
         q: 'Wie sichern Sie die Qualität während der Fertigung?',
-        a: 'Die Qualität wird beim Wareneingang, während der Fertigung und vor dem Versand anhand Ihres freigegebenen Musters geprüft – Maße, Finish, Funktion der Beschläge und Verpackung. Wir arbeiten nach einem ISO-9001-Qualitätssystem. Bei größeren Bestellungen teilen wir vor dem Versand Prüffotos und ermöglichen Inspektionen durch Dritte.',
+        a: "Die Qualität wird beim Wareneingang, während der Fertigung und vor dem Versand anhand Ihres freigegebenen Musters geprüft – Maße, Finish, Funktion der Beschläge und Verpackung. Bei größeren Bestellungen teilen wir vor dem Versand Prüffotos und ermöglichen Inspektionen durch Dritte.",
       },
     ],
   },

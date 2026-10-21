@@ -333,7 +333,7 @@ async function renderProductCard(params) {
                 textTransform: 'uppercase',
               }}
             >
-              OEM · ODM · FSC
+              OEM · ODM
             </div>
           </div>
         </div>

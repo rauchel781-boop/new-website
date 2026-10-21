@@ -5,6 +5,7 @@
 
 export const FAQS = {
   "gift-packaging": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Welche Holzarten empfehlen Sie für Premium-Geschenk verpackungen?",
@@ -24,7 +25,7 @@ export const FAQS = {
       },
       {
         "q": "Versenden Ihre Geschenk boxen mit einzelhandel fertigen Verpackungen?",
-        "a": "Ja. Jede Geschenk box ist in einen OPP-Poly beutel (kratz fest) eingewickelt und in Master kartons mit Eck schutz in Export qualität verpackt. UPC-Barcodes, Reißstreifen-Aufkleber, Hangtags und Geschenk karten können als Inline-Betrieb hinzugefügt werden. Phyto sanitäre Zertifikate werden auf Anfrage für Lieferungen von Massivholz ausgestellt."
+        "a": "Ja. Jede Geschenk box ist in einen OPP-Poly beutel (kratz fest) eingewickelt und in Master kartons mit Eck schutz in Export qualität verpackt. UPC-Barcodes, Reißstreifen-Aufkleber, Hangtags und Geschenk karten können als Inline-Betrieb hinzugefügt werden. Bei Massivholzsendungen sind die Anforderungen des Zielmarkts an Pflanzengesundheit oder Behandlung und die Verfügbarkeit erforderlicher Unterlagen vor der Bestellung zu prüfen."
       }
     ],
     "sectionTitle": "FAQ-Geschenk verpackungs boxen aus Holz",
@@ -57,10 +58,11 @@ export const FAQS = {
     "sectionSub": "Größen-, Einfügen-und Abschluss fragen von Uhrenmarken, Juwelieren und Luxus-Geschenk programmen."
   },
   "tea-coffee": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Sind Ihre Tee-und Kaffee boxen lebensmittel sicher?",
-        "a": "Ja. Alle Innenflächen in Lebensmittel kontakt verwenden natürliche Öl-oder wasser basierte Lackierungen, die den EU-Vorschriften für Lebensmittel kontakt material (EG) Nr. 1935/2004 und der US-amerikanischen FDA 21 CFR 175.300 entsprechen. Wir vermeiden lösemittel basierte Flecken und nicht konforme CARB Phase-2-Klebstoffe. Testberichte auf Anfrage erhältlich."
+        "a": "Unterscheiden Sie zwischen verpacktem Tee oder Kaffee und direktem Kontakt mit losem Inhalt. Für Lebensmittelkontakt sind die genaue Box, Oberfläche, Klebstoffe, Kontaktdauer, Temperatur und der Zielmarkt zu prüfen. Lassen Sie vor der Bestellung die verfügbaren Nachweise für diese Spezifikation prüfen; ein Dokument zu einem anderen Modell oder Material belegt nicht die Eignung dieser Box."
       },
       {
         "q": "Wie viele Fächer kannst du machen? Welche Größen passen zu Teebeuteln gegen loses Blatt?",
@@ -83,6 +85,7 @@ export const FAQS = {
     "sectionSub": "Größe des Abteils, lebensmittels ichere Oberflächen und Fragen zur Luft feuchtigkeit für Tee-/Kaffee marken und Geschenk programme."
   },
   "wine-whisky": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "In welche Flaschen größen passen Ihre Wein-und Spirituosen boxen?",
@@ -98,7 +101,7 @@ export const FAQS = {
       },
       {
         "q": "Wie gehen Sie mit Pflanzen gesundheit und ISPM-15 stempeln für den Export um?",
-        "a": "Für Massivholz kisten, die in die EU, nach Großbritannien, Australien, in die USA und nach Japan geliefert werden, stellen wir bei jeder Exports endung Pflanzen gesundheits zertifikate zur Verfügung. Paletten werden mit ISPM-15 (HT-Stempel) wärme behandelt-erforderlich für Massivholz paletten, die in die meisten Länder gelangen. Die Boxen selbst sind ofen getrocknet (KD-Behandlung), sodass sie nicht einzeln ISPM-15 stempeln müssen."
+        "a": "Prüfen Sie vor der Bestellung die Anforderungen an Pflanzengesundheit und Behandlung für Zielmarkt, Holzbestandteile und Transportverpackung. Kammertrocknung allein belegt weder eine Ausnahme von ISPM 15 noch die Einhaltung. Stimmen Sie Behandlung, Kennzeichnungen und Unterlagen für Produkt und Sendung mit Importeur oder Zollagent ab; wir prüfen vor einer Zusage, was sich arrangieren lässt."
       },
       {
         "q": "Was ist die typische Vorlaufzeit und MOQ für Weinkisten mit individueller Marke?",
@@ -109,10 +112,11 @@ export const FAQS = {
     "sectionSub": "Flaschen montage, Schiebe deckel konstruktion und Export dokument fragen für Weingüter, Brennereien und Spirituosen geschenke."
   },
   "kitchen-dining": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Welche Holzarten sind für den Lebensmittel kontakt am sichersten?",
-        "a": "Bambus, Akazien, Buche und Kiefer sind lebensmittel echt, wenn sie mit Mineralöl in Lebensmittel qualität oder Lack auf Wasserbasis (EC 1935/2004 / FDA 21 CFR 175.300 konform) fertig sind. Wir vermeiden Walnuss für direkten Lebensmittel kontakt (geringes Allergen risiko) und vermeiden Lacke auf Lösungsmittel basis in den Oberflächen der Lebensmittel zone."
+        "a": "Die Holzart allein belegt keine Eignung für direkten Lebensmittelkontakt. Für Brett, Tablett oder Box sind Materialien, Oberfläche, Klebstoffe, Lebensmittel, Kontaktdauer, Temperatur und Zielmarkt festzulegen. Prüfen Sie die geltenden Anforderungen und den Umfang verfügbarer Prüfberichte vor der Freigabe."
       },
       {
         "q": "Wie werden Brot behälter belüftet, um Brote frisch zu halten?",
@@ -213,6 +217,7 @@ export const FAQS = {
     "sectionSub": "Scharnier mechanik, Deckels topps und Haltbarkeit fragen für Einzelhandels-und Geschenk käufer."
   },
   "sliding-lid": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Wie dicht sind die Schiebe deckel rillen-klebt der Deckel?",
@@ -228,7 +233,7 @@ export const FAQS = {
       },
       {
         "q": "Sind Schiebe deckel boxen für die Lagerung von Lebensmittel kontakt (Tee, Kaffee, Gewürze) sicher?",
-        "a": "Ja, wenn Sie mit einem Lack auf Wasserbasis oder natürlichem Mineralöl in Lebensmittel qualität fertig sind. Der Schiebe deckel bildet einen eng anliegenden Verschluss, ist jedoch nicht luftdicht. Für feuchtigkeit empfindliche Inhalte (ganze Gewürze, gemahlener Kaffee) fügen wir eine Silikon dichtung entlang der Deckel nut hinzu oder empfehlen ein versiegeltes Innen glas."
+        "a": "Für direkten Kontakt mit Tee, Kaffee oder Gewürzen müssen Materialien, Oberfläche und Klebstoffe der konkreten Box für die vorgesehenen Kontaktbedingungen und den Zielmarkt geprüft werden. Die Art der Oberfläche allein belegt keine Konformität. Ein Schiebedeckel ist nicht luftdicht; für feuchtigkeitsempfindliche Inhalte sollte ein dichtes Innengefäß oder eine andere geeignete Barriere besprochen werden."
       },
       {
         "q": "Rutscht der Deckel nach jahrelanger Nutzung noch reibungslos?",
@@ -291,6 +296,7 @@ export const FAQS = {
     "sectionSub": "Magnets tärke, Einbetlung und Luftfahrt-Sicherheits fragen für Geschenk-, Uhren-und Luxus verpackungen."
   },
   "with-lock": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Welche Schloss typen bieten Sie an?",
@@ -298,11 +304,11 @@ export const FAQS = {
       },
       {
         "q": "Sind diese Schlösser sicherheits tauglich oder symbolisch?",
-        "a": "Symbolisch bis moderat-es sind Verpackungs schlösser, nicht sicher. Sie halten neugierige Hände und gelegentlichen Zugang; Sie werden einen entschlossenen Angreifer nicht mit Werkzeugen aufhalten. Für Dokumente oder Gegenstände, die echte Sicherheit benötigen, empfehlen Sie Käufern, auch einen Heims afe zu verwenden. Unsere Schlösser entsprechen den Sicherheits vorschriften für Verbraucher produkte in der EU, den USA und Japan."
+        "a": "Symbolisch bis moderat-es sind Verpackungs schlösser, nicht sicher. Sie halten neugierige Hände und gelegentlichen Zugang; Sie werden einen entschlossenen Angreifer nicht mit Werkzeugen aufhalten. Für Dokumente oder Gegenstände, die echte Sicherheit benötigen, empfehlen Sie Käufern, auch einen Heims afe zu verwenden."
       },
       {
         "q": "Sind abschließbare Boxen kinder sicher-wichtig für Inhalte nur für Erwachsene?",
-        "a": "Die Kombination schloss modelle erfüllen das US-amerikanische CPSC-Test protokoll zur Kinder beständigkeit, wenn die Kombination von 000 entfernt ist-Kinder unter 5 Jahren öffnen sie in wiederholten Test versuchen nicht erfolgreich. Key-Lock-Modelle sind nicht selbst kinder sicher zertifiziert. Für Cannabis-und Erwachsenen produkt programme in Kalifornien, Washington und Colorado akzeptieren die Regulierungs behörden die Kombination version."
+        "a": "Ein Schlüssel- oder Zahlenschloss allein belegt keine Kindersicherheit. Für regulierte oder nur für Erwachsene bestimmte Inhalte ist ein Prüfbericht für die genaue Box mit Schloss und Verschluss nach dem im Zielmarkt geforderten Standard zu prüfen. Ohne passende Nachweise darf ein Modell nicht als CPSC-geprüft, kindersicher oder von einer staatlichen Behörde akzeptiert bezeichnet werden."
       },
       {
         "q": "Können Sie die Kombination oder das Schlüssel muster anpassen?",
@@ -317,6 +323,7 @@ export const FAQS = {
     "sectionSub": "Sperr typen, Kinder widerstand und Fragen zu Kombination gegen Schlüssel für Vorrat boxen, Dokumenten boxen und Sicherheits geschenk programme."
   },
   "paulownia": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Warum ist Paulo wnia so leicht-ist es schwächer als andere Hölzer?",
@@ -332,7 +339,7 @@ export const FAQS = {
       },
       {
         "q": "Ist Paulo wnia umwelt freundlich?",
-        "a": "Ja-eines der nachhaltig sten im Handel erhältlichen Harthölzer. Paulownia-Bäume wachsen extrem schnell (ernte fähig in 7 bis 10 Jahren gegenüber 25 bei Eichen) und werden nach der Ernte vom Baumstumpf wieder hergestellt. Unser Paulownia-Bestand ist FSC-zertifiziert aus bewirtschaft eten Plantagen in Zentral china."
+        "a": "Paulownia kommt für leichte Verpackungen infrage; die Umweltwirkung hängt jedoch von Herkunft, Verarbeitung und Transport ab. Schnelles Wachstum allein belegt weder verantwortungsvolle Beschaffung noch eine FSC-Zertifizierung. Für eine FSC-Aussage müssen Zertifikatsinhaber, Produktumfang und Auftragsunterlagen vor der Bestätigung geprüft werden."
       },
       {
         "q": "Wird Paulo wnia im Laufe der Zeit verziehen oder knacken?",
@@ -369,6 +376,7 @@ export const FAQS = {
     "sectionSub": "Knopfzeichen, Finish-Optionen und Haltbarkeit fragen für rustikale Wein-, Geschenk-und Aufbewahrung programme."
   },
   "bamboo": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Ist Bambus wirklich ein Holz oder ist es Gras?",
@@ -376,7 +384,7 @@ export const FAQS = {
       },
       {
         "q": "Ist Bambus wirklich nachhaltiger als Hartholz?",
-        "a": "Ja, mit großem Abstand. Bambus wächst 30-90 cm pro Tag, kann in 3-5 Jahren ernte fähig sein und wächst nach dem Schneiden aus derselben Wurzel nach (keine Wieder bepflanzung erforderlich). Eine Bambus plantage produziert 25 × die Biomasse eines Eichen waldes derselben Gegend. Unser Bambus ist FSC-zertifiziert aus bewirtschaft eten Plantagen in Südchina."
+        "a": "Bambus ist nicht automatisch nachhaltiger als Hartholz. Vergleichen Sie Herkunft, Verarbeitung, Klebstoffe, Nutzungsdauer und Transport des geplanten Produkts. Eine FSC-Aussage setzt die Prüfung von Zertifikatsinhaber, Produktumfang und Auftragsunterlagen voraus und lässt sich nicht allein aus dem Material Bambus ableiten."
       },
       {
         "q": "Ist die \"natürlich anti bakterielle\" Behauptung echt?",
@@ -395,6 +403,7 @@ export const FAQS = {
     "sectionSub": "Öko-Ausweis, anti bakterielle und strukturelle Fragen für nachhaltig keits positionierte Marken."
   },
   "acacia": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Was macht Akazie gut für Premium-Boxen?",
@@ -406,7 +415,7 @@ export const FAQS = {
       },
       {
         "q": "Ist Akazien lebensmittel sicher zum Schneiden von Brettern oder Servieren von Tabletts?",
-        "a": "Ja-fertig mit Mineralöl in Lebensmittel qualität oder Lack auf Wasserbasis entspricht es den EU-und FDA-Vorschriften für Lebensmittel kontakt. Akazie ist aufgrund seiner engen Körnung und geringen chemischen Auswaschung natürlich eines der lebensmittel geeigneteren Harthölzer. Wir liefern fertige Akazien bretter an mehrere große europäische Kochgeschirr marken."
+        "a": "Akazie kann für Bretter und Tabletts vorgesehen werden; die Holzart allein belegt jedoch keine Konformität für Lebensmittelkontakt. Prüfen Sie Oberfläche, Klebstoffe, Lebensmittel, Kontaktdauer, Temperatur und Zielmarkt. Ein verfügbarer Bericht muss das konkrete Produkt und seine Verwendung abdecken; Unterlagen zu einer Bambus-Aufbewahrungsbox gelten nicht automatisch für Akazienprodukte."
       },
       {
         "q": "Wird sich die Farbe der Akazien im Laufe der Zeit verschieben?",

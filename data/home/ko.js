@@ -3,13 +3,13 @@ export const FEATURED = [
   { href: '/products/gift-packaging/luxury-magnetic-gift-box', img: '/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp', w: 800, h: 800,
     tag: '선물·포장 박스', name: '럭셔리 마그넷 기프트 박스', meta: '히든 마그넷 · 벨벳 내장' },
   { href: '/products/gift-packaging/sliding-lid-gift-box', img: '/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp', w: 1488, h: 1182,
-    tag: '선물·포장 박스', name: '슬라이드 뚜껑 기프트 박스', meta: '부속 없음 · 평면 포장 가능' },
+    tag: '선물·포장 박스', name: '슬라이드 뚜껑 기프트 박스', meta: '하드웨어 없음 · 홈 가공 슬라이딩 뚜껑' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: '잠금 박스', name: '대형 블랙 우드 스태시 박스 키트', meta: '다이얼 잠금 · 다중 칸막이' },
   { href: '/products/tea-coffee/bamboo-tea-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
-    tag: '차 & 커피', name: '대나무 티백 오거나이저', meta: '8 칸막이 · 투명 경첩 뚜껑' },
+    tag: '차 & 커피', name: '대나무 티백 오거나이저', meta: '슬라이딩 뚜껑 · 칸 구성 맞춤 가능' },
   { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
-    tag: '시계 & 주얼리', name: '우드 시계 디스플레이 박스', meta: '리넨 쿠션 · 6개 시계 수납' },
+    tag: '시계 & 주얼리', name: '우드 시계 디스플레이 박스', meta: '리넨 쿠션 · 시계 1개 전시용' },
   { href: '/products/hinged/acacia-wooden-storage-box', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
     tag: '아카시아 시리즈', name: '아카시아 우드 키프세이크 박스', meta: '풍부한 결 · 경목의 내구성' },
 ];
@@ -46,7 +46,7 @@ export const MATERIALS = [
   { href: '/products/pine',      swatch: 'swatch-pine',      name: '소나무',
     desc: '클래식한 러스틱 결. 합리적이고 내구성 있음. 와인과 수납에 인기.' },
   { href: '/products/bamboo',    swatch: 'swatch-bamboo',    name: '대나무',
-    desc: '친환경적이고 지속 가능. 독특한 텍스처, 자연 항균성.' },
+    desc: '맞춤 상자용 대나무. 샘플로 구조, 색상 및 마감을 확인해 주세요.' },
   { href: '/products/acacia',    swatch: 'swatch-acacia',    name: '아카시아',
     desc: '풍부하고 따뜻한 톤의 조밀한 경목. 프리미엄 선물 박스에 이상적.' },
   { href: '/products/walnut',    swatch: 'swatch-walnut',    name: '호두나무',
@@ -60,18 +60,11 @@ export const WHY = [
     text: '로고 각인, 핫 스탬핑, 실크스크린, 맞춤 인서트, 하드웨어, 벨벳 라이닝 — 모든 디테일을 사내에서 처리.' },
   { icon: '📋', title: '엄격한 품질 관리',
     text: '모든 주문은 3단계 QC 프로세스를 거칩니다: 자재 검사, 공정 중 점검, 출하 전 최종 검사.' },
-  { icon: '🌍', title: '수출 준비 완료된 문서',
-    text: '식물 검역 증명서, 원산지 증명, 상업 송장, 포장 명세서를 처리합니다 — 통관 걱정 없이.' },
+  { icon: '🌍', title: '주문별 서류 확인',
+    text: '생산 전 선택한 모델, 소재 및 목적지에 필요한 서류와 제공 가능한 서류를 확인해 주세요.' },
 ];
 
-export const CERTS = [
-  { slug: 'fsc',      name: 'FSC 인증' },
-  { slug: 'eu-reach', name: 'EU REACH' },
-  { slug: 'carb',     name: 'CARB P2' },
-  { slug: 'sgs',      name: 'SGS 테스트' },
-  { slug: 'phyto',    name: '식물 검역 증명' },
-  { slug: 'iso-9001', name: 'ISO 9001' },
-];
+export const CERTS = [];
 
 export const COPY = {
   hero: {
@@ -81,7 +74,7 @@ export const COPY = {
     titleEm2: 'OEM 공급업체',
     sub: '럭셔리 선물 포장부터 맞춤 수납까지 — 20,000 m² 차오현 공장에서 맞춤형 목재 박스를 설계하고, 샤먼 사무소에서 60개국 이상의 브랜드로 출하합니다. 손으로 만들고, 작업대 정밀도로 마감.',
     btnPrimary: '베스트셀러 보기 →',
-    btnOutline: '무료 샘플 요청',
+    btnOutline: '샘플 및 견적 문의',
     metaItems: [
       { num: '20+', label: '년의 팀 경력' },
       { num: '500+', label: '박스 스타일' },
@@ -95,10 +88,10 @@ export const COPY = {
       stampSub: '년',
     },
     trust: [
-      'FSC 인증 목재',
-      '완전한 OEM / ODM',
-      '7일 내 샘플',
-      'EU REACH · CARB · ISO 9001',
+      'MOQ: 200개',
+      'OEM·ODM 주문',
+      '맞춤 치수',
+      '양산 전 샘플 승인',
     ],
   },
   stats: [
@@ -116,9 +109,9 @@ export const COPY = {
     features: [
       "MOQ: 200 개",
       '완전 맞춤화: 크기, 마감, 로고, 인서트, 하드웨어',
-      'FSC 인증 목재 및 친환경 마감 제공',
+      '모델 및 사용 목적에 따른 소재와 적용 서류 확인',
       'OEM 및 ODM 프로젝트를 위한 사내 디자인 팀',
-      '7일 이내 샘플 배송',
+      '사양에 따른 샘플 비용과 일정 확인',
     ],
   },
   featured: {
@@ -156,9 +149,9 @@ export const COPY = {
     title: 'CHIC의 이점',
   },
   trust: {
-    label: '인증 및 규정 준수',
-    title: '글로벌 바이어들의 신뢰',
-    text: '모든 목재 제품은 국제 수출 표준을 충족합니다. 책임 있는 임업을 위한 FSC 인증을 보유하고 있으며, 마감재는 EU REACH 및 US CARB 규정을 준수합니다. 모든 원목 출하 시 요청에 따라 식물 검역 증명서를 발급합니다.',
+    label: '주문 사양 및 서류',
+    title: '선택한 모델의 서류 확인',
+    text: '모델, 소재, 사용 목적 및 판매 대상 시장을 알려 주세요. 주문 승인 전에 해당 사양과 주문에 적용되는 서류를 확인해 주세요.',
   },
   cta: {
     label: '시작할 준비가 되셨나요?',
@@ -169,3 +162,5 @@ export const COPY = {
     btnWhatsapp: 'WhatsApp에서 채팅',
   },
 };
+
+export const UPDATED_AT = '2026-10-21';

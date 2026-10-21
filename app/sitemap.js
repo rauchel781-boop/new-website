@@ -6,6 +6,10 @@ import { isNonBoxProduct } from '@/data/non-box-products';
 import { getCategoryTranslation } from '@/data/categories/translations';
 import { getProductPageCopy } from '@/data/product-page-copy';
 import { PRODUCT_CONTENT_UPDATED_AT } from '@/lib/product-content';
+import { getHome } from '@/data/home';
+import { getAbout } from '@/data/about';
+import { getPageFaqs } from '@/data/page-faqs';
+import { getCategoryFaqs } from '@/data/category-faqs';
 
 // Pull product slug lists for each category that has products.
 import { PRODUCTS as GIFT_PACKAGING_PRODUCTS } from '@/data/products/gift-packaging';
@@ -76,6 +80,24 @@ function absUrl(path) {
   return `${SITE.siteUrl}${path.startsWith('/') ? '' : '/'}${path}`;
 }
 
+// Use the most recent actual edit when a page combines several content sources.
+function latestContentDate(...values) {
+  const dates = values.filter(Boolean).map(value => new Date(value));
+  return dates.length ? new Date(Math.max(...dates.map(date => date.getTime()))) : undefined;
+}
+
+function staticContentDate(pagePath, locale) {
+  if (pagePath === '') return getHome(locale).UPDATED_AT;
+  if (pagePath === '/about') return getAbout(locale).UPDATED_AT;
+  if (pagePath === '/material-guide' || pagePath === '/wood-fabrication') {
+    return getPageFaqs(pagePath.slice(1), locale)?.updatedAt;
+  }
+  // contact.faq in all eight message files was revised on this date to make
+  // material/testing documents specific to the selected model and intended use.
+  if (pagePath === '/contact') return '2026-10-21';
+  return undefined;
+}
+
 // Push one entry per locale, all sharing the same alternates.languages map.
 // This is how Next.js's MetadataRoute.Sitemap renders <xhtml:link rel="alternate"...>
 // per Google's sitemap-with-hreflang spec. When `images` is supplied each entry
@@ -112,7 +134,13 @@ export default function sitemap() {
     { path: '/contact',          priority: 0.6, changeFrequency: 'yearly'  },
   ];
   for (const p of staticPages) {
-    pushLocalized(entries, p.path, p);
+    pushLocalized(entries, p.path, {
+      ...p,
+      lastModifiedByLocale: Object.fromEntries(routing.locales.flatMap(locale => {
+        const updatedAt = staticContentDate(p.path, locale);
+        return updatedAt ? [[locale, new Date(updatedAt)]] : [];
+      })),
+    });
   }
 
   // ── Category landing pages (localized) ──────────────────────────────
@@ -125,8 +153,12 @@ export default function sitemap() {
       priority: 0.8,
       images: catImages.slice(0, 5),
       lastModifiedByLocale: Object.fromEntries(routing.locales.flatMap(loc => {
-        const updatedAt = getCategoryTranslation(slug, loc).updatedAt;
-        return updatedAt ? [[loc, new Date(updatedAt)]] : [];
+        const translation = getCategoryTranslation(slug, loc);
+        const updatedAt = latestContentDate(
+          translation.updatedAt,
+          !translation.faqs && getCategoryFaqs(slug, loc)?.updatedAt,
+        );
+        return updatedAt ? [[loc, updatedAt]] : [];
       })),
     });
   }

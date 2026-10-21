@@ -4,6 +4,7 @@
 
 export const FAQS = {
   'material-guide': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'Preguntas frecuentes sobre materiales de madera',
     sectionSub:
       'Elegir la especie adecuada es la primera decisión en cualquier proyecto de caja personalizada. Así se comparan nuestras cinco maderas principales en veta, peso, durabilidad y coste.',
@@ -38,12 +39,13 @@ export const FAQS = {
       },
       {
         q: '¿Su madera procede de fuentes sostenibles y está certificada?',
-        a: 'Trabajamos con material de origen responsable y podemos suministrar madera que cumple estándares reconocidos como FSC (gestión forestal responsable), CARB (emisiones de formaldehído) y EU REACH, además de nuestro sistema de calidad ISO 9001. Si tu mercado exige documentos de certificación concretos, acuerda los requisitos con nuestro equipo para abastecer y documentar en consecuencia.',
+        a: "Indica el producto exacto, la madera o el tablero, el acabado, el uso previsto y el mercado de destino. Comprobaremos qué documentos de origen, certificados o informes son pertinentes y están disponibles para esa especificación. Una declaración FSC exige verificar el titular, el alcance y los documentos del pedido; ISO 9001, REACH o CARB no se pueden deducir de la especie de madera.",
       },
     ],
   },
 
   'wood-fabrication': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'Preguntas frecuentes sobre fabricación en madera',
     sectionSub:
       'De un boceto o una muestra a una caja terminada y con tu marca: así corta, ensambla, acaba y decora nuestra fábrica de 20.000 m² los embalajes de madera a medida.',
@@ -78,7 +80,7 @@ export const FAQS = {
       },
       {
         q: '¿Cómo controlan la calidad durante la fabricación?',
-        a: 'La calidad se comprueba en la recepción del material, durante la producción y antes del envío frente a tu muestra aprobada, cubriendo dimensiones, acabado, funcionamiento de herrajes y empaque. Operamos con un sistema de calidad ISO 9001. En pedidos grandes podemos compartir fotos de inspección antes del envío y aceptar inspecciones de terceros.',
+        a: "La calidad se comprueba en la recepción del material, durante la producción y antes del envío frente a tu muestra aprobada, cubriendo dimensiones, acabado, funcionamiento de herrajes y empaque. En pedidos grandes podemos compartir fotos de inspección antes del envío y aceptar inspecciones de terceros.",
       },
     ],
   },

@@ -5,6 +5,7 @@
 
 export const FAQS = {
   "gift-packaging": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Quali tipi di legno consigliate per l'imballaggio regalo premium?",
@@ -24,7 +25,7 @@ export const FAQS = {
       },
       {
         "q": "Le tue scatole regalo vengono spedite con imballaggi pronti per la vendita al dettaglio?",
-        "a": "Sì. Ogni confezione regalo è avvolta in un sacchetto in poliestere OPP (antigraffio) e confezionata in cartoni master di livello esportato con protezioni angolari. Codici a barre UPC, adesivi a strappo, cartellini e carte regalo possono essere aggiunti come operazioni in linea. I certificati fitosanitari sono rilasciati su richiesta per le spedizioni di legno massiccio."
+        "a": "Sì. Ogni confezione regalo è avvolta in un sacchetto in poliestere OPP (antigraffio) e confezionata in cartoni master di livello esportato con protezioni angolari. Codici a barre UPC, adesivi a strappo, cartellini e carte regalo possono essere aggiunti come operazioni in linea. Per le spedizioni di legno massiccio, confermate i requisiti fitosanitari o di trattamento della destinazione e la disponibilità dei documenti necessari prima dell’ordine."
       }
     ],
     "sectionTitle": "FAQ-Scatole di imballaggio regalo in legno",
@@ -57,10 +58,11 @@ export const FAQS = {
     "sectionSub": "Smontando, inserire attrezzature e completare le domande di marchi di orologi, gioiellieri e programmi di regali di lusso."
   },
   "tea-coffee": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Le tue scatole di tè e caffè sono sicure per il cibo?",
-        "a": "Sì. Tutte le superfici interne a contatto con gli alimenti utilizzano finiture in olio naturale o lacca a base d'acqua conformi al regolamento UE sui materiali di contatto alimentare (CE) n. 1935/2004 e FDA 21 CFR 175.300 degli Stati Uniti. Evitiamo macchie a base di solventi e adesivi non conformi CARB Fase-2. Rapporti di prova disponibili su richiesta."
+        "a": "Distinguete la conservazione di confezioni sigillate dal contatto diretto con tè o caffè sfusi. Il contatto alimentare va valutato per scatola, finitura, adesivi, durata, temperatura e mercato di destinazione specifici. Chiedete la verifica delle prove disponibili prima dell’ordine; un documento di un altro modello o materiale non dimostra l’idoneità di questa scatola."
       },
       {
         "q": "Quanti scomparti puoi fare? Quali dimensioni si adattano alle bustine di tè rispetto alle foglie sciolte?",
@@ -83,6 +85,7 @@ export const FAQS = {
     "sectionSub": "Dimensionamento del compartimento, finiture per alimenti e domande sull'umidità per i marchi di tè/caffè e i programmi regalo."
   },
   "wine-whisky": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Quali dimensioni delle bottiglie si adattano alle tue scatole di vino e liquori?",
@@ -98,7 +101,7 @@ export const FAQS = {
       },
       {
         "q": "Come gestisci lo stampaggio fitosanitario e ISPM-15 per l'esportazione?",
-        "a": "Per le scatole di legno massiccio spedite nell'UE, nel Regno Unito, in Australia, negli Stati Uniti e in Giappone, forniamo certificati fitosanitari per ogni spedizione di esportazione. I pallet sono trattati termicamente a ISPM-15 (timbro HT), necessari per i pallet in legno massiccio che entrano nella maggior parte dei paesi. Le scatole stesse sono essiccate in forno (trattamento KD), quindi non hanno bisogno di ISPM-15 di timbrare singolarmente."
+        "a": "Verificate prima dell’ordine i requisiti fitosanitari e di trattamento per destinazione, componenti in legno e imballaggio di trasporto. L’essiccazione in forno da sola non dimostra un’esenzione o la conformità ISPM 15. Concordate trattamenti, marchi e documenti di prodotto e spedizione con importatore o spedizioniere doganale; verificheremo cosa si può organizzare prima di impegnarci."
       },
       {
         "q": "Qual è il lead time tipico e MOQ per le scatole di vino di marca personalizzata?",
@@ -109,10 +112,11 @@ export const FAQS = {
     "sectionSub": "Montaggio delle bottiglie, costruzione con coperchio scorrevole e domande sui documenti di esportazione per aziende vinicole, distillerie e regali di alcolici."
   },
   "kitchen-dining": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Quali tipi di legno sono più sicuri per il contatto alimentare?",
-        "a": "Bambù, acacia, faggio e pino sono tutti sicuri per gli alimenti se rifiniti con olio minerale per alimenti o lacca a base d'acqua (conforme a EC 1935/2004 / FDA 21 CFR 175.300). Evitiamo la noce per il contatto diretto con gli alimenti (leggero rischio di allergeni) ed evitiamo le vernici a base di solventi nelle superfici della zona alimentare."
+        "a": "La specie di legno da sola non dimostra l’idoneità al contatto alimentare diretto. Per un tagliere, vassoio o scatola, definite materiali, finitura, adesivi, alimenti, durata del contatto, temperatura e destinazione. Verificate i requisiti applicabili e l’ambito dei rapporti disponibili prima di confermare la specifica."
       },
       {
         "q": "Come vengono ventilati i contenitori del pane per mantenere le pagnotte fresche?",
@@ -213,6 +217,7 @@ export const FAQS = {
     "sectionSub": "Meccanica delle cerniere, arresto delle palpebre e domande sulla durata per gli acquirenti al dettaglio e di regali."
   },
   "sliding-lid": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Quanto sono strette le scanalature del coperchio scorrevole: il coperchio si attacca?",
@@ -228,7 +233,7 @@ export const FAQS = {
       },
       {
         "q": "Le scatole con coperchio scorrevole sono sicure per la conservazione a contatto con gli alimenti (tè, caffè, spezie)?",
-        "a": "Sì quando finito con lacca a base d'acqua per uso alimentare o olio minerale naturale. Il coperchio scorrevole forma una chiusura aderente ma non ermetica: per il contenuto sensibile all'umidità (spezie intere, caffè macinato), aggiungiamo una guarnizione in silicone lungo la scanalatura del coperchio o consigliamo un barattolo interno sigillato."
+        "a": "Per il contatto diretto con tè, caffè o spezie, verificate materiali, finitura e adesivi della scatola rispetto alle condizioni d’uso e ai requisiti di destinazione. Il tipo di finitura da solo non dimostra conformità alimentare. Il coperchio scorrevole non è ermetico; per contenuti sensibili all’umidità valutate un recipiente interno sigillato o un’altra barriera adatta."
       },
       {
         "q": "Il coperchio scivolerà ancora senza intoppi dopo anni di utilizzo?",
@@ -291,6 +296,7 @@ export const FAQS = {
     "sectionSub": "Resistenza del magnete, incorporamento e domande sulla sicurezza aerea per regali, orologi e imballaggi di lusso."
   },
   "with-lock": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Quali tipi di serratura offrite?",
@@ -298,11 +304,11 @@ export const FAQS = {
       },
       {
         "q": "Queste serrature sono di livello di sicurezza o simboliche?",
-        "a": "Da simbolico a moderato: sono serrature per imballaggi, non di qualità sicura. Tengono fuori le mani curiose e l'accesso casuale; non fermeranno un aggressore determinato con strumenti. Per documenti o articoli che richiedono una vera sicurezza, consiglia agli acquirenti di utilizzare anche una cassaforte domestica. Le nostre serrature sono conformi alle norme di sicurezza dei prodotti di consumo nell'UE, negli Stati Uniti e in Giappone."
+        "a": "Da simbolico a moderato: sono serrature per imballaggi, non di qualità sicura. Tengono fuori le mani curiose e l'accesso casuale; non fermeranno un aggressore determinato con strumenti. Per documenti o articoli che richiedono una vera sicurezza, consiglia agli acquirenti di utilizzare anche una cassaforte domestica."
       },
       {
         "q": "Le scatole bloccabili sono resistenti ai bambini-importanti per i contenuti per soli adulti?",
-        "a": "I modelli di blocco a combinazione soddisfano il protocollo di test di resistenza ai bambini CPSC degli Stati Uniti quando la combinazione è lontana da 000-i bambini sotto i 5 anni non li aprono con successo in prove ripetute. I modelli con serratura a chiave non sono certificati a prova di bambino da soli. Per i programmi di cannabis e prodotti per adulti in California, Washington e Colorado, la versione combinata è ciò che i regolatori accettano."
+        "a": "Una serratura a chiave o combinazione non dimostra da sola la resistenza all’apertura da parte dei bambini. Per contenuti regolamentati o riservati agli adulti, verificate un rapporto di prova relativo a scatola, serratura e chiusura esatte secondo la norma richiesta a destinazione. Senza prove pertinenti non dichiarate un modello testato secondo CPSC, resistente ai bambini o accettato da un’autorità statale."
       },
       {
         "q": "Puoi personalizzare la combinazione o il modello chiave?",
@@ -317,6 +323,7 @@ export const FAQS = {
     "sectionSub": "Tipi di blocco, resistenza ai bambini e domande combinazione vs chiave per scatole di scorta, scatole di documenti e programmi di regali di sicurezza."
   },
   "paulownia": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Perché la paulownia è così leggera-è più debole di altri boschi?",
@@ -332,7 +339,7 @@ export const FAQS = {
       },
       {
         "q": "La paulownia è ecologica?",
-        "a": "Sì, uno dei legni duri più sostenibili disponibili in commercio. Gli alberi di Paulownia crescono estremamente velocemente (raccoglibili in 7-10 anni contro 25 per la quercia) e ri-ceduo dal ceppo dopo il raccolto. Il nostro stock di paulownia è certificato FSC da piantagioni gestite nella Cina centrale."
+        "a": "La paulownia può essere valutata per imballaggi leggeri, ma l’impatto ambientale dipende da origine, lavorazione e trasporto. La crescita rapida da sola non dimostra un approvvigionamento responsabile né la certificazione FSC. Prima di confermare una dichiarazione FSC occorre verificare titolare, ambito del prodotto e documenti d’ordine."
       },
       {
         "q": "La paulownia si deformerà o si spezzerà nel tempo?",
@@ -369,6 +376,7 @@ export const FAQS = {
     "sectionSub": "Carattere del knot, opzioni di finitura e domande sulla durata per i programmi di vino, regalo e conservazione rustici."
   },
   "bamboo": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Il bambù è davvero un legno o è erba?",
@@ -376,7 +384,7 @@ export const FAQS = {
       },
       {
         "q": "Il bambù è davvero più sostenibile del legno duro?",
-        "a": "Sì, con un ampio margine. Il bambù cresce 30-90 cm al giorno, raccoglibile in 3-5 anni e ricresce dalla stessa radice dopo il taglio (non è necessario il reimpianto). Una piantagione di bambù produce 25 × la biomassa di una foresta di querce della stessa area. Il nostro bambù è certificato FSC da piantagioni gestite nel sud della Cina."
+        "a": "Il bambù non è automaticamente più sostenibile del legno duro. Confrontate origine, lavorazione, adesivi, durata d’uso e trasporto del prodotto proposto. Una dichiarazione FSC richiede la verifica del titolare del certificato, dell’ambito del prodotto e dei documenti d’ordine; non si deduce dal solo materiale."
       },
       {
         "q": "L'affermazione \"naturalmente antibatterica\" è reale?",
@@ -395,6 +403,7 @@ export const FAQS = {
     "sectionSub": "Domande eco-credenziali, antibatteriche e strutturali per marchi posizionati in sostenibilità."
   },
   "acacia": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Cosa rende l'acacia buona per le scatole premium?",
@@ -406,7 +415,7 @@ export const FAQS = {
       },
       {
         "q": "Il cibo di acacia è sicuro per taglieri o vassoi?",
-        "a": "Sì, rifinito con olio minerale per alimenti o lacca a base d'acqua, conforme alle normative UE e FDA sul contatto con gli alimenti. L'acacia è naturalmente uno dei legni duri più adatti al cibo a causa della sua grana stretta e della bassa lisciviazione chimica. Forniamo tavole di acacia finite a diversi importanti marchi europei di pentole."
+        "a": "L’acacia può essere prevista per taglieri e vassoi, ma la specie da sola non dimostra conformità al contatto alimentare. Verificate finitura, adesivi, alimenti, durata, temperatura e requisiti di destinazione. Un rapporto disponibile deve coprire il prodotto e l’uso proposti; i documenti di una scatola in bambù non si applicano automaticamente a un articolo in acacia."
       },
       {
         "q": "Il colore dell'acacia cambierà nel tempo?",

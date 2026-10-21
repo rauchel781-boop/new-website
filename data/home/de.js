@@ -3,13 +3,13 @@ export const FEATURED = [
   { href: '/products/gift-packaging/luxury-magnetic-gift-box', img: '/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp', w: 800, h: 800,
     tag: 'Geschenk- und Verpackungsboxen', name: 'Luxus-Geschenkbox mit Magnetverschluss', meta: 'Verdeckte Magnete · Samteinlage' },
   { href: '/products/gift-packaging/sliding-lid-gift-box', img: '/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp', w: 1488, h: 1182,
-    tag: 'Geschenk- und Verpackungsboxen', name: 'Geschenkbox mit Schiebedeckel', meta: 'Ohne Beschläge · Flach verpackbar' },
+    tag: 'Geschenk- und Verpackungsboxen', name: 'Geschenkbox mit Schiebedeckel', meta: 'Ohne Beschläge · Schiebedeckel in gefrästen Nuten' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Boxen mit Schloss', name: 'Große schwarze Holzbox mit Schloss', meta: 'Zahlenschloss · Mehrere Fächer' },
   { href: '/products/tea-coffee/bamboo-tea-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
-    tag: 'Tee & Kaffee', name: 'Bambus-Teebeutel-Organizer', meta: '8 Trenner · Klarsicht-Klappdeckel' },
+    tag: 'Tee & Kaffee', name: 'Bambus-Teebeutel-Organizer', meta: 'Schiebedeckel · Fachaufteilung nach Wunsch' },
   { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
-    tag: 'Uhren & Schmuck', name: 'Holz-Uhrenpräsentationsbox', meta: 'Leinenkissen · Kapazität für 6 Uhren' },
+    tag: 'Uhren & Schmuck', name: 'Holz-Uhrenpräsentationsbox', meta: 'Leinenkissen · Präsentation für eine Uhr' },
   { href: '/products/hinged/acacia-wooden-storage-box', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
     tag: 'Akazien-Serie', name: 'Akazien-Erinnerungsbox', meta: 'Reiche Maserung · Hartholz-Haltbarkeit' },
 ];
@@ -46,7 +46,7 @@ export const MATERIALS = [
   { href: '/products/pine',      swatch: 'swatch-pine',      name: 'Kiefer',
     desc: 'Klassische rustikale Maserung. Erschwinglich und langlebig. Beliebt für Wein und Aufbewahrung.' },
   { href: '/products/bamboo',    swatch: 'swatch-bamboo',    name: 'Bambus',
-    desc: 'Umweltfreundlich und nachhaltig. Einzigartige Textur, von Natur aus antibakteriell.' },
+    desc: 'Bambus für individuelle Boxen. Aufbau, Farbton und Finish am Muster bestätigen.' },
   { href: '/products/acacia',    swatch: 'swatch-acacia',    name: 'Akazie',
     desc: 'Dichtes Hartholz mit reichen, warmen Tönen. Ideal für Premium-Geschenkboxen.' },
   { href: '/products/walnut',    swatch: 'swatch-walnut',    name: 'Walnuss',
@@ -60,18 +60,11 @@ export const WHY = [
     text: 'Logo-Gravur, Hot-Stamping, Siebdruck, Sondereinsätze, Beschläge, Samtfutter — wir erledigen jedes Detail im Haus.' },
   { icon: '📋', title: 'Strenge Qualitätskontrolle',
     text: 'Jeder Auftrag durchläuft eine 3-stufige QC: Wareneingangsprüfung, In-Process-Checks und Vor-Versand-Endprüfung.' },
-  { icon: '🌍', title: 'Export-fertige Dokumentation',
-    text: 'Wir erledigen Pflanzenschutzzeugnisse, Ursprungszeugnisse, Handelsrechnungen und Packlisten — stressfreie Zollabwicklung für Sie.' },
+  { icon: '🌍', title: 'Dokumentation je Auftrag',
+    text: 'Klären Sie vor der Produktion, welche Unterlagen für das gewählte Modell, die Materialien und das Zielland erforderlich und verfügbar sind.' },
 ];
 
-export const CERTS = [
-  { slug: 'fsc',      name: 'FSC zertifiziert' },
-  { slug: 'eu-reach', name: 'EU REACH' },
-  { slug: 'carb',     name: 'CARB P2' },
-  { slug: 'sgs',      name: 'SGS getestet' },
-  { slug: 'phyto',    name: 'Phyto-Zert.' },
-  { slug: 'iso-9001', name: 'ISO 9001' },
-];
+export const CERTS = [];
 
 export const COPY = {
   hero: {
@@ -81,7 +74,7 @@ export const COPY = {
     titleEm2: 'OEM-Lieferant',
     sub: 'Von Luxus-Geschenkverpackung bis maßgefertigter Aufbewahrung — wir entwickeln individuelle Holzboxen in unserem 20.000 m² Werk in Cao County und liefern an Marken in 60+ Ländern aus unserem Büro in Xiamen. Handgefertigt, mit Werkbankpräzision finalisiert.',
     btnPrimary: 'Bestseller ansehen →',
-    btnOutline: 'Kostenloses Muster anfordern',
+    btnOutline: 'Muster und Angebot anfragen',
     metaItems: [
       { num: '20+', label: 'Jahre Teamerfahrung' },
       { num: '500+', label: 'Box-Stile' },
@@ -95,10 +88,10 @@ export const COPY = {
       stampSub: 'Jahre',
     },
     trust: [
-      'FSC-zertifiziertes Holz',
-      'Volles OEM / ODM',
-      'Muster in 7 Tagen',
-      'EU REACH · CARB · ISO 9001',
+      'MOQ: 200 Stück',
+      'OEM- und ODM-Aufträge',
+      'Maße nach Vorgabe',
+      'Freigabe des Vorserienmusters',
     ],
   },
   stats: [
@@ -116,9 +109,9 @@ export const COPY = {
     features: [
       "MOQ: 200 Stück",
       'Volle Anpassung: Größe, Finish, Logo, Einsatz, Beschlag',
-      'FSC-zertifiziertes Holz und umweltfreundliche Finishes verfügbar',
+      'Materialien und anwendbare Unterlagen nach Modell und Verwendungszweck bestätigen',
       'Internes Designteam für OEM- und ODM-Projekte',
-      'Musterlieferung innerhalb von 7 Tagen',
+      'Musterkosten und Zeitplan nach Spezifikation bestätigen',
     ],
   },
   featured: {
@@ -156,9 +149,9 @@ export const COPY = {
     title: 'Der CHIC-Vorteil',
   },
   trust: {
-    label: 'Zertifizierungen & Compliance',
-    title: 'Vertrauen globaler Käufer',
-    text: 'Alle unsere Holzprodukte erfüllen internationale Exportstandards. Wir halten die FSC-Zertifizierung für verantwortungsvolle Forstwirtschaft, und unsere Finishes erfüllen die EU REACH- und US CARB-Vorschriften. Pflanzenschutzzeugnisse werden auf Anfrage für alle Massivholz-Lieferungen ausgestellt.',
+    label: 'Spezifikationen und Unterlagen',
+    title: 'Dokumente zum konkreten Modell prüfen',
+    text: 'Teilen Sie uns das gewünschte Modell, die Materialien, den Verwendungszweck und den Absatzmarkt mit. Prüfen Sie vor der Freigabe, welche Dokumente für genau diese Ausführung und diesen Auftrag gelten.',
   },
   cta: {
     label: 'Bereit zu starten?',
@@ -169,3 +162,5 @@ export const COPY = {
     btnWhatsapp: 'Auf WhatsApp chatten',
   },
 };
+
+export const UPDATED_AT = '2026-10-21';

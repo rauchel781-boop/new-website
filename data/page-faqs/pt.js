@@ -4,6 +4,7 @@
 
 export const FAQS = {
   'material-guide': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'Perguntas frequentes sobre materiais de madeira',
     sectionSub:
       'Escolher a espécie certa é a primeira decisão em qualquer projeto de caixa personalizada. Veja como as nossas cinco madeiras principais se comparam em veio, peso, durabilidade e custo.',
@@ -38,12 +39,13 @@ export const FAQS = {
       },
       {
         q: 'A vossa madeira tem origem sustentável e é certificada?',
-        a: 'Trabalhamos com material de origem responsável e podemos fornecer madeira em conformidade com normas reconhecidas, incluindo FSC (gestão florestal responsável), CARB (emissões de formaldeído) e EU REACH, além do nosso sistema de qualidade ISO 9001. Se o seu mercado exigir documentos de certificação específicos, combine os requisitos com a nossa equipa para que façamos o aprovisionamento e a documentação em conformidade.',
+        a: "Informe o produto exato, a madeira ou painel, o acabamento, o uso previsto e o mercado de destino. Verificaremos quais documentos de origem, certificados ou relatórios são pertinentes e estão disponíveis para essa especificação. Uma alegação FSC exige verificar titular, escopo e documentos do pedido; ISO 9001, REACH ou CARB não podem ser deduzidos da espécie de madeira.",
       },
     ],
   },
 
   'wood-fabrication': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'Perguntas frequentes sobre fabrico em madeira',
     sectionSub:
       'De um esboço ou amostra a uma caixa acabada e com a sua marca: veja como a nossa fábrica de 20.000 m² corta, monta, acaba e decora embalagens de madeira à medida.',
@@ -78,7 +80,7 @@ export const FAQS = {
       },
       {
         q: 'Como controlam a qualidade durante o fabrico?',
-        a: 'A qualidade é verificada na receção do material, durante a produção e antes do envio, face à sua amostra aprovada, cobrindo dimensões, acabamento, funcionamento das ferragens e embalagem. Operamos segundo um sistema de qualidade ISO 9001. Em encomendas maiores, podemos partilhar fotos de inspeção antes do envio e aceitar inspeções de terceiros.',
+        a: "A qualidade é verificada na receção do material, durante a produção e antes do envio, face à sua amostra aprovada, cobrindo dimensões, acabamento, funcionamento das ferragens e embalagem. Em encomendas maiores, podemos partilhar fotos de inspeção antes do envio e aceitar inspeções de terceiros.",
       },
     ],
   },

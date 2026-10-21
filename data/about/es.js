@@ -1,4 +1,6 @@
 // About — Spanish translation.
+export const UPDATED_AT = '2026-10-21';
+
 const F = (name) => '/factory/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
 const E = (name) => '/employees/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
 const P = (name) => '/folder/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
@@ -43,8 +45,8 @@ export const TIMELINE = [
     text: 'Firmado el alquiler de un sitio dedicado de 6.000 m² en Pulianji. Incorporamos al primer cliente europeo de cajas de vino.' },
   { year: '2023', title: 'Boom de Amazon',
     text: 'Construida una línea dedicada a MOQ pequeño para marcas privadas de Amazon. Superado un millón de unidades enviadas en un solo año.' },
-  { year: '2024', title: 'Certificado FSC',
-    text: 'Lograda la certificación FSC de cadena de custodia. Fábrica ampliada a 20.000 m² con nueva área de acabado y QC.' },
+  { year: '2024', title: 'Ampliación de la fábrica',
+    text: 'Fábrica ampliada a 20.000 m² con nueva área de acabado y QC.' },
   { year: '2025', title: 'Globalización',
     text: 'Clientes activos en 40+ países. Equipo interno de ID + maquetas 3D lanzado para apoyar el crecimiento OEM/ODM.' },
 ];
@@ -78,13 +80,13 @@ export const LOCATIONS = [
 
 export const MARKETS = [
   { flag: '🇪🇺', name: 'Europa',
-    text: 'Reino Unido, Alemania, Francia, Países Bajos, Italia, España — acabados conformes a REACH, certificados fitosanitarios UE de serie.' },
+    text: 'Reino Unido, Alemania, Francia, Países Bajos, Italia, España — Confirme los documentos y el etiquetado necesarios para el producto y el destino seleccionados.' },
   { flag: '🇺🇸', name: 'Norteamérica',
-    text: 'Estados Unidos y Canadá — acabados CARB P2, embalaje listo para FBA disponible, consolidaciones LCL semanales.' },
+    text: 'Estados Unidos y Canadá — Incluya los requisitos de embalaje, etiquetado y documentación del comprador en la especificación del pedido.' },
   { flag: '🇯🇵', name: 'Japón',
-    text: 'Tokio, Osaka, Nagoya — estándares de tolerancia JIS, etiquetado conforme a JAS bajo solicitud.' },
+    text: 'Tokio, Osaka, Nagoya — Confirme las especificaciones, el etiquetado y los documentos requeridos para su mercado.' },
   { flag: '🇰🇷', name: 'Corea',
-    text: 'Seúl, Busán — etiquetado con marca KC compatible, rutas portuarias rápidas a Incheon y Busán desde Xiamen.' },
+    text: 'Seúl, Busán — Acuerde los requisitos de documentación y etiquetado del destino o del comprador para el modelo seleccionado.' },
 ];
 
 export const VALUES = [
@@ -96,12 +98,7 @@ export const VALUES = [
     text: 'Nuestra oficina de Xiamen gestiona tu proyecto de principio a fin en inglés fluido — desde la cotización al arte y la documentación de envío. Solapamiento de zona horaria con las mañanas de UE y EE. UU.' },
 ];
 
-export const CERTS = [
-  { slug: 'fsc',      name: 'FSC',       status: 'Certificado',          pending: false },
-  { slug: 'eu-reach', name: 'EU REACH',  status: 'Certificado',          pending: false },
-  { slug: 'carb',     name: 'CARB P2',   status: 'Certificado',          pending: false },
-  { slug: 'iso-9001', name: 'ISO 9001',  status: 'Certificado',          pending: false },
-];
+export const CERTS = [];
 
 export const COPY = {
   meta: {
@@ -187,10 +184,10 @@ export const COPY = {
     titleEm: 'Diferentes',
   },
   certs: {
-    label: 'Estándares y Cumplimiento',
-    title: 'Certificaciones',
+    label: 'Documentación del pedido',
+    title: 'Documentos para su producto',
     paragraph:
-      'Nuestra madera procede de canales forestales certificados FSC y operamos un programa de cadena de custodia para mantener trazabilidad limpia desde el tronco hasta el cartón. También cumplimos con CARB P2 (emisiones de formaldehído de EE. UU.) y EU REACH, además de contar con un sistema de gestión de calidad ISO 9001, para que cada envío esté listo para los requisitos de importación en EE. UU., la UE y más allá.',
+      'Antes de realizar el pedido, indique el modelo, los materiales, el uso previsto y el mercado de destino. Confirmaremos qué documentos de respaldo están disponibles para esa especificación. Revise el producto identificado, los materiales, el alcance y las limitaciones de cada documento antes de hacer una declaración de conformidad. Los documentos se aplican al producto y al alcance que identifican.',
   },
   cta: {
     label: 'Habla con Nosotros',

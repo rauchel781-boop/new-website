@@ -4,6 +4,7 @@
 
 export const FAQS = {
   'material-guide': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'FAQ sui materiali in legno',
     sectionSub:
       'Scegliere la specie giusta è la prima decisione in ogni progetto di scatola personalizzata. Ecco come si confrontano i nostri cinque legni principali per venatura, peso, durata e costo.',
@@ -38,12 +39,13 @@ export const FAQS = {
       },
       {
         q: 'Il vostro legno proviene da fonti sostenibili ed è certificato?',
-        a: 'Lavoriamo con materiale di provenienza responsabile e possiamo fornire legno conforme a standard riconosciuti tra cui FSC (gestione forestale responsabile), CARB (emissioni di formaldeide) ed EU REACH, oltre al nostro sistema qualità ISO 9001. Se il tuo mercato richiede documenti di certificazione specifici, concorda i requisiti con il nostro team così da approvvigionare e documentare di conseguenza.',
+        a: "Indicate il prodotto esatto, il legno o pannello, la finitura, l’uso previsto e il mercato di destinazione. Verificheremo quali documenti di origine, certificati o rapporti siano pertinenti e disponibili per quella specifica. Una dichiarazione FSC richiede la verifica del titolare, dell’ambito e dei documenti d’ordine; ISO 9001, REACH o CARB non si deducono dalla specie di legno.",
       },
     ],
   },
 
   'wood-fabrication': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'FAQ sulla lavorazione del legno',
     sectionSub:
       'Da uno schizzo o un campione alla scatola finita e personalizzata: ecco come la nostra fabbrica di 20.000 m² taglia, assembla, rifinisce e decora imballaggi in legno su misura.',
@@ -78,7 +80,7 @@ export const FAQS = {
       },
       {
         q: 'Come controllate la qualità durante la lavorazione?',
-        a: 'La qualità viene verificata all’ingresso dei materiali, durante la produzione e prima della spedizione rispetto al campione approvato, considerando dimensioni, finitura, funzionamento della ferramenta e imballaggio. Operiamo secondo un sistema qualità ISO 9001. Per gli ordini più grandi possiamo condividere foto dell’ispezione prima della spedizione e accogliere ispezioni di terze parti.',
+        a: "La qualità viene verificata all’ingresso dei materiali, durante la produzione e prima della spedizione rispetto al campione approvato, considerando dimensioni, finitura, funzionamento della ferramenta e imballaggio. Per gli ordini più grandi possiamo condividere foto dell’ispezione prima della spedizione e accogliere ispezioni di terze parti.",
       },
     ],
   },

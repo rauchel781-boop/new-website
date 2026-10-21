@@ -5,6 +5,8 @@
 // flag emoji, etc.) are identical across locales — only human-readable text
 // changes.
 
+export const UPDATED_AT = '2026-10-21';
+
 const F = (name) => '/factory/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
 const E = (name) => '/employees/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
 const P = (name) => '/folder/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
@@ -49,8 +51,8 @@ export const TIMELINE = [
     text: 'Lease signed on dedicated 6,000 m² production site in Pulianji Town. Onboarded first European wine-box client.' },
   { year: '2023', title: 'Amazon Boom',
     text: 'Built dedicated small-MOQ line for Amazon private-label brands. Crossed 1 million units shipped in a single year.' },
-  { year: '2024', title: 'FSC Certified',
-    text: 'Achieved FSC chain-of-custody certification. Expanded factory to 20,000 m² with new finishing and QC area.' },
+  { year: '2024', title: 'Factory Expansion',
+    text: 'Expanded factory to 20,000 m² with new finishing and QC area.' },
   { year: '2025', title: 'Going Global',
     text: 'Active customers in 40+ countries. In-house ID + 3D mockup team launched to support OEM/ODM growth.' },
 ];
@@ -84,13 +86,13 @@ export const LOCATIONS = [
 
 export const MARKETS = [
   { flag: '🇪🇺', name: 'Europe',
-    text: 'UK, Germany, France, Netherlands, Italy, Spain — REACH-compliant finishes, EU phytosanitary certificates standard.' },
+    text: 'UK, Germany, France, Netherlands, Italy, Spain — Confirm the documents and labelling required for the selected product and destination.' },
   { flag: '🇺🇸', name: 'North America',
-    text: 'United States & Canada — CARB P2 finishes, FBA-ready packaging available, weekly LCL consolidations.' },
+    text: 'United States & Canada — Include buyer-specific packing, labelling and documentation requirements in the order brief.' },
   { flag: '🇯🇵', name: 'Japan',
-    text: 'Tokyo, Osaka, Nagoya — JIS-grade tolerance standards, JAS-compliant labeling on request.' },
+    text: 'Tokyo, Osaka, Nagoya — Confirm the specifications, labelling and documents required for your market.' },
   { flag: '🇰🇷', name: 'Korea',
-    text: 'Seoul, Busan — KC-mark labeling supported, fast Incheon & Busan port routes from Xiamen.' },
+    text: 'Seoul, Busan — Agree any destination- or buyer-specific document and labelling requirements for the selected model.' },
 ];
 
 export const VALUES = [
@@ -102,15 +104,8 @@ export const VALUES = [
     text: 'Our Xiamen office handles your project end-to-end in fluent English — from quoting to artwork to shipping documents. Time-zone overlap with EU and US morning hours.' },
 ];
 
-// `slug` keys into components/CertIcons.jsx for inline SVG rendering.
-// Same registry as the home page CERTS array; About page has its own
-// shape (status + pending) but reuses the same icon system.
-export const CERTS = [
-  { slug: 'fsc',      name: 'FSC',       status: 'Certified',     pending: false },
-  { slug: 'eu-reach', name: 'EU REACH',  status: 'Certified',     pending: false },
-  { slug: 'carb',     name: 'CARB P2',   status: 'Certified',     pending: false },
-  { slug: 'iso-9001', name: 'ISO 9001',  status: 'Certified',     pending: false },
-];
+// Populate only after the product scope and supporting evidence are verified.
+export const CERTS = [];
 
 export const COPY = {
   meta: {
@@ -196,10 +191,10 @@ export const COPY = {
     titleEm: 'Apart',
   },
   certs: {
-    label: 'Standards & Compliance',
-    title: 'Certifications',
+    label: 'Order Documentation',
+    title: 'Documents for Your Product',
     paragraph:
-      'Our wood is sourced from FSC-certified forestry channels, and we operate a chain-of-custody program to keep audit trails clean from log to carton. We also hold CARB P2 (US formaldehyde emissions) and EU REACH compliance, plus an ISO 9001 quality management system — so every shipment is ready for import requirements across the US, EU and beyond.',
+      'Before ordering, tell us the product model, materials, intended use and destination market. We will confirm which supporting documents are available for that specification. Review the named product, materials, scope and limitations in each document before making a compliance claim. Documents apply to the product and scope they identify.',
   },
   cta: {
     label: 'Talk to Us',

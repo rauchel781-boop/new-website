@@ -414,6 +414,7 @@ const CSS = `
 /* ─── CERTS ─── */
 .about-certs { background: var(--sand); }
 .about-cert-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 60px; align-items: center; margin-top: 40px; }
+.about-cert-grid.is-text-only { grid-template-columns: 1fr; max-width: 880px; }
 .about-cert-text p {
   font-size: 0.95rem;
   color: var(--text-muted);
@@ -898,18 +899,18 @@ export default function AboutPage({ params: { locale } }) {
         </div>
       </section>
 
-      {/* ── CERTS ── */}
+      {/* ── PRODUCT DOCUMENTATION ── */}
       <section className="about-section about-certs">
         <div className="about-section-inner">
           <div className="about-section-label">{COPY.certs.label}</div>
           <h2 className="about-section-title">{COPY.certs.title}</h2>
           <div className="about-section-line" />
 
-          <div className="about-cert-grid">
+          <div className={`about-cert-grid${CERTS.length ? '' : ' is-text-only'}`}>
             <div className="about-cert-text">
               <p>{COPY.certs.paragraph}</p>
             </div>
-            <div className="about-cert-badges">
+            {CERTS.length > 0 && <div className="about-cert-badges">
               {CERTS.map((c) => (
                 <div className={`about-cert-badge${c.pending ? ' is-pending' : ''}`} key={c.name}>
                   <div className="about-cert-icon" aria-hidden="true"><CertIcon slug={c.slug} /></div>
@@ -917,7 +918,7 @@ export default function AboutPage({ params: { locale } }) {
                   <div className="about-cert-status">{c.status}</div>
                 </div>
               ))}
-            </div>
+            </div>}
           </div>
         </div>
       </section>

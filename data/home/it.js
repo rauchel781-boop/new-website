@@ -3,13 +3,13 @@ export const FEATURED = [
   { href: '/products/gift-packaging/luxury-magnetic-gift-box', img: '/gift-packaging-box/luxury-magnetic-gift-box/luxury-magnetic-gift-box-01.webp', w: 800, h: 800,
     tag: 'Scatole Regalo e Imballaggio', name: 'Scatola Regalo Magnetica di Lusso', meta: 'Magneti nascosti · Interno in velluto' },
   { href: '/products/gift-packaging/sliding-lid-gift-box', img: '/gift-packaging-box/sliding-lid-gift-box/sliding-lid-gift-box-01.webp', w: 1488, h: 1182,
-    tag: 'Scatole Regalo e Imballaggio', name: 'Scatola Regalo con Coperchio Scorrevole', meta: 'Senza ferramenta · Spedizione piatta' },
+    tag: 'Scatole Regalo e Imballaggio', name: 'Scatola Regalo con Coperchio Scorrevole', meta: 'Senza ferramenta · Coperchio scorrevole con guide fresate' },
   { href: '/products/with-lock/large-black-wooden-stash-box-kit', img: '/wooden-boxes-with-lock/large-black-wooden-stash-box-kit/stash-box-11.webp', w: 1200, h: 1200,
     tag: 'Scatole con Serratura', name: 'Grande Scatola Nera con Serratura', meta: 'Serratura a combinazione · Multi-scomparto' },
   { href: '/products/tea-coffee/bamboo-tea-organizer-box', img: '/tea-coffee-boxes/bamboo-tea-bag-organizer-box/main-1-5.webp', w: 800, h: 800,
-    tag: 'Tè e Caffè', name: 'Organizer Bustine di Tè in Bambù', meta: '8 divisori · Coperchio trasparente a cerniera' },
+    tag: 'Tè e Caffè', name: 'Organizer Bustine di Tè in Bambù', meta: 'Coperchio scorrevole · Scomparti configurabili' },
   { href: '/products/hinged/wooden-watch-box-with-linen-interior-pillow', img: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp', w: 720, h: 720,
-    tag: 'Orologi e Gioielli', name: 'Box Espositore Orologi in Legno', meta: 'Cuscinetto in lino · Capacità 6 orologi' },
+    tag: 'Orologi e Gioielli', name: 'Box Espositore Orologi in Legno', meta: 'Cuscinetto in lino · Presentazione per un orologio' },
   { href: '/products/hinged/acacia-wooden-storage-box', img: '/acacia-wood-box/3/3-01.webp', w: 1010, h: 1144,
     tag: 'Serie Acacia', name: 'Box Ricordi in Legno di Acacia', meta: 'Venatura ricca · Durabilità del legno duro' },
 ];
@@ -46,7 +46,7 @@ export const MATERIALS = [
   { href: '/products/pine',      swatch: 'swatch-pine',      name: 'Pino',
     desc: 'Venatura rustica classica. Accessibile e duraturo. Popolare per vino e stoccaggio.' },
   { href: '/products/bamboo',    swatch: 'swatch-bamboo',    name: 'Bambù',
-    desc: 'Ecologico e sostenibile. Texture unica, naturalmente antibatterico.' },
+    desc: 'Bambù per scatole su misura. Conferma costruzione, colore e finitura sul campione.' },
   { href: '/products/acacia',    swatch: 'swatch-acacia',    name: 'Acacia',
     desc: 'Legno duro denso con toni ricchi e caldi. Ideale per scatole regalo premium.' },
   { href: '/products/walnut',    swatch: 'swatch-walnut',    name: 'Noce',
@@ -60,18 +60,11 @@ export const WHY = [
     text: 'Incisione logo, hot stamping, serigrafia, inserti su misura, ferramenta, fodera in velluto — gestiamo ogni dettaglio internamente.' },
   { icon: '📋', title: 'Controllo Qualità Rigoroso',
     text: 'Ogni ordine passa per un QC a 3 stadi: ispezione materiali, controlli in lavorazione e ispezione finale pre-spedizione.' },
-  { icon: '🌍', title: 'Documentazione Pronta Export',
-    text: 'Gestiamo certificati fitosanitari, CO, fatture commerciali e packing list — sdoganamento senza stress per te.' },
+  { icon: '🌍', title: 'Documentazione per ordine',
+    text: 'Prima della produzione, conferma i documenti necessari e disponibili per il modello, i materiali e il paese di destinazione scelti.' },
 ];
 
-export const CERTS = [
-  { slug: 'fsc',      name: 'Certificato FSC' },
-  { slug: 'eu-reach', name: 'EU REACH' },
-  { slug: 'carb',     name: 'CARB P2' },
-  { slug: 'sgs',      name: 'Testato SGS' },
-  { slug: 'phyto',    name: 'Cert. Fitosanitario' },
-  { slug: 'iso-9001', name: 'ISO 9001' },
-];
+export const CERTS = [];
 
 export const COPY = {
   hero: {
@@ -81,7 +74,7 @@ export const COPY = {
     titleEm2: 'Fornitore OEM',
     sub: 'Dall’imballaggio regalo di lusso allo stoccaggio su misura — progettiamo scatole in legno personalizzate nel nostro stabilimento di 20.000 m² a Cao County e spediamo a brand in 60+ paesi dal nostro ufficio di Xiamen. Costruite a mano, finite con precisione da banco.',
     btnPrimary: 'Vedi Best Seller →',
-    btnOutline: 'Richiedi Campione Gratuito',
+    btnOutline: 'Richiedi un campione e un preventivo',
     metaItems: [
       { num: '20+', label: 'Anni di esperienza del team' },
       { num: '500+', label: 'Stili di scatola' },
@@ -95,10 +88,10 @@ export const COPY = {
       stampSub: 'Anni',
     },
     trust: [
-      'Legno Certificato FSC',
-      'OEM / ODM Completo',
-      'Campione in 7 giorni',
-      'EU REACH · CARB · ISO 9001',
+      'MOQ: 200 pezzi',
+      'Ordini OEM e ODM',
+      'Dimensioni su misura',
+      'Approvazione del campione',
     ],
   },
   stats: [
@@ -116,9 +109,9 @@ export const COPY = {
     features: [
       "MOQ: 200 pezzi",
       'Personalizzazione completa: misura, finitura, logo, inserto, ferramenta',
-      'Legno certificato FSC e finiture eco disponibili',
+      'Materiali e documentazione applicabile da confermare per modello e uso previsto',
       'Team di design interno per progetti OEM e ODM',
-      'Consegna campione entro 7 giorni',
+      'Costo e tempi del campione da confermare in base alle specifiche',
     ],
   },
   featured: {
@@ -156,9 +149,9 @@ export const COPY = {
     title: 'Il Vantaggio CHIC',
   },
   trust: {
-    label: 'Certificazioni e Conformità',
-    title: 'Affidabili per Acquirenti Globali',
-    text: 'Tutti i nostri prodotti in legno rispettano gli standard internazionali di esportazione. Deteniamo la certificazione FSC per la silvicoltura responsabile, e le nostre finiture rispettano le normative EU REACH e US CARB. Certificati fitosanitari emessi su richiesta per tutte le spedizioni di legno massello.',
+    label: 'Specifiche e documentazione dell’ordine',
+    title: 'Verifica i documenti del modello scelto',
+    text: 'Indica il modello, i materiali, l’uso previsto e il mercato di destinazione. Prima di approvare l’ordine, conferma quali documenti si applicano alla configurazione specifica e a quell’ordine.',
   },
   cta: {
     label: 'Pronto a Iniziare?',
@@ -169,3 +162,5 @@ export const COPY = {
     btnWhatsapp: 'Chatta su WhatsApp',
   },
 };
+
+export const UPDATED_AT = '2026-10-21';

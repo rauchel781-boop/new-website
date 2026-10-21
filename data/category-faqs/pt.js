@@ -5,6 +5,7 @@
 
 export const FAQS = {
   "gift-packaging": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Quais tipos de madeira você recomenda para embalagens premium?",
@@ -24,7 +25,7 @@ export const FAQS = {
       },
       {
         "q": "As caixas de presente são vendidas com embalagens prontas para varejo?",
-        "a": "Sim. Cada caixa de presente é embrulhada em saco poli OPP (anti-risco) e embalada em caixas mestras de exportação com protetores de canto. Códigos de barras UPC, adesivos de tira de lágrima, hangtags e cartões de presente podem ser adicionados como operações inline. Certificados fitossanitários são emitidos a pedido para remessas de madeira maciça."
+        "a": "Sim. Cada caixa de presente é embrulhada em saco poli OPP (anti-risco) e embalada em caixas mestras de exportação com protetores de canto. Códigos de barras UPC, adesivos de tira de lágrima, hangtags e cartões de presente podem ser adicionados como operações inline. Para remessas de madeira maciça, confirme os requisitos fitossanitários ou de tratamento do destino e a disponibilidade dos documentos necessários antes do pedido."
       }
     ],
     "sectionTitle": "FAQ-Caixas De Embalagem De Presente De Madeira",
@@ -57,10 +58,11 @@ export const FAQS = {
     "sectionSub": "Sizing, inserir montagem e terminar perguntas de marcas de relógios, joalheiros e programas de presentes de luxo."
   },
   "tea-coffee": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Suas caixas de chá e café são seguras para alimentos?",
-        "a": "Sim. Todas as superfícies interiores em contato com alimentos usam óleos naturais ou vernizes à base de água que cumprem com a regulamentação EU Food Contact Material (EC) N ° 1935/2004 e US FDA 21 CFR 175.300. Evitamos manchas à base de solventes e adesivos CARB Phase-2 não conformes. Relatórios do teste disponíveis a pedido."
+        "a": "Diferencie o armazenamento de embalagens seladas do contato direto com chá ou café soltos. O contato com alimentos deve ser avaliado para a caixa, acabamento, adesivos, tempo, temperatura e mercado de destino específicos. Solicite a verificação das evidências disponíveis antes do pedido; um documento de outro modelo ou material não comprova a adequação desta caixa."
       },
       {
         "q": "Quantos compartimentos você pode fazer? Que tamanhos caber chá sacos vs. folha solta?",
@@ -83,6 +85,7 @@ export const FAQS = {
     "sectionSub": "O dimensionamento do compartimento, os revestimentos alimento-seguros, e as perguntas da umidade para tipos do chá/café e programas do presente."
   },
   "wine-whisky": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Quais os tamanhos das suas caixas de vinho e bebidas espirituosas?",
@@ -98,7 +101,7 @@ export const FAQS = {
       },
       {
         "q": "Como você lida com fitossanitário e ISPM-15 stamping para exportação?",
-        "a": "Para caixas de madeira maciça enviadas para a UE, Reino Unido, Austrália, EUA e Japão, fornecemos certificados fitossanitários com cada remessa de exportação. Paletes são tratados termicamente para ISPM-15 (HT stamp) -necessário para paletes de madeira maciça que entram na maioria dos países. As próprias caixas são secas em forno (tratamento KD), para que não precisem de estampagem individual."
+        "a": "Verifique antes do pedido os requisitos fitossanitários e de tratamento para o destino, componentes de madeira e embalagem de transporte. A secagem em estufa, por si só, não comprova isenção ou conformidade com a ISPM 15. Confirme tratamentos, marcas e documentos do produto e da remessa com o importador ou despachante aduaneiro; verificaremos o que pode ser providenciado antes de assumir um compromisso."
       },
       {
         "q": "Que é o prazo de espera e o MOQ típicos para caixas personalizadas do vinho?",
@@ -109,10 +112,11 @@ export const FAQS = {
     "sectionSub": "Montagem de garrafas, construção de tampa deslizante e perguntas de documentos de exportação para vinícolas, destilarias e bebidas espirituosas."
   },
   "kitchen-dining": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Quais tipos de madeira são mais seguros para contato alimentar?",
-        "a": "Bambu, acácia, faia e pinho são seguros para alimentos quando terminados com óleo mineral de qualidade alimentar ou laca à base de água (compatível com EC 1935/2004 / FDA 21 CFR 175.300). Evitamos a noz para contato direto com alimentos (leve risco de alérgenos) e evitamos vernizes à base de solventes nas superfícies da zona alimentar."
+        "a": "A espécie de madeira, por si só, não comprova adequação ao contato direto com alimentos. Para uma tábua, bandeja ou caixa, identifique materiais, acabamento, adesivos, alimentos, tempo de contato, temperatura e destino. Verifique os requisitos aplicáveis e o escopo dos relatórios disponíveis antes de confirmar a especificação."
       },
       {
         "q": "Como os pães são ventilados para manter os pães frescos?",
@@ -213,6 +217,7 @@ export const FAQS = {
     "sectionSub": "Mecânica da dobradiça, tampas e questões de durabilidade para compradores de varejo."
   },
   "sliding-lid": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Quão apertadas são as ranhuras da tampa deslizante-a tampa gruda?",
@@ -228,7 +233,7 @@ export const FAQS = {
       },
       {
         "q": "As caixas com tampa deslizante são seguras para armazenamento em contato com alimentos (chá, café, especiarias)?",
-        "a": "Sim quando terminar com verniz à base de água de qualidade alimentar ou óleo mineral natural. A tampa deslizante forma um fechamento confortável, mas não hermético-para conteúdos sensíveis à umidade (especiarias inteiras, café moído), adicionamos uma junta de silicone ao longo da ranhura da tampa ou recomendamos um frasco interno selado."
+        "a": "Para contato direto com chá, café ou especiarias, verifique materiais, acabamento e adesivos da caixa conforme as condições de uso e os requisitos do destino. O tipo de acabamento, por si só, não comprova conformidade alimentar. Uma tampa deslizante não é hermética; para conteúdos sensíveis à umidade, avalie um recipiente interno selado ou outra barreira adequada."
       },
       {
         "q": "Será que a tampa ainda deslizar suavemente após anos de uso?",
@@ -291,6 +296,7 @@ export const FAQS = {
     "sectionSub": "Força do ímã, embedment, e aviação-questões de segurança para presente, relógio e embalagens de luxo."
   },
   "with-lock": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Que tipo do fechamento você oferece?",
@@ -298,11 +304,11 @@ export const FAQS = {
       },
       {
         "q": "Estas fechaduras são de grau de segurança ou simbólicas?",
-        "a": "Simbólico a moderado-são fechaduras de embalagem, não de grau seguro. Eles mantêm mãos curiosas e acesso casual; eles não vão parar um atacante determinado com ferramentas. Para documentos ou itens que precisam de segurança real, recomendo que os compradores também usem um cofre doméstico. Nossas fechaduras cumprem os regulamentos de segurança de produtos de consumo na UE, EUA e Japão."
+        "a": "Simbólico a moderado-são fechaduras de embalagem, não de grau seguro. Eles mantêm mãos curiosas e acesso casual; eles não vão parar um atacante determinado com ferramentas. Para documentos ou itens que precisam de segurança real, recomendo que os compradores também usem um cofre doméstico."
       },
       {
         "q": "As caixas bloqueáveis são resistentes a crianças-importantes para conteúdo exclusivo para adultos?",
-        "a": "Os modelos do combinação-fechamento encontram o protocolo da criança-resistência do teste do CPSC dos E.U. quando a combinação é definida longe de 000-crianças sob 5 não as abrem com sucesso em experimentações repetidas do teste. Os modelos de fechadura com chave não são certificados à prova de crianças. Para programas de cannabis e produtos adultos na Califórnia, Washington e Colorado, a versão combinada é o que os reguladores aceitam."
+        "a": "Uma fechadura de chave ou combinação não comprova, por si só, resistência à abertura por crianças. Para conteúdos regulamentados ou exclusivos para adultos, verifique um relatório de ensaio da caixa, fechadura e fechamento exatos segundo a norma exigida no destino. Sem evidências aplicáveis, não descreva um modelo como testado segundo CPSC, resistente a crianças ou aceito por um regulador estadual."
       },
       {
         "q": "Você pode personalizar a combinação ou padrão chave?",
@@ -317,6 +323,7 @@ export const FAQS = {
     "sectionSub": "Tipos de bloqueio, resistência a crianças e combinação versus perguntas-chave para caixas de esconderijo, caixas de documentos e programas de presente de segurança."
   },
   "paulownia": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Por que paulownia é tão leve-é mais fraca que outras madeiras?",
@@ -332,7 +339,7 @@ export const FAQS = {
       },
       {
         "q": "Paulownia é ecológica?",
-        "a": "Sim-uma das madeiras de folhosas mais sustentáveis comercialmente disponíveis. As árvores Paulownia crescem extremamente rápido (colhíveis em 7-10 anos versus 25 para carvalho) e re-talhadeira do toco após a colheita. Nosso estoque paulownia é certificado pelo FSC de plantações gerenciadas na China central."
+        "a": "A paulownia pode ser considerada para embalagens leves, mas o impacto ambiental depende da origem, processamento e transporte. O crescimento rápido, por si só, não comprova origem responsável nem certificação FSC. Antes de confirmar uma alegação FSC, é necessário verificar titular, escopo do produto e documentos do pedido."
       },
       {
         "q": "Paulownia vai deformar ou rachar com o tempo?",
@@ -369,6 +376,7 @@ export const FAQS = {
     "sectionSub": "Nó personagem, opções de acabamento e questões de durabilidade para vinho rústico, presente e programas de armazenamento."
   },
   "bamboo": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "O bambu é realmente uma madeira, ou é grama?",
@@ -376,7 +384,7 @@ export const FAQS = {
       },
       {
         "q": "O bambu é realmente mais sustentável do que a madeira?",
-        "a": "Sim, por uma larga margem. O bambu cresce 30-90 cm por dia, colhível em 3-5 anos e cresce a partir da mesma raiz após o corte (sem necessidade de replantio). Uma plantação de bambu produz 25 × a biomassa de uma floresta de carvalhos da mesma área. Nosso bambu é certificado pelo FSC de plantações gerenciadas no sul da China."
+        "a": "O bambu não é automaticamente mais sustentável que a madeira de folhosas. Compare origem, processamento, adesivos, vida útil e transporte do produto proposto. Uma alegação FSC exige verificar titular do certificado, escopo do produto e documentos do pedido; não pode ser deduzida apenas do material."
       },
       {
         "q": "A afirmação “naturalmente antibacteriana” é real?",
@@ -395,6 +403,7 @@ export const FAQS = {
     "sectionSub": "Questões ecológicas, antibacterianas e estruturais para marcas posicionadas em sustentabilidade."
   },
   "acacia": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "O que torna a acácia boa para caixas premium?",
@@ -406,7 +415,7 @@ export const FAQS = {
       },
       {
         "q": "A acácia é segura para cortar tábuas ou servir bandejas?",
-        "a": "Sim-acabado com óleo mineral de qualidade alimentar ou laca à base de água, cumpre os regulamentos de contato alimentar da UE e FDA. A acácia é naturalmente uma das madeiras mais adequadas aos alimentos devido ao seu grão apertado e baixa lixiviação química. Nós fornecemos placas de acácia acabadas para várias grandes marcas européias."
+        "a": "A acácia pode ser especificada para tábuas e bandejas, mas a espécie, por si só, não comprova conformidade para contato com alimentos. Verifique acabamento, adesivos, alimento, tempo, temperatura e requisitos do destino. Um relatório disponível deve abranger o produto e o uso propostos; documentos de uma caixa de bambu não se aplicam automaticamente a um artigo de acácia."
       },
       {
         "q": "A cor acácia mudará com o tempo?",

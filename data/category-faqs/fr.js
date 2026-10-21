@@ -5,6 +5,7 @@
 
 export const FAQS = {
   "gift-packaging": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Quels types de bois recommandez-vous pour les emballages cadeaux de qualité supérieure?",
@@ -24,7 +25,7 @@ export const FAQS = {
       },
       {
         "q": "Vos boîtes-cadeaux sont-elles expédiées avec un emballage prêt pour la vente au détail?",
-        "a": "Oui. Chaque boîte-cadeau est enveloppé dans le poly sac d'OPP (anti-éraflure) et emballé dans des cartons principaux d'exportation-catégorie avec les protecteurs faisants le coin. Les codes à barres UPC, les autocollants à bande de déchirure, les étiquettes suspensions et les cartes-cadeaux peuvent être ajoutés en tant qu'opérations en ligne. Les certificats phytosanitaires sont délivrés sur demande pour les envois de bois massif."
+        "a": "Oui. Chaque boîte-cadeau est enveloppé dans le poly sac d'OPP (anti-éraflure) et emballé dans des cartons principaux d'exportation-catégorie avec les protecteurs faisants le coin. Les codes à barres UPC, les autocollants à bande de déchirure, les étiquettes suspensions et les cartes-cadeaux peuvent être ajoutés en tant qu'opérations en ligne. Pour les envois de bois massif, confirmez les exigences phytosanitaires ou de traitement de la destination et la disponibilité des documents nécessaires avant commande."
       }
     ],
     "sectionTitle": "FAQ-boîtes en bois d'emballage de cadeau",
@@ -57,10 +58,11 @@ export const FAQS = {
     "sectionSub": "Sizing, insérer montage, et terminer les questions des marques de montres, des bijoutiers et des programmes de cadeaux de luxe."
   },
   "tea-coffee": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Vos boîtes à thé et à café sont-elles sans danger pour les aliments?",
-        "a": "Oui. Toutes les surfaces intérieures en contact avec les aliments utilisent des finitions à base d'huile naturelle ou de laque à base d'eau qui sont conformes au règlement UE sur les matériaux de contact alimentaire (CE) n ° 1935/2004 et US FDA 21 CFR 175.300. Nous évitons les taches à base de solvant et les adhésifs CARB Phase-2 non conformes. Rapports d'essai disponibles sur demande."
+        "a": "Distinguez le rangement de sachets fermés du contact direct avec du thé ou du café en vrac. Le contact alimentaire doit être évalué pour la boîte, la finition, les colles, la durée, la température et le marché de destination précis. Faites vérifier les preuves disponibles avant commande ; un document portant sur un autre modèle ou matériau ne démontre pas l’aptitude de cette boîte."
       },
       {
         "q": "Combien de compartiments pouvez-vous faire? Quelles tailles conviennent aux sachets de thé par rapport aux feuilles mobiles?",
@@ -83,6 +85,7 @@ export const FAQS = {
     "sectionSub": "Compartiment dimensionnement, des finitions de sécurité alimentaire, et des questions d'humidité pour thé/café marques et programmes de cadeaux."
   },
   "wine-whisky": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Quelles tailles de bouteilles correspondent à vos boîtes de vin et de spiritueux?",
@@ -98,7 +101,7 @@ export const FAQS = {
       },
       {
         "q": "Comment gérez-vous l'estampage phytosanitaire et ISPM-15 pour l'exportation?",
-        "a": "Pour les boîtes en bois massif expédiées vers l'UE, le Royaume-Uni, l'Australie, les États-Unis et le Japon, nous fournissons des certificats phytosanitaires avec chaque expédition d'exportation. Les palettes sont traitées thermiquement pour ISPM-15 (timbre HT)-requis pour les palettes en bois massif entrant dans la plupart des pays. Les boîtes elles-mêmes sont séchées au four (traitement KD), elles n'ont donc pas besoin d'être estampées ISPM-15 individuellement."
+        "a": "Vérifiez avant commande les exigences phytosanitaires et de traitement selon la destination, les éléments en bois et l’emballage de transport. Le séchage au four seul ne démontre ni une exemption ni une conformité ISPM 15. Confirmez les traitements, marquages et documents du produit et de l’envoi avec l’importateur ou le déclarant en douane ; nous vérifierons ce qui peut être organisé avant engagement."
       },
       {
         "q": "Quel est le délai d'exécution typique et MOQ pour les boîtes à vin personnalisées?",
@@ -109,10 +112,11 @@ export const FAQS = {
     "sectionSub": "Montage de bouteille, la construction de glissement-couvercle, et les questions d'exportation-document pour les établissements vinicoles, distilleries, et les spiritueux don."
   },
   "kitchen-dining": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Quels types de bois sont les plus sûrs pour le contact alimentaire?",
-        "a": "Le bambou, l'acacia, le hêtre et le pin sont tous sans danger pour les aliments lorsqu'ils sont finis avec de l'huile minérale de qualité alimentaire ou une laque à base d'eau (conforme CE 1935/2004 / FDA 21 CFR 175.300). Nous évitons le noyer pour le contact direct avec les aliments (risque d'allergène léger) et évitons les vernis à base de solvant dans les surfaces de la zone alimentaire."
+        "a": "L’essence du bois ne suffit pas à démontrer l’aptitude au contact alimentaire direct. Pour une planche, un plateau ou une boîte, précisez les matériaux, la finition, les colles, les aliments, la durée, la température et la destination. Vérifiez les exigences applicables et le périmètre des rapports disponibles avant validation."
       },
       {
         "q": "Comment les bacs à pain sont-ils ventilés pour garder les pains frais?",
@@ -213,6 +217,7 @@ export const FAQS = {
     "sectionSub": "Mécanique de charnière, arrêts de couvercle et questions de durabilité pour les acheteurs de détail et de cadeaux."
   },
   "sliding-lid": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Dans quelle mesure les rainures du couvercle coulissant sont-elles serrées-le couvercle colle-t-il?",
@@ -228,7 +233,7 @@ export const FAQS = {
       },
       {
         "q": "Les boîtes à couvercle coulissant sont-elles sécuritaires pour le stockage en contact avec les aliments (thé, café, épices)?",
-        "a": "Oui lorsque fini avec laque à base d'eau de qualité alimentaire ou huile minérale naturelle. Le couvercle coulissant forme une fermeture bien ajustée mais pas hermétique-pour les contenus sensibles à l'humidité (épices entières, café moulu), nous ajoutons un joint en silicone le long de la rainure du couvercle ou recommandons un pot intérieur scellé."
+        "a": "Pour un contact direct avec du thé, du café ou des épices, vérifiez les matériaux, la finition et les colles de la boîte selon les conditions d’utilisation et les exigences de destination. Le type de finition seul ne démontre pas la conformité alimentaire. Un couvercle coulissant n’est pas étanche à l’air ; pour les contenus sensibles à l’humidité, étudiez un récipient intérieur fermé ou une autre barrière adaptée."
       },
       {
         "q": "Le couvercle glissera-t-il toujours en douceur après des années d'utilisation?",
@@ -291,6 +296,7 @@ export const FAQS = {
     "sectionSub": "La force de l'aimant, l'encastrement et l'aviation-questions de sécurité pour le cadeau, la montre et l'emballage de luxe."
   },
   "with-lock": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Quels types de serrures offrez-vous?",
@@ -298,11 +304,11 @@ export const FAQS = {
       },
       {
         "q": "Ces verrous sont-ils de qualité sécuritaire ou symbolique?",
-        "a": "Symbolique à modéré-ce sont des serrures d'emballage, pas de qualité sûre. Ils gardent les mains curieuses et l'accès occasionnel; ils n'arrêteront pas un attaquant déterminé avec des outils. Pour les documents ou les articles nécessitant une sécurité réelle, recommandez aux acheteurs d'utiliser également un coffre-fort à domicile. Nos serrures sont conformes aux réglementations de sécurité des produits de consommation en Europe, aux États-Unis et au Japon."
+        "a": "Symbolique à modéré-ce sont des serrures d'emballage, pas de qualité sûre. Ils gardent les mains curieuses et l'accès occasionnel; ils n'arrêteront pas un attaquant déterminé avec des outils. Pour les documents ou les articles nécessitant une sécurité réelle, recommandez aux acheteurs d'utiliser également un coffre-fort à domicile."
       },
       {
         "q": "Les boîtes verrouillables sont-elles résistantes aux enfants-importantes pour le contenu réservé aux adultes?",
-        "a": "Les modèles de combinaison-serrure rencontrent le protocole d'essai de l'enfant-résistance des USA CPSC quand la combinaison est placée à partir de 000-les enfants au-dessous de 5 ne les ouvrent pas avec succès dans les essais répétés d'essai. Les modèles à clé ne sont pas certifiés protège-enfants par eux-mêmes. Pour les programmes de cannabis et de produits pour adultes en Californie, à Washington et au Colorado, la version combinée est ce que les régulateurs acceptent."
+        "a": "Une serrure à clé ou à combinaison ne prouve pas à elle seule une résistance à l’ouverture par les enfants. Pour des contenus réglementés ou réservés aux adultes, vérifiez un rapport d’essai couvrant la boîte, la serrure et la fermeture exactes selon la norme exigée à destination. Sans preuve applicable, ne présentez pas un modèle comme testé selon CPSC, résistant aux enfants ou accepté par un régulateur d’État."
       },
       {
         "q": "Pouvez-vous personnaliser la combinaison ou le motif clé?",
@@ -317,6 +323,7 @@ export const FAQS = {
     "sectionSub": "Verrouillez les types, la résistance des enfants et les questions combination-vs-clé pour les boîtes de cachette, les boîtes de documents et les programmes de cadeaux de sécurité."
   },
   "paulownia": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Pourquoi le paulownia est-il si léger-est-il plus faible que les autres bois?",
@@ -332,7 +339,7 @@ export const FAQS = {
       },
       {
         "q": "Le paulownia est-il écologique?",
-        "a": "Oui-l'un des bois durs les plus durables disponibles dans le commerce. Les arbres Paulownia poussent extrêmement vite (récoltable en 7-10 ans contre 25 ans pour le chêne) et re-taillis de la souche après la récolte. Notre stock de paulownia est certifié FSC provenant de plantations gérées dans le centre de la Chine."
+        "a": "Le paulownia peut convenir à un emballage léger, mais son impact environnemental dépend de l’origine, de la transformation et du transport. Une croissance rapide ne prouve ni un approvisionnement responsable ni une certification FSC. Toute allégation FSC exige de vérifier le titulaire, le périmètre produit et les documents de commande avant confirmation."
       },
       {
         "q": "Est-ce que le paulownia se déformera ou se fissurera avec le temps?",
@@ -369,6 +376,7 @@ export const FAQS = {
     "sectionSub": "Le caractère de noeud, les options de finition, et les questions de longévité pour le vin rustique, le cadeau, et les programmes de stockage."
   },
   "bamboo": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Le bambou est-il vraiment un bois, ou est-ce de l'herbe?",
@@ -376,7 +384,7 @@ export const FAQS = {
       },
       {
         "q": "Le bambou est-il vraiment plus durable que le bois dur?",
-        "a": "Oui, avec une large marge. Le bambou pousse 30-90 cm par jour, récoltable en 3-5 ans, et repousse à partir de la même racine après la coupe (pas de replantation nécessaire). Une plantation de bambous produit 25 fois la biomasse d'une forêt de chênes de la même zone. Notre bambou est certifié FSC provenant de plantations gérées dans le sud de la Chine."
+        "a": "Le bambou n’est pas automatiquement plus durable qu’un bois feuillu. Comparez l’origine, la transformation, les colles, la durée d’utilisation et le transport du produit proposé. Une allégation FSC exige de vérifier le titulaire du certificat, le périmètre produit et les documents de commande ; elle ne se déduit pas du seul matériau."
       },
       {
         "q": "La revendication «naturellement antibactérienne» est-elle réelle?",
@@ -395,6 +403,7 @@ export const FAQS = {
     "sectionSub": "Questions d'éco-accréditation, antibactériennes et structurelles pour les marques positionnées sur le développement durable."
   },
   "acacia": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "Qu'est-ce qui rend l'acacia bon pour les boîtes premium?",
@@ -406,7 +415,7 @@ export const FAQS = {
       },
       {
         "q": "Les aliments en acacia sont-ils sans danger pour les planches à découper ou les plateaux de service?",
-        "a": "Oui-fini avec une huile minérale de qualité alimentaire ou une laque à base d'eau, il est conforme aux réglementations de l'UE et de la FDA en matière de contact alimentaire. L'acacia est naturellement l'un des bois durs les plus adaptés aux aliments en raison de son grain serré et de sa faible lixiviation chimique. Nous fournissons des planches d'acacia finies à plusieurs grandes marques européennes d'ustensiles de cuisine."
+        "a": "L’acacia peut être envisagé pour des planches et plateaux, mais l’essence seule ne démontre pas la conformité au contact alimentaire. Vérifiez la finition, les colles, les aliments, la durée, la température et les exigences de destination. Un rapport disponible doit couvrir le produit et l’usage proposés ; les documents d’une boîte en bambou ne s’appliquent pas automatiquement à un article en acacia."
       },
       {
         "q": "La couleur de l'acacia va-t-elle changer avec le temps?",

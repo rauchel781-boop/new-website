@@ -1,4 +1,6 @@
 // About — Korean translation.
+export const UPDATED_AT = '2026-10-21';
+
 const F = (name) => '/factory/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
 const E = (name) => '/employees/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
 const P = (name) => '/folder/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
@@ -43,8 +45,8 @@ export const TIMELINE = [
     text: '푸리안지에 6,000 m² 전용 생산 부지 임대 계약. 첫 유럽 와인 박스 클라이언트 영입.' },
   { year: '2023', title: '아마존 부흥',
     text: '아마존 프라이빗 라벨 브랜드를 위한 소량 MOQ 전용 라인 구축. 한 해 100만 개 출하 돌파.' },
-  { year: '2024', title: 'FSC 인증',
-    text: 'FSC chain-of-custody 인증 획득. 공장을 20,000 m²로 확장하고 새로운 마감 및 QC 영역 마련.' },
+  { year: '2024', title: '공장 확장',
+    text: '공장을 20,000 m²로 확장하고 새로운 마감 및 QC 영역 마련.' },
   { year: '2025', title: '글로벌 진출',
     text: '40개국 이상의 활성 고객. OEM/ODM 성장을 지원하기 위해 사내 ID + 3D 목업 팀 출범.' },
 ];
@@ -78,13 +80,13 @@ export const LOCATIONS = [
 
 export const MARKETS = [
   { flag: '🇪🇺', name: '유럽',
-    text: '영국, 독일, 프랑스, 네덜란드, 이탈리아, 스페인 — REACH 준수 마감, EU 식물 검역 증명서 표준 발급.' },
+    text: '영국, 독일, 프랑스, 네덜란드, 이탈리아, 스페인 — 선택한 제품과 목적지에 필요한 서류 및 표시 사항을 확인해 주세요.' },
   { flag: '🇺🇸', name: '북미',
-    text: '미국 및 캐나다 — CARB P2 마감, FBA 준비 포장 제공, 주간 LCL 통합 운송.' },
+    text: '미국 및 캐나다 — 구매자의 포장, 표시 및 서류 요건을 주문 사양에 포함해 주세요.' },
   { flag: '🇯🇵', name: '일본',
-    text: '도쿄, 오사카, 나고야 — JIS 등급 공차 표준, 요청 시 JAS 준수 라벨링.' },
+    text: '도쿄, 오사카, 나고야 — 해당 시장에 필요한 사양, 표시 및 서류를 확인해 주세요.' },
   { flag: '🇰🇷', name: '한국',
-    text: '서울, 부산 — KC 마크 라벨링 지원, 샤먼에서 인천 및 부산 항으로의 빠른 항만 항로.' },
+    text: '서울, 부산 — 선택한 모델에 대해 목적지 또는 구매자가 요구하는 서류와 표시 요건을 협의해 주세요.' },
 ];
 
 export const VALUES = [
@@ -96,12 +98,7 @@ export const VALUES = [
     text: '샤먼 사무소가 견적부터 아트워크, 출하 서류까지 유창한 영어로 프로젝트를 처음부터 끝까지 처리합니다. EU 및 미국 오전 시간대와 시차 중첩.' },
 ];
 
-export const CERTS = [
-  { slug: 'fsc',      name: 'FSC',       status: '인증 완료',         pending: false },
-  { slug: 'eu-reach', name: 'EU REACH',  status: '인증 완료',         pending: false },
-  { slug: 'carb',     name: 'CARB P2',   status: '인증 완료',         pending: false },
-  { slug: 'iso-9001', name: 'ISO 9001',  status: '인증 완료',         pending: false },
-];
+export const CERTS = [];
 
 export const COPY = {
   meta: {
@@ -187,10 +184,10 @@ export const COPY = {
     titleEm: '돋보이게 하는 것',
   },
   certs: {
-    label: '표준 및 규정 준수',
-    title: '인증',
+    label: '주문 관련 서류',
+    title: '제품별 서류 확인',
     paragraph:
-      '우리 목재는 FSC 인증 임업 채널에서 조달되며, 통나무에서 카톤까지 감사 추적을 깨끗이 유지하기 위해 chain-of-custody 프로그램을 운영합니다. 또한 CARB P2(미국 포름알데히드 배출 기준)와 EU REACH를 준수하며 ISO 9001 품질경영시스템도 갖추고 있어, 미국·EU를 비롯한 각국의 수입 요건을 충족합니다.',
+      '주문 전 제품 모델, 소재, 사용 목적 및 목적지 시장을 알려 주세요. 해당 사양에 제공 가능한 관련 서류를 확인하겠습니다. 적합성에 관한 표시를 하기 전에 각 서류에 명시된 제품, 소재, 적용 범위 및 제한 사항을 확인해 주세요. 서류는 명시된 제품과 범위에 적용됩니다.',
   },
   cta: {
     label: '문의하기',

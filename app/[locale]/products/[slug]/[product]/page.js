@@ -591,9 +591,6 @@ export default async function ProductDetail({ params }) {
             </div>
 
             <div className="pdp-trust">
-              <span>{t('trust.fsc')}</span>
-              <span>{t('trust.reach')}</span>
-              <span>{t('trust.sgs')}</span>
               <span>{t('trust.experience')}</span>
             </div>
           </div>

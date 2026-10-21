@@ -1,4 +1,6 @@
 // About — German translation.
+export const UPDATED_AT = '2026-10-21';
+
 const F = (name) => '/factory/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
 const E = (name) => '/employees/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
 const P = (name) => '/folder/' + encodeURIComponent(name).replace(/\.(jpe?g|png)$/i, '.webp');
@@ -43,8 +45,8 @@ export const TIMELINE = [
     text: 'Mietvertrag über dediziertes 6.000 m²-Produktionsgelände in Pulianji unterschrieben. Erster europäischer Weinkisten-Kunde an Bord.' },
   { year: '2023', title: 'Amazon-Boom',
     text: 'Spezielle Klein-MOQ-Linie für Amazon-Eigenmarken aufgebaut. Über eine Million Stück in einem einzigen Jahr ausgeliefert.' },
-  { year: '2024', title: 'FSC-zertifiziert',
-    text: 'FSC-Chain-of-Custody-Zertifizierung erreicht. Werk auf 20.000 m² mit neuem Finish- und QC-Bereich erweitert.' },
+  { year: '2024', title: 'Werkserweiterung',
+    text: 'Werk auf 20.000 m² mit neuem Finish- und QC-Bereich erweitert.' },
   { year: '2025', title: 'International',
     text: 'Aktive Kunden in 40+ Ländern. Internes ID- + 3D-Mockup-Team gestartet, um OEM/ODM-Wachstum zu unterstützen.' },
 ];
@@ -78,13 +80,13 @@ export const LOCATIONS = [
 
 export const MARKETS = [
   { flag: '🇪🇺', name: 'Europa',
-    text: 'Großbritannien, Deutschland, Frankreich, Niederlande, Italien, Spanien — REACH-konforme Finishes, EU-Pflanzenschutzzeugnisse standardmäßig.' },
+    text: 'Großbritannien, Deutschland, Frankreich, Niederlande, Italien, Spanien — Bestätigen Sie die für das gewählte Produkt und Zielland erforderlichen Dokumente und Kennzeichnungen.' },
   { flag: '🇺🇸', name: 'Nordamerika',
-    text: 'USA und Kanada — CARB-P2-Finishes, FBA-fertige Verpackung verfügbar, wöchentliche LCL-Konsolidierungen.' },
+    text: 'USA und Kanada — Nennen Sie die Verpackungs-, Kennzeichnungs- und Dokumentationsanforderungen des Käufers in der Auftragsspezifikation.' },
   { flag: '🇯🇵', name: 'Japan',
-    text: 'Tokio, Osaka, Nagoya — JIS-Toleranzstandards, JAS-konforme Etikettierung auf Anfrage.' },
+    text: 'Tokio, Osaka, Nagoya — Bestätigen Sie die Spezifikationen, Kennzeichnungen und Dokumente für Ihren Markt.' },
   { flag: '🇰🇷', name: 'Korea',
-    text: 'Seoul, Busan — KC-Markenetikettierung unterstützt, schnelle Hafenrouten Incheon und Busan ab Xiamen.' },
+    text: 'Seoul, Busan — Vereinbaren Sie die zielmarkt- oder käuferspezifischen Dokumentations- und Kennzeichnungsanforderungen für das gewählte Modell.' },
 ];
 
 export const VALUES = [
@@ -96,12 +98,7 @@ export const VALUES = [
     text: 'Unser Büro in Xiamen wickelt Ihr Projekt durchgehend in fließendem Englisch ab — vom Angebot über die Druckdaten bis zu den Versanddokumenten. Zeitzonenüberlappung mit den europäischen und amerikanischen Vormittagsstunden.' },
 ];
 
-export const CERTS = [
-  { slug: 'fsc',      name: 'FSC',       status: 'Zertifiziert',         pending: false },
-  { slug: 'eu-reach', name: 'EU REACH',  status: 'Zertifiziert',         pending: false },
-  { slug: 'carb',     name: 'CARB P2',   status: 'Zertifiziert',         pending: false },
-  { slug: 'iso-9001', name: 'ISO 9001',  status: 'Zertifiziert',         pending: false },
-];
+export const CERTS = [];
 
 export const COPY = {
   meta: {
@@ -187,10 +184,10 @@ export const COPY = {
     titleEm: 'auszeichnet',
   },
   certs: {
-    label: 'Standards & Compliance',
-    title: 'Zertifizierungen',
+    label: 'Auftragsunterlagen',
+    title: 'Dokumente für Ihr Produkt',
     paragraph:
-      'Unser Holz stammt aus FSC-zertifizierten Forstkanälen, und wir betreiben ein Chain-of-Custody-Programm, um saubere Audit-Spuren vom Stamm bis zum Karton zu halten. Wir erfüllen zudem CARB P2 (US-Formaldehydemissionen) und EU REACH und verfügen über ein ISO-9001-Qualitätsmanagementsystem — damit jede Lieferung bereit für die Importanforderungen in den USA, der EU und darüber hinaus ist.',
+      'Teilen Sie uns vor der Bestellung das Produktmodell, die Materialien, den Verwendungszweck und den Zielmarkt mit. Wir bestätigen, welche Unterlagen für diese Spezifikation verfügbar sind. Prüfen Sie das genannte Produkt, die Materialien, den Geltungsbereich und die Einschränkungen jedes Dokuments, bevor Sie eine Konformitätsaussage treffen. Unterlagen gelten für das darin bezeichnete Produkt und den angegebenen Umfang.',
   },
   cta: {
     label: 'Sprechen Sie mit uns',

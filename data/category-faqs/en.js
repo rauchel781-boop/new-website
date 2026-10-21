@@ -21,6 +21,7 @@
 export const FAQS = {
   // ── By use ──────────────────────────────────────────────────────────
   'gift-packaging': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'FAQ — Wooden Gift Packaging Boxes',
     sectionSub:
       'Common questions from gift brands, retailers, and corporate gifting buyers sourcing custom wooden packaging.',
@@ -43,7 +44,7 @@ export const FAQS = {
       },
       {
         q: 'Do your gift boxes ship with retail-ready packaging?',
-        a: 'Yes. Each gift box is wrapped in OPP poly bag (anti-scratch) and packed into export-grade master cartons with corner protectors. UPC barcodes, tear-strip stickers, hangtags, and gift cards can be added as inline operations. Phytosanitary certificates are issued on request for shipments of solid wood.',
+        a: "Yes. Each gift box is wrapped in OPP poly bag (anti-scratch) and packed into export-grade master cartons with corner protectors. UPC barcodes, tear-strip stickers, hangtags, and gift cards can be added as inline operations. For solid-wood shipments, confirm destination-specific phytosanitary or treatment requirements and the availability of any required documents before ordering.",
       },
     ],
   },
@@ -77,13 +78,14 @@ export const FAQS = {
   },
 
   'tea-coffee': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'FAQ — Tea, Coffee & Loose-Leaf Wooden Boxes',
     sectionSub:
       'Compartment sizing, food-safe finishes, and humidity questions for tea / coffee brands and gift programs.',
     items: [
       {
         q: 'Are your tea and coffee boxes food-safe?',
-        a: 'Yes. All interior surfaces in food-contact use natural oil or water-based lacquer finishes that comply with EU Food Contact Material regulation (EC) No 1935/2004 and US FDA 21 CFR 175.300. We avoid solvent-based stains and CARB Phase-2 non-compliant adhesives. Test reports available on request.',
+        a: "First distinguish storage of sealed tea or coffee packs from direct contact with loose contents. Direct food contact must be assessed for the exact box, finish, adhesives, contact time, temperature and destination market. Ask us to check the available evidence for that specification before ordering; a document for another model or material does not establish suitability for this box.",
       },
       {
         q: 'How many compartments can you make? What sizes fit tea bags vs. loose leaf?',
@@ -105,6 +107,7 @@ export const FAQS = {
   },
 
   'wine-whisky': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'FAQ — Wine, Whisky & Spirits Wooden Boxes',
     sectionSub:
       'Bottle fitment, sliding-lid construction, and export-document questions for wineries, distilleries, and spirits gifting.',
@@ -123,7 +126,7 @@ export const FAQS = {
       },
       {
         q: 'How do you handle phytosanitary and ISPM-15 stamping for export?',
-        a: 'For solid-wood boxes shipped to the EU, UK, Australia, US, and Japan, we provide phytosanitary certificates with each export shipment. Pallets are heat-treated to ISPM-15 (HT stamp) — required for solid-wood pallets entering most countries. The boxes themselves are kiln-dried (KD treatment), so they don\'t need ISPM-15 stamping individually.',
+        a: "Check phytosanitary and treatment requirements for the destination, wood components and transport packing before ordering. Kiln drying alone does not establish an ISPM 15 exemption or compliance. Confirm any required treatment, marks and documents for the specific product and shipment with the importer or customs broker; we will check what can be arranged before committing.",
       },
       {
         q: 'What\'s the typical lead time and MOQ for custom-branded wine boxes?',
@@ -133,13 +136,14 @@ export const FAQS = {
   },
 
   'kitchen-dining': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'FAQ — Wooden Kitchen & Dining Boxes',
     sectionSub:
       'Bread bins, salt cellars, cutlery caddies and serving boxes for kitchenware brands and hotel suppliers.',
     items: [
       {
         q: 'Which wood types are safest for food contact?',
-        a: 'Bamboo, acacia, beech, and pine are all food-safe when finished with food-grade mineral oil or water-based lacquer (EC 1935/2004 / FDA 21 CFR 175.300 compliant). We avoid walnut for direct food contact (slight allergen risk) and avoid solvent-based varnishes in the food-zone surfaces.',
+        a: "Wood species alone does not establish suitability for direct food contact. For a board, tray or box, identify the exact materials, finish and adhesives, the food involved, contact time, temperature and destination market. Check the applicable requirements and the scope of any available test report before confirming the specification.",
       },
       {
         q: 'How are bread bins ventilated to keep loaves fresh?',
@@ -246,6 +250,7 @@ export const FAQS = {
   },
 
   'sliding-lid': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'FAQ — Sliding-Lid Wooden Boxes',
     sectionSub:
       'Groove tolerance, lid finger-slot, and food-safe questions for tea, coffee, and gift-box buyers.',
@@ -264,7 +269,7 @@ export const FAQS = {
       },
       {
         q: 'Are sliding-lid boxes safe for food-contact storage (tea, coffee, spices)?',
-        a: 'Yes when finished with food-grade water-based lacquer or natural mineral oil. The sliding lid forms a snug closure but not an airtight one — for moisture-sensitive contents (whole spices, ground coffee), we add a silicone gasket along the lid groove or recommend a sealed inner jar.',
+        a: "For direct contact with tea, coffee or spices, verify the exact box materials, finish and adhesives against the intended contact conditions and destination requirements. A finish type alone does not establish food-contact compliance. A sliding lid is not airtight; discuss a sealed inner jar or other suitable barrier for moisture-sensitive contents.",
       },
       {
         q: 'Will the lid still slide smoothly after years of use?',
@@ -275,8 +280,8 @@ export const FAQS = {
         a: "Our MOQ is 200 pieces per design for both OEM and ODM orders. Send your specifications and target quantity for a quote. Sweet-spot pricing kicks in between 500 and 2,000 pieces; above 5,000 the next discount step usually requires shifting to a lighter wood species or a simpler closure on the same product family. Wholesale account terms (FOB Xiamen) are 30 / 70 split — deposit on PO, balance against pre-shipment inspection photos.",
       },
       {
-        q: 'Can you supply FSC-certified and food-safe finishes on sliding lid wooden boxes?',
-        a: 'Yes. FSC chain-of-custody certification is available per order for retailers who need it printed on the lid label or shipping carton — common for German, French and UK supermarket programs. Food-safe certification (EU EC 1935/2004 and US FDA 21 CFR 175.300) is standard on water-based lacquer finishes used for tea, coffee, spice and confectionery applications. For composite or veneered components, CARB P2 compliance documentation is provided on request. ISPM 15 phytosanitary certification is standard on every container regardless of certification choice.',
+        q: "What compliance documents should be checked for sliding lid wooden boxes?",
+        a: "Share the exact box specification, intended use and destination market before ordering. Any FSC claim needs a verified certificate holder, product scope and order documents. Food-contact, chemical or formaldehyde-emission claims need evidence applicable to the actual materials and finish. Export treatment and phytosanitary requirements must be checked separately for the product, packing and shipment; no document is assumed to cover every order.",
       },
       {
         q: 'Do you make sliding lid wooden cigar boxes? What sizes and woods are available?',
@@ -342,6 +347,7 @@ export const FAQS = {
   },
 
   'with-lock': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'FAQ — Wooden Boxes with Lock',
     sectionSub:
       'Lock types, child-resistance, and combination-vs-key questions for stash boxes, document boxes, and security gift programs.',
@@ -352,11 +358,11 @@ export const FAQS = {
       },
       {
         q: 'Are these locks security-grade or symbolic?',
-        a: 'Symbolic to moderate — they\'re packaging locks, not safe-grade. They keep curious hands and casual access out; they will not stop a determined attacker with tools. For documents or items needing real security, recommend buyers also use a home safe. Our locks comply with consumer-product safety regulations in EU, US, and Japan.',
+        a: "Symbolic to moderate — they're packaging locks, not safe-grade. They keep curious hands and casual access out; they will not stop a determined attacker with tools. For documents or items needing real security, recommend buyers also use a home safe.",
       },
       {
         q: 'Are lockable boxes child-resistant — important for adult-only contents?',
-        a: 'The combination-lock models meet US CPSC child-resistance test protocol when the combination is set away from 000 — children under 5 don\'t successfully open them in repeated test trials. Key-lock models are not certified child-resistant by themselves. For cannabis and adult-product programs in California, Washington, and Colorado, the combination version is what regulators accept.',
+        a: "A key or combination lock does not by itself establish child resistance. Before using a box for regulated or adult-only contents, verify a test report for the exact box, lock and closure configuration against the standard required in the destination market. Do not describe a model as CPSC-tested, child-resistant or accepted by a state regulator without applicable evidence.",
       },
       {
         q: 'Can you customize the combination or key pattern?',
@@ -371,6 +377,7 @@ export const FAQS = {
 
   // ── By material ─────────────────────────────────────────────────────
   'paulownia': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'FAQ — Paulownia Wooden Boxes',
     sectionSub:
       'Weight, finish, and air-freight cost questions for buyers choosing the lightest premium wood.',
@@ -389,7 +396,7 @@ export const FAQS = {
       },
       {
         q: 'Is paulownia eco-friendly?',
-        a: 'Yes — one of the most sustainable hardwoods commercially available. Paulownia trees grow extremely fast (harvestable in 7-10 years vs. 25+ for oak) and re-coppice from the stump after harvest. Our paulownia stock is FSC-certified from managed plantations in central China.',
+        a: "Paulownia can be considered for lightweight packaging, but environmental impact depends on its source, processing and transport. Fast growth alone does not establish responsible sourcing or FSC certification. If an FSC claim is required, the certificate holder, product scope and order documents must be verified before the claim is confirmed.",
       },
       {
         q: 'Will paulownia warp or crack over time?',
@@ -427,6 +434,7 @@ export const FAQS = {
   },
 
   'bamboo': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'FAQ — Bamboo Wooden Boxes',
     sectionSub:
       'Eco-credential, antibacterial, and structural questions for sustainability-positioned brands.',
@@ -437,7 +445,7 @@ export const FAQS = {
       },
       {
         q: 'Is bamboo really more sustainable than hardwood?',
-        a: 'Yes, by a wide margin. Bamboo grows 30-90 cm per day, harvestable in 3-5 years, and regrows from the same root after cutting (no replanting needed). A bamboo plantation produces 25× the biomass of an oak forest of the same area. Our bamboo is FSC-certified from managed plantations in southern China.',
+        a: "Bamboo is not automatically more sustainable than hardwood. Compare the source, processing, adhesives, expected service life and transport for the proposed product. An FSC claim requires verification of the certificate holder, product scope and order documents; it cannot be inferred from bamboo as a material.",
       },
       {
         q: 'Is the "naturally antibacterial" claim real?',
@@ -455,6 +463,7 @@ export const FAQS = {
   },
 
   'acacia': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'FAQ — Acacia Wooden Boxes',
     sectionSub:
       'Grain character, density, and finish questions for premium gifting and kitchen-luxury brands.',
@@ -469,7 +478,7 @@ export const FAQS = {
       },
       {
         q: 'Is acacia food-safe for cutting boards or serving trays?',
-        a: 'Yes — finished with food-grade mineral oil or water-based lacquer it complies with EU and FDA food-contact regulations. Acacia is naturally one of the more food-suitable hardwoods because of its tight grain and low chemical leaching. We supply finished acacia boards to several major European cookware brands.',
+        a: "Acacia can be specified for boards and trays, but the species alone does not establish food-contact compliance. Review the exact finish, adhesives, food, contact time, temperature and destination requirements. Any available report must cover the proposed product and conditions of use; evidence for a bamboo storage box cannot be applied to an acacia item.",
       },
       {
         q: 'Will acacia color shift over time?',

@@ -172,7 +172,7 @@ export default function OgImage() {
               textTransform: 'uppercase',
             }}
           >
-            FSC · EU REACH · CARB · ISO 9001
+            CUSTOM WOODEN BOXES
           </div>
         </div>
       </div>

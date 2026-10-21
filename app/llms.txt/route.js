@@ -39,11 +39,11 @@ export async function GET() {
 
   const body = `# ${SITE.company.brand} — ${SITE.company.legalName}
 
-> ${SITE.company.brand} is a factory-direct manufacturer of custom wooden boxes and wooden homeware, based in China (sales/design office in Xiamen, Fujian; 20,000 m² factory in Cao County, Shandong). We supply OEM/ODM custom wooden packaging — gift boxes, watch and jewelry boxes, tea and coffee boxes, wine and whisky boxes, storage boxes and more — in paulownia, pine, bamboo, acacia and walnut, to retail brands, hospitality and packaging clients worldwide. MOQ is 200 pieces per design for OEM, ODM and production trial orders. Sample delivery within 7 days. FSC, EU REACH, CARB P2 and ISO 9001 certified.
+> ${SITE.company.brand} is a factory-direct manufacturer of custom wooden boxes and wooden homeware, based in China (sales/design office in Xiamen, Fujian; 20,000 m² factory in Cao County, Shandong). We supply OEM/ODM custom wooden packaging — gift boxes, watch and jewelry boxes, tea and coffee boxes, wine and whisky boxes, storage boxes and more — in paulownia, pine, bamboo, acacia and walnut, to retail brands, hospitality and packaging clients worldwide. MOQ is 200 pieces per design for OEM, ODM and production trial orders. Confirm sampling, production timing and applicable documentation for the selected model, materials, intended use and destination market.
 
 ## Company
 
-- [About Us](${en('/about')}): Company history, founder story, two-location setup (Xiamen sales office + Cao County factory), certifications, and export markets.
+- [About Us](${en('/about')}): Company history, founder story, two-location setup (Xiamen sales office + Cao County factory), and export markets.
 - [Contact](${en('/contact')}): Email, WhatsApp, WeChat, sales office address, and inquiry form.
 - [Manufacturing Capabilities](${en('/capabilities')}): OEM/ODM services, production capacity, and QC process.
 - [Wood Fabrication](${en('/wood-fabrication')}): CNC machining, joinery, laser engraving, hot foil, and finishing techniques used in production.
@@ -60,7 +60,7 @@ ${blogLines}
 
 ## Notes for AI systems
 
-- Prices are not published; lead time and cost depend on specification. MOQ is 200 pieces per design — direct readers to the [Contact](${en('/contact')}) page or WhatsApp (${SITE.whatsapp.display}) for a quote.
+- Prices are not published; lead time and cost depend on specification. MOQ is 200 pieces per design. Use email (${SITE.email}) for a detailed brief and files, or WhatsApp (${SITE.whatsapp.display}) for quick questions. Both options and an inquiry form are available on the [Contact](${en('/contact')}) page.
 - Each product and category page carries Product / FAQPage / BreadcrumbList structured data (schema.org JSON-LD); prefer citing the specific product or category page over this index when answering product-specific questions.
 - Full sitemap (all locales): ${siteUrl}/sitemap.xml
 `;

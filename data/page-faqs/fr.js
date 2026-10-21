@@ -4,6 +4,7 @@
 
 export const FAQS = {
   'material-guide': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'FAQ sur les matériaux bois',
     sectionSub:
       'Choisir la bonne essence est la première décision de tout projet de boîte sur mesure. Voici comment nos cinq bois principaux se comparent en veinage, poids, durabilité et coût.',
@@ -38,12 +39,13 @@ export const FAQS = {
       },
       {
         q: 'Votre bois est-il issu de sources durables et certifié ?',
-        a: 'Nous travaillons avec des matériaux d’origine responsable et pouvons fournir du bois conforme à des normes reconnues, dont FSC (gestion forestière responsable), CARB (émissions de formaldéhyde) et EU REACH, en plus de notre système qualité ISO 9001. Si votre marché exige des documents de certification précis, validez l’exigence avec notre équipe afin que nous approvisionnions et documentions en conséquence.',
+        a: "Indiquez le produit exact, le bois ou panneau, la finition, l’usage prévu et le marché de destination. Nous vérifierons les justificatifs d’origine, certificats ou rapports pertinents et disponibles pour cette spécification. Une allégation FSC exige de vérifier le titulaire, le périmètre et les documents de commande ; ISO 9001, REACH ou CARB ne se déduisent pas de l’essence du bois.",
       },
     ],
   },
 
   'wood-fabrication': {
+    updatedAt: '2026-10-21',
     sectionTitle: 'FAQ sur la fabrication du bois',
     sectionSub:
       'D’un croquis ou d’un échantillon à une boîte finie et personnalisée : voici comment notre usine de 20 000 m² découpe, assemble, finit et décore les emballages en bois sur mesure.',
@@ -78,7 +80,7 @@ export const FAQS = {
       },
       {
         q: 'Comment contrôlez-vous la qualité pendant la fabrication ?',
-        a: 'La qualité est vérifiée à la réception des matériaux, en cours de production et avant expédition, par rapport à votre échantillon validé : dimensions, finition, fonctionnement de la quincaillerie et emballage. Nous opérons selon un système qualité ISO 9001. Pour les grandes commandes, nous pouvons partager des photos d’inspection avant expédition et accepter des inspections par des tiers.',
+        a: "La qualité est vérifiée à la réception des matériaux, en cours de production et avant expédition, par rapport à votre échantillon validé : dimensions, finition, fonctionnement de la quincaillerie et emballage. Pour les grandes commandes, nous pouvons partager des photos d’inspection avant expédition et accepter des inspections par des tiers.",
       },
     ],
   },

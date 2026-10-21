@@ -5,6 +5,7 @@
 
 export const FAQS = {
   "gift-packaging": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "¿Qué tipos de madera recomiendas para el embalaje de regalo premium?",
@@ -24,7 +25,7 @@ export const FAQS = {
       },
       {
         "q": "¿Sus cajas de regalo se entregan con envases listos para la venta al por menor?",
-        "a": "Sí. Cada caja de regalo está envuelta en una bolsa de polietileno OPP (anti-arañazos) y empacada en cajas de cartón maestras de grado de exportación con protectores de esquina. Se pueden agregar códigos de barras UPC, pegatinas de tiras de rasgado, etiquetas colgantes y tarjetas de regalo como operaciones en línea. Los certificados fitosanitarios se emiten a petición para envíos de madera sólida."
+        "a": "Sí. Cada caja de regalo está envuelta en una bolsa de polietileno OPP (anti-arañazos) y empacada en cajas de cartón maestras de grado de exportación con protectores de esquina. Se pueden agregar códigos de barras UPC, pegatinas de tiras de rasgado, etiquetas colgantes y tarjetas de regalo como operaciones en línea. Para envíos de madera maciza, confirma los requisitos fitosanitarios o de tratamiento del destino y la disponibilidad de los documentos necesarios antes de pedir."
       }
     ],
     "sectionTitle": "FAQ-Cajas de embalaje de regalo de madera",
@@ -57,10 +58,11 @@ export const FAQS = {
     "sectionSub": "Tamaño, ajuste de inserción y preguntas de acabado de marcas de relojes, joyeros y programas de regalos de lujo."
   },
   "tea-coffee": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "¿Son sus cajas de té y café seguras para los alimentos?",
-        "a": "Sí. Todas las superficies interiores en contacto con alimentos utilizan acabados de laca a base de aceite natural o agua que cumplen con la regulación de materiales en contacto con alimentos de la UE (CE) No. 1935/2004 y la FDA de EE. UU. 21 CFR 175.300. Evitamos las manchas a base de disolventes y los adhesivos no conformes CARB Phase-2. Informes de prueba disponibles a petición."
+        "a": "Distingue entre guardar paquetes cerrados de té o café y el contacto directo con contenido suelto. El contacto alimentario debe evaluarse para la caja, acabado, adhesivos, tiempo, temperatura y mercado de destino concretos. Solicita comprobar las pruebas disponibles antes de pedir; un documento de otro modelo o material no demuestra la idoneidad de esta caja."
       },
       {
         "q": "¿Cuántos compartimentos puedes hacer? ¿Qué tamaños se ajustan a las bolsas de té vs. hojas sueltas?",
@@ -83,6 +85,7 @@ export const FAQS = {
     "sectionSub": "Tamaño del compartimiento, acabados seguros para los alimentos y preguntas sobre humedad para marcas de té/café y programas de regalos."
   },
   "wine-whisky": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "¿Qué tamaños de botellas encajan sus cajas de vinos y licores?",
@@ -98,7 +101,7 @@ export const FAQS = {
       },
       {
         "q": "¿Cómo se maneja el estampado fitosanitario y ISPM-15 para la exportación?",
-        "a": "Para las cajas de madera maciza enviadas a la UE, el Reino Unido, Australia, los Estados Unidos y Japón, proporcionamos certificados fitosanitarios con cada envío de exportación. Las paletas son tratadas térmicamente a ISPM-15 (sello HT)-requerido para paletas de madera maciza que entran en la mayoría de los países. Las propias cajas se secan en horno (tratamiento KD), por lo que no necesitan ISPM-15 estampado individualmente."
+        "a": "Comprueba antes de pedir los requisitos fitosanitarios y de tratamiento según destino, componentes de madera y embalaje de transporte. El secado en horno por sí solo no demuestra conformidad ni exención de ISPM 15. Confirma tratamientos, marcas y documentos del producto y envío con el importador o agente aduanero; revisaremos qué se puede gestionar antes de comprometernos."
       },
       {
         "q": "¿Cuál es el tiempo de entrega típico y el MOQ para las cajas de vino de marca personalizada?",
@@ -109,10 +112,11 @@ export const FAQS = {
     "sectionSub": "Ajuste de botella, construcción de tapa deslizante y preguntas de documentos de exportación para bodegas, destilerías y regalos de licores."
   },
   "kitchen-dining": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "¿Qué tipos de madera son más seguros para el contacto con alimentos?",
-        "a": "El bambú, la acacia, la haya y el pino son seguros para los alimentos cuando se terminan con aceite mineral de calidad alimentaria o laca a base de agua (CE 1935/2004 / FDA 21 CFR 175.300). Evitamos la nuez para el contacto directo con los alimentos (ligero riesgo de alérgenos) y evitamos los barnices a base de solventes en las superficies de la zona alimenticia."
+        "a": "La especie de madera por sí sola no demuestra la idoneidad para contacto alimentario directo. Para una tabla, bandeja o caja, identifica materiales, acabado, adhesivos, alimentos, tiempo de contacto, temperatura y destino. Comprueba los requisitos aplicables y el alcance de los informes disponibles antes de confirmar la especificación."
       },
       {
         "q": "¿Cómo se ventilan los contenedores de pan para mantener los panes frescos?",
@@ -213,6 +217,7 @@ export const FAQS = {
     "sectionSub": "Mecánica de bisagra, topes de tapa y preguntas de durabilidad para compradores minoristas y de regalos."
   },
   "sliding-lid": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "¿Qué tan apretadas están las ranuras de la tapa deslizante? ¿Se pega la tapa?",
@@ -228,7 +233,7 @@ export const FAQS = {
       },
       {
         "q": "¿Son seguras las cajas con tapa deslizante para el almacenamiento en contacto con alimentos (té, café, especias)?",
-        "a": "Sí cuando se termina con laca a base de agua de calidad alimentaria o aceite mineral natural. La tapa deslizante forma un cierre cómodo pero no hermético: para contenidos sensibles a la humedad (especias enteras, café molido), agregamos una junta de silicona a lo largo de la ranura de la tapa o recomendamos un frasco interior sellado."
+        "a": "Para contacto directo con té, café o especias, verifica los materiales, acabado y adhesivos de la caja concreta según las condiciones de contacto y el destino. El tipo de acabado por sí solo no demuestra conformidad alimentaria. Una tapa deslizante no es hermética; para contenido sensible a la humedad, consulta el uso de un recipiente interior sellado u otra barrera adecuada."
       },
       {
         "q": "¿La tapa todavía se deslizará suavemente después de años de uso?",
@@ -291,6 +296,7 @@ export const FAQS = {
     "sectionSub": "Fuerza del imán, incrustación y preguntas de seguridad de la aviación para el regalo, el reloj y el embalaje de lujo."
   },
   "with-lock": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "¿Qué tipos de cerraduras ofrecen?",
@@ -298,11 +304,11 @@ export const FAQS = {
       },
       {
         "q": "¿Son estas cerraduras de grado de seguridad o simbólicas?",
-        "a": "Simbólico a moderado: son cerraduras de embalaje, no de grado seguro. Mantendrán las manos curiosas y el acceso casual fuera; no detendrán a un atacante determinado con herramientas. Para documentos o artículos que necesitan seguridad real, recomiende a los compradores también usar una caja fuerte en el hogar. Nuestras cerraduras cumplen con las regulaciones de seguridad de productos de consumo en la UE, Estados Unidos y Japón."
+        "a": "Simbólico a moderado: son cerraduras de embalaje, no de grado seguro. Mantendrán las manos curiosas y el acceso casual fuera; no detendrán a un atacante determinado con herramientas. Para documentos o artículos que necesitan seguridad real, recomiende a los compradores también usar una caja fuerte en el hogar."
       },
       {
         "q": "¿Las cajas con cerradura son resistentes a los niños, importantes para los contenidos solo para adultos?",
-        "a": "Los modelos de bloqueo de combinación cumplen con el protocolo de prueba de resistencia infantil de la CPSC de EE. UU. Cuando la combinación se establece lejos de 000: los niños menores de 5 años no los abren con éxito en ensayos de prueba repetidos. Los modelos de cerradura con llave no están certificados a prueba de niños por sí mismos. Para los programas de cannabis y productos para adultos en California, Washington y Colorado, la versión combinada es lo que los reguladores aceptan."
+        "a": "Una cerradura con llave o combinación no demuestra por sí sola resistencia a la apertura por niños. Para contenidos regulados o solo para adultos, verifica un informe de ensayo de la caja, cerradura y cierre exactos conforme a la norma exigida en destino. Sin pruebas aplicables, no se debe afirmar que el modelo está ensayado según CPSC, es resistente a niños o está aceptado por un regulador estatal."
       },
       {
         "q": "¿Puede personalizar la combinación o el patrón clave?",
@@ -317,6 +323,7 @@ export const FAQS = {
     "sectionSub": "Tipos de bloqueo, preguntas de resistencia a los niños y combinación vs clave para cajas de almacenamiento, cajas de documentos y programas de regalo de seguridad."
   },
   "paulownia": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "¿Por qué la paulownia es tan ligera, es más débil que otras maderas?",
@@ -332,7 +339,7 @@ export const FAQS = {
       },
       {
         "q": "¿La paulownia es ecológica?",
-        "a": "Sí, una de las maderas duras más sostenibles disponibles comercialmente. Los árboles de paulownia crecen extremadamente rápido (se pueden cosechar en 7-10 años frente a 25 para el roble) y vuelven a crecer desde el tocón después de la cosecha. Nuestro stock de paulownia está certificado FSC de plantaciones gestionadas en el centro de China."
+        "a": "La paulownia puede considerarse para embalajes ligeros, pero el impacto ambiental depende del origen, procesamiento y transporte. El crecimiento rápido no demuestra por sí solo un abastecimiento responsable ni certificación FSC. Antes de confirmar una declaración FSC hay que verificar el titular, el alcance del producto y los documentos del pedido."
       },
       {
         "q": "¿La paulownia se deforma o se agrieta con el tiempo?",
@@ -369,6 +376,7 @@ export const FAQS = {
     "sectionSub": "Carácter de nudo, opciones de acabado y preguntas de durabilidad para programas rústicos de vino, regalo y almacenamiento."
   },
   "bamboo": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "¿Es el bambú realmente un bosque, o es hierba?",
@@ -376,7 +384,7 @@ export const FAQS = {
       },
       {
         "q": "¿Es el bambú realmente más sostenible que la madera dura?",
-        "a": "Sí, por un amplio margen. El bambú crece 30-90 cm por día, se puede cosechar en 3-5 años y vuelve a crecer de la misma raíz después del corte (no es necesario replantar). Una plantación de bambú produce 25 veces la biomasa de un bosque de robles de la misma zona. Nuestro bambú es FSC-certificado de las plantaciones manejadas en China meridional."
+        "a": "El bambú no es automáticamente más sostenible que la madera dura. Compara el origen, procesamiento, adhesivos, vida útil y transporte del producto propuesto. Una declaración FSC exige verificar el titular del certificado, el alcance del producto y los documentos del pedido; no se puede deducir únicamente del material."
       },
       {
         "q": "¿Es real la afirmación \"naturalmente antibacteriana\"?",
@@ -395,6 +403,7 @@ export const FAQS = {
     "sectionSub": "Preguntas de credenciales ecológicas, antibacterianas y estructurales para marcas posicionadas en sostenibilidad."
   },
   "acacia": {
+    updatedAt: '2026-10-21',
     "items": [
       {
         "q": "¿Qué hace que la acacia sea buena para las cajas premium?",
@@ -406,7 +415,7 @@ export const FAQS = {
       },
       {
         "q": "¿La acacia es segura para cortar tablas o bandejas para servir?",
-        "a": "Sí-terminado con aceite mineral de grado alimenticio o laca a base de agua cumple con las regulaciones de contacto con alimentos de la UE y la FDA. La acacia es naturalmente una de las maderas duras más adecuadas para los alimentos debido a su grano apretado y baja lixiviación química. Suministramos tableros de acacia terminados a varias de las principales marcas europeas de utensilios de cocina."
+        "a": "La acacia puede especificarse para tablas y bandejas, pero la especie por sí sola no demuestra conformidad para contacto alimentario. Revisa el acabado, adhesivos, alimentos, tiempo, temperatura y requisitos del destino. El informe disponible debe cubrir el producto y uso propuestos; la documentación de una caja de bambú no se aplica automáticamente a un artículo de acacia."
       },
       {
         "q": "¿El color de la acacia cambiará con el tiempo?",
