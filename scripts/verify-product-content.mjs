@@ -12,6 +12,7 @@ const folder = 'audits/seo-2026-10-19';
 const baselineFile = `${folder}/content-quality-baseline.json`;
 const buildRoot = '.next/server/app';
 const locales = ['en', 'de', 'es', 'fr', 'it', 'pt', 'ja', 'ko'];
+let excludedRuntimeNotFound = [];
 const hash = value => createHash('sha256').update(value).digest('hex');
 const decode = value => (value || '').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#(?:x27|39);/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;|\u00a0/g, ' ').replace(/&#(\d+);/g, (_,n)=>String.fromCodePoint(Number(n))).replace(/&#x([\da-f]+);/gi, (_,n)=>String.fromCodePoint(parseInt(n,16)));
 const clean = html => html.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, ' ').replace(/<!--[\s\S]*?-->/g, '');
@@ -45,9 +46,22 @@ function htmlFiles(dir) {
   return fs.readdirSync(dir,{withFileTypes:true}).flatMap(entry=>entry.isDirectory()?htmlFiles(path.join(dir,entry.name)):entry.name.endsWith('.html')?[path.join(dir,entry.name)]:[]);
 }
 function readBuild() {
-  return Object.fromEntries(htmlFiles(buildRoot).sort().map(file=>{
+  excludedRuntimeNotFound=[];
+  return Object.fromEntries(htmlFiles(buildRoot).sort().flatMap(file=>{
     const route = '/'+path.relative(buildRoot,file).replaceAll('\\','/').replace(/\.html$/,'');
-    return [route,{...parse(fs.readFileSync(file,'utf8')),file}];
+    const page={...parse(fs.readFileSync(file,'utf8')),file};
+    const sidecar=file.replace(/\.html$/,'.meta');
+    if(route!=='/_not-found' && fs.existsSync(sidecar)) {
+      const response=JSON.parse(fs.readFileSync(sidecar,'utf8'));
+      // Preview negative-route tests can materialize ISR notFound caches next
+      // to generated HTML. They are not newly published content pages. An
+      // existing route becoming 404 still fails the baseline route inventory.
+      if(response.status===404 && /noindex/.test(page.metadata.robots || '')) {
+        excludedRuntimeNotFound.push({route,status:404,robots:page.metadata.robots});
+        return [];
+      }
+    }
+    return [[route,page]];
   }));
 }
 function readSitemap() {
@@ -151,7 +165,9 @@ async function verify() {
   const changedMetadata = [];
   const changedSocialImages = [];
   const unexpectedMain = [];
-  same(Object.keys(after).sort(),Object.keys(before.pages).sort(),'*','Preserve rendered route inventory');
+  const addedRoutes=Object.keys(after).filter(route=>!Object.hasOwn(before.pages,route));
+  const removedRoutes=Object.keys(before.pages).filter(route=>!Object.hasOwn(after,route));
+  ok(addedRoutes.length===0 && removedRoutes.length===0,'*','Preserve rendered route inventory',{added:addedRoutes,removed:removedRoutes});
   for(const [route,current] of Object.entries(after)) {
     const prior = before.pages[route];
     if(!prior) continue;
@@ -321,7 +337,7 @@ async function verify() {
     }
   }
   same(productSitemapEntries,1176,'*','147 indexable products × 8 locales in sitemap');
-  const result = {checkedAt:new Date().toISOString(),baselineHead:before.head,passed:issueCount===0,counts:{renderedPages:Object.keys(after).length,products,specValues,relatedCards,contextualChoices,hiddenPanels,changedMain:changedMain.length,preservedMain:Object.keys(after).length-changedMain.length,metadataChanges:changedMetadata.length,socialImageChanges:changedSocialImages.length,sitemapDateChanges:sitemapDateChanges.length,productSitemapEntries,unchangedEnglishSpecValues:unchangedEnglishSpecValues.length,missingSpecHeaders:missingSpecHeaders.length},missingSpecHeaders,localizedSpecCoverage,unchangedEnglishSpecValues,changedMain,relatedCardRestorations,changedMetadata,changedSocialImages,unexpectedMain,explicitDependentChanges:extraChanges,sitemapDateChanges,issueCount,issues};
+  const result = {checkedAt:new Date().toISOString(),baselineHead:before.head,passed:issueCount===0,counts:{renderedPages:Object.keys(after).length,products,specValues,relatedCards,contextualChoices,hiddenPanels,changedMain:changedMain.length,preservedMain:Object.keys(after).length-changedMain.length,metadataChanges:changedMetadata.length,socialImageChanges:changedSocialImages.length,sitemapDateChanges:sitemapDateChanges.length,productSitemapEntries,unchangedEnglishSpecValues:unchangedEnglishSpecValues.length,missingSpecHeaders:missingSpecHeaders.length},excludedRuntimeNotFound,missingSpecHeaders,localizedSpecCoverage,unchangedEnglishSpecValues,changedMain,relatedCardRestorations,changedMetadata,changedSocialImages,unexpectedMain,explicitDependentChanges:extraChanges,sitemapDateChanges,issueCount,issues};
   fs.writeFileSync(`${folder}/product-content-validation.json`,JSON.stringify(result,null,2)+'\n');
   console.log(JSON.stringify({...result,changedMain:undefined,changedMetadata:undefined,changedSocialImages:undefined,sitemapDateChanges:undefined,unchangedEnglishSpecValues:unchangedEnglishSpecValues.slice(0,8),issues:issues.slice(0,20)},null,2));
   if(issueCount) process.exitCode=1;
