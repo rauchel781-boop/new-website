@@ -55,7 +55,7 @@ export default function middleware(request) {
 }
 
 export const config = {
-  // Match every path EXCEPT api, _next, sitemap.xml, robots.txt, the root
+  // Match every path EXCEPT api, _next, search-data, sitemap.xml, robots.txt, the root
   // metadata routes, and any path with a file extension. (Note: blog IS
   // handled — it lives under /[locale]/blog/, so /blog/foo redirects to
   // /en/blog/foo.)
@@ -68,5 +68,7 @@ export const config = {
   // declared og:image and twitter:image pointing at that URL, so every social
   // preview (LinkedIn, WhatsApp, Slack, WeChat) resolved to a 404, as did the
   // browser tab icon and the iOS home-screen icon.
-  matcher: ['/((?!api|_next|sitemap.xml|robots.txt|opengraph-image|apple-icon|icon|.*\\..*).*)'],
+  // SearchModal fetches /search-data/<locale> as JSON. It is a root route,
+  // so adding /en/ would redirect it to a page that does not exist.
+  matcher: ['/((?!api|_next|search-data(?:/|$)|sitemap.xml|robots.txt|opengraph-image|apple-icon|icon|.*\\..*).*)'],
 };
