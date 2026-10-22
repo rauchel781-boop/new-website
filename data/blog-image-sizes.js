@@ -144,6 +144,18 @@ export const BLOG_IMAGE_SIZES = {
     "width": 900,
     "height": 900
   },
+  "/watch-jewelry/black-wooden-watch-display-box/black-wooden-watch-display-box-01.webp": {
+    "width": 970,
+    "height": 814
+  },
+  "/watch-jewelry/walnut-veneer-single-watch-box/walnut-veneer-single-watch-box-01.webp": {
+    "width": 1126,
+    "height": 1034
+  },
+  "/watch-jewelry/wooden-watch-box-jewelry-drawer/wooden-watch-box-jewelry-drawer-01.webp": {
+    "width": 1138,
+    "height": 1122
+  },
   "/wine-whisky-boxes/single-bottle-wine-box/single-bottle-wine-box-01.webp": {
     "width": 1122,
     "height": 1100

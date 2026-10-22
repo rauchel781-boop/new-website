@@ -8,6 +8,7 @@ import {getCategoryTranslation} from '../data/categories/translations/index.js';
 import {getProductTranslation} from '../data/products/translations/index.js';
 import {buildProductFaqs} from '../lib/product-content.js';
 import {POSTS} from '../data/blog.js';
+import {getBlogTranslation} from '../data/blog/translations/index.js';
 const locales=['en','de','es','fr','it','pt','ja','ko'];
 const out='audits/seo-2026-10-19';
 const products=[];
@@ -18,7 +19,7 @@ const routes=[];let sourceProductSpecs=0,sourceCategorySpecs=0;
 for(const locale of locales){
  const messages=JSON.parse(fs.readFileSync(`messages/${locale}.json`,'utf8'));
  for(const key of ['capabilities','contact'])assert.ok(messages[key].faq.a1.includes('200'),`${locale}: ${key} policy`);
- const blog=locale==='en'?{}:(await import(`../data/blog/translations/${locale}.js`)).default.posts;
+ const blog=Object.fromEntries(POSTS.map(post=>[post.slug,getBlogTranslation(post.slug,locale)]));
  const first=new Set();
  for(const {category,product:raw} of products){const product={...raw,...getProductTranslation(raw.slug,locale)};assert.match(product.specs.MOQ,/^200(?!\d|\s*[-–〜~])/u,`${locale}/${raw.slug}: MOQ spec`);assert.ok(buildProductFaqs(product,locale)[0].a.includes('200'));sourceProductSpecs++;
   const representative=!first.has(category);first.add(category);routes.push({route:`/${locale}/products/${category}/${raw.slug}`,type:'product',locale,live:locale==='en'||representative});

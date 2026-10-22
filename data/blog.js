@@ -1,3 +1,5 @@
+import watchBoxBuyerGuide, { insertGuideProductParagraph } from './blog/wooden-watch-box-anatomy/en.js';
+
 // ─────────────────────────────────────────────────────────────────────────
 // Blog post data — single source of truth for /blog and /blog/[slug] pages.
 // Each post contains hero image, title, excerpt, date, category, read time
@@ -160,7 +162,7 @@ export const POSTS = [
     "title": "EVA vs EPE vs Velvet vs Felt: How to Choose an Insert for Wooden Boxes",
     "excerpt": "A comprehensive guide to selecting the perfect insert material for your wooden boxes. Compare EVA foam, EPE foam, velvet, and felt liners across protection, cost, aesthetics, and sustainability.",
     "date": "2026-06-26",
-    "updated": "2026-10-19",
+    "updated": "2026-10-22",
     "category": "Materials",
     "readTime": "5 min read",
     "hero": "/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp",
@@ -305,6 +307,7 @@ export const POSTS = [
         "type": "p",
         "text": "For a watch, compare a shaped foam support with a fabric-covered cushion. For a candle jar, evaluate cavity fit, glass-to-wood clearance and leakage risks. For electronics, confirm any required antistatic properties as well as cushioning. These are design examples, not measured customer outcomes or quoted prices. See the [Three-Watch Display Case](/products/watch-jewelry/three-watch-display-case) for one layout."
       },
+      { type: 'p', text: insertGuideProductParagraph },
       {
         "type": "h2",
         "text": "Expert Selection Tips"
@@ -1063,118 +1066,9 @@ export const POSTS = [
   // ════════════════════════════════════ 03 ════════════════════════════════════
   {
     slug: 'wooden-watch-box-anatomy',
-    title: 'Anatomy of a great wooden watch box',
-    excerpt: 'Hinges, pillows, lining, lid alignment, locks — the eight details that separate premium watch boxes from the boxes that get one-star reviews on Amazon.',
     date: '2026-04-08',
-    updated: "2026-10-19",
     category: 'Design',
-    readTime: '11 min read',
-    hero: '/hinged-wooden-boxes/wooden-watch-box-with-linen-interior-pillow/main-1-3.webp',
-    body: [
-      { type: 'p', text: 'Before finalizing your specifications, consult our [wooden box insert guide](/blog/eva-vs-epe-vs-velvet-vs-felt-insert-guide).' },
-      { type: 'p', text: 'Wooden watch boxes are the most demanding category we make. Watch buyers will turn the box over in their hands ten times before they ever touch the watch. They will run a fingernail along the lid edge. They will smell the lining. They will close the lid and listen for the snap. They notice everything.' },
-      { type: 'p', text: 'Get the box right and it becomes part of the gift — the kind of object that sits on the dresser long after the watch has moved on. Get it wrong and you get one-star reviews about "cheap-feeling box, watch is fine." Either way, the box does the talking.' },
-      { type: 'p', text: 'Here are the eight details that, in our experience, separate a great watch box from a forgettable one.' },
-
-      { type: 'h2', text: '1. The lid sits flat — every time' },
-      { type: 'p', text: 'A lid that gaps even 0.5 mm at one corner kills the perceived quality of the entire box. It does not matter how beautiful the wood is or how nice the lining feels — a gappy lid reads as cheap. Compare the [Hinged Wooden Boxes](/products/hinged) for available designs.' },
-      { type: 'p', text: 'Achieving a flat-sitting lid across thousands of units requires three things. First, kiln-dried timber at 8–12% MC so the wood does not move in transit. Second, precision-cut lid grooves and box rims with tolerances under 0.3 mm. Third, quality hinges installed with proper jigs so they sit square. Cheap factories miss any one of these and the lid will twist within six months.' },
-      { type: 'p', text: 'When we sample a new design, the first thing we check after assembly is whether you can slide a piece of paper between the lid and the box rim at any of the four corners. If you can, the box goes back to be re-fitted before it leaves the factory.' },
-
-      { type: 'h2', text: '2. Concealed soft-close hinges' },
-      { type: 'p', text: 'Visible brass [hinges](/blog/wooden-box-hardware-guide) look traditional and work well for some brands — vintage gifting, heritage watchmakers, anything with a "classic" voice. For a modern luxury feel, concealed European hinges with a soft-close mechanism are the standard.' },
-      { type: 'p', text: 'Soft-close means the lid descends slowly under spring tension and meets the case with no slam. The mechanism adds about $0.40 per box at our typical volumes — a small upgrade for a feature that most buyers immediately notice and remember.' },
-      { type: 'p', text: 'A few brands we work with have moved to magnetic-hold hinges (lid stays open at any angle, magnet engages when fully open). Premium feel but more expensive — usually only justified above $200 retail price points.' },
-
-      { type: 'h2', text: '3. The interior is where buyers fall in love' },
-      { type: 'p', text: 'Watch box interiors get more attention than exteriors, because the unboxing moment lasts longer than the first-impression moment. Three lining options matter:' },
-      { type: 'h3', text: 'Microfiber' },
-      { type: 'p', text: 'Our default for production volumes. More durable than velvet, holds its shape, does not show fingerprints. Available in 12+ colors with embroidered logo on request.' },
-      { type: 'h3', text: 'Velvet' },
-      { type: 'p', text: 'Looks luxurious in photos. In real life it picks up fingerprints, lint and watch case dust within weeks. We only recommend velvet for one-time gifting where the box will live in a drawer after the unboxing. Compare the [Watch & Jewelry Boxes](/products/watch-jewelry) for available designs.' },
-      { type: 'h3', text: 'Faux suede / leatherette' },
-      { type: 'p', text: 'A middle ground — soft to the touch, more durable than velvet, available in matte and grain finishes. Premium feel without the velvet maintenance issues.' },
-      { type: 'p', text: 'Pillow firmness matters too. Too soft and the watch lays at an awkward angle when displayed. Too firm and the box feels cheap. We use a medium-firm EVA foam wrapped in microfiber — soft enough to read as premium, firm enough to hold a 50g watch upright.' },
-      { type: 'img', src: '/walnut-jewelery-box.webp', caption: 'Walnut watch box — concealed hinges, microfiber pillows, brass hardware' },
-
-      { type: 'h2', text: '4. Hardware that matches the brand' },
-      { type: 'p', text: 'Brass for traditional. Chrome for sport. Matte black for modern. Antique brass for vintage. Hardware finish is part of the brand vocabulary — the wrong choice and the box reads as confused. Compare branding and surface treatments in our [finishing and branding guide](/blog/wooden-box-finishing-techniques).' },
-      { type: 'p', text: 'We stock all four finishes in hinges, clasps, locks and key plates. We can also custom-engrave keys with brand initials at $0.20-0.30 per key — a small upgrade that customers notice when they pick up the box for the first time.' },
-
-      { type: 'h2', text: '5. The wood itself' },
-      { type: 'p', text: '[Walnut](/products/walnut) is the default for premium watch boxes — the deep chocolate tone, fine straight grain and silky surface finish all reinforce the luxury positioning. It is also the most expensive material we offer. For high-volume retail, MDF veneered with walnut delivers most of the visual without the cost (and with better dimensional stability for shipping).' },
-      { type: 'p', text: 'For mid-tier brands, acacia gives you dramatic grain at sensible cost. For sport / outdoor watch brands, oak with matte finish reads as rugged-premium. Bamboo for eco-positioned watch brands — increasingly popular with the Patagonia-style outdoor brands moving into watches. Compare species in our [wood selection guide](/blog/choosing-wood-for-gift-packaging).' },
-      { type: 'p', text: 'Avoid pine for watch boxes. The grain reads as too rustic for a premium product, and pine\'s softness means the box dents quickly with normal handling.' },
-
-      { type: 'h2', text: '6. Optional features that earn their cost' },
-      { type: 'list', items: [
-        'Glass-top window — lets the watch be seen without opening the box (great for retail display)',
-        'Drawer for accessories — straps, screwdriver, manual, polishing cloth',
-        'Brass cam lock with custom-cut key',
-        'Embroidered logo on the lining',
-        'Box stand or display foot for retail',
-        'Watch winder integration (for automatic watches)',
-        'NFC chip for authenticity verification',
-      ]},
-
-      { type: 'h2', text: '7. A note on capacity' },
-      { type: 'p', text: 'Single-watch presentation boxes feel personal and gift-ready. They are what 80% of our watch box volume goes to.' },
-      { type: 'p', text: 'Multi-watch cases (3, 6, 10, 12, 24-watch configurations) are about storage and display, not gifting. They sell to collectors and as B2B furniture for retail counters. The challenge with multi-watch boxes is making sure each watch slot reads as individually premium — which means real walls between slots, not just a single foam tray with cutouts. Review compartment layouts in our [removable divider guide](/blog/custom-wooden-storage-boxes-with-removable-dividers-buyers-guide). For a catalogue example, see the [Three-Watch Display Case](/products/watch-jewelry/three-watch-display-case).' },
-      { type: 'p', text: 'Watch winders are a separate animal. They need a 100–240V universal motor for international use, silicone-cushioned cuffs that do not scratch leather straps, and a programmable rotation cycle. We can integrate winder modules from approved Chinese suppliers, but for high-end brands we recommend German-made Wolf or Buben & Zörweg movements installed by us.' },
-
-      { type: 'h2', text: '8. Packaging the box itself' },
-      { type: 'p', text: 'A great watch box arrives in a great outer carton. Tissue-wrapped, soft-foam corners, branded outer sleeve. The first thing the customer touches should not be a Chinese cardboard box with an Amazon label slapped on the side.' },
-      { type: 'p', text: 'We typically recommend a two-piece outer carton (lid + base) in matte-finish art paper, with custom internal foam to hold the watch box centered. This adds about $0.80-1.50 per unit but it transforms the unboxing experience.' },
-
-      { type: 'stats', items: [
-        { num: '0.5', suffix: ' mm', label: 'Max Lid Gap Tolerance' },
-        { num: '$0.40', label: 'Soft-Close Hinge Upgrade' },
-        { num: '12+', label: 'Microfiber Lining Colors' },
-      ]},
-
-      { type: 'h2', text: 'A real watch box quote — broken down line by line' },
-      { type: 'p', text: 'Buyers often ask why two seemingly similar watch boxes can differ by 3-4× in unit price. Here is a real cost breakdown for a 1,000-unit single-watch presentation box in two specs we have actually quoted side by side for the same buyer.' },
-      { type: 'table', headers: ['Component', 'Budget Spec', 'Premium Spec'],
-        rows: [
-          ['Wood (paulownia vs. walnut)',           '$1.10', '$4.80'],
-          ['Hinges (Tier 1 vs. Tier 3 soft-close)', '$0.18', '$0.95'],
-          ['Lining (basic velvet vs. microfiber)',  '$0.45', '$1.20'],
-          ['Pillow (foam vs. structured EVA)',      '$0.20', '$0.70'],
-          ['Hardware finish (basic vs. antique brass)', '$0.15', '$0.60'],
-          ['Outer carton (polybag vs. tissue + sleeve + carton)', '$0.30', '$1.80'],
-          ['Labor (standard vs. premium QC)',       '$1.20', '$2.40'],
-          ['Per-unit total',                        '$3.58', '$12.45'],
-        ]},
-      { type: 'p', text: 'Both boxes look superficially similar in product renders. In hand, the difference is immediate — the premium box weighs more, opens more smoothly, has no visible gaps, and feels worth its higher price. Customers absolutely notice. The buyer in this example actually ran both versions on Amazon for two months. Reviews on the budget box averaged 3.8 stars; reviews on the premium box averaged 4.7 stars and the unit count of unboxing photos in customer reviews was nearly 4× higher.' },
-      { type: 'p', text: 'The premium box was 3.5× more expensive to produce. It generated significantly more reorders and significantly fewer return requests. Per dollar of revenue, it was the more profitable product.' },
-
-      { type: 'h2', text: 'Frequently asked watch box questions' },
-      { type: 'h3', text: 'Should I include a watch removal tool?' },
-      { type: 'p', text: 'For boxes with multi-watch holders that grip the strap firmly, yes — a small forked plastic or metal tool that helps lift watches without scratching adds about $0.15 per box. For single-watch presentation boxes where the watch sits loose on a pillow, no tool needed; customers expect to pick up the watch directly.' },
-
-      { type: 'h3', text: 'How do I prevent finish damage from the watch case touching the lining?' },
-      { type: 'p', text: 'Use microfiber rather than velvet — microfiber has shorter fibers that are less abrasive against polished case surfaces. For premium watches with sapphire case-backs, suggest customers store the watch on the pillow with the case-back down (sapphire is hardier than the dial-side glass). Avoid suede pillow surfaces for premium watches; suede sheds particles that can scratch.' },
-
-      { type: 'h3', text: 'What about humidity for boxes that store collection watches?' },
-      { type: 'p', text: 'Most consumer watch storage does not need humidity control — a wooden box on a dresser is fine. For valuable collection storage (10+ premium watches, especially mechanical movements), recommend a dedicated watch winder or watch safe with humidity control built in. Wooden display boxes are not the right product category for serious collection storage.' },
-
-      { type: 'h3', text: 'Can I get my brand stamped into the wood interior?' },
-      { type: 'p', text: 'Yes — laser engraving on the inside of the lid is a popular subtle branding option. About $0.10 per box added for laser time. Visible only when the customer opens the box, which is exactly when they are paying attention. Some buyers also engrave a serial number for limited-edition runs.' },
-
-      { type: 'h3', text: 'How long does the lining hold up?' },
-      { type: 'p', text: 'Microfiber lining in normal use lasts 5-10 years before showing meaningful wear. Velvet wears noticeably within 1-2 years of regular handling. Faux leather and structured fabric linings last roughly as long as microfiber. The pillow inside, if it gets compressed regularly, may need replacement after 3-5 years — we offer replacement pillow inserts for premium boxes.' },
-
-      { type: 'h2', text: 'A note for first-time watch box buyers' },
-      { type: 'p', text: 'Watch box specifications drift quickly into the weeds — there are dozens of small decisions, each costing $0.10-1.00 and each subtly affecting the final product. The temptation is to leave the details to the factory and trust that "they will use sensible defaults."' },
-      { type: 'p', text: 'In our experience this rarely produces a great box. Defaults are designed for the broadest market, not for your specific positioning. Spend the time to specify hinge type, lining material, pillow firmness, hardware finish and outer carton style explicitly. Get a sample with all those choices made. Hold the sample. Decide if it feels right. Then commit to volume.' },
-      { type: 'p', text: 'The watch box is the only physical brand asset most of your customers will touch. Specifying it right is worth the extra hours.' },
-
-      { type: 'quote', text: 'A great watch box is engineered, not decorated. Get the lid, the hinges and the lining right and the rest takes care of itself.' },
-
-      { type: 'p', text: 'Watch box buyers are picky for a reason — they are spending hundreds or thousands of dollars on the product the box holds, and the box is the first physical impression of the brand. The detail items in this article are mostly small: $0.40 here, 0.5 mm there, an extra 30 seconds of QC per unit. Added together they are the difference between a watch box that becomes part of the customer\'s home and one that gets thrown out the next time the closet is cleaned.' },
-      { type: 'p', text: "If you are sourcing watch boxes for the first time, we strongly recommend ordering a 200-piece sample run before committing to volume. Take the boxes apart in person, run the lid through 200 open-close cycles, drop one from desk height, leave one in the trunk of your car for a week. The boxes that survive that are the boxes that will survive your customers. For a specification based on your project, [request a quote](/contact#inquiry)." },
-    ],
-    related: ['wooden-box-hardware-guide', 'choosing-wood-for-gift-packaging', 'wooden-box-finishing-techniques'],
+    ...watchBoxBuyerGuide,
   },
 
   // ════════════════════════════════════ 04 ════════════════════════════════════

@@ -32,13 +32,13 @@ export function generateMetadata({ params }) {
   const post = { ...enPost, ...t };
   const path = `/blog/${enPost.slug}`;
   return {
-    title: post.title,
+    title: post.seoTitle ? { absolute: post.seoTitle } : post.title,
     description: post.excerpt,
     alternates: makeAlternates(params.locale, path),
     openGraph: {
       type: 'article',
       url: `/${params.locale}${path}`,
-      title: post.title,
+      title: post.seoTitle || post.title,
       description: post.excerpt,
       images: post.hero ? [{ url: post.hero, alt: post.title }] : undefined,
       publishedTime: post.date || undefined,
@@ -47,7 +47,7 @@ export function generateMetadata({ params }) {
     },
     twitter: {
       card: 'summary_large_image',
-      title: post.title,
+      title: post.seoTitle || post.title,
       description: post.excerpt,
       images: post.hero ? [post.hero] : undefined,
     },
@@ -651,6 +651,7 @@ export default async function BlogPost({ params }) {
       <div className="hero-img-wrap">
         <div className="hero-img">
           <Image src={post.hero} alt={post.title} fill priority
+            style={post.heroFit ? {objectFit: post.heroFit, background: 'white'} : undefined}
             sizes="(max-width: 720px) calc(100vw - 48px), (max-width: 1300px) calc(100vw - 120px), 1180px" />
         </div>
       </div>

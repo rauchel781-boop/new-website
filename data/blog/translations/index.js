@@ -31,6 +31,7 @@ import it from './it.js';
 import pt from './pt.js';
 import ja from './ja.js';
 import ko from './ko.js';
+import {getWatchArticleCopy, addWatchReferencesToInsertGuide} from '../wooden-watch-box-anatomy/index.js';
 
 const ALL = { en, es, fr, de, it, pt, ja, ko };
 
@@ -39,7 +40,11 @@ const ALL = { en, es, fr, de, it, pt, ja, ko };
 // safely with the English source as fallback.
 export function getBlogTranslation(slug, locale) {
   const map = ALL[locale] || ALL.en;
-  return (map.posts || {})[slug] || {};
+  const translation = (map.posts || {})[slug] || {};
+  if (slug === 'wooden-watch-box-anatomy' && getWatchArticleCopy(locale)) {
+    return {...getWatchArticleCopy(locale), ...(translation.category && {category: translation.category})};
+  }
+  return slug === 'eva-vs-epe-vs-velvet-vs-felt-insert-guide' ? addWatchReferencesToInsertGuide(translation, locale) : translation;
 }
 
 // Get the translated category name (e.g. "Process" → "Processo" for IT).

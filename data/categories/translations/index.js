@@ -48,6 +48,7 @@ import it from './it.js';
 import pt from './pt.js';
 import ja from './ja.js';
 import ko from './ko.js';
+import { getWatchCategoryCopy } from '../watch-jewelry/index.js';
 
 // Deep overlays (seoTitle / seoDescription / deepContent), one map per locale.
 import deepDe from './deep/de.js';
@@ -62,6 +63,7 @@ const ALL = { en, es, fr, de, it, pt, ja, ko };
 const DEEP = { de: deepDe, it: deepIt, es: deepEs, fr: deepFr, pt: deepPt, ja: deepJa, ko: deepKo };
 
 export function getCategoryTranslation(slug, locale) {
+  if (slug === 'watch-jewelry') return getWatchCategoryCopy(locale);
   const map = ALL[locale] || ALL.en;
   const base = map[slug] || {};
   const deep = (DEEP[locale] || {})[slug];
