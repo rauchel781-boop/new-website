@@ -219,6 +219,7 @@
     "sendInquiry": "Enviar Solicitud",
     "browseCategory": "Ver Categoría",
     "trust": {
+      "founded": "Fundada en {year}",
       "fsc": "Certificado FSC",
       "reach": "EU REACH",
       "sgs": "Probado por SGS",
@@ -240,6 +241,10 @@
     "packagingBoilerplate": "Confirma el embalaje y los documentos exigidos por el país de destino antes de la producción. Los requisitos de exportación dependen de los materiales, el envío y el mercado importador."
   },
   "specKeys": {
+    "Care": "Cuidados",
+    "Contents": "Contenido incluido",
+    "Lid Options": "Opciones de tapa",
+    "Viewing Panel": "Panel transparente",
     "Accessories Included": "Accesorios Incluidos",
     "Base": "Base",
     "Branding": "Branding",

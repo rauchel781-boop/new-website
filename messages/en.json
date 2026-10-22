@@ -219,6 +219,7 @@
     "sendInquiry": "Send Inquiry",
     "browseCategory": "Browse Category",
     "trust": {
+      "founded": "Established {year}",
       "fsc": "FSC Certified",
       "reach": "EU REACH",
       "sgs": "SGS Tested",
@@ -240,6 +241,10 @@
     "packagingBoilerplate": "Confirm the packing arrangement and any destination-specific documents before production. Export requirements depend on the materials, shipment and importing market."
   },
   "specKeys": {
+    "Care": "Care",
+    "Contents": "Contents",
+    "Lid Options": "Lid Options",
+    "Viewing Panel": "Viewing Panel",
     "Accessories Included": "Accessories Included",
     "Base": "Base",
     "Branding": "Branding",

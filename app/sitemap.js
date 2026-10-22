@@ -157,6 +157,7 @@ export default function sitemap() {
         const updatedAt = latestContentDate(
           translation.updatedAt,
           !translation.faqs && getCategoryFaqs(slug, loc)?.updatedAt,
+          ...Object.values(PRODUCTS_BY_CATEGORY[slug] || {}).map(product => product.updatedAt),
         );
         return updatedAt ? [[loc, updatedAt]] : [];
       })),
@@ -178,7 +179,10 @@ export default function sitemap() {
         priority: 0.7,
         images: productImages,
         lastModifiedByLocale: Object.fromEntries(routing.locales.flatMap(loc => {
-          const updatedAt = getProductPageCopy(categorySlug, productSlug, loc)?.updatedAt || PRODUCT_CONTENT_UPDATED_AT;
+          const updatedAt = latestContentDate(
+            getProductPageCopy(categorySlug, productSlug, loc)?.updatedAt,
+            product.updatedAt,
+          ) || PRODUCT_CONTENT_UPDATED_AT;
           return updatedAt ? [[loc, new Date(updatedAt)]] : [];
         })),
       });

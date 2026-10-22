@@ -1,15 +1,18 @@
 // ─────────────────────────────────────────────────────────────────────────
-// Watch & Jewelry products (sample 5 — covers all 5 closure types)
+// Watch & Jewelry products, including the owner's new reference models.
 // Image paths reference /public/watch-jewelry/<product-folder>/
 // Encoding handled centrally by `img()` so spaces, &, parens, and CJK
 // characters in filenames are all URL-safe.
 // ─────────────────────────────────────────────────────────────────────────
+
+import { NEW_WATCH_JEWELRY_PRODUCTS } from './watch-jewelry-new/index.js';
 
 const PARENT = 'watch-jewelry';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/').replace(/\.(jpe?g|png)$/i, '.webp');
 
 export const PRODUCTS = {
+  ...NEW_WATCH_JEWELRY_PRODUCTS,
   'luxury-velvet-ring-box': {
     slug: 'luxury-velvet-ring-box',
     name: 'Luxury Velvet Ring Box',
@@ -45,7 +48,7 @@ export const PRODUCTS = {
     packaging:
       'Each box wrapped in OPP polybag → individual white inner carton → 5-ply export master carton. Master carton labeled with customer SKU and barcode if required.',
     useCases: ['Engagement rings', 'Wedding bands', 'Cufflink presentation', 'Anniversary gifts', 'Designer jewelry retail', 'Heirloom packaging'],
-    related: ['three-watch-display-case', 'pearl-necklace-presentation-box', 'multi-tier-earring-chest'],
+    related: ['walnut-veneer-single-watch-box', 'single-piano-lacquer-watch-box-with-lock', 'black-single-watch-presentation-box', 'three-watch-display-case', 'pearl-necklace-presentation-box'],
   },
 
   'three-watch-display-case': {
@@ -83,7 +86,7 @@ export const PRODUCTS = {
     packaging:
       'Glass-top units double-wrapped with foam corner protectors, then placed in 5-layer export master cartons with fragile labeling.',
     useCases: ['Watch retailers', 'Collector storage', 'Anniversary gifts', 'Hotel concierge', 'Travel cases', 'Heirloom display'],
-    related: ['luxury-velvet-ring-box', 'multi-tier-earring-chest', 'pearl-necklace-presentation-box'],
+    related: ['black-wooden-watch-display-box', 'wooden-watch-box-jewelry-drawer', 'black-walnut-single-watch-gift-box', 'luxury-velvet-ring-box', 'multi-tier-earring-chest'],
   },
 
   'bamboo-jewelry-tray-set': {
@@ -162,7 +165,7 @@ export const PRODUCTS = {
     packaging:
       'Each drawer secured with foam blocks against opening in transit, full chest bubble-wrapped, packed in 5-layer export master cartons.',
     useCases: ['Jewelry retail back-stock', 'Collector storage', 'Hobbyist supplies', 'Apothecary gift sets', 'Designer studios', 'Hotel suites'],
-    related: ['three-watch-display-case', 'bamboo-jewelry-tray-set', 'pearl-necklace-presentation-box'],
+    related: ['6-slot-wooden-sunglasses-box', 'wooden-watch-box-jewelry-drawer', 'three-watch-display-case', 'bamboo-jewelry-tray-set', 'pearl-necklace-presentation-box'],
   },
 
   'pearl-necklace-presentation-box': {

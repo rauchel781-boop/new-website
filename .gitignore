@@ -57,3 +57,6 @@ next-env.d.ts
 
 # CRM 部署文件夹 — 独立的 xmchic-crm 仓库，不属于 new-website
 crm-deploy/
+
+# Original product photos and drafts awaiting review and publication
+/incoming-products/

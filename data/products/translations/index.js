@@ -33,10 +33,19 @@ import it from './it.js';
 import pt from './pt.js';
 import ja from './ja.js';
 import ko from './ko.js';
+import newEs from '../watch-jewelry-new-translations/es.js';
+import newFr from '../watch-jewelry-new-translations/fr.js';
+import newDe from '../watch-jewelry-new-translations/de.js';
+import newIt from '../watch-jewelry-new-translations/it.js';
+import newPt from '../watch-jewelry-new-translations/pt.js';
+import newJa from '../watch-jewelry-new-translations/ja.js';
+import newKo from '../watch-jewelry-new-translations/ko.js';
 
 const ALL = { en, es, fr, de, it, pt, ja, ko };
+const NEW_WATCH_JEWELRY = { es: newEs, fr: newFr, de: newDe, it: newIt, pt: newPt, ja: newJa, ko: newKo };
 
 export function getProductTranslation(slug, locale) {
+  if (NEW_WATCH_JEWELRY[locale]?.[slug]) return NEW_WATCH_JEWELRY[locale][slug];
   const map = ALL[locale] || ALL.en;
   return map[slug] || {};
 }

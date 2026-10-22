@@ -219,6 +219,7 @@
     "sendInquiry": "問い合わせを送る",
     "browseCategory": "カテゴリーを見る",
     "trust": {
+      "founded": "{year}年設立",
       "fsc": "FSC認証",
       "reach": "EU REACH",
       "sgs": "SGS試験済み",
@@ -240,6 +241,10 @@
     "packagingBoilerplate": "生産前に、梱包方法と仕向地で必要な書類をご確認ください。輸出入の要件は、使用材料、貨物、輸入先の市場によって異なります。"
   },
   "specKeys": {
+    "Care": "お手入れ",
+    "Contents": "付属内容",
+    "Lid Options": "蓋の種類",
+    "Viewing Panel": "透明パネル",
     "Accessories Included": "付属品",
     "Base": "ベース",
     "Branding": "ブランディング",

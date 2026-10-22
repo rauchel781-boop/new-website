@@ -219,6 +219,7 @@
     "sendInquiry": "Envoyer une Demande",
     "browseCategory": "Voir la Catégorie",
     "trust": {
+      "founded": "Fondée en {year}",
       "fsc": "Certifié FSC",
       "reach": "EU REACH",
       "sgs": "Testé par SGS",
@@ -240,6 +241,10 @@
     "packagingBoilerplate": "Confirmez l’emballage et les documents requis par le pays de destination avant la production. Les exigences à l’exportation dépendent des matériaux, de l’expédition et du marché importateur."
   },
   "specKeys": {
+    "Care": "Entretien",
+    "Contents": "Contenu fourni",
+    "Lid Options": "Options de couvercle",
+    "Viewing Panel": "Panneau transparent",
     "Accessories Included": "Accessoires Inclus",
     "Base": "Base",
     "Branding": "Branding",

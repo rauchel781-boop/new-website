@@ -219,6 +219,7 @@
     "sendInquiry": "Anfrage Senden",
     "browseCategory": "Kategorie Ansehen",
     "trust": {
+      "founded": "Gegründet {year}",
       "fsc": "FSC-Zertifiziert",
       "reach": "EU REACH",
       "sgs": "Von SGS Getestet",
@@ -240,6 +241,10 @@
     "packagingBoilerplate": "Bestätigen Sie vor der Produktion die Verpackung und die für das Zielland erforderlichen Dokumente. Die Exportanforderungen hängen von den Materialien, der Sendung und dem Einfuhrmarkt ab."
   },
   "specKeys": {
+    "Care": "Pflege",
+    "Contents": "Lieferumfang",
+    "Lid Options": "Deckeloptionen",
+    "Viewing Panel": "Sichtfenster",
     "Accessories Included": "Zubehör Enthalten",
     "Base": "Basis",
     "Branding": "Branding",

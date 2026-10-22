@@ -219,6 +219,7 @@
     "sendInquiry": "문의 보내기",
     "browseCategory": "카테고리 보기",
     "trust": {
+      "founded": "{year}년 설립",
       "fsc": "FSC 인증",
       "reach": "EU REACH",
       "sgs": "SGS 검사",
@@ -240,6 +241,10 @@
     "packagingBoilerplate": "생산 전 포장 방식과 목적지에서 요구하는 서류를 확인해 주세요. 수출입 요건은 사용 소재, 화물 및 수입 시장에 따라 달라집니다."
   },
   "specKeys": {
+    "Care": "관리 방법",
+    "Contents": "구성품",
+    "Lid Options": "뚜껑 옵션",
+    "Viewing Panel": "투명 패널",
     "Accessories Included": "포함 액세서리",
     "Base": "베이스",
     "Branding": "브랜딩",

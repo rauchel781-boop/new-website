@@ -65,7 +65,7 @@ function localizeProduct(raw, locale) {
   return {
     ...raw,
     ...translation,
-    specs: translation.specs || getProductSpecTranslation(raw, locale),
+    specs: translation.specs || getProductSpecTranslation(raw, locale) || raw.specs,
   };
 }
 
@@ -84,7 +84,7 @@ export function generateMetadata({ params }) {
   const productRaw = products?.[params.product];
   if (!productRaw) return { title: 'Product' };
   const pageCopy = getProductPageCopy(params.slug, params.product, params.locale);
-  const product = { ...localizeProduct(productRaw, params.locale), ...(pageCopy && { intro: pageCopy.intro }) };
+  const product = { ...localizeProduct(productRaw, params.locale), ...(pageCopy?.intro && { intro: pageCopy.intro }) };
   const localePath = `/products/${params.slug}/${params.product}`;
   const fullPath = `/${params.locale}${localePath}`;
   // Topical focus: this site covers wooden BOXES. Trays, caddies, holders,
@@ -93,9 +93,10 @@ export function generateMetadata({ params }) {
   // data/non-box-products.js for the full rationale). `follow: true` keeps
   // link equity flowing from these pages through to the box pages.
   const noIndex = isNonBoxProduct(productRaw.slug);
-  const description = getProductSeoDescription(params.slug, params.product, params.locale) || product.intro;
+  const seoTitle = pageCopy?.title || product.seoTitle;
+  const description = pageCopy?.seoDescription || product.seoDescription || getProductSeoDescription(params.slug, params.product, params.locale) || product.intro;
   return {
-    title: pageCopy ? { absolute: pageCopy.title } : product.name,
+    title: seoTitle ? { absolute: seoTitle } : product.name,
     description,
     ...(noIndex && {
       robots: { index: false, follow: true, googleBot: { index: false, follow: true } },
@@ -103,7 +104,7 @@ export function generateMetadata({ params }) {
     alternates: makeAlternates(params.locale, localePath),
     openGraph: {
       url: fullPath,
-      title: pageCopy?.title || product.name,
+      title: seoTitle || product.name,
       description,
       // og:image — provided by ./opengraph-image.js (file convention).
       // It renders a 1200×630 card with the product hero + product name +
@@ -112,7 +113,7 @@ export function generateMetadata({ params }) {
     },
     twitter: {
       card: 'summary_large_image',
-      title: pageCopy?.title || product.name,
+      title: seoTitle || product.name,
       description,
       // twitter:image — same opengraph-image.js auto-wires this too.
     },
@@ -419,7 +420,7 @@ export default async function ProductDetail({ params }) {
   const products = PRODUCTS_BY_CATEGORY[params.slug];
   const productRaw = products?.[params.product];
   const pageCopy = getProductPageCopy(params.slug, params.product, params.locale);
-  const product = productRaw ? { ...localizeProduct(productRaw, params.locale), ...(pageCopy && { intro: pageCopy.intro }) } : null;
+  const product = productRaw ? { ...localizeProduct(productRaw, params.locale), ...(pageCopy?.intro && { intro: pageCopy.intro }) } : null;
   if (!category || !product) notFound();
 
   const related = (product.related || [])
@@ -491,6 +492,7 @@ export default async function ProductDetail({ params }) {
     image: (product.images || []).map((src) => `${SITE.siteUrl}${src}`),
     sku: product.slug,
     category: translatedCategoryName,
+    ...(product.schemaMaterial && { material: product.schemaMaterial }),
     brand: { '@type': 'Brand', name: SITE.company.brand },
     manufacturer: {
       '@type': ['Organization', 'Manufacturer'],
@@ -591,7 +593,7 @@ export default async function ProductDetail({ params }) {
             </div>
 
             <div className="pdp-trust">
-              <span>{t('trust.experience')}</span>
+              <span>{t('trust.founded', { year: SITE.company.foundingYear })}</span>
             </div>
           </div>
         </div>
