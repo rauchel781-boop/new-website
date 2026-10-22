@@ -104,10 +104,6 @@ export const BLOG_IMAGE_SIZES = {
     "width": 1186,
     "height": 1110
   },
-  "/gift-packaging-box/drawer-wooden-gift-box/drawer-wooden-gift-box-01.webp": {
-    "width": 1136,
-    "height": 760
-  },
   "/gift-packaging-box/hinged-wooden-gift-box/hinged-wooden-gift-box-01.webp": {
     "width": 1134,
     "height": 970
@@ -163,9 +159,5 @@ export const BLOG_IMAGE_SIZES = {
   "/wooden-box-7.webp": {
     "width": 1440,
     "height": 1920
-  },
-  "/wooden-boxes-with-lock/acacia-wood-all-in-one-stash-box-with-lock/acacia-wood-stash-box-1.webp": {
-    "width": 800,
-    "height": 800
   }
 };

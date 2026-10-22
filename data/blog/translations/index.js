@@ -1,3 +1,4 @@
+import {getReviewedGuideTranslation} from '../reviewed-guides.js';
 // Per-locale BLOG post translation overlays.
 //
 // Strategy: keep English source-of-truth in data/blog.js. For each
@@ -41,6 +42,8 @@ const ALL = { en, es, fr, de, it, pt, ja, ko };
 export function getBlogTranslation(slug, locale) {
   const map = ALL[locale] || ALL.en;
   const translation = (map.posts || {})[slug] || {};
+  const reviewed = getReviewedGuideTranslation(slug, locale);
+  if (reviewed) return {...reviewed, ...(translation.category && {category: translation.category})};
   if (slug === 'wooden-watch-box-anatomy' && getWatchArticleCopy(locale)) {
     return {...getWatchArticleCopy(locale), ...(translation.category && {category: translation.category})};
   }
