@@ -1,5 +1,6 @@
 import { Link } from '@/i18n/navigation';
 import { CATEGORIES, GROUPS } from '@/data/categories';
+import { getReviewedCategoryCopy } from '@/data/categories/reviewed';
 import { alternates } from '@/i18n/seo';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import RecentlyViewedStrip from '@/components/RecentlyViewedStrip';
@@ -194,18 +195,15 @@ const CSS = `
 // ─── Closure-type comparison table data ────────────────────────────────
 // English-only, matching this codebase's existing pattern for incremental
 // rich content (see components/ProductRichBlock.jsx, data/page-faqs) —
-// added directly rather than as next-intl keys to avoid partial/mixed-
-// language translations across the other 7 locales. Every "how it works"
-// and "best for" line restates facts already published on each category's
-// own page (data/categories.js `intro`/`tagline`/body copy), not new
-// claims — this table just gives AI engines and human scanners one
-// structured place to compare closures instead of five separate pages.
+// added directly rather than as next-intl keys to avoid mixed-language
+// content in other locales. Compare opening and access requirements;
+// performance and packing depend on the selected construction and sample.
 const CLOSURE_COMPARE = [
-  { slug: 'magnetic', name: 'Magnetic Closure', how: 'Hidden neodymium magnets inside the wall — no visible hardware, lid snaps shut with a soft, deliberate feel.', bestFor: 'Beauty brands, subscription boxes, tech accessories — the cleanest, most premium unboxing feel.' },
-  { slug: 'hinged', name: 'Hinged Lid', how: 'Brass or concealed steel hinges, optional clasp or lock, built for frequent daily opening.', bestFor: 'Jewelry and keepsake boxes, tool storage — anything opened and closed often.' },
-  { slug: 'sliding-lid', name: 'Sliding Lid', how: 'No hardware at all — a dado-grooved tray and a precision-routed lid that slides flush across the top.', bestFor: 'Gift, cigar, tea and wedding-favor boxes — lowest assembly cost, ships flat-packed, nothing to break.' },
-  { slug: 'drawer', name: 'Drawer / Pull-Out', how: 'One to twelve tiers of drawer cabinets with soft-close slides and brass pulls.', bestFor: 'Jewelry, tool, office and apothecary storage — sorting many small items across levels.' },
-  { slug: 'with-lock', name: 'Lockable', how: 'Brass key lock, combination lock, or hidden cam lock with reinforced hinges.', bestFor: 'Cash, documents, valuables and heirloom storage — anything that needs to stay closed.' },
+  { slug: 'magnetic', name: 'Magnetic Closure', how: 'Magnets retain a removable, hinged or sliding lid. Approve the closing feel on the assembled sample.', bestFor: 'Dice cases, ring presentation and small gifts; select by the actual contents.' },
+  { slug: 'hinged', name: 'Hinged Lid', how: 'The lid pivots while remaining attached. Specify the opening angle, support and any catch.', bestFor: 'Presentation and storage where the lid should stay attached; allow opening clearance.' },
+  { slug: 'sliding-lid', name: 'Sliding Lid', how: 'A panel travels along grooves. Agree travel direction, finished fit and lid retention.', bestFor: 'Gift packaging, divided storage and craft kits; confirm packing construction separately.' },
+  { slug: 'drawer', name: 'Drawer / Pull-Out', how: 'A tray pulls out of a housing. Agree usable space, travel, clearance and removal.', bestFor: 'Small-item storage or a pull-out gift presentation; choose the layout around the contents.' },
+  { slug: 'with-lock', name: 'Lockable', how: 'A key or combination mechanism controls opening. Specify the lock with the complete box construction.', bestFor: 'Storage or presentation requiring controlled access; confirm any security requirement separately.' },
 ];
 
 export default async function ProductsPage({ params: { locale } }) {
@@ -279,12 +277,13 @@ export default async function ProductsPage({ params: { locale } }) {
                   {g.items.map((slug) => {
                     const c = CATEGORIES[slug];
                     if (!c) return null;
+                    const reviewed = getReviewedCategoryCopy(slug, locale);
                     return (
                       <Link href={`/products/${slug}`} key={slug} className="prods-card">
                         <div className="prods-card-eyebrow">{groupLabelKey ? t(groupLabelKey) : c.group}</div>
-                        <h3 className="prods-card-title">{tCat(slug)}</h3>
-                        <div className="prods-card-tagline">{tCC(`${slug}.tagline`)}</div>
-                        <p className="prods-card-desc">{tCC(`${slug}.intro`)}</p>
+                        <h3 className="prods-card-title">{reviewed?.name || tCat(slug)}</h3>
+                        <div className="prods-card-tagline">{reviewed?.tagline || tCC(`${slug}.tagline`)}</div>
+                        <p className="prods-card-desc">{reviewed?.intro || tCC(`${slug}.intro`)}</p>
                         <div className="prods-card-arrow">{t('explore')} →</div>
                       </Link>
                     );

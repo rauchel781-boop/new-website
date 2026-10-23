@@ -20,6 +20,7 @@ import { POSTS } from '@/data/blog';
 import { routing } from '@/i18n/routing';
 import { getProductTranslation } from '@/data/products/translations';
 import { getCategoryTranslation } from '@/data/categories/translations';
+import { getReviewedCategoryCopy } from '@/data/categories/reviewed';
 import { getBlogTranslation, getBlogCategoryTranslation } from '@/data/blog/translations';
 
 // Per-category product file imports (mirrors what /products/[slug]/page.js does)
@@ -81,15 +82,15 @@ export async function GET(_req, { params }) {
     if (!cat) continue;
     const catTrans = getCategoryTranslation(slug, locale);
     const longDesc = catTrans.longDesc || cat.longDesc;
+    const reviewed = getReviewedCategoryCopy(slug, locale);
     entries.push({
       type: 'category',
       url: `/${locale}/products/${slug}`,
-      title: cat.name, // The translated name lives in messages.categories.<slug>
-      // (client uses the title verbatim; categories namespace is
-      // baked in via messages JSON which the modal already has access
-      // to via useTranslations).
+      title: reviewed?.name || cat.name,
       category: cat.group,
-      text: clean(`${cat.tagline} ${cat.intro} ${longDesc}`).slice(0, 320),
+      text: clean(reviewed
+        ? `${reviewed.tagline} ${reviewed.intro} ${reviewed.longDesc}`
+        : `${cat.tagline} ${cat.intro} ${longDesc}`).slice(0, 320),
     });
   }
 

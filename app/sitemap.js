@@ -4,6 +4,7 @@ import { POSTS } from '@/data/blog';
 import { routing } from '@/i18n/routing';
 import { isNonBoxProduct } from '@/data/non-box-products';
 import { getCategoryTranslation } from '@/data/categories/translations';
+import { getReviewedCategoryCopy, REVIEWED_CATEGORY_SLUGS } from '@/data/categories/reviewed';
 import { getProductPageCopy } from '@/data/product-page-copy';
 import { PRODUCT_CONTENT_UPDATED_AT } from '@/lib/product-content';
 import { getHome } from '@/data/home';
@@ -87,6 +88,9 @@ function latestContentDate(...values) {
 }
 
 function staticContentDate(pagePath, locale) {
+  if (pagePath === '/products') {
+    return latestContentDate(...REVIEWED_CATEGORY_SLUGS.map(slug => getReviewedCategoryCopy(slug, locale)?.updatedAt));
+  }
   if (pagePath === '') return getHome(locale).UPDATED_AT;
   if (pagePath === '/about') return getAbout(locale).UPDATED_AT;
   if (pagePath === '/material-guide' || pagePath === '/wood-fabrication') {

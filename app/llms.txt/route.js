@@ -15,6 +15,7 @@
 
 import { SITE } from '@/data/site-config';
 import { CATEGORIES, SLUGS } from '@/data/categories';
+import { getReviewedCategoryCopy } from '@/data/categories/reviewed';
 import { POSTS } from '@/data/blog';
 
 const BLOG_LIMIT = 20;
@@ -26,7 +27,8 @@ export async function GET() {
   const categoryLines = SLUGS.map((slug) => {
     const cat = CATEGORIES[slug];
     if (!cat) return null;
-    return `- [${cat.name}](${en(`/products/${slug}`)})`;
+    const reviewed = getReviewedCategoryCopy(slug, 'en');
+    return `- [${reviewed?.name || cat.name}](${en(`/products/${slug}`)})`;
   })
     .filter(Boolean)
     .join('\n');

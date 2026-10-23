@@ -10,6 +10,11 @@ import {buildProductFaqs} from '../lib/product-content.js';
 import {POSTS} from '../data/blog.js';
 import {getBlogTranslation} from '../data/blog/translations/index.js';
 const locales=['en','de','es','fr','it','pt','ja','ko'];
+// Native-language quantity labels are valid; "200 pieces / 200 sets"
+// repeats the same minimum without introducing a second MOQ tier. Counts
+// such as "1 design" or "2 boxes per set" describe the order unit.
+const moqLabels={en:'MOQ',de:'MOQ|Mindest(?:bestell)?menge|Ab',fr:'MOQ|Minimum',es:'MOQ|Mínimo',it:'MOQ|Minimo',pt:'MOQ|Mínimo',ja:'MOQ|最低発注数|最小発注数量|最低ロット',ko:'MOQ|최소\\s*주문(?:량|\\s*수량)?'};
+const hasMoq=(text,locale)=>new RegExp(`(?:${moqLabels[locale]})[^。.!?]{0,90}200(?!\\d)`,'iu').test(text);
 const out='audits/seo-2026-10-19';
 const products=[];
 for(const file of fs.readdirSync('data/products').filter(f=>f.endsWith('.js'))){const{PRODUCTS}=await import(pathToFileURL(path.resolve('data/products',file)).href);for(const p of Object.values(PRODUCTS))products.push({category:file.slice(0,-3),product:p});}
@@ -25,7 +30,7 @@ for(const locale of locales){
   const representative=!first.has(category);first.add(category);routes.push({route:`/${locale}/products/${category}/${raw.slug}`,type:'product',locale,live:locale==='en'||representative});
  }
  for(const[slug,raw]of Object.entries(CATEGORIES)){
-  const c={...raw,...getCategoryTranslation(slug,locale)};const spec=c.specs.find(s=>/^MOQ\s*[:：]/.test(s));if(spec)assert.deepEqual(spec.match(/\d+/g),['200']);assert.match(c.seoDescription,/MOQ[^\d]{0,20}200\b/u,`${locale}/${slug}: category policy`);sourceCategorySpecs++;
+  const c={...raw,...getCategoryTranslation(slug,locale)};const spec=c.specs.find(s=>new RegExp(`^(?:${moqLabels[locale]})`,'iu').test(s));if(spec)assert.deepEqual([...new Set(spec.match(/\d{3,}/g)||[])],['200']);assert.ok(hasMoq(c.seoDescription,locale),`${locale}/${slug}: category policy`);sourceCategorySpecs++;
   routes.push({route:`/${locale}/products/${slug}`,type:'category',locale,live:true});
  }
  for(const p of POSTS){const title=blog[p.slug]?.title||p.title;routes.push({route:`/${locale}/blog/${p.slug}`,type:'blog',locale,title,updated:p.updated,live:true});}
@@ -39,7 +44,7 @@ function check(row,html){
   const quick=html.match(/<div class="pdp-quick-label">MOQ<\/div>\s*<div class="pdp-quick-value is-highlight">([\s\S]*?)<\/div>/)?.[1];
   if(!quick||!/^200(?!\d|\s*[-–〜~])/u.test(plain(quick)))problems.push(`Product MOQ: ${quick?plain(quick):'missing'}`);
  }
- if(row.type==='category'&&!/MOQ\s*[:：]?\s*200/.test(text))problems.push('Category MOQ spec missing');
+ if(row.type==='category'&&!hasMoq(text,row.locale))problems.push('Category MOQ spec missing');
  if(row.type==='core'&&!text.includes('200'))problems.push('Core page policy missing');
  if(row.type==='llms'&&!text.includes('MOQ is 200 pieces per design'))problems.push('LLM policy missing');
  if(row.type==='blog'){
