@@ -1,6 +1,6 @@
 // Buyer-facing category copy based on the supplied reference models.
 export default {
-  updatedAt: '2026-10-22',
+  updatedAt: '2026-10-23',
   name: 'Custom Wooden Watch & Jewelry Boxes',
   tagline: 'Watch presentation, jewelry storage and eyewear display for your product range',
   seoTitle: 'Custom Wooden Watch & Jewelry Boxes - MOQ 200 | CHIC',
@@ -31,6 +31,7 @@ export default {
       { type: 'p', text: 'Start with the contents and the buying occasion. A single-watch presentation box holds one product for gifting or retail packaging. A collection case keeps several watches accessible, while a divided drawer adds space for jewelry. An eyewear box needs compartments shaped for folded frames. Choose the reference that matches the job, then identify changes for your brand.' },
       { type: 'h3', text: 'Choose a single-watch presentation format' },
       { type: 'p', text: 'The [walnut veneer single-watch box](/products/watch-jewelry/walnut-veneer-single-watch-box) combines a hinged viewing lid with a 12 × 12 × 7.5 cm external reference size; an opaque-lid version is also pictured. Compare the [black single-watch presentation box](/products/watch-jewelry/black-single-watch-presentation-box) for a glossy opaque lid and inner-lid pocket. The [piano-lacquer box with lock](/products/watch-jewelry/single-piano-lacquer-watch-box-with-lock) uses veneered MDF at a 19 × 19 × 10 cm reference size. For a separate lid, consider the [black walnut single-watch gift box](/products/watch-jewelry/black-walnut-single-watch-gift-box), supplied at a 9 × 9 × 8 cm reference size. Confirm usable space for each design.' },
+      { type: 'p', text: 'For a removable interior, compare the [wood-grain single-watch box with removable insert](/products/watch-jewelry/wood-grain-single-watch-box-removable-insert). Its glossy dark wood-grain exterior has an opaque hinged lid, with one watch pillow in a light-coloured lift-out insert above a lower cavity. Check usable space with the insert in place and removed, and confirm the core, surface material and dimensions before quoting.' },
       { type: 'h3', text: 'Compare watch layouts and drawer access' },
       { type: 'p', text: 'The [black wooden watch display series](/products/watch-jewelry/black-wooden-watch-display-box) includes three-, six- and twelve-watch layouts in the reference photographs. Specify one layout rather than assuming every image shows the same capacity. The [watch box with jewelry drawer](/products/watch-jewelry/wooden-watch-box-jewelry-drawer) is pictured in six- and twelve-watch versions with different drawer divisions. List the intended contents for each section, including ring rolls where needed. Check pillow spacing, bracelet fit, lid clearance and the space required to pull the drawer open.' },
       { type: 'h3', text: 'Check folded eyewear before approving dividers' },

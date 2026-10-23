@@ -54,7 +54,7 @@ export default {
     },
   },
   'wine-whisky': {
-    updatedAt: '2026-10-21',
+    updatedAt: '2026-10-23',
     name: 'Custom Wooden Wine & Whisky Boxes',
     seoTitle: 'Custom Wooden Wine Boxes - Wholesale Packaging | CHIC',
     seoDescription: 'Order custom wooden wine boxes for single bottles, tasting sets or corporate gifts. Choose the wood, closure and logo. MOQ 200 pieces. Request a quote.',
@@ -80,6 +80,7 @@ export default {
       title: 'How to specify custom wooden wine boxes for a bulk order',
       blocks: [
         { type: 'p', text: 'Choose a reference format, then check it against the bottles you will actually pack. The [pine single-bottle wine box](/products/wine-whisky/pine-single-bottle-wine-box) is a starting point for a sliding-lid case. For wine-club, retail or corporate gift orders, state the bottle count, shape, orientation and any accessories in the same brief. The capacity shown on a catalogue page is a reference, not confirmation that every bottle with the same stated volume will fit.' },
+        { type: 'p', text: 'For a single whisky bottle under an attached lid, compare the [black wooden whisky presentation box](/products/wine-whisky/black-wooden-whisky-presentation-box). The reference has a hinged opening and a neck support; check the bottle body and neck against the proposed interior, including room to lift it out. Confirm the wood species or core, dimensions and support placement before approving the sample.' },
         { type: 'h3', text: 'Choose the format around the complete gift set' },
         { type: 'p', text: 'Compare the [bamboo wine gift set](/products/wine-whisky/bamboo-wine-gift-set) when the brief includes wine tools; list the accessory types and layout separately so they are included in the quote. The [three-bottle pine display box](/products/wine-whisky/pine-3-bottle-glass-lid) provides a reference for a visible assortment. The reference model uses a clear acrylic window. Confirm the window material and protection required for the selected specification.' },
         { type: 'img', src: '/wine-whisky-boxes/single-bottle-wine-box/single-bottle-wine-box-01.webp', caption: 'Single-bottle pine box reference; confirm the usable interior against the actual bottle before production.' },

@@ -1,5 +1,5 @@
 export default {
-  updatedAt: '2026-10-22',
+  updatedAt: '2026-10-23',
   name: '맞춤 목재 시계·주얼리 박스',
   tagline: '제품 라인에 맞춘 시계 프레젠테이션, 주얼리 수납 및 안경 진열',
   seoTitle: '맞춤 목재 시계·주얼리 박스 제작 - MOQ 200 | CHIC',
@@ -30,6 +30,7 @@ export default {
       { type: 'p', text: '내용물과 구매 용도부터 정하세요. 한 개용 시계 박스는 선물이나 소매 포장을 위해 제품 하나를 담습니다. 컬렉션 케이스는 여러 시계를 꺼내기 쉽게 보관하며, 구획된 서랍은 주얼리 공간을 더합니다. 안경 박스에는 접은 프레임 모양에 맞는 칸이 필요합니다. 용도에 맞는 참고 모델을 선택한 다음 브랜드에 필요한 변경 사항을 정리하세요.' },
       { type: 'h3', text: '시계 한 개의 프레젠테이션 형식 선택' },
       { type: 'p', text: '[월넛 무늬목 한 개용 시계 박스](/products/watch-jewelry/walnut-veneer-single-watch-box)는 경첩식 진열 뚜껑이 있으며 참고 외부 치수는 12 × 12 × 7.5 cm입니다. 불투명 뚜껑 버전도 사진에 포함됩니다. 광택 있는 불투명 뚜껑과 뚜껑 안쪽 포켓을 원하면 [블랙 한 개용 시계 프레젠테이션 박스](/products/watch-jewelry/black-single-watch-presentation-box)를 비교하세요. [잠금장치가 있는 피아노 도장 박스](/products/watch-jewelry/single-piano-lacquer-watch-box-with-lock)는 무늬목 마감 MDF를 사용하며 참고 치수는 19 × 19 × 10 cm입니다. 분리형 뚜껑은 참고 치수 9 × 9 × 8 cm의 [블랙 월넛 한 개용 시계 선물 박스](/products/watch-jewelry/black-walnut-single-watch-gift-box)를 살펴보세요. 각 디자인의 실제 사용 가능한 공간을 확인해야 합니다.' },
+      { type: 'p', text: '분리형 내부 구성이 필요하다면 [분리형 인서트가 있는 나뭇결 한 개용 시계 박스](/products/watch-jewelry/wood-grain-single-watch-box-removable-insert)를 비교하세요. 광택 있는 짙은 나뭇결 외관에 불투명한 경첩식 뚜껑이 있으며, 밝은색 분리형 인서트 안에 시계 쿠션 한 개가 놓이고 그 아래에는 빈 공간이 있습니다. 인서트를 넣었을 때와 뺐을 때의 사용 가능한 공간을 확인하고 견적 전에 심재, 표면 재료와 치수를 확정하세요.' },
       { type: 'h3', text: '시계 배치와 서랍 접근성 비교' },
       { type: 'p', text: '[블랙 목재 시계 진열 시리즈](/products/watch-jewelry/black-wooden-watch-display-box)의 참고 사진에는 세 개, 여섯 개, 열두 개용 구성이 있습니다. 모든 사진이 같은 수납량을 보여준다고 가정하지 말고 원하는 구성 하나를 지정하세요. [주얼리 서랍이 있는 시계 박스](/products/watch-jewelry/wooden-watch-box-jewelry-drawer)는 여섯 개와 열두 개용을 보여주며 서랍 구획도 다릅니다. 필요한 경우 반지용 쿠션을 포함해 구역별로 담을 물품을 정리하세요. 쿠션 간격, 브레이슬릿 맞음새, 뚜껑 여유와 서랍을 여는 데 필요한 공간을 확인합니다.' },
       { type: 'h3', text: '칸막이 승인 전 접은 안경 확인' },

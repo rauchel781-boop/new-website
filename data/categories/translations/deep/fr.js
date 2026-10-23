@@ -390,6 +390,7 @@ export default {
     }
   },
   "wine-whisky": {
+    "updatedAt": "2026-10-23",
     "seoTitle": "Boîtes en bois pour vin et whisky — Grossiste et fabricant OEM | CHIC",
     "seoDescription": "Boîtes en bois pour vin et whisky sur mesure en gros — d’une bouteille au magnum, berceaux mousse, des caisses en pin à la présentation en noyer. MOQ 200, branding laser et pyrogravé. FOB Xiamen, expédition vers UE/US/UK/CA.",
     "deepContent": {
@@ -399,6 +400,10 @@ export default {
         {
           "type": "p",
           "text": "Une boîte en bois pour vin ou whisky est ce qui permet à une bouteille d’atteindre un prix de cadeau — et pour les domaines viticoles, distilleries et marques de spiritueux que nous fournissons, c’est la différence entre une bouteille qui reste en rayon et un coffret de présentation qui se vend comme cadeau. Nous fabriquons des boîtes en gros pour vin et whisky pour chaque tranche du marché, des caisses rustiques en pin avec poignées en corde et une marque vintage pyrogravée jusqu’aux boîtes de présentation en noyer haut de gamme pour les éditions limitées et commémoratives. L’exigence qui définit cette catégorie est que la bouteille doit voyager en sécurité et présenter à la perfection, donc les berceaux en mousse, porte-verres et compartiments à accessoires sont la norme, pas l’exception. Notre [guide des matériaux](/material-guide) compare les essences, et pin et noyer ancrent les deux extrémités de la gamme."
+        },
+        {
+          "type": "p",
+          "text": "Pour une seule bouteille de whisky sous un couvercle solidaire, comparez le [coffret noir de présentation en bois pour whisky](/products/wine-whisky/black-wooden-whisky-presentation-box). Le modèle de référence présente une ouverture à charnières et un support de col ; vérifiez le corps et le col de la bouteille par rapport à l’intérieur prévu, en laissant de la place pour la retirer. Confirmez l’essence de bois ou le support, les dimensions et la position du maintien avant de valider l’échantillon."
         },
         {
           "type": "img",

@@ -390,6 +390,7 @@ export default {
     }
   },
   "wine-whisky": {
+    "updatedAt": "2026-10-23",
     "seoTitle": "Cajas de madera para vino y whisky — Mayorista y fabricante OEM | CHIC",
     "seoDescription": "Cajas de madera para vino y whisky personalizadas al por mayor — de una botella a magnum, alojamientos de espuma, de cajas de pino a presentación en nogal. MOQ 200, branding láser y a fuego. FOB Xiamen, envío a UE/US/UK/CA.",
     "deepContent": {
@@ -399,6 +400,10 @@ export default {
         {
           "type": "p",
           "text": "Una caja de madera para vino o whisky es lo que permite a una botella alcanzar un precio de regalo — y para las bodegas, destilerías y marcas de destilados a las que abastecemos, es la diferencia entre una botella que está en estantería y un set de presentación que se vende como regalo. Fabricamos cajas mayoristas para vino y whisky para cada franja del mercado, desde cajas rústicas de pino con asas de cuerda y una marca vintage quemada a fuego hasta cajas de presentación de nogal de gama alta para ediciones limitadas y conmemorativas. El requisito que define esta categoría es que la botella debe viajar segura y presentar a la perfección, así que los alojamientos de espuma, portavasos y compartimentos para accesorios son la norma, no la excepción. Nuestra [guía de materiales](/material-guide) compara las especies, y pino y nogal anclan los dos extremos de la gama."
+        },
+        {
+          "type": "p",
+          "text": "Para una sola botella de whisky con tapa unida a la caja, compare la [caja negra de madera para presentación de whisky](/products/wine-whisky/black-wooden-whisky-presentation-box). El modelo de referencia tiene apertura con bisagras y un soporte para el cuello; compruebe el cuerpo y el cuello de la botella frente al interior previsto, dejando espacio para sacarla. Confirme la especie de madera o el núcleo, las dimensiones y la posición del soporte antes de aprobar la muestra."
         },
         {
           "type": "img",

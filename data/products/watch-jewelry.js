@@ -6,12 +6,14 @@
 // ─────────────────────────────────────────────────────────────────────────
 
 import { NEW_WATCH_JEWELRY_PRODUCTS } from './watch-jewelry-new/index.js';
+import { PRODUCT as REMOVABLE_INSERT_WATCH } from './wood-grain-single-watch-box-removable-insert/index.js';
 
 const PARENT = 'watch-jewelry';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/').replace(/\.(jpe?g|png)$/i, '.webp');
 
 export const PRODUCTS = {
+  [REMOVABLE_INSERT_WATCH.slug]: REMOVABLE_INSERT_WATCH,
   ...NEW_WATCH_JEWELRY_PRODUCTS,
   'luxury-velvet-ring-box': {
     slug: 'luxury-velvet-ring-box',

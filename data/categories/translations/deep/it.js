@@ -390,6 +390,7 @@ export default {
     }
   },
   "wine-whisky": {
+    "updatedAt": "2026-10-23",
     "seoTitle": "Scatole in legno per vino e whisky — Ingrosso e produttore OEM | CHIC",
     "seoDescription": "Scatole in legno per vino e whisky su misura all’ingrosso — da monobottiglia a magnum, alloggiamenti in schiuma, dalle casse in pino alla presentazione in noce. MOQ 200, branding laser e a fuoco. FOB Xiamen, spedizione in UE/US/UK/CA.",
     "deepContent": {
@@ -399,6 +400,10 @@ export default {
         {
           "type": "p",
           "text": "Una scatola in legno per vino o whisky è ciò che permette a una bottiglia di ottenere un prezzo da regalo — e per le cantine, le distillerie e i marchi di distillati che riforniamo, è la differenza tra una bottiglia che sta a scaffale e un set di presentazione che si vende come regalo. Realizziamo scatole all’ingrosso per vino e whisky per ogni fascia di mercato, dalle casse rustiche in pino con manici in corda e un marchio vintage impresso a fuoco fino alle scatole di presentazione in noce di fascia alta per edizioni limitate e celebrative. Il requisito che definisce questa categoria è che la bottiglia deve viaggiare in sicurezza e presentare alla perfezione, quindi alloggiamenti in schiuma, portabicchieri e scomparti per accessori sono la norma, non l’eccezione. La nostra [guida ai materiali](/material-guide) mette le essenze a confronto, e pino e noce ancorano i due estremi della gamma."
+        },
+        {
+          "type": "p",
+          "text": "Per una singola bottiglia di whisky con coperchio collegato alla scatola, confrontate la [scatola nera in legno per la presentazione del whisky](/products/wine-whisky/black-wooden-whisky-presentation-box). Il modello di riferimento ha un’apertura incernierata e un supporto per il collo; verificate il corpo e il collo della bottiglia rispetto all’interno previsto, lasciando spazio per estrarla. Confermate la specie di legno o il materiale di base, le dimensioni e la posizione del supporto prima di approvare il campione."
         },
         {
           "type": "img",

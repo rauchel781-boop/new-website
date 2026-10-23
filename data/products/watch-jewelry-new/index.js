@@ -48,7 +48,7 @@ export const NEW_WATCH_JEWELRY_PRODUCTS = {
     ],
     packaging: 'Specify the individual wrapping, retail box or sleeve, labels and export carton required for your order. Confirm the packing arrangement with the quote and sample; the watch in the photographs is not included.',
     useCases: ['Watch brand presentation', 'Jewelry-store packaging', 'Retail watch gifts', 'Corporate watch gifting'],
-    related: ['black-walnut-single-watch-gift-box', 'black-single-watch-presentation-box', 'three-watch-display-case'],
+    related: ['wood-grain-single-watch-box-removable-insert', 'black-single-watch-presentation-box', 'three-watch-display-case'],
   },
   '6-slot-wooden-sunglasses-box': {
     ...order,
@@ -149,7 +149,7 @@ export const NEW_WATCH_JEWELRY_PRODUCTS = {
     ],
     packaging: 'Agree surface protection for the high-gloss lacquer, separation of the key and any retail sleeve or outer gift carton. Confirm the final packing with the approved sample. The illustrated watch is not part of the box supply.',
     useCases: ['Single-watch retail packaging', 'Watch brand gift sets', 'Executive presentation gifts', 'Jewelry-store presentation'],
-    related: ['black-single-watch-presentation-box', 'walnut-veneer-single-watch-box', 'luxury-velvet-ring-box'],
+    related: ['black-single-watch-presentation-box', 'walnut-veneer-single-watch-box', 'wood-grain-single-watch-box-removable-insert'],
   },
   'black-single-watch-presentation-box': {
     ...order,
@@ -182,7 +182,7 @@ export const NEW_WATCH_JEWELRY_PRODUCTS = {
     ],
     packaging: 'Specify individual surface protection, any outer sleeve or retail carton, and export packing with the quote. Confirm whether cards or booklets are supplied by the buyer or included separately. The watch is an illustration prop.',
     useCases: ['Watch brand packaging', 'Single-watch gift presentation', 'Retail watch launches', 'Corporate gifting'],
-    related: ['single-piano-lacquer-watch-box-with-lock', 'black-walnut-single-watch-gift-box', 'pearl-necklace-presentation-box'],
+    related: ['single-piano-lacquer-watch-box-with-lock', 'black-walnut-single-watch-gift-box', 'wood-grain-single-watch-box-removable-insert'],
   },
   'black-walnut-single-watch-gift-box': {
     ...order,

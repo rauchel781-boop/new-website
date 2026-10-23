@@ -389,6 +389,7 @@ export default {
     }
   },
   "wine-whisky": {
+    "updatedAt": "2026-10-23",
     "seoTitle": "Caixas de Madeira para Vinho e Whisky — Fabricante por Grosso e OEM Personalizado | CHIC",
     "seoDescription": "Caixas de madeira para vinho e whisky personalizadas por grosso — de garrafa única a magnum, berços em espuma, caixotes de pinho a apresentação em nogueira. MOQ 200, marcação a laser e a fogo. FOB Xiamen, envio para EU/US/UK/CA.",
     "deepContent": {
@@ -398,6 +399,10 @@ export default {
         {
           "type": "p",
           "text": "Uma caixa de madeira para vinho ou whisky é o que permite a uma garrafa atingir um preço de oferta — e para as quintas vitivinícolas, destilarias e marcas de bebidas espirituosas que abastecemos, é a diferença entre uma garrafa que fica numa prateleira e um conjunto de apresentação que se vende como presente. Fabricamos caixas de vinho e whisky por grosso para todos os níveis do mercado, desde caixotes rústicos de pinho com pegas em corda e uma marca de colheita gravada a fogo até caixas de apresentação de gama alta em nogueira para edições limitadas e comemorativas. O requisito determinante nesta categoria é que a garrafa tem de viajar em segurança e apresentar-se na perfeição, pelo que os berços recortados em espuma, os suportes para copos e os compartimentos para acessórios são a norma, não a exceção. O nosso [guia de materiais](/material-guide) coloca as espécies lado a lado, e o pinho e a nogueira ancoram os dois extremos da gama."
+        },
+        {
+          "type": "p",
+          "text": "Para uma única garrafa de whisky com tampa ligada à caixa, compare a [caixa preta de madeira para apresentação de whisky](/products/wine-whisky/black-wooden-whisky-presentation-box). O modelo de referência tem abertura com dobradiças e um suporte para o gargalo; verifique o corpo e o gargalo da garrafa em relação ao interior previsto, deixando espaço para a retirar. Confirme a espécie de madeira ou o núcleo, as dimensões e a posição do suporte antes de aprovar a amostra."
         },
         {
           "type": "img",

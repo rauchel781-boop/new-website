@@ -40,11 +40,15 @@ import newIt from '../watch-jewelry-new-translations/it.js';
 import newPt from '../watch-jewelry-new-translations/pt.js';
 import newJa from '../watch-jewelry-new-translations/ja.js';
 import newKo from '../watch-jewelry-new-translations/ko.js';
+import { getWhiskyProductTranslation } from '../black-wooden-whisky-presentation-box/index.js';
+import { getRemovableInsertWatchTranslation } from '../wood-grain-single-watch-box-removable-insert/index.js';
 
 const ALL = { en, es, fr, de, it, pt, ja, ko };
 const NEW_WATCH_JEWELRY = { es: newEs, fr: newFr, de: newDe, it: newIt, pt: newPt, ja: newJa, ko: newKo };
 
 export function getProductTranslation(slug, locale) {
+  if (slug === 'black-wooden-whisky-presentation-box') return getWhiskyProductTranslation(locale);
+  if (slug === 'wood-grain-single-watch-box-removable-insert') return getRemovableInsertWatchTranslation(locale);
   if (NEW_WATCH_JEWELRY[locale]?.[slug]) return NEW_WATCH_JEWELRY[locale][slug];
   const map = ALL[locale] || ALL.en;
   return map[slug] || {};

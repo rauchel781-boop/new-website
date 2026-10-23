@@ -390,6 +390,7 @@ export default {
     }
   },
   "wine-whisky": {
+    "updatedAt": "2026-10-23",
     "seoTitle": "Holz-Wein- & Whiskyboxen — Großhandel & Custom-OEM-Hersteller | CHIC",
     "seoDescription": "Maßgefertigte Holz-Wein- & Whiskyboxen im Großhandel — Einzelflasche bis Magnum, Schaummulden, Kiefernkisten bis Walnuss-Präsentation. MOQ 200, Laser- & Brand-Branding. FOB Xiamen, Versand in EU/US/UK/CA.",
     "deepContent": {
@@ -399,6 +400,10 @@ export default {
         {
           "type": "p",
           "text": "Eine Holz-Wein- oder -Whiskybox ist das, was einer Flasche einen Geschenkpreis verleiht — und für die Weingüter, Brennereien und Spirituosenmarken, die wir beliefern, ist sie der Unterschied zwischen einer Flasche, die im Regal steht, und einem Präsentationsset, das sich als Geschenk verkauft. Wir fertigen Großhandels-Wein- und -Whiskyboxen für jede Marktstufe, von rustikalen Kiefernkisten mit Seilgriffen und eingebranntem Vintage-Zeichen bis zu hochwertigen Walnuss-Präsentationsboxen für limitierte und Jubiläums-Editionen. Die bestimmende Anforderung in dieser Kategorie ist, dass die Flasche sicher reisen und perfekt präsentieren muss, also sind Schaummulden, Glashalter und Zubehörfächer die Norm, nicht die Ausnahme. Unser [Materialratgeber](/material-guide) zeigt die Holzarten nebeneinander, und Kiefer und Walnuss verankern die beiden Enden des Sortiments."
+        },
+        {
+          "type": "p",
+          "text": "Für eine einzelne Whiskyflasche unter einem fest verbundenen Deckel vergleichen Sie die [schwarze Whisky-Präsentationsbox aus Holz](/products/wine-whisky/black-wooden-whisky-presentation-box). Das Referenzmodell hat eine Scharnieröffnung und eine Flaschenhalsstütze; prüfen Sie Flaschenkörper und Hals gegen den vorgesehenen Innenraum, einschließlich Platz zum Herausnehmen. Bestätigen Sie Holzart oder Kernmaterial, Abmessungen und Stützenposition vor der Musterfreigabe."
         },
         {
           "type": "img",

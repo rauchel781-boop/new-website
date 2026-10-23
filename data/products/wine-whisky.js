@@ -3,11 +3,14 @@
 // Image paths reference /public/wine-whisky-boxes/<product-folder>/
 // ─────────────────────────────────────────────────────────────────────────
 
+import { PRODUCT as BLACK_WHISKY_BOX } from './black-wooden-whisky-presentation-box/index.js';
+
 const PARENT = 'wine-whisky-boxes';
 const img = (folder, name) =>
   '/' + [PARENT, folder, name].map(encodeURIComponent).join('/').replace(/\.(jpe?g|png)$/i, '.webp');
 
 export const PRODUCTS = {
+  [BLACK_WHISKY_BOX.slug]: BLACK_WHISKY_BOX,
   'bamboo-wine-gift-set': {
     slug: 'bamboo-wine-gift-set',
     name: 'Bamboo Single-Bottle Wine Gift Set',
@@ -45,7 +48,7 @@ export const PRODUCTS = {
     packaging:
       'Each box wrapped in OPP polybag, accessories pre-fitted, packed in individual carton with foam corner protection. 5-ply export master cartons.',
     useCases: ['Wineries', 'Corporate gifting', 'Anniversary gifts', 'Wine clubs', 'Hotel concierge', 'Bridal / wedding gifts'],
-    related: ['paulownia-wine-chest', 'pine-single-bottle-wine-box', 'pine-whisky-crate-rope-handle'],
+    related: ['black-wooden-whisky-presentation-box', 'pine-single-bottle-wine-box', 'pine-whisky-crate-rope-handle'],
   },
 
   'paulownia-wine-chest': {
@@ -165,7 +168,7 @@ export const PRODUCTS = {
     packaging:
       'OPP-wrapped, stacked in groups of 12, packed in master cartons. Hardware-free design saves on freight cost.',
     useCases: ['Wineries (private label)', 'Wine retailers', 'Vintage gift sets', 'Restaurants (table service)', 'Promotional giveaways', 'Wedding favors'],
-    related: ['bamboo-wine-gift-set', 'pine-3-bottle-glass-lid', 'pine-whisky-crate-rope-handle'],
+    related: ['black-wooden-whisky-presentation-box', 'pine-3-bottle-glass-lid', 'pine-whisky-crate-rope-handle'],
   },
 
   'pine-whisky-crate-rope-handle': {
@@ -204,7 +207,7 @@ export const PRODUCTS = {
     packaging:
       'Lid and base stacked together with foam separator, OPP-wrapped, packed in master cartons. Sized to fit standard pallets at full capacity.',
     useCases: ['Distilleries', 'Limited-edition whisky', 'Retail crate-style packaging', 'Wine clubs', 'Bar / restaurant decor', 'Branded promo events'],
-    related: ['paulownia-wine-chest', 'pine-3-bottle-glass-lid', 'bamboo-wine-gift-set'],
+    related: ['black-wooden-whisky-presentation-box', 'pine-3-bottle-glass-lid', 'bamboo-wine-gift-set'],
   },
 };
 
